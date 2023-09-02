@@ -7,7 +7,7 @@ If you have any suggestions or notice any issues with the data, please do let me
 
 How to use:
 
-The base URL for the repo is https://eyefyre.github.io/civvapi/v1
+The base URL for the repo is https://eyefyre.github.io/civvapi
 There are 16 endpoints for this API:
 * beliefs
 * buildings

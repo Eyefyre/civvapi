@@ -4,7 +4,7 @@
         "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
         "game_info": "U\u017cywane przez pot\u0119\u017cne jednostki we wczesnej fazie gry.",
         "historical_info": "\u017belazo stanowi jeden z najistotniejszych metali w historii ludzko\u015bci. Jest wykorzystywane w budownictwie, budowie broni i narz\u0119dzi. Na pocz\u0105tku u\u017cywano czystych z\u0142\u00f3\u017c \u017celaza znajdywanych w meteorytach, ale oko\u0142o drugiego milenium p.n.e. niekt\u00f3re spo\u0142eczno\u015bci nauczy\u0142y si\u0119 wydobywa\u0107 je ze z\u0142\u00f3\u017c kopalnych. W czasach nowo\u017cytnych \u017celazo wci\u0105\u017c jest istotne, cho\u0107 najcz\u0119\u015bciej stanowi sk\u0142adnik stali. Warto pami\u0119ta\u0107, \u017ce \u017celazo nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/\u017celazo|\u017celaza|\u017celazu|\u017celazo.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/iron.png",
         "prereq_tech": {
             "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
@@ -47,27 +47,27 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
@@ -77,7 +77,7 @@
         "name": "Konie|Koni|Koniom|Konie",
         "game_info": "U\u017cywane przez jednostki konne.",
         "historical_info": "Ko\u0144 jest jednym z najwa\u017cniejszych zwierz\u0105t udomowionych przez cz\u0142owieka. Hodowany dla towarzystwa, wykorzystywany jako narz\u0119dzie wojny, \u015brodek transportu i (czasem) po\u017cywienie. Konie po raz pierwszy udomowiono oko\u0142o roku 4000 p.n.e. w Azji \u015brodkowej. Nast\u0119pnie ich hodowla rozszerzy\u0142a si\u0119 na Europ\u0119, Azj\u0119, Bliski Wsch\u00f3d i Afryk\u0119. W XVI w. do Nowego \u015awiata konie sprowadzili Hiszpanie. Rdzenni mieszka\u0144cy szybko i ch\u0119tnie przyj\u0119li nowe zwierz\u0119. Warto pami\u0119ta\u0107, \u017ce konie nale\u017c\u0105 do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/konie|koni|koniom|konie.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/horses.png",
         "prereq_tech": {
             "name": "Hodowla zwierz\u0105t|Hodowli zwierz\u0105t|Hodowli zwierz\u0105t|Hodowl\u0119 zwierz\u0105t",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/animal_husbandry.json"
@@ -120,15 +120,15 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
@@ -138,7 +138,7 @@
         "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
         "game_info": "U\u017cywany przez fabryki oraz pancerniki parowe.",
         "historical_info": "W\u0119giel jest star\u0105 materi\u0105 pochodzenia ro\u015blinnego, kt\u00f3ra uleg\u0142a rozk\u0142adowi i by\u0142a przez tysi\u0105clecia poddawana dzia\u0142aniu wysokiego ci\u015bnienia. To czarny, palny materia\u0142, kt\u00f3ry mo\u017cna znale\u017a\u0107 w sporych ilo\u015bciach na ca\u0142ym \u015bwiecie. W\u0119giel od wiek\u00f3w jest dla ludzko\u015bci jednym z najwa\u017cniejszych \u017ar\u00f3de\u0142 energii. Jego spalanie i wydobycie stanowi powa\u017cne \u017ar\u00f3d\u0142o zanieczyszcze\u0144, wi\u0119c nie mo\u017cna nazwa\u0107 go czystym paliwem. Naukowcy wci\u0105\u017c staraj\u0105 si\u0119 odkry\u0107 technologi\u0119 czystego w\u0119gla, ale problem zanieczyszcze\u0144 wci\u0105\u017c pozostaje nierozwi\u0105zany. Warto pami\u0119ta\u0107, \u017ce w\u0119giel nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/w\u0119giel|w\u0119gla|w\u0119glowi|w\u0119giel.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/coal.png",
         "prereq_tech": {
             "name": "Industrializacja|Industrializacji|Industrializacji|Industrializacj\u0119",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/industrialization.json"
@@ -181,15 +181,15 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
@@ -199,7 +199,7 @@
         "name": "Ropa|Ropy|Ropie|Rop\u0119",
         "game_info": "U\u017cywana przez pot\u0119\u017cne jednostki w p\u00f3\u017anej fazie gry.",
         "historical_info": "Ropa jest ciek\u0142ym paliwem kopalnym, kt\u00f3re w mniejszych b\u0105d\u017a wi\u0119kszych ilo\u015bciach mo\u017cna odnale\u017a\u0107 na ca\u0142ym \u015bwiecie. Przypadki u\u017cywania ropy naftowej zdarza\u0142y si\u0119 ju\u017c cztery tysi\u0105ce lat temu (do produkcji asfaltu, nafty lub jako \u017ar\u00f3d\u0142o \u015bwiat\u0142a), ale pierwsza wsp\u00f3\u0142czesna rafineria powsta\u0142a we francuskiej Alzacji w roku 1857. W tym samym czasie rozpocz\u0119to pierwsze odwierty w Europie i Ameryce P\u00f3\u0142nocnej. Z nastaniem XX w. pojawi\u0142o si\u0119 wielkie zapotrzebowanie na rop\u0119, g\u0142\u00f3wnie z uwagi na jej wykorzystanie w silnikach spalinowych w samolotach, samochodach i statkach. Dzi\u015b du\u017ca cz\u0119\u015b\u0107 polityki mi\u0119dzynarodowej jest zdominowana przez kwesti\u0119 dost\u0119pu do jej z\u0142\u00f3\u017c. Warto pami\u0119ta\u0107, \u017ce ropa nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ropa|ropy|ropie|rop\u0119.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
         "prereq_tech": {
             "name": "Biologia|Biologii|Biologii|Biologi\u0119",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/biology.json"
@@ -246,27 +246,27 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             },
             {
                 "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
             },
             {
                 "name": "Wybrze\u017ce",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
@@ -276,7 +276,7 @@
         "name": "Aluminium",
         "game_info": "U\u017cywane przez pot\u0119\u017cne jednostki i budynki w p\u00f3\u017anej fazie gry.",
         "historical_info": "Aluminium jest jednym z najobficiej wyst\u0119puj\u0105cych pierwiastk\u00f3w na Ziemi. To u\u017cyteczny, plastyczny, wytrzyma\u0142y i bardzo odporny na korozj\u0119 metal. Cho\u0107 jest go wiele, w naturze prawie zawsze wyst\u0119puje w po\u0142\u0105czeniu z innymi minera\u0142ami. Dopiero w po\u0142owie XIX w. naukowcy odkryli spos\u00f3b, by wydobywa\u0107 i przetwarza\u0107 je na skal\u0119 przemys\u0142ow\u0105. W XX i XXI w. aluminium zacz\u0119to powszechnie stosowa\u0107 do produkcji d\u00f3br konsumpcyjnych, sprz\u0119tu lotniczego i wojskowego. Warto pami\u0119ta\u0107, \u017ce aluminium nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminium.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminum.png",
         "prereq_tech": {
             "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electricity.json"
@@ -319,19 +319,19 @@
         "terrains_found_on": [
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
@@ -341,7 +341,7 @@
         "name": "Uran|Uranu|Uranowi|Uran",
         "game_info": "U\u017cywany w broni nuklearnej i elektrowniach j\u0105drowych.",
         "historical_info": "Uran jest promieniotw\u00f3rczym minera\u0142em, kt\u00f3ry wydobyty i wzbogacony mo\u017ce by\u0107 wykorzystywany w energetyce lub do wysadzania r\u00f3\u017cnych rzeczy w powietrze. Zosta\u0142 odkryty w XVIII w., ale dopiero w wieku XX, podczas drugiej wojny \u015bwiatowej, ameryka\u0144scy naukowcy znale\u017ali spos\u00f3b, by wykorzysta\u0107 jego potencja\u0142 do zadawania \u015bmierci na masow\u0105 skal\u0119. Gdy wykorzystuje si\u0119 go w energetyce, produkuje czyst\u0105 energi\u0119, poniewa\u017c nie wydziela du\u017cych ilo\u015bci zanieczyszcze\u0144 jak w\u0119giel czy benzyna. Z drugiej strony, odpady radioaktywne s\u0105 niesamowicie toksyczne i powoduj\u0105 ska\u017cenie gleby, powietrza, wody i wszelkich pobliskich organizm\u00f3w, wi\u0119c to te\u017c jest w pewnym sensie problem. Warto pami\u0119ta\u0107, \u017ce uran nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uran|uranu|uranowi|uran.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
         "prereq_tech": {
             "name": "Teoria atomu|Teorii atomu|Teorii atomu|Teori\u0119 atomu",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/atomic_theory.json"
@@ -384,39 +384,39 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             },
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             },
             {
                 "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
             },
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
@@ -426,7 +426,7 @@
         "name": "Pszenica|Pszenicy|Pszenic\u0119|Pszenicy",
         "game_info": null,
         "historical_info": "Pszenic\u0119 najpierw siano na obszarze \u017byznego P\u00f3\u0142ksi\u0119\u017cyca na Bliskim Wschodzie, lecz dzi\u015b jest kluczowym elementem diety we wszystkich kulturach. Jest to bardzo uniwersalne zbo\u017ce, poniewa\u017c mo\u017cna je zetrze\u0107 na m\u0105k\u0119, a z niej robi\u0107 chleb, makaron, p\u0142atki lub ciasto. Pszenic\u0119 mo\u017cna te\u017c fermentowa\u0107 w celu uzyskania r\u00f3\u017cnych odmian alkoholu.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pszenica|pszenicy|pszenic\u0119|pszenicy.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wheat.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -446,11 +446,11 @@
         "terrains_found_on": [
             {
                 "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/obszary_zalewowe|obszar\u00f3w_zalewowych|obszarom_zalewowym|obszary_zalewowe.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wheat.json"
@@ -460,7 +460,7 @@
         "name": "Byd\u0142o|Byd\u0142a|Byd\u0142u|Byd\u0142o",
         "game_info": null,
         "historical_info": "Krowy, uznawane za pierwsze udomowione przez cz\u0142owieka zwierz\u0119ta, s\u0105 \u017ar\u00f3d\u0142em si\u0142y poci\u0105gowej, nabia\u0142u i mi\u0119sa. Co wi\u0119cej, krowia sk\u00f3ra mo\u017ce by\u0107 wykorzystywana w przemy\u015ble sk\u00f3rzanym, a krowie odchody jako paliwo. Wiele cywilizacji plemiennych szacuje maj\u0119tno\u015b\u0107 danej osoby na podstawie ilo\u015bci posiadanych sztuk byd\u0142a.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/byd\u0142o|byd\u0142a|byd\u0142u|byd\u0142o.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cattle.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -480,7 +480,7 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cattle.json"
@@ -490,7 +490,7 @@
         "name": "Owce|Owiec|Owcom|Owce",
         "game_info": null,
         "historical_info": "Owce s\u0105 bardzo smacznymi zwierz\u0119tami, kt\u00f3re s\u0105 te\u017c \u017ar\u00f3d\u0142em mleka, we\u0142ny i sk\u00f3r. By\u0142y jednym z pierwszych udomowionych zwierz\u0105t, dokonano tego w Mezopotamii, oko\u0142o dziesi\u0119ciu tysi\u0119cy lat temu. Od tamtego czasu zwyczaj hodowania owiec rozprzestrzeni\u0142 si\u0119 po ca\u0142ym \u015bwiecie i dzi\u015b mo\u017cna te zwierz\u0119ta znale\u017a\u0107 w ka\u017cdym zak\u0105tku kuli ziemskiej. Istnieje ponad 200 gatunk\u00f3w owiec, ka\u017cdy z nich hodowany w odmiennym celu: dla swej wytrzyma\u0142o\u015bci, rozmiar\u00f3w, ilo\u015bci i jako\u015bci we\u0142ny, produkcji mleka oraz oczywi\u015bcie smaku!",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/owce|owiec|owcom|owce.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sheep.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -510,19 +510,19 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sheep.json"
@@ -532,7 +532,7 @@
         "name": "Zwierzyna|Zwierzyny|Zwierzynie|Zwierzyn\u0119",
         "game_info": null,
         "historical_info": "Zwierzyn\u0119 \u0142own\u0105 wszelkiej ma\u015bci mo\u017cna znale\u017a\u0107 na ca\u0142ym \u015bwiecie (czy to sarny, czy \u0142osie lub renifery). Przez niezliczone dziesi\u0119ciolecia dostarcza\u0142a ona ludziom po\u017cywienie, sk\u00f3ry, ko\u015bci i inne materia\u0142y szczeg\u00f3lnie wa\u017cne dla ludzko\u015bci przed rewolucj\u0105 przemys\u0142ow\u0105.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/zwierzyna|zwierzyny|zwierzynie|zwierzyn\u0119.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/deer.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -552,15 +552,15 @@
         "terrains_found_on": [
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/deer.json"
@@ -570,7 +570,7 @@
         "name": "Banany|Banan\u00f3w|Bananom|Banany",
         "game_info": null,
         "historical_info": "Banan to popularny owoc tropikalny. Wszystkie odmiany s\u0105 bardzo wa\u017cn\u0105 cz\u0119\u015bci\u0105 jad\u0142ospisu mieszka\u0144c\u00f3w rejon\u00f3w tropikalnych. Wywodzi si\u0119 z po\u0142udniowo-wschodniej Azji, ale dzi\u015b banany s\u0105 uprawiane na ca\u0142ym \u015bwiecie.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/banany|banan\u00f3w|bananom|banany.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bananas.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -590,7 +590,7 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/bananas.json"
@@ -600,7 +600,7 @@
         "name": "Ryby|Ryb|Rybom|Ryby",
         "game_info": null,
         "historical_info": "Przez ca\u0142\u0105 histori\u0119 ludzko\u015bci ryby stanowi\u0142y dla mieszka\u0144c\u00f3w teren\u00f3w po\u0142o\u017conych nad wod\u0105 podstawowe \u017ar\u00f3d\u0142o po\u017cywienia. W XXI w. ryby wci\u0105\u017c pozostaj\u0105 tak wa\u017cnym elementem jad\u0142ospisu, \u017ce skala po\u0142ow\u00f3w zagra\u017ca ich istnieniu.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ryby|ryb|rybom|ryby.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fish.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -620,7 +620,7 @@
         "terrains_found_on": [
             {
                 "name": "Wybrze\u017ce",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/fish.json"
@@ -630,7 +630,7 @@
         "name": "Kamie\u0144|Kamienia|Kamieniowi|Kamie\u0144",
         "game_info": null,
         "historical_info": "Kamie\u0144, surowiec wyst\u0119puj\u0105cy w skorupie oraz g\u00f3rnym p\u0142aszczu ziemskim, mia\u0142 prawdopodobnie najwi\u0119ksze znaczenie w ca\u0142ej historii budownictwa. Ze wzgl\u0119du na pochodzenie wyr\u00f3\u017cnia si\u0119 trzy g\u0142\u00f3wne typy ska\u0142: magmowe, osadowe i metamorficzne.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kamie\u0144|kamienia|kamieniowi|kamie\u0144.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/stone.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -650,27 +650,27 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/stone.json"
@@ -680,7 +680,7 @@
         "name": "Wieloryby|Wieloryb\u00f3w|Wielorybom|Wieloryby",
         "game_info": null,
         "historical_info": "Najwi\u0119kszy istniej\u0105cy dzi\u015b ssak, na kt\u00f3rego od wiek\u00f3w poluje si\u0119 dla mi\u0119sa, t\u0142uszczu i ko\u015bci. W czasach przedindustrialnych na wieloryby polowano ze statk\u00f3w za pomoc\u0105 harpun\u00f3w, co by\u0142o walk\u0105 na \u015bmier\u0107 i \u017cycie dla obu stron starcia. Dzi\u015b \u0142owcy korzystaj\u0105 z nowoczesnych statk\u00f3w wyposa\u017conych w sonary i materia\u0142y wybuchowe, co zagra\u017ca istnieniu tego gatunku zwierz\u0105t.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wieloryby|wieloryb\u00f3w|wielorybom|wieloryby.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/whales.png",
         "prereq_tech": null,
         "yields": {
             "gold": 1,
@@ -700,7 +700,7 @@
         "terrains_found_on": [
             {
                 "name": "Wybrze\u017ce",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/whales.json"
@@ -710,7 +710,7 @@
         "name": "Per\u0142y|Pere\u0142|Per\u0142om|Per\u0142y",
         "game_info": null,
         "historical_info": "Per\u0142y to b\u0142yszcz\u0105ce, bia\u0142e, przezroczyste kule formowane wewn\u0105trz skorup mi\u0119czak\u00f3w. S\u0105 bardzo cenione i cz\u0119sto stosowane do produkcji bi\u017cuterii i innych zdobie\u0144. Cho\u0107 wiele mi\u0119czak\u00f3w tworzy per\u0142y, okre\u015blone gatunki morskich ostryg i s\u0142odkowodnych ma\u0142\u017c\u00f3w jadalnych, kt\u00f3rych skorupy s\u0105 wy\u0142o\u017cone mas\u0105 per\u0142ow\u0105, wytwarzaj\u0105 najbardziej cenione odmiany. Kolor per\u0142y zale\u017cy od gatunku mi\u0119czaka i jego \u015brodowiska naturalnego. Mog\u0105 si\u0119 one waha\u0107 od czarnego do bia\u0142ego przez kremowy, b\u0142\u0119kitny, \u017c\u00f3\u0142ty i zielony. Najbardziej cenione s\u0105 r\u00f3\u017cowe per\u0142y indyjskie.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/per\u0142y|pere\u0142|per\u0142om|per\u0142y.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pearls.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -730,7 +730,7 @@
         "terrains_found_on": [
             {
                 "name": "Wybrze\u017ce",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/pearls.json"
@@ -740,7 +740,7 @@
         "name": "Z\u0142oto|Z\u0142ota|Z\u0142otu|Z\u0142oto",
         "game_info": null,
         "historical_info": "Z\u0142oto jest cenionym od wiek\u00f3w mi\u0119kkim, po\u0142yskliwym i plastycznym metalem. Z\u0142oto wyst\u0119puje stosunkowo rzadko, co dodatkowo podwy\u017csza jego warto\u015b\u0107. Pomimo tego, \u017ce z\u0142oto posiada pewne zastosowania w przemy\u015ble i medycynie, g\u0142\u00f3wnie stosuje si\u0119 je do bicia monet, dekorowania przedmiot\u00f3w oraz mieszka\u0144 pot\u0119\u017cnych i bogatych os\u00f3b.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/z\u0142oto|z\u0142ota|z\u0142otu|z\u0142oto.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gold.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -760,19 +760,19 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gold.json"
@@ -782,7 +782,7 @@
         "name": "Srebro|Srebra|Srebru|Srebro",
         "game_info": null,
         "historical_info": "Srebro to b\u0142yszcz\u0105cy, mi\u0119kki i plastyczny metal szlachetny. Od wiek\u00f3w jest cenione za swoje pi\u0119kno i wykorzystywane przez r\u00f3\u017cne kultury w zdobnictwie, jubilerstwie i mennictwie. Srebro ma doskona\u0142e przewodnictwo cieplne i elektryczne, co powoduje, \u017ce znajduje wiele zastosowa\u0144 w elektronice. Ten cenny kruszec wydobywa si\u0119 od 6.000 lat, mo\u017ce nawet d\u0142u\u017cej. W roku 1859 w Nevadzie, w USA, odkryto \u201eComstock Lode\u201d, ogromne z\u0142o\u017ce srebra, kt\u00f3re by\u0142o \u017ar\u00f3d\u0142em rozwoju dla miejscowej gospodarki. Przez dwadzie\u015bcia trzy lata trwa\u0142 rozkwit, dop\u00f3ki dolne pok\u0142ady kopalni nie zosta\u0142y zalane i wydobycie zako\u0144czy\u0142o si\u0119, co spowodowa\u0142o, \u017ce okoliczne miasta wyludni\u0142y si\u0119.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/srebro|srebra|srebru|srebro.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/silver.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -802,15 +802,15 @@
         "terrains_found_on": [
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silver.json"
@@ -820,7 +820,7 @@
         "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
         "game_info": null,
         "historical_info": "Kamienie szlachetne to pi\u0119kne, ale rzadkie minera\u0142y. Po obr\u00f3bce odznaczaj\u0105 si\u0119 wysokim po\u0142yskiem i \u017cywymi kolorami. Kamienie dzielimy na szlachetne: diamenty, rubiny i szmaragdy; oraz p\u00f3\u0142szlachetne: ametysty, turkusy itp. Od dawna ceni si\u0119 te klejnoty, kt\u00f3re sta\u0142y si\u0119 nieodzown\u0105 cz\u0119\u015bci\u0105 bi\u017cuterii i wystroju mieszka\u0144 os\u00f3b bogatych i wp\u0142ywowych.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kamienie_szlachetne|kamieni_szlachetnych|kamieniom_szlachetnym|kamienie_szlachetne.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gems.png",
         "prereq_tech": null,
         "yields": {
             "gold": 3,
@@ -840,27 +840,27 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             },
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
@@ -870,7 +870,7 @@
         "name": "Marmur|Marmuru|Marmurowi|Marmur",
         "game_info": null,
         "historical_info": "Marmur to pi\u0119kna ska\u0142a ceniona jako materia\u0142 budowlany i rze\u017abiarski. Marmur wyst\u0119puje w r\u00f3\u017cnych barwach i odcieniach - czasem jest jednokolorowy, a czasem wida\u0107 na nim \u017cy\u0142ki i plamy w innych odcieniach. Wiele najpi\u0119kniejszych budowli \u015bwiata, na przyk\u0142ad Tad\u017c Mahal, wzniesiono z marmuru, podobnie jak najwspanialsze rze\u017aby antyczne.+15% produkcji przy budowie cud\u00f3w epoki staro\u017cytnej i klasycznej w mie\u015bcie, w kt\u00f3rym jest u\u017cywany.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/marmur|marmuru|marmurowi|marmur.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/marble.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -890,23 +890,23 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/marble.json"
@@ -916,7 +916,7 @@
         "name": "Ko\u015b\u0107 s\u0142oniowa|Ko\u015bci s\u0142oniowej|Ko\u015bci s\u0142oniowej|Ko\u015b\u0107 s\u0142oniow\u0105",
         "game_info": null,
         "historical_info": "Ko\u015b\u0107 s\u0142oniowa jest szczeg\u00f3lnie cenionym za wytrzyma\u0142o\u015b\u0107 i pi\u0119kno materia\u0142em otrzymywanym z z\u0119b\u00f3w i k\u0142\u00f3w zwierz\u0105t (s\u0142oni, wieloryb\u00f3w, hipopotam\u00f3w, narwali i tak dalej). W przesz\u0142o\u015bci ko\u015bci s\u0142oniowej u\u017cywano do produkcji kul bilardowych, klawiszy fortepianowych i innych ma\u0142ych przedmiot\u00f3w u\u017cytkowych. Wsp\u00f3\u0142cze\u015bnie plastik jest dobrym substytutem dla tego cennego materia\u0142u, ale na nieszcz\u0119\u015bcie dla wielu zagro\u017conych gatunk\u00f3w zwierz\u0105t, z kt\u00f3rych pozyskuje si\u0119 nielegalnie ko\u015b\u0107 s\u0142oniow\u0105, nic nie mo\u017ce r\u00f3wna\u0107 si\u0119 z jej powabem.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ko\u015b\u0107_s\u0142oniowa|ko\u015bci_s\u0142oniowej|ko\u015bci_s\u0142oniowej|ko\u015b\u0107_s\u0142oniow\u0105.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ivory.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -936,7 +936,7 @@
         "terrains_found_on": [
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/ivory.json"
@@ -946,7 +946,7 @@
         "name": "Futra|Futer|Futrom|Futra",
         "game_info": null,
         "historical_info": "Termin ten odnosi si\u0119 do odzie\u017cy zrobionej z futer pewnych ssak\u00f3w, kt\u00f3re ceni si\u0119 za ciep\u0142o i elegancj\u0119. W odr\u00f3\u017cnieniu od owiec, zwierz\u0119ta te gin\u0105, gdy pozbawia si\u0119 je futra. Ludzko\u015b\u0107 od tysi\u0105cleci poluje na zwierz\u0119ta dla ich futer. U zarania dziej\u00f3w upolowane zwierz\u0119ta by\u0142y zjadane, ale dzi\u015b po zdj\u0119ciu futra zwierzyna jest wyrzucana. W\u015br\u00f3d zwierz\u0105t, kt\u00f3rych futra s\u0105 wysoko cenione, znajduj\u0105 si\u0119 lisy, nied\u017awiedzie, bobry, foki i kr\u00f3liki.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/futra|futer|futrom|futra.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/furs.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -966,11 +966,11 @@
         "terrains_found_on": [
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/furs.json"
@@ -980,7 +980,7 @@
         "name": "Barwniki|Barwnik\u00f3w|Barwnikom|Barwniki",
         "game_info": null,
         "historical_info": "Barwniki to substancje, kt\u00f3re mog\u0105 (czasowo lub na sta\u0142e) zmieni\u0107 kolor innej substancji, zazwyczaj tkaniny lub ludzkiej sk\u00f3ry. Przez wieki barwniki by\u0142y wytwarzane z r\u00f3\u017cnych materia\u0142\u00f3w, wliczaj\u0105c w to ro\u015bliny, minera\u0142y i zwierz\u0119ce organy. Ludzko\u015b\u0107 korzysta z barwnik\u00f3w od oko\u0142o 37.000 lat, mo\u017ce nawet d\u0142u\u017cej.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/barwniki|barwnik\u00f3w|barwnikom|barwniki.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/dyes.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1000,11 +1000,11 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             },
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/dyes.json"
@@ -1014,7 +1014,7 @@
         "name": "Przyprawy|Przypraw|Przyprawom|Przyprawy",
         "game_info": null,
         "historical_info": "Przyprawy s\u0105 substancjami pochodzenia ro\u015blinnego, kt\u00f3rych u\u017cywa si\u0119 do umo\u017cliwienia d\u0142ugotrwa\u0142ego przechowywania \u017cywno\u015bci oraz poprawienia jej smaku i koloru. Niekt\u00f3re przyprawy maj\u0105 te\u017c znaczenie religijne lub medyczne. Najcz\u0119\u015bciej spotykane s\u0105: pieprz, musztarda, cynamon, szafran i imbir. Przed zastosowaniem w kuchni przyprawy musz\u0105 zosta\u0107 wysuszone i zmielone, co odr\u00f3\u017cnia je od zi\u00f3\u0142 jak sza\u0142wia czy oregano, kt\u00f3rych mo\u017cna u\u017cywa\u0107 na \u015bwie\u017co.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/przyprawy|przypraw|przyprawom|przyprawy.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/spices.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1034,7 +1034,7 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/spices.json"
@@ -1044,7 +1044,7 @@
         "name": "Jedwab|Jedwabiu|Jedwabiowi|Jedwab",
         "game_info": null,
         "historical_info": "Jedwab jest pozyskiwany z kokon\u00f3w jedwabnik\u00f3w. Jedwabne tkaniny zacz\u0119to najpierw wyrabia\u0107 w Chinach, a wed\u0142ug poda\u0144 po raz pierwszy uczyni\u0142a to cesarzowa Lei Zu. By\u0142y przeznaczone tylko dla chi\u0144skiej arystokracji, ale p\u00f3\u017aniej jedwab rozprzestrzeni\u0142 si\u0119 po ca\u0142ych Chinach i, dzi\u0119ki os\u0142awionemu jedwabnemu szlakowi, reszcie \u015bwiata z Europ\u0105 na czele (najwcze\u015bniejsza wzmianka o jedwabiu w Europie pochodzi z Egiptu z 1000 r. p.n.e.).",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/jedwab|jedwabiu|jedwabiowi|jedwab.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/silk.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1064,7 +1064,7 @@
         "terrains_found_on": [
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silk.json"
@@ -1074,7 +1074,7 @@
         "name": "Cukier|Cukru|Cukrowi|Cukier",
         "game_info": null,
         "historical_info": "Cukier jest bardzo s\u0142odk\u0105 substancj\u0105 otrzymywan\u0105 z trzciny cukrowej (lub burak\u00f3w cukrowych), kt\u00f3r\u0105 wykorzystuje si\u0119 do przygotowania posi\u0142k\u00f3w i napoj\u00f3w. Uwa\u017ca si\u0119, \u017ce po raz pierwszy u\u017cywali go Polinezyjczycy. To w\u0142a\u015bnie stamt\u0105d trafi\u0142 on do Indii, a nast\u0119pnie do ca\u0142ej Azji i Europy. W ko\u0144cu dotar\u0142 na Karaiby i do obu Ameryk, gdzie trafi\u0142 na bardzo podatny grunt. Ku zmartwieniu dietetyk\u00f3w i dentyst\u00f3w cukier (wraz ze swymi s\u0142odkimi kuzynami: glukoz\u0105, fruktoz\u0105 itd.) dzi\u0119ki swej dost\u0119pno\u015bci i niskiej cenie mo\u017cna znale\u017a\u0107 w prawie ka\u017cdym produkcie spo\u017cywczym.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cukier|cukru|cukrowi|cukier.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sugar.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1094,11 +1094,11 @@
         "terrains_found_on": [
             {
                 "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/obszary_zalewowe|obszar\u00f3w_zalewowych|obszarom_zalewowym|obszary_zalewowe.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
             },
             {
                 "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sugar.json"
@@ -1108,7 +1108,7 @@
         "name": "Bawe\u0142na|Bawe\u0142ny|Bawe\u0142nie|Bawe\u0142n\u0119",
         "game_info": null,
         "historical_info": "Bawe\u0142na to ro\u015blina znana i uprawiana od wielu wiek\u00f3w. Wok\u00f3\u0142 nasiona tworzy w\u0142\u00f3knist\u0105 otoczk\u0119, kt\u00f3r\u0105 mo\u017cna z kolei przerobi\u0107 na prz\u0119dz\u0119 lub nici wykorzystywane do produkcji odzie\u017cy, \u017cagli i innych cennych przedmiot\u00f3w. Bawe\u0142n\u0119 zacz\u0119to najpierw uprawia\u0107 w Indiach ju\u017c oko\u0142o siedmiu tysi\u0119cy lat temu, ale wci\u0105\u017c pozostaje kluczowym surowcem dla przemys\u0142u odzie\u017cowego.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bawe\u0142na|bawe\u0142ny|bawe\u0142nie|bawe\u0142n\u0119.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cotton.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1128,15 +1128,15 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cotton.json"
@@ -1146,7 +1146,7 @@
         "name": "Wino|Wina|Winu|Wino",
         "game_info": null,
         "historical_info": "Wino jest smacznym napojem alkoholowym ze sfermentowanych winogron. Ju\u017c od 8.000 lat ludzko\u015b\u0107 z u\u015bmiechem na ustach wytwarza wino. S\u0105dzi si\u0119, \u017ce technika produkcji tego alkoholu wywodzi si\u0119 z teren\u00f3w dzisiejszej Gruzji i Iranu. W wielu kulturach uwa\u017ca si\u0119, \u017ce wino ma mistyczn\u0105 moc i jest wykorzystywane w obrz\u0119dach religijnych. Francja jest (samozwa\u0144czym) centrum produkcji wina na Ziemi, ale musi odpiera\u0107 ataki konkurencji z innych kraj\u00f3w Europy, USA, Po\u0142udniowej Afryki, Ameryki Po\u0142udniowej i Australii.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wino|wina|winu|wino.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wine.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1166,11 +1166,11 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wine.json"
@@ -1180,7 +1180,7 @@
         "name": "Kadzid\u0142o|Kadzid\u0142a|Kadzid\u0142u|Kadzid\u0142o",
         "game_info": null,
         "historical_info": "Kadzid\u0142o to materia\u0142, kt\u00f3ry wydziela wonny dym podczas spalania. Jest cz\u0119sto wykorzystywane podczas obrz\u0119d\u00f3w religijnych, a niekt\u00f3rzy uwa\u017caj\u0105 te\u017c, \u017ce posiada w\u0142a\u015bciwo\u015bci uzdrawiaj\u0105ce. U\u017cywa si\u0119 go od tysi\u0119cy lat. Kadzid\u0142a po raz pierwszy pojawi\u0142y si\u0119 na Bliskim Wschodzie, najprawdopodobniej w Egipcie. Faraonowie wykorzystywali je nie tylko do t\u0142umienia smrodu niedomytych poddanych, ale te\u017c do odganiania demon\u00f3w i podlizywania si\u0119 bogom. Do produkcji kadzide\u0142 wykorzystuje si\u0119 ca\u0142\u0105 gam\u0119 materia\u0142\u00f3w: kamfor\u0119, mirr\u0119, sanda\u0142owiec, go\u017adziki, lawend\u0119, pi\u017cmo i inne egzotyczne sk\u0142adniki. Kadzid\u0142o, maj\u0105ce d\u0142ug\u0105 tradycj\u0119 we wschodniej medycynie, powraca do \u0142ask tak\u017ce na Zachodzie dzi\u0119ki pseudonaukowym aromaterapiom. Mo\u017ce i ci\u0119 nie wyleczy, ale za to na pewno b\u0119dziesz pi\u0119knie pachnie\u0107.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kadzid\u0142o|kadzid\u0142a|kadzid\u0142u|kadzid\u0142o.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/incense.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1200,11 +1200,11 @@
         "terrains_found_on": [
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/incense.json"
@@ -1214,7 +1214,7 @@
         "name": "Klejnoty|Klejnot\u00f3w|Klejnotom|Klejnoty",
         "game_info": "Klejnoty pozyska\u0107 mo\u017cna tylko od kupieckich pa\u0144stw-miast.",
         "historical_info": "\u201eKlejnoty\u201d to s\u0142owo okre\u015blaj\u0105ce produkty ze z\u0142ota, srebra, kamieni szlachetnych i innych cennych materia\u0142\u00f3w noszonych tylko i wy\u0142\u0105cznie dla ozdoby. Staro\u017cytne formy klejnot\u00f3w odkryte w Afryce wskazuj\u0105 na fakt, \u017ce u\u017cywa si\u0119 ich od ponad 50 000 lat, kiedy to noszono korale, muszelki i ko\u015bci. Przez ostatnich pi\u0119\u0107 tysi\u0105cleci materia\u0142em najcz\u0119\u015bciej u\u017cywanym do ich produkcji jest z\u0142oto, gdy\u017c jego kowalno\u015b\u0107 i wyj\u0105tkowo\u015b\u0107 pozwala\u0142y na coraz bardziej z\u0142o\u017cone zdobnictwo wskazuj\u0105ce na bogactwo posiadacza.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/klejnoty|klejnot\u00f3w|klejnotom|klejnoty.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/jewelry.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1234,7 +1234,7 @@
         "name": "Porcelana|Porcelany|Porcelanie|Porcelan\u0119",
         "game_info": "Porcelan\u0119 pozyska\u0107 mo\u017cna tylko od kupieckich pa\u0144stw-miast.",
         "historical_info": "Wyprodukowana po raz pierwszy niemal 3000 lat temu w Chinach porcelana jest rodzajem ceramiki tworzonej poprzez podgrzanie gliny i formowanie jej w p\u00f3\u0142przezroczyste naczynia o rozmaitych rozmiarach i kszta\u0142tach. Arty\u015bci i rzemie\u015blnicy sp\u0119dzili ca\u0142e stulecia na odkrywaniu technik, kt\u00f3re dawa\u0142y kontrol\u0119 zar\u00f3wno nad warto\u015bciami estetycznymi porcelany, jaki nad jej wytrzyma\u0142o\u015bci\u0105 i przydatno\u015bci\u0105.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/porcelana|porcelany|porcelanie|porcelan\u0119.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/porcelain.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1254,7 +1254,7 @@
         "name": "Mied\u017a|Miedzi|Miedzi|Mied\u017a",
         "game_info": null,
         "historical_info": "Mi\u0119kki, zabarwiony na pomara\u0144czowo metal znany jako mied\u017a u\u017cywany jest od tysi\u0119cy lat do wytwarzania wielu rzeczy - pocz\u0105wszy od broni, poprzez pieni\u0105dze, po dzisiejsze przewody elektryczne i uk\u0142ady scalone. Mied\u017a ma wiele wyj\u0105tkowych cech, jedn\u0105 z nich jest za\u015b silne dzia\u0142anie antybakteryjne. Mied\u017a zabija wiele bakterii w spos\u00f3b naturalny - znajduje dzi\u0119ki temu zastosowanie w produkcji rur kanalizacyjnych i innych przedmiot\u00f3w, kt\u00f3rych cz\u0119sto dotykaj\u0105 ludzie, jak np. klamki. Mied\u017a jest r\u00f3wnie\u017c cenna ze wzgl\u0119du na u\u017cyteczno\u015b\u0107 jej stop\u00f3w z innymi metalami - w po\u0142\u0105czeniu z cyn\u0105 tworzy stop zwany br\u0105zem, w po\u0142\u0105czeniu z cynkiem za\u015b - mosi\u0105dz.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/mied\u017a|miedzi|miedzi|mied\u017a.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/copper.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1274,23 +1274,23 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             },
             {
                 "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/copper.json"
@@ -1300,7 +1300,7 @@
         "name": "S\u00f3l|Soli|Soli|S\u00f3l",
         "game_info": null,
         "historical_info": "S\u00f3l jest niezb\u0119dna cz\u0142owiekowi do \u017cycia. Mo\u017cna j\u0105 odnale\u017a\u0107 na ca\u0142ym \u015bwiecie zar\u00f3wno w \u015brodowisku naturalnym, jak i tym stworzonym przez cz\u0142owieka. Od tysi\u0105cleci u\u017cywa si\u0119 jej jako konserwantu do mi\u0119s - przed wynalezieniem ch\u0142odzenia by\u0142a ona niezmiernie istotna przy przechowywaniu po\u017cywienia. Powszechn\u0105 metod\u0105 produkcji soli jest odparowywanie - tworzy si\u0119 w tym celu du\u017ce stawy ze s\u0142on\u0105 wod\u0105, kt\u00f3ra odparowuje, a na dnie zostawia solny osad.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/s\u00f3l|soli|soli|s\u00f3l.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/salt.png",
         "prereq_tech": null,
         "yields": {
             "gold": 1,
@@ -1320,15 +1320,15 @@
         "terrains_found_on": [
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             },
             {
                 "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
             },
             {
                 "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/salt.json"
@@ -1338,7 +1338,7 @@
         "name": "Kraby|Krab\u00f3w|Krabom|Kraby|Krabami|Krabach",
         "game_info": null,
         "historical_info": "\u017byj\u0105ce na dnie morza skorupiaki ze szczypcami nazywane krabami to zwierz\u0119ta wszystko\u017cerne - najcz\u0119\u015bciej zjadaj\u0105 naprawd\u0119 wszystko, co stanie im na drodze. Poniewa\u017c na ca\u0142ym \u015bwiecie istnieje oko\u0142o 800 ich gatunk\u00f3w, s\u0105 one w niekt\u00f3rych regionach podstawow\u0105 form\u0105 po\u017cywienia i stanowi\u0105 najpopularniejszy rodzaj owoc\u00f3w morza. W\u015br\u00f3d popularnych odmian warto wspomnie\u0107 o krabie b\u0142\u0119kitnym, z kt\u00f3rego s\u0142ynie zatoka Chesapeake w Maryland, a kt\u00f3rego spo\u017cycie ocenia si\u0119 na ponad 45 tys. ton rocznie.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kraby|krab\u00f3w|krabom|kraby|krabami|krabach.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/crab.png",
         "prereq_tech": null,
         "yields": {
             "gold": 1,
@@ -1358,7 +1358,7 @@
         "terrains_found_on": [
             {
                 "name": "Wybrze\u017ce",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/crab.json"
@@ -1368,7 +1368,7 @@
         "name": "Trufle|Trufli|Truflom|Trufle",
         "game_info": null,
         "historical_info": "Trufle, rodzaj grzyb\u00f3w rosn\u0105cych pod ziemi\u0105, s\u0105 rzadkim i drogim specja\u0142em. Ich ostry aromat i wyrazisty smak sprawiaj\u0105, \u017ce w wielu potrawach z ca\u0142ego \u015bwiata u\u017cywa si\u0119 ich g\u0142\u00f3wnie jako przyprawy. Jedn\u0105 z ciekawostek dotycz\u0105cych trufli jest spos\u00f3b, w jaki si\u0119 je zdobywa. Wykorzystuje si\u0119 do tego specjalny gatunek \u015bwi\u0144, kt\u00f3re maj\u0105 naturaln\u0105 zdolno\u015b\u0107 do znajdowania tego grzyba. M\u00f3wi si\u0119, \u017ce truflowe \u015bwinie o niezwykle czu\u0142ym zmy\u015ble powonienia u\u017cywane s\u0105 do tego celu ju\u017c od czas\u00f3w Imperium Rzymskiego.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/trufle|trufli|truflom|trufle.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/truffles.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1388,15 +1388,15 @@
         "terrains_found_on": [
             {
                 "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
             },
             {
                 "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
             },
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/truffles.json"
@@ -1406,7 +1406,7 @@
         "name": "Cytrusy|Cytrus\u00f3w|Cytrusom|Cytrusy|Cytrusami|Cytrusach",
         "game_info": null,
         "historical_info": "Owoce cytrusowe - zw\u0142aszcza pomara\u0144cze, cytryny i grejpfruty - od czas\u00f3w prehistorycznych stanowi\u0105 cz\u0119sty element ludzkiej diety. Pierwotnie hodowano je w po\u0142udniowo-wschodniej Azji, lecz wraz z up\u0142ywem czasu hodowla i spo\u017cycie rozprzestrzeni\u0142y si\u0119 na ca\u0142y \u015bwiat. Szkorbut, niedob\u00f3r witaminy C powszechny w\u015br\u00f3d \u017ceglarzy, sta\u0142 si\u0119 w XV wieku powa\u017cnym problemem. W epoce wielkich odkry\u0107 by\u0142 prawdziw\u0105 zmor\u0105 statk\u00f3w a\u017c do czasu, gdy w XVIII w. zacz\u0119to zabiera\u0107 w podr\u00f3\u017c sok z cytryny i kapust\u0119 kiszon\u0105. Cho\u0107 wi\u0119kszo\u015b\u0107 z nich uwa\u017ca\u0142a, \u017ce to kwas zawarty w cytrusach zapobiega\u0142 chorobie, w rzeczywisto\u015bci robi\u0142a to w\u0142a\u015bnie wspominana witamina. Tak czy inaczej - jedzenie cytrus\u00f3w skutkowa\u0142o zdrowiem marynarza.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cytrusy|cytrus\u00f3w|cytrusom|cytrusy|cytrusami|cytrusach.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/citrus.png",
         "prereq_tech": null,
         "yields": {
             "gold": 1,
@@ -1426,11 +1426,11 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/citrus.json"
@@ -1440,7 +1440,7 @@
         "name": "\u015alady przesz\u0142o\u015bci|\u015alad\u00f3w przesz\u0142o\u015bci|\u015aladom przesz\u0142o\u015bci|\u015alady przesz\u0142o\u015bci",
         "game_info": "Po ulepszeniu za pomoc\u0105 wykopaliska archeologicznego \u015blady przesz\u0142o\u015bci mog\u0105 wygenerowa\u0107 artefakt, kt\u00f3ry mo\u017cna nast\u0119pnie przenie\u015b\u0107 w miejsce na wielkie dzie\u0142o sztuki, lub zmieni\u0107 w ulepszenie s\u0142ynnego miejsca.",
         "historical_info": "Franciszek Bacon napisa\u0142 w 1605 r., \u017ce \u201eantyki to zniszczona historia lub jakie\u015b jej resztki, kt\u00f3re uciek\u0142y z ton\u0105cego okr\u0119tu czasu\u201d. Zgodnie z definicj\u0105 antyki to przedmioty z przesz\u0142o\u015bci, od zwyk\u0142ych grot\u00f3w strza\u0142 po skarby sztuki. Poczucie, \u017ce mo\u017cna pozna\u0107 staro\u017cytn\u0105 cywilizacj\u0119, badaj\u0105c systematycznie jej relikty i artefakty, od pokole\u0144 ka\u017ce kolekcjonerom amatorom i powa\u017cnym naukowcom odnajdywa\u0107 je, wykopywa\u0107 i przechowywa\u0107 w domach, uniwersytetach i muzeach. Pasja zbierania pozosta\u0142o\u015bci po dawnych czasach doprowadzi\u0142a wreszcie do powstania nowej dyscypliny naukowej - archeologii.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/\u015blady_przesz\u0142o\u015bci|\u015blad\u00f3w_przesz\u0142o\u015bci|\u015bladom_przesz\u0142o\u015bci|\u015blady_przesz\u0142o\u015bci.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/antiquity_site.png",
         "prereq_tech": {
             "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
             "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archaeology.json"
@@ -1468,7 +1468,7 @@
         "name": "Muszkato\u0142owiec|Muszkato\u0142owca|Muszkato\u0142owcowi|Muszkato\u0142owca",
         "game_info": "Pojawia si\u0119 jako wyj\u0105tkowy towar luksusowy w indonezyjskim mie\u015bcie.",
         "historical_info": "Wiecznie zielone drzewa muszkato\u0142owca korzennego s\u0105 gatunkiem endemicznym Wysp Banda w Indonezji. Ga\u0142k\u0119 muszkato\u0142ow\u0105 od stuleci wykorzystuje si\u0119 w sztuce kulinarnej wielu cywilizacji. W kuchni pena\u0144skiej cz\u0119sto gotuje si\u0119 j\u0105 lub robi z niej nap\u00f3j. W Indiach stanowi s\u0142odycze, a na Bliskim Wschodzie gotuje si\u0119 j\u0105, by przyprawia\u0107 aromatyczne potrawy. Lecz dopiero odkrycie w 1511 r. przez portugalskiego odkrywc\u0119 Albuquerque \u017ar\u00f3d\u0142a ga\u0142ki w Indonezji rozbudzi\u0142o zapotrzebowanie na sprowadzenie przyprawy do Europy.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/muszkato\u0142owiec|muszkato\u0142owca|muszkato\u0142owcowi|muszkato\u0142owca.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/nutmeg.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1488,7 +1488,7 @@
         "name": "Go\u017adziki|Go\u017adzik\u00f3w|Go\u017adzikom|Go\u017adziki",
         "game_info": "Pojawia si\u0119 jako wyj\u0105tkowy towar luksusowy w indonezyjskim mie\u015bcie.",
         "historical_info": "Go\u017adziki to wysuszone p\u0105ki kwiat\u00f3w z drzewa rosn\u0105cego na Wyspach Maluku w Indonezji. Ta aromatyczna przyprawa wykorzystywana jest w kuchniach ca\u0142ego \u015bwiata. Hodowane obecnie g\u0142\u00f3wnie w Indonezji, Indiach, Zanzibarze i na Madagaskarze go\u017adziki powoduj\u0105 odr\u0119twienie tkanki w ustach i u\u017cywano ich kiedy\u015b nie tylko jako przyprawy, ale tak\u017ce jako lekarstwa. P\u00f3ki drzew nie zasadzono poza wyspami, monopol na handel przypraw\u0105 mia\u0142a Holenderska Kompania Wschodnioindyjska. W XVII i XVIII w. w Europie na go\u017adziki panowa\u0142 taki popyt, \u017ce by\u0142y one dos\u0142ownie warte swej wagi w z\u0142ocie.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/go\u017adziki|go\u017adzik\u00f3w|go\u017adzikom|go\u017adziki.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cloves.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1508,7 +1508,7 @@
         "name": "Pieprz|Pieprzu|Pieprzowi|Pieprz",
         "game_info": "Pojawia si\u0119 jako wyj\u0105tkowy towar luksusowy w indonezyjskim mie\u015bcie.",
         "historical_info": "Pieprz w wielu formach od tysi\u0105cleci uprawia si\u0119 jako przypraw\u0119 w\u0142a\u015bciwie na ca\u0142ym \u015bwiecie. Czarn\u0105 odmian\u0119 wykorzystan\u0105 do mumifikacji znaleziono w nosie Ramzesa II. U\u017cywany jest w kuchni po\u0142udniowo-wschodniej Azji od II stulecia p.n.e. Odkrycia archeologiczne wykazuj\u0105, \u017ce rozmaite ostre papryczki wykorzystywali podczas gotowania Majowie i Aztekowie. W Rzymie pieprz by\u0142 tak cenny, \u017ce u\u017cywano go jako zabezpieczenia kredyt\u00f3w, a Attyla w zamian za oszcz\u0119dzenie miasta w V w. n.e. za\u017c\u0105da\u0142 tony tej przyprawy. Nie bez powodu pieprz nazywa si\u0119 \u201ekr\u00f3lem przypraw\u201d.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pieprz|pieprzu|pieprzowi|pieprz.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pepper.png",
         "prereq_tech": null,
         "yields": {
             "gold": 2,
@@ -1528,7 +1528,7 @@
         "name": "Ukryte \u015blady przesz\u0142o\u015bci|Ukrytych \u015blad\u00f3w przesz\u0142o\u015bci|Ukrytym \u015bladom przesz\u0142o\u015bci|Ukryte \u015blady przesz\u0142o\u015bci",
         "game_info": "Dzi\u0119ki ulepszeniu w postaci wykopalisk archeologicznych, ukryte \u015blady przesz\u0142o\u015bci mog\u0105 wyda\u0107 artefakt, kt\u00f3ry mo\u017cna umie\u015bci\u0107 w miejscu na wielkie dzie\u0142o sztuki lub zmieni\u0107 w s\u0142ynne miejsce. Ukryte \u015blady przesz\u0142o\u015bci widoczne s\u0105 tylko dla cywilizacji, kt\u00f3re odblokowa\u0142y wszystkie ustroje w drzewku eksploracji.",
         "historical_info": "Franciszek Bacon napisa\u0142 w 1605 r., \u017ce \u201eantyki to zniszczona historia lub jakie\u015b jej resztki, kt\u00f3re uciek\u0142y z ton\u0105cego okr\u0119tu czasu\u201d. Zgodnie z definicj\u0105 antyki to przedmioty z przesz\u0142o\u015bci, od zwyk\u0142ych grot\u00f3w strza\u0142 po skarby sztuki. Poczucie, \u017ce mo\u017cna pozna\u0107 staro\u017cytn\u0105 cywilizacj\u0119, badaj\u0105c systematycznie jej relikty i artefakty, od pokole\u0144 ka\u017ce kolekcjonerom amatorom i powa\u017cnym naukowcom odnajdywa\u0107 je, wykopywa\u0107 i przechowywa\u0107 w domach, uniwersytetach i muzeach. Pasja zbierania pozosta\u0142o\u015bci po dawnych czasach doprowadzi\u0142a wreszcie do powstania nowej dyscypliny naukowej - archeologii.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ukryte_\u015blady_przesz\u0142o\u015bci|ukrytych_\u015blad\u00f3w_przesz\u0142o\u015bci|ukrytym_\u015bladom_przesz\u0142o\u015bci|ukryte_\u015blady_przesz\u0142o\u015bci.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/hidden_antiquity_site.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -1553,7 +1553,7 @@
         "name": "Bizon|Bizona|Bizonowi|Bizona|Bizonem|Bizonie",
         "game_info": null,
         "historical_info": "Bizony p\u00f3\u0142nocnoameryka\u0144skie, kt\u00f3re niegdy\u015b licznie zamieszkiwa\u0142y Wielkie R\u00f3wniny, by\u0142y g\u0142\u00f3wnym \u017ar\u00f3d\u0142em mi\u0119sa, \u015bci\u0119gien, sk\u00f3r i ko\u015bci niezb\u0119dnych do przetrwania wielu rdzennych plemion. Pod koniec XIX w. za spraw\u0105 Amerykan\u00f3w bizony znalaz\u0142y si\u0119 na skraju zag\u0142ady, w ostatnich dziesi\u0119cioleciach pojawi\u0142y jednak ponownie dzi\u0119ki federalnym i stanowym programom ochrony przyrody.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bizon|bizona|bizonowi|bizona|bizonem|bizonie.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bison.png",
         "prereq_tech": null,
         "yields": {
             "gold": 0,
@@ -1573,11 +1573,11 @@
         "terrains_found_on": [
             {
                 "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
             },
             {
                 "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/bison.json"
@@ -1587,7 +1587,7 @@
         "name": "Kakao",
         "game_info": null,
         "historical_info": "Nasiona kakao z drzew kakaowca pochodz\u0105cych z Ameryki Po\u0142udniowej by\u0142y wa\u017cnym towarem w prekolumbijskiej Mezoameryce i odgrywa\u0142y wa\u017cn\u0105 rol\u0119 w kulturach plemiennych. Hiszpanie przywie\u017ali kakao do Europy w po\u0142owie XVIII w., gdzie zyska\u0142o popularno\u015b\u0107 jako nap\u00f3j, sk\u0142adnik kuchenny, a nawet jako lekarstwo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kakao.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cocoa.png",
         "prereq_tech": null,
         "yields": {
             "gold": 1,
@@ -1607,7 +1607,7 @@
         "terrains_found_on": [
             {
                 "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
             }
         ],
         "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cocoa.json"

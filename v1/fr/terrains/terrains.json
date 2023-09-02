@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Prairie|Prairies",
         "historical_info": "G\u00e9n\u00e9ralement, la prairie est le type de terrain produisant le plus de nourriture. Une ville b\u00e2tie \u00e0 proximit\u00e9 d'une prairie tendra \u00e0 \u00e9voluer plus rapidement que les autres.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/prairie|prairies.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grassland.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -97,7 +97,7 @@
         "id": 2,
         "name": "Plaines|Plaine",
         "historical_info": "Les plaines sont une source de nourriture et de production pour les villes \u00e0 proximit\u00e9. Une ville entour\u00e9e de plaines grandira moins vite qu'une ville entour\u00e9e de prairies, mais elle sera beaucoup plus productive.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plaines|plaine.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -199,7 +199,7 @@
         "id": 3,
         "name": "D\u00e9sert|D\u00e9serts",
         "historical_info": "La plupart du temps, les cases de d\u00e9sert sont d'une inutilit\u00e9 totale. Elles n'apportent aucun b\u00e9n\u00e9fice aux villes (\u00e0 moins, bien s\u00fbr, que le d\u00e9sert ne contienne une oasis, des ressources ou qu'il n'ait acc\u00e8s \u00e0 de l'eau fra\u00eeche).",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/d\u00e9sert|d\u00e9serts.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -285,7 +285,7 @@
         "id": 4,
         "name": "Toundra",
         "historical_info": "La toundra est une terre \u00e0 demi gel\u00e9e que l'on trouve dans les climats les plus froids. Elle a moins d'utilit\u00e9 que la plaine ou la prairie, mais s'av\u00e8re un peu plus productive que le d\u00e9sert. Il faut vraiment \u00eatre au bord du gouffre et \u00e0 court de ressources pour construire une ville sur la toundra. Ou bien ne pas savoir o\u00f9 aller.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/toundra.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -363,7 +363,7 @@
         "id": 5,
         "name": "Neige",
         "historical_info": "La neige n'a que peu d'utilit\u00e9, puisqu'elle n'am\u00e9liore en rien la production ou la quantit\u00e9 de nourriture d'une ville. Bien s\u00fbr, il se peut toujours qu'une case de neige cache une ressource int\u00e9ressante, mais dans l'absolu, vous n'y trouverez que du froid et de l'aridit\u00e9. Brrrrr.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/neige.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -404,7 +404,7 @@
         "id": 6,
         "name": "C\u00f4te",
         "historical_info": "Les cases c\u00f4ti\u00e8res sont les cases d'oc\u00e9an directement adjacentes \u00e0 la terre ferme. Elles fournissent de la nourriture et de l'or aux villes \u00e0 proximit\u00e9, \u00e0 condition que leur civilisation ait d\u00e9couvert la technologie Navigation \u00e0 voile. Seules les unit\u00e9s navales et les unit\u00e9s terrestres \"embarqu\u00e9es\" peuvent traverser les cases c\u00f4ti\u00e8res.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/c\u00f4te.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/coast.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -454,7 +454,7 @@
         "id": 7,
         "name": "Oc\u00e9an|Oc\u00e9ans",
         "historical_info": "Les cases d'oc\u00e9an sont des cases aux eaux profondes. Ce sont une source de nourriture et d'or pour une ville, \u00e0 condition que cette derni\u00e8re dispose de la technologie ad\u00e9quate pour y acc\u00e9der.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/oc\u00e9an|oc\u00e9ans.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -483,7 +483,7 @@
         "id": 8,
         "name": "Montagne|Montagnes",
         "historical_info": "Seules les unit\u00e9s a\u00e9riennes et carthaginoises peuvent franchir les montagnes (apr\u00e8s avoir obtenu un g\u00e9n\u00e9ral illustre). Elles ne fournissent rien aux villes.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/montagne|montagnes.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/mountain.png",
         "movement_cost": -1,
         "combat_modifier": 25,
         "yields": {
@@ -503,7 +503,7 @@
         "id": 9,
         "name": "Colline|Collines",
         "historical_info": "Les collines am\u00e9liorent la productivit\u00e9 des villes \u00e0 proximit\u00e9. Elles fournissent \u00e9galement d'importants bonus de combat pour les unit\u00e9s qui y sont plac\u00e9es.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/colline|collines.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/hill.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {

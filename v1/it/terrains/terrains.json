@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Prateria",
         "historical_info": "In generale una casella di Prateria produce pi\u00f9 cibo di qualsiasi altro tipo di terreno. Le citt\u00e0 costruite vicino alle Praterie tendono a crescere pi\u00f9 rapidamente di tutte le altre.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/prateria.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grassland.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -97,7 +97,7 @@
         "id": 2,
         "name": "Pianura",
         "historical_info": "Le pianure forniscono alle citt\u00e0 vicine cibo e produzione. Una citt\u00e0 circondata da pianure crescer\u00e0 pi\u00f9 lentamente di una immersa tra le praterie, ma sar\u00e0 molto pi\u00f9 produttiva.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/pianura.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -199,7 +199,7 @@
         "id": 3,
         "name": "Deserto",
         "historical_info": "In generale gli esagoni desertici sono inutili: essi non forniscono alcun beneficio alle citt\u00e0, tranne ovviamente nel caso in cui contengano una risorsa o un'oasi, o abbiano accesso all'acqua dolce.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/deserto.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -363,7 +363,7 @@
         "id": 5,
         "name": "Neve",
         "historical_info": "I terreni innevati sono di per s\u00e9 ben poco produttivi: alle citt\u00e0 vicine non forniscono n\u00e9 cibo n\u00e9 produzione. Naturalmente l'esagono potrebbe contenere una preziosa risorsa ma, altrimenti, si tratta solo di un terreno freddo e desolato.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/neve.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -404,7 +404,7 @@
         "id": 6,
         "name": "Costa",
         "historical_info": "Gli esagoni costieri sono gli esagoni di mare adiacenti alla terra. Essi forniscono cibo e oro alle citt\u00e0 vicine, ma solo se la civilt\u00e0 in questione dispone della tecnologia Navigazione. Soltanto le unit\u00e0 navali e quelle terrestri \"imbarcate\" possono accedere agli esagoni costieri.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/costa.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/coast.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -454,7 +454,7 @@
         "id": 7,
         "name": "Oceano",
         "historical_info": "Gli esagoni oceanici sono esagoni di mare profondo. Essi forniscono cibo e oro alle citt\u00e0 che dispongono della tecnologia necessaria per sfruttarli.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/oceano.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -483,7 +483,7 @@
         "id": 8,
         "name": "Montagna",
         "historical_info": "Le montagne sono invalicabili, salvo per le unit\u00e0 aeree e quelle cartaginesi (dopo la comparsa di un Grande Generale). Non producono alcunch\u00e9 di utile per le citt\u00e0.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/montagna.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/mountain.png",
         "movement_cost": -1,
         "combat_modifier": 25,
         "yields": {
@@ -503,7 +503,7 @@
         "id": 9,
         "name": "Collina",
         "historical_info": "Le colline incrementano la produzione delle citt\u00e0 vicine. Esse inoltre forniscono un importante bonus di combattimento alle unit\u00e0 stazionate su di esse.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/collina.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/hill.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {

@@ -3,7 +3,7 @@
         "id": 1,
         "name": "\u8349\u539f",
         "historical_info": "\u901a\u5e38\uff0c\u8349\u539f\u5728\u6240\u6709\u5730\u5f62\u4e2d\u98df\u7269\u7522\u91cf\u6700\u9ad8\u3002\u5728\u8349\u539f\u9644\u8fd1\u7684\u57ce\u5e02\u5c07\u6bd4\u5176\u4ed6\u5730\u5340\u7684\u57ce\u5e02\u6210\u9577\u7684\u66f4\u5feb\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u8349\u539f.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grassland.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -97,7 +97,7 @@
         "id": 2,
         "name": "\u5e73\u539f",
         "historical_info": "\u5e73\u539f\u53ef\u5411\u9644\u8fd1\u57ce\u5e02\u540c\u6642\u63d0\u4f9b\u98df\u7269\u548c\u751f\u7522\u529b\u3002\u76f8\u8f03\u65bc\u8349\u539f\uff0c\u88ab\u5e73\u539f\u7c07\u64c1\u7684\u57ce\u5e02\u6703\u6210\u9577\u8f03\u6162\uff0c\u4f46\u5176\u53ef\u7372\u5f97\u66f4\u591a\u7684\u751f\u7522\u529b\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u5e73\u539f.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -199,7 +199,7 @@
         "id": 3,
         "name": "\u6c99\u6f20",
         "historical_info": "\u901a\u5e38\u6c99\u6f20\u683c\u4f4d\u6975\u70ba\u7121\u7528\u3002\u7576\u5176\u7121\u7da0\u6d32\u3001\u8cc7\u6e90\u6216\u9060\u96e2\u6c34\u6e90\u6642\uff0c\u5176\u7121\u6cd5\u5411\u57ce\u5e02\u63d0\u4f9b\u734e\u52f5\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u6c99\u6f20.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -285,7 +285,7 @@
         "id": 4,
         "name": "\u51cd\u571f",
         "historical_info": "\u51cd\u571f\u662f\u5bd2\u51b7\u5730\u5340\u4e2d\u534a\u5c01\u51cd\u7684\u571f\u5730\uff0c\u96d6\u4e0d\u5982\u5e73\u539f\u6216\u8349\u539f\u6709\u7528\uff0c\u4f46\u8f03\u6c99\u6f20\u800c\u8a00\u9084\u6709\u4e9b\u8a31\u7528\u8655\u3002\u9664\u4e86\u6975\u5ea6\u9700\u8981\u8cc7\u6e90\u6216\u7121\u8655\u53ef\u8d70\uff0c\u4e00\u822c\u6c92\u4eba\u6703\u5728\u51cd\u571f\u4e0a\u8208\u5efa\u57ce\u5e02\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u51cd\u571f.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -363,7 +363,7 @@
         "id": 5,
         "name": "\u96ea\u539f",
         "historical_info": "\u7531\u65bc\u7121\u6cd5\u5411\u9644\u8fd1\u57ce\u5e02\u63d0\u4f9b\u98df\u7269\u53ca\u751f\u7522\u529b\u734e\u52f5\uff0c\u6240\u6709\u96ea\u539f\u53ef\u8aaa\u662f\u7528\u8655\u4e0d\u5927\u3002\u96d6\u7136\u96ea\u539f\u683c\u4f4d\u53ef\u80fd\u6703\u542b\u6709\u6709\u7528\u7684\u8cc7\u6e90\uff0c\u4f46\u9664\u6b64\u4e4b\u5916\uff0c\u5176\u53ef\u8b02\u662f\u5bd2\u51b7\u8352\u6dbc\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u96ea\u539f.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -404,7 +404,7 @@
         "id": 6,
         "name": "\u6d77\u5cb8",
         "historical_info": "\u6d77\u5cb8\u683c\u4f4d\u662f\u8207\u5730\u9762\u76f4\u63a5\u76f8\u63a5\u7684\u6d77\u6d0b\u683c\u4f4d\u3002\u7576\u6587\u660e\u64c1\u6709\u822a\u6d77\u79d1\u6280\u5f8c\uff0c\u5176\u53ef\u5411\u9130\u8fd1\u57ce\u5e02\u63d0\u4f9b\u98df\u7269\u53ca\u91d1\u5e63\u3002\u53ea\u6709\u6d77\u4e0a\u55ae\u4f4d\u53ca\u300c\u6d77\u904b\u300d\u5730\u9762\u55ae\u4f4d\u53ef\u9032\u5165\u6d77\u5cb8\u683c\u4f4d\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u6d77\u5cb8.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/coast.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -454,7 +454,7 @@
         "id": 7,
         "name": "\u6d77\u6d0b",
         "historical_info": "\u9060\u6d0b\u683c\u4f4d\u70ba\u6df1\u6c34\u683c\u4f4d\u3002\u7576\u57ce\u5e02\u6709\u76f8\u61c9\u79d1\u6280\u5f8c\u4f7f\u5f97\u55ae\u4f4d\u53ef\u51fa\u5165\u5176\u4e2d\u6642\uff0c\u5c07\u53ef\u7372\u5f97\u98df\u7269\u8207\u91d1\u5e63\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u6d77\u6d0b.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -483,7 +483,7 @@
         "id": 8,
         "name": "\u5c71\u5dbd",
         "historical_info": "\u9664\u7a7a\u4e2d\u55ae\u4f4d\u53ca\u8fe6\u592a\u57fa\u55ae\u4f4d\uff08\u5728\u7372\u5f97\u5927\u5c07\u8ecd\u5f8c\uff09\u5916\uff0c\u5176\u9918\u4efb\u4f55\u55ae\u4f4d\u7121\u6cd5\u7a7f\u8d8a\u5c71\u5dbd\u3002\u5176\u4e0d\u5411\u57ce\u5e02\u63d0\u4f9b\u4efb\u4f55\u6771\u897f\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u5c71\u5dbd.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/mountain.png",
         "movement_cost": -1,
         "combat_modifier": 25,
         "yields": {
@@ -503,7 +503,7 @@
         "id": 9,
         "name": "\u4e18\u9675",
         "historical_info": "\u4e18\u9675\u53ef\u63d0\u9ad8\u9130\u8fd1\u57ce\u5e02\u7684\u751f\u7522\u529b\u3002\u5176\u9084\u53ef\u5411\u99d0\u7d2e\u5176\u4e0a\u7684\u55ae\u4f4d\u63d0\u4f9b\u91cd\u8981\u7684\u6230\u9b25\u52a0\u6210\u3002",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u4e18\u9675.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/hill.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {

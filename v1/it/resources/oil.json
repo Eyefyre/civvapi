@@ -3,7 +3,7 @@
     "name": "Petrolio",
     "game_info": "Utilizzata da unit\u00e0 potenti disponibili verso la fine del gioco.",
     "historical_info": "Il petrolio \u00e8 un combustibile liquido raccolto in depositi pi\u00f9 o meno vasti sparsi per il mondo. Occasionalmente usato da qualche civilt\u00e0 gi\u00e0 quattro millenni fa per creare asfalto o nafta o per alimentare fonti luminose, ha cominciato ad acquisire reale importanza solo nel 1857, con la costruzione della prima raffineria moderna in Alsazia. Pi\u00f9 o meno in quegli anni furono scavati i primi pozzi in Europa e nel Nordamerica. All'inizio del XX secolo la domanda di petrolio si impenn\u00f2, dato che forniva l'alimentazione ai motori a combustione interna di navi, aerei e automobili. Oggi gran parte delle tensioni politiche internazionali sono dovute al braccio di ferro tra chi dispone di abbondanti risorse di petrolio e chi no. Ricorda che il petrolio costituisce una risorsa strategica e viene consumato a seguito della costruzione di unit\u00e0 ed edifici a esso collegati.",
-    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/petrolio.png",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
     "prereq_tech": {
         "name": "Biologia|della Biologia",
         "url": "https://eyefyre.github.io/civvapi/v1/it/tech/biology.json"
@@ -50,15 +50,15 @@
     "terrains_found_on": [
         {
             "name": "Giungla|la giungla|una giungla",
-            "url": "https://eyefyre.github.io/civvapi/v1/it/features/giungla|la_giungla|una_giungla.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
         },
         {
             "name": "Palude|la palude|una palude",
-            "url": "https://eyefyre.github.io/civvapi/v1/it/features/palude|la_palude|una_palude.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/marsh.json"
         },
         {
             "name": "Deserto",
-            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
         },
         {
             "name": "Tundra",
@@ -66,11 +66,11 @@
         },
         {
             "name": "Neve",
-            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/neve.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
         },
         {
             "name": "Costa",
-            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/costa.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/coast.json"
         }
     ]
 }

@@ -3,7 +3,7 @@
     "name": "Uran|Uranu|Uranowi|Uran",
     "game_info": "U\u017cywany w broni nuklearnej i elektrowniach j\u0105drowych.",
     "historical_info": "Uran jest promieniotw\u00f3rczym minera\u0142em, kt\u00f3ry wydobyty i wzbogacony mo\u017ce by\u0107 wykorzystywany w energetyce lub do wysadzania r\u00f3\u017cnych rzeczy w powietrze. Zosta\u0142 odkryty w XVIII w., ale dopiero w wieku XX, podczas drugiej wojny \u015bwiatowej, ameryka\u0144scy naukowcy znale\u017ali spos\u00f3b, by wykorzysta\u0107 jego potencja\u0142 do zadawania \u015bmierci na masow\u0105 skal\u0119. Gdy wykorzystuje si\u0119 go w energetyce, produkuje czyst\u0105 energi\u0119, poniewa\u017c nie wydziela du\u017cych ilo\u015bci zanieczyszcze\u0144 jak w\u0119giel czy benzyna. Z drugiej strony, odpady radioaktywne s\u0105 niesamowicie toksyczne i powoduj\u0105 ska\u017cenie gleby, powietrza, wody i wszelkich pobliskich organizm\u00f3w, wi\u0119c to te\u017c jest w pewnym sensie problem. Warto pami\u0119ta\u0107, \u017ce uran nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uran|uranu|uranowi|uran.png",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
     "prereq_tech": {
         "name": "Teoria atomu|Teorii atomu|Teorii atomu|Teori\u0119 atomu",
         "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/atomic_theory.json"
@@ -46,39 +46,39 @@
     "terrains_found_on": [
         {
             "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
         },
         {
             "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
         },
         {
             "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
         },
         {
             "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
         },
         {
             "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
         },
         {
             "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
         },
         {
             "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
         },
         {
             "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
         },
         {
             "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rzu|wzg\u00f3rze|wzg\u00f3rza|wzg\u00f3rz|wzg\u00f3rzom|wzg\u00f3rza.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
         }
     ]
 }

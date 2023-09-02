@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Grasland",
         "historical_info": "Grasland ist im Allgemeinen der Gel\u00e4ndetyp, der die meiste Nahrung produziert. St\u00e4dte, die in der N\u00e4he von Grasland gebaut werden, wachsen meist schneller als St\u00e4dte in anderem Gel\u00e4nde.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grasland.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grassland.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -97,7 +97,7 @@
         "id": 2,
         "name": "Ebene",
         "historical_info": "Ebenen bieten sowohl Nahrung als auch Produktion f\u00fcr eine nahegelegene Stadt. Eine Stadt, die von Ebenen umgeben ist, w\u00e4chst zwar langsamer, als wenn sie von Grasland umgeben w\u00e4re, daf\u00fcr ist sie aber viel produktiver.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ebene.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -199,7 +199,7 @@
         "id": 3,
         "name": "W\u00fcste",
         "historical_info": "W\u00fcsten-Gel\u00e4ndefelder bieten f\u00fcr gew\u00f6hnlich sehr wenig Nutzen. Sie verschaffen St\u00e4dten keine Vorteile (au\u00dfer nat\u00fcrlich, es befindet sich eine Oase oder Ressource in der W\u00fcste oder wenn es einen direkten Zugang zu Frischwasser gibt).",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/w\u00fcste.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -363,7 +363,7 @@
         "id": 5,
         "name": "Schnee",
         "historical_info": "Schneefelder sind ziemlich ertragsarm, da sie einer nahegelegenen Stadt weder Nahrung noch Produktion liefern. Ein Schneefeld kann nat\u00fcrlich eine n\u00fctzliche Ressource enthalten, aber ansonsten ist es einfach nur kalt und unfruchtbar.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/schnee.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -404,7 +404,7 @@
         "id": 6,
         "name": "K\u00fcste",
         "historical_info": "K\u00fcsten-Gel\u00e4ndefelder sind Ozean-Gel\u00e4ndefelder, die an Land grenzen. Sie bieten einer nahen Stadt Nahrung und Gold, aber nur, wenn die Zivilisation \u00fcber die Technologie Segeln verf\u00fcgt. Nur K\u00fcsteneinheiten und Landeinheiten \"zu Wasser\" k\u00f6nnen K\u00fcsten-Gel\u00e4ndefelder betreten.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/k\u00fcste.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/coast.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -454,7 +454,7 @@
         "id": 7,
         "name": "Ozean",
         "historical_info": "Ozean-Gel\u00e4ndefelder stehen f\u00fcr tiefe Gew\u00e4sser. Sie bieten einer Stadt Nahrung und Gold, sobald die Stadt \u00fcber die Technologien verf\u00fcgt, um sie f\u00fcr sich zu nutzen.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ozean.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -483,7 +483,7 @@
         "id": 8,
         "name": "Berg",
         "historical_info": "Berge sind unpassierbar, au\u00dfer f\u00fcr Lufteinheiten sowie karthagische Einheiten (nach Erlangen des Gro\u00dfen Generals). St\u00e4dten bieten sie nichts.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/berg.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/mountain.png",
         "movement_cost": -1,
         "combat_modifier": 25,
         "yields": {
@@ -503,7 +503,7 @@
         "id": 9,
         "name": "H\u00fcgel",
         "historical_info": "H\u00fcgel bescheren einer Stadt in der N\u00e4he eine erh\u00f6hte Produktivit\u00e4t. Sie sichern Einheiten, die auf ihnen stationiert sind, au\u00dferdem wichtige Kampfbonusse.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/h\u00fcgel.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/hill.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {

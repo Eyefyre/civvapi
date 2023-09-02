@@ -3,7 +3,7 @@
     "name": "Petr\u00f3leo",
     "game_info": "Se utiliza para las unidades poderosas de las \u00faltimas fases.",
     "historical_info": "El petr\u00f3leo es un combustible l\u00edquido que se encuentra en dep\u00f3sitos grandes y peque\u00f1os por todo el mundo. Aunque algunas civilizaciones ya lo utilizaban hace cuatro mil a\u00f1os para hacer asfalto o nafta, o para quemarlo como fuente de luz, su uso actual se puede remontar a 1857, cuando apareci\u00f3 la primera refiner\u00eda moderna en Alsacia, Francia. Casi al mismo tiempo se empezaron a perforar pozos en Europa y Am\u00e9rica del Norte. A principios del siglo XX, se dispar\u00f3 la demanda de petr\u00f3leo, en su mayor parte debido a su utilizaci\u00f3n en los motores de combusti\u00f3n interna de barcos, aviones y autom\u00f3viles. Hoy en d\u00eda, gran parte de la pol\u00edtica internacional obedece a las crecientes tensiones entre los que tienen abundantes fuentes de petr\u00f3leo y los que no. Recuerda que el petr\u00f3leo es un recurso estrat\u00e9gico y que, como tal, se consume a medida que construyes las unidades y los edificios a \u00e9l asociados.",
-    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/petr\u00f3leo.png",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
     "prereq_tech": {
         "name": "Biolog\u00eda",
         "url": "https://eyefyre.github.io/civvapi/v1/es/tech/biology.json"
@@ -50,27 +50,27 @@
     "terrains_found_on": [
         {
             "name": "Selva|Selvas",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/features/selva|selvas.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/jungle.json"
         },
         {
             "name": "Ci\u00e9naga|Ci\u00e9nagas",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/features/ci\u00e9naga|ci\u00e9nagas.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/marsh.json"
         },
         {
             "name": "Desierto|Desiertos",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
         },
         {
             "name": "Tundra|Tundras",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
         },
         {
             "name": "Nieve|Nieves",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/nieve|nieves.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
         },
         {
             "name": "Costa",
-            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/costa.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/coast.json"
         }
     ]
 }

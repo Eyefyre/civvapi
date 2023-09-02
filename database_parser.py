@@ -42,7 +42,7 @@ def translate(language,key):
     return strip_tags_from_text(translation[0][0])
 
 def strip_tags_from_text(key):
-    tags = ["[ICON_INFLUENCE]","[ICON_GOLDEN_AGE]","[ICON_TROPHY_BRONZE]","[ICON_TROPHY_SILVER]","[ICON_TROPHY_GOLD]","[ICON_INTERNATIONAL_TRADE]","[ICON_OCCUPIED]","[ICON_HAPPINESS_4]","[ICON_CITIZEN]","[ICON_HAPPINESS_1]","[ICON_CAPITAL]","[ICON_TOURISM]","[NEWLINE]","[ICON_STRENGTH]","[COLOR_POSITIVE_TEXT]","[ENDCOLOR]","[ICON_GREAT_PEOPLE]"]
+    tags = ["[ICON_INFLUENCE]","[ICON_GOLDEN_AGE]","[ICON_TROPHY_BRONZE]","[ICON_TROPHY_SILVER]","[ICON_TROPHY_GOLD]","[ICON_INTERNATIONAL_TRADE]","[ICON_OCCUPIED]","[ICON_HAPPINESS_4]","[ICON_CITIZEN]","[ICON_HAPPINESS_1]","[ICON_CAPITAL]","[ICON_TOURISM]","[NEWLINE]","[TAB]","[ICON_STRENGTH]","[COLOR_POSITIVE_TEXT]","[ENDCOLOR]","[ICON_GREAT_PEOPLE]"]
     for tag in tags:
         key = key.replace(tag,"").replace("  "," ")
     res_strings = cur.execute("SELECT IconString FROM Resources").fetchall()
@@ -147,8 +147,26 @@ def get_units(language):
         free_promotions = []
         promos = cur.execute("SELECT PromotionType FROM Unit_FreePromotions WHERE UnitType=?",(unit[0],)).fetchall()
         for promo in promos:
-            promo_info = cur.execute("SELECT Description FROM UnitPromotions WHERE Type=?",(promo[0],)).fetchone()
-            free_promotions.append({"name":translate(language,promo_info[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/promotions/" + translate("en",promo_info[0]).replace(" ","_").replace("/","_").lower() + ".json"})
+            promo_info = cur.execute("SELECT Description,PediaType FROM UnitPromotions WHERE Type=?",(promo[0],)).fetchone()
+            addon = ""
+            match promo_info[1]:
+                case "PEDIA_HEAL":
+                    addon = "_H"
+                case "PEDIA_AIR":
+                    addon = "_A"
+                case "PEDIA_ATTRIBUTES":
+                    addon = "_AT"
+                case "PEDIA_MELEE":
+                    addon = "_M"
+                case "PEDIA_NAVAL":
+                    addon = "_N"
+                case "PEDIA_RANGED":
+                    addon = "_R"
+                case "PEDIA_SCOUTING":
+                    addon = "_S"
+                case "PEDIA_SHARED":
+                    addon = "_SH"
+            free_promotions.append({"name":translate(language,promo_info[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/promotions/" + (translate("en",promo_info[0]) + addon).replace(" ","_").replace("/","_").lower() + ".json"})
         unit_template["free_promotions"] = free_promotions
 
 
@@ -179,7 +197,7 @@ def get_promotions(language):
         promotion_template["game_info"] = translate(language,promotion[2])
         prereqs = []
         promotion_template["prereq_promotions"] = prereqs
-        promotion_template["icon"] = "https://eyefyre.github.io/civvapi/images/promotion_icons/" + translate(language,promotion[1]).replace(" ","_").replace("/","_").lower() + ".png"
+        promotion_template["icon"] = "https://eyefyre.github.io/civvapi/images/promotion_icons/" + translate("en",promotion[1]).replace(" ","_").replace("/","_").lower() + ".png"
         for prereqPromo in [promotion[3],promotion[4],promotion[5],promotion[6],promotion[7],promotion[8],promotion[9],promotion[10],promotion[11],promotion[12]]:
             if prereqPromo != None:
                 prereq = cur.execute("SELECT Description from UnitPromotions WHERE Type=?",(prereqPromo,)).fetchone()
@@ -205,12 +223,12 @@ def get_promotions(language):
                 addon = "_S"
             case "PEDIA_SHARED":
                 addon = "_SH"
-        promotion_template["icon"] = "https://eyefyre.github.io/civvapi/images/promotion_icons/" + (translate(language,promotion[1]) + addon).replace(" ","_").replace("/","_").lower() + ".png"
+        promotion_template["icon"] = "https://eyefyre.github.io/civvapi/images/promotion_icons/" + (translate("en",promotion[1]) + addon).replace(" ","_").replace("/","_").lower() + ".png"
         if not os.path.exists("v1/"+ language + "/promotions"):
             os.makedirs("v1/"+ language + "/promotions")
         with open("v1/" + language + "/promotions/" + (translate("en",promotion[1]) + addon).replace(" ","_").replace("/","_").lower() + ".json", 'w') as outfile:
             json.dump(promotion_template, outfile,indent=4)
-        promotion_template["url"] = "https://eyefyre.github.io/civvapi/v1/" + language + "/promotions/"+ translate("en",promotion[1]).replace(" ","_").lower() + ".json"
+        promotion_template["url"] = "https://eyefyre.github.io/civvapi/v1/" + language + "/promotions/"+ (translate("en",promotion[1]) + addon).replace(" ","_").lower() + ".json"
         promotion_list.append(promotion_template)
 
     if not os.path.exists("v1/"+ language):
@@ -234,7 +252,7 @@ def get_buildings(language):
         building_template["historical_info"] = translate(language,building[2])
         building_template["cost"]={"production":building[5],"faith":building[6]}
         building_template["gold_maintenance"] = building[7]
-        building_template["icon"] = "https://eyefyre.github.io/civvapi/images/building_icons/" + translate(language,building[1]).replace(" ","_").lower() + ".png"
+        building_template["icon"] = "https://eyefyre.github.io/civvapi/images/building_icons/" + translate("en",building[1]).replace(" ","_").lower() + ".png"
 
         building_template["prereq_tech"] = None
         prereq_tech = cur.execute("SELECT Description FROM Technologies WHERE Type=?",(building[8],)).fetchone()
@@ -289,9 +307,9 @@ def get_wonders(language):
         wonder_template["game_info"] = translate(language,wonder[5])
         wonder_template["strategy"] = translate(language,wonder[4])
         wonder_template["historical_info"] = translate(language,wonder[2])
-        wonder_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate(language,wonder[1]).replace(" ","_").lower() + ".png"
-        wonder_template["background_image"] = "https://eyefyre.github.io/civvapi/images/wonder_backgrounds/" + translate(language,wonder[1]).replace(" ","_").lower() + ".png"
-        wonder_template["quote"] = translate(language,wonder[6]).replace("\"","'").replace("[NEWLINE]","").replace("[TAB]","")
+        wonder_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate("en",wonder[1]).replace(" ","_").lower() + ".png"
+        wonder_template["background_image"] = "https://eyefyre.github.io/civvapi/images/wonder_backgrounds/" + translate("en",wonder[1]).replace(" ","_").lower() + ".png"
+        wonder_template["quote"] = translate(language,wonder[6])
 
         cur.execute("SELECT Description FROM Technologies WHERE Type=?", (wonder[7],))
         prereq_tech = cur.fetchone()
@@ -339,7 +357,7 @@ def get_wonders(language):
         national_template["game_info"] = translate(language,national[5])
         national_template["strategy"] = translate(language,national[4])
         national_template["historical_info"] = translate(language,national[2])
-        national_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate(language,national[1]).replace(" ","_").lower() + ".png"
+        national_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate("en",national[1]).replace(" ","_").lower() + ".png"
         national_template["background_image"] = None
         national_template["quote"] = None
 
@@ -368,7 +386,7 @@ def get_wonders(language):
         project_template["game_info"] = translate(language,project[4])
         project_template["strategy"] = translate(language,project[3])
         project_template["historical_info"] = translate(language,project[2])
-        project_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate(language,project[1]).replace(" ","_").lower() + ".png"
+        project_template["icon"] = "https://eyefyre.github.io/civvapi/images/wonder_icons/" + translate("en",project[1]).replace(" ","_").lower() + ".png"
         project_template["background_image"] = None
         project_template["quote"] = None
         cur.execute("SELECT Description FROM Technologies WHERE Type=?", (project[6],))
@@ -404,7 +422,7 @@ def get_policies(language):
         if policy[5] != 0:
             policy_template["game_info"] = translate(language,policy[3]).replace(translate(language,policy[1]),"")
         policy_template["historical_info"] = translate(language,policy[2])
-        policy_template["icon"] = "https://eyefyre.github.io/civvapi/images/policy_icons/" + translate(language,policy[1]).replace(" ","_").lower() + ".png"
+        policy_template["icon"] = "https://eyefyre.github.io/civvapi/images/policy_icons/" + translate("en",policy[1]).replace(" ","_").lower() + ".png"
 
         prereq_policy_list = []
         prereq_policies = cur.execute("SELECT * FROM Policy_PrereqPolicies WHERE PolicyType=?",(policy[0],)).fetchall()
@@ -433,7 +451,7 @@ def get_policies(language):
                     addon = "_A"
                 case "POLICY_BRANCH_ORDER":
                     addon = "_O"
-        policy_template["icon"] = ("https://eyefyre.github.io/civvapi/images/policy_icons/" + translate(language,policy[1]) + addon).replace(" ","_").lower() + ".png"
+        policy_template["icon"] = ("https://eyefyre.github.io/civvapi/images/policy_icons/" + translate("en",policy[1]) + addon).replace(" ","_").lower() + ".png"
         if not os.path.exists("v1/"+ language + "/policies"):
             os.makedirs("v1/"+ language + "/policies")
         with open(("v1/" + language + "/policies/" + translate("en",policy[1]) + addon).replace(" ","_").lower() + ".json", 'w') as outfile:
@@ -463,7 +481,7 @@ def get_specialists_and_great_people(language):
         great_person_template["game_info"] = translate(language,great_person[4])
         great_person_template["strategy"] = translate(language,great_person[3])
         great_person_template["historical_info"] = translate(language,great_person[2])
-        great_person_template["icon"] = "https://eyefyre.github.io/civvapi/images/specialist_icons/" + translate(language,great_person[1]).replace(" ","_").lower() + ".png"
+        great_person_template["icon"] = "https://eyefyre.github.io/civvapi/images/specialist_icons/" + translate("en",great_person[1]).replace(" ","_").lower() + ".png"
 
         if not os.path.exists("v1/"+ language + "/specialists"):
             os.makedirs("v1/"+ language + "/specialists")
@@ -483,7 +501,7 @@ def get_specialists_and_great_people(language):
         great_person_template["game_info"] = None
         great_person_template["strategy"] = translate(language,great_person[2])
         great_person_template["historical_info"] = None
-        great_person_template["icon"] = "https://eyefyre.github.io/civvapi/images/specialist_icons/" + translate(language,great_person[1]).split("|")[0].replace(" ","_").lower() + ".png"
+        great_person_template["icon"] = "https://eyefyre.github.io/civvapi/images/specialist_icons/" + translate("en",great_person[1]).split("|")[0].replace(" ","_").lower() + ".png"
 
         if not os.path.exists("v1/"+ language + "/specialists"):
             os.makedirs("v1/"+ language + "/specialists")
@@ -510,7 +528,7 @@ def get_civilizations(language):
         civilization_template = {}
         civilization_template["id"] = civilizations_id
         civilization_template["name"] = translate(language,civilization[2])
-        civilization_template["icon"] = "https://eyefyre.github.io/civvapi/images/civ_icons/" + translate(language,civilization[2]).replace(" ","_").lower() + ".png"
+        civilization_template["icon"] = "https://eyefyre.github.io/civvapi/images/civ_icons/" + translate("en",civilization[2]).replace(" ","_").lower() + ".png"
         civilization_template["dawn_of_man"] = translate(language,civilization[5])
 
 
@@ -562,7 +580,7 @@ def get_civilizations(language):
         leader_template["name"] = translate(language,leader[4] + "_NAME")
         leader_template["subtitle"] = translate(language,leader[4] + "_SUBTITLE")
         leader_template["lived"] = translate(language,leader[4] + "_LIVED")
-        leader_template["icon"] = "https://eyefyre.github.io/civvapi/images/leader_icons/" + translate(language,leader[4] + "_NAME").replace(" ","_").lower() + ".png"
+        leader_template["icon"] = "https://eyefyre.github.io/civvapi/images/leader_icons/" + translate("en",leader[4] + "_NAME").replace(" ","_").lower() + ".png"
 
         trait_id = cur.execute("SELECT TraitType FROM Leader_Traits WHERE LeaderType=?",(leader[1],)).fetchone()[0]
         trait = cur.execute("SELECT Description,ShortDescription FROM Traits WHERE Type=?",(trait_id,)).fetchone()
@@ -634,7 +652,7 @@ def get_city_states(language):
 
     if not os.path.exists("v1/"+ language):
         os.makedirs("v1/"+ language)
-    with open("v1/" + language + "/citystates/city_states.json", 'w') as outfile:
+    with open("v1/" + language + "/citystates/citystates.json", 'w') as outfile:
         json.dump(city_state_list, outfile,indent=4)
     
 #11. Terrain | True
@@ -650,7 +668,7 @@ def get_terrains(language):
         terrain_template["id"] = terrain_id
         terrain_template["name"] = translate(language,terrain[1])
         terrain_template["historical_info"] = translate(language,terrain[2])
-        terrain_template["icon"] = "https://eyefyre.github.io/civvapi/images/terrain_icons/" + translate(language,terrain[1]).replace(" ","_").lower() + ".png"
+        terrain_template["icon"] = "https://eyefyre.github.io/civvapi/images/terrain_icons/" + translate("en",terrain[1]).replace(" ","_").lower() + ".png"
         terrain_template["movement_cost"] = terrain[3]
         if terrain[5] == 1:
             terrain_template["movement_cost"] = -1
@@ -709,7 +727,7 @@ def get_features(language):
         feature_template["id"] = feature_id
         feature_template["name"] = translate(language,feature[1])
         feature_template["historical_info"] = translate(language,feature[2])
-        feature_template["icon"] = "https://eyefyre.github.io/civvapi/images/feature_icons/" + translate(language,feature[1]).replace(" ","_").lower() + ".png"
+        feature_template["icon"] = "https://eyefyre.github.io/civvapi/images/feature_icons/" + translate("en",feature[1]).replace(" ","_").lower() + ".png"
         feature_template["movement_cost"] = feature[5]
         if feature[6] == 1:
             feature_template["movement_cost"] = -1
@@ -769,7 +787,7 @@ def get_resources(language):
         resource_template["name"] = translate(language,resource[1])
         resource_template["game_info"] = translate(language,resource[3])
         resource_template["historical_info"] = translate(language,resource[2])
-        resource_template["icon"] = "https://eyefyre.github.io/civvapi/images/resource_icons/" + translate(language,resource[1]).replace(" ","_").lower() + ".png"
+        resource_template["icon"] = "https://eyefyre.github.io/civvapi/images/resource_icons/" + translate("en",resource[1]).replace(" ","_").lower() + ".png"
         resource_template["prereq_tech"] = None
         prereq_tech = cur.execute("SELECT Description FROM Technologies WHERE Type=?",(resource[4],)).fetchone()
         if prereq_tech != None:
@@ -798,12 +816,12 @@ def get_resources(language):
         features = cur.execute("SELECT * FROM Resource_FeatureBooleans WHERE ResourceType=?",(resource[0],)).fetchall()
         for feature in features:
             res_feat = cur.execute("SELECT Description FROM Features WHERE Type=?",(feature[1],)).fetchone()
-            terrain_feature_list.append({"name":translate(language,res_feat[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/features/" + translate(language,res_feat[0]).replace(" ","_").lower() + ".json"})
+            terrain_feature_list.append({"name":translate(language,res_feat[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/features/" + translate("en",res_feat[0]).replace(" ","_").lower() + ".json"})
         
         terrains = cur.execute("SELECT * FROM Resource_TerrainBooleans WHERE ResourceType=?",(resource[0],)).fetchall()
         for terrain in terrains:
             res_terr = cur.execute("SELECT Description FROM Terrains WHERE Type=?",(terrain[1],)).fetchone()
-            terrain_feature_list.append({"name":translate(language,res_terr[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/terrains/" + translate(language,res_terr[0]).replace(" ","_").lower() + ".json"})
+            terrain_feature_list.append({"name":translate(language,res_terr[0]),"url":"https://eyefyre.github.io/civvapi/v1/" + language + "/terrains/" + translate("en",res_terr[0]).replace(" ","_").lower() + ".json"})
         
         resource_template["terrains_found_on"] = terrain_feature_list
         
@@ -833,7 +851,7 @@ def get_improvements(language):
         improvement_template["id"] = improvement_id
         improvement_template["name"] = translate(language,improvement[1])
         improvement_template["game_info"] = translate(language,improvement[2])
-        improvement_template["icon"] = "https://eyefyre.github.io/civvapi/images/improvement_icons/" + translate(language,improvement[1]).replace(" ","_").lower() + ".png"
+        improvement_template["icon"] = "https://eyefyre.github.io/civvapi/images/improvement_icons/" + translate("en",improvement[1]).replace(" ","_").lower() + ".png"
         improvement_template["nearby_mountain_bonus"] = {"food":None}
         bonus_template = {"food":None}
         mount_bonus = cur.execute("SELECT * FROM Improvement_AdjacentMountainYieldChanges WHERE ImprovementType=?",(improvement[0],)).fetchall()

@@ -3,7 +3,7 @@
     "name": "Ropa|Ropy|Ropie|Rop\u0119",
     "game_info": "U\u017cywana przez pot\u0119\u017cne jednostki w p\u00f3\u017anej fazie gry.",
     "historical_info": "Ropa jest ciek\u0142ym paliwem kopalnym, kt\u00f3re w mniejszych b\u0105d\u017a wi\u0119kszych ilo\u015bciach mo\u017cna odnale\u017a\u0107 na ca\u0142ym \u015bwiecie. Przypadki u\u017cywania ropy naftowej zdarza\u0142y si\u0119 ju\u017c cztery tysi\u0105ce lat temu (do produkcji asfaltu, nafty lub jako \u017ar\u00f3d\u0142o \u015bwiat\u0142a), ale pierwsza wsp\u00f3\u0142czesna rafineria powsta\u0142a we francuskiej Alzacji w roku 1857. W tym samym czasie rozpocz\u0119to pierwsze odwierty w Europie i Ameryce P\u00f3\u0142nocnej. Z nastaniem XX w. pojawi\u0142o si\u0119 wielkie zapotrzebowanie na rop\u0119, g\u0142\u00f3wnie z uwagi na jej wykorzystanie w silnikach spalinowych w samolotach, samochodach i statkach. Dzi\u015b du\u017ca cz\u0119\u015b\u0107 polityki mi\u0119dzynarodowej jest zdominowana przez kwesti\u0119 dost\u0119pu do jej z\u0142\u00f3\u017c. Warto pami\u0119ta\u0107, \u017ce ropa nale\u017cy do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia pewnych budowli i szkolenia niekt\u00f3rych jednostek.",
-    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ropa|ropy|ropie|rop\u0119.png",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
     "prereq_tech": {
         "name": "Biologia|Biologii|Biologii|Biologi\u0119",
         "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/biology.json"
@@ -50,27 +50,27 @@
     "terrains_found_on": [
         {
             "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
         },
         {
             "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
         },
         {
             "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
         },
         {
             "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
         },
         {
             "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u015bnieg|\u015bniegu|\u015bniegowi|\u015bnieg|\u015bniegi|\u015bnieg\u00f3w|\u015bniegom|\u015bniegi.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
         },
         {
             "name": "Wybrze\u017ce",
-            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/wybrze\u017ce.json"
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/coast.json"
         }
     ]
 }

@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Pradera|Praderas",
         "historical_info": "Por lo general, la Pradera es el tipo de terreno que m\u00e1s Alimentos produce. Las ciudades que se construyen cerca de ellas suelen crecer m\u00e1s r\u00e1pido que las dem\u00e1s.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/pradera|praderas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grassland.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -97,7 +97,7 @@
         "id": 2,
         "name": "Llanura|Llanuras",
         "historical_info": "La llanura proporciona una combinaci\u00f3n de Alimentos y Producci\u00f3n a la ciudad que se encuentre cerca. Una ciudad rodeada de llanura crecer\u00e1 m\u00e1s lentamente que una que se encuentre en una pradera, pero ser\u00e1 mucho m\u00e1s productiva.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/llanura|llanuras.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -199,7 +199,7 @@
         "id": 3,
         "name": "Desierto|Desiertos",
         "historical_info": "Por lo general, los hex\u00e1gonos de Desierto son completamente in\u00fatiles. No dan beneficios a las ciudades (a menos que contenga un oasis o un recurso, claro).",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desierto|desiertos.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -285,7 +285,7 @@
         "id": 4,
         "name": "Tundra|Tundras",
         "historical_info": "La Tundra es la tierra semihelada que se encuentra en los climas m\u00e1s fr\u00edos del mundo. Es menos \u00fatil que la Llanura o la Pradera, pero algo mejor que el Desierto. Nadie construye ciudades en la Tundra a menos que est\u00e9 desesperado por obtener recursos... o no tenga ning\u00fan otro lugar donde ir.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra|tundras.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -363,7 +363,7 @@
         "id": 5,
         "name": "Nieve|Nieves",
         "historical_info": "La nieve resulta muy improductiva, pues no proporciona ning\u00fan beneficio en Alimentos o Producci\u00f3n a la ciudad que se encuentre cerca. Obviamente, es posible que un hex\u00e1gono de nieve pueda contener un recurso \u00fatil, pero por lo dem\u00e1s es fr\u00edo y yermo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/nieve|nieves.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -404,7 +404,7 @@
         "id": 6,
         "name": "Costa",
         "historical_info": "Los hex\u00e1gonos costeros son los hex\u00e1gonos de oc\u00e9ano que est\u00e1n adyacentes a tierra. Proporcionan Alimentos y Oro a una ciudad que se encuentre cerca, pero solo si la civilizaci\u00f3n cuenta con la tecnolog\u00eda Navegaci\u00f3n a vela. \u00danicamente las unidades navales y las unidades terrestres embarcadas pueden entrar en los hex\u00e1gonos costeros.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/costa.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/coast.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -454,7 +454,7 @@
         "id": 7,
         "name": "Oc\u00e9ano|Oc\u00e9anos",
         "historical_info": "Los hex\u00e1gonos de oc\u00e9ano son los que est\u00e1n en aguas profundas. Proporcionan Alimentos y Oro a la ciudad cuando \u00e9sta tiene la tecnolog\u00eda necesaria para acceder a ellos.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/oc\u00e9ano|oc\u00e9anos.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -483,7 +483,7 @@
         "id": 8,
         "name": "Monta\u00f1a|Monta\u00f1as",
         "historical_info": "La Monta\u00f1a es infranqueable, excepto para las unidades a\u00e9reas y las cartaginesas (despu\u00e9s de conseguir un Gran general) Las casillas donde est\u00e1 no proporcionan nada a las ciudades.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/monta\u00f1a|monta\u00f1as.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/mountain.png",
         "movement_cost": -1,
         "combat_modifier": 25,
         "yields": {
@@ -503,7 +503,7 @@
         "id": 9,
         "name": "Colina|Colinas",
         "historical_info": "La Colina aumenta la productividad de una ciudad cercana. Tambi\u00e9n concede importantes bonificaciones en combate a las unidades que se encuentren en ella.",
-        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/colina|colinas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/hill.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {

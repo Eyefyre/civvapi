@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Hielo|Hielos",
         "historical_info": "El hielo es infranqueable, excepto para las unidades a\u00e9reas y las submarinas. Las casillas donde est\u00e1 no proporcionan nada a las ciudades.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/hielo|hielos.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/ice.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -22,7 +22,7 @@
         "id": 2,
         "name": "Selva|Selvas",
         "historical_info": "Oscura, imponente y mortal para los inexpertos, la selva es una rica fuente de alimentos para aquellos que tienen la habilidad y los conocimientos necesarios para vivir en ella. No obstante, la selva no proporciona muchos materiales, y una civilizaci\u00f3n incipiente puede caer en la tentaci\u00f3n de explotar sus minerales o de convertirla en cultivos. No obstante, las unidades militares que se encuentran en ella reciben una bonificaci\u00f3n defensiva importante.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/selva|selvas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jungle.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {
@@ -74,7 +74,7 @@
         "id": 3,
         "name": "Ci\u00e9naga|Ci\u00e9nagas",
         "historical_info": "Aunque ricos en biodiversidad, los pantanos tienen poco que ofrecer a una civilizaci\u00f3n incipiente hambrienta, ya que deben desecarse o trabajarse de alguna forma para que concedan bonificaciones a las ciudades. Ten en cuenta que las unidades militares que se encuentren en ellas recibir\u00e1n una penalizaci\u00f3n importante al ser atacadas.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/ci\u00e9naga|ci\u00e9nagas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/marsh.png",
         "movement_cost": 3,
         "combat_modifier": -15,
         "yields": {
@@ -110,7 +110,7 @@
         "id": 4,
         "name": "Oasis|Oasis",
         "historical_info": "Un Oasis es una zona especialmente exuberante y verde que se encuentra en un Desierto, normalmente porque se asienta sobre una fuente abundante de agua potable. Son recursos extremadamente valiosos en un Desierto que, por lo dem\u00e1s, es yermo y est\u00e1 carente de vida, y los pueblos n\u00f3madas desesperados han librado incontables batallas para hacerse con ellos.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oasis|oasis.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oasis.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -129,7 +129,7 @@
         "id": 5,
         "name": "Terrenos de aluvi\u00f3n|Terrenos de aluvi\u00f3n",
         "historical_info": "Los terrenos de aluvi\u00f3n son baj\u00edos adyacentes a los r\u00edos. Cada a\u00f1o, el r\u00edo los inunda, lo que proporciona riego natural y ricos nutrientes al terreno. Esto hace que los terrenos de aluvi\u00f3n sean una tierra de cultivo incre\u00edblemente f\u00e9rtil y la m\u00e1s productiva del mundo. El Antiguo Egipto debi\u00f3 parte de su riqueza y de su poder a la crecida anual del caudaloso r\u00edo Nilo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/terrenos_de_aluvi\u00f3n|terrenos_de_aluvi\u00f3n.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/flood_plains.png",
         "movement_cost": 1,
         "combat_modifier": -10,
         "yields": {
@@ -157,7 +157,7 @@
         "id": 6,
         "name": "Bosque|Bosques",
         "historical_info": "Para los hombres de los primeros tiempos, los bosques eran una gran fuente de recursos, pues les proporcionaban madera para hacer fuego, utensilios y cobijo, adem\u00e1s de muchos animales para ropas y sustento. A medida que crece una ciudad, lo hace la tentaci\u00f3n de talar los bosques para convertirlos en cultivos, pero un l\u00edder prudente siempre deja unos cuantos: por cuesti\u00f3n de productividad y para mantener animado a su pueblo. Adem\u00e1s, las unidades militares que est\u00e9n en ellos reciben una bonificaci\u00f3n defensiva importante.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/bosque|bosques.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/forest.png",
         "movement_cost": 2,
         "combat_modifier": 25,
         "yields": {
@@ -201,7 +201,7 @@
         "id": 7,
         "name": "Lluvia radiactiva|Lluvias radiactivas",
         "historical_info": "La lluvia radiactiva es la radiaci\u00f3n residual dejada tras una explosi\u00f3n at\u00f3mica. Se llama as\u00ed porque \"llueve\" del aire y cae como una capa de part\u00edculas radioactivas que son extremadamente peligrosas para los seres vivos, pues mata de inmediato a animales y plantas o da\u00f1a su ADN, produci\u00e9ndoles c\u00e1ncer y otras enfermedades o desgraciadas mutaciones. Seg\u00fan el tipo de explosi\u00f3n at\u00f3mica, la tierra puede quedar contaminada durante d\u00e9cadas y, posiblemente, siglos. Para limpiarla se han de sustituir los edificios, el suelo y la vegetaci\u00f3n contaminados.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/lluvia_radiactiva|lluvias_radiactivas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fallout.png",
         "movement_cost": 2,
         "combat_modifier": -15,
         "yields": {
@@ -220,7 +220,7 @@
         "id": 8,
         "name": "Cr\u00e1ter de Barringer|Cr\u00e1teres de Barringer",
         "historical_info": "El de Barringer es un enorme cr\u00e1ter mete\u00f3rico que se encuentra en Arizona, Estados Unidos. El cr\u00e1ter tiene mil doscientos metros de di\u00e1metro y los cient\u00edficos creen que surgi\u00f3 hace unos 50.000 a\u00f1os, cuando cay\u00f3 en el lugar un meteorito de hierro y n\u00edquel que pesaba, en el momento del impacto, unas 145.000 toneladas y que ca\u00eda a unos 12,8 kil\u00f3metros por segundo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cr\u00e1ter_de_barringer|cr\u00e1teres_de_barringer.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_barringer_crater.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -239,7 +239,7 @@
         "id": 9,
         "name": "Monte Fuji|Montes Fuji",
         "historical_info": "El monte Fuji es un volc\u00e1n en activo y la monta\u00f1a m\u00e1s alta de Jap\u00f3n. Su silueta nevada, de m\u00e1s de 3.600 metros de altura y normalmente cubierta de nubes, puede verse desde Tokio. La imponente monta\u00f1a ha inspirado incontables obras de artes poemas, canciones, fotograf\u00edas, esculturas y pinturas. El monte Fuji es un s\u00edmbolo de orgullo y belleza en todo Jap\u00f3n.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_fuji|montes_fuji.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._fuji.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -258,7 +258,7 @@
         "id": 10,
         "name": "Grand Mesa|Grand Mesa",
         "historical_info": "La Grand Mesa es una gran formaci\u00f3n geol\u00f3gica que se encuentra en Colorado, Estados Unidos. Se eleva m\u00e1s de 1.500 metros sobre el territorio circundante y tiene un \u00e1rea de casi 130.000 hect\u00e1reas, lo que la convierte en la meseta m\u00e1s grande del mundo. La Grand Mesa cuenta con una capa de basalto volc\u00e1nico en la parte superior que la hace resistente a la erosi\u00f3n. En realidad, lo curioso no es tanto que se irguiera esa altura en el aire, sino m\u00e1s bien que conserve su altura original mientras que el terreno circundante se ha visto desgastado por la acci\u00f3n de los r\u00edos Colorado y Gunnison.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/grand_mesa|grand_mesa.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_grand_mesa.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -277,7 +277,7 @@
         "id": 11,
         "name": "Gran Barrera de Coral|Grandes Barreras de Coral",
         "historical_info": "La Gran Barrera de Coral es el arrecife de coral m\u00e1s grande del mundo. Es una cadena de casi 3.000 arrecifes y 1.000 islas que se extiende unos 2.500 kil\u00f3metros por la costa del noreste de Australia. Creada en 500.000 a\u00f1os por miles de millones de p\u00f3lipos de coral, constituye la mayor estructura simple del mundo creada por seres vivos. La Gran Barrera de Coral alberga una gran poblaci\u00f3n de ballenas, delfines, marsopas, manat\u00edes, tortugas, peces, pulpos y serpientes, por no mencionar sus m\u00e1s de 200 especies de aves.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/gran_barrera_de_coral|grandes_barreras_de_coral.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_great_barrier_reef.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -296,7 +296,7 @@
         "id": 12,
         "name": "Krakatoa|Krakatoas",
         "historical_info": "Krakatoa es una isla volc\u00e1nica que se encuentra en Indonesia, entre las islas de Java y Sumatra. El volc\u00e1n entr\u00f3 en erupci\u00f3n violentamente en agosto de 1883, con una fuerza equivalente a la de 13.000 veces la potencia de la bomba at\u00f3mica de Hiroshima. La erupci\u00f3n destruy\u00f3 casi la mitad de la isla y se oy\u00f3 en zonas de Australia, a m\u00e1s de 3.000 kil\u00f3metros. En dicha erupci\u00f3n y en los tsunamis consiguientes perecieron unas 37.000 personas. El volc\u00e1n ha estado arrojando lava constantemente durante los \u00faltimos ochenta a\u00f1os, reconstruyendo el cono a una velocidad de unos 5 metros por a\u00f1o.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatoa|krakatoas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatoa.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -315,7 +315,7 @@
         "id": 13,
         "name": "Pe\u00f1\u00f3n de Gibraltar|Pe\u00f1ones de Gibraltar",
         "historical_info": "Gibraltar es una pen\u00ednsula que contiene una extraordinaria formaci\u00f3n rocosa y que se encuentra en la boca del mar Mediterr\u00e1neo. Capturada a Espa\u00f1a por ingleses y holandeses en 1704 y cedida a Inglaterra en 1713, ha sido posesi\u00f3n brit\u00e1nica desde entonces (para gran disgusto de Espa\u00f1a, que quiere recuperarla). Gibraltar preside el paso del Atl\u00e1ntico al Mediterr\u00e1neo y ha sido una base naval brit\u00e1nica importante desde hace trescientos a\u00f1os.La mayor parte de Gibraltar est\u00e1 compuesta por el \"Pe\u00f1\u00f3n\", una enorme formaci\u00f3n de esquisto, arenisca y piedra caliza surgida gracias a la incre\u00edble fuerza de las placas tect\u00f3nicas. El Pe\u00f1\u00f3n mide m\u00e1s de cuatrocientos metros de altura. En el pasado, Gibraltar fue una fortificaci\u00f3n gigantesca que permiti\u00f3 a Gran Breta\u00f1a dominar el estrecho pasadizo entre el Mediterr\u00e1neo y el Atl\u00e1ntico, pero en la actualidad la isla es m\u00e1s una reserva natural y un lugar tur\u00edstico que una base militar.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/pe\u00f1\u00f3n_de_gibraltar|pe\u00f1ones_de_gibraltar.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/rock_of_gibraltar.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -334,7 +334,7 @@
         "id": 14,
         "name": "Old Faithful|Old Faithful",
         "historical_info": "El Old Faithful (\"Viejo Fiel\") es un g\u00e9iser que se encuentra en el parque nacional de Yellowstone, Wyoming, EE. UU. Los europeos lo descubrieron en 1870 (y los ind\u00edgenas unos 10.000 a\u00f1os antes) y se le llam\u00f3 as\u00ed por la regularidad de sus erupciones. El g\u00e9iser escupe una columna de agua hirviendo a una altura de entre 30 y 50 metros cada 60-90 minutos (el intervalo var\u00eda seg\u00fan la intensidad de la erupci\u00f3n anterior). Los g\u00e9iseres aparecen cuando el agua subterr\u00e1nea se encuentra con magma (masa de piedra \u00edgnea). El agua se convierte al instante en vapor, que brota por la abertura que tenga m\u00e1s cerca a una presi\u00f3n enorme. Unos tres millones de visitantes disfrutan cada a\u00f1o del Old Faithful y de los otros 250 g\u00e9iseres de Yellowstone.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful|old_faithful.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -353,7 +353,7 @@
         "id": 15,
         "name": "Fuente de la eterna juventud|Fuentes de la eterna juventud",
         "historical_info": "Una de las primeras menciones a esta legendaria fuente se debe a Herodoto, que la describe como un \"agua de la vida\" particular, que daba una extraordinaria longevidad a todo el que la beb\u00eda. Se contaban historias similares entre los indios del Caribe y Am\u00e9rica del Sur, que dieron notoriedad a la fuente de la eterna juventud durante la era de la exploraci\u00f3n espa\u00f1ola. Seg\u00fan una historia popular, en 1513, el conquistador espa\u00f1ol Juan Ponce de Le\u00f3n oy\u00f3 historias de la fuente durante sus viajes a Puerto Rico y zarp\u00f3 en busca de la vida eterna. En el empe\u00f1o, descubri\u00f3 Florida (y se convirti\u00f3 en uno de los primeros europeos en pisar suelo americano), pero nunca encontr\u00f3 la m\u00edtica fuente. La fuente de la eterna juventud sigue cautivando a la gente hoy en d\u00eda: en pel\u00edculas, libros, c\u00f3mics y juegos ha aparecido el fabuloso manantial y la eterna b\u00fasqueda del hombre por conseguirlo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fuente_de_la_eterna_juventud|fuentes_de_la_eterna_juventud.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fountain_of_youth.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -372,7 +372,7 @@
         "id": 16,
         "name": "Potos\u00ed|Potos\u00edes",
         "historical_info": "Ubicada en el sur de Bolivia, la monta\u00f1a de Potos\u00ed produjo casi la mitad de la plata que los espa\u00f1oles extrajeron durante los d\u00edas de su imperio. Una vez extra\u00edda de la monta\u00f1a, se llevaba en llamas y mulas a la costa, y all\u00ed se embarcaba en los galeones que volv\u00edan a Europa. Durante 200 a\u00f1os se extrajeron cerca de 41.000 toneladas de plata pura, de las cuales 8.200 fueron a parar directamente a la corona espa\u00f1ola. En el siglo XIX, las minas principales de plata quedaron agotadas, pero la miner\u00eda en Potos\u00ed sigue hasta la actualidad. En parte por la plata, pero en su mayor\u00eda por el esta\u00f1o.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/potos\u00ed|potos\u00edes.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cerro_de_potosi.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -391,7 +391,7 @@
         "id": 17,
         "name": "El Dorado|El Dorado",
         "historical_info": "Esta fabulosa \"ciudad de oro perdida\" atrajo a muchos conquistadores espa\u00f1oles al Nuevo Mundo, todos con las esperanza de encontrar sus incalculables riquezas. Durante casi tres siglos, el mito de las piedras preciosas y el oro llev\u00f3 a los exploradores a las costas de Sudam\u00e9rica, que con frecuencia saqueaban las otras ciudades que encontraban a su paso. El Dorado ha cautivado a los exploradores durante siglos, y hasta el a\u00f1o 1804 se montaron expediciones para encontrarlo. No obstante, en la actualidad se cree que la m\u00edtica ciudad se inspir\u00f3 en el nombre de un jefe muisca, que al parecer se cubri\u00f3 de polvo de oro y se sumergi\u00f3 en el lago Guatavita como parte de su rito de iniciaci\u00f3n.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado|el_dorado.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -410,7 +410,7 @@
         "id": 18,
         "name": "Atol\u00f3n|Atolones",
         "historical_info": "Un atol\u00f3n es una formaci\u00f3n de coral que crea una isla. Los atolones suelen tener forma circular, rodean una laguna central de aguas poco profundas y la isla suele ser baja y peque\u00f1a. Los atolones constituyen uno de los tipos de islas m\u00e1s comunes del Pac\u00edfico, junto a las islas de origen volc\u00e1nico. Los atolones son como oasis, en el sentido de que suelen ser los \u00fanicos lugares con tierra en centenares de kil\u00f3metros cuadrados de la extensi\u00f3n pel\u00e1gica. La fauna marina y las aves recurren a ellos con frecuencia y, aunque los humanos han poblado algunos de ellos, los atolones suelen ser inhabitables para los animales terrestres, m\u00e1s grandes. Su escasa altura comporta que las tormentas los engullen con facilidad y suele haber pocos lugares donde resguardarse del sol. Charles Darwin fue el primer occidental en ofrecer una teor\u00eda correcta sobre la formaci\u00f3n de los atolones como resultado de sus observaciones y experiencias en el viaje del Beagle.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atol\u00f3n|atolones.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atoll.png",
         "movement_cost": 1,
         "combat_modifier": 0,
         "yields": {
@@ -429,7 +429,7 @@
         "id": 19,
         "name": "Pico de Ad\u00e1n|Picos de Ad\u00e1n",
         "historical_info": "El Pico de Ad\u00e1n, cuya cima c\u00f3nica se eleva por encima de Sri Lanka, es una monta\u00f1a sagrada para varias religiones por la \"huella\" que se encuentra en su cumbre. La huella, una gran hendidura en una formaci\u00f3n rocosa de la cima, ha sido asociada a Buda, Shiva y Ad\u00e1n, el personaje b\u00edblico, lo que ha suscitado la veneraci\u00f3n de los budistas, hinduistas y seguidores del Islam. Cada a\u00f1o llegan miles de peregrinos que, tras horas de caminata, suben para rendir honores en el enclave sagrado.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/pico_de_ad\u00e1n|picos_de_ad\u00e1n.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/sri_pada.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -448,7 +448,7 @@
         "id": 20,
         "name": "Monte Sina\u00ed|Montes Sina\u00ed",
         "historical_info": "El Monte Sina\u00ed, que se encuentra en la pen\u00ednsula egipcia del mismo nombre, es uno de los lugares m\u00e1s sagrados para los devotos del juda\u00edsmo, el cristianismo y el Islam. Se cree que fue el lugar en el que Dios entreg\u00f3 a Mois\u00e9s los Diez Mandamientos durante el \u00e9xodo israel\u00ed de Egipto, convirtiendo el monte en un lugar importante para los peregrinos de todo el mundo.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_sina\u00ed|montes_sina\u00ed.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._sinai.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -467,7 +467,7 @@
         "id": 21,
         "name": "Monte Kailas|Montes Kailas",
         "historical_info": "El pico del monte Kailas, que se encuentra en el Himalaya del T\u00edbet, es sagrado para varias religiones, especialmente para los hinduistas. Se cree que es el hogar de Shiva, que habita en la monta\u00f1a en un estado de gracia eterna. Se dice que la peregrinaci\u00f3n al monte Kailas es una de las m\u00e1s dif\u00edciles, pues las duras condiciones disuaden a muchos peregrinos y no se puede acceder a la monta\u00f1a usando los medios de transporte modernos.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_kailas|montes_kailas.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._kailash.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -486,7 +486,7 @@
         "id": 22,
         "name": "Uluru|Ulurus",
         "historical_info": "Durante el pasado siglo, esta enorme formaci\u00f3n de arenisca a la que popularmente llaman \"Ayers Rock\" se ha convertido en una de las ense\u00f1as m\u00e1s caracter\u00edsticas de Australia. Mucho antes de que fuera descubierta por unos exploradores ingleses a finales del siglo XIX, la monta\u00f1a se llamaba \"Uluru\", el nombre que le daban las tribus ind\u00edgenas locales, que tienen diferentes leyendas acerca de su creaci\u00f3n y significado. Fue declarada Patrimonio de la Humanidad de la UNESCO en 1987, lo que supuso un aumento inmediato del turismo: cada a\u00f1o llegan cientos de miles de visitantes.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru|ulurus.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -505,7 +505,7 @@
         "id": 23,
         "name": "Lago Victoria|Lagos Victoria",
         "historical_info": "Con una superficie de m\u00e1s de 67.000 kil\u00f3metros cuadrados, el lago Victoria es el lago m\u00e1s grande de \u00c1frica, el segundo lago de agua dulce del mundo y el mayor lago tropical. Dos grandes r\u00edos nacen de \u00e9l, el Nilo Blanco y el Katonga. Los primeros registros hist\u00f3ricos del lago se deben a mercaderes \u00e1rabes que buscaban oro, marfil y otros art\u00edculos de los nativos mientras avanzaban hacia el interior del continente desde la costa. La b\u00fasqueda de las fuentes del Nilo por parte de los exploradores europeos llev\u00f3 al descubrimiento del lago de manos del ingl\u00e9s John Speke en el a\u00f1o 1858, que lo bautiz\u00f3 en nombre de la monarca brit\u00e1nica.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/lago_victoria|lagos_victoria.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/lake_victoria.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -524,7 +524,7 @@
         "id": 24,
         "name": "Kilimanjaro|Kilimanjaros",
         "historical_info": "Compuesto de tres conos volc\u00e1nicos, de los que el m\u00e1s alto alcanza los 5.800 metros (lo que lo convierte en el punto m\u00e1s alto de \u00c1frica y la monta\u00f1a solitaria m\u00e1s alta del mundo), el macizo del Kilimanjaro se encuentra al noreste de Tanzania. Considerado un estratovolc\u00e1n, dos de sus picos (el Mawenzi y el Shira) est\u00e1n apagados, mientras que el m\u00e1s alto (el Kibo) est\u00e1 inactivo y su \u00faltima erupci\u00f3n se remonta a hace unos 150.000 a\u00f1os. Seg\u00fan Johann Krapf, en 1860, los swahilis llamaron \"Kilimanjaro\" a la monta\u00f1a, que quiere decir \"monta\u00f1a de la grandeza\" o \"de las caravanas\".",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/kilimanjaro|kilimanjaros.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._kilimanjaro.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {
@@ -543,7 +543,7 @@
         "id": 25,
         "name": "Minas del rey Salom\u00f3n|Minas del rey Salom\u00f3n",
         "historical_info": "Las minas del rey Salom\u00f3n ejerc\u00edan tal atractivo sobre los exploradores europeos de \u00c1frica del siglo XIX como ejerciera El Dorado sobre los conquistadores espa\u00f1oles del Nuevo Mundo en el siglo XVI. Cuando los europeos encontraron por primera vez las ruinas misteriosas de la antigua ciudad de Zimbabwe, en el este de \u00c1frica, su ubicaci\u00f3n los confundi\u00f3. Se propusieron diversas explicaciones a su existencia, pero la que captur\u00f3 la imaginaci\u00f3n popular fue que el Gran Zimbabwe sirvi\u00f3 de refugio para los trabajadores de las minas del rey Salom\u00f3n y los protegi\u00f3 en las monta\u00f1as de Chimanimani. All\u00ed se cre\u00eda que podr\u00eda encontrarse el tesoro del rey b\u00edblico, compuesto de piedras y metales preciosos. Durante varias d\u00e9cadas, los aventureros y los cazadores de fortunas buscaron sin \u00e9xito las legendarias minas.",
-        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/minas_del_rey_salom\u00f3n|minas_del_rey_salom\u00f3n.png",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/king_solomon's_mines.png",
         "movement_cost": -1,
         "combat_modifier": 0,
         "yields": {

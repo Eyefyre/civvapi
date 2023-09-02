@@ -1,0 +1,35 @@
+{
+    "id": 22,
+    "name": "Caza a reacci\u00f3n|Cazas a reacci\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jet_fighter.png",
+    "game_info": "Una unidad a\u00e9rea pensada para controlar los cielos e interceptar a los aviones enemigos que se acerquen.",
+    "historical_info": "El caza a reacci\u00f3n sigue teniendo un cometido muy similar al de su antecesor, el caza de h\u00e9lice de la Segunda Guerra Mundial, pero guarda con \u00e9l muchas diferencias en lo que se refiere a potencia, armamento y equipo de comunicaciones y electr\u00f3nico. El mejor caza de la Segunda Guerra Mundial pod\u00eda volar a unos 640 kil\u00f3metros por hora en el mejor de los casos, mientras que un caza a reacci\u00f3n es capaz de triplicar esta velocidad. Un avi\u00f3n de la Segunda Guerra Mundial pod\u00eda llevar una o dos ametralladoras y un par de bombas. Un caza moderno puede llevar una ametralladora Gatling de 20 mm, diez o m\u00e1s misiles aire-aire y decenas de cohetes distintos. El veh\u00edculo va equipado con ordenadores sofisticados, radar y equipo de comunicaciones que exceden con creces cualquier otro recurso b\u00e9lico disponible antes en la historia. Al igual que los dem\u00e1s aviones, los cazas a reacci\u00f3n son vulnerables a los misiles tierra-aire, pero la mayor amenaza para ellos la representan los cazas enemigos. El bando que obtenga la superioridad a\u00e9rea conseguir\u00e1 una ventaja casi insuperable en combate.",
+    "strategy": "El Caza a reacci\u00f3n es una poderosa unidad a\u00e9rea. Puede encontrarse en una ciudad propia o llevarse en un Portaaviones. Puede moverse de una base a otra o llevar a cabo \"misiones\" que est\u00e9n en un radio de 10 casillas. \u00dasalos para atacar a los aviones y unidades terrestres del enemigo, explorar sus posiciones o defenderte contra sus ataques a\u00e9reos. El Caza a reacci\u00f3n es especialmente eficaz contra los helic\u00f3pteros enemigos. Tiene la capacidad de reconocimiento a\u00e9reo, lo que significa que todo lo que tenga a 6 casillas de distancia ser\u00e1 visible al empezar el turno. Consulta las reglas sobre Aviones para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "L\u00e1ser",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "Barrido a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconocimiento a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Bombarderos/Helic\u00f3pteros (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

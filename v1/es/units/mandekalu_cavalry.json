@@ -1,0 +1,27 @@
+{
+    "id": 58,
+    "name": "Caballer\u00eda mandekalu|Caballer\u00edas mandekalu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mandekalu_cavalry.png",
+    "game_info": "Una poderosa unidad montada medieval, d\u00e9bil contra Piqueros. Solo los songhai pueden crearla. Esta unidad no recibe una penalizaci\u00f3n cuando ataca ciudades, a diferencia del Caballero, al que sustituye.",
+    "historical_info": "Igual que sus hom\u00f3logos del norte, los ej\u00e9rcitos musulmanes tambi\u00e9n contaban con unidades de caballer\u00eda pesada, parecidas en forma y estructura a los caballeros europeos. Como \u00e9stos, los musulmanes tambi\u00e9n proven\u00edan de los estratos m\u00e1s altos de la sociedad y contaban con las mejores armas, armaduras y caballos. La armadura pod\u00eda ser modificada para reflejar las diferencias de clima (hasta el caballero m\u00e1s noble se asar\u00eda r\u00e1pidamente si llevara una armadura de placas en verano en Oriente Medio), pero segu\u00eda confiri\u00e9ndoles una gran ventaja sobre otras unidades en el campo de batalla. Los registros hist\u00f3ricos admiten que los caballeros musulmanes sol\u00edan ser un digno rival para sus adversarios europeos.",
+    "strategy": "Es una unidad exclusiva de Songhai que sustituye al Caballero. Tiene las mismas estad\u00edsticas que este, pero es bastante mejor atacando ciudades. La Caballer\u00eda mandekalu puede moverse despu\u00e9s de atacar. Su velocidad hace dif\u00edcil que el enemigo pueda construir una l\u00ednea defensiva antes de que la Caballer\u00eda mandekalu alcance su objetivo.",
+    "movement": 4,
+    "cost": {
+        "production": 110,
+        "faith": 220
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

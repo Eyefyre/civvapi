@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Carovana|una Carovana|dalla tua Carovana|alla tua Carovana|la tua Carovana|da una Carovana",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Stabilisce fra due civilt\u00e0 una Rotta commerciale terrestre che fa guadagnare Oro. Dopo la costruzione di un Granaio o una Bottega pu\u00f2 anche essere usata per trasferire Cibo o Produzione all'interno del tuo impero.",
+    "historical_info": "Da tempo immemorabile i mercanti hanno usato le bestie da soma, dai cavalli ai muli, fino a cammelli e lama, per trasportare le loro merci in paesi lontani. Le prime testimonianze storiche delle carovane risalgono al 1000 a.C. circa, quando i cammellieri trasportavano gemme, metalli preziosi, incenso e spezie lungo la costa occidentale dell'Arabia, collegando l'India all'Egitto, alla Fenicia e agli imperi della Mesopotamia. Alcune rotte di carovane, come la famosa Via della Seta tra la Cina e il Medio Oriente, hanno segnato la storia tanto quanto le guerre e le ideologie. Oggi le carovane di animali sono state in gran parte soppiantate dai trasporti motorizzati, ma \u00e8 ancora possibile vedere una carovana attraversare territori particolarmente inospitali come il deserto del Sahara o quello del Gobi.",
+    "strategy": "Una Carovana ti permette di stabilire una Rotta commerciale terrestre fra due civilt\u00e0, facendo guadagnare Oro sia alla civilt\u00e0 d'origine sia a quella di destinazione. La presenza di un Granaio o di una Bottega nella citt\u00e0 di partenza ti permette anche di trasferire Cibo o Produzione tra le tue citt\u00e0. Una volta assegnata a una rotta, la Carovana non pu\u00f2 difendersi, perci\u00f2 assicurati che non ci siano pericoli.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Allevamento di animali|dell'Allevamento di animali",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

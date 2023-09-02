@@ -1,0 +1,49 @@
+{
+    "id": 22,
+    "name": "Moai",
+    "game_info": "By\u0107 mo\u017ce lepiej znane jako pos\u0105gi z Wyspy Wielkanocnej, moai to ogromne figury ludzi wyrze\u017abione zwykle z wulkanicznych g\u0142az\u00f3w narzutowych. Na terenie wyspy znajduje si\u0119 887 takich statui i uwa\u017ca si\u0119, \u017ce zosta\u0142y stworzone mi\u0119dzy 1250 a 1500 rokiem naszej ery. Prawie po\u0142owa z nich nadal znajduje si\u0119 w miejscu wydobycia u\u017cytego budulca, jednak reszta zosta\u0142a przeniesiona i ustawiona na wybrze\u017cu wyspy. \u0141atwo rozpoznawalne ze wzgl\u0119du na swe du\u017ce g\u0142owy i wyd\u0142u\u017cone proporcje, uwa\u017cane s\u0105 za wizerunki zmar\u0142ych przodk\u00f3w i pot\u0119\u017cnych wodz\u00f3w.Wi\u0119kszo\u015b\u0107 naukowc\u00f3w zgadza si\u0119 co do przyczyn i metod stworzenia pos\u0105g\u00f3w, jednak spos\u00f3b ich transportu nadal pozostaje tajemnic\u0105. Wa\u017c\u0105ce od 9 do 86 ton i wykonane z jednego kawa\u0142ka ska\u0142y rze\u017aby wymaga\u0142yby u\u017cycia niesamowitej technologii, by mo\u017cliwy by\u0142 transport z miejsca wydobycia do docelowego miejsca ich ustawienia.W 1994 roku statuy moai zosta\u0142y oficjalnie wpisane na list\u0119 \u015awiatowego Dziedzictwa UNESCO.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/moai.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+        },
+        {
+            "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "Polynesia",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/polynesia.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

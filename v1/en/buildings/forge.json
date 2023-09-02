@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Forge",
+    "game_info": "+15% Production when building Land Units.Each source of Iron worked by this City produces +1 Production.City must have a mined source of Iron nearby.",
+    "strategy": "The Forge can only be constructed in a city with an improved source of Iron nearby. It increases the speed at which the city produces land units.",
+    "historical_info": "A forge is a building containing a furnace capable of generating the temperatures necessary to melt and shape iron into anything from horseshoes to nails to arrowheads. This requires a significant amount of heat, and the blacksmith might have an apprentice or assistant who did nothing much but pump bellows to blow fresh air on the flames to keep them hot. A blacksmith might \"work\" iron by getting it red-hot and then beating it into shape on an anvil with various hammers. Or the smith might pour molten metal into forms of clay or sand or metal, removing the forms once the iron had cooled enough to hold its shape.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/forge.png",
+    "prereq_tech": {
+        "name": "Metal Casting",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

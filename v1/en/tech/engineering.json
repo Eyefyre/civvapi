@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "Engineering",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "Classical Era",
+    "cost": 175,
+    "civilopedia_entry": "Engineering is the science (or art perhaps) of designing complex materials, structures, devices, and systems. In modern parlance it has a fairly wide reach - bioengineers design cells, software engineers create computer programs, and so forth - but historically the term was applied to the construction of physical stuff, like machines, bridges, railroads, factories, and so forth. (Originally the term \"engineer\" referred specifically to those who created military engines.)Engineering came into its own in the 19th century, as countries around the world embarked on huge construction projects. Completed by the French in 1869, the Suez Canal connected the Mediterranean Sea and the Red Sea, making it possible to sail from Europe to India without the long and arduous journey around Africa. The United States completed the transcontinental railroad in the same year, and the Brooklyn Bridge was constructed in 1883.",
+    "quote": "\"Instrumental or mechanical science is the noblest and, above all others, the most useful.\" - Leonardo da Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Mathematics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+        },
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Metal Casting",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+        },
+        {
+            "name": "Machinery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Great Wall",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/great_wall.json"
+        },
+        {
+            "name": "Aqueduct",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/aqueduct.json"
+        }
+    ]
+}

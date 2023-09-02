@@ -1,0 +1,34 @@
+{
+    "id": 6,
+    "name": "Steinbruch",
+    "game_info": "Im allgemeinen Sprachgebrauch bezeichnet ein Steinbruch einen Ort, an dem Steine oder Kies produziert werden. In Civilization V erh\u00f6hen Steinbr\u00fcche die Produktion der Ressource Stein und bieten Zugang zum Luxusgut Marmor, einem sehr wertvollen Stein, der beim Bau und in der Kunst verwendet wird.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/steinbruch.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Marmor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+        },
+        {
+            "name": "Stein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Steinmetzkunst",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/masonry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

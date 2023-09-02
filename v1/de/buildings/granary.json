@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Kornspeicher",
+    "game_info": "Jede von dieser Stadt genutzte Quelle von Weizen, Bananen und Wild produziert +1 Nahrung.Erm\u00f6glicht den Transport von Nahrung aus dieser Stadt \u00fcber Handelswege innerhalb Eurer Zivilisation.",
+    "strategy": "Der Kornspeicher erh\u00f6ht die Nahrungskapazit\u00e4t einer Stadt und beschleunigt so ihr Wachstum. Er ist n\u00fctzlich, wenn Ihr schnell eine gro\u00dfe Stadt erschaffen wollt.",
+    "historical_info": "Ein Kornspeicher ist ein Geb\u00e4ude, in dem Korn f\u00fcr Menschen und Zuchttiere gelagert werden kann. Die bisher \u00e4ltesten bekannten Kornspeicher wurden in einer Siedlung aus dem pr\u00e4keramischen Neolithikum im Jordantal im Nahen Osten gefunden und sind auf etwa 9.500 v. Chr. datiert. Diese ersten Kornspeicher ma\u00dfen in etwa 10 qm und enthielten erhobene Ebenen, um einen freien Luftaustausch zu erm\u00f6glichen und das Korn etwas vor M\u00e4usen und anderen Gefahren zu sch\u00fctzen.",
+    "cost": {
+        "production": 60,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kornspeicher.png",
+    "prereq_tech": {
+        "name": "Keramik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

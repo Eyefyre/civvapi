@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Oro",
+    "game_info": null,
+    "historical_info": "L'oro \u00e8 un metallo morbido, splendente e malleabile. Nel corso della storia \u00e8 stato molto ricercato da uomini e donne. Si tratta inoltre di un metallo raro, cosa che contribuisce a renderlo ancora pi\u00f9 prezioso. Anche se conosce alcuni usi industriali e medici, l'oro \u00e8 utilizzato essenzialmente come valuta o a scopi decorativi per impreziosire gioielli, calici, utensili e altri beni dei ricchissimi e dei potenti.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oro.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

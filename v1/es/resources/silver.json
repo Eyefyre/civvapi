@@ -1,0 +1,37 @@
+{
+    "id": 17,
+    "name": "Plata",
+    "game_info": null,
+    "historical_info": "La plata es un metal precioso brillante, blando y maleable. Es muy apreciada por su belleza y durante siglos se ha utilizado en los ornamentos, joyer\u00eda, utensilios y monedas de las culturas de todo el mundo. La plata tambi\u00e9n tiene unas propiedades excelentes como conductor t\u00e9rmico y el\u00e9ctrico, lo que la hace muy \u00fatil en electr\u00f3nica. La humanidad lleva extray\u00e9ndola desde hace 6.000 a\u00f1os, posiblemente m\u00e1s. En 1859 se descubri\u00f3 el \"fil\u00f3n de Comstock\" en Nevada, EE. UU. Era un dep\u00f3sito enorme de plata que propici\u00f3 un gran boom en la econom\u00eda del lugar. Los buenos tiempos duraron cerca de veintitr\u00e9s a\u00f1os, hasta que los niveles inferiores de la mina se inundaron y se acab\u00f3 la extracci\u00f3n, momento en que las \"ciudades del boom\" se despoblaron y murieron.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/plata.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

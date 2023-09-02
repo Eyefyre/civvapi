@@ -1,0 +1,84 @@
+{
+    "id": 6,
+    "name": "Uranio",
+    "game_info": "Usato da Bombe atomiche, Centrali nucleare e Robot Giganti della Morte.",
+    "historical_info": "L'uranio \u00e8 un minerale naturale radioattivo che, una volta arricchito, pu\u00f2 essere usato per generare enormi quantit\u00e0 di energia o per far saltare in aria le cose. Scoperto nel XVIII secolo, \u00e8 diventato prezioso solo nel Novecento, quando nel corso della terribile Seconda Guerra Mondiale gli scienziati americani scoprirono il modo per trasformarlo in uno degli esplosivi pi\u00f9 letali della storia umana. Quando viene utilizzato a scopi civili, l'uranio \u00e8 considerato come una fonte d'energia \"pulita\" perch\u00e9 non inquina l'atmosfera come il carbone e il petrolio. D'altro canto, per\u00f2, le scorie nucleari sono incredibilmente tossiche e in grado di avvelenare per centinaia d'anni terra, aria, acqua e qualsiasi organismo venga a contatto con esse, il che lo rende a suo modo problematico. Ricorda che l'uranio costituisce una risorsa strategica e viene consumato a seguito della costruzione di unit\u00e0 ed edifici a esso collegati.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranio.png",
+    "prereq_tech": {
+        "name": "Teoria atomica|della Teoria Atomica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/atomic_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        },
+        {
+            "name": "Dogana|una Dogana|una Dogana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+        },
+        {
+            "name": "Accademia|un'Accademia|un'Accademia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+        },
+        {
+            "name": "Cittadella|una Cittadella|una Cittadella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+        },
+        {
+            "name": "Manifattura|una Manifattura|una Manifattura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+        },
+        {
+            "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Giungla|la giungla|una giungla",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/giungla|la_giungla|una_giungla.json"
+        },
+        {
+            "name": "Foresta|la foresta|una foresta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/foresta|la_foresta|una_foresta.json"
+        },
+        {
+            "name": "Palude|la palude|una palude",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/palude|la_palude|una_palude.json"
+        },
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/neve.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

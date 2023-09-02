@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Templo|Templos",
+    "game_info": null,
+    "strategy": "El Templo aumenta la Fe de una ciudad, aumentando la velocidad a la que puedes descubrir y propagar religiones. La ciudad debe contener un Santuario o una Pir\u00e1mide para poder construir un Templo en ella.",
+    "historical_info": "El templo es un edificio religioso al que los fieles acuden para venerar. Estos edificios demuestran que una comunidad es razonablemente rica y devota, ya que puede permitirse la construcci\u00f3n de una estructura especial y el mantenimiento de los sacerdotes, ac\u00f3litos, v\u00edrgenes vestales o monjes de su interior. En muchas culturas primitivas, todas las familias ten\u00edan un peque\u00f1o santuario en su domicilio. El templo independiente m\u00e1s antiguo data del d\u00e9cimo milenio a. C., y se encuentra en el sureste de Turqu\u00eda.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/templo|templos.png",
+    "prereq_tech": {
+        "name": "Filosof\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "id": 4,
+    "name": "Tundra",
+    "historical_info": "Tundra is the semi-frozen land found in the world's colder climates. It is less useful than plains or grassland, but slightly better than desert. Nobody builds cities in the tundra unless they're desperate for resources - or they've got nowhere else to go.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Iron",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/iron.json"
+        },
+        {
+            "name": "Horses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/horses.json"
+        },
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Aluminum",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Deer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/deer.json"
+        },
+        {
+            "name": "Stone",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/stone.json"
+        },
+        {
+            "name": "Silver",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silver.json"
+        },
+        {
+            "name": "Gems",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gems.json"
+        },
+        {
+            "name": "Marble",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/marble.json"
+        },
+        {
+            "name": "Furs",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/furs.json"
+        },
+        {
+            "name": "Copper",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/copper.json"
+        },
+        {
+            "name": "Salt",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/salt.json"
+        }
+    ]
+}

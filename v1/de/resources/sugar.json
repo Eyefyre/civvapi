@@ -1,0 +1,33 @@
+{
+    "id": 25,
+    "name": "Zucker",
+    "game_info": null,
+    "historical_info": "Zucker ist eine unglaublich s\u00fc\u00dfe Substanz, die aus Zuckerrohr (oder Zuckerr\u00fcben) gewonnen und zum S\u00fc\u00dfen von Speisen und Getr\u00e4nken verwendet wird. Man nimmt an, dass die Einwohner Polynesiens die Ersten waren, die Zucker verwendeten, und dass sich diese Praxis sp\u00e4ter nach Indien und von dort aus \u00fcber Asien und Europa verbreitete. Schlie\u00dflich wurde Zuckerrohr in die Karibik und nach Nord- und S\u00fcdamerika transportiert, wo extrem gute Anbaubedingungen herrschten. Da Zucker und seine Verwandten Glukose, Fruktose usw. billig und in H\u00fclle und F\u00fclle vorhanden sind, findet man sie heute in nahezu allen verarbeiteten Nahrungsmitteln der Welt, sehr zum Unmut von Zahn\u00e4rzten und Ern\u00e4hrungsberatern.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/zucker.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Schwemmland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/schwemmland.json"
+        },
+        {
+            "name": "Sumpf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/sumpf.json"
+        }
+    ]
+}

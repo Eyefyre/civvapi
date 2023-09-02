@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Balista|Balistas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Inflige un gran da\u00f1o desde lejos, pero debe desplegarse antes de disparar. Solo los romanos pueden construirla. Esta unidad tiene m\u00e1s Fuerza de combate a distancia [ICON_RANGE_STRENGTH] que la Catapulta, a la que sustituye.",
+    "historical_info": "La balista romana era una catapulta perfeccionada que disparaba piedras o proyectiles de madera al enemigo. Estaba fabricada con madera y reforzada con pesadas placas de hierro y era sorprendentemente precisa en manos entrenadas. Sus proyectiles pod\u00edan volar unos 500 metros, pero su alcance pr\u00e1ctico era mucho menor, sobre todo contra una posici\u00f3n fortificada. Julio C\u00e9sar las emple\u00f3 con gran eficacia en sus campa\u00f1as de Germania y Britania.",
+    "strategy": "Una unidad exclusiva romana, m\u00e1s poderosa que la Catapulta, a la que sustituye. La Balista es una excelente arma de asedio. Es extremadamente \u00fatil contra las ciudades, aunque resulta muy vulnerable a los ataques. Aseg\u00farate de protegerla con otras unidades militares. Para poder atacar, la Balista ha de \"desplegarse\" (1 PM).",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matem\u00e1ticas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

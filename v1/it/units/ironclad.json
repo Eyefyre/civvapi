@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "name": "Ironclad|una Ironclad|dalla tua Ironclad|alla tua Ironclad|la tua Ironclad|da una Ironclad",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ironclad.png",
+    "game_info": "Unit\u00e0 navale da mischia molto potente, la Ironclad paga la sua forza con un movimento molto lento nelle caselle di Oceano.",
+    "historical_info": "Alcuni sognatori dall'immaginazione particolarmente fervida hanno concepito l'esistenza di vascelli corazzati a propulsione meccanica gi\u00e0 ai tempi di Leonardo da Vinci, ma le navi da battaglia si diffusero solo durante la guerra civile americana, a met\u00e0 del XIX secolo. Il primo vero scontro avvenne nel 1862, tra la Monitor dell'Unione e la Virginia (nota anche come \"Merrimac\") della Confederazione. La battaglia dur\u00f2 quattro ore: i due vascelli corazzati continuarono a scambiarsi cannonate con scarso effetto, tanto che alla fine lo scontro fin\u00ec con una specie di pareggio. L'effetto della battaglia sul mondo, comunque, fu decisamente profondo. In una sola mattinata di combattimento non decisivo questi vascelli goffi e pesanti, capaci per\u00f2 di navigare controvento e praticamente immuni ai cannoni dell'epoca, resero obsolete tutte le flotte del mondo.",
+    "strategy": "Le Ironclad sono le prime navi da guerra a vapore disponibili nel gioco. Le Ironclad attaccano da vicino. Sono pi\u00f9 resistenti di qualsiasi vascello a vela e hanno una Forza di combattimento superiore. Il loro utilizzo principale \u00e8 la difesa delle coste e l'assalto delle citt\u00e0.",
+    "movement": 3,
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Energia a vapore|dell'Energia a vapore",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Movimento doppio lungo la costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/double_movement_in_coast.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "id": 18,
+    "name": "Customs House",
+    "game_info": "A Customs House is a governmental building where taxes are paid on a country's imported and exported goods. It ensures that the government gets its cut (or \"fair share,\" if you prefer) of profits on every cargo moving through a harbor. Given the amount of money involved, the opportunity for corruption is unlimited. Throughout history customs officials have not been famous for resisting temptation.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/customs_house.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Horses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/horses.json"
+        },
+        {
+            "name": "Iron",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/iron.json"
+        },
+        {
+            "name": "Coal",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/coal.json"
+        },
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Aluminum",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 4,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

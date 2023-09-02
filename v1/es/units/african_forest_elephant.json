@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "Elefante de los bosques|Elefantes de los bosques",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Una unidad montada poderosa de las primeras fases del juego. Es d\u00e9bil contra Lanceros y solo la pueden crear los cartagineses. Tiene m\u00e1s Fuerza de combate que el Jinete, al que sustituye, e infunde miedo a las unidades enemigas que haya cerca. Ayuda a generar Grandes generales con m\u00e1s rapidez.",
+    "historical_info": "El elefante era una bestia de carga y un arma peligrosa a la que las fuerzas cartaginesas recurr\u00edan con frecuencia a las \u00f3rdenes del general An\u00edbal durante sus campa\u00f1as romanas. Fueron utilizados durante las Guerras P\u00fanicas con diverso grado de \u00e9xito; los elefantes estaban entrenados para cargar contra las l\u00edneas enemigas transportando soldados en g\u00f3ndolas montadas en sus lomos. A pesar de su gran tama\u00f1o, los elefantes eran vulnerables al progreso de la infanter\u00eda m\u00f3vil, y el cuidado y las atenciones que requer\u00edan unos animales tan grandes sol\u00edan provocar su muerte durante las largas marchas que emprend\u00eda el ej\u00e9rcito cartagin\u00e9s.",
+    "strategy": "El Elefante de los bosques africano es una unidad exclusiva cartaginesa que sustituye al Jinete. Los elefantes cartagineses son m\u00e1s lentos pero m\u00e1s fuertes que este, y pueden moverse despu\u00e9s de atacar. Tambi\u00e9n infunden miedo a las unidades enemigas que haya cerca, lo que les concede un modificador negativo al combate. Ganar un combate con un elefante aumenta la posibilidad de generar Grandes generales.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "Equitaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Elefante temible",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/feared_elephant.json"
+        },
+        {
+            "name": "Grandes generales II",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/great_generals_ii.json"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 6,
+    "name": "C\u00f4te",
+    "historical_info": "Les cases c\u00f4ti\u00e8res sont les cases d'oc\u00e9an directement adjacentes \u00e0 la terre ferme. Elles fournissent de la nourriture et de l'or aux villes \u00e0 proximit\u00e9, \u00e0 condition que leur civilisation ait d\u00e9couvert la technologie Navigation \u00e0 voile. Seules les unit\u00e9s navales et les unit\u00e9s terrestres \"embarqu\u00e9es\" peuvent traverser les cases c\u00f4ti\u00e8res.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/c\u00f4te.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Glace",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/ice.json"
+        },
+        {
+            "name": "Atoll|Atolls",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/atoll.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Poissons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/fish.json"
+        },
+        {
+            "name": "Baleines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/whales.json"
+        },
+        {
+            "name": "Perles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/pearls.json"
+        },
+        {
+            "name": "Crabe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/crab.json"
+        }
+    ]
+}

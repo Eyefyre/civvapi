@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Chivalry",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "Medieval Era",
+    "cost": 485,
+    "civilopedia_entry": "Chivalry describes the honorable behavior expected of \"knights\" - the armed nobility of a culture. It is very roughly akin to \"bushido\" (way of the warrior) code of conduct of Japanese samurai. The chivalric code was at its height in the 12th century, fueled by the Crusades, in which the knights believed that they were doing God's work by smiting the unbelievers in the Middle East. To earn God's favor one must act in a godly manner; unchivalrous behavior might very well result in failure, death, and damnation. The Muslim knights opposing the Christians had similar and in some ways even more \"civilized\" codes.Some form of chivalric code is crucial in a civilization where one privileged class has access to weapons that lower classes are denied. Otherwise the people with the weapons may lean too hard on the lower classes, resulting in oppression, escalating civil unrest and potentially devastating revolution.",
+    "quote": "\"Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.\" - Malory",
+    "tech_prereqs": [
+        {
+            "name": "Civil Service",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+        },
+        {
+            "name": "Guilds",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Banking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+        },
+        {
+            "name": "Printing Press",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Knight",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/knight.json"
+        },
+        {
+            "name": "Camel Archer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/camel_archer.json"
+        },
+        {
+            "name": "Naresuan's Elephant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Mandekalu Cavalry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Keshik",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/keshik.json"
+        },
+        {
+            "name": "Conquistador",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Mughal Fort",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Castle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/alhambra.json"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Drama und Dichtung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "Klassik",
+    "cost": 175,
+    "civilopedia_entry": "Drama und Dichtung sind beides Formen des k\u00fcnstlerischen Ausdrucks, wobei sich erstere durch den Einsatz visueller Darbietung auszeichnet und letztere durch das geschriebene Wort. Drama assoziiert man meist mit einer Theaterdarbietung - St\u00fccke, Musicals, Opern - selbst wenn in der heutigen Zeit die traditionellen Formen von TV- und Filmproduktionen \u00fcberholt wurden. Die Dichtung konzentriert sich auf den Einsatz geschriebener Sprache, um sowohl die direkte Bedeutung zu vermitteln, oftmals aber auch Denkanst\u00f6\u00dfe auf einer zweiten Ebene zu geben.",
+    "quote": "\"Was ist Drama, wenn nicht das Leben, nur ohne den langweiligen Teil.\" - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        },
+        {
+            "name": "\u00d6ffentliche Verwaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Nationalepos",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/national_epic.json"
+        },
+        {
+            "name": "Amphitheater",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/amphitheater.json"
+        },
+        {
+            "name": "Schriftstellergilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Parthenon",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/parthenon.json"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 56,
+    "name": "Arciere su cammello|un Arciere su cammello|dal tuo Arciere su cammello|al tuo Arciere su cammello|il tuo Arciere su cammello|da un Arciere su cammello",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/camel_archer.png",
+    "game_info": "Unit\u00e0 veloce che attacca a distanza, di epoca medievale, debole contro i Picchieri. Solo gli arabi possono costruirla. A differenza del Cavaliere, che sostituisce, \u00e8 un'unit\u00e0 che attacca a distanza.",
+    "historical_info": "Alcuni guerrieri musulmani andavano in battaglia cavalcando dei cammelli. Questo in genere sconvolgeva i cavalli provenienti dall'Europa, che non avevano mai incontrato prima quegli strani animali. Come si pu\u00f2 immaginare, i cammelli sono pi\u00f9 adatti dei cavalli per muoversi nel deserto. In generale gli arcieri su cammelli adottavano una tecnica stile \"colpisci e fuggi\", pi\u00f9 simile a quella degli arcieri mongoli che ai cavalieri o alle altre unit\u00e0 di cavalleria pesante. Un'unit\u00e0 di arcieri su cammelli ben addestrati poteva risultare molto difficile da affrontare per dei cavalieri, a meno che questi non fossero a loro volta protetti da arcieri o da un distaccamento di cavalleria leggera.",
+    "strategy": "L'Arciere su cammello \u00e8 un'unit\u00e0 esclusiva degli Arabi e sostituisce il Cavaliere. \u00c8 una potente unit\u00e0 che attacca a distanza, in grado di colpire nemici lontani 2 esagoni. Inoltre pu\u00f2 muoversi dopo il combattimento. Nel corpo a corpo un Arciere su cammello \u00e8 meno potente di un Cavaliere. Un Arciere su cammello \u00e8 considerato alla stregua di cavalleria e quindi vulnerabile all'attacco dei Picchieri.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lansjerzy|Lansjer\u00f3w|Lansjerojom|Lansjer\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Kawaleria wyspecjalizowana w zwalczaniu innych jednostek tego typu.",
+    "historical_info": "Lansjerzy byli kawalerzystami epoki renesansu. W zwi\u0105zku z rosn\u0105c\u0105 popularno\u015bci\u0105 dzia\u0142 i broni palnej, wzros\u0142o znaczenie szybko\u015bci i manewrowo\u015bci, tak\u017ce lansjerzy zrezygnowali z wi\u0119kszo\u015bci opancerzenia, zachowuj\u0105c tylko stalowy napier\u015bnik. Mimo post\u0119pu technologicznego lanca w r\u0119kach wyszkolonego je\u017ad\u017aca okaza\u0142a si\u0119 by\u0107 wyj\u0105tkowo pot\u0119\u017cn\u0105 broni\u0105. W czasie wojen napoleo\u0144skich lansjerzy byli postrachem piechoty. Stan taki utrzyma\u0142 si\u0119 do XIX wieku, gdy do powszechnego u\u017cycia wesz\u0142y karabiny.",
+    "strategy": "Lansjerzy to jednostka kawaleryjska z czas\u00f3w renesansu. Plasuje si\u0119 mi\u0119dzy rycerzami i kawaleri\u0105. Jest szybsza i pot\u0119\u017cniejsza od rycerza. Potrafi zmie\u015b\u0107 z mapy te niegdy\u015b pot\u0119\u017cne jednostki. Lansjerzy s\u0105 w stanie powa\u017cnie zagrozi\u0107 nawet kawalerii.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Szyk I|Szyku I|Szykowi I|Szyk I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/formation_i.json"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrializaci\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "Era Industrial",
+    "cost": 1600,
+    "civilopedia_entry": "La industrializaci\u00f3n se contempla como la forma de transici\u00f3n de una sociedad agraria a una industrial, que suele ir acompa\u00f1ada de grandes cambios sociales y econ\u00f3micos en toda la comunidad. La Revoluci\u00f3n Industrial, que empez\u00f3 en Europa durante el s. XVIII, trajo enormes cambios en la manera en que la gente viv\u00eda el d\u00eda a d\u00eda. Debido a la disponibilidad de herramientas y m\u00e1quinas cada vez m\u00e1s complejas, muchos oficios que anta\u00f1o se hab\u00edan reservado a los artesanos de m\u00e1s talento quedaron obsoletos con la llegada de las cadenas de montaje, en las que trabajaban una pl\u00e9tora de obreros sin ning\u00fan nivel de especializaci\u00f3n.",
+    "quote": "\"La industrializaci\u00f3n basada en la maquinaria, que ya se considera una caracter\u00edstica de nuestra \u00e9poca, no es m\u00e1s que un aspecto de la revoluci\u00f3n que comporta la tecnolog\u00eda.\" - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ametralladora Gatling|Ametralladoras Gatling",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "F\u00e1brica|F\u00e1bricas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben|Big Bens",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/big_ben.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio|un Tercio|dal tuo Tercio|al tuo Tercio|il tuo Tercio|da un Tercio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Unit\u00e0 militare dominante di epoca rinascimentale. Solo gli spagnoli possono costruirla. Quest'unit\u00e0 ha una Forza di combattimento superiore rispetto al Soldato con moschetto, che sostituisce. Inoltre gode del Bonus contro unit\u00e0 a cavallo (50). Tuttavia, \u00e8 pi\u00f9 costosa da produrre.",
+    "historical_info": "Il Tercio ha rappresentato una brillante innovazione militare: una formazione mista di picchieri e archibugieri, creata all'inizio del XVI secolo dal generale spagnolo Gonzalo Fern\u00e1ndez de C\u00f3rdoba. Il Tercio (noto anche come \"quadrato spagnolo\") era una struttura a scacchiera in cui picchieri e archibugieri erano disposti a blocchi alternati per proteggersi reciprocamente. I vantaggi di questa disposizione sono evidenti: gli archibugieri potevano attaccare il nemico a distanza, mentre i picchieri avanzavano per occuparsi del corpo a corpo. Questa formazione avrebbe dominato i campi di battaglia rinascimentali per pi\u00f9 di un secolo.",
+    "strategy": "Il Tercio sostituisce il Soldato con moschetto ed \u00e8 una delle due unit\u00e0 esclusive spagnole. In combattimento \u00e8 pi\u00f9 potente del Soldato con moschetto; inoltre la sua forza raddoppia contro unit\u00e0 a cavallo. Tuttavia, il Tercio \u00e8 pi\u00f9 costoso da produrre.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "Polvere da sparo|della Polvere da sparo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

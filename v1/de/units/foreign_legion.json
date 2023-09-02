@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "Fremdenlegion",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Infanterie-Spezialeinheit der Moderne. Ist nur \u00fcber den Grundsatz Freiwilligenarmee der Ideologie Freiheit verf\u00fcgbar. Diese Einheit verf\u00fcgt \u00fcber einen Kampfbonus au\u00dferhalb verb\u00fcndeten Territoriums, ist ansonsten aber der Weltkriegs-Infanterie sehr \u00e4hnlich.",
+    "historical_info": "Die franz\u00f6sische Fremdenlegion wurde 1831 gegr\u00fcndet und ist eine einzigartige Infanterieeinheit der Franz\u00f6sischen Armee. Sie wurde speziell f\u00fcr Ausl\u00e4nder gegr\u00fcndet, die f\u00fcr Frankreich k\u00e4mpfen wollten. Die Fremdenlegion, die f\u00fcr ihren Mut ber\u00fchmt ist und bei der pers\u00f6nliche Sicherheit an letzter Stelle steht, war seit ihrer Gr\u00fcndung in alle Kriege mit franz\u00f6sischer Beteiligung involviert. Es ranken sich allerhand verkl\u00e4rte Geschichten und Mythen um sie: Eine weitverbreitete Meinung ist, dass sich vor allem M\u00e4nner mit Liebeskummer freiwillig melden, um ihre Verflossenen zu vergessen - oder Schurken, um ihrer Bestrafung zu entgehen. Daran mag etwas Wahres sein, doch sicher ist, dass die Fremdenlegion eine harte und \u00e4u\u00dferst effektive Einsatztruppe ist.",
+    "strategy": "Die Fremdenlegion ist eine Spezialeinheit, die nur \u00fcber den Grundsatz Freiwilligenarmee der Ideologie Freiheit verf\u00fcgbar ist. Sie erh\u00e4lt einen erheblichen Kampfbonus, wenn sie au\u00dferhalb des eigenen Territoriums eingesetzt wird, und ist somit eine pr\u00e4destinierte Einheit, um die Kontrolle \u00fcber fremdes Gebiet zu erlangen.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Normbauteile",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fremdes-Land-Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

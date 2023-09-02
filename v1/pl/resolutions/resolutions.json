@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "Przyw\u00f3dca \u015bwiatowy",
+        "summary": "Wyznacz przyw\u00f3dc\u0119 \u015bwiatowego. Je\u015bli cywilizacja uzyska poparcie wystarczaj\u0105cej liczby delegat\u00f3w w kongresie, przyw\u00f3dca odniesie zwyci\u0119stwo dyplomatyczne. Liczba potrzebnych delegat\u00f3w uzale\u017cniona jest od ilo\u015bci cywilizacji oraz pa\u0144stw-miast, jakie uczestnicz\u0105 w rozgrywce, i mo\u017cna j\u0105 sprawdzi\u0107 na ekranie Kongresu \u015awiatowego.Je\u015bli \u017cadna z cywilizacji nie uzyska poparcia wymaganego do zwyci\u0119stwa, dwie cywilizacje, kt\u00f3re maj\u0105 najwi\u0119ksze poparcie, na sta\u0142e zyskuj\u0105 2 dodatkowych delegat\u00f3w do wykorzystania podczas kolejnych obrad.Cywilizacja nie mo\u017ce zg\u0142osi\u0107 takiej propozycji. Automatycznie zg\u0142aszana w regularnych odst\u0119pach od czasu, gdy Kongres \u015awiatowy stanie si\u0119 ONZ.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Wyb\u00f3r gospodarza",
+        "summary": "Wyznacz cywilizacj\u0119 na gospodarza kongresu. Gospodarz zyskuje dodatkowych delegat\u00f3w i mo\u017cliwo\u015b\u0107 zg\u0142aszania rezolucji.Cywilizacja nie mo\u017ce zg\u0142osi\u0107 takiej propozycji. Automatycznie zg\u0142aszana, gdy cywilizacje przechodz\u0105 do p\u00f3\u017aniejszych epok.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Embargo pa\u0144stw-miast",
+        "summary": "Nie mo\u017cna stworzy\u0107 szlak\u00f3w handlowych prowadz\u0105cych do pa\u0144stw-miast. Wszelkie szlaki handlowe tego rodzaju zostaj\u0105 zlikwidowane i nale\u017cy je zaplanowa\u0107 na nowo.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "Mi\u0119dzy wybran\u0105 a dowoln\u0105 inn\u0105 cywilizacj\u0105 nie mo\u017cna tworzy\u0107 szlak\u00f3w handlowych. Wszelkie szlaki handlowe tego rodzaju zostaj\u0105 zlikwidowane i nale\u017cy je zaplanowa\u0107 na nowo.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Zakaz luksusu",
+        "summary": "Surowiec luksusowy zostaje uznany za niemoralny, niebezpieczny oraz niew\u0142a\u015bciwy i og\u00f3\u0142 spo\u0142ecze\u0144stwa nie powinien mie\u0107 do niego dost\u0119pu. Dop\u00f3ki obowi\u0105zuje zakaz, cywilizacje nie otrzymuj\u0105 premii do zadowolenia z surowc\u00f3w luksusowych.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Podatek na armi\u0119 zawodow\u0105",
+        "summary": "Koszta utrzymania jednostek rosn\u0105 o 25% z\u0142ota.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Uczeni rezydenci",
+        "summary": "Cywilizacje opracowuj\u0105 technologi\u0119 o 20% szybciej, je\u015bli zosta\u0142a ona wcze\u015bniej odkryta przez przynajmniej jedn\u0105 inn\u0105 cywilizacj\u0119.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "Wystawa \u015awiatowa",
+        "summary": "Inicjuje projekt Wystawy \u015awiatowej. Podczas jego trwania cywilizacje mog\u0105 przekazywa\u0107 produkcj\u0119, by przyspieszy\u0107 prace - w tym celu nale\u017cy wybra\u0107 odpowiedni\u0105 pozycj\u0119 na li\u015bcie produkcji w mie\u015bcie. Po zako\u0144czeniu projektu cywilizacje otrzymaj\u0105 premie zale\u017cne od wysoko\u015bci ich wk\u0142adu.   ",
+        "project_prizes": {
+            "gold": " Kultura wi\u0119ksza o 100% przez 20 tur.",
+            "silver": "Darmowy ustr\u00f3j spo\u0142eczny.",
+            "bronze": "500 punkt\u00f3w do kolejnej z\u0142otej ery."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "Igrzyska mi\u0119dzynarodowe",
+        "summary": "Inicjuje projekt igrzysk mi\u0119dzynarodowych. Podczas jego trwania cywilizacje mog\u0105 przekazywa\u0107 produkcj\u0119, by przyspieszy\u0107 prace - w tym celu nale\u017cy wybra\u0107 odpowiedni\u0105 pozycj\u0119 na li\u015bcie produkcji w mie\u015bcie. Po zako\u0144czeniu projektu cywilizacje otrzymaj\u0105 premie zale\u017cne od wysoko\u015bci ich wk\u0142adu.  Dost\u0119pne, gdy dowolna cywilizacja wynajdzie radio.",
+        "project_prizes": {
+            "gold": " Turystyka ro\u015bnie o 100% na 20 tur. Darmowy ustr\u00f3j spo\u0142eczny.",
+            "silver": "+3 zadowolenia. Jednorazowe zwi\u0119kszenie o 30 wp\u0142yw\u00f3w w pa\u0144stwach-miastach.",
+            "bronze": "+3 zadowolenia."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "Mi\u0119dzynarodowa Stacja Kosmiczna",
+        "summary": "Inicjuje projekt Mi\u0119dzynarodowej Stacji Kosmicznej. Podczas jego trwania cywilizacje mog\u0105 przekazywa\u0107 produkcj\u0119, by przyspieszy\u0107 prace - w tym celu nale\u017cy wybra\u0107 odpowiedni\u0105 pozycj\u0119 na li\u015bcie produkcji w mie\u015bcie. Po zako\u0144czeniu projektu cywilizacje otrzymaj\u0105 premie zale\u017cne od wysoko\u015bci ich wk\u0142adu.  Dost\u0119pne od momentu wynalezienia przez dowoln\u0105 cywilizacj\u0119 satelit\u00f3w.",
+        "project_prizes": {
+            "gold": "Mi\u0119dzynarodowa Stacja Kosmiczna pojawia si\u0119 w stolicy. +1 pkt produkcji generowany przez naukowc\u00f3w i +1 pkt bada\u0144 generowany przez in\u017cynier\u00f3w. Wielcy naukowcy dostarczaj\u0105 o 33% wi\u0119cej nauki, gdy wykorzystuje si\u0119 ich do odkrycia nowej technologii. Mo\u017ce zosta\u0107 wybudowana jedynie we wsp\u00f3\u0142pracy za po\u015brednictwem Kongresu \u015awiatowego.",
+            "silver": "Darmowy wielki naukowiec.",
+            "bronze": "Jednorazowa premia do bada\u0144."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Miejsca dziedzictwa kulturowego",
+        "summary": "Ka\u017cdy cud \u015bwiata daje swojemu miastu +3 kultury.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Miejsca dziedzictwa naturalnego",
+        "summary": "Ka\u017cdy cud natury daje +5 kultury, gdy zostaje stworzony.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Nierozprzestrzenianie broni atomowej",
+        "summary": "\u017badna cywilizacja nie mo\u017ce budowa\u0107 nowej broni atomowej (bomb i pocisk\u00f3w atomowych). Jednak ju\u017c stworzona bro\u0144 nie zostaje rozbrojona.Dost\u0119pne, gdy dowolna cywilizacja odkryje zaawansowan\u0105 balistyk\u0119.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "Religia \u015bwiatowa",
+        "summary": "Wyznacz religi\u0119, kt\u00f3ra stanie si\u0119 oficjalnym wyznaniem \u015bwiata. Cywilizacje, w kt\u00f3rych wi\u0119kszo\u015b\u0107 miast wyznaje dan\u0105 religi\u0119, zyskuj\u0105 2 dodatkowych delegat\u00f3w. Religia rozprzestrzenia si\u0119 o 25% szybciej, a jej \u015bwi\u0119te miasto otrzymuje 50% premii do turystyki. W danym momencie mo\u017ce istnie\u0107 tylko jedna religia \u015bwiatowa.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "Ideologia \u015bwiatowa",
+        "summary": "Wyznacz ideologi\u0119, kt\u00f3ra stanie si\u0119 oficjalnym stanowiskiem \u015bwiata. Cywilizacje j\u0105 wyznaj\u0105ce zyskuj\u0105 2 dodatkowych delegat\u00f3w. Poparcie danej ideologii w\u015br\u00f3d opinii spo\u0142ecznej zwi\u0119ksza si\u0119 we wszystkich cywilizacjach. W danym momencie mo\u017ce istnie\u0107 tylko jedna ideologia \u015bwiatowa.Dost\u0119pna, gdy wszystkie cywilizacje wynajd\u0105 radio.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Mecenat sztuki",
+        "summary": "Zwi\u0119ksza produkcj\u0119 wielkich pisarzy, artyst\u00f3w i muzyk\u00f3w o 33%. Zmniejsza produkcj\u0119 wielkich naukowc\u00f3w, in\u017cynier\u00f3w i kupc\u00f3w o 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Fundusze na nauk\u0119",
+        "summary": "Zwi\u0119ksza produkcj\u0119 wielkich naukowc\u00f3w, in\u017cynier\u00f3w i kupc\u00f3w o 33%. Zmniejsza produkcj\u0119 wielkich pisarzy, artyst\u00f3w i muzyk\u00f3w o 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Miejsca historyczne",
+        "summary": "Ulepszenia p\u00f3l tworzone przez wielkich ludzi zapewniaj\u0105 +2 kultury podczas eksploatacji, za\u015b s\u0142ynne miejsca tworzone przez archeolog\u00f3w zapewniaj\u0105 +4 kultury podczas eksploatacji.Dost\u0119pne po wynalezieniu przez dowoln\u0105 cywilizacj\u0119 archeologii.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/resolutions/historical_landmarks.json"
+    }
+]

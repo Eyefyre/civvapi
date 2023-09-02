@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Zero|Zeros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Una unidad a\u00e9rea pensada para controlar los cielos e interceptar a los aviones enemigos que se acerquen. Solo los japoneses pueden construirla. Esta unidad tiene una bonificaci\u00f3n al luchar contra otros Cazas y no necesita Petr\u00f3leo.",
+    "historical_info": "Jap\u00f3n utiliz\u00f3 el Mitsubishi A6M Zero durante la Segunda Guerra Mundial. Pensado para entrar en combate desde un portaaviones, el Zero fue el mejor caza del mundo de este tipo al principio de la guerra. Gracias a su combinaci\u00f3n de maniobrabilidad y gran autonom\u00eda, era excelente en los combates contra otros cazas, pues superaba con facilidad a los aviones estadounidenses y brit\u00e1nicos. A medida que la guerra avanz\u00f3, los cazas aliados mejoraron espectacularmente, mientras que la fuerza a\u00e9rea japonesa sufr\u00eda de escasez de materiales y hombres y, al final de la contienda, el Zero ya se hab\u00eda visto superado. Pero, en su mejor momento, fue un gran caza que domin\u00f3 el gran escenario del Pac\u00edfico.",
+    "strategy": "El Zero es la unidad exclusiva japonesa que sustituye al Caza. Es una unidad a\u00e9rea moderadamente poderosa. Es como el Caza est\u00e1ndar, pero recibe una bonificaci\u00f3n importante al combate cuando se enfrenta a otros cazas y no necesita el recurso de Petr\u00f3leo. Puede tener como base cualquier ciudad que poseas o un Portaaviones. Puede moverse de una ciudad a otra (o a un Portaaviones) y realizar \"misiones\" en un radio de acci\u00f3n de 8 casillas. Consulta las reglas sobre Aviones para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Cazas (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Barrido a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconocimiento a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Bombarderos/Helic\u00f3pteros (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

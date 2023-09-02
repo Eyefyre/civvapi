@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bank",
+    "game_info": "City must have a Market.",
+    "strategy": "The Bank is a Renaissance-era building which increases the city's output of Gold. A city must possess a Market or Bazaar before a Bank may be constructed. Trade routes other players make to a city with a Bank will generate an extra 1 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.",
+    "historical_info": "A bank is an institute where citizens can place their money to keep it safe. The banker collects the deposits and lends them out to other people, who pay back the money they've been loaned, plus an additional fee (or \"interest\"). The banker passes along some of the profits to the depositors, and reinvests the remainder. A successful banking system requires a working currency and laws ensuring that most borrowers will repay their loans if able.Banks are remarkable engines for growth in a civilization. If a city needs something - a new granary, for instance - no individual citizen may be able to afford to construct it. However, since it contains the savings of many different citizens, the bank can afford to loan the builder the money. Once the granary is constructed the builder can use the profits to pay back the bank, and the city's citizens all benefit from the cool new granary (as well as from the interest they've earned on their deposits).Banks in Europe and the United States have gotten something of a bad rap in recent years, but this is generally because many of them dabbled in risky investment schemes or because they made loans to clearly unsuitable people. A well-run bank is a godsend to a community, especially to a poorer one.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bank.png",
+    "prereq_tech": {
+        "name": "Banking",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "name": "Bautrupp",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/worker.png",
+    "game_info": "Verbessert Nahrung, Produktion und Gold, indem er Modernisierungen auf den Gel\u00e4ndefeldern vor den St\u00e4dten baut.",
+    "historical_info": "Zum \u00dcberleben ben\u00f6tigt eine Zivilisation erfahrene Bautrupps. Seien es nun gut ausgebildete Ingenieure oder zur Arbeit verpflichtete Zivilisten - oder vielleicht sogar Sklaven - irgendjemand muss Minen graben, Felder anlegen und Stra\u00dfen pflastern. Ohne diese M\u00e4nner und Frauen w\u00fcrde eine Zivilisation stagnieren und letztlich einem energischerem Nachbarn zum Opfer fallen.",
+    "strategy": "Diese Einheit baut Stra\u00dfen, Eisenbahnen und Modernisierungen wie Bauernh\u00f6fe und Minen. Sie kann sich nicht selbst verteidigen und sollte deshalb in gef\u00e4hrlichem Gel\u00e4nde stets von Milit\u00e4reinheiten begleitet werden.",
+    "movement": 2,
+    "cost": {
+        "production": 70,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

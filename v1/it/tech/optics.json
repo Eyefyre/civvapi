@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "name": "Ottica|dell'Ottica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/optics.png",
+    "era": "Epoca classica",
+    "cost": 85,
+    "civilopedia_entry": "L'ottica \u00e8 lo studio della luce e della visione. La prima e pi\u00f9 importante sfida dell'ottica consiste nell'aiutare la percezione dell'occhio umano permettendogli di vedere pi\u00f9 lontano, oppure oggetti piccolissimi, o nell'oscurit\u00e0. Le prime lenti sono state costruite dagli antichi Egizi e dai popoli della Mesopotamia. Le pi\u00f9 antiche, realizzate con cristallo lucidato, risalgono al 700 a.C. I Greci e i Romani hanno creato lenti primitive riempiendo d'acqua sfere di vetro. Nell'opera \"L'ottica\", Euclide descrive le regole matematiche della percezione ed esamina il fenomeno della rifrazione. Nell'VIII secolo d.C. gli studiosi islamici hanno scritto molti trattati eruditi sulla rifrazione e sulla costruzione di lenti e specchi.I primi occhiali indossabili sono stati inventati in Italia nel XII secolo, i primi telescopi e il primo microscopio nel Quattrocento. Per quanto rispetto agli standard odierni fossero estremamente rudimentali, questi strumenti aumentarono enormemente la capacit\u00e0 dell'uomo di percepire il mondo che lo circonda e di orientarsi nei grandi oceani inesplorati.",
+    "quote": "\"Costru\u00ec uno strumento per sapere se la luna brilla in pieno oppure no.\" - Samuel Butler",
+    "tech_prereqs": [
+        {
+            "name": "Vela|della Vela",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bussola|della Bussola",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Faro|il Faro|un Faro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/lighthouse.json"
+        },
+        {
+            "name": "Grande Faro|il Grande Faro|un Grande Faro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/great_lighthouse.json"
+        }
+    ]
+}

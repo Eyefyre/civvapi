@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "name": "Tiro con arco",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archery.png",
+    "era": "Antig\u00fcedad",
+    "cost": 35,
+    "civilopedia_entry": "El tiro con arco es la tecnolog\u00eda mediante la cual una persona usa la fuerza el\u00e1stica de un palo tensado (o \"arco\") para disparar un esbelto proyectil terminado en punta (\"flecha\") a gran distancia y velocidad. A lo largo de la historia, se han utilizado arcos y ballestas para la caza y la guerra. Sus primeros usos se pierden en la bruma de los tiempos, pero probablemente se remontan al Paleol\u00edtico (que termin\u00f3 hace unos 14.000 a\u00f1os) o incluso a antes (los arque\u00f3logos han encontrado puntas de piedra que datan de hace 60.000 a\u00f1os que creen que podr\u00edan ser puntas de flecha). Pr\u00e1cticamente todas las culturas tempranas han utilizado arcos y flechas, a excepci\u00f3n de los abor\u00edgenes australianos, que al parecer nunca los inventaron).Los arqueros se han usado con fines b\u00e9licos pr\u00e1cticamente desde que existe la guerra. Los primeros griegos y egipcios desplegaron unidades de ellos, igual que hicieron los primeros ej\u00e9rcitos que se conocen de la India, Asia, Jap\u00f3n y las Am\u00e9ricas. Durante la Edad Media, la ballesta y las armas de fuego empezaron a sustituir al arco y las flechas en la guerra y la caza, y en el siglo XVI ya hab\u00edan desaparecido completamente de los ej\u00e9rcitos m\u00e1s modernos. El tiro con arco sobrevive hoy en d\u00eda como deporte en muchas culturas del mundo. Algunos apasionados del arco y las flechas a\u00fan cazan con ellos porque, pese a su antig\u00fcedad, a\u00fan pueden abatir a un ciervo con la misma eficacia que lo hac\u00edan hace 10.000 a\u00f1os.",
+    "quote": "\"Han emplumado el astil de la flecha con plumas de la mism\u00edsima \u00e1guila. Solemos dar al enemigo el medio para destruirnos.\" - Esopo",
+    "tech_prereqs": [
+        {
+            "name": "Agricultura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arquero|Arqueros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/archer.json"
+        },
+        {
+            "name": "Hondero|Honderos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/slinger.json"
+        },
+        {
+            "name": "Saetero",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Templo de Artemisa|Templos de Artemisa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/temple_of_artemis.json"
+        }
+    ]
+}

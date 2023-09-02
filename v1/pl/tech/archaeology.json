@@ -1,0 +1,41 @@
+{
+    "id": 42,
+    "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archaeology.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 1600,
+    "civilopedia_entry": "Archeologia zajmuje si\u0119 studiowaniem pozosta\u0142o\u015bci po staro\u017cytnych ludach celem poznania ich kultury, sztuki, architektury i historii. Archeolodzy badaj\u0105 ruiny budowli, mogi\u0142, pozosta\u0142o\u015bci \u015bmieci, staro\u017cytnych malunk\u00f3w jaskiniowych i dawno zatopionych statk\u00f3w na dnie ocean\u00f3w.Chocia\u017c ludzie od zawsze wyra\u017cali zainteresowanie \u017cyciem swoich przodk\u00f3w, archeologia jako nauka pojawi\u0142a si\u0119 w XV wieku w Europie renesansu, gdy ludzie zacz\u0119li poznawa\u0107 i na\u015bladowa\u0107 sztuk\u0119 i architektur\u0119 staro\u017cytnej Grecji i Rzymu, a bogata arystokracja W\u0142och \u2013 papie\u017ce, kupcy i g\u0142owy pa\u0144stw \u2013 zacz\u0119\u0142a kolekcjonowa\u0107 antyki. Gdy te stawa\u0142y si\u0119 coraz rzadsze, finansowali wykopaliska, by znale\u017a\u0107 nowe \u0142upy.Archeologia sta\u0142a si\u0119 faktyczn\u0105 nauk\u0105 w XIX wieku dzi\u0119ki wysi\u0142kom niemieckich uczonych, takich jak Heinrich Schliemann, kt\u00f3ry bada\u0142 wczesn\u0105 cywilizacj\u0119 Grecji w Troi i Mykenach.Dzisiejsi archeolodzy studiuj\u0105 ka\u017cdy aspekt staro\u017cytnej ludzko\u015bci, pocz\u0105wszy od naszych najdawniejszych przodk\u00f3w, ko\u0144cz\u0105c na naszych prapradziadkach. Narz\u0119dzia tych badaczy sta\u0142y si\u0119 nieprawdopodobnie wyrafinowane, co pozwoli\u0142o na lepszy wgl\u0105d w \u017cycie naszych przodk\u00f3w.",
+    "quote": "\u201eCi, kt\u00f3rzy nie pami\u0119taj\u0105 o przesz\u0142o\u015bci, s\u0105 skazani na jej powtarzanie.\u201d \u2013 George Santayana",
+    "tech_prereqs": [
+        {
+            "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+        },
+        {
+            "name": "Architektura|Architektury|Architekturze|Architektur\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologia|Biologii|Biologii|Biologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/biology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archeolodzy|Archeolog\u00f3w|Archeologom|Archeolog\u00f3w|Archeologami|Archeologach",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/archaeologist.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Muzeum|Muzeum|Muzeum|Muzeum|Muzea|Muze\u00f3w|Muzeom|Muzea",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/museum.json"
+        },
+        {
+            "name": "Luwr|Luwru|Luwrowi|Luwr",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/louvre.json"
+        }
+    ]
+}

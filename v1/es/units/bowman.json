@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "Saetero",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "Una de las primeras unidades de combate a distancia disponibles. Esta unidad exclusiva babilonia sustituye al Arquero. El Saetero tambi\u00e9n resiste mejor los ataques cuerpo a cuerpo que el Arquero est\u00e1ndar del que disponen otras civilizaciones.",
+    "historical_info": "Tenemos una imagen bastante precisa de las extraordinarias unidades de arqueros babilonios gracias a un hermoso mosaico asirio en el que aparecen marchando a la batalla. Los arqueros babilonios visten coloridas ropas acolchadas y portan arcos de m\u00e1s de un metro de largo con un carcaj que les cuelga de la espalda. Tambi\u00e9n llevan lanzas o dagas para defenderse si las unidades enemigas se acercan lo suficiente para entablar combate cuerpo a cuerpo. \r\nOtras unidades, equipadas con grandes escudos que cubr\u00edan todo el cuerpo, acompa\u00f1aban a los saeteros y formaban una aut\u00e9ntica fortaleza m\u00f3vil. Los saeteros eran una parte fundamental de la infanter\u00eda babilonia, ya que eran m\u00e1s f\u00e1ciles de entrenar y sustituir que la costosa caballer\u00eda. Los saeteros tambi\u00e9n ayudaron en las afamadas Murallas de Babilonia, tomando posici\u00f3n en las muchas torretas que las recorr\u00edan.",
+    "strategy": "El Saetero es la unidad exclusiva babilonia que sustituye al Arquero. Esta unidad es m\u00e1s fuerte en combate que el Arquero, tanto en el ataque como en la defensa, con lo que puede colocarse en primera l\u00ednea. La mayor capacidad combativa del Saetero ayuda a calmar la inquietud de que puedan destruirla r\u00e1pidamente en el frente.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tiro con arco",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

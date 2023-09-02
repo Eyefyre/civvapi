@@ -1,0 +1,28 @@
+{
+    "id": 135,
+    "name": "Horseman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horseman.png",
+    "game_info": "Fast and powerful early game Mounted Unit. Weak to Spearmen.",
+    "historical_info": null,
+    "strategy": null,
+    "movement": 4,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

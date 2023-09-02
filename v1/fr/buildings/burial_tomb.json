@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Tombeau|Tombeaux",
+    "game_info": "Aucun co\u00fbt d'entretien en or.Si la ville est prise, la quantit\u00e9 d'or pill\u00e9e par l'ennemi est doubl\u00e9e.",
+    "strategy": "B\u00e2timent de l'\u00e8re classique, le tombeau augmente la production de bonheur d'une ville. Son co\u00fbt d'entretien est nul. Cependant, si la ville est prise, elle rapporte \u00e0 l'envahisseur deux fois plus d'or que si elle n'avait pas poss\u00e9d\u00e9 de tombeau. Le tombeau remplace le temple.",
+    "historical_info": "Les \u00c9gyptiens ont \u00e9lev\u00e9 le culte des anc\u00eatres \u00e0 des sommets jamais atteints ni avant, ni apr\u00e8s eux. Ainsi, ils investissaient une grande partie de leurs richesses et de leur \u00e9nergie dans la construction de tombeaux pour leurs parents disparus. Bon nombre de ces s\u00e9pultures se trouvent dans la Vall\u00e9e des rois, situ\u00e9e sur la rive occidentale du Nil, \u00e0 la hauteur de Th\u00e8bes. Souvent remplies d'une partie des biens ayant appartenu au d\u00e9funt, ces tombes ont \u00e9t\u00e9 les cibles privil\u00e9gi\u00e9es des pillards \u00e0 travers les si\u00e8cles.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tombeau|tombeaux.png",
+    "prereq_tech": {
+        "name": "Philosophie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 2
+    }
+}

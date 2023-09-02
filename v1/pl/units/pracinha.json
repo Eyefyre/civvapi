@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinhas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Jednostka piechoty z epoki wsp\u00f3\u0142czesnej gromadz\u0105ca punkty przybli\u017caj\u0105ce z\u0142ot\u0105 er\u0119, gdy pokona przeciwnika. Mo\u017ce powstawa\u0107 tylko w Brazylii.",
+    "historical_info": "Po tym, jak 18 brazylijskich statk\u00f3w handlowych zosta\u0142o zatopionych na Atlantyku przez niemieckie \u0142odzie podwodne, Brazylia w sierpniu 1942 r. wypowiedzia\u0142a wojn\u0119 nazistowskim Niemcom i faszystowskim W\u0142ochom, do\u0142\u0105czaj\u0105c do si\u0142 alianckich. Na pocz\u0105tku 1944 r. wyszkolono 27,5 tys. kobiet i m\u0119\u017cczyzn, tworz\u0105c brazylijskie si\u0142y ekspedycyjne, nazywane w ojczy\u017anie pracinhas brasileiros. Ich wojenne dokonania by\u0142y uwa\u017cnie \u015bledzone przez ludno\u015b\u0107 Brazylii dumn\u0105 z faktu, \u017ce ich kraj jako jedyny w Ameryce Po\u0142udniowej bierze czynny udzia\u0142 w walkach w Europie. Cho\u0107 pu\u0142ki brazylijskie nie by\u0142y tak dobrze wyposa\u017cone jak brytyjskie i ameryka\u0144skie, walczy\u0142y z zaci\u0119to\u015bci\u0105, kt\u00f3ra przynios\u0142a im liczne pochwa\u0142y i zaszczyty. Niestety, w trakcie walk zgin\u0119\u0142o niemal 1000 ich cz\u0142onk\u00f3w.",
+    "strategy": "Ta jednostka walcz\u0105ca w zwarciu zdobywa punkty przybli\u017caj\u0105ce karnawa\u0142 w Brazylii za ka\u017cdym razem, gdy pokona wroga. U\u017cywaj jej do walki na obcym terytorium, by przybli\u017cy\u0107 zwyci\u0119stwo kulturowe Brazylii.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Tworzywo sztuczne|Tworzywa sztucznego|Tworzywu sztucznemu|Tworzywo sztuczne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Z\u0142ota era za zwyci\u0119stwa",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

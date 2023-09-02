@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "name": "Maschinengewehr",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/machine_gun.png",
+    "game_info": "Fernkampfeinheit im sp\u00e4ten Spiel, die zum Angriff neben einem Feind stehen muss.",
+    "historical_info": "Maschinengewehr-Einheiten nutzen m\u00e4chtige, vollautomatische Schusswaffen, mit denen sie schweres Unterdr\u00fcckungsfeuer mit \u00fcblicherweise mehreren hundert Schuss pro Minute abgeben k\u00f6nnen. Die Gatling-Kanone, Vorg\u00e4ngerin vieler moderner Maschinengewehre, wurde im 19. Jahrhundert in den Vereinigten Staaten entwickelt. Dieses Konzept entwickelte sich sp\u00e4ter zum Maxim-Maschinengewehr, dem noch viele weitere selbstladende Maschinengewehre folgen sollten.",
+    "strategy": "Das Maschinengewehr ist die fast ultimative Nicht-Belagerungs-Fernkampfeinheit. Sie ist m\u00e4chtiger als fr\u00fchere Fernkampfeinheiten. Wie auch das Gatling-Gewehr hat sie eine Reichweite von nur einem Gel\u00e4ndefeld, kann aber anderen Einheiten gro\u00dfen Schaden zuf\u00fcgen. Sie ist f\u00fcr Nahkampfangriffe anf\u00e4llig. Setzt Maschinengewehre zur Verteidigung in Eurer Stadt ein.",
+    "movement": 2,
+    "cost": {
+        "production": 350,
+        "faith": 700
+    },
+    "prereq_tech": {
+        "name": "Ballistik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

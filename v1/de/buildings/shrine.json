@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Schrein",
+    "game_info": null,
+    "strategy": "Der Schrein ist das fr\u00fcheste Geb\u00e4ude, das den Glauben der Stadt vergr\u00f6\u00dfert, sodass Ihr Religionen gr\u00fcnden und verbreiten k\u00f6nnt.",
+    "historical_info": "Schreine sind heilige Monumente, die in der Regel errichtet wurden, um gesch\u00e4tzter kultureller Ikonen oder religi\u00f6ser Figuren zu gedenken. In nahezu jeder Glaubensrichtung der Welt spielen Schreine eine wichtige Rolle in religi\u00f6sen Zeremonien, sowohl in \u00f6ffentlichen als auch privaten Gebeten.",
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schrein.png",
+    "prereq_tech": {
+        "name": "Keramik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 1,
+        "happiness": 0
+    }
+}

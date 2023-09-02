@@ -1,0 +1,68 @@
+{
+    "id": 23,
+    "name": "Lugar sagrado|Lugares sagrados",
+    "game_info": "Los lugares sagrados son enclaves con un significado religioso especial como testamento de los dioses, profetas o tradiciones de una religi\u00f3n espec\u00edfica. A menudo son el destino de peregrinaciones religiosas y suelen ser visitados por fieles deseosos de presentar sus respetos al dios, con la esperanza reforzar su conexi\u00f3n divina.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/lugar_sagrado|lugares_sagrados.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Caballos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/horses.json"
+        },
+        {
+            "name": "Hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/iron.json"
+        },
+        {
+            "name": "Carb\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/coal.json"
+        },
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Aluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 6,
+        "happiness": 0
+    }
+}

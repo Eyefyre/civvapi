@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "Equitaci\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 105,
+    "civilopedia_entry": "La equitaci\u00f3n se desarroll\u00f3 durante el segundo milenio a. C. (y quiz\u00e1s antes), muy probablemente entre los pueblos n\u00f3madas de Asia central. Ya hac\u00eda alg\u00fan tiempo que los caballos se hab\u00edan domesticado, aunque los animales originales resultaban demasiado peque\u00f1os. La equitaci\u00f3n no fue posible hasta que se consigui\u00f3 una raza de caballos m\u00e1s grandes. Uno de los primeros grupos de n\u00f3madas, los escitas, eran jinetes especialmente consumados. Es posible que ellos inventaran la silla y los estribos (aunque solo usaban estos \u00faltimos para montar y desmontar). Seg\u00fan los historiadores griegos, los escitas fueron los primeros en \"capar\" (castrar) a los caballos, lo que los hac\u00eda mucho m\u00e1s d\u00f3ciles y controlables.Cerca del 1500 a. C., muchos pueblos del Creciente F\u00e9rtil (hititas, asirios y babilonios) ya estaban luchando a caballo y, en esa misma \u00e9poca, se introdujo el animal en Egipto. En tiempos de Alejandro Magno, las t\u00e1cticas de caballer\u00eda ya estaban muy avanzadas y su \"Caballer\u00eda de los Compa\u00f1eros\" constitu\u00eda quiz\u00e1 la unidad militar m\u00e1s poderosa y efectiva del mundo mediterr\u00e1neo.",
+    "quote": "\"\u00a1Un caballo! \u00a1Un caballo! \u00a1Mi reino por un caballo!\" - Shakespeare (Ricardo III)",
+    "tech_prereqs": [
+        {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        },
+        {
+            "name": "Caza con trampas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Administraci\u00f3n p\u00fablica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Jinete|Jinetes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/horseman.json"
+        },
+        {
+            "name": "Caballer\u00eda de los Compa\u00f1eros|Caballer\u00edas de los Compa\u00f1eros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/companion_cavalry.json"
+        },
+        {
+            "name": "Catafracto|Catafractos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/cataphract.json"
+        },
+        {
+            "name": "Elefante de los bosques|Elefantes de los bosques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Establo|Establos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stable.json"
+        },
+        {
+            "name": "Circus Maximus|Circus Maximus",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/circus_maximus.json"
+        },
+        {
+            "name": "Establo ducal|Establos ducales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Caravanserai|Caravanserais",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/caravansary.json"
+        }
+    ]
+}

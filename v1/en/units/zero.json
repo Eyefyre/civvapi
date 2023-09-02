@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Zero",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft. Only the Japanese may build it. This Unit has a bonus against other Fighters and does not require Oil.",
+    "historical_info": "The Mitsubishi A6M Zero was the fighter aircraft used by Japan throughout World War II. Designed to fight from an aircraft carrier, at the start of World War II the Zero was the best carrier-based fighter in the world. Combining maneuverability and long range, the Zero was excellent at dog-fighting, easily out-flying the inferior American and British aircraft. As the war progressed the Allied fighters dramatically improved while the Japanese air force suffered from increasing materiel and manpower shortages, and by war's end the Zero was overmatched. But at its height the Zero was a great fighter indeed, dominating the vast Pacific theatre.",
+    "strategy": "The Zero is the Japanese unique unit, replacing the Fighter. The Zero is a moderately-powerful air unit. It is like the standard fighter, except that it gets a significant combat bonus when battling other fighters and does not require the Oil resource. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform \"missions\" within its range of 8 tiles. See the rules on Aircraft for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus vs Fighters (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Air Sweep",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/air_sweep.json"
+        },
+        {
+            "name": "Air Recon",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus vs Bombers/Helicopters (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Steinmetzkunst",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Die Steinmetzkunst dient dem Bau von Geb\u00e4uden aus einzelnen Bl\u00f6cken, die durch eine beliebige Art von M\u00f6rtel zusammengehalten werden. Die Bl\u00f6cke k\u00f6nnen aus Stein, Zement, Schlacke oder auch Ton sein. Der M\u00f6rtel ist eine Paste, die verarbeitet werden kann und zu einem extrem haltbaren Material trocknet. Er setzt sich meist aus einer Mischung aus Sand, Zement oder Kalk sowie Wasser zusammen.Die alten \u00c4gypter meisterten die Steinmetzkunst schon im 4. Jahrtausend v. Chr., als sie Tempel, Pal\u00e4ste und Pyramiden aus Kalkstein, Sandstein, Granit und Basalt bauten, die in den H\u00fcgeln am Nil zu finden waren. Die Assyrer des Fruchtbaren Halbmondes hatten keinen so leichten Zugang zu Stein, verf\u00fcgten jedoch \u00fcber reiche Vorkommen an Ton, den sie in der Sonne zu Ziegelsteinen trockneten. Da diese Steine anf\u00e4llig waren f\u00fcr Feuchtigkeit, bedeckten sie ihre Geb\u00e4ude oft mit Fliesen, die in einem Brennofen gebrannt oder glasiert wurden.Die alten R\u00f6mer erfanden den Beton, der ein wesentlich besserer M\u00f6rtel war als der, den fr\u00fchere Zivilisationen benutzt hatten (meist auf Ton-Basis). Beton konnte auch selbst als Baumaterial genutzt werden. Diese \"Betonrevolution\" erm\u00f6glichte es den R\u00f6mern, Geb\u00e4ude zu konstruieren, die mit primitiven Materialien unm\u00f6glich waren. Im 19. Jahrhundert \u00fcberlegte sich ein Pariser G\u00e4rtner, ein Eisengeflecht in Beton einzuarbeiten. Seine Erfindung des Stahlbetons erh\u00f6hte die Zugfestigkeit des Materials enorm, was es geeigneter machte f\u00fcr gro\u00dfe Geb\u00e4ude, die durch Wind, Ersch\u00fctterungen oder sogar Erdbeben starken Belastungen ausgesetzt werden k\u00f6nnten. Aktuellere Erfindungen haben St\u00e4rke und Dehnbarkeit dieses \u00e4u\u00dferst n\u00fctzlichen Baumaterials weiter erh\u00f6ht. Und auch wenn die meisten modernen Geb\u00e4ude aus Glas und Stahl gebaut sind, stehen sie dennoch auf Fundamenten, die sich uralte Bautechniken der Steinmetzkunst zunutze machen.",
+    "quote": " \"Gl\u00fccklich (...) seid ihr, da eure Mauern schon wachsen!\" - Vergil",
+    "tech_prereqs": [
+        {
+            "name": "Bergbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bauwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stadtmauern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/walls.json"
+        },
+        {
+            "name": "Pyramiden",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/pyramids.json"
+        },
+        {
+            "name": "Mausoleum Halikarnassos",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Mauern von Babylon",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/walls_of_babylon.json"
+        }
+    ]
+}

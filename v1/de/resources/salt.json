@@ -1,0 +1,37 @@
+{
+    "id": 32,
+    "name": "Salz",
+    "game_info": null,
+    "historical_info": "Salz, eine Notwendigkeit f\u00fcr das menschliche Leben, kommt weltweit sowohl in nat\u00fcrlichen als auch in von Menschen geschaffenen Umgebungen vor. Salz wurde Tausende von Jahren lang zum Konservieren von Fleisch verwendet und war bis zur Erfindung der k\u00fcnstlichen K\u00fchltechnik notwendig, um Lebensmittel einzulagern. Eine \u00fcbliche Methode, Salz zum Verzehr zu produzieren und zu gewinnen, ist die Verdunstung. Man f\u00fcllt dabei gro\u00dfe Becken mit Salzwasser und mit der Zeit wird das Wasser durch die nat\u00fcrliche Verdunstung entfernt und das Salz bleibt zur Gewinnung zur\u00fcck.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/salz.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        }
+    ]
+}

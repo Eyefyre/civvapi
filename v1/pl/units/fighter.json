@@ -1,0 +1,35 @@
+{
+    "id": 32,
+    "name": "My\u015bliwce|My\u015bliwc\u00f3w|My\u015bliwcom|My\u015bliwce",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/fighter.png",
+    "game_info": "Jednostka powietrzna s\u0142u\u017c\u0105ca do walki o panowanie w powietrzu i przechwytywania nieprzyjacielskiego lotnictwa.",
+    "historical_info": "My\u015bliwce zosta\u0142y opracowane podczas I wojny \u015bwiatowej. Pierwsze \u201emy\u015bliwce\u201d by\u0142y niewiele wi\u0119cej ni\u017c latawcami z w\u0142asnym nap\u0119dem i z karabinami maszynowymi. Podczas II wojny \u015bwiatowej zar\u00f3wno technologia, jak i doktryna bardzo si\u0119 poprawi\u0142y, a jednop\u0142atowe, opancerzone samoloty sta\u0142y si\u0119 mordercz\u0105 broni\u0105. G\u0142\u00f3wn\u0105 rol\u0105 my\u015bliwca jest zapewnienie ca\u0142kowitej kontroli na przestrzeni\u0105 powietrzn\u0105 pola bitwy, zestrzeliwanie wrogich samolot\u00f3w lub przeganianie ich, dzi\u0119ki czemu przyjazne bombowce mog\u0105 nieskr\u0119powanie sia\u0107 zniszczenie na wrogiej ziemi lub po\u015br\u00f3d okr\u0119t\u00f3w nieprzyjacielskiej floty. Niekt\u00f3re my\u015bliwce przenosz\u0105 r\u00f3wnie\u017c bomby, kt\u00f3re mo\u017cna u\u017cy\u0107 przeciwko jednostkom naziemnym, ale nawet te, kt\u00f3re ich nie maj\u0105, mog\u0105 zaatakowa\u0107 jednostki naziemne i morskie z mordercz\u0105 skuteczno\u015bci\u0105.Wsp\u00f3\u0142czesne my\u015bliwce s\u0105 szybsze, lepiej uzbrojone i opancerzone ni\u017c te z II wojny \u015bwiatowej, ale zasady walki powietrznej pozosta\u0142y te same, a wojsko posiadaj\u0105ce ca\u0142kowit\u0105 dominacj\u0119 w powietrzu ma wielk\u0105 przewag\u0119 nad wrogiem.",
+    "strategy": "My\u015bliwce to jednostka powietrzna o \u015bredniej sile. Mog\u0105 stacjonowa\u0107 w twoim mie\u015bcie lub na pok\u0142adzie lotniskowca, a tak\u017ce przemieszcza\u0107 si\u0119 mi\u0119dzy miastami (lub lotniskowcami) i wykonywa\u0107 \u201emisje\u201d w promieniu 8 p\u00f3l. Wykorzystuj my\u015bliwce do zwalczania nieprzyjacielskich samolot\u00f3w i jednostek l\u0105dowych, do rozpoznawania pozycji wroga i do obrony przed atakami nieprzyjacielskiego lotnictwa. My\u015bliwce s\u0105 szczeg\u00f3lnie skuteczne przeciwko \u015bmig\u0142owcom wroga. Wi\u0119cej informacji znajdziesz w zasadach dotycz\u0105cych lotnictwa.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|Radaru|Radarowi|Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Czyszczenie nieba|Czyszczenia nieba|Czyszczeniu nieba|Czyszczenie nieba",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_sweep.json"
+        },
+        {
+            "name": "Rozpoznanie powietrzne|Rozpoznania powietrznego|Rozpoznaniu powietrznemu|Rozpoznanie powietrzne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_recon.json"
+        },
+        {
+            "name": "Premia przeciwko bombowcom i \u015bmig\u0142. (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

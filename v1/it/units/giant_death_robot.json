@@ -1,0 +1,27 @@
+{
+    "id": 19,
+    "name": "Robot Gigante della Morte|un Robot Gigante della Morte|dal tuo Robot Gigante della Morte|al tuo Robot Gigante della Morte|il tuo Robot Gigante della Morte|da un Robot Gigante della Morte",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/giant_death_robot.png",
+    "game_info": "Non gode di alcun bonus difensivo dovuto al terreno; a parte questo, \u00e8 pi\u00f9 potente di qualsiasi altra unit\u00e0 militare del gioco.",
+    "historical_info": "Il mech \u00e8 un gigantesco robot meccanico bipede dotato di una variet\u00e0 di missili, braccia con mitragliatrici, laser che escono dagli occhi e un mortale pugno kung-fu. Per quanto non sia ancora possibile vederlo sul campo di battaglia, non c'\u00e8 dubbio che in questo stesso momento i maggiori governi mondiali e le malvagie mega-corporazioni stiano studiando in segreto il modo di costruire questi colossi di metallo. Quando entreranno in servizio tutte le altre armi del mondo diventeranno obsolete; il fato dell'umanit\u00e0 sar\u00e0 deciso da una battaglia finale tra mech buoni e cattivi nelle strade del centro di Tokyo (sempre che i mostri giganti radioattivi non la facciano finita prima).",
+    "strategy": "Il Mech \u00e8 un'unit\u00e0 corazzata superpompata. La sua incredibile forza di combattimento gli permette di ridurre in poltiglia praticamente qualsiasi altra unit\u00e0. Inoltre pu\u00f2 muoversi dopo aver attaccato. Il Robot Gigante della Morte non trae beneficio dai bonus difensivi del terreno, ma francamente, chi se infischia? \u00c8 veramente fichissimo!",
+    "movement": 5,
+    "cost": {
+        "production": 550,
+        "faith": 1100
+    },
+    "prereq_tech": {
+        "name": "Fusione nucleare|della Fusione nucleare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fusion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

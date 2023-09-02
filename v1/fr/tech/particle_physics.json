@@ -1,0 +1,36 @@
+{
+    "id": 77,
+    "name": "Physique des particules",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/particle_physics.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 8800,
+    "civilopedia_entry": "La physique des particules permet \u00e0 l'Homme d'approfondir davantage sa compr\u00e9hension de la mati\u00e8re et de l'\u00e9nergie que ne le lui permettait son anc\u00eatre, la th\u00e9orie atomique. Si le terme d'atome ne fut utilis\u00e9 pour la premi\u00e8re fois qu'en 1803 par le chimiste John Dalton, l'id\u00e9e que toute mati\u00e8re peut \u00eatre d\u00e9compos\u00e9e en particules fondamentales de plus en plus petites remonte au VIe si\u00e8cle av. J.-C. La science moderne qu'est la physique des particules, soit l'\u00e9tude des m\u00e9canismes de la physique quantique, ne naquit r\u00e9ellement qu'en 1838 avec la d\u00e9couverte des rayons cathodiques par Michael Faraday. Cette d\u00e9couverte permit de prouver que l'atome (consid\u00e9r\u00e9 jusqu'alors comme le plus petit \u00e9l\u00e9ment physique existant) \u00e9tait en r\u00e9alit\u00e9 compos\u00e9 de particules encore plus petites.Le fondement de la th\u00e9orie quantique est en g\u00e9n\u00e9ral r\u00e9sum\u00e9 par le \"mod\u00e8le standard\", soit une classification des dix-sept types de particules \u00e9l\u00e9mentaires : 12 fermions, 4 bosons vectoriels et 1 boson scalaire (notons que contrairement \u00e0 ce qui est traditionnellement enseign\u00e9 en cours \u00e9l\u00e9mentaire, les protons et les neutrons n'en font pas partie, en cela qu'ils sont constitu\u00e9s de quarks, une certaine saveur de fermions). Les particules associ\u00e9es \u00e0 la mati\u00e8re sont des fermions (leur spin est demi-entier) et celles associ\u00e9es aux \u00e9nergies sont des bosons (leur spin est entier). A partir de ces 17 particules de base, il est possible de cr\u00e9er des centaines d'autres types de particules composites et fondamentales.Si bon nombre de physiciens des particules pensent qu'il reste encore certains \u00e9l\u00e9ments \u00e0 d\u00e9couvrir et \u00e0 comprendre pour y parvenir, les \u00e9tudes dans ce domaine ont montr\u00e9 qu'il \u00e9tait bel et bien possible de changer le plomb en or (de fa\u00e7on purement physique et non \u00e9conomique), et que les th\u00e9ories fantaisistes des auteurs de science-fiction comme la mati\u00e8re noire et la th\u00e9orie du Tout pourraient bien \u00eatre exactes.",
+    "quote": "\"Chaque particule de mati\u00e8re de l'univers attire toutes les autres avec une force inversement proportionnelle au carr\u00e9\u0301 de la distance qui les s\u00e9pare.\"- Isaac Newton",
+    "tech_prereqs": [
+        {
+            "name": "T\u00e9l\u00e9communications",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/telecommunications.json"
+        },
+        {
+            "name": "Tactiques mobiles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Balistique avanc\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/advanced_ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Technologie future",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Moteur (vaisseau spatial)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ss_engine.json"
+        }
+    ],
+    "building_unlocks": []
+}

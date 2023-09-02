@@ -1,0 +1,44 @@
+{
+    "id": 50,
+    "name": "Moteur \u00e0 vapeur",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steam_power.png",
+    "era": "\u00c8re industrielle",
+    "cost": 2350,
+    "civilopedia_entry": "Lorsqu'elle est chauff\u00e9e, l'eau produit de la vapeur. Celle-ci se dilate sous la pression et, dans les moteurs \u00e0 vapeur, une partie de l'\u00e9nergie calorifique est capt\u00e9e, puis utilis\u00e9e pour lever ou baisser un piston, ou bien activer un rotor. Les principes th\u00e9oriques du fonctionnement et de l'utilisation de la vapeur \u00e9taient d\u00e9j\u00e0 connus du temps des Grecs de l'antiquit\u00e9, mais personne ne parvint \u00e0 les mettre en pratique avant le XVIIe si\u00e8cle. Ce fut, \u00e0 cette \u00e9poque, l'Anglais Thomas Savery qui, le premier, mit au point une pompe \u00e0 vapeur, celle-ci destin\u00e9e \u00e0 \u00e9vacuer l'eau des mines. En 1765, James Watt am\u00e9liora consid\u00e9rablement le moteur \u00e0 vapeur, \u00e0 tel point qu'il fut d\u00e8s lors utilis\u00e9 dans de tr\u00e8s divers domaines. En 1802, les moteurs \u00e0 vapeur furent install\u00e9s sur les navires, et en 1825, les trains \u00e0 vapeur filaient sur les rails.La vapeur r\u00e9volutionna l'industrie et les moyens de transport des pays du globe. En un si\u00e8cle, le monde entier \u00e9tait recouvert d'une matrice de voies ferr\u00e9es et d'itin\u00e9raires de navires \u00e0 vapeur. Des usines aliment\u00e9es par la vapeur produisaient des dizaines de millions de tonnes de marchandises commerciales (et de mat\u00e9riel militaire). Les pays industrialis\u00e9s profit\u00e8rent d'une incroyable hausse de productivit\u00e9 et de richesses (sans oublier la pollution). Le charbon, la principale source d'\u00e9nergie utilis\u00e9e pour g\u00e9n\u00e9rer de la vapeur, fut min\u00e9 fr\u00e9n\u00e9tiquement dans toute la plan\u00e8te. Une importante partie de la strat\u00e9gie militaire mondiale de la Grande-Bretagne reposait sur la protection des stations mini\u00e8res de charbon situ\u00e9es \u00e0 divers lieux strat\u00e9giques en plein c\u0153ur des oc\u00e9ans de la plan\u00e8te.\u00c0 terme, les moteurs \u00e0 vapeur furent remplac\u00e9s par les moteurs \u00e0 combustion interne, bien plus puissants et nettement moins polluants. Il n'en demeure pas moins qu'avant le p\u00e9trole, le charbon \u00e9tait roi et que, sans lui, le monde moderne n'en serait pas l\u00e0 o\u00f9 il en est aujourd'hui.",
+    "quote": "\"Les nations occidentales esp\u00e8rent que les possibilit\u00e9s de communication offertes par la vapeur feront du monde entier une grande famille.\" - Townsend Harris",
+    "tech_prereqs": [
+        {
+            "name": "Fusil",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+        },
+        {
+            "name": "Industrialisation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/industrialization.json"
+        },
+        {
+            "name": "Th\u00e9orie scientifique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pi\u00e8ces de rechange",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Voies ferr\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/railroad.json"
+        },
+        {
+            "name": "Aviation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/flight.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cuirass\u00e9 \u00e0 vapeur|Cuirass\u00e9s \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ironclad.json"
+        }
+    ],
+    "building_unlocks": []
+}

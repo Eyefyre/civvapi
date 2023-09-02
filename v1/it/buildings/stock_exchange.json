@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Borsa|la Borsa|una Borsa",
+    "game_info": "La citt\u00e0 deve avere una Banca.",
+    "strategy": "La Borsa \u00e8 un edificio disponibile nella parte centrale della partita che incrementa le entrate in Oro della citt\u00e0. Per costruire una Borsa la citt\u00e0 deve gi\u00e0 avere una Banca (o una Corte del satrapo).",
+    "historical_info": "Una Borsa \u00e8 un luogo in cui i mediatori possono acquistare e vendere \"azioni\", cio\u00e8 quote di propriet\u00e0 di societ\u00e0 quotate. In alcuni casi gli azionisti acquisiscono anche il diritto di voto, che d\u00e0 loro la possibilit\u00e0 di esprimere la propria opinione sulla gestione dell'azienda. Talvolta gli azionisti ottengono anche i cosiddetti \"dividendi\", una porzione dei profitti annuali suddivisi in base alle azioni possedute. Lo scopo principale (o almeno quello originario) delle borse consiste nel permettere ai proprietari delle compagnie di raccogliere fondi vendendo una parte dell'azienda agli investitori. Quando il valore di una societ\u00e0 cresce, parallelamente cresce il valore delle sue azioni. Naturalmente c'\u00e8 anche il rischio inverso: se il valore dell'azienda dovesse crollare, anche le azioni si rivelerebbero un pessimo investimento. Una borsa moderna vende anche altri potenti strumenti finanziari come obbligazioni, titoli, opzioni, operazioni a termine e derivati. Quando \u00e8 gestito nel modo corretto, un sistema borsistico pu\u00f2 davvero mettere il turbo all'economia. In caso contrario pu\u00f2 portare al caos e alla rovina finanziaria.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/borsa|la_borsa|una_borsa.png",
+    "prereq_tech": {
+        "name": "Elettricit\u00e0|dell'Elettricit\u00e0",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

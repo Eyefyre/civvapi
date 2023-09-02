@@ -1,0 +1,43 @@
+{
+    "id": 122,
+    "name": "Fl\u00fcgelhusar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/winged_hussar.png",
+    "game_info": "Schwere berittene Einheit, die auf den Sieg \u00fcber feindliche berittene Einheiten spezialisiert ist. Diese Einheit ist schneller und m\u00e4chtiger als der Lancier, den sie ersetzt. Zwingt Verteidiger zum R\u00fcckzug, wenn sie mehr Schaden verursacht, als sie einsteckt. Kann nur von den Polen gebaut werden.",
+    "historical_info": "Der sogenannte Fl\u00fcgelhusar wurde von K\u00f6nig Stefan Batory in den 1570er Jahren in das Milit\u00e4r von Polen-Litauen eingef\u00fchrt. Fl\u00fcgelhusaren trugen \u00fcblicherweise mehrere Zweitwaffen wie Kriegshammer, Szabla (S\u00e4bel) und eine oder zwei Radschlosspistolen (sp\u00e4ter Steinschlosspistolen) in Sattelholstern. Die auff\u00e4lligste Ausstattung waren jedoch die riesigen \"Fl\u00fcgel\", die mit einem Holzgestell am Sattel oder den Schultern des Reiters befestigt und mit Adler-, Schwanen-, G\u00e4nse- oder Strau\u00dfenfedern best\u00fcckt waren. Der wahre Zweck der Fl\u00fcgel konnte nie sicher bestimmt werden, doch es gibt zahlreiche Vermutungen: Manche halten die Fl\u00fcgel f\u00fcr eine Verteidigung gegen Angriffe von hinten, andere denken, dass die Pferde von den Schlachtger\u00e4uschen abgelenkt werden sollten. Und wieder andere halten die Fl\u00fcgel f\u00fcr einen Einsch\u00fcchterungsversuch gegen feindliche Fu\u00dfsoldaten, da die Husaren so gr\u00f6\u00dfer erschienen.",
+    "strategy": "Der Fl\u00fcgelhusar ist der Lancier-Ersatz und kann nur von den Polen gebaut werden. Er ist schneller und m\u00e4chtiger als der Lancier und zwingt Verteidiger zum R\u00fcckzug, wenn er mehr Schaden verursacht, als er erleidet. Verteidiger, die sich nicht zur\u00fcckziehen k\u00f6nnen, erleiden zus\u00e4tzlichen Schaden.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Schwerer Ansturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/heavy_charge.json"
+        },
+        {
+            "name": "Schock I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/shock_i.json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/formation_i.json"
+        }
+    ]
+}

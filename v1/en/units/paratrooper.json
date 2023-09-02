@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Paratrooper",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Strong infantry Unit capable of paradropping up to 9 tiles from friendly territory. Paratrooper can also move and pillage after paradropping, but cannot enter combat until the following turn.",
+    "historical_info": "Paratroopers are light infantrymen trained to jump into battle from airplanes behind enemy lines. Of necessity lightly-armed and carrying limited ammunition, paratroopers rely heavily on the element of surprise to overwhelm their opponents. They also need to be quickly reinforced by ground units breaking through the enemy lines or they risk annihilation as the enemy regroups and surrounds them.Paratroopers were used with limited success in World War II, with German paratroops taking part in the invasion of Denmark in 1940. German paratroopers assaulted and captured the island of Crete from the air in 1941, however, the troopers' casualties were so horrific that Adolf Hitler forbid future large-scale airborne assaults. The Allied forces deployed paratroopers with moderate success during the Normandy invasion in 1944, but the huge Market Garden paradrops in the Netherlands and Germany later that same year were far from successful, resulting in heavy casualties to the British, Polish and American paratroopers.While special forces troops still employ paratroopers, the practice has fallen out of favor in modern armies. Today most airborne troops are carried into battle by helicopters.",
+    "strategy": "The Paratrooper is a late-game infantryman. It is somewhat weaker than a mechanized infantry unit; however, it can parachute up to 9 tiles away (when starting in friendly territory). This allows the paratrooper to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Paratrooper is at great risk when on such missions, so make sure the target is worth it!",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Paradrop",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_paradrop.json"
+        },
+        {
+            "name": "No Movement Cost to Pillage",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

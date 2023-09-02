@@ -1,0 +1,20 @@
+{
+    "id": 65,
+    "name": "Reformation",
+    "game_info": "ReformationIf you founded a religion, gain a bonus Reformation belief.",
+    "historical_info": "Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The \"Protestant Reformation\" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published \"The Ninety-Five Theses\" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/reformation.png",
+    "required_policies": [
+        {
+            "name": "Religious Tolerance",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/religious_tolerance.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Piety",
+        "game_info": "Piety increases the Faith of empires.Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 Culture.",
+        "prereq_era": null,
+        "historical_info": "Piety means the devotion to a specific religion or spiritual belief system. A \"pious\" person is generally considered to be (literally) \"holier than thou,\" closely following his or her religion's practices and accepting most or all of its tenets without question."
+    }
+}

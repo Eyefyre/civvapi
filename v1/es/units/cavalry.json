@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Caballer\u00eda|Caballer\u00edas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Una unidad montada capaz de luchar cara a cara contra unidades de infanter\u00eda de la misma \u00e9poca.",
+    "historical_info": "A finales del siglo XIX, la caballer\u00eda europea y americana iba armada con rifles de repetici\u00f3n (unas armas peque\u00f1as y fiables que llevaban de 5 a 15 balas y que ten\u00edan una precisi\u00f3n cercana a los quinientos metros), adem\u00e1s de pistolas y espadas. Como su equipo era mucho m\u00e1s ligero que el que hab\u00eda entorpecido a los caballeros y lanceros montados de \u00e9pocas pasadas, eran mucho m\u00e1s r\u00e1pidos y pod\u00edan llegar mucho m\u00e1s lejos a caballo que sus predecesores. Aunque, en condiciones muy favorables, pod\u00eda seguir d\u00e1ndose la antigua carga de caballer\u00eda, la precisi\u00f3n y la cadencia de fuego crecientes de la infanter\u00eda hac\u00eda que esa maniobra fuera extremadamente peligrosa. Cuando se enfrentaba a unidades de infanter\u00eda, la caballer\u00eda sol\u00eda desmontar para luchar. Uno de los soldados sujetaba cuatro caballos, rezagado en la retaguardia, mientras sus otros tres camaradas intercambiaban disparos con el enemigo.",
+    "strategy": "Las unidades montadas de Caballer\u00eda son devastadoras contra las unidades de combate cuerpo a cuerpo, a distancia y las armas de asedio. \u00dasalas para destruir a los Mosquetes y atravesar las l\u00edneas enemigas con su capacidad para moverse despu\u00e9s de atacar.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Belicolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

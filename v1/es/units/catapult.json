@@ -1,0 +1,39 @@
+{
+    "id": 64,
+    "name": "Catapulta|Catapultas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/catapult.png",
+    "game_info": "Primera unidad de asedio del juego. Inflige un gran da\u00f1o a las unidades y ciudades desde lejos, pero debe desplegarse antes de disparar.",
+    "historical_info": "Se desconoce la fecha exacta de la invenci\u00f3n de la catapulta, pero s\u00ed se sabe que los griegos ya la empleaban en el siglo III a. C. Las catapultas aprovechan la energ\u00eda acumulada en una cuerda retorcida o madera doblada para lanzar proyectiles a grandes distancias. Son bastante imprecisas, pero pueden ser mortales contra objetivos grandes o lentos, como las fortificaciones. Sol\u00edan transportarse en piezas que despu\u00e9s se ensamblaban en el mismo campo de batalla. A veces eran construidas in situ por los ingenieros. Las \u00faltimas catapultas se vieron en la Primera Guerra Mundial; los franceses las usaron para arrojar granadas a las trincheras enemigas.",
+    "strategy": "La Catapulta es un arma de asedio, extremadamente \u00fatil para asaltar las primeras ciudades enemigas. Es lenta y muy vulnerable a los ataques cuerpo a cuerpo del enemigo y, mientras se encuentre en el campo, siempre ha de contar con el apoyo de otras unidades. Para poder atacar, la Catapulta ha de \"desplegarse\" (1 punto de movimiento).",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matem\u00e1ticas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

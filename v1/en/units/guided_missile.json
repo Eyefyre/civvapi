@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Guided Missile",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "A cheap Unit that may be used once to damage enemy Units or Cities.",
+    "historical_info": "There are a number of advanced guided missile tracking technologies available to the modern missile designer. Some missiles are automatic, homing in on their targets using radar or heat-seeking technology. Some missiles can \"see\" a laser which \"illuminates\" the enemy. Others are directed by a human hand, connected to the missile by radio or even wire. Naturally, as weapons have gotten \"smarter\" they've also gotten more expensive, with a single guided missile potentially costing tens of thousands of dollars, or even more. An army that uses such weapons with careless abandon may find itself short of funds for other important things - food, for example.",
+    "strategy": "The Guided Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Guided Missile may be based in a player-owned friendly city or aboard a nuclear submarine or missile cruiser. They may move from base to base or attack an enemy unit or city with their range of \"8\". See the rules on Missiles for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Advanced Ballistics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasion (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/evasion_(100).json"
+        }
+    ]
+}

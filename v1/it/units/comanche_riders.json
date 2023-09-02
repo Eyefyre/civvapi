@@ -1,0 +1,35 @@
+{
+    "id": 132,
+    "name": "Comanche|un Comanche|dal tuo Comanche|al tuo Comanche|il tuo Comanche|da un Comanche",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/comanche_riders.png",
+    "game_info": "Unit\u00e0 a cavallo specializzata nel portare attacchi rapidi. Solo gli Shoshoni possono costruirla.",
+    "historical_info": "I Comanche, un ramo degli Shoshoni, furono spinti verso sud nell'Oklahoma e nel nord del Texas dalla pressione crescente degli indiani delle pianure settentrionali. I Comanche erano un popolo migratore di cacciatori-raccoglitori; le condizioni di continuo conflitto con gli altri nativi e i coloni americani e messicani li port\u00f2 a sviluppare una cultura guerriera. I giovani Comanche imparavano a cavalcare giovanissimi sui loro robusti pony della prateria. I guerrieri erano armati di lance dalla punta d'ossidiana, devastanti contro nemici a piedi, archi e pi\u00f9 tardi fucili. Lo stile di combattimento preferito era la guerriglia: rapidi e sanguinosi attacchi a cavallo con lo scopo di uccidere quanti pi\u00f9 nemici possibile e sparpagliare il loro bestiame. Le cosiddette Guerre Comanche ebbero inizio nel Settecento con le prime incursioni contro gli avamposti spagnoli in New Mexico e continuarono a imperversare quasi senza sosta fino alla definitiva sottomissione da parte dell'esercito degli Stati Uniti nel 1875.",
+    "strategy": "Il Comanche sostituisce la Cavalleria. Solo gli Shoshoni possono costruirlo. Rispetto alla controparte \u00e8 pi\u00f9 veloce e pi\u00f9 economico da costruire.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Scienza militare|della Scienza militare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Scorribande alla luce della luna",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/full_moon_striker.json"
+        }
+    ]
+}

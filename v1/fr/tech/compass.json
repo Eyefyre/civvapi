@@ -1,0 +1,41 @@
+{
+    "id": 26,
+    "name": "Boussole",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/compass.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 375,
+    "civilopedia_entry": "La boussole de base est un outil utilisant un aimant ou une aiguille aimant\u00e9e pour indiquer le nord dit \"magn\u00e9tique\". Bien que ce dernier ne soit pas exactement le m\u00eame que le nord \"v\u00e9ritable\", les deux sont suffisamment proches pour faire des boussoles des outils pr\u00e9cieux pour les navigateurs. Les premiers mod\u00e8les furent invent\u00e9s en Chine et en Europe (apparemment ind\u00e9pendamment) au XIIe si\u00e8cle. Les boussoles permettent aux navigateurs de surveiller et de contr\u00f4ler attentivement le \"rel\u00e8vement\" (la direction) de leur navire en mer, chose qui, avant leur invention, \u00e9tait impossible par temps couvert. De plus, elles \u00e9taient \u00e9galement utiles aux explorateurs parcourant des \u00e9tendues d\u00e9sertiques non balis\u00e9es, affrontant des temp\u00eates de neige ou cherchant \u00e0 se diriger sous la canop\u00e9e de jungles s\u00e9culaires.Les voyageurs contemporains emportent encore avec eux des boussoles, mais celles-ci sont aujourd'hui vues comme des antiquit\u00e9s au charme vieillot, surtout lorsqu'on les compare aux GPS (Global Positioning Systems) qui, en plus de vous indiquer pr\u00e9cis\u00e9ment o\u00f9 vous vous trouvez, vous signalent aussi le caf\u00e9 le plus proche ; une performance qu'aucune boussole, si perfectionn\u00e9e soit-elle, n'est \u00e0 m\u00eame de r\u00e9aliser.",
+    "quote": "\"La chose la plus importante au monde n'est pas de savoir o\u00f9 nous sommes, mais dans quelle direction nous allons.\" - Oliver Wendell Holmes",
+    "tech_prereqs": [
+        {
+            "name": "Optique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/optics.json"
+        },
+        {
+            "name": "Th\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/theology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Gal\u00e9asse|Gal\u00e9asses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/galleass.json"
+        },
+        {
+            "name": "Gal\u00e9asse v\u00e9nitienne|Gal\u00e9asses v\u00e9nitiennes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/great_galleass.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Port|Ports",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/harbor.json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": 66,
+    "name": "Fissione nucleare|della Fissione nucleare",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fission.png",
+    "era": "Epoca atomica",
+    "cost": 6400,
+    "civilopedia_entry": "La fissione \u00e8 una reazione nucleare in cui nuclei di atomi radioattivi si scindono (subendo appunto una fissione) e rilasciano neutroni che poi vanno a collidere contro altri atomi, provocandone la scissione con conseguente rilascio di altri neutroni e cos\u00ec via. In presenza di sufficiente materiale radioattivo, la fissione pu\u00f2 sostenersi da sola e rilasciare una grande quantit\u00e0 di energia in modo controllato (come ad esempio in un reattore) o totalmente incontrollato (come avviene in un'esplosione nucleare).La fissione nucleare produce moltissima energia (molte milioni di volte pi\u00f9 di quanto possa produrre una pari quantit\u00e0 di benzina), ma nel far ci\u00f2 produce anche scorie difficilmente gestibili. Inoltre, pu\u00f2 uccidere: lentamente, se un individuo \u00e8 rimasto esposto al materiale radioattivo, o molto rapidamente, se la reazione a catena sfugge di mano e il materiale esplode.La fissione nucleare accade molto raramente in natura: l'ultimo episodio noto sulla Terra risale a 2 miliardi di anni fa. Da allora il materiale fissile \u00e8 decaduto, rendendo la fissione un evento praticamente impossibile sul nostro pianeta.Nel 1917, il neozelandese Ernest Rutherford fu il primo uomo a spezzare un atomo. Nel 1934, l'italiano Enrico Fermi condusse degli esperimenti bombardando l'uranio con dei neutroni. Lo stesso anno, Ida Noddack postul\u00f2 l'idea della fissione nucleare, ovverosia di una reazione nucleare sostenuta. Nel 1938, i chimici tedeschi Otto Hahn e Fritz Strassmann riuscirono a creare la prima vera reazione nucleare a catena.Con lo scoppio della Seconda Guerra Mondiale, la corsa alla creazione della bomba atomica assunse un'importanza notevole. Dopo aver ricevuto una lettera in cui veniva descritta la potenziale letalit\u00e0 di un'eventuale arma nucleare da parte dei rifugiati Albert Einstein e Leo Szilard, il presidente americano Franklin Roosevelt costitu\u00ec una task force scientifica e militare per giungere a creare una simile arma prima dei tedeschi, dei quali si conosceva l'interesse in simili ricerche. Gli scienziati di Stati Uniti, Canada e Regno Unito cooperarono per la realizzazione dell'arma all'interno di un progetto dal nome in codice \"Manhattan\".Dopo cinque lunghi anni di lavoro febbrile, gli scienziati del progetto Manhattan riuscirono a creare e testare un'arma nucleare. Il 6 e il 9 agosto 1945, gli Stati Uniti d'America lanciarono bombe atomiche sulle citt\u00e0 giapponesi di Hiroshima e Nagasaki. Le esplosioni iniziali uccisero sul colpo all'incirca 120.000 giapponesi; altrettanti ne morirono nei tre mesi successivi a causa delle ustioni, dell'avvelenamento da radioattivit\u00e0 e di altri traumi. Il Giappone si arrese incondizionatamente il 15 agosto 1945.Dalla Seconda Guerra Mondiale in poi, nessun'altra bomba atomica \u00e8 mai stata sganciata, anche se sono stati condotti molti test. Stati Uniti, Russia, Inghilterra e Francia possiedono ancora grandi quantit\u00e0 di armi nucleari (specialmente USA e Russia). In seguito paesi come Cina, Israele, Pakistan, India e Corea del Nord si sono uniti al \"club del nucleare\". Attualmente gli Stati Uniti si stanno sforzando in ogni modo per impedire che anche l'Iran sviluppi queste armi, ma se ci riusciranno o meno non \u00e8 ancora dato saperlo.",
+    "quote": "\"Sono diventato Morte, il distruttore dei mondi.\" - J. Robert Oppenheimer",
+    "tech_prereqs": [
+        {
+            "name": "Teoria atomica|della Teoria Atomica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/atomic_theory.json"
+        },
+        {
+            "name": "Radar|del Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tattiche mobili|delle Tattiche mobili",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Balistica avanzata|della Balistica avanzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bomba atomica|una Bomba atomica|dalla tua Bomba atomica|alla tua Bomba atomica|la tua Bomba atomica|da una Bomba atomica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/atomic_bomb.json"
+        },
+        {
+            "name": "Bazooka|un Bazooka|dal tuo Bazooka|al tuo Bazooka|il tuo Bazooka|da un Bazooka",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/bazooka.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Centrale nucleare|la Centrale nucleare|una Centrale nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/nuclear_plant.json"
+        }
+    ]
+}

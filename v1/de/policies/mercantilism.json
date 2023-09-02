@@ -1,0 +1,20 @@
+{
+    "id": 42,
+    "name": "Merkantilismus",
+    "game_info": "MerkantilismusDer Kauf von Objekten in St\u00e4dten kostet 25% weniger Gold. +1 Wissenschaft pro M\u00fcnzanstalt, Markt, Bank und B\u00f6rse.",
+    "historical_info": "Merkantilismus ist eine Form des \u00f6konomischen Nationalismus, die eine Nation ermuntert, eine Politik der \"Protektionswirtschaft\" zu verfolgen, um ihre eigenen Exporte zu f\u00f6rdern und Importe aus anderen Nationen einzuschr\u00e4nken. Wenn die \"Handelsbilanz\" einer Nation w\u00e4chst, vermehrt sich ihr Reichtum und Wohlstand, und wenn sie unter null f\u00e4llt (die Nation importiert mehr G\u00fcter, als sie exportiert), werden die Nation und ihr Volk \u00e4rmer und verwundbarer gegen\u00fcber \u00e4u\u00dferen Bedrohungen. Die Theorie war in Westeuropa vom 16. bis zum 18. Jahrhundert beliebt. Heute streben die westlichen Nationen an, ihre Grenzen f\u00fcr den Handel zu \u00f6ffnen, wenn auch mit einem gewissen Grad an Besteuerung oder Quoten, um ihre wichtigsten nationalen Industrien zu sch\u00fctzen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/merkantilismus.png",
+    "required_policies": [
+        {
+            "name": "S\u00f6ldnerarmee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/mercenary_army.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Wirtschaft",
+        "game_info": "Wirtschaft verschafft Reichen einen Bonus, die auf Gold fokussiert sind.Wenn man Wirtschaft w\u00e4hlt, erh\u00f6ht sich der Goldertrag in der Hauptstadt um 25%. Schaltet den Bau von Big Ben frei.Bei \u00dcbernahme aller Politiken des Wirtschaftszweigs wird f\u00fcr jeden Handelsposten +1 Gold gew\u00e4hrt. Erm\u00f6glicht au\u00dferdem den Kauf von Gro\u00dfen H\u00e4ndlern mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": "Mittelalter",
+        "historical_info": "Wirtschaft besch\u00e4ftigt sich mit dem Austausch von Waren und Dienstleistungen, entweder durch einen Barterhandel (im Austausch gegen andere Waren oder Dienstleistungen) oder durch die \u00dcbergabe irgendeiner Form von W\u00e4hrung. Wirtschaft ist so alt wie die menschliche Sprache und vielleicht sogar noch \u00e4lter. In einigen Kulturen bekleiden H\u00e4ndler eine niedrigere Klasse als die Herrscher oder diejenigen, die Waffen tragen d\u00fcrfen. In anderen Kulturen gelten H\u00e4ndler als Elite und das Erlangen von Reichtum als h\u00f6chstes Gut. F\u00fcr den Gro\u00dfteil ihrer j\u00fcngeren Geschichte geh\u00f6rten die Vereinigten Staaten von Amerika der zweiten Kategorie an."
+    }
+}

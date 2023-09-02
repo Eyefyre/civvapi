@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "name": "Optics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/optics.png",
+    "era": "Classical Era",
+    "cost": 85,
+    "civilopedia_entry": "Optics is the study of light and vision. The earliest and most important optical challenges were centered upon aiding the perception of the human eye - letting it see greater distances, or allowing it to look at very small objects, or in darkness. The first lenses were developed by the ancient Egyptians and the Mesopotamians. The oldest lenses, made from polished crystal, date back to 700 BC. The Greeks and Romans created crude lenses by filling glass spheres with water. In \"Optics,\" Euclid described the mathematical rules of perception and examined refraction. In the eighth century AD Islamic scholars studied optics in depth, writing learned treatises on refraction and the construction of lenses and mirrors.The first wearable eyeglasses were invented in Italy in the 12th century, and the first primitive telescopes in the 15th, as was the first microscope. Though not very good by today's standards, these instruments greatly expanded man's ability to perceive the world around him and to navigate the world's uncharted oceans.",
+    "quote": "\"He made an instrument to know If the moon shine at full or no.\" - Samuel Butler",
+    "tech_prereqs": [
+        {
+            "name": "Sailing",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Compass",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Lighthouse",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/lighthouse.json"
+        },
+        {
+            "name": "Great Lighthouse",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/great_lighthouse.json"
+        }
+    ]
+}

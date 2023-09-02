@@ -1,0 +1,57 @@
+{
+    "id": 46,
+    "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/military_science.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 1600,
+    "civilopedia_entry": "Nauki militarne po\u015bwi\u0119cone s\u0105 wykorzystywaniu si\u0142y militarnej do osi\u0105gni\u0119cia cel\u00f3w politycznych. Ma wiele ga\u0142\u0119zi i specjalizacji, wyk\u0142ada si\u0119 j\u0105 g\u0142\u00f3wnie na akademiach wojskowych. Na przyk\u0142ad \u2013 jak\u0105 odleg\u0142o\u015b\u0107 pokona armia w jeden dzie\u0144 i ilu kalorii potrzebuje \u017co\u0142nierz, \u017ceby utrzyma\u0107 najwy\u017csz\u0105 sprawno\u015b\u0107 bojow\u0105? Albo jak walczy\u0107 z powstaniem we w\u0142asnym kraju? Przypu\u015b\u0107my, \u017ce jeste\u015bmy armi\u0105 okupacyjn\u0105 w innym kraju. Jak to zmienia podej\u015bcie do powstania? Albo ilu ludzi przetrwa wojn\u0119 atomow\u0105, je\u015bli zaatakujemy pierwsi?\u201eSztuka wojny\u201d Sun Tzu to klasyczny podr\u0119cznik nauk militarnych. Cho\u0107 pierwsze wydanie ukaza\u0142o si\u0119 w VI wieku p.n.e., to korzysta si\u0119 z niej po dzi\u015b dzie\u0144 (jest te\u017c \u015bwietn\u0105 rozrywkow\u0105 i pouczaj\u0105c\u0105 lektur\u0105 dla ka\u017cdego historyka amatora). \u201eKsi\u0105\u017c\u0119\u201d Machiavellego, wydany w 1532 r., po \u015bmierci autora, szczeg\u00f3\u0142owo opisuje zale\u017cno\u015bci mi\u0119dzy wojn\u0105 i polityk\u0105. W 1832 r. pruski genera\u0142 Carl von Clausewitz opublikowa\u0142 ksi\u0105\u017ck\u0119 \u201eO wojnie\u201d, kt\u00f3ra tak\u017ce omawia wp\u0142yw polityki i gospodarki na wojn\u0119.W 1890 r. ukaza\u0142o si\u0119 znakomite dzie\u0142o Alfreda Thayera Mahana, \u201eWp\u0142yw pot\u0119gi morskiej na histori\u0119, 1660-1783\u201d, maj\u0105ce wielki wp\u0142yw na ameryka\u0144skich oficer\u00f3w i polityk\u00f3w. Traktat ten znacz\u0105co przyczyni\u0142 si\u0119 do rozwoju floty Stan\u00f3w Zjednoczonych na pocz\u0105tku XX wieku. Bez tej ksi\u0105\u017cki Stany Zjednoczone mog\u0142yby by\u0107 jeszcze gorzej przygotowane na nadej\u015bcie wojen \u015bwiatowych, co mia\u0142oby katastrofalne skutki dla tego pa\u0144stwa i jego zamorskich sojusznik\u00f3w.",
+    "quote": "\u201eWojny toczy si\u0119 za pomoc\u0105 broni, ale wygrywaj\u0105 je ludzie. Zwyci\u0119\u017ca si\u0119 dzi\u0119ki odwadze dow\u00f3dc\u00f3w i ich podw\u0142adnych.\u201d \u2013 George S. Patton",
+    "tech_prereqs": [
+        {
+            "name": "Chemia|Chemii|Chemii|Chemi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chemistry.json"
+        },
+        {
+            "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dynamit|Dynamitu|Dynamitowi|Dynamit",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/dynamite.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kawaleria|Kawalerii|Kawalerii|Kawaleri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/cavalry.json"
+        },
+        {
+            "name": "Kozacy|Kozak\u00f3w|Kozakom|Kozak\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/cossack.json"
+        },
+        {
+            "name": "Huzarzy|Huzar\u00f3w|Huzarom|Huzar\u00f3w|Huzarami|Huzarach",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/hussar.json"
+        },
+        {
+            "name": "Berberyjska kawaleria|Berberyjskiej kawalerii|Berberyjskiej kawalerii|Berberyjsk\u0105 kawaleri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/berber_cavalry.json"
+        },
+        {
+            "name": "Konni Komancze|Konnych Komancz\u00f3w|Konnym Komanczom|Konnych Komancz\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/comanche_riders.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Akademia wojskowa|Akademii wojskowej|Akademii wojskowej|Akademi\u0119 wojskow\u0105|Akademie wojskowe|Akademii wojskowych|Akademiom wojskowym|Akademie wojskowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/military_academy.json"
+        },
+        {
+            "name": "Brama Brandenburska|Bramy Brandenburskiej|Bramie Brandenburskiej|Bram\u0119 Brandenbursk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/brandenburg_gate.json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 26,
+    "name": "Bussola|della Bussola",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/compass.png",
+    "era": "Epoca medievale",
+    "cost": 375,
+    "civilopedia_entry": "Una bussola \u00e8 un dispositivo che sfrutta un pezzo di magnetite o un ago magnetizzato per indicare la direzione del polo nord magnetico. Il polo nord magnetico non \u00e8 identico a quello geografico, ma i due punti sono abbastanza vicini da rendere le bussole estremamente utili per orientarsi. Le prime bussole sono state inventate in Cina e in Europa (sembra in modo indipendente) nel XII secolo. La loro invenzione ha permesso ai navigatori di tener traccia della rotta in mare, cosa che prima era del tutto impossibile nei giorni di tempo coperto o di pioggia e di notte. Le bussole sono state ugualmente utili ai viaggiatori che si sono spinti in un deserto senza piste, o in montagna durante una tempesta di neve, o nelle profondit\u00e0 di una densa giungla tropicale.I viaggiatori moderni usano ancora la bussola, ma oggi questi dispositivi sembrano un po' vecchi e superati, specialmente se in confronto con i satelliti per il posizionamento globale. Un sistema GPS non solo pu\u00f2 dire a un utente dove si trova, ma pu\u00f2 anche guidarlo verso la caffetteria pi\u00f9 vicina, cosa che neppure la bussola pi\u00f9 accurata pu\u00f2 fare.",
+    "quote": "\"Trovo che la cosa grandiosa di questo mondo non sia tanto dove siamo, ma verso dove stiamo andando...\" - Oliver Wendell Holmes",
+    "tech_prereqs": [
+        {
+            "name": "Ottica|dell'Ottica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/optics.json"
+        },
+        {
+            "name": "Teologia|della Teologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/theology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomia|dell'Astronomia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Galeazza|una Galeazza|dalla tua Galeazza|alla tua Galeazza|la tua Galeazza|da una Galeazza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/galleass.json"
+        },
+        {
+            "name": "Grande Galeazza|una Grande Galeazza|dalla tua Grande Galeazza|alla tua Grande Galeazza|la tua Grande Galeazza|da una Grande Galeazza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/great_galleass.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Porto|il Porto|un Porto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/harbor.json"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 71,
+    "name": "Strzelcy rydwanowi|Strzelc\u00f3w rydwanowych|Strzelcom rydwanowym|Strzelc\u00f3w rydwanowych",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chariot_archer.png",
+    "game_info": "Szybka jednostka dystansowa skuteczna w otwartym terenie.",
+    "historical_info": "Zanim wynaleziono strzemi\u0119, walka wierzchem by\u0142a praktycznie niemo\u017cliwa. Nie by\u0142o si\u0119 jak zaprze\u0107, a najs\u0142absze pchni\u0119cie potrafi\u0142o zwali\u0107 wojownika z konia, co zwykle ko\u0144czy\u0142o si\u0119 tragedi\u0105. Konie po raz pierwszy pojawi\u0142y si\u0119 na polu bitwy zaprz\u0119gni\u0119te do rydwan\u00f3w. Jeden rydwan bojowy sk\u0142ada\u0142 si\u0119 zwykle z dw\u00f3ch koni, kierowcy i \u0142ucznika. Szybko\u015b\u0107 rydwanu przes\u0105dzi\u0142a o skuteczno\u015bci tej jednostki, szczeg\u00f3lnie w starciu z piechot\u0105. Strzelcy rydwanowi mogli podjecha\u0107 na odleg\u0142o\u015b\u0107 strza\u0142u, wypu\u015bci\u0107 salw\u0119, a nast\u0119pnie uciec, zanim piechurzy zdo\u0142ali ich dopa\u015b\u0107. Najwi\u0119ksz\u0105 przeszkod\u0119 dla tej jednostki stanowi\u0142 trudny teren. Na antycznych r\u00f3wninach panowa\u0142a niepodzielnie, ale wzg\u00f3rza czy lasy by\u0142y dla niej praktycznie niedost\u0119pne.",
+    "strategy": "Strzelcy rydwanowi to szybka jednostka strzelaj\u0105ca, zab\u00f3jcza w terenie otwartym. S\u0105 troch\u0119 s\u0142absi od \u0142ucznik\u00f3w, ale poruszaj\u0105 si\u0119 dwa razy szybciej. Jednak strzelcy rydwanowi otrzymuj\u0105 kar\u0119 do ruchu po polach z lasami, d\u017cungl\u0105 lub wzg\u00f3rzami (chyba \u017ce znajduj\u0105 si\u0119 na nich drogi). Jako jednostka kawalerii, s\u0105 podatni na atak w\u0142\u00f3cznik\u00f3w.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kara za trudny teren|Kary za trudny teren|Karze za trudny teren|Kar\u0119 za trudny teren",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

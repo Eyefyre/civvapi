@@ -1,0 +1,40 @@
+{
+    "id": 24,
+    "name": "Guildes",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/guilds.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 275,
+    "civilopedia_entry": "Dans les villes pr\u00e9industrielles, les artisans se regroupaient souvent dans des guildes de commerce en fonction de leurs m\u00e9tiers. Ces guildes furent fond\u00e9es pour prot\u00e9ger les secrets de fabrication et augmenter l'influence et les revenus des artisans. On trouve des traces d'anciennes guildes de commerce remontant au IIIe\u00a0si\u00e8cle av.\u00a0J.\u00adC. chez les Romains et en Chine sous la dynastie Han. En l'an\u00a0300, les associations d'artisans s'\u00e9taient d\u00e9j\u00e0 r\u00e9pandues dans l'Empire Gupta et l'\u00c9gypte de Ptol\u00e9m\u00e9e. Au Moyen \u00c2ge, les guildes se propag\u00e8rent rapidement de l'Italie vers toute l'Europe. \u00c0 Paris et \u00e0 Londres, des documents du XIIe\u00a0si\u00e8cle recensaient plus de 100\u00a0guildes officielles. Dans certains cas, elles \u00e9taient si puissantes qu'elles gouvernaient les villes, comme en t\u00e9moignent les h\u00f4tels de ville que l'on peut trouver en Allemagne, en Suisse et en Hollande. Au fil du temps, les guildes s'attach\u00e8rent \u00e0 pr\u00e9server la qualit\u00e9 de leur art et la transmission de leur savoir. Un jeune apprenti devait travailler une vie enti\u00e8re pour devenir grand ma\u00eetre. C'est ainsi qu'est n\u00e9 le syst\u00e8me de marques d\u00e9pos\u00e9es, indiquant que la qualit\u00e9 d'un produit \u00e9tait conforme aux normes de la guilde et du gouvernement. Toutefois, l'influence et le pouvoir des guildes s'\u00e9rod\u00e8rent lentement et elles se fragment\u00e8rent avec l'arriv\u00e9e de nouveaux march\u00e9s, de probl\u00e8mes politiques et les m\u00e9thodes de production de masse. En France, par exemple, les guildes furent abolies en\u00a01791 par la loi Le Chapelier et d'autres pays ne tard\u00e8rent pas \u00e0 faire de m\u00eame. Bien que largement supplant\u00e9es par les syndicats de l'\u00e8re industrielle, des guildes existent encore de nos jours, notamment dans le cin\u00e9ma, la litt\u00e9rature et d'autres professions artistiques.",
+    "quote": "\"Les marchands et les commer\u00e7ants sont l\u00e0\u00a0; leurs profits sont r\u00e9gl\u00e9s d'avance...\" - Gur\u00fb Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Monnaie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/currency.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chevalerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chivalry.json"
+        },
+        {
+            "name": "M\u00e9canique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Compagnie des Indes orientales|Compagnies des Indes orientales",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/east_india_company.json"
+        },
+        {
+            "name": "Machu Picchu",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/machu_picchu.json"
+        },
+        {
+            "name": "Guilde des artistes|Guildes des artistes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/artists'_guild.json"
+        }
+    ]
+}

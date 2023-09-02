@@ -1,0 +1,77 @@
+{
+    "id": 4,
+    "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+    "historical_info": "Tundra jest na wp\u00f3\u0142 zamarzni\u0119tym l\u0105dem i wyst\u0119puje w ch\u0142odniejszych rejonach Ziemi. Jest nieco lepsza ni\u017c pustynia, ale mniej przydatna ni\u017c \u0142\u0105ki czy r\u00f3wniny. Nikt nie buduje miast w tundrze, chyba \u017ce potrzebne mu s\u0105 pobliskie surowce lub nie ma si\u0119 gdzie podzia\u0107.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra|tundry|tundrze|tundr\u0119.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "Konie|Koni|Koniom|Konie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+        },
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        },
+        {
+            "name": "Zwierzyna|Zwierzyny|Zwierzynie|Zwierzyn\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/deer.json"
+        },
+        {
+            "name": "Kamie\u0144|Kamienia|Kamieniowi|Kamie\u0144",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/stone.json"
+        },
+        {
+            "name": "Srebro|Srebra|Srebru|Srebro",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silver.json"
+        },
+        {
+            "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
+        },
+        {
+            "name": "Marmur|Marmuru|Marmurowi|Marmur",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/marble.json"
+        },
+        {
+            "name": "Futra|Futer|Futrom|Futra",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/furs.json"
+        },
+        {
+            "name": "Mied\u017a|Miedzi|Miedzi|Mied\u017a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/copper.json"
+        },
+        {
+            "name": "S\u00f3l|Soli|Soli|S\u00f3l",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/salt.json"
+        }
+    ]
+}

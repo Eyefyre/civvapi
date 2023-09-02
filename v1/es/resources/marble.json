@@ -1,0 +1,45 @@
+{
+    "id": 19,
+    "name": "M\u00e1rmol",
+    "game_info": null,
+    "historical_info": "El m\u00e1rmol es una piedra hermosa, muy apreciada como material de construcci\u00f3n y para esculpir. Se encuentra en una gran variedad de colores y tonalidades, a veces monocrom\u00e1tico y a veces con vetas y manchas multicolores en su interior. Muchos de los edificios m\u00e1s bellos del mundo, incluyendo el Taj Mahal, son de m\u00e1rmol, as\u00ed como las mejores esculturas de la antig\u00fcedad.+15% a la Producci\u00f3n cuando se construyan maravillas de la Antig\u00fcedad y la \u00c9poca Cl\u00e1sica en la ciudad donde se explote.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/m\u00e1rmol.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Cantera|Canteras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

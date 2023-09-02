@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Carabela|Carabelas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Una unidad de exploraci\u00f3n r\u00e1pida del Renacimiento que tiene un radio de visibilidad aumentado y puede adentrarse en el Oc\u00e9ano. Lucha como una unidad naval de combate cuerpo a cuerpo.",
+    "historical_info": "La carabela era una peque\u00f1a nave que se us\u00f3 en el siglo XV para explorar el mundo. Creada por orden del pr\u00edncipe de Portugal Enrique el Navegante, otras naciones vieron r\u00e1pidamente las cualidades de la carabela e hicieron sus propias copias de tan \u00fatil nave. Las carabelas ten\u00edan normalmente de 20 a 30 metros de eslora y dos o tres m\u00e1stiles de vela latina, eran ligeras y de poco calado, lo que las hac\u00eda id\u00f3neas para explorar costas y r\u00edos desconocidos y aventurarse por donde las naves m\u00e1s grandes tem\u00edan navegar. Adem\u00e1s, eran barcos muy marineros y pod\u00edan sobrevivir a cualquier inclemencia que el Atl\u00e1ntico arrojara contra ellos. Dos de las tres naves de Crist\u00f3bal Col\u00f3n (la Pinta y la Ni\u00f1a) eran carabelas (la m\u00e1s grande, la Santa Mar\u00eda, era una nao).",
+    "strategy": "La Carabela constituye una modernizaci\u00f3n importante de la potencia naval de una civilizaci\u00f3n. Es una unidad de cuerpo a cuerpo m\u00e1s r\u00e1pida que el Trirreme y puede adentrarse en hex\u00e1gonos de aguas profundas oce\u00e1nicas. Es veloz, lo que le confiere un ascenso que le ofrece una buena posibilidad de retirarse a retaguardia antes de que se produzca el ataque enemigo cuerpo a cuerpo. Tiene un radio de visibilidad mayor, lo que la convierte en los ojos y o\u00eddos de cualquier armada a mitad de la partida. Esta bonificaci\u00f3n a la Visual se pierde si se moderniza la Carabela a Destructor.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronom\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Retirarse antes del cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

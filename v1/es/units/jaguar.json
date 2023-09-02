@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Jaguar|Jaguares",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Primitiva unidad militar b\u00e1sica, bastante d\u00e9bil. Solo los aztecas pueden construirla. Esta unidad lucha con m\u00e1s eficacia en la Selva y cura da\u00f1o cuando mata a una unidad enemiga, a diferencia del Guerrero, al que sustituye.",
+    "historical_info": "En la cultura azteca, la guerra era un ritual religioso adem\u00e1s de una herramienta pol\u00edtica. Los varones j\u00f3venes deb\u00edan capturar o matar a enemigos para mejorar su posici\u00f3n, y cada vez necesitaban m\u00e1s prisioneros para sacrificarlos en los ritos religiosos. Los caballeros jaguar constitu\u00edan la \u00e9lite de los soldados profesionales del ej\u00e9rcito azteca. Estaban protegidos por pieles de jaguar y equipados con las mortales \"macuahuitls\" (espadas de madera recubiertas de obsidiana). Fueron, quiz\u00e1s, la infanter\u00eda pesada m\u00e1s peligrosa del norte y el centro de la Am\u00e9rica precolombina.",
+    "strategy": "El Jaguar es la unidad exclusiva azteca que sustituye al Guerrero. Recibe una gran bonificaci\u00f3n cuando combate en la Selva. Tambi\u00e9n se cura el da\u00f1o cuando destruye unidades enemigas y tiene el ascenso de Montaraz, que le permite moverse r\u00e1pidamente por el Bosque y la Selva.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonif. al combate Bosque/Selva (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Montaraz",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/woodsman.json"
+        },
+        {
+            "name": "Cura 25 de da\u00f1o si mata una unidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": 74,
+    "name": "Sovranit\u00e0",
+    "game_info": "Sovranit\u00e0+1 Oro per ogni edificio scientifico.",
+    "historical_info": "La sovranit\u00e0, per esteso \"sovranit\u00e0 popolare\", \u00e8 la convinzione che lo stato appartenga alla gente e che i governanti siano \"servitori\" dei cittadini. Il potere deriva dal popolo, e chi lo detiene lo fa solo perch\u00e9 ne ha il consenso. La sovranit\u00e0 popolare stride al massimo con il concetto di teocrazia, in cui il potere deriva direttamente da Dio e non dai cittadini. Solitamente nelle nazioni in cui vige la sovranit\u00e0 popolare si tengono periodicamente delle elezioni in cui la popolazione ha la possibilit\u00e0 di esprimere la propria volont\u00e0, votando per il candidato che con un po' di fortuna \u00e8 il pi\u00f9 adatto a governare (e non, si spera, il pi\u00f9 bello o quello che racconta meglio le bugie).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/sovranit\u00e0.png",
+    "required_policies": [
+        {
+            "name": "Secolarismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/secularism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Razionalismo",
+        "game_info": "Il Razionalismo aumenta la capacit\u00e0 di generare e utilizzare Scienza.Adottare il Razionalismo fornisce +10% Scienza quando l'impero \u00e8 Felice. Sblocca la costruzione della Torre di porcellana.Adottare tutte le Politiche nell'albero del Razionalismo ti fa ottenere una tecnologia gratuita; inoltre permette l'acquisto di Grandi Scienziati in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca rinascimentale",
+        "historical_info": "Il razionalismo \u00e8 una visione del mondo che fa ricorso alla ragione (anzich\u00e9, per esempio, alla fede) per spiegare i fenomeni naturali. Chi segue il razionalismo crede che la ragione sia l'unico modo di interpretare il mondo, a partire dalle informazioni raccolte dai cinque sensi. Questa filosofia, che si pu\u00f2 far risalire all'Antica Grecia e alla grande figura di Socrate, ha vissuto una grande rinascita in Europa nei secoli XVI e XVII grazie al pensiero di uomini come Cartesio, Spinoza e Kant."
+    }
+}

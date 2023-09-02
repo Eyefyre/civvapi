@@ -1,0 +1,32 @@
+{
+    "id": 74,
+    "name": "Laser|del Laser",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/lasers.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "Originariamente il termine \"laser\" si scriveva LASER, acronimo di \"Light Amplification by Stimulated Emission of Radiation\" (amplificazione della luce tramite l'emissione stimolata di radiazione): in pratica la sua stessa definizione. Le prime basi scientifiche per i laser furono poste da Albert Einstein nel 1917. Egli ricav\u00f2 autonomamente la legge della radiazione di Planck, proprio nel periodo in cui gli scrittori di fantascienza stavano cominciando a descrivere una tecnologia simile. La prima dimostrazione di un laser funzionante avvenne solo nel 1960, quando i laboratori di ricerca Hughes introdussero una tecnologia laser capace di immagazzinare dati per via ottica (come i moderni masterizzatori DVD).Da questi primi prototipi sono stati sviluppati diversi tipi di laser, ottimizzati per le applicazioni pi\u00f9 diverse, che differiscono per aspetti come la gittata massima, la potenza di emissione o la lunghezza d'onda. Anche se inizialmente il laser fu ironicamente definito \"una soluzione alla ricerca di un problema\", oggi \u00e8 impiegato in innumerevoli campi: dall'elettronica di consumo all'intrattenimento, dalle dotazioni delle forze dell'ordine agli impieghi militari. Meglio non guardarlo direttamente, per\u00f2.",
+    "quote": "\"La notte \u00e8 gi\u00e0 inoltrata, presto arriver\u00e0 il giorno: per questo dobbiamo svestirci delle cattive azioni delle tenebre e indossare l'armatura della luce.\" - La Bibbia, Romani 13:12 ",
+    "tech_prereqs": [
+        {
+            "name": "Computer|del Computer",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Invisibilit\u00e0|dell'Invisibilit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/stealth.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Jet da combattimento|un Jet da combattimento|dal tuo Jet da combattimento|al tuo Jet da combattimento|il tuo Jet da combattimento|da un Jet da combattimento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/jet_fighter.json"
+        },
+        {
+            "name": "Unit\u00e0 corazzata|un'Unit\u00e0 corazzata|dalla tua Unit\u00e0 corazzata|alla tua Unit\u00e0 corazzata|la tua Unit\u00e0 corazzata|da un'Unit\u00e0 corazzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/modern_armor.json"
+        }
+    ],
+    "building_unlocks": []
+}

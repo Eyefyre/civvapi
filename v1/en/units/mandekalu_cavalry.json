@@ -1,0 +1,27 @@
+{
+    "id": 58,
+    "name": "Mandekalu Cavalry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mandekalu_cavalry.png",
+    "game_info": "Powerful Medieval Mounted Unit, weak to Pikemen. Only the Songhai may build it. This Unit is not penalized when attacking Cities, unlike the Knight which it replaces.",
+    "historical_info": "Like their northern counterparts, Muslim armies also contained heavy cavalry units, similar in form and function to European knights. Like the Europeans, the Muslim knights too were from the upper reaches of society, possessing the best arms, armor and horses. The armor might be modified to reflect the differences in climate - even the most noble knight would quickly roast if wearing plate armor in a Middle East summer - but it still gave them a great advantage over other units on the battlefield. Historical accounts admit that Muslim knights were generally a match for their European opponents.",
+    "strategy": "This is a Songhai unique unit, replacing the Knight. This unit has the same statistics as the Knight, but it is significantly better at attacking cities. The Mandekalu Cavalry can move after attacking. Its speed makes it difficult for an enemy to build a defensive line before the Mandekalu Cavalry reaches the target.",
+    "movement": 4,
+    "cost": {
+        "production": 110,
+        "faith": 220
+    },
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

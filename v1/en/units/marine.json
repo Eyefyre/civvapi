@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "Marine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Atomic Era Unit especially useful for embarking and invading across the sea.",
+    "historical_info": "Originally intended to serve as a class of infantry specializing in amphibious assaults, the stalwart marines have since grown to serve in a number of important roles within the military. Typically working in close collaboration with the navy, marines' diverse capabilities have allowed them to be utilized in conflicts throughout the world for decades.",
+    "strategy": "The Marine is an alternative to Infantry. It costs a bit more than Infantry but possesses promotions that enhance its Sight and attack strength when embarked at sea.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Penicillin",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibious",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/amphibious.json"
+        },
+        {
+            "name": "Extra Sight While Embarked",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "Embarkation with Defense",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

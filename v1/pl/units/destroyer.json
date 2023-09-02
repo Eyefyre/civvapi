@@ -1,0 +1,35 @@
+{
+    "id": 13,
+    "name": "Niszczyciel|Niszczyciela|Niszczycielowi|Niszczyciela|Niszczycielem|Niszczycielu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/destroyer.png",
+    "game_info": "Szybka jednostka morska, kt\u00f3ra \u015bwietnie sprawdza si\u0119 w roli zwiadowczej oraz jako \u0142owca okr\u0119t\u00f3w podwodnych. Walczy w zwarciu.",
+    "historical_info": "Niszczyciel to dwudziestowieczny statek, przeznaczony do patrolowania, eskortowania oraz do zwalczania cel\u00f3w lotniczych i \u0142odzi podwodnych. Najwcze\u015bniejsze niszczyciele by\u0142y lekkimi statkami, kiepsko przystosowanymi do oceanicznych rejs\u00f3w, chyba \u017ce towarzyszy\u0142y im \u201estatki pomocnicze\u201d z dodatkowym paliwem. Kiedy wybuch\u0142a II wojna \u015bwiatowa, niszczyciele by\u0142y ju\u017c szybkie, zwrotne i przewozi\u0142y wystarczaj\u0105c\u0105 ilo\u015b\u0107 broni i zapas\u00f3w, by przetrwa\u0107 dalekie misje na wszystkich oceanach \u015bwiata.Ich bro\u0144 to dzia\u0142a przeciwlotnicze, lekkie dzia\u0142a przeciw innym statkom, torpedy i podwodne \u0142adunki wybuchowe. Cz\u0119sto towarzyszy\u0142y grupom lotniskowc\u00f3w, patroluj\u0105c wody wok\u00f3\u0142 cenniejszych i wi\u0119kszych statk\u00f3w w poszukiwaniu \u0142odzi podwodnych i zapewniaj\u0105c ochron\u0119 przeciwlotnicz\u0105. S\u0142u\u017cba na pok\u0142adzie niszczyciela z czas\u00f3w II wojny \u015bwiatowej by\u0142a niezwykle niebezpieczna \u2013 w czasie wojny zniszczono ponad 220 brytyjskich, ameryka\u0144skich, australijskich i kanadyjskich niszczycieli, g\u0142\u00f3wnie podczas atak\u00f3w lotniczych.",
+    "strategy": "Niszczyciel zosta\u0142 zaprojektowany, by \u015bciga\u0107 i niszczy\u0107 okr\u0119ty podwodne oraz zapewnia\u0107 wsparcie przeciwlotnicze. Cz\u0119sto s\u0142u\u017cy jako eskorta dla zaokr\u0119towanych jednostek, pancernik\u00f3w i lotniskowc\u00f3w, kt\u00f3re znajduj\u0105 si\u0119 w zasi\u0119gu wrogich samolot\u00f3w i \u0142odzi podwodnych. Niszczyciel jest zaskakuj\u0105co szybki, dzi\u0119ki czemu ma szans\u0119 wycofa\u0107 si\u0119 z walki, nim odniesie powa\u017cne uszkodzenia.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Silnik spalinowy|Silnika spalinowego|Silnikowi spalinowemu|Silnik spalinowy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Widzenie okr\u0119t\u00f3w podwodnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Przechwytywanie (40)|Przechwytywania (40)|Przechwytywaniu (40)|Przechwytywanie (40)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(40).json"
+        },
+        {
+            "name": "Premia przeciw okr\u0119tom podwodnym (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Wycofanie przed walk\u0105 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

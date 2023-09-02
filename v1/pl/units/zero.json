@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Zera|Zer|Zerom|Zera",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Jednostka lotnicza przeznaczona do walki o panowanie w powietrzu i przechwytywania nadlatuj\u0105cych maszyn wroga. Mog\u0105 j\u0105 budowa\u0107 tylko Japo\u0144czycy. Jednostka otrzymuje premi\u0119 do walki z innymi my\u015bliwcami i nie wymaga ropy naftowej.",
+    "historical_info": "My\u015bliwiec Mitsubishi A6M Zero by\u0142 u\u017cywany przez Japoni\u0119 przez ca\u0142\u0105 II wojn\u0119 \u015bwiatow\u0105. Zaprojektowano go do startu z lotniskowca. Na pocz\u0105tku II wojny \u015bwiatowej by\u0142 najlepszym my\u015bliwcem na \u015bwiecie operuj\u0105cym z lotniskowca. Zero \u0142\u0105czy\u0142 zwrotno\u015b\u0107 i daleki zasi\u0119g, by\u0142 doskona\u0142y w walce powietrznej, \u0142atwo pokonywa\u0142 znacznie gorsze ameryka\u0144skie i brytyjskie samoloty. Z up\u0142ywem czasu alianckie my\u015bliwce zosta\u0142y znacznie ulepszone, tymczasem japo\u0144skie lotnictwo cierpia\u0142o ze wzgl\u0119du na niedob\u00f3r materia\u0142\u00f3w i si\u0142y roboczej. Pod koniec wojny Zero by\u0142 ju\u017c o wiele gorszy na tle rywali, ale w swoim najlepszym momencie by\u0142 naprawd\u0119 doskona\u0142ym my\u015bliwcem i panowa\u0142 na niebie Pacyfiku.",
+    "strategy": "Zero jest wyj\u0105tkow\u0105 i do\u015b\u0107 mocn\u0105 jednostk\u0105 lotnicz\u0105 Japo\u0144czyk\u00f3w, kt\u00f3ra zast\u0119puje my\u015bliwce oraz otrzymuje du\u017ce premie do walki z innymi my\u015bliwcami, a do budowy nie wymaga \u017ar\u00f3d\u0142a ropy naftowej. Mo\u017ce stacjonowa\u0107 w ka\u017cdym posiadanym przez ciebie mie\u015bcie lub na pok\u0142adzie lotniskowca. Mo\u017ce porusza\u0107 si\u0119 z miasta do miasta (lub lotniskowca), a tak\u017ce wykonywa\u0107 misje w odleg\u0142o\u015bci do 8 p\u00f3l. W zasadach dotycz\u0105cych jednostek powietrznych znajduje si\u0119 wi\u0119cej informacji.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|Radaru|Radarowi|Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Premia przeciwko my\u015bliwcom (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Czyszczenie nieba|Czyszczenia nieba|Czyszczeniu nieba|Czyszczenie nieba",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_sweep.json"
+        },
+        {
+            "name": "Rozpoznanie powietrzne|Rozpoznania powietrznego|Rozpoznaniu powietrznemu|Rozpoznanie powietrzne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_recon.json"
+        },
+        {
+            "name": "Premia przeciwko bombowcom i \u015bmig\u0142. (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

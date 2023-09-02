@@ -1,0 +1,33 @@
+{
+    "id": 27,
+    "name": "Kasbah|una Kasbah|una Kasbah",
+    "game_info": "Una kasbah \u00e8 una specie di medina (un quartiere fortificato all'interno di una citt\u00e0) dislocata in una regione rurale, solitamente un piccolo insediamento sul fianco o in cima a una collina. Originariamente residenza di un capo tribale o di un importante imam islamico, la kasbah \u00e8 caratterizzata da alte case senza finestre e da strade strette e tortuose. In genere \u00e8 dominata da una singola torre fortificata. Fino all'inizio del Novecento le kasbah erano diffuse lungo tutta la costa del Nordafrica e in Medio Oriente: per le famiglie marocchine ed algerine di origine araba costruire una kasbah era segno di ricchezza, influenza e potere.Una Kasbah pu\u00f2 essere costruita solo in una casella di Deserto.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kasbah|una_kasbah|una_kasbah.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "Morocco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/morocco.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

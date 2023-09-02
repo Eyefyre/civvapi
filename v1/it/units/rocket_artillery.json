@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Artiglieria lanciarazzi|un'Artiglieria lanciarazzi|dalla tua Artiglieria lanciarazzi|alla tua Artiglieria lanciarazzi|la tua Artiglieria lanciarazzi|da un'Artiglieria lanciarazzi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Veloce unit\u00e0 d'assedio, disponibile verso la fine del gioco. A differenza delle altre unit\u00e0 d'assedio, non deve eseguire l'allestimento prima di far fuoco.",
+    "historical_info": "L'artiglieria si \u00e8 sempre basata sull'uso di esplosivi chimici per lanciare proiettili inerti contro gli obiettivi. L'artiglieria lanciarazzi, invece, lancia razzi a propulsione autonoma, dotati del proprio propellente. Questo permette di realizzare tubi d'artiglieria molto pi\u00f9 piccoli e leggeri di quelli tradizionali, rendendo possibile la realizzazione di veicoli dalla grande mobilit\u00e0 senza rinunciare alla potenza di fuoco. I sistemi d'artiglieria pi\u00f9 avanzati possono contenere sistemi di puntamento automatico che permettono ai proiettili di correggere la loro rotta in volo.",
+    "strategy": "L'Artiglieria lanciarazzi \u00e8 un'arma d'assedio eccezionalmente potente, molto superiore all'artiglieria tradizionale. L'Artiglieria lanciarazzi non deve perdere tempo con l'allestimento prima di fare fuoco: questo la rende molto pi\u00f9 rapida delle unit\u00e0 precedenti. Il suo raggio di visione \u00e8 limitato, ma pu\u00f2 usare il fuoco indiretto per bombardare i bersagli che non \u00e8 in grado di vedere (a patto che siano visibili ad altre unit\u00e0 amiche). Come tutte le altre unit\u00e0 d'artiglieria \u00e8 vulnerabile all'attacco di fanteria e carri armati, per cui dev'essere difesa in modo appropriato.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Missilistica|della Missilistica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuoco indiretto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

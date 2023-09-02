@@ -1,0 +1,31 @@
+{
+    "id": 56,
+    "name": "Kamel-Bogensch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/camel_archer.png",
+    "game_info": "Schnelle mittelalterliche Fernwaffen-Einheit, anf\u00e4llig gegen\u00fcber Pikenieren. Nur die Araber k\u00f6nnen sie bauen. Sie ist eine Fernwaffen-Einheit, anders als der Ritter, den sie ersetzt.",
+    "historical_info": "Einige muslimische Kavalleristen ritten auf Kamelen in die Schlacht. Das hatte h\u00e4ufig einen beunruhigenden Effekt auf die europ\u00e4ischen Pferde, die diesen ungew\u00f6hnlichen Tieren bis dahin noch nie begegnet waren. Wie zu erwarten sind Kamele besser f\u00fcr W\u00fcstengebiete geeignet als Pferde. Im Allgemeinen setzte der Kamel-Bogensch\u00fctze Blitzangriffstaktiken gegen den Feind ein, was eher der Taktik berittener mongolischer Bogensch\u00fctzen entsprach als der von Rittern oder anderen schweren Kavallerie-Einheiten. Ein gut ausgebildeter Kamel-Bogensch\u00fctze konnte einem Ritter gro\u00dfe Schwierigkeiten bereiten, wenn dieser nicht von Bogensch\u00fctzen seiner eigenen leichten Kavallerie gesch\u00fctzt wurde.",
+    "strategy": "Der Kamel-Bogensch\u00fctze ist die Spezialeinheit der Araber und ersetzt den Ritter. Der Kamel-Bogensch\u00fctze ist eine starke Fernwaffen-Einheit, die Feinde auf eine Entfernung von bis zu 2 Gel\u00e4ndefeldern angreifen kann. Au\u00dferdem kann sie sich nach dem Kampf bewegen. Der Kamel-Bogensch\u00fctze ist im Nahkampf schw\u00e4cher als der Ritter. Als berittene Einheit ist der Kamel-Bogensch\u00fctze bei Angriffen durch Pikeniere gef\u00e4hrdet.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

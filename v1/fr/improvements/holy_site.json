@@ -1,0 +1,68 @@
+{
+    "id": 23,
+    "name": "Lieu saint|Lieux saints",
+    "game_info": "Les lieux saints sont des emplacements sacr\u00e9s d\u00e9di\u00e9s aux dieux, proph\u00e8tes et traditions d'une religion. Donnant souvent lieu \u00e0 des p\u00e8lerinages religieux, ces sites accueillent de nombreux croyants venus s'y recueillir ou approfondir leur relation avec Dieu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/lieu_saint|lieux_saints.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "Charbon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 6,
+        "happiness": 0
+    }
+}

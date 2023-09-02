@@ -1,0 +1,45 @@
+{
+    "id": 31,
+    "name": "Rame",
+    "game_info": null,
+    "historical_info": "Il morbido metallo arancione conosciuto come rame \u00e8 stato usato per migliaia d'anni per realizzare oggetti di qualsiasi tipo, dalle armi alle monete, sino ai fili elettrici e ai circuiti in epoca moderna. Il rame ha molte qualit\u00e0 eccezionali, non ultime le sue potenzialit\u00e0 antibatteriche. Naturalmente resistente a molti tipi di germi, \u00e8 stato usato per realizzare tubature e altri oggetti frequentemente in contatto con le persone, per esempio le maniglie delle porte. Il rame \u00e8 molto utile anche in combinazione con altri metalli per produrre leghe. Insieme allo stagno forma la lega conosciuta come bronzo. In combinazione con lo zinco, d\u00e0 origine all'ottone.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/rame.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/neve.json"
+        }
+    ]
+}

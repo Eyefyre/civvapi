@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Molino de viento|Molinos de viento",
+    "game_info": "+10% a la Producci\u00f3n cuando se construyen edificios.La ciudad no debe construirse en Colinas.",
+    "strategy": "El Molino de viento es un edificio del Renacimiento que aumenta el r\u00e9gimen de Producci\u00f3n de una ciudad a la hora de construir edificios. No se pueden construir Molinos de viento en las ciudades erigidas sobre Colinas.",
+    "historical_info": "Los molinos son edificios que aprovechan la energ\u00eda e\u00f3lica para realizar varias tareas. Hist\u00f3ricamente, se han usado para propulsar muelas con las que moler grano, aunque tambi\u00e9n se han usado como aserraderos o para sacar el agua de pozos. Las m\u00e1quinas e\u00f3licas existen desde hace 2.000 a\u00f1os. La primera que se conoce es un \u00f3rgano de viento, construido por Her\u00f3n de Alejandr\u00eda en el siglo I d. C. Los molinos de vientos para la muela de grano probablemente se inventaron en Asia Central, alrededor del siglo VIII d. C.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/molino_de_viento|molinos_de_viento.png",
+    "prereq_tech": {
+        "name": "Econom\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

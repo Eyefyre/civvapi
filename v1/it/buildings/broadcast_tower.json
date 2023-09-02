@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Ripetitore|il Ripetitore|un Ripetitore",
+    "game_info": "+33% Cultura in questa citt\u00e0.La citt\u00e0 deve avere un Museo.",
+    "strategy": "Il Ripetitore \u00e8 un edificio disponibile nelle fasi finali del gioco che aumenta del 33% la Cultura prodotta da una citt\u00e0. Per poter costruire un Ripetitore la citt\u00e0 deve gi\u00e0 disporre di un Museo.",
+    "historical_info": "Un ripetitore trasmette un segnale di comunicazione radio, televisivo o di altro tipo nell'aria, rendendo possibile la sua ricezione in un raggio di molti chilometri. La caratteristica pi\u00f9 importante di un ripetitore \u00e8 la sua altezza: pi\u00f9 \u00e8 alto, pi\u00f9 lontano arriver\u00e0 il segnale. L'Empire State Building, a Manhattan, \u00e8 stato utilizzato per trasmettere segnali dal 1931. In seguito alla caduta delle torri gemelle del World Trade Center, nel 2001, \u00e8 tornato a essere il pi\u00f9 importante ripetitore di New York. Oggi trasmette i segnali di quasi tutte le stazioni commerciali della citt\u00e0.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ripetitore|il_ripetitore|un_ripetitore.png",
+    "prereq_tech": {
+        "name": "Radio|della Radio",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radio.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

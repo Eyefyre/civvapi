@@ -1,0 +1,45 @@
+{
+    "id": 19,
+    "name": "Marmo",
+    "game_info": null,
+    "historical_info": "Il marmo \u00e8 una pietra meravigliosa, molto apprezzata come materiale di costruzione e materia prima per le sculture. Vi sono marmi di vari colori e sfumature, a tinta unita, oppure con venature o sacche di colori diversi. Molti dei pi\u00f9 begli edifici al mondo (come il Taj Mahal, per esempio), cos\u00ec come molte delle sculture pi\u00f9 famose dell'antichit\u00e0, sono di marmo.+15% alla Produzione per la costruzione di Meraviglie di epoca antica e classica nella citt\u00e0 in cui \u00e8 sfruttato.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/marmo.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Cava|una Cava|una Cava",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

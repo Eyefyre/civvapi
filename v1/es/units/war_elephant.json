@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "Elefante de guerra|Elefantes de guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "Una r\u00e1pida unidad de combate a distancia, que resulta muy eficaz en terreno llano. Solo los hind\u00faes pueden construirla. Esta unidad tiene m\u00e1s Fuerza de combate y a distancia que el Arquero en carro, al que sustituye.",
+    "historical_info": "El elefante de guerra, una imagen terror\u00edfica en el campo de batalla que algunos consideran el primer arma de destrucci\u00f3n masiva, a menudo era tan peligroso para el enemigo como para el due\u00f1o. Los indios usaron elefantes en la guerra hasta que la invenci\u00f3n de la p\u00f3lvora los dej\u00f3 obsoletos. El elefante cumpl\u00eda dos prop\u00f3sitos antes de la llegada de la p\u00f3lvora. Por un lado, su olor aterrorizaba a los caballos e inutilizaba a la caballer\u00eda enemiga. Por otro, pod\u00edan romper las l\u00edneas de infanter\u00eda m\u00e1s fuertes aplastando muros de lanzas que ning\u00fan caballo pod\u00eda superar. Los elefantes eran muy dif\u00edciles de matar; los apuntes de la historia hablan de elefantes que sobrevivieron a m\u00e1s de 60 flechazos. El principal problema de los elefantes era su tendencia a enloquecer con el dolor o la furia, y en ese momento se volv\u00edan imposibles de controlar. Los jinetes sol\u00edan llevar un martillo y una escarpia para matar al animal si atacaba a sus propias tropas.",
+    "strategy": "El Elefante de guerra es la unidad exclusiva india que sustituye al Arquero en carro. Es m\u00e1s poderosa (aunque m\u00e1s lenta) que \u00e9l y puede atravesar cualquier terreno sin sus penalizaciones. Como unidad montada, el Elefante de guerra es bastante vulnerable a los Lanceros.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "Rueda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

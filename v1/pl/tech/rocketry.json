@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Technika rakietowa|Techniki rakietowej|Technice rakietowej|Technik\u0119 rakietow\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "Epoka atomu|Epoki atomu|Epoce atomu|Epok\u0119 atomu",
+    "cost": 6400,
+    "civilopedia_entry": "Trwaj\u0105 spory, kiedy wystrzelono pierwsz\u0105 rakiet\u0119, ale powszechnie uwa\u017ca si\u0119, \u017ce by\u0142o to oko\u0142o roku 1230 w Chinach podczas operacji wojskowej. Pierwszy odnotowany lot odby\u0142 si\u0119 w Chinach w 1264 r., by\u0142a to raca z zap\u0142onem wewn\u0119trznym. Pierwsze rakiety by\u0142y nap\u0119dzane paliwem sta\u0142ym, zwykle prochem strzelniczym, i nie mia\u0142y one du\u017cego zasi\u0119gu \u2013 prawdopodobnie wynosi\u0142 on oko\u0142o 700 metr\u00f3w.Ojcem wsp\u00f3\u0142czesnej techniki rakietowej by\u0142 profesor Robert Goddard, kt\u00f3ry stwierdzi\u0142, \u017ce paliwo powinno spala\u0107 si\u0119 w ma\u0142ej, oddzielnej komorze spalania, a rakiet\u0119 nale\u017cy budowa\u0107 z odr\u0119bnych cz\u0142on\u00f3w i zwi\u0119kszy\u0107 szybko\u015b\u0107 odprowadzania gaz\u00f3w za pomoc\u0105 specjalnej dyszy w kszta\u0142cie klepsydry, zwanej dysz\u0105 De Lavala. Wcze\u015bniej rakiety spala\u0142y paliwo w jednej komorze, nie osi\u0105ga\u0142y du\u017cych pr\u0119dko\u015bci i nie pokonywa\u0142y odleg\u0142o\u015bci mi\u0119dzykontynentalnych.Wsp\u00f3\u0142czesne rakiety u\u017cywaj\u0105 mieszaniny paliw p\u0142ynnych, umo\u017cliwiaj\u0105cych osi\u0105gni\u0119cie pr\u0119dko\u015bci nadd\u017awi\u0119kowej przy stosunkowo niewielkich kosztach. Poza oczywistym zastosowaniem do przenoszenia g\u0142owic bojowych na du\u017ce dystanse, rakiety s\u0105 wykorzystywane tak\u017ce w sztucznych ogniach, katapultowanych fotelach, naukowych badaniach atmosfery i oczywi\u015bcie w lotach kosmicznych.",
+    "quote": "\u201eDobra zasada podczas eksperyment\u00f3w z rakietami brzmi: zawsze zak\u0142adaj, \u017ce wybuchn\u0105.\u201d \u2013 Magazyn Astronautics, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar|Radaru|Radarowi|Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistyka zaawansowana|Balistyki zaawansowanej|Balistyce zaawansowanej|Balistyk\u0119 zaawansowan\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satelity|Satelit\u00f3w|Satelitom|Satelity",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/satellites.json"
+        },
+        {
+            "name": "Robotyka|Robotyki|Robotyce|Robotyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Wyrzutnie SAM|Wyrzutni SAM|Wyrzutniom SAM|Wyrzutnie SAM",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/mobile_sam.json"
+        },
+        {
+            "name": "Artyleria rakietowa|Artylerii rakietowej|Artylerii rakietowej|Artyleri\u0119 rakietow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

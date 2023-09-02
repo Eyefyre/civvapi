@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Construction",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "\u00c8re classique",
+    "cost": 105,
+    "civilopedia_entry": "La construction est l'\u00e9volution directe de la ma\u00e7onnerie. Cette am\u00e9lioration de la technique est due \u00e0 l'ajout de fer et d'autres m\u00e9taux dans la besace du b\u00e2tisseur. Bien qu'incroyablement durables, la pierre et la brique sont souvent lourdes et peu mall\u00e9ables. Il est donc impossible, avec ces mat\u00e9riaux, de construire des structures de grandes tailles (\u00e0 l'exception de constructions taill\u00e9es directement dans la pierre, ou d'architecture pyramidale). En effet, celles-ci risqueraient de s'effondrer sous leur propre poids, ou d'\u00eatre abattues par un vent trop violent.Les structures m\u00e9talliques (structures de ma\u00e7onnerie renforc\u00e9es par l'utilisation de divers m\u00e9taux), elles, peuvent \u00eatre \u00e0 la fois imposantes, esth\u00e9tiques et extr\u00eamement solides. Le m\u00e9tal permet aux b\u00e2tisseurs de construire des ponts suspendus, de profonds tunnels, d'immenses gratte-ciel et des m\u00e9tros a\u00e9riens. Sans la construction, aucune des plus grandes cit\u00e9s du monde n'existerait, et nous serions priv\u00e9s de leurs merveilles architecturales.",
+    "quote": "\"Un b\u00e2timent doit r\u00e9unir trois caract\u00e9ristiques : un bon emplacement, des fondations s\u00fbres et une ex\u00e9cution sans faille\". - Johann Wolfgang Von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Ma\u00e7onnerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/masonry.json"
+        },
+        {
+            "name": "La roue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ing\u00e9nierie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archer composite|Archer composite",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Colis\u00e9e|Colis\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/colosseum.json"
+        },
+        {
+            "name": "Arm\u00e9e de terre cuite|Arm\u00e9es de terre cuite",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/terracotta_army.json"
+        }
+    ]
+}

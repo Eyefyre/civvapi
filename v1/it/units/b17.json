@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B-17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Unit\u00e0 aerea che sgancia un carico di morte sulle citt\u00e0 e le unit\u00e0 nemiche. Solo gli americani possono costruirla. Quest'unit\u00e0 ha la possibilit\u00e0 di evitare l'intercettazione e infligge danni aggiuntivi alle citt\u00e0 nemiche rispetto al Bombardiere, che sostituisce.",
+    "historical_info": "Il Boeing B-17, soprannominato \"fortezza volante\", era un bombardiere pesante utilizzato dall'aviazione degli Stati Uniti durante la Seconda Guerra Mondiale. Dotato di quattro motori, numerose postazioni di mitragliatrici e una notevole altitudine massima di volo, il B-17 era il bombardiere preferito dell'aviazione americana, ancor pi\u00f9 del B-24 Liberator, che pure aveva un raggio d'azione pi\u00f9 ampio ed era in grado di trasportare un carico superiore di bombe. A suo vantaggio, il B-17 poteva sopportare un'incredibile quantit\u00e0 di danni e riportare a casa l'equipaggio ancora vivo.Originariamente utilizzati per eseguire rischiose incursioni diurne sulla Germania, i B-17 sostennero perdite pesantissime dai caccia della Luftwaffe. Al proseguire della guerra gli alleati progettarono caccia in grado di scortare i bombardieri in territorio nemico, cos\u00ec le missioni dei B-17 cominciarono ad avere maggior successo e a infliggere danni decisivi alle industrie e alle citt\u00e0 tedesche.Durante la Seconda Guerra Mondiale furono costruiti pi\u00f9 di 12.000 B-17, di cui circa un terzo and\u00f2 perduto in battaglia.",
+    "strategy": "Il B-17 \u00e8 un'unit\u00e0 esclusiva degli Stati Uniti e sostituisce il Bombardiere. \u00c8 simile alla sua controparte, ma pi\u00f9 difficile da abbattere da parte dei caccia e dell'antiaerea nemica. Inoltre il B-17 riceve un bonus quando attacca le citt\u00e0 nemiche. Il raggio d'azione del B-17 \u00e8 di 10 caselle, come quello del Bombardiere. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|del Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Manovre evasive",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion.json"
+        },
+        {
+            "name": "Assedio I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+        }
+    ]
+}

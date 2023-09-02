@@ -1,0 +1,42 @@
+{
+    "id": 7,
+    "name": "Comptoir commercial|Comptoirs commerciaux",
+    "game_info": "Les comptoirs commerciaux sont des avant-postes dans lesquels chasseurs et trappeurs peuvent vendre leurs marchandises aux civils (ils les \u00e9changent contre de la nourriture, des armes, du whisky, de l'or ou tout autre raffinement qu'ont \u00e0 offrir les soci\u00e9t\u00e9s humaines). Les comptoirs commerciaux peuvent rapporter \u00e9norm\u00e9ment d'argent \u00e0 une soci\u00e9t\u00e9.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/comptoir_commercial|comptoirs_commerciaux.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Guildes",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

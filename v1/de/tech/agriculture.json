@@ -1,0 +1,63 @@
+{
+    "id": 1,
+    "name": "Landwirtschaft",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/agriculture.png",
+    "era": "Antike",
+    "cost": 20,
+    "civilopedia_entry": "Landwirtschaft ist die Produktion von Pflanzen und Tieren zum Zweck der Nahrungsgewinnung, aber auch f\u00fcr Kleidung, Schutz, Medizin, Unterhaltung und verschiedene andere Zwecke. Die Kultivierung von Getreide entwickelte sich wahrscheinlich unabh\u00e4ngig voneinander an verschiedenen Orten. Die fr\u00fchesten Zeugnisse f\u00fcr Landwirtschaft datieren vom Ende der letzten Eiszeit vor ungef\u00e4hr 11.000 Jahren. Interessanterweise wurde die Landwirtschaft wohl nicht von hungernden Sammlern und J\u00e4gern entwickelt, die verzweifelt auf der Suche nach neuen Nahrungsquellen waren, sondern vielmehr von erfolgreichen und verm\u00f6genden Sammlern und J\u00e4gern, die ohnehin schon \u00fcber sehr viel Nahrung verf\u00fcgten. Und das macht auch Sinn: Menschen mit einem Nahrungs\u00fcberschuss k\u00f6nnen es sich erlauben, neue Techniken auszuprobieren, w\u00e4hrend jene, die hungern, all ihre Energie dazu aufwenden, die altbew\u00e4hrten Methoden des Lebensunterhalts auszusch\u00f6pfen.Am Anfang war die Landwirtschaft ein langsamer, zyklischer Ablauf. Saatgut wurde im Fr\u00fchjahr ausgebracht, dann wurden die Felder gepflegt und bew\u00e4ssert, bis das Getreide erntereif war, was oft erst Monate danach der Fall war. Da es nur wenige Gebiete mit klimatischen Verh\u00e4ltnissen gibt, die eine landwirtschaftliche Nutzung \u00fcber das ganze Jahr hinweg erlauben, mussten die Bauern Nahrung f\u00fcr die mageren Wintermonate lagern oder mit jenen handeln, die das ganze Jahr \u00fcber Nahrung durch Jagd, Fischerei usw. erhalten konnten. Bauern waren dabei stets der Natur und dem Wetter ausgeliefert: Gab es ein Jahr lang keinen Regen oder wurde das Getreide von Sch\u00e4dlingen gefressen, konnte eine Familie einfach verhungern.Moderne Landwirtschaft (oder Agrarindustrie) ist eine komplizierte und sehr anspruchsvolle Wissenschaft, die mit genetischer Manipulation, hochentwickelten D\u00fcngemitteln und Insektiziden sowie computergesteuerten Bew\u00e4sserungssystemen und Erntemaschinen arbeitet. Technologische Fortschritte haben den Nahrungsertrag einer bestimmten Landfl\u00e4che erheblich erh\u00f6ht, sodass bestimmte L\u00e4nder, wie z. B. auch die USA, nicht an einem Nahrungsmangel, sondern vielmehr an einem Nahrungs\u00fcberangebot leiden, das zu chronischer Fettleibigkeit der Bev\u00f6lkerung und einem Preisverfall f\u00fchren kann, der den Lebensunterhalt derjenigen Bauern bedroht, welche die Nahrung angebaut haben.",
+    "quote": "\"Was der Ackerbau beginnt, vollenden die K\u00fcnste. Die Bauern sind somit die Gr\u00fcnder der menschlichen Zivilisation.\" - Daniel Webster",
+    "tech_prereqs": [],
+    "tech_unlocks": [
+        {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        },
+        {
+            "name": "Tierzucht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Bogenschie\u00dfen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archery.json"
+        },
+        {
+            "name": "Bergbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mining.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Siedler",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/settler.json"
+        },
+        {
+            "name": "Bautrupp",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/worker.json"
+        },
+        {
+            "name": "Sp\u00e4her",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/scout.json"
+        },
+        {
+            "name": "Krieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/warrior.json"
+        },
+        {
+            "name": "Jaguarkrieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/jaguar.json"
+        },
+        {
+            "name": "Maori-Krieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/maori_warrior.json"
+        },
+        {
+            "name": "Speerschleuderer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/atlatlist.json"
+        },
+        {
+            "name": "F\u00e4hrtenleser",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/pathfinder.json"
+        }
+    ],
+    "building_unlocks": []
+}

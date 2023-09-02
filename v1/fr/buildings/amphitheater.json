@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Amphith\u00e9\u00e2tre|Amphith\u00e9\u00e2tres",
+    "game_info": null,
+    "strategy": "L'amphith\u00e9\u00e2tre augmente la culture d'une ville en acc\u00e9l\u00e9rant sa croissance territoriale et l'acquisition de doctrines sociales par sa civilisation. Votre ville doit poss\u00e9der un monument historique (ou une st\u00e8le) pour que vous puissiez y construire un amphith\u00e9\u00e2tre. Contient 1 emplacement pour un chef-d'oeuvre litt\u00e9raire.",
+    "historical_info": "Un amphith\u00e9\u00e2tre est une ar\u00e8ne ext\u00e9rieure con\u00e7ue pour les repr\u00e9sentations th\u00e9\u00e2trales en plein air, ainsi que pour accueillir des rencontres sportives et des concerts. C'est plus particuli\u00e8rement dans la Rome antique que des centaines d'amphith\u00e9\u00e2tres ont vu le jour, permettant ainsi l'organisation de combats de gladiateurs, d'expositions et d'ex\u00e9cutions publiques.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/amphith\u00e9\u00e2tre|amphith\u00e9\u00e2tres.png",
+    "prereq_tech": {
+        "name": "Drame et po\u00e9sie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 66,
+    "name": "Kernspaltung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fission.png",
+    "era": "Atomzeitalter",
+    "cost": 6400,
+    "civilopedia_entry": "Kernspaltung ist eine nukleare Reaktion, bei der sich die Kerne von radioaktiven Atomen aufspalten, Neutronen freisetzen, die dann mit anderen Atomen kollidieren, sodass diese sich aufspalten und noch mehr Neutronen freisetzen. Wenn gen\u00fcgend radioaktives Material vorhanden ist, kann die Kernspaltung sich selbst erhalten und in einem kontrollierten Rahmen sehr viel Energie freisetzen, beispielsweise in einem Kernreaktor, oder in einem unkontrollierten Rahmen, beispielsweise bei einer Kernwaffe.Kernspaltung produziert sehr viel Energie - viele Millionen mal mehr als beispielsweise das gleiche Gewicht in Benzin - aber w\u00e4hrend des Prozesses entsteht eine beachtliche Menge an schwer zu entsorgendem Abfall. Au\u00dferdem kann Kernspaltung Menschen t\u00f6ten: sehr langsam, wenn sie radioaktivem Material ausgesetzt sind, oder sehr schnell, wenn die Kettenreaktion au\u00dfer Kontrolle ger\u00e4t und das Material explodiert.Kernspaltung tritt in der Natur \u00e4u\u00dferst selten auf, das letzte Ereignis auf der Erde geschah vor etwa zwei Milliarden Jahren. Seitdem hat sich das gespaltene Material zersetzt und nat\u00fcrliche Kernspaltung auf diesem Planeten so gut wie unm\u00f6glich gemacht.1917 war Ernest Rutherford aus Neuseeland der erste Mann, der das Atom spaltete. 1934 experimentierte der Italiener Enrico Fermi damit, Uran mit Neutronen zu bombardieren. Im gleichen Jahr verfolgte Ida Noddack-Tacke die Idee der Kernspaltung - genauer gesagt, eine anhaltende Kernreaktion. 1938 erzeugten die deutschen Chemiker Otto Hahn und Fritz Strassmann erfolgreich die erste echte nukleare Kettenreaktion.Mit dem Beginn des Zweiten Weltkriegs trat das Rennen um den Bau einer Atombombe in die hei\u00dfe Phase ein. Nachdem er einen Brief von den Fl\u00fcchtlingen Albert Einstein und Le\u00f3 Szil\u00e1rd erhalten hatte, in welchem sie die potenzielle T\u00f6dlichkeit einer Atomwaffe beschrieben, stellte der amerikanische Pr\u00e4sident Franklin Roosevelt ein wissenschaftliches und milit\u00e4risches Einsatzteam zusammen, das eine solche Waffe vor den Deutschen, die sich ebenfalls mit dem Problem besch\u00e4ftigten, bauen sollte. Wissenschaftler aus den Vereinigten Staaten, Kanada und Gro\u00dfbritannien arbeiteten gemeinsam an der Waffe, in einem Projekt mit dem Codenamen \"Das Manhattan-Projekt\".Nach f\u00fcnf langen Jahren fieberhafter Arbeit erschufen und testeten die Wissenschaftler des Manhattan-Projekts erfolgreich eine Atomwaffe. Am 6. und 9. August 1945 warfen die Vereinigten Staaten von Amerika Atombomben auf die japanische St\u00e4dte Hiroshima und Nagasaki. Die ersten Explosionen t\u00f6teten ungef\u00e4hr 120.000 Japaner am ersten Tag, w\u00e4hrend in den folgenden drei Monaten zus\u00e4tzlich die gleiche Anzahl von Menschen an Verbrennungen, Strahlenvergiftung und anderen traumatischen Verletzungen starb. Japan kapitulierte bedingungslos am 15. August 1945.In den Jahren seit dem Zweiten Weltkrieg wurden keine weiteren Atombomben im Kampf eingesetzt (obwohl viele getestet worden sind). Die Vereinigten Staaten, Russland, England und Frankreich verf\u00fcgen immer noch \u00fcber gro\u00dfe Atomwaffenvorr\u00e4te (die USA und Russland besitzen die gr\u00f6\u00dften Anteile), w\u00e4hrend L\u00e4nder wie China, Israel, Pakistan, Indien und Nordkorea mittlerweile auch zu den Atomm\u00e4chten geh\u00f6ren. Im Augenblick versuchen die USA angestrengt, den Iran daran zu hindern, diese Waffen zu entwickeln, aber der letztendliche Erfolg oder Fehlschlag dieser Bem\u00fchungen ist noch unbestimmt.",
+    "quote": "\"Jetzt bin ich der Tod geworden, Zerst\u00f6rer der Welten.\" - J. Robert Oppenheimer",
+    "tech_prereqs": [
+        {
+            "name": "Atomtheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/atomic_theory.json"
+        },
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Mobile Taktiken",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Fortgeschrittene Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Atombombe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/atomic_bomb.json"
+        },
+        {
+            "name": "Bazooka",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/bazooka.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Kernkraftwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/nuclear_plant.json"
+        }
+    ]
+}

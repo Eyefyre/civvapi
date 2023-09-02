@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lancero montado|Lanceros montados",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Una unidad montada que est\u00e1 especializada en derrotar a las unidades montadas enemigas.",
+    "historical_info": "Los lanceros montados eran la caballer\u00eda del Renacimiento. En una \u00e9poca en que el uso del ca\u00f1\u00f3n y otras armas de p\u00f3lvora era creciente, la velocidad y la maniobrabilidad se impon\u00edan a la armadura, que cada vez resultaba m\u00e1s in\u00fatil contra las modernas armas de proyectiles. As\u00ed, los lanceros montados abandonaron gran parte de la pesada armadura de placas de sus predecesores, los caballeros, y conservaron solo la coraza, en el mejor de los casos. Aunque el armamento mejor\u00f3, la lanza sigui\u00f3 siendo un arma terriblemente eficaz en manos de un jinete entrenado. Todav\u00eda en las guerras napole\u00f3nicas, los franceses cre\u00edan que la lanza era un arma de caballer\u00eda superior al sable. En el siglo XIX, ambos se sustituyeron por el fusil de carabina, obviamente.",
+    "strategy": "El Lancero montado es la unidad a caballo del Renacimiento y viene despu\u00e9s del Caballero y antes que la unidad de Caballer\u00eda. Es m\u00e1s r\u00e1pido y fuerte que el Caballero y muy capaz de barrer a esta unidad, anta\u00f1o poderosa, del mapa. El Lancero montado puede incluso acabar con la unidad de Caballer\u00eda cuando aparezca.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formaci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/formation_i.json"
+        }
+    ]
+}

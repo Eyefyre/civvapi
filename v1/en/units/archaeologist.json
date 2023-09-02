@@ -1,0 +1,18 @@
+{
+    "id": 125,
+    "name": "Archaeologist",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/archaeologist.png",
+    "game_info": "Archaeologists are a special subtype of Worker that are used to excavate Antiquity Sites to either create Landmark improvements or to extract Artifacts to fill in Great Work of Art slots in Museums, Palaces, Hermitages, and selected Wonders. Archaeologists may work in territory owned by any player. They are consumed once they complete an Archaeological Dig at an Antiquity Site. Archaeologists may not be purchased with Gold and may only be built in a city with a University.",
+    "historical_info": "Archaeologists study human behavior in the past, primarily through the excavation and analysis of human fossils, the ruins of buildings, and the remains of human artifacts. In undertaking this effort, archaeologists work to understand the common beliefs and daily activities of various peoples throughout history. Although controversies now rage about the ownership of artifacts, treasures, and human remains recovered, thousands of archaeologists operate around the world at excavations sites, in museums, and on university campuses to further our understanding of our own past.",
+    "strategy": "Send an Archaeologist to examine each Antiquity Site near your civilization and decide whether or not you want to return an Artifact to one of your cities or create a Landmark on that tile.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Archaeology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+    },
+    "free_promotions": []
+}

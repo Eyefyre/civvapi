@@ -1,0 +1,66 @@
+{
+    "id": 11,
+    "name": "Plantage",
+    "game_info": "Eine Plantage ist eigentlich eine andere Bezeichnung f\u00fcr einen Bauernhof vor allem f\u00fcr gro\u00dfe Landg\u00fcter in subtropischen und tropischen Gebieten, insbesondere, wenn diese Nutzpflanzen f\u00fcr den Export und nicht den regionalen Markt anbauen. Der Begriff hat einen negativen Beigeschmack, da er oft mit der Sklaverei in den Vereinigten Staaten und der Karibik in Verbindung gebracht wird, doch an einer ordentlich gef\u00fchrten Plantage mit freien Arbeitern ist an sich nichts Verwerfliches.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plantage.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Bananen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bananas.json"
+        },
+        {
+            "name": "F\u00e4rbemittel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/dyes.json"
+        },
+        {
+            "name": "Seide",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silk.json"
+        },
+        {
+            "name": "Gew\u00fcrze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/spices.json"
+        },
+        {
+            "name": "Zucker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sugar.json"
+        },
+        {
+            "name": "Baumwolle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+        },
+        {
+            "name": "Wein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wine.json"
+        },
+        {
+            "name": "R\u00e4ucherwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/incense.json"
+        },
+        {
+            "name": "Zitronen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/citrus.json"
+        },
+        {
+            "name": "Kakao",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cocoa.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Kalender",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/calendar.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

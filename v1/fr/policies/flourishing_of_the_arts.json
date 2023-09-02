@@ -1,0 +1,24 @@
+{
+    "id": 26,
+    "name": "Essor des arts",
+    "game_info": "Essor des arts Culture +33% dans toutes les villes ayant construit une merveille mondiale. L'empire entre imm\u00e9diatement dans un \u00e2ge d'or.",
+    "historical_info": "L'expression \"essor des arts\" fait g\u00e9n\u00e9ralement r\u00e9f\u00e9rence \u00e0 une p\u00e9riode pendant laquelle l'esth\u00e9tique est mise en valeur et qui se caract\u00e9rise par une importante production d'oeuvres artistiques novatrices, g\u00e9n\u00e9ralement lors de l'\u00e2ge d'or d'une civilisation. Au m\u00eame titre que les progr\u00e8s scientifiques et l'am\u00e9lioration du niveau de vie, l'essor des arts au cours d'un \u00e2ge d'or concerne toutes les formes d'art\u00a0: la litt\u00e9rature, la musique, mais aussi les arts mat\u00e9riels. Les cycles de ce type sont malheureusement destin\u00e9s \u00e0 \u00eatre bris\u00e9s, le plus souvent en raison d'influences ext\u00e9rieures telles que la guerre, l'effondrement \u00e9conomique, le fanatisme religieux ou d'autres circonstances sur lesquelles les populations n'ont aucune prise.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/essor_des_arts.png",
+    "required_policies": [
+        {
+            "name": "Centres culturels",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/cultural_centers.json"
+        },
+        {
+            "name": "Beaux-arts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Esth\u00e9tique",
+        "game_info": "L'esth\u00e9tique am\u00e9liore l'efficacit\u00e9 avec laquelle la civilisation g\u00e9n\u00e8re de la culture. Adopter l'esth\u00e9tique acc\u00e9l\u00e8re la vitesse de g\u00e9n\u00e9ration d'artistes, de musiciens et d'\u00e9crivains illustres de 25%, et d\u00e9bloque la Galerie des Offices. En adoptant toutes les doctrines, vous doublez le bonus th\u00e9matique des mus\u00e9es et des merveilles. Permet \u00e9galement d'acheter des artistes, musiciens et \u00e9crivains illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": "\u00c8re classique",
+        "historical_info": "L'esth\u00e9tique est la philosophie de la nature de l'art et du go\u00fbt\u00a0; elle s'int\u00e9resse \u00e0 la cr\u00e9ation et \u00e0 l'appr\u00e9ciation des oeuvres artistiques. L'esth\u00e9tique ne se concentre pas sur la fonctionnalit\u00e9 ou l'utilit\u00e9 d'un objet, mais seulement sur la beaut\u00e9 de sa forme, de sa couleur, de son contraste et de ses autres aspects artistiques."
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 55,
+    "name": "Cavaliere|un Cavaliere|dal tuo Cavaliere|al tuo Cavaliere|il tuo Cavaliere|da un Cavaliere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/knight.png",
+    "game_info": "Potente unit\u00e0 a cavallo di epoca medievale, debole contro i Picchieri.",
+    "historical_info": "Quasi sempre formati dai nobili della nazione, gli unici che si potevano permettere l'equipaggiamento, i cavalli e il lungo addestramento richiesto, i cavalieri formavano la cavalleria pesante di ogni esercito medievale. Durante gran parte del Medioevo i cavalieri dominarono il campo di battaglia. La loro armatura forniva una buona protezione da archi e lance, mentre la superiore mobilit\u00e0 permetteva loro di sfruttare rapidamente qualsiasi debolezza del nemico. Per fronteggiare la carica di un cavaliere ci voleva molto, molto coraggio. Un muro di picche poteva resistere ai cavalieri lanciati al galoppo, ma solo se i soldati avevano la disciplina e il fegato di tener duro senza indietreggiare. Una minima esitazione era sufficiente perch\u00e9 fossero spazzati via tutti.",
+    "strategy": "Il Cavaliere \u00e8 un'unit\u00e0 veloce e potente: in epoca medievale \u00e8 il re incontrastato del campo di battaglia. \u00c8 vulnerabile all'attacco dei Picchieri, ma pu\u00f2 spazzare via tutte le altre unit\u00e0 con relativa facilit\u00e0. Un Cavaliere pu\u00f2 muoversi dopo aver attaccato, un'abilit\u00e0 che gli permette di aprire un varco nelle linee nemiche e infilarcisi nello stesso turno.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

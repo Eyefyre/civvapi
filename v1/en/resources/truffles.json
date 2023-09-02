@@ -1,0 +1,37 @@
+{
+    "id": 34,
+    "name": "Truffles",
+    "game_info": null,
+    "historical_info": "A rare and expensive delicacy, truffles are the fruit of a family of mushrooms that grow underground. With a pungent aroma and powerful taste, truffles are used primarily for seasoning dishes in a variety of international cuisines. One of the more unusual aspects of truffles are the means by which they are acquired, that is via \"truffle hog.\" These pigs, domesticated and used specially for the purposes of finding underground truffles, are naturally gifted in the hunt. With an uncanny sense of smell, truffle hogs are said to have been in use since the Roman era.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/truffles.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        },
+        {
+            "name": "Marsh",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+        },
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        }
+    ]
+}

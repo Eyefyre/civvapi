@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Lanzichenecco|un Lanzichenecco|dal tuo Lanzichenecco|al tuo Lanzichenecco|il tuo Lanzichenecco|da un Lanzichenecco",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "Quest'unit\u00e0 costa molto meno del Picchiere e pu\u00f2 saccheggiare una casella senza consumare punti movimento. Ruba Oro ogni volta che attacca una citt\u00e0. Sbloccata dalla Politica Sociale Esercito di mercenari, quest'unit\u00e0 non pu\u00f2 essere costruita: dev'essere acquistata con dell'Oro. Pu\u00f2 essere spostata subito dopo l'acquisto.",
+    "historical_info": "I lanzichenecchi erano picchieri mercenari tedeschi del XVI secolo. Creati come imitazione dei leggendari picchieri svizzeri, i lanzichenecchi avrebbero finito col sostituirli come migliore fanteria mercenaria d'Europa. I lanzichenecchi presero parte praticamente a tutti gli scontri importanti del XVI secolo, spesso combattendo per entrambe le parti. In battaglia portavano picche lunghe fino a sei metri. Alcuni brandivano enormi spadoni a due mani o alabarde per troncare la punta delle picche avversarie.",
+    "strategy": "Il Lanzichenecco \u00e8 un'unit\u00e0 disponibile solo attraverso la Politica Sociale Esercito di mercenari e dev'essere acquistato con dell'Oro. Il Lanzichenecco costa molto meno del Picchiere e offre molti bonus legati al saccheggio delle caselle e delle citt\u00e0. Queste unit\u00e0 consentono di creare un esercito a basso prezzo che, inviato a devastare il territorio nemico, pu\u00f2 fornire un buon guadagno sull'investimento.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Pubblica amministrazione|della Pubblica amministrazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Nessun costo di PM per il saccheggio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Saccheggio delle citt\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/city_plunder.json"
+        }
+    ]
+}

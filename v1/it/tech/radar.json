@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar|del Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "Epoca atomica",
+    "cost": 5100,
+    "civilopedia_entry": "Il radar \u00e8 un sistema di rilevamento di oggetti che sfrutta le onde elettromagnetiche per identificare oggetti lontani come aerei e navi. Coniato nel 1941, il termine \"RADAR\" \u00e8 l'acronimo di \"Radio Detection And Ranging\" (rilevamento e telemetria radio).Nel 1904, Christian Hulsmeyer riusc\u00ec a rilevare la presenza di una nave nella nebbia fitta. Pi\u00f9 tardi, nel corso dello stesso anno, apport\u00f2 delle migliorie che gli permisero di determinarne anche la distanza.Nell'agosto del 1917, l'inventore Nikola Tesla progett\u00f2 le prime, primitive unit\u00e0 radar, che permettevano di \"determinare la posizione relativa o la rotta di un oggetto in movimento, come un'imbarcazione a mare, la distanza coperta dallo stesso o la sua velocit\u00e0.\"Con l'avvicinarsi della Seconda Guerra Mondiale, tutte le potenze mondiali industrializzate stavano febbrilmente lavorando sul radar. Allo scoppio delle ostilit\u00e0 i britannici erano i pi\u00f9 avanzati di tutti e disponevano di un sistema in grado di rilevare un velivolo in avvicinamento a grande distanza dalle vulnerabili citt\u00e0 britanniche (la loro ricerca aveva ricevuto molti stimoli dalla voce secondo cui i tedeschi stavano lavorando sul raggio della morte). Si trattava di un sistema segreto: per tutta la guerra i britannici continuarono a sostenere che gli attacchi tedeschi fossero rilevati dai piloti che facevano parte del corpo avvistatori.Alla fine della guerra, tutti i paesi avanzati avevano compiuto passi da gigante nella tecnologia radar, mentre per la met\u00e0 del secolo la tecnologia si stava diffondendo in tutto il globo per usi civili, soprattutto per il controllo del traffico aereo. Con la possibile eccezione di certi velivoli stealth avanzati, oggi \u00e8 quasi impossibile per un aereo entrare nello spazio aereo di una nazione industrializzata senza essere rilevato da un qualche radar.",
+    "quote": "\"La visione \u00e8 l'arte di vedere le cose invisibili.\" - Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "Elettronica|dell'Elettronica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electronics.json"
+        },
+        {
+            "name": "Balistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fissione nucleare|della Fissione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Missilistica|della Missilistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+        },
+        {
+            "name": "Computer|del Computer",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardiere|un Bombardiere|dal tuo Bombardiere|al tuo Bombardiere|il tuo Bombardiere|da un Bombardiere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/bomber.json"
+        },
+        {
+            "name": "B-17",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/b17.json"
+        },
+        {
+            "name": "Caccia|un Caccia|dal tuo Caccia|al tuo Caccia|il tuo Caccia|da un Caccia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/fighter.json"
+        },
+        {
+            "name": "Zero|uno Zero|dal tuo Zero|al tuo Zero|il tuo Zero|da uno Zero",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/zero.json"
+        },
+        {
+            "name": "Paracadutista|un Paracadutista|dal tuo Paracadutista|al tuo Paracadutista|il tuo Paracadutista|da un Paracadutista",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Aeroporto|l'Aeroporto|unAeroporto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/airport.json"
+        }
+    ]
+}

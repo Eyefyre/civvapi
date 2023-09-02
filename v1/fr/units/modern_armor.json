@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Blind\u00e9 moderne|Blind\u00e9s modernes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Unit\u00e9 de fin de partie rapide et puissante.",
+    "historical_info": "Les blind\u00e9s modernes sont maintenant plus sophistiqu\u00e9s que les meilleurs chars de la Deuxi\u00e8me Guerre mondiale. Ils sont plus imposants, plus rapides, leurs armes et leur blindage sont plus efficaces, et ils sont pourvus d'ordinateurs de bord et d'\u00e9quipements de communication qui augmentent leur chance de survie et leur puissance dans une zone de combat moderne. Un char moderne peut filer \u00e0 65 km/h \u00e0 travers un champ de bataille tout en tirant avec une pr\u00e9cision redoutable sur une cible situ\u00e9e \u00e0 une centaine de m\u00e8tres gr\u00e2ce \u00e0 un syst\u00e8me de ciblage qui ajuste de mani\u00e8re instantan\u00e9e le canon du char en fonction des irr\u00e9gularit\u00e9s du terrain.Pour le blind\u00e9 moderne, les plus grandes menaces sont les blind\u00e9s ennemis et l'artillerie, les avions de chasse et les h\u00e9licopt\u00e8res de combat. Les fantassins transportent rarement des armes suffisamment puissantes pour d\u00e9truire des chars (\u00e0 l'exception de leurs radios, qu'ils peuvent utiliser pour appeler l'artillerie lourde ou le soutien a\u00e9rien).",
+    "strategy": "Le blind\u00e9 moderne a tout de son pr\u00e9d\u00e9cesseur, le char, mais en plus perfectionn\u00e9. Il est beaucoup plus puissant que ce dernier et dispose des m\u00eames comp\u00e9tences, il peut donc se d\u00e9placer apr\u00e8s avoir attaqu\u00e9.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Lasers",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

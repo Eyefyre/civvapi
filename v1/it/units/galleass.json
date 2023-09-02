@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Galeazza|una Galeazza|dalla tua Galeazza|alla tua Galeazza|la tua Galeazza|da una Galeazza",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "Unit\u00e0 navale di epoca medievale, usata per acquisire il controllo dei mari con il suo attacco a distanza.",
+    "historical_info": "La galeazza \u00e8 un tipo di nave da guerra che ha conosciuto una grande diffusione nel XVI secolo, quando il progetto della classica galea cominci\u00f2 a essere modificato per includere armamenti pi\u00f9 pesanti. Una tipica galeazza cominciava la sua vita come nave mercantile a remi e successivamente veniva munita di alberi e velatura. Le due forme di propulsione permettevano alla nave di mantenere gran parte della velocit\u00e0 per cui la galea tradizionale era famosa, ma anche di imbarcare cannoni pesanti per respingere eventuali attacchi.",
+    "strategy": "In generale la Galeazza \u00e8 la prima unit\u00e0 navale dotata di attacco a distanza disponibile alle civilt\u00e0. \u00c8 un po' pi\u00f9 lenta ma molto pi\u00f9 forte delle unit\u00e0 navali precedenti. Non pu\u00f2 dare il via a un combattimento ravvicinato. La Galeazza \u00e8 utile per spazzar via le navi nemiche dalle acque vicine alla costa. A meno che non sia polinesiana, non pu\u00f2 entrare nelle caselle di Oceano.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Bussola|della Bussola",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

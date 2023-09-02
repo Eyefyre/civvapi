@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Burial Tomb",
+    "game_info": "Requires no Gold maintenance.Should this city be captured, the amount of Gold plundered by the enemy is doubled.",
+    "strategy": "The Burial Tomb is a Classical-era building which increases the city's output of Happiness, and costs no maintenance for the city. However, if the city is captured, the capturing civilization will gain twice as much gold as would be the case in a city without a Burial Tomb. It replaces the Temple.",
+    "historical_info": "The Egyptians raised ancestor-worship to heights unmatched before or since, and much of their civilization's wealth and creative energy was expended in the construction of Burial Tombs for deceased relatives. Many such tombs may be found in the Valley of the Kings, across the Nile River from Thebes. These tombs were often stocked with a portion of the wealth of the deceased, making them rich targets for tomb robbers throughout history.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/burial_tomb.png",
+    "prereq_tech": {
+        "name": "Philosophy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Bateau-atelier|Bateaux-atelier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Cr\u00e9e des am\u00e9nagements sur certaines ressources maritimes, comme le poisson. Une fois utilis\u00e9, le bateau-atelier est d\u00e9truit. Il est \u00e9galement sans d\u00e9fense, et sera donc an\u00e9anti en cas de contact avec l'ennemi.",
+    "historical_info": "Depuis toujours, l'oc\u00e9an fait partie des meilleurs alli\u00e9s de l'Homme. Il lui fournit de la nourriture riche en prot\u00e9ines ainsi que de nombreuses autres ressources. De tous temps, des femmes et des hommes courageux ont sillonn\u00e9 les mers sur des bateaux afin de r\u00e9colter les produits de la mer. Il ne fait aucun doute que cette tradition durera jusqu'\u00e0 la fin des temps, \"jusqu'au jour o\u00f9 la mer nous rendra ses corps engloutis pour qu'ils vivent \u00e9ternellement\".",
+    "strategy": "Cette unit\u00e9 ne peut \u00eatre construite que dans les villes c\u00f4ti\u00e8res. Le bateau-atelier sert \u00e0 am\u00e9nager les ressources marines, comme le poisson, la baleine ou le p\u00e9trole. Il est d\u00e9truit une fois sa t\u00e2che accomplie. Les bateaux-ateliers ne peuvent p\u00e9n\u00e9trer dans les cases d'oc\u00e9an qu'une fois l'astronomie d\u00e9couverte. Ils ne peuvent pas engager le combat.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Astronomie requise",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/astronomy_needed.json"
+        }
+    ]
+}

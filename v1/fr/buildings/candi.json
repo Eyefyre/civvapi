@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Candi|Candi",
+    "game_info": "B\u00e2timent exclusif aux Indon\u00e9siens rempla\u00e7ant le jardin. G\u00e9n\u00e9ration de personnages illustres +25% dans cette ville, et foi +2 pour chaque religion mondiale ayant au moins 1\u00a0adepte dans la ville. Contrairement au jardin, le candi n'a pas besoin d'\u00eatre situ\u00e9 pr\u00e8s d'une rivi\u00e8re ou d'un lac.",
+    "strategy": "En plus des comp\u00e9tences standard du jardin, le candi, b\u00e2timent exclusif aux Indon\u00e9siens, octroie 2\u00a0points de Foi pour chaque religion mondiale poss\u00e9dant au moins un adepte dans la ville, et n'a pas besoin d'\u00eatre construit dans une ville adjacente \u00e0 une rivi\u00e8re ou un lac.",
+    "historical_info": "Le terme \"candi\" d\u00e9signe une structure en pierre inspir\u00e9e des sanctuaires hindous, surplomb\u00e9e d'une tour pyramidale et d'un portique ornemental. Les candi furent construits majoritairement entre le VIIIe et le XVe si\u00e8cle. Incorporant des mandalas, le candi \u00e9tait con\u00e7u pour repr\u00e9senter le mont Meru, la montagne sacr\u00e9e o\u00f9 demeurent les dieux. Les Javanais, et notamment les Khmers, imagin\u00e8rent une architecture un peu diff\u00e9rente pour leurs candi, ajoutant des piliers autour d'une masse centrale pleine, mais conservant la forme de base. Le plus grand et le plus c\u00e9l\u00e8bre des candi est Borobudur, un temple bouddhique \u00e0 sept niveaux datant du IXe si\u00e8cle.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/candi|candi.png",
+    "prereq_tech": {
+        "name": "Th\u00e9ologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/theology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

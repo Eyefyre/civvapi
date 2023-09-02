@@ -1,0 +1,23 @@
+{
+    "id": 90,
+    "name": "Guerrier maori|Guerriers maori",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/maori_warrior.png",
+    "game_info": "Cette unit\u00e9 de l'Antiquit\u00e9 exclusive \u00e0 la Polyn\u00e9sie remplace le guerrier et terrifie les ennemis \u00e0 proximit\u00e9, les rendant moins efficaces au combat.",
+    "historical_info": "Les Maori comptaient parmi les guerriers les plus redout\u00e9s de toute la Polyn\u00e9sie. Ils d\u00e9coraient leur visage avec une s\u00e9rie de tatouages complexes et effrayants, d\u00e9crivant en d\u00e9tail leurs nombreux exploits au combat. Avant une nouvelle attaque, chaque camp faisait une danse de guerre \u00e9labor\u00e9e appel\u00e9e Haka, repr\u00e9sentant le sort qui attendait les soldats ennemis s'ils \u00e9chouaient. Ils esp\u00e9raient ainsi que la danse intimiderait leurs adversaires afin qu'ils quittent le champ de bataille et d\u00e9clarent forfait, \u00e9conomisant \u00e0 chacun beaucoup de temps et d'\u00e9nergie.Les Maori \u00e9taient \u00e9galement connus pour leurs tendances cannibales ; les guerriers tu\u00e9s \u00e9taient mang\u00e9s afin de capturer leur esprit et leur puissance de combat. Ce faisant, ils faisaient preuve d'une grande marque de respect envers les guerriers vaincus et profitaient par la m\u00eame de la seule source de prot\u00e9ines des \u00eeles.",
+    "strategy": "Le guerrier maori est similaire au g\u00e9n\u00e9ral illustre, \u00e0 l'exception pr\u00e8s qu'au lieu d'augmenter la puissance des unit\u00e9s alli\u00e9es, il diminue celle des unit\u00e9s ennemies \u00e0 proximit\u00e9. N'h\u00e9sitez pas \u00e0 le produire en grand nombre\u00a0: il conserve sa promotion lorsqu'il est am\u00e9lior\u00e9\u00a0!",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Danse de guerre Haka",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/haka_war_dance.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Gro\u00dfe Galeasse",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "Eine extrem m\u00e4chtige Marineeinheit des Mittelalters, die mit ihrem Fernkampfangriff die Meere unter ihre Kontrolle bringen kann. Sie ist besser in Angriff und Verteidigung als die normale Galeasse, die sie ersetzt, aber auch teurer. Kann nur von Venedig gebaut werden.",
+    "historical_info": "Der urspr\u00fcngliche Aufbau der Galeasse war von gro\u00dfen Handelsgaleeren abgeleitet und blieb bis 1660 n. Chr., als in Venedig das erste Kriegsschiff gebaut wurde, relativ unver\u00e4ndert. F\u00fcr gew\u00f6hnlich hatte sie drei Masten mit Lateinersegeln und ein Vor- und Hinterschiff. Diese venezianischen Kriegsschiffe, die durch ihre gr\u00f6\u00dfere Anzahl an Segeln und Rudern schneller waren als gew\u00f6hnliche Galeeren, hatten zudem direkt \u00fcber den Ruderern ein Kanonendeck. Die Venezianische Galeasse blieb im Mittelmeerraum noch lange im Einsatz, auch als andere Nationen bereits gr\u00f6\u00dfere, st\u00e4rkere und seet\u00fcchtigere Kriegsschiffe verwendeten.",
+    "strategy": "Die Gro\u00dfe Galeasse ersetzt die Galeasse und kann nur von den Venezianern gebaut werden. Hat einen st\u00e4rkeren Fernkampfangriff, ist im Kampf ausdauernder und kostet mehr als die normale Galeasse.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Kompass",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

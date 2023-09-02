@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Banca|la Banca|una Banca",
+    "game_info": "La citt\u00e0 deve avere un Mercato.",
+    "strategy": "La Banca \u00e8 un edificio di epoca rinascimentale che incrementa l' Oro generato dalla citt\u00e0. Per costruire una Banca una citt\u00e0 deve gi\u00e0 possedere un Mercato o un Bazaar. Le Rotte commerciali portate da altri giocatori in una citt\u00e0 che possiede una Banca frutteranno 1 Oro extra al possessore della citt\u00e0, mentre il possessore della Rotta commerciale guadagner\u00e0 1 Oro aggiuntivo per la Rotta commerciale.",
+    "historical_info": "Una banca \u00e8 un istituto in cui i cittadini possono riporre il proprio denaro per tenerlo al sicuro. Il banchiere raccoglie i depositi e li presta ad altre persone, che ripagano il debito con un sovrapprezzo o \"interesse\". Il banchiere passa una parte dei profitti ai depositari e reinveste il resto. Un sistema bancario funzionante richiede la presenza di moneta corrente e leggi che assicurino che la maggior parte dei clienti ripaghino effettivamente i debiti contratti.Le banche sono uno strumento molto importante per lo sviluppo di una civilt\u00e0. Nel caso in cui una citt\u00e0 abbia bisogno di una grande opera, ad esempio un nuovo granaio, nessun singolo cittadino potrebbe costruirla da solo. Ma la banca, che raccoglie i risparmi di molti cittadini, pu\u00f2 permettersi di prestare i soldi necessari. Una volta realizzato il granaio, il costruttore potr\u00e0 utilizzarne i profitti per ripagare il debito alla banca e tutti i cittadini beneficeranno del nuovo granaio (oltre ad aver raccolto gli interessi sui propri depositi).In anni recenti le banche europee e americane si sono fatte una reputazione discutibile, ma questo in generale \u00e8 dovuto al fatto che si sono lasciate tentare da investimenti rischiosi o hanno prestato denaro a persone non sufficientemente affidabili. Una banca ben gestita \u00e8 una manna per la popolazione, specialmente per i pi\u00f9 indigenti.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/banca|la_banca|una_banca.png",
+    "prereq_tech": {
+        "name": "Sistema bancario|del Sistema bancario",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

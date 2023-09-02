@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Arbal\u00e9trier|Arbal\u00e9triers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "Unit\u00e9 d'infanterie m\u00e9di\u00e9vale attaquant \u00e0 distance.",
+    "historical_info": "L'arbal\u00e8te est apparue au cours du Xe si\u00e8cle en Europe. Bien que plus lente qu'un arc standard, cette arme est facile \u00e0 ma\u00eetriser et est devenue au fil du temps une arme pr\u00e9dominante sur le champ de bataille. Une arbal\u00e8te est constitu\u00e9e d'un arc relativement court, mais lourd, mont\u00e9 sur un f\u00fbt. L'arbal\u00e9trier tire sur la corde de mani\u00e8re m\u00e9canique pour bander l'arc, puis il place un carreau sur l'arbrier. Il peut ensuite viser puis tirer sur la d\u00e9tente pour rel\u00e2cher la corde et lancer le carreau vers la cible. Parmi de nombreux avantages, l'arbal\u00e8te peut \u00eatre tir\u00e9e en \u00e9tant \u00e0 genoux ou couch\u00e9, chose impossible \u00e0 r\u00e9aliser avec un arc standard.",
+    "strategy": "L'arbal\u00e9trier est plus puissant que l'archer composite. Cette unit\u00e9 d'attaque \u00e0 distance peut attaquer les autres unit\u00e9s du Moyen \u00c2ge dans un rayon de deux cases, mais elle est vuln\u00e9rable aux attaques rapproch\u00e9es. Placez des arbal\u00e9triers dans vos villes pour les d\u00e9fendre et prot\u00e9gez-les avec des unit\u00e9s de combat rapproch\u00e9 s'ils sont sur le terrain.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "M\u00e9canique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Fusil",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "Era Industrial",
+    "cost": 1600,
+    "civilopedia_entry": "No se puede hablar de fusiles sin contar con el proceso de grabar surcos helicoidales en el interior del ca\u00f1\u00f3n de las armas de fuego para impartir un movimiento de rotaci\u00f3n a la bala. Dicha rotaci\u00f3n estabiliza el proyectil y lo hace mucho m\u00e1s preciso. El proceso en cuesti\u00f3n se invent\u00f3 en Viena durante el siglo XV. No obstante, en un principio resultaba extremadamente caro y laborioso, y no se hizo popular hasta pasados tres siglos. En el siglo XVIII, los tiradores de \u00e9lite de Europa y del mundo entero ya contaban con fusiles rudimentarios.A mediados de siglo, los mosquetes de ca\u00f1\u00f3n estriado y las balas Mini\u00e9 resultaban mucho m\u00e1s precisos y mortales. Estas armas, y otras parecidas, se usaron extensamente durante la Guerra de Secesi\u00f3n americana y, probablemente, infligieron m\u00e1s bajas que todos los dem\u00e1s tipos de mosquetes y fusiles juntos.A finales de dicha guerra, los Mini\u00e9 ya estaban siendo sustituidos por los fusiles de repetici\u00f3n de retrocarga con cartuchos, que eran m\u00e1s r\u00e1pidos de cargar y de disparar que los mosquetes. Estas armas, como el modelo Springfield de 1865, y sus herederas seguir\u00edan siendo el fusil de la infanter\u00eda estadounidense hasta la Primera Guerra Mundial, cuando se inventaron los primeros fusiles autom\u00e1ticos. Hoy en d\u00eda, la mayor\u00eda de soldados de infanter\u00eda llevan alguna versi\u00f3n del fusil de asalto estadounidense M16 o del AK-47 ruso. Estas armas tan mort\u00edferas dan al soldado actual una potencia de fuego equivalente a la de decenas de veteranos de la Guerra de Secesi\u00f3n.",
+    "quote": "\"Bien est\u00e1 que la guerra sea tan terrible; de lo contrario, podr\u00edamos aficionarnos a ella.\" - Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        },
+        {
+            "name": "Metalurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fusilero|Fusileros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/rifleman.json"
+        },
+        {
+            "name": "Infanter\u00eda de Monta\u00f1a Noruega|Infanter\u00edas de Monta\u00f1a Noruegas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari|Mehal Sefaris",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/mehal_sefari.json"
+        },
+        {
+            "name": "Carolino|Carolinos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

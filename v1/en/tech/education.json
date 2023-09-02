@@ -1,0 +1,52 @@
+{
+    "id": 27,
+    "name": "Education",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/education.png",
+    "era": "Medieval Era",
+    "cost": 485,
+    "civilopedia_entry": "Education is the process by which people learn things. Obviously it has been around as long as man has. Throughout much of history, education has been an informal affair, parents teaching their children what they need to know to survive in between household chores and hunting expeditions and dodging tigers and so forth. As a tribe expanded and grew more prosperous, village elders and cripples might educate the children while the more healthy adults gathered food, built stuff or made war. Eventually a very wealthy tribe or village might have formal classes for the more important children, and once a civilization matured enough it might see the great value in education for everybody.In ancient Egypt, the priestly class served as teachers for the children of nobility. In these Egyptian schools the children were taught reading, writing, religion, history, science, medicine, mathematics and other advanced topics. In competition with Egypt, Mesopotamia had a similar educational setup for its priests and scribes - who might be copyists, librarians, or teachers. The Mesopotamian students learned reading, writing, religion, law, medicine and astrology. Education first appeared in China some three thousand years ago. Reading, writing, civic responsibility, rituals, and music formed the core curriculum.In Mayan culture, education was in the hands of the priests. The priestly class was the educated class, and they served as important advisors to the chiefs and other citizens. To become a priest a student received a rigorous education in history, writing, divination, medicine, and the calendar system.",
+    "quote": "\"Education is the best provision for old age.\" - Aristotle",
+    "tech_prereqs": [
+        {
+            "name": "Theology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/theology.json"
+        },
+        {
+            "name": "Civil Service",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+        },
+        {
+            "name": "Acoustics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/acoustics.json"
+        },
+        {
+            "name": "Banking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/wat.json"
+        },
+        {
+            "name": "University",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/university.json"
+        },
+        {
+            "name": "Oxford University",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/oxford_university.json"
+        },
+        {
+            "name": "Angkor Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/angkor_wat.json"
+        }
+    ]
+}

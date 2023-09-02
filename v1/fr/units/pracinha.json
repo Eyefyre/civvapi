@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinha|Pracinhas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Exclusive au Br\u00e9sil, cette unit\u00e9 d'infanterie de l'\u00e8re moderne rapporte des points permettant de d\u00e9clencher un \u00e2ge d'or lorsqu'elle \u00e9limine un adversaire.",
+    "historical_info": "C'est en d\u00e9cembre 1942, suite \u00e0 la destruction de 18\u00a0bateaux de commerce br\u00e9siliens par des sous-marins allemands dans l'Atlantique, que le Br\u00e9sil d\u00e9clara la guerre \u00e0 l'Allemagne nazie et \u00e0 l'Italie fasciste, rejoignant le camp des Alli\u00e9s. Au d\u00e9but de l'ann\u00e9e 1944, la Force exp\u00e9ditionnaire br\u00e9silienne, aussi appel\u00e9e \"pracinhas brasileiros\" dans le pays, forma 27\u00a0500\u00a0hommes et femmes au combat. Leurs exploits furent suivis de pr\u00e8s par la population br\u00e9silienne, fi\u00e8re que leur nation soit la seule d'Am\u00e9rique du Sud \u00e0 jouer un r\u00f4le actif en Europe. Malgr\u00e9 la faiblesse de leur \u00e9quipement face \u00e0 celui de leurs homologues am\u00e9ricains et britanniques, les r\u00e9giments br\u00e9siliens combattaient avec une rage et une f\u00e9rocit\u00e9 qui leur valurent louanges et honneurs, mais aussi la mort de pr\u00e8s de 1\u00a0000\u00a0soldats pendant la campagne.",
+    "strategy": "Cette unit\u00e9 de combat rapproch\u00e9 rapporte des points pour d\u00e9clencher le prochain carnaval br\u00e9silien lorsqu'elle \u00e9limine un ennemi. Utilisez-la pour faire la guerre en territoire \u00e9tranger et pousser le Br\u00e9sil vers une victoire culturelle.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Mati\u00e8res plastiques",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "\u00c2ge d'or (victoires)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

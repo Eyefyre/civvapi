@@ -1,0 +1,40 @@
+{
+    "id": 43,
+    "name": "Teoria scientifica|della Teoria scientifica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/scientific_theory.png",
+    "era": "Epoca industriale",
+    "cost": 1600,
+    "civilopedia_entry": "La teoria scientifica \u00e8 quel modo di vedere il mondo attraverso il \"metodo scientifico\" per imparare le leggi dell'universo. Per spiegare un dato fenomeno, lo scienziato formula una teoria solo dopo un'attenta osservazione, seguita da esperimenti. Se altri scienziati riescono, tramite esperimenti, a confermare i risultati della teoria del loro collega, allora questa viene accettata come una legge \"empirica\" (sperimentale), almeno finch\u00e9 nuove osservazioni o esperimenti dimostrino altrimenti. Se gli esperimenti di uno scienziato non riescono a essere replicati da altri, allora le sue teorie possono essere oggetto di scetticismo. Anche se rappresenta il modo prevalente di vedere le cose nei paesi avanzati del mondo odierno, la teoria scientifica non \u00e8 l'unica lente attraverso cui la gente osserva il mondo. Per spiegarsi l'universo, alcuni si rivolgono alla rivelazione divina (ad esempio quella contenuta in un libro sacro). Se l'osservazione o la sperimentazione \u00e8 in conflitto con la rivelazione divina, allora l'osservazione e la sperimentazione devono essere in qualche modo fallaci o corrotte. Questi due modi di vedere il mondo si sono combattuti per secoli e non c'\u00e8 motivo di credere che negli anni a venire la lotta debba cessare.",
+    "quote": "\"Ogni grande progresso della scienza \u00e8 scaturito da una nuova audacia dell'immaginazione.\" - John Dewey",
+    "tech_prereqs": [
+        {
+            "name": "Economia|dell'Economia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/economics.json"
+        },
+        {
+            "name": "Architettura|dell'Architettura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologia|della Biologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/biology.json"
+        },
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        },
+        {
+            "name": "Elettricit\u00e0|dell'Elettricit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electricity.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Scuola pubblica|la Scuola pubblica|una Scuola pubblica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/public_school.json"
+        }
+    ]
+}

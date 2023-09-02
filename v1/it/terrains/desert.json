@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "Deserto",
+    "historical_info": "In generale gli esagoni desertici sono inutili: essi non forniscono alcun beneficio alle citt\u00e0, tranne ovviamente nel caso in cui contengano una risorsa o un'oasi, o abbiano accesso all'acqua dolce.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/deserto.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oasi|l'oasi|un'oasi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/oasis.json"
+        },
+        {
+            "name": "Terreni allagati|i terreni allagati|dei terreni allagati",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Petrolio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+        },
+        {
+            "name": "Alluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Pecore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sheep.json"
+        },
+        {
+            "name": "Pietra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/stone.json"
+        },
+        {
+            "name": "Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gold.json"
+        },
+        {
+            "name": "Argento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silver.json"
+        },
+        {
+            "name": "Gemme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+        },
+        {
+            "name": "Marmo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/marble.json"
+        },
+        {
+            "name": "Cotone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cotton.json"
+        },
+        {
+            "name": "Incenso",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/incense.json"
+        },
+        {
+            "name": "Rame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+        },
+        {
+            "name": "Sale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/salt.json"
+        }
+    ]
+}

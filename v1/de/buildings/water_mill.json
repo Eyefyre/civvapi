@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Wasserm\u00fchle",
+    "game_info": "Stadt muss an einem Fluss liegen.",
+    "strategy": "Die Wasserm\u00fchle kann nur in St\u00e4dten gebaut werden, die an einen Fluss angrenzen. Die Wasserm\u00fchle erh\u00f6ht die Nahrungskapazit\u00e4t einer Stadt.",
+    "historical_info": "Eine Wasserm\u00fchle ist ein Geb\u00e4ude, das die Kraft des Wassers nutzt, um Korn zu Mehl zu verarbeiten. In einer M\u00fchle werden K\u00f6rner zwischen zwei Steine gesch\u00fcttet, von denen sich der obere langsam dreht. Durch diese Bewegung zwischen den Steinen wird das Korn in winzige St\u00fccke (Mehl) gemahlen. Viele alte M\u00fchlen nutzten Tiere oder Menschen, um die M\u00fchlsteine anzutreiben, doch in einer Wasserm\u00fchle \u00fcbernimmt flie\u00dfendes Wasser die Arbeit und entlastet so Mensch und Tier, die an anderer Stelle sinnvoller eingesetzt werden k\u00f6nnen. Sp\u00e4ter sollten Dampf oder Strom M\u00fchlen wesentlich zuverl\u00e4ssiger und effizienter antreiben, doch Wasserm\u00fchlen waren zu ihrer Zeit gro\u00dfartige Ger\u00e4te zur Einsparung von Arbeit.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wasserm\u00fchle.png",
+    "prereq_tech": {
+        "name": "Das Rad",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

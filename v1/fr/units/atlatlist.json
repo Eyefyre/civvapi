@@ -1,0 +1,23 @@
+{
+    "id": 97,
+    "name": "Propulseur|Propulseurs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atlatlist.png",
+    "game_info": "Unit\u00e9 exclusive aux Mayas. Elle co\u00fbte moins cher que l'archer, qu'elle remplace, et devient disponible plus t\u00f4t.",
+    "historical_info": "Les propulseurs \u00e9taient des lanceurs de fl\u00e9chettes tr\u00e8s sophistiqu\u00e9s, consistant en de longues tiges en bois semblables \u00e0 des lances capables de propulser des fl\u00e9chettes sur leurs cibles \u00e0 tr\u00e8s grande vitesse. \u00c0 l'extr\u00e9mit\u00e9 de ce dispositif appel\u00e9 \"atlatl\" se trouvait une planchette sur laquelle reposait la fl\u00e9chette. Creus\u00e9e dans sa longueur, la latte servait \u00e0 guider la trajectoire du projectile. Avec un atlatl, le lanceur pouvait propulser une fl\u00e9chette sur une distance de 100\u00a0m\u00e8tres \u00e0 pr\u00e8s de 100\u00a0km/h, soit beaucoup plus loin et beaucoup plus vite qu'\u00e0 la main. Les Mayas auraient \u00e9t\u00e9 ainsi capables de d\u00e9vaster les lignes ennemies \u00e0 distance, \u00e0 condition d'avoir leur cible en ligne de mire. Les plus anciens atlatls datent d'environ 400\u00a0000\u00a0ans et ont \u00e9t\u00e9 utilis\u00e9s par l'Homo heidelbergensis. On pense que l'Homo sapiens a utilis\u00e9 une version primitive de l'atlatl \u00e0 partir du Pal\u00e9olithique sup\u00e9rieur, vers\u00a0 15\u00a0500 av.\u00a0J.\u00adC.",
+    "strategy": "Le propulseur est exclusif aux Mayas et remplace l'archer. Il est moins co\u00fbteux que l'archer traditionnel et disponible plus t\u00f4t sans qu'il soit n\u00e9cessaire de d\u00e9couvrir le Tir \u00e0 l'arc. Cet avantage en d\u00e9but de partie permet d'effectuer d'autres recherches en priorit\u00e9.",
+    "movement": 2,
+    "cost": {
+        "production": 36,
+        "faith": 72
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

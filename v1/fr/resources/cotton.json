@@ -1,0 +1,37 @@
+{
+    "id": 26,
+    "name": "Coton",
+    "game_info": null,
+    "historical_info": "Le coton est une plante cultiv\u00e9e depuis des si\u00e8cles. La fibre qui entoure la graine qu'il produit peut \u00eatre fil\u00e9e, puis transform\u00e9e en un tissu qui sert notamment \u00e0 la fabrication de v\u00eatements, de voiles de bateau, ou de tout autre mat\u00e9riau de valeur. S'il fut d'abord cultiv\u00e9 en Inde voil\u00e0 7\u00a0000\u00a0ans, le coton reste aujourd'hui le mat\u00e9riau naturel le plus utilis\u00e9 dans l'industrie du textile.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/coton.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation|Plantations",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        }
+    ]
+}

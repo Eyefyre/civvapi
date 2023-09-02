@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "Machinery",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "Medieval Era",
+    "cost": 485,
+    "civilopedia_entry": "A machine is a device with moving parts (this is true during the pre-Electronics Age, anyway) that uses energy to perform tasks. A printing press is a machine, as is a loom, a clock and a watermill. Mastery of machinery requires design and engineering skill, of course, but also the ability to manufacture machine parts to precise measurements. A steam engine will leak if it's constructed poorly - that is, if it doesn't explode. The early Machine Age was a hugely dangerous time to work around the devices - if the fumes didn't kill you then you stood a fair chance of getting scalded, sucked into the works or blown to pieces.On the other hand, once a civilization began to master complex machinery, it gave them unrivaled wealth and power. England went early into the Industrial Revolution, and by so doing the small island nation dominated world trade for nearly three centuries.",
+    "quote": "\"The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Engineering",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+        },
+        {
+            "name": "Guilds",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Printing Press",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Crossbowman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/crossbowman.json"
+        },
+        {
+            "name": "Chu-Ko-Nu",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/chu-ko-nu.json"
+        },
+        {
+            "name": "Longbowman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Ironworks",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/ironworks.json"
+        }
+    ]
+}

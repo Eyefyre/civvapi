@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Portaerei|una Portaerei|dalla tua Portaerei|alla tua Portaerei|la tua Portaerei|da una Portaerei",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Inizialmente pu\u00f2 trasportare 2 unit\u00e0 volanti; questa capacit\u00e0 pu\u00f2 aumentare grazie alle promozioni.",
+    "historical_info": "Nel 1910 il primo apparecchio si lev\u00f2 in volo da una nave americana. Alcuni tradizionalisti continuarono a opporsi allo sviluppo delle portaerei, sostenendo che le corazzate sarebbero sempre rimaste la spina dorsale di ogni flotta moderna, ma negli anni '20 la loro produzione era ormai consuetudine in tutte le marine del mondo. Nel dicembre del 1941 i giapponesi fugarono ogni dubbio circa l'efficacia delle portaerei distruggendo gran parte della flotta americana del Pacifico (tra cui molte delle celebrate corazzate) in un brillante attacco a sorpresa a Pearl Harbor. Per uno straordinario colpo di fortuna le portaerei americane non erano in porto quando l'attacco fu scatenato. La loro successiva azione rallent\u00f2 il Giappone e diede agli USA il tempo di organizzare la produzione di nuove portaerei. Il risultato finale fu un totale dominio americano dei mari e del cielo, che risult\u00f2 fondamentale per la vittoria finale.",
+    "strategy": "La Portaerei \u00e8 una nave specializzata che trasporta caccia, bombardieri (ma non bombardieri invisibili) e bombe atomiche. La Portaerei stessa non pu\u00f2 attaccare, ma gli apparecchi che trasporta fanno di lei la pi\u00f9 potente arma offensiva navale in assoluto. La sua capacit\u00e0 difensiva, comunque, \u00e8 piuttosto limitata. Per questo \u00e8 sempre meglio scortare una Portaerei con incrociatori e sottomarini.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Elettronica|dell'Elettronica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 trasportare 2 Carichi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

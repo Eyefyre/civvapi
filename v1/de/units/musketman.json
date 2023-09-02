@@ -1,0 +1,18 @@
+{
+    "id": 48,
+    "name": "Musketier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketman.png",
+    "game_info": "Erste Schie\u00dfpulver-Einheit des Spiels. Relativ g\u00fcnstig und m\u00e4chtig.",
+    "historical_info": "Die Muskete ist ein langl\u00e4ufiger Vorderlader mit Steinschloss, der aus der Schulter abgefeuert wird. Musketen waren leichter und pr\u00e4ziser als die fr\u00fchere milit\u00e4rische Schusswaffe, die Arkebuse, und hatten diese etwa ab dem 18. Jahrhundert auf den meisten europ\u00e4ischen Schlachtfeldern abgel\u00f6st. Mit der Erg\u00e4nzung eines Bajonetts wurde die Muskete au\u00dferdem zu einer n\u00fctzlichen Nahkampfwaffe und machte den Pikenier dadurch \u00fcberfl\u00fcssig. Die \"Brown Bess\" der britischen Armee war die archetypische Muskete, die von 1722-1838 im Einsatz war; beide Seiten verwendeten sie w\u00e4hrend der Amerikanischen Unabh\u00e4ngigkeitsbewegung.",
+    "strategy": "Der Musketier ist die erste Einheit im Spiel, die Schie\u00dfpulver einsetzt und ersetzt alle vorherigen Fu\u00dfsoldaten-Einheiten wie Langschwertk\u00e4mpfer, Pikeniere usw. Es handelt sich beim Musketier jedoch nicht um eine Fernwaffen-Einheit, sodass er keine Feinde angreifen kann, die mehr als ein Gel\u00e4ndefeld entfernt sind.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Schie\u00dfpulver",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

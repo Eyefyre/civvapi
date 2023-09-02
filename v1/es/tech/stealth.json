@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Invisibilidad ante el radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 8800,
+    "civilopedia_entry": "El concepto o la pr\u00e1ctica del sigilo no es nuevo en el progreso humano, pero las tecnolog\u00edas modernas llevan la noci\u00f3n de invisibilidad a un nivel completamente distinto. La tecnolog\u00eda de la invisibilidad ante el radar es en realidad una combinaci\u00f3n de m\u00faltiples disciplinas y t\u00e1cticas militares que van m\u00e1s all\u00e1 de lo que el ojo humano es capaz de ver: incluye la ocultaci\u00f3n y detecci\u00f3n de objetos por radar, ondas sonoras, lecturas t\u00e9rmicas o cualquier otro m\u00e9todo menos evidente.Los uniformes de camuflaje son uno de los m\u00e9todos m\u00e1s antiguos y simples para confundir un objeto con su entorno, pero los numerosos avances tecnol\u00f3gicos han planteado la necesidad de idear sistemas m\u00e1s din\u00e1micos y sofisticados para ocultar y detectar objetos. Actualmente se inyectan productos qu\u00edmicos en la ropa, se construyen naves con materiales especiales que ofuscan radares y se ocultan los rastros infrarrojos de los aviones con toberas de ingeniosos dise\u00f1os. Aunque puede que no siempre sea posible hacer que un objeto sea completamente indetectable, los veh\u00edculos \"invisibles\" y aviones esp\u00eda modernos han cambiado el modo en que se llevan a cabo las operaciones militares, y suponen una gran ventaja para los pa\u00edses que saben o pueden disponer de esta tecnolog\u00eda.",
+    "quote": "\"S\u00e9 sutil en extremo, hasta el punto de no tener forma. S\u00e9 misterioso en extremo, hasta el punto de no emitir sonido. As\u00ed podr\u00e1s dirigir el destino de tu oponente.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Rob\u00f3tica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+        },
+        {
+            "name": "L\u00e1ser",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tecnolog\u00eda futura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardero invisible|Bombarderos invisibles",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

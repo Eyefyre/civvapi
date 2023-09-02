@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Arsenal",
+    "game_info": "Stadt ben\u00f6tigt eine Burg oder Mogul-Festung.",
+    "strategy": "Das Arsenal ist ein Milit\u00e4rgeb\u00e4ude im mittleren Abschnitt des Spiels, das die Verteidigungsst\u00e4rke einer Stadt um 9 und die Trefferpunkte um 25 erh\u00f6ht, sodass sie schwieriger einzunehmen ist. Die Stadt muss \u00fcber eine Burg verf\u00fcgen, bevor ein Arsenal gebaut werden kann.",
+    "historical_info": "Ein Arsenal ist eine gr\u00f6\u00dfere und umfassendere Waffenkammer, in der die gr\u00f6\u00dferen und gef\u00e4hrlicheren Waffensysteme einer Armee aufbewahrt werden: Panzer, hochexplosive Munition usw. Ein Arsenal wird noch besser bewacht als eine Waffenkammer, da niemand will, dass ein Panzer oder ein 88 mm Explosivgeschoss in die falschen H\u00e4nde ger\u00e4t.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/arsenal.png",
+    "prereq_tech": {
+        "name": "Metallverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

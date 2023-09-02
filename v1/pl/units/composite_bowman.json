@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "\u0141ucznicy z \u0142ukiem kompozyt.|\u0141ucznik\u00f3w z \u0142ukiem kompozytowym|\u0141ucznikom z \u0142ukiem kompozytowym|\u0141ucznik\u00f3w z \u0142ukiem kompozytowym",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Klasyczna jednostka piechoty atakuj\u0105ca z dystansu.",
+    "historical_info": "\u0141uk kompozytowy, powszechnie uznawany za najlepsz\u0105 konstrukcj\u0119 w\u015br\u00f3d \u0142uk\u00f3w, r\u00f3\u017cni si\u0119 od tradycyjnych modeli tym, \u017ce jest zbudowany z warstw ko\u015bci, rogu i innych materia\u0142\u00f3w po\u0142\u0105czonych tak, by stworzy\u0107 niezwykle wytrzyma\u0142e i mocne narz\u0119dzie. Prawdopodobnie powsta\u0142 w\u015br\u00f3d w\u0119drownych plemion Azji w I lub II tysi\u0105cleciu p.n.e.",
+    "strategy": "\u0141ucznicy z \u0142ukiem kompozytowym s\u0105 pot\u0119\u017cniejsi od zwyk\u0142ych \u0142ucznik\u00f3w. Jako jednostka dystansowa mog\u0105 zada\u0107 powa\u017cne obra\u017cenia jednostkom oddalonym o maksymalnie dwa pola, lecz s\u0105 ma\u0142o odporni na atak wr\u0119cz. Trzymaj ich w mie\u015bcie dla obrony, a gdy s\u0105 w ruchu, chro\u0144 ich jednostkami walcz\u0105cymi wr\u0119cz.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

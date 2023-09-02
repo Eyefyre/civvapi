@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Fourrures",
+    "game_info": null,
+    "historical_info": "En tant que ressource, la fourrure d\u00e9signe le pelage de certains mammif\u00e8res, tr\u00e8s pris\u00e9s pour leur beaut\u00e9 et la chaleur qu'ils procurent une fois port\u00e9s. Contrairement aux animaux comme les moutons, dont la laine peut \u00eatre tondue sans blesser la b\u00eate, les animaux \u00e0 fourrure doivent \u00eatre tu\u00e9s pour que l'on puisse retirer leur pelage. Les humains chassent les animaux pour leur fourrure depuis des mill\u00e9naires. Autrefois, il est probable que les chasseurs et leurs familles mangeaient les animaux qu'ils \u00e9liminaient, mais aujourd'hui, leurs corps sont souvent abandonn\u00e9s sur place. Les animaux chass\u00e9s pour leur fourrure comprennent les renards, les ours, les castors, les phoques et les lapins.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fourrures.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp|Camps",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        }
+    ]
+}

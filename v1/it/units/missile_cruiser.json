@@ -1,0 +1,39 @@
+{
+    "id": 8,
+    "name": "Incrociatore lanciamissili|un Incrociatore lanciamissili|dal tuo Incrociatore lanciamissili|al tuo Incrociatore lanciamissili|il tuo Incrociatore lanciamissili|da un Incrociatore lanciamissili",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missile_cruiser.png",
+    "game_info": "Unit\u00e0 navale specializzata nel respingere gli aerei nemici. Pu\u00f2 trasportare 3 Missili. Usata per dare la caccia e distruggere i Sottomarini nemici.",
+    "historical_info": "Un incrociatore lanciamissili \u00e8 l'arma navale pi\u00f9 potente al giorno d'oggi, dopo la portaerei e il sottomarino nucleare. Progettato per trasportare e lanciare missili da crociera di enorme potenza, precisione e gittata, un incrociatore lanciamissili pu\u00f2 spesso prendere di mira e distruggere un obiettivo sulla terra o sul mare molto prima che il nemico si accorga della sua presenza. L'incrociatore lanciamissili americano di classe Ticonderoga \u00e8 probabilmente la nave pi\u00f9 potente al mondo. Dotato di 122 tubi di lancio, trasporta una grande variet\u00e0 di missili terra-terra, terra-aria e persino anti-sottomarino. Inoltre dispone di molti cannoncini Gatling antiaerei, in grado di distruggere facilmente gli aerei e i missili nemici in avvicinamento.",
+    "strategy": "L'Incrociatore lanciamissili \u00e8 una nave da guerra moderna. \u00c8 molto veloce e resistente, ha una grande forza d'attacco a distanza ed \u00e8 piuttosto abile a intercettare gli aerei nemici. Ma il suo punto di forza sta nel fatto che pu\u00f2 trasportare missili teleguidati e missili nucleari, consentendo a un giocatore di portare queste armi letali fin sulle coste nemiche. Usati insieme a portaerei e sottomarini, gli incrociatori lanciamissili costituiscono una flotta dannatamente potente.",
+    "movement": 7,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Robotica|della Robotica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 vedere i sottomarini",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Attacco contro Sottomarini (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Pu\u00f2 trasportare 3 Carichi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_3_cargo.json"
+        },
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

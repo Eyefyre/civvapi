@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Amphitheater",
+    "game_info": null,
+    "strategy": "Das Amphitheater steigert die Kultur einer Stadt, beschleunigt die Ausdehnung des Stadtgebiets und erh\u00f6ht den Erhalt von Sozialpolitiken f\u00fcr die Zivilisation. Die Stadt muss ein Monument (oder eine Stele) enthalten, bevor ein Amphitheater gebaut werden kann. Beinhaltet 1 Platz f\u00fcr ein Gro\u00dfes Literaturwerk.",
+    "historical_info": "Ein Amphitheater ist eine Freiluftarena f\u00fcr Theaterauff\u00fchrungen, Sportereignisse und Konzerte. Die alten R\u00f6mer sind f\u00fcr Hunderte von Amphitheatern bekannt, die sie gebaut haben, um Gladiatorenk\u00e4mpfe und Ausstellungen abzuhalten und \u00f6ffentliche Hinrichtungen vorzunehmen.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/amphitheater.png",
+    "prereq_tech": {
+        "name": "Drama und Dichtung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

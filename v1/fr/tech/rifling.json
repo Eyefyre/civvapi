@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Fusil",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "\u00c8re industrielle",
+    "cost": 1600,
+    "civilopedia_entry": "Le canon ray\u00e9 est un canon d'arme \u00e0 feu dans lequel ont \u00e9t\u00e9 effectu\u00e9es des rainures spiral\u00e9es dans le but d'imprimer une rotation au projectile. En stabilisant ce dernier, les rainures lui offrent une pr\u00e9cision grandement am\u00e9lior\u00e9e. Ce proc\u00e9d\u00e9 a \u00e9t\u00e9 invent\u00e9 \u00e0 Vienne au XVe si\u00e8cle mais, \u00e0 l'\u00e9poque, il \u00e9tait extr\u00eamement co\u00fbteux et chronophage. Il ne devint populaire que trois si\u00e8cles plus tard. Au d\u00e9but du XVIIIe si\u00e8cle, les fusils \u00e0 canon ray\u00e9 \u00e9taient utilis\u00e9s par les tireurs d'\u00e9lite de toutes les arm\u00e9es d'Europe et du monde.Au milieu du XVIIIe si\u00e8cle, les fusils et les balles Mini\u00e9 rendirent les mousquets \u00e0 canon ray\u00e9 encore plus pr\u00e9cis et meurtriers. Ces armes \u00e0 feu, comme bien d'autres du m\u00eame type, furent utilis\u00e9es abondamment durant la guerre de S\u00e9cession, et firent plus de victimes que tous les autres fusils ou mousquets r\u00e9unis.\u00c0 la fin de la guerre de S\u00e9cession, les fusils Mini\u00e9 furent remplac\u00e9s par des fusils \u00e0 culasse utilisant des cartouches. Ces mod\u00e8les \u00e9taient bien plus rapides \u00e0 recharger et \u00e0 tirer que les mousquets. Ces armes, comme le Springfield M1865 et ses descendants, allaient rester celles de l'infanterie am\u00e9ricaine jusqu'\u00e0 la Premi\u00e8re Guerre mondiale et l'invention des premiers fusils automatiques. \u00c0 l'\u00e9poque moderne, la plupart des soldats d'infanterie sont \u00e9quip\u00e9s de fusil d'assaut, comme le M16 am\u00e9ricain ou le AK-47 russe. Ces armes redoutables donnent aux soldats d'aujourd'hui une puissance de feu \u00e9quivalente \u00e0 celle de dizaines de soldats v\u00e9t\u00e9rans de la fin du XIXe si\u00e8cle.",
+    "quote": "\"Il est bon que la guerre soit terrible, sans cela nous ne pourrions plus nous en passer.\" - Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Sciences \u00e9conomiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+        },
+        {
+            "name": "M\u00e9tallurgie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fusilier|Fusiliers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/rifleman.json"
+        },
+        {
+            "name": "Infanterie \u00e0 ski norv\u00e9gienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari|Mehal Sefari",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/mehal_sefari.json"
+        },
+        {
+            "name": "Karoliner|Karoliner",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

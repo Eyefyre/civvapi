@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "name": "Kalender",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/calendar.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Ein Kalender ist eine Methode zum Erfassen des Jahresablaufs in Tagen. In vielen alten Kulturen erf\u00fcllten Kalender sowohl religi\u00f6se als auch praktische Zwecke: An bestimmten Tagen des Jahres hatte man sich der Verehrung von bestimmten G\u00f6ttern zu widmen und es brachte Ungl\u00fcck, wenn dies nicht geschah. Kalender erm\u00f6glichten den Menschen aber auch ganz einfach die Vorhersage des Wetters in einem Gebiet, sodass sie wussten, wann sie ihr Getreide anpflanzen mussten, wann die Ernte stattfand usw.Die \u00c4gypter haben wohl den ersten praktischen Kalender entwickelt, der dann sp\u00e4ter von den R\u00f6mern \u00fcbernommen und zum Julianischen Kalender weiterentwickelt wurde. Heute wird fast \u00fcberall der Gregorianische Kalender verwendet, der auch auf dem Julianischen Kalender basiert. 1582 setzte Papst Gregor den Gregorianischen Kalender in Kraft, der das Sonnenjahr genauer festlegt und eine geringe Ungenauigkeit des Julianischen Kalenders korrigiert. Im Julianischen Kalender dauerte ein Jahr 365 Tage und 6 Stunden, w\u00e4hrend es im Gregorianischen Kalender mit 365 Tagen, 5 Stunden und 48 Minuten 12 Minuten k\u00fcrzer ist. Der Fehler hatte sich \u00fcber Jahrhunderte angesammelt, sodass zu Gregors Lebzeiten der Julianische Kalender um 14 Tage zu den Jahreszeiten verschoben war.",
+    "quote": "\"Lehre uns bedenken, dass wir sterben m\u00fcssen, auf dass wir klug werden.\" - Die Bibel, Psalmen 90,12",
+    "tech_prereqs": [
+        {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stonehenge",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stonehenge.json"
+        },
+        {
+            "name": "Steinwerke",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stone_works.json"
+        }
+    ]
+}

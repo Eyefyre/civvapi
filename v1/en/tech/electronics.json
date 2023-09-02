@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "Electronics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "Modern Era",
+    "cost": 4100,
+    "civilopedia_entry": "Electronics covers the branch of technology which studies the controlled motion of electrons through various forms of media, including vacuums. This is not the same as Electrical Technology, which is concerned with the generation and distribution of power. Electronics wasn't recognized as its own field of study until 1950, when it was split off from radio technology.Electronic circuits can be classified into two distinct groups, analog or digital. Analog circuits are generally simple combinations of basic circuits, utilizing a continuous range of voltage; most modern circuits are rarely ever entirely analog in nature anymore. Digital circuits form the basis of modern computers and programmable logic controllers, as they are the most common physical representation of Boolean algebra (0's and 1's anyone?).The study and development of electronics is deeply tied to that of mathematics, and proficiency in the latter is necessary for the former. Creating and analyzing complex circuits involves solving linear systems of multiple unknown variables (like voltage and current at given locations), which is why much of today's circuit design is augmented by design automation software packages, a rather \"meta\" practice if you get right down to it.",
+    "quote": "\"There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.\" - Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Replaceable Parts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Flight",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+        },
+        {
+            "name": "Atomic Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Carrier",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/carrier.json"
+        },
+        {
+            "name": "Battleship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,56 @@
+{
+    "id": 22,
+    "name": "Th\u00e9ologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/theology.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 275,
+    "civilopedia_entry": "La th\u00e9ologie est l'\u00e9tude des traditions et des croyances religieuses. La pratique remonte au moins au temps des Grecs de la p\u00e9riode classique qui poss\u00e9daient une mythologie riche et une tradition religieuse tr\u00e8s forte. Au Ier et IIe si\u00e8cles apr. J.-C., la transmission du savoir juif se d\u00e9veloppa de fa\u00e7on importante. Le Talmud de J\u00e9rusalem, une compilation de discussions rabbiniques sur la tradition juive orale, fut publi\u00e9 vers 200 apr. J.-C., puis \u00e9toff\u00e9 au fil des deux si\u00e8cles suivants.La th\u00e9ologie est un domaine d'importance qui a eu une influence capitale sur l'histoire du monde. Des millions et des millions d'hommes sont morts en raison de divergences d'opinions religieuses, et c'est encore le cas aujourd'hui. Les Romains tu\u00e8rent les chr\u00e9tiens dont la religion novatrice niait l'existence de leurs dieux. Les chr\u00e9tiens massacr\u00e8rent les juifs, les musulmans et d'autres chr\u00e9tiens aux opinions religieuses divergentes. Avec ses \"95 th\u00e8ses\" remettant en question, entre autres, la vente d'indulgences papales (le pardon divin de certains p\u00e9ch\u00e9s) pour financer la construction de la basilique Saint-Pierre, le th\u00e9ologien chr\u00e9tien r\u00e9volutionnaire Martin Luther amor\u00e7a des si\u00e8cles de violents conflits religieux en Europe. Si la guerre religieuse opposant l'Islam radical \u00e0 l'Occident devait s'arr\u00eater un jour, nul doute que la th\u00e9ologie aura \u00e9t\u00e9 une des cl\u00e9s de l'apaisement.",
+    "quote": "\"Trois choses sont n\u00e9cessaires au salut de l'homme : savoir ce qu'il faut croire, savoir ce qu'il faut d\u00e9sirer, et savoir ce qu'il faut faire.\" - Saint Thomas d'Aquin",
+    "tech_prereqs": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/philosophy.json"
+        },
+        {
+            "name": "Drame et po\u00e9sie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/drama_and_poetry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Boussole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+        },
+        {
+            "name": "\u00c9ducation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/education.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Jardin|Jardins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/garden.json"
+        },
+        {
+            "name": "Sainte Sophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hagia_sophia.json"
+        },
+        {
+            "name": "Grande mosqu\u00e9e de Djenn\u00e9|Grandes mosqu\u00e9es de Djenn\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/great_mosque_of_djenne.json"
+        },
+        {
+            "name": "Grand temple|Grands temples",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/grand_temple.json"
+        },
+        {
+            "name": "Candi|Candi",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/candi.json"
+        },
+        {
+            "name": "Borobudur|Borobudur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/borobudur.json"
+        }
+    ]
+}

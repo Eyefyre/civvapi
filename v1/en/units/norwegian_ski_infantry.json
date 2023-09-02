@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Norwegian Ski Infantry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Strong, front-line land Unit of the mid-game that specializes in operating in Snow, Tundra and Hills. Only Denmark may build it. Replaces the Rifleman.",
+    "historical_info": "These intrepid infantrymen were employed heavily by Denmark against Sweden during the Napoleonic Wars of 1807- 1814. Comparable in speed to light cavalry, these soldiers were capable of traversing the mountainsides and snow- covered fields much faster than anyone else on foot or horseback. Besides being able to cross forested and rocky terrain efficiently, the ski infantry were also used to pull wagons of supplies or even other squads of soldiers, as the lack of roads and deep snow made traditional horse travel difficult. Their first recorded usage dates back to roughly the 13th century.Today, the ski infantry are still used by the Danish Navy to patrol large stretches of northern and eastern Greenland, areas of which are too rugged for most other forms of transportation. In Norway, every soldier in the army is still trained in the art of ski combat, and the Biathlon sporting event was inspired and developed from their military training and patrol routes.",
+    "strategy": "The Norwegian Ski Infantry is one of two Danish Unique Units, replacing the Rifleman. This Unit moves through Snow, Tundra, or Hill at double speed. It also has a +25% combat bonus in Snow, Tundra or Hill terrain if neither Forest nor Jungle is present.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Rifling",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonuses in Snow, Tundra, and Hills",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

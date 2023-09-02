@@ -1,0 +1,27 @@
+{
+    "id": 131,
+    "name": "Tropiciele|Tropicieli|Tropicielom|Tropicieli",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pathfinder.png",
+    "game_info": "Ta unikalna jednostka Szoszon\u00f3w doskonale nadaje si\u0119 do eksploracji i walki. Zast\u0119puje zwiadowc\u00f3w. Ma awans pozwalaj\u0105cy jej wybra\u0107 nagrod\u0119 za odkrycie staro\u017cytnych ruin.",
+    "historical_info": "Niekt\u00f3rzy cz\u0142onkowie tubylczych plemion ameryka\u0144skich, \u017cyj\u0105cych na Wielkich R\u00f3wninach i w G\u00f3rach Skalistych, uwa\u017cani byli za wspania\u0142ych zwiadowc\u00f3w, kt\u00f3rzy wykonywali najwa\u017cniejsze dla koczowniczych lud\u00f3w zadania. Ci nosz\u0105cy rozmaite tytu\u0142y poszukiwacze \u015bcie\u017cek tropili zwierzyn\u0119 i przeciwnik\u00f3w, znajdowali drogi do migracji, szpiegowali przeciwnik\u00f3w i intruz\u00f3w oraz chronili obozowiska zimowe. Byli tak uzdolnieni, \u017ce armie \u015bwiatowych pot\u0119g zatrudnia\u0142y ich jako zwiadowc\u00f3w i doradc\u00f3w ju\u017c od czas\u00f3w wojny z Pekotami (1637-1638), kiedy to kolonist\u00f3w z Zatoki Massachusetts wspomagali zwiadowcy plemion Narragansett i Mohegan. Gdy jednak zako\u0144czy\u0142y si\u0119 czasy pogranicza, a szczepy india\u0144skie zamkni\u0119to w rezerwatach, rola tropiciela straci\u0142a na znaczeniu.",
+    "strategy": "Tropiciele zast\u0119puj\u0105 zwiadowc\u00f3w, mog\u0105 tworzy\u0107 ich tylko Szoszoni. Eksploruj\u0105 teren r\u00f3wnie dobrze jak zwiadowcy i walcz\u0105 prawie tak dobrze jak wojownicy. Pozwalaj\u0105 graczowi wybra\u0107 premi\u0119 za odkrycie staro\u017cytnych ruin. Kosztuj\u0105 wi\u0119cej ni\u017c zwiadowcy.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mowa ojczysta",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/native_tongue.json"
+        },
+        {
+            "name": "Ignoruje koszt terenu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

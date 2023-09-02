@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Chu-ko-nu|Cho-ko-nu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "Unit\u00e9 d'infanterie m\u00e9di\u00e9vale attaquant \u00e0 distance. Le Cho-Ko-Nu est exclusif aux Chinois. Cette unit\u00e9 peut attaquer deux fois en un tour, \u00e0 la diff\u00e9rence de l'arbal\u00e9trier, qu'elle remplace.",
+    "historical_info": "La \"Cho-Ko-Nu\" (ou Chu-Ko-Nu) est une arbal\u00e8te \u00e0 r\u00e9p\u00e9tition tr\u00e8s efficace invent\u00e9e en Chine \u00e0 la fin du IIe si\u00e8cle apr. J.-C. Cette arme ressemble \u00e0 peu de choses pr\u00e8s \u00e0 l'arbal\u00e8te standard europ\u00e9enne, mais dispose d'une bo\u00eete fix\u00e9e juste au-dessus de la corde. Cette bo\u00eete \u00e9tait remplie de carreaux. L'arbal\u00e9trier poussait alors sur un levier pour armer la corde puis le tirait pour rel\u00e2cher un carreau, qui se mettait alors en place, pr\u00eat \u00e0 \u00eatre tir\u00e9. La cho-ko-nu disposait d'une cadence de tir bien sup\u00e9rieure aux armes europ\u00e9ennes, mais son carreau \u00e9tait plus l\u00e9ger et sa port\u00e9e moindre. L'efficacit\u00e9 des arbal\u00e8tes europ\u00e9ennes et chinoises d\u00e9pendaient des circonstances : le mod\u00e8le europ\u00e9en l'emportait sur terrain d\u00e9gag\u00e9 contre des adversaires en armure lourde, tandis que la Chu-Ko-Nu \u00e9tait meilleure \u00e0 courte port\u00e9e contre des adversaires multiples et en armure l\u00e9g\u00e8re.",
+    "strategy": "Unit\u00e9 exclusive aux Chinois, le chu-ko-nu remplace l'arbal\u00e9trier. Bien que l\u00e9g\u00e8rement moins puissant que ce dernier, il peut n\u00e9anmoins attaquer deux fois au cours d'un m\u00eame tour, un avantage offensif qui peut s'av\u00e9rer d\u00e9cisif. Cette unit\u00e9 est particuli\u00e8rement redoutable lorsqu'elle est post\u00e9e en garnison dans une ville attaqu\u00e9e.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "M\u00e9canique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Peut attaquer deux fois",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_attack_twice.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Public School",
+    "game_info": "+1 Science for every 2 Citizens in this City.City must have a University.",
+    "strategy": "The Public School is a mid-game building which greatly increases a city's output of Science. The city must have already constructed a university or wat in order to build a Public School.",
+    "historical_info": "A public school provides free pre-university education to a civilization's children. This is a fairly advanced concept. First, the civilization must believe that education is important, and that educating the poor is not a threat to the ruling class. Second, the civilization must be wealthy enough so that the children of the poor do not need to work to fend off starvation. And finally, the civilization must be enlightened enough to be willing to expend some of its public revenue providing the education. Most countries in the world today provide some level of public education for their young. The first American public grade schools opened during the Colonial era. The first public high school was opened in Boston in 1821.",
+    "cost": {
+        "production": 300,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/public_school.png",
+    "prereq_tech": {
+        "name": "Scientific Theory",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 3,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

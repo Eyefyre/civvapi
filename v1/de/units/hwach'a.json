@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "Hwach'a",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hwach'a.png",
+    "game_info": "Personenabwehrraketen-Einheit des Mittelalters. Stark gegen Landeinheiten, aber schwach gegen St\u00e4dte. Nur Korea darf sie bauen. Ersetzt den Tribok.",
+    "historical_info": "Die legend\u00e4re koreanische Anti-Infanteriewaffe Hwach'a stellt einen einzigartigen Entwicklungsschritt der fr\u00fchen Schwarzpulverwaffen dar. Sie wurde im 15. Jahrhundert unter der Leitung von K\u00f6nig Sejong dem Gro\u00dfen entwickelt und bestand aus einem gro\u00dfen zweir\u00e4drigen Wagen, der mit einem wabenf\u00f6rmigen Aufsatz versehen war, heutigen Raketenbatterien nicht un\u00e4hnlich. Darin fanden Hunderte von Pfeilen Platz, die mittels Schwarzpulver verschossen werden konnten. Das geringe Gewicht dieser Fr\u00fchform der Rakete, \"Singijeon\" genannt, verschaffte der Hwach'a einen gro\u00dfen Vorteil gegen\u00fcber traditionellen Kanonen, die viel schwieriger zu bewegen waren. Die Hwach'a erwies sich als ausgezeichnete Waffe zur Verteidigung der koreanischen Halbinsel w\u00e4hrend der japanischen Invasionen des 16. Jahrhunderts.",
+    "strategy": "Die Hwach'a ist extrem effektiv gegen Landeinheiten, aber langsam und verwundbar bei feindlichen Nahkampfangriffen und sollte daher auf dem Schlachtfeld immer durch andere Einheiten unterst\u00fctzt werden. Die Hwach'a muss in Stellung gebracht werden (1 Fortbewegungspunkt), bevor sie angreifen kann.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Physik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Muss f\u00fcr Fernkampf in Stellung gehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/must_set_up_to_ranged_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": 61,
+    "name": "Penicilina",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/penicillin.png",
+    "era": "Era At\u00f3mica",
+    "cost": 5100,
+    "civilopedia_entry": "La penicilina constituye un grupo de antibi\u00f3ticos derivados de ciertos hongos. Los antibi\u00f3ticos combaten y destruyen las bacterias, formas de vida diminutas, algunas de las cuales (peste, s\u00edfilis o lepra, por citar solo tres) resultan muy perjudiciales para la salud y el bienestar humanos. Se cree que el uso primitivo de la penicilina se remonta a la Edad Media, cuando se empleaba pan mohoso para tratar las heridas purulentas. El descubrimiento cient\u00edfico de la penicilina se atribuye a Alexander Fleming, en 1928, y su primer uso m\u00e9dico oficial, a Cecil George Paine, dos a\u00f1os despu\u00e9s. A medida que su utilizaci\u00f3n se ha extendido, algunas bacterias se han vuelto inmunes a la penicilina, y ha habido que inventar un amplio espectro de otros antibi\u00f3ticos para combatir estas cepas resistentes a los f\u00e1rmacos. Aun as\u00ed, la penicilina y sus herederos siguen siendo armas importantes en la eterna batalla del m\u00e9dico contra la amenaza mortal de las bacterias.",
+    "quote": "\"Los hombres en nada se aproximan tanto a los dioses como en proporcionar seguridad y bienestar a sus conciudadanos.\" - Cicer\u00f3n",
+    "tech_prereqs": [
+        {
+            "name": "Refrigeraci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+        },
+        {
+            "name": "Pl\u00e1stico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/plastics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ecolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Marine|Marines",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/marine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratorio m\u00e9dico|Laboratorio m\u00e9dico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/medical_lab.json"
+        }
+    ]
+}

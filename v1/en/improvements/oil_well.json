@@ -1,0 +1,30 @@
+{
+    "id": 13,
+    "name": "Oil Well",
+    "game_info": "The dry-land version of the offshore platform, a well is a late-game improvement which provides access to the crucially-important oil resource.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/oil_well.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Biology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/biology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

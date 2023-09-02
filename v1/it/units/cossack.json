@@ -1,0 +1,35 @@
+{
+    "id": 43,
+    "name": "Cosacco|un Cosacco|dal tuo Cosacco|al tuo Cosacco|il tuo Cosacco|da un Cosacco",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cossack.png",
+    "game_info": "Unit\u00e0 a cavallo in grado di affrontare alla pari le unit\u00e0 di fanteria sue contemporanee.Solo i russi possono costruirla. Ottiene un bonus al combattimento quando combatte unit\u00e0 nemiche che hanno gi\u00e0 subito danni.",
+    "historical_info": "I Cosacchi costituivano comunit\u00e0 militari che vivevano nelle steppe dell'Ucraina e della Russia. In origine il termine si riferiva specificatamente a trib\u00f9 di Tartari, ma gi\u00e0 alla fine del XV secolo poteva indicare gruppi di contadini che a Mosca, in Polonia e in Lituania erano fuggiti dalla servit\u00f9 e si erano stabiliti nella steppa. I Cosacchi erano per natura cavalieri provetti, quali forse il mondo non aveva mai visto dal tempo dei Mongoli. In cambio di privilegi speciali per s\u00e9 e per le loro comunit\u00e0 cominciarono a servire nell'esercito russo. Fino al XX secolo la Russia utilizz\u00f2 la cavalleria cosacca in tutti i maggiori conflitti interni ed esteri. Durante la guerra civile russa unit\u00e0 di Cosacchi combatterono in entrambi gli schieramenti. Lo stalinismo ne fece piazza pulita, ma dopo il crollo dell'Unione Sovietica alcuni sopravvissuti hanno cercato di recuperare il loro vecchio retaggio.",
+    "strategy": "Il Cosacco \u00e8 un'unit\u00e0 esclusiva dei russi e sostituisce la Cavalleria. \u00c8 potente quanto la Cavalleria e anch'esso pu\u00f2 muoversi dopo aver attaccato. Tuttavia, un Cosacco ottiene un forte bonus al combattimento quando combatte contro un'unit\u00e0 ferita. Questo lo rende estremamente utile per i contrattacchi: lascia che i tuoi nemici spazzino via i peoni che hai messo in prima fila, poi fai a pezzi le loro truppe indebolite con una carica di Cosacchi!",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Scienza militare|della Scienza militare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Bonus contro nemici feriti (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/damaged_enemy_bonus_(33).json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

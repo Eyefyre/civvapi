@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Grabst\u00e4tte",
+    "game_info": "Ben\u00f6tigt keinen Gold-Unterhalt.Bei Eroberung dieser Stadt wird das gepl\u00fcnderte Gold des Feindes verdoppelt.",
+    "strategy": "Die Grabst\u00e4tte ist ein Geb\u00e4ude der Klassik, das die Zufriedenheit einer Stadt erh\u00f6ht und diese keinen Unterhalt kostet. Wenn die Stadt eingenommen wird, erh\u00e4lt der Eroberer jedoch doppelt so viel Gold wie in einer Stadt ohne Grabst\u00e4tte. Sie ersetzt den Tempel.",
+    "historical_info": "Die \u00c4gypter haben den Ahnenkult in bis dahin ungeahnte und danach nie wieder erreichte H\u00f6hen getrieben. Ein gro\u00dfer Teil des Wohlstands und der kreativen Energie ihrer Zivilisation wurde in Grabst\u00e4tten f\u00fcr ihre Verstorbenen investiert. Viele dieser Gr\u00e4ber befinden sich im Tal der K\u00f6nige, das bei Theben am Nil liegt. In diese Gr\u00e4ber wurden oft Besitzt\u00fcmer der Verstorbenen als Beigaben gelegt, was sie zu einem beliebten Ziel f\u00fcr Grabr\u00e4uber quer durch die Geschichte macht.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/grabst\u00e4tte.png",
+    "prereq_tech": {
+        "name": "Philosophie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": 4,
+    "name": "G\u00e9nie artistique",
+    "game_info": "G\u00e9nie artistiqueApparition d'un artiste illustre.",
+    "historical_info": "Un g\u00e9nie artistique est une personne qui poss\u00e8de suffisamment de cr\u00e9ativit\u00e9, d'originalit\u00e9 et d'aptitudes pour int\u00e9grer le Beau dans toute forme d'art. Le g\u00e9nie artistique peut \u00e9galement s'appliquer \u00e0 des performances telles que la chor\u00e9graphie, l'orchestration ou le th\u00e9\u00e2tre. L'histoire de la civilisation est parsem\u00e9e de g\u00e9nies litt\u00e9raires, artistiques et d'interpr\u00e9tation, souvent caract\u00e9riels, mais toujours brillants dans leur domaine.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/g\u00e9nie_artistique.png",
+    "required_policies": [
+        {
+            "name": "Beaux-arts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Esth\u00e9tique",
+        "game_info": "L'esth\u00e9tique am\u00e9liore l'efficacit\u00e9 avec laquelle la civilisation g\u00e9n\u00e8re de la culture. Adopter l'esth\u00e9tique acc\u00e9l\u00e8re la vitesse de g\u00e9n\u00e9ration d'artistes, de musiciens et d'\u00e9crivains illustres de 25%, et d\u00e9bloque la Galerie des Offices. En adoptant toutes les doctrines, vous doublez le bonus th\u00e9matique des mus\u00e9es et des merveilles. Permet \u00e9galement d'acheter des artistes, musiciens et \u00e9crivains illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": "\u00c8re classique",
+        "historical_info": "L'esth\u00e9tique est la philosophie de la nature de l'art et du go\u00fbt\u00a0; elle s'int\u00e9resse \u00e0 la cr\u00e9ation et \u00e0 l'appr\u00e9ciation des oeuvres artistiques. L'esth\u00e9tique ne se concentre pas sur la fonctionnalit\u00e9 ou l'utilit\u00e9 d'un objet, mais seulement sur la beaut\u00e9 de sa forme, de sa couleur, de son contraste et de ses autres aspects artistiques."
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 57,
+    "name": "Naresuan's Elephant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/naresuan's_elephant.png",
+    "game_info": "Powerful Medieval Mounted Unit, weak to Pikemen. Only the Siamese may build it. This Unit receives a bonus against other mounted Units and has a higher Combat Strength than the Knight, which it replaces.",
+    "historical_info": "In Southeast Asia elephants continued to be employed in warfare far into the Middle Ages. In Siam, particularly, war elephants were highly prized, and leaders often fought from atop them. In 1593 a war between Burma and Siam ended in a Siamese victory when Siamese King Naresuan killed Burmese crown prince Minchit Sra in single combat atop elephants.",
+    "strategy": "This is the Siamese unique unit, replacing the Knight. The Naresuan's Elephant unit is slower than a Knight but it is more powerful. Like the Knight the Naresuan's Elephant can move after attacking. Equipped with spears, the Elephant gets a significant combat bonus when attacking other mounted units.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

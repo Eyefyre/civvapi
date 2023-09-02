@@ -1,0 +1,51 @@
+{
+    "id": 2,
+    "name": "Jungle",
+    "historical_info": "Sombre, peu accueillante et impardonnable envers le profane, la jungle est une grande source de nourriture pour qui peut et sait y vivre. Cependant, elle ne fournit que tr\u00e8s peu de mat\u00e9riaux, et une civilisation en d\u00e9veloppement peut \u00eatre tent\u00e9e d'y creuser des mines ou d'en faire une terre cultivable. Les unit\u00e9s militaires qui y sont en poste re\u00e7oivent un bonus d\u00e9fensif cons\u00e9quent.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jungle.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": -1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        },
+        {
+            "name": "Bananes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bananas.json"
+        },
+        {
+            "name": "Pierres pr\u00e9cieuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+        },
+        {
+            "name": "Teintures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/dyes.json"
+        },
+        {
+            "name": "\u00c9pices",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/spices.json"
+        },
+        {
+            "name": "Truffe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/truffles.json"
+        },
+        {
+            "name": "Cacao",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cocoa.json"
+        }
+    ]
+}

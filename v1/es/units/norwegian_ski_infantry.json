@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Infanter\u00eda de Monta\u00f1a Noruega|Infanter\u00edas de Monta\u00f1a Noruegas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Una fuerte unidad terrestre de primera l\u00ednea y de mediados del juego que est\u00e1 especializada en operaciones en la Nieve, la Tundra y las Colinas. Solo la puede construir en Dinamarca. Sustituye al Fusilero.",
+    "historical_info": "Durante las guerras napole\u00f3nicas de 1807-1814, Dinamarca utiliz\u00f3 mucho esta infanter\u00eda contra Suecia. Comparables en velocidad a la caballer\u00eda ligera, estos soldados eran capaces de cruzar las laderas de las monta\u00f1as y los campos nevados mucho m\u00e1s r\u00e1pido que nadie a pie o a caballo. Adem\u00e1s de ser capaz de sortear eficazmente terreno rocoso y boscoso, tambi\u00e9n se us\u00f3 esta infanter\u00eda de esquiadores para transportar carros de provisiones o incluso otros cuerpos de soldados, ya que la falta de carreteras y la profundad de la nieve dificultaba el transporte tradicional a caballo. Su historial de servicios se remonta al siglo XIII, aproximadamente.Hoy en d\u00eda, la armada danesa los utiliza para patrullar grandes extensiones de la Groenlandia septentrional y oriental, zonas demasiado impracticables para casi todos los dem\u00e1s medios de transporte. En Noruega, todos los soldados del ej\u00e9rcito siguen entren\u00e1ndose en el arte del combate con esqu\u00edes, y el deporte del biatl\u00f3n est\u00e1 inspirado en su entrenamiento militar y sus rutas de patrulla.",
+    "strategy": "La Infanter\u00eda de Monta\u00f1a Noruega es una de las dos unidades exclusivas danesas y sustituye al Fusilero. Esta unidad se mueve por casillas de Nieve, Tundra y Colinas al doble de velocidad, y cuenta con una bonificaci\u00f3n de 25% al combate en ellas si no hay Bosque ni Selva.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonif. en Nieve, Tundra y Colina.",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

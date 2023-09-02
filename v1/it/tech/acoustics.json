@@ -1,0 +1,40 @@
+{
+    "id": 33,
+    "name": "Acustica|dell'Acustica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/acoustics.png",
+    "era": "Epoca rinascimentale",
+    "cost": 780,
+    "civilopedia_entry": "L'acustica \u00e8 lo studio del suono. Il suono \u00e8 composto da vibrazioni trasmesse attraverso gas, liquidi e solidi. L'aspetto pi\u00f9 importante dell'acustica, naturalmente, \u00e8 che le persone possono \"sentire\" i suoni: in effetti gran parte della ricerca si concentra sul miglioramento della percezione umana, in particolare quella dei sordi. L'acustica, comunque, ha anche molte altre applicazioni, tra cui il sonar. La tecnologia sonar permette a un dispositivo di percepire sommergibili, animali e formazioni geologiche.Dato che l'acustica richiede l'esistenza di un mezzo in grado di trasmettere le vibrazioni, il suono non si propaga nel vuoto dello spazio. L'affermazione secondo cui \"nello spazio nessuno pu\u00f2 sentirvi urlare\" \u00e8 inquietante ma vera.",
+    "quote": "\"Quando si levarono tutti insieme, il suono fu come un tuono che rimbomba lontano.\" - Milton",
+    "tech_prereqs": [
+        {
+            "name": "Educazione|dell'Educazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architettura|dell'Architettura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/architecture.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Teatro dell'Opera|il Teatro dell'Opera|un Teatro dell'Opera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/opera_house.json"
+        },
+        {
+            "name": "Cappella Sistina|la Cappella Sistina|la Cappella Sistina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/sistine_chapel.json"
+        },
+        {
+            "name": "Sala da Ceilidh|la Sala da Ceilidh|una Sala da Ceilidh",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/ceilidh_hall.json"
+        },
+        {
+            "name": "Gilda dei Musicisti|la Gilda dei Musicisti|una Gilda dei Musicisti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/musicians'_guild.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "name": "Ametralladora|Ametralladoras",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/machine_gun.png",
+    "game_info": "Una unidad de combate a distancia del juego tard\u00edo que debe encontrarse adyacente a un enemigo para atacar.",
+    "historical_info": "Los soldados emplean potentes armas de fuego autom\u00e1ticas capaces de realizar un fuego intenso de supresi\u00f3n, emitiendo varios cientos de balas por minuto. La ametralladora Gatling, predecesora de muchos modelos de ametralladoras actuales, fue inventada en Estados Unidos durante el siglo XIX. M\u00e1s tarde se desarroll\u00f3 este dise\u00f1o y apareci\u00f3 la ametralladora Maxim, la primera autom\u00e1tica.",
+    "strategy": "La Ametralladora es la pen\u00faltima unidad de ataque a distancia que no es de asedio. Es m\u00e1s potente que las primeras unidades de ataque a distancia. Al igual que la Ametralladora Gatling, solo tiene una casilla de alcance, pero aun as\u00ed puede infligir da\u00f1os importantes a otras unidades y salir ilesa. Es vulnerable a los ataques cuerpo a cuerpo. Pon Ametralladoras en tu ciudad para defenderla.",
+    "movement": 2,
+    "cost": {
+        "production": 350,
+        "faith": 700
+    },
+    "prereq_tech": {
+        "name": "Misiles bal\u00edsticos",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Misionero|Misioneros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Se usa para difundir una religi\u00f3n en las ciudades. \u00danicamente se puede conseguir adquiri\u00e9ndolo con Fe .",
+    "historical_info": "Los misioneros son miembros de un grupo religioso o de una secta que son enviados al extranjero para propagar el mensaje de su religi\u00f3n. Aunque su misi\u00f3n principal consiste en compartir su filosof\u00eda religiosa y conseguir nuevos adeptos, tambi\u00e9n suelen ofrecer otros servicios beneficiosos en las zonas que visitan, ayudando a los necesitados a trav\u00e9s de la fundaci\u00f3n de hospitales, escuelas y otros programas de bienestar social.",
+    "strategy": "Se puede adquirir con Fe en cualquier ciudad con una religi\u00f3n mayoritaria. Cuando se encuentra adyacente a una ciudad, puede propagar su religi\u00f3n por ella (lo que consume al Misionero despu\u00e9s de usarlo para ello dos veces). Si un Misionero entra en otra civilizaci\u00f3n sin una Apertura de Fronteras, su Fuerza religiosa se reduce en 1 cada turno. Cuando llegue a cero, el Misionero ser\u00e1 destruido.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Puede entrar en territorio enemigo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Evangelista intruso",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

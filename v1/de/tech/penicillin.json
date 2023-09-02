@@ -1,0 +1,37 @@
+{
+    "id": 61,
+    "name": "Penicillin",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/penicillin.png",
+    "era": "Atomzeitalter",
+    "cost": 5100,
+    "civilopedia_entry": "Penicillin bezeichnet eine Gruppe von Antibiotika, die aus einem bestimmten Pilz gewonnen werden. Antibiotika bek\u00e4mpfen und t\u00f6ten Bakterien, kleine Lebewesen, von denen einige - z. B. Pest, Syphilis oder Lepra, um nur drei zu nennen - \u00fcberaus sch\u00e4dlich f\u00fcrs menschliche Leben sind. Es wird angenommen, dass primitive Formen von Penicillin bereits im Mittelalter genutzt wurden, als man eiternde Wunden mit schimmligem Brot versorgte. Die wissenschaftliche Entdeckung des Antibiotikums geht auf Alexander Fleming im Jahr 1928 zur\u00fcck, w\u00e4hrend die erste offizielle medizinische Anwendung zwei Jahre sp\u00e4ter durch den Pathologen Cecil George Paine vorgenommen wurde. Durch die h\u00e4ufige Verwendung haben einige Bakterien jedoch eine Resistenz gegen Penicillin entwickelt, und so wurden etliche weitere Antibiotika erfunden, um die neuen resistenten Kulturen zu bek\u00e4mpfen. Trotzdem bleiben Penicillin und seine Nachfahren eine wichtige Waffe im medizinischen Kampf gegen die t\u00f6dliche Bedrohung durch Bakterien.",
+    "quote": "\"Die Menschen kommen durch nichts den G\u00f6ttern n\u00e4her, als wenn sie Menschen gl\u00fccklich machen.\" - Cicero",
+    "tech_prereqs": [
+        {
+            "name": "K\u00fchltechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+        },
+        {
+            "name": "Plastik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u00d6kologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Marine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/marine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Medizinisches Labor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/medical_lab.json"
+        }
+    ]
+}

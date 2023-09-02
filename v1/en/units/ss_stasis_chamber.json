@@ -1,0 +1,18 @@
+{
+    "id": 4,
+    "name": "SS Stasis Chamber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_stasis_chamber.png",
+    "game_info": "One of the Spaceship parts that must be built and sent to the capital to win a Science Victory.",
+    "historical_info": "The Alpha Centauri spaceship will carry over 3000 colonists plus a variety of plants and animals. Carrying enough food, water and oxygen for that many people for a trip of many years is impossible, even with close to 100% recycling of waste products. Instead, the colonists will make the journey in \"cold sleep,\" which reduces their need for oxygen and nutrients to a fraction of what they would need if awake and active. Aging is slowed somewhat by this process but not halted, and the colonists will emerge some two years older biologically for each decade that passes in flight.",
+    "strategy": "This unit is part of the spaceship which must be constructed to win a science victory. See the section on Victory for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nanotechnology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nanotechnology.json"
+    },
+    "free_promotions": []
+}

@@ -1,0 +1,18 @@
+{
+    "id": 48,
+    "name": "Musketman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketman.png",
+    "game_info": "First gunpowder Unit of the game. Fairly cheap and powerful.",
+    "historical_info": "The musket is a flintlock, muzzle-loading, long-barreled weapon which is fired from the shoulder. Muskets were lighter and more accurate than the earlier military firearm, the arquebus, and by the 18th century they had supplanted them on most European battlefields. With the addition of a bayonet the musket became a serviceable close-combat weapon as well, rendering the pikeman obsolete. The British army's \"Brown Bess\" was the archetypical musket, in service from 1722 until 1838; it was used by both sides in the American Revolution.",
+    "strategy": "The Musketman is the first gunpowder unit in the game, and it replaces all of the older foot-soldier types - Longswordsmen, Pikemen, and the like. It is not a ranged unit, however, and cannot attack an enemy that is more than one hex away.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Gunpowder",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

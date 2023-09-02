@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "\u017bo\u0142nierze piechoty morskiej|\u017bo\u0142nierzy piechoty morskiej|\u017bo\u0142nierzom piechoty morskiej|\u017bo\u0142nierzy piechoty morskiej",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Jednostka epoki atomowej, u\u017cyteczna przy okr\u0119towaniu oraz inwazjach zamorskich.",
+    "historical_info": "Cho\u0107 w pocz\u0105tkowym zamy\u015ble piechota morska mia\u0142a specjalizowa\u0107 si\u0119 jedynie w atakach z morza, jej hart i niez\u0142omno\u015b\u0107 sprawi\u0142y, \u017ce wkr\u00f3tce zacz\u0119\u0142a ona sprawowa\u0107 inne wa\u017cne role. Szerokie mo\u017cliwo\u015bci tej formacji sprawiaj\u0105, \u017ce w bliskiej wsp\u00f3\u0142pracy z marynark\u0105 piechota morska od dziesi\u0119cioleci wykorzystywana jest w konfliktach na ca\u0142ym \u015bwiecie.",
+    "strategy": "\u017bo\u0142nierz piechoty morskiej to alternatywa dla piechoty. Kosztuje nieco wi\u0119cej ni\u017c piechota, lecz posiada awanse, kt\u00f3re ulepszaj\u0105 jego zasi\u0119g widzenia oraz si\u0142\u0119 ataku, gdy jest zaokr\u0119towany na morzu.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Penicylina|Penicyliny|Penicylinie|Penicylin\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Desant",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/amphibious.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia, b\u0119d\u0105c na wodzie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "Zaokr\u0119towanie z obron\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

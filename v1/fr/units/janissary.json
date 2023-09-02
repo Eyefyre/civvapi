@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Janissaire|Janissaires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "L'une des premi\u00e8res unit\u00e9s du jeu \u00e0 utiliser la poudre \u00e0 canon. Le janissaire est exclusif aux Ottomans. Il est plus puissant que l'arquebusier, qu'il remplace, et se soigne lorsqu'il \u00e9limine un ennemi.",
+    "historical_info": "Les janissaires faisaient partie d'un corps d'\u00e9lite de l'Empire ottoman. Apparus \u00e0 la fin du XIVe si\u00e8cle, les premiers janissaires \u00e9taient de jeunes chr\u00e9tiens (souvent esclaves des Balkans) convertis \u00e0 l'Islam puis enr\u00f4l\u00e9s dans l'arm\u00e9e ottomane. Au d\u00e9part, les janissaires \u00e9taient oblig\u00e9s de garder le c\u00e9libat (ce qui pourrait expliquer leur fureur au combat), mais cette contrainte disparut par la suite. Au fil des ann\u00e9es, les janissaires d\u00e9velopp\u00e8rent une grande influence politique au sein de l'Empire et organis\u00e8rent de fr\u00e9quents coups d'\u00c9tat aux XVIIe et XVIIIe si\u00e8cles. Mais au fur et \u00e0 mesure que leur influence grandissait, ils devinrent r\u00e9calcitrants et traditionnalistes, refusant d'utiliser des armes ou des tactiques plus modernes pour s'adapter au reste du monde. En 1826, ce corps d'arm\u00e9e fut dissous par la force et remplac\u00e9 par des troupes ottomanes modernes.",
+    "strategy": "Unit\u00e9 exclusive des Ottomans, le janissaire remplace l'arquebusier et re\u00e7oit un important bonus au combat lorsqu'il attaque. De plus, il se r\u00e9g\u00e9n\u00e8re int\u00e9gralement apr\u00e8s avoir vaincu une unit\u00e9 non barbare. Ces avantages donnent \u00e0 une arm\u00e9e de janissaires un ascendant d\u00e9cisif contre des troupes ennemies post\u00e9es en d\u00e9fense.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Poudre \u00e0 canon",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unit\u00e9 ennemie tu\u00e9e\u00a0: +50 PV",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Bonus d'attaque (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

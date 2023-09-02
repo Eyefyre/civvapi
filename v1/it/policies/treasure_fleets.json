@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Flotte del tesoro",
+    "game_info": "Flotte del tesoro+4 Oro da tutte le Rotte commerciali marittime.",
+    "historical_info": "In diversi periodi storici le nazioni che dovevano trasportare grandi quantit\u00e0 di tesori o beni hanno fatto ricorso a convogli per aumentare la probabilit\u00e0 che il carico arrivasse effettivamente a destinazione. La pi\u00f9 famosa \u00e8 la flotta del tesoro spagnola che dal 1566 al 1790 salpava ogni anno per portare oro, argento, spezie, tabacco, perle e altre ricchezze dalle Indie Occidentali ai porti spagnoli in Europa. Il saccheggio dell'Avana da parte dei corsari francesi e gli attacchi dei bucanieri inglesi contro singoli galeoni spinsero la Spagna a istituire dei convogli tra il Nuovo Mondo e l'Europa. Oggi i mari sono relativamente sicuri, ma in tempo di guerra le nazioni marittime organizzano ancora dei convogli per aumentare la probabilit\u00e0 che le navi da trasporto arrivino intatte.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/flotte_del_tesoro.png",
+    "required_policies": [
+        {
+            "name": "Flotta mercantile",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/merchant_navy.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Esplorazione",
+        "game_info": "L'Esplorazione migliora la tua capacit\u00e0 di espandere l'impero oltremare.Adottare l'Esplorazione aggiunge +1 al [ICON_MOVES] movimento di tutte le unit\u00e0 navali e +1 al raggio di visione delle unit\u00e0 navali da combattimento. Sblocca la costruzione del Louvre.Adottarne tutte le politiche ti permette di vedere i Siti Archeologici Nascosti sulla mappa; inoltre consente l'acquisto di Grandi Ammiragli in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca medievale",
+        "historical_info": "Da quando i primi uomini si sono insediati in un luogo fisso, ci sono sempre state persone spinte a guardare al di l\u00e0 dell'orizzonte. Motivati da profitto, avventura, religione, necessit\u00e0 o solo dalla curiosit\u00e0, gli esploratori hanno ampliato la nostra conoscenza del mondo e delle sue meraviglie. Le esplorazioni hanno messo in contatto culture diverse e lontane, nel bene e nel male. I grandi esploratori, dal cartaginese Hanno all'ammiraglio cinese Wang Dayuan, dall'inglese Sir Richard Burton a migliaia di altri, hanno guidato l'espansione della civilt\u00e0 e dato forma alla storia."
+    }
+}

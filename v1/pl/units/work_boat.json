@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Kuter|Kutra|Kutrowi|Kuter|Kutrem|Kutrze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Tworzy ulepszenia zasob\u00f3w wodnych, takich jak ryby. W wyniku tego dzia\u0142ania kuter znika. Jednostka jest bezbronna, dlatego zostanie zniszczona w wypadku kontaktu z wrogiem.",
+    "historical_info": "Morze jest w stanie zapewni\u0107 cywilizacji bardzo wiele, od protein w produktach rybnych do energii \u2013 z wieloryb\u00f3w lub ropy. W ci\u0105gu ca\u0142ej historii ludzko\u015bci odwa\u017cni m\u0119\u017cczy\u017ani i kobiety wyp\u0142ywali w morze \u0142\u00f3dkami, by zbiera\u0107 jego skarby. Niew\u0105tpliwie b\u0119d\u0105 robi\u0107 to do sko\u0144czenia \u015bwiata, \u201ekiedy morze zobaczy sw\u00f3j kres\u201d.",
+    "strategy": "T\u0119 jednostk\u0119 mo\u017cna budowa\u0107 tylko w miastach na wybrze\u017cu. Kutry s\u0142u\u017c\u0105 do usprawniania wydobycia surowc\u00f3w wodnych \u2013 ryb, wieloryb\u00f3w, ropy, itp. W wyniku tej czynno\u015bci jednostka jest tracona. Kutry nie mog\u0105 atakowa\u0107 i zanim nie zostanie wynaleziona astronomia, nie wp\u0142ywaj\u0105 na pola oceanu.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Wymagana astronomia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/astronomy_needed.json"
+        }
+    ]
+}

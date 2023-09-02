@@ -1,0 +1,63 @@
+{
+    "id": 1,
+    "name": "Agriculture",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/agriculture.png",
+    "era": "Antiquit\u00e9",
+    "cost": 20,
+    "civilopedia_entry": "L'agriculture regroupe l'ensemble des travaux transformant le milieu naturel pour la production des v\u00e9g\u00e9taux et des animaux utiles \u00e0 l'homme : nourriture, v\u00eatements, constructions, m\u00e9dicaments, produits de divertissement, et bien d'autres choses encore. Il est fort probable que la culture de produits agricoles se soit d\u00e9velopp\u00e9e \u00e0 divers endroits de fa\u00e7on totalement ind\u00e9pendante. La preuve d'exploitation agricole la plus ancienne dont nous disposions date de la fin de l'\u00e8re glaci\u00e8re, soit il y a pr\u00e8s de 11 000 ans. Il est int\u00e9ressant de noter que contrairement \u00e0 ce que nous pourrions croire, l'agriculture n'aurait pas \u00e9t\u00e9 invent\u00e9e par des chasseurs-cueilleurs affam\u00e9s, mais plus probablement par des chasseurs-cueilleurs prosp\u00e8res qui poss\u00e9daient d\u00e9j\u00e0 suffisamment de vivres. Cela n'est pas si surprenant : les peuples b\u00e9n\u00e9ficiant d'un surplus de nourriture sont plus \u00e0 m\u00eame d'exp\u00e9rimenter de nouvelles technologies, craignant moins de subir les cons\u00e9quences de potentiels \u00e9checs ; alors que ceux qui sont accabl\u00e9s par la famine vont se concentrer sur des m\u00e9thodes s\u00fbres et \u00e9prouv\u00e9es de r\u00e9colte de nourriture.\u00c0 ses d\u00e9buts, l'agriculture employait des proc\u00e9d\u00e9s lents et cycliques. On semait des graines au printemps, puis on s'occupait des champs jusqu'\u00e0 ce que les denr\u00e9es soient pr\u00eates \u00e0 \u00eatre r\u00e9colt\u00e9es (parfois plusieurs mois durant). Comme tr\u00e8s peu de lieux poss\u00e8dent un climat propice \u00e0 une production agricole bas\u00e9e sur des cycles annuels, les agriculteurs devaient pouvoir soit entreposer la nourriture en pr\u00e9vision des difficiles mois d'hiver, soit \u00e9changer le fruit de leurs r\u00e9coltes avec les producteurs capables d'obtenir de la nourriture toute l'ann\u00e9e (gr\u00e2ce, notamment, \u00e0 la chasse et \u00e0 la p\u00eache). Les agriculteurs ont toujours \u00e9t\u00e9 \u00e0 la merci de la nature et du temps : il suffisait qu'il ne pleuve pas pendant un an ou que des nuisibles d\u00e9vorent les r\u00e9coltes, pour qu'une famille meure purement et simplement de faim.L'agriculture moderne (l'agro-industrie) est une science complexe et contraignante impliquant manipulations g\u00e9n\u00e9tiques, engrais et insecticides \u00e9labor\u00e9s, ainsi que des syst\u00e8mes d'irrigation informatis\u00e9e et de r\u00e9coltes robotis\u00e9es. Les derni\u00e8res avanc\u00e9es en la mati\u00e8re ont augment\u00e9 la production de nourriture moyenne au m\u00e8tre carr\u00e9 \u00e0 un point tel que certains pays (notamment les \u00c9tats-Unis) souffrent parfois, non de famine, mais d'un exc\u00e8s de nourriture. En plus d'une dangereuse et croissante ob\u00e9sit\u00e9, cette surabondance provoque une baisse des prix qui menace directement les conditions de vie des agriculteurs qui produisent tous ces vivres.",
+    "quote": "\"Lorsque le labourage commence, les autres arts suivent. Les fermiers, par cons\u00e9quent, sont les fondateurs de la civilisation.\" - Daniel Webster",
+    "tech_prereqs": [],
+    "tech_unlocks": [
+        {
+            "name": "Poterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/pottery.json"
+        },
+        {
+            "name": "\u00c9levage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tir \u00e0 l'arc",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archery.json"
+        },
+        {
+            "name": "Exploitation mini\u00e8re",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mining.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Colon|Colons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/settler.json"
+        },
+        {
+            "name": "Ouvrier|Ouvriers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/worker.json"
+        },
+        {
+            "name": "\u00c9claireur|\u00c9claireurs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/scout.json"
+        },
+        {
+            "name": "Guerrier|Guerriers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/warrior.json"
+        },
+        {
+            "name": "Jaguar|Jaguars",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/jaguar.json"
+        },
+        {
+            "name": "Guerrier maori|Guerriers maori",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/maori_warrior.json"
+        },
+        {
+            "name": "Propulseur|Propulseurs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/atlatlist.json"
+        },
+        {
+            "name": "D\u00e9fricheur|D\u00e9fricheurs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/pathfinder.json"
+        }
+    ],
+    "building_unlocks": []
+}

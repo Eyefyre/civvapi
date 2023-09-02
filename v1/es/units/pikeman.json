@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Piquero|Piqueros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Est\u00e1 especializado en acabar con Caballeros y otras unidades montadas.",
+    "historical_info": "El piquero es un lancero mejor entrenado y protegido que va pertrechado con un arma m\u00e1s larga y afilada. A diferencia de la lanza, m\u00e1s corta y ligera, una pica casi siempre se ha de usar con ambas manos. Hist\u00f3ricamente, los piqueros son m\u00e1s eficaces contra la dem\u00e1s infanter\u00eda y la caballer\u00eda, pero, como carec\u00edan de escudos, eran muy vulnerables a los ataques de los arqueros.",
+    "strategy": "El Piquero es un Lancero m\u00e1s poderoso. Recibe una bonificaci\u00f3n cuando lucha contra unidades montadas, lo que lo convierte casi en la \u00fanica unidad con alguna posibilidad de hacer frente a un Caballero desbocado. Un Piquero fortificado en un terreno defensivo es la peor pesadilla de un Caballero.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Administraci\u00f3n p\u00fablica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

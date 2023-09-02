@@ -1,0 +1,23 @@
+{
+    "id": 90,
+    "name": "Wojownicy Maori|Wojownik\u00f3w Maori|Wojownikom Maori|Wojownik\u00f3w Maori",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/maori_warrior.png",
+    "game_info": "Jednostka ery staro\u017cytnej, kt\u00f3ra sieje strach w sercach przeciwnik\u00f3w, czyni\u0105c ich mniej skutecznymi w walce. Tylko Polinezja mo\u017ce j\u0105 produkowa\u0107. Zast\u0119puje wojownik\u00f3w.",
+    "historical_info": "Maori byli jednymi z najstraszniejszych wojownik\u00f3w ca\u0142ej Polinezji. Malowali oni swoje twarze skomplikowanymi i przera\u017caj\u0105cymi tatua\u017cami, kt\u00f3re opisywa\u0142y ich wielkie dokonania w boju. Przed w\u0142a\u015bciwym rozpocz\u0119ciem walki obie strony wykonywa\u0142y taniec Haka, kt\u00f3ry mia\u0142 stanowi\u0107 pantomim\u0119 losu czekaj\u0105cego ich pokonanych wrog\u00f3w. Liczono na to, \u017ce sam taniec zniech\u0119ci przeciwnik\u00f3w do tego stopnia, \u017ce zaniechaj\u0105 walki i przyznaj\u0105 swoj\u0105 przegran\u0105 bez niepotrzebnej straty czasu i krwi po obu stronach.Maori byli te\u017c dobrze znani z kanibalistycznych praktyk. Zabici przeciwnicy byli zjadani w celu przechwycenia ich si\u0142y i ducha walki. By\u0142 to nie tylko jedyny spos\u00f3b na zdobycie cennych protein na wyspie, ale te\u017c wyraz g\u0142\u0119bokiego szacunku dla pokonanych wojownik\u00f3w.",
+    "strategy": "Zdolno\u015bci wojownik\u00f3w Maori i wielkiego genera\u0142a s\u0105 do siebie podobne, wojownicy jednak, zamiast zwi\u0119ksza\u0107 si\u0142\u0119 przyjacielskich jednostek, zmniejszaj\u0105 si\u0142\u0119 pobliskich oddzia\u0142\u00f3w przeciwnika. Warto wyprodukowa\u0107 wiele takich jednostek na pocz\u0105tku rozgrywki, poniewa\u017c ich awans nie anuluje pocz\u0105tkowych zdolno\u015bci.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Taniec wojenny Haka",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/haka_war_dance.json"
+        }
+    ]
+}

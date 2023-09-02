@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Gran galeaza|Grandes galeazas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "Una unidad naval de la \u00c9poca Medieval brutalmente poderosa capaz de dominar los mares con su ataque a distancia. Es mejor atacando y defendiendo que la Galeaza a la que sustituye, pero es m\u00e1s cara. Solo la puede construir Venecia.",
+    "historical_info": "El dise\u00f1o original de la galeaza evolucion\u00f3 a partir del de las grandes galeras mercantes y permaneci\u00f3 pr\u00e1cticamente inalterado hasta el a\u00f1o 1660, cuando Venecia construy\u00f3 su primer nav\u00edo de l\u00ednea. Sol\u00eda contar con tres m\u00e1stiles de velas latinas y ten\u00eda un caracter\u00edstico castillo de popa y otro de proa. Estas naves de guerra venecianas llevaban m\u00e1s velas y remos que una galera normal para aumentar su velocidad y una cubierta de bater\u00eda por encima de la cabeza de los remeros. En el Mediterr\u00e1neo, la galeaza veneciana sigui\u00f3 en servicio mucho despu\u00e9s de haber sido superada por naves m\u00e1s grandes, resistentes y marineras de otras naciones.",
+    "strategy": "La Gran galeaza sustituye a la Galeaza y solo la pueden construir los venecianos. Tiene un ataque a distancia m\u00e1s potente, resiste m\u00e1s en combate y cuesta m\u00e1s que la Galeaza b\u00e1sica.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Br\u00fajula",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

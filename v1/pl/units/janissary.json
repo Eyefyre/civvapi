@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Janczarzy|Janczar\u00f3w|Janczarom|Janczar\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "Jedna z pierwszych jednostek z broni\u0105 paln\u0105. Mog\u0105 j\u0105 stworzy\u0107 tylko Osmanie. Jest silniejsza w ofensywie i leczy si\u0119, gdy zniszczy jednostk\u0119 wroga, w przeciwie\u0144stwie do arkebuzer\u00f3w, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Janczarzy byli elitarn\u0105 formacj\u0105 osma\u0144skich si\u0142 zbrojnych. Powstali pod koniec XIV wieku. Pierwotnie pod jej sztandarem s\u0142u\u017cyli g\u0142\u00f3wnie m\u0142odzi chrze\u015bcijanie (cz\u0119sto niewolnicy z Ba\u0142kan\u00f3w), kt\u00f3rzy przeszli na islam i zostali wcieli do armii osma\u0144skiej. Na pocz\u0105tku byli zmuszani do utrzymywania celibatu, co mia\u0142o podsyca\u0107 ich waleczno\u015b\u0107. Z czasem wym\u00f3g ten zosta\u0142 jednak zniesiony. Wraz z up\u0142ywem czasu janczarzy stali si\u0119 nie tylko si\u0142\u0105 bojow\u0105, ale i polityczn\u0105. W wieku XVII i XVIII brali udzia\u0142 w wielu przewrotach. S\u0142yn\u0105 jednak g\u0142\u00f3wnie z uparto\u015bci i zacofania. Jednak wraz ze wzrostem wp\u0142yw\u00f3w, stali si\u0119 bardzo uparci i zacofani, odm\u00f3wili zmiany uzbrojenia oraz taktyki. W 1826 roku oddzia\u0142y janczar\u00f3w zosta\u0142y przymusowo rozwi\u0105zane i zast\u0105pione przez bardziej nowoczesne formacje osma\u0144skiej armii.",
+    "strategy": "Janczarzy to unikatowa jednostka osma\u0144ska, zast\u0119puj\u0105ca arkebuzer\u00f3w. Otrzymuj\u0105 znacz\u0105c\u0105 premi\u0119 bojow\u0105 do ataku. Na dodatek janczarzy automatycznie lecz\u0105 wszystkie obra\u017cenia, gdy zniszcz\u0105 jednostk\u0119 nie nale\u017c\u0105c\u0105 do barbarzy\u0144c\u00f3w. Daje to im ogromn\u0105 przewag\u0119 w walce przeciwko broni\u0105cemu si\u0119 przeciwnikowi.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Leczenie 50 P\u017b po pokonaniu wroga",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Premia bojowa podczas ataku (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

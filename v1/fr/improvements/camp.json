@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "Camp|Camps",
+    "game_info": "Pour extraire des ressources du monde qui les entouraient, les premiers hommes chassaient des animaux sauvages. Un camp de chasse vous donne acc\u00e8s aux ressources issues du cerf, \u00e0 la fourrure, aux truffes et \u00e0 l'ivoire.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/camp|camps.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Ivoire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/ivory.json"
+        },
+        {
+            "name": "Fourrures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/furs.json"
+        },
+        {
+            "name": "Cervid\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/deer.json"
+        },
+        {
+            "name": "Truffe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/truffles.json"
+        },
+        {
+            "name": "Bison|Bisons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Pi\u00e8ge",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

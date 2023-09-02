@@ -1,0 +1,67 @@
+{
+    "id": 5,
+    "name": "\u7926\u5834",
+    "game_info": "\u7926\u5834\u662f\u6587\u660e\u5e1d\u570b5\u4e2d\u6700\u91cd\u8981\u7684\u6539\u826f\u8a2d\u65bd\u3002\u5176\u80fd\u589e\u52a0\u683c\u4f4d\u7684\u7522\u80fd\uff0c\u800c\u9ad8\u7522\u80fd\u53ef\u4f7f\u55ae\u4f4d\u3001\u5efa\u7bc9\u7269\u53ca\u5947\u8de1\u5efa\u9020\u5f97\u66f4\u5feb\u3002\u4e0d\u50c5\u5982\u6b64\uff0c\u5176\u80fd\u4f7f\u73a9\u5bb6\u7372\u5f97\u4e00\u4e9b\u6700\u91cd\u8981\u7684\u8cc7\u6e90\uff0c\u5305\u62ec\u9435\u7926\u3001\u7164\u70ad\u3001\u923e\u7926\u7b49\u7b49\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u7926\u5834.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u4e18\u9675",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "\u9435\u7926",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/iron.json"
+        },
+        {
+            "name": "\u7164\u70ad",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/coal.json"
+        },
+        {
+            "name": "\u92c1\u6750",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/aluminum.json"
+        },
+        {
+            "name": "\u923e\u7926",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/uranium.json"
+        },
+        {
+            "name": "\u5bf6\u77f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/gems.json"
+        },
+        {
+            "name": "\u9ec3\u91d1",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/gold.json"
+        },
+        {
+            "name": "\u767d\u9280",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/silver.json"
+        },
+        {
+            "name": "\u9285\u7926",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/copper.json"
+        },
+        {
+            "name": "\u98df\u9e7d",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/salt.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u63a1\u7926\u696d",
+        "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/mining.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+    "historical_info": "Z zasady pola pustynne s\u0105 nieu\u017cyteczne. Nie zapewniaj\u0105 miastom \u017cadnych premii (chyba \u017ce na pustyni jest oaza, \u017ar\u00f3d\u0142o surowca albo \u017ar\u00f3d\u0142o s\u0142odkiej wody).",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oaza|Oazy|Oazie|Oaz\u0119|Oazy|Oaz|Oazom|Oazy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/oasis.json"
+        },
+        {
+            "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        },
+        {
+            "name": "Owce|Owiec|Owcom|Owce",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sheep.json"
+        },
+        {
+            "name": "Kamie\u0144|Kamienia|Kamieniowi|Kamie\u0144",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/stone.json"
+        },
+        {
+            "name": "Z\u0142oto|Z\u0142ota|Z\u0142otu|Z\u0142oto",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gold.json"
+        },
+        {
+            "name": "Srebro|Srebra|Srebru|Srebro",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silver.json"
+        },
+        {
+            "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
+        },
+        {
+            "name": "Marmur|Marmuru|Marmurowi|Marmur",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/marble.json"
+        },
+        {
+            "name": "Bawe\u0142na|Bawe\u0142ny|Bawe\u0142nie|Bawe\u0142n\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cotton.json"
+        },
+        {
+            "name": "Kadzid\u0142o|Kadzid\u0142a|Kadzid\u0142u|Kadzid\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/incense.json"
+        },
+        {
+            "name": "Mied\u017a|Miedzi|Miedzi|Mied\u017a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/copper.json"
+        },
+        {
+            "name": "S\u00f3l|Soli|Soli|S\u00f3l",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/salt.json"
+        }
+    ]
+}

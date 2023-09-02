@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Drall",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "Industriezeitalter",
+    "cost": 1600,
+    "civilopedia_entry": "Drall ist der Prozess, den Lauf einer Schusswaffe oder Kanone im Innern mit spiralf\u00f6rmigen Rillen zu versehen, die das Geschoss in Drehung versetzen. Diese Drehbewegung stabilisiert das Projektil und steigert die Genauigkeit um ein Vielfaches. Der Drall wurde im 15. Jahrhundert in Wien erfunden. Doch zu Beginn war dieser Prozess sehr teuer und zeitaufw\u00e4ndig, weshalb er etwa drei Jahrhunderte ein Nischendasein f\u00fchrte. Im fr\u00fchen 18. Jahrhundert wurden Gewehre von Scharfsch\u00fctzen in Armeen in Europa und der ganzen Welt verwendet.Mitte des Jahrhunderts machten das Mini\u00e9-Gewehr und das Mini\u00e9-Geschoss Feuerwaffen genauer und t\u00f6dlicher. Diese und andere Waffen wurden w\u00e4hrend des Amerikanischen B\u00fcrgerkriegs massiv eingesetzt und forderten m\u00f6glicherweise mehr Opfer als alle anderen Musketenarten zusammen.Gegen Ende des Amerikanischen B\u00fcrgerkriegs wurden die Mini\u00e9-Gewehre durch Patronen feuernde Hinterlader ersetzt, die schneller nachgeladen und abgefeuert werden konnten als die Musketen. Diese Gewehre, wie das Springfield Model 1865 und seine Nachfolger, blieben bis zur Erfindung der ersten Automatikwaffen im Ersten Weltkrieg die Standardwaffe der amerikanischen Sch\u00fctzen. In der Moderne tragen die meisten Infanteristen ein Sturmgewehr wie das amerikanische M16 oder das russische AK-47. Diese t\u00f6dlichen Waffen geben heutigen Soldaten die Feuerkraft Dutzender B\u00fcrgerkriegsveteranen.",
+    "quote": "\"Es ist nur gut, dass der Krieg so schrecklich ist, sonst w\u00fcrden wir vielleicht noch Gefallen an ihm finden.\" - Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        },
+        {
+            "name": "Metallverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Sch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/rifleman.json"
+        },
+        {
+            "name": "Norwegische Ski-Infanterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/mehal_sefari.json"
+        },
+        {
+            "name": "Karoliner",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

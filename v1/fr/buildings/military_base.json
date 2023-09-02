@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Base militaire|Bases militaires",
+    "game_info": "La ville doit poss\u00e9der un arsenal.",
+    "strategy": "La base militaire est un b\u00e2timent de milieu de partie qui augmente la puissance d\u00e9fensive (+12) et les PV de la ville (+25). La ville doit d\u00e9j\u00e0 poss\u00e9der un arsenal pour pouvoir accueillir une base militaire.",
+    "historical_info": "Une base militaire est un site constitu\u00e9 de plusieurs b\u00e2timents et terrains d'entra\u00eenement abritant une ou plusieurs unit\u00e9s militaires (l\u00e9gion, division, corps, flotte ou autre). Une base contient tout l'\u00e9quipement n\u00e9cessaire pour pr\u00e9parer les troupes au combat : camps d'entra\u00eenement, quartiers des officiers, casernes, prisons, d\u00e9p\u00f4ts d'armes, h\u00f4pitaux, vivres, \u00e9quipements de transport, etc. Ces bases b\u00e9n\u00e9ficient d'une haute protection et sont situ\u00e9es sur des terrains ais\u00e9ment d\u00e9fendables. De plus, une arm\u00e9e enti\u00e8re serait n\u00e9cessaire pour capturer ou d\u00e9truire une base militaire.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/base_militaire|bases_militaires.png",
+    "prereq_tech": {
+        "name": "Pi\u00e8ces de rechange",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/replaceable_parts.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

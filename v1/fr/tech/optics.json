@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "name": "Optique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/optics.png",
+    "era": "\u00c8re classique",
+    "cost": 85,
+    "civilopedia_entry": "L'optique est l'\u00e9tude de la lumi\u00e8re et de la vision. Les premiers et principaux d\u00e9fis de la discipline consistaient en l'am\u00e9lioration de la perception de l'\u0153il humain (lui permettre de voir plus loin, dans le noir ou de distinguer de tr\u00e8s petits objets). Les premi\u00e8res lentilles furent d\u00e9velopp\u00e9es par les \u00c9gyptiens et les M\u00e9sopotamiens de l'\u00e8re antique. Les plus vieilles d'entre elles, faites de cristal poli, datent de 700 av. J.-C.. Les Grecs et les Romains con\u00e7urent des lentilles rudimentaires en remplissant des verres avec de l'eau. Dans \"Optique\", Euclide d\u00e9crit les r\u00e8gles math\u00e9matiques de la perception, et analyse le ph\u00e9nom\u00e8ne de r\u00e9fraction. Au VIIIe si\u00e8cle apr. J.-C., les intellectuels islamistes \u00e9tudi\u00e8rent l'optique en profondeur, r\u00e9digeant des trait\u00e9s \u00e9rudits sur la r\u00e9fraction, ainsi que sur la cr\u00e9ation de lentilles et de miroirs.Les premi\u00e8res lunettes portables furent invent\u00e9es en Italie au XIIe si\u00e8cle, et les premiers t\u00e9lescopes rudimentaires, ainsi que le premier microscope, au XVe si\u00e8cle. S'ils n'\u00e9taient pas bien puissants au vu des performances des mod\u00e8les modernes, ces instruments permirent \u00e0 l'homme de percevoir le monde comme cela n'avait jamais \u00e9t\u00e9 possible, et de parcourir les oc\u00e9ans encore inexplor\u00e9s du globe.",
+    "quote": "\"Il avait fait un instrument pour voir, Si la lune brille ou non comme un miroir.\" - Samuel Butler",
+    "tech_prereqs": [
+        {
+            "name": "Navigation \u00e0 voile",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Boussole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Phare|Phares",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/lighthouse.json"
+        },
+        {
+            "name": "Grand phare|Grands phares",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/great_lighthouse.json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronomia|dell'Astronomia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Epoca rinascimentale",
+    "cost": 780,
+    "civilopedia_entry": "L'astronomia \u00e8 lo studio degli oggetti spaziali: polvere cosmica, asteroidi, satelliti, pianeti, stelle e galassie, ma anche oggetti pi\u00f9 esotici come buchi neri e \"wormhole\". L'astronomia \u00e8 la pi\u00f9 antica delle scienze: le sue radici affondano nelle pratiche astrologiche e religiose della preistoria.Gran parte dell'astronomia antica \u00e8 legata alla religione. Le stelle e gli altri corpi celesti sono sempre stati associati agli d\u00e8i, e per lungo tempo si \u00e8 ritenuto che esercitassero un'influenza diretta sull'uomo e sull'universo fisico. Poteva capitare che una particolare stella o gruppo di stelle apparisse in cielo ogni anno nel periodo del raccolto, cos\u00ec gli uomini antichi si convincevano che quella stella era la dimora del dio che governava la crescita delle messi. Forse il sacrificio di una capra nel giorno della prima comparsa di quella stella avrebbe compiaciuto il dio, che avrebbe quindi benedetto il raccolto imminente. Questo tipo di pensiero \u00e8 alla base di tutti gli studi astronomici antichi e dei vecchi calendari, da sempre collegati ai fenomeni celesti.Durante il Rinascimento l'astronomia si \u00e8 liberata della maggior parte delle sue infrastrutture religiose e astrologiche, diventando una scienza in tutto e per tutto. Nel 1543 Niccol\u00f2 Copernico pubblic\u00f2 il \"De revolutionibus orbium coelestium\", che postulava che al centro dell'universo ci fosse il sole e non la Terra, che i pianeti girassero intorno al sole e la luna intorno alla Terra stessa. Oltre a propugnare il primato della ricerca scientifica sul dogma religioso, il libro di Copernico argomentava anche che l'applicazione della matematica avrebbe aiutato l'umanit\u00e0 a comprendere il mondo. Ai tempi il suo lavoro suscit\u00f2 aspre controversie, ma oggi Copernico \u00e8 unanimemente riconosciuto come uno dei pi\u00f9 grandi scienziati di sempre, oltre che uno dei padri della rivoluzione scientifica.",
+    "quote": "\"Gioiosamente il re Odisseo apr\u00ec la vela alla brezza e abilmente manovr\u00f2 il remo\". - Omero",
+    "tech_prereqs": [
+        {
+            "name": "Bussola|della Bussola",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+        },
+        {
+            "name": "Educazione|dell'Educazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navigazione|della Navigazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caravella|una Caravella|dalla tua Caravella|alla tua Caravella|la tua Caravella|da una Caravella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/caravel.json"
+        },
+        {
+            "name": "Nave tartaruga|una Nave tartaruga|dalla tua Nave tartaruga|alla tua Nave tartaruga|la tua Nave tartaruga|da una Nave tartaruga",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/turtle_ship.json"
+        },
+        {
+            "name": "Nau|una Nau|dalla tua Nau|alla tua Nau|la tua Nau|da una Nau",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Osservatorio|l'Osservatorio|un Osservatorio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/observatory.json"
+        }
+    ]
+}

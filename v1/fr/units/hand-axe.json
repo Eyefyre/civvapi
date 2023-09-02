@@ -1,0 +1,20 @@
+{
+    "id": 136,
+    "name": "Biface|Bifaces",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hand-axe.png",
+    "game_info": "Remplace l'archer sur char chez les barbares.",
+    "historical_info": "La hache, fid\u00e8le alli\u00e9e de l'homme, lui a permis de fa\u00e7onner son histoire aussi bien en tant qu'outil qu'en tant qu'arme. Compos\u00e9e \u00e0 l'origine d'un simple silex aiguis\u00e9 attach\u00e9 \u00e0 l'extr\u00e9mit\u00e9 d'un b\u00e2ton \u00e0 l'aide d'une liane, la hache d'aujourd'hui poss\u00e8de une lame en acier ench\u00e2ss\u00e9e dans un manche usin\u00e9. De tout temps et partout dans le monde, la hache a su prouver son utilit\u00e9. Les haches \u00e0 manche court, comme le tomahawk, que l'on peut manier d'une seule main, \u00e9taient utilis\u00e9es par de nombreux peuples primitifs pour la chasse et la guerre. Les haches \u00e0 manche long et \u00e0 la lame plus large, comme la hache des Vikings danois ou l'ono japonais, \u00e9taient des armes redoutables en combat. Utilis\u00e9es le plus souvent en combat rapproch\u00e9, les haches comme la hache de combat traditionnelle permettent de fendre avec encore plus de puissance des cibles de taille r\u00e9duite, ce qui les rend plus efficaces qu'une \u00e9p\u00e9e contre des armures.",
+    "strategy": "Unit\u00e9 plus puissante que l'archer, mais dont la port\u00e9e est limit\u00e9e \u00e0 une seule case.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

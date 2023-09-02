@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronomie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Astronomie ist die Untersuchung von Objekten im Weltraum angefangen bei interstellarem Staub \u00fcber Asteroiden, Monde, Planeten, Sterne, Galaxien bis hin zu solch geheimnisvollen Ph\u00e4nomenen wie schwarzen L\u00f6chern und Wurml\u00f6chern. Die Astronomie ist die \u00e4lteste Naturwissenschaft und hat ihre Wurzeln in den religi\u00f6sen und astrologischen Praktiken der Vorgeschichte.Die fr\u00fche Astronomie ist eng mit Religion verbunden. Sterne und andere Himmelsk\u00f6rper wurden mit Gottheiten gleichgesetzt und man glaubte, dass sie direkten Einfluss auf den Menschen und seine physische Umgebung \u00fcbten. So erschien vielleicht ein bestimmter Stern oder Sternenhaufen jedes Jahr zur Erntezeit, sodass die Menschen der Fr\u00fchgeschichte glaubten, dieser Stern sei die Heimat eines Erntegottes. Ein Ziegenopfer am Tag des ersten Erscheinens des Sterns w\u00fcrde dann dazu f\u00fchren, dass der Gott die Ernte segnet. Diese Denkweise ist der Hintergrund alter astronomischer Studien und des Aufkommens von Kalendern, die in der Geschichte eng mit der Astronomie verkn\u00fcpft sind.In der Renaissance legte die Astronomie viele ihrer religi\u00f6sen astrologischen Begrenzungen ab und wurde zu einer echten, eigenst\u00e4ndigen Wissenschaft. 1543 ver\u00f6ffentlichte Nikolaus Kopernikus sein Werk \"De Revolutionibus Orbium Coelestium\", in dem er die These aufstellte, dass nicht die Erde, sondern die Sonne das Zentrum des Universums sei und dass sich die Planeten um die Sonne und der Mond sich um die Erde bewege. Au\u00dfer dem Triumph der Wissenschaft \u00fcber das religi\u00f6se Dogma, den Kopernikus' Buch errang, wurde darin auch die Mathematik als grundlegende Wissenschaft zum Verst\u00e4ndnis der Welt beschrieben. Auch wenn sein Werk zu seinen Lebzeiten stark umstritten war, ist Kopernikus heute als einer der gro\u00dfen Wissenschaftler der Geschichte anerkannt und gilt als einer der V\u00e4ter der wissenschaftlichen Revolution.",
+    "quote": "\"Freudig spannte der Held im Winde die schwellenden Segel. Und nun setzt' er sich hin ans Ruder, und steuerte k\u00fcnstlich \u00fcber die Flut.\" - Homer, Odyssee",
+    "tech_prereqs": [
+        {
+            "name": "Kompass",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+        },
+        {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Karavelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/caravel.json"
+        },
+        {
+            "name": "Schildkr\u00f6tenschiff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/turtle_ship.json"
+        },
+        {
+            "name": "Nao",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Observatorium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/observatory.json"
+        }
+    ]
+}

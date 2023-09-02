@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "Pasture",
+    "game_info": "A pasture is a fenced-in section of open land that has been planted with grass to feed grazing animals like horses or cows.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pasture.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Horses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/horses.json"
+        },
+        {
+            "name": "Cattle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cattle.json"
+        },
+        {
+            "name": "Sheep",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Animal Husbandry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 64,
+    "name": "Protectionism",
+    "game_info": "Protectionism+2 Happiness from each Luxury resource.",
+    "historical_info": "Protectionism is the policy of restraining trade between nations through quotas, taxes and other methods. It is employed by countries who seek to slow or stop foreign goods and services from entering national markets and thereby \"protecting\" the local industries. Protectionism is also used by rulers who wish to limit their citizens' contact with foreign people and goods, either because they think that foreign things are evil, or because they don't want their citizens to know how badly off they are compared with people elsewhere in the world. North Korea is an example of a grotesquely protectionist state, its leaders limiting contact with the outside world to keep the North Koreans unaware of their own backwardness.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/protectionism.png",
+    "required_policies": [
+        {
+            "name": "Mercantilism",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/mercantilism.json"
+        },
+        {
+            "name": "Entrepreneurship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/entrepreneurship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Commerce",
+        "game_info": "Commerce provides bonuses to empires focused on Gold.Adopting Commerce will boost Gold output in Capital City by 25%. Unlocks building Big Ben.Adopting all Policies in the Commerce tree will grant +1 Gold from every Trading Post. It also allows the purchase of Great Merchants with Faith starting in the Industrial Era",
+        "prereq_era": "Medieval Era",
+        "historical_info": "Commerce deals with the exchange of goods and services, either through barter (in exchange for other goods and services) or by the exchange of some form of currency. Commerce is as old as human language and perhaps even older. In some cultures merchants occupy a lower class than those who rule or who get to carry the weapons. In other cultures, merchants are seen as the elite, and the acquisition of wealth is seen as the greatest good. For most of its recent history the United States has been the second kind of country."
+    }
+}

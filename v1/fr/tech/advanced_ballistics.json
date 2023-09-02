@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Balistique avanc\u00e9e",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 7700,
+    "civilopedia_entry": "La balistique est la science \u00e9tudiant le tir et le lancer pr\u00e9cis d'objets \u00e0 de grandes distances. La balistique avanc\u00e9e se focalise sur ces deux m\u00eames \u00e9l\u00e9ments (la pr\u00e9cision et la port\u00e9e), mais sur des distances d\u00e9passant celles de continents entiers. Les artilleurs modernes peuvent propulser des balles explosives \u00e0 des dizaines de kilom\u00e8tres avec une pr\u00e9cision redoutable et des missiles sur des cibles sp\u00e9cifiques \u00e0 l'autre bout de la plan\u00e8te. Si l'on ajoute \u00e0 cela des am\u00e9liorations comme le GPS et le guidage laser, alors il n'existe th\u00e9oriquement aucune cible \u00e0 la surface du globe qui soit \u00e0 l'abri d'un tir de projectile. Bonne chose, mauvaise chose... Laissons \u00e0 chacun le droit de se faire sa propre opinion. Au final, tout d\u00e9pend de l'objectif de celui qui a le doigt sur le bouton rouge.",
+    "quote": "\"Notre pouvoir scientifique a d\u00e9pass\u00e9 notre pouvoir spirituel. Nous savons guider des missiles, mais nous d\u00e9tournons l'Homme de sa voie.\" - Martin Luther King Jr",
+    "tech_prereqs": [
+        {
+            "name": "Fission nucl\u00e9aire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Fus\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Physique des particules",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/particle_physics.json"
+        },
+        {
+            "name": "Fusion nucl\u00e9aire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fus\u00e9es de lancement",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ss_booster.json"
+        },
+        {
+            "name": "Missile nucl\u00e9aire|Missiles nucl\u00e9aires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/nuclear_missile.json"
+        },
+        {
+            "name": "Missile guid\u00e9|Missiles guid\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

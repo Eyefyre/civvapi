@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "Polvere da sparo|della Polvere da sparo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Epoca rinascimentale",
+    "cost": 780,
+    "civilopedia_entry": "La polvere da sparo, chiamata anche polvere pirica o polvere nera, \u00e8 stata inventata in Cina forse gi\u00e0 nel IX secolo d.C. da alcuni alchimisti che cercavano l'elisir dell'immortalit\u00e0 (e hanno trovato ben altro). Costituita da una miscela di salnitro (nitrato di potassio), zolfo e carbone, la polvere da sparo brucia molto rapidamente quando viene esposta a una fiamma, producendo grandi quantit\u00e0 di gas e polveri che possono essere usate come propellenti per armi da fuoco o fuochi artificiali. I cinesi utilizzarono la polvere da sparo contro i mongoli sotto forma di razzi e bombe primitive: una volta conquistata la Cina, i mongoli la usarono contro il resto del mondo.Nella prima met\u00e0 del XII secolo il mondo arabo acquis\u00ec la tecnologia della polvere da sparo. Alcuni testi storici affermano che i mamelucchi usarono il primo cannone contro i mongoli nella battaglia di Ain Jalut nel 1260 d.C., ma su questo gli esperti discutono ancora. Il primo \"cannone a mano\" \u00e8 citato in un manoscritto arabo del XIV secolo.Verso la met\u00e0 del XII secolo anche l'Europa acquis\u00ec la conoscenza della polvere da sparo. Gli europei ne migliorarono la qualit\u00e0 sviluppando un procedimento che, mediante l'aggiunta di liquido, permette di ottenere grani pi\u00f9 grandi, aumentando cos\u00ec la stabilit\u00e0 dell'esplosivo.La polvere nera rimase l'esplosivo principale per i cannoni e le armi da fuoco finch\u00e9 nel XIX secolo fu creata la polvere senza fumo. Questo nuovo prodotto non produce quasi fumi ed \u00e8 tre volte pi\u00f9 potente della polvere nera.",
+    "quote": "\"Il giorno in cui due eserciti potranno distruggersi l'un l'altro in un solo secondo, si pu\u00f2 sperare che tutte le nazioni civilizzate rifuggiranno la guerra e scioglieranno le loro truppe.\" - Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "Fisica|della Fisica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/physics.json"
+        },
+        {
+            "name": "Acciaio|dell'Acciaio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chimica|della Chimica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chemistry.json"
+        },
+        {
+            "name": "Metallurgia|della Metallurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Soldato con moschetto|un Soldato con moschetto|dal tuo Soldato con moschetto|al tuo Soldato con moschetto|il tuo Soldato con moschetto|da un Soldato con moschetto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/musketman.json"
+        },
+        {
+            "name": "Minuteman|un Minuteman|dal tuo Minuteman|al tuo Minuteman|il tuo Minuteman|da un Minuteman",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/minuteman.json"
+        },
+        {
+            "name": "Moschettiere|un Moschettiere|dal tuo Moschettiere|al tuo Moschettiere|il tuo Moschettiere|da un Moschettiere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/musketeer.json"
+        },
+        {
+            "name": "Giannizzero|un Giannizzero|dal tuo Giannizzero|al tuo Giannizzero|il tuo Giannizzero|da un Giannizzero",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/janissary.json"
+        },
+        {
+            "name": "Tercio|un Tercio|dal tuo Tercio|al tuo Tercio|il tuo Tercio|da un Tercio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Castello di Himeji|il Castello di Himeji|il Castello di Himeji",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/himeji_castle.json"
+        }
+    ]
+}

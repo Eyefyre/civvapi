@@ -1,0 +1,18 @@
+{
+    "id": 4,
+    "name": "Camera di stasi dell'astronave",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_stasis_chamber.png",
+    "game_info": "Una delle parti di astronave che devono essere costruite e spostate nella capitale per ottenere una Vittoria scientifica.",
+    "historical_info": "L'astronave per Alpha Centauri trasporter\u00e0 pi\u00f9 di 3.000 coloni e una variet\u00e0 di piante e animali. In un viaggio di tanti anni \u00e8 impossibile trasportare una quantit\u00e0 sufficiente di cibo, acqua e ossigeno per tante persone, anche in presenza di un riciclaggio dei prodotti di scarto vicino al 100%. I coloni viaggeranno quindi addormentati in un sonno criogenico, che ridurr\u00e0 la loro necessit\u00e0 di cibo e ossigeno a una piccola frazione di quella che sarebbe necessaria se fossero svegli e attivi. Anche l'invecchiamento \u00e8 rallentato da questo processo, ma non bloccato totalmente: i coloni invecchieranno biologicamente di circa due anni per ogni decennio passato in volo.",
+    "strategy": "Quest'unit\u00e0 fa parte dell'astronave la cui costruzione consente di ottenere una Vittoria scientifica. Per ulteriori informazioni, consulta la sezione Vittoria.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nanotecnologia|della Nanotecnologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nanotechnology.json"
+    },
+    "free_promotions": []
+}

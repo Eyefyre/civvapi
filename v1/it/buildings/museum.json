@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Museo|il Museo|un Museo",
+    "game_info": null,
+    "strategy": "Il Museo \u00e8 un edificio disponibile nella parte centrale del gioco che aumenta la produzione di Cultura di una citt\u00e0. Per costruire un Museo, una citt\u00e0 deve gi\u00e0 possedere un Teatro dell'Opera (o una Sala da Ceilidh). Contiene 2 slot per Capolavori Artistici.",
+    "historical_info": "Un museo \u00e8 un edificio, o una serie di edifici, progettati per presentare al pubblico una collezione degli oggetti pi\u00f9 rari e preziosi di una civilt\u00e0. Alcuni musei contengono collezioni d'arte, altri reperti fossili, oggetti d'interesse storico, costumi, gioielli, armi antiche o qualsiasi altra cosa possa avere valore o presentare interesse per i visitatori. Il Museo dell'Ermitage di San Pietroburgo \u00e8 stato fondato nel 1764 da Caterina la Grande. Aperto al pubblico dal 1852, \u00e8 uno dei pi\u00f9 antichi e dei pi\u00f9 grandi musei al mondo.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museo|il_museo|un_museo.png",
+    "prereq_tech": {
+        "name": "Archeologia|dell'Archeologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

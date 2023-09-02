@@ -1,0 +1,37 @@
+{
+    "id": 26,
+    "name": "Cotone",
+    "game_info": null,
+    "historical_info": "Il cotone \u00e8 una pianta coltivata ormai da secoli. Essa produce semi circondati da capsule fibrose, dalle quali si possono ricavare filati e fili e quindi tessuti per abbigliamento, vele e altri oggetti di valore. Originariamente coltivato in India circa settemila anni fa, il cotone rappresenta tutt'oggi la fibra naturale pi\u00f9 usata nel settore dell'abbigliamento.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cotone.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Piantagione|una Piantagione|una Piantagione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        }
+    ]
+}

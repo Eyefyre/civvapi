@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Giannizzero|un Giannizzero|dal tuo Giannizzero|al tuo Giannizzero|il tuo Giannizzero|da un Giannizzero",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "Una delle prime unit\u00e0 dotate di armi da fuoco disponibili. Solo gli ottomani possono costruirla. Quest'unit\u00e0 \u00e8 pi\u00f9 forte in attacco del Soldato con moschetto, che sostituisce; inoltre cura i danni subiti ogni volta che uccide un'unit\u00e0 nemica.",
+    "historical_info": "I giannizzeri erano una forza d'\u00e9lite di fanteria nell'esercito dell'impero ottomano. Creati alla fine del XIV secolo, gli originali giannizzeri erano giovani cristiani (spesso schiavi originari dei Balcani) che venivano convertiti all'Islam e reclutati nell'esercito ottomano. All'inizio i giannizzeri erano obbligati a fare voto di castit\u00e0 (cosa che pu\u00f2 spiegare la loro ferocia in battaglia), ma in seguito questa restrizione fu eliminata. Col passare degli anni i giannizzeri cominciarono a godere di una grande influenza politica all'interno dell'impero e arrivarono a tramare diversi colpi di palazzo nel XVII e XVIII secolo. Contemporaneamente per\u00f2 si fecero conservatori e cocciuti difensori delle tradizioni, rifiutandosi di aggiornare le loro armi e le tecniche di battaglia per restare alla pari con il resto del mondo. Nel 1826 furono sciolti con la forza e sostituiti da truppe pi\u00f9 moderne.",
+    "strategy": "Il Giannizzero \u00e8 un'unit\u00e0 esclusiva degli Ottomani e sostituisce il Soldato con moschetto. Quando attacca, il Giannizzero riceve un importante bonus al combattimento. Inoltre guarisce immediatamente tutti i danni subiti ogni volta che distrugge un'unit\u00e0 nemica (a patto che non siano barbari). Questa capacit\u00e0 pu\u00f2 dare a un esercito di giannizzeri un vantaggio decisivo quando aggredisce una forza nemica arroccata in difesa.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Polvere da sparo|della Polvere da sparo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cura 50 punti di danno se uccide un'altra unit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Bonus al combattimento in attacco (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

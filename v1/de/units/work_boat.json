@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Arbeitsboot",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Baut Modernisierungen auf Wasserressourcen wie Fisch. Das Arbeitsboot wird dabei verbraucht. Es ist verteidigungslos und wird zerst\u00f6rt, wenn es auf Feinde trifft.",
+    "historical_info": "Das Meer hat einer Zivilisation viel zu bieten. Angefangen bei Proteinen aus Meeresfr\u00fcchten, bis hin zu Energie aus \u00d6l. Seit Anbeginn der Geschichte fahren mutige M\u00e4nner und Frauen zur See, um die Sch\u00e4tze der Meere zu ernten. Und sie werden es noch bis zum Ende aller Zeiten tun, bis \"das Meer seine Toten wieder hergibt.\"",
+    "strategy": "Diese Einheit kann nur in K\u00fcstenst\u00e4dten gebaut werden. Benutzt Arbeitsboote, um Wasserressourcen zuverbessern - Fisch, Wale, \u00d6l usw. Das Arbeitsboot wird verbraucht, wenn es eine Modernisierung baut. Arbeitsboote k\u00f6nnen Ozean-Gel\u00e4ndefelder erst betreten, wenn Astronomie entdeckt wurde. Arbeitsboote k\u00f6nnen nicht am Kampf teilnehmen.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Astronomie ben\u00f6tigt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/astronomy_needed.json"
+        }
+    ]
+}

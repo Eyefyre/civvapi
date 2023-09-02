@@ -1,0 +1,20 @@
+{
+    "id": 9,
+    "name": "Collective Rule",
+    "game_info": "Collective RuleSpeeds the training of Settlers by 50% in the Capital and a free Settler appears near the Capital. (Venice receives a Merchant of Venice instead of a Settler.)",
+    "historical_info": "Collective rule is the policy in which every member (or every adult member, or every adult male member) of the society takes part in the governing process, voting directly upon decisions rather than through a representative (as in a republic). While perhaps an effective form of government for tribes or small villages, collective rule becomes increasingly more difficult and unwieldy as the polity increases in size. If half of the citizens of a tribe of 100 each wanted to speak for one minute at a meeting, they could do so in under an hour. If half of the citizens of New York City each wanted to speak for one minute, they would need some 66,000 hours (plus a really huge meeting hall).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/collective_rule.png",
+    "required_policies": [
+        {
+            "name": "Republic",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/republic.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Liberty",
+        "game_info": "Liberty is best for civilizations which desire rapid expansion.Adopting Liberty will provide 1 Culture in every city. Unlocks building the Pyramids.Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the Capital.",
+        "prereq_era": null,
+        "historical_info": "As a policy, liberty can be defined as the basic assumption that a nation's citizens deserve to be free. Free from physical restraint, and free from despotic control. Serfs, slaves, and hereditary servants do not enjoy liberty, nor do citizens who are forced to live within a certain village or gulag or ghetto."
+    }
+}

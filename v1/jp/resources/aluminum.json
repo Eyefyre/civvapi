@@ -1,0 +1,64 @@
+{
+    "id": 5,
+    "name": "\u30a2\u30eb\u30df\u30cb\u30a6\u30e0",
+    "game_info": "\u30b2\u30fc\u30e0\u7d42\u76e4\u306e\u5f37\u529b\u306a\u30e6\u30cb\u30c3\u30c8\u3068\u5efa\u9020\u7269\u304c\u4f7f\u7528\u3059\u308b\u3002",
+    "historical_info": "\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u306f\u5730\u7403\u4e0a\u3067\u6700\u3082\u8c4a\u304b\u306a\u5316\u5b66\u5143\u7d20\u306e1\u3064\u3067\u3042\u308b\u3002\u975e\u5e38\u306b\u5229\u7528\u4fa1\u5024\u306e\u3042\u308b\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u306f\u3057\u306a\u3084\u304b\u3067\u8010\u4e45\u6027\u304c\u3042\u308a\u3001\u8150\u98df\u306b\u3082\u6975\u3081\u3066\u5f37\u3044\u91d1\u5c5e\u3067\u3042\u308b\u3002\u8c4a\u5bcc\u3067\u306f\u3042\u308b\u304c\u3001\u81ea\u7136\u306e\u72b6\u614b\u306b\u3042\u308b\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u306f\u4ed6\u306e\u7269\u8cea\u3068\u7d50\u5408\u3057\u305f\u5f62\u3067\u898b\u3064\u304b\u308b\u3053\u3068\u304c\u307b\u3068\u3093\u3069\u3067\u3042\u308b\u3002\u79d1\u5b66\u8005\u304c\u5927\u91cf\u306e\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u3092\u62bd\u51fa\u3001\u52a0\u5de5\u3059\u308b\u65b9\u6cd5\u3092\u767a\u898b\u3057\u305f\u306e\u306f19\u4e16\u7d00\u3082\u534a\u3070\u306b\u5165\u3063\u3066\u304b\u3089\u306e\u3053\u3068\u3067\u3042\u3063\u305f\u300220\u4e16\u7d00\u304b\u308921\u4e16\u7d00\u307e\u3067\u306b\u306f\u3001\u8ecd\u4e8b\u3001\u822a\u7a7a\u3001\u304a\u3088\u3073\u6d88\u8cbb\u8ca1\u306e\u88fd\u9020\u306b\u5e83\u304f\u4f7f\u308f\u308c\u3066\u3044\u308b\u3002\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u306f\u6226\u7565\u8cc7\u6e90\u3067\u3042\u308b\u305f\u3081\u3001\u95a2\u9023\u3059\u308b\u30e6\u30cb\u30c3\u30c8\u3084\u5efa\u9020\u7269\u3092\u5efa\u8a2d\u3059\u308b\u3068\u6d88\u5931\u3059\u308b\u3053\u3068\u3092\u899a\u3048\u3066\u304a\u3053\u3046\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/\u30a2\u30eb\u30df\u30cb\u30a6\u30e0.png",
+    "prereq_tech": {
+        "name": "\u96fb\u6c17",
+        "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "\u9271\u5c71",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/mine.json"
+        },
+        {
+            "name": "\u7a0e\u95a2",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/customs_house.json"
+        },
+        {
+            "name": "\u30a2\u30ab\u30c7\u30df\u30fc",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/academy.json"
+        },
+        {
+            "name": "\u57ce\u585e",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/citadel.json"
+        },
+        {
+            "name": "\u88fd\u9020\u6240",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/manufactory.json"
+        },
+        {
+            "name": "\u8056\u5730",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "\u5e73\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/\u5e73\u539f.json"
+        },
+        {
+            "name": "\u7802\u6f20",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/\u7802\u6f20.json"
+        },
+        {
+            "name": "\u30c4\u30f3\u30c9\u30e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/\u30c4\u30f3\u30c9\u30e9.json"
+        },
+        {
+            "name": "\u4e18\u9675",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/\u4e18\u9675.json"
+        }
+    ]
+}

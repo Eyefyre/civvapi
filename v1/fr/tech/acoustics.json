@@ -1,0 +1,40 @@
+{
+    "id": 33,
+    "name": "Acoustique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/acoustics.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "On appelle acoustique l'\u00e9tude du son. Les sons sont des ondes d'\u00e9nergie transmises au travers des \u00e9l\u00e9ments gazeux, liquides et solides. L'aspect le plus important de cette discipline est bien entendu la capacit\u00e9 que poss\u00e8de l'homme \u00e0 percevoir ces sons. Ainsi, la majeure partie de la recherche se focalise sur l'am\u00e9lioration de leur r\u00e9ception, principalement pour assister les malentendants. L'acoustique est utilis\u00e9e dans la fabrication de nombreuses autres applications, et notamment le sonar, un appareil permettant aux machines \"d'entendre\" les \u00e9paves englouties, les animaux marins et les formations g\u00e9ologiques sous-marines.Comme les ondes d'\u00e9nergie mentionn\u00e9es plus haut n\u00e9cessitent un \u00e9l\u00e9ment tiers pour voyager, le son est incapable de circuler dans le vide, et notamment au-del\u00e0 de l'atmosph\u00e8re terrestre. Ainsi, quelque effrayante qu'elle soit, cette assertion est bien vraie\u00a0: \"Dans l'espace, personne ne vous entendra crier\".",
+    "quote": "\"Le bruit qu'ils firent en se levant fut comme le bruit du tonnerre entendu dans le lointain.\" - Milton",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9ducation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/architecture.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Op\u00e9ra|Op\u00e9ras",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/opera_house.json"
+        },
+        {
+            "name": "Chapelle Sixtine|Chapelles Sixtines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/sistine_chapel.json"
+        },
+        {
+            "name": "Salle des Ceilidh|Salles des Ceilidh",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/ceilidh_hall.json"
+        },
+        {
+            "name": "Guilde de musiciens|Guildes de musiciens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/musicians'_guild.json"
+        }
+    ]
+}

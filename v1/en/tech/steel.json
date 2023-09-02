@@ -1,0 +1,37 @@
+{
+    "id": 31,
+    "name": "Steel",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steel.png",
+    "era": "Medieval Era",
+    "cost": 485,
+    "civilopedia_entry": "Steel is an alloy (mixture) of iron and carbon. Depending upon the ratio of iron to carbon, the resulting metal may be far stronger, more flexible, and possess a greater ability to resist corrosion. Iron was first worked as early as 2000 BC, and from the very beginning small quantities of steel were also produced. Generally iron was produced in two forms: wrought iron and cast iron, the former being more flexible, the latter harder and more brittle, but far cheaper to make.In 1751, the English inventor Benjamin Huntsman established a steelworks factory in Sheffield, England. Huntsman's factory employed the \"crucible process\" to make steel, and this methodology quickly spread across Europe and the United States and eventually into Asia and the rest of the world. The next big advance came in the United States of America in 1855, when American inventor Henry Bessemer came up with the so-called \"Bessemer process\" of making steel. With some refinements this allowed for a dramatic increase in steel production worldwide. By the beginning of the 20th century world steel production had reached some 50 million tons annually.",
+    "quote": "\"John Henry said to his Captain,'A man ain't nothin' but a man, And before I'll let your steam drill beat me down, I'll die with the hammer in my hand.'\" - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man",
+    "tech_prereqs": [
+        {
+            "name": "Metal Casting",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Gunpowder",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Longswordsman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/longswordsman.json"
+        },
+        {
+            "name": "Samurai",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/samurai.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Armory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/armory.json"
+        }
+    ]
+}

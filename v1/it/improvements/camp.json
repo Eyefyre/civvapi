@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "Campo|un Campo|un Campo",
+    "game_info": "Cacciare la selvaggina fu uno dei primi metodi adottati dagli uomini dell'antichit\u00e0 per reperire risorse. I campi da caccia permettono di accedere alle risorse Cervi, Pellicce, Tartufi e Avorio.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campo|un_campo|un_campo.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Avorio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/ivory.json"
+        },
+        {
+            "name": "Pellicce",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/furs.json"
+        },
+        {
+            "name": "Cervi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/deer.json"
+        },
+        {
+            "name": "Tartufi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+        },
+        {
+            "name": "Bisonti|dei Bisonti|dei Bisonti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Trappole per animali|delle Trappole per animali",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 18,
+    "name": "Gems",
+    "game_info": null,
+    "historical_info": "A gem is a beautiful but rare mineral. Once cut and polished, gems possess vibrant colors and/or are extremely shiny. There are two major classifications of gems: precious, like diamonds, rubies and emeralds, and semi-precious, such as amethyst, turquoise, and so forth. Gems have been highly prized throughout history; they are commonly used to adorn jewelry and the household items of the rich and powerful.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gems.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        },
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

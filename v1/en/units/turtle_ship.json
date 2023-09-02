@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Turtle Ship",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Heavily-armored naval unit of the Renaissance Era that is extremely difficult to kill. However Turtle Ships cannot enter deep ocean hexes outside of the city borders. Only Korea may build it. Replaces the Caravel.",
+    "historical_info": "These large, armored warships of the Choson dynasty played a crucial role in the defense of Korea during the Japanese invasions of the 16th century. Typically crewed by an equal compliment of soldiers and oarsmen, the Turtle Ship provided an aggressive close-assault ship for the Korean navy. Designed to strike fear in the enemy, each Turtle Ship featured a carved dragon figurehead on its bow, said to have emitted a cloud of sulfurous fumes to disguise the vessel's approach. Unlike the familiar designs used by sailing ships of the period, the Turtle Ship had no upper deck. The top level of the ship was covered in iron spikes to prevent boarding, with the oarsmen and soldiers segregated onto separate decks below. Armed with up to two dozen cannons and other small projectile weapons, the Turtle Ship was a dangerous foe for the unprepared navies of Korea's enemies.",
+    "strategy": "The Turtle Ship is a Korean unique unit. This unit replaces the Caravel. The Turtle Ship has a more powerful attack than the Caravel, and is extremely difficult to destroy. However it may not enter deep ocean hexes outside of the city borders.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

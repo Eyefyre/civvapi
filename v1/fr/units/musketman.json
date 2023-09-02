@@ -1,0 +1,18 @@
+{
+    "id": 48,
+    "name": "Arquebusier|Arquebusiers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketman.png",
+    "game_info": "Premi\u00e8re unit\u00e9 du jeu \u00e0 utiliser la poudre \u00e0 canon. Relativement peu co\u00fbteuse et puissante.",
+    "historical_info": "Le mousquet est un fusil \u00e0 silex \u00e0 canon long, charg\u00e9 par le canon et arm\u00e9 sur l'\u00e9paule. Le mousquet \u00e9tait plus l\u00e9ger et plus pr\u00e9cis que l'arquebuse, qu'il a rapidement remplac\u00e9e \u00e0 partir du XVIIIe si\u00e8cle sur la plupart des champs de bataille en Europe. Les mousquets disposant d'une ba\u00efonnette \u00e9taient une arme de contact tr\u00e8s efficace et rendait les lanciers obsol\u00e8tes. Le fusil britannique \"Brown Bess\" \u00e9tait l'arch\u00e9type du mousquet, utilis\u00e9 entre 1722 et 1838 ; il fut utilis\u00e9 par les deux camps lors de la R\u00e9volution am\u00e9ricaine.",
+    "strategy": "L'arquebusier est la premi\u00e8re unit\u00e9 du jeu utilisant de la poudre \u00e0 canon. Il remplace toutes les unit\u00e9s d'infanterie plus anciennes (spadassin \u00e0 \u00e9p\u00e9e longue, piquier, etc.). Il ne s'agit cependant pas d'une unit\u00e9 \u00e0 distance, il ne peut donc pas attaquer un ennemi situ\u00e9 \u00e0 plus d'une case de lui.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Poudre \u00e0 canon",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

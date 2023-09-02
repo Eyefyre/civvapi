@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "\u00c9lectricit\u00e9",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "\u00c8re industrielle",
+    "cost": 2350,
+    "civilopedia_entry": "La premi\u00e8re fois que l'humanit\u00e9 fit l'exp\u00e9rience de l'\u00e9lectricit\u00e9 remonterait \u00e0 2750 av. J.-C. Des \u00e9crits de l'\u00e9poque font en effet r\u00e9f\u00e9rence \u00e0 des chocs \u00e9lectriques produits par un poisson. Au XVe si\u00e8cle apr. J.-C., les Arabes d\u00e9couvrirent que la foudre \u00e9tait une autre forme d'\u00e9lectricit\u00e9, d\u00e9couverte confirm\u00e9e en 1752 par Benjamin Franklin, un scientifique am\u00e9ricain d'origine britannique. La premi\u00e8re pile, dite volta\u00efque, fut invent\u00e9e en 1800 par Alessandro Volta et, en 1821, Michael Faraday inventa le moteur \u00e9lectrique.Durant la deuxi\u00e8me moiti\u00e9 du XIXe si\u00e8cle, les avanc\u00e9es, en mati\u00e8re d'\u00e9lectricit\u00e9 (que l'on doit \u00e0 des g\u00e9nies comme Thomas Edison, George Westinghouse, Alexander Graham Bell et Lord Kelvin) ont r\u00e9volutionn\u00e9 la vie des citoyens du globe. Le t\u00e9l\u00e9graphe, bient\u00f4t suivi par le t\u00e9l\u00e9phone, puis par la radio, augmenta radicalement la vitesse et la pr\u00e9cision avec lesquelles les informations purent \u00eatre transmises. Suite \u00e0 la mise en place d'un c\u00e2ble transatlantique, un message pouvait \u00eatre transmis de New York \u00e0 Londres en quelques secondes. Avant l'\u00e9lectricit\u00e9, ce m\u00eame message, port\u00e9 par les navires les plus rapides, aurait mis des semaines \u00e0 arriver. La lumi\u00e8re \u00e9lectrique r\u00e9volutionna \u00e0 la fois le travail et la vie domestique, et le phonographe, la radio et les cam\u00e9ras chang\u00e8rent radicalement le visage du divertissement. La cr\u00e9ation de centrales \u00e9lectriques, qui permirent la transformation d'\u00e9nergie en \u00e9lectricit\u00e9 utilisable dans les foyers des citoyens, a \u00e9lev\u00e9 les conditions de vie de l'homme \u00e0 un niveau qui paraissait jusque-l\u00e0 inconcevable. L'\u00e9lectricit\u00e9, pierre angulaire de la Seconde R\u00e9volution industrielle, offrit aux soci\u00e9t\u00e9s humaines les changements les plus radicaux depuis l'invention de l'imprimerie.",
+    "quote": "\"Est-ce un fait ou ai-je r\u00eav\u00e9 que, par le biais de l'\u00e9lectricit\u00e9, le monde mat\u00e9riel est devenu un gigantesque nerf, vibrant sur des milliers de kilom\u00e8tres \u00e0 une vitesse \u00e0 couper le souffle ?\" - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Th\u00e9orie scientifique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pi\u00e8ces de rechange",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/replaceable_parts.json"
+        },
+        {
+            "name": "R\u00e9frig\u00e9ration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+        },
+        {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Centrale hydro\u00e9lectrique|Centrales hydro\u00e9l\u00e9ctriques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hydro_plant.json"
+        },
+        {
+            "name": "Bourse|Bourses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Commissariat|Commissariats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/police_station.json"
+        }
+    ]
+}

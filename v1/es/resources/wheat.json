@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Trigo",
+    "game_info": null,
+    "historical_info": "Cultivado originariamente en el Creciente F\u00e9rtil de Oriente Medio, el trigo es uno de los cereales m\u00e1s importantes de la dieta humana. Es una gram\u00ednea excepcionalmente vers\u00e1til que puede convertirse en harina para hacer pan, pasta, cereales de desayuno o pasteles, y se puede fermentar para obtener una gran variedad de ricas bebidas alcoh\u00f3licas.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/trigo.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Granja|Granjas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Terrenos de aluvi\u00f3n|Terrenos de aluvi\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/terrenos_de_aluvi\u00f3n|terrenos_de_aluvi\u00f3n.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        }
+    ]
+}

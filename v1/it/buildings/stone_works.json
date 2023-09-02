@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Scalpellino|lo Scalpellino|uno Scalpellino",
+    "game_info": "Ogni fonte di Marmo e Pietre sfruttata da questa citt\u00e0 aggiunge +1 alla Produzione.La citt\u00e0 deve avere almeno una di queste risorse migliorata con una Cava.La citt\u00e0 non dev'essere costruita in pianura.",
+    "strategy": "Uno Scalpellino pu\u00f2 essere costruito solo in una citt\u00e0 vicina a una fonte migliorata di Pietre o Marmo. Uno Scalpellino aumenta la Produzione di una citt\u00e0. La citt\u00e0 non dev'essere costruita in pianura.",
+    "historical_info": "Lo Scalpellino funge da bottega per i tagliapietre, che ricavano e preparano i vari tipi di pietra utilizzati per creare elementi strutturali e artistici durante il processo di costruzione. L'arte dei tagliapietre \u00e8 una delle pi\u00f9 antiche del mondo e abbraccia tutte le tecniche che vanno dall'estrazione della pietra nella cava al suo taglio nelle varie forme geometriche, fino alla messa in posa sul luogo della costruzione. Nel corso della storia i tagliapietre hanno lavorato con una variet\u00e0 disparata di materiali, dalla pietra sedimentaria calcarea, solitamente usata per costruzioni mastodontiche, al granito e al marmo, pi\u00f9 comunemente usati per realizzare statue e monumenti.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/scalpellino|lo_scalpellino|uno_scalpellino.png",
+    "prereq_tech": {
+        "name": "Calendario|del Calendario",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/calendar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 1
+    }
+}

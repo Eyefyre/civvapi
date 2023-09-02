@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Battleship",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battleship.png",
+    "game_info": "Most powerful ranged Naval unit in the game until the Missile Cruiser",
+    "historical_info": "Battleships are large, heavily armored warships equipped with multiple guns of the largest caliber. They are direct linear descendents of the ships of the line of the Age of Sail, equipped to do battle with the enemy's largest warships. In the days before air power and submarines battleships ruled the waves, able to sink anything else afloat. Their extremely powerful guns can be used as artillery as well, sending huge missiles miles inland. Despite their size, speed, armor and firepower, battleships were extremely vulnerable to both air and submarine attack. At Pearl Harbor Japanese planes flying from aircraft carriers sank four American battleships and heavily damaged four more. This convinced the Allies of the primacy of the aircraft carrier as an offensive weapon, and battleships were relegated to shore bombardment and carrier escort duties for much of the rest of the war.",
+    "strategy": "The Battleship is an extremely powerful warship with a mighty Combat Strength and Ranged Combat Strength. It has an attack range of 3 hexes, allowing it to bombard units or cities several hexes inland. Its indirect fire ability allows it to bombard targets it cannot see (as long as other friendly units can see them). The Battleship is vulnerable to air and submarine attacks.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Electronics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirect Fire",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/indirect_fire.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

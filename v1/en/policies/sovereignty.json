@@ -1,0 +1,20 @@
+{
+    "id": 74,
+    "name": "Sovereignty",
+    "game_info": "Sovereignty+1 Gold from Science buildings.",
+    "historical_info": "Sovereignty, short for \"popular sovereignty,\" is the belief that the state belongs to the people, and that the rulers are \"servants\" to the people. Power derives from the people, and those who rule do so with the people's consent. Popular sovereignty can be most easily contrasted with a theocracy, in which the ruler derives his power from God, not from the people. Nations with popular sovereignty usually have some form of periodic elections in which the people can express their will, hopefully voting for the best candidate, rather than say the tallest or the best liar.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/sovereignty.png",
+    "required_policies": [
+        {
+            "name": "Secularism",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/secularism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Rationalism",
+        "game_info": "Rationalism improves the ability to use and generate Science.Adopting Rationalism will grant +10% Science while the empire is Happy. Unlocks building the Porcelain Tower.Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with Faith starting in the Industrial Era.",
+        "prereq_era": "Renaissance Era",
+        "historical_info": "Rationalism is a worldview that looks to reason (rather than, say, faith) to explain the world. Rationalism believes that reason trumps all other ways of interpreting the world, including any data gathered by one's five senses. This philosophy can be traced back to the great Socrates of ancient Greece, and it enjoyed something of a resurgence during the 16th and 17th century in Europe, when it was explored by men like Descartes, Spinoza, and Kant."
+    }
+}

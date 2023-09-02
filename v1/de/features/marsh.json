@@ -1,0 +1,35 @@
+{
+    "id": 3,
+    "name": "Sumpf",
+    "historical_info": "S\u00fcmpfe besitzen zwar eine reiche Artenvielfalt, k\u00f6nnen aber einer hungrigen, wachsenden Zivilisation nur wenig bieten, da sie trockengelegt oder anderweitig bearbeitet werden m\u00fcssen, bevor sie einer Stadt Bonusse bieten k\u00f6nnen. Milit\u00e4reinheiten, die auf Sumpffeldern angegriffen werden, erhalten einen erheblichen Malus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/sumpf.png",
+    "movement_cost": 3,
+    "combat_modifier": -15,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": -1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Zucker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sugar.json"
+        },
+        {
+            "name": "Tr\u00fcffel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+        }
+    ]
+}

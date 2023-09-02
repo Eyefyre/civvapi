@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Karawela|Karaweli|Karaweli|Karawel\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Szybka renesansowa jednostka zwiadowcza, kt\u00f3ra mo\u017ce porusza\u0107 si\u0119 po heksach oceanicznych. Walczy w zwarciu.",
+    "historical_info": "Karawela by\u0142a ma\u0142ym morskim statkiem, kt\u00f3ry p\u0142ywa\u0142 po morzach XV-wiecznego \u015bwiata. Zbudowano j\u0105 z inicjatywy portugalskiego ksi\u0119cia zwanego Henrykiem Nawigatorem. Jako \u017ce konstrukcja ta okaza\u0142a si\u0119 by\u0107 wielkim sukcesem, niebawem i inne kraje opracowa\u0142y w\u0142asn\u0105 wersj\u0119 tego okr\u0119tu. Liczy\u0142 on od 18 do 30 metr\u00f3w d\u0142ugo\u015bci. Zazwyczaj wyposa\u017cano go w 2-3 maszty. Ze wzgl\u0119du na niska wag\u0119 statki te mog\u0142y p\u0142ywa\u0107 po wyj\u0105tkowo p\u0142ytkich wodach. Czyni\u0142o je to idealnymi do badania nieznanych akwen\u00f3w i rzek. Ich ogromn\u0105 zalet\u0105 by\u0142a tak\u017ce odporno\u015b\u0107 na nawet najgorsze atlantyckie sztormy. Dwa z trzech okr\u0119t\u00f3w Krzysztofa Kolumba (Pinta i Nina) by\u0142y karawelami. Najwi\u0119kszy z okr\u0119t\u00f3w (Santa Maria) by\u0142 karak\u0105.",
+    "strategy": "Karawela to znacz\u0105ce zwi\u0119kszenie pot\u0119gi morskiej cywilizacji. Jest jednostk\u0105 strzelaj\u0105c\u0105, silniejsz\u0105 i szybsz\u0105 ni\u017c trirema, mo\u017ce te\u017c wyp\u0142ywa\u0107 na pola otwartego oceanu. Karawela ma du\u017cy zasi\u0119g widzenia, co czyni j\u0105 oczami i uszami floty w \u015brodkowym etapie gry. Traci jednak t\u0119 niezwyk\u0142\u0105 zdolno\u015b\u0107, je\u015bli wskutek modernizacji zostanie przekszta\u0142cona w niszczyciel.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Wycofanie przed walk\u0105 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

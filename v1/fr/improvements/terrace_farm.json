@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Culture en terrasses",
+    "game_info": "La culture en terrasses s'est d\u00e9velopp\u00e9e simultan\u00e9ment dans les r\u00e9gions montagneuses du monde entier, aussi bien \u00e0 Bali qu'aux Philippines, en Chine et au P\u00e9rou. Ces champs \u00e9troits en escaliers sont creus\u00e9s \u00e0 flanc de montagnes, emp\u00eachant toute perte d'eau lors de l'irrigation et permettant de cultiver la terre \u00e0 des endroits jusqu'alors inaccessibles. Les Incas ma\u00eetrisaient particuli\u00e8rement ce type de culture, et b\u00e2tissaient de larges murs en pierres s\u00e8ches afin de maintenir les terrasses. Apr\u00e8s avoir donn\u00e9 sa forme \u00e0 une terrasse, les Incas mettaient en place un syst\u00e8me de canaux et d'aqueducs pour assurer l'irrigation continue des cultures, et ainsi am\u00e9liorer la fertilit\u00e9 de la terre. L'efficacit\u00e9 des anciennes techniques incas \u00e9tait telle que les agriculteurs p\u00e9ruviens de notre \u00e9poque y ont toujours recours.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/culture_en_terrasses.png",
+    "nearby_mountain_bonus": {
+        "food": 1
+    },
+    "can_be_built_on": [
+        {
+            "name": "Colline|Collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "The Inca",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/civilizations/the_inca.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

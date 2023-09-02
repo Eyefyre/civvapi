@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Cz\u0119\u015bci zamienne|Cz\u0119\u015bci zamiennych|Cz\u0119\u015bciom zamiennym|Cz\u0119\u015bci zamienne",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "Epoka wsp\u00f3\u0142czesna|Epoki wsp\u00f3\u0142czesnej|Epoce wsp\u00f3\u0142czesnej|Epok\u0119 wsp\u00f3\u0142czesn\u0105",
+    "cost": 3100,
+    "civilopedia_entry": "Cz\u0119\u015bci zamienne powstaj\u0105 w procesie produkcyjnym, w kt\u00f3rym wytwarza si\u0119 wiele kopii tego samego przedmiotu, a ka\u017cda z nich sk\u0142ada si\u0119 z identycznych cz\u0119\u015bci. Proces ten umo\u017cliwia znacz\u0105ce przyspieszenie i zwi\u0119kszenie zysk\u00f3w z produkcji, co sta\u0142o si\u0119 motorem nap\u0119dowym rewolucji przemys\u0142owej w XIX wieku.Do upowszechnienia cz\u0119\u015bci zamiennych przyczyni\u0142o si\u0119 zapotrzebowanie na bro\u0144 paln\u0105 dla \u017co\u0142nierzy. Pocz\u0105tkowo muszkiety by\u0142y wytwarzane przez rzemie\u015blnik\u00f3w, ka\u017cda sztuka mog\u0142a nieznacznie r\u00f3\u017cni\u0107 si\u0119 od innych \u2013 jeden rzemie\u015blnik m\u00f3g\u0142 produkowa\u0107 d\u0142u\u017csz\u0105 bro\u0144, a inny montowa\u0142 wi\u0119kszy lub mniejszy spust. Dla jednej osoby nie by\u0142 to wielki problem \u2013 w razie awarii muszkietu mo\u017cna by\u0142o odda\u0107 go do naprawy rzemie\u015blnikowi, z kt\u00f3rego warsztatu pochodzi\u0142a bro\u0144. Oczywi\u015bcie by\u0142o to niewykonalne w przypadku armii z tysi\u0105cami muszkiet\u00f3w.Ale kiedy wszystkie by\u0142y identyczne, mo\u017cna by\u0142o wykorzysta\u0107 cz\u0119\u015b\u0107 z uszkodzonego muszkietu do naprawy innego. Ponadto \u017co\u0142nierz wyszkolony w pos\u0142ugiwaniu si\u0119 jednym muszkietem m\u00f3g\u0142 wzi\u0105\u0107 drugi i spodziewa\u0107 si\u0119, \u017ce bro\u0144 b\u0119dzie zachowywa\u0107 si\u0119 w podobny spos\u00f3b i nie trzeba b\u0119dzie zaznajamia\u0107 si\u0119 z jej indywidualnymi w\u0142a\u015bciwo\u015bciami.W tej chwili praktycznie wszystko, co produkuje si\u0119 na naszej planecie, sk\u0142ada si\u0119 z cz\u0119\u015bci zamiennych. Rzemie\u015blnicy zostali artystami, a ich towary s\u0105 za drogie dla wi\u0119kszo\u015bci przeci\u0119tnych nabywc\u00f3w.",
+    "quote": "\u201eNic nie jest trudne, je\u015bli podzieli si\u0119 to na mniejsze zadania.\u201d \u2013 Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "Silnik parowy|Silnika parowego|Silnikowi parowemu|Silnik parowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steam_power.json"
+        },
+        {
+            "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tworzywo sztuczne|Tworzywa sztucznego|Tworzywu sztucznemu|Tworzywo sztuczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/plastics.json"
+        },
+        {
+            "name": "Elektronika|Elektroniki|Elektronice|Elektronik\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Legia Cudzoziemska|Legii Cudzoziemskiej|Legii Cudzoziemskiej|Legi\u0119 Cudzoziemsk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/foreign_legion.json"
+        },
+        {
+            "name": "Piechota z czas\u00f3w wielkiej wojny|Piechoty z czas\u00f3w wielkiej wojny|Piechocie z czas\u00f3w wielkiej wojny|Piechot\u0119 z czas\u00f3w wielkiej wojny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Baza wojskowa|Bazy wojskowej|Bazie wojskowej|Baz\u0119 wojskow\u0105|Bazy wojskowe|Baz wojskowych|Bazom wojskowym|Bazy wojskowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/military_base.json"
+        },
+        {
+            "name": "Statua Wolno\u015bci|Statuy Wolno\u015bci|Statule Wolno\u015bci|Statu\u0119 Wolno\u015bci",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/statue_of_liberty.json"
+        }
+    ]
+}

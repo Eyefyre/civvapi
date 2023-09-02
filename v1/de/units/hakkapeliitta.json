@@ -1,0 +1,43 @@
+{
+    "id": 106,
+    "name": "Hakkapeliten",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hakkapeliitta.png",
+    "game_info": "Berittene Elite-Einheit, die auf den Einsatz mit Gro\u00dfen Gener\u00e4len spezialisiert ist. Nur die Schweden k\u00f6nnen sie bauen.",
+    "historical_info": "Der verschneite Norden ist ihr Vaterland. Dort knistert ihr Herz am st\u00fcrmischen Strand. Die Hakkapeliten waren eine Division finnischer leichter Kavalleristen, die K\u00f6nig Gustav Adolf w\u00e4hrend des Drei\u00dfigj\u00e4hrigen Krieges einsetzte. Sie waren bestens ausgebildet und ausgezeichnet beim \u00dcberfall, Sp\u00e4hen, bei blitzschnellen Angriffen und vor allem beim Vorst\u00fcrmen. Wenn sie im vollen Galopp angriffen, feuerten die Hakkapeliten ihre Pistolen auf die feindlichen Reihen ab und zogen dann ihre Schwerter, wenn ihre Pferde mit dem Feind in Kontakt traten. Die kleinen, st\u00e4mmigen, kr\u00e4ftigen Pferde der Hakkapeliten waren teilweise die Vorl\u00e4ufer der modernen Finnpferd-Z\u00fcchtung, des finnischen Nationalpferds.",
+    "strategy": "Hakkapeliten sind die berittenen Eliteeinheiten der schwedischen Armee in der sp\u00e4ten Renaissance. Es sollte m\u00f6glichst ein Gro\u00dfer General im Verband bei ihnen sein. Der Gro\u00dfe General bekommt dann den Fortbewegungsbonus der Hakkapeliten, letztere erhalten in einem solchen Verband 15% Kampfbonus.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fortbewegung dem General \u00fcbertragen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/transfer_movement_to_general.json"
+        },
+        {
+            "name": "Gro\u00dfer General-Kampfbonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/great_general_combat_bonus.json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/formation_i.json"
+        }
+    ]
+}

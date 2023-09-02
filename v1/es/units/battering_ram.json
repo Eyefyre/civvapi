@@ -1,0 +1,43 @@
+{
+    "id": 107,
+    "name": "Ariete|Arietes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battering_ram.png",
+    "game_info": "Una unidad de asedio que es mortal en los ataques cuerpo a cuerpo contra las ciudades. Solo los hunos pueden construirla.",
+    "historical_info": "El ariete fue un arma de asedio que se emple\u00f3 fundamentalmente durante la Antig\u00fcedad. Los arietes, dise\u00f1ados con un objetivo concreto en mente, se usaban para destrozar los portones de madera propios de esta \u00e9poca. Aunque los hay de diversas formas y tama\u00f1os, todos los arietes compart\u00edan el mismo principio general: se montaban sobre un carro o sobre otra plataforma con ruedas y se fijaba un tronco o un poste pesado con cadenas o cuerdas. Los soldados que manejaban el ariete tiraban de \u00e9l y lo soltaban con fuerza para astillar la puerta enemiga. Aunque son escasos los detalles concretos que nos han llegado acerca de la implementaci\u00f3n que los hunos hicieron de esta arma de asedio, se sabe que los utilizaron con \u00e9xito en la conquista de varias ciudades europeas.",
+    "strategy": "Los Arietes son una unidad exclusiva huna que sustituye al Lancero. Usa Arietes para derribar las defensas de una ciudad. Dales el ascenso Cobertura I para mantenerlos a salvo de las unidades de ataque a distancia. At\u00e1calos con unidades de cuerpo a cuerpo para destruirlos.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Forja del bronce",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (300)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(300).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n a la Defensa (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_on_defense_(33).json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Cobertura I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cover_i.json"
+        },
+        {
+            "name": "Solo ataca ciudades",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/city_attack_only.json"
+        }
+    ]
+}

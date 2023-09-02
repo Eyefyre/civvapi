@@ -1,0 +1,44 @@
+{
+    "id": 19,
+    "name": "Moneda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/currency.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 175,
+    "civilopedia_entry": "La moneda es una innovaci\u00f3n notable en la que trozos de papel o peque\u00f1os discos representan cierta cantidad de riqueza y pueden intercambiarse por bienes y servicios. Las primeras monedas eran piezas de metal que ten\u00edan el valor real del metal del que estuvieran hechas. Posteriormente, pas\u00f3 a tener un escaso o nulo valor intr\u00ednseco (en una isla desierta, un billete no es m\u00e1s que un peque\u00f1o trozo rectangular de papel), pero el emisor de la moneda (normalmente, un estado) le asignaba un valor y, mientras el emisor fuera solvente, su moneda val\u00eda tanto como el oro, por as\u00ed decirlo.En el antiguo Egipto del cuarto milenio a. C. se usaban como moneda barras de oro de un peso determinado. En el resto de Oriente Medio, se utilizaban lingotes de cobre con fines parecidos. En muchos lugares del mundo, los anillos, pulseras y brazaletes de metal (de oro o plata y con joyas) se usaban de adorno y de moneda.Durante toda la historia, los falsificadores siempre han intentado crear copias falsas de la moneda en curso. Duplicaban monedas de calidad inferior y de un metal m\u00e1s barato que el cu\u00f1o legal o \"raspaban\" un poco de metal de una moneda hecha de un material precioso. Cuando el papel moneda se extendi\u00f3, los falsificadores aprendieron r\u00e1pidamente a replicar el tama\u00f1o, el color y el tacto del papel, y a copiar los dibujos y los textos de los billetes. Los falsificadores son tan h\u00e1biles que la moneda actual incluye siempre muchas medidas avanzadas de seguridad, y no est\u00e1 lejos el d\u00eda en que cada billete lleve su propio microchip incorporado en el papel.",
+    "quote": "\"Mejor pan con el coraz\u00f3n feliz que riqueza con exasperaci\u00f3n.\" - Amenemopet",
+    "tech_prereqs": [
+        {
+            "name": "Matem\u00e1ticas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Gremios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/guilds.json"
+        },
+        {
+            "name": "Administraci\u00f3n p\u00fablica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Bazar|Bazares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/bazaar.json"
+        },
+        {
+            "name": "Ceca|Cecas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mint.json"
+        },
+        {
+            "name": "Mercado|Mercados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/market.json"
+        },
+        {
+            "name": "Petra|Petras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/petra.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "name": "Tank",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tank.png",
+    "game_info": "Fast and powerful late game Unit.",
+    "historical_info": "A tank provides the stopping power of artillery with the mobility of cavalry. The first tanks appeared toward the end of World War I, invented to overcome the superiority of defensive warfare at the time: with machineguns, barbed wire and trenches, massed infantry attacks were costly failures, and cavalry charges were total non-starters. Although poorly designed and plagued by engine problems and inexperienced crewmen, the early tanks did show great potential - at least to those paying attention. In World War II, the Germans employed the \"blitzkrieg\" - lightning-fast assaults headed by fleets of tanks - to extraordinary effect, conquering France and driving the British army right off the continent before their generals could figure out a response to the astonishing new tactic. While tanks remain the most important offensive component of a ground army even today, they have proven to be quite vulnerable to a newer, even faster weapon: the helicopter gunship.",
+    "strategy": "The Tank is an extremely powerful and mobile land unit. It can move after combat, allowing it to blow holes in enemy lines and then move into the now-vacant hexes.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Combined Arms",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

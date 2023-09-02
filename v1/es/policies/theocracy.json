@@ -1,0 +1,20 @@
+{
+    "id": 78,
+    "name": "Teocracia",
+    "game_info": "TeocraciaLos templos aumentan un 25% el rendimiento de Oro de una ciudad. Los Lugares sagrados proporcionan +3 de Oro .",
+    "historical_info": "En un estado teocr\u00e1tico, los l\u00edderes religiosos tienen el poder supremo sobre el pa\u00eds. En verdad, quien ostenta el poder es el dios de esa religi\u00f3n, pero lo ejerce guiando a los l\u00edderes religiosos. Las teocracias suelen ser militaristas, ya que los l\u00edderes religiosos ven el ej\u00e9rcito del pa\u00eds como una herramienta para extender su religi\u00f3n por los estados infieles. Las teocracias modernas suelen ver con miedo u odio el progreso, pues consideran que los lujos y avances modernos son una amenaza a la devoci\u00f3n del pa\u00eds (y quiz\u00e1 tambi\u00e9n a su poder).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/teocracia.png",
+    "required_policies": [
+        {
+            "name": "Religi\u00f3n organizada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Devoci\u00f3n",
+        "game_info": "La Devoci\u00f3n aumenta la Fe .Adoptarla te permite construir Santuarios y Templos en la mitad de tiempo. Desbloquea la construcci\u00f3n de la Gran Mezquita de Djenn\u00e9.La adopci\u00f3n de todas las pol\u00edticas provocar\u00e1 la aparici\u00f3n de un Gran profeta y los Lugares sagrados dar\u00e1n +3 de Oro",
+        "prereq_era": null,
+        "historical_info": "Devoci\u00f3n significa la consagraci\u00f3n a una religi\u00f3n o a un sistema de creencias espirituales. Se considera que una persona \"devota\" es m\u00e1s \"religiosa\" que los dem\u00e1s, y sigue a pies juntillas las creencias de su religi\u00f3n y acepta sus doctrinas sin cuestionarlas."
+    }
+}

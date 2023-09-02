@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Landsknecht",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "This unit is much cheaper than the Pikeman, and can pillage without using any movement points. Steals gold when attacking a city. Unlocked through the Mercenary Army social policy, these units may not be built; they must be purchased through gold. May move immediately after purchase.",
+    "historical_info": "The landsknecht were German mercenary pikemen of the 16th century. Created in imitation of the legendary Swiss mercenary pikemen, the landsknecht would eventually supplant them as the best mercenary infantry available in Europe, fighting in almost every major engagement in the 16th century - often on both sides. In battle landsknechts generally carried pikes of up to twenty feet in length. Some few also carried huge two-handed swords or halberds; these were used to chop the heads off of the pikes of their opponents.",
+    "strategy": "The Landsknecht is a unit only available through the Mercenary Army social policy that must be purchased with gold. The Landsknecht is much cheaper than the Pikeman and has a number of bonuses related to pillaging tiles and sacking cities. These units create a cheap army that can provide a nice return on their investment if sent rampaging across enemy territory.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Civil Service",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "No Movement Cost to Pillage",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "City Plunder",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/city_plunder.json"
+        }
+    ]
+}

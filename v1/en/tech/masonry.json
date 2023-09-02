@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Masonry",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Ancient Era",
+    "cost": 55,
+    "civilopedia_entry": "Masonry is the construction of structures from individual blocks bound together by some kind of mortar. The blocks may be made of stone, concrete, cinder, or they may be clay bricks. The mortar is some kind of workable paste that dries into an extremely durable material. It is usually composed of a mixture of sand, cement or lime, and water.The ancient Egyptians mastered the art of masonry as early as the fourth millennium BC, constructing their temples, palaces and pyramids from the large veins of limestone, sandstone, granite and basalt found in the hills of the Nile River. The ancient Assyrians of the Fertile Crescent lacked such easy access to stone but possessed rich deposits of clay, which they sun-dried into bricks. Since sun-dried bricks can be vulnerable to moisture, they often covered their structures with more water-resistant kiln-baked or glazed tiles.The ancient Romans invented concrete, which was a far superior mortar to that used by earlier civilizations (usually clay-based), and which could be used as a construction material in itself. This so-called \"concrete revolution\" allowed the Romans to construct buildings that were impossible using more primitive materials. In the 19th century a Parisian gardener thought to imbed iron mesh into his concrete tubs and pots; his invention of reinforced concrete greatly increased the \"tensile strength\" of the material, making it more suitable for tall structures that might be subject to stress from wind, vibration, or even earthquakes. More recent innovations have greatly increased the strength and flexibility of this most useful of all construction materials. And though many modern buildings are constructed of glass and steel, they all rest upon foundations built using the ancient construction techniques of masonry.",
+    "quote": "\"How happy are those whose walls already rise!\" - Virgil",
+    "tech_prereqs": [
+        {
+            "name": "Mining",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Walls",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/walls.json"
+        },
+        {
+            "name": "Pyramids",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/pyramids.json"
+        },
+        {
+            "name": "Mausoleum of Halicarnassus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Walls of Babylon",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/walls_of_babylon.json"
+        }
+    ]
+}

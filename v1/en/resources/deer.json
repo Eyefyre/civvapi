@@ -1,0 +1,37 @@
+{
+    "id": 10,
+    "name": "Deer",
+    "game_info": null,
+    "historical_info": "Deer and their relatives - reindeer, moose, roe, etc. - can be found in herds across the planet. They have provided food, leather, bones, gut, and other materials for pre-industrial people for uncounted thousands of years.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/deer.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

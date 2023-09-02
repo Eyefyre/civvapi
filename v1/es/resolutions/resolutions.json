@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "L\u00edder mundial",
+        "summary": "Nombra al L\u00edder mundial. Si una civilizaci\u00f3n recibe el apoyo de suficientes delegados en el Congreso, ese l\u00edder conseguir\u00e1 una victoria diplom\u00e1tica. La cantidad necesaria depende del n\u00famero de civilizaciones y de ciudades-estado que haya en juego y puede verse en la pantalla del L\u00edder mundial.Si ninguna civilizaci\u00f3n recibe bastante apoyo para ganar, las dos que consiguieron el mayor apoyo ganar\u00e1n permanentemente 2 delegados adicionales para usarlos en sesiones futuras.Esta propuesta no la puede hacer una civilizaci\u00f3n, sino que se propone autom\u00e1ticamente a intervalos regulares una vez el Congreso Mundial se convierta en las Naciones Unidas.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Nombramiento de anfitri\u00f3n",
+        "summary": "Nombra a una civilizaci\u00f3n como anfitriona del Congreso. Ser anfitri\u00f3n supone tener m\u00e1s delegados y poder proponer resoluciones.Esta resoluci\u00f3n no la puede proponer una civilizaci\u00f3n, sino que se presenta autom\u00e1ticamente cuando las civilizaciones pasan a \u00e9pocas posteriores.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Embargo a las ciudades-estado",
+        "summary": "No se puede fundar ninguna ruta comercial con las ciudades-estado. Todas las rutas comerciales de este tipo se terminan y deben reasignarse.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "No se puede fundar ninguna ruta comercial entre la civilizaci\u00f3n elegida y cualquier otra. Todas las rutas comerciales de este tipo se terminan y deben reasignarse.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Prohibir lujo",
+        "summary": "Se decide que un recurso de lujo es inmoral, peligroso o por lo dem\u00e1s inapropiado para que lo use la poblaci\u00f3n en general. Mientras la prohibici\u00f3n est\u00e9 en vigor, las civilizaciones no recibir\u00e1n ning\u00fan beneficio de Felicidad por dicho recurso.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Tasa por ej\u00e9rcito permanente",
+        "summary": "El coste en Oro de mantenimiento de unidades se incrementa en un 25%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Eruditos en residencia",
+        "summary": "Las civilizaciones investigan una tecnolog\u00eda un 20% m\u00e1s r\u00e1pido si ya ha sido descubierta por al menos otra civilizaci\u00f3n.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "Feria Mundial",
+        "summary": "Inicia el proyecto de la Exposici\u00f3n Universal. Cuando este se encuentre en marcha, las civilizaciones podr\u00e1n contribuir con Producci\u00f3n para completarlo si as\u00ed lo seleccionan en la lista de producci\u00f3n de la ciudad. Cuando se complete, las civilizaciones recibir\u00e1n bonificaciones en funci\u00f3n de lo mucho que hayan aportado.   ",
+        "project_prizes": {
+            "gold": "La Cultura aumenta en un 100% durante 20 turnos.",
+            "silver": "Pol\u00edtica social gratis",
+            "bronze": "500 puntos hacia la pr\u00f3xima Edad de Oro ."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "Juegos Internacionales",
+        "summary": "Inicia el proyecto de los Juegos Internacionales. Cuando este se encuentre en marcha, las civilizaciones podr\u00e1n contribuir con Producci\u00f3n para completarlo si as\u00ed lo seleccionan en la lista de producci\u00f3n de la ciudad. Cuando se complete, las civilizaciones recibir\u00e1n bonificaciones en funci\u00f3n de lo mucho que hayan aportado.  Solo est\u00e1 disponible cuando una civilizaci\u00f3n descubre la Radio.",
+        "project_prizes": {
+            "gold": "El Turismo aumenta en un 100% durante 20 turnos. Pol\u00edtica social gratis.",
+            "silver": "+3 a Felicidad . Aumento \u00fanico de 30 a Influencia con ciudades-estado.",
+            "bronze": "+3 a Felicidad ."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "Estaci\u00f3n Espacial Internacional",
+        "summary": "Inicia el proyecto de la Estaci\u00f3n Espacial Internacional. Cuando este se encuentre en marcha, las civilizaciones podr\u00e1n contribuir con Producci\u00f3n para completarlo si as\u00ed lo seleccionan en la lista de producci\u00f3n de la ciudad. Cuando se complete, las civilizaciones recibir\u00e1n bonificaciones en funci\u00f3n de lo mucho que hayan aportado.  Solo est\u00e1 disponible cuando una civilizaci\u00f3n descubre los Sat\u00e9lites.",
+        "project_prizes": {
+            "gold": "La maravilla Estaci\u00f3n Espacial Internacional aparece en la capital . +1 a la Producci\u00f3n de los Cient\u00edficos y +1 a la de Ciencia de los Ingenieros. Los Grandes cient\u00edficos proporcionan un 33% m\u00e1s de Ciencia cuando se utiliza para descubrir nueva tecnolog\u00eda. Solo se puede construir en colaboraci\u00f3n mediante el Congreso Mundial.",
+            "silver": "Gran cient\u00edfico gratis.",
+            "bronze": "Empuje en investigaci\u00f3n \u00fanico"
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Enclaves de herencia cultural",
+        "summary": "Cada Maravilla del mundo aporta +3 a la Cultura de su ciudad.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Enclaves de herencia natural",
+        "summary": "Cada Maravilla natural otorga +5 a la Cultura cuando se explota.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Prohibir armas nucleares",
+        "summary": "Se impide que todas las civilizaciones construyan armas nucleares (Bomba at\u00f3mica y Misil nuclear). No obstante, las armas que ya est\u00e9n construidas no se desmantelar\u00e1n.. Solo est\u00e1 disponible cuando una civilizaci\u00f3n descubre la Bal\u00edstica avanzada.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "Religi\u00f3n del mundo",
+        "summary": "Designa una religi\u00f3n como la oficial del mundo. Las civilizaciones que tengan una mayor\u00eda de ciudades en su imperio que sigan la religi\u00f3n recibir\u00e1n 2 delegados m\u00e1s. La religi\u00f3n se propaga un 25% m\u00e1s r\u00e1pido, y su ciudad santa recibe un +50% a Turismo . Solo puede haber una religi\u00f3n del mundo a la vez.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "Ideolog\u00eda del mundo",
+        "summary": "Designa una Ideolog\u00eda como la oficial del mundo. Las civilizaciones que la sigan recibir\u00e1n 2 delegados m\u00e1s. La opini\u00f3n p\u00fablica a favor de esta ideolog\u00eda aumentar\u00e1 en todas las civilizaciones. Solo puede haber una Ideolog\u00eda del mundo a la vez.Solo est\u00e1 disponible cuando una civilizaci\u00f3n descubre la Radio.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Financiaci\u00f3n de las artes",
+        "summary": "Aumenta en un 33% la creaci\u00f3n de Grandes escritores, artistas y m\u00fasicos. Disminuye en un 33% la de Grandes cient\u00edficos, ingenieros y mercaderes.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Financiaci\u00f3n cient\u00edfica",
+        "summary": "Aumenta en un 33% la creaci\u00f3n de Grandes cient\u00edficos, ingenieros y mercaderes. Disminuye en un 33% la de Grandes escritores, artistas y m\u00fasicos.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Sitios de inter\u00e9s hist\u00f3rico",
+        "summary": "Las mejoras de casillas por Grandes personajes conceden +2 de Cultura cuando se explotan, y los Sitios de inter\u00e9s que construyan los Arque\u00f3logos dan +4 de Cultura cuando se explotan.Solo est\u00e1 disponible cuando una civilizaci\u00f3n descubre la Arqueolog\u00eda.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/es/resolutions/historical_landmarks.json"
+    }
+]

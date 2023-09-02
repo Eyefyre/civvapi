@@ -1,0 +1,33 @@
+{
+    "id": 22,
+    "name": "F\u00e4rbemittel",
+    "game_info": null,
+    "historical_info": "Ein F\u00e4rbemittel ist eine Substanz, die (vor\u00fcbergehend oder dauerhaft) die Farbe einer anderen Substanz, \u00fcblicherweise eines Stoffes oder der menschlichen Haut, ver\u00e4ndern kann. Im Lauf der Geschichte wurden F\u00e4rbemittel aus verschiedenen Materialien gewonnen, darunter Pflanzen, Mineralien und Teile von Tieren. Die Menschheit verwendet bereits seit mindestens 37.000 Jahren F\u00e4rbemittel, vielleicht sogar noch l\u00e4nger.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/f\u00e4rbemittel.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/dschungel.json"
+        },
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/wald.json"
+        }
+    ]
+}

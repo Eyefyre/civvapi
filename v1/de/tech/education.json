@@ -1,0 +1,52 @@
+{
+    "id": 27,
+    "name": "Bildungswesen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/education.png",
+    "era": "Mittelalter",
+    "cost": 485,
+    "civilopedia_entry": "Das Bildungswesen ist der Bereich, durch den ein Volk lernt. Offensichtlich gibt es Bildung, seitdem es Menschen gibt. W\u00e4hrend langer Zeiten in der Geschichte war Bildung eine inoffizielle Sache: Eltern, die ihren Kindern beibrachten, was sie wissen mussten, um zwischen Haushalt, Jagdausfl\u00fcgen und beim Abwehren von Tigern etc. zu \u00fcberleben. Wenn ein Stamm gr\u00f6\u00dfer und erfolgreicher wurde, wurden die \u00c4lteren oder Verkr\u00fcppelten im Dorf abgestellt, um die Bildung der Kinder zu \u00fcbernehmen, w\u00e4hrend die ges\u00fcnderen Erwachsenen Nahrung beschafften, Sachen bauten oder Krieg f\u00fchrten. Wohlhabende St\u00e4mme oder D\u00f6rfer richten schlie\u00dflich eine formelle Klasse f\u00fcr die wichtigeren Kinder ein und sobald eine Zivilisation reif genug ist, erkennt sie vielleicht den Wert von Bildung f\u00fcr alle.Im alten \u00c4gypten diente die Priesterklasse als Lehrer f\u00fcr die Kinder des Adels. In diesen \u00e4gyptischen Schulen wurden den Kindern Schrift, Religion, Geschichte, Wissenschaft, Medizin, Mathematik und andere fortschrittliche Bereiche beigebracht. Es gab ein konkurrierendes Bildungssystem in Mesopotamien mit Priestern und Schriftgelehrten, die Kopisten, Bibliothekare oder Lehrer sein konnten. Die mesopotamischen Sch\u00fcler lernen Schrift, Religion, das Gesetz, Medizin und Astrologie. Die ersten Bildungswesen waren vor ca. 3.000 Jahren in China zu beobachten. Lesen, Schreiben, B\u00fcrgerpflichten, Rituale und Musik bildeten das Kernkurrikulum.In der Maya-Kultur lag die Erziehung in den H\u00e4nden der Priester. Sie bildeten die gebildete Klasse und diensten als wichtige Berater f\u00fcr die H\u00e4uptlinge und andere B\u00fcrger. Um ein Priester zu werden, durchlebte ein Sch\u00fcler ein strikte Ausbildung in Geschichte, Schrift, Prophezeiung, Medizin und dem Kalendersystem.",
+    "quote": "\"Bildung ist die beste Vorsorge f\u00fcr das Alter.\" - Aristoteles",
+    "tech_prereqs": [
+        {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        },
+        {
+            "name": "\u00d6ffentliche Verwaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+        },
+        {
+            "name": "Akustik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+        },
+        {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/wat.json"
+        },
+        {
+            "name": "Universit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/university.json"
+        },
+        {
+            "name": "Universit\u00e4t von Oxford",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/oxford_university.json"
+        },
+        {
+            "name": "Angkor Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/angkor_wat.json"
+        }
+    ]
+}

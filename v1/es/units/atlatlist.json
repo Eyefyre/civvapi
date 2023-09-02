@@ -1,0 +1,23 @@
+{
+    "id": 97,
+    "name": "Lanzadardos|Lanzadardos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atlatlist.png",
+    "game_info": "Solo los mayas pueden crear esta unidad. Es m\u00e1s barata que el Arquero, al que sustituye, y est\u00e1 disponible antes que este.",
+    "historical_info": "Los lanzadardos eran unidades de combate a distancia superespecializadas que empleaban un objeto largo de madera, similar a una lanza, para arrojar dardos a gran velocidad contra el objetivo. Este \u00fatil, que se llamaba \"atlatl\", ten\u00eda en un extremo una peque\u00f1a concavidad en la que se apoyaba el dardo y un surco tallado a lo largo para que el proyectil se deslizara. Mediante el atlatl, el lanzadardos (o \"atlalista\") pod\u00eda arrojar un dardo hasta a 100 m y a velocidades de casi 100 km/h, bastante m\u00e1s lejos y m\u00e1s r\u00e1pido que un proyectil que se lanzara a mano. Los lanzadardos mayas eran capaces de devastar a enemigos desde lejos, suponiendo que tuvieran una visual clara con ellos.Algunos de los atlatls m\u00e1s antiguos se remontan a hace unos 400.000 a\u00f1os y los us\u00f3 el extinto Homo Heidelbergensis. Se cree que el Homo Sapiens empez\u00f3 a usar las primeras versiones del atlatl en el Paleol\u00edtico superior, alrededor del 15.500 a. C.",
+    "strategy": "El Lanzadardos es la unidad exclusiva maya que sustituye al Arquero. Adem\u00e1s, es m\u00e1s barato que este y se puede disponer de \u00e9l antes de haber descubierto el Tiro con arco. Esta ventaja de las primeras fases te permite investigar otras cosas prioritarias para ponerlas en juego.",
+    "movement": 2,
+    "cost": {
+        "production": 36,
+        "faith": 72
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": 5,
+    "name": "Kopalnia|Kopalni|Kopalni|Kopalni\u0119|Kopalnie|Kopal\u0144|Kopalniom|Kopalnie",
+    "game_info": "Kopalnie s\u0105 jednymi z najwa\u017cniejszych wynalazk\u00f3w w Civilization V. Nie tylko poprawiaj\u0105 wydajno\u015b\u0107 pola (a wysoka wydajno\u015b\u0107 umo\u017cliwia szybsz\u0105 budow\u0119 jednostek, budynk\u00f3w i cud\u00f3w), ale r\u00f3wnie\u017c zapewniaj\u0105 dost\u0119p do najwa\u017cniejszych surowc\u00f3w w grze \u2013 na przyk\u0142ad, do \u017celaza, w\u0119gla i uranu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kopalnia|kopalni|kopalni|kopalni\u0119|kopalnie|kopal\u0144|kopalniom|kopalnie.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        },
+        {
+            "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
+        },
+        {
+            "name": "Z\u0142oto|Z\u0142ota|Z\u0142otu|Z\u0142oto",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gold.json"
+        },
+        {
+            "name": "Srebro|Srebra|Srebru|Srebro",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silver.json"
+        },
+        {
+            "name": "Mied\u017a|Miedzi|Miedzi|Mied\u017a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/copper.json"
+        },
+        {
+            "name": "S\u00f3l|Soli|Soli|S\u00f3l",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/salt.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "G\u00f3rnictwo|G\u00f3rnictwa|G\u00f3rnictwu|G\u00f3rnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mining.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

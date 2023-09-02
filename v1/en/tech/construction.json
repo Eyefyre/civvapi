@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Construction",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "Classical Era",
+    "cost": 105,
+    "civilopedia_entry": "Construction represents the advancement of the study of masonry, primarily by adding iron and other metals to the builder's toolbox. Although remarkably durable, stone and brick are also quite heavy and inflexible. It's impossible to construct very tall structures out of these materials - unless the structure in question is solid stone or brick and is pyramid-shaped - otherwise they will collapse under their own weight or in the face of a strong wind.Metal structures, on the other hand, or masonry reinforced with metal - can be quite tall and beautiful, and structurally sound. Using metal one can create soaring bridges, deep tunnels, great skyscrapers and elevated roadways. Without construction none of the world's great cities could exist, nor could its most beautiful architecture.",
+    "quote": "\"Three things are to be looked to in a building: that it stand on the right spot; that it be securely founded; that it be successfully executed.\" - Johann Wolfgang von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Masonry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/masonry.json"
+        },
+        {
+            "name": "The Wheel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Engineering",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Composite Bowman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Colosseum",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/colosseum.json"
+        },
+        {
+            "name": "Terracotta Army",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/terracotta_army.json"
+        }
+    ]
+}

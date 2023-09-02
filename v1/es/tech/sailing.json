@@ -1,0 +1,44 @@
+{
+    "id": 6,
+    "name": "Navegaci\u00f3n a vela",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/sailing.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "La navegaci\u00f3n a vela es el arte de dominar la fuerza del viento para mover una nave por las aguas. Para conseguirlo, la navegaci\u00f3n a vela precisa de muchas habilidades distintas. Primero, la cultura ha de ser capaz de construir una nave marinera. Segundo, ha de ser capaz de construir alguna clase de tela resistente (velas) con la que poder atrapar el viento y transmitir su energ\u00eda al casco. Tercero, tiene que poder crear diversos \"cabos\" (cuerdas), cornamusas y poleas para controlar las velas del barco. Por \u00faltimo, ha de poder llevarlo de un lugar a otro sin perderse, ni volcar ni sufrir ning\u00fan otro percance.Las primeras pruebas documentales de naves se encuentran en ilustraciones egipcias que datan de alrededor del 4000 a. C. Como civilizaci\u00f3n ribere\u00f1a (nativa de los r\u00edos), los egipcios eran unos marineros excelentes. Muchas de sus naves contaban con remos y velas. Los primeros se usaban cuando el viento no era lo bastante fuerte o no soplaba en la direcci\u00f3n favorable.En el 3000 a. C., los egipcios ya se aventuraban por el Mediterr\u00e1neo en sus barcos y controlaban el largo viaje por mar abierto hasta Creta y, posteriormente, Fenicia. Tambi\u00e9n bajaron por la costa de \u00c1frica en busca de conocimientos, comercio y tesoros.Las primeras naves de guerra (birremes, trirremes y similares) iban impulsadas mediante remos y contaban con un ariete o espol\u00f3n en la proa. Durante el combate, el timonel intentaba embestir al enemigo a una gran velocidad a la vez que evitaba que hicieran lo mismo con \u00e9l. Algunas naves contaban con arqueros para poder disparar contra el enemigo a gran distancia, mientras que otras ten\u00edan soldados. Estas \u00faltimas trataban de ponerse al lado de las naves enemigas para que los soldados pudieran abordarlas y capturarlas.Los griegos, especialmente los atenienses y las colonias isle\u00f1as, eran maestros de la guerra naval. Una de las razones por las que pudieron derrotar a un enemigo mucho m\u00e1s grande y poderoso que ellos, Persia, es que la armada ateniense dominaba el mar Egeo, por lo que pon\u00eda en peligro constantemente las l\u00edneas de suministro persas, que cada vez ten\u00edan que abastecer a m\u00e1s hombres.",
+    "quote": "\"El que gobierna el mar, lo gobierna todo.\" - Tem\u00edstocles",
+    "tech_prereqs": [
+        {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u00d3ptica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/optics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Barco faenero|Barcos faeneros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/work_boat.json"
+        },
+        {
+            "name": "Trirreme|Trirremes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/trireme.json"
+        },
+        {
+            "name": "Drom\u00f3n|Dromones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/dromon.json"
+        },
+        {
+            "name": "Quinquerreme|Quinquerremes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/quinquereme.json"
+        },
+        {
+            "name": "Barco de carga|Barcos de carga",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/cargo_ship.json"
+        }
+    ],
+    "building_unlocks": []
+}

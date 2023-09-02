@@ -1,0 +1,41 @@
+{
+    "id": 42,
+    "name": "Archeologia|dell'Archeologia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archaeology.png",
+    "era": "Epoca industriale",
+    "cost": 1600,
+    "civilopedia_entry": "L'archeologia si occupa di studiare quanto i resti delle civilt\u00e0 antiche per apprenderne la cultura, l'arte, l'architettura e la storia. Gli archeologi studiano le rovine, i luoghi di sepoltura, i cumuli di rifiuti, i disegni nelle caverne e le navi da lungo tempo affondate e depositatesi sul fondo dell'oceano.Anche se le persone si interessano della vita di coloro che le hanno precedute sin da quando... esistono le persone, l'archeologia come scienza ebbe origine nell'Europa rinascimentale del XV secolo, quando si cominci\u00f2 a studiare ed emulare l'arte e l'architettura degli antichi greci e latini e i nobili italiani, i papi, i mercanti e i capi di stato cominciarono a collezionare antichit\u00e0. Quando queste cominciarono a scarseggiare, si iniziarono a finanziare scavi per recuperarne delle altre.L'archeologia ricevette basi pi\u00f9 scientifiche nel XIX secolo grazie agli sforzi di studiosi tedeschi come Heinrich Schliemann, che si dedic\u00f2 alle antiche civilt\u00e0 greche di Troia e Micene.Oggi gli archeologi studiano ogni aspetto dell'umanit\u00e0 passata, a partire dal nostro antenato pi\u00f9 lontano fino ai nostri bis-bisnonni. I loro strumenti incredibilmente sofisticati ci permettono di conoscere con precisione sempre maggiore com'era la vita dei nostri progenitori.",
+    "quote": "\"Chi non ricorda il passato \u00e8 condannato a riviverlo.\" - George Santayana",
+    "tech_prereqs": [
+        {
+            "name": "Navigazione|della Navigazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+        },
+        {
+            "name": "Architettura|dell'Architettura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologia|della Biologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/biology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archeologo|un Archeologo|dal tuo Archeologo|al tuo Archeologo|il tuo Archeologo|da un Archeologo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/archaeologist.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Museo|il Museo|un Museo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/museum.json"
+        },
+        {
+            "name": "Louvre|il Louvre|il Louvre",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/louvre.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "Batidor|Batidores",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Esta unidad es excelente para explorar, puesto que no se ve ralentizada por el terreno abrupto, pero es vulnerable a los ataques.",
+    "historical_info": "Los batidores constituyen la vista y el o\u00eddo de las primeras civilizaciones. Estos guerreros de pies ligeros no estaban destinados a enfrentarse al enemigo, sino que deb\u00edan reconocer el terreno y descubrir las amenazas potenciales y los tesoros. Una civilizaci\u00f3n que ignora lo que sucede a su alrededor est\u00e1 ciega ante el peligro y las oportunidades.",
+    "strategy": "Esta unidad temprana puede atacar, aunque es d\u00e9bil. No obstante, puede moverse por el terreno dif\u00edcil como si estuviera Despejado (todas las casillas le cuestan 1 PM por hex\u00e1gono). \u00dasala para explorar el mundo.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Coste por terreno sin efecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

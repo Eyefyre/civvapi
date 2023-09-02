@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dinamita",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "Era Industrial",
+    "cost": 2350,
+    "civilopedia_entry": "La dinamita es un material explosivo que invent\u00f3 el qu\u00edmico e ingeniero sueco Alfred Nobel en 1867. Se crea empapando un material absorbente, como tierra de diatomeas (curiosamente, el mismo material que se usa en muchos filtros de piscina) con nitroglicerina. La nitroglicerina es un explosivo muy potente pero terriblemente inestable. La dinamita es menos potente, aunque mucho m\u00e1s estable.La dinamita se usa principalmente en miner\u00eda y construcci\u00f3n. Hist\u00f3ricamente, se ha usado en aplicaciones militares, pero la nitroglicerina, el componente explosivo, sigue siendo demasiado inestable para las vol\u00e1tiles condiciones que se suelen dar en el campo de batalla. Por ello, los ej\u00e9rcitos normalmente prefieren un producto modificado que se llama \"dinamita militar\", que no contiene nitroglicerina. En su lugar, se utilizan otros productos qu\u00edmicos, como el TNT, para crear un explosivo que es un 60% menos potente pero que explota cuando tiene que hacerlo.",
+    "quote": "\"En cuanto los hombres deciden que cualquier medio est\u00e1 permitido para destruir el mal, su bien se hace indistinguible del mal que pretenden destruir.\" - Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "Fertilizante",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/fertilizer.json"
+        },
+        {
+            "name": "Belicolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ferrocarril",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artiller\u00eda|Artiller\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

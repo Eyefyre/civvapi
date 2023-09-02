@@ -1,0 +1,35 @@
+{
+    "id": 132,
+    "name": "Comanche Riders",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/comanche_riders.png",
+    "game_info": "Mounted unit that specializes in quick attacks. May only be built by the Shoshone.",
+    "historical_info": "The Comanche were a branch of the Shoshone driven southward into Oklahoma and northern Texas by increasing pressure of the Northern Plains Indians. As Hunter-gatherers, under conditions of incessant conflict with other Indian peoples and Mexican and American settlers, the migratory Comanche developed a horse-warrior culture. Mounted on sturdy plains ponies, Comanche boys were taught to ride at a very early age. The warriors were armed with obsidian-tipped spears, devastating against opposing warriors on foot, and with bows and later rifles. The favored style of combat was guerilla warfare: short, intense, close-in mounted attacks aimed at killing as many of the enemy as possible and driving off their livestock. The so-called Comanche Wars, beginning with their first raids against Spanish outposts in New Mexico in the 1700s, raged nearly continuously until the last bands were subdued by the U.S. Army in 1875.",
+    "strategy": "The Comanche Riders replaces the Cavalry, and only the Shoshone may build it. Cheaper and faster than the base unit.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Military Science",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Full Moon Striker",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/full_moon_striker.json"
+        }
+    ]
+}

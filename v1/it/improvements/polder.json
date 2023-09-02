@@ -1,0 +1,37 @@
+{
+    "id": 24,
+    "name": "Polder",
+    "game_info": "Un polder \u00e8 un tratto di bassopiano racchiuso tra dighe da cui \u00e8 stata prosciugata l'acqua. In generale, si chiama polder una fascia di terra recuperata da mare, lago, terreni allagati o paludi. Con il tempo la terra prosciugata si abbassa, cosicch\u00e9 tutto il polder alla fine si trova sotto il livello dell'acqua circostante. A causa di ci\u00f2 l'acqua penetra nell'area prosciugata e deve essere pompata fuori o fatta defluire in altro modo. Le dighe in genere sono costruite con materiali reperibili sul luogo, di solito terra o sabbia; in tempi moderni queste barriere possono essere ricoperte o interamente composte di cemento. La terra prosciugata \u00e8 estremamente fertile e ottima per il pascolo o la coltivazione.I primi polder furono costruiti nell'XI secolo d.C., sebbene la costruzione di argini come barriere per l'acqua risalga all'epoca dei Romani. Gli olandesi hanno una lunga esperienza nel prosciugare paludi e addirittura nel riportare alla luce i fondi marini, e posseggono la met\u00e0 della superficie dei polder d'Europa. Sebbene ci siano polder in altri paesi europei, e se ne trovi qualche esempio anche in Asia e Nordamerica, l'Olanda ne ha quasi 3.000, che costituiscono quasi il 27% del territorio. Amsterdam stessa \u00e8 costruita in gran parte sopra un polder. Un detto olandese recita: \"Dio ha creato il mondo, ma gli olandesi hanno creato l'Olanda\".",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/polder.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Palude|la palude|una palude",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/marsh.json"
+        },
+        {
+            "name": "Terreni allagati|i terreni allagati|dei terreni allagati",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/flood_plains.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Gilde|delle Gilde",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+    },
+    "required_civ": {
+        "name": "The Netherlands",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/the_netherlands.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 3,
+        "faith": 0,
+        "happiness": 0
+    }
+}

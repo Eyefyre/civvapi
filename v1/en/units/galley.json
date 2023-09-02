@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Galley",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galley.png",
+    "game_info": null,
+    "historical_info": "The Galley is a Barbarian vessel. It is a ship propelled by human oarsmen, in every way inferior to the trireme, the first vessel accessible to civilizations. Generally, Galleys can be expected to haunt the coasts of civilizations, harassing shipping and capturing embarked units. They should be destroyed upon sight.",
+    "strategy": "The Galley is a Barbarian unit which remains in coastal hexes, looking for embarked units to destroy. It is far weaker than any other naval units, but can be dangerous in packs. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack).",
+    "movement": 3,
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

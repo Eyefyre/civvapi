@@ -1,0 +1,34 @@
+{
+    "id": 25,
+    "name": "\u8003\u53e4\u6316\u6398\u5de5\u5730",
+    "game_info": "\u8003\u53e4\u6316\u6398\u5de5\u5730\u53ea\u80fd\u7531\u8003\u53e4\u5b78\u5bb6\u5728\u6b77\u53f2\u53e4\u8e5f\u8cc7\u6e90\u4e0a\u5efa\u7acb\u3002\u7279\u6d1b\u4f9d\u53e4\u57ce\u7684\u767c\u6398\u662f\u4e00\u500b\u5353\u8d8a\u7684\u8003\u53e4\u6316\u6398\u5de5\u5730\u6848\u4f8b\u3002\u5efa\u9020\u8003\u53e4\u6316\u6398\u5de5\u5730\u5f8c\uff0c\u60a8\u7684\u8003\u53e4\u5b78\u5bb6\u53ef\u77ad\u89e3\u6b64\u8655\u57cb\u85cf\u4e86\u4f55\u7a2e\u6587\u7269\u3002\u7136\u5f8c\uff0c\u73a9\u5bb6\u53ef\u4ee5\u9078\u64c7\u8b93\u8003\u53e4\u5b78\u5bb6\u5efa\u7acb\u4e00\u500b\u6c38\u4e45\u7684\u5730\u6a19\uff0c\u6216\u51fa\u571f\u6587\u7269\u653e\u7f6e\u5728\u5e1d\u570b\u4e2d\u67d0\u57ce\u5e02\u7684\u85dd\u8853\u5de8\u4f5c\u5e2d\u4f4d\u4e2d\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u8003\u53e4\u6316\u6398\u5de5\u5730.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u6e6e\u6c92\u7684\u6b77\u53f2\u53e4\u8e5f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/hidden_antiquity_site.json"
+        },
+        {
+            "name": "\u6b77\u53f2\u53e4\u8e5f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/antiquity_site.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u8003\u53e4\u5b78",
+        "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/archaeology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

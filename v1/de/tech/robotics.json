@@ -1,0 +1,45 @@
+{
+    "id": 73,
+    "name": "Robotertechnik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/robotics.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "W\u00e4hrend unterschiedliche Arten von Automaten und Maschinen bereits im 1. Jahrhundert n. Chr. bekannt waren, ist die erste vollst\u00e4ndig automatische Maschine nicht vor der Mitte des 20. Jahrhunderts aufgetaucht. Der Science-Fiction-Autor Isaac Asimov pr\u00e4gte den Term \"Robotik\" unbewusst in seiner 1941 erschienenen Kurzgeschichte \"Ein L\u00fcgner\" in der Annahme, dass er bereits gebr\u00e4uchlich w\u00e4re wie \u00e4hnliche Begriffe, etwa \"Elektronik\". Das Studium der Robotertechnik umfasst alle Aspekte des Aufbaus von Robotern - elektronisch, mechanisch und seine Software - sowie die verschiedenen Arten, auf die sie die Welt um sie herum wahrnehmen und mit ihr interagieren.Einfache industrielle Roboter werden bereits seit den fr\u00fchen 1960ern eingesetzt, aber intelligentere und ausgekl\u00fcgeltere Modelle befinden sich permanent in der Entwicklung. Roboter sind heute n\u00fctzlich bei der Ausf\u00fchrung repetitiver Aufgaben, die hohe Genauigkeit erfordern, doch es wird weiter geforscht, um die Robotik f\u00fcr die Herstellung lebensechter Prothesen f\u00fcr menschliche Gliedma\u00dfen zu nutzen und um humanoide Roboter zu entwickeln, die aufrecht gehen und menschliche Gesten, Gef\u00fchle und Ausdr\u00fccke erkennen und ausf\u00fchren k\u00f6nnen.W\u00e4hrend die Unterhaltungsindustrie bereits Milliarden verdient hat mit ihrem Spiel mit der Angst, dass Roboter sich gegen ihre ehemaligen Meister, die Menschen, auflehnen und sie versklaven k\u00f6nnten, ist die Robotik in der Realit\u00e4t immer noch stark eingeschr\u00e4nkt durch die Entwicklung der K.I., der K\u00fcnstlichen Intelligenz. Roboter sind toll, wenn es darum geht, eine Reihe festgelegter Aufgaben oder Anweisungen auszuf\u00fchren, aber eigenst\u00e4ndiges Denken und Schlussfolgern sind ihnen noch nicht m\u00f6glich, was ihre Einsatzm\u00f6glichkeiten begrenzt, zumindest f\u00fcr die nahe Zukunft. (Es k\u00f6nnte also noch etwas dauern, bis wir von Staubsaugern mit eigenem Bewusstsein erobert werden.)",
+    "quote": "\"1. Ein Roboter darf keinen Menschen verletzen oder durch Unt\u00e4tigkeit zu Schaden kommen lassen.2. Ein Roboter muss den Befehlen eines Menschen gehorchen, es sei denn, solche Befehle stehen im Widerspruch zum Ersten Gesetz.3. Ein Roboter muss seine eigene Existenz sch\u00fctzen, solange dieser Schutz nicht dem Ersten oder Zweiten Gesetz widerspricht.\" - Isaac Asimov",
+    "tech_prereqs": [
+        {
+            "name": "Raketentechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+        },
+        {
+            "name": "Computertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kernfusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fusion.json"
+        },
+        {
+            "name": "Tarnung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/stealth.json"
+        },
+        {
+            "name": "Nanotechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nanotechnology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Raketenkreuzer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/missile_cruiser.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Raumschiff-Fabrik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/spaceship_factory.json"
+        }
+    ]
+}

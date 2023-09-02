@@ -1,0 +1,36 @@
+{
+    "id": 78,
+    "name": "Fusione nucleare|della Fusione nucleare",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fusion.png",
+    "era": "Epoca dell'informazione",
+    "cost": 8800,
+    "civilopedia_entry": "La fusione nucleare, che si verifica ordinariamente nelle stelle, \u00e8 il processo per cui pi\u00f9 atomi di carica simile si uniscono per formare un unico atomo ancora pi\u00f9 grande e pesante (per esempio, due atomi di idrogeno si fondono diventando un atomo di elio). Un sottoprodotto di questa unione \u00e8 il rilascio o l'assorbimento di una gran quantit\u00e0 di energia, considerevolmente superiore a quella necessaria per spingere i due nuclei alla fusione. Lo sfruttamento controllato dell'energia derivante dalla fusione \u00e8 uno dei principali obiettivi della ricerca energetica fin dagli anni '50, quando si assistette ai risultati della reazione a catena incontrollata della prima bomba a idrogeno.Le fusioni si possono dividere fondamentalmente in due grosse categorie: quelle che producono energia e quelle che la assorbono. Le fusioni degli elementi pi\u00f9 leggeri, compresi i loro isotopi (gli elementi pi\u00f9 piccoli del ferro o aventi peso atomico inferiore a 26), di solito rilasciano energia, mentre quelle degli elementi pi\u00f9 pesanti tendono a consumarla. Nel caso della fissione \u00e8 esattamente l'opposto.Per far superare a due nuclei di carica positiva la reciproca repulsione fino a farli fondere occorre una grande quantit\u00e0 di energia. Questo vale anche per l'elemento pi\u00f9 leggero di tutti, l'idrogeno. Tuttavia, alcuni scienziati ritengono che per il 2020 potrebbe essere possibile costruire un reattore in grado non solo di provocare e controllare una simile reazione, ma anche di produrre un'energia dieci volte superiore rispetto a quella utilizzata per realizzare la fusione stessa. Se una simile fonte energetica divenisse disponibile, le infrastrutture dell'intero pianeta ne sarebbero rivoluzionate. Le ripercussioni coinvolgerebbero ogni attivit\u00e0 di contenuto tecnologico, anche la pi\u00f9 insignificante.",
+    "quote": "\"La liberazione dell'energia atomica non ha creato un nuovo problema. Ha semplicemente reso pi\u00f9 urgente la risoluzione di un problema gi\u00e0 esistente.\"- Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Balistica avanzata|della Balistica avanzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satelliti|dei Satelliti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/satellites.json"
+        },
+        {
+            "name": "Robotica|della Robotica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tecnologia futura|della Tecnologia futura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Robot Gigante della Morte|un Robot Gigante della Morte|dal tuo Robot Gigante della Morte|al tuo Robot Gigante della Morte|il tuo Robot Gigante della Morte|da un Robot Gigante della Morte",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/giant_death_robot.json"
+        }
+    ],
+    "building_unlocks": []
+}

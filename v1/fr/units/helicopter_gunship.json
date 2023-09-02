@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "H\u00e9licopt\u00e8re de combat|H\u00e9licopt\u00e8res de combat",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Unit\u00e9 particuli\u00e8rement efficace contre les blind\u00e9s modernes et les chars. Elle peut traverser les montagnes, mais re\u00e7oit des d\u00e9g\u00e2ts si elle termine son tour sur une case de ce type.",
+    "historical_info": "Les h\u00e9licopt\u00e8res se montraient d'un int\u00e9r\u00eat limit\u00e9 lorsqu'utilis\u00e9s comme moyen de transport lors de la Deuxi\u00e8me Guerre mondiale et la guerre de Cor\u00e9e. Pendant la guerre du Vietnam, l'US Army prit la d\u00e9cision de fabriquer un h\u00e9licopt\u00e8re bien mieux arm\u00e9 et blind\u00e9, sp\u00e9cialement con\u00e7u pour le combat. D\u00e8s lors, l'h\u00e9licopt\u00e8re de combat n'eut de cesse d'\u00e9voluer. Il est en premier lieu un destructeur de chars, parfait pour voler \u00e0 ras du sol, surgir bri\u00e8vement, tirer et d\u00e9camper \u00e0 basse altitude avant que l'ennemi ne puisse riposter. Les h\u00e9licopt\u00e8res \u00e9taient presque inarr\u00eatables, sauf par d'autres forces a\u00e9riennes, jusqu'\u00e0 la cr\u00e9ation de missiles \"portatifs\" sol-air, du type qu'utilisaient les moudjahidines en Afghanistan contre les h\u00e9licopt\u00e8res russes. Les utilisations de l'h\u00e9licopt\u00e8re de combat moderne sont multiples. Il peut \u00eatre employ\u00e9 comme soutien a\u00e9rien rapproch\u00e9 pour les unit\u00e9s d'infanterie ou comme moyen de transport rapide pour des forces d'op\u00e9rations sp\u00e9ciales, m\u00eame si leur mission premi\u00e8re reste de d\u00e9truire les chars.",
+    "strategy": "L'h\u00e9licopt\u00e8re de combat est une unit\u00e9 a\u00e9rienne redoutable agissant comme une unit\u00e9 terrestre, sauf qu'il ne peut pas capturer de villes. Son mouvement de six cases en fait une unit\u00e9 extr\u00eamement rapide. Il peut \u00e9galement se d\u00e9placer sur n'importe quel type de terrain, y compris les montagnes, comme s'il s'agissait de terrains d\u00e9gag\u00e9s, mais il doit embarquer pour aller en mer. Il re\u00e7oit un bonus de combat consid\u00e9rable lorsqu'il affronte des chars.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Informatique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Tout type de terrain\u00a0: 1\u00a0PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Unit\u00e9 volante|Unit\u00e9s volantes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Bonus contre les chars (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Prise de villes impossible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

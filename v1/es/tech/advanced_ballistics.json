@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Bal\u00edstica avanzada",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "La bal\u00edstica es la ciencia que estudia el disparo o lanzamiento de cosas a grandes distancias con gran precisi\u00f3n. La bal\u00edstica avanzada es m\u00e1s de lo mismo, con las distancias aumentadas a escala intercontinental. Los artilleros modernos pueden disparar balas a decenas de kil\u00f3metros con gran exactitud y lanzar misiles contra objetivos muy precisos al otro lado del planeta. Cuando se incluyen ornamentos como el GPS y la teledirecci\u00f3n por l\u00e1ser, pr\u00e1cticamente no hay blanco en el mundo que no pueda ser alcanzado por alg\u00fan arma desde alg\u00fan sitio. Queda abierto a debate si esto es algo bueno o malo: depende, b\u00e1sicamente, de qui\u00e9n sea el dedo que pulse el bot\u00f3n.",
+    "quote": "\"Nuestra capacidad cient\u00edfica ha superado a nuestra capacidad espiritual. Hemos guiado misiles y descarriado a los hombres.\" - Martin Luther King Jr.",
+    "tech_prereqs": [
+        {
+            "name": "Fisi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Coheter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "F\u00edsica de part\u00edculas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/particle_physics.json"
+        },
+        {
+            "name": "Fusi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Propulsor para Naves espaciales|Propulsores para Naves espaciales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/ss_booster.json"
+        },
+        {
+            "name": "Misil nuclear|Misiles nucleares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/nuclear_missile.json"
+        },
+        {
+            "name": "Misil guiado|Misiles guiados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

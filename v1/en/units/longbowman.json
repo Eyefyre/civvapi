@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "Longbowman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "Medieval ranged infantry Unit. Only the English may build it. This Unit has 1 additional range compared to the Crossbowman, which it replaces.",
+    "historical_info": "The English longbow developed during the 12th century, as the English were fighting to conquer Wales. The longbow was made from yew or elm, and was five to seven feet in height (depending upon the height and strength of the user). The longbow was extremely difficult to master, but well-trained English longbowmen could shoot farther, faster and more accurately than the crossbowmen of the day. But this did require years of training. As the country's population grew the English wilderness was transformed into farmland. Opportunities for hunting disappeared and the English yeomen became less proficient with bow and arrow. This, more so even than the advent of gunpowder, led to the decline of the English longbow.",
+    "strategy": "The Longbowman is the English unique unit, replacing the Crossbowman. The Longbowman has a greater range than the Crossbowman, allowing it to attack enemies three hexes away, often destroying them before they can strike back. Like other ranged units, Longbowmen are vulnerable to melee attack.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Machinery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Range",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/range.json"
+        }
+    ]
+}

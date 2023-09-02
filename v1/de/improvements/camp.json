@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "Jagdlager",
+    "game_info": "Die Jagd auf wilde Tiere war eine der ersten Arten, in denen der urzeitliche Mensch der Antike die Ressourcen seiner Umwelt nutzte. Ein Jagdlager gew\u00e4hrt Zugang zu den Ressourcen Wild, Pelz, Tr\u00fcffel und Elfenbein.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/jagdlager.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Elfenbein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/ivory.json"
+        },
+        {
+            "name": "Pelze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/furs.json"
+        },
+        {
+            "name": "Wild",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/deer.json"
+        },
+        {
+            "name": "Tr\u00fcffel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+        },
+        {
+            "name": "Bison",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Fallenstellen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

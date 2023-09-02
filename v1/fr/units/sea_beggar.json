@@ -1,0 +1,35 @@
+{
+    "id": 108,
+    "name": "Gueux de la mer|Gueux de la mer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sea_beggar.png",
+    "game_info": "Unit\u00e9 navale sp\u00e9cialis\u00e9e dans l'attaque des villes c\u00f4ti\u00e8res. Permet de gagner de l'or et de capturer des navires ennemis. Exclusive aux N\u00e9erlandais.",
+    "historical_info": "Les Watergeuzen, ou Gueux de la mer, \u00e9taient un groupe de corsaires oppos\u00e9s au contr\u00f4le espagnol des Pays-Bas qui officia durant la guerre de Quatre-Vingts Ans. Leur nom provient d'un groupe de nobles n\u00e9erlandais qui se rendirent au palais de la duchesse de Parme pour faire entendre leurs revendications. Les conseillers de la duchesse qualifi\u00e8rent cet attroupement de \"gueux\", nom qui resta par la suite.En 1569, les Gueux se virent remettre officiellement des lettres d'op\u00e9ration de la main de Guillaume d'Orange, et 84\u00a0vaisseaux au total furent \u00e9quip\u00e9s pour combattre. Les Gueux de la mer se limit\u00e8rent d'abord \u00e0 de simples pillages, puis, contre toute attente, parvinrent \u00e0 conqu\u00e9rir par la force un village espagnol qui faisait \u00e9galement office de garnison. Encourag\u00e9s par cette victoire, ils adopt\u00e8rent alors un profil plus offensif et envahirent plusieurs villes c\u00f4ti\u00e8res. Le succ\u00e8s des Gueux de la mer mettant du c\u0153ur au ventre au reste de la nation, ce fut bient\u00f4t tous les Pays-Bas qui se soulev\u00e8rent. La prise de la garnison espagnole de Brielle par les Gueux de la Mer est aujourd'hui consid\u00e9r\u00e9e comme l'\u00e9l\u00e9ment d\u00e9clencheur de la guerre pour l'ind\u00e9pendance des Pays-Bas.",
+    "strategy": "Unit\u00e9 navale sp\u00e9cialis\u00e9e dans l'attaque des cit\u00e9s c\u00f4ti\u00e8res, le pillage d'or et la capture de vaisseaux ennemis. Seuls les N\u00e9erlandais peuvent en construire. Gu\u00e9rit en dehors du territoire alli\u00e9. D\u00e9marre avec les deux premi\u00e8res promotions Pillage des c\u00f4tes, permettant de gagner de l'or en saccageant les cit\u00e9s c\u00f4ti\u00e8res. Peut conserver les unit\u00e9s navales ennemies vaincues.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pillage des c\u00f4tes I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Pillage des c\u00f4tes II",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/coastal_raider_ii.json"
+        },
+        {
+            "name": "Unit\u00e9s navales vaincues",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/prize_ships.json"
+        },
+        {
+            "name": "Ravitaillement",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/supply.json"
+        }
+    ]
+}

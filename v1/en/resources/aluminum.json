@@ -1,0 +1,64 @@
+{
+    "id": 5,
+    "name": "Aluminum",
+    "game_info": "Used by powerful late-game Units and Buildings.",
+    "historical_info": "Aluminum is one of the most abundant elements on Earth. A remarkably useful metal, aluminum is flexible, durable, and highly resistant to corrosion. Although plentiful, in its natural state aluminum is almost always found combined with other materials. It wasn't until the mid-19th century that scientists discovered how to extract and process aluminum in quantity. In the 20th-21st centuries it is widely used in the construction of military, aerospace, and consumer goods. Remember that aluminum is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminum.png",
+    "prereq_tech": {
+        "name": "Electricity",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

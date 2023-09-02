@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 1150,
+    "civilopedia_entry": "Metalurgia to nauka o metalach i stopach metali. W Civilization V technologia \u201emetalurgii\u201d obejmuje post\u0119p tej dziedziny od XIX wieku. W XIX i XX wieku metalurgia dokona\u0142a wielkich krok\u00f3w, od wydobycia po tworzenie nowych stop\u00f3w i produkcj\u0119 tanich metali wysokiej jako\u015bci.Metal wci\u0105\u017c jest sercem wsp\u00f3\u0142czesnej cywilizacji. Du\u017ca cz\u0119\u015b\u0107 \u015bwiata jest zbudowana ze stali, a reszta z aluminium lub tytanu. Nasze sieci komunikacyjne s\u0105 zbudowane z metalu, tak samo jak pojazdy, bro\u0144, satelity i statki kosmiczne. Bez wsp\u00f3\u0142czesnej metalurgii 90% populacji Ziemi umar\u0142oby z g\u0142odu w ci\u0105gu roku.",
+    "quote": "\u201eNie mo\u017cna zrobi\u0107 dobrego no\u017ca ze z\u0142ej stali.\u201d \u2013 Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+        },
+        {
+            "name": "Prasa drukarska|Prasy drukarskiej|Prasie drukarskiej|Pras\u0119 drukarsk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+        },
+        {
+            "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lansjerzy|Lansjer\u00f3w|Lansjerojom|Lansjer\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/lancer.json"
+        },
+        {
+            "name": "Spahisi|Spahis\u00f3w|Spahisom|Spahis\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/sipahi.json"
+        },
+        {
+            "name": "Hakkapelitas",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/hakkapeliitta.json"
+        },
+        {
+            "name": "Husaria|Husarii|Husarii|Husari\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Arsena\u0142|Arsena\u0142u|Arsena\u0142owi|Arsena\u0142|Arsena\u0142y|Arsena\u0142\u00f3w|Arsena\u0142om|Arsena\u0142y",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/arsenal.json"
+        },
+        {
+            "name": "Czerwony Fort|Czerwonego Fortu|Czerwonemu Fortowi|Czerwony Fort",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/red_fort.json"
+        }
+    ]
+}

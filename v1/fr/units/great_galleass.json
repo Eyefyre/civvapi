@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Gal\u00e9asse v\u00e9nitienne|Gal\u00e9asses v\u00e9nitiennes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "Exclusive \u00e0 Venise, cette unit\u00e9 navale m\u00e9di\u00e9vale est particuli\u00e8rement puissante, et ses attaques \u00e0 distance lui permettent de contr\u00f4ler les mers. Bien plus efficace en attaque et en d\u00e9fense que la gal\u00e9asse standard, qu'elle remplace, elle est \u00e9galement plus ch\u00e8re.",
+    "historical_info": "Les plans originaux des gal\u00e9asses furent d\u00e9velopp\u00e9s \u00e0 partir de ceux des larges gal\u00e8res marchandes, et rest\u00e8rent relativement inchang\u00e9s jusqu'en 1660, \u00e0 l'\u00e9poque o\u00f9 Venise construisit son premier navire de ligne. Les gal\u00e9asses avaient habituellement trois m\u00e2ts \u00e0 voiles latines, et \u00e9taient caract\u00e9ris\u00e9es par un gaillard d'avant, ainsi que par une dunette. \u00c9quip\u00e9 de plus de voiles et de rames qu'une gal\u00e8re classique pour une vitesse accrue, ces navires de guerre v\u00e9nitiens poss\u00e9daient \u00e9galement un pont-batterie au-dessus des rang\u00e9es de rameurs. En M\u00e9diterran\u00e9e, les gal\u00e9asses v\u00e9nitiennes rest\u00e8rent en service bien plus longtemps que dans d'autres nations, o\u00f9 elles furent remplac\u00e9es par des navires de guerre plus larges, plus solides et plus adapt\u00e9s \u00e0 la navigation en mer.",
+    "strategy": "Exclusive \u00e0 Venise, la gal\u00e9asse v\u00e9nitienne poss\u00e8de une attaque \u00e0 distance plus puissante, est plus r\u00e9sistante en combat, mais co\u00fbte aussi plus ch\u00e8re que la gal\u00e9asse standard, qu'elle remplace.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Boussole",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

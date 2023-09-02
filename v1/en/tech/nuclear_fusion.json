@@ -1,0 +1,36 @@
+{
+    "id": 78,
+    "name": "Nuclear Fusion",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fusion.png",
+    "era": "Information Era",
+    "cost": 8800,
+    "civilopedia_entry": "Occurring naturally in stars, nuclear fusion is the act of multiple like-charged atoms joining together to form a heavier, larger one, like two hydrogen atoms fusing to become a helium atom. A byproduct of this joining is a large release or absorption of energy, considerably more than the amount of energy required to fuse the two nuclei in the first place. Harnessing the power of fusion in a controlled manner has been the focus of energy research since the 1950's, after witnessing the power of an uncontrolled chain of reactions in the first hydrogen bomb.Fusion can be broken down into two grossly oversimplified categories: reactions that produce energy and reactions that consume energy. Fusion between the lighter elements and any of their isotopes (anything smaller than Iron or atomic weight 26) will generally release energy while fusing nuclei from any of the heavier elements tends to consume energy. The reverse is actually true for fission.It takes a good amount of energy to have two nuclei overcome their positive charges and fuse together, even when dealing with the lightest element - hydrogen. However, some scientists believe that by 2020 it may be possible to build a reactor which is not only capable of controlling and mediating such a reaction, but also producing ten times the amount of energy used to create it. This kind of available energy could revolutionize the entire world's infrastructure and change the way even the smallest technological feats are achieved.",
+    "quote": "\"The release of atomic energy has not created a new problem. It has merely made more urgent the necessity of solving an existing one.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Advanced Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satellites",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/satellites.json"
+        },
+        {
+            "name": "Robotics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Future Tech",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Giant Death Robot",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/giant_death_robot.json"
+        }
+    ],
+    "building_unlocks": []
+}

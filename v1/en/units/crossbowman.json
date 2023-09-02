@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Crossbowman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "Medieval ranged infantry Unit.",
+    "historical_info": "The crossbow first appeared in Europe in the 10th century. Although slower than a standard bow, a crossbow requires less training and strength than a regular bow, and over time it came to be the dominant weapon on the battlefield. A crossbow consists of a fairly short but heavy bow mounted to a stock. The firer pulls back the string - often with mechanical assistance - to \"cock\" the bow, then lays a \"bolt\" (arrow) on a groove in the stock. The firer aims, then pulls a trigger to release the string, which launches the bolt at the target. Among other advantages, a crossbow can be fired from a kneeling or prone position, something which is impossible with a standard bow.",
+    "strategy": "The Crossbowman is more powerful than the Composite Bowman. As a Ranged unit it can deal significant damage to other Medieval Era units up to two hexes away, but it is vulnerable to melee attack. Put Crossbowmen in your city for defense, and guard them with melee units when on the move.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Machinery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

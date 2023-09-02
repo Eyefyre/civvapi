@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "H\u00f4tel de la monnaie|H\u00f4tel de la monnaie",
+    "game_info": "Les sources d'or et d'argent exploit\u00e9es par la ville donnent +2 Or.La ville doit exploiter au moins l'une de ces deux ressources.",
+    "strategy": "L'h\u00f4tel de la monnaie ne peut \u00eatre construit que dans une ville exploitant dans ses environs une ressource d'or ou d'argent. Il augmente la production d'or de chacune de ces ressources accessibles \u00e0 la ville.",
+    "historical_info": "L'h\u00f4tel de la monnaie est l'institution charg\u00e9e de cr\u00e9er la monnaie d'une civilisation. Autrefois, la monnaie se r\u00e9sumait \u00e0 diff\u00e9rentes pi\u00e8ces de m\u00e9tal mais aujourd'hui, elle est principalement imprim\u00e9e sur du papier. Les h\u00f4tels de la monnaie sont essentiels au bien-\u00eatre \u00e9conomique d'une civilisation. Si la monnaie d'un pays devient une proie facile de la contrefa\u00e7on, cela pourrait r\u00e9sulter en une inflation de forte ampleur (entra\u00eenant une d\u00e9valorisation de la monnaie) ou pire. Les billets modernes sont imprim\u00e9s avec des encres sp\u00e9ciales et munis de fils de s\u00e9curit\u00e9 et d'hologrammes afin d'emp\u00eacher au maximum les tentatives de faux-monnayage, et il ne fait aucun doute que dans le futur, de nouvelles m\u00e9thodes de protection seront cr\u00e9\u00e9es pour s\u00e9curiser l'\u00e9conomie mon\u00e9taire.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/h\u00f4tel_de_la_monnaie|h\u00f4tel_de_la_monnaie.png",
+    "prereq_tech": {
+        "name": "Monnaie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/currency.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

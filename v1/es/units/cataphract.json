@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Catafracto|Catafractos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Una unidad montada r\u00e1pida y poderosa de las primeras fases del juego. Solo los bizantinos pueden crearla. Tiene m\u00e1s Fuerza de combate , defiende mejor y ataca ciudades con m\u00e1s eficacia que el Jinete, al que sustituye.",
+    "historical_info": "El catafracto era un formidable enemigo en el campo de batalla y se contaba entre las caballer\u00edas m\u00e1s pesadas de la historia. Los caballos estaban protegidos por cotas de malla o armaduras de placas, y la protecci\u00f3n de los jinetes no era menos formidable. Estas unidades montadas se empleaban principalmente para atravesar las l\u00edneas enemigas. Se sabe que el Imperio Bizantino recurri\u00f3 mucho a los catafractos en las diferentes etapas de su historia, pues desempe\u00f1aron un papel importante en la defensa del imperio tras el declive de sus primos romanos de occidente.",
+    "strategy": "El Catafracto es una unidad exclusiva bizantina que sustituye al Jinete. Aunque m\u00e1s lento que este, es m\u00e1s potente, lo que lo convierte en la unidad de caballer\u00eda m\u00e1s peligrosa hasta la llegada del Caballero. Puede moverse despu\u00e9s de atacar. Es capaz de ganar bonificaciones defensivas, a diferencia del Jinete. Adem\u00e1s, la penalizaci\u00f3n que sufre por atacar ciudades no es tan grande.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Equitaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

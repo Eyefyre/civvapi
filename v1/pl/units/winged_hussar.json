@@ -1,0 +1,43 @@
+{
+    "id": 122,
+    "name": "Husaria|Husarii|Husarii|Husari\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/winged_hussar.png",
+    "game_info": "Jednostka ci\u0119\u017ckiej konnicy wyspecjalizowana w walce z kawaleri\u0105 wroga. Jest szybsza i silniejsza ni\u017c lansjerzy, kt\u00f3rych zast\u0119puje. Zmusza obro\u0144c\u00f3w do wycofania si\u0119, gdy zada wi\u0119cej obra\u017ce\u0144, ni\u017c ich otrzyma. Mog\u0105 j\u0105 tworzy\u0107 tylko Polacy.",
+    "historical_info": "\u201eSkrzydlaci\u201d husarzy pojawili si\u0119 w wojsku polsko-litewskim za czas\u00f3w Stefana Batorego, w latach 70. XVI w. Zazwyczaj uzbrojeni byli poza kopiami w r\u00f3\u017cne rodzaje broni - bu\u0142awy, szable i wo\u017cone w olstrach przy siod\u0142ach pistolety z zamkiem ko\u0142owym (p\u00f3\u017aniej ska\u0142kowym). Najwa\u017cniejsz\u0105 jednak cech\u0105 husarii by\u0142y wielkie skrzyd\u0142a, drewniane ramy przyczepione do siode\u0142 lub ramion je\u017ad\u017ac\u00f3w, kt\u00f3re pokrywano orlimi, \u0142ab\u0119dzimi, g\u0119simi lub strusimi pi\u00f3rami. Nigdy nie rozstrzygni\u0119to do ko\u0144ca, w jakim celu je zak\u0142adano - istniej\u0105 teorie, \u017ce mia\u0142y one chroni\u0107 przed atakami od ty\u0142u, nie pozwala\u0142y koniom s\u0142ysze\u0107 odg\u0142os\u00f3w walki, a tak\u017ce \u017ce mia\u0142y wywiera\u0107 na przeciwnikach wra\u017cenie, \u017ce husarze s\u0105 nadludzkiego wzrostu.",
+    "strategy": "Husaria zast\u0119puje lansjer\u00f3w, mog\u0105 j\u0105 tworzy\u0107 tylko Polacy. Husaria jest szybsza i silniejsza od lansjer\u00f3w, zmusza obro\u0144c\u0119 do odwrotu, je\u015bli zada wi\u0119ksze straty, ni\u017c sama odniesie. Obro\u0144ca, kt\u00f3ry nie mo\u017ce si\u0119 wycofa\u0107, odnosi dodatkowe obra\u017cenia.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Zmasowana szar\u017ca",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/heavy_charge.json"
+        },
+        {
+            "name": "Szturm I|Szturmu I|Szturmowi I|Szturm I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/shock_i.json"
+        },
+        {
+            "name": "Szyk I|Szyku I|Szykowi I|Szyk I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/formation_i.json"
+        }
+    ]
+}

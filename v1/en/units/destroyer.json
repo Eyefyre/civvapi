@@ -1,0 +1,35 @@
+{
+    "id": 13,
+    "name": "Destroyer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/destroyer.png",
+    "game_info": "Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines. Fights as a naval melee unit.",
+    "historical_info": "A destroyer is a 20th century ship designed for patrol, escort, anti-air and anti-submarine duties. The earliest destroyers were light vessels not well-suited for oceanic cruises unless accompanied by \"tenders\" carrying additional fuel. By World War II the destroyers were fast, maneuverable and carried enough weaponry and supplies for long-range missions across the world's oceans.For weaponry, destroyers carried anti-aircraft guns, light anti-ship guns, torpedoes and depth charges. They often accompanied carrier groups, patrolling the waters around the more valuable and larger ships for submarines and providing anti-aircraft cover as well. They escorted supply convoys and patrolled harbors and coasts as well. Duty aboard a World War II destroyer was dangerous indeed; during the war over 220 British, American, Australian and Canadian destroyers were lost, mostly to aircraft attack.",
+    "strategy": "The Destroyer is a naval melee attack unit designed to hunt down and destroy submarines and to provide anti-aircraft support. It often operates as an escort to embarked units, battleships and carriers when in range of enemy planes and subs. It is quick, giving it a promotion that gives it a good chance to withdraw to the rear before an enemy naval melee attack can occur.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combustion",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Can See Submarines",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Interception (40)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(40).json"
+        },
+        {
+            "name": "Attack vs Submarines (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Withdraw Before Melee",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

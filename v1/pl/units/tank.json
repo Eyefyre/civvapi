@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "name": "Czo\u0142gi|Czo\u0142g\u00f3w|Czo\u0142gom|Czo\u0142gi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tank.png",
+    "game_info": "Szybka i silna jednostka na p\u00f3\u017anym etapie gry.",
+    "historical_info": "Czo\u0142g \u0142\u0105czy pot\u0119g\u0119 artylerii z mobilno\u015bci\u0105 kawalerii. Pierwsze czo\u0142gi pojawi\u0142y si\u0119 pod koniec I wojny \u015bwiatowej. Mia\u0142y pokona\u0107 fortyfikacje obronne z tamtych czas\u00f3w \u2013 karabiny maszynowe, drut kolczasty i okopy sprawia\u0142y, \u017ce zmasowane ataki piechoty poch\u0142ania\u0142y wiele ofiar, a kawaleria, kt\u00f3rej si\u0142a spoczywa\u0142a w szar\u017cy, zupe\u0142nie nie mia\u0142a mo\u017cliwo\u015bci by wyruszy\u0107 w b\u00f3j. Chocia\u017c by\u0142y s\u0142abo zaprojektowane i n\u0119kane problemami z silnikiem i z niedo\u015bwiadczon\u0105 za\u0142og\u0105, wczesne czo\u0142gi wykaza\u0142y si\u0119 wielkim potencja\u0142em, przynajmniej dla tych, kt\u00f3rzy uwa\u017cnie im si\u0119 przygl\u0105dali. Podczas II wojny \u015bwiatowej Niemcy uciekli si\u0119 do taktyki \u201eblitzkriegu\u201d \u2013 wojny b\u0142yskawicznej, prowadzonej przez oddzia\u0142y czo\u0142g\u00f3w. Taktyka okaza\u0142a si\u0119 niezwykle skuteczna \u2013 podbita zosta\u0142a Francja, a armia brytyjska wyp\u0119dzona z kontynentu, zanim genera\u0142owie zd\u0105\u017cyli opracowa\u0107 jak\u0105\u015b odpowied\u017a na t\u0119 zadziwiaj\u0105c\u0105, now\u0105 strategi\u0119. Chocia\u017c czo\u0142gi do dzi\u015b pozostaj\u0105 najwa\u017cniejszym ofensywnym elementem armii l\u0105dowej, okaza\u0142y si\u0119 by\u0107 podatne na ataki nowszej, jeszcze szybszej broni \u2013 \u015bmig\u0142owc\u00f3w bojowych.",
+    "strategy": "Czo\u0142gi to niezwykle silna i mobilna jednostka l\u0105dowa. Mo\u017ce si\u0119 ruszy\u0107 po walce, co pozwala jej tworzy\u0107 wy\u0142omy w liniach wroga i przebija\u0107 si\u0119 przez nie na zwolnione pola.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

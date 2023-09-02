@@ -1,0 +1,2312 @@
+[
+    {
+        "id": 1,
+        "name": "Cura istantanea",
+        "game_info": "Cura quest'unit\u00e0 50 PF. Cos\u00ec facendo rinuncerai a quest'opportunit\u00e0 di scegliere una promozione.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/cura_istantanea_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heal_instantly.json"
+    },
+    {
+        "id": 2,
+        "name": "Assalto I",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assalto_i_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+    },
+    {
+        "id": 3,
+        "name": "Assalto II",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Assalto I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assalto_ii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+    },
+    {
+        "id": 4,
+        "name": "Assalto III",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Assalto II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assalto_iii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+    },
+    {
+        "id": 5,
+        "name": "Addestramento I",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/addestramento_i_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+    },
+    {
+        "id": 6,
+        "name": "Addestramento II",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Addestramento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/addestramento_ii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+    },
+    {
+        "id": 7,
+        "name": "Addestramento III",
+        "game_info": "+15% alla Forza di combattimento quando combatte in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Addestramento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/addestramento_iii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+    },
+    {
+        "id": 8,
+        "name": "Precisione I",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro le unit\u00e0 in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/precisione_i_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+    },
+    {
+        "id": 9,
+        "name": "Precisione II",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro le unit\u00e0 in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Precisione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/precisione_ii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_ii.json"
+    },
+    {
+        "id": 10,
+        "name": "Precisione III",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro le unit\u00e0 in terreno APERTO (NON in Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Precisione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/precisione_iii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_iii.json"
+    },
+    {
+        "id": 11,
+        "name": "Fuoco di fila I",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro unit\u00e0 in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fuoco_di_fila_i_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_i.json"
+    },
+    {
+        "id": 12,
+        "name": "Fuoco di fila II",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro unit\u00e0 in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Fuoco di fila I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fuoco_di_fila_ii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_ii.json"
+    },
+    {
+        "id": 13,
+        "name": "Fuoco di fila III",
+        "game_info": "+15% alla [ICON_RANGE_STRENGTH] Forza di combattimento a distanza contro unit\u00e0 in terreno ACCIDENTATO (Collina, Foresta o Giungla).",
+        "prereq_promotions": [
+            {
+                "name": "Fuoco di fila II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fuoco_di_fila_iii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_iii.json"
+    },
+    {
+        "id": 14,
+        "name": "Puntamento I",
+        "game_info": "+15% alla Forza di combattimento contro unit\u00e0 navali.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/puntamento_i_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_i.json"
+    },
+    {
+        "id": 15,
+        "name": "Puntamento II",
+        "game_info": "+15% alla Forza di combattimento contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Puntamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/puntamento_ii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_ii.json"
+    },
+    {
+        "id": 16,
+        "name": "Puntamento III",
+        "game_info": "+15% alla Forza di combattimento contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Puntamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/puntamento_iii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_iii.json"
+    },
+    {
+        "id": 17,
+        "name": "Sentinella",
+        "game_info": "+1 al raggio visivo",
+        "prereq_promotions": [
+            {
+                "name": "Assalto I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+            },
+            {
+                "name": "Addestramento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+            },
+            {
+                "name": "Puntamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_i.json"
+            },
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            },
+            {
+                "name": "Incursione costiera I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_i.json"
+            },
+            {
+                "name": "Abbordaggio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_i.json"
+            },
+            {
+                "name": "Attacco in massa I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_i.json"
+            },
+            {
+                "name": "Ponte di volo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_i.json"
+            },
+            {
+                "name": "Corazza I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/sentinella_s.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/sentry.json"
+    },
+    {
+        "id": 18,
+        "name": "Assedio",
+        "game_info": "+50% alla Forza di combattimento contro le Citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+            },
+            {
+                "name": "Addestramento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+            },
+            {
+                "name": "Precisione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+            },
+            {
+                "name": "Fuoco di fila I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assedio_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege.json"
+    },
+    {
+        "id": 19,
+        "name": "Raffica",
+        "game_info": "+50% alla Forza di combattimento contro unit\u00e0 fortificate e citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Precisione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+            },
+            {
+                "name": "Fuoco di fila I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/raffica_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/volley.json"
+    },
+    {
+        "id": 20,
+        "name": "Medico",
+        "game_info": "Tutte le unit\u00e0 nelle caselle adiacenti Curano 5 PF aggiuntivi per turno.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+            },
+            {
+                "name": "Addestramento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+            },
+            {
+                "name": "Esplorazione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_ii.json"
+            },
+            {
+                "name": "Sopravvivenza II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/medico_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/medic.json"
+    },
+    {
+        "id": 21,
+        "name": "Medico II",
+        "game_info": "Tutte le unit\u00e0 nelle caselle adiacenti curano 5 PF aggiuntivi per turno. Questa unit\u00e0 cura 5 PF aggiuntivi per turno quando si trova al di fuori del territorio amico.",
+        "prereq_promotions": [
+            {
+                "name": "Medico",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/medic.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/medico_ii_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/medic_ii.json"
+    },
+    {
+        "id": 22,
+        "name": "Attacco anfibio",
+        "game_info": "Elimina la penalit\u00e0 al combattimento quando attacca dal mare o attraversando un fiume.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+            },
+            {
+                "name": "Addestramento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_anfibio_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/amphibious.json"
+    },
+    {
+        "id": 23,
+        "name": "Copertura I",
+        "game_info": "+33% alla difesa contro tutti gli attacchi a distanza.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+            },
+            {
+                "name": "Addestramento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+            },
+            {
+                "name": "Precisione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+            },
+            {
+                "name": "Fuoco di fila I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/copertura_i_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cover_i.json"
+    },
+    {
+        "id": 24,
+        "name": "Copertura II",
+        "game_info": "+33% alla difesa contro tutti gli attacchi a distanza.",
+        "prereq_promotions": [
+            {
+                "name": "Copertura I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cover_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/copertura_ii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cover_ii.json"
+    },
+    {
+        "id": 25,
+        "name": "Fuoco indiretto",
+        "game_info": "Pu\u00f2 eseguire attacchi a distanza oltre gli ostacoli (se altre unit\u00e0 amiche sono in grado di vedere il bersaglio).",
+        "prereq_promotions": [
+            {
+                "name": "Puntamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_ii.json"
+            },
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            },
+            {
+                "name": "Precisione III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_iii.json"
+            },
+            {
+                "name": "Fuoco di fila III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_iii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fuoco_indiretto_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/indirect_fire.json"
+    },
+    {
+        "id": 26,
+        "name": "Carica",
+        "game_info": "+33% alla Forza di combattimento contro le unit\u00e0 ferite.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+            },
+            {
+                "name": "Addestramento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/carica_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/charge.json"
+    },
+    {
+        "id": 27,
+        "name": "Formazione I",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 a cavallo.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+            },
+            {
+                "name": "Addestramento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+            },
+            {
+                "name": "Precisione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_ii.json"
+            },
+            {
+                "name": "Fuoco di fila II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/formazione_i_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+    },
+    {
+        "id": 28,
+        "name": "Formazione II",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 a cavallo.",
+        "prereq_promotions": [
+            {
+                "name": "Formazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/formazione_ii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_ii.json"
+    },
+    {
+        "id": 29,
+        "name": "Imboscata I",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 corazzate.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_ii.json"
+            },
+            {
+                "name": "Addestramento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imboscata_i_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ambush_i.json"
+    },
+    {
+        "id": 30,
+        "name": "Imboscata II",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 corazzate.",
+        "prereq_promotions": [
+            {
+                "name": "Imboscata I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ambush_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imboscata_ii_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ambush_ii.json"
+    },
+    {
+        "id": 31,
+        "name": "Approvvigionamento",
+        "game_info": "Pu\u00f2 curare i danni anche all'esterno del territorio amico. Guarisce 15 PF ogni turno.",
+        "prereq_promotions": [
+            {
+                "name": "Puntamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_ii.json"
+            },
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            },
+            {
+                "name": "Incursione costiera II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_ii.json"
+            },
+            {
+                "name": "Abbordaggio II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_ii.json"
+            },
+            {
+                "name": "Attacco in massa II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_ii.json"
+            },
+            {
+                "name": "Ponte di volo II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_ii.json"
+            },
+            {
+                "name": "Corazza II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/approvvigionamento_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/supply.json"
+    },
+    {
+        "id": 32,
+        "name": "Marcia",
+        "game_info": "L'unit\u00e0 guarir\u00e0 il danno a ogni turno, anche se esegue un'azione.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+            },
+            {
+                "name": "Addestramento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+            },
+            {
+                "name": "Precisione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_ii.json"
+            },
+            {
+                "name": "Fuoco di fila II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/marcia_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/march.json"
+    },
+    {
+        "id": 33,
+        "name": "Incursione",
+        "game_info": "1 attacco aggiuntivo al turno.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+            },
+            {
+                "name": "Addestramento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/incursione_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/blitz.json"
+    },
+    {
+        "id": 34,
+        "name": "Forestali",
+        "game_info": "Movimento doppio attraverso Foresta e Giungla.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+            },
+            {
+                "name": "Addestramento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/forestali_m.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/woodsman.json"
+    },
+    {
+        "id": 35,
+        "name": "Logistica",
+        "game_info": "1 attacco aggiuntivo al turno.",
+        "prereq_promotions": [
+            {
+                "name": "Precisione III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_iii.json"
+            },
+            {
+                "name": "Fuoco di fila III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_iii.json"
+            },
+            {
+                "name": "Puntamento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_iii.json"
+            },
+            {
+                "name": "Bombardamento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_iii.json"
+            },
+            {
+                "name": "Incursione costiera III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_iii.json"
+            },
+            {
+                "name": "Abbordaggio III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_iii.json"
+            },
+            {
+                "name": "Attacco in massa III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_iii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/logistica_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/logistics.json"
+    },
+    {
+        "id": 36,
+        "name": "Raggio di tiro ampliato",
+        "game_info": "+1 al raggio.",
+        "prereq_promotions": [
+            {
+                "name": "Precisione III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_iii.json"
+            },
+            {
+                "name": "Fuoco di fila III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/barrage_iii.json"
+            },
+            {
+                "name": "Puntamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_ii.json"
+            },
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/raggio_di_tiro_ampliato_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/range.json"
+    },
+    {
+        "id": 37,
+        "name": "Mobilit\u00e0",
+        "game_info": "+1 Movimento.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+            },
+            {
+                "name": "Addestramento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+            },
+            {
+                "name": "Puntamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/targeting_i.json"
+            },
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            },
+            {
+                "name": "Incursione costiera I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_i.json"
+            },
+            {
+                "name": "Abbordaggio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_i.json"
+            },
+            {
+                "name": "Attacco in massa I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_i.json"
+            },
+            {
+                "name": "Ponte di volo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_i.json"
+            },
+            {
+                "name": "Corazza I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/mobilit\u00e0_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobility.json"
+    },
+    {
+        "id": 38,
+        "name": "Intercettazione I",
+        "game_info": "+33% alla Forza di combattimento quando intercetta unit\u00e0 aeree nemiche.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_i.json"
+    },
+    {
+        "id": 39,
+        "name": "Intercettazione II",
+        "game_info": "+33% alla Forza di combattimento quando intercetta unit\u00e0 aeree nemiche.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_ii.json"
+    },
+    {
+        "id": 40,
+        "name": "Intercettazione III",
+        "game_info": "+34% alla Forza di combattimento quando intercetta unit\u00e0 aeree nemiche.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_iii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_iii.json"
+    },
+    {
+        "id": 41,
+        "name": "Duello aereo I",
+        "game_info": "+33% alla Forza di combattimento quando esegue una Distruzione delle difese antiaeree.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/duello_aereo_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_i.json"
+    },
+    {
+        "id": 42,
+        "name": "Duello aereo II",
+        "game_info": "+33% alla Forza di combattimento quando esegue una Distruzione delle difese antiaeree.",
+        "prereq_promotions": [
+            {
+                "name": "Duello aereo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/duello_aereo_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_ii.json"
+    },
+    {
+        "id": 43,
+        "name": "Duello aereo III",
+        "game_info": "+34% alla Forza di combattimento quando esegue una Distruzione delle difese antiaeree.",
+        "prereq_promotions": [
+            {
+                "name": "Duello aereo II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/duello_aereo_iii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_iii.json"
+    },
+    {
+        "id": 44,
+        "name": "Assedio I",
+        "game_info": "+33% alla Forza di combattimento contro le Citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assedio_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+    },
+    {
+        "id": 45,
+        "name": "Assedio II",
+        "game_info": "+33% alla Forza di combattimento contro le Citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Assedio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assedio_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_ii.json"
+    },
+    {
+        "id": 46,
+        "name": "Assedio III",
+        "game_info": "+34% alla Forza di combattimento contro le Citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Assedio II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/assedio_iii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_iii.json"
+    },
+    {
+        "id": 47,
+        "name": "Bombardamento I",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 terrestri.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bombardamento_i_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+    },
+    {
+        "id": 48,
+        "name": "Bombardamento II",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 terrestri.",
+        "prereq_promotions": [
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bombardamento_ii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+    },
+    {
+        "id": 49,
+        "name": "Bombardamento III",
+        "game_info": "+34% alla Forza di combattimento contro unit\u00e0 terrestri.",
+        "prereq_promotions": [
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bombardamento_iii_r.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_iii.json"
+    },
+    {
+        "id": 50,
+        "name": "Puntamento aereo I",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_i.json"
+            },
+            {
+                "name": "Duello aereo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_i.json"
+            },
+            {
+                "name": "Assedio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+            },
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/puntamento_aereo_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_targetting_i.json"
+    },
+    {
+        "id": 51,
+        "name": "Puntamento aereo II",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Puntamento aereo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_targetting_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/puntamento_aereo_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_targetting_ii.json"
+    },
+    {
+        "id": 52,
+        "name": "Imboscata aerea I",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 corazzate.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_i.json"
+            },
+            {
+                "name": "Duello aereo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_i.json"
+            },
+            {
+                "name": "Assedio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+            },
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imboscata_aerea_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_ambush_i.json"
+    },
+    {
+        "id": 53,
+        "name": "Imboscata aerea II",
+        "game_info": "+33% alla Forza di combattimento contro unit\u00e0 corazzate.",
+        "prereq_promotions": [
+            {
+                "name": "Imboscata aerea I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_ambush_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imboscata_aerea_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_ambush_ii.json"
+    },
+    {
+        "id": 54,
+        "name": "Raggio d'azione ampliato",
+        "game_info": "+2 al raggio d'attacco.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_i.json"
+            },
+            {
+                "name": "Duello aereo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_i.json"
+            },
+            {
+                "name": "Assedio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_i.json"
+            },
+            {
+                "name": "Bombardamento I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/raggio_d'azione_ampliato_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/range.json"
+    },
+    {
+        "id": 55,
+        "name": "Sortita",
+        "game_info": "Pu\u00f2 eseguire 1 Intercettazione extra al turno.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_ii.json"
+            },
+            {
+                "name": "Duello aereo II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/sortita_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/sortie.json"
+    },
+    {
+        "id": 56,
+        "name": "Riparazione",
+        "game_info": "L'unit\u00e0 guarir\u00e0 il danno a ogni turno, anche se esegue un'azione.",
+        "prereq_promotions": [
+            {
+                "name": "Assalto III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_iii.json"
+            },
+            {
+                "name": "Addestramento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_iii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/riparazione_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/repair.json"
+    },
+    {
+        "id": 57,
+        "name": "Riparazione aerea",
+        "game_info": "L'unit\u00e0 guarir\u00e0 il danno a ogni turno, anche se esegue un'azione.",
+        "prereq_promotions": [
+            {
+                "name": "Intercettazione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_ii.json"
+            },
+            {
+                "name": "Duello aereo II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/dogfighting_ii.json"
+            },
+            {
+                "name": "Assedio II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_ii.json"
+            },
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/riparazione_aerea_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_repair.json"
+    },
+    {
+        "id": 58,
+        "name": "Logistica",
+        "game_info": "1 attacco aggiuntivo al turno.",
+        "prereq_promotions": [
+            {
+                "name": "Assedio III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_iii.json"
+            },
+            {
+                "name": "Bombardamento III",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_iii.json"
+            },
+            {
+                "name": "Bonus contro unit\u00e0 corazzate (25)",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_armored_(25).json"
+            },
+            {
+                "name": "Mobilit\u00e0 II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobility_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/logistica_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/logistics.json"
+    },
+    {
+        "id": 59,
+        "name": "Manovre evasive",
+        "game_info": "Riduce il danno dell'intercettazione contraerea del 50%.",
+        "prereq_promotions": [
+            {
+                "name": "Assedio II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/siege_ii.json"
+            },
+            {
+                "name": "Bombardamento II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bombardment_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/manovre_evasive_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion.json"
+    },
+    {
+        "id": 60,
+        "name": "Esplorazione I",
+        "game_info": "+1 al raggio visivo",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/esplorazione_i_s.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_i.json"
+    },
+    {
+        "id": 61,
+        "name": "Esplorazione II",
+        "game_info": "+1 al raggio visivo.",
+        "prereq_promotions": [
+            {
+                "name": "Esplorazione I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/esplorazione_ii_s.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_ii.json"
+    },
+    {
+        "id": 62,
+        "name": "Esplorazione III",
+        "game_info": "+1 Movimento.",
+        "prereq_promotions": [
+            {
+                "name": "Esplorazione II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/esplorazione_iii_s.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_iii.json"
+    },
+    {
+        "id": 63,
+        "name": "Sopravvivenza I",
+        "game_info": "+5 PF guariti ogni turno all'esterno del territorio amico e +25% alla Difesa.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/sopravvivenza_i_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_i.json"
+    },
+    {
+        "id": 64,
+        "name": "Sopravvivenza II",
+        "game_info": "+5 PF guariti ogni turno all'esterno del territorio amico e +25% alla Difesa.",
+        "prereq_promotions": [
+            {
+                "name": "Sopravvivenza I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/sopravvivenza_ii_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_ii.json"
+    },
+    {
+        "id": 65,
+        "name": "Sopravvivenza III",
+        "game_info": "L'unit\u00e0 guarir\u00e0 il danno a ogni turno, anche se esegue un'azione. L'unit\u00e0 cercher\u00e0 di ritirarsi se attaccata in mischia.",
+        "prereq_promotions": [
+            {
+                "name": "Sopravvivenza II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/sopravvivenza_iii_h.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_iii.json"
+    },
+    {
+        "id": 66,
+        "name": "Mobilit\u00e0 I",
+        "game_info": "+1 Movimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/mobilit\u00e0_i_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobility_i.json"
+    },
+    {
+        "id": 67,
+        "name": "Mobilit\u00e0 II",
+        "game_info": "+1 Movimento.",
+        "prereq_promotions": [
+            {
+                "name": "Mobilit\u00e0 I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobility_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/mobilit\u00e0_ii_a.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobility_ii.json"
+    },
+    {
+        "id": 68,
+        "name": "Incursione costiera I",
+        "game_info": "+20% alla Forza di combattimento quando attacchi le citt\u00e0. Guadagni oro pari al 33% del danno inflitto alla citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/incursione_costiera_i_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_i.json"
+    },
+    {
+        "id": 69,
+        "name": "Incursione costiera II",
+        "game_info": "+20% alla Forza di combattimento quando attacchi le citt\u00e0. Guadagni oro pari al 33% del danno inflitto alla citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Incursione costiera I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/incursione_costiera_ii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_ii.json"
+    },
+    {
+        "id": 70,
+        "name": "Incursione costiera III",
+        "game_info": "+20% alla Forza di combattimento quando attacchi le citt\u00e0. Guadagni oro pari al 34% del danno inflitto alla citt\u00e0.",
+        "prereq_promotions": [
+            {
+                "name": "Incursione costiera II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/incursione_costiera_iii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_iii.json"
+    },
+    {
+        "id": 71,
+        "name": "Abbordaggio I",
+        "game_info": "+15% alla Forza di combattimento negli attacchi ravvicinati contro unit\u00e0 navali.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/abbordaggio_i_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_i.json"
+    },
+    {
+        "id": 72,
+        "name": "Abbordaggio II",
+        "game_info": "+15% alla Forza di combattimento negli attacchi ravvicinati contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Abbordaggio I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/abbordaggio_ii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_ii.json"
+    },
+    {
+        "id": 73,
+        "name": "Abbordaggio III",
+        "game_info": "+15% alla Forza di combattimento negli attacchi ravvicinati contro unit\u00e0 navali.",
+        "prereq_promotions": [
+            {
+                "name": "Abbordaggio II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/abbordaggio_iii_n.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/boarding_party_iii.json"
+    },
+    {
+        "id": 74,
+        "name": "Attacco in massa I",
+        "game_info": "+25% al combattimento quando attacca.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_in_massa_i_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_i.json"
+    },
+    {
+        "id": 75,
+        "name": "Attacco in massa II",
+        "game_info": "+25% al combattimento quando attacca.",
+        "prereq_promotions": [
+            {
+                "name": "Attacco in massa I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_in_massa_ii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_ii.json"
+    },
+    {
+        "id": 76,
+        "name": "Attacco in massa III",
+        "game_info": "+25% al combattimento quando attacca.",
+        "prereq_promotions": [
+            {
+                "name": "Attacco in massa II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_in_massa_iii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/wolfpack_iii.json"
+    },
+    {
+        "id": 77,
+        "name": "Ponte di volo I",
+        "game_info": "Pu\u00f2 trasportare 1 unit\u00e0 aerea extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ponte_di_volo_i_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_i.json"
+    },
+    {
+        "id": 78,
+        "name": "Ponte di volo II",
+        "game_info": "Pu\u00f2 trasportare 1 unit\u00e0 aerea extra.",
+        "prereq_promotions": [
+            {
+                "name": "Ponte di volo I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ponte_di_volo_ii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_ii.json"
+    },
+    {
+        "id": 79,
+        "name": "Ponte di volo III",
+        "game_info": "Pu\u00f2 trasportare 1 unit\u00e0 aerea extra.",
+        "prereq_promotions": [
+            {
+                "name": "Ponte di volo II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ponte_di_volo_iii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/flight_deck_iii.json"
+    },
+    {
+        "id": 80,
+        "name": "Corazza I",
+        "game_info": "Bonus del 25% in combattimento quando si difende.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/corazza_i_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_i.json"
+    },
+    {
+        "id": 81,
+        "name": "Corazza II",
+        "game_info": "Bonus del 25% in combattimento quando si difende.",
+        "prereq_promotions": [
+            {
+                "name": "Corazza I",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_i.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/corazza_ii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_ii.json"
+    },
+    {
+        "id": 82,
+        "name": "Corazza III",
+        "game_info": "Bonus del 25% in combattimento quando si difende.",
+        "prereq_promotions": [
+            {
+                "name": "Corazza II",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_ii.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/corazza_iii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/armor_plating_iii.json"
+    },
+    {
+        "id": 83,
+        "name": "Morale",
+        "game_info": "+15% alla Forza di combattimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/morale_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/morale.json"
+    },
+    {
+        "id": 84,
+        "name": "Disciplina",
+        "game_info": "+15% alla Forza di combattimento se adiacente a un'unit\u00e0 amica.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/disciplina_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/discipline.json"
+    },
+    {
+        "id": 85,
+        "name": "Castello di Himeji",
+        "game_info": "+15% alla Forza di combattimento in territorio alleato.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/castello_di_himeji_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/himeji_castle.json"
+    },
+    {
+        "id": 86,
+        "name": "Esplorazione",
+        "game_info": "+1 [ICON_MOVES] al movimento e +1 al raggio di visione.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/esplorazione_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/exploration.json"
+    },
+    {
+        "id": 87,
+        "name": "Grande Faro",
+        "game_info": "+1 [ICON_MOVES] al movimento e +1 al raggio di visione.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/grande_faro_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_lighthouse.json"
+    },
+    {
+        "id": 88,
+        "name": "Guerra patriottica",
+        "game_info": "+15% al bonus in attacco in territorio amico.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/guerra_patriottica_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/patriotic_war.json"
+    },
+    {
+        "id": 89,
+        "name": "Generale mobile",
+        "game_info": "+3 al [ICON_MOVES] movimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/generale_mobile_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobile_general.json"
+    },
+    {
+        "id": 90,
+        "name": "Ammiraglio mobile",
+        "game_info": "+2 al [ICON_MOVES] movimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ammiraglio_mobile_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mobile_admiral.json"
+    },
+    {
+        "id": 91,
+        "name": "Imbarco",
+        "game_info": "Si pu\u00f2 imbarcare su Caselle d'acqua.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imbarco_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/embarkation.json"
+    },
+    {
+        "id": 92,
+        "name": "Imbarco con difesa",
+        "game_info": "Si pu\u00f2 imbarcare su Caselle acquatiche. Le unit\u00e0 imbarcate hanno una forza difensiva doppia.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imbarco_con_difesa_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/embarkation_with_defense.json"
+    },
+    {
+        "id": 93,
+        "name": "Imbarco con movim. in mare aperto",
+        "game_info": "Pu\u00f2 imbarcarsi nelle caselle acquatiche. Le unit\u00e0 imbarcate possono entrare nell'oceano e hanno +1 al raggio di visione.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/imbarco_con_movim._in_mare_aperto_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/embarkation_with_ocean_movement.json"
+    },
+    {
+        "id": 94,
+        "name": "1 Movimento extra",
+        "game_info": "1 punto movimento extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/1_movimento_extra_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/1_extra_movement.json"
+    },
+    {
+        "id": 95,
+        "name": "Visione extra (1)",
+        "game_info": "1 casella di visione extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visione_extra_(1)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+    },
+    {
+        "id": 96,
+        "name": "Visione extra (2)",
+        "game_info": "2 caselle di visione extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visione_extra_(2)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(2).json"
+    },
+    {
+        "id": 97,
+        "name": "Visione extra (3)",
+        "game_info": "3 caselle di visione extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visione_extra_(3)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(3).json"
+    },
+    {
+        "id": 98,
+        "name": "Visione extra (4)",
+        "game_info": "4 caselle di visione extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visione_extra_(4)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(4).json"
+    },
+    {
+        "id": 99,
+        "name": "Visibilit\u00e0 limitata",
+        "game_info": "-1 al raggio visivo.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visibilit\u00e0_limitata_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+    },
+    {
+        "id": 100,
+        "name": "Ricognizione aerea",
+        "game_info": "Sono sempre visibili 6 caselle in tutte le direzioni.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ricognizione_aerea_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+    },
+    {
+        "id": 101,
+        "name": "Bonus contro unit\u00e0 a cavallo (50)",
+        "game_info": "Bonus del 50% contro tutte le unit\u00e0 a cavallo e simili.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_unit\u00e0_a_cavallo_(50)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+    },
+    {
+        "id": 102,
+        "name": "Bonus contro unit\u00e0 a cavallo (100)",
+        "game_info": "Bonus del 100% contro tutte le unit\u00e0 a cavallo e simili.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_unit\u00e0_a_cavallo_(100)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(100).json"
+    },
+    {
+        "id": 103,
+        "name": "Bonus contro le citt\u00e0 (200)",
+        "game_info": "Bonus del 200% contro le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_le_citt\u00e0_(200)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+    },
+    {
+        "id": 104,
+        "name": "Bonus contro le citt\u00e0 (300)",
+        "game_info": "Bonus del 300% contro le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_le_citt\u00e0_(300)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(300).json"
+    },
+    {
+        "id": 105,
+        "name": "Penalit\u00e0 alla difesa (33)",
+        "game_info": "Penalit\u00e0 alla difesa (33)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_alla_difesa_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_on_defense_(33).json"
+    },
+    {
+        "id": 106,
+        "name": "Penalit\u00e0 contro unit\u00e0 a cavallo (33)",
+        "game_info": "Penalit\u00e0 contro unit\u00e0 a cavallo (33)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_contro_unit\u00e0_a_cavallo_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_vs_mounted_(33).json"
+    },
+    {
+        "id": 107,
+        "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+        "game_info": "33% di penalit\u00e0 in attacco contro le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_in_attacco_contro_le_citt\u00e0_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+    },
+    {
+        "id": 108,
+        "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (25)",
+        "game_info": "25% di penalit\u00e0 in attacco contro le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_in_attacco_contro_le_citt\u00e0_(25)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(25).json"
+    },
+    {
+        "id": 109,
+        "name": "Intercettazione (20)",
+        "game_info": "Intercettazione (20)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_(20)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(20).json"
+    },
+    {
+        "id": 110,
+        "name": "Intercettazione (40)",
+        "game_info": "Intercettazione (40)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_(40)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(40).json"
+    },
+    {
+        "id": 111,
+        "name": "Intercettazione (50)",
+        "game_info": "Intercettazione (50)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_(50)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(50).json"
+    },
+    {
+        "id": 112,
+        "name": "Intercettazione (100)",
+        "game_info": "Intercettazione (100)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/intercettazione_(100)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+    },
+    {
+        "id": 113,
+        "name": "Distruzione difese antiaeree",
+        "game_info": "Pu\u00f2 distruggere le difese antiaeree per evitare che intercettino gli apparecchi.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/distruzione_difese_antiaeree_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_sweep.json"
+    },
+    {
+        "id": 114,
+        "name": "Attacco a distanza debole",
+        "game_info": "-50% alla forza degli attacchi a distanza.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_a_distanza_debole_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/weak_ranged_attack.json"
+    },
+    {
+        "id": 115,
+        "name": "Bonus contro unit\u00e0 volanti ed elicotteri (150)",
+        "game_info": "Bonus contro unit\u00e0 volanti ed elicotteri (150)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_unit\u00e0_volanti_ed_elicotteri_(150)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_aircraft/helicopters_(150).json"
+    },
+    {
+        "id": 116,
+        "name": "Bonus contro bombardieri ed elicotteri (150)",
+        "game_info": "Bonus contro bombardieri ed elicotteri (150)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_bombardieri_ed_elicotteri_(150)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_bombers/helicopters_(150).json"
+    },
+    {
+        "id": 117,
+        "name": "Bonus contro Elicotteri",
+        "game_info": "Bonus contro Elicotteri",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_elicotteri_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_helicopters.json"
+    },
+    {
+        "id": 118,
+        "name": "Bonus contro Caccia (33)",
+        "game_info": "Bonus contro Caccia (33)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_caccia_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_fighters_(33).json"
+    },
+    {
+        "id": 119,
+        "name": "Attacco contro Sottomarini (33)",
+        "game_info": "Attacco contro Sottomarini (33)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_contro_sottomarini_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/attack_vs_submarines_(33).json"
+    },
+    {
+        "id": 120,
+        "name": "Attacco contro Sottomarini (100)",
+        "game_info": "Attacco contro Sottomarini (100)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_contro_sottomarini_(100)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/attack_vs_submarines_(100).json"
+    },
+    {
+        "id": 121,
+        "name": "Bonus contro Carri armati (100)",
+        "game_info": "Bonus contro Carri armati (100)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_carri_armati_(100)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_tanks_(100).json"
+    },
+    {
+        "id": 122,
+        "name": "Manovre evasive (50)",
+        "game_info": "Manovre evasive (50)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/manovre_evasive_(50)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(50).json"
+    },
+    {
+        "id": 123,
+        "name": "Manovre evasive (100)",
+        "game_info": "Manovre evasive (100)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/manovre_evasive_(100)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(100).json"
+    },
+    {
+        "id": 124,
+        "name": "Penalit\u00e0 contro unit\u00e0 navali (50)",
+        "game_info": "Penalit\u00e0 contro unit\u00e0 navali (50)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_contro_unit\u00e0_navali_(50)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_vs_naval_(50).json"
+    },
+    {
+        "id": 125,
+        "name": "Bonus contro le citt\u00e0 (50)",
+        "game_info": "Bonus contro le citt\u00e0 (50)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_le_citt\u00e0_(50)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(50).json"
+    },
+    {
+        "id": 126,
+        "name": "Bonus contro le citt\u00e0 (33)",
+        "game_info": "Bonus contro le citt\u00e0 (33)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_le_citt\u00e0_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(33).json"
+    },
+    {
+        "id": 127,
+        "name": "Bonus al combattimento in attacco (75)",
+        "game_info": "Bonus al combattimento in attacco (75)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_al_combattimento_in_attacco_(75)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_when_attacking_(75).json"
+    },
+    {
+        "id": 128,
+        "name": "Pu\u00f2 entrare nel territorio di altre civilt\u00e0",
+        "game_info": "Pu\u00f2 entrare nel territorio di altre civilt\u00e0",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_entrare_nel_territorio_di_altre_civilt\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_enter_rival_territory.json"
+    },
+    {
+        "id": 129,
+        "name": "Pu\u00f2 trasportare 1 Carico",
+        "game_info": "Pu\u00f2 trasportare 1 Carico",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_trasportare_1_carico_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_1_cargo.json"
+    },
+    {
+        "id": 130,
+        "name": "Pu\u00f2 trasportare 2 Carichi",
+        "game_info": "Pu\u00f2 trasportare 2 Carichi",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_trasportare_2_carichi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_2_cargo.json"
+    },
+    {
+        "id": 131,
+        "name": "Pu\u00f2 trasportare 3 Carichi",
+        "game_info": "Pu\u00f2 trasportare 3 Carichi",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_trasportare_3_carichi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_3_cargo.json"
+    },
+    {
+        "id": 132,
+        "name": "Pu\u00f2 trasportare 4 Carichi",
+        "game_info": "Pu\u00f2 trasportare 4 Carichi",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_trasportare_4_carichi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_4_cargo.json"
+    },
+    {
+        "id": 133,
+        "name": "Non pu\u00f2 entrare nelle foreste e nella giungla",
+        "game_info": "Non pu\u00f2 entrare nelle foreste e nella giungla",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/non_pu\u00f2_entrare_nelle_foreste_e_nella_giungla_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_forest_or_jungle.json"
+    },
+    {
+        "id": 134,
+        "name": "Penalit\u00e0 su terreno accidentato",
+        "game_info": "Entrare in una casella di terreno accidentato consuma tutti i punti movimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/penalit\u00e0_su_terreno_accidentato_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/rough_terrain_penalty.json"
+    },
+    {
+        "id": 135,
+        "name": "\u00c8 necessario conoscere l'Astronomia",
+        "game_info": "Non pu\u00f2 entrare in mare aperto fino alla scoperta dell'Astronomia.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/\u00e8_necessario_conoscere_l'astronomia_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/astronomy_needed.json"
+    },
+    {
+        "id": 136,
+        "name": "Non pu\u00f2 entrare in mare aperto",
+        "game_info": "Non pu\u00f2 entrare in mare aperto",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/non_pu\u00f2_entrare_in_mare_aperto_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+    },
+    {
+        "id": 137,
+        "name": "Movimento doppio lungo la costa",
+        "game_info": "Movimento doppio lungo la costa",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/movimento_doppio_lungo_la_costa_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/double_movement_in_coast.json"
+    },
+    {
+        "id": 138,
+        "name": "Invisibile (Sottomarino)",
+        "game_info": "Invisibile (Sottomarino)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/invisibile_(sottomarino)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/is_invisible_(submarine).json"
+    },
+    {
+        "id": 139,
+        "name": "Pu\u00f2 vedere i sottomarini",
+        "game_info": "Pu\u00f2 vedere i sottomarini",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_vedere_i_sottomarini_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_see_submarines.json"
+    },
+    {
+        "id": 140,
+        "name": "Ignora il costo del terreno",
+        "game_info": "Ignora il costo del terreno",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ignora_il_costo_del_terreno_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ignores_terrain_cost.json"
+    },
+    {
+        "id": 141,
+        "name": "Unit\u00e0 fluttuante",
+        "game_info": "L'unit\u00e0 pu\u00f2 superare le montagne, ma subisce danno se termina il movimento su una montagna.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/unit\u00e0_fluttuante_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/hovering_unit.json"
+    },
+    {
+        "id": 142,
+        "name": "Tutte le caselle costano 1 PM",
+        "game_info": "Tutte le caselle costano 1 PM",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/tutte_le_caselle_costano_1_pm_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/all_tiles_cost_1_move.json"
+    },
+    {
+        "id": 143,
+        "name": "Pu\u00f2 entrare nelle caselle di Ghiaccio",
+        "game_info": "Pu\u00f2 entrare nelle caselle di Ghiaccio",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_entrare_nelle_caselle_di_ghiaccio_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_enter_ice_tiles.json"
+    },
+    {
+        "id": 144,
+        "name": "Non pu\u00f2 catturare le citt\u00e0",
+        "game_info": "Non pu\u00f2 catturare le citt\u00e0",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/non_pu\u00f2_catturare_le_citt\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/unable_to_capture_cities.json"
+    },
+    {
+        "id": 145,
+        "name": "Non pu\u00f2 attaccare in mischia",
+        "game_info": "Non pu\u00f2 attaccare in mischia",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/non_pu\u00f2_attaccare_in_mischia_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+    },
+    {
+        "id": 146,
+        "name": "Nessun bonus difensivo per terreno",
+        "game_info": "Nessun bonus difensivo per terreno",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/nessun_bonus_difensivo_per_terreno_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+    },
+    {
+        "id": 147,
+        "name": "Pu\u00f2 lanciarsi col paracadute",
+        "game_info": "Pu\u00f2 lanciarsi col paracadute",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_lanciarsi_col_paracadute_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_paradrop.json"
+    },
+    {
+        "id": 148,
+        "name": "Deve eseguire l'allestimento per attaccare a distanza",
+        "game_info": "Deve eseguire l'allestimento per attaccare a distanza",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/deve_eseguire_l'allestimento_per_attaccare_a_distanza_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+    },
+    {
+        "id": 149,
+        "name": "Fuoco di supporto",
+        "game_info": "Fornisce fuoco di supporto alle unit\u00e0 amiche quando si \u00e8 fortificata.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fuoco_di_supporto_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ranged_support_fire.json"
+    },
+    {
+        "id": 150,
+        "name": "Pu\u00f2 muoversi dopo aver attaccato",
+        "game_info": "Pu\u00f2 muoversi dopo aver attaccato",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_muoversi_dopo_aver_attaccato_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+    },
+    {
+        "id": 151,
+        "name": "Bonus combattimento in terreno aperto",
+        "game_info": "Bonus combattimento in terreno aperto",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_combattimento_in_terreno_aperto_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_in_open_terrain.json"
+    },
+    {
+        "id": 152,
+        "name": "Pu\u00f2 attaccare due volte",
+        "game_info": "Pu\u00f2 attaccare due volte",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_attaccare_due_volte_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_attack_twice.json"
+    },
+    {
+        "id": 153,
+        "name": "Movimento navale",
+        "game_info": "2 punti movimento extra a tutte le unit\u00e0 navali.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/movimento_navale_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/naval_movement.json"
+    },
+    {
+        "id": 154,
+        "name": "Comando",
+        "game_info": "Aumenta l'efficacia in combattimento delle unit\u00e0 terrestri vicine.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/comando_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/leadership.json"
+    },
+    {
+        "id": 155,
+        "name": "Grandi Generali I",
+        "game_info": "Buona probabilit\u00e0 di creare Grandi Generali con il combattimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/grandi_generali_i_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_i.json"
+    },
+    {
+        "id": 156,
+        "name": "Grandi Generali II",
+        "game_info": "Altissima probabilit\u00e0 di creare Grandi Generali con il combattimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/grandi_generali_ii_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_ii.json"
+    },
+    {
+        "id": 157,
+        "name": "Nessun costo di PM per il saccheggio",
+        "game_info": "Nessun costo di PM per il saccheggio",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/nessun_costo_di_pm_per_il_saccheggio_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_movement_cost_to_pillage.json"
+    },
+    {
+        "id": 158,
+        "name": "Cura 50 punti di danno se uccide un'altra unit\u00e0",
+        "game_info": "Cura tutto il danno se uccide un'unit\u00e0 nemica non barbarica.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/cura_50_punti_di_danno_se_uccide_un'altra_unit\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heal_50_damage_if_kills_a_unit.json"
+    },
+    {
+        "id": 159,
+        "name": "Cura 25 punti se uccide un'altra unit\u00e0",
+        "game_info": "Cura 25 punti se uccide un'altra unit\u00e0",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/cura_25_punti_se_uccide_un'altra_unit\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heals_25_damage_if_kills_a_unit.json"
+    },
+    {
+        "id": 160,
+        "name": "Bonus al combattimento in attacco (25)",
+        "game_info": "Bonus al combattimento in attacco (25)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_al_combattimento_in_attacco_(25)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_when_attacking_(25).json"
+    },
+    {
+        "id": 161,
+        "name": "Bonus combat. in Foresta/Giungla (33)",
+        "game_info": "+33% al combattimento nella Foresta e nella Giungla.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_combat._in_foresta_giungla_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_in_forest/jungle_(33).json"
+    },
+    {
+        "id": 162,
+        "name": "Bonus combat. in Foresta/Giungla (33)",
+        "game_info": "+33% al combattimento nella Foresta e nella Giungla.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_combat._in_foresta_giungla_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_in_forest/jungle_(33).json"
+    },
+    {
+        "id": 163,
+        "name": "Bonus in terra straniera",
+        "game_info": "Bonus al combattimento al di fuori del territorio amico (20).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_in_terra_straniera_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/foreign_lands_bonus.json"
+    },
+    {
+        "id": 164,
+        "name": "Cura a doppia velocit\u00e0",
+        "game_info": "Cura a doppia velocit\u00e0",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/cura_a_doppia_velocit\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heals_at_double_rate.json"
+    },
+    {
+        "id": 165,
+        "name": "Bonus contro nemici feriti (33)",
+        "game_info": "Bonus al combattimento contro unit\u00e0 nemiche ferite (33).",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_nemici_feriti_(33)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/damaged_enemy_bonus_(33).json"
+    },
+    {
+        "id": 166,
+        "name": "Medico esperto",
+        "game_info": "Quest'unit\u00e0 e tutte quelle che si trovano nelle caselle adiacenti curano 15 PF aggiuntivi ogni turno.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/medico_esperto_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/enhanced_medic.json"
+    },
+    {
+        "id": 167,
+        "name": "Apprendimento rapido",
+        "game_info": "Guadagna esperienza il 50% pi\u00f9 velocemente",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/apprendimento_rapido_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/quick_study.json"
+    },
+    {
+        "id": 168,
+        "name": "Danza di guerra Haka",
+        "game_info": "Quando sono adiacenti a un'unit\u00e0 qualsiasi che ha questa promozione, le unit\u00e0 hanno -10% alla Forza di combattimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/danza_di_guerra_haka_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/haka_war_dance.json"
+    },
+    {
+        "id": 169,
+        "name": "Bonus in Neve, Tundra e Collina",
+        "game_info": "In caselle di Neve, Tundra o Collina: bonus al combattimento del 25% (se non \u00e8 presente Foresta o Giungla) e movimento raddoppiato",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_in_neve,_tundra_e_collina_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+    },
+    {
+        "id": 170,
+        "name": "Statua di Zeus",
+        "game_info": "+15% alla Forza di combattimento quando attacchi le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/statua_di_zeus_sh.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/statue_of_zeus.json"
+    },
+    {
+        "id": 171,
+        "name": "Bonus contro unit\u00e0 navali",
+        "game_info": "Bonus contro unit\u00e0 navali",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_unit\u00e0_navali_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_naval.json"
+    },
+    {
+        "id": 172,
+        "name": "Elefante spaventoso",
+        "game_info": "Le unit\u00e0 nemiche subiscono una penalit\u00e0 del 10% alla Forza di combattimento quando sono adiacenti a un'unit\u00e0 che ha questa promozione.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/elefante_spaventoso_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/feared_elephant.json"
+    },
+    {
+        "id": 173,
+        "name": "Bonus di accerchiamento potenziato",
+        "game_info": "Il bonus di accerchiamento aumenta del 50%",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_di_accerchiamento_potenziato_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/enhanced_flank_attack.json"
+    },
+    {
+        "id": 174,
+        "name": "Bonus vicino alla capitale",
+        "game_info": "30% pi\u00f9 forte quando combatte nella capitale; il bonus diminuisce man mano che l'unit\u00e0 se ne allontana.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_vicino_alla_capitale_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/near_capital_bonus.json"
+    },
+    {
+        "id": 175,
+        "name": "Visione extra quando imbarcata",
+        "game_info": "Vedi pi\u00f9 lontano di una normale unit\u00e0 imbarcata.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/visione_extra_quando_imbarcata_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_while_embarked.json"
+    },
+    {
+        "id": 176,
+        "name": "Trasferisce il movimento al generale",
+        "game_info": "Se inizia il turno nella sua stessa casella, il Grande Generale si muove alla stessa velocit\u00e0 di quest'unit\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/trasferisce_il_movimento_al_generale_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/transfer_movement_to_general.json"
+    },
+    {
+        "id": 177,
+        "name": "Bonus combatt. dei Grandi Generali",
+        "game_info": "Bonus del 15% al combattimento quando c'\u00e8 un Grande Generale nella stessa casella.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_combatt._dei_grandi_generali_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_general_combat_bonus.json"
+    },
+    {
+        "id": 178,
+        "name": "Pu\u00f2 attaccare solo le citt\u00e0",
+        "game_info": "L'unit\u00e0 non pu\u00f2 attaccare altre unit\u00e0, solo citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/pu\u00f2_attaccare_solo_le_citt\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/city_attack_only.json"
+    },
+    {
+        "id": 179,
+        "name": "Canoe da guerra",
+        "game_info": "Le unit\u00e0 imbarcate hanno una forza difensiva doppia e vedono pi\u00f9 lontano delle normali unit\u00e0 imbarcate.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/canoe_da_guerra_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/war_canoes.json"
+    },
+    {
+        "id": 180,
+        "name": "Cattura delle navi",
+        "game_info": "Le unit\u00e0 navali nemiche sconfitte possono unirsi al tuo impero.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/cattura_delle_navi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/prize_ships.json"
+    },
+    {
+        "id": 181,
+        "name": "Comando navale",
+        "game_info": "Aumenta l'efficacia in combattimento delle unit\u00e0 navali vicine.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/comando_navale_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/naval_leadership.json"
+    },
+    {
+        "id": 182,
+        "name": "Evangelista sgradito",
+        "game_info": "Pu\u00f2 entrare nel territorio di un'altra civilt\u00e0 senza che sia stato stipulato un accordo per il Diritto di Passaggio, ma perde il 25% della forza religiosa originale ogni volta che termina il turno al suo interno. L'unit\u00e0 viene eliminata quando la sua forza religiosa si riduce a 0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/evangelista_sgradito_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/unwelcome_evangelist.json"
+    },
+    {
+        "id": 183,
+        "name": "Ritirata dalla mischia",
+        "game_info": "L'unit\u00e0 \u00e8 in grado di ritirarsi quando attaccata in mischia. La probabilit\u00e0 di effettuare la ritirata con successo diminuisce, se l'unit\u00e0 nemica \u00e8 veloce o se c'\u00e8 un numero limitato di caselle aperte dietro all'unit\u00e0 attaccata.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ritirata_dalla_mischia_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/withdraw_before_melee.json"
+    },
+    {
+        "id": 184,
+        "name": "Petto del bisonte",
+        "game_info": "+10% alla Forza di combattimento quando lotta in terreno APERTO (NON in Collina, Foresta o Giungla). Il bonus di accerchiamento aumenta del 25%. +10% alla difesa contro tutti gli attacchi a distanza.",
+        "prereq_promotions": [
+            {
+                "name": "Corna del bisonte",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/buffalo_horns.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/petto_del_bisonte_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/buffalo_chest.json"
+    },
+    {
+        "id": 185,
+        "name": "Fianchi del bisonte",
+        "game_info": "+10% alla Forza di combattimento. Il bonus di accerchiamento aumenta del 25%. +10% alla difesa contro tutti gli attacchi a distanza.",
+        "prereq_promotions": [
+            {
+                "name": "Petto del bisonte",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/buffalo_chest.json"
+            }
+        ],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/fianchi_del_bisonte_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/buffalo_loins.json"
+    },
+    {
+        "id": 186,
+        "name": "Corna del bisonte",
+        "game_info": "+1 al movimento. Il bonus di accerchiamento aumenta del 25%. +10% alla difesa contro tutti gli attacchi a distanza.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/corna_del_bisonte_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/buffalo_horns.json"
+    },
+    {
+        "id": 187,
+        "name": "Giavellotti",
+        "game_info": "Prima di ingaggiare il combattimento corpo a corpo l'unit\u00e0 esegue un attacco supplementare.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/giavellotti_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/spear_throw.json"
+    },
+    {
+        "id": 188,
+        "name": "Bonus per la Missione commerciale",
+        "game_info": "+100% Oro e +100% Influenza sulle citt\u00e0-stato rispetto a una normale Missione commerciale.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_per_la_missione_commerciale_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/trade_mission_bonus.json"
+    },
+    {
+        "id": 189,
+        "name": "Carica travolgente",
+        "game_info": "Quando infligge pi\u00f9 danni di quanti ne riceva, obbliga il difensore a ritirarsi. Un difensore che non pu\u00f2 ritirarsi subisce danni extra.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/carica_travolgente_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heavy_charge.json"
+    },
+    {
+        "id": 190,
+        "name": "Bonus contro le citt\u00e0 (250)",
+        "game_info": "Bonus del 250% contro le citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/bonus_contro_le_citt\u00e0_(250)_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(250).json"
+    },
+    {
+        "id": 191,
+        "name": "Geniere",
+        "game_info": "Quando si trova adiacente a una citt\u00e0 nemica, le altre unit\u00e0 in un raggio di 2 caselle ottengono un bonus del 50% quando attaccano quella citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/geniere_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/sapper.json"
+    },
+    {
+        "id": 192,
+        "name": "Le vittorie avvicinano l'Et\u00e0 dell'Oro",
+        "game_info": "Ogni nemico ucciso fa guadagnare punti per avviare un'Et\u00e0 dell'Oro.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/le_vittorie_avvicinano_l'et\u00e0_dell'oro_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/golden_age_from_victories.json"
+    },
+    {
+        "id": 193,
+        "name": "Guardiano della terra natia",
+        "game_info": "Bonus del 25% al combattimento nel tuo territorio",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/guardiano_della_terra_natia_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/homeland_guardian.json"
+    },
+    {
+        "id": 194,
+        "name": "Orgoglio degli antichi",
+        "game_info": "Bonus del 15% al combattimento nel tuo territorio",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/orgoglio_degli_antichi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/pride_of_the_ancestors.json"
+    },
+    {
+        "id": 195,
+        "name": "Guerriero del Deserto",
+        "game_info": "+50% alla Forza di combattimento quando lotta nel Deserto.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/guerriero_del_deserto_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/desert_warrior.json"
+    },
+    {
+        "id": 196,
+        "name": "Lingua dei nativi",
+        "game_info": "Pu\u00f2 scegliere il beneficio quando scopre Antiche rovine.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/lingua_dei_nativi_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/native_tongue.json"
+    },
+    {
+        "id": 197,
+        "name": "Scorribande alla luce della luna",
+        "game_info": "+1 Movimento.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/scorribande_alla_luce_della_luna_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/full_moon_striker.json"
+    },
+    {
+        "id": 198,
+        "name": "Addestramento in altura",
+        "game_info": "Movimento doppio in collina. +10% alla Forza di combattimento quando lotta in Collina.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/addestramento_in_altura_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/altitude_training.json"
+    },
+    {
+        "id": 199,
+        "name": "Lama mistica",
+        "game_info": "Quando l'unit\u00e0 supera il primo combattimento la promozione \u00e8 sostituita da una nuova promozione scelta a caso",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/lama_mistica_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mystic_blade.json"
+    },
+    {
+        "id": 200,
+        "name": "Invulnerabilit\u00e0",
+        "game_info": "Bonus del 30% al combattimento in difesa. +20 punti ferita quando si cura",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/invulnerabilit\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/invulnerability.json"
+    },
+    {
+        "id": 201,
+        "name": "Attacco a sorpresa",
+        "game_info": "Il bonus di accerchiamento aumenta del 50%.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/attacco_a_sorpresa_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/sneak_attack.json"
+    },
+    {
+        "id": 202,
+        "name": "Eroismo",
+        "game_info": "L'unit\u00e0 in questione d\u00e0 a quelle adiacenti un bonus al combattimento come se fosse un Grande Generale.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/eroismo_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heroism.json"
+    },
+    {
+        "id": 203,
+        "name": "Ambizione",
+        "game_info": "+50% al combattimento quando attacca. -20% quando si difende",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/ambizione_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ambition.json"
+    },
+    {
+        "id": 204,
+        "name": "Irrequietezza",
+        "game_info": "Pu\u00f2 attaccare due volte. 1 movimento extra",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/irrequietezza_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/restlessness.json"
+    },
+    {
+        "id": 205,
+        "name": "Reclutamento",
+        "game_info": "Cura tutto il danno se uccide un'unit\u00e0 nemica non barbarica",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/reclutamento_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/recruitment.json"
+    },
+    {
+        "id": 206,
+        "name": "Lama nemica",
+        "game_info": "Subisce 20 punti di danno se termina il turno in territorio nemico",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/lama_nemica_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/enemy_blade.json"
+    },
+    {
+        "id": 207,
+        "name": "Spiriti maligni",
+        "game_info": "-10% alla Forza di combattimento in attacco. -30% alla Forza di combattimento in difesa",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/spiriti_maligni_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evil_spirits.json"
+    },
+    {
+        "id": 208,
+        "name": "Skyranger",
+        "game_info": "Pu\u00f2 lanciarsi col paracadute con un raggio d'azione esteso (40 caselle)",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/skyranger_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/skyranger.json"
+    },
+    {
+        "id": 209,
+        "name": "Guerra lampo",
+        "game_info": "+15% al combattimento in attacco. +1 [ICON_MOVES] movimento. Ignora le Zone di Controllo nemiche.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/guerra_lampo_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/lightning_warfare.json"
+    },
+    {
+        "id": 210,
+        "name": "Merci esotiche",
+        "game_info": "Quando \u00e8 adiacente a una casella straniera, pu\u00f2 vendere Merci esotiche e ottenere Oro e XP in base alla distanza dalla capitale, ma pu\u00f2 farlo solo una volta.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/merci_esotiche_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/exotic_cargo.json"
+    },
+    {
+        "id": 211,
+        "name": "Saccheggio delle citt\u00e0",
+        "game_info": "Ruba Oro pari al 100% del danno inflitto a una citt\u00e0.",
+        "prereq_promotions": [],
+        "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/saccheggio_delle_citt\u00e0_at.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/city_plunder.json"
+    }
+]

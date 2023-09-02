@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Universit\u00e9|Universit\u00e9s",
+    "game_info": " Science +2 pour les cases de jungle exploit\u00e9es par la ville. Permet la construction d'arch\u00e9ologues dans cette ville.La ville doit poss\u00e9der une biblioth\u00e8que.",
+    "strategy": "B\u00e2timent m\u00e9di\u00e9val, l'universit\u00e9 augmente la production de science de la ville o\u00f9 elle se trouve. Elle est encore plus efficace si la ville se situe pr\u00e8s de cases de jungle. Votre ville doit d\u00e9j\u00e0 poss\u00e9der une biblioth\u00e8que ou une fabrique de papier pour que vous puissiez y construire une universit\u00e9.",
+    "historical_info": "Une universit\u00e9 est un institut de recherches et d'\u00e9ducation sup\u00e9rieure, fr\u00e9quent\u00e9 par des \u00e9tudiants de 18 \u00e0 24 ans en moyenne (il arrive de rencontrer \u00e9galement des adultes et des personnes \u00e2g\u00e9es sur les bancs de l'universit\u00e9). Officiellement, une universit\u00e9 est un \u00e9tablissement subventionn\u00e9 par l'\u00c9tat o\u00f9 les \u00e9tudiants suivent un cursus aboutissant (en principe) \u00e0 un dipl\u00f4me. Les mati\u00e8res qui y sont \u00e9tudi\u00e9es sont tr\u00e8s nombreuses. La plus ancienne universit\u00e9 du monde encore ouverte \u00e0 ce jour est celle d'Al Quaraouiyine, situ\u00e9e \u00e0 F\u00e8s, au Maroc. Elle fut fond\u00e9e en 859 apr. J.-C.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/universit\u00e9|universit\u00e9s.png",
+    "prereq_tech": {
+        "name": "\u00c9ducation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

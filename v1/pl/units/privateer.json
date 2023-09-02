@@ -1,0 +1,27 @@
+{
+    "id": 118,
+    "name": "Kaper|Kapra|Kaprowi|Kapra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/privateer.png",
+    "game_info": "Jednostka morska wyspecjalizowana w atakowaniu miast przybrze\u017cnych w celu zdobycia z\u0142ota i w zajmowaniu wrogich statk\u00f3w.",
+    "historical_info": "Kapitanowie prywatnych okr\u0119t\u00f3w, kt\u00f3rzy otrzymali listy kaperskie, mieli przyzwolenie na swobodne atakowanie wrogich okr\u0119t\u00f3w. Od XVI do XIX w. z ich us\u0142ug korzysta\u0142y wszystkie pot\u0119gi kolonialne, zw\u0142aszcza Brytania i Hiszpania. Poniewa\u017c korsarze i ich za\u0142ogi zazwyczaj nie otrzymywali rz\u0105dowego \u017co\u0142du, dawano im w zamian cz\u0119\u015b\u0107 \u0142upu zdobytego od wroga, co sprawia\u0142o, \u017ce niewiele r\u00f3\u017cnili si\u0119 oni od dzia\u0142aj\u0105cych bez \u017cadnych zezwole\u0144 pirat\u00f3w.",
+    "strategy": "Jednostka morska atakuj\u0105ca z bliska. Zaczyna od awansu \u201eMorski naje\u017ad\u017aca I\u201d, dzi\u0119ki czemu zyskuje z\u0142oto podczas atak\u00f3w na przybrze\u017cne miasta. Potrafi pojma\u0107 pokonane wrogie jednostki morskie.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Morski grabie\u017cca I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Statki zdobyczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/prize_ships.json"
+        }
+    ]
+}

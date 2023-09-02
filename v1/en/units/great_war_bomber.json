@@ -1,0 +1,18 @@
+{
+    "id": 115,
+    "name": "Great War Bomber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_war_bomber.png",
+    "game_info": "Early Air Unit that can bombard enemy Units and Cities from the skies.",
+    "historical_info": "By the outbreak of World War I, several nations, including Great Britain, France, and Germany, had all experimented with the concept of explosive bombardment via plane. In the earliest days of the war, bombs were dropped from all types of aircraft, including reconnaissance and fighter planes. One of the first genuine bombers introduced during the war, the Voisin III, was designed by the French aircraft manufacturer Gabriel Voisin. Featuring a standard biplane design reinforced with a steel frame, the Voisin III was capable of carrying payloads of over 300 lbs.",
+    "strategy": "The Great War Bomber is an early air unit. It is effective against ground targets, less so against naval targets, and it's quite vulnerable to enemy aircraft. The Great War Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range of \"6.\" Use it to attack enemy units and cities. When possible, send in triplanes or fighters first to \"use up\" the enemy's anti-aircraft defenses for that turn. See the rules on Aircraft for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Flight",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/flight.json"
+    },
+    "free_promotions": []
+}

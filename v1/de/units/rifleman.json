@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Sch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Starke Landeinheit f\u00fcr den Frontkampf im mittleren Abschnitt des Spiels.",
+    "historical_info": "Ein Gewehr ist eine Schusswaffe, die von der Schulter gefeuert wird. Das Innere des Laufs besitzt eine spiralf\u00f6rmige Nut, die dem Projektil einen Drall verleiht, was die Reichweite und Stabilit\u00e4t im Gegensatz zu Glattrohrgesch\u00fctzen erh\u00f6ht. Die ersten Waffen mit gezogenen L\u00e4ufen tauchten in Europa im 15. Jahrhundert auf, doch Schwierigkeiten bei der Herstellung verhinderten den verbreiteten Gebrauch bis zum 19. Jahrhundert. Britische und amerikanische Pl\u00e4nkler und Sp\u00e4her wurden w\u00e4hrend der Napoleonischen Kriege von 1812 mit Musketen mit gezogenem Lauf ausger\u00fcstet, doch die l\u00e4ngere Ladezeit verhinderte noch einige Jahre lang, dass diese Waffen in der regul\u00e4ren Infanterie eingesetzt wurden.Die Erfindung des Mini\u00e9-Geschosses verk\u00fcrzte die Ladezeit erheblich und in der Zeit des Amerikanischen B\u00fcrgerkriegs wurden Musketen mit gezogenem Lauf mittlerweile in allen gr\u00f6\u00dferen europ\u00e4ischen Armeen eingesetzt. Zum Ende des B\u00fcrgerkriegs wurde die Muskete mit gezogenem Lauf von einer neuen Waffe verdr\u00e4ngt - dem Hinterlader. Dieses Gewehr hatte eine Schussrate von etwa einer Sekunde (je nachdem, wie schnell man den Hebel und dann den Abzug ziehen konnte) im Gegensatz zu den etwa 20 bis 30 Sekunden, die ein ge\u00fcbter Sch\u00fctze mit einer Vorderlader-Muskete zwischen zwei Sch\u00fcssen ben\u00f6tigte.",
+    "strategy": "Der Sch\u00fctze ist die Schie\u00dfpulver-Einheit, die auf den Musketier folgt. Er ist etwas st\u00e4rker als der Musketier, was Armeen mit dieser fortschrittlichen Einheit einen immensen Vorteil gegen\u00fcber Zivilisationen verschafft, die noch nicht \u00fcber sie verf\u00fcgen.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Drall",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+    },
+    "free_promotions": []
+}

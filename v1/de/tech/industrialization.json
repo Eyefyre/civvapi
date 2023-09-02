@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrialisierung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "Industriezeitalter",
+    "cost": 1600,
+    "civilopedia_entry": "Als Industrialisierung bezeichnet man den \u00dcbergang von einer Agrargesellschaft zu einer industriellen, der gemeinhin mit weitreichenden sozialen und wirtschaftlichen Ver\u00e4nderungen in der Bev\u00f6lkerung einhergeht. Die Industrielle Revolution, die im 18. Jahrhundert in Europa begann, brachte gewaltige \u00c4nderungen f\u00fcr das Alltagsleben der Menschen mit sich. Aufgrund der immer komplexeren Maschinen und Werkzeuge wurden einst gefragte Handwerker und Spezialisten durch die Verbreitung von Montageb\u00e4ndern verdr\u00e4ngt, die von Horden ungelernter Fabrikarbeiter bedient wurden.",
+    "quote": "\"Die auf Maschinen basierende Industrialisierung, die schon jetzt als Merkmal unserer Zeit genannt wird, ist nur ein Aspekt der Revolution, die von der Technologie vollzogen wird.\" - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Gatling-Kanone",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fabrik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/big_ben.json"
+        }
+    ]
+}

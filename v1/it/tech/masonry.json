@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Muratura|della Muratura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "La muratura \u00e8 l'arte di costruire strutture complesse accatastando singoli blocchi e legandoli con la malta. I blocchi possono essere mattoni d'argilla, pietre, detriti o cemento. La malta \u00e8 un composto fluido denso che una volta indurito diventa estremamente tenace e resistente. Solitamente \u00e8 composta da un miscuglio di sabbia, acqua e cemento o calce.Gi\u00e0 nel IV millennio a.C. gli antichi Egizi padroneggiavano l'arte della muratura e avevano costruito i loro templi, i palazzi e le piramidi sfruttando le grandi vene di roccia calcarea, arenaria, granito e basalto sulle colline intorno al Nilo. In Mesopotamia gli antichi Assiri non avevano accesso alla pietra ma avevano a disposizione grandi depositi d'argilla, con cui poterono produrre mattoni seccati al sole. Dal momento che questo tipo di mattoni \u00e8 molto sensibile all'umido, spesso ricoprivano le strutture con mattonelle cotte al forno o smaltate, molto pi\u00f9 resistenti all'acqua.Gli antichi Romani inventarono il cemento, che permise loro di realizzare una calce molto superiore a quella usata dalle civilt\u00e0 precedenti (che in genere era a base di argilla) e poteva essere usato da solo come materiale di costruzione. Questa cosiddetta \"rivoluzione del cemento\" consent\u00ec ai Romani di costruire edifici altrimenti impossibili da realizzare. Nel XIX secolo un giardiniere di Parigi pens\u00f2 di introdurre un reticolo di ferro all'interno dei vasi e nelle vasche di cemento: la sua invenzione, il cemento armato, aument\u00f2 considerevolmente il carico di rottura del materiale, rendendolo pi\u00f9 adatto a costruire alte strutture soggette a forti venti, vibrazioni o addirittura terremoti. Altre innovazioni recenti hanno ulteriormente aumentato la resistenza e la flessibilit\u00e0 di quello che rimane il pi\u00f9 utile di tutti i materiali da costruzione. Anche i grattacieli pi\u00f9 moderni, fatti d'acciaio e di vetro, appoggiano su fondamenta costruite secondo l'antichissima arte della muratura.",
+    "quote": "\"Lieti coloro le cui mura gi\u00e0 si ergono!\" - Virgilio",
+    "tech_prereqs": [
+        {
+            "name": "Estrazione mineraria|dell'Estrazione mineraria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mura|le Mura|delle Mura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/walls.json"
+        },
+        {
+            "name": "Piramidi|le Piramidi|le Piramidi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/pyramids.json"
+        },
+        {
+            "name": "Mausoleo di Alicarnasso|il Mausoleo di Alicarnasso|il Mausoleo di Alicarnasso",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Mura di Babilonia|Mura di Babilonia|Mura di Babilonia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/walls_of_babylon.json"
+        }
+    ]
+}

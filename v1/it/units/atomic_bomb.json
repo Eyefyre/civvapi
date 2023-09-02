@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Bomba atomica|una Bomba atomica|dalla tua Bomba atomica|alla tua Bomba atomica|la tua Bomba atomica|da una Bomba atomica",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "Scatena la distruzione nucleare sui tuoi nemici. Provoca gravi danni alle citt\u00e0 e danneggia tutte le unit\u00e0 nel raggio dell'esplosione. Pu\u00f2 usare come base una Portaerei.Richiede il Progetto Manhattan e una risorsa di Uranio.",
+    "historical_info": "I primi bombardieri atomici non erano molto diversi dagli altri bombardieri pesanti, tranne naturalmente per l'arma che trasportavano. L'Enola Gay che sganci\u00f2 la bomba atomica su Hiroshima il 6 agosto 1945 era un B-29 americano, cos\u00ec come il Bockscar che tre giorni dopo sorvol\u00f2 i cieli di Nagasaki. Da allora le grandi potenze hanno sviluppato speciali \"bombardieri strategici\" in grado di trasportare armi nucleari in profondit\u00e0 nel territorio nemico. Questi apparecchi hanno un raggio d'azione molto ampio e possono volare ad altitudini estreme. Inoltre sono equipaggiati con le pi\u00f9 sofisticate tecnologie elettroniche e difese anti-missile. I pi\u00f9 recenti bombardieri strategici dispongono anche di sistemi \"stealth\", che li rendono ancora pi\u00f9 difficili da avvistare prima che sgancino i loro micidiali armamenti.",
+    "strategy": "Una Bomba atomica \u00e8 un'unit\u00e0 estremamente potente che pu\u00f2 usare come base qualsiasi citt\u00e0 o portaerei del giocatore. Pu\u00f2 spostarsi da una base all'altra o attaccare un bersaglio in un raggio d'azione di 10 caselle. L'esplosione di una bomba atomica danneggia ed eventualmente distrugge tutte le unit\u00e0 nel raggio di 2 caselle. Le citt\u00e0 vengono danneggiate severamente. L'ordigno \u00e8 automaticamente consumato al momento dell'attacco. Per ulteriori informazioni, consulta la sezione Armi Nucleari.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fissione nucleare|della Fissione nucleare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Manovre evasive (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(50).json"
+        }
+    ]
+}

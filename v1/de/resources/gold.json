@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Gold",
+    "game_info": null,
+    "historical_info": "Gold ist ein weiches, gl\u00e4nzendes und formbares Metall, das im Lauf der Geschichte bei M\u00e4nnern wie Frauen hei\u00df begehrt war. Es ist selten, und seine Seltenheit steigert seinen Wert immens. Trotz industrieller und medizinischer Verwendungsm\u00f6glichkeiten wird Gold vor allem als Zahlungsmittel oder zur Verzierung genutzt, etwa bei Schmuck, Kelchen und weiteren G\u00fctern der Reichen und M\u00e4chtigen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gold.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

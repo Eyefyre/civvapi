@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Museo|Museos",
+    "game_info": null,
+    "strategy": "El Museo es un edificio de mediados del juego que aumenta el rendimiento de Cultura de la ciudad. Para poder construir el Museo, esta debe tener un Teatro de la \u00d3pera (o un Ceilidh Hall). Contiene 2 espacios para Grandes obras de arte.",
+    "historical_info": "El museo es un edificio o un complejo de edificios dise\u00f1ado para albergar y mostrar al p\u00fablico las posesiones m\u00e1s preciadas de una civilizaci\u00f3n. Hay museos que contienen colecciones de arte, f\u00f3siles, art\u00edculos de inter\u00e9s hist\u00f3rico, trajes, joyas, armas antiguas o cualquier otra cosa valiosa o interesante. El Hermitage de San Petersburgo fue fundado en 1764 por Catalina la Grande. Es uno de los museos m\u00e1s grandes y antiguos del mundo, pues abri\u00f3 sus puertas al p\u00fablico en 1852.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museo|museos.png",
+    "prereq_tech": {
+        "name": "Arqueolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

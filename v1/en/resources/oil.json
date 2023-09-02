@@ -1,0 +1,76 @@
+{
+    "id": 4,
+    "name": "Oil",
+    "game_info": "Used by powerful late-game Units.",
+    "historical_info": "Oil is a liquid fuel found in large and small deposits across the world. Although occasionally used by some civilizations as far as four thousand years ago to create asphalt or naptha or burned as a light source, modern use can be traced back to 1857 when the first modern refinery was constructed in Alsace, France. At about the same time wells were being drilled across Europe and in North America. By the early 20th century oil was in great demand, largely due to its use in internal combustion engines as used by ships, planes, and automobiles. Today much of international politics is driven by growing tension between those who have abundant sources of oil, and those who do not. Remember that oil is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
+    "prereq_tech": {
+        "name": "Biology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/biology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Oil Well",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/oil_well.json"
+        },
+        {
+            "name": "Offshore Platform",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/offshore_platform.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        },
+        {
+            "name": "Marsh",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        },
+        {
+            "name": "Coast",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+        }
+    ]
+}

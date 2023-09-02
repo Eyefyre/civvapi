@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Philosophy",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "Classical Era",
+    "cost": 175,
+    "civilopedia_entry": "Philosophy is the study of reality and man's place in it. The word comes from the Greek/Latin \"philosophia,\" or love of wisdom. It is somewhat separate from religion, which seeks to define and understand some supernatural system - philosophy takes a step back and asks if that supernatural system even exists. Philosophy deals with logic, morality, observation, realism, happiness, life, death, and all of the other big questions.The Greeks are generally credited with the invention of philosophy in western civilization. In the 6th century BC Thales of Miletus was the first man known to give a purely natural (non-religious) explanation for the origin of the world. He believed that everything came out of water; this theory was based upon his viewing of fossilized sea animals far inland. This explanation required no creative action by a supernatural being; it was a result of natural properties. Later philosophers would expand upon this most basic theory - except of course for those philosophers who chose to deny that anything exists at all, and those who decided that the world was but a reflection of some other place anyway, and so forth. The problem with examining reality is that the deeper one looks, the more confusing everything gets.At its best, philosophy provides tools which one can use to observe and make judgments about the world around them, to think about things that haven't been considered before. Like any other tool it can be used for good or for evil, but philosophy at least seeks to provide the intellectual structure to help one decide which is which.",
+    "quote": "\"There is only one good, knowledge, and one evil, ignorance.\" - Socrates",
+    "tech_prereqs": [
+        {
+            "name": "Calendar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/calendar.json"
+        },
+        {
+            "name": "Writing",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Theology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mud Pyramid Mosque",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Burial Tomb",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/burial_tomb.json"
+        },
+        {
+            "name": "Temple",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/temple.json"
+        },
+        {
+            "name": "National College",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/national_college.json"
+        },
+        {
+            "name": "Oracle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/oracle.json"
+        }
+    ]
+}

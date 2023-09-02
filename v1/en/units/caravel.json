@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Caravel",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Fast Renaissance exploration Unit with an enhanced sight radius that can enter Ocean. Fights as a naval melee unit.",
+    "historical_info": "The caravel was a small, seagoing vessel used in the 15th century to explore the world. Originally created at the order of Prince Henry the Navigator of Portugal, other nations were quick to spot the caravel's qualities and created their own copies of the useful craft. Usually of some 20 to 30 yards in length and sporting two or three lateen-rigged masts, caravels were light and shallow-drafted, making them perfect for exploration of unknown coasts and rivers, boldly going where bigger craft feared to sail. They were also remarkably seaworthy ships and could survive the worst that the Atlantic could throw at them. Two of Christopher Columbus's three vessels - the Pinta and the Ni\u00f1a - were caravels (the larger Santa Mar\u00eda was a carrack).",
+    "strategy": "The Caravel is a significant upgrade to a civilization's naval power. A Melee unit, it is stronger and faster than a Trireme, and it can enter Deep Ocean hexes. It is quick, giving it a promotion that gives it a good chance to withdraw to the rear before an enemy naval melee attack can occur. The Caravel has an enhanced sight radius, making it the eyes and ears of the mid-game navy. This sight bonus is lost if the Caravel is upgraded to a Destroyer.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Withdraw Before Melee",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 69,
+    "name": "Telecommunications",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/telecommunications.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "Telecommunication allows for the transmission of data and information over long distances using various types of signaling devices. Early forms of primitive ranged communication, including the use of smoke and signal flags, eventually gave way to telegraphs, and later, the telephone. Scientific research and engineering, particularly in the last 30 years, has led to breakthroughs in our ability to communicate globally. Orbiting satellites now provide a means for the transmission of data even to the most remote areas on Earth. Television, internet, cellular telephones, and GPS are now fully integrated into the daily lives of millions across the world because of telecommunications research.",
+    "quote": "\"The more we elaborate our means of communication, the less we communicate.\" - J.B. Priestly",
+    "tech_prereqs": [
+        {
+            "name": "Ecology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ecology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "The Internet",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_internet.json"
+        },
+        {
+            "name": "Globalization",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/globalization.json"
+        },
+        {
+            "name": "Particle Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Nuclear Submarine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/nuclear_submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Bomb Shelter",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/bomb_shelter.json"
+        },
+        {
+            "name": "CN Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/cn_tower.json"
+        },
+        {
+            "name": "National Visitor Center",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/national_visitor_center.json"
+        }
+    ]
+}

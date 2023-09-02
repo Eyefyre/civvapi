@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Fucina|la Fucina|una Fucina",
+    "game_info": "+15% alla Produzione di unit\u00e0 terrestri.Ogni fonte di Ferro sfruttata da questa citt\u00e0 fornisce +1 Produzione.La citt\u00e0 deve avere vicino una fonte di Ferro con una miniera.",
+    "strategy": "La Fucina pu\u00f2 essere costruita solo in una citt\u00e0 vicina a una fonte di Ferro migliorata. Aumenta la velocit\u00e0 con cui la citt\u00e0 produce unit\u00e0 terrestri.",
+    "historical_info": "Una fucina \u00e8 un edificio che contiene una fornace in grado di generare le temperature necessarie a fondere e plasmare il ferro per costruire gli oggetti pi\u00f9 disparati: dai ferri di cavallo ai chiodi alle punte di freccia. Per far questo \u00e8 necessario disporre di moltissimo calore; spesso per questo motivo i fabbri avevano un apprendista o un assistente il cui unico compito era pompare aria sulle fiamme per mantenerle calde. Un fabbro pu\u00f2 lavorare il ferro riscaldandolo finch\u00e9 non diventa rosso e poi dandogli la forma sull'incudine colpendolo con vari tipi di martelli. In alternativa \u00e8 possibile fondere completamente il ferro e colarlo in forme di argilla, sabbia o metallo, che sono poi rimosse quando l'oggetto si \u00e8 raffreddato abbastanza da mantenere la forma.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fucina|la_fucina|una_fucina.png",
+    "prereq_tech": {
+        "name": "Fusione del metallo|della Fusione del metallo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

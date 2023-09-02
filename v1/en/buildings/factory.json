@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Factory",
+    "game_info": "Requires 1 Coal.",
+    "strategy": "The Factory is an Industrial-era building which greatly increases a city's Production. The city must already possess a Workshop (or Longhouse). 1 Coal is consumed when a Factory is created.",
+    "historical_info": "A factory is a building which uses Industrial Age techniques to build stuff - cars, corsets, steel beams, fishing rods, or whatever. First appearing in a large scale in the 17th and 18th centuries, factories were more efficient than the small workshops or cottage industries they replaced, but perhaps less humane. Contrary to popular belief Henry Ford did not invent the assembly line; that was created in the 19th century in the mid-western US meat-packing industries. Beef carcasses were carried from station to station on an overhead trolley system at a steady pace; workers at each station would have a set amount of time to carve off their assigned chunk of meat before the carcass moved onto the next station. Working in a meat-packing plant was one of the dirtiest and most dangerous jobs in the history of American labor, and stories from this era can still horrify us today.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/factory.png",
+    "prereq_tech": {
+        "name": "Industrialization",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

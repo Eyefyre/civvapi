@@ -1,0 +1,37 @@
+{
+    "id": 26,
+    "name": "Baumwolle",
+    "game_info": null,
+    "historical_info": "Baumwolle wird bereits seit Jahrhunderten angebaut. Die Pflanze bildet um ihre Samen herum fasrige \"Kapseln\", die sich zu Garn spinnen lassen, woraus man dann Kleidung, Schiffsegel und andere wertvolle Stoffe herstellen kann. Baumwolle wurde erstmals vor rund 7.000 Jahren in Indien angebaut und ist auch heute noch der am h\u00e4ufigsten verwendete nat\u00fcrliche Stoff bei der Kleidungsproduktion.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/baumwolle.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        }
+    ]
+}

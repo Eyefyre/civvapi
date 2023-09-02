@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Galeas|Galeasa|Galeasowi|Galeasa",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "\u015aredniowieczna jednostka morska u\u017cywana do kontroli morza za pomoc\u0105 atak\u00f3w z dystansu.",
+    "historical_info": "Galeas to typ okr\u0119tu wojennego popularnego w XVI w. Jego konstrukcj\u0119 oparto na klasycznej galerze, ale zmodyfikowanej tak, by przenosi\u0142a silniejsze uzbrojenie. Typowy galeas by\u0142 najpierw statkiem kupieckim nap\u0119dzanym wios\u0142ami, kt\u00f3remu p\u00f3\u017aniej dodano maszty z \u017caglami. Dzi\u0119ki dw\u00f3m \u017ar\u00f3d\u0142om nap\u0119du galeas m\u00f3g\u0142 dor\u00f3wnywa\u0107 pr\u0119dko\u015bci\u0105 galerom, jednocze\u015bnie przenosz\u0105c ci\u0119\u017ckie dzia\u0142a do odparcia ewentualnych napastnik\u00f3w.",
+    "strategy": "Galeas to pierwsza jednostka morska dysponuj\u0105ca broni\u0105 dystansow\u0105, kt\u00f3ra jest dost\u0119pna w grze. Znacznie pot\u0119\u017cniejsza od wcze\u015bniejszych jednostek morskich, ale przy tym nieco wolniejsza. Nie mo\u017ce rozpoczyna\u0107 walki z bliska. Galeasy s\u0105 przydatne w atakowaniu wrogich statk\u00f3w z p\u0142ytkich w\u00f3d. Jedynie polinezyjskie galeasy mog\u0105 wyp\u0142ywa\u0107 na g\u0142\u0119boki ocean.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Kompas|Kompasu|Kompasowi|Kompas",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

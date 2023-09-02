@@ -1,0 +1,44 @@
+{
+    "id": 8,
+    "name": "Schrift",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/writing.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Schrift ist die Kunst, Information so auf einem Material (Papier, Stein, Ton, Tierhaut) festzuhalten, dass andere, die das Material ansehen, den Sinn erfassen k\u00f6nnen. Die fr\u00fcheste Form der Schrift wurde etwa im 4. Jahrtausend v. Chr. erfunden. Bei dieser \"Piktografie\" zeichnet der Schreiber kleine Bilder, die das Gemeinte darstellen. Dies ist f\u00fcr einfache Themen praktikabel, doch abstraktere Themen machen andere Methoden erforderlich. (Ein Bild eines Schafs zu zeichnen mag einfach sein, aber was ist mit tausend Schafen, oder dem Ger\u00e4usch, das ein Schaf macht, wenn es von einer Pyramide f\u00e4llt? Nicht ganz so einfach.)Logografie folgte wahrscheinlich der Piktografie. Bei der Logografie stehen Symbole f\u00fcr einzelne W\u00f6rter. Es gibt ein Symbol f\u00fcr \"Schaf\", ein anderes Symbol f\u00fcr \"Tausend Schafe\" und noch ein anderes f\u00fcr das Ger\u00e4usch, das ein Schaf macht, wenn es von einer Pyramide f\u00e4llt. Doch eine Sprache umfasst m\u00f6glicherweise Zehntausende von W\u00f6rtern und f\u00fcr jedes davon ein Symbol zu lernen, k\u00f6nnte problematisch sein.Ein phonetisches System weist jedem unterschiedlich klingenden Wort ein individuelles Symbol zu. \"Schaf\" h\u00e4tte ein eigenes Symbol, aber \"Ferse\", \"Verse\" und \"F\u00e4rse\" w\u00fcrden alle durch das gleiche Symbol dargestellt. Dadurch muss man sich weniger Symbole merken, aber die Wahrscheinlichkeit f\u00fcr Missverst\u00e4ndnisse steigt.In einem alphabetischen System besteht die Schrift aus einer Reihe von Symbolen (dem Alphabet), welche die verschiedenen Kl\u00e4nge einer Sprache grob wiedergeben. Diese Symbole k\u00f6nnen aneinandergereiht werden, um jedes gesprochene Wort der Sprache darzustellen. Theoretisch kann jeder, der dieser Schrift m\u00e4chtig ist, jedes geschriebene Wort aussprechen. Dieses System wird im Deutschen verwendet und gilt (besonders im Sprachraum, in dem die lateinische Schrift verwendet wird) als n\u00fctzlichstes und flexibelstes System, das bisher entwickelt wurde.",
+    "quote": "\"Wer ein gutes Buch vernichtet, t\u00f6tet die Vernunft.\" - John Milton",
+    "tech_prereqs": [
+        {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        },
+        {
+            "name": "Drama und Dichtung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Papiermacher",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/paper_maker.json"
+        },
+        {
+            "name": "Bibliothek",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/library.json"
+        },
+        {
+            "name": "Gro\u00dfe Bibliothek",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/great_library.json"
+        },
+        {
+            "name": "K\u00f6nigliche Bibliothek",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/royal_library.json"
+        }
+    ]
+}

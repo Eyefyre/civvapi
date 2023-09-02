@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "name": "Armi combinate|delle Armi combinate",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combined_arms.png",
+    "era": "Epoca atomica",
+    "cost": 5100,
+    "civilopedia_entry": "La dottrina militare delle armi combinate, sviluppata pi\u00f9 di mille anni fa, prevede l'uso contemporaneo di unit\u00e0 diverse ma complementari per aumentare l'efficienza della forza nel suo complesso. Tutte le grandi potenze dei tempi antichi hanno utilizzato armi combinate: in particolare, greci e romani coordinavano con cura l'azione della fanteria leggera e di quella pesante, della cavalleria e dei tiratori per dare origine a formazioni coese in cui ogni unit\u00e0 potesse sfruttare al meglio i punti di forza delle altre e ovviare alle loro debolezze. Al giorno d'oggi, la presenza di armi aeree ha condotto a variazioni ancora pi\u00f9 complesse del concetto tradizionale di armi combinate. I droni volanti, i missili guidati dal satellite e i bombardieri d'alta quota sono solo alcuni esempi degli strumenti disponibili ai comandanti militari moderni.",
+    "quote": "\"La radice del male non sta nella costruzione di nuove, terribili armi, ma nello spirito stesso della conquista.\" - Ludwig von Mises",
+    "tech_prereqs": [
+        {
+            "name": "Balistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+        },
+        {
+            "name": "Combustione|della Combustione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combustion.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Computer|del Computer",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Carro armato|un Carro armato|dal tuo Carro armato|al tuo Carro armato|il tuo Carro armato|da un Carro armato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/tank.json"
+        },
+        {
+            "name": "Panzer|un Panzer|dal tuo Panzer|al tuo Panzer|il tuo Panzer|da un Panzer",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/panzer.json"
+        },
+        {
+            "name": "Cannone anticarro|un Cannone anticarro|dal tuo Cannone anticarro|al tuo Cannone anticarro|il tuo Cannone anticarro|da un Cannone anticarro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/anti-tank_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Pentagono|il Pentagono|il Pentagono",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/pentagon.json"
+        }
+    ]
+}

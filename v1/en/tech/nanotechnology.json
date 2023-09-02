@@ -1,0 +1,32 @@
+{
+    "id": 79,
+    "name": "Nanotechnology",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nanotechnology.png",
+    "era": "Information Era",
+    "cost": 8800,
+    "civilopedia_entry": "Nanotechnology is an all encompassing study involving the control of any matter at the atomic or molecular scale. While often romanticized to the notion of billions of tiny robots directing the flow of individual atoms, nanotech covers any science revolving around the study or use of particles a few nanometers in size, from the creation of tiny carbon nanotubes and nanoparticle solar cells to DNA research. A nanometer (the relative size most nanotechnology is created in) is one billionth of a meter in size, about the same scale as the diameter of a marble is to that of the Earth, and it's only been in recent years that the technology capable of research on such a tiny scale has really been available. Despite its recent emergence, an estimated three to four new nanotech products per week are made publicly available, with applications ranging from clothing and cosmetics to food products and packaging.While many scientists are excited about the possible applications for the development of technology on such a miniscule scale, others are concerned about the health, environmental and ethical implications that this kind of research could produce. Calls for safety and health regulations have been made in some countries, with concerns that the nanoparticles could be accidentally released into the environment or human body and cause inadvertent toxic damage.",
+    "quote": "\"The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.\" - Richard Schwartz",
+    "tech_prereqs": [
+        {
+            "name": "Robotics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Future Tech",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "SS Stasis Chamber",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ss_stasis_chamber.json"
+        },
+        {
+            "name": "XCOM Squad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/xcom_squad.json"
+        }
+    ],
+    "building_unlocks": []
+}

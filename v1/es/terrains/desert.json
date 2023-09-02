@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "Desierto|Desiertos",
+    "historical_info": "Por lo general, los hex\u00e1gonos de Desierto son completamente in\u00fatiles. No dan beneficios a las ciudades (a menos que contenga un oasis o un recurso, claro).",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desierto|desiertos.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oasis|Oasis",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/oasis.json"
+        },
+        {
+            "name": "Terrenos de aluvi\u00f3n|Terrenos de aluvi\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/iron.json"
+        },
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Aluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        },
+        {
+            "name": "Ovejas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/sheep.json"
+        },
+        {
+            "name": "Piedra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/stone.json"
+        },
+        {
+            "name": "Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/gold.json"
+        },
+        {
+            "name": "Plata",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/silver.json"
+        },
+        {
+            "name": "Gemas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/gems.json"
+        },
+        {
+            "name": "M\u00e1rmol",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/marble.json"
+        },
+        {
+            "name": "Algod\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/cotton.json"
+        },
+        {
+            "name": "Incienso",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/incense.json"
+        },
+        {
+            "name": "Cobre",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/copper.json"
+        },
+        {
+            "name": "Sal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/salt.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Royal Library",
+    "game_info": "Unique Assyrian Library replacement. +1 Science for every 2 Citizens in this City. Also has a slot for a Great Work of Writing which, when filled, gives extra XP to trained Units.",
+    "strategy": "In addition to the Science output of the Library it replaces, the Royal Library also has a Great Work of Writing slot. Once filled with a Great Work, it provides extra XP to Units trained in this city, so place a Great Work here as soon as possible for the maximum benefit. Only the Assyrians may build it.",
+    "historical_info": "The world's first known library dates to the reign of the Assyrian king Sennacherib, c. 700 BC, who gathered thousands of clay tablets at his palace in Nineveh. But it was his grandson, Ashurbanipal, who created the famed Royal Library. Being a passionate collector, the king sent scholars throughout the region to collect texts, mainly Babylonian but also from neighboring kingdoms. To insure the survival of his extensive library of tablets, the king had scribes copy the texts, which could then be housed in other neo-Assyrian cities in his expanding empire. The Royal Library itself was ravaged when Nineveh was sacked in 612 BC, but some 10,000 fragments of the cuneiform tablets have been found by archeologists.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/royal_library.png",
+    "prereq_tech": {
+        "name": "Writing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

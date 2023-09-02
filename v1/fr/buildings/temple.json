@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Temple|Temples",
+    "game_info": null,
+    "strategy": "Le temple augmente la foi d'une ville et acc\u00e9l\u00e8re la fondation et la propagation des religions. La ville doit d\u00e9j\u00e0 poss\u00e9der un autel (ou une pyramide) pour pouvoir accueillir un temple.",
+    "historical_info": "Un temple est un \u00e9difice religieux o\u00f9 les croyants se rassemblent pour l'office. Ces b\u00e2timents refl\u00e8tent l'opulence tout autant que la pi\u00e9t\u00e9 d'une communaut\u00e9, qui peut se permettre de construire une structure d\u00e9di\u00e9e \u00e0 la religion, ainsi que de nourrir et v\u00eatir les pr\u00eatres, les acolytes, les vestales ou les moines qui y vivent. Autrefois, dans de nombreuses cultures, chaque famille \u00e9rigeait un petit sanctuaire au sein de son habitation. Sachez que le plus ancien temple jamais d\u00e9couvert date d'environ 10 000 ans av. J.-C. et qu'il fut \u00e9rig\u00e9 au sud-est de la Turquie.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/temple|temples.png",
+    "prereq_tech": {
+        "name": "Philosophie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

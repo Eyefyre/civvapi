@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Furs",
+    "game_info": null,
+    "historical_info": "As a resource, \"fur\" refers to the pelt or coat of certain mammals prized for their warmth and beauty. Unlike animals such as sheep, whose hair can be shaved off without destroying the animal, fur animals are killed when their skins are harvested. Humans have hunted animals for their furs for uncounted millennia. In the early years the hunters and their families probably ate the animals they caught, but in modern times the animal's body has been often discarded. Animals hunted for their fur include foxes, bears, beavers, seals, and rabbits.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/furs.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        }
+    ]
+}

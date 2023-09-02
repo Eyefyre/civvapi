@@ -1,0 +1,24 @@
+{
+    "id": 20,
+    "name": "Medic",
+    "game_info": "All units in adjacent tiles Heal 5 Additional HP per turn.",
+    "prereq_promotions": [
+        {
+            "name": "Shock I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/shock_i.json"
+        },
+        {
+            "name": "Drill I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/drill_i.json"
+        },
+        {
+            "name": "Scouting II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/scouting_ii.json"
+        },
+        {
+            "name": "Survivalism II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/survivalism_ii.json"
+        }
+    ],
+    "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/medic_h.png"
+}

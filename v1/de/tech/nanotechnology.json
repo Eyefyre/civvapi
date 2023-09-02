@@ -1,0 +1,32 @@
+{
+    "id": 79,
+    "name": "Nanotechnologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nanotechnology.png",
+    "era": "Informationszeitalter",
+    "cost": 8800,
+    "civilopedia_entry": "Nanotechnologie ist eine extrem breit gef\u00e4cherte Wissenschaft, bei der es um die Steuerung einer beliebigen Materie auf atomarer oder molekularer Ebene geht. Ihre Darstellung ist oft verkl\u00e4rt und beinhaltet etwa Milliarden winziger Roboter, die den Fluss einzelner Atome lenken, aber in Wirklichkeit betrifft die Nanotechnologie alle Forschungsbereiche, in denen Teilchen untersucht und verwendet werden, die nicht gr\u00f6\u00dfer als ein paar Nanometer sind: angefangen von der Erzeugung winziger Kohlenstoffnanor\u00f6hren und Nanoteilchen in Solarzellen bis hin zur DNS-Forschung. Ein Nanometer (die relative Gr\u00f6\u00dfe, in der Nanotechnologie sich haupts\u00e4chlich abspielt) ist ein Milliardstel eines Meters, was etwa dem Ma\u00dfstab einer Murmel im Verh\u00e4ltnis zur Erde entspricht. Technologie zur Forschung in diesen winzigen Dimensionen ist erst seit wenigen Jahren verf\u00fcgbar. Trotz des kurzen Bestehens der Nanotechnologie werden pro Woche sch\u00e4tzungsweise drei bis vier neue Produkte ver\u00f6ffentlicht, deren Anwendungsbereich sich von Kleidung und Kosmetika \u00fcber Nahrungsmittel bis hin zu Verpackungen erstreckt.Viele Wissenschaftler sind begeistert von den Einsatzm\u00f6glichkeiten f\u00fcr die Entwicklung von Technologien in diesem winzigkleinen Ma\u00dfstab, w\u00e4hrend andere besorgt sind \u00fcber m\u00f6gliche gesundheitliche, \u00f6kologische und ethische Auswirkungen, die diese Technologie mit sich bringen k\u00f6nnte. In einigen L\u00e4ndern wurden Rufe nach Sicherheits- und Gesundheitsvorkehrungen laut und es gibt Bedenken, dass Nanoteilchen versehentlich freigesetzt werden und im menschlichen K\u00f6rper und in der Umwelt giftige Sch\u00e4den verursachen k\u00f6nnten.",
+    "quote": "\"Die Auswirkungen der Nanotechnologie auf unser Leben werden die Auswirkungen der elektronischen Revolution noch \u00fcbertreffen.\" - Richard Schwartz",
+    "tech_prereqs": [
+        {
+            "name": "Robotertechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Zukunftstechnologien",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "RS-Stasekammer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ss_stasis_chamber.json"
+        },
+        {
+            "name": "XCOM-Trupp",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/xcom_squad.json"
+        }
+    ],
+    "building_unlocks": []
+}

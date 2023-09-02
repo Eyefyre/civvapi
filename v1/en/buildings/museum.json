@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Museum",
+    "game_info": null,
+    "strategy": "The Museum is a mid-game building which increases the city's Culture output. The city must possess an Opera House (or a Ceilidh Hall) in order to construct the Museum. Contains 2 slots for Great Works of Art.",
+    "historical_info": "A museum is a building or series of buildings designed to hold a civilization's most treasured possessions for public display. There are museums that contain collections of art, there are museums which contain fossils, items of historical interest, as well as museums holding costumes, jewels, ancient weapons, or virtually anything else which might be of value and interest. The Hermitage art museum in Saint Petersburg was founded in 1764 by Catherine the Great. Open to the public since 1852, it is one of the oldest and largest museums in the world.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museum.png",
+    "prereq_tech": {
+        "name": "Archaeology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

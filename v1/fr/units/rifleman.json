@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Fusilier|Fusiliers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Puissante unit\u00e9 de premi\u00e8re ligne de milieu de partie.",
+    "historical_info": "Le fusil est une arme \u00e0 feu \u00e0 crosse d'\u00e9paule. L'int\u00e9rieur du canon est cr\u00e9nel\u00e9, afin de faire tournoyer le projectile propuls\u00e9 et de le doter ainsi d'une plus grande pr\u00e9cision et d'une plus grande port\u00e9e que les munitions traditionnelles. Les premi\u00e8res tentatives de canons ray\u00e9s en Europe datent du XVe si\u00e8cle, mais les difficult\u00e9s li\u00e9es \u00e0 leur production en priv\u00e8rent les arm\u00e9es jusqu'au XIXe si\u00e8cle. Durant les guerres napol\u00e9oniennes de 1812, les fantassins et \u00e9claireurs britanniques et am\u00e9ricains \u00e9taient \u00e9quip\u00e9s de mousquets, mais le temps de rechargement plus lent de ces armes les rendirent impopulaires pendant encore quelques ann\u00e9es.L'invention des balles Mini\u00e9 augmenta consid\u00e9rablement la rapidit\u00e9 de chargement des armes et, pendant la guerre de S\u00e9cession, les principales arm\u00e9es europ\u00e9ennes avaient adopt\u00e9 le mousquet. A la fin du conflit, le mousquet fut cependant rendu obsol\u00e8te par l'apparition du fusil \u00e0 r\u00e9p\u00e9tition, une arme \u00e0 culasse dot\u00e9e d'une cadence de tir d'approximativement une seconde (le temps pour le fusilier de tirer le chien et d'appuyer sur la d\u00e9tente), \u00e0 comparer avec les vingt ou trente secondes espa\u00e7ant chaque tir, pour un soldat bien entra\u00een\u00e9, lors de l'utilisation d'arme \u00e0 rechargement par la bouche.",
+    "strategy": "Le fusilier est l'unit\u00e9 utilisant de la poudre \u00e0 canon qui fait son apparition juste apr\u00e8s l'arquebusier. Il est bien plus puissant que ce dernier, donnant aux civilisations qui le poss\u00e8dent un avantage d\u00e9cisif sur les autres.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+    },
+    "free_promotions": []
+}

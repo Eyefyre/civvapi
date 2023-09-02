@@ -1,0 +1,36 @@
+{
+    "id": 78,
+    "name": "Fusi\u00f3n nuclear",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fusion.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 8800,
+    "civilopedia_entry": "La fusi\u00f3n nuclear es un fen\u00f3meno que se da de forma natural en las estrellas; consiste en la uni\u00f3n de m\u00faltiples \u00e1tomos de cargas similares para formar uno nuevo m\u00e1s pesado, como cuando dos \u00e1tomos de hidr\u00f3geno se combinan para formar uno de helio. Esta uni\u00f3n libera o absorbe energ\u00eda en grandes cantidades, considerablemente superiores a las necesarias para fusionar ambos n\u00facleos. Aprovechar el poder de la fusi\u00f3n de forma controlada ha sido el principal objetivo de las investigaciones sobre energ\u00eda desde la d\u00e9cada de 1950, tras presenciar el poder desatado por la reacci\u00f3n en cadena descontrolada de la primera bomba de hidr\u00f3geno.Simplificando en exceso, la fusi\u00f3n puede clasificarse en dos categor\u00edas: las que producen energ\u00eda y las que la consumen. La fusi\u00f3n entre los elementos m\u00e1s ligeros y cualquiera de sus is\u00f3topos (cualquier cosa m\u00e1s peque\u00f1a que el hierro o con un peso at\u00f3mico menor a 26) suele liberar energ\u00eda, mientras que la fusi\u00f3n de los elementos m\u00e1s pesados tiende a consumirla. En la fisi\u00f3n nuclear ocurre lo inverso.Se necesita mucha energ\u00eda para que dos n\u00facleos venzan sus cargas positivas y se fusionen, aun trat\u00e1ndose de hidr\u00f3geno (el elemento m\u00e1s ligero). No obstante, algunos cient\u00edficos creen que para el a\u00f1o 2020 tal vez sea posible construir un reactor que no solo sea capaz de propiciar y controlar dicha reacci\u00f3n, sino tambi\u00e9n de generar diez veces la cantidad de energ\u00eda utilizada para facilitarla. La obtenci\u00f3n de una energ\u00eda semejante podr\u00eda revolucionar las infraestructuras de todo el mundo y cambiar el modo en que se produzcan incluso las haza\u00f1as tecnol\u00f3gicas m\u00e1s insignificantes.",
+    "quote": "\"La liberaci\u00f3n de la energ\u00eda at\u00f3mica no ha representado un problema nuevo, solo ha hecho m\u00e1s urgente la necesidad de resolver uno que ya exist\u00eda.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Bal\u00edstica avanzada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Sat\u00e9lites",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/satellites.json"
+        },
+        {
+            "name": "Rob\u00f3tica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tecnolog\u00eda futura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Robot gigante|Robots gigantes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/giant_death_robot.json"
+        }
+    ],
+    "building_unlocks": []
+}

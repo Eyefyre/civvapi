@@ -1,0 +1,40 @@
+{
+    "id": 5,
+    "name": "Snow",
+    "historical_info": "Snow is quite unproductive, with no food or production benefit to a nearby city. Of course a snow hex might contain a useful resource, but otherwise they're just cold and barren.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/snow.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [],
+    "resources": [
+        {
+            "name": "Iron",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/iron.json"
+        },
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Stone",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/stone.json"
+        },
+        {
+            "name": "Copper",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/copper.json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 56,
+    "name": "Eisenbahn",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/railroad.png",
+    "era": "Moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Die fr\u00fchesten Eisenbahnen wurden im 16. Jahrhundert in europ\u00e4ischen Minen errichtet. Sie bestanden aus Karren, die auf einfachen Schienen fuhren. Sie wurden von Menschen oder Tieren (\u00fcblicherweise Pferden oder Eseln) gezogen. Die erste \u00fcberirdische, dampfbetriebene Eisenbahn wurde 1825 in England gebaut und als sich die Technologie als erfolgreich erwies, wurde \u00fcberall auf der Welt mit \u00e4hnlichen Bauunternehmungen begonnen. Der Bau der ersten amerikanischen Trasse startete die \"Baltimore and Ohio Railroad\" im Jahr 1828. Innerhalb eines Jahrhunderts war jeder Kontinent der Welt von einem erheblichen Schienennetzwerk \u00fcberzogen.Die Bedeutung der Eisenbahn f\u00fcr die Entwicklung der Welt kann nicht genug betont werden. Vor den transkontinentalen Eisenbahnen dauerte eine Reise von New York nach San Fransisco mehrere Monate. Die gleiche Reise dauerte mit der Bahn sieben Tage und kostete nur 65 Dollar. Sobald die Eisenbahn fertiggestellt war, erh\u00f6hte sich die europ\u00e4ischst\u00e4mmige Bev\u00f6lkerung im amerikanischen Westen und Mittleren Westen schlagartig. St\u00e4dte, die an Bahntrassen lagen, wurden reich, w\u00e4hrend Siedlungen ohne Bahnhof mit der Zeit ausstarben und verschwanden.Mit der Erfindung und Massenproduktion von Auto und LKW ging im 20. Jahrhundert die Wichtigkeit der Eisenbahn, besonders im autoverr\u00fcckten Amerika, deutlich zur\u00fcck. Doch bleibt sie ein extrem wirtschaftliches und relativ umweltfreundliches Transportmittel f\u00fcr Waren und Menschen und alles weist darauf hin, dass die Eisenbahn in der nahen Zukunft ein starkes Comeback feiern wird.",
+    "quote": "\"Die Kombination des kraftvollen Dampfes mit einem Wagen wird die Situation des Menschen erheblich ver\u00e4ndern.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        },
+        {
+            "name": "Dynamit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/dynamite.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+        },
+        {
+            "name": "Verbrennungsmotor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combustion.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Kreml",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/kremlin.json"
+        },
+        {
+            "name": "Neuschwanstein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/neuschwanstein.json"
+        }
+    ]
+}

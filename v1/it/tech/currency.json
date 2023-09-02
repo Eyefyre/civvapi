@@ -1,0 +1,44 @@
+{
+    "id": 19,
+    "name": "Valuta|della Valuta",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/currency.png",
+    "era": "Epoca classica",
+    "cost": 175,
+    "civilopedia_entry": "La valuta \u00e8 un'innovazione notevole che permette di utilizzare pezzi di carta o piccoli dischi di metallo per rappresentare una certa quantit\u00e0 di ricchezza. \u00c8 possibile utilizzarla in cambio di beni e servizi. I primi esempi storici di valuta consistevano in piccoli dischi metallici; a quei tempi il valore delle monete corrispondeva alla quantit\u00e0 di metallo prezioso utilizzata per la loro produzione. In tempi successivi la valuta non ha pi\u00f9 avuto alcun valore intrinseco - su un'isola deserta un dollaro \u00e8 solo un pezzetto di carta rettangolare - ma l'istituzione che la emette (di solito un governo) gli ha assegnato un valore, e finch\u00e9 rimane in grado di saldare tale valore, la valuta \u00e8 buona come se fosse fatta d'oro.Nel IV millennio a.C. nell'antico Egitto si usavano come valuta delle barrette d'oro di peso predeterminato; in Medio Oriente allo stesso scopo si usavano lingotti di rame. In molte altre parti del mondo anelli, braccialetti e decorazioni d'oro, d'argento e di gemme sono stati usati sia come ornamenti sia come moneta.In tutti i tempi sono esistiti falsari che hanno cercato di creare copie false della valuta corrente. Una tecnica poteva consistere nel fondere monete di metallo inferiore, meno pregiato, mentre qualcuno \"limava\" un po' di materiale dalle monete fatte di metalli preziosi. Quando si pass\u00f2 alla carta moneta i falsari impararono rapidamente a duplicare le dimensioni, il colore e la grana dei biglietti, copiando alla perfezione le immagini e le scritte. Questi truffatori sono cos\u00ec bravi che la maggior parte delle banconote moderne integra diverse misure avanzate di sicurezza: non sono lontani i tempi in cui ogni biglietto avr\u00e0 integrato un vero e proprio chip.",
+    "quote": "\"Meglio il pane con un cuore felice, che la ricchezza con l'afflizione.\" - Amenemope",
+    "tech_prereqs": [
+        {
+            "name": "Matematica|della Matematica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Gilde|delle Gilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+        },
+        {
+            "name": "Pubblica amministrazione|della Pubblica amministrazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Bazaar|il Bazaar|un Bazaar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/bazaar.json"
+        },
+        {
+            "name": "Zecca|la Zecca|una Zecca",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/mint.json"
+        },
+        {
+            "name": "Mercato|il Mercato|un Mercato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/market.json"
+        },
+        {
+            "name": "Petra|Petra|Petra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/petra.json"
+        }
+    ]
+}

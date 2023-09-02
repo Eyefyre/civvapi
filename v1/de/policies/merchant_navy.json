@@ -1,0 +1,24 @@
+{
+    "id": 44,
+    "name": "Handelsmarine",
+    "game_info": "Handelsmarine+1 Gold f\u00fcr jeden Hafen, Seehafen oder Leuchtturm. +4 Produktion und +4 Kultur in der Stadt mit der Ostindien-Kompanie.",
+    "historical_info": "Eine Handelsmarine ist eine Gruppe von Handelsschiffen, die in Zeiten des Krieges zum Einsatz gezwungen werden k\u00f6nnen, um Milit\u00e4rg\u00fcter und Vorr\u00e4te einer Nation zu transportieren, h\u00e4ufig unter dem Schutz der Marine dieser Nation. \u00dcber viele Jahre hinweg verf\u00fcgten die Briten \u00fcber die gr\u00f6\u00dfte und beste Flotte von Handelsmarine-Schiffen in der Weltgeschichte. Die britische Handelsmarine wurde 1835 eingef\u00fchrt und erlitt gro\u00dfe Verluste im Ersten und Zweiten Weltkrieg. Fast 15.000 Handelsseeleute verloren ihr Leben im Ersten Weltkrieg, und im Zweiten Weltkrieg starben sogar 30.000 von ihnen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/handelsmarine.png",
+    "required_policies": [
+        {
+            "name": "Marinetradition",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/naval_tradition.json"
+        },
+        {
+            "name": "Maritime Infrastruktur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/maritime_infrastructure.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Erkundung",
+        "game_info": "Erkundung verbessert Eure F\u00e4higkeit, Euer Reich \u00fcber Ozeane auszudehnen.Die Einf\u00fchrung der Erkundung bringt +1 [ICON_MOVES] Fortbewegung f\u00fcr Marineeinheiten und +1 Sicht f\u00fcr Kampfeinheiten der Marine. Schaltet den Bau des Louvres frei.Die Einf\u00fchrung aller Politiken macht verborgene Altertumsst\u00e4tten sichtbar und erm\u00f6glicht den Kauf Gro\u00dfer Admir\u00e4le mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": "Mittelalter",
+        "historical_info": "Seit sich die ersten Menschen an einem Ort niedergelassen haben, gab es immer welche, die wissen wollten, was hinter dem Horizont liegt. Ob die Motivation Profit, Abenteuer, Religion, Notwendigkeit oder schlicht Neugier war - Entdecker haben unser Wissen \u00fcber die Welt und ihre Wunder erweitert. W\u00e4hrend des Entdeckungsprozesses haben sie auch viele unterschiedliche und entfernte Kulturen verkn\u00fcpft, zum Guten wie zum B\u00f6sen. Die gro\u00dfen Entdecker von Hanno aus Karthago \u00fcber den chinesischen Admiral Wang bis zum Engl\u00e4nder Sir Richard Burton und Tausende andere haben die Expansion vorangetrieben und die Geschichte geformt."
+    }
+}

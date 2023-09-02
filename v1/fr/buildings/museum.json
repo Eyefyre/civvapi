@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Mus\u00e9e|Mus\u00e9es",
+    "game_info": null,
+    "strategy": "Le mus\u00e9e est un b\u00e2timent de milieu de jeu qui augmente la production de culture de la ville. La ville doit d\u00e9j\u00e0 poss\u00e9der un op\u00e9ra (ou une salle des Ceilidh) pour pouvoir accueillir un mus\u00e9e. Contient 2 emplacements pour des chefs-d'oeuvre artistiques.",
+    "historical_info": "Un mus\u00e9e est un \u00e9tablissement ou un ensemble d'\u00e9tablissements dont la mission est de pr\u00e9server les biens les plus pr\u00e9cieux d'une civilisation et de les exposer au public. Les mus\u00e9es abritent des collections de toutes sortes : peintures, fossiles, objets historiques, costumes, bijoux, armes anciennes et bien d'autres choses encore. Le mus\u00e9e de l'Ermitage, situ\u00e9 \u00e0 Saint-P\u00e9tersbourg, fut cr\u00e9\u00e9 en 1764 par Catherine II. Ouvert au public depuis 1852, il est l'un des plus anciens et plus grands mus\u00e9es du monde.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mus\u00e9e|mus\u00e9es.png",
+    "prereq_tech": {
+        "name": "Arch\u00e9ologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

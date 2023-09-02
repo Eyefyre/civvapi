@@ -1,0 +1,43 @@
+{
+    "id": 37,
+    "name": "Artiglieria|un'Artiglieria|dalla tua Artiglieria|alla tua Artiglieria|la tua Artiglieria|da un'Artiglieria",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/artillery.png",
+    "game_info": "La prima unit\u00e0 d'assedio del gioco, pu\u00f2 tirare a una distanza di 3 caselle. Deve eseguire l'allestimento prima di attaccare.",
+    "historical_info": "Con l'avanzare del progresso tecnologico l'artiglieria ha assunto un'importanza sempre maggiore sul campo di battaglia. Con il passare degli anni i cannoni dell'epoca napoleonica e della guerra civile americana sono stati rimpiazzati da armi sempre pi\u00f9 potenti, accurate e letali. Il cannone tedesco da 88 mm \u00e8 uno dei pezzi d'artiglieria pi\u00f9 potenti e versatili della Seconda Guerra Mondiale. Originariamente progettato per l'antiaerea, si rivel\u00f2 cos\u00ec efficace come arma anticarro che ne furono create diverse varianti proprio a quello scopo.",
+    "strategy": "L'Artiglieria \u00e8 un'arma d'assedio di potenza letale, pi\u00f9 potente dei cannoni e dotata di un raggio di tiro maggiore. Come il cannone, ha visibilit\u00e0 limitata e dev'essere allestita (al costo di un 1 PM) prima di attaccare; fatto questo, comunque, ha una terribile forza di combattimento a distanza. Inoltre ha l'abilit\u00e0 di fuoco indiretto, che le consente di tirare al di l\u00e0 degli ostacoli contro bersagli che non \u00e8 in grado di vedere direttamente (a patto che siano visibili ad altre unit\u00e0 amiche). Come tutte le altre armi d'assedio, anche l'Artiglieria \u00e8 vulnerabile agli attacchi ravvicinati.",
+    "movement": 2,
+    "cost": {
+        "production": 250,
+        "faith": 500
+    },
+    "prereq_tech": {
+        "name": "Dinamite|della Dinamite",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/dynamite.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuoco indiretto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

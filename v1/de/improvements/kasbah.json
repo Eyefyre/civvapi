@@ -1,0 +1,33 @@
+{
+    "id": 27,
+    "name": "Kasbah",
+    "game_info": "Eine Kasbah ist eine Art von Medina (Bezeichnung f\u00fcr die Altstadt arabischer, meist nordafrikanischer St\u00e4dte) auf dem Land, f\u00fcr gew\u00f6hnlich eine kleine Siedlung auf einem H\u00fcgel oder am Hang. Urspr\u00fcnglich wohnte dort ein Stammesh\u00e4uptling oder ein wichtiger islamischer Imam. Fensterlose H\u00e4user mit hohen Mauern und enge, gewundene Stra\u00dfen sind typisch f\u00fcr die Kasbah. In der Regel wird sie von einem einzelnen befestigten Turm dominiert. Kasbahs waren entlang der nordafrikanischen K\u00fcste und im Mittleren Osten bis ins fr\u00fche 20. Jahrhundert verbreitet. Eine Kasbah zu bauen war ein Zeichen von Reichtum, Einfluss und Macht f\u00fcr marokkanische und algerische Familien arabischer Abstammung.Eine Kasbah kann nur auf einem W\u00fcsten-Gel\u00e4ndefeld gebaut werden.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kasbah.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "Morocco",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/civilizations/morocco.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

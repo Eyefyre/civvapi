@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "Submarino|Submarinos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Resulta invisible para todas las unidades (excepto para los Destructores, Cruceros portamisiles y otros Submarinos) hasta que ataque o est\u00e9 adyacente a otra unidad. Puede hacer un da\u00f1o importante a otros barcos si se ponen a su alcance sin verlo.",
+    "historical_info": "Los submarinos prenucleares eran b\u00e1sicamente corsarios usados contra el comercio que buscaban hundir los barcos mercantes enemigos y cortar las cadenas de suministros. Los de la Segunda Guerra Mundial iban equipados por lo general con tubos lanzatorpedos a proa y popa, y a veces con un peque\u00f1o ca\u00f1\u00f3n de cubierta capaz de hundir un barco mercante si no hab\u00eda nadie para devolver los disparos.Excepto en casos contados, los submarinos no se usaban para buscar barcos de guerra enemigos. Su trabajo consist\u00eda en hundir naves mercantes y escabullirse antes de que los barcos de guerra o aviones del enemigo pudieran localizarlos. En los encuentros con los destructores, los submarinos sol\u00edan llevarse la peor parte. Tanto en la Primera como en la Segunda Guerra Mundial, los \"U-boats\" alemanes estuvieron peligrosamente cerca de rendir por el hambre a Reino Unido, pues hundieron 11 millones de toneladas de carga en la primera y 14 en la segunda, a un coste de cerca de 1.000 submarinos hundidos.",
+    "strategy": "El Submarino es un buque especializado antibarcos. Resulta invisible para todas las unidades (excepto para los Destructores, Cruceros portamisiles y otros Submarinos) hasta que ataca o se encuentra adyacente con otra unidad. El Submarino puede entrar en hex\u00e1gonos de Hielo. \u00dasalo para patrullar por aguas enemigas y hundir sus barcos o proteger los tuyos de los Submarinos enemigos.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Refrigeraci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Invisible (Submarino)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Puede ver a los Submarinos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Puede entrar en casillas de Hielo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n cuando ataca (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

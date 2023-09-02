@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Pikinierzy|Pikinier\u00f3w|Pikinierom|Pikinier\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Jednostka wyspecjalizowana w walce z rycerzami i innymi jednostkami kawaleryjskimi.",
+    "historical_info": "Pikinier jest lepiej wyszkolony i opancerzony od w\u0142\u00f3cznika. Dysponuje te\u017c d\u0142u\u017csz\u0105 i bardziej ostr\u0105 broni\u0105. W odr\u00f3\u017cnieniu od kr\u00f3tszej i l\u017cejszej w\u0142\u00f3czni, pika niemal zawsze jest dwur\u0119czna. Wedle reali\u00f3w historycznych, pikinierzy byli wysoce skuteczni przeciwko piechocie i kawalerii. Ze wzgl\u0119du brak na brak tarczy stanowili jednak \u0142atwy cel dla \u0142ucznik\u00f3w.",
+    "strategy": "Pikinierzy to silniejsi w\u0142\u00f3cznicy. Otrzymuj\u0105 premi\u0119 w walce z jednostkami konnymi, wi\u0119c w zasadzie s\u0105 jedyn\u0105 jednostk\u0105 mog\u0105c\u0105 oprze\u0107 si\u0119 szar\u017cuj\u0105cym rycerzom. Ufortyfikowani pikinierzy s\u0105 najwi\u0119kszym koszmarem ka\u017cdego rycerza.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

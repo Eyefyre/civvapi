@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Schlachtschiff",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battleship.png",
+    "game_info": "Die st\u00e4rkste Marine-Fernkampfeinheit im Spiel bis zum Raketenkreuzer.",
+    "historical_info": "Schlachtschiffe sind gro\u00dfe, bewaffnete Kriegsschiffe mit mehreren gro\u00dfkalibrigen Kanonen. Sie sind direkte Nachkommen der Linienschiffe aus dem Zeitalter der Entdeckungen und f\u00fcr den Kampf mit den gr\u00f6\u00dften gegnerischen Kriegsschiffen ausgestattet. Vor der Zeit der Luft- und Untersee-Einheiten beherrschten Schlachtschiffe die Meere und konnten alles versenken, was auf dem Wasser schwamm. Ihre extrem starken Kanonen k\u00f6nnen auch f\u00fcr den Artilleriebeschuss eingesetzt werden, indem sie gro\u00dfe Raketen kilometerweit landeinw\u00e4rts verschie\u00dfen. Trotz ihrer Gr\u00f6\u00dfe, Geschwindigkeit, Panzerung und Feuerkraft waren Schlachtschiffe sehr verwundbar, sowohl durch Lufteinheiten als auch durch U-Boote. In Pearl Harbor versenkten japanische Flugzeuge, die von Flugzeugtr\u00e4gern aus gestartet waren, vier amerikanische Schlachtschiffe und besch\u00e4digten weitere vier schwer. Das \u00fcberzeugte die Alliierten von der Bedeutung des Flugzeugtr\u00e4gers als Angriffswaffe und Schlachtschiffe wurden danach meist nur noch f\u00fcr den K\u00fcstenbeschuss und zur Begleitung von Flugzeugtr\u00e4gern eingesetzt.",
+    "strategy": "Das Schlachtschiff ist ein extrem starkes Kriegsschiff mit gro\u00dfer Kampf- und Fernkampfst\u00e4rke. Es hat eine Angriffsreichweite von 3 Gel\u00e4ndefeldern und kann so Einheiten oder St\u00e4dte bombardieren, die sich weiter im Landesinneren befinden. Durch indirektes Feuer kann es zudem auf Ziele schie\u00dfen, die nicht in Sichtweite sind (solange eine freundlich gesinnte Einheit sie sieht). Das Schlachtschiff ist besonders bei Angriffen von Lufteinheiten oder U-Booten gef\u00e4hrdet.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Elektronik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirektes Feuer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

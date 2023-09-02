@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "Sottomarino|un Sottomarino|dal tuo Sottomarino|al tuo Sottomarino|il tuo Sottomarino|da un Sottomarino",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Invisibile a tutte le unit\u00e0 nemiche con l'eccezione dei Cacciatorpediniere, degli Incrociatori lanciamissili e degli altri sottomarini, finch\u00e9 non attacca o \u00e8 adiacente a un'altra unit\u00e0. Pu\u00f2 causare gravi danni alle altre navi se riesce ad avvicinarsi senza essere avvistato.",
+    "historical_info": "Prima dell'avvento dei sommergibili nucleari i sottomarini erano impiegati pi\u00f9 che altro per limitare gli approvvigionamenti del nemico; il loro compito era di affondare le navi da carico e tagliare la catena dei rifornimenti nemici. In genere i sottomarini della Seconda Guerra Mondiale erano dotati di tubi lanciasiluri ed eventualmente un cannoncino sul ponte, in grado di affondare una nave mercantile (se nessuno in quel momento sparava contro di loro).Se non in casi molto rari, i sottomarini non andavano a caccia delle navi da guerra nemiche. Il compito di un sommergibile era affondare le navi da trasporto e sparire prima che le navi da guerra o gli aerei nemici potessero avvistarlo. Nello scontro diretto con una corazzata in genere aveva la peggio. In entrambi i conflitti mondiali gli U-Boot tedeschi affamarono il Regno Unito fin quasi a costringerlo alla resa: durante la Prima Guerra Mondiale la Germania riusc\u00ec ad affondare 11 milioni di tonnellate di merci, che diventarono addirittura 14 milioni nella Seconda Guerra Mondiale, al costo di quasi 1.000 U-Boot distrutti.",
+    "strategy": "Il Sottomarino \u00e8 specializzato nella distruzione delle navi nemiche. Fino a quando non attacca, o \u00e8 adiacente a un'altra unit\u00e0, risulta invisibile a tutte le unit\u00e0 nemiche con l'eccezione dei Cacciatorpediniere, degli Incrociatori lanciamissili e degli altri sottomarini. Un Sottomarino pu\u00f2 entrare nelle caselle di ghiaccio. Un Sottomarino \u00e8 utile per pattugliare le acque e affondare le navi nemiche, ma anche per scortare le proprie navi e proteggerle dall'attacco dei Sottomarini avversari.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Refrigerazione|della Refrigereazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Invisibile (Sottomarino)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Pu\u00f2 vedere i sottomarini",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Pu\u00f2 entrare nelle caselle di Ghiaccio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus al combattimento in attacco (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

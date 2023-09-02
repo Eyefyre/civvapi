@@ -1,0 +1,35 @@
+{
+    "id": 108,
+    "name": "Mendigo del mar|Mendigos del mar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sea_beggar.png",
+    "game_info": "Una unidad naval especializada en atacar ciudades costeras para ganar Oro y capturar naves enemigas. Solo la pueden construir los holandeses.",
+    "historical_info": "Los \"mendigos del mar\", o watergeuzen, fueron un grupo de corsarios que se opusieron al control espa\u00f1ol de los Pa\u00edses Bajos durante la Guerra de los Ochenta A\u00f1os. El nombre procede de un grupo de nobles holandeses que acudieron al palacio de la duquesa de Parma con una lista de agravios y solicitudes. Los consejeros de la duquesa se refirieron a ellos como \"mendigos\" y se quedaron con ese nombre.En 1569, Guillermo de Orange entreg\u00f3 permisos oficiales a los mendigos y se equiparon un total de 84 barcos. Al principio, estos mendigos del mar se limitaron a saqueos b\u00e1sicos, pero llevados por la desesperaci\u00f3n, atacaron un enclave espa\u00f1ol a pesar de su guarnici\u00f3n. Inspirados por su victoria, comenzaron una campa\u00f1a m\u00e1s atrevida y capturaron otras ciudades costeras. El \u00e9xito de los mendigos del mar fue inspirador para el resto de Holanda, que comenz\u00f3 a rebelarse. Hoy se considera que la toma de la guarnici\u00f3n espa\u00f1ola de Brielle por parte de los mendigos del mar fue el inicio de la guerra de independencia holandesa.",
+    "strategy": "Una unidad naval especializada en atacar ciudades costeras para ganar Oro y capturar naves enemigas. Solo la pueden construir los holandeses. Se cura fuera de territorio amistoso. Empieza con los ascensos Asaltante costero I y II, lo que le permite ganar Oro por atacar ciudades costeras. Pueden capturar como presas a todas las unidades navales derrotadas.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Asaltante costero I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Asaltante costero II",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/coastal_raider_ii.json"
+        },
+        {
+            "name": "Conquista barcos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/prize_ships.json"
+        },
+        {
+            "name": "Suministro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/supply.json"
+        }
+    ]
+}

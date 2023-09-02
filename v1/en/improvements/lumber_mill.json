@@ -1,0 +1,30 @@
+{
+    "id": 8,
+    "name": "Lumber Mill",
+    "game_info": "A lumbermill allows you to improve the production output of forest hexes.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/lumber_mill.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

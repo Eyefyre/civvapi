@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "Pascolo|un Pascolo|un Pascolo",
+    "game_info": "Il pascolo \u00e8 una sezione recintata di campi aperti piantata a erba e adibita al pascolo di animali come cavalli e bovini.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pascolo|un_pascolo|un_pascolo.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Cavalli",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+        },
+        {
+            "name": "Bestiame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cattle.json"
+        },
+        {
+            "name": "Pecore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Allevamento di animali|dell'Allevamento di animali",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Navigation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Renaissance Era",
+    "cost": 1150,
+    "civilopedia_entry": "Navigation is the science of finding one's way across the ocean. Early vessels rarely left sight of the coastline, which made navigation fairly simple but limited the places one could go, and also made the ships vulnerable to being driven ashore or onto dangerous rocks by contrary winds. There are few things more terrifying to a sailing vessel's captain (pre-steam engine) than being on a \"lee shore\" - that is, being blown directly towards a nearby shore by strong wind.Before the advent of satellites and radios and radar, ships at sea navigated by tracking their movement on a chart, or \"dead reckoning.\" If one knew the speed and precise direction that one was moving, then one could have a pretty certain idea of where one was. However, after several weeks at sea even the minutest error in speed or direction could accumulate into big errors. If one were in the middle of the Pacific, getting low on water and sailing to the only speck of an island within a thousand miles purported to have water, a dead reckoning error could easily result in a very unpleasant end.A ship's captain could also look to the heavens to aid in navigation. If it were sunny out, Captains had delicate instruments which could tell the precise moment that the sun reached its zenith (highest point) above the ship. If they also possessed an accurate clock which was set with the correct time, they could use this information to determine their precise longitude (or distance, east or west, from the Prime Meridian - which runs through Greenwich, England). This of course required good weather, an accurate clock, and the ability to determine high noon while aboard a ship which may be rocking about in an alarming fashion. On clear nights the captains could often use the rise and fall of certain stars to give them similar information.Eventually, of course, the inventions of radio, radar, and satellites made the entire process much easier and far safer. But even today captains routinely drive their ships aground or crash them into bridge abutments - and these are ships with engines. Imagine the skill needed to keep a sailing vessel on the correct course.",
+    "quote": "\"The winds and the waves are always on the side of the ablest navigators.\" - Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronomy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archaeology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Frigate",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/frigate.json"
+        },
+        {
+            "name": "Ship of the Line",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Sea Beggar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/sea_beggar.json"
+        },
+        {
+            "name": "Privateer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Seaport",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/seaport.json"
+        }
+    ]
+}

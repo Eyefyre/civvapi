@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Amphitheater",
+    "game_info": null,
+    "strategy": "The Amphitheater increases the Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies. The city must contain a Monument (or a Stele) before the Amphitheater can be constructed. Contains 1 slot for a Great Work of Writing.",
+    "historical_info": "An amphitheater is an outdoor arena designed for open-air theatrical performances, as well as sporting events and concerts. The ancient Romans in particular are known for the hundreds of amphitheatres they constructed, in which gladiatorial combat, exhibitions, and public executions were conducted.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/amphitheater.png",
+    "prereq_tech": {
+        "name": "Drama and Poetry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 32,
+    "name": "Sal",
+    "game_info": null,
+    "historical_info": "La sal, necesaria para la vida humana, se encuentra en todo el mundo en entornos naturales y artificiales. Hace miles de a\u00f1os se usaba para preservar la comida antes de la invenci\u00f3n de la refrigeraci\u00f3n artificial. La evaporaci\u00f3n es el m\u00e9todo de producci\u00f3n de sal m\u00e1s habitual: el sol evapora el agua de las salinas, unos grandes estanques de agua poco profundos, dejando un residuo salino que es recogido.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sal.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        }
+    ]
+}

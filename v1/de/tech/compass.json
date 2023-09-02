@@ -1,0 +1,41 @@
+{
+    "id": 26,
+    "name": "Kompass",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/compass.png",
+    "era": "Mittelalter",
+    "cost": 375,
+    "civilopedia_entry": "Ein Kompass ist ein Ger\u00e4t, in dem ein Magnetit oder eine magnetisierte Nadel dazu verwendet wird, die Richtung zum magnetischen Nordpol anzuzeigen. Auch wenn dieser nicht identisch ist mit dem geografischen Nordpol, liegen beide doch nah genug beieinander, um Magneten zu n\u00fctzlichen Werkzeugen in der Navigation zu machen. Die ersten Kompasse wurden in China und Europa (anscheinend unabh\u00e4ngig voneinander) im 12. Jahrhundert erfunden. Kompasse erm\u00f6glichten es Seefahrern, die Fahrtrichtung ihrer Schiffe auf hoher See genau im Auge zu behalten; etwas, das in den Jahren vor der Erfindung des Kompasses an bew\u00f6lkten oder st\u00fcrmischen Tagen nahezu unm\u00f6glich war. F\u00fcr Reisen \u00fcber Land waren sie ebenso n\u00fctzlich, z. B. bei Reisen durch W\u00fcsten ohne Wege, w\u00e4hrend Schneest\u00fcrmen oder unter dem dichten Bl\u00e4tterdach alter Dschungel.Reisende nutzen auch heute noch Kompasse, doch diese Ger\u00e4te werden mittlerweile als altmodisch angesehen, vor allem im Vergleich zu satellitengest\u00fctzten globalen Navigationssystemen, die einem nicht nur die richtige Richtung anzeigen, sondern obendrein den Weg zum n\u00e4chstgelegenen Caf\u00e9, und das vermag auch der pr\u00e4ziseste Kompass nicht.",
+    "quote": "\"Das Entscheidende in der Welt ist nicht so sehr, wo wir stehen, sondern in welche Richtung wir uns bewegen.\" - Oliver Wendell Holmes",
+    "tech_prereqs": [
+        {
+            "name": "Optik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/optics.json"
+        },
+        {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Galeasse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/galleass.json"
+        },
+        {
+            "name": "Gro\u00dfe Galeasse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/great_galleass.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Hafen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/harbor.json"
+        }
+    ]
+}

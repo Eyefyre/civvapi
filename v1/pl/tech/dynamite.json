@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dynamit|Dynamitu|Dynamitowi|Dynamit",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 2350,
+    "civilopedia_entry": "Dynamit to materia\u0142 wybuchowy wynaleziony przez szwedzkiego chemika i in\u017cyniera, Alfreda Nobla, w 1867 r. Dynamit wytwarza si\u0119, nas\u0105czaj\u0105c nitrogliceryn\u0105 materia\u0142 absorbuj\u0105cy, taki jak ziemia okrzemkowa (co ciekawe, ten sam materia\u0142 wykorzystuje si\u0119 w wielu filtrach basenowych). Nitrogliceryna to niezwykle silny, ale te\u017c wyj\u0105tkowo niestabilny materia\u0142 wybuchowy; dynamit ma mniejsz\u0105 si\u0142\u0119 ra\u017cenia, ale jest znacznie stabilniejszy.Dynamit stosuje si\u0119 g\u0142\u00f3wnie w g\u00f3rnictwie i budownictwie. Dawniej mia\u0142 te\u017c zastosowania wojskowe, ale nitrogliceryna jest zbyt niestabilna jak na warunki pola walki, wi\u0119c armie wol\u0105 produkt zmodyfikowany, nazywany \u201edynamitem wojskowym\u201d, w kt\u00f3rym zamiast nitrogliceryny wykorzystuje si\u0119 inne substancje chemiczne, w tym trotyl. Jego si\u0142a jest mniejsza o 60%, ale materia\u0142 nie ma tendencji do wybuchania w najmniej odpowiednim momencie.",
+    "quote": "\u201eKiedy ludzie decyduj\u0105 si\u0119 wykorzysta\u0107 do walki ze z\u0142em wszystkie dost\u0119pne \u015brodki, nie mo\u017cna odr\u00f3\u017cni\u0107 ich dobra od z\u0142a, kt\u00f3re pragn\u0105 zniszczy\u0107.\u201d \u2013 Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "Naw\u00f3z|Nawozu|Nawozowi|Naw\u00f3z",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/fertilizer.json"
+        },
+        {
+            "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kolej|Kolei|Kolei|Kolej",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artyleria|Artylerii|Artylerii|Artyleri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

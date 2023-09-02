@@ -1,0 +1,35 @@
+{
+    "id": 57,
+    "name": "S\u0142onie Naresuana|S\u0142oni Naresuana|S\u0142oniom Naresuana|S\u0142onie Naresuana",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/naresuan's_elephant.png",
+    "game_info": "Pot\u0119\u017cna, \u015bredniowieczna jednostka kawaleryjska, s\u0142aba w walce z pikinierami. Mog\u0105 j\u0105 tworzy\u0107 wy\u0142\u0105cznie Syjamczycy. Otrzymuje premi\u0119 w walce z innymi jednostkami kawalerii i ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 ni\u017c rycerze, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "W po\u0142udniowo-wschodniej Azji s\u0142onie wykorzystywano w celach militarnych a\u017c do \u015bredniowiecza. W Syjamie zwierz\u0119ta te cieszy\u0142y si\u0119 wysokim uznaniem, dow\u00f3dcy cz\u0119sto walczyli z ich grzbietu. W 1593 roku wojna mi\u0119dzy Birm\u0105 i Syjamem zako\u0144czy\u0142a si\u0119 zwyci\u0119stwem Syjamu, kiedy kr\u00f3l Naresuan zabi\u0142 birma\u0144skiego nast\u0119pc\u0119 tronu ksi\u0119cia Minchita Sra podczas walki z grzbietu s\u0142onia.",
+    "strategy": "To unikatowa jednostka syjamska zast\u0119puj\u0105ca rycerzy. S\u0142onie Naresuana s\u0105 od nich wolniejsze, ale silniejsze. Podobnie jak rycerze, mog\u0105 si\u0119 porusza\u0107 po wykonaniu ataku. Dzi\u0119ki w\u0142\u00f3czniom otrzymuj\u0105 spor\u0105 premi\u0119 w walce z kawaleri\u0105.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

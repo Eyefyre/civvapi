@@ -1,0 +1,20 @@
+{
+    "id": 23,
+    "name": "Intercambio cultural",
+    "game_info": "Intercambio culturalReligi\u00f3n compartida, Rutas comerciales y Apertura de Fronteras aumentan un 15% cada una el modificador de Turismo.",
+    "historical_info": "En \u00e9pocas tan tempranas como los comienzos de la Era Industrial, las visitas de estudiantes, artistas, atletas y dem\u00e1s con la filosof\u00eda de base del quid pro quo entre naciones, no eran m\u00e1s que un intercambio cultural extraoficial. Pero este tipo de programas se formalizaron durante la Guerra Fr\u00eda, cuando EE. UU. y la URSS trataban de demostrar al mundo la superioridad de sus respectivas culturas, al tiempo que fomentaban el mutuo entendimiento de sus sistemas de valores. Estos programas facilitaron el viaje y la actuaci\u00f3n de grupos selectos en \"territorio enemigo\", un proceso que varios historiadores han dado en denominar \"Caballo de Troya cultural\", ya que dichos programas terminaron por \"erosionar\" el r\u00e9gimen sovi\u00e9tico.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/intercambio_cultural.png",
+    "required_policies": [
+        {
+            "name": "Florecimiento de las artes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/flourishing_of_the_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Est\u00e9tica",
+        "game_info": "La Est\u00e9tica mejora la capacidad de generaci\u00f3n de Cultura de una civilizaci\u00f3n.La adopci\u00f3n de la Est\u00e9tica te permite generar Grandes escritores, artistas y m\u00fasicos un 25% m\u00e1s r\u00e1pido. Desbloquea la construcci\u00f3n de la Galer\u00eda de los Uffizi.La adopci\u00f3n de todas las pol\u00edticas duplica la bonificaci\u00f3n por tema de Maravillas y Museos. Tambi\u00e9n te permite comprar Grandes escritores, artistas y m\u00fasicos con Fe a partir de la Era Industrial.",
+        "prereq_era": "\u00c9poca Cl\u00e1sica",
+        "historical_info": "La est\u00e9tica es la filosof\u00eda de la naturaleza del arte y del gusto y se ocupa de la creaci\u00f3n y la apreciaci\u00f3n de la belleza material. Debe advertirse que la est\u00e9tica no engloba la funcionalidad ni la utilidad de algo, se centra solo en la belleza de la forma, el color, el contraste y otros aspectos art\u00edsticos."
+    }
+}

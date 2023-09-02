@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Courthouse",
+    "game_info": "Eliminates extra Unhappiness from an Occupied City.",
+    "strategy": "The Courthouse reduces the unhappiness caused by captured cities. Construct one in each occupied city as quickly as possible, especially if you're intent upon conquering a bunch of them.",
+    "historical_info": "A Courthouse is a building in which the local authorities administer the law. Oftentimes the building also houses the local civil government as well, but this is by no means always the case. Generally the courthouse occupies a conspicuous place of importance in the central part of the city - either because the citizens view it with pride, or because the government wants to remind the citizens that it's got its eye on them.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 4,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/courthouse.png",
+    "prereq_tech": {
+        "name": "Mathematics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

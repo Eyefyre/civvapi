@@ -1,0 +1,40 @@
+{
+    "id": 5,
+    "name": "Schnee",
+    "historical_info": "Schneefelder sind ziemlich ertragsarm, da sie einer nahegelegenen Stadt weder Nahrung noch Produktion liefern. Ein Schneefeld kann nat\u00fcrlich eine n\u00fctzliche Ressource enthalten, aber ansonsten ist es einfach nur kalt und unfruchtbar.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/schnee.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [],
+    "resources": [
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Stein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+        },
+        {
+            "name": "Kupfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+        }
+    ]
+}

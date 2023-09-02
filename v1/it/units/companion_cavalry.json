@@ -1,0 +1,35 @@
+{
+    "id": 67,
+    "name": "Cavalleria dei Compagni|una Cavalleria dei Compagni|dalla tua Cavalleria dei Compagni|alla tua Cavalleria dei Compagni|la tua Cavalleria dei Compagni|da una Cavalleria dei Compagni",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/companion_cavalry.png",
+    "game_info": "Unit\u00e0 a cavallo disponibile nelle prime fasi del gioco, veloce e potente. Debole contro i nemici armati di lancia. Solo i greci possono costruirla. Quest'unit\u00e0 \u00e8 pi\u00f9 veloce, ha una Forza di combattimento superiore e aiuta a produrre Grandi Generali pi\u00f9 rapidamente del Guerriero a cavallo, che sostituisce.",
+    "historical_info": "Gli hetairoi, o \"Cavalleria dei Compagni\", erano guerrieri sceltissimi che accompagnavano Alessandro Magno in battaglia. Il termine \"hetairoi\" deriva dal nome dell'aristocrazia macedone: i membri della Cavalleria dei Compagni, infatti, provenivano solo dalle migliori famiglie (anche se pi\u00f9 tardi fu ammessa anche la nobilt\u00e0 delle nazioni alleate o assoggettate). Ogni cavaliere portava uno \"xyston\" (lancia da battaglia) e un \"kopis\" (spada ricurva) e indossava una corazza di bronzo, spallacci e un elmo.In battaglia solitamente Alessandro aspettava a far intervenire i Compagni finch\u00e9 il nemico non fosse bloccato nel corpo a corpo con la falange. Alessandro stesso avrebbe poi condotto la cavalleria contro il fianco o la retroguardia nemica, seminando terrore e confusione. Gli avversari non trovarono mai una tattica efficace per contrastare questa combinazione, grazie alla quale Alessandro conquist\u00f2 la maggior parte del mondo conosciuto.",
+    "strategy": "La Cavalleria dei Compagni \u00e8 un'unit\u00e0 esclusiva dei Greci e sostituisce i Guerrieri a cavallo. La Cavalleria dei Compagni \u00e8 pi\u00f9 veloce e potente della sua controparte ed \u00e8 l'unit\u00e0 di cavalleria pi\u00f9 pericolosa fino all'arrivo dei Cavalieri. La Cavalleria dei Compagni aiuta a generare Grandi Generali pi\u00f9 rapidamente delle altre unit\u00e0. Inoltre \u00e8 in grado di muoversi dopo aver attaccato. La Cavalleria dei Compagni \u00e8 un'unit\u00e0 a cavallo, perci\u00f2 \u00e8 sempre vulnerabile all'attacco di Lancieri e Picchieri.",
+    "movement": 5,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Equitazione|dell'Equitazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Grandi Generali I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

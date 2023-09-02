@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Caballer\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 485,
+    "civilopedia_entry": "Caballer\u00eda es el comportamiento honorable que se espera de los \"caballeros\", la nobleza armada de una cultura. Es, en cierto modo, af\u00edn al \"bushido\" (la senda del guerrero), el c\u00f3digo de conducta de los samur\u00e1is japoneses. El c\u00f3digo de la caballer\u00eda tuvo su apogeo en el siglo XII, impulsado por las cruzadas. Los caballeros cre\u00edan que estaban haciendo la voluntad de Dios al castigar a los infieles de Oriente Medio. Para ganarse el favor divino, uno deb\u00eda portarse piadosamente. El comportamiento poco caballeroso pod\u00eda llevar perfectamente al fracaso, la muerte y la perdici\u00f3n. Los caballeros musulmanes que lucharon contra los cristianos ten\u00edan c\u00f3digos similares y, en algunos casos, m\u00e1s \"civilizados\".En una civilizaci\u00f3n, es crucial alguna forma de c\u00f3digo de conducta cuando una clase privilegiada tiene acceso a las armas, pero se les niega dicho acceso a las clases inferiores. De lo contrario, los que tienen las armas podr\u00edan apoyarse demasiado en las clases m\u00e1s bajas, lo que aumentar\u00eda la agitaci\u00f3n civil y, posiblemente, propiciar\u00eda una revoluci\u00f3n.",
+    "quote": "\"Quien saque esta espada de esta piedra y yunque habr\u00e1 nacido rey leg\u00edtimo de toda Inglaterra.\" - Malory",
+    "tech_prereqs": [
+        {
+            "name": "Administraci\u00f3n p\u00fablica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+        },
+        {
+            "name": "Gremios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        },
+        {
+            "name": "Imprenta",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caballero|Caballeros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/knight.json"
+        },
+        {
+            "name": "Arquero a camello|Arqueros a camello",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/camel_archer.json"
+        },
+        {
+            "name": "Elefante Naresuan|Elefantes Naresuan",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Caballer\u00eda mandekalu|Caballer\u00edas mandekalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Keshik|Keshiks",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/keshik.json"
+        },
+        {
+            "name": "Conquistador|Conquistadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fuerte mogol|Fuertes mogoles",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Castillo|Castillos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra|Alhambras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/alhambra.json"
+        }
+    ]
+}

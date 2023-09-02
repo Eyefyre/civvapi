@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "name": "Anti-Tank Gun",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-tank_gun.png",
+    "game_info": "Relatively cheap Unit specialized in fighting Tanks.",
+    "historical_info": "Anti-tank guns are, not surprisingly, artillery units specially designed to destroy enemy tanks. These weapons are of necessity mobile, either self-propelled or easily dragged by truck or other heavy equipment. They fire shells specially designed to penetrate enemy armor. Anti-tank guns are often quite vulnerable to enemy infantry, and thus must be supported by anti-infantry units if the enemy gets too close.",
+    "strategy": "The Anti-Tank Gun is a specialized combat unit which is quite potent against enemy tanks, but weak when battling other units. Back them up with tanks of your own and artillery for a potent fighting force.",
+    "movement": 2,
+    "cost": {
+        "production": 300,
+        "faith": 600
+    },
+    "prereq_tech": {
+        "name": "Combined Arms",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Tanks (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_tanks_(100).json"
+        }
+    ]
+}

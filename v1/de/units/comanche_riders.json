@@ -1,0 +1,35 @@
+{
+    "id": 132,
+    "name": "Komantschenreiter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/comanche_riders.png",
+    "game_info": "Berittene Einheit, die auf schnelle Angriffe spezialisiert ist. Kann nur von den Schoschonen gebaut werden.",
+    "historical_info": "Die Komantschen waren ein Zweig der Schoschonen, der durch den st\u00e4ndig steigenden Druck der Indianer der Northern Plains gen S\u00fcden in Richtung Oklahoma und gen Norden in Richtung Texas vertrieben wurde. Die urspr\u00fcnglichen J\u00e4ger und Sammler entwickelten sich aufgrund unaufh\u00f6rlicher Konflikte mit anderen Indianerst\u00e4mmen sowie mexikanischen und amerikanischen Siedlern zum Reitervolk. Auf dem R\u00fccken st\u00e4mmiger Ponys aus den Great Plains erlernten die Komantschen bereits in jungen Jahren das Reiten. Die Krieger waren mit Speeren bewaffnet, deren Spitzen aus Obsidian bestanden und verheerend f\u00fcr alle Gegner am Boden waren, sowie mit Pfeil und Bogen und sp\u00e4ter auch mit Gewehren. Ihr favorisierter Kampfstil war der Guerillakrieg: kurze, aber intensive Nahkampfangriffe zu Pferd mit dem Ziel, so viele Feinde wie nur m\u00f6glich zu t\u00f6ten und ihr Vieh zu stehlen. Die sogenannten Komantschenkriege, die in den 1700er Jahren mit ersten Angriffen auf spanische Au\u00dfenposten in New Mexico begannen, w\u00e4hrten nahezu ununterbrochen, bis 1875 die letzten Gruppen von der U.S.-Armee bezwungen wurden.",
+    "strategy": "Der Komantschenreiter ersetzt die Kavallerie und kann nur von den Schoschonen gebaut werden. Er ist g\u00fcnstiger und schneller als die Basiseinheit.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Vollmondk\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/full_moon_striker.json"
+        }
+    ]
+}

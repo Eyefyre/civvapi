@@ -1,0 +1,68 @@
+{
+    "id": 23,
+    "name": "\u8056\u5730",
+    "game_info": "\u8056\u5730\u662f\u5177\u6709\u5b97\u6559\u610f\u7fa9\u7684\u5730\u65b9\uff0c\u505a\u70ba\u8b49\u660e\u7279\u5b9a\u5b97\u6559\u7684\u795e\u9748\u3001\u5148\u77e5\u4ee5\u53ca\u50b3\u7d71\u4e4b\u795e\u8056\u5730\u5740\u3002\u8056\u5730\u7d93\u5e38\u662f\u5b97\u6559\u671d\u8056\u8005\u7684\u76ee\u7684\u5730\uff0c\u8654\u8aa0\u7684\u4fe1\u5f92\u7d93\u5e38\u524d\u5f80\u62dc\u8a2a\uff0c\u5e0c\u671b\u80fd\u52a0\u5f37\u8207\u795e\u7684\u9023\u7d50\uff0c\u540c\u6642\u4e5f\u5c55\u73fe\u5176\u8654\u656c\u4e4b\u5fc3\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u8056\u5730.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u8349\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/grassland.json"
+        },
+        {
+            "name": "\u5e73\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/plains.json"
+        },
+        {
+            "name": "\u6c99\u6f20",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/desert.json"
+        },
+        {
+            "name": "\u51cd\u571f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/tundra.json"
+        },
+        {
+            "name": "\u96ea\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "\u99ac\u5339",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/horses.json"
+        },
+        {
+            "name": "\u9435\u7926",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/iron.json"
+        },
+        {
+            "name": "\u7164\u70ad",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/coal.json"
+        },
+        {
+            "name": "\u77f3\u6cb9",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/oil.json"
+        },
+        {
+            "name": "\u92c1\u6750",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/aluminum.json"
+        },
+        {
+            "name": "\u923e\u7926",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 6,
+        "happiness": 0
+    }
+}

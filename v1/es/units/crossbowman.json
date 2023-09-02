@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Ballestero|Ballesteros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "Unidad de infanter\u00eda medieval de combate a distancia.",
+    "historical_info": "La ballesta apareci\u00f3 por primera vez en Europa en el siglo X. Aunque era m\u00e1s lenta que un arco normal, tambi\u00e9n requer\u00eda de menos entrenamiento y fuerza que \u00e9ste y, con el tiempo, se convirti\u00f3 en el arma dominante en el campo de batalla. Una ballesta se compone b\u00e1sicamente de un arco bastante corto pero muy robusto que va montado sobre un mango. El soldado tensa la cuerda, normalmente con ayuda mec\u00e1nica, para \"montar\" el arco, y luego pone un \"virote\" (flecha) en un surco que hay en el mango. Despu\u00e9s, apunta y aprieta el disparador para liberar la cuerda, lo que hace que el virote salga disparado contra el blanco. Entre otras ventajas, una ballesta se puede disparar de rodillas o cuerpo a tierra, algo que resulta imposible con el arco normal.",
+    "strategy": "El Ballestero es m\u00e1s poderoso que el Saetero de poleas. Como unidad de combate a distancia, puede infligir un da\u00f1o importante a las unidades del Medievo que est\u00e9n a dos hex\u00e1gonos de distancia, pero es vulnerable a los combates cuerpo a cuerpo. Ponlo en una ciudad para defenderla y prot\u00e9gelo con unidades de cuerpo a cuerpo cuando est\u00e9 en movimiento.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maquinaria",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

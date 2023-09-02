@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Nowoczesne czo\u0142gi|Nowoczesnych czo\u0142g\u00f3w|Nowoczesnym czo\u0142gom|Nowoczesne czo\u0142gi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Szybka i silna jednostka na p\u00f3\u017anym etapie gry.",
+    "historical_info": "Nowoczesne czo\u0142gi s\u0105 jeszcze bardziej zab\u00f3jcze ni\u017c ich starsi kuzyni z czas\u00f3w II wojny \u015bwiatowej. Sta\u0142y si\u0119 wi\u0119ksze, szybsze, lepiej opancerzone i pot\u0119\u017cniejsze. Dysponuj\u0105 r\u00f3wnie\u017c nowoczesnymi systemami komputerowymi i \u0142\u0105czno\u015bci, kt\u00f3re dodatkowo wzmacniaj\u0105 ich potencja\u0142 bojowy. Nowoczesne czo\u0142gi potrafi\u0105 porusza\u0107 si\u0119 z pr\u0119dko\u015bci\u0105 40 mil na godzin\u0119 i precyzyjnie razi\u0107 cele oddalone nawet o setki jard\u00f3w. Komputerowe systemy wspomagaj\u0105ce celowanie s\u0105 w stanie natychmiast skorygowa\u0107 wszelkie odchylenia od idealnej trajektorii lotu pocisku.W dniu dzisiejszym najwi\u0119kszymi wrogami czo\u0142g\u00f3w s\u0105 g\u0142\u00f3wnie: inne czo\u0142gi, artyleria, my\u015bliwce oraz \u015bmig\u0142owce. Piechota rzadko kiedy dysponuje uzbrojeniem o na tyle du\u017cej sile ra\u017cenia, by zagrozi\u0107 czo\u0142gowi. Oczywi\u015bcie zawsze mo\u017ce skorzysta\u0107 ze wsparcia artyleryjskiego lub lotniczego.",
+    "strategy": "Nowoczesne czo\u0142gi s\u0105 takie jak ich poprzednicy, tylko jeszcze lepsze. S\u0105 od nich o wiele silniejsze i r\u00f3wnie\u017c mog\u0105 ruszy\u0107 si\u0119 po walce.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Lasery|Laser\u00f3w|Laserom|Lasery",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

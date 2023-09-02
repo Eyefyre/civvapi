@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Architektur",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "Architektur kann sowohl als Kunstform als auch als Wissenschaft angesehen werden. Sie umfasst alles vom ersten Entwurf bis hin zur Fertigstellung eines Bauwerkes und ist seit Urzeiten ein entscheidendes Element beim Bau. Einer der ersten bekannten Diskurse \u00fcber Architektur und ihre Prinzipien, die \"Zehn B\u00fccher \u00fcber Architektur\" ('De architectura libri decem'), wurde vom r\u00f6mischen Architekten Vitruv im ersten Jahrhundert v. Chr. verfasst. Vitruvs Arbeit, ein zehnb\u00e4ndiges Werk, das alle noch so komplizierten Details r\u00f6mischer Bauweisen umfasst, gilt heute als entscheidende Entwicklung in der Evolution des architektonischen Entwurfsprozesses.",
+    "quote": "\"Architektur beginnt, wo das Ingenieurwesen aufh\u00f6rt.\" - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Akustik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+        },
+        {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arch\u00e4ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archaeology.json"
+        },
+        {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Eremitage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hermitage.json"
+        },
+        {
+            "name": "Porzellanturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Taj Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Uffizien",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/uffizi.json"
+        }
+    ]
+}

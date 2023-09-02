@@ -1,0 +1,20 @@
+{
+    "id": 119,
+    "name": "Inquisitor",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/inquisitor.png",
+    "game_info": "Kann andere Religionen aus einer Stadt vertreiben. Kann nur mit Glauben gekauft werden.",
+    "historical_info": "Inquisitoren wurden in ganz Europa dazu eingesetzt, Gegner der katholischen Kirche zu eliminieren. Wer von der Inquisition als Ketzer gebrand\u00admarkt worden war, wurde oftmals wegen angeblicher Verbrechen gefoltert und hingerichtet. Normalerweise gab es keine M\u00f6glichkeit, sich gegen die Vorw\u00fcrfe des Inquisitors zu verteidigen.",
+    "strategy": "Kann mit Glauben in jeder Stadt mit einer Mehrheitsreligion gekauft werden, die verbessert wurde. Er kann andere Religionen aus Euren St\u00e4dten vertreiben (der Inquisitor wird verbraucht) oder in einer Stadt platziert werden, um sie vor Missionaren und Propheten zu sch\u00fctzen, die andere Religionen in der Stadt verbreiten wollen.",
+    "movement": 3,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        }
+    ]
+}

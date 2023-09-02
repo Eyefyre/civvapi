@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "Weide",
+    "game_info": "Eine Weide ist ein weiter Landstrich, der eingez\u00e4unt ist und mit Gras f\u00fcr Weidetiere wie Pferde und K\u00fche bepflanzt wurde.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/weide.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Pferde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+        },
+        {
+            "name": "Vieh",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cattle.json"
+        },
+        {
+            "name": "Schafe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Tierzucht",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

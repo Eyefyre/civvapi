@@ -1,0 +1,37 @@
+{
+    "id": 61,
+    "name": "Penicylina|Penicyliny|Penicylinie|Penicylin\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/penicillin.png",
+    "era": "Epoka atomu|Epoki atomu|Epoce atomu|Epok\u0119 atomu",
+    "cost": 5100,
+    "civilopedia_entry": "Penicylina to grupa antybiotyk\u00f3w pozyskiwanych z pewnego gatunku grzyb\u00f3w. Antybiotyki zwalczaj\u0105 i zabijaj\u0105 bakterie, ma\u0142e organizmy \u017cywe, kt\u00f3rych cz\u0119\u015b\u0107 \u2013 na przyk\u0142ad bakterie d\u017cumy, syfilisu i tr\u0105du \u2013 zagra\u017caj\u0105 ludzkiemu \u017cyciu i zdrowiu. Uwa\u017ca si\u0119, \u017ce prymitywna forma penicyliny by\u0142a stosowana ju\u017c w \u015bredniowieczu, gdy sple\u015bnia\u0142y chleb wk\u0142adano w ropiej\u0105ce rany. Naukowego odkrycia antybiotyk\u00f3w dokona\u0142 w 1928 roku Alexander Fleming, a po raz pierwszy w leczeniu zastosowa\u0142 je dwa lata p\u00f3\u017aniej Cecil George Paine. W miar\u0119 coraz cz\u0119stszego stosowania cz\u0119\u015b\u0107 bakterii wytworzy\u0142a odporno\u015b\u0107 na penicylin\u0119, wi\u0119c stworzono wiele nowych antybiotyk\u00f3w zwalczaj\u0105cych nowe, odporne szczepy. Mimo to penicylina wci\u0105\u017c jest wa\u017cn\u0105 broni\u0105 lekarzy w nieko\u0144cz\u0105cej si\u0119 wojnie z zab\u00f3jczymi bakteriami.",
+    "quote": "\u201eLudzie s\u0105 najbli\u017cej Boga, gdy daj\u0105 zdrowie innym ludziom.\u201d \u2013 Cyceron",
+    "tech_prereqs": [
+        {
+            "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+        },
+        {
+            "name": "Tworzywo sztuczne|Tworzywa sztucznego|Tworzywu sztucznemu|Tworzywo sztuczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/plastics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ekologia|Ekologii|Ekologii|Ekologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ecology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "\u017bo\u0142nierze piechoty morskiej|\u017bo\u0142nierzy piechoty morskiej|\u017bo\u0142nierzom piechoty morskiej|\u017bo\u0142nierzy piechoty morskiej",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/marine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratorium medyczne|Laboratorium medycznego|Laboratorium medycznemu|Laboratorium medyczne|Laboratoria medyczne|Laboratori\u00f3w medycznych|Laboratoriom medycznym|Laboratoria medyczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/medical_lab.json"
+        }
+    ]
+}

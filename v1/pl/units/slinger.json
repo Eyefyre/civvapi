@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Procarze|Procarzy|Procarzom|Procarzy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "B\u0119d\u0105c jedn\u0105 z pierwszych dost\u0119pnych jednostek do walki dystansowej, ten unikatowy oddzia\u0142 Ink\u00f3w zast\u0119puje \u0142ucznik\u00f3w. Procarze nie s\u0105 silniejsi od \u0142ucznik\u00f3w - w walce w zwarciu s\u0105 wr\u0119cz od nich s\u0142absi - posiadaj\u0105 jednak zdolno\u015b\u0107 daj\u0105c\u0105 du\u017ce szanse na wycofanie si\u0119 na ty\u0142y zanim nast\u0105pi atak wr\u0119cz.",
+    "historical_info": "Wojownicy Ink\u00f3w s\u0142yn\u0119li z mistrzowskiego pos\u0142ugiwania si\u0119 proc\u0105. Jako pocisk\u00f3w u\u017cywali okr\u0105g\u0142ych kamieni. Proca nie ma zasi\u0119gu ani si\u0142y \u0142uku i strza\u0142y, ale jest broni\u0105 ma\u0142\u0105 i lekk\u0105, kt\u00f3r\u0105 swobodnie mog\u0105 nosi\u0107 wszyscy piechurzy. A przecie\u017c w Starym Testamencie napisano, \u017ce dobry procarz mo\u017ce za pomoc\u0105 jednego kamienia powali\u0107 nawet najwi\u0119kszego przeciwnika...",
+    "strategy": "Procarze to staro\u017cytna jednostka piechoty atakuj\u0105ca z dystansu. Ten unikatowy oddzia\u0142 Ink\u00f3w mo\u017ce uciec przed wi\u0119kszo\u015bci\u0105 atak\u00f3w w zwarciu: warto z nich korzysta\u0107 do n\u0119kania wrog\u00f3w. Procarze mog\u0105 jednak zosta\u0107 \u0142atwo rozgromieni, je\u015bli przeciwnik zablokuje im drog\u0119 ucieczki lub b\u0119dzie ich \u015bciga\u0142 znacznie szybszymi oddzia\u0142ami.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "\u0141ucznictwo|\u0141ucznictwa|\u0141ucznictwu|\u0141ucznictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Wycofanie przed walk\u0105 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

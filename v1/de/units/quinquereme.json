@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Quinquereme",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Starke Marineeinheit der Antike, die mit Nahkampfangriffen auf Marineeinheiten und St\u00e4dte die Meere beherrscht. Nur die Karthager k\u00f6nnen sie bauen.",
+    "historical_info": "Die bekanntesten der zahlreichen Schiffe, die sowohl von Karthago als auch Rom eingesetzt wurden, waren wohl die schwer bewaffneten Quinqueremen. Diese Schiffe erhielten ihren Namen, da sie 5 Ruderer an jedem der vertikal ausgerichteten Ruder einsetzten, die s\u00e4ulenartig an den Seiten des Schiffs verliefen. Genaue Zahlen sind zwar nicht bekannt, doch es hei\u00dft, dass die schweren Schiffe mehrere hundert Mann Besatzung oder Soldaten aufnehmen konnten. Die Quinqueremen von Karthago sollen von besonders hoher Qualit\u00e4t gewesen sein, da die Konstruktion auf nordafrikanische Schiffsbauer zur\u00fcckging - sie wurde sp\u00e4ter von den R\u00f6mern \u00fcbernommen.",
+    "strategy": "Nur die Karthager k\u00f6nnen diese Einheit bauen. Sie ist eine bessere Version der Triere, auch in Sachen Kampfst\u00e4rke. Sie ist ebenso eine Nahkampfangriffseinheit, die Feinde auf dem Wasser oder St\u00e4dte angreift (sie besitzt aber keinen Fernkampfangriff). Die Quinquereme kann Tiefsee-Gel\u00e4ndefelder au\u00dferhalb der Stadtgrenzen nicht betreten.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

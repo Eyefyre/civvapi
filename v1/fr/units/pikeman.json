@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Piquier|Piquiers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Unit\u00e9 entra\u00een\u00e9e \u00e0 vaincre les chevaliers et les autres unit\u00e9s mont\u00e9es.",
+    "historical_info": "Un piquier est mieux entra\u00een\u00e9 qu'un lancier, il est \u00e9quip\u00e9 d'une meilleure armure et dispose d'une arme plus longue et plus aff\u00fbt\u00e9e. Contrairement aux lances, plus petites et plus l\u00e9g\u00e8res, les piques s'utilisent presque toujours \u00e0 deux mains. Les piquiers \u00e9taient plus efficaces contre les unit\u00e9s d'infanterie et de cavalerie, mais ils \u00e9taient vuln\u00e9rables face \u00e0 des archers, car ils ne pouvaient pas porter de bouclier.",
+    "strategy": "Le piquier n'est autre qu'une version plus puissante du lancier. B\u00e9n\u00e9ficiant d'un bonus lorsqu'il combat des unit\u00e9s mont\u00e9es, il s'agit de la seule unit\u00e9 du jeu capable d'avoir une chance de survivre \u00e0 l'assaut d'un chevalier. C'est probablement pour cette raison que les piquiers retranch\u00e9s sont le pire cauchemar des chevaliers.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Administration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

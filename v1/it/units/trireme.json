@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Trireme|una Trireme|dalla tua Trireme|alla tua Trireme|la tua Trireme|da una Trireme",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Unit\u00e0 navale di epoca antica, usata per acquisire il controllo dei mari attaccando direttamente le altre unit\u00e0 navali e le citt\u00e0.",
+    "historical_info": "La trireme era una nave da guerra usata nel Mediterraneo nei tempi antichi. Per quanto fosse munita di una vela, in combattimento era mossa da tre ordini di remi. Se i rematori erano addestrati e ben motivati, una trireme poteva essere sorprendentemente agile e veloce. In genere le triremi erano munite di un rostro appuntito sulla prua; la tattica di attacco principale consisteva nello speronare le navi nemiche per affondarle. Alcune triremi trasportavano arcieri per il combattimento a distanza, altre un gran numero di fanti. In questo caso la trireme cercava di abbordare le navi nemiche per catturarle. Le triremi restarono vascelli da guerra importanti finch\u00e9 non furono rese obsolete dall'avvento dei cannoni, dal progresso nella costruzione delle navi e dallo sviluppo di velature complesse.",
+    "strategy": "La Trireme \u00e8 la prima unit\u00e0 navale disponibile nel gioco. Pu\u00f2 portare attacchi ravvicinati contro le altre unit\u00e0 navali o le citt\u00e0, ma non possiede attacco a distanza. La Trireme \u00e8 utile per ripulire le proprie acque territoriali dalle navi barbariche e per una limitata esplorazione: infatti non pu\u00f2 entrare negli esagoni di mare aperto che si trovano al di fuori dei confini di una citt\u00e0, a meno che non appartenga alla Polinesia.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

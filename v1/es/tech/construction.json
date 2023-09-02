@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Construcci\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 105,
+    "civilopedia_entry": "La construcci\u00f3n representa un avance en el estudio de la mamposter\u00eda. B\u00e1sicamente, se a\u00f1ade hierro y otros metales a los recursos del constructor. Aunque son notablemente duraderos, la piedra y el ladrillo tambi\u00e9n son bastante pesados y poco flexibles. Es imposible construir edificios muy altos con esos materiales (a menos que sean de piedra o ladrillo s\u00f3lidos y tengan forma de pir\u00e1mide), de lo contrario, se derrumbar\u00edan por su propio peso o ante un fuerte viento.Las estructuras de metal, por otro lado, o la mamposter\u00eda reforzada con metal, pueden ser muy altas y bellas, y estructuralmente s\u00f3lidas. Con metal, se pueden crear puentes colgantes, profundos t\u00faneles, grandes rascacielos y autopistas elevadas. Sin la construcci\u00f3n, no podr\u00eda existir ninguna de las grandes ciudades del mundo, ni tampoco su arquitectura m\u00e1s hermosa.",
+    "quote": "\"En un edificio se han de mirar tres cosas: que est\u00e9 en el lugar adecuado, que tenga cimientos s\u00f3lidos y que se haya erigido bien.\" - Johann Wolfgang von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Mamposter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/masonry.json"
+        },
+        {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ingenier\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Saetero de poleas|Saeteros de poleas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Coliseo|Coliseos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/colosseum.json"
+        },
+        {
+            "name": "Ej\u00e9rcito de terracota|Ej\u00e9rcitos de terracota",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/terracotta_army.json"
+        }
+    ]
+}

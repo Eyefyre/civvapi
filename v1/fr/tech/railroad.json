@@ -1,0 +1,40 @@
+{
+    "id": 56,
+    "name": "Voies ferr\u00e9es",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/railroad.png",
+    "era": "\u00c8re moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Les premi\u00e8res Voies ferr\u00e9es furent construites dans des mines europ\u00e9ennes au XVIe si\u00e8cle. Il s'agissait de chariots \u00e0 roulettes mont\u00e9s sur des rails et tir\u00e9s par des hommes ou des animaux (le plus souvent des chevaux ou des \u00e2nes). Le premier r\u00e9seau de voies ferr\u00e9es en surface, utilis\u00e9 par des machines \u00e0 vapeur, apparut en Angleterre en 1825. Une fois la technologie \u00e9prouv\u00e9e, les rails se propag\u00e8rent dans le monde entier. La construction de la premi\u00e8re voie ferr\u00e9e am\u00e9ricaine \u00e0 but g\u00e9n\u00e9ral, la \"Baltimore and Ohio Railroad\", d\u00e9buta en 1827. Un si\u00e8cle plus tard, tous les continents du monde poss\u00e9daient un r\u00e9seau \u00e9tendu de chemins de fer.L'importance des voies ferr\u00e9es dans le d\u00e9veloppement du monde ne saurait \u00eatre sous-estim\u00e9e. Avant que le transcontinental ne traverse les \u00c9tats-Unis, un voyage de New York jusqu'\u00e0 San Francisco prenait des mois. En train, ce m\u00eame voyage ne durait que sept jours pour la somme, modeste, de 65$. Une fois les rails termin\u00e9s, la population europ\u00e9enne de l'ouest et du Midwest am\u00e9ricain explosa. Les villes situ\u00e9es sur le passage des voies ferr\u00e9es prosp\u00e9r\u00e8rent, et celles qui en \u00e9taient \u00e9loign\u00e9es p\u00e9riclit\u00e8rent, avant d'\u00eatre d\u00e9sert\u00e9es.Apr\u00e8s l'invention et la production massive de voitures et de camions au XXe si\u00e8cle, l'importance des voies ferr\u00e9es d\u00e9clina peu \u00e0 peu (et notamment aux \u00c9tats-Unis, o\u00f9 la population se prit de passion pour les automobiles). Malgr\u00e9 tout, les chemins de fer demeurent aujourd'hui encore un moyen tr\u00e8s \u00e9conomique et (relativement) \u00e9cologique de transport de marchandises et de personnes. Tout semble d'ailleurs indiquer qu'ils pr\u00e9parent un retour en force dans un avenir tr\u00e8s proche.",
+    "quote": "\"L'utilisation d'un agent aussi puissant que la vapeur dans la propulsion des v\u00e9hicules de transport marquera grandement l'\u00e9volution de la soci\u00e9t\u00e9 humaine.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        },
+        {
+            "name": "Dynamite",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/dynamite.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+        },
+        {
+            "name": "Combustion",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/combustion.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Kremlin",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/kremlin.json"
+        },
+        {
+            "name": "Neuschwanstein",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/neuschwanstein.json"
+        }
+    ]
+}

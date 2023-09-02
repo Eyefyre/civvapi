@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinha",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Infanterieeinheit der Moderne, die Punkte f\u00fcr ein Goldenes Zeitalter sammelt, wenn sie einen Gegner besiegt. Kann nur in Brasilien gebaut werden.",
+    "historical_info": "Nachdem 18 brasilianische Handelsschiffe durch deutsche U-Boote im Atlantik versenkt worden waren, erkl\u00e4rte Brasilien 1942 Deutschland und Italien den Krieg und schloss sich den Alliierten an. 1944 griff eine Truppe von 27.500 M\u00e4nnern und Frauen in die Kampfhandlungen ein, die man in ihrer Heimat \" pracinhas brasileiros\" nannte. Die Kampfeins\u00e4tze dieser Truppe wurden von der brasilianischen Bev\u00f6lkerung aufmerksam verfolgt, da man stolz darauf war, das einzige s\u00fcdamerikanische Land zu sein, das eine aktive Rolle in Europa einnahm. Auch wenn die brasilianischen Regimenter leichter bewaffnet waren als ihre amerikanischen und britischen Pendants, k\u00e4mpften sie mit einem Elan und einer Entschlossenheit, die ihnen Lob und Ehre einbrachten, im Laufe des Feldzugs kamen jedoch auch fast 1.000 Soldaten ums Leben.",
+    "strategy": "Diese Nahkampfeinheit verdient Punkte, um den n\u00e4chsten Karneval f\u00fcr Brasilien zu starten, wenn sie einen Gegner besiegt. Setzt sie in anderen L\u00e4ndern f\u00fcr den Krieg ein, um Brasilien einen Kultursieg zu bescheren.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Plastik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Goldenes Zeitalter durch Siege",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

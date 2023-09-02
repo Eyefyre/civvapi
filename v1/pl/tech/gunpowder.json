@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 780,
+    "civilopedia_entry": "Proch strzelniczy, zwany te\u017c \u201eczarnym prochem\u201d, zosta\u0142 wynaleziony w Chinach, prawdopodobnie w IX wieku, przez alchemik\u00f3w pragn\u0105cych stworzy\u0107 eliksir nie\u015bmiertelno\u015bci (proch na pewno nim nie jest). Proch to mieszanina siarki, w\u0119gla drzewnego i azotanu potasu. Substancja ta b\u0142yskawicznie si\u0119 pali przy zetkni\u0119ciu z ogniem, wytwarzaj\u0105c przy tym du\u017c\u0105 ilo\u015b\u0107 gaz\u00f3w oraz substancji sta\u0142ych, kt\u00f3re mog\u0105 pos\u0142u\u017cy\u0107 za \u017ar\u00f3d\u0142o si\u0142y nap\u0119dzaj\u0105cej w broni palnej i ogniach sztucznych. Chi\u0144czycy wykorzystywali proch w prymitywnych bombach i rakietach u\u017cywanych przeciwko mongolskim naje\u017ad\u017acom, a gdy ci podbili Chiny, wykorzystywali proch przeciwko wszystkim swoim wrogom.Do pierwszej po\u0142owy XII wieku \u015bwiat arabski pozna\u0142 tajemnic\u0119 prochu strzelniczego. Cz\u0119\u015b\u0107 \u017ar\u00f3de\u0142 historycznych twierdzi, \u017ce Mamelucy u\u017cyli pierwszej w historii armaty przeciw Mongo\u0142om w bitwie pod Ain Jalut w 1260 r., ale nie zosta\u0142o to potwierdzone z ca\u0142\u0105 pewno\u015bci\u0105. O pierwszej \u201earmacie r\u0119cznej\u201d wspomina si\u0119 w arabskim manuskrypcie z XIV wieku.Europa tak\u017ce pozna\u0142a proch strzelniczy, mniej wi\u0119cej w po\u0142owie XII wieku. Europejczycy poprawili jako\u015b\u0107 prochu, dodaj\u0105c do niego p\u0142yn, przez co sta\u0142 si\u0119 bardziej ziarnisty, a co za tym idzie, stabilniejszy.Proch strzelniczy wykorzystywano w artylerii i broni palnej a\u017c do czasu wynalezienia \u201ebezdymnego\u201d prochu w XIX wieku. Nowy produkt spala\u0142 si\u0119 czy\u015bciej i wytwarza\u0142 o wiele mniej dymu, dzi\u0119ki czemu by\u0142 lepszy od starego czarnego prochu.",
+    "quote": "\u201eMam nadziej\u0119, \u017ce w dniu, w kt\u00f3rym dwie armie b\u0119d\u0105 mog\u0142y obr\u00f3ci\u0107 si\u0119 w perzyn\u0119 w ci\u0105gu jednej sekundy, wszystkie cywilizowane narody zaprzestan\u0105 wojen i rozwi\u0105\u017c\u0105 swoje wojska.\u201d \u2013 Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "Fizyka|Fizyki|Fizyce|Fizyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/physics.json"
+        },
+        {
+            "name": "Stal|Stali|Stali|Stal",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chemia|Chemii|Chemii|Chemi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chemistry.json"
+        },
+        {
+            "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arkebuzerzy|Arkebuzer\u00f3w|Arkebuzerom|Arkebuzer\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/musketman.json"
+        },
+        {
+            "name": "Milicja|Milicji|Milicji|Milicj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/minuteman.json"
+        },
+        {
+            "name": "Muszkieterzy|Muszkieter\u00f3w|Muszkieterom|Muszkieter\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/musketeer.json"
+        },
+        {
+            "name": "Janczarzy|Janczar\u00f3w|Janczarom|Janczar\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/janissary.json"
+        },
+        {
+            "name": "Tercio",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Zamek Himeji|Zamku Himeji|Zamkowi Himeji|Zamek Himeji",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/himeji_castle.json"
+        }
+    ]
+}

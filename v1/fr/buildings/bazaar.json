@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bazar|Bazars",
+    "game_info": "Fournit 1 exemplaire suppl\u00e9mentaire de chaque ressource de luxe am\u00e9nag\u00e9e pr\u00e8s de la ville. Chaque source de p\u00e9trole et chaque oasis fournissent +2 Or. Les routes commerciales construites par les autres joueurs pour relier une ville poss\u00e9dant un bazar g\u00e9n\u00e8rent 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la ville et 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la route commerciale.",
+    "strategy": "B\u00e2timent exclusif aux Arabes, le bazar remplace le march\u00e9 et octroie un bonus d'or \u00e0 la ville. La civilisation concern\u00e9e re\u00e7oit un exemplaire suppl\u00e9mentaire de chaque ressource de luxe exploit\u00e9e par une ville poss\u00e9dant un bazar. Le bazar fournit +2 Or pour les sources de p\u00e9trole et les oasis.",
+    "historical_info": "Les bazars sont les quartiers marchands que l'on trouve dans les villes arabes et de M\u00e9diterran\u00e9e orientale. Le bazar arabe classique est un d\u00e9dale tr\u00e9pidant de petits stands et \u00e9choppes vendant toutes sortes d'articles (de la nourriture aux tapis, en passant par les \u00e9pices et les logiciels). Certains bazars sont \u00e0 ciel ouvert, tandis que d'autres sont recouverts d'un toit destin\u00e9 \u00e0 prot\u00e9ger les marchandises et les clients des \u00e9l\u00e9ments. Il en existe encore de nombreux aujourd'hui, et chacun offre une alternative aussi bruyante qu'anim\u00e9e aux centres commerciaux aseptis\u00e9s occidentaux.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazar|bazars.png",
+    "prereq_tech": {
+        "name": "Monnaie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/currency.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "Electricity",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "Industrial Era",
+    "cost": 2350,
+    "civilopedia_entry": "The first experience mankind had with electricity was in the form of shocks from electric fish, recorded by Egyptian authors as far back as 2750 BC. In the 15th century AD, the Arabs discovered that lightning was another form of electricity, and this was later confirmed by a British-American scientist named Ben Franklin in 1752. The first semi-reliable battery was made in 1800 by Alessandro Volta, and in 1821 Michael Faraday invented the electric motor.Advances in electricity in the second half of the 19th century by geniuses like Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell and Lord Kelvin revolutionized life around the world. The telegraph, followed shortly by the telephone and then the radio, radically increased the speed and accuracy with which information could be transmitted. Once a transatlantic cable was laid, a message from New York could reach London in seconds. Before electricity, a message carried on the fastest boat would take weeks. The electric light revolutionized home and workplace, and the phonograph, radio and movie camera did the same for entertainment. The creation of power plants that pushed energy in the form of electricity into people's homes has changed human living conditions almost beyond comprehension. Driven by electricity, the \"Second Industrial Revolution\" saw the greatest improvement in human life since the printing press.",
+    "quote": "\"Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?\" - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Scientific Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Replaceable Parts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Refrigeration",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/refrigeration.json"
+        },
+        {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hydro Plant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hydro_plant.json"
+        },
+        {
+            "name": "Stock Exchange",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Police Station",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/police_station.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 116,
+    "name": "Nave di terra|una Nave di terra|dalla tua Nave di terra|alla tua Nave di terra|la tua Nave di terra|da una Nave di terra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landship.png",
+    "game_info": "Prima unit\u00e0 disponibile del suo genere, questa potente unit\u00e0 entra in gioco verso la fine della partita ed \u00e8 in grado di muoversi anche dopo aver effettuato un attacco.",
+    "historical_info": "Concepito dagli ingegneri inglesi durante la Prima Guerra Mondiale come soluzione per spezzare le continue situazioni di stallo che si verificavano nella guerra di trincea, il carro armato divenne presto un elemento fondamentale negli scontri di terra. Sebbene i primi prototipi si fossero rivelati goffi e inefficienti, entrambi gli eserciti provarono diversi modelli di tank nel corso della guerra. Il peso, l'affidabilit\u00e0 e la manovrabilit\u00e0 rappresentavano altrettanti aspetti problematici che si potevano risolvere solo con la continua sperimentazione.",
+    "strategy": "La Nave di terra \u00e8 un'unit\u00e0 terrestre rapida e potente. Pu\u00f2 muoversi dopo il combattimento, un'abilit\u00e0 che le permette di aprire un varco nelle linee nemiche e infilarsi nell'esagono vacante cos\u00ec creato.",
+    "movement": 4,
+    "cost": {
+        "production": 350,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combustione|della Combustione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

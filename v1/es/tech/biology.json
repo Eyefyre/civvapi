@@ -1,0 +1,32 @@
+{
+    "id": 48,
+    "name": "Biolog\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/biology.png",
+    "era": "Era Industrial",
+    "cost": 2350,
+    "civilopedia_entry": "La biolog\u00eda es el estudio de los organismos vivos. Es un campo muy amplio, que incluye desde la ballena m\u00e1s grande hasta la bacteria m\u00e1s peque\u00f1a. Gran parte de la biolog\u00eda predecimon\u00f3nica se volcaba en el descubrimiento y la categorizaci\u00f3n de todas las plantas, insectos y animales que hay en la Tierra. A medida que la ciencia ha avanzado y han mejorado los equipos, los cient\u00edficos han empezado a sumergirse en los \"materiales de construcci\u00f3n\" de la biolog\u00eda: las c\u00e9lulas y, posteriormente, los genes y el ADN. En la actualidad, ya se tiene un gran conocimiento de la biolog\u00eda de todos los organismos vivos del planeta. Los bi\u00f3logos han tenido tanto \u00e9xito en manipular la vida que la ciencia se ha adentrado en \u00e1reas que solo unos a\u00f1os antes se habr\u00edan considerado ciencia-ficci\u00f3n. Hemos clonado ovejas y, tarde o temprano, clonaremos personas. La nanobiolog\u00eda es todo un campo de estudio. Se pueden activar genes espec\u00edficos para la cr\u00eda selectiva. Si seguimos avanzando as\u00ed, se puede predecir que en un futuro no muy lejano habr\u00e1n desaparecido la mayor\u00eda de enfermedades, las partes corporales bi\u00f3nicas ser\u00e1n algo normal y la esperanza de vida humana habr\u00e1 aumentado decenas de a\u00f1os.",
+    "quote": "\"Si el cerebro fuera tan simple que pudi\u00e9ramos entenderlo, ser\u00edamos tan simples que no podr\u00edamos hacerlo.\" - Lyall Watson",
+    "tech_prereqs": [
+        {
+            "name": "Arqueolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+        },
+        {
+            "name": "Teor\u00eda cient\u00edfica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Refrigeraci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hospital|Hospitales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hospital.json"
+        }
+    ]
+}

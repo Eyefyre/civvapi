@@ -1,0 +1,41 @@
+{
+    "id": 30,
+    "name": "Physik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/physics.png",
+    "era": "Mittelalter",
+    "cost": 485,
+    "civilopedia_entry": "Physik ist das Studium der Materie und die grundlegendste physische Wissenschaft. Diese urspr\u00fcnglich \"Naturwissenschaft\" genannte Lehre besch\u00e4ftigt sich mit dem gesamten erfassbaren Universum, vom kleinsten Partikel bis zur gr\u00f6\u00dften Galaxie. Physik besch\u00e4ftigt sich unter anderem mit Schwerkraft, Licht, Hitze und Magnetismus. W\u00e4hrend das menschliche Wissen exponentiell gewachsen ist, spaltete sich die Physik in unz\u00e4hlige Unterbereiche wie Astronomie, Chemie, Geologie, Biologie und Ingenieurwissenschaft auf. Doch all diese Unterbereiche versuchen gleicherma\u00dfen, nat\u00fcrliche Ph\u00e4nomene zu messen und zu erkl\u00e4ren.1687 ver\u00f6ffentlichte Isaac Newton sein Meisterwerk \"Philosophiae Naturalis Principia Mathematica\", das die Physik revolutionierte. In einfachen Worten sagt Newtons erstes Axiom, auch als Tr\u00e4gheitsgesetz bekannt, dass ein ruhendes Objekt ruhend bleibt und ein bewegtes Objekt in Bewegung bleibt, solange \u00e4u\u00dfere Kr\u00e4fte diesen Zustand nicht \u00e4ndern. Sein zweites Axiom beschreibt die Bewegungs\u00e4nderung eines Objektes durch Einwirkung einer Kraft in einer Formel. Sie lautet Kraft gleich Masse mal Beschleunigung. Sein drittes Axiom, auch als Wechselwirkungsgesetz bekannt, sagt aus, dass die aufeinander ausge\u00fcbten Kr\u00e4fte zweier miteinander interagierender Objekte gleich gro\u00df und entgegengerichtet sind. Anders gesagt: \"F\u00fcr jede Aktion erfolgt eine gleich starke und entgegengesetzte Reaktion.\"Die Newtonschen Gesetze beherrschten die Physik bis ins 20. Jahrhundert, als sie durch die Relativit\u00e4tstheorie und die Quantenmechanik ersetzt wurden. Diese bahnbrechenden Erkenntnisse revolutionierten die Welt in einer vergleichbaren Weise wie Newtons Entdeckungen im 17. Jahrhundert.",
+    "quote": "\"Miss alles, was sich messen l\u00e4sst, und mach alles messbar, was sich nicht messen l\u00e4sst.\" - Galileo Galilei",
+    "tech_prereqs": [
+        {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        },
+        {
+            "name": "Schie\u00dfpulver",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Tribok",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/trebuchet.json"
+        },
+        {
+            "name": "Hwach'a",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/hwach'a.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Notre Dame",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/notre_dame.json"
+        }
+    ]
+}

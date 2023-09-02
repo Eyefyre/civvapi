@@ -1,0 +1,27 @@
+{
+    "id": 116,
+    "name": "Landship",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landship.png",
+    "game_info": "The first of its kind, this powerful late game unit can move after attacking.",
+    "historical_info": "Conceptualized by British engineers during World War I as a solution to the constant stalemates afforded by the proliferation of trench warfare, the tank grew to become a crucial component of land-based warfare. Although the earliest tank designs proved to be cumbersome, both allied and opposition forces experimented with tank concepts throughout the war. Reliability, weight, and maneuverability were all major hurdles overcome only through continued trial and error.",
+    "strategy": "The Landship is a powerful and mobile land unit. It can move after combat, allowing it to blow holes in enemy lines and then move into the now-vacant hexes.",
+    "movement": 4,
+    "cost": {
+        "production": 350,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combustion",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

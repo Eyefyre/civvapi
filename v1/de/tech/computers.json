@@ -1,0 +1,41 @@
+{
+    "id": 68,
+    "name": "Computertechnologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/computers.png",
+    "era": "Atomzeitalter",
+    "cost": 6400,
+    "civilopedia_entry": "Ganz einfach ausgedr\u00fcckt ist ein Computer eine Maschine, die Daten oder Steuerungen nach bestimmten Befehlen bearbeitet. W\u00e4hrend der erste \"moderne\" Computer erst im fr\u00fchen 20. Jahrhundert gebaut wurde, k\u00f6nnen die \u00e4ltesten Computer bis zu Al-Jazaris mechanischen astronomischen Uhren aus dem Jahr 1206 n. Chr. und Jacquards programmierbarem Textilwebstuhl aus dem Jahr 1801 zur\u00fcckverfolgt werden. W\u00e4hrend diese beiden Maschinen programmierbar waren, konnten sie nicht die andere Funktion moderner Computer ausf\u00fchren: Daten speichern. Die \u00e4ltesten Computer benutzten mechanische und analoge Teile, um zu laufen und ihre Daten zu speichern; der Wechsel zu digitaler Elektronik fand in den 1940ern statt. Es gibt keinen konkreten Punkt, an dem der moderne Computer erfunden wurde. Seine Entwicklung wurde eher durch eine Reihe von Schritten und Fortschritten erreicht, die von namhaften Erfindungen wie Konrad Zuses Z-Rechenmaschinen und dem ENIAC der US-Armee begleitet wurden.Seit dem Wechsel zur Elektronik sind Computer kleiner, schneller, g\u00fcnstiger, sparsamer und viel verl\u00e4sslicher und vielseitiger geworden. Moderne Computer haben einst ganze R\u00e4ume oder gar H\u00e4userbl\u00f6cke in St\u00e4dten in Anspruch genommen, aber sind jetzt so allgegenw\u00e4rtig wie das Telefon zu Hause und k\u00f6nnen nicht nur als pers\u00f6nliche Einzelger\u00e4te eingesetzt werden, sondern auch in Autos und Waschmaschinen integriert und sogar in moderne Kleidung eingewebt werden. Computer haben es Wissenschaftlern erm\u00f6glicht, Berechnungen zu beschleunigen, die einen normalen Menschen ein ganzes Leben besch\u00e4ftigen w\u00fcrden, das Wetter mit hoher Pr\u00e4zision vorherzusagen, Menschen auf den Mond und andere Raumfahrzeuge \u00fcber die Grenzen des Sonnensystems hinaus zu schicken. Computer erlauben es einem Kind in Shanghai, ein Spiel mit einem anderen Kind in England zu spielen, ohne das Haus zu verlassen.Wurde er anfangs noch als Laune oder nur als dummes Spielzeug der Reichen angesehen, so hat der Computer ein unverkennbares Zeichen in der Geschichte hinterlassen und wird wohl so schnell nicht wieder von der Bildfl\u00e4che verschwinden.",
+    "quote": "\"Computer sind wie die G\u00f6tter des Alten Testaments: lauter Regeln und keine Gnade.\" - Joseph Campbell",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        },
+        {
+            "name": "Verbundene Waffen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Robotertechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+        },
+        {
+            "name": "Lasertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/lasers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kampfhubschrauber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/helicopter_gunship.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Gro\u00dfe Firewall",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/great_firewall.json"
+        }
+    ]
+}

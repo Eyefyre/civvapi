@@ -1,0 +1,35 @@
+{
+    "id": 43,
+    "name": "Cossack",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cossack.png",
+    "game_info": "Mounted Unit capable of fighting toe-to-toe with contemporary infantry units. Only the Russians may build it. This Unit has a combat bonus when fighting enemies that have already taken damage.",
+    "historical_info": "The Cossacks were military communities living in the wilds of the Ukraine and Russia. Originally the term referred specifically to Tatar tribesmen, but by the end of the 15th century it was also used to refer to a number of peasants who had fled from serfdom in Poland, Lithuania and Moscow and had established homes in the wild. Some of the greatest natural horsemen since the Mongols, the Cossacks served in the Russian military in return for special privileges for themselves and their communities. The Russian military employed the Cossack cavalry in all of their major external and internal conflicts right up to the 20th century, and Cossack units fought on both sides during the Russian Civil War. The Cossacks were all but wiped out under Stalinism. Some survivors, however, are attempting to regain their heritage following the collapse of the Soviet Union.",
+    "strategy": "The Cossack is a Russian unique unit, replacing the Cavalry. They are the same strength as Cavalry and can also move after attacking. However, Cossack units get a strong combat bonus when battling damaged units. This makes Cossacks exceptionally strong at counter-attacking - let the enemy chew up the front-line peasants, then tear the weakened foe apart with a Cossack charge!",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Military Science",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Damaged Enemy Bonus (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/damaged_enemy_bonus_(33).json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "name": "Alte Ruinen",
+    "game_info": "Alte Ruinen sind \u00dcberreste fr\u00fcherer, l\u00e4ngst vergessener Zivilisationen. Sie enthalten wertvolle Geheimnisse wie Gold, Karten, vergessene Technologien und manchmal sogar \u00dcberlebende, und sie warten nur darauf, von furchtlosen Entdeckern gefunden zu werden. Gro\u00dfe Belohnungen erwarten jene, die eine Alte Ruine zum ersten Mal betreten!",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/alte_ruinen.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/jungle.json"
+        },
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

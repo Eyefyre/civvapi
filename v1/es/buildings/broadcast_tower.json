@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Torre de radio|Torres de radio",
+    "game_info": "+33% a Cultura en esta ciudad.La ciudad debe tener un Museo.",
+    "strategy": "La Torre de radiodifusi\u00f3n es un edificio del juego tard\u00edo que aumenta el rendimiento de Cultura de la ciudad en un 33%. La ciudad debe tener un Museo para poder construir una Torre de radiodifusi\u00f3n.",
+    "historical_info": "La torre de radiodifusi\u00f3n emite una se\u00f1al de comunicaci\u00f3n (de radio, televisi\u00f3n, etc.) al aire para que la capten los receptores desde muy lejos. Su caracter\u00edstica m\u00e1s importante es su altura; cuanto m\u00e1s alta sea, m\u00e1s lejos puede llegar la se\u00f1al. El Empire State Building de Manhattan lleva emitiendo se\u00f1ales desde 1931. Tras la ca\u00edda de las torres del World Trade Center en 2001, ha vuelto a ser el principal emisor de se\u00f1ales de Nueva York; transmite se\u00f1ales de casi todas las estaciones comerciales de la ciudad.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/torre_de_radio|torres_de_radio.png",
+    "prereq_tech": {
+        "name": "Radio",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radio.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

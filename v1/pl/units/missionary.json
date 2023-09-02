@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Misjonarz|Misjonarza|Misjonarzowi|Misjonarza",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Jednostka u\u017cywana w celu szerzenia wiary w miastach. Mo\u017cna j\u0105 kupi\u0107 jedynie za wiar\u0119.",
+    "historical_info": "Misjonarze to cz\u0142onkowie religijnej grupy lub sekty wys\u0142ani poza granice swego kraju, by krzewi\u0107 swoj\u0105 religi\u0119. Cho\u0107 ich g\u0142\u00f3wnym celem jest propagowanie danego wyznania i zdobycie nowych wyznawc\u00f3w, misjonarze zazwyczaj w r\u00f3\u017cny spos\u00f3b pomagaj\u0105 ludziom mieszkaj\u0105cych na terenach ich dzia\u0142alno\u015bci. Tworz\u0105c lecznice, szko\u0142y i inne instytucje publicznego po\u017cytku, \u0142\u0105cz\u0105 misj\u0119 nawracania z pomoc\u0105 potrzebuj\u0105cym.",
+    "strategy": "Mo\u017ce by\u0107 kupiony za wiar\u0119 w jakimkolwiek mie\u015bcie z przewa\u017caj\u0105c\u0105 religi\u0105. Znalaz\u0142szy si\u0119 w s\u0105siedztwie miasta, mo\u017ce szerzy\u0107 wiar\u0119 (po drugim u\u017cyciu misjonarz zostaje wykorzystany). Je\u017celi misjonarz wejdzie na teren cywilizacji niemaj\u0105cej otwartych granic, si\u0142a jej religii b\u0119dzie zmniejsza\u0107 si\u0119 co tur\u0119. Gdy si\u0142a religii osi\u0105gnie zero, cywilizacja zostanie zniszczona.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Mo\u017ce wchodzi\u0107 na terytorium rywala",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Niechciany ewangelista",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

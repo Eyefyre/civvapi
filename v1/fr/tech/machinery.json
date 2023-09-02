@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "M\u00e9canique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 485,
+    "civilopedia_entry": "Une machine est un dispositif constitu\u00e9 de pi\u00e8ces d\u00e9tach\u00e9es (c'\u00e9tait tout du moins le cas durant la p\u00e9riode pr\u00e9-\u00e9lectronique), qui utilise de l'\u00e9nergie pour r\u00e9aliser une t\u00e2che pr\u00e9cise. Une presse typographique est une machine, au m\u00eame titre qu'un m\u00e9tier \u00e0 tisser, une horloge ou un moulin \u00e0 eau. Ma\u00eetriser la m\u00e9canique n\u00e9cessite de ma\u00eetriser au pr\u00e9alable le dessin technique et l'ing\u00e9nierie, bien s\u00fbr, mais \u00e9galement la capacit\u00e9 de produire des pi\u00e8ces de machine de taille extr\u00eamement pr\u00e9cise. Un moteur \u00e0 vapeur fuira s'il est construit de mani\u00e8re approximative (s'il n'explose pas !). Au d\u00e9but de l'\u00e8re des machines, travailler sur ou avec ces dispositifs instables \u00e9taient des plus dangereux : si les \u00e9missions de fum\u00e9e ne vous tuaient pas, vous aviez une chance non n\u00e9gligeable de finir \u00e9bouillant\u00e9, d\u00e9vor\u00e9 par la machine ou \u00e9parpill\u00e9 aux quatre vents.D'un autre c\u00f4t\u00e9, d\u00e8s qu'une civilisation ma\u00eetrise les rouages d'une m\u00e9canique complexe, elle obtient une richesse et une puissance sans \u00e9gale. Ainsi, l'Angleterre, petite nation insulaire qui entra tr\u00e8s t\u00f4t dans la R\u00e9volution industrielle, domina le commerce mondial pendant pr\u00e8s de trois si\u00e8cles.",
+    "quote": "\"Il n'existe pas meilleur instrument que la presse pour \u00e9clairer l'esprit de l'homme, et faire de ce dernier un \u00eatre rationnel, moral et social bien meilleur.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Ing\u00e9nierie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/engineering.json"
+        },
+        {
+            "name": "Guildes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Imprimerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arbal\u00e9trier|Arbal\u00e9triers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/crossbowman.json"
+        },
+        {
+            "name": "Chu-ko-nu|Cho-ko-nu",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/chu-ko-nu.json"
+        },
+        {
+            "name": "Archer long|Archers longs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Usine sid\u00e9rurgique|Usines sid\u00e9rurgiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/ironworks.json"
+        }
+    ]
+}

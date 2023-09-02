@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Lehmmoschee",
+    "game_info": "Erfordert keinen Gold-Unterhalt.",
+    "strategy": "Die Lehmmoschee ist ein einzigartiges Geb\u00e4ude der Songhai und ersetzt den Tempel. Die Lehmmoschee steigert die Kultur der Stadt erheblich und sorgt so f\u00fcr ein schnelleres Wachstum des Stadtgebiets und die Einf\u00fchrung von Sozialpolitiken in der Zivilisation. Die Lehmmoschee kostet keinen Unterhalt.",
+    "historical_info": "Die Lehmmoschee ist ein Geb\u00e4udekomplex in der Stadt Gao, bestehend aus einem Grab, zwei Moscheen, einem Friedhof und einem Versammlungsplatz. Der Legende nach wurde hier Askiya Muhammad I. begraben, einer der gr\u00f6\u00dften Herrscher der Songhai. Auch wenn sie nicht so gro\u00df sind wie die Moschee von Gao, wurden noch viele \u00e4hnliche Geb\u00e4ude in ganz Westafrika gefunden, Zeugnisse der religi\u00f6sen Hingabe und der Baukunst der Songhai.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/lehmmoschee.png",
+    "prereq_tech": {
+        "name": "Philosophie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

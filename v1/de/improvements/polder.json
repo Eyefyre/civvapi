@@ -1,0 +1,37 @@
+{
+    "id": 24,
+    "name": "Koog",
+    "game_info": "Ein Koog besteht aus flachem, durch Entw\u00e4sserung gewonnenem Marschland, das durch Deiche gesch\u00fctzt wird. K\u00f6ge sind f\u00fcr gew\u00f6hnlich Landfl\u00e4chen, die aus einem See, dem Meer, Schwemmland oder S\u00fcmpfen gewonnen wurden. Mit der Zeit sinkt das entw\u00e4sserte Land, sodass der gesamte Koog irgendwann unter dem umgebenden Wasserspiegel liegt. Dann sickert Wasser in den Koog, das abgepumpt oder anderweitig abgeleitet werden muss. Die Deiche werden oft aus bereits vorhandenen Baustoffen der nat\u00fcrlichen Umgebung wie Erde oder Sand gebaut. In modernen Zeiten erhalten diese Barrieren eine Schutzschicht oder werden gleich aus Beton errichtet. Der entw\u00e4sserte Boden ist \u00fcberaus fruchtbar und bietet ausgezeichnetes Weide- oder Ackerland.Die ersten K\u00f6ge wurden im 11. Jahrhundert n. Chr. gebaut, obwohl schon die R\u00f6mer Barrieren errichteten, um Wasser abzugrenzen. Die Niederlande gewinnen schon seit Langem Land aus S\u00fcmpfen, Feuchtgebieten und dem Meeresboden - die H\u00e4lfte der durch K\u00f6ge gewonnenen Landfl\u00e4chen in Europa sind in den Niederlanden zu finden. K\u00f6ge gibt es aber nicht nur in Europa, sondern auch in Asien und Nordamerika. Die Niederlande besitzen 3000 K\u00f6ge, die 27% der Landfl\u00e4che ausmachen. Amsterdam selbst wurde gr\u00f6\u00dftenteils auf K\u00f6gen gebaut. Ein niederl\u00e4ndisches Sprichwort sagt: \"Gott hat die Welt geschaffen, aber die Niederl\u00e4nder ihr eigenes Land\".",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/koog.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Sumpf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/marsh.json"
+        },
+        {
+            "name": "Schwemmland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/flood_plains.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Gilden",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+    },
+    "required_civ": {
+        "name": "The Netherlands",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/civilizations/the_netherlands.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 3,
+        "faith": 0,
+        "happiness": 0
+    }
+}

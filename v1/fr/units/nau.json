@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nef|Nefs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Exclusive au Portugal, cette unit\u00e9 navale de combat rapproch\u00e9 excelle dans l'exploration maritime. Elle dispose de plus de [ICON_MOVES] points de mouvement que la caravelle, qu'elle remplace. Elle peut \u00e9galement utiliser une comp\u00e9tence \u00e0 usage unique pr\u00e8s des terres \u00e9trang\u00e8res pour gagner de l' or et de l'EXP.",
+    "historical_info": "\u00c0 mesure que les Portugais s'\u00e9loignaient de la c\u00f4te africaine et s'enfon\u00e7aient en Extr\u00eame-Orient en qu\u00eate d'explorations et d'\u00e9changes commerciaux, ils eurent besoin de bateaux plus grands, plus solides, et capables de r\u00e9sister \u00e0 de plus longs voyages. La nef, aussi appel\u00e9e \"caraque\", fut d\u00e9velopp\u00e9e \u00e0 partir des plans de la voile carr\u00e9e, largement utilis\u00e9e dans le commerce \u00e0 la fin du Moyen \u00c2ge. Son concept fut affin\u00e9 par les marchands portugais \u00e0 la fin du XVe si\u00e8cle. La nef devint un navire de trois ou quatre ponts, capable de transporter provisions et marchandises pour une longue travers\u00e9e. \u00c9quip\u00e9e de trois ou quatre m\u00e2ts, son imposante largeur lui conf\u00e9rait une certaine stabilit\u00e9 sur les hautes mers de l'Atlantique. Tout premier navire de haute mer de la sorte, la nef disposait d'une coque arrondie et d'un gaillard d'avant \u00e9lev\u00e9 dans la proue. Ses larges capacit\u00e9s de stockage lui permettant de parcourir de longues distances sans escales, elle s'imposa comme le pilier de la flotte marchande portugaise. Au cours du XVIIe si\u00e8cle, la nef fut peu \u00e0 peu supplant\u00e9e sur les routes maritimes de commerce par le galion.",
+    "strategy": "Dou\u00e9e pour l'exploration, cette unit\u00e9 navale de combat rapproch\u00e9 remplace la caravelle. Plac\u00e9e sur une case adjacente au territoire d'une civilisation ou cit\u00e9-\u00e9tat avec laquelle vous \u00eates en paix, elle peut se lancer dans une mission commerciale unique pour gagner de l' or et de l'EXP. Plus ce territoire est \u00e9loign\u00e9 de votre capitale, plus le bonus est important, il est donc plus avantageux de l'utiliser sur des joueurs \u00e9loign\u00e9s. Utilisez cette unit\u00e9 pour explorer la carte et d\u00e9couvrir l'emplacement des autres joueurs.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cargaison exotique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Se retirer avant combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

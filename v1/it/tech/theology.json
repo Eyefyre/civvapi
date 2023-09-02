@@ -1,0 +1,56 @@
+{
+    "id": 22,
+    "name": "Teologia|della Teologia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/theology.png",
+    "era": "Epoca medievale",
+    "cost": 275,
+    "civilopedia_entry": "La teologia \u00e8 lo studio della religione. I teologi studiano le tradizioni e le credenze religiose. Questa pratica risale quantomeno all'antica Grecia, che aveva una mitologia molto ricca e una tradizione religiosa da rispettare. Fino al II secolo d.C. la scienza teologica giudaica attravers\u00f2 un periodo di grande sviluppo. Il Talmud di Gerusalemme, una collezione di scritti di rabbini sulla tradizione orale ebraica, fu pubblicato intorno al 200 d.C. e ampliato nei due secoli successivi.La teologia \u00e8 importante, come si vede esaminando l'incredibile influenza che la religione ha esercitato sulla storia dell'uomo. Milioni di persone sono morte a causa delle dispute religiose, e continuano a farlo anche oggi. I Romani hanno ucciso i cristiani per la loro nuova teologia radicale, che negava l'esistenza degli d\u00e8i di Roma. I cristiani hanno ucciso ebrei, musulmani e moltissimi altri cristiani sulla base di divergenze dottrinali. Il teologo e rivoluzionario cristiano Martin Lutero ha scatenato un brutale conflitto che ha lacerato l'Europa per secoli con le sue \"95 tesi\" che criticavano, tra le altre cose, la vendita delle indulgenze papali (il perdono di tutti i peccati) per finanziare la costruzione della basilica di San Pietro. Se mai si riuscir\u00e0 a porre fine alla guerra che divide i musulmani radicali dal mondo occidentale, questo sar\u00e0 anche grazie alla teologia.",
+    "quote": "\"Tre cose sono necessarie per la salvezza dell'uomo: sapere in cosa deve credere; sapere che cosa deve desiderare; sapere cosa deve fare.\" - San Tommaso d'Aquino",
+    "tech_prereqs": [
+        {
+            "name": "Filosofia|della Filosofia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/philosophy.json"
+        },
+        {
+            "name": "Drammaturgia e poesia|della Drammaturgia e poesia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/drama_and_poetry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bussola|della Bussola",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+        },
+        {
+            "name": "Educazione|dell'Educazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/education.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Giardino|il Giardino|un Giardino",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/garden.json"
+        },
+        {
+            "name": "Santa Sofia|Santa Sofia|Santa Sofia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hagia_sophia.json"
+        },
+        {
+            "name": "Grande Moschea di Djenn\u00e9|la Grande Moschea di Djenn\u00e9|la Grande Moschea di Djenn\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/great_mosque_of_djenne.json"
+        },
+        {
+            "name": "Grande Tempio|il Grande Tempio|il Grande Tempio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/grand_temple.json"
+        },
+        {
+            "name": "Candi|Candi|Candi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/candi.json"
+        },
+        {
+            "name": "Borobudur|Borobudur|Borobudur",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/borobudur.json"
+        }
+    ]
+}

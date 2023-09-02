@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "B\u00f6rse",
+    "game_info": "Stadt ben\u00f6tigt Bank oder Satrapenhof.",
+    "strategy": "Die B\u00f6rse ist ein Geb\u00e4ude in der Mitte des Spiels, die den Goldertrag der Stadt erh\u00f6ht. Die Stadt muss eine Bank (oder einen Satrapenhof) besitzen, bevor die B\u00f6rse gebaut werden kann.",
+    "historical_info": "Eine B\u00f6rse ist eine Organisation, die den An- und Verkauf von Aktien erm\u00f6glicht, d. h. von Besitzanteilen an Unternehmen. In manchen F\u00e4llen haben die Aktion\u00e4re auch Stimmrechte und werden an Entscheidungen der Gesch\u00e4ftsf\u00fchrung beteiligt. Manche Aktien werfen Dividenden ab, das hei\u00dft, es wird j\u00e4hrlich ein Teil des Unternehmensgewinns an die Aktion\u00e4re ausbezahlt. Der (zumindest urspr\u00fcngliche) Hauptzweck der B\u00f6rsen ist es, den Inhabern von Unternehmen die Finanzierung zu erleichtern, indem sie einen Teil ihres Gesch\u00e4fts an Investoren verkaufen. Gleichzeitig mit dem Wert der Firma steigt auch der Wert der Aktien. Und nat\u00fcrlich gibt es auch ein Risiko - wenn der Wert der Aktien sinkt, verliert auch die Investition immer mehr an Wert. Eine moderne B\u00f6rse verkauft auch andere leistungsf\u00e4hige finanzielle \"Instrumente\", wie z. B. Renten- und Wertpapiere, Aktienoptionen, Zinstauschgesch\u00e4fte und Derivate. Eine gut gef\u00fchrte B\u00f6rse kann die Wirtschaft sehr schnell ankurbeln. Im umgekehrten Fall f\u00fchrt sie zu finanziellem Chaos und Ruin.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/b\u00f6rse.png",
+    "prereq_tech": {
+        "name": "Elektrizit\u00e4t",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

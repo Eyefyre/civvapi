@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Dramaturgia y poes\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 175,
+    "civilopedia_entry": "Dramaturgia y poes\u00eda son dos formas de expresi\u00f3n art\u00edstica; la primera, expresada mediante el uso de una representaci\u00f3n visual; la segunda, mediante la palabra escrita. La dramaturgia suele asociarse a las representaciones teatrales (obras, musicales y \u00f3peras), aunque en la actualidad estas formas tradicionales se han visto superadas por la televisi\u00f3n y las pel\u00edculas. La poes\u00eda se centra en el uso de la escritura para expresar tanto un significado literal como, frecuentemente, un mensaje subyacente evocador.",
+    "quote": "\"Un drama es como la vida, pero sin las partes aburridas.\" - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/theology.json"
+        },
+        {
+            "name": "Administraci\u00f3n p\u00fablica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Epopeya nacional|Epopeyas nacionales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/national_epic.json"
+        },
+        {
+            "name": "Anfiteatro|Anfiteatros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/amphitheater.json"
+        },
+        {
+            "name": "Gremio de escritores|Gremios de escritores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Parten\u00f3n|Partenones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/parthenon.json"
+        }
+    ]
+}

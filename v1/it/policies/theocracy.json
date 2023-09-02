@@ -1,0 +1,20 @@
+{
+    "id": 78,
+    "name": "Teocrazia",
+    "game_info": "TeocraziaI templi aumentano del 25% la rendita d' Oro delle citt\u00e0. I Luoghi Santi forniscono +3 Oro.",
+    "historical_info": "In uno stato teocratico i capi religiosi detengono il potere assoluto. In effetti, il vero leader \u00e8 il dio o gli d\u00e8i stessi, che esprimono la loro guida divina attraverso le alte sfere sacerdotali. Spesso le teocrazie sono militaristiche, perch\u00e9 i leader religiosi considerano l'esercito come uno strumento per diffondere il loro credo nelle nazioni miscredenti. Le teocrazie moderne sembrano detestare e temere ogni forma di progresso, considerando i lussi del mondo contemporaneo come altrettante minacce alla devozione del popolo (e al loro potere).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/teocrazia.png",
+    "required_policies": [
+        {
+            "name": "Religione organizzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Devozione",
+        "game_info": "La Devozione aumenta la Fede di un impero.Adottare la Devozione ti consente di costruire Santuari e Templi in met\u00e0 tempo. Sblocca la costruzione della Grande Moschea di Djenn\u00e9.Adottare tutte le Politiche nell'albero della Devozione far\u00e0 comparire un Grande Profeta; inoltre i Luoghi Santi forniranno +3 Cultura.",
+        "prereq_era": null,
+        "historical_info": "Con \"devozione\" si intende l'adesione totale a una specifica religione o sistema di precetti spirituali. Una persona troppo devota pu\u00f2 facilmente sembrare condiscendente o bigotta perch\u00e9 tende a seguire alla lettera i precetti della sua religione e ad accettarne tutti i dogmi senza il minimo dubbio."
+    }
+}

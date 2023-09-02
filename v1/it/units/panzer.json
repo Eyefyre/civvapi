@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Panzer|un Panzer|dal tuo Panzer|al tuo Panzer|il tuo Panzer|da un Panzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/panzer.png",
+    "game_info": "Unit\u00e0 veloce e potente, disponibile verso la fine del gioco.Solo i tedeschi possono costruirla. Quest'unit\u00e0 ha 1 punto movimento in pi\u00f9 rispetto al Carro armato, che sostituisce.",
+    "historical_info": "All'inizio della Seconda Guerra Mondiale i Panzer tedeschi non erano affatto superiori alle loro controparti francesi o russe: anzi, semmai era vero il contrario. I Panzer (da plattenpanzer, letteralmente \"piastra per proteggere la pancia\"), erano inferiori sia per quanto riguarda la corazza sia per la potenza di fuoco. La Germania per\u00f2 disponeva di veri e propri geni militari come il comandante di Panzer Corp Heinz Guderian, uno dei principali teorici della guerra lampo basata sull'uso concentrato dei carri armati. In Francia ebbe un successo sbalorditivo: fitte reti di Panzer spazzarono via i carri francesi che, per quanto superiori, erano dispersi in mezzo alla fanteria e non potevano opporre una potenza di fuoco paragonabile a quella tedesca. I carri tedeschi ebbero un successo analogo nelle prime fasi della guerra contro l'Unione Sovietica, finch\u00e9 anche i russi impararono a costituire e organizzare veri e propri eserciti di carri.",
+    "strategy": "Il Panzer \u00e8 un'unit\u00e0 esclusiva della Germania e sostituisce il Carro armato. Rispetto alla sua controparte \u00e8 pi\u00f9 potente e pi\u00f9 veloce. Pu\u00f2 anche muoversi dopo il combattimento, un'abilit\u00e0 che gli permette di aprire un varco nelle linee nemiche e infilarcisi prima che l'avversario abbia il tempo di richiuderlo.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Armi combinate|delle Armi combinate",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

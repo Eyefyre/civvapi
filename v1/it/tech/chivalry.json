@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Codice cavalleresco|del Codice cavalleresco",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "Epoca medievale",
+    "cost": 485,
+    "civilopedia_entry": "Il Codice cavalleresco descrive il comportamento cortese e onorevole cui si deve attenere, appunto, un \"cavaliere\", termine che in questo caso indica un nobile guerriero. Con qualche approssimazione lo si pu\u00f2 paragonare al \"bushido\" (la via del guerriero), il codice di condotta del samurai giapponese. Il codice cavalleresco ha raggiunto il suo apice nel XII secolo grazie anche al contributo delle crociate, in cui i cavalieri credevano di lavorare letteralmente per conto di Dio colpendo gli infedeli in Medio Oriente. Per guadagnarsi il favore di Dio era quindi necessario comportarsi in modo pio; un comportamento poco cavalleresco avrebbe potuto condurre al fallimento, alla morte e alla dannazione. I cavalieri musulmani che si opponevano ai cristiani avevano codici simili, in certi casi anche pi\u00f9 \"civilizzati\".Una qualche forma di codice etico \u00e8 fondamentale in una cultura in cui solo una classe privilegiata ha accesso alle armi, che sono invece negate a tutte le classi inferiori. In sua assenza le persone armate potrebbero trattare gli altri in modo troppo duro e questo porterebbe all'oppressione, a un aspro risentimento sociale e potenzialmente alla rivoluzione.",
+    "quote": "\"Chi estrae questa spada dall'incudine e dalla roccia \u00e8 per diritto nato re di tutta l'Inghilterra.\" - Malory",
+    "tech_prereqs": [
+        {
+            "name": "Pubblica amministrazione|della Pubblica amministrazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+        },
+        {
+            "name": "Gilde|delle Gilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Sistema bancario|del Sistema bancario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+        },
+        {
+            "name": "Tipografia|della Tipografia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cavaliere|un Cavaliere|dal tuo Cavaliere|al tuo Cavaliere|il tuo Cavaliere|da un Cavaliere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/knight.json"
+        },
+        {
+            "name": "Arciere su cammello|un Arciere su cammello|dal tuo Arciere su cammello|al tuo Arciere su cammello|il tuo Arciere su cammello|da un Arciere su cammello",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/camel_archer.json"
+        },
+        {
+            "name": "Elefante di Naresuan|un Elefante di Naresuan|dal tuo Elefante di Naresuan|al tuo Elefante di Naresuan|il tuo Elefante di Naresuan|da un Elefante di Naresuan",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Cavalleria Mandekalu|una Cavalleria Mandekalu|dalla tua Cavalleria Mandekalu|alla tua Cavalleria Mandekalu|la tua Cavalleria Mandekalu|da una Cavalleria Mandekalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Kheshig|un Kheshig|dal tuo Kheshig|al tuo Kheshig|il tuo Kheshig|da un Kheshig",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/keshik.json"
+        },
+        {
+            "name": "Conquistador|un Conquistador|dal tuo Conquistador|al tuo Conquistador|il tuo Conquistador|da un Conquistador",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Forte Mughal|il Forte Mughal|un Forte Mughal",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Castello|il Castello|un Castello",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra|l'Alhambra|l'Alhambra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/alhambra.json"
+        }
+    ]
+}

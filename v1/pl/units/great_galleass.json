@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Wielki galeas|Wielkiego galeasa|Wielkiemu galeasowi|Wielki galeas|Wielkim galeasem|Wielkim galeasie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "Zab\u00f3jczo skuteczna \u015bredniowieczna jednostka morska, wykorzystywana do opanowywania ocean\u00f3w dzi\u0119ki pot\u0119\u017cnemu atakowi dystansowemu. Lepsza w ataku i obronie od galeasu, kt\u00f3ry zast\u0119puje, ale dro\u017csza. Mo\u017ce powstawa\u0107 tylko w Wenecji.",
+    "historical_info": "Pierwotny projekt galeasa pochodzi od du\u017cych galer kupieckich i nie podlega\u0142 wi\u0119kszym zmianom a\u017c do 1660 r., kiedy to Wenecja wybudowa\u0142a pierwszy okr\u0119t liniowy. Galeasy posiada\u0142y zazwyczaj trzy maszty o \u0142aci\u0144skim o\u017caglowaniu, a tak\u017ce forkasztel oraz kasztel rufowy. Te weneckie okr\u0119ty, nosz\u0105ce wi\u0119cej \u017cagli i wiose\u0142, co zwi\u0119ksza\u0142o ich pr\u0119dko\u015b\u0107, posiada\u0142y r\u00f3wnie\u017c pok\u0142ad dzia\u0142owy znajduj\u0105cy si\u0119 nad g\u0142owami wio\u015blarzy. Na Morzu \u015ar\u00f3dziemnym weneckie galeasy pozostawa\u0142y w s\u0142u\u017cbie d\u0142ugo po tym, jak inne kraje zast\u0105pi\u0142y je wi\u0119kszymi i silniejszymi statkami o lepszej p\u0142ywalno\u015bci.",
+    "strategy": "Wielki galeas zast\u0119puje zwyk\u0142y galeas, mog\u0105 budowa\u0107 go tylko Wenecjanie. Ma silniejszy atak dystansowy, jest wytrzymalszy w walce i kosztuje wi\u0119cej od podstawowego galeasa.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Kompas|Kompasu|Kompasowi|Kompas",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

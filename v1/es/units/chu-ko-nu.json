@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Cho-ko-nu|Cho-ko-nu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "Unidad de infanter\u00eda medieval de combate a distancia. Solo los chinos pueden construirla. Esta unidad puede disparar dos veces por turno, a diferencia del Ballestero, al que sustituye.",
+    "historical_info": "La cho-ko-nu es una ballesta repetidora bastante ingeniosa que se invent\u00f3 en China a finales del segundo siglo d. C. La m\u00e1quina se asemeja a la ballesta europea normal, con una caja encasquetada en la parte superior, justo encima de la cuerda, que estaba llena de virotes. A la hora de manejarla, el soldado tiraba de una palanca para tensar el arco y luego la empujaba, lo que hac\u00eda que un virote cayera de la caja, justo en la ranura, a punto para que lo dispararan. Esto dio a la cho-ko-nu una cadencia de disparo m\u00e1s r\u00e1pida que la de la ballesta europea corriente. No obstante, la cho-ko-nu disparaba un virote m\u00e1s ligero y ten\u00eda menos alcance que su hom\u00f3loga europea. Si era un arma superior o no, depend\u00eda de las circunstancias: el modelo europeo prevalecer\u00eda en terreno abierto contra oponentes con armaduras pesadas, mientras que la cho-ko-nu probablemente fuera mejor a corto alcance, contra gran n\u00famero de atacantes con armaduras m\u00e1s ligeras.",
+    "strategy": "La Cho-ko-nu es la unidad exclusiva china que sustituye al Ballestero. Es algo menos poderosa , pero puede atacar dos veces durante un turno, lo que le proporciona una buena potencia ofensiva. Esta unidad resulta especialmente mortal cuando guarnece una ciudad que est\u00e1 siendo atacada.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maquinaria",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Puede atacar dos veces",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_attack_twice.json"
+        }
+    ]
+}

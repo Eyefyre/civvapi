@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Galeasse",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "Marineeinheit des Mittelalters, die mit ihrem Fernkampfangriff die Hoheit auf dem Meer an sich rei\u00dft.",
+    "historical_info": "Die Galeasse war eine Klasse von Kriegsschiffen, die im 16. Jahrhundert immer beliebter wurde. Sie basiert auf der traditionellen Galeere, wurde aber f\u00fcr schwerere Bewaffnung modifiziert. Eine typische Galeasse war ein f\u00fcr Handelsfahrten verwendetes Ruderschiff, das zus\u00e4tzlich mit Masten und Segeln ausgestattet war. Durch die zwei unabh\u00e4ngigen Antriebsm\u00f6glichkeiten konnte das Schiff die ber\u00fcchtigte Geschwindigkeit traditioneller Galeeren erhalten und au\u00dferdem schwere Waffen zur Verteidigung gegen eventuelle Angreifer mitf\u00fchren.",
+    "strategy": "Die Galeasse ist die erste Marineeinheit mit einem Fernkampfangriff, die allgemein im Spiel verf\u00fcgbar ist. Sie ist deutlich st\u00e4rker als die fr\u00fchen Marineeinheiten, aber auch etwas langsamer. Sie kann keinen Nahkampf beginnen. Die Galeasse ist n\u00fctzlich, um feindliche Schiffe aus seichtem Gew\u00e4sser zu vertreiben. Sie kann Tiefsee-Gel\u00e4ndefelder nicht betreten (au\u00dfer Polynesien).",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Kompass",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

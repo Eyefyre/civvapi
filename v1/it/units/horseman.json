@@ -1,0 +1,28 @@
+{
+    "id": 135,
+    "name": "Guerriero a cavallo|un Guerriero a cavallo|dal tuo Guerriero a cavallo|al tuo Guerriero a cavallo|il tuo Guerriero a cavallo|da un Guerriero a cavallo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horseman.png",
+    "game_info": "Unit\u00e0 a cavallo veloce e potente, in uso nelle prime fasi del gioco. Debole contro i nemici armati di lancia.",
+    "historical_info": null,
+    "strategy": null,
+    "movement": 4,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

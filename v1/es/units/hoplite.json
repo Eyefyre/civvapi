@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Hoplita|Hoplitas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Una unidad de la Antig\u00fcedad que est\u00e1 especializada en acabar con unidades montadas. Solo los griegos pueden construirla. Esta unidad tiene m\u00e1s Fuerza de combate que el Lancero, al que sustituye.",
+    "historical_info": "Los griegos dominaron el arte del combate con lanza. Crearon armas largas de filo mortal que, en manos de hoplitas entrenados en formaci\u00f3n de falange, resultaban casi imposibles de contener por parte de la infanter\u00eda o la caballer\u00eda regular. Ante una falange griega, un soldado no solo deb\u00eda lidiar con al enemigo que ten\u00eda frente a \u00e9l, sino tambi\u00e9n contra dos o tres de los soldados que su rival ten\u00eda detr\u00e1s. Aunque los hoplitas eran formidables adversarios en el llano, eran parcialmente vulnerables a los arqueros y era casi imposible mantener una falange en terreno accidentado.",
+    "strategy": "El Hoplita es la unidad exclusiva griega que sustituye al Lancero, y es mucho m\u00e1s poderosa que \u00e9ste. Resulta mortal contra unidades montadas.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Forja del bronce",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Military Base",
+    "game_info": "City must have an Arsenal.",
+    "strategy": "The Military Base is a mid-game building which increases the city's Defensive Strength by 12 and Hit Points by 25. The city must possess an Arsenal before a Military Base may be constructed.",
+    "historical_info": "A military base is a series of structures and parade grounds holding one or more major military units - a legion, division, corps, fleet, or other, depending upon the military organization in question. A military base will contain everything needed to keep the military unit in fighting trim, including training grounds, officers' quarters and enlisted barracks, prisons, armories, hospitals, supply depots, transport equipment, and so forth. These bases are usually heavily protected and sited on defensible terrain. Barring treachery from within, it would take an enemy army to capture or destroy a military base.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/military_base.png",
+    "prereq_tech": {
+        "name": "Replaceable Parts",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

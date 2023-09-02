@@ -1,0 +1,28 @@
+{
+    "id": 7,
+    "name": "Ocean",
+    "historical_info": "Ocean hexes are deep-water hexes. They provide food and gold to a city once the city has the technology to access them.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ocean.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Ice",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/ice.json"
+        },
+        {
+            "name": "Atoll",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/atoll.json"
+        }
+    ],
+    "resources": []
+}

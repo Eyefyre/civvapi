@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "name": "Ouvrier|Ouvriers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/worker.png",
+    "game_info": "Am\u00e9liore la production de nourriture, de production et d'or en construisant des am\u00e9nagements sur les cases en dehors des villes.",
+    "historical_info": "Pour survivre, une civilisation a besoin de travailleurs qualifi\u00e9s. Qu'il s'agisse de techniciens hautement form\u00e9s ou de civils enr\u00f4l\u00e9s de force pour un travail de main-d'\u0153uvre - \u00e9galement appel\u00e9s esclaves - chacun se voyait attribuer une mission sp\u00e9cifique : creuser les mines, exploiter les champs ou paver les routes. Sans cette main-d'\u0153uvre indispensable, une civilisation n'avait aucune chance d'\u00e9voluer et tombait t\u00f4t ou tard sous la coupe d'un voisin conqu\u00e9rant.",
+    "strategy": "Cette unit\u00e9 construit des routes, des voies ferr\u00e9es et des am\u00e9nagements, comme les fermes et les mines. Comme elle ne peut se d\u00e9fendre, mieux vaut lui adjoindre une unit\u00e9 militaire lorsqu'elle \u00e9volue en territoire dangereux.",
+    "movement": 2,
+    "cost": {
+        "production": 70,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

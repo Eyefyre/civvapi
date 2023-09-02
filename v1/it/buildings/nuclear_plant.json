@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Centrale nucleare|la Centrale nucleare|una Centrale nucleare",
+    "game_info": "Richiede 1 Uranio. La citt\u00e0 non deve possedere una Centrale a energia solare.",
+    "strategy": "Una Centrale nucleare aumenta notevolmente la produttivit\u00e0 di una citt\u00e0. La sua costruzione richiede una risorsa di Uranio, e la citt\u00e0 deve gi\u00e0 contenere una Fabbrica.",
+    "historical_info": "Una centrale nucleare \u00e8 un edificio in cui l'energia nucleare controllata viene convertita in potenza elettrica. L'energia sprigionata dalla fissione nucleare \u00e8 utilizzata per riscaldare enormi quantit\u00e0 d'acqua e trasformarle in vapore. Il vapore, convogliato attraverso grandi turbine, genera elettricit\u00e0. L'energia nucleare in realt\u00e0 \u00e8 pi\u00f9 pulita di quella ricavata dal petrolio, dal gas o dal carbone, dato che non inquina l'aria o le falde acquifere nel territorio che circonda la centrale. Il problema \u00e8 che il processo produce una certa quantit\u00e0 di scorie radioattive, un sottoprodotto letale che dev'essere conservato per secoli prima che perda il suo potenziale tossico. Inoltre, un grave incidente in una centrale nucleare avrebbe conseguenze molto pi\u00f9 gravi e durature dello stesso incidente in una centrale di altro tipo. Ricavare l'energia necessaria per far funzionare il pianeta \u00e8 un problema arduo e pericoloso contro cui l'umanit\u00e0 dovr\u00e0 scontrarsi ancora a lungo, a meno che non si scopra una nuova fonte di energia abbondante, pulita e sicura.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centrale_nucleare|la_centrale_nucleare|una_centrale_nucleare.png",
+    "prereq_tech": {
+        "name": "Fissione nucleare|della Fissione nucleare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

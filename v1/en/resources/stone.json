@@ -1,0 +1,49 @@
+{
+    "id": 13,
+    "name": "Stone",
+    "game_info": null,
+    "historical_info": "Found in the Earth's crust and upper mantle, stone is perhaps the most crucial element in human construction efforts throughout history. There are three major classifications of stone - Sedimentary, Igneous, and Metamorphic - each differing in their origin.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/stone.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Quarry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": 46,
+    "name": "Cipayo|Cipayos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sipahi.png",
+    "game_info": "Una unidad montada que est\u00e1 especializada en derrotar a las unidades montadas enemigas. Solo la pueden crear los otomanos. Esta unidad es m\u00e1s r\u00e1pida y puede ver m\u00e1s lejos que el Lancero montado, al que sustituye.",
+    "historical_info": "Los cipayos eran los lanceros montados del Imperio Otomano. Creados durante el reinado de Murad I (1362 - 1389), los cipayos se reclutaban entre la aristocracia latifundista de etnia turca. Eran unos guerreros leales y motivados en extremo que constitu\u00edan la guardia personal del sult\u00e1n. Los cipayos eran grandes rivales de los jen\u00edzaros (otra unidad especial otomana), que contaba tanto con soldados turcos como extranjeros. De hecho, ayudaron encantados en la violenta disoluci\u00f3n de los jen\u00edzaros en 1826 tras una rebeli\u00f3n fallida de \u00e9stos.",
+    "strategy": "El Cipayo es una unidad exclusiva otomana que sustituye al Lancero montado. Es mucho m\u00e1s r\u00e1pido que \u00e9ste y puede ver un hex\u00e1gono m\u00e1s lejos, aunque comparte con \u00e9l su d\u00e9bil defensa. Adem\u00e1s, puede saquear mejoras enemigas sin ning\u00fan coste adicional.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Sin coste de movimiento por saquear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formaci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/formation_i.json"
+        }
+    ]
+}

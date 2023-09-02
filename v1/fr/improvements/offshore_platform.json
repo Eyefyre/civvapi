@@ -1,0 +1,30 @@
+{
+    "id": 14,
+    "name": "Plateforme offshore|Plateformes offshore",
+    "game_info": "La plateforme offshore est un am\u00e9nagement important, que vous d\u00e9couvrirez vers la fin de la partie\u00a0: elle vous donnera acc\u00e8s au p\u00e9trole, cette denr\u00e9e rare, mais uniquement dans l'oc\u00e9an (pour acc\u00e9der au p\u00e9trole sur la terre ferme, faites construire des puits \u00e0 vos ouvriers). Vos bateaux-ateliers disparaissent une fois la plateforme offshore construite.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plateforme_offshore|plateformes_offshore.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "R\u00e9frig\u00e9ration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 26,
+    "name": "Compass",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/compass.png",
+    "era": "Medieval Era",
+    "cost": 375,
+    "civilopedia_entry": "A basic compass is a device which uses a lodestone or magnetized needle to point out the direction of \"magnetic\" north. Although magnetic north is not identical with \"true\" north, the two are close enough to make magnets extremely useful tools when navigating the world. The first compasses were invented in China and Europe (apparently independently) in the 12th century. Compasses allowed sailors to closely monitor and track their ship's \"bearing\" (direction) when at sea, something that in the years before compasses was all but impossible in overcast or stormy days and nights. They were equally useful to landsmen traveling in trackless deserts or during snowstorms or deep beneath the canopies of ancient jungles.Modern travelers still carry compasses, but these devices are now seen as somewhat quaint and old-fashioned, especially when compared to global positioning satellites, which can tell not only where you are, but can also provide you with directions to the nearest coffee shop, something that even the best and most accurate compass cannot do.",
+    "quote": "\"I find the great thing in this world is not so much where we stand, as in what direction we are moving...\" - Oliver Wendell Holmes",
+    "tech_prereqs": [
+        {
+            "name": "Optics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/optics.json"
+        },
+        {
+            "name": "Theology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/theology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Galleass",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/galleass.json"
+        },
+        {
+            "name": "Great Galleass",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/great_galleass.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Harbor",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/harbor.json"
+        }
+    ]
+}

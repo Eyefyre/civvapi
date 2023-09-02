@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "name": "RS-Booster",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_booster.png",
+    "game_info": "Eines der Raumschiffteile, das gebaut und in die Hauptstadt geschickt werden muss, um einen Wissenschaftssieg zu erringen. Anders als andere Teile werden gleich drei RS-Booster ben\u00f6tigt.",
+    "historical_info": "Die Booster des Raumschiffs werden verwendet, um das Schiff von der Erde in eine stabile Umlaufbahn zu bringen. Sie \u00e4hneln den wesentlich kleineren, aber sehr verl\u00e4sslichen Raketen, welche die Russen seit Jahrzehnten verwenden, um ihre Raumschiffe ins All zu schie\u00dfen. Die Booster werden nach dem Start abgeworfen und fallen gefahrlos ins Meer, wo sie von wartenden Transportschiffen aufgesammelt werden.",
+    "strategy": "Dies ist ein Raumschiffteil und es m\u00fcssen drei St\u00fcck davon gebaut werden, um einen Wissenschaftssieg zu erringen. Im Abschnitt 'Sieg' findet Ihr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fortgeschrittene Ballistik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+    },
+    "free_promotions": []
+}

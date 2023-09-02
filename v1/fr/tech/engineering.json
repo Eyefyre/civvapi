@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "Ing\u00e9nierie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "\u00c8re classique",
+    "cost": 175,
+    "civilopedia_entry": "L'ing\u00e9nierie est la science (\u00e0 moins qu'il ne s'agisse d'un art) permettant de concevoir des mat\u00e9riaux, des structures, des appareils et des syst\u00e8mes complexes. En langage courant, le sens du mot est tr\u00e8s large : les bioing\u00e9nieurs produisent des cellules, les ing\u00e9nieurs informaticiens cr\u00e9ent des logiciels, etc. Cependant, historiquement, le terme s'applique \u00e0 la construction d'\u00e9l\u00e9ments physiques comme les machines, les ponts, les voies ferr\u00e9es, les usines et ainsi de suite (\u00e0 l'origine, le terme \"ing\u00e9nieur\" faisait exclusivement r\u00e9f\u00e9rence aux concepteurs d'armes de guerre).L'ing\u00e9nierie s'\u00e9panouit v\u00e9ritablement au XIXe si\u00e8cle, alors que les pays du globe se lan\u00e7aient dans des projets de construction d'envergure. Achev\u00e9 en 1869 par les Fran\u00e7ais, le Canal de Suez qui relie la M\u00e9diterran\u00e9e et la mer Rouge permet de naviguer d'Europe jusqu'en Inde sans avoir \u00e0 contourner l'Afrique (un voyage aussi long que difficile). Les \u00c9tats-Unis achev\u00e8rent la construction de la premi\u00e8re ligne transcontinentale la m\u00eame ann\u00e9e. Autre merveille d'ing\u00e9nierie moderne, le Pont de Brooklyn fut termin\u00e9 en 1883.",
+    "quote": "\"L'ing\u00e9nierie est la science la plus noble et, plus que toute autre, la plus utile.\" - L\u00e9onard de Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Math\u00e9matiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mathematics.json"
+        },
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Moulage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+        },
+        {
+            "name": "M\u00e9canique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Grande muraille|Grandes murailles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/great_wall.json"
+        },
+        {
+            "name": "Aqueduc|Aqueducs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/aqueduct.json"
+        }
+    ]
+}

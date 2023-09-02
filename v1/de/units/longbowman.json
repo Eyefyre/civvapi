@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "Langbogensch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "Mittelalterliche Fernwaffen-Infanterieeinheit. Nur die Engl\u00e4nder k\u00f6nnen sie bauen. Diese Einheit hat +1 Reichweite im Vergleich zum Armbrustsch\u00fctzen, den sie ersetzt.",
+    "historical_info": "Der englische Langbogen entwickelte sich w\u00e4hrend des 12. Jahrhunderts, als die Engl\u00e4nder Wales erobern wollten. Der Langbogen wurde aus Eibe oder Ulme gefertigt und war 1,5 bis zwei Meter hoch (abh\u00e4ngig von Gr\u00f6\u00dfe und St\u00e4rke des Anwenders). Der Langbogen war \u00e4u\u00dferst schwierig zu meistern, aber gut ausgebildete englische Langbogensch\u00fctzen konnten weiter, schneller und pr\u00e4ziser schie\u00dfen als die Armbrustsch\u00fctzen dieser Zeit, was allerdings jahrelange \u00dcbung erforderte. Als die Bev\u00f6lkerung des Landes wuchs, wurde die englische Wildnis in Ackerland verwandelt. Gelegenheiten zum Jagen verschwanden und die englischen Freibauern verlernten den Umgang mit Pfeil und Bogen. Das f\u00fchrte zum Verschwinden des englischen Langbogens, mehr noch als der Vormarsch des Schie\u00dfpulvers.",
+    "strategy": "Der Langbogensch\u00fctze ist die Spezialeinheit der Engl\u00e4nder und ersetzt den Armbrustsch\u00fctzen. Der Langbogensch\u00fctze hat eine gr\u00f6\u00dfere Reichweite und kann so Feinde angreifen, die sich bis zu 3 Gel\u00e4ndefelder entfernt befinden, wobei er sie oft vernichtet, bevor sie zur\u00fcckschlagen k\u00f6nnen. Genau wie andere Fernwaffen-Einheiten ist auch der Langbogensch\u00fctze bei Nahkampfangriffen verwundbar.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maschinen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Reichweite",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/range.json"
+        }
+    ]
+}

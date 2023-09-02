@@ -1,0 +1,35 @@
+{
+    "id": 22,
+    "name": "Jet da combattimento|un Jet da combattimento|dal tuo Jet da combattimento|al tuo Jet da combattimento|il tuo Jet da combattimento|da un Jet da combattimento",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jet_fighter.png",
+    "game_info": "Unit\u00e0 aerea progettata per acquisire la superiorit\u00e0 nei cieli e intercettare gli apparecchi nemici.",
+    "historical_info": "Il ruolo dei jet \u00e8 molto simile a quello dei loro predecessori, i caccia a elica della Seconda Guerra Mondiale, ma gli apparecchi moderni sono molto diversi per quanto riguarda la potenza, le armi in dotazione, i dispositivi elettronici e i computer di supporto a disposizione. Il miglior apparecchio della Seconda Guerra Mondiale poteva raggiungere al massimo i 600 km/h, mentre un jet moderno pu\u00f2 volare tre volte pi\u00f9 veloce. Un caccia della Seconda Guerra Mondiale poteva avere una o due mitragliatrici e forse un paio di bombe. Un jet moderno pu\u00f2 montare un cannoncino Gatling da 20 mm e trasportare 10 missili aria-aria e decine di razzi di vario tipo. Al giorno d'oggi gli aerei sono dotati di computer sofisticati, radar e sistemi di comunicazione che superano qualsiasi cosa sia stata mai disponibile prima. Come gli altri aerei, anche i caccia a reazione sono vulnerabili ai missili terra-aria, ma il pericolo maggiore viene dai caccia nemici. Chiunque riesca a ottenere la superiorit\u00e0 nei cieli avr\u00e0 un vantaggio quasi incolmabile in combattimento.",
+    "strategy": "Il Jet da combattimento \u00e8 una potente unit\u00e0 aerea. Pu\u00f2 usare come base una qualsiasi delle tue citt\u00e0 o portaerei. Pu\u00f2 spostarsi da una base all'altra ed eseguire missioni in un raggio d'azione di 10 caselle. I Jet sono utilizzati per attaccare aerei e unit\u00e0 di terra, o come ricognitori dietro le linee nemiche, o come difesa dagli attacchi aerei degli avversari. I Jet sono particolarmente efficaci contro gli elicotteri. Il Jet da combattimento ha l'abilit\u00e0 Ricognizione aerea, il che significa che all'inizio del turno ogni cosa in un raggio di 6 caselle dalla sua posizione viene rivelata. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Laser|del Laser",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Distruzione difese antiaeree",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_sweep.json"
+        },
+        {
+            "name": "Ricognizione aerea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contro bombardieri ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

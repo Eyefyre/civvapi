@@ -1,0 +1,33 @@
+{
+    "id": 22,
+    "name": "Dyes",
+    "game_info": null,
+    "historical_info": "A dye is a substance which can (temporarily or permanently) alter the color of some other substance, typically fabric or human skin. Throughout history dyes have been made from a variety of different materials, including plants, minerals, and animal bits. Humanity has been using dyes for at least 37,000 years, and possibly longer.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/dyes.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        },
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        }
+    ]
+}

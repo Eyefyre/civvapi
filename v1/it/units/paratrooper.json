@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Paracadutista|un Paracadutista|dal tuo Paracadutista|al tuo Paracadutista|il tuo Paracadutista|da un Paracadutista",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Forte unit\u00e0 di fanteria, capace di paracadutarsi (partendo dal territorio amico) fino a una distanza di 9 caselle. Un Paracadutista pu\u00f2 muoversi e saccheggiare subito dopo l'atterraggio, ma non pu\u00f2 combattere fino al turno successivo.",
+    "historical_info": "I paracadutisti sono fanti leggeri addestrati a entrare in battaglia saltando gi\u00f9 dagli aerei direttamente oltre le linee nemiche. Dotati per necessit\u00e0 di armamenti leggeri e di un numero limitato di munizioni, i paracadutisti si affidano in modo sostanziale all'elemento sorpresa per sopraffare il nemico. Inoltre devono ricevere molto presto rinforzi dalle unit\u00e0 alleate presenti sul terreno, che devono sfondare rapidamente le linee nemiche, o rischiano di essere circondati e spazzati via non appena il nemico riesce a riorganizzarsi.I paracadutisti sono stati usati con qualche successo nella Seconda Guerra Mondiale: i tedeschi li hanno utilizzati per invadere la Danimarca nel 1940. La Germania ha anche utilizzato i paracadutisti per assalire dall'aria e catturare l'isola di Creta nel 1941, ma le perdite subite furono cos\u00ec pesanti che Adolf Hitler proib\u00ec ulteriori sbarchi aviotrasportati su larga scala. Anche gli Alleati hanno usato i paracadutisti con discreto successo nel 1944 per l'invasione della Normandia, ma la colossale Operazione Market-Garden, tentata lo stesso anno in Olanda, e pi\u00f9 tardi i lanci sulla Germania si rivelarono un fallimento e costarono la vita a moltissimi paracadutisti inglesi, polacchi e americani.Gli eserciti moderni non utilizzano quasi pi\u00f9 i paracadutisti, anche se forze speciali ne fanno ancora uso. Oggi la maggior parte delle truppe aviotrasportate \u00e8 condotta in battaglia dagli elicotteri.",
+    "strategy": "Il Paracadutista \u00e8 un fante disponibile verso la fine del gioco. \u00c8 un po' pi\u00f9 debole di un'unit\u00e0 di fanteria meccanizzata, ma ha il vantaggio di potersi paracadutare (quando si trova in territorio amico) fino a una distanza di 9 caselle. Questo consente ai paracadutisti di scavalcare letteralmente le posizioni nemiche e distruggere strade, saccheggiare risorse vitali e cos\u00ec via, generando il caos dietro le linee. Simili missioni espongono i paracadutisti a rischi altissimi, perci\u00f2 assicurati che l'obiettivo ne valga la pena!",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar|del Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 lanciarsi col paracadute",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_paradrop.json"
+        },
+        {
+            "name": "Nessun costo di PM per il saccheggio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

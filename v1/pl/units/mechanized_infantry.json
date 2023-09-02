@@ -1,0 +1,18 @@
+{
+    "id": 28,
+    "name": "Piechota zmechanizowana|Piechoty zmechanizowanej|Piechocie zmechanizowanej|Piechot\u0119 zmechanizowan\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mechanized_infantry.png",
+    "game_info": "Szybka jednostka podstawowa z p\u00f3\u017aniejszych okres\u00f3w. Do jej stworzenia nie potrzeba specjalnych zasob\u00f3w.",
+    "historical_info": "Wraz ze wzrostem tempa walki, pojawieniem si\u0119 pojazd\u00f3w opancerzonych, artylerii i rzecz jasna lotnictwa, klasyczna piechota sta\u0142a si\u0119 zdecydowanie zbyt ma\u0142o mobilna. Dlatego te\u017c wi\u0119kszo\u015b\u0107 wsp\u00f3\u0142czesnych formacji piechoty jest \u201ezmotoryzowana\u201d. Poruszaj\u0105 si\u0119 one po polu walki w transporterach opancerzonych. Pojazdy te s\u0105 zazwyczaj wyposa\u017cone w jeden lub kilka ci\u0119\u017ckich karabin\u00f3w maszynowych i wyrzutni granat\u00f3w. Nie s\u0105 w stanie prowadzi\u0107 r\u00f3wnej walki ze wsp\u00f3\u0142czesnymi czo\u0142gami, ale zapewniaj\u0105 ochron\u0119 przed od\u0142amkami i umo\u017cliwiaj\u0105 obron\u0119 w przypadku lekkiego ostrza\u0142u. W zale\u017cno\u015bci od sytuacji \u017co\u0142nierze prowadz\u0105 ogie\u0144 z wn\u0119trza pojazdu lub go opuszczaj\u0105 i po spieszeniu walcz\u0105 dalej tak, jak czyni\u0142a to piechota od stuleci.",
+    "strategy": "Piechota zmechanizowana jest silniejsza i szybsza od zwyk\u0142ej piechoty. Cho\u0107 szybka, nie mo\u017ce porusza\u0107 si\u0119 po walce jak czo\u0142gi. Jej g\u0142\u00f3wne zadanie pozosta\u0142o niezmienne: zdoby\u0107 teren i go utrzyma\u0107.",
+    "movement": 3,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Taktyki mobilne|Taktyk mobilnych|Taktykom mobilnym|Taktyki mobilne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mobile_tactics.json"
+    },
+    "free_promotions": []
+}

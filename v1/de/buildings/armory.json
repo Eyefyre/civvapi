@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Waffenkammer",
+    "game_info": "+15 EP f\u00fcr alle Einheiten.Stadt ben\u00f6tigt Kaserne oder Krepost.",
+    "strategy": "In der Waffenkammer erhalten die in der Stadt ausgebildeten Einheiten Erfahrung. Die Stadt muss \u00fcber eine Kaserne verf\u00fcgen, bevor eine Waffenkammer gebaut werden kann.",
+    "historical_info": "Eine Waffenkammer ist ein milit\u00e4risches Geb\u00e4ude, in dem Waffen in Zeiten des Friedens gelagert und gewartet werden. Soldaten tragen f\u00fcr gew\u00f6hnlich ihre Waffen nicht st\u00e4ndig mit sich herum (vor allem, wenn diese Waffen Maschinengewehre oder Raketenwerfer sind).Waffenkammern sind in der Regel gut gepanzert und bewacht und \u00e4hneln eher einer Trutzburg als einem Lagerhaus. Kriegswaffen m\u00fcssen vor Diebstahl gesch\u00fctzt werden, seien es kleinere Delikte oder ein w\u00fctender Mob, der einen Aufstand anzetteln will.",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/waffenkammer.png",
+    "prereq_tech": {
+        "name": "Stahl",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

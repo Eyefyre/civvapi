@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Floating Gardens",
+    "game_info": "+15% Food. Each worked Lake tile provides +2 Food.City must be built next to a River or Lake.",
+    "strategy": "The Floating Gardens is the Aztec unique building, replacing the Water Mill. It increases the city's Food output, and should be built if the city is near a lake or river.",
+    "historical_info": "A floating garden is a small artificial island constructed on a freshwater lake in order to increase the land available for agriculture. The lake irrigates the island and provides it with fresh organic material, resulting in an incredibly fertile growing environment. The Aztecs were masters of this form of agriculture, and the \"Floating Gardens of Xochimilco\" remain famous today.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/floating_gardens.png",
+    "prereq_tech": {
+        "name": "The Wheel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

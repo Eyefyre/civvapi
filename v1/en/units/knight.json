@@ -1,0 +1,31 @@
+{
+    "id": 55,
+    "name": "Knight",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/knight.png",
+    "game_info": "Powerful Medieval Mounted Unit, weak to Pikemen.",
+    "historical_info": "Almost always comprised of a nation's nobility - the only people who could afford the equipment, horses, and extensive training required - knights were the heavy cavalry of the medieval army. During much of the Middle Ages knights dominated the battlefield. Their superior armor provided good protection from arrows and spears, and their great mobility made them able to exploit an enemy's weakness anywhere on the battlefield. It took a great deal of courage to face a knight's charge. A wall of pikemen might be a match for onrushing knights, but only if they had the discipline and guts to stand their ground. If they flinched, they were dead.",
+    "strategy": "The Knight is a fast and powerful unit, the undisputed king of the medieval battlefield. As a mounted unit it is vulnerable to Pikemen, but it can crush other opponents with relative ease. The Knight can move after it attacks, allowing it to make holes in the enemy lines and then ride straight through them.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

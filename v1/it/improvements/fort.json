@@ -1,0 +1,46 @@
+{
+    "id": 15,
+    "name": "Forte|un Forte|un Forte",
+    "game_info": "Il Forte \u00e8 un miglioramento speciale che non aumenta la resa di una casella e non d\u00e0 accesso a una risorsa. Piuttosto, le unit\u00e0 stanziate in un Forte ricevono un bonus di +50% alla forza difensiva. I Forti, tuttavia, non danno alcun bonus alle unit\u00e0 che si trovano in territorio nemico.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/forte|un_forte|un_forte.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Ingegneria|dell'Ingegneria",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

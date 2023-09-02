@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Aviation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "\u00c8re moderne",
+    "cost": 3100,
+    "civilopedia_entry": "De tout temps, l'Homme a tent\u00e9 de conqu\u00e9rir les cieux. Les travaux de L\u00e9onard de Vinci sur l'aviation sont bien connus, mais le g\u00e9nie italien ne fut que l'un des nombreux visionnaires \u00e0 se pencher sur la question. Les premiers th\u00e9oriciens du vol \u00e9tudi\u00e8rent avec \u00e9norm\u00e9ment d'attention les ma\u00eetres naturels des airs, \u00e0 savoir les oiseaux. Ainsi, ils tent\u00e8rent de mettre au point des machines, les ornithopt\u00e8res, imitant les ailes de ces derniers et leur battement caract\u00e9ristique. Malheureusement, ces premiers inventeurs manquaient des mat\u00e9riaux, des moteurs et des connaissances en a\u00e9rodynamique n\u00e9cessaires \u00e0 la r\u00e9alisation de leur r\u00eave.L'a\u00e9rodynamique connut de grandes avanc\u00e9es au cours des XVIe, XVIIe, XVIIIe et XIXe si\u00e8cles gr\u00e2ce aux apports de brillants scientifiques tels que de Vinci, Galil\u00e9e, Huygens, Newton, Bernoulli, Euler et Smeaton. En 1804, l'Anglais George Cayley fit voler un mod\u00e8le de planeur \u00e0 ailes fixes, et en 1853, il en con\u00e7ut un nouveau, grandeur nature, aux commandes duquel il mit son propre cocher (peu enthousiaste). Cet \u00e9pisode de l'histoire de l'a\u00e9ronautique est le premier vol connu de planeur pilot\u00e9 par un homme.En 1902, les fr\u00e8res Wright con\u00e7urent leur propre planeur muni d'une forme d'ailes am\u00e9lior\u00e9e. Ne trouvant pas de fabricant capable de leur fabriquer un moteur \u00e0 essence suffisamment l\u00e9ger pour r\u00e9pondre \u00e0 leur besoin, ils en cr\u00e9\u00e8rent un eux-m\u00eames. Le 17 d\u00e9cembre 1903, l'a\u00e9ronef des Wright s'envola \u00e0 quatre reprises, parcourant jusqu'\u00e0 260 m\u00e8tres. Les ann\u00e9es qui suivirent l'invention r\u00e9volutionnaire des deux fr\u00e8res, l'aviation connut des am\u00e9liorations aussi rapides que capitales. En 1908, l'Am\u00e9ricain Glenn Hammond Curtiss parcourut en vol plus d'un kilom\u00e8tre et demi, et en 1909, le Fran\u00e7ais Louis Bleriot traversa la manche.Lors de la Premi\u00e8re Guerre mondiale, l'a\u00e9ronautique \u00e9volua beaucoup, notamment au niveau de l'armement (avec la cr\u00e9ation des chasseurs et des bombardiers). D\u00e8s le d\u00e9but des ann\u00e9es 1920, des pilotes survolaient r\u00e9guli\u00e8rement les continents du globe, et en 1927, Charles Lindbergh accomplit la premi\u00e8re travers\u00e9e de l'Atlantique sans escale \u00e0 bord d'un monoplace. La Deuxi\u00e8me Guerre mondiale vit les a\u00e9ronefs s'am\u00e9liorer \u00e9norm\u00e9ment en termes de vitesse, d'autonomie, de r\u00e9sistance et de puissance de feu. \u00c0 la fin du conflit, des avions de combat \u00e0 r\u00e9action, des bombardiers capables de traverser des continents entiers \u00e0 haute altitude et des h\u00e9licopt\u00e8res sillonnaient les airs.\u00c0 l'\u00e9poque contemporaine, les voyages en avion sont devenus monnaie courante, \u00e0 tel point qu'un trajet des \u00c9tats-Unis jusqu'en Chine (un r\u00eave impossible il y a de cela 75 ans) n'est plus remarquable que par l'ennui qu'il suscite chez les voyageurs. Aujourd'hui, m\u00eame si les attaques terroristes a\u00e9riennes du 11 septembre 2001 ont rendu les trajets en avion plus inqui\u00e9tants, chaque jour, des millions de personnes parcourent le monde entier de cette mani\u00e8re. En bref, l'aviation a encore de longues ann\u00e9es devant elle.",
+    "quote": "\"L'a\u00e9ronautique n'a \u00e9t\u00e9 ni une industrie, ni une science\u00a0: ce fut un miracle.\"- Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+        },
+        {
+            "name": "\u00c9lectronique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Triplan|Triplans",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/triplane.json"
+        },
+        {
+            "name": "Bombardier de la Grande Guerre|Bombardiers de la Grande Guerre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Prora|Prora",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/prora.json"
+        }
+    ]
+}

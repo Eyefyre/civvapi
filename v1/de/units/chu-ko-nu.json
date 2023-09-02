@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Zhugenu-Sch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "Mittelalterliche Fernwaffen-Infanterieeinheit. Nur die Chinesen k\u00f6nnen sie bauen. Diese Einheit kann zweimal in einer Runde feuern, anders als der Armbrustsch\u00fctze, den sie ersetzt.",
+    "historical_info": "Die \"Zhugenu\" ist eine recht raffinierte Repetierarmbrust, die gegen Ende des 2. Jahrhunderts n. Chr. in China erfunden wurde. Das Ger\u00e4t sieht in etwa aus wie eine gew\u00f6hnliche europ\u00e4ische Armbrust mit einem oben, genau \u00fcber der Sehne, angebrachten Kasten, der mit Armbrustbolzen gef\u00fcllt ist. Im Einsatz zieht der Soldat einen Hebel, um die Sehne zu spannen, und dr\u00fcckt dann den Hebel zur\u00fcck, woraufhin ein Bolzen aus dem Kasten in Schussposition rutscht. Das verschaffte der Zhugenu eine h\u00f6here Schussrate als der herk\u00f6mmlichen europ\u00e4ischen Armbrust. Allerdings wurde die Zhugenu mit leichteren Bolzen best\u00fcckt und hatte eine geringere Reichweite als die europ\u00e4ische Variante. Welches die \u00fcberlegene Waffe war, hing von den jeweiligen Umst\u00e4nden ab - das europ\u00e4ische Modell bot in offenem Gel\u00e4nde einen Vorteil gegen schwer gepanzerte Gegner, w\u00e4hrend die Zhugenu vermutlich auf kurze Distanz gegen eine gro\u00dfe Anzahl leicht gepanzerter Angreifer die bessere Wahl w\u00e4re.",
+    "strategy": "Der Zhugenu-Sch\u00fctze ist die Spezialeinheit der Chinesen und ersetzt den Armbrustsch\u00fctzen. Der Zhugenu-Sch\u00fctze ist etwas schw\u00e4cher als der Armbrustsch\u00fctze, kann aber zwei Mal pro Runde angreifen, was ihn zu einer m\u00e4chtigen Angriffskraft macht. Die Einheit ist besonders gef\u00e4hrlich, wenn sie in einer Stadt stationiert ist, die angegriffen wird.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maschinen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Kann zweimal angreifen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_attack_twice.json"
+        }
+    ]
+}

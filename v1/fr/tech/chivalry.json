@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Chevalerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 485,
+    "civilopedia_entry": "La chevalerie d\u00e9signe le comportement honorable que l'on attendait des \"chevaliers\" (les combattants nobles d'une culture donn\u00e9e). Il s'agit sensiblement du m\u00eame genre d'approche comportementale que le \"Bushido\" (le code des guerriers) des samoura\u00efs japonais. La chevalerie avait une influence forte au XIIe si\u00e8cle, lors des Croisades, campagnes durant lesquelles les chevaliers pensaient accomplir l'\u0153uvre de Dieu en ch\u00e2tiant les infid\u00e8les du Moyen-Orient. Pour gagner la faveur de Dieu, l'homme devait agir divinement. Un comportement avilissant pouvait causer d\u00e9faite, mort et damnation. Les chevaliers musulmans qui s'opposaient aux chr\u00e9tiens poss\u00e9daient un code similaire, voire, sous certains aspects, plus \"civilis\u00e9\".Dans une soci\u00e9t\u00e9 au sein de laquelle une classe privil\u00e9gi\u00e9e acc\u00e8de au port d'armes interdites aux classes dites \"inf\u00e9rieures\", il semble crucial qu'un certain code de conduite soit d\u00e9fini. Sans cela, les individus arm\u00e9s pourraient oppresser les plus faibles et favoriser ainsi des r\u00e9bellions civiles, voire des r\u00e9volutions d\u00e9vastatrices.",
+    "quote": "\"Sera proclam\u00e9 Roi de toute l'Angleterre celui qui d'une main pourra arracher cette \u00e9p\u00e9e \u00e0 la pierre\". - Malory",
+    "tech_prereqs": [
+        {
+            "name": "Administration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+        },
+        {
+            "name": "Guildes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Banque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/banking.json"
+        },
+        {
+            "name": "Imprimerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Chevalier|Chevaliers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/knight.json"
+        },
+        {
+            "name": "Archer m\u00e9hariste|Archers m\u00e9haristes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/camel_archer.json"
+        },
+        {
+            "name": "\u00c9l\u00e9phant de Naresuan|\u00c9l\u00e9phants de Naresuan",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Cavalier mand\u00e9kalou|Cavaliers mand\u00e9kalous",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Keshik|Keshiks",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/keshik.json"
+        },
+        {
+            "name": "Conquistador",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fort moghol|Forts moghols",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Ch\u00e2teau|Ch\u00e2teaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/alhambra.json"
+        }
+    ]
+}

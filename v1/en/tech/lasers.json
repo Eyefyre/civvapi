@@ -1,0 +1,32 @@
+{
+    "id": 74,
+    "name": "Lasers",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/lasers.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "The term \"laser\" was originally spelled \"LASER\", as it is the acronym for \"Light Amplification by Stimulated Emission of Radiation\", basically its own definition. The first scientific foundations for lasers were laid down by Albert Einstein in 1917 when he re-derived Planck's law of radiation, about the same time science fiction writers coincidentally began to describe a similar possible technology. The first functional laser wasn't demonstrated until 1960 when the Hughes Research Laboratories introduced laser technology capable of storing data via optical storage devices (like a DVD burner).Since this early laser research many different kinds of specialized lasers have been developed, ones which have been optimized for different functions like maximum firing range, output power, or utilizing different wavelength bands. While originally dubbed \"a solution looking for a problem\", lasers have found their way into thousands of different uses, from consumer electronics and entertainment to law enforcement and military use. Just try not to look directly into the light.",
+    "quote": "\"The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.\" - The Holy Bible: Romans, 13:12 ",
+    "tech_prereqs": [
+        {
+            "name": "Computers",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Stealth",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/stealth.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Jet Fighter",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/jet_fighter.json"
+        },
+        {
+            "name": "Modern Armor",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/modern_armor.json"
+        }
+    ],
+    "building_unlocks": []
+}

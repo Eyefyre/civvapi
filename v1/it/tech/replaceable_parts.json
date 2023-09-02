@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "Epoca moderna",
+    "cost": 3100,
+    "civilopedia_entry": "La fabbricazione con pezzi indipendenti \u00e8 un processo produttivo in cui vengono fabbricati oggetti composti da pi\u00f9 elementi distinti, ognuno prodotto in molte copie identiche. Questo processo porta a un enorme incremento nella velocit\u00e0 e redditivit\u00e0 della produzione, cosa che storicamente ha alimentato la rivoluzione industriale del XIX secolo.Una delle principali spinte alla produzione con pezzi indipendenti fu l'esigenza di dotare i soldati di armi da fuoco. Un tempo, infatti, i moschetti erano fabbricati da artigiani e ogni esemplare era leggermente diverso da tutti gli altri. Inoltre un artigiano poteva fabbricare i suoi fucili con canne un po' pi\u00f9 lunghe, un altro poteva dotarli di grilletti pi\u00f9 grossi e cos\u00ec via. Per i singoli cittadini, non era poi un gran problema: se il suo moschetto si guastava, poteva tornare dall'artigiano e farselo riparare. Ma questo, ovviamente, non era fattibile se il problema riguardava le migliaia di moschetti di un esercito.Tuttavia, se i moschetti fossero stati tutti identici, i moschetti guasti potevano essere riparati con i pezzi di qualsiasi altro. Inoltre, i soldati che si erano addestrati con un moschetto avrebbero potuto imbracciarne un altro e aspettarsi lo stesso tipo di funzionamento e prestazioni, senza essere costretti a familiarizzare con le caratteristiche particolari della nuova arma.Al giorno d'oggi quasi tutti i beni prodotti sul pianeta sono fabbricati con pezzi indipendenti. Gli artigiani sono diventati degli artisti, i cui prodotti sono spesso troppo costosi per l'utente comune.",
+    "quote": "\"Niente \u00e8 troppo difficile se lo suddividi in piccole azioni.\" - Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        },
+        {
+            "name": "Elettricit\u00e0|dell'Elettricit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Plastica|della Plastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/plastics.json"
+        },
+        {
+            "name": "Elettronica|dell'Elettronica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Legione straniera|una Legione straniera|dalla tua Legione straniera|alla tua Legione straniera|la tua Legione straniera|da una Legione straniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/foreign_legion.json"
+        },
+        {
+            "name": "Fante della Grande Guerra|un Fante della Grande Guerra|dal tuo Fante della Grande Guerra|al tuo Fante della Grande Guerra|il tuo Fante della Grande Guerra|da un Fante della Grande Guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Base militare|la Base militare|una Base militare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/military_base.json"
+        },
+        {
+            "name": "Statua della Libert\u00e0|la Statua della Libert\u00e0|la Statua della Libert\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/statue_of_liberty.json"
+        }
+    ]
+}

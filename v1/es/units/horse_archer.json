@@ -1,0 +1,31 @@
+{
+    "id": 102,
+    "name": "Arquero a caballo|Arqueros a caballo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horse_archer.png",
+    "game_info": "Una r\u00e1pida unidad de combate a distancia para ataques de hostigamiento. Solo la pueden crear los hunos.",
+    "historical_info": "La temible caballer\u00eda de los hunos, famosa por su habilidad con los arcos y su dominio del arte de cabalgar, fue la plaga que azot\u00f3 Europa durante las conquistas hunas de los siglos IV y V d. C. Estos arqueros montados recurrieron a sus arcos compuestos y pulieron el talento que luego aplicar\u00edan a la guerra cazando en la estepa central de Asia. Se cree que el uso que los hunos hicieron de los arqueros a caballo influy\u00f3 mucho en el pensamiento militar de los reinos europeos y asi\u00e1ticos, que dedicaron m\u00e1s recursos a crear unidades de caballer\u00eda para enviarlas a sus incursiones.",
+    "strategy": "Los Arqueros a caballo son unidades r\u00e1pidas de ataque a distancia, mortales en terreno abierto. En defensa son algo m\u00e1s fuertes que el Arquero en carro y pueden moverse por terreno abrupto sin la penalizaci\u00f3n que tiene \u00e9ste. Adem\u00e1s, empiezan con el ascenso Precisi\u00f3n I. Como unidad montada, el Arquero a caballo es vulnerable a los Lanceros. A diferencia del Arquero en carro, el Arquero a caballo no precisa de Caballos.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Rueda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Precisi\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/accuracy_i.json"
+        }
+    ]
+}

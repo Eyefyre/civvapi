@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Navigazione|della Navigazione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Epoca rinascimentale",
+    "cost": 1150,
+    "civilopedia_entry": "La navigazione \u00e8 la scienza che permette di orientarsi nel mezzo dell'oceano. Le navi antiche si allontanavano molto di rado dalla costa: questo rendeva la navigazione relativamente facile, ma limitava il loro raggio d'azione e le sottoponeva al pericolo costante di andare in secca, soprattutto quando c'era brutto tempo. Prima dell'invenzione del motore a vapore, poche cose potevano terrorizzare il capitano di una nave quanto un forte vento contrario che lo spingeva verso gli scogli.Prima dell'invenzione dei satelliti, della radio e del radar, le navi potevano solo tracciare un \"punto stimato\" sulla carta nautica: conoscere la rotta precisa e la velocit\u00e0 tenuta consentiva di fare una stima piuttosto accurata della propria posizione. Dopo molte settimane in mare, tuttavia, anche imprecisioni minime potevano accumularsi e portare a errori decisivi. Immaginiamo una nave in mezzo al Pacifico, con la scorta d'acqua prossima a esaurirsi e una minuscola isoletta come unico punto di approvvigionamento nel raggio di mille miglia: un errore nella determinazione del punto stimato avrebbe significato una morte orrenda.Il capitano di una nave poteva anche rivolgere lo sguardo al cielo per ottenere aiuto. Esistevano strumenti che, a patto che il tempo fosse buono, potevano determinare il momento preciso in cui il sole avrebbe raggiunto lo zenit, cio\u00e8 il punto pi\u00f9 alto nel cielo. Se il capitano possedeva un cronometro molto preciso, poteva utilizzare quest'informazione per determinare la longitudine precisa (cio\u00e8 la distanza verso est oppure ovest dal Primo Meridiano, quello che attraversa Greenwich, in Inghilterra). Questo naturalmente richiedeva un cielo sereno, un orologio preciso e la possibilit\u00e0 di determinare il mezzogiorno preciso dal ponte di una nave che magari stava rollando e beccheggiando in modo allarmante. Durante le notti stellate i navigatori potevano sfruttare in modo analogo il momento in cui alcuni corpi celesti sorgevano o tramontavano.Naturalmente a un certo punto l'invenzione della radio, del radar e dei satelliti rese l'intero processo molto pi\u00f9 rapido e sicuro. Anche oggi, comunque, i capitani continuano a mandare le proprie navi in secca o a sbattere contro i piloni dei ponti... e queste sono imbarcazioni a motore! Immaginate che abilit\u00e0 dovevano avere i navigatori che riuscivano a mantenere un vascello a vela sulla rotta giusta!",
+    "quote": "\"I venti e le onde sono sempre dalla parte dei navigatori pi\u00f9 abili.\" - Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronomia|dell'Astronomia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archeologia|dell'Archeologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fregata|una Fregata|dalla tua Fregata|alla tua Fregata|la tua Fregata|da una Fregata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/frigate.json"
+        },
+        {
+            "name": "Nave di linea|una Nave di linea|dalla tua Nave di linea|alla tua Nave di linea|la tua Nave di linea|da una Nave di linea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Pezzente del mare|un Pezzente del mare|dal tuo Pezzente del mare|al tuo Pezzente del mare|il tuo Pezzente del mare|da un Pezzente del mare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/sea_beggar.json"
+        },
+        {
+            "name": "Corsaro|un Corsaro|dal tuo Corsaro|al tuo Corsaro|il tuo Corsaro|da un Corsaro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Cantiere navale|il Cantiere navale|un Cantiere navale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/seaport.json"
+        }
+    ]
+}

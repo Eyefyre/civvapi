@@ -1,0 +1,24 @@
+{
+    "id": 44,
+    "name": "Flotta mercantile",
+    "game_info": "Flotta mercantile+1 Oro per ogni Porto, Cantiere navale o Faro. +4 Produzione e +4 Cultura nella citt\u00e0 con la Compagnia delle Indie Orientali.",
+    "historical_info": "Una flotta mercantile \u00e8 composta da un gruppo di navi destinate al commercio che, in tempo di guerra, possono essere arruolate e utilizzate per trasportare le truppe e gli approvvigionamenti della nazione, spesso con la protezione della flotta militare. Per molti anni gli inglesi hanno avuto la flotta mercantile pi\u00f9 grande e di migliore qualit\u00e0 del mondo. Stabilita inizialmente nel 1835, la flotta mercantile britannica sub\u00ec enormi perdite nel corso dei due conflitti mondiali. Quasi 15.000 marinai arruolati su navi civili persero la vita nella Prima Guerra Mondiale, e addirittura 30.000 morirono nella Seconda.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/flotta_mercantile.png",
+    "required_policies": [
+        {
+            "name": "Tradizione navale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/naval_tradition.json"
+        },
+        {
+            "name": "Infrastruttura marittima",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/maritime_infrastructure.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Esplorazione",
+        "game_info": "L'Esplorazione migliora la tua capacit\u00e0 di espandere l'impero oltremare.Adottare l'Esplorazione aggiunge +1 al [ICON_MOVES] movimento di tutte le unit\u00e0 navali e +1 al raggio di visione delle unit\u00e0 navali da combattimento. Sblocca la costruzione del Louvre.Adottarne tutte le politiche ti permette di vedere i Siti Archeologici Nascosti sulla mappa; inoltre consente l'acquisto di Grandi Ammiragli in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca medievale",
+        "historical_info": "Da quando i primi uomini si sono insediati in un luogo fisso, ci sono sempre state persone spinte a guardare al di l\u00e0 dell'orizzonte. Motivati da profitto, avventura, religione, necessit\u00e0 o solo dalla curiosit\u00e0, gli esploratori hanno ampliato la nostra conoscenza del mondo e delle sue meraviglie. Le esplorazioni hanno messo in contatto culture diverse e lontane, nel bene e nel male. I grandi esploratori, dal cartaginese Hanno all'ammiraglio cinese Wang Dayuan, dall'inglese Sir Richard Burton a migliaia di altri, hanno guidato l'espansione della civilt\u00e0 e dato forma alla storia."
+    }
+}

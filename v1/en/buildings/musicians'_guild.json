@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Musicians' Guild",
+    "game_info": "Provides 3 Great Person Points (GPP) towards a Great Musician. Add up to two specialists to this building to gain Culture and increase the rate of Great Musician acquisition (3 Culture and 3 GPP per specialist).",
+    "strategy": "The Musicians' Guild is the only building that contains musician specialist slots, which are critical for generating Great Musicians. If your goal is a cultural victory, this building is a must-have. The Musicians' Guild provides 3 Great Person Points, and each assigned specialist provides 3 Great Person Points and 3 Culture.",
+    "historical_info": "The musicians' guilds that briefly flourished during the Renaissance had their roots in the bands of court musicians under the patronage and protection of the nobility and royalty. During the Renaissance, as music came to cater to the tastes of the growing merchant and middle classes, musicians without patrons joined together guarantee wages and work. Beginning with the rise of the modern orchestra in the 17th Century, towns and cities sponsored composers and conductors, allowing for ever more elaborate performances. This move towards \"civic music\" largely obviated the need for formal musicians' guilds. Not until the boom in popular music in the early 20th Century would musicians again formally organize, this time into unions.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/musicians'_guild.png",
+    "prereq_tech": {
+        "name": "Acoustics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

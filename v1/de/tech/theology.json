@@ -1,0 +1,56 @@
+{
+    "id": 22,
+    "name": "Theologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/theology.png",
+    "era": "Mittelalter",
+    "cost": 275,
+    "civilopedia_entry": "Theologie ist das Studium der Religion; Theologen studieren religi\u00f6se Traditionen und Glaubensansichten. Diese Wissenschaft geht zumindest bis zur griechischen Antike zur\u00fcck, in der es eine extrem umfangreiche Mythologie und viele religi\u00f6se Traditionen gab. Im 1. und 2. Jahrhundert n. Chr. bl\u00fchte die j\u00fcdische Religionswissenschaft auf. Der Jerusalemer Talmud, eine Sammlung rabbinischer Kommentare zur m\u00fcndlichen \u00dcberlieferung des Judentums, wurde um 200 n. Chr. ver\u00f6ffentlicht und in den folgenden zwei Jahrhunderten erweitert und angepasst.Theologie hat einen unglaublich starken Einfluss auf die Weltgeschichte. Unz\u00e4hlige Millionen sind wegen religi\u00f6ser Dispute gestorben und sterben noch heute. Die R\u00f6mer t\u00f6teten Christen wegen ihrer radikalen neuen Ansichten, welche die Existenz der r\u00f6mischen G\u00f6tter ausschloss. Christen t\u00f6teten Juden, Muslime und Christen wegen religi\u00f6ser Differenzen. Der Theologe und christliche Reformator Martin Luther l\u00f6ste mit seinen \"95 Thesen\" einen brutalen religi\u00f6sen Konflikt in Europa aus, der Jahrhunderte andauerte. In seinen Thesen stellte er unter anderem den Verkauf p\u00e4pstlicher Ablassbriefe in Frage, mit denen Geld f\u00fcr den Bau des Petersdoms gesammelt wurde. Falls der momentane Religionskrieg zwischen radikalen Muslimen und der westlichen Welt jemals beigelegt wird, wird die Theologie dabei eine tragende Rolle spielen.",
+    "quote": "\"Der Mensch braucht f\u00fcr sein Seelenheil drei Dinge: das Wissen, woran er glauben soll, das Wissen, was er begehren soll, und das Wissen, was er tun soll.\" - Thomas von Aquin",
+    "tech_prereqs": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        },
+        {
+            "name": "Drama und Dichtung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kompass",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+        },
+        {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Garten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/garden.json"
+        },
+        {
+            "name": "Hagia Sophia",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hagia_sophia.json"
+        },
+        {
+            "name": "Gro\u00dfe Moschee v. Djenn\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/great_mosque_of_djenne.json"
+        },
+        {
+            "name": "Gro\u00dfer Tempel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/grand_temple.json"
+        },
+        {
+            "name": "Candi",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/candi.json"
+        },
+        {
+            "name": "Borobudur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/borobudur.json"
+        }
+    ]
+}

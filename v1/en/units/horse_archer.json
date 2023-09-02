@@ -1,0 +1,31 @@
+{
+    "id": 102,
+    "name": "Horse Archer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horse_archer.png",
+    "game_info": "A fast Ranged Unit used for hit-and-run attacks. Only the Huns may build it.",
+    "historical_info": "The fearsome cavalry of the Huns, renowned for both their skill in archery, and their mastery of horsemanship, were the scourge of Europe during the Hunnic conquests of the 4th and 5th centuries AD. Utilizing powerful composite bows, the mounted archers of the Huns honed their skills while hunting on the Central Asian Steppe, and they had no trouble carrying over these skills into warfare. It is widely believed that the Huns' use of mounted archers greatly influenced the future military considerations of both European and Asian kingdoms, as a greater emphasis on cavalry units arose following their incursions.",
+    "strategy": "Horse Archers are fast ranged units, deadly on open terrain. They are slightly stronger in defense than the Chariot Archer and can move through rough terrain without the Chariot Archer's movement penalty. They also start with the Accuracy I promotion. As a mounted unit, the Horse Archer is vulnerable to Spearmen. Unlike the Chariot Archer, the Horse Archer does not require Horses.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "The Wheel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Accuracy I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/accuracy_i.json"
+        }
+    ]
+}

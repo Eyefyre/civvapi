@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dynamit",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "Industriezeitalter",
+    "cost": 2350,
+    "civilopedia_entry": "Dynamit ist ein explosives Material, das 1867 vom schwedischen Chemiker und Ingenieur Alfred Nobel erfunden wurde. Dynamit wird hergestellt, indem ein saugf\u00e4higes Material, z. B. Kieselgur - interessanterweise das gleiche Material, das in vielen Filtern f\u00fcr Swimmingpools verwendet wird - mit Nitroglyzerin tr\u00e4nkt. Nitroglyzerin ist ein extrem starker, aber schrecklich instabiler Sprengstoff. Dynamit ist etwas schw\u00e4cher, daf\u00fcr aber wesentlich stabiler.Es wird haupts\u00e4chlich im Bergbau und im Bauwesen verwendet. Historisch betrachtet wurde es auch in milit\u00e4rischen Anwendungen eingesetzt, doch die Komponente Nitroglyzerin erwies sich als einfach zu instabil, um sie in einer unsicheren Umgebung wie einem Schlachtfeld zu nutzen. Das Milit\u00e4r bevorzugt eine modifizierte Variante, \"Milit\u00e4rdynamit\", das statt Nitroglyzerin andere Komponenten verwendet, wie etwa TNT, um ein Produkt zu gewinnen, dass zwar nur 60% der Sprengkraft hat, daf\u00fcr aber viel weniger anf\u00e4llig ist, zum falschen Zeitpunkt zu explodieren.",
+    "quote": "\"Sobald der Mensch entscheidet, dass alle Mittel recht sind, um ein \u00dcbel zu bek\u00e4mpfen, unterscheidet sich die Absicht nicht mehr von dem \u00dcbel, das es zu zerst\u00f6ren galt.\" - Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "D\u00fcnger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/fertilizer.json"
+        },
+        {
+            "name": "Milit\u00e4rwissenschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Eisenbahn",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artillerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "Bowman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "One of the first available ranged Units, this Babylonian Unique Unit replaces the Archer. The Bowman can better withstand melee attacks than the standard Archer available to other civs.",
+    "historical_info": "We have a fairly accurate picture of the extraordinary Babylonian archery units, thanks to a beautiful Assyrian mosaic showing them marching off to battle. The Babylon archers are dressed in colorful padded robes and carry four-foot long bows, as well as a quiver of arrows slung on their backs. The archers also carry spears or daggers, doubtless for personal defense if enemy units get close enough for hand-to-hand combat. \r\nSeparate units carrying large, man-height shields would accompany the bowman, providing in effect, a movable fortress. The Bowmen were an integral part of the Babylonian infantry, as their numbers were easier to train and replace than the more expensive cavalry. Bowmen also helped man the famed Walls of Babylon, taking up positions in the many turrets dotting its line.",
+    "strategy": "The Bowman is the Babylonian Unique Unit, replacing the Archer. This Unit is stronger in combat than the Archer, both offensively and defensively, allowing placement in the front line. The Bowman's improved combat prowess helps ameliorate any concern that it may be quickly overrun.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Archery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

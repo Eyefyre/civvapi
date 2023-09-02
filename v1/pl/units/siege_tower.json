@@ -1,0 +1,43 @@
+{
+    "id": 126,
+    "name": "Wie\u017ca obl\u0119\u017cnicza|Wie\u017cy obl\u0119\u017cniczej|Wie\u017cy obl\u0119\u017cniczej|Wie\u017c\u0119 obl\u0119\u017cnicz\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/siege_tower.png",
+    "game_info": "Pot\u0119\u017cna obl\u0119\u017cnicza jednostka walcz\u0105ca w zwarciu, daj\u0105ca premi\u0119 do atakowania miast wszystkim pobliskim jednostkom, gdy znajduje si\u0119 obok nieprzyjacielskiego miasta. Mog\u0105 j\u0105 budowa\u0107 tylko Asyryjczycy.",
+    "historical_info": "Najdawniejsze znane u\u017cycie wie\u017cy obl\u0119\u017cniczych datuje si\u0119 na IX w. p.n.e., kiedy to u\u017cy\u0142y ich armie nowoasyryjskie. P\u0142askorze\u017aby z czas\u00f3w rz\u0105d\u00f3w Aszurbanipala II przedstawiaj\u0105 te machiny szturmuj\u0105ce mury wrogich miast. W owych czasach mury z suszonych cegie\u0142 stanowi\u0142y zazwyczaj wystarczaj\u0105c\u0105 ochron\u0119 przed staro\u017cytnymi armiami Mezopotamii, ale wie\u017ce obl\u0119\u017cnicze wykorzystywane przez Asyryjczyk\u00f3w pozwala\u0142y im na szybkie i skuteczne zalewanie miast swoimi wojskami, co pozwoli\u0142o imperium rozrasta\u0107 si\u0119 przez trzy stulecia w\u0142a\u015bciwie bez oporu ze strony przeciwnik\u00f3w.",
+    "strategy": "Ta obl\u0119\u017cnicza jednostka walcz\u0105ca w zwarciu musi znajdowa\u0107 si\u0119 obok miasta wroga, by dzia\u0142a\u0107 skutecznie, ale gdy znajdzie si\u0119 tak blisko, sieje olbrzymie zniszczenie. Ma nie tylko pot\u0119\u017cny w\u0142asny atak, ale daje premi\u0119 wszystkim twoim pobliskim jednostkom, bior\u0105cym udzia\u0142 w ataku na miasto. Dodaj do wie\u017cy obl\u0119\u017cniczej jednostki walcz\u0105ce w zwarciu lub dystansowo i doprowad\u017a j\u0105 do celu, zanim zostanie zniszczona, a o wiele szybciej zdob\u0119dziesz miasto.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematyka|Matematyki|Matematyce|Matematyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Saper",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/sapper.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Os\u0142ona I|Os\u0142ony I|Os\u0142onie I|Os\u0142on\u0119 I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cover_i.json"
+        },
+        {
+            "name": "Jednostka mo\u017ce atakowa\u0107 tylko miasta",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/city_attack_only.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        }
+    ]
+}

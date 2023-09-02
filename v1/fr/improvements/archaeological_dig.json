@@ -1,0 +1,34 @@
+{
+    "id": 25,
+    "name": "Fouilles arch\u00e9ologiques",
+    "game_info": "Seul un arch\u00e9ologue peut mettre en place des fouilles arch\u00e9ologiques sur un site antique. Les excavations effectu\u00e9es sur le site de la ville antique de Troie sont l'un des plus grands exemples de fouilles arch\u00e9ologiques au monde. En effectuant ses fouilles, votre arch\u00e9ologue d\u00e9couvrira le type d'artefact y \u00e9tant enterr\u00e9. Vous pourrez alors choisir de lui faire cr\u00e9er un monument permanent sur la case, ou de lui faire extraire l'artefact afin de le placer dans un b\u00e2timent de votre empire disposant d'un emplacement vide pour chef-d'oeuvre artistique.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fouilles_arch\u00e9ologiques.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Site antique cach\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/hidden_antiquity_site.json"
+        },
+        {
+            "name": "Site antique|Sites antiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/antiquity_site.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Arch\u00e9ologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

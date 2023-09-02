@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Lansquenet|Lansquenets",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "Cette unit\u00e9 est bien moins ch\u00e8re que le piquier, et peut piller sans d\u00e9penser de points de mouvement. Vous volez de l' or en attaquant une ville. Disponibles via la doctrine Arm\u00e9e de mercenaires, ces unit\u00e9s ne peuvent pas \u00eatre produites et doivent \u00eatre achet\u00e9es avec de l'or. Elles peuvent se d\u00e9placer imm\u00e9diatement apr\u00e8s avoir \u00e9t\u00e9 recrut\u00e9es.",
+    "historical_info": "Les lansquenets (de l'allemand Landsknecht) \u00e9taient des mercenaires allemands au XVIe si\u00e8cle. Cr\u00e9\u00e9es sur le mod\u00e8le des l\u00e9gendaires piquiers suisses, ces unit\u00e9s ont fini par surpasser ces derniers en tant que meilleure unit\u00e9 d'infanterie mercenaire d'Europe ayant particip\u00e9 \u00e0 la plupart des conflits majeurs du XVIe si\u00e8cle. Au combat, les lansquenets \u00e9taient g\u00e9n\u00e9ralement \u00e9quip\u00e9s de lances de presque 6 m\u00e8tres de long. Certains d'entre eux portaient \u00e9galement d'imposantes \u00e9p\u00e9es \u00e0 deux mains ou des hallebardes, qui servaient \u00e0 couper la t\u00eate de leurs adversaires.",
+    "strategy": "Le lansquenet est uniquement disponible via la doctrine Arm\u00e9e de mercenaires, et doit \u00eatre recrut\u00e9 avec de l'or. Le lansquenet est beaucoup moins cher que le piquier, et b\u00e9n\u00e9ficie de plusieurs bonus lorsqu'il pille une case ou une ville. Ces unit\u00e9s permettent de lever une arm\u00e9e bon march\u00e9, qui sera rapidement amortie si vous l'envoyez faire des ravages dans les territoires ennemis.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Administration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Pillage\u00a0: 0\u00a0PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Pillage de ville",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/city_plunder.json"
+        }
+    ]
+}

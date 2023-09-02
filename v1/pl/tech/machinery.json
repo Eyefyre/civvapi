@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+    "cost": 485,
+    "civilopedia_entry": "Maszyna to urz\u0105dzenie z ruchomymi cz\u0119\u015bciami (przynajmniej tak by\u0142o w epoce przedelektronicznej), zu\u017cywaj\u0105ce energi\u0119 do wykonywania zada\u0144. Prasa drukarska jest maszyn\u0105, tak samo jak krosno, zegar czy m\u0142yn wodny. Opanowanie mechaniki wymaga oczywi\u015bcie znajomo\u015bci konstruowania i in\u017cynierii, ale tak\u017ce zdolno\u015bci wytworzenia cz\u0119\u015bci o precyzyjnych rozmiarach. Silnik parowy przecieka\u0142by, gdyby by\u0142 \u017ale zbudowany \u2013 oczywi\u015bcie je\u015bli by nie eksplodowa\u0142. Pierwsza epoka maszyn by\u0142a bardzo niebezpieczna \u2013 je\u015bli nie zabi\u0142y ci\u0119 opary, to mia\u0142e\u015b spore szanse na oparzenie, wci\u0105gni\u0119cie przez mechanizm lub rozerwanie na strz\u0119py.Z drugiej strony, kiedy cywilizacja opanowa\u0142a tworzenie z\u0142o\u017conych mechanizm\u00f3w, przynosi\u0142o jej to olbrzymie bogactwo i w\u0142adz\u0119. Najwcze\u015bniej rewolucja przemys\u0142owa rozpocz\u0119\u0142a si\u0119 w Anglii i dzi\u0119ki temu ma\u0142y, wyspiarski kraj zdominowa\u0142 handel na prawie trzy wieki.",
+    "quote": "\u201ePrasa to najlepsze narz\u0119dzie do o\u015bwiecenia umys\u0142u cz\u0142owieka i uczynienia go bardziej racjonaln\u0105, moraln\u0105 i spo\u0142eczn\u0105 istot\u0105.\u201d \u2013 Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/engineering.json"
+        },
+        {
+            "name": "Gildie|Gildii|Gildiom|Gildie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Prasa drukarska|Prasy drukarskiej|Prasie drukarskiej|Pras\u0119 drukarsk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kusznicy|Kusznik\u00f3w|Kusznikom|Kusznik\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/crossbowman.json"
+        },
+        {
+            "name": "Chu-Ko-Nu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/chu-ko-nu.json"
+        },
+        {
+            "name": "\u0141ucznicy angielscy|\u0141ucznik\u00f3w angielskich|\u0141ucznikom angielskim|\u0141ucznik\u00f3w angielskich",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Huta|Huty|Hucie|Hut\u0119|Huty|Hut|Hutom|Huty",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ironworks.json"
+        }
+    ]
+}

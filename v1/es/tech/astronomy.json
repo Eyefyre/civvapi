@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronom\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Renacimiento",
+    "cost": 780,
+    "civilopedia_entry": "La astronom\u00eda es el estudio de los objetos del espacio (desde el polvo espacial hasta los asteroides, pasando por lunas, planetas, estrellas y galaxias) as\u00ed como el de fen\u00f3menos m\u00e1s arcanos, como los agujeros negros y los de gusano. Es la ciencia natural m\u00e1s antigua y hunde sus ra\u00edces en las pr\u00e1cticas astrol\u00f3gicas de la prehistoria.Gran parte de la primera astronom\u00eda est\u00e1 relacionada con la religi\u00f3n. Las estrellas y dem\u00e1s cuerpos celestes se asociaban a los dioses, pues se cre\u00eda que \u00e9stos ten\u00edan el control directo sobre el hombre y su universo f\u00edsico. Una estrella o un grupo de ellas aparec\u00eda cada a\u00f1o en tiempos de cosecha y, finalmente, el hombre antiguo conclu\u00eda que aqu\u00e9lla era el hogar del dios que ten\u00eda poder sobre las cosechas. Quiz\u00e1 si uno sacrificaba una cabra el d\u00eda que aparec\u00eda esa estrella, el dios bendecir\u00eda la cosecha que estaba al caer. Esta clase de pensamiento es la que se encuentra en la base de los estudios astrol\u00f3gicos, as\u00ed como en la confecci\u00f3n de los antiguos calendarios, con los que se ha asociado hist\u00f3ricamente la astronom\u00eda.Durante el Renacimiento, la astronom\u00eda se despoj\u00f3 de la mayor\u00eda de sus vestiduras religiosas y se convirti\u00f3 en una ciencia pura por derecho propio. En 1543, Nicol\u00e1s Cop\u00e9rnico public\u00f3 \"De Revolutionibus Orbium Coelestium\", que postulaba que el sol era el centro del universo, y no la Tierra, y que los planetas orbitaban alrededor del sol igual que la Luna lo hac\u00eda alrededor de la Tierra. Adem\u00e1s de representar el triunfo de la investigaci\u00f3n cient\u00edfica sobre el dogma, el libro de Cop\u00e9rnico tambi\u00e9n sosten\u00eda que usar las matem\u00e1ticas ayudar\u00eda mucho a la humanidad a entender el mundo que la rodea. Aunque la obra fue muy controvertida en su \u00e9poca, en la actualidad se reconoce a Cop\u00e9rnico como uno de los cient\u00edficos m\u00e1s grandes de la historia y, obviamente, uno de los padres de la revoluci\u00f3n cient\u00edfica.",
+    "quote": "\"Ulises, gozoso, despleg\u00f3 la vela al viento y, con mano h\u00e1bil, dirigi\u00f3 el tim\u00f3n.\" - Homero",
+    "tech_prereqs": [
+        {
+            "name": "Br\u00fajula",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+        },
+        {
+            "name": "Educaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navegaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Carabela|Carabelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/caravel.json"
+        },
+        {
+            "name": "Barco tortuga",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/turtle_ship.json"
+        },
+        {
+            "name": "Nao|Naos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Observatorio|Observatorios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/observatory.json"
+        }
+    ]
+}

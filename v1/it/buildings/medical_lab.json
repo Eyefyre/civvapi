@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Laboratorio di medicina|il Laboratorio di medicina|un Laboratorio di medicina",
+    "game_info": "Il 25% del Cibo rimane nella scorta dopo la nascita di un nuovo cittadino (l'effetto si somma a quello dell'Acquedotto).",
+    "strategy": "Il Laboratorio di medicina \u00e8 un edificio disponibile nelle fasi finali del gioco che riduce del 25% la quantit\u00e0 di Cibo necessaria per la crescita della citt\u00e0. Per costruire un Laboratorio di medicina la citt\u00e0 deve gi\u00e0 possedere un Ospedale.",
+    "historical_info": "Un laboratorio di medicina \u00e8 un'istituzione che studia le malattie e l'anatomia umana utilizzando una vasta gamma di strumenti molto sofisticati e potenti - dagli ultrasuoni, a microcamere delle dimensioni di una formica, fino ai microscopi elettronici. Negli ultimi 25 anni la maggior parte (se non la totalit\u00e0) degli sviluppi della scienza medica sono stati elaborati nei laboratori di medicina. Tra i pi\u00f9 importanti citiamo il sequenziamento del genoma umano, la creazione di retro-virus in grado di combattere l'HIV (responsabile dell'AIDS), la terapia genetica e la nanotecnologia. Il costo sempre crescente dell'assistenza medica pu\u00f2 essere attribuito in gran parte al semplice fatto che i laboratori di medicina hanno riportato grandi successi nella lotta alle malattie e nel miglioramento della qualit\u00e0 della vita umana... e questi miglioramenti sono molto costosi.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorio_di_medicina|il_laboratorio_di_medicina|un_laboratorio_di_medicina.png",
+    "prereq_tech": {
+        "name": "Penicillina|della Penicillina",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/penicillin.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

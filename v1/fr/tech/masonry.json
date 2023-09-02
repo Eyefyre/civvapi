@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Ma\u00e7onnerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Antiquit\u00e9",
+    "cost": 55,
+    "civilopedia_entry": "La ma\u00e7onnerie est la construction de structures \u00e0 partir de blocs assembl\u00e9s au mortier. Ces blocs peuvent \u00eatre des pierres, du b\u00e9ton, des parpaings ou des briques d'argile. Le mortier est une sorte de p\u00e2te mall\u00e9able qui, lorsqu'elle s\u00e8che, devient extr\u00eamement r\u00e9sistante. G\u00e9n\u00e9ralement, ce mat\u00e9riau est compos\u00e9 d'un m\u00e9lange de sable, de ciment ou de chaux, et d'eau.Les anciens \u00c9gyptiens ma\u00eetrisaient d\u00e9j\u00e0 la ma\u00e7onnerie au IVe si\u00e8cle av. J.-C. Ils se servaient des riches gisements de calcaire, de gr\u00e8s, de granit et de basalte des collines du Nil pour b\u00e2tir temples, palais et pyramides. Les Assyriens antiques du Croissant fertile n'avaient pas, pour leur part, facilement acc\u00e8s \u00e0 la pierre. Ils poss\u00e9daient en revanche \u00e9norm\u00e9ment d'argile, qu'ils moulaient en briques, puis faisaient s\u00e9cher au soleil. Ces briques \u00e9tant vuln\u00e9rables \u00e0 l'humidit\u00e9, ils recouvraient souvent leurs b\u00e2timents de tuiles cuites ou verniss\u00e9es, plus imperm\u00e9ables.Les Romains, eux, invent\u00e8rent le b\u00e9ton, un mat\u00e9riau de qualit\u00e9 bien sup\u00e9rieure au mortier utilis\u00e9 par les civilisations plus anciennes (confectionn\u00e9 le plus souvent \u00e0 base d'argile). De plus, il pouvait \u00eatre utilis\u00e9 directement comme mat\u00e9riau de construction. Les possibilit\u00e9s r\u00e9volutionnaires offertes par le b\u00e9ton permirent aux Romains de construire des b\u00e2timents qui n'auraient jamais pu \u00eatre \u00e9rig\u00e9s via l'utilisation de mat\u00e9riaux primitifs. Au XIXe si\u00e8cle, un jardinier parisien eut l'id\u00e9e d'ins\u00e9rer une matrice m\u00e9tallique \u00e0 l'int\u00e9rieur de ses pots et de ses bacs, inventant le b\u00e9ton arm\u00e9. Ce b\u00e9ton renforc\u00e9 permit d'accro\u00eetre grandement la r\u00e9sistance du mat\u00e9riau \u00e0 la traction, le rendant tr\u00e8s efficace dans la construction de structures hautes vuln\u00e9rables au vent, aux vibrations, voire aux tremblements de terre. De r\u00e9centes innovations ont encore permis d'am\u00e9liorer sa r\u00e9sistance et son \u00e9lasticit\u00e9. Signalons que si la plupart des b\u00e2timents modernes sont faits de verre et d'acier, leurs fondations sont construites selon d'antiques techniques de ma\u00e7onnerie.",
+    "quote": "\"Heureux oui, bien heureux, ceux-la dont les remparts d\u00e9j\u00e0 s'\u00e9l\u00e8vent !\" - Virgile",
+    "tech_prereqs": [
+        {
+            "name": "Exploitation mini\u00e8re",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Remparts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/walls.json"
+        },
+        {
+            "name": "Pyramides",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/pyramids.json"
+        },
+        {
+            "name": "Mausol\u00e9e d'Halicarnasse|Mausol\u00e9es d'Halicarnasse",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Murs de Babylone",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/walls_of_babylon.json"
+        }
+    ]
+}

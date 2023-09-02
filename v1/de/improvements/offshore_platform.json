@@ -1,0 +1,30 @@
+{
+    "id": 14,
+    "name": "Bohrinsel",
+    "game_info": "Die Bohrinsel ist eine sp\u00e4te, aber wichtige Modernisierung im Spiel, da sie Zugang zur wertvollen Ressource \u00d6l bietet, wenn sich diese im Ozean befindet. (Bautrupps errichten Quellen, um \u00d6l zu erreichen, das sich an Land befindet.) Arbeitsboote werden beim Bau einer Bohrinsel verbraucht.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/bohrinsel.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "K\u00fchltechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Lotniskowiec|Lotniskowca|Lotniskowcu|Lotniskowiec",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Pocz\u0105tkowo transportuje 2 samoloty; pojemno\u015b\u0107 mo\u017cna zwi\u0119kszy\u0107 poprzez awanse.",
+    "historical_info": "Pierwszy start samolotu z ameryka\u0144skiego okr\u0119tu mia\u0142 miejsce w roku 1910. Chocia\u017c niekt\u00f3rzy tradycjonali\u015bci nie zgadzali si\u0119 z budow\u0105 lotniskowca, twierdz\u0105c, \u017ce pancernik by\u0142 i na zawsze pozostanie podstaw\u0105 nowoczesnej marynarki, od pocz\u0105tku lat 20. produkowano ju\u017c lotniskowce na potrzeby marynarki. W grudniu 1941 roku bez cienia w\u0105tpliwo\u015bci japo\u0144ska marynarka udowodni\u0142a si\u0142\u0119 lotniskowc\u00f3w, niszcz\u0105c du\u017c\u0105 cz\u0119\u015b\u0107 ameryka\u0144skiej floty na Pacyfiku (w\u0142\u0105cznie z wychwalanymi pancernikami) w genialnym, zaskakuj\u0105cym ataku na Pearl Harbor. Nadzwyczajnym zbiegiem okoliczno\u015bci w porcie nie by\u0142o ameryka\u0144skich lotniskowc\u00f3w, kiedy dosz\u0142o do ataku. Dzi\u0119ki nim uda\u0142o si\u0119 zahamowa\u0107 post\u0119py Japo\u0144czyk\u00f3w, dop\u00f3ki masowa ameryka\u0144ska produkcja lotniskowc\u00f3w nie zacz\u0119\u0142a przynosi\u0107 owoc\u00f3w, doprowadzaj\u0105c w ko\u0144cu do przyt\u0142aczaj\u0105cej, przewagi w powietrzu Ameryki i bolesnej pora\u017cki Japo\u0144czyk\u00f3w.",
+    "strategy": "Lotniskowiec to wyspecjalizowany okr\u0119t przenosz\u0105cy samoloty my\u015bliwskie, bombowce (ale nie bombowce stealth) oraz bomby atomowe. Sam lotniskowiec nie mo\u017ce atakowa\u0107, ale samoloty, kt\u00f3re przenosi, czyni\u0105 go najpot\u0119\u017cniejsz\u0105 p\u0142ywaj\u0105c\u0105 broni\u0105 ofensywn\u0105. Jednak lotniskowiec jest s\u0142aby w obronie, dlatego powinny go eskortowa\u0107 niszczyciele i okr\u0119ty podwodne.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Elektronika|Elektroniki|Elektronice|Elektronik\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mo\u017ce przewozi\u0107 2 \u0142adunki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

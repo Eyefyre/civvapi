@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "name": "Buque blindado|Buques blindados",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ironclad.png",
+    "game_info": "El Buque blindado es una unidad naval de combate cuerpo a cuerpo que compensa su potencia con ser m\u00e1s lenta en las casillas oce\u00e1nicas.",
+    "historical_info": "Aunque los visionarios llevan so\u00f1ando con bajeles blindados propulsados por m\u00e1quinas desde la \u00e9poca de Leonardo da Vinci, los buques blindados vieron su uso generalizado por primera vez en la Guerra de Secesi\u00f3n americana, a mediados del siglo XIX. El primer combate de verdad entre buques blindados ocurri\u00f3 en esa guerra, en 1862, entre el Monitor, de la Uni\u00f3n, y el Virginia (tambi\u00e9n llamada \"Merrimac\"), de la Confederaci\u00f3n. La refriega dur\u00f3 unas cuatro horas; ambas naves se ca\u00f1onearon desde lejos sin apenas hacerse da\u00f1o, y el enfrentamiento acab\u00f3 en tablas. No obstante, este combate dej\u00f3 una gran impronta en el mundo. En una sola ma\u00f1ana de combate inconcluso, esos buques lentos y pesados, aunque capaces de navegar contra el viento y casi impenetrables a los ca\u00f1ones de su tiempo, hab\u00edan dejado obsoletas a todas las armadas del mundo.",
+    "strategy": "Los Buques blindados son los primeros barcos de guerra a vapor que hay disponibles. Son m\u00e1s dif\u00edciles de hundir que cualquier nave a vela y su Fuerza de combate es superior. \u00dasalos principalmente para la defensa costera y el asalto de ciudades.",
+    "movement": 3,
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "M\u00e1quina de vapor",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Movimiento doble en Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/double_movement_in_coast.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Pocisk atomowy|Pocisku atomowego|Pociskowi atomowemu|Pocisk atomowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Sprowad\u017a na wrog\u00f3w nuklearn\u0105 zag\u0142ad\u0119. Sieje olbrzymie zniszczenie w miastach i uszkadza ka\u017cd\u0105 jednostk\u0119 znajduj\u0105c\u0105 si\u0119 w polu ra\u017cenia.Wymaga Projektu Manhattan i dw\u00f3ch z\u0142\u00f3\u017c uranu.",
+    "historical_info": "Pociski atomowe przenosz\u0105 jedn\u0105 lub wi\u0119cej g\u0142owic zawieraj\u0105cych bomby wodorowe o sile ra\u017cenia na tyle du\u017cej, by zmie\u015b\u0107 z powierzchni ziemi ca\u0142e miasto. Mog\u0105c okr\u0105\u017cy\u0107 p\u00f3\u0142 globu przed dostarczeniem swojego \u015bmierciono\u015bnego \u0142adunku, stanowi\u0105 najbardziej przera\u017caj\u0105c\u0105 i zab\u00f3jcz\u0105 bro\u0144 w historii ludzko\u015bci. Na chwil\u0119 obecn\u0105 nie ma przed nimi w pe\u0142ni skutecznej obrony. W momencie wystrzelenia cel mo\u017cna uzna\u0107 praktycznie za zniszczony. Na dodatek obszar w pobli\u017cu eksplozji ulega ska\u017ceniu, kt\u00f3ry utrzymuje si\u0119 przez kilka stuleci. Wiatry przenosz\u0105 opad radioaktywny, kt\u00f3ry zatruje olbrzymie po\u0142acie kontynentu i spowoduje \u015bmier\u0107 milion\u00f3w. U\u017cycie ich przeciwko wrogowi z tej samej planety zakrawa na szale\u0144stwo, chyba \u017ce chodzi o uderzenie wyprzedzaj\u0105ce.",
+    "strategy": "Pocisk atomowy to ulepszona, pot\u0119\u017cniejsza bomba atomowa. Mo\u017ce znajdowa\u0107 si\u0119 w sojuszniczym mie\u015bcie lub na pok\u0142adzie atomowego okr\u0119tu podwodnego albo kr\u0105\u017cownika rakietowego. Mo\u017ce przemieszcza\u0107 si\u0119 z bazy do bazy lub atakowa\u0107 cele w promieniu 12 p\u00f3l. Wybuch pocisku atomowego uszkodzi (i prawdopodobnie zniszczy) miasta i zg\u0142adzi wszystkie jednostki w polu ra\u017cenia wynosz\u0105cym 2 pola. W chwili ataku ulega automatycznemu zniszczeniu. Wi\u0119cej szczeg\u00f3\u0142\u00f3w znajdziesz w zasadach po\u015bwi\u0119conym broni atomowej.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistyka zaawansowana|Balistyki zaawansowanej|Balistyce zaawansowanej|Balistyk\u0119 zaawansowan\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unik (50)|Uniku (50)|Unikowi (50)|Unik (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/evasion_(50).json"
+        }
+    ]
+}

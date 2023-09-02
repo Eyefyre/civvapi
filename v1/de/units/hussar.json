@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "name": "Husar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hussar.png",
+    "game_info": "Eine schnelle berittene Einheit, die zum Aufkl\u00e4ren und f\u00fcr Blitzangriffe eingesetzt wird. Sie ist besonders mit Flankenangriffen t\u00f6dlich. Nur die \u00d6sterreicher k\u00f6nnen sie bauen.",
+    "historical_info": "Der Name \"Husaren\" entstammt dem lateinischen Wort \"cursor\", was so viel hei\u00dft wie \"Eilbote\". Diese furchteinfl\u00f6\u00dfende leichte Kavallerie diente dem Habsburgerreich und \u00d6sterreich das 17. und 18. Jahrhundert hindurch. Die Husaren, denen Kavallerieeinheiten \u00fcberall in Europa nacheiferten, wurden als irregul\u00e4res Regiment aus f\u00e4higen Reitern rekrutiert, die sich auf schnelle, unvorhersehbare Angriffe spezialisierten. Mit der Zeit wurden die Husaren zu einer formellen Einheit. Rekruten wurden auf spezifische Bedingungen hin ausgew\u00e4hlt, die sowohl den Reiter als auch sein Pferd betrafen. Husaren-Regimente wurden besonders in den Koalitionskriegen eingesetzt und dienten schlie\u00dflich in Armeen \u00fcberall in Europa und Asien bis ins 20. Jahrhundert hinein.",
+    "strategy": "Husaren sind gro\u00dfartige Aufkl\u00e4rer und Flankenangreifer. Sie sind etwas schneller als die Kavallerie, die sie ersetzen. Sie starten mit Bef\u00f6rderungen, die ihnen +1 Sicht bringen und den Bonus bei Flankenangriffen um 50% steigern.",
+    "movement": 5,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Verbesserter Flankenangriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/enhanced_flank_attack.json"
+        }
+    ]
+}

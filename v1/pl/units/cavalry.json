@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Kawaleria|Kawalerii|Kawalerii|Kawaleri\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Jednostka kawalerii mog\u0105ca skutecznie walczy\u0107 z nowoczesn\u0105 piechot\u0105.",
+    "historical_info": "Pod koniec XIX wieku europejscy i ameryka\u0144scy kawalerzy\u015bci uzbrojeni byli w samopowtarzalne karabiny. By\u0142a to ma\u0142a, niezawodna bro\u0144, zdatna odda\u0107 od 5 do 15 celnych strza\u0142\u00f3w na odleg\u0142o\u015b\u0107 do 500 jard\u00f3w. Opr\u00f3cz karabin\u00f3w, korzystano r\u00f3wnie\u017c z pistolet\u00f3w i szabli. Jako \u017ce ich wyposa\u017cenie by\u0142o si\u0119 du\u017co l\u017cejsze od wyposa\u017cenia rycerzy i lansjer\u00f3w, zyskali znacznie w stosunku do nich na szybko\u015bci i og\u00f3lnej mobilno\u015bci. Mimo i\u017c szar\u017ca wci\u0105\u017c dawa\u0142a kawalerii spor\u0105 si\u0142\u0119 uderzeniow\u0105, wi\u0119ksza celno\u015b\u0107 piechoty sprawi\u0142a, i\u017c ten manewr sta\u0142 si\u0119 wysoce ryzykowny. Po napotkaniu piechoty kawalerzy\u015bci przewa\u017cnie zsiadali z koni. Jeden z \u017co\u0142nierzy pilnowa\u0142 czterech koni, a trzej jego towarzysze walczyli.",
+    "strategy": "Jednostki kawalerii s\u0105 niszczycielskie w walce z oddzia\u0142ami walcz\u0105cymi wr\u0119cz, strzelaj\u0105cymi i z broni\u0105 obl\u0119\u017cnicz\u0105. U\u017cywaj kawalerii do niszczenia arkebuzer\u00f3w i przebij si\u0119 za linie wroga, u\u017cywaj\u0105c zdolno\u015bci ruchu po wykonaniu ataku.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

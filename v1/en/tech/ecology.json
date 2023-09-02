@@ -1,0 +1,44 @@
+{
+    "id": 65,
+    "name": "Ecology",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ecology.png",
+    "era": "Atomic Era",
+    "cost": 6400,
+    "civilopedia_entry": "Not a single technology in itself, Ecology is an interdisciplinary study of all the various forms of interactions and causations between organisms and their environment, or rather, the study of ecosystems. The basic tenant of the field is that everything in a given ecosystem - the rocks, soil, birds, bugs, trees, etc. - have an effect on and connection to all the other things in the ecosystem, either directly or through a series of chain relations. While all these things are connected, ecologists also believe in the concept of holism - that even with all these tiny interactions explained, they cannot account for every possible reaction and the entire system as a whole needs to be evaluated. Ecology studies how all these things are connected, and how changing one can effect, benefit or destroy another.The modern science of ecology is still a young one, but it did gain a large amount of popularity and momentum during the 1960's environmental movement. Ecology has grown recently to become concerned with the preservation of biodiversity, and the adverse affects that human development has had on the environments and organisms around them. Long term studies are in effect to record these effects, the current longest running one having started in 1856.Practical applications have developed from these research findings, such as the more efficient and beneficial management of natural resources like wetlands and forests, better community health planning, and even improved city planning practices. The field of ecology has also laid down the basic framework for a deeper understanding of how people interact socially.",
+    "quote": "\"Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.\" - Rachel Carson",
+    "tech_prereqs": [
+        {
+            "name": "Atomic Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+        },
+        {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/penicillin.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Telecommunications",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/telecommunications.json"
+        },
+        {
+            "name": "Mobile Tactics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mobile_tactics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Solar Plant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/solar_plant.json"
+        },
+        {
+            "name": "Sydney Opera House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/sydney_opera_house.json"
+        },
+        {
+            "name": "Recycling Center",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/recycling_center.json"
+        }
+    ]
+}

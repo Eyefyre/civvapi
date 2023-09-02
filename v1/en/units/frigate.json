@@ -1,0 +1,23 @@
+{
+    "id": 15,
+    "name": "Frigate",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/frigate.png",
+    "game_info": "Powerful Renaissance Era naval Unit used to wrest control of the seas.",
+    "historical_info": "During the \"Age of Sail,\" a frigate was a warship that was smaller than the three-decked \"ships of the line\" which formed the core of a navy's fighting vessels, but was still large enough to pack a considerable amount of firepower. Frigates were three-masted ships with their guns mounted on a single deck (a ship of the line might have two or even three decks of guns). Depending upon its size, a frigate might carry 25-50 guns. Frigates generally served as escort and patrol vessels, as well as pirate-hunters. During the War of 1812 the United States deployed so-called \"super frigates\" which carried up to 90 guns. One such vessel, the USS Constitution still survives; she is the oldest commissioned frigate still afloat.",
+    "strategy": "The Frigate is the first naval unit since the Caravel. Its Movement, Combat and Ranged Combat strengths are all enhanced when compared to the older naval unit. The Frigate can clear the seas of any Caravels, Triremes, and Barbarian units still afloat.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

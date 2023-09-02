@@ -1,0 +1,18 @@
+{
+    "id": 48,
+    "name": "Mosquete|Mosquetes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketman.png",
+    "game_info": "Primera unidad de p\u00f3lvora del juego. Es bastante poderosa y barata.",
+    "historical_info": "El mosquete es un arma de llave de chispa, de avancarga y con un largo ca\u00f1\u00f3n que se dispara apoyada en el hombro. Es un arma m\u00e1s ligera y precisa que el arcabuz, la anterior arma de fuego militar, y en el siglo XVIII ya lo hab\u00eda sustituido en todos los campos de batalla de Europa. Cuando se le incorpor\u00f3 una bayoneta, el mosquete se convirti\u00f3 adem\u00e1s en un arma utilizable en combate cuerpo a cuerpo, dejando anticuado al piquero. El \"Brown Bess\" del ej\u00e9rcito brit\u00e1nico era el mosquete t\u00edpico, estuvo en servicio desde 1722 hasta 1838 y lo utilizaron los dos bandos en la Guerra de Independencia americana.",
+    "strategy": "El Mosquete es la primera unidad de p\u00f3lvora del juego y sustituye a todos los soldados de infanter\u00eda anteriores: Soldados con espada larga, Piqueros, etc. Sin embargo, no es una unidad de combate a distancia y no puede atacar a un enemigo que est\u00e9 a m\u00e1s de un hex\u00e1gono de distancia.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "P\u00f3lvora",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

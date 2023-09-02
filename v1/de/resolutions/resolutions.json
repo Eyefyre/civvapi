@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "Weltherrscher",
+        "summary": "Bestimmt einen Weltherrscher. Erh\u00e4lt eine Zivilisation ausreichend Unterst\u00fctzung im Kongress, erringt der Anf\u00fchrer einen Diplomatiesieg. Die ben\u00f6tigte Zahl der Abgeordneten h\u00e4ngt von der Anzahl der Zivilisationen und Stadtstaaten im Spiel ab und ist auf dem Weltkongress-Bildschirm ersichtlich.Hat keine Zivilisation genug Unterst\u00fctzung f\u00fcr einen Sieg erlangt, erhalten die beiden Zivilisationen mit der meisten Unterst\u00fctzung dauerhaft 2 zus\u00e4tzliche Abgeordnete f\u00fcr zuk\u00fcnftige Sitzungen.Kann nicht von einer Zivilisation vorgeschlagen werden. Sobald der Weltkongress zu den Vereinten Nationen geworden ist, werden in regelm\u00e4\u00dfigen Abst\u00e4nden automatisch Vorschl\u00e4ge unterbreitet.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Gastgeber w\u00e4hlen",
+        "summary": "Bestimmt die Zivilisation, die den Kongress abh\u00e4lt. Der Gastgeber erh\u00e4lt zus\u00e4tzliche Abgeordnete und die F\u00e4higkeit, Resolutionen vorzuschlagen.Kann nicht von einer Zivilisation vorgeschlagen werden. Wenn Zivilisationen in sp\u00e4tere Zeitalter eintreten, wird automatisch ein Vorschlag unterbreitet.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Stadtstaat-Embargo",
+        "summary": "Keine Handelswege k\u00f6nnen zwischen Stadtstaaten eingerichtet werden. S\u00e4mtliche Handelswege werden beendet und m\u00fcssen neu initiiert werden.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "Keine Handelswege k\u00f6nnen zwischen der gew\u00e4hlten und einer anderen Zivilisation eingerichtet werden. S\u00e4mtliche Handelswege werden beendet und m\u00fcssen neu initiiert werden.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Luxusgut verbieten",
+        "summary": "Ein Luxusgut gilt als unmoralisch, gef\u00e4hrdet oder anderweitig unangemessen f\u00fcr den Allgemeingebrauch. Solange das Verbot gilt, erhalten Zivilisationen keinen Zufriedenheitsvorteil durch dieses Luxusgut.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Stehendes Heer besteuern",
+        "summary": "Unterhaltskosten f\u00fcr Einheiten steigen um 25% Gold.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Gelehrte vor Ort",
+        "summary": "Zivilisationen erforschen eine Technologie 20% schneller, wenn sie bereits von mindestens einer anderen Zivilisation entdeckt wurde.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "Weltausstellung",
+        "summary": "Beginnt das Projekt Weltausstellung. Erm\u00f6glicht nach dem Start Zivilisationen, Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt w\u00e4hlen. Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abh\u00e4ngigkeit von der H\u00f6he ihres Beitrags.   ",
+        "project_prizes": {
+            "gold": " Kultur erh\u00f6ht um 100%, h\u00e4lt 20 Runden an.",
+            "silver": "Freie Sozialpolitik.",
+            "bronze": "500 Punkte zum n\u00e4chsten Goldenen Zeitalter."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "Internationale Spiele",
+        "summary": "Beginnt das Projekt Internationale Spiele. Erm\u00f6glicht nach dem Start Zivilisationen, Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt w\u00e4hlen. Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abh\u00e4ngigkeit von der H\u00f6he ihres Beitrags.  Verf\u00fcgbar, wenn eine beliebige Zivilisation Funkwesen entdeckt.",
+        "project_prizes": {
+            "gold": " Tourismus erh\u00f6ht um 100%, h\u00e4lt 20 Runden an. Freie Sozialpolitik.",
+            "silver": "+3 Zufriedenheit. Einmalige Erh\u00f6hung von 30 Einfluss bei Stadtstaaten.",
+            "bronze": "+3 Zufriedenheit."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "Internationale Raumstation",
+        "summary": "Beginnt das Projekt Internationale Raumstation. Erm\u00f6glicht nach dem Start Zivilisationen, Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt w\u00e4hlen. Bei Fertigstellung erhalten die Zivilisationen Bonusse in Abh\u00e4ngigkeit von der H\u00f6he ihres Beitrags.  Verf\u00fcgbar, wenn eine beliebige Zivilisation Satellitentechnologie entdeckt.",
+        "project_prizes": {
+            "gold": "Das Wunder Internationale Raumstation erscheint in der Hauptstadt. +1 Produktion durch Wissenschaftler und +1 Wissenschaft durch Ingenieure. Gro\u00dfe Wissenschaftler bringen 33% mehr Wissenschaft ein, wenn sie neue Technologien erforschen. Kann nur gemeinschaftlich durch den Weltkongress gebaut werden.",
+            "silver": "Kostenloser Gro\u00dfer Wissenschaftler.",
+            "bronze": "Einmaliger Forschungsbonus."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Kulturerbest\u00e4tten",
+        "summary": "Jedes Weltwunder bringt +3 Kultur in der Stadt.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Naturerbest\u00e4tten",
+        "summary": "Jedes Naturwunder bringt +5 Kultur, wenn es bewirtschaftet wird.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Atomwaffensperrvertrag",
+        "summary": "Alle Zivilisationen werden daran gehindert, neue Atomwaffen (Atombombe und Atomrakete) zu bauen. Bereits gebaute Waffen werden jedoch nicht entsch\u00e4rft.Verf\u00fcgbar, wenn eine beliebige Zivilisation Fortgeschrittene Ballistik entdeckt.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "Weltreligion",
+        "summary": "Legt eine Religion als offizielle Weltreligion fest. Zivilisationen, in denen die Mehrheit der St\u00e4dte ihres Reiches dieser Religion folgt, erhalten 2 zus\u00e4tzliche Abgeordnete. Die Religion breitet sich 25% schneller aus und ihre heilige Stadt erh\u00e4lt +50% Tourismus. Es kann nicht mehr als eine Weltreligion gleichzeitig geben.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "Weltideologie",
+        "summary": "Legt eine Ideologie als offizielle Weltideologie fest. Zivilisationen, die dieser Ideologie folgen, erhalten 2 zus\u00e4tzliche Abgeordnete. Die \u00d6ffentliche Meinung f\u00fcr diese Ideologie wird f\u00fcr alle Zivilisationen erh\u00f6ht. Es kann nicht mehr als eine Weltideologie gleichzeitig geben.Verf\u00fcgbar, sobald eine Zivilisation das Funkwesen entdeckt.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Kunstfinanzierung",
+        "summary": "Steigert die Generierung Gro\u00dfer Schriftsteller, K\u00fcnstler und Musiker um 33%. Verringert die Generierung Gro\u00dfer Wissenschaftler, Ingenieure und H\u00e4ndler um 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Wissenschaftsfinanzierung",
+        "summary": "Steigert die Generierung Gro\u00dfer Wissenschaftler, Ingenieure und H\u00e4ndler um 33%. Verringert die Generierung Gro\u00dfer Schriftsteller, K\u00fcnstler und Musiker um 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Historische Wahrzeichen",
+        "summary": "Gro\u00dfe Pers\u00f6nlichkeiten-Modernisierungen und Wahrzeichen, die von Arch\u00e4ologen gebaut wurden, bringen +4 Kultur, wenn sie bewirtschaftet werden.Verf\u00fcgbar, sobald eine Zivilisation Arch\u00e4ologie entdeckt.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/de/resolutions/historical_landmarks.json"
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "id": 69,
+    "name": "Mohawk-Krieger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mohawk_warrior.png",
+    "game_info": "Starke Landeinheit der Klassik f\u00fcr den Frontkampf. Nur die Irokesen k\u00f6nnen sie bauen. Diese Einheit bekommt einen gro\u00dfen Bonus, wenn sie im Wald oder Dschungel k\u00e4mpft, anders als der Schwertk\u00e4mpfer, den sie ersetzt.",
+    "historical_info": "Die irokesischen Mohawk-Krieger z\u00e4hlen zu den besten leichten Infanteristen aller Zeiten. Sie waren unglaublich schnelle und flexible K\u00e4mpfer und konnten innerhalb k\u00fcrzester Zeit erstaunliche Strecken zur\u00fccklegen, wodurch sie ihre besser ausger\u00fcsteten, aber langsameren europ\u00e4ischen Gegner \u00fcberraschen und \u00fcberw\u00e4ltigen konnten. Mit einer Armee, die \"nie mehr als 3.000 Soldaten z\u00e4hlte\" konnten sie sich fast zwei Jahrhunderte gegen die Franzosen, Briten und Amerikaner behaupten.",
+    "strategy": "Der Mohawk-Krieger ist die Spezialeinheit der Irokesen und ersetzt den Schwertk\u00e4mpfer. Auf freiem und h\u00fcgeligem Gel\u00e4nde ist er genauso stark wie der Schwertk\u00e4mpfer, doch im Wald und Dschungel erh\u00e4lt der Mohawk-Krieger einen erheblichen Kampfbonus. Im Gegensatz zum Schwertk\u00e4mpfer ist kein Eisen zum Bau erforderlich.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Eisenverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kampfbonus in Wald/Dschungel (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/combat_bonus_in_forest_jungle_(33).json"
+        }
+    ]
+}

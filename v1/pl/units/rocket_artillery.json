@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Artyleria rakietowa|Artylerii rakietowej|Artylerii rakietowej|Artyleri\u0119 rakietow\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Szybka jednostka obl\u0119\u017cnicza u\u017cywana w ko\u0144cowej cz\u0119\u015bci gry. W przeciwie\u0144stwie do innych jednostek obl\u0119\u017cniczych nie trzeba jej ustawia\u0107 przed rozpocz\u0119ciem ostrza\u0142u.",
+    "historical_info": "Wraz z kolejnymi konfliktami, jednostki artyleryjskie zmienia\u0142y si\u0119 i ewoluowa\u0142y w coraz bardziej \u015bmierciono\u015bnym kierunku. Artyleria rakietowa jest jednym z najwy\u017cszych ogniw tej ewolucji. Korzysta z amunicji dysponuj\u0105cej w\u0142asnym nap\u0119dem. Dzi\u0119ki temu jej wyrzutnie s\u0105 mniejsze i l\u017cejsze od standardowych luf artyleryjskich. Mo\u017ce porusza\u0107 si\u0119 i prowadzi\u0107 ostrza\u0142 o wiele sprawniej od swoich klasycznych odpowiednik\u00f3w. Najbardziej zaawansowane systemy artyleryjskie posiadaj\u0105 systemy naprowadzania, dzi\u0119ki kt\u00f3rym mo\u017cliwa jest zmiana trajektorii pocisk\u00f3w w trakcie ich lotu.",
+    "strategy": "Artyleria rakietowa to niezwykle pot\u0119\u017cna bro\u0144 obl\u0119\u017cnicza, o wiele lepsza od zwyk\u0142ej artylerii. Nie musi si\u0119 ustawia\u0107 przed rozpocz\u0119ciem ostrza\u0142u, dlatego jest o wiele szybsza od wcze\u015bniejszych dzia\u0142. Cho\u0107 ma ograniczone pole widzenia, mo\u017ce ostrzeliwa\u0107 ogniem po\u015brednim cele, kt\u00f3rych nie widzi (o ile inne jednostki maj\u0105 wroga w polu widzenia). Jak ka\u017cda jednostka artyleryjska, jest podatna na ataki piechoty i czo\u0142g\u00f3w, dlatego powinna by\u0107 odpowiednio chroniona.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Technika rakietowa|Techniki rakietowej|Technice rakietowej|Technik\u0119 rakietow\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ostrza\u0142 po\u015bredni|Ostrza\u0142u po\u015bredniego|Ostrza\u0142owi po\u015bredniemu|Ostrza\u0142 po\u015bredni",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

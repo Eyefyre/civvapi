@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserker|Berserkers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Puissante unit\u00e9 terrestre de premi\u00e8re ligne du Moyen \u00c2ge sp\u00e9cialis\u00e9e dans les attaques venues de la mer. Peut \u00eatre construite uniquement par le Danemark. Remplace le spadassin \u00e0 \u00e9p\u00e9e longue, mais est disponible plus t\u00f4t.",
+    "historical_info": "Les berserkers de la Grande Arm\u00e9e faisaient partie des unit\u00e9s les plus redout\u00e9es de la fin du IXe si\u00e8cle. L'immense arm\u00e9e viking, constitu\u00e9e de berserkers, guerriers et marins, fut form\u00e9e pour mener une s\u00e9rie d'attaques sur Paris et Rouen entre 845 et 850, qui lui ont permis d'affiner ses tactiques et au cours desquelles de nouveaux soldats ont rejoint ses rangs. En 865, l'arm\u00e9e accoste \u00e0 l'est des \u00celes Britanniques avec pour objectif de toutes les conqu\u00e9rir. Un an plus tard, elle conquiert le royaume de Northumbrie, puis le royaume d'East Anglia en 870 et la Mercie en 874. Les colons qui accompagnent la Grande Arm\u00e9e fondent le royaume d'York en 878 sur des terres d\u00e9vast\u00e9es. La Grande Arm\u00e9e est finalement vaincue en 878. Ses membres encore vivants s'installent en East Anglia, en Essex et en Mercie.",
+    "strategy": "Le berserker est l'une des deux unit\u00e9s exclusives aux Danois, et remplace le spadassin \u00e0 \u00e9p\u00e9e longue. Mouvement +1 [ICON_MOVES] par rapport au spadassin \u00e0 \u00e9p\u00e9e longue. Poss\u00e8de la promotion Amphibie, qui lui permet d'attaquer des cibles terrestres depuis une case c\u00f4ti\u00e8re sans p\u00e9nalit\u00e9. Disponible apr\u00e8s avoir \u00e9tudi\u00e9 le moulage plut\u00f4t que l'acier.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Moulage",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/amphibious.json"
+        }
+    ]
+}

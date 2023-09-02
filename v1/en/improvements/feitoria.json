@@ -1,0 +1,49 @@
+{
+    "id": 28,
+    "name": "Feitoria",
+    "game_info": "The Feitoria - Portuguese for \"factory\" - were trading posts established in foreign territories during the Middle Ages. A feitoria served simultaneously as marketplace, warehouse, settlement, and staging point for exploration. Often established with a grant from the Portuguese crown, these private enterprises repaid their debt through the buying and selling of goods on behalf of the crown and through collecting taxes on trade that passed through their gates. During the 15th and 16th centuries, a chain of over 50 feitoria were built along the coasts of west and east Africa, India, Malaya, China and Japan. The feitoria allowed Portugal to dominate the Atlantic and Indian Ocean trade routes for three centuries.A Feitoria can only be built in a City-State's lands, on a coastal tile without a resource. It provides one copy of each Luxury Resource type that the City-State has connected, regardless of your status with that City-State, but that copy cannot be traded. It also provides the same +50% defense bonus as a Fort. Can only be built by the Portuguese.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/feitoria.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+    },
+    "required_civ": {
+        "name": "Portugal",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/civilizations/portugal.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

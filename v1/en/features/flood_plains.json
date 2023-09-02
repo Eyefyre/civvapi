@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Flood Plains",
+    "historical_info": "Flood plains are low-lying areas adjacent to rivers. Every year the river floods, providing natural irrigation and rich nutrients to the land, making flood plains incredibly fertile and the most productive farmland in the world. Ancient Egypt owed most of its wealth and power to the annual flood of the mighty Nile river.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/flood_plains.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Wheat",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/wheat.json"
+        },
+        {
+            "name": "Sugar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+        }
+    ]
+}

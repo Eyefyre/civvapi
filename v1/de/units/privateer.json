@@ -1,0 +1,27 @@
+{
+    "id": 118,
+    "name": "Freibeuter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/privateer.png",
+    "game_info": "Marineeinheit, die sich auf den Angriff von K\u00fcstenst\u00e4dten spezialisiert hat, um Gold und feindliche Schiffe einzunehmen.",
+    "historical_info": "Mit Kaperbriefen ausgestattet stand es Freibeuter-Kapit\u00e4nen in Kriegszeiten frei, auf offener See ausl\u00e4ndische Handelsschiffe beliebig anzugreifen. Freibeuter stachen vor allem vom 16. bis 19. Jahrhundert in See und wurden von allen gro\u00dfen Kolonialm\u00e4chten eingesetzt, besonders von Gro\u00dfbritannien und Spanien. Da die Kapit\u00e4ne und Mannschaften der Freibeuter \u00fcblicherweise keine Bezahlung von der Regierung erhielten, die ihnen den Kaperbrief erteilt hatte, erhielten sie einen Anteil an der Beute, die sie der gegnerischen Flotte abnahmen, sodass es manchmal schwierig erschien, die Freibeuter von den Piraten zu unterscheiden, die ohne derartige Befugnisse handelten.",
+    "strategy": "Marineeinheit, die als Nahkampfeinheit angreift. Beginnt mit der Bef\u00f6rderung K\u00fcstenr\u00e4uber I und verdient so Gold beim Angriff von K\u00fcstenst\u00e4dten. Kann alle feindlichen Marineeinheiten bei einer Niederlage als Prisenschiffe \u00fcbernehmen.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "K\u00fcstenr\u00e4uber I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Prisenschiffe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/prize_ships.json"
+        }
+    ]
+}

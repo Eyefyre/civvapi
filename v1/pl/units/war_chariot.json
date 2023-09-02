@@ -1,0 +1,31 @@
+{
+    "id": 72,
+    "name": "Rydwany bojowe|Rydwan\u00f3w bojowych|Rydwanom bojowym|Rydwan\u00f3w bojowych",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_chariot.png",
+    "game_info": "Szybka jednostka dystansowa. Tylko Egipcjanie mog\u0105 j\u0105 rekrutowa\u0107. W przeciwie\u0144stwie do strzelc\u00f3w rydwanowych nie wymaga koni.",
+    "historical_info": "Egipcjanie byli wczesnymi mistrzami rydwan\u00f3w, a ich przeciwnicy mieli wszelkie podstawy, by obawia\u0107 si\u0119 mocy rydwan\u00f3w bojowych. Cz\u0119sto na takich rydwanach osobi\u015bcie uczestniczyli w walce faraonowie. Amenhotep II przechwala\u0142 si\u0119, \u017ce z rozp\u0119dzonego rydwanu trafi\u0142 cztery cele, oddalone od siebie o trzydzie\u015bci st\u00f3p z tak\u0105 si\u0142a, \u017ce strza\u0142y przebi\u0142y siedem centymetr\u00f3w miedzi stanowi\u0105cych tarcz\u0119. Dok\u0142adnie jak ka\u017cda inna jazda, rydwany bojowe szczeg\u00f3lnie przydawa\u0142y si\u0119 w po\u015bcigu za wycofuj\u0105cym si\u0119 przeciwnikiem. Gdy wr\u00f3g ucieka\u0142, nie m\u00f3g\u0142 ochroni\u0107 si\u0119 tarcz\u0105 i stawa\u0142 si\u0119 kompletnie bezbronny przed ogniem z \u0142uk\u00f3w albo po prostu m\u00f3g\u0142 zosta\u0107 zmia\u017cd\u017cony pod ko\u0142ami p\u0119dz\u0105cego rydwanu.",
+    "strategy": "Rydwany bojowe to unikatowa jednostka egipska zast\u0119puj\u0105ca strzelc\u00f3w rydwanowych. Jest od nich szybsza, a Egipcjanie mog\u0105 j\u0105 stworzy\u0107 nawet, je\u015bli nie maj\u0105 koni. Jako jednostka kawalerii s\u0105 podatne na ataki w\u0142\u00f3cznik\u00f3w.",
+    "movement": 5,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kara za trudny teren|Kary za trudny teren|Karze za trudny teren|Kar\u0119 za trudny teren",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

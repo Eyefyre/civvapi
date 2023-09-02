@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Seehafen",
+    "game_info": "+1 Produktion und Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. +15% Produktion beim Bau von Marineeinheiten.Die Stadt muss an der K\u00fcste liegen.",
+    "strategy": "Ein Seehafen erh\u00f6ht die Produktion einer modernisierten Meeresressource.",
+    "historical_info": "Ein Seehafen ist ein moderner Superhafen mit tiefem Wasser, der selbst die gr\u00f6\u00dften Tanker und Transportschiffe abfertigen kann. Typisch f\u00fcr Seeh\u00e4fen sind jede Menge Kr\u00e4ne, die eine rasche L\u00f6schung der Ladung erm\u00f6glichen, die dann durch ein verwirrendes Labyrinth von Bahnschienen und Stra\u00dfen abtransportiert wird. Moderne Seeh\u00e4fen werden von Hafenmeistern in Hightech-Steuerzentralen via Radar, Satelliten\u00fcbertragung und leistungsf\u00e4hige Computer mit komplexer Logistik-Software \u00fcberwacht.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/seehafen.png",
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

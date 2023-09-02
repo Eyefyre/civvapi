@@ -1,0 +1,32 @@
+{
+    "id": 48,
+    "name": "Biologia|della Biologia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/biology.png",
+    "era": "Epoca industriale",
+    "cost": 2350,
+    "civilopedia_entry": "La biologia \u00e8 lo studio degli organismi viventi. \u00c8 un campo di ricerca amplissimo, che va dalla balena gigantesca al pi\u00f9 microscopico batterio. Prima del XIX secolo la biologia si occupava pi\u00f9 che altro di scoprire e classificare tutte le piante, gli insetti e gli altri animali che popolano la Terra. In seguito agli avanzamenti scientifici e tecnologici, gli scienziati hanno cominciato a esplorare i \"mattoni fondamentali\" della biologia: prima le cellule, poi i geni e il DNA. Oggi conosciamo buona parte della biologia di tutti gli organismi del pianeta.I biologi sono diventati cos\u00ec bravi a manipolare la vita che hanno cominciato a spingersi in aree che fino a poco tempo fa sarebbero state considerate appannaggio esclusivo della letteratura fantastica. Sono state clonate pecore, e presto o tardi la stessa cosa verr\u00e0 fatta con gli esseri umani. La nanobiologia \u00e8 diventata un vero e proprio campo di studi. Geni specifici possono essere attivati o disattivati per consentire una riproduzione selettiva di alcuni tratti. Se il progresso continua a questo ritmo \u00e8 possibile immaginare un futuro non troppo distante in cui le malattie saranno state sconfitte, le protesi bioniche saranno di uso comune e l'aspettativa di vita delle persone si sar\u00e0 allungata di parecchi decenni.",
+    "quote": "\"Se il cervello fosse cos\u00ec semplice da poter essere compreso, noi saremmo troppo semplici per comprenderlo.\" - Lyall Watson",
+    "tech_prereqs": [
+        {
+            "name": "Archeologia|dell'Archeologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+        },
+        {
+            "name": "Teoria scientifica|della Teoria scientifica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Refrigerazione|della Refrigereazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Ospedale|l'Ospedale|un Ospedale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hospital.json"
+        }
+    ]
+}

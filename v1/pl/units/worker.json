@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "name": "Robotnicy|Robotnik\u00f3w|Robotnikom|Robotnik\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/worker.png",
+    "game_info": "Zwi\u0119kszaj\u0105 doch\u00f3d produkcji, \u017cywno\u015bci oraz z\u0142ota poprzez tworzenie ulepsze\u0144 na polach wok\u00f3\u0142 miast.",
+    "historical_info": "Aby prze\u017cy\u0107, cywilizacja potrzebuje utalentowanych robotnik\u00f3w. Mog\u0105 to by\u0107 wyszkoleni in\u017cynierowie albo cywile zmuszeni do pracy (albo niewolnicy), ale kto\u015b musi pracowa\u0107 w kopalniach, ora\u0107 pola oraz brukowa\u0107 drogi. Bez tych kobiet i m\u0119\u017cczyzn cywilizacja popadnie w stagnacj\u0119 i w ko\u0144cu stanie si\u0119 ofiar\u0105 aktywniejszych s\u0105siad\u00f3w.",
+    "strategy": "Ta jednostka buduje drogi, kolej i ulepszenia takie jak farmy i kopalnie. Nie mo\u017ce si\u0119 broni\u0107, wi\u0119c powinny j\u0105 chroni\u0107 jednostki wojskowe, je\u015bli wchodzi na niebezpieczny teren.",
+    "movement": 2,
+    "cost": {
+        "production": 70,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

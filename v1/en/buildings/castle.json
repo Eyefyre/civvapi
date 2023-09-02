@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Castle",
+    "game_info": "City must have Walls.",
+    "strategy": "The Castle is a Medieval-era building which increases the city's Defensive Strength by 7 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.",
+    "historical_info": "A castle is a building designed to protect a military force (and perhaps some civilians, too) from its enemies. Primarily constructed of stone (wood being unfortunately flammable), castles usually contain an outer wall and a separate fortified inner building, or \"donjon.\" A castle should also contain an independent water source and storage for a lot of food.A well-designed castle should provide its defenders with a way to kill the attackers during their approach, and while they're attempting to scale the walls or break through the gates. Arrow slits and crenellations (battlements with portions cut out at regular intervals) are required, while \"murder holes\" to shoot arrows or pour boiling oil on attackers' heads are a nice addition.Castles were the largest and most expensive sign of a country's military and economic might until the advent of gunpowder artillery made them into elaborate and expensive deathtraps for those within.",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/castle.png",
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

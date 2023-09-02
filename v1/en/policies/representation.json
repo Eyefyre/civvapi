@@ -1,0 +1,20 @@
+{
+    "id": 66,
+    "name": "Representation",
+    "game_info": "RepresentationEach city you found will increase the Culture cost of policies by 33% less than normal. Also starts a Golden Age.",
+    "historical_info": "Representation is a policy where the citizens of a nation appoint \"representatives\" to run the government. This might be considered a step up from collective rule, once the population becomes too large to support that government type. In a representative form of government, the country is divided into smaller, more manageable districts (or parishes, or states, or whatever), and each chooses one or more local citizens to represent their interests in the government for a set period of time. The representatives form a parliament or some other kind of deliberative body, and they rule the country. While most representative forms of governments are republics, it is not strictly necessary. Some representative governments elect temporary or permanent kings and other nobility to rule over them.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/representation.png",
+    "required_policies": [
+        {
+            "name": "Citizenship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/citizenship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Liberty",
+        "game_info": "Liberty is best for civilizations which desire rapid expansion.Adopting Liberty will provide 1 Culture in every city. Unlocks building the Pyramids.Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the Capital.",
+        "prereq_era": null,
+        "historical_info": "As a policy, liberty can be defined as the basic assumption that a nation's citizens deserve to be free. Free from physical restraint, and free from despotic control. Serfs, slaves, and hereditary servants do not enjoy liberty, nor do citizens who are forced to live within a certain village or gulag or ghetto."
+    }
+}

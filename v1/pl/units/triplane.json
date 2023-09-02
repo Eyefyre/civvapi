@@ -1,0 +1,35 @@
+{
+    "id": 114,
+    "name": "Tr\u00f3jp\u0142aty|Tr\u00f3jp\u0142at\u00f3w|Tr\u00f3jp\u0142atom|Tr\u00f3jp\u0142aty",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/triplane.png",
+    "game_info": "Wczesna jednostka powietrzna zaprojektowana w celu przechwytywania samolot\u00f3w wroga.",
+    "historical_info": "Tr\u00f3jp\u0142at, bior\u0105cy sw\u0105 nazw\u0119 od nietypowego systemu trzech skrzyde\u0142, jaki wykorzystano w jego konstrukcji, by\u0142 z r\u00f3\u017cnym powodzeniem wykorzystywany podczas I wojny \u015bwiatowej. Najs\u0142awniejszy z nich Fokker Dr. I by\u0142 cz\u0119sto u\u017cywany przez niemieckie si\u0142y lotnicze i zdoby\u0142 rozg\u0142os jako samolot, kt\u00f3rego u\u017cywa\u0142 legendarny Czerwony Baron. Cho\u0107 in\u017cynierowie opracowali rozmaite warianty tego projektu, rozw\u00f3j tradycyjnego dwup\u0142atowca sprawi\u0142, \u017ce tr\u00f3jp\u0142atowce znikn\u0119\u0142y z nieba w przeci\u0105gu dziesi\u0119ciu lat od powstania.",
+    "strategy": "Tr\u00f3jp\u0142at to wczesna jednostka powietrzna. Mo\u017ce stacjonowa\u0107 w ka\u017cdym posiadanym przez ciebie mie\u015bcie lub na pok\u0142adzie lotniskowca. Mo\u017ce porusza\u0107 si\u0119 z miasta do miasta (lub lotniskowca), mo\u017ce tak\u017ce wykonywa\u0107 misje w odleg\u0142o\u015bci do 5 p\u00f3l. U\u017cywaj tr\u00f3jp\u0142at\u00f3w w celu atakowania wrogich jednostek powietrznych oraz naziemnych, zwiad\u00f3w wrogich pozycji oraz obrony przed atakami powietrznymi. W zasadach dotycz\u0105cych jednostek powietrznych znajduje si\u0119 wi\u0119cej informacji.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Lot|Lotu|Lotowi|Lot",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/flight.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (50)|Przechwytywania (50)|Przechwytywaniu (50)|Przechwytywanie (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(50).json"
+        },
+        {
+            "name": "Czyszczenie nieba|Czyszczenia nieba|Czyszczeniu nieba|Czyszczenie nieba",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_sweep.json"
+        },
+        {
+            "name": "Rozpoznanie powietrzne|Rozpoznania powietrznego|Rozpoznaniu powietrznemu|Rozpoznanie powietrzne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_recon.json"
+        },
+        {
+            "name": "Premia przeciwko bombowcom i \u015bmig\u0142. (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

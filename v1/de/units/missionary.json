@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Missionar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Kann Religion in St\u00e4dten verbreiten. Kann nur mit Glauben gekauft werden.",
+    "historical_info": "Missionare sind Mitglieder einer religi\u00f6sen Gruppe oder Sekte, die ins Ausland entsandt werden, um die Botschaft ihrer Religion zu verbreiten. Ihr vornehmliches Ziel dabei ist es, ihre religi\u00f6sen Ansichten mitzuteilen und neue Anh\u00e4nger zu gewinnen. Normalerweise schenken sie den Gebieten, die sie besuchen, positive Dienste. So errichten sie beispielsweise Kliniken, Schulen und bieten andere soziale Hilfeleistungen, w\u00e4hrend sie gleichzeitig ihren Glauben vermitteln wollen.",
+    "strategy": "Kann mit Glauben in jeder Stadt mit einer Mehrheitsreligion gekauft werden. In direkter N\u00e4he einer Stadt kann er dort seine Religion verbreiten (der Missionar wird nach dem zweiten Einsatz verbraucht). Wenn ein Missionar eine andere Zivilisation ohne offene Grenzen betritt, verliert er pro Runde religi\u00f6se St\u00e4rke. Sinkt seine religi\u00f6se St\u00e4rke auf null, so wird er zerst\u00f6rt.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Zugang zu feindlichem Territorium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Unerw\u00fcnschter Evangelist",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

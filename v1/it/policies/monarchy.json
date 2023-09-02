@@ -1,0 +1,20 @@
+{
+    "id": 50,
+    "name": "Monarchia",
+    "game_info": "Monarchia+1 Oro e -1 Infelicit\u00e0 ogni 2 cittadini nella capitale.",
+    "historical_info": "La monarchia \u00e8 una forma di governo in cui il potere \u00e8 affidato a un singolo individuo. Spesso, ma non sempre, alla morte del re il potere passa al suo erede (ci sono anche monarchie elettive, ma non sono molte). La monarchia \u00e8 simile al dispotismo, ma c'\u00e8 un'importante differenza: un re deve rispettare le leggi, mentre il despota \u00e8 al di sopra di ogni controllo. Naturalmente \u00e8 possibile che un monarca sia anche un despota, ma pu\u00f2 anche darsi che faccia parte di un contesto politico che concede un buon grado di libert\u00e0 ai sudditi. La Gran Bretagna \u00e8 un ottimo esempio di quest'ultimo caso.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/monarchia.png",
+    "required_policies": [
+        {
+            "name": "Legalismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/legalism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Tradizionalismo",
+        "game_info": "Il Tradizionalismo \u00e8 pi\u00f9 indicato per gli imperi piccoli.Adottare il Tradizionalismo rende significativamente pi\u00f9 rapida l'espansione dei confini delle citt\u00e0 e fornisce 3 Cultura nella capitale. Sblocca la costruzione dei Giardini Pensili.Adottare tutte le Politiche nell'albero del Tradizionalismo fornisce un bonus di +15% alla Crescita e un Acquedotto gratuito nelle tue prime 4 citt\u00e0; inoltre permette l'acquisto di Grandi Ingegneri in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": null,
+        "historical_info": "Il tradizionalismo impone di rispettare le decisioni prese dagli antenati e da tutti i governanti del passato. Ogni novit\u00e0 \u00e8 considerata con sospetto e profonda diffidenza. Anche nelle nazioni moderne come gli Stati Uniti la tradizione pu\u00f2 essere molto forte, come dimostra la costante tensione tra chi propugna una totale aderenza alla lettera della Costituzione americana e chi invece ritiene che la carta dei Padri fondatori debba essere interpretata con una certa larghezza di vedute, alla luce di una societ\u00e0 e di un mondo in costante cambiamento. Il primo di questi due gruppi \u00e8 decisamente pi\u00f9 tradizionalista del secondo."
+    }
+}

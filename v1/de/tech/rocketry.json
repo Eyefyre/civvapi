@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Raketentechnik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "Atomzeitalter",
+    "cost": 6400,
+    "civilopedia_entry": "Das Datum des ersten bekannten Raketenflugs ist nicht ganz unumstritten, doch man nimmt gemeinhin an, dass er um das Jahr 1230 n. Chr. w\u00e4hrend einer Milit\u00e4roperation in China stattgefunden hat. Der erste tats\u00e4chlich aufgezeichnete Flug fand im Jahr 1264 in China im Rahmen eines durch innere Verbrennung angetriebenen Feuerwerks statt. Diese fr\u00fchen Raketen nutzten feste Brennstoffe, f\u00fcr gew\u00f6hnlich Schie\u00dfpulver, und flogen mit einer Strecke von nur etwa 600 Metern nicht besonders weit.Die Erfindung der modernen Raketentechnik kann direkt Professor Robert Goddard zugeschrieben werden, der festlegte, dass Brennstoff in kleinen, voneinander getrennten Brennkammern verbrannt werden und die Rakete in mehrere Stufen unterteilt werden sollte sowie dass die Aussto\u00dfgeschwindigkeit mit einer speziellen sanduhrf\u00f6rmigen D\u00fcse, der Lavald\u00fcse, gesteigert werden kann. Bis zu diesem Punkt wurde der Treibstoff von Raketen in einer einzigen gro\u00dfen Kammer verbrannt und sie konnten weder au\u00dfergew\u00f6hnlich schnell fliegen noch interkontinentale Strecken zur\u00fccklegen.Raketen werden heutzutage von fl\u00fcssigen Brennstoffen angetrieben, mit denen die Rakete effektiv und kosteng\u00fcnstig auf \u00dcberschallgeschwindigkeiten beschleunigen kann. Neben dem offensichtlichen milit\u00e4rischen Nutzen, Sprengk\u00f6pfe \u00fcber weite Entfernungen zu transportieren, werden Raketen au\u00dferdem f\u00fcr Feuerwerk, Schleudersitze, Atmosph\u00e4renforschung und nat\u00fcrlich die Raumfahrt eingesetzt.",
+    "quote": "\"Eine Faustregel, die jeder Raketenforscher beherzigen sollte: Man sollte immer davon ausgehen, dass sie explodiert.\" - Raumfahrtmagazin, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fortgeschrittene Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satellitentechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/satellites.json"
+        },
+        {
+            "name": "Robotertechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mobile Boden-Luft-Rakete",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/mobile_sam.json"
+        },
+        {
+            "name": "Raketenartillerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

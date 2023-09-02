@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Spadochroniarze|Spadochroniarzy|Spadochroniarzom|Spadochroniarzy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Silna jednostka piechoty zdolna do dokonania zrzutu spadochronowego do 9 p\u00f3l od w\u0142asnego terytorium. Spadochroniarze mog\u0105 po skoku wykona\u0107 ruch i pl\u0105drowa\u0107, lecz walczy\u0107 dopiero w nast\u0119pnej turze.",
+    "historical_info": "Spadochroniarze to lekka piechota, wyszkolona do skakania na pole bitwy z samolot\u00f3w poza liniami wroga. Z konieczno\u015bci spadochroniarze s\u0105 lekko uzbrojeni i maj\u0105 ograniczony zapas amunicji, dlatego s\u0105 zmuszeni polega\u0107 na elemencie zaskoczenia, by pokona\u0107 przeciwnik\u00f3w. Potrzebuj\u0105 r\u00f3wnie\u017c szybkiego wsparcia jednostek naziemnych, przebijaj\u0105cych si\u0119 przez linie wroga, inaczej nara\u017c\u0105 si\u0119 na zag\u0142ad\u0119, kiedy wr\u00f3g si\u0119 przegrupuje i ich otoczy.W czasie II wojny \u015bwiatowej spadochroniarzy wykorzystywano z niewielkim sukcesem \u2013 niemieccy spadochroniarze wzi\u0119li udzia\u0142 w inwazji na Dani\u0119 w 1940 roku. Zaatakowali r\u00f3wnie\u017c i zaj\u0119li Kret\u0119 w 1941 roku, ale straty w\u015br\u00f3d \u017co\u0142nierzy by\u0142y tak wielkie, \u017ce Adolf Hitler zabroni\u0142 przysz\u0142ych atak\u00f3w z powietrza na wielk\u0105 skal\u0119. Si\u0142y alianckie zrzuci\u0142y spadochroniarzy z umiarkowanym sukcesem podczas inwazji w Normandii w 1944 roku, ale wielkie ataki spadochronowe podczas operacji \u201eMarket Garden\u201d w Holandii i w Niemczech p\u00f3\u017aniej w tym samym roku by\u0142y dalekie od sukcesu, zostawiaj\u0105c za sob\u0105 wiele ofiar w\u015br\u00f3d brytyjskich, polskich i ameryka\u0144skich spadochroniarzy.Chocia\u017c s\u0142u\u017cby specjalne wci\u0105\u017c zatrudniaj\u0105 spadochroniarzy, w nowoczesnej armii ta praktyka wysz\u0142a z mody. Dzisiaj wi\u0119kszo\u015b\u0107 \u017co\u0142nierzy transportuj\u0105 na pole bitwy helikoptery.",
+    "strategy": "Spadochroniarze to jednostki piechoty z p\u00f3\u017anej fazy gry. S\u0105 nieco s\u0142absi ni\u017c piechota zmechanizowana, lecz za to mog\u0105 dokona\u0107 zrzutu spadochronowego do 9 p\u00f3l od swojego po\u0142o\u017cenia (zaczynaj\u0105c na terenie sprzymierzonym). Pozwala to spadochroniarzowi na dos\u0142owne przeskoczenie pozycji przeciwnika i niszczenie sieci dr\u00f3g, wa\u017cnych ulepsze\u0144 i tak dalej oraz sianie spustoszenia na ty\u0142ach wroga. Misje takie wi\u0105\u017c\u0105 si\u0119 z wielkim zagro\u017ceniem dla spadochroniarzy, upewnij si\u0119 wi\u0119c, \u017ce cel jest tego wart!",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar|Radaru|Radarowi|Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mo\u017cliwo\u015b\u0107 desantu spadochronowego",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_paradrop.json"
+        },
+        {
+            "name": "Nie traci ruchu za pl\u0105drowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

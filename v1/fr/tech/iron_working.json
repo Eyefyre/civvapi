@@ -1,0 +1,49 @@
+{
+    "id": 21,
+    "name": "Travail du fer",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/iron_working.png",
+    "era": "\u00c8re classique",
+    "cost": 175,
+    "civilopedia_entry": "Le travail du fer est plus ancien que l'Histoire elle-m\u00eame. Le premier fer \u00e0 avoir \u00e9t\u00e9 travaill\u00e9 fut probablement le fer m\u00e9t\u00e9orique, mais ce mat\u00e9riau n'\u00e9tant pas des plus \u00e9vidents \u00e0 trouver, les peuples de l'antiquit\u00e9 lui cherch\u00e8rent ailleurs un substitut. La technique d'extraction du fer par fusion (ou l'extraction du m\u00e9tal contenu dans le minerai de fer) semble avoir \u00e9t\u00e9 d\u00e9couverte au XIIe si\u00e8cle av. J.-C. dans le Caucase, en Asie Mineure, ou en Inde. La production du fer forg\u00e9, elle, apparut vers l'an 1000 av. J.-C. Les objets les plus anciens \u00e0 avoir \u00e9t\u00e9 fabriqu\u00e9s \u00e0 partir de fer m\u00e9t\u00e9orique datent de 4000 av. J.-C., et sont originaires de l'\u00c9gypte antique et de Sumer. A cette \u00e9poque, le fer \u00e9tait extr\u00eamement rare, au point que certains historiens pensent qu'il \u00e9tait alors plus pr\u00e9cieux que l'or.Au XIIe si\u00e8cle av. J.-C., en M\u00e9diterran\u00e9e orientale, le fer rempla\u00e7a le bronze comme mat\u00e9riau de pr\u00e9dilection dans la fabrication d'armes et d'outils. Non pas qu'il fut un mat\u00e9riau de meilleure qualit\u00e9 que le bronze qu'il rempla\u00e7a : il \u00e9tait simplement plus abondant, et se trouvait dans des r\u00e9gions pauvres en cuivre et en \u00e9tain (mat\u00e9riaux constitutifs du bronze), le rendant nettement plus abordable.Le m\u00e9tal \"moderne\" qu'est l'acier, fut produit pour la premi\u00e8re fois durant la Pr\u00e9histoire, mais la technologie permettant sa production \u00e0 grande \u00e9chelle ne fut d\u00e9couverte qu'au XVIIe si\u00e8cle apr. J.-C. Une fois l'acier devenu bon march\u00e9 et abondant, il supplanta le fer dans la quasi-totalit\u00e9 de ses utilisations.",
+    "quote": "\"N'attendez pas que le fer soit chaud pour le battre : enflammez-le de vos coups r\u00e9p\u00e9t\u00e9s.\" - William Butler Yeats",
+    "tech_prereqs": [
+        {
+            "name": "Travail du bronze",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Moulage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Spadassin|Spadassins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/swordsman.json"
+        },
+        {
+            "name": "Guerrier mohawk|Guerriers mohawks",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/mohawk_warrior.json"
+        },
+        {
+            "name": "L\u00e9gion|L\u00e9gions",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/legion.json"
+        },
+        {
+            "name": "Spadassin \u00e0 kriss|Spadassins \u00e0 kriss",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/kris_swordsman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "\u00c9pop\u00e9e h\u00e9ro\u00efque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/heroic_epic.json"
+        },
+        {
+            "name": "Colosse|Colosses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/colossus.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stadio|lo Stadio|uno Stadio",
+    "game_info": "Non pu\u00f2 fornire pi\u00f9 Felicit\u00e0 del numero di cittadini presenti in citt\u00e0. La citt\u00e0 deve gi\u00e0 disporre di uno Zoo.",
+    "strategy": "Uno Stadio \u00e8 un edificio di epoca moderna che aumenta la Felicit\u00e0 nell'impero, ma non pu\u00f2 fornire pi\u00f9 Felicit\u00e0 del numero di cittadini presenti in citt\u00e0. Per poter costruire uno Stadio la citt\u00e0 deve gi\u00e0 disporre di uno Zoo.",
+    "historical_info": "Lo stadio \u00e8 una versione moderna del colosseo, rispetto al quale pu\u00f2 probabilmente vantare una migliore selezione di rinfreschi. Gli stadi moderni possono contenere fino a 100.000 tifosi urlanti che accorrono ad assistere a un incontro sportivo, un concerto o magari un evento politico. Gli appassionati di sport del giorno d'oggi non sono molto pi\u00f9 tranquilli dei loro antenati del mondo antico: per questo gli stadi sono muniti di cancelli, paratie di separazione e guardie che assicurano l'incolumit\u00e0 degli spettatori.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadio|lo_stadio|uno_stadio.png",
+    "prereq_tech": {
+        "name": "Refrigerazione|della Refrigereazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

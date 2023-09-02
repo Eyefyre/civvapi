@@ -1,0 +1,29 @@
+{
+    "id": 11,
+    "name": "Bananas",
+    "game_info": null,
+    "historical_info": "A banana is a popular tropical fruit. It, and its cousins the plantains, are an important part of many tropical peoples' diets. Originating in Southeast Asia, the banana is now cultivated around the world.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bananas.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        }
+    ]
+}

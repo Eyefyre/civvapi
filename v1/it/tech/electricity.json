@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "Elettricit\u00e0|dell'Elettricit\u00e0",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "Epoca industriale",
+    "cost": 2350,
+    "civilopedia_entry": "Il primo contatto dell'uomo con l'elettricit\u00e0, sotto forma di scariche elettriche inflitte dai pesci, risale al 2750 a.C., come dimostrano alcuni resoconti di autori egizi. Nel XV secolo d.C. gli arabi hanno scoperto che anche i fulmini erano una manifestazione elettrica, un fatto successivamente confermato dallo scienziato anglo-americano Benjamin Franklin nel 1752. La prima batteria vagamente affidabile fu realizzata nel 1800 da Alessandro Volta; il motore elettrico fu inventato nel 1821 da Michael Faraday.Gli studi sull'elettricit\u00e0 svolti nella seconda met\u00e0 dell'Ottocento da geni come Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell e Lord Kelvin hanno rivoluzionato la vita degli uomini in tutto il mondo. Il telegrafo, il telefono e la radio hanno aumentato radicalmente la velocit\u00e0 e l'accuratezza con cui \u00e8 possibile trasmettere le informazioni. Una volta posto in opera il primo cavo transatlantico, un messaggio inviato da New York poteva raggiungere Londra nel giro di pochi secondi. Prima dell'avvento dell'elettricit\u00e0, il messaggio trasportato dalla nave pi\u00f9 veloce avrebbe richiesto settimane. La luce elettrica ha rivoluzionato la casa e il lavoro; il fonografo, la radio e la cinepresa hanno fatto lo stesso per l'industria del divertimento. La creazione di grandi centrali in grado di portare energia sotto forma di elettricit\u00e0 fino ai nuclei domestici ha cambiato le condizioni di vita dell'umanit\u00e0 in modo quasi inconcepibile. Con la seconda rivoluzione industriale l'elettricit\u00e0 ha migliorato la condizione umana nel modo pi\u00f9 determinante dall'invenzione della stampa.",
+    "quote": "\"\u00c8 un fatto - oppure l'ho sognato - che, per mezzo dell'elettricit\u00e0, il mondo della materia \u00e8 diventato un grande nervo, che vibra per migliaia di miglia in un battibaleno?\" - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Teoria scientifica|della Teoria scientifica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Refrigerazione|della Refrigereazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+        },
+        {
+            "name": "Radio|della Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Centrale idroelettrica|la Centrale idroelettrica|una Centrale idroelettrica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hydro_plant.json"
+        },
+        {
+            "name": "Borsa|la Borsa|una Borsa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Stazione di polizia|la Stazione di polizia|una Stazione di polizia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/police_station.json"
+        }
+    ]
+}

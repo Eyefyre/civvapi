@@ -1,0 +1,40 @@
+{
+    "id": 43,
+    "name": "Scientific Theory",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/scientific_theory.png",
+    "era": "Industrial Era",
+    "cost": 1600,
+    "civilopedia_entry": "Scientific theory is a way to view the world, in which the viewer uses the \"scientific method\" to learn about the universe. Through careful observation and experiments a scientist creates a theory to explain some phenomenon. If other scientists can through experimentation confirm the scientist's theory, it is then accepted as \"empirical\" (experimental) law (at least until some new observation or experimentation successfully challenges it). If a scientist's experiments cannot be duplicated by others, then his or her theories must be regarded with deep skepticism. Although prevalent in most advanced countries in the world today, scientific theory is not the only way that people look at the world. Some people look to divine revelation - as written down in a holy book, say - to explain the universe. If observation or experimentation conflicts with the revelation, then the observation or experimentation must have been flawed or corrupted. These two different methods of seeing the world have been in tension for centuries, and will probably continue to be so for years to come.",
+    "quote": "\"Every great advance in science has issued from a new audacity of imagination.\" - John Dewey",
+    "tech_prereqs": [
+        {
+            "name": "Economics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+        },
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/biology.json"
+        },
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        },
+        {
+            "name": "Electricity",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Public School",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/public_school.json"
+        }
+    ]
+}

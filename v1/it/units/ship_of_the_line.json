@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "name": "Nave di linea|una Nave di linea|dalla tua Nave di linea|alla tua Nave di linea|la tua Nave di linea|da una Nave di linea",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ship_of_the_line.png",
+    "game_info": "Potente unit\u00e0 navale di epoca rinascimentale, utilizzata per ottenere il controllo dei mari. Solo gli inglesi possono costruirla.",
+    "historical_info": "Le navi di linea sono i pi\u00f9 grandi e potenti vascelli mai costruiti, colonna portante di tutte le grandi flotte europee dal XVII a met\u00e0 del XIX secolo. Il nome deriva dalla \"linea di fila\", la formazione classica di combattimento. In battaglia le navi di ogni schieramento si avvicinavano in fila. Al passaggio dei nemici ognuna lanciava una bordata dal fianco, infliggendo danni orribili agli altri vascelli e al loro equipaggio. La vittoria solitamente andava a chi aveva pi\u00f9 cannoni e i marinai meglio addestrati. Gli inglesi erano maestri di questa forma di combattimento; le loro linee di fila dominarono gli oceani per pi\u00f9 di un secolo.",
+    "strategy": "La Nave di linea \u00e8 un'unit\u00e0 esclusiva inglese e sostituisce la Fregata. Rispetto a quest'ultima \u00e8 un po' meno costosa da produrre, pur avendo una forza d'attacco a distanza leggermente superiore. Inoltre il suo raggio di visione \u00e8 di un esagono pi\u00f9 ampio rispetto a quello della Fregata, una capacit\u00e0 che le permette di avvistare i nemici in una zona di oceano molto pi\u00f9 vasta.",
+    "movement": 5,
+    "cost": {
+        "production": 170,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigazione|della Navigazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        }
+    ]
+}

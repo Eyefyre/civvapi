@@ -1,0 +1,18 @@
+{
+    "id": 40,
+    "name": "Infantry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/infantry.png",
+    "game_info": "Most powerful Infantry Unit in the game until Mechanized Infantry.",
+    "historical_info": "As the 20th century opened, the world experienced two of the deadliest and most destructive wars in human history. It was a time of remarkable advancement in the technology of killing, and as the decades passed ever more deadly ships, planes and land vehicles were introduced. Through it all the infantryman marched into battle, grimly facing every horror that the greatest minds on the planet could conceive of to throw at him.The infantryman of World War II was typically armed with a semi-automatic rifle similar to the M1 Garand and might carry one or more grenades. His only protective armor was a metal helmet which was mostly ineffective against direct gunfire, providing at best limited protection against shrapnel. The men on all sides were tough and resourceful and they died in the hundreds of thousands fighting for their homes and countries.",
+    "strategy": "Infantry is significantly stronger than its predecessor, the Great War Infantry. Modern combat is increasingly complex, and on its own an Infantry unit is vulnerable to air, artillery and tank attack. When possible Infantry should be supported by artillery, tanks, and air (or anti-air) units.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Plastics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/plastics.json"
+    },
+    "free_promotions": []
+}

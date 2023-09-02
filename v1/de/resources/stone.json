@@ -1,0 +1,49 @@
+{
+    "id": 13,
+    "name": "Stein",
+    "game_info": null,
+    "historical_info": "Stein findet sich in der Erdkruste und im oberen Erdmantel und ist vielleicht das Schl\u00fcsselelement in der Geschichte des menschlichen Geb\u00e4udebaus. Stein wird in drei Hauptgruppen eingeteilt - sediment\u00e4r, magmatisch und metamorph - die sich in ihrem Ursprung unterscheiden.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/stein.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Steinbruch",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/schnee.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

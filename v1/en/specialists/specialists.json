@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Great Artist",
+        "game_info": null,
+        "strategy": "A Great Artist can create a Great Work of Art (generates both Culture and Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like the Palace, a Museum, or a Cathedral). A Great Artist can also create a Golden Age. Great Artists are expended when used either of these ways.",
+        "historical_info": "\"Great Artists\" are the visionaries of civilization. They interpret the world, bringing beauty, brilliance, form and color where none may have been found before. They carve the statues, paint the pictures, take the photos and make the films that define our humanity. Often their work surpasses its time and place, enlighten and elevate a people, making a civilization far greater than its material possessions and power.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_artist.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_artist.json"
+    },
+    {
+        "id": 2,
+        "name": "Great Scientist",
+        "game_info": null,
+        "strategy": "The Great Scientist can construct the special Academy improvement which, when worked, produces lots of Science. Further, the Great Scientist lets you immediately gain a large amount of science based on the science output of your civilization. The Great Scientist is expended when used in either of these ways.",
+        "historical_info": "\"Great Scientists\" figure out how the world works. They discover that the earth orbits the sun. They sequence DNA and invent quantum mechanics. They cure polio and predict eclipses. They make a civilization smarter. They invent the future.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_scientist.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_scientist.json"
+    },
+    {
+        "id": 3,
+        "name": "Great Merchant",
+        "game_info": null,
+        "strategy": "The Great Merchant can construct the special Custom House improvement which, when worked, produces loads of Gold. The Great Merchant can also journey to a city-state and perform a \"trade mission\" which produces gobs of Gold and garners many Influence Points with the city-state. The Great Merchant is expended when used in either of these ways.",
+        "historical_info": "\"Great Merchants\" provide the goods and services civilizations need to survive. They import food, medicines, and luxuries, and they export a civilization's manufactured goods. They provide the financing needed for great works to be accomplished. They create a civilization's wealth.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_merchant.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_merchant.json"
+    },
+    {
+        "id": 4,
+        "name": "Great Engineer",
+        "game_info": null,
+        "strategy": "Great Engineers can construct the special Manufactory improvement, which, when worked, provides a lot of Production for a city. The Great Engineer can also hurry production of a unit, building or Wonder in a city. The Great Engineer is expended when used in either of these ways.",
+        "historical_info": "\"Great Engineers\" are the men and women who get things done. They construct the monuments, the roads, the information networks that improve the lives of those around them. They invent new processes for building high-rises or rolling steel; they dig canals; they irrigate deserts. They keep a civilization moving forward.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_engineer.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_engineer.json"
+    },
+    {
+        "id": 5,
+        "name": "Great General",
+        "game_info": null,
+        "strategy": "The Great General can construct the special Citadel improvement which gives a big defensive bonus to any unit occupying it, damages enemy units moving adjacent, and puts all adjacent tiles into your territory. The Great General is consumed when it builds the Citadel. The Great General provides a 15% combat bonus to all player-owned land units within 2 tiles. The Great General is NOT consumed when he provides this bonus.",
+        "historical_info": "\"Great Generals\" are the supreme warriors of civilization. They create the weapons and train the soldiers. They plan the strategies to protect a civilization from its enemies, creating bold offensives, strong fortifications and cunning traps. They are the first out of the trench or onto the enemy's ship. They lead the charge into battle, carrying the fate of the people on their broad shoulders.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_general.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_general.json"
+    },
+    {
+        "id": 6,
+        "name": "Khan",
+        "game_info": "This Mongolian Unique Great Person replaces the Great General. While providing the same combat bonuses as a normal Great General, the Khan moves at an increased rate and can heal adjacent units.",
+        "strategy": "The Khan is a Mongolian Unique Great Person, replacing the standard Great General. The same combat bonuses apply, but the Khan moves at the same rate as the Keshik (5 points per turn) and can heal adjacent units for an additional 15 HP per turn. This beefed up General ensures that his cavalry units will always be in a battle ready state.",
+        "historical_info": "Originally the Khans were tribal chieftains of the Mongol people, ruling anywhere from one tribe to a loose confederation of many smaller ones. At the time of Genghis' rise to power, the title was generally reserved for military leaders, but was later used to denote the civil leaders of the Mongolian Empire as well. The Khans were the elected rulers of the empire provinces, holding their titles based on merit and loyalty rather than blood ties. These leaders often served as generals as well, leading the large Mongolian armies in their successful raids and conquests. Later, an extension of the word was created, \"Khagan\", to denote the grand ruler, the Khan of Khans so to speak, but this wasn't used until after Genghis Khan's death in 1227 AD.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/khan.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/khan.json"
+    },
+    {
+        "id": 7,
+        "name": "Great Prophet",
+        "game_info": null,
+        "strategy": "The Great Prophet is the only unit who can found or enhance a religion. He can also construct the special Holy Site improvement which, when worked, produces lots of Faith. Alternatively, the Great Prophet can spread religion 4 times (displacing any previous religions in these cities). The Great Prophet is expended when used in any of these ways.",
+        "historical_info": "\"Great Prophets\" explore the boundaries of religious belief, conveying their unique insights to guide the moral and ethical decisions of a civilization. They found religions, spread the word of god, and bring faith to the people. They provide hope to the nation during even the direst of times.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_prophet.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_prophet.json"
+    },
+    {
+        "id": 8,
+        "name": "Great Admiral",
+        "game_info": null,
+        "strategy": "The Great Admiral has the ability to instantly repair every naval and embarked unit in the same hex, as well as in adjacent hexes. The Great Admiral is consumed when performing this action. The Great Admiral also provides a 15% combat bonus to all player-owned naval units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus.",
+        "historical_info": "\"Great Admirals\" provide the leadership necessary to guide powerful navies to victory on the open sea. They plan, implement, and execute the complex maneuvers necessary to maintain naval superiority, providing the coastal security that every civilization needs.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_admiral.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_admiral.json"
+    },
+    {
+        "id": 9,
+        "name": "Merchant of Venice",
+        "game_info": "This Venetian unique Great Person replaces the Great Merchant. Aside from the ability to Conduct a Trade Mission, the Merchant of Venice can purchase City-States outright, bringing them under Venetian control as a Puppet.",
+        "strategy": "The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control as a puppet. The Merchant of Venice is expended when used in this way.",
+        "historical_info": "The merchants operating out of Venice in the 13th through 16th centuries were more than just traders; they were explorers, diplomats, geographers and authors. Besides bringing wealth to the Venetian Republic, they brought back knowledge and culture, and set them down in writing. The exploits of individuals such as Marco Polo, Gasparo Balbi and Ambrogio Contarini not only made Venice rich, but famous as well.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/merchant_of_venice.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/merchant_of_venice.json"
+    },
+    {
+        "id": 10,
+        "name": "Great Writer",
+        "game_info": null,
+        "strategy": "A Great Writer can create a Great Work of Writing (generates both Culture and Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Amphitheater, National Epic, Heroic Epic, or Royal Library). A Great Writer can also write a Political Treatise, which grants the player a large amount of Culture. Great Writers are expended when used either of these ways.",
+        "historical_info": "\"Great Writers\" are those gifted men and women who express our desires, insights, fancies, foibles, fears and joys in the written word. Whether in poetry, in novels and stories, for the stage or screen, these are the artists who have defined their civilizations and cultures. Some write prose and poetry about imaginary worlds; others write tracts of philosophy, politics, religion and science about how our world is or should be. Their words echo through time, binding us all together.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_writer.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_writer.json"
+    },
+    {
+        "id": 11,
+        "name": "Great Musician",
+        "game_info": null,
+        "strategy": "A Great Musician can create a Great Work of Music (generates both Culture and Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Opera House or Broadcast Tower). A Great Musician can also travel to another civilization and perform a Concert Tour, which will give you a one-time boost in Tourism in that territory. Great Musicians are expended when used either of these ways.",
+        "historical_info": "It has been said that \"music is the soul of a people.\" If that is indeed the case, then \"Great Musicians\" are the guardians of that soul. Whatever the form, whatever the instruments, no other art speaks to our emotions like music. From the time that men first beat out a rhythm on logs, to the modern electronic orchestra, great composers and performers have expressed the collective sorrows and joys of each civilization.",
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/great_musician.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/great_musician.json"
+    },
+    {
+        "id": 12,
+        "name": "Unemployed Citizen",
+        "game_info": null,
+        "strategy": "Unemployed Citizens each provide a small amount of Production. They should, when possible, be assigned to work tiles or made into specialists.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/unemployed_citizen.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/unemployed_citizen|unemployed_citizens.json"
+    },
+    {
+        "id": 13,
+        "name": "Writer",
+        "game_info": null,
+        "strategy": "Create Writers to increase a city's Cultural output and to speed the creation of Great Writers.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/writer.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/writer|writers.json"
+    },
+    {
+        "id": 14,
+        "name": "Artist",
+        "game_info": null,
+        "strategy": "Create Artists to increase a city's Cultural output and to speed the creation of Great Artists.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/artist.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/artist|artists.json"
+    },
+    {
+        "id": 15,
+        "name": "Musician",
+        "game_info": null,
+        "strategy": "Create Musicians to increase a city's Cultural output and to speed the creation of Great Musicians.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/musician.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/musician|musicians.json"
+    },
+    {
+        "id": 16,
+        "name": "Scientist",
+        "game_info": null,
+        "strategy": "Create Scientists to increase a city's Science output and to speed the creation of Great Scientists.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/scientist.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/scientist|scientists.json"
+    },
+    {
+        "id": 17,
+        "name": "Merchant",
+        "game_info": null,
+        "strategy": "Create Merchants to increase a city's Gold output and to speed the creation of Great Merchants.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/merchant.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/merchant|merchants.json"
+    },
+    {
+        "id": 18,
+        "name": "Engineer",
+        "game_info": null,
+        "strategy": "Create Engineers to increase a city's Production output and to speed the creation of Great Engineers.",
+        "historical_info": null,
+        "icon": "https://eyefyre.github.io/civvapi/images/specialist_icons/engineer.png",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/specialists/engineer|engineers.json"
+    }
+]

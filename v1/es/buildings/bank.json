@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Banco|Bancos",
+    "game_info": "La ciudad ha de tener un Mercado.",
+    "strategy": "El Banco es un edificio del Renacimiento que aumenta la producci\u00f3n de Oro de la ciudad. Esta ha de tener un Mercado o un Bazar para poder construirlo. Las rutas comerciales que otros jugadores hagan a una ciudad con un Banco generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+    "historical_info": "El banco es una instituci\u00f3n en la que los ciudadanos pueden dejar su dinero para mantenerlo a salvo. El banquero recoge los dep\u00f3sitos y ofrece pr\u00e9stamos a otras personas, que tendr\u00e1n que devolverlo con un inter\u00e9s adicional. El banquero entrega parte de los beneficios a los depositantes y reinvierte el resto. Para tener \u00e9xito, un sistema bancario necesita liquidez y que las leyes obliguen a devolver las deudas a los prestatarios siempre que puedan.Los bancos son aut\u00e9nticos motores del progreso de una civilizaci\u00f3n. Si una ciudad necesita algo (por ejemplo, un granero) un \u00fanico ciudadano podr\u00eda ser incapaz de construirlo por su cuenta. Pero el banco, que guarda los ahorros de muchos ciudadanos, puede prestar el dinero al constructor. Cuando haya construido el granero, el empresario podr\u00e1 devolver el pr\u00e9stamo al banco con las ganancias y los ciudadanos se beneficiar\u00e1n del nuevo granero (y del inter\u00e9s que han conseguido con sus dep\u00f3sitos).En los \u00faltimos a\u00f1os, los bancos europeos y estadounidenses han conseguido una mala reputaci\u00f3n; suele deberse a inversiones arriesgadas o pr\u00e9stamos a personas inadecuadas. Un banco bien gestionado es una bendici\u00f3n para la comunidad, especialmente si \u00e9sta es pobre.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/banco|bancos.png",
+    "prereq_tech": {
+        "name": "Banca",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Flight",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "Modern Era",
+    "cost": 3100,
+    "civilopedia_entry": "Throughout history, man has dreamed of conquering the skies. Leonardo da Vinci's visions of flight are well-known, of course, and there were many other lesser visionaries as well. The early theorists looked at the natural masters of the air, birds, and they proposed machines that emulated their wing shape and flapping motions (ornithopters). But the early designers lacked the materials, engines, and knowledge of aerodynamics to bring their visions to life.The study of aerodynamics was advanced over the 16th, 17th, 18th and 19th centuries by brilliant scientists like da Vinci, Galileo, Huygens, Newton, Bernoulli, Euler and Smeaton. In 1804 Englishman George Cayley flew a fixed-wing glider model, and in 1853 he created a full-scale model which carried his (reluctant) coachman in the first known manned glider flight.In 1902 the Wright brothers constructed their own glider with an advanced wing shape. Unable to find an experienced manufacturer to construct a light gasoline-powered engine to their specifications, they designed and built their own. On December 17, 1903 the Wright flyer flew four times, at distances up to 852 feet. The years following the Wright brothers' breakthrough saw huge and rapid improvements in the technology of flying. By 1908 American Glenn Hammond Curtiss flew over 1 kilometer (approx. six tenths of a mile), and in 1909 Frenchman Louis Bleriot flew across the English Channel.World War I saw huge advances in flight technology, especially in the weaponization of the air, with the creation of fighters and bombers. By the '20s pilots were regularly flying across the continents, and in 1927 Charles Lindberg completed the first nonstop solo flight across the Atlantic Ocean. World War II saw tremendous improvements in the speed, range, durability, and killing power of aircraft, and by the end of the war jet planes, continent-spanning high-altitude bombers and helicopters were in service.In the modern era, air travel has become commonplace, with a journey from the United States to China - an impossible dream only 75 years ago - being now seen as notable mostly for its tediousness. And although the airborn terrorist attacks of September 11, 2001 have made air travel slightly more perilous, millions of people around the world still take to the air every day. Flight is here to stay.",
+    "quote": "\"Aeronautics was neither an industry nor a science. It was a miracle.\" - Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ballistics.json"
+        },
+        {
+            "name": "Electronics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Triplane",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/triplane.json"
+        },
+        {
+            "name": "Great War Bomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Prora",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/prora.json"
+        }
+    ]
+}

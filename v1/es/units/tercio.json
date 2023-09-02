@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio|Tercios",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Es la unidad militar dominante del Renacimiento. Solo la puede construir Espa\u00f1a. Esta unidad tiene una Fuerza de combate superior a la del Mosquete, al que sustituye, adem\u00e1s del ascenso Bonificaci\u00f3n contra unidades montadas (50). No obstante, tambi\u00e9n es m\u00e1s cara de construir.",
+    "historical_info": "El tercio es una genial innovaci\u00f3n militar que se compone de una formaci\u00f3n mixta de piqueros y arcabuceros (soldados armados con armas de fuego muy rudimentarias), que cre\u00f3 a principios del siglo XVI el general espa\u00f1ol Gonzalo Fern\u00e1ndez de C\u00f3rdoba. El tercio (tambi\u00e9n conocido como \"cuadro espa\u00f1ol\") se desplegaba en una formaci\u00f3n ajedrezada, con los piqueros y los arcabuceros dispuestos en bloques de apoyo alternos. Las ventajas de esta disposici\u00f3n son obvias: los arcabuceros pueden atacar al enemigo a distancia y los piqueros pueden enzarzarse en combate cuerpo a cuerpo. Esta formaci\u00f3n dominar\u00eda el arte de la guerra renacentista durante m\u00e1s de un siglo.",
+    "strategy": "El Tercio es una de las dos unidades exclusivas espa\u00f1olas y sustituye al Mosquete. Esta unidad es m\u00e1s fuerte en combate que este y lucha con el doble de fuerza contra unidades montadas. No obstante, es m\u00e1s cara de construir.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "P\u00f3lvora",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Air Unit that rains death from above onto enemy Units and Cities. Only the Americans may build it. This Unit has a chance of evading interception, and does additional damage to Cities compared to the Bomber, which it replaces.",
+    "historical_info": "The Boeing B-17 \"Flying Fortress\" was a heavy bomber aircraft used by the United States Army Air Corps during World War II. Equipped with four engines, numerous gun emplacements and a superior \"flight ceiling,\" the B-17 was the favorite bomber of the US Air Corps, despite its inferior range and bombload to the B24 Liberator, primarily because of its ability to sustain heavy damage and still bring its crew back home alive.Initially used in risky daylight raids against targets in Germany, the B-17 sustained crippling casualties from the Luftwaffe fighters. As the war progressed and the Allies designed fighters capable of escorting the bombers into enemy territory, the B-17's raids became more successful, doing crippling damage to German industry and cities.Over 12,000 B-17s were constructed during World War II and approximately a third of them were lost in combat.",
+    "strategy": "The B17 Bomber is an American Unique Unit, replacing the bomber. It is similar to the bomber, but it is more difficult for enemy anti-aircraft and fighters to target. The B17 also receives a bonus when attacking enemy cities. Like the bomber, the B17's range is 10. See the rules on Aircraft for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/evasion.json"
+        },
+        {
+            "name": "Siege I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/siege_i.json"
+        }
+    ]
+}

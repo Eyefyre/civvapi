@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Flugabwehrgesch\u00fctz",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "F\u00e4ngt feindliche Flugzeuge ab, die Einheiten in der N\u00e4he bombardieren.",
+    "historical_info": "Diese Gesch\u00fctze feuern Geschosse in die Luft. Bei Erreichen einer zuvor bestimmten H\u00f6he explodieren diese Geschosse und t\u00f6dliche Schrapnellsplitter werden kugelf\u00f6rmig auf nahe Flugzeuge geschleudert. Flugabwehrkanonen (oder \"Flak\") sind vom Boden aus leichte Ziele: Wenn sie ungesch\u00fctzt sind, k\u00f6nnen sie von feindlicher Infanterie oder irgendeiner bewaffneten Einheit zerst\u00f6rt werden.",
+    "strategy": "Diese speziellen Artillerieeinheiten greifen automatisch jede Lufteinheit an, die ein Ziel in 2 Gel\u00e4ndefeldern Entfernung bombardiert (es kann nur eine Einheit pro Runde angegriffen werden). Im Kampf gegen andere Bodeneinheiten sind sie ziemlich schwach und sollten deshalb von st\u00e4rkeren Einheiten verteidigt werden, wenn ein feindlicher Bodenangriff droht.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Ballistik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus gegen Flugzeuge/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

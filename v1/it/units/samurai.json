@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samurai|un Samurai|dal tuo Samurai|al tuo Samurai|il tuo Samurai|da un Samurai",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "Potente unit\u00e0 di fanteria di epoca medievale. Solo i giapponesi possono costruirla. Quest'unit\u00e0 combatte in modo pi\u00f9 efficace e aiuta a produrre Grandi Generali pi\u00f9 rapidamente del Guerriero con spada lunga, che sostituisce. I Samurai imbarcati possono costruire Pescherecci in un turno senza essere sacrificati nel processo (cosa che li rende utili anche in tempo di pace).",
+    "historical_info": "I samurai giapponesi sono forse stati i guerrieri pi\u00f9 temibili dai tempi delle legioni romane e fino all'avvento della polvere da sparo. Comparsa in Giappone nel XII secolo, quella dei samurai era una casta guerriera vincolata al codice del Bushido, che considerava il valore, l'onore e la lealt\u00e0 pi\u00f9 importanti della vita stessa. Il tipico samurai utilizzava due spade: la katana, pi\u00f9 lunga, e il pi\u00f9 piccolo wakizashi. Quest'ultimo era anche usato per eseguire il suicidio rituale, il famoso \"seppuku\". Queste lame erano di gran lunga superiori alle spade lunghe occidentali, dal momento che i fabbri giapponesi erano eccellenti maestri nell'arte di lavorare l'acciaio ad alto e a basso contenuto di carbonio. Alcuni guerrieri usavano anche l'arco e la lancia o, pi\u00f9 avanti, un'arma da fuoco. A seconda dell'epoca (e dello status e ricchezza del guerriero) un samurai poteva indossare un'armatura imbottita, o laccata, o di metallo.",
+    "strategy": "Il Samurai \u00e8 un'unit\u00e0 esclusiva del Giappone e sostituisce il Guerriero con spada lunga. Potente quanto uno Spadaccino, il Samurai riceve automaticamente la promozione \"Assalto I\", che gli conferisce un bonus quando combatte in campo aperto. Un successo in combattimento con un Samurai ha una probabilit\u00e0 maggiore di generare Grandi Generali. Pu\u00f2 costruire Pescherecci senza essere sacrificato.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Acciaio|dell'Acciaio",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Assalto I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+        },
+        {
+            "name": "Grandi Generali II",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_ii.json"
+        }
+    ]
+}

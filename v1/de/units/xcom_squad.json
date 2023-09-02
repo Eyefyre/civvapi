@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "XCOM-Trupp",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Futuristische Infanterieeinheit, die darauf trainiert ist, sich in gef\u00e4hrliche Gebiete fern der Heimat zu begeben Der Trupp kann sich nach der Landung bewegen und pl\u00fcndern, aber nicht vor der n\u00e4chsten Runde in den Kampf eingreifen.[COLOR_CYAN]Viel Gl\u00fcck, Commander!",
+    "historical_info": "Angesichts der potenziellen Gefahr durch riesige Killerroboter, Au\u00dferirdische und andere externe Bedrohungen wurde die XCOM-Initiative gegr\u00fcndet, um die Bev\u00f6lkerung vor allen bekannten und unbekannten Feinden zu sch\u00fctzen.",
+    "strategy": "Der XCOM-Trupp ist ein Elite-Team aus Soldaten, der mit der Technik ausgestattet ist, die im Zuge der XCOM-Initiative entwickelt wurde. Wenn die Runde auf befreundetem Gebiet begonnen wird, kann dieser Trupp bis zu 40 Gel\u00e4ndefelder entfernt abgesetzt werden. Diese Einheiten sollten in Gebieten abgesetzt werden, in denen die Gefahren nicht mehr von dieser Welt sind.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Skyranger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/skyranger.json"
+        }
+    ]
+}

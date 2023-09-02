@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Ca\u00f1\u00f3n antia\u00e9reo|Ca\u00f1ones antia\u00e9reos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "Interceptar\u00e1 a los aviones enemigos que intenten bombardear a las unidades cercanas.",
+    "historical_info": "Estos ca\u00f1ones de artiller\u00eda disparan proyectiles al aire. Los proyectiles explotan al alcanzar una altura predeterminada y liberan metralla que puede alcanzar a las aeronaves cercanas. Los ca\u00f1ones antia\u00e9reos (o \"AA\") son muy vulnerables a los ataques terrestres; si no se protegen, cualquier unidad armada o de infanter\u00eda enemiga puede destruirlos con facilidad.",
+    "strategy": "Estas unidades especializadas de artiller\u00eda atacar\u00e1n autom\u00e1ticamente a cualquier unidad a\u00e9rea que bombardee un objetivo a dos casillas (solo pueden interceptar a una unidad por turno). Son bastante d\u00e9biles en combate contra otras unidades terrestres y se deben defender con unidades m\u00e1s fuertes cuando est\u00e9n en peligro o las ataquen por tierra.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Misiles bal\u00edsticos",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Aviones/Helic\u00f3pteros (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

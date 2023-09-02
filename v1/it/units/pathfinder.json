@@ -1,0 +1,27 @@
+{
+    "id": 131,
+    "name": "Pathfinder|un Pathfinder|dal tuo Pathfinder|al tuo Pathfinder|il tuo Pathfinder|da un Pathfinder",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pathfinder.png",
+    "game_info": "Eccellente nell'esplorazione e temibile in combattimento, quest'unit\u00e0 esclusiva degli Shoshoni sostituisce lo Scout. Possiede una promozione che le permette di scegliere il bonus quando scopre un'Antica rovina.",
+    "historical_info": "Fra le trib\u00f9 di nativi americani delle Grandi Pianure e delle Montagne Rocciose c'erano esploratori di abilit\u00e0 eccezionale, a cui i nomadi si affidavano per occuparsi dei compiti pi\u00f9 delicati. Questi cosiddetti \"pathfinder\" (lett. \"cercatori di piste\") seguivano le tracce di animali e uomini, andavano in esplorazione sui percorsi usati per le migrazioni, tenevano d'occhio l'attivit\u00e0 di nemici e intrusi e proteggevano gli accampamenti invernali. La loro abilit\u00e0 era tale che gli eserciti delle pi\u00f9 grandi potenze presero l'abitudine di ingaggiarli come esploratori e consiglieri fin dalla Guerra Pequot (1637-1638), in cui i coloni inglesi della Baia del Massachusetts ottennero l'aiuto di uomini delle trib\u00f9 Narragansett e Mohegan. Tuttavia, la fine della vita di frontiera e il confino dei nativi americani nelle riserve port\u00f2 al declino della figura del pathfinder.",
+    "strategy": "Il Pathfinder sostituisce lo Scout ed \u00e8 un'unit\u00e0 esclusiva degli Shoshoni. Nell'esplorazione \u00e8 abile quanto uno Scout e in combattimento arriva quasi al livello di un Guerriero. Inoltre permette al giocatore di scegliere il bonus quando scopre un'Antica rovina. Costa pi\u00f9 di uno Scout.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Lingua dei nativi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/native_tongue.json"
+        },
+        {
+            "name": "Ignora il costo del terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

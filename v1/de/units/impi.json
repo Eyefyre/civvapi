@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Impi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Spezialisiert auf das Besiegen von Rittern und anderen berittenen Einheiten. Kann nur von den Zulu gebaut werden. F\u00fchrt vor dem Kampf einen Erstangriff aus der Ferne aus.",
+    "historical_info": "\"Impi\" ist das Zulu-Wort f\u00fcr eine bewaffnete Gruppe von M\u00e4nnern und wurde insbesondere im 19. Jahrhundert im allgemeinen Sprachgebrauch f\u00fcr ein Regiment des Zulu-Reichs verwendet. Die Impi waren schon seit Langem ein Teil der Zulu-Kultur gewesen, als der gro\u00dfe H\u00e4uptling Shaka nach seinem Aufstieg zum Thron im Jahr 1816 n. Chr. weitreichende Innovationen einf\u00fchrte. Neben dem traditionellen Wurfspeer und Schlagstock r\u00fcstete Shaka seine Truppen mit dem Assegai aus, einem k\u00fcrzeren Stichspeer mit einer breiten, etwa einen Fu\u00df langen Klinge. Er f\u00fchrte zudem einen gr\u00f6\u00dferen, schwereren Rinderhaut-Schild (Ishilangu) ein und lie\u00df seine Truppen darin ausbilden, sich dem Feind schnell zu n\u00e4hern und diesen im Nahkampf entscheidend zu besiegen. In strategischer Hinsicht verlie\u00dfen sich die Impi auf schnelle \u00dcberraschungsangriffe, bei denen sie den Feind zahlenm\u00e4\u00dfig \u00fcbertreffen und \u00fcberw\u00e4ltigen konnten. Den Zulu gelang es mit dieser Vorgehensweise, selbst gegen mit Feuerwaffen ausger\u00fcstete europ\u00e4ische Einheiten beeindruckende Siege zu erringen, auch wenn ihre eigenen Verluste dabei meistens hoch waren.",
+    "strategy": "Bevor der Impi in den Nahkampf eingreift, f\u00fchrt er einen Speerwurfangriff durch, der der feindlichen Einheit vor dem Kontakt Schaden zuf\u00fcgen oder sie sogar besiegen kann. Kann nur von den Zulu gebaut werden.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "\u00d6ffentliche Verwaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Speerwurf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/spear_throw.json"
+        }
+    ]
+}

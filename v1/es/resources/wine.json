@@ -1,0 +1,33 @@
+{
+    "id": 27,
+    "name": "Vino",
+    "game_info": null,
+    "historical_info": "El vino es una sabrosa bebida alcoh\u00f3lica hecha a base de uvas fermentadas. Los humanos llevan haci\u00e9ndolo felizmente desde hace 8.000 a\u00f1os. Se cree que la pr\u00e1ctica es originaria del lugar que constituye la actual frontera entre Ir\u00e1n y Georgia. En muchas culturas se cree que el vino tiene poderes m\u00e1gicos y se utiliza en incontables ceremonias religiosas. Francia es el (autoproclamado) centro de la producci\u00f3n vin\u00edcola del planeta, pero se enfrenta a la dura competencia de muchos pa\u00edses de Europa, as\u00ed como de los EE. UU., Sudam\u00e9rica y Australia.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/vino.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantaci\u00f3n|Plantaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        }
+    ]
+}

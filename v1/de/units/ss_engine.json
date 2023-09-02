@@ -1,0 +1,18 @@
+{
+    "id": 5,
+    "name": "RS-Motor",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_engine.png",
+    "game_info": "Eines der Raumschiffteile, das gebaut und in die Hauptstadt geschickt werden muss, um einen Wissenschaftssieg zu erringen.",
+    "historical_info": "Der Motor des Raumschiffs ist ein modifizierter Ionenantrieb. Sobald die Booster das Schiff in den Orbit der Erde gebracht haben, \u00fcbernimmt der Antrieb und lenkt das Schiff in die Tiefen des Weltraums. Das Schiff wird in den ersten acht Jahren der Reise langsam, aber stetig beschleunigen und dann weitergleiten. Beim Anflug auf Alpha Centauri dreht sich das Schiff um 180 Grad und der Antrieb beschleunigt acht Jahre lang in die entgegengesetzte Richtung, um das Schiff vor dem Eintritt in den Orbit des Zielplaneten abzubremsen.",
+    "strategy": "Diese Einheit ist Teil des Raumschiffs, das gebaut werden muss, um einen Wissenschaftssieg zu erringen. Im Abschnitt 'Sieg' findet Ihr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Teilchenphysik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/particle_physics.json"
+    },
+    "free_promotions": []
+}

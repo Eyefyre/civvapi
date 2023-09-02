@@ -1,0 +1,41 @@
+{
+    "id": 9,
+    "name": "Pecore",
+    "game_info": null,
+    "historical_info": "Le pecore sono creature estremamente gustose che producono anche latte, lana e pelle. Una delle prime specie animali addomesticate, le pecore hanno cominciato a essere sfruttate dall'uomo in Mesopotamia gi\u00e0 diecimila anni fa. Da allora la pratica della pastorizia si \u00e8 diffusa ampiamente e oggi gli ovini si possono trovare in tutto il mondo. Esistono pi\u00f9 di 200 razze di pecore, ognuna selezionata per le sue particolari qualit\u00e0: resistenza, dimensioni, quantit\u00e0 e qualit\u00e0 della lana, produzione di latte, e naturalmente gusto della carne!",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pecore.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pascolo|un Pascolo|un Pascolo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/pasture.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

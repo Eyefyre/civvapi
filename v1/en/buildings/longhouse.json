@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Longhouse",
+    "game_info": "+1 Production from each worked Forest tile.",
+    "strategy": "The Longhouse is the Iroquois unique building, replacing the Workshop. It increases the city's Production output for each forest within the city's radius.",
+    "historical_info": "For much of their history, many of the Iroquois people lived in villages containing one or more \"Longhouses,\" communal buildings constructed of wood saplings sheathed in elm bark. In fact, the Iroquois call themselves \"Hodenosaunee,\" which translates into \"People of the Longhouse.\" The longhouses ranged from 40 to 400 feet in length and some 25 feet wide. They were divided into compartments by inner partitions, each connected by an open center aisle. Several compartments would share a cooking fire in the center aisle, with an opening in the roof above acting as a chimney.Longhouses are efficient structures, cheaper to construct and heat than individual dwellings, thus requiring fewer natural resources than other types of homes. They are representative of the Iroquois' cultural desire to survive and thrive in harmony with the environment around them.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/longhouse.png",
+    "prereq_tech": {
+        "name": "Metal Casting",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

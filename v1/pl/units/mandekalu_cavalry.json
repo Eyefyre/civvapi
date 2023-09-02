@@ -1,0 +1,27 @@
+{
+    "id": 58,
+    "name": "Kawaleria Mandekalu|Kawalerii Mandekalu|Kawalerii Mandekalu|Kawaleri\u0119 Mandekalu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mandekalu_cavalry.png",
+    "game_info": "Pot\u0119\u017cna \u015bredniowieczna kawaleria, niemniej bardzo wra\u017cliwa na ataki pikinier\u00f3w. Tylko Songhajczycy mog\u0105 j\u0105 rekrutowa\u0107. Nie otrzymuje kary podczas atakowania miast, w przeciwie\u0144stwie do rycerzy, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Podobnie jak kraje p\u00f3\u0142nocne, armie muzu\u0142ma\u0144skie r\u00f3wnie\u017c dysponowa\u0142y ci\u0119\u017ck\u0105 konnic\u0105. Pe\u0142ni\u0142a ona zbli\u017con\u0105 funkcj\u0119 do europejskiej jazdy rycerskiej. W jej sk\u0142ad r\u00f3wnie\u017c wchodzili g\u0142\u00f3wnie szlachcice wy\u017cszego rodu. Pancerz, z kt\u00f3rego korzystali, skonstruowany by\u0142 w spos\u00f3b umo\u017cliwiaj\u0105cy modyfikowanie go pod k\u0105tem warunk\u00f3w klimatycznych. Wedle danych historycznych muzu\u0142ma\u0144scy rycerze byli r\u00f3wnie pot\u0119\u017cni, co ich europejscy wrogowie.",
+    "strategy": "To unikatowa jednostka Songhaj\u00f3w zast\u0119puj\u0105ca rycerzy. Ma takie same statystyki jak oni, ale otrzymuje du\u017c\u0105 premi\u0119 podczas atakowania miast. Kawaleria Mandekalu mo\u017ce porusza\u0107 si\u0119 po wykonaniu ataku. Jej szybko\u015b\u0107 utrudnia przeciwnikowi przygotowanie obrony, nim kawaleria dotrze do celu.",
+    "movement": 4,
+    "cost": {
+        "production": 110,
+        "faith": 220
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

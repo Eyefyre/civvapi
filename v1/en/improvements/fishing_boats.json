@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "Fishing Boats",
+    "game_info": "Fishing boats allow a civilization to harvest the valuable crab, fish, whale and pearl resources. To construct fishing boats, you must build a work boat in a coastal city (after your civilization has learned the requisite technology). Work boats are consumed when they construct fishing boats.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fishing_boats.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Fish",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/fish.json"
+        },
+        {
+            "name": "Whales",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/whales.json"
+        },
+        {
+            "name": "Pearls",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/pearls.json"
+        },
+        {
+            "name": "Crab",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

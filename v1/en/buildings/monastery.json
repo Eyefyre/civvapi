@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "Monastery",
+    "game_info": "Each source of Incense and Wine worked by this City produce +1 Faith and +1 Culture.",
+    "strategy": "Monasteries increase a city's Faith and Culture output, especially if the city is near to improved Incense and/or Wine resources. Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with Faith.",
+    "historical_info": "A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.",
+    "cost": {
+        "production": -1,
+        "faith": 150
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/monastery.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

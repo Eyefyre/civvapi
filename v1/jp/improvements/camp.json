@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "\u30ad\u30e3\u30f3\u30d7",
+    "game_info": "\u91ce\u751f\u52d5\u7269\u3092\u72e9\u308b\u3053\u3068\u306f\u3001\u592a\u53e4\u306e\u4eba\u9593\u304c\u81ea\u5206\u305f\u3061\u3092\u53d6\u308a\u5dfb\u304f\u4e16\u754c\u304b\u3089\u8cc7\u6e90\u3092\u5f97\u308b\u305f\u3081\u306b\u7528\u3044\u305f\u3001\u6700\u521d\u671f\u306e\u65b9\u6cd5\u3067\u3042\u308b\u3002\u72e9\u731f\u30ad\u30e3\u30f3\u30d7\u304c\u3042\u308c\u3070\u3001\u9e7f\u3001\u6bdb\u76ae\u3001\u30c8\u30ea\u30e5\u30d5\u3001\u8c61\u7259\u306a\u3069\u306e\u8cc7\u6e90\u3092\u5165\u624b\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u30ad\u30e3\u30f3\u30d7.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u8c61\u7259",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/ivory.json"
+        },
+        {
+            "name": "\u6bdb\u76ae",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/furs.json"
+        },
+        {
+            "name": "\u9e7f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/deer.json"
+        },
+        {
+            "name": "\u30c8\u30ea\u30e5\u30d5",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/truffles.json"
+        },
+        {
+            "name": "\u30d0\u30a4\u30bd\u30f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u30c8\u30e9\u30c3\u30d7",
+        "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

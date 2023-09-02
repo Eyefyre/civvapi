@@ -1,0 +1,49 @@
+{
+    "id": 29,
+    "name": "Chateau|un Chateau|un Chateau",
+    "game_info": "Lo Chateau \u00e8 un maniero o palazzo di campagna nobiliare, solitamente privo di fortificazioni. Nel Medioevo gli chateau erano quasi completamente autosufficienti, dipendendo per il loro sostentamento dai soli domini ereditari del signore. Nel Seicento i ricchi aristocratici francesi punteggiarono il territorio di magioni lussuose, eleganti e architettonicamente raffinate, come lo Chateau de Maisons. Oggi il termine \u00e8 usato in senso ampio; ad esempio, \u00e8 piuttosto comune che industrie vinicole o taverne facciano precedere il loro nome dall'appellativo \"Chateau.\"Uno Chateau dev'essere costruito in una casella adiacente a una risorsa di lusso. Non pu\u00f2 essere attiguo a un altro Chateau. Fornisce 1 Oro e 2 Cultura extra. Inoltre fornisce lo stesso bonus difensivo di un Forte, +50%. Dopo la scoperta del Volo, rende 1 Cultura e 2 Oro extra. Dev'essere costruito all'interno del territorio francese.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau|un_chateau|un_chateau.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "France",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/france.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

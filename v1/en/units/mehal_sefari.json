@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Strong, front-line land Unit that specializes in fighting in rough terrain and defending near the Ethiopian capital. Only the Ethiopians may build it.",
+    "historical_info": "The Mehal Sefari was an elite unit of Imperial guardsmen who protected the emperors of Ethiopia in the 19th and 20th centuries. Originally serving as the personal bodyguards for the emperors of Ethiopia, the Mehal Sefari grew to become a formidable brigade of the Ethiopian military. Consisting of specialized units of infantry, cavalry, artillery and marksmen, the Mehal Sefari's status as the elite force of Ethiopia was ensured by the rigorous training and modern equipment provided to them.",
+    "strategy": "Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are slightly cheaper to build than the Rifleman that they replace.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rifling",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Drill I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/drill_i.json"
+        },
+        {
+            "name": "Near Capital Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/near_capital_bonus.json"
+        }
+    ]
+}

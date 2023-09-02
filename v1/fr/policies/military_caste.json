@@ -1,0 +1,20 @@
+{
+    "id": 47,
+    "name": "Caste militaire",
+    "game_info": "Caste militaire Dans chaque ville poss\u00e9dant une garnison, +1 Bonheur et +2 Culture.",
+    "historical_info": "Dans une soci\u00e9t\u00e9 poss\u00e9dant une caste militaire, tous les membres de l'arm\u00e9e partagent des origines tribales, une religion, une nationalit\u00e9 ou tout autre crit\u00e8re socio-\u00e9conomique sp\u00e9cifique. Les citoyens qui ne font pas partie de cette caste n'ont pas le droit de rejoindre l'arm\u00e9e, voire de porter d'armes (souvent par crainte de les voir se retourner contre la caste en question). La majeure partie du Japon f\u00e9odal ainsi que la Sparte antique avaient adopt\u00e9 un syst\u00e8me de caste militaire.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/caste_militaire.png",
+    "required_policies": [
+        {
+            "name": "Discipline",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/discipline.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Honneur",
+        "game_info": "L'honneur am\u00e9liore de diverses fa\u00e7ons l'efficacit\u00e9 de l'arm\u00e9e. Adopter l'honneur octroie un bonus de combat de 33% contre les Barbares, et vous recevez une notification chaque fois que l'un de leurs campements appara\u00eet pr\u00e8s de votre territoire. Votre empire re\u00e7oit de la culture \u00e0 chaque barbare \u00e9limin\u00e9. L'honneur d\u00e9bloque la statue de Zeus. En adoptant toutes les doctrines de l'honneur, vous recevrez de l' or chaque fois que vous \u00e9liminerez une unit\u00e9 ennemie. Permet \u00e9galement d'acheter des g\u00e9n\u00e9raux illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": null,
+        "historical_info": "Dans une soci\u00e9t\u00e9 \"honorable\", le statut des citoyens est bas\u00e9 sur le jugement qu'a la communaut\u00e9 de leurs qualit\u00e9s personnelles. Les qualit\u00e9s traditionnellement consid\u00e9r\u00e9es comme honorables incluent\u00a0: l'all\u00e9geance, l'honn\u00eatet\u00e9, l'int\u00e9grit\u00e9 et le courage. Dans bon nombre de ces soci\u00e9t\u00e9s, on attend des hommes qu'ils \"d\u00e9fendent leur honneur\" jusqu'\u00e0 la mort, en cela que perdre son honneur est consid\u00e9r\u00e9e comme pire encore que de perdre la vie."
+    }
+}

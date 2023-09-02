@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Fuciliere|un Fuciliere|dal tuo Fuciliere|al tuo Fuciliere|il tuo Fuciliere|da un Fuciliere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Forte unit\u00e0 terrestre, destinata a stare in prima fila, disponibile nelle fasi centrali della partita.",
+    "historical_info": "Un fucile \u00e8 un'arma da fuoco progettata per essere appoggiata alla spalla. L'interno della canna \u00e8 dotato di solchi a spirale che impongono al proiettile una veloce rotazione, dandogli una gittata e una precisione molto superiore alle armi a canna liscia. I primi tentativi di realizzare canne rigate in Europa risalgono addirittura al XV secolo, ma le difficolt\u00e0 tecniche della produzione ne impedirono la diffusione fino all'Ottocento. Durante le guerre napoleoniche e la guerra del 1812 gli esploratori e gli ausiliari inglesi e americani erano dotati di moschetti a canna rigata, ma il tempo di ricarica pi\u00f9 lento ne ritard\u00f2 di qualche anno l'adozione da parte delle truppe regolari.L'invenzione della \"pallottola Mini\u00e9\" acceler\u00f2 notevolmente il tempo di ricarica, e ai tempi della guerra civile americana i fucili a canna rigata erano stati ormai adottati da tutti i principali eserciti europei. Dopo la guerra civile americana il moschetto fu reso irreparabilmente obsoleto dal fucile a ripetizione a retrocarica, che aveva una frequenza di fuoco di circa un secondo (il tempo di azionare la leva e premere il grilletto), laddove l'avancarica richiedeva dai 20 ai 30 secondi per colpo nel caso di soldati ben addestrati.",
+    "strategy": "Il Fuciliere \u00e8 l'unit\u00e0 dotata di armi da fuoco che segue e sostituisce il Soldato con moschetto. Rispetto a quest'ultimo \u00e8 molto pi\u00f9 potente, dando al suo esercito un enorme vantaggio sulle civilt\u00e0 che non hanno ancora aggiornato le loro unit\u00e0.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Rigatura delle canne|della Rigatura delle canne",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+    },
+    "free_promotions": []
+}

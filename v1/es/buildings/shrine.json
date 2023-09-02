@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Santuario|Santuarios",
+    "game_info": null,
+    "strategy": "El Santuario es el primer edificio que aumenta la Fe que genera una ciudad, y que te permite fundar y propagar religiones.",
+    "historical_info": "Los santuarios son monumentos sagrados que suelen construirse para conmemorar ciertos iconos culturales o personajes religiosos. Los santuarios, presentes en la pr\u00e1ctica totalidad de las confesiones religiosas de todo el mundo, desempe\u00f1an un papel importante en las ceremonias religiosas de adoraci\u00f3n p\u00fablica y privada.",
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/santuario|santuarios.png",
+    "prereq_tech": {
+        "name": "Alfarer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 1,
+        "happiness": 0
+    }
+}

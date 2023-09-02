@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Granaio|il Granaio|un Granaio",
+    "game_info": "Ogni fonte di Grano, Banane e Cervi sfruttata da questa citt\u00e0 produce +1 Cibo.Permette di usare le Rotte commerciali per distribuire Cibo da questa citt\u00e0 all'interno della tua civilt\u00e0.",
+    "strategy": "Il Granaio aumenta la quantit\u00e0 di Cibo accumulata in una citt\u00e0 e ne velocizza l'espansione. \u00c8 utile quando si vuole far crescere velocemente una grande citt\u00e0.",
+    "historical_info": "Un granaio \u00e8 un edificio costruito per immagazzinare granaglie che saranno poi consumate da persone o animali da allevamento (o entrambi). I primi granai sono stati scoperti in Medio Oriente, vicino a insediamenti neolitici nella Valle del Giordano, e risalgono circa al 9500 a.C. Questi primi granai erano di forma quadrata, con un lato di circa 3 metri. Il pavimento sopraelevato permetteva all'aria di circolare liberamente e proteggeva il grano dai topi e da altre minacce.",
+    "cost": {
+        "production": 60,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/granaio|il_granaio|un_granaio.png",
+    "prereq_tech": {
+        "name": "Ceramica|della Ceramica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

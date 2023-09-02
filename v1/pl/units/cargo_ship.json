@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Statek towarowy|Statku towarowego|Statkowi towarowemu|Statek towarowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Zak\u0142ada mi\u0119dzy dwiema cywilizacjami morskie szlaki handlowe przynosz\u0105ce z\u0142oto. Mo\u017ce te\u017c pos\u0142u\u017cy\u0107 do dostarczania \u017cywno\u015bci lub produkcji na twoim terytorium po wybudowaniu spichlerza lub warsztatu.",
+    "historical_info": "Statki towarowe przeznaczone s\u0105 do transportowania towaru po wodzie. Najdawniejsze zapiski handlowe wspominaj\u0105 o przewozie towar\u00f3w drog\u0105 morsk\u0105, a archeologowie znale\u017ali dowody na istnienie morskich statk\u00f3w towarowych na morzach \u015ar\u00f3dziemnym i Czerwonym ju\u017c na pocz\u0105tku I tysi\u0105clecia p.n.e. W miar\u0119 jak udawano si\u0119 w coraz d\u0142u\u017csze trasy, projekt statku towarowego ulega\u0142 zmianie. Do XVI w. na szlakach handlowych kr\u00f3lowa\u0142y portugalska karaka i hiszpa\u0144ski galeon. Wraz z nastaniem epoki przemys\u0142u istotniejsza sta\u0142a si\u0119 pr\u0119dko\u015b\u0107 transportu, przez co pod koniec XIX w. popularne sta\u0142y si\u0119 klipry. Dzi\u015b mn\u00f3stwo jest wyspecjalizowanych statk\u00f3w - od kontenerowc\u00f3w i masowc\u00f3w po ogromne tankowce.",
+    "strategy": "Statek towarowy umo\u017cliwia ci utworzenie morskiego szlaku handlowego mi\u0119dzy dwoma cywilizacjami, przynosi z\u0142oto w\u0142a\u015bcicielowi i cywilizacji docelowej. Ma o wiele wi\u0119kszy zasi\u0119g ni\u017c szlak l\u0105dowy. Zbudowanie spichlerza lub warsztatu w mie\u015bcie pocz\u0105tkowym pozwoli ci przewozi\u0107 \u017cywno\u015b\u0107 lub produkcj\u0119 pomi\u0119dzy twoimi miastami. Gdy przydzielisz go do jakiego\u015b szlaku, nie mo\u017ce si\u0119 broni\u0107, wi\u0119c sprawd\u017a, czy na szlaku nie ma \u017cadnych niebezpiecze\u0144stw.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

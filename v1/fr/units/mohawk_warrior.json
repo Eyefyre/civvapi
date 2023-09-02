@@ -1,0 +1,23 @@
+{
+    "id": 69,
+    "name": "Guerrier mohawk|Guerriers mohawks",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mohawk_warrior.png",
+    "game_info": "Puissante unit\u00e9 terrestre de premi\u00e8re ligne de l'\u00e8re classique. Le guerrier mohawk est exclusif aux Iroquois. Il profite d'un bonus cons\u00e9quent lorsqu'il combat dans la for\u00eat ou dans la jungle, \u00e0 la diff\u00e9rence du spadassin, qu'il remplace.",
+    "historical_info": "Les guerriers mohawks iroquois faisaient partie de l'une des meilleures unit\u00e9s d'infanterie l\u00e9g\u00e8re du monde. D'une rapidit\u00e9 surprenante et tr\u00e8s souples, les guerriers iroquois \u00e9taient capables de parcourir une tr\u00e8s grande distance en un minimum de temps, prenant ainsi par surprise leurs ennemis europ\u00e9ens certes mieux arm\u00e9s, mais beaucoup plus lents. Avec une force arm\u00e9e \"ne d\u00e9passant jamais les 3000 hommes\", les Iroquois parvinrent \u00e0 se d\u00e9fendre face aux Fran\u00e7ais, aux Britanniques et aux Am\u00e9ricains pendant pr\u00e8s de deux si\u00e8cles.",
+    "strategy": "Le guerrier mohawk est une unit\u00e9 exclusive aux Iroquois. Aussi puissant que le spadassin, qu'il remplace, sur les cases de terrain d\u00e9gag\u00e9 ou de collines, il re\u00e7oit un bonus important lorsqu'il combat sur des cases de for\u00eat ou de jungle. Mais, contrairement au spadassin, il n'a pas besoin de fer pour sa cr\u00e9ation.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Travail du fer",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus de combat en for\u00eat/jungle (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/combat_bonus_in_forest_jungle_(33).json"
+        }
+    ]
+}

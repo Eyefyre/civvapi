@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bazaar",
+    "game_info": "Provides 1 extra copy of each improved luxury resource near this City. Each source of Oil and each Oasis provides +2 Gold. Trade routes other players make to a city with a Bazaar will generate an extra 1 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.",
+    "strategy": "The Bazaar is the Arabian unique building, replacing the Market. The Bazaar provides a Gold bonus to the city. The civilization gains one additional copy of each luxury resource provided by a city possessing a Bazaar. The Bazaar provides +2 Gold on Oil and Oases.",
+    "historical_info": "A bazaar is a public market district found in an Arabic or other Eastern Mediterranean town. The classic Arabian bazaar is a bustling warren of small shops and stalls, selling all manner of goods - from food, to spices, rugs and software. Some bazaars are open-air, while others have been roofed over to protect the merchandise and customers from the elements. Many still survive today, a cheerful and noisy alternative to the West's antiseptic shopping malls.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazaar.png",
+    "prereq_tech": {
+        "name": "Currency",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/currency.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 56,
+    "name": "Ferrovia|della Ferrovia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/railroad.png",
+    "era": "Epoca moderna",
+    "cost": 3100,
+    "civilopedia_entry": "Le prime \"ferrovie\" furono costruite in Europa nel XVI secolo, all'interno delle miniere; consistevano in carrelli a rotelle che si spostavano su binari. I carrelli erano trainati da uomini o animali (solitamente cavalli o asini). La prima ferrovia a vapore non sotterranea fu costruita nel 1825 in Inghilterra: quando si rivel\u00f2 un successo, la tecnologia prese rapidamente piede in tutto il mondo. La costruzione della prima ferrovia americana, la \"Baltimore and Ohio\", inizi\u00f2 nel 1828. Nel giro di un secolo ogni continente del mondo pot\u00e9 vantare una significativa rete ferroviaria.\u00c8 impossibile sovrastimare l'importanza delle ferrovie nello sviluppo mondiale. Prima che la linea transcontinentale che attraversava gli Stati Uniti fosse ultimata, un viaggio da New York a San Francisco richiedeva mesi: In treno lo stesso viaggio durava sette giorni e costava solo 65 dollari. L'arrivo della ferrovia ebbe come conseguenza l'esplosione demografica del Midwest e dell'Ovest americano. Gli insediamenti vicini alle linee si arricchirono, mentre quelli lontani dai tracciati finirono per essere abbandonati.Con l'invenzione e la produzione in serie delle automobili e dei camion, nel XX secolo, le ferrovie hanno perso un po' della loro importanza, in particolare nei paesi come gli Stati Uniti, che vanno pazzi per le auto. Rimangono comunque un mezzo estremamente economico e (relativamente) pulito per spostare beni e persone, e tutti i segni indicano che nel prossimo futuro torneranno prepotentemente alla ribalta.",
+    "quote": "\"L'introduzione sui carri a ruote di un agente potente come il vapore apporter\u00e0 un grande cambiamento alla condizione dell'uomo.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        },
+        {
+            "name": "Dinamite|della Dinamite",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/dynamite.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+        },
+        {
+            "name": "Combustione|della Combustione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combustion.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Cremlino|il Cremlino|il Cremlino",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/kremlin.json"
+        },
+        {
+            "name": "Castello di Neuschwanstein|il Castello di Neuschwanstein|il Castello di Neuschwanstein",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/neuschwanstein.json"
+        }
+    ]
+}

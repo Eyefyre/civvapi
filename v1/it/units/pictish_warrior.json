@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Guerriero Pitto|un Guerriero Pitto|dal tuo Guerriero Pitto|al tuo Guerriero Pitto|il tuo Guerriero Pitto|da un Guerriero Pitto",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Solo i Celti possono costruire quest'unit\u00e0, che gode di un bonus al combattimento quando si trova all'esterno dei territori amici e pu\u00f2 saccheggiare i miglioramenti nelle caselle senza alcun costo di movimento. Ogni volta che sconfigge un'unit\u00e0 nemica guadagna Fede pari al 50% della forza dell'unit\u00e0 sconfitta.",
+    "historical_info": "I Pitti, una delle pi\u00f9 importanti trib\u00f9 celtiche delle isole britanniche, furono una popolazione della tarda et\u00e0 del ferro stanziata nell'attuale Scozia nord-occidentale. I loro guerrieri erano temuti non solo dagli altri popoli celti, ma anche dai decantati legionari romani. Lo storico greco Dionigi di Alicarnasso, vissuto durante il regno di Augusto, scrisse che \"il loro modo di combattere era in larga misura quello delle bestie, selvagge e frenetiche\": in ogni caso i Pitti riuscirono a ottenere considerevoli successi contro le ponderose formazioni militari, che non riuscivano a manovrare efficacemente nelle foreste e colline del nord Europa.La spaventosa reputazione dei Pitti era ulteriormente corroborata dall'uso del carnyx, una tromba di bronzo che durante la battaglia veniva suonata incessantemente per incitare i guerrieri e spaventare i nemici. Infine, gli avversari entravano in battaglia gi\u00e0 impressionati dalle teste che i guerrieri Pitti portavano con s\u00e9. I Pitti credevano che portare le teste dei nemici sconfitti infondesse coraggio e, forse, una rabbia di origine divina.",
+    "strategy": "Il Guerriero Pitto \u00e8 un'unit\u00e0 esclusiva dei Celti. Perfettamente adatto agli assalti nelle prime fasi del gioco, un Guerriero Pitto pu\u00f2 devastare le terre nemiche, saccheggiando e muovendosi rapidamente nello stesso turno. Inoltre ti fa guadagnare Fede ogni volta che uccide un'unit\u00e0 nemica, facendo di ogni guerra un'occasione di progresso in ambito religioso.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus in terra straniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "Nessun costo di PM per il saccheggio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

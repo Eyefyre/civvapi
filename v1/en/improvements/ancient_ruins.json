@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "name": "Ancient Ruins",
+    "game_info": "Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin!",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ancient_ruins.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        },
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

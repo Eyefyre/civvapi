@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "Electr\u00f3nica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 4100,
+    "civilopedia_entry": "La electr\u00f3nica engloba las ramas tecnol\u00f3gicas que estudian el movimiento controlado de electrones a trav\u00e9s de distintos medios (incluyendo el vac\u00edo). Esta disciplina no debe confundirse con la tecnolog\u00eda el\u00e9ctrica, que versa sobre la generaci\u00f3n y distribuci\u00f3n de energ\u00eda. La electr\u00f3nica no fue reconocida como un campo de estudio independiente hasta 1950, fecha en la que se distingui\u00f3 de la radiotecnolog\u00eda.Los circuitos electr\u00f3nicos pueden clasificarse en dos grupos diferentes: anal\u00f3gicos y digitales. Los circuitos anal\u00f3gicos son por lo general combinaciones sencillas de circuitos b\u00e1sicos por los que pasa una corriente continua; hoy en d\u00eda pr\u00e1cticamente no se utilizan. Los circuitos digitales constituyen la base de los ordenadores modernos y controladores l\u00f3gicos de chips programables, ya que son la representaci\u00f3n f\u00edsica m\u00e1s com\u00fan del \u00e1lgebra de Boole (\u00bfos suena eso de los ceros y los unos?).El estudio y desarrollo de la electr\u00f3nica est\u00e1 estrechamente vinculado al de las matem\u00e1ticas, y para la primera se precisan conocimientos de la segunda. La creaci\u00f3n y el an\u00e1lisis de circuitos complejos implican la resoluci\u00f3n de sistemas lineales con m\u00faltiples variables desconocidas (como el voltaje y la corriente que pasa por determinados puntos), raz\u00f3n por la cual gran parte de los circuitos dise\u00f1ados en la actualidad se complementan con paquetes de software para la automatizaci\u00f3n de dise\u00f1os electr\u00f3nicos, tarea nada sencilla que casi puede considerarse una disciplina por s\u00ed sola.",
+    "quote": "\"Hay un principio b\u00e1sico en la electr\u00f3nica de consumo: cada vez se hace m\u00e1s potente y m\u00e1s barata.\" - Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Repuestos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Vuelo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        },
+        {
+            "name": "Teor\u00eda del \u00e1tomo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Portaaviones|Portaaviones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/carrier.json"
+        },
+        {
+            "name": "Acorazado|Acorazados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

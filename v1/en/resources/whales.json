@@ -1,0 +1,29 @@
+{
+    "id": 14,
+    "name": "Whales",
+    "game_info": null,
+    "historical_info": "The largest mammals alive today, for centuries men have hunted whales for their meat, blubber, and bones. In pre-industrial times men challenged these massive animals from sailing vessels, employing harpoons against the massive beasts in an often deadly fight of man against animal. Now the hunters use modern ships, sonar, and exploding weapons against the whales - with such success that their survival remains in doubt.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/whales.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Fishing Boats",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Coast",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+        }
+    ]
+}

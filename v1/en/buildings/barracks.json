@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Barracks",
+    "game_info": "+15 XP for all Units.",
+    "strategy": "Barracks provide experience for military units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle.",
+    "historical_info": "Barracks are military buildings that house a country's professional soldiers. In addition to providing food and shelter for the soldiers, they provide training and medical facilities, as well as military jails, vehicle maintenance, and so forth.Barracks are important to a civilization's happiness and well-being. They promote cohesion among the ranks, improving the soldiers' chances of success in combat, and they control direct contact between civilians and soldiers, limiting the friction that is almost universally caused when the two groups intermingle overmuch.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/barracks.png",
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

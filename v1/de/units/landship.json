@@ -1,0 +1,27 @@
+{
+    "id": 116,
+    "name": "Landfahrzeug",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landship.png",
+    "game_info": "Als erste ihrer Art kann sich diese m\u00e4chtige Einheit im sp\u00e4ten Spiel nach einem Angriff bewegen.",
+    "historical_info": "Der Panzer wurde erstmals von britischen Ingenieuren im Ersten Weltkrieg konzipiert, um dem Problem der st\u00e4ndigen Pattsituationen beim Krieg im Sch\u00fctzengraben Abhilfe zu schaffen, und entwickelte sich zu einem entscheidenden Bestandteil des Krieges an Land. Obwohl die ersten Panzerentw\u00fcrfe sehr schwerf\u00e4llig waren, experimentierten die alliierten Streitkr\u00e4fte und ihre Gegner im Verlauf des Krieges laufend mit verschiedenen Panzerkonzepten. Zuverl\u00e4ssigkeit, Gewicht und Man\u00f6vrierf\u00e4higkeit waren allesamt wichtige Hindernisse, die man nur durch wiederholtes Ausprobieren \u00fcberwinden konnte.",
+    "strategy": "Das Landfahrzeug ist eine kraftvolle und mobile Landeinheit. Es kann sich auch nach dem Kampf noch bewegen und so L\u00f6cher in die feindlichen Linien rei\u00dfen und diese dann besetzen.",
+    "movement": 4,
+    "cost": {
+        "production": 350,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Verbrennungsmotor",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

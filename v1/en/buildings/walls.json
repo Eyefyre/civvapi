@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Walls",
+    "game_info": "Walls increase a city's Defense Strength by 5 and Hit Points by 50, making the city more difficult to capture. Walls are quite useful for cities located along a civilization's frontier.",
+    "strategy": "Walls increase a city's Defense Strength by 5 and Hit Points by 50, making the city more difficult to capture. Walls are quite useful for cities located along a civilization's frontier.",
+    "historical_info": "Ever since people have gathered together in groups - towns, cities, whatever - other people have wanted to steal their stuff. From earliest history people have constructed defensive works of mud, wood or stone to keep their enemies away from their food, wealth, and women and children. By medieval times walled villages and cities dotted the European countryside, some accompanied by elaborate moats and ditches. Some of these elaborate works are still visible today. The city of York, England, has extensive walls which date back to Roman times.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/walls.png",
+    "prereq_tech": {
+        "name": "Masonry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/masonry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

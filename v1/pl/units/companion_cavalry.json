@@ -1,0 +1,35 @@
+{
+    "id": 67,
+    "name": "Hetajrowie|Hetajr\u00f3w|Hetajrom|Hetajr\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/companion_cavalry.png",
+    "game_info": "Szybka i silna jednostka konna z pocz\u0105tku gry. S\u0142aba w walce z w\u0142\u00f3cznikami. Mog\u0105 j\u0105 tworzy\u0107 tylko Grecy. Ta jednostka jest szybsza, ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 i umo\u017cliwia szybsze stworzenie wielkich genera\u0142\u00f3w ni\u017c konnica, kt\u00f3r\u0105 zast\u0119puje.",
+    "historical_info": "Hetajrowie byli elitarnymi je\u017ad\u017acami towarzysz\u0105cymi Aleksandrowi Wielkiemu w bitwach. Nazwa \u201ehetairoi\u201d i sami hetajrowie wywodz\u0105 si\u0119 z najbardziej zaufanej macedo\u0144skiej arystokracji (cho\u0107 zwyczaj ten rozszerzy\u0142 si\u0119 p\u00f3\u017aniej na szlacht\u0119 sprzymierzonych i podleg\u0142ych lud\u00f3w). Ka\u017cdy kawalerzysta nosi\u0142 xyston (oszczep), kopis (zakrzywiony miecz), kirys z br\u0105zu, naramienniki i he\u0142m.W boju Aleksander zazwyczaj trzyma\u0142 swoich towarzyszy w odwodzie do czasu, a\u017c wszystkie si\u0142y wroga star\u0142y si\u0119 z jego falangami. Nast\u0119pnie osobi\u015bcie prowadzi\u0142 hetajr\u00f3w na skrzyd\u0142o lub ty\u0142y nieprzyjaciela, siej\u0105c zam\u0119t i przera\u017cenie w szeregach wrogiej armii. Przeciwnicy Aleksandra nigdy nie poznali skutecznej metody walki z tym manewrem, a sam wielki dow\u00f3dca podbi\u0142 wi\u0119kszo\u015b\u0107 znanego w\u00f3wczas \u015bwiata.",
+    "strategy": "Hetajrowie to unikatowa jednostka grecka, zast\u0119puj\u0105ca konnic\u0119. Hetajrowie s\u0105 szybsi i silniejsi od konnicy, co czyni ich najgro\u017aniejsz\u0105 jednostk\u0105 kawalerii, a\u017c do pojawienia si\u0119 rycerzy. Hetajrowie pomagaj\u0105 w tworzeniu wielkich genera\u0142\u00f3w bardziej ni\u017c inne jednostki. Ponadto mog\u0105 si\u0119 porusza\u0107 po przeprowadzeniu ataku. Hetajrowie to kawaleria, wi\u0119c s\u0105 podatni na ataki w\u0142\u00f3cznik\u00f3w i pikinier\u00f3w.",
+    "movement": 5,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Wielcy genera\u0142owie I|Wielkich genera\u0142\u00f3w I|Wielkim genera\u0142om I|Wielkich genera\u0142\u00f3w I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

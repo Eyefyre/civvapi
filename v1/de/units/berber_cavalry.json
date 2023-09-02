@@ -1,0 +1,39 @@
+{
+    "id": 129,
+    "name": "Berber-Kavallerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berber_cavalry.png",
+    "game_info": "Berittene Einheit, die sich auf W\u00fcstenkriegsf\u00fchrung und den Schutz des marokkanischen Landes spezialisiert hat. Erh\u00e4lt Kampfbonusse f\u00fcr das K\u00e4mpfen auf W\u00fcsten-Gel\u00e4ndefeldern und auf marokkanischem Boden. Kann nur von Marokko gebaut werden.",
+    "historical_info": "Die grimmigen Berberkrieger, die jahrhundertelang den Maghreb bewohnten, waren die Herrscher des Rif-Gebirgszuges und der westlichen Sahara. Die Krieger ritten auf den sogenannten Berberpferden, einer nordafrikanischen Pferderasse von au\u00dfergew\u00f6hnlicher Konstitution. Sie trugen leichte Kleidung, die dem trocken-hei\u00dfen Klima angepasst war, im Winter wurde sie mit Roben verst\u00e4rkt. Ihre Bewaffnung \u00e4hnelte der der Araber: ein langes, gerades Schwert, ein gebogener und verzierter Dolch und eine langl\u00e4ufige Feuerwaffe (mit glattem oder gezogenem Lauf). Die Kavallerie der Berber raubte zwar Karawanen aus und pl\u00fcnderte K\u00fcstensiedlungen, doch sie schlugen auch konventionelle Schlachten - in zahlreichen Konflikten bewiesen sie sich gegen die schwer gepanzerten europ\u00e4ischen Ritter.",
+    "strategy": "Diese berittene Einheit ersetzt die Kavallerie und ist ein mutiger Krieger der W\u00fcsten von Marokko. Erh\u00e4lt Kampfbonusse f\u00fcr das K\u00e4mpfen auf W\u00fcsten-Gel\u00e4ndefeldern und auf marokkanischem Boden (diese Bonusse werden gestapelt).",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "W\u00fcstenkrieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/desert_warrior.json"
+        },
+        {
+            "name": "Bewahrer der Heimat",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/homeland_guardian.json"
+        }
+    ]
+}

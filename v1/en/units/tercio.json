@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Dominant military Unit of the Renaissance Era. Only Spain may build it. This Unit has a higher Combat Strength than the Musketman which it replaces, as well as the Bonus vs Mounted (50) promotion. However it is also more expensive to build.",
+    "historical_info": "The Tercio is a brilliant military innovation consisting of a mixed formation of pikemen and arquebusiers (soldiers armed with extremely primitive firearms), created in the early 16th century by the Spanish general Gonzalo Fernandez de Cordoba. The tercio (also known as the \"Spanish square\") was deployed in a checkerboard formation, with pikemen and arquebusiers set in alternating supporting blocks. The advantages of this arrangement are obvious: the arquebusiers can attack the enemy at distance, and the pikemen can take over in close combat. This formation would come to dominate Renaissance warfare for more than a century.",
+    "strategy": "The Tercio is one of two Spanish Unique Units, replacing the Musketman. This Unit is stronger in combat than the Musketman and fights at double-strength against mounted units. The Tercio is more expensive to build however.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "Gunpowder",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

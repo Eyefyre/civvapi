@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bibliothek",
+    "game_info": "+1 Wissenschaft f\u00fcr jeweils 2 B\u00fcrger in dieser Stadt.",
+    "strategy": "Die Bibliothek steigert die Wissenschaftsproduktion einer Stadt und beschleunigt so die Entwicklung neuer Technologien.",
+    "historical_info": "Eine Bibliothek ist ein Geb\u00e4ude, das eine Sammlung an B\u00fcchern, Schriftrollen und anderen Schriftst\u00fccken beherbergt. Fr\u00fcher waren B\u00fccher eher teuer und somit f\u00fcr die \u00e4rmeren Bev\u00f6lkerungsschichten unerreichbar. Die Bibliothek erm\u00f6glicht den Armen Zugriff auf das gleiche Wissen wie den Reichen, was ihre Chancen auf Erfolg und Fortschritt deutlich steigert.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bibliothek.png",
+    "prereq_tech": {
+        "name": "Schrift",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Ceilidh Hall",
+    "game_info": null,
+    "strategy": "The Ceilidh Hall is a Renaissance-era building unique to the Celts, replacing the Opera House. It increases the city's Culture and Happiness.",
+    "historical_info": "Traditionally, a \"Ceilidh\" was a social gathering first associated with the early people of Ireland and Scotland. Held frequently throughout the year, ceilidhs were often accompanied by music and dance, and provided an important social diversion from the labors of everyday life. Ceilidhs were held in halls when available, but were also known to have taken place in private homes, schools, and local businesses.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ceilidh_hall.png",
+    "prereq_tech": {
+        "name": "Acoustics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 3
+    }
+}

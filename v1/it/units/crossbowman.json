@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Balestriere|un Balestriere|dal tuo Balestriere|al tuo Balestriere|il tuo Balestriere|da un Balestriere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "Unit\u00e0 di fanteria di epoca medievale, attacca a distanza.",
+    "historical_info": "La balestra \u00e8 apparsa in Europa nel X secolo. Per quanto sia pi\u00f9 lenta di un normale arco, la balestra richiede meno addestramento e meno forza. Con il tempo divenne l'arma dominante sul campo di battaglia. Una balestra \u00e8 composta da un arco piccolo ma molto pesante montato su un manico. Per incoccare l'operatore carica la corda, spesso utilizzando un meccanismo per aiutarsi, dopodich\u00e9 posiziona un dardo in un solco nella parte superiore del manico. Dopo aver preso la mira preme un grilletto per rilasciare la corda, che proietta il dardo verso il bersaglio. Tra gli altri vantaggi la balestra pu\u00f2 essere utilizzata anche da una posizione inginocchiata o prona, cosa del tutto impossibile con un arco.",
+    "strategy": "Il Balestriere \u00e8 pi\u00f9 potente dell'Arciere con arco composito. Il suo attacco a distanza pu\u00f2 infliggere gravi danni a qualsiasi unit\u00e0 di epoca medievale fino a una distanza di due caselle, ma \u00e8 vulnerabile agli attacchi ravvicinati. Un'ottima unit\u00e0 da tenere in citt\u00e0 per la difesa, va protetta con altre unit\u00e0 da mischia quando si trova in movimento.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Meccanica|della Meccanica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 50,
+    "name": "Steam Power",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steam_power.png",
+    "era": "Industrial Era",
+    "cost": 2350,
+    "civilopedia_entry": "When heated, water produces steam. Steam expands under pressure, and in a steam engine part of the heat energy is captured and used to raise and lower a piston or turn a rotor. The principles behind steam power were known by the ancient Greeks, but no one had figured out how to put it to practical use until the late 17th century, when Englishman Thomas Savery created a steam-powered pump designed to raise water from mines. In 1765 James Watt greatly improved the steam engine to the point that it could be used in a wide variety of applications. By 1802 steam engines were being installed in boats, and by 1825, steam railroads were in operation.Steam power revolutionized industry and transportation across the world. Within a century the globe was crisscrossed by rail lines and steamship routes. Massive steam-powered factories were turning out tens of millions of tons of commercial goods (as well as military hardware). The industrialized countries enjoyed a huge increase in productivity and wealth (and pollution). Coal, the primary energy source used in steam engines, was being feverishly mined around the planet. A large portion of Great Britain's global military strategy centered upon protecting naval coaling stations at strategic locations across the world's oceans.Eventually steam engines would be replaced by internal combustion engines, which were far more efficient and emitted less pollution. But before petroleum, steam was king, and the modern world would never have existed without it.",
+    "quote": "\"The nations of the West hope that by means of steam communication all the world will become as one family.\" - Townsend Harris",
+    "tech_prereqs": [
+        {
+            "name": "Rifling",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+        },
+        {
+            "name": "Industrialization",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+        },
+        {
+            "name": "Scientific Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Replaceable Parts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Railroad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/railroad.json"
+        },
+        {
+            "name": "Flight",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/flight.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ironclad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ironclad.json"
+        }
+    ],
+    "building_unlocks": []
+}

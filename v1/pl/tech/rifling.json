@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 1600,
+    "civilopedia_entry": "Gwintowanie to proces \u017c\u0142obienia spiralnych naci\u0119\u0107 wewn\u0105trz lufy dzia\u0142a lub broni palnej, nadaj\u0105cych pociskowi ruch obrotowy. Obracanie si\u0119 stabilizuje lot pocisku, znacznie poprawiaj\u0105c jego celno\u015b\u0107. Gwintowanie wynaleziono w Wiedniu, w XV wieku. Jednak pocz\u0105tkowo by\u0142 to bardzo drogi i czasoch\u0142onny proces, kt\u00f3ry nie zyska\u0142 popularno\u015bci przez ponad trzy stulecia. Na pocz\u0105tku XVIII wieku z gwintowanych karabin\u00f3w zacz\u0119li korzysta\u0107 strzelcy wyborowi wielu armii w Europie i na \u015bwiecie.W po\u0142owie tego samego wieku gwint i kule Minie sprawi\u0142y, \u017ce muszkiety sta\u0142y si\u0119 o wiele celniejsze i bardziej zab\u00f3jcze. Broni tej i podobnych u\u017cywano masowo podczas ameryka\u0144skiej wojny secesyjnej i prawdopodobnie zada\u0142y one wi\u0119cej strat ni\u017c wszystkie inne karabiny i muszkiety razem wzi\u0119te.Pod koniec wojny secesyjnej karabiny Minie zast\u0119powano karabinami odtylcowymi zasilanymi amunicj\u0105 \u0142uskow\u0105, gdy\u017c zapewnia\u0142y one wi\u0119ksz\u0105 szybkostrzelno\u015b\u0107 ni\u017c muszkiety. Takie karabiny, na przyk\u0142ad Springfield Model 1865 i jego spadkobiercy, by\u0142y standardow\u0105 broni\u0105 piechoty ameryka\u0144skiej a\u017c do I wojny \u015bwiatowej, kiedy to pojawi\u0142y si\u0119 pierwsze karabiny samopowtarzalne. Wsp\u00f3\u0142cze\u015bni piechurzy pos\u0142uguj\u0105 si\u0119 karabinami szturmowymi takimi jak ameryka\u0144ski M16 lub rosyjski AK-47. Dzi\u0119ki tej morderczej broni dzisiejsi \u017co\u0142nierze maj\u0105 si\u0142\u0119 ognia r\u00f3wn\u0105 tuzinowi weteran\u00f3w wojny secesyjnej.",
+    "quote": "\u201eDobrze, \u017ce wojna jest taka straszna, inaczej mogliby\u015bmy j\u0105 polubi\u0107.\u201d \u2013 Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Ekonomia|Ekonomii|Ekonomii|Ekonomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/economics.json"
+        },
+        {
+            "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Silnik parowy|Silnika parowego|Silnikowi parowemu|Silnik parowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Strzelcy|Strzelc\u00f3w|Strzelcom|Strzelc\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/rifleman.json"
+        },
+        {
+            "name": "Narciarze norwescy|Narciarzy norweskich|Narciarzom norweskim|Narciarzy norweskich",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/mehal_sefari.json"
+        },
+        {
+            "name": "Karolanie|Karolan|Karolanom|Karolan",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

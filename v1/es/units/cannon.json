@@ -1,0 +1,39 @@
+{
+    "id": 47,
+    "name": "Ca\u00f1\u00f3n|Ca\u00f1ones",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cannon.png",
+    "game_info": "Poderosa unidad de asedio del Renacimiento. Debe desplegarse antes de disparar.",
+    "historical_info": "Un ca\u00f1\u00f3n es un arma con un gran tubo que usa p\u00f3lvora u otros explosivos para enviar un proyectil a una buena distancia y a gran velocidad. Se invent\u00f3 en China aproximadamente en el siglo X d. C. Los mongoles fueron los primeros en adoptarlo y lo usaron con mucho \u00e9xito contra China y Corea. Es probable que fueran ellos los que introdujeron el ca\u00f1\u00f3n en el mundo isl\u00e1mico y que los europeos lo aprendieran de los musulmanes. Los primeros ca\u00f1ones eran enormes, poco manejables y sol\u00edan explotar cuando se disparaban, lo que los convert\u00eda en un gran peligro tanto para los artilleros como para sus objetivos. Pero, en el Renacimiento, la calidad del vaciado del metal ya hab\u00eda avanzado lo bastante como para crear ca\u00f1ones m\u00e1s peque\u00f1os y muchos m\u00e1s fiables que pod\u00edan llevarse al combate con recuas de caballos o a bordo de barcos.El rey Gustavo Adolfo de Suecia revolucion\u00f3 el empleo de la artiller\u00eda de campo, pues emple\u00f3 gran n\u00famero de piezas m\u00e1s ligeras y peque\u00f1as que superaron con creces a los ca\u00f1ones m\u00e1s lentos y pesados. Tambi\u00e9n fue el primero en usar disparos de metralla contra la infanter\u00eda, hecho por el que probablemente los soldados de todo el mundo habr\u00e1n maldecido su nombre.",
+    "strategy": "El Ca\u00f1\u00f3n es una unidad de asedio importante a medias de la partida y resulta devastadora contra civilizaciones que a\u00fan no lo tengan. Como otras unidades de asedio, debe gastar 1 PM para desplegarse antes de poder atacar. Sigue siendo potente en la era industrial, pero no puede ver tan lejos como otras unidades y debe protegerse con unidades de cuerpo a cuerpo.",
+    "movement": 2,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Qu\u00edmica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chemistry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Cannone antiaereo|un Cannone antiaereo|dal tuo Cannone antiaereo|al tuo Cannone antiaereo|il tuo Cannone antiaereo|da un Cannone antiaereo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "Intercetter\u00e0 gli apparecchi nemici che cercano di bombardare le unit\u00e0 vicine.",
+    "historical_info": "Questo pezzo d'artiglieria spara proiettili in aria. Una volta raggiunta un'altezza predeterminata gli obici esplodono, proiettando tutt'intorno una letale sfera di schegge e detriti. I cannoni antiaerei (chiamati in gergo \"ack-ack\") sono molto vulnerabili agli attacchi dal terreno: se vengono lasciati senza protezioni possono essere facilmente distrutti dalla fanteria o da unit\u00e0 corazzate.",
+    "strategy": "Queste unit\u00e0 di artiglieria specializzata attaccheranno automaticamente qualsiasi unit\u00e0 aerea che bombardi un obiettivo nel raggio di 2 caselle (ma possono intercettare solo una singola unit\u00e0 al turno). Sono piuttosto deboli contro le altre unit\u00e0 di terra e devono essere difese quando c'\u00e8 il pericolo che siano attaccate in combattimento ravvicinato.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Balistica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contro unit\u00e0 volanti ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

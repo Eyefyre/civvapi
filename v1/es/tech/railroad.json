@@ -1,0 +1,40 @@
+{
+    "id": 56,
+    "name": "Ferrocarril",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/railroad.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 3100,
+    "civilopedia_entry": "Los primeros ferrocarriles se construyeron en las minas europeas durante el siglo XVI. No eran m\u00e1s que carros que rodaban sobre unos ra\u00edles y que eran tirados por hombres o animales (normalmente, caballos o burros). El primer ferrocarril de superficie a vapor se construy\u00f3 en Inglaterra en 1825 y, cuando esta tecnolog\u00eda demostr\u00f3 su utilidad, su uso se extendi\u00f3 por el mundo entero. La construcci\u00f3n del primer ferrocarril espa\u00f1ol uni\u00f3 Barcelona con Matar\u00f3 en 1848. En menos de un siglo, todos los continentes contaron con una red ferroviaria importante.No se puede subestimar la importancia que ha tenido el ferrocarril en el desarrollo mundial. Antes de que el transcontinental cruzara Estados Unidos, viajar de Nueva York a San Francisco llevaba meses. El mismo viaje duraba siete d\u00edas en ferrocarril, al m\u00f3dico precio de 65 d\u00f3lares. Cuando se termin\u00f3 este ferrocarril, la poblaci\u00f3n europea del oeste y medio oeste estadounidenses aument\u00f3. Las ciudades que se encontraban en el trazado ferroviario se hicieron ricas, y las que no, se empobrecieron y murieron.Con la invenci\u00f3n y la producci\u00f3n en masa de los coches y camiones en el siglo XX, los ferrocarriles disminuyeron en importancia, especialmente en Estados Unidos, donde estall\u00f3 un aut\u00e9ntico furor por los autom\u00f3viles. No obstante, siguen siendo una manera extremadamente econ\u00f3mica y (relativamente) ecol\u00f3gica de transportar mercanc\u00edas y personas, y todos los indicadores apuntan a que tendr\u00e1n una recuperaci\u00f3n asombrosa en un futuro cercano.",
+    "quote": "\"La introducci\u00f3n de un agente tan potente como el vapor en los carruajes sobre ruedas representar\u00e1 un gran cambio en la situaci\u00f3n del hombre.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        },
+        {
+            "name": "Dinamita",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/dynamite.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Misiles bal\u00edsticos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+        },
+        {
+            "name": "Combusti\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combustion.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Kremlin|Kremlin",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/kremlin.json"
+        },
+        {
+            "name": "Neuschwanstein|Neuschwansteins",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/neuschwanstein.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Krepost",
+    "game_info": "Toutes les unit\u00e9s\u00a0: +15 EXP. Le co\u00fbt en culture et en or pour l'acquisition de nouvelles cases diminue de 25% pour cette ville.",
+    "strategy": "B\u00e2timent exclusif aux Russes, le krepost remplace la caserne. Il fournit 15\u00a0points d'exp\u00e9rience \u00e0 toutes les unit\u00e9s militaires form\u00e9es dans la ville. Le krepost augmente \u00e9galement l'expansion des fronti\u00e8res culturelles de la ville de 25%. S'il est toujours utile de construire ces forteresses dans les villes russes, ceci est d'autant plus vrai dans le cas de villes situ\u00e9es aux fronti\u00e8res de la civilisation.",
+    "historical_info": "\"Krepost\" est un mot russe signifiant \"forteresse\". La Russie a longtemps \u00e9t\u00e9 un pays expansionniste, repoussant ses fronti\u00e8res toujours plus \u00e0 l'est \u00e0 travers les steppes, au-del\u00e0 de la Sib\u00e9rie. Lorsque les Russes p\u00e9n\u00e9traient sur de nouvelles terres, ils choisissaient souvent d'y construire un \"krepost\" afin de prot\u00e9ger leurs troupes et d'h\u00e9berger les autorit\u00e9s gouvernementales et religieuses. En fonction de l'emplacement et des mat\u00e9riaux disponibles, le krepost pouvait \u00eatre temporaire et en bois, ou plus permanent et en pierres. Le krepost ressemble en de nombreux points aux forts construits par les Romains au coeur des territoires conquis.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/krepost.png",
+    "prereq_tech": {
+        "name": "Travail du bronze",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

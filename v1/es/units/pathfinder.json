@@ -1,0 +1,27 @@
+{
+    "id": 131,
+    "name": "Rastreador|Rastreadores",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pathfinder.png",
+    "game_info": "Esta unidad shoshoni \u00fanica que sustituye al Batidor destaca explorando y es temible en combate. Posee un ascenso que le permite elegir beneficio al descubrir una Ruina antigua.",
+    "historical_info": "Entre las tribus de indios americanos de las Grandes Llanuras y las monta\u00f1as Rocosas, se daba a algunos miembros la condici\u00f3n de exploradores superiores y se les confiaba la realizaci\u00f3n de cometidos vitales para los n\u00f3madas. Estos \"pathfinders\" (rastreadores), a los que se le llamaba de varias formas, rastreaban a enemigos y animales, exploraban las rutas para emigrar, espiaban a rivales e intrusos y proteg\u00edan los campamentos de invierno. Eran tan h\u00e1biles que los ej\u00e9rcitos de las grandes potencias los contrataban como batidores y asesores ya desde la guerra de los pequot (1637-1638) cuando las tribus narragansett y mohicana ayudaron a los colonos ingleses de la bah\u00eda de Massachusetts. No obstante, con la imposici\u00f3n de fronteras y el confinamiento de los ind\u00edgenas americanos en reservas, la figura del rastreador desapareci\u00f3.",
+    "strategy": "El Rastreador es un sustituto del Batidor que solo pueden formar los shoshoni. Explora tan bien como el Batidor y lucha casi tan bien como un Guerrero. Permite al jugador elegir el beneficio que recibir\u00e1 al descubrir Ruinas antiguas. Cuesta m\u00e1s que un Batidor.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Idioma nativo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/native_tongue.json"
+        },
+        {
+            "name": "Coste por terreno sin efecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

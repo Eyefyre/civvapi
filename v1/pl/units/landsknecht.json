@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Landsknechci|Landsknecht\u00f3w|Landsknechtom|Landsknecht\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "Ta jednostka jest znacznie ta\u0144sza od pikinier\u00f3w i potrafi pl\u0105drowa\u0107 teren bez zu\u017cywania punkt\u00f3w ruchu, a tak\u017ce kradnie z\u0142oto podczas ataku na miasto. Mo\u017cna j\u0105 odblokowa\u0107, wybieraj\u0105c ustr\u00f3j spo\u0142eczny \u201earmia najemna\u201d. Jednostki tej nie mo\u017cna wyszkoli\u0107, nale\u017cy j\u0105 kupi\u0107 za z\u0142oto. Mo\u017ce si\u0119 ruszy\u0107 od razu po zakupie.",
+    "historical_info": "Landsknechci byli najemnymi pikinierami, kt\u00f3rzy walczyli dla Niemiec w XVI wieku. Formacja ta powsta\u0142a jako kopia legendarnych szwajcarskich najemnych pikinier\u00f3w. Z czasem wojska te sta\u0142y si\u0119 najlepszymi najemnymi oddzia\u0142ami \u015bwiata. Walczy\u0142y we wszystkich wa\u017cniejszych kampaniach XVI stulecia. Podczas walki \u017co\u0142nierze ci korzystali z pik o d\u0142ugo\u015bci do 20 st\u00f3p. Niekt\u00f3rzy pos\u0142ugiwali si\u0119 nawet d\u0142ugimi dwur\u0119cznymi mieczami i halabardami. Zazwyczaj wykorzystywali je do obr\u0105bywania w\u0142\u00f3czni przeciwnik\u00f3w.",
+    "strategy": "Landsknechci to jednostka dost\u0119pna po wyborze ustroju spo\u0142ecznego \u201earmia najemna\u201d, trzeba j\u0105 kupi\u0107 za z\u0142oto. Landsknechci s\u0105 o wiele ta\u0144si od pikinier\u00f3w i otrzymuj\u0105 premie podczas pl\u0105drowania i grabie\u017cy miast. Te jednostki tworz\u0105 tani\u0105 armi\u0119, a inwestycja w nie mo\u017ce si\u0119 zwr\u00f3ci\u0107 z nawi\u0105zk\u0105, je\u015bli wy\u015ble si\u0119 je na teren wroga.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Nie traci ruchu za pl\u0105drowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Podw\u00f3jne pl\u0105drowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/city_plunder.json"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": 135,
+    "name": "Jinete|Jinetes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horseman.png",
+    "game_info": "Una unidad montada r\u00e1pida y poderosa de las primeras fases del juego. Es d\u00e9bil contra Lanceros.",
+    "historical_info": null,
+    "strategy": null,
+    "movement": 4,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

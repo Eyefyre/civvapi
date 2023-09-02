@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "name": "Verbundene Waffen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combined_arms.png",
+    "era": "Atomzeitalter",
+    "cost": 5100,
+    "civilopedia_entry": "Verbundene Waffen sind eine Milit\u00e4rdoktrin, die erstmals vor mehr als 1.000 Jahren zum Einsatz kam. Bei ihr werden unterschiedliche, sich erg\u00e4nzende Einheiten kombiniert, um die Effektivit\u00e4t der gesamten Truppe zu steigern. In der Antike wurden Kompositwaffen von vielen Gro\u00dfm\u00e4chten genutzt, vor allem von den Griechen und R\u00f6mern, die leichte und schwere Infanterie, Kavallerie und Fernkampfeinheiten genau einsetzten, um so eine Gesamtformation zu schaffen, die die einzelnen St\u00e4rken und Schw\u00e4chen hervorheben bzw. auszugleichen wusste. In der Gegenwart k\u00f6nnen durch den Einsatz flugzeugbasierter Waffen noch komplexere Variationen des traditionellen Konzepts verfolgt werden. Flugzeugdrohnen, satellitengelenkte Raketen und besonders hoch fliegende Bomber sind nur ein paar der Beispiele, die den heutigen Milit\u00e4rkommandanten zur Verf\u00fcgung stehen.",
+    "quote": "\"Der Ursprung des B\u00f6sen liegt nicht im Bau neuer, schrecklicherer Waffen. Es ist der Geist der Eroberung.\" - Ludwig von Mises",
+    "tech_prereqs": [
+        {
+            "name": "Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+        },
+        {
+            "name": "Verbrennungsmotor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combustion.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Computertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Panzer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/tank.json"
+        },
+        {
+            "name": "Deutscher Panzer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/panzer.json"
+        },
+        {
+            "name": "Panzerabwehrkanone",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/anti-tank_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Pentagon",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/pentagon.json"
+        }
+    ]
+}

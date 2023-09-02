@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "Ballistik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "Moderne",
+    "cost": 4100,
+    "civilopedia_entry": "Ballistik ist die Bewegungslehre von Projektilen - haupts\u00e4chlich Kugeln, Raketen und Bomben. In den meisten F\u00e4llen kommt der Begriff Ballistik im Zusammenhang mit forensischen Waffen- und Munitionsuntersuchungen auf, meistens in Bezug auf ein Verbrechen, wenn es n\u00f6tig ist, eine Waffe mit einer sichergestellten Kugel zu verbinden und Schuld oder Unschuld zu beweisen. Allgemeinere Ballistikforschungen haben im vergangenen Jahrhundert zu erheblichen Verbesserungen bei der Pr\u00e4zision, Feuerkraft und Effektivit\u00e4t von Projektilwaffen aller Art gef\u00fchrt.",
+    "quote": "\"M\u00e4nner sind wie Kugeln - sie kommen am weitesten, wenn sie besonders glatt sind.\" - Jean Paul",
+    "tech_prereqs": [
+        {
+            "name": "Eisenbahn",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/railroad.json"
+        },
+        {
+            "name": "Luftfahrt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        },
+        {
+            "name": "Verbundene Waffen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Flugabwehrgesch\u00fctz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "Maschinengewehr",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

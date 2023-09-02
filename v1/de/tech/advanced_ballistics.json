@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Fortgeschrittene Ballistik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "Ballistik ist die Lehre von \u00fcber gro\u00dfe Distanz akkurat geworfenen oder abgeschossenen K\u00f6rpern. Die fortgeschrittene Ballistik befasst sich prinzipiell mit der gleichen Thematik, jedoch mit kontinental\u00fcbergreifenden Entfernungen. Moderne Artillerie kann Explosivgeschosse \u00fcber dutzende von Meilen mit enormer Genauigkeit schie\u00dfen, und Raketen k\u00f6nnen ihre Ziele selbst auf der anderen Seite des Erdballs noch mit h\u00f6chster Pr\u00e4zision treffen. Mit Verbesserungen wie GPS und Laserzielerfassung gibt es quasi kein Ziel mehr auf der Welt, das nicht von irgendeiner Waffe getroffen werden k\u00f6nnte. Ob dies eine gute Entwicklung ist, steht zur Debatte. Es h\u00e4ngt vor allem davon ab, wessen Finger den Ausl\u00f6ser bedient.",
+    "quote": "\"Wenn die wissenschaftliche Macht die moralische Macht \u00fcberholt, haben wir schlie\u00dflich ferngelenkte Raketen und irregeleitete Menschen.\" - Martin Luther King, Jr.",
+    "tech_prereqs": [
+        {
+            "name": "Kernspaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Raketentechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teilchenphysik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/particle_physics.json"
+        },
+        {
+            "name": "Kernfusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "RS-Booster",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ss_booster.json"
+        },
+        {
+            "name": "Atomrakete",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/nuclear_missile.json"
+        },
+        {
+            "name": "Lenkrakete",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

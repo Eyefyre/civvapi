@@ -1,0 +1,2171 @@
+[
+    {
+        "id": 1,
+        "name": "P\u0142ywaj\u0105ce ogrody|P\u0142ywaj\u0105cych ogrod\u00f3w|P\u0142ywaj\u0105cym ogrodom|P\u0142ywaj\u0105ce ogrody",
+        "game_info": "+15% do \u017cywno\u015bci. Ka\u017cde uprawiane pole z jeziorem daje +2 do \u017cywno\u015bci.Miasto musi by\u0107 po\u0142o\u017cone nad rzek\u0105 lub jeziorem.",
+        "strategy": "P\u0142ywaj\u0105ce ogrody to unikalny budynek Aztek\u00f3w, zast\u0119puj\u0105cy m\u0142yn wodny. Zwi\u0119ksza on produkcj\u0119 \u017cywno\u015bci w mie\u015bcie, szczeg\u00f3lnie je\u015bli osiedle le\u017cy nad jeziorem lub nad rzek\u0105.",
+        "historical_info": "P\u0142ywaj\u0105cy ogr\u00f3d to niewielka sztuczna wysepka usypana na jeziorze w celu zwi\u0119kszenia ilo\u015bci gruntu dost\u0119pnego pod uprawy. Jezioro nawadnia wysp\u0119 i zapewnia jej sta\u0142y dop\u0142yw \u015bwie\u017cych materia\u0142\u00f3w organicznych, czyni\u0105c j\u0105 niezwykle \u017cyznym terenem. Aztekowie opanowali ten rodzaj rolnictwa do perfekcji, a p\u0142ywaj\u0105ce ogrody Xochimilco nie utraci\u0142y swej s\u0142awy po dzi\u015b dzie\u0144.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/p\u0142ywaj\u0105ce_ogrody|p\u0142ywaj\u0105cych_ogrod\u00f3w|p\u0142ywaj\u0105cym_ogrodom|p\u0142ywaj\u0105ce_ogrody.png",
+        "prereq_tech": {
+            "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/floating_gardens.json"
+    },
+    {
+        "id": 1,
+        "name": "S\u0105d|S\u0105du|S\u0105dowi|S\u0105d|S\u0105dy|S\u0105d\u00f3w|S\u0105dom|S\u0105dy",
+        "game_info": "Eliminuje dodatkowe niezadowolenie w okupowanym mie\u015bcie.",
+        "strategy": "S\u0105d zmniejsza niezadowolenie panuj\u0105ce w zaj\u0119tych miastach. Wznie\u015b gmach s\u0105du w ka\u017cdym okupowanym mie\u015bcie tak szybko, jak to mo\u017cliwe, szczeg\u00f3lnie je\u015bli zamierzasz podbi\u0107 kilka osiedli.",
+        "historical_info": "S\u0105d to budynek, w kt\u00f3rym miejscowe w\u0142adze wymierzaj\u0105 sprawiedliwo\u015b\u0107. Niejednokrotnie stanowi te\u017c siedzib\u0119 rz\u0105du, lecz nie jest to regu\u0142\u0105. Zazwyczaj gmach zajmuje widoczne miejsce w centrum miasta, zar\u00f3wno dlatego, i\u017c obywatele uwa\u017caj\u0105 go za symbol i chlub\u0119, jak i dlatego, \u017ce rz\u0105d pragnie przypomina\u0107 ludowi, i\u017c ma na niego oko.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 4,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/s\u0105d|s\u0105du|s\u0105dowi|s\u0105d|s\u0105dy|s\u0105d\u00f3w|s\u0105dom|s\u0105dy.png",
+        "prereq_tech": {
+            "name": "Matematyka|Matematyki|Matematyce|Matematyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mathematics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/courthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Fort mogolski|Fortu mogolskiego|Fortowi mogolskiemu|Fort mogolski|Forty mogolskie|Fort\u00f3w mogolskich|Fortom mogolskim|Forty mogolskie",
+        "game_info": "Zapewnia +2 do turystyki po wynalezieniu lotu.Miasto musi posiada\u0107 mury.",
+        "strategy": "Fort mogo\u0142\u00f3w to budynek epoki \u015bredniowiecza zwi\u0119kszaj\u0105cy obronno\u015b\u0107 miasta o 7, a jego punkty \u017cywotno\u015bci o 25, zapewniaj\u0105c jednocze\u015bnie w ka\u017cdej turze nieco kultury. To unikatowy budynek indyjski - zast\u0119puje zamek. Po wynalezieniu lotu zapewnia r\u00f3wnie\u017c +2 turystyki. By zbudowa\u0107 fort mogo\u0142\u00f3w, nale\u017cy uprzednio skonstruowa\u0107 mury.",
+        "historical_info": "Mogo\u0142owie byli islamskim imperium, kt\u00f3re w XV wieku najecha\u0142o Indie i w\u0142ada\u0142o wi\u0119kszo\u015bci\u0105 subkontynentu a\u017c do po\u0142owy XIX wieku. W trakcie swoich rz\u0105d\u00f3w budowali skomplikowane forty na terenach wiejskich, kt\u00f3re s\u0142u\u017cy\u0142y im za centra administracyjne oraz kwatery mieszkalne. Forty te by\u0142y przepi\u0119knymi budowlami, w\u0142a\u015bciwie pa\u0142acami w\u0142adc\u00f3w rozleg\u0142ego imperium. Kilka z nich, w tym wspania\u0142y Fort Lahore oraz Czerwony Fort z Agra, przetrwa\u0142o do dnia dzisiejszego. S\u0105 to jedne z najwi\u0119kszych atrakcji turystycznych w Indiach, a zarazem pomniki minionej pot\u0119gi Mogo\u0142\u00f3w.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fort_mogolski|fortu_mogolskiego|fortowi_mogolskiemu|fort_mogolski|forty_mogolskie|fort\u00f3w_mogolskich|fortom_mogolskim|forty_mogolskie.png",
+        "prereq_tech": {
+            "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mughal_fort.json"
+    },
+    {
+        "id": 1,
+        "name": "Twierdza|Twierdzy|Twierdzy|Twierdz\u0119|Twierdze|Twierdz|Twierdzom|Twierdze",
+        "game_info": "+15 punkt\u00f3w do\u015bwiadczenia dla wszystkich jednostek. Koszt kultury i z\u0142ota podczas pozyskiwania nowych p\u00f3l przez miasto maleje o 25%.",
+        "strategy": "Twierdza to unikalny budynek zast\u0119puj\u0105cy koszary. Daje 15 punkt\u00f3w do\u015bwiadczenia wszystkim jednostkom wojskowym szkolonym w danym mie\u015bcie. Ponadto zwi\u0119ksza wp\u0142yw kulturowy miasta o 25%. Warto po\u015bwi\u0119ci\u0107 czas na budow\u0119 twierdz we wszystkich rosyjskich miastach, a szczeg\u00f3lnie w tych le\u017c\u0105cych na pograniczu.",
+        "historical_info": "\u201eKriepost\u201d to rosyjskie s\u0142owo oznaczaj\u0105ce \u201etwierdz\u0119\u201d. Przez wi\u0119kszo\u015b\u0107 czasu swego istnienia Rosja by\u0142a pa\u0144stwem nastawionym na ekspansj\u0119, wci\u0105\u017c przesuwaj\u0105cym granice za rozleg\u0142e stepy, Syberi\u0119 i jeszcze dalej. Rosjanie, wkraczaj\u0105c na nowe tereny, zazwyczaj stawiali twierdz\u0119, aby chroni\u0107 swoje wojska i stwarza\u0107 miejsca urz\u0119dowania w\u0142adz. Zale\u017cnie od lokalnej sytuacji i dost\u0119pno\u015bci materia\u0142\u00f3w, rol\u0119 twierdzy pe\u0142ni\u0142 tymczasowy drewniany fort lub bardziej trwa\u0142a i imponuj\u0105ca budowla z kamienia. Pod wieloma wzgl\u0119dami rosyjska twierdza przypomina wszechobecne forty stawiane przez Rzymian na \u015bwie\u017co podbitych terytoriach.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/twierdza|twierdzy|twierdzy|twierdz\u0119|twierdze|twierdz|twierdzom|twierdze.png",
+        "prereq_tech": {
+            "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/krepost.json"
+    },
+    {
+        "id": 1,
+        "name": "D\u0142ugi dom|D\u0142ugiego domu|D\u0142ugiemu domowi|D\u0142ugi dom|D\u0142ugie domy|D\u0142ugich dom\u00f3w|D\u0142ugim domom|D\u0142ugie domy",
+        "game_info": "+1 do produkcji z ka\u017cdego eksploatowanego pola le\u015bnego.",
+        "strategy": "D\u0142ugi dom to unikalny budynek Irokez\u00f3w, zast\u0119puj\u0105cy warsztat. Zwi\u0119ksza wydajno\u015b\u0107 produkcji ka\u017cdego uprawianego pola le\u015bnego le\u017c\u0105cego w zasi\u0119gu miasta.",
+        "historical_info": "Przez wi\u0119kszo\u015b\u0107 czasu plemiona Irokez\u00f3w mieszka\u0142y w wioskach posiadaj\u0105cych co najmniej jeden \u201eD\u0142ugi dom\u201d, czyli budynek komunalny zbudowany z m\u0142odych drzewek pokrytych kor\u0105 wi\u0105zu. Prawd\u0119 m\u00f3wi\u0105c, Irokezi samych siebie zwali Hodenosaunee, co oznacza \u201elud d\u0142ugiego domu\u201d. D\u0142ugie domy liczy\u0142y od 12 do 120 metr\u00f3w d\u0142ugo\u015bci oraz oko\u0142o 7,5 metra szeroko\u015bci. Wewn\u0119trzne \u015bciany dzia\u0142owe dzieli\u0142y je na pomieszczenia po\u0142\u0105czone centralnym korytarzem. Kilka pomieszcze\u0144 korzysta\u0142o z jednego ogniska do gotowania, palonego po\u015brodku korytarza pod otwartym sklepieniem s\u0142u\u017c\u0105cym za komin.D\u0142ugie domy to mniejsze osiedla, kt\u00f3rych budowa jest ta\u0144sza ni\u017c pojedynczych dom\u00f3w mieszkalnych, przez co zu\u017cywa mniej surowc\u00f3w naturalnych. D\u0142ugi dom to symbol kultury Irokez\u00f3w, nastawionej na przetrwanie i \u017cycie zgodne z otaczaj\u0105cym ich \u015brodowiskiem.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/d\u0142ugi_dom|d\u0142ugiego_domu|d\u0142ugiemu_domowi|d\u0142ugi_dom|d\u0142ugie_domy|d\u0142ugich_dom\u00f3w|d\u0142ugim_domom|d\u0142ugie_domy.png",
+        "prereq_tech": {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/longhouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Bazar|Bazaru|Bazarowi|Bazar|Bazary|Bazar\u00f3w|Bazarom|Bazary",
+        "game_info": "Zapewnia jedn\u0105 dodatkow\u0105 sztuk\u0119 ka\u017cdego ulepszonego surowca luksusowego w okolicach tego miasta. Ka\u017cde \u017ar\u00f3d\u0142o ropy i ka\u017cda oaza zapewniaj\u0105 +2 sztuki z\u0142ota. Szlaki handlowe, kt\u00f3re gracze ustanowi\u0105 z miastem posiadaj\u0105cym bazar, b\u0119d\u0105 generowa\u0107 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "strategy": "Bazar to unikatowy budynek arabski, zast\u0119puj\u0105cy targowisko. Bazar daje miastu premi\u0119 w z\u0142ocie. Cywilizacja zyskuje po jednym dodatkowym surowcu luksusowym wydobywanym przez miasto posiadaj\u0105ce bazar. Zapewnia premi\u0119 +2 z\u0142ota ze z\u0142\u00f3\u017c ropy naftowej i oaz.",
+        "historical_info": "Bazar jest publicznym terenem handlowym w miastach arabskich oraz miastach wschodniej cz\u0119\u015bci Morza \u015ar\u00f3dziemnego. Zwyk\u0142y bazar arabski to ha\u0142a\u015bliwe zbiorowisko ma\u0142ych kram\u00f3w i sklepik\u00f3w, sprzedaj\u0105cych wszystko, co si\u0119 da, od jedzenia, poprzez przyprawy i dywany, a\u017c do oprogramowania. Niekt\u00f3re bazary znajduj\u0105 si\u0119 na powietrzu, podczas gdy inne zosta\u0142y zadaszone, by ochroni\u0107 towar i kupuj\u0105cych przed \u017cywio\u0142ami. Wiele z nich istnieje po dzi\u015b dzie\u0144 i stanowi radosn\u0105 i ha\u0142a\u015bliw\u0105 alternatyw\u0119 dla zachodnich, sterylnych centr\u00f3w handlowych.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazar|bazaru|bazarowi|bazar|bazary|bazar\u00f3w|bazarom|bazary.png",
+        "prereq_tech": {
+            "name": "Waluta|Waluty|Walucie|Walut\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/currency.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/bazaar.json"
+    },
+    {
+        "id": 1,
+        "name": "S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy|S\u0105d satrapy",
+        "game_info": "W mie\u015bcie musi znajdowa\u0107 si\u0119 targowisko. Szlaki handlowe doprowadzone przez innych graczy do miasta maj\u0105cego s\u0105d satrapy wytwarzaj\u0105 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "strategy": "S\u0105d satrapy to unikalny budynek perski zast\u0119puj\u0105cy bank i, podobnie jak on, zwi\u0119kszaj\u0105cy dochody miasta. S\u0105d satrapy zwi\u0119ksza te\u017c zadowolenie cywilizacji. Aby m\u00f3c wznie\u015b\u0107 ten budynek, miasto musi posiada\u0107 wybudowane targowisko.",
+        "historical_info": "\u201eSatrapa\u201d to tytu\u0142 tymczasowego gubernatora w imperium Achemenid\u00f3w w Persji. Kr\u00f3l mianowa\u0142 satrap\u00f3w zazwyczaj spo\u015br\u00f3d cz\u0142onk\u00f3w rodziny kr\u00f3lewskiej. Namiestnicy ci mieli bardzo szerokie uprawnienia do pobierania podatk\u00f3w, a tak\u017ce do wydawania decyduj\u0105cych os\u0105d\u00f3w w sprawach karnych. Byli odpowiedzialni za utrzymanie wojska, przez co musieli budzi\u0107 zaufanie monarchy. Gdy w V wieku p.n.e. centralna w\u0142adza w perskim imperium os\u0142ab\u0142a, satrapowie zacz\u0119li zyskiwa\u0107 coraz wi\u0119ksz\u0105 niezale\u017cno\u015b\u0107, a niekt\u00f3rzy stali si\u0119 pot\u0119\u017cniejsi od samego kr\u00f3la, kt\u00f3remu rzekomo s\u0142u\u017cyli.Gdy Aleksander Wielki podbi\u0142 Persj\u0119, nie zrezygnowa\u0142 z administracji satrap\u00f3w, czasem zast\u0119puj\u0105c ich swoimi genera\u0142ami, a czasem pozostawiaj\u0105c na stanowisku starych gubernator\u00f3w, je\u015bli ci dbali o pok\u00f3j i p\u0142acili podatki.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy|s\u0105d_satrapy.png",
+        "prereq_tech": {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/satrap's_court.json"
+    },
+    {
+        "id": 1,
+        "name": "Papiernia|Papierni|Papierni|Papierni\u0119|Papiernie|Papierni|Papierniom|Papiernie",
+        "game_info": "+1 do nauki za ka\u017cdych 2 obywateli w mie\u015bcie. +2 z\u0142ota.",
+        "strategy": "Papiernia to unikalny budynek chi\u0144ski zast\u0119puj\u0105cy bibliotek\u0119. Budowla ta przyspiesza badania naukowe w mie\u015bcie oraz zwi\u0119ksza jego doch\u00f3d w z\u0142ocie.",
+        "historical_info": "Papier zosta\u0142 wynaleziony w Chinach oko\u0142o roku 200 p.n.e. Do tej pory uda\u0142o si\u0119 ustali\u0107, i\u017c pierwotnie s\u0142u\u017cy\u0142 za materia\u0142 pakowy, a najstarsze przyk\u0142ady jego wykorzystania w pi\u015bmiennictwie datuje si\u0119 na oko\u0142o 8 rok p.n.e. Do roku 300 n.e. pisanie na papierze rozpowszechni\u0142o si\u0119 na ca\u0142e Chiny. Chi\u0144skie papiernie by\u0142y bardzo zaawansowane jak na swoje czasy i wytwarza\u0142y czysty, mocny papier dla klas wyedukowanych, kupc\u00f3w oraz na dw\u00f3r cesarski wieki przed tym, jak pierwsze arkusze dotar\u0142y do \u015bwiata arabskiego i europejskiego.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/papiernia|papierni|papierni|papierni\u0119|papiernie|papierni|papierniom|papiernie.png",
+        "prereq_tech": {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/paper_maker.json"
+    },
+    {
+        "id": 1,
+        "name": "Wat|Watu|Watowi|Wat|Waty|Wat\u00f3w|Watom|Waty",
+        "game_info": "+2 do nauki z p\u00f3l d\u017cungli powi\u0105zanych z tym miastem.W mie\u015bcie musi znajdowa\u0107 si\u0119 biblioteka.",
+        "strategy": "Wat jest unikalnym budynkiem syjamskim, zast\u0119puj\u0105cym uniwersytet. Podnosi kultur\u0119 w mie\u015bcie, przyspieszaj\u0105c tym samym rozw\u00f3j terytorialny osiedla oraz odkrywanie przez cywilizacj\u0119 nowych ustroj\u00f3w spo\u0142ecznych. Wat daje te\u017c miastu premi\u0119 do nauki.",
+        "historical_info": "Wat to buddyjski klasztor wybudowany w Kambod\u017cy, Tajlandii albo w Laosie. S\u0142owo \u201ewat\u201d w dos\u0142ownym t\u0142umaczeniu znaczy \u201eszko\u0142a\u201d. Tak te\u017c zreszt\u0105 by\u0142o, gdy\u017c syjamskie waty stanowi\u0142y miejsca kultu i o\u015bwiaty. W tego rodzaju budowlach mie\u015bci\u0142y si\u0119 liczne pos\u0105gi Buddy, pomieszczenie do modlitw, pok\u00f3j z tekstami religijnymi, zak\u0105tek relaksacyjny, biblioteka, sala naukowa, dzwonnica oraz kwatery mieszkalne. Wat mo\u017ce si\u0119 sk\u0142ada\u0107 z pojedynczego gmachu lub serii budynk\u00f3w, swoistego miasteczka. Zbudowany w XII wieku w Kambod\u017cy Angkor Wat jest najwi\u0119kszym i najlepiej zachowanym watem w po\u0142udniowo-wschodniej Azji.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat|watu|watowi|wat|waty|wat\u00f3w|watom|waty.png",
+        "prereq_tech": {
+            "name": "Edukacja|Edukacji|Edukacji|Edukacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/wat.json"
+    },
+    {
+        "id": 1,
+        "name": "Meczet z piramid\u0105|Meczetu z piramid\u0105|Meczetowi z piramid\u0105|Meczet z piramid\u0105|Meczety z piramid\u0105|Meczet\u00f3w z piramid\u0105|Meczetom z piramid\u0105|Meczety z piramid\u0105",
+        "game_info": "Nie generuje koszt\u00f3w utrzymania w z\u0142ocie.",
+        "strategy": "Meczet z piramid\u0105 to unikatowy budynek Songhaj\u00f3w, zast\u0119puj\u0105cy \u015bwi\u0105tyni\u0119. Znacznie powi\u0119ksza dorobek kulturowy cywilizacji, przyspieszaj\u0105c rozszerzanie si\u0119 jej terytorium oraz poznawanie ustroj\u00f3w spo\u0142ecznych. Meczet z piramid\u0105 nie generuje koszt\u00f3w utrzymania.",
+        "historical_info": "Meczet z piramid\u0105 jest kompleksem budynk\u00f3w znajduj\u0105cych si\u0119 w Gao. Sk\u0142ada si\u0119 z grobowca, dw\u00f3ch meczet\u00f3w, cmentarza oraz miejsca zbi\u00f3rek. Zgodnie z legend\u0105 jest miejscem poch\u00f3wku Askii Muhammada I, jednego z najwi\u0119kszych cesarzy Songhaju. Wiele podobnych budowli, mimo \u017ce nie tak wspania\u0142ych jak Meczet w Gao, znaleziono w ca\u0142ej Afryce Zachodniej. S\u0105 to pami\u0105tki dowodz\u0105ce religijnego po\u015bwi\u0119cenia i umiej\u0119tno\u015bci budowniczych ludu Songhaj.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/meczet_z_piramid\u0105|meczetu_z_piramid\u0105|meczetowi_z_piramid\u0105|meczet_z_piramid\u0105|meczety_z_piramid\u0105|meczet\u00f3w_z_piramid\u0105|meczetom_z_piramid\u0105|meczety_z_piramid\u0105.png",
+        "prereq_tech": {
+            "name": "Filozofia|Filozofii|Filozofii|Filozofi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mud_pyramid_mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Grobowiec|Grobowca|Grobowcowi|Grobowiec|Grobowce|Grobowc\u00f3w|Grobowcom|Grobowce",
+        "game_info": "Nie wymaga utrzymania w z\u0142ocie.Je\u015bli miasto zostanie zaj\u0119te, ilo\u015b\u0107 spl\u0105drowanego przez wroga z\u0142ota zostaje podwojona.",
+        "strategy": "Grobowiec to budynek epoki klasycznej, kt\u00f3ry zwi\u0119ksza zadowolenie w mie\u015bcie, a jego utrzymanie nic nie kosztuje. Je\u015bli jednak osiedle, w kt\u00f3rym zbudowano grobowiec, zostanie zaj\u0119te, cywilizacja straci dwa razy wi\u0119cej z\u0142ota, ni\u017c gdyby grobowca nie by\u0142o. Budynek ten zast\u0119puje \u015bwi\u0105tyni\u0119.",
+        "historical_info": "Egipcjanie wynie\u015bli tradycj\u0119 poch\u00f3wku i kultywowania pami\u0119ci o zmar\u0142ych na nieosi\u0105galne wcze\u015bniej i p\u00f3\u017aniej wy\u017cyny, w zwi\u0105zku z czym znaczna cz\u0119\u015b\u0107 ich bogactwa i energii tw\u00f3rczej zosta\u0142a przeznaczona na budow\u0119 grobowc\u00f3w. Wiele z nich mo\u017cna dzisiaj znale\u017a\u0107 w Dolinie Kr\u00f3l\u00f3w, po przeciwnej do Teb stronie Nilu. W grobowcach tych cz\u0119sto chowano cz\u0119\u015b\u0107 maj\u0105tku zmar\u0142ego, co czyni\u0142o je \u0142akomymi k\u0105skami dla hien cmentarnych.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/grobowiec|grobowca|grobowcowi|grobowiec|grobowce|grobowc\u00f3w|grobowcom|grobowce.png",
+        "prereq_tech": {
+            "name": "Filozofia|Filozofii|Filozofii|Filozofi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/burial_tomb.json"
+    },
+    {
+        "id": 1,
+        "name": "Port morski|Portu morskiego|Portowi morskiemu|Port morski|Porty morskie|Port\u00f3w morskich|Portom morskim|Porty morskie",
+        "game_info": "+1 do produkcji z zasob\u00f3w morskich i z\u0142ota generowanego w obr\u0119bie miasta. +15% do produkcji przy budowie jednostek morskich.Miasto musi le\u017ce\u0107 na wybrze\u017cu.",
+        "strategy": "Port morski zwi\u0119ksza wydajno\u015b\u0107 eksploatacji usprawnionych p\u00f3l z zasobami morskimi.",
+        "historical_info": "Port morski jest nowoczesn\u0105 superprzystani\u0105. Znajduje si\u0119 na g\u0142\u0119bokiej wodzie i posiada urz\u0105dzenia do obs\u0142ugi najwi\u0119kszych tankowc\u00f3w oraz statk\u00f3w transportowych. Porty morskie najcz\u0119\u015bciej zawieraj\u0105 las \u017curawi do szybkiego roz\u0142adunku towaru, kt\u00f3ry nast\u0119pnie transportowany jest przez labirynt szyn kolejowych i dr\u00f3g. Wsp\u00f3\u0142czesne porty morskie zarz\u0105dzane s\u0105 przez kierownik\u00f3w port\u00f3w, siedz\u0105cych w pokojach sterowania, kt\u00f3re wyposa\u017cone s\u0105 w radar, po\u0142\u0105czenie z satelit\u0105 oraz skomplikowane komputery, na kt\u00f3rych pracuj\u0105 zaawansowane programy \u015bledz\u0105ce.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/port_morski|portu_morskiego|portowi_morskiemu|port_morski|porty_morskie|port\u00f3w_morskich|portom_morskim|porty_morskie.png",
+        "prereq_tech": {
+            "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/seaport.json"
+    },
+    {
+        "id": 1,
+        "name": "Stajnia|Stajni|Stajni|Stajni\u0119|Stajnie|Stajni|Stajniom|Stajnie",
+        "game_info": "+15% do produkcji w trakcie szkolenia jednostek konnych.Ka\u017cde \u017ar\u00f3d\u0142o pozyskiwania koni, owiec i byd\u0142a wykorzystywane przez miasto otrzymuje +1 do produkcji.Miasto musi by\u0107 po\u0142o\u017cone w pobli\u017cu przynajmniej jednego z wymienionych \u017ar\u00f3de\u0142 z wybudowanym pastwiskiem.",
+        "strategy": "Stajnie mog\u0105 powsta\u0107 jedynie w mie\u015bcie po\u0142o\u017conym w pobli\u017cu usprawnionego \u017ar\u00f3d\u0142a pozyskiwania koni, owiec lub byd\u0142a. Budynek ten podnosi tempo szkolenia jednostek kawalerii.",
+        "historical_info": "W Civilization V stajnie s\u0105 koszarami dla jednostek jazdy. To tutaj mieszkaj\u0105, jedz\u0105 i trenuj\u0105 \u017co\u0142nierze kawalerii oraz ich wierzchowce. Przez wi\u0119ksz\u0105 cz\u0119\u015b\u0107 swojej historii kawaleria by\u0142a zasilana przez bogatych syn\u00f3w spo\u0142ecze\u0144stwa. Pow\u00f3d by\u0142 prosty: wy\u0142\u0105cznie najbogatsi m\u0142odzi ludzie kiedykolwiek je\u017adzili konno. Z tej te\u017c przyczyny stajnie oraz baraki jazdy cz\u0119sto mia\u0142y znacznie bardziej luksusowe wyposa\u017cenie ni\u017c kwatery biednej piechoty.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stajnia|stajni|stajni|stajni\u0119|stajnie|stajni|stajniom|stajnie.png",
+        "prereq_tech": {
+            "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stable.json"
+    },
+    {
+        "id": 1,
+        "name": "M\u0142yn wodny|M\u0142ynu wodnego|M\u0142ynowi wodnemu|M\u0142yn wodny|M\u0142yny wodne|M\u0142yn\u00f3w wodnych|M\u0142ynom wodnym|M\u0142yny wodne",
+        "game_info": "Miasto musi by\u0107 po\u0142o\u017cone nad rzek\u0105.",
+        "strategy": "M\u0142yn wodny mo\u017ce powsta\u0107 tylko w mie\u015bcie le\u017c\u0105cym nad rzek\u0105. Budynek ten zwi\u0119ksza produkcj\u0119 \u017cywno\u015bci w mie\u015bcie.",
+        "historical_info": "M\u0142yn wodny jest budynkiem u\u017cywaj\u0105cym energii wodnej do zamiany ziarna w m\u0105k\u0119. Ziarno wsypuje si\u0119 pomi\u0119dzy dwa kamienie, z kt\u00f3rych jeden powoli si\u0119 obraca. W miar\u0119 przesypywania si\u0119 pomi\u0119dzy kamieniami, ziarno mielone jest na drobniutkie kawa\u0142ki (m\u0105k\u0119). Wiele wczesnych m\u0142yn\u00f3w korzysta\u0142o z pomocy zwierz\u0105t albo ludzi przy obracaniu kamieni, ale woda z m\u0142yna wodnego zapewni\u0142a potrzebn\u0105 energi\u0119. Uwolniona w ten spos\u00f3b si\u0142a robocza mog\u0142a zosta\u0107 wykorzystana gdzie indziej. W p\u00f3\u017aniejszych czasach para oraz elektryczno\u015b\u0107 zapewni\u0142y m\u0142ynom bardziej niezawodne i skuteczne \u017ar\u00f3d\u0142o energii, ale w swoich czasach m\u0142yny wodne oszcz\u0119dza\u0142y naprawd\u0119 wiele si\u0142y roboczej.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/m\u0142yn_wodny|m\u0142ynu_wodnego|m\u0142ynowi_wodnemu|m\u0142yn_wodny|m\u0142yny_wodne|m\u0142yn\u00f3w_wodnych|m\u0142ynom_wodnym|m\u0142yny_wodne.png",
+        "prereq_tech": {
+            "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/water_mill.json"
+    },
+    {
+        "id": 1,
+        "name": "Cyrk|Cyrku|Cyrkowi|Cyrk|Cyrki|Cyrk\u00f3w|Cyrkom|Cyrki",
+        "game_info": "Miasto musi mie\u0107 dost\u0119p do usprawnionego \u017ar\u00f3d\u0142a pozyskiwania koni lub ko\u015bci s\u0142oniowej.",
+        "strategy": "Cyrk mo\u017cna wybudowa\u0107 tylko w mie\u015bcie, w kt\u00f3rego granicach le\u017cy usprawnione \u017ar\u00f3d\u0142o pozyskiwania koni lub ko\u015bci s\u0142oniowej. Cyrk zwi\u0119ksza zadowolenie cywilizacji.",
+        "historical_info": "Cyrkiem nazywa si\u0119 grup\u0119 wykonawc\u00f3w, do kt\u00f3rych cz\u0119sto zaliczaj\u0105 si\u0119 klauni, akrobaci, \u017conglerzy, linoskoczkowie, muzycy oraz treserzy zwierz\u0105t. Wi\u0119kszo\u015b\u0107 cyrk\u00f3w jest przedsi\u0119biorstwami podr\u00f3\u017cuj\u0105cymi, kt\u00f3re w trakcie sezonu przenosz\u0105 si\u0119 z miasta do miasta. Inne natomiast przez ca\u0142y rok pozostaj\u0105 w jednym miejscu. W Staro\u017cytnym Rzymie cyrkiem nazywano budynek, w kt\u00f3rym odbywa\u0142y si\u0119 wy\u015bcigi rydwan\u00f3w, wyre\u017cyserowane pojedynki, wyst\u0119py \u017congler\u00f3w oraz inne przedstawienia. Pierwszym cyrkiem rzymskim by\u0142 Circus Maximus, kt\u00f3ry m\u00f3g\u0142 pomie\u015bci\u0107 maksymalnie 250 000 krzycz\u0105cych mieszka\u0144c\u00f3w, co stanowi\u0142o ko\u0142o 25% miejskiej populacji.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/cyrk|cyrku|cyrkowi|cyrk|cyrki|cyrk\u00f3w|cyrkom|cyrki.png",
+        "prereq_tech": {
+            "name": "\u0141owiectwo|\u0141owiectwa|\u0141owiectwu|\u0141owiectwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/trapping.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/circus.json"
+    },
+    {
+        "id": 1,
+        "name": "Ku\u017ania|Ku\u017ani|Ku\u017ani|Ku\u017ani\u0119|Ku\u017anie|Ku\u017ani|Ku\u017aniom|Ku\u017anie",
+        "game_info": "+15% do produkcji w trakcie szkolenia jednostek l\u0105dowych.Ka\u017cda kopalnia \u017celaza wykorzystywana przez to miasto otrzymuje +1 do produkcji.Miasto musi mie\u0107 w pobli\u017cu kopalni\u0119 \u017celaza.",
+        "strategy": "Ku\u017ania mo\u017ce zosta\u0107 wybudowana tylko w mie\u015bcie, w kt\u00f3rego pobli\u017cu znajduje si\u0119 usprawnione \u017ar\u00f3d\u0142o \u017celaza. Budynek zwi\u0119ksza tempo produkcji jednostek l\u0105dowych.",
+        "historical_info": "Ku\u017ania jest budynkiem zawieraj\u0105cym palenisko zdolne wytwarza\u0107 temperatur\u0119 wystarczaj\u0105c\u0105, by topi\u0107 \u017celazo i kszta\u0142towa\u0107 je w podkowy, gwo\u017adzie czy groty strza\u0142. Wymaga to znacznej ilo\u015bci ciep\u0142a, a kowal mo\u017ce posiada\u0107 nowicjusza lub pomocnika, kt\u00f3ry b\u0119dzie zajmowa\u0142 si\u0119 wy\u0142\u0105cznie poruszaniem miech\u00f3w, dostarczaj\u0105c p\u0142omieniom powietrza, by ogie\u0144 nie os\u0142ab\u0142. Kowal mo\u017ce kszta\u0142towa\u0107 \u017celazo poprzez roz\u017carzenie go do czerwono\u015bci, a nast\u0119pnie u\u017cycie najr\u00f3\u017cniejszych m\u0142otk\u00f3w w celu nadania mu kszta\u0142tu. Mo\u017ce te\u017c wyla\u0107 stopiony metal do form zrobionych z gliny, piasku czy metalu, a nast\u0119pnie zdj\u0105\u0107 formy, gdy \u017celazo ostygnie wystarczaj\u0105co, by utrzyma\u0107 kszta\u0142t.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ku\u017ania|ku\u017ani|ku\u017ani|ku\u017ani\u0119|ku\u017anie|ku\u017ani|ku\u017aniom|ku\u017anie.png",
+        "prereq_tech": {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/forge.json"
+    },
+    {
+        "id": 1,
+        "name": "Wiatrak|Wiatraka|Wiatrakowi|Wiatrak",
+        "game_info": "+10% do produkcji podczas wznoszenia budynk\u00f3w.Miasto nie mo\u017ce by\u0107 po\u0142o\u017cone na wzg\u00f3rzach.",
+        "strategy": "Wiatrak to budynek epoki renesansowej, kt\u00f3ry zwi\u0119ksza produkcj\u0119 w mie\u015bcie podczas wznoszenia budynk\u00f3w. Wiatraki nie mog\u0105 by\u0107 budowane w miastach po\u0142o\u017conych na wzg\u00f3rzach.",
+        "historical_info": "Wiatraki s\u0105 budynkami korzystaj\u0105cymi z energii wiatru do wykonywania szeregu zada\u0144. Historycznie u\u017cywane by\u0142y do nap\u0119dzania m\u0142yn\u00f3w miel\u0105cych ziarno, ale korzystano z nich r\u00f3wnie\u017c w tartakach oraz do pompowania wody do studni. Urz\u0105dzenia zasilane wiatrem istnia\u0142y przynajmniej przez ostatnie 2000 lat. Najwcze\u015bniejsze znane to organy wiatrowe, zbudowane przez Herona z Aleksandrii w pierwszym wieku naszej ery. M\u0142yny wiatrowe do mielenia ziarna prawdopodobnie zosta\u0142y wynalezione w \u015arodkowej Azji w okolicach \u00f3smego roku naszej ery.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wiatrak|wiatraka|wiatrakowi|wiatrak.png",
+        "prereq_tech": {
+            "name": "Ekonomia|Ekonomii|Ekonomii|Ekonomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/windmill.json"
+    },
+    {
+        "id": 1,
+        "name": "Elektrownia wodna|Elektrowni wodnej|Elektrowni wodnej|Elektrowni\u0119 wodn\u0105|Elektrownie wodne|Elektrowni wodnych|Elektrowniom wodnym|Elektrownie wodne",
+        "game_info": "+1 do produkcji na ka\u017cdym polu obok rzeki. Wymaga 1 aluminium.Miasto musi by\u0107 po\u0142o\u017cone nad rzek\u0105.",
+        "strategy": "Elektrownia wodna to budynek ze \u015brodka gry, kt\u00f3ry mo\u017cna zbudowa\u0107 jedynie w miastach znajduj\u0105cych si\u0119 przy rzece. Zwi\u0119ksza ona produkcj\u0119 ka\u017cdego pola, kt\u00f3re eksploatuje miasto, a kt\u00f3re r\u00f3wnie\u017c znajduje si\u0119 przy rzece. Budowa elektrowni wodnej zu\u017cywa 1 jednostk\u0119 aluminium.",
+        "historical_info": "Elektrownia wodna jest budynkiem, kt\u00f3ry przekszta\u0142ca energi\u0119 spadaj\u0105cej wody w elektryczno\u015b\u0107. Im wi\u0119cej jest wody i im wi\u0119kszy dystans musi ona pokona\u0107, tym wi\u0119cej pr\u0105du wytwarza elektrownia. Najwi\u0119ksz\u0105 kiedykolwiek wybudowan\u0105 elektrowni\u0105 wodn\u0105 jest Zapora Trzech Prze\u0142om\u00f3w w Chinach. Po zako\u0144czeniu b\u0119dzie wytwarza\u0107 22 500 megawat\u00f3w energii, czyli dziesi\u0119\u0107 razy wi\u0119cej ni\u017c ameryka\u0144ska Zapora Hoovera.Og\u00f3lnie elektrownie wodne uznawane s\u0105 za \u201ezielone\u201d \u017ar\u00f3d\u0142a energii, mimo \u017ce mog\u0105 mie\u0107 ogromny wp\u0142yw na okoliczne ryby. W okolicach przybrze\u017cnych budowane s\u0105 elektrownie wodne wytwarzaj\u0105ce energi\u0119 z w\u00f3d przyp\u0142ywu.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/elektrownia_wodna|elektrowni_wodnej|elektrowni_wodnej|elektrowni\u0119_wodn\u0105|elektrownie_wodne|elektrowni_wodnych|elektrowniom_wodnym|elektrownie_wodne.png",
+        "prereq_tech": {
+            "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hydro_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Elektrownia s\u0142oneczna|Elektrowni s\u0142onecznej|Elektrowni s\u0142onecznej|Elektrowni\u0119 s\u0142oneczn\u0105|Elektrownie s\u0142oneczne|Elektrowni s\u0142onecznych|Elektrowniom s\u0142onecznym|Elektrownie s\u0142oneczne",
+        "game_info": "Miasto musi by\u0107 po\u0142o\u017cone na pustyni albo z ni\u0105 s\u0105siadowa\u0107 i nie mo\u017ce zawiera\u0107 elektrowni atomowej.W mie\u015bcie musi znajdowa\u0107 si\u0119 fabryka.",
+        "strategy": "Elektrownia s\u0142oneczna to budynek, kt\u00f3ry znacznie zwi\u0119ksza produkcj\u0119 w mie\u015bcie. Miasto musi by\u0107 po\u0142o\u017cone na pustyni lub z ni\u0105 s\u0105siadowa\u0107, by mo\u017cliwe by\u0142o wzniesienie elektrowni s\u0142onecznej. Miasto musi te\u017c posiada\u0107 fabryk\u0119, zanim b\u0119dzie mo\u017cna wybudowa\u0107 elektrowni\u0119 s\u0142oneczn\u0105.",
+        "historical_info": "Elektrownie s\u0142oneczne zbieraj\u0105 energi\u0119 s\u0142o\u0144ca i zamieniaj\u0105 na pr\u0105d. Z oczywistych wzgl\u0119d\u00f3w najbardziej wydajne elektrownie s\u0142oneczne po\u0142o\u017cone s\u0105 w miejscach silnie nas\u0142onecznionych, z niewielk\u0105 pokryw\u0105 chmur. Obecnie energia s\u0142oneczna jest jednak dro\u017csza w por\u00f3wnaniu do tej otrzymywanej ze spalania paliw mineralnych (ropy lub w\u0119gla). Ca\u0142y czas jednak tanieje, a paliwa mineralne dro\u017cej\u0105, szczeg\u00f3lnie je\u017celi we\u017amiemy pod uwag\u0119 koszt polegaj\u0105cy na zanieczyszczaniu \u015brodowiska. Gdy odpowiednie technologie zostan\u0105 doprowadzone do perfekcji, b\u0119dzie to du\u017cy krok w kierunku zaspokojenia \u015bwiatowych potrzeb energetycznych \u2013 szacowane jest, \u017ce ziemia otrzymuje oko\u0142o 200 000 razy wi\u0119cej energii s\u0142onecznej, ni\u017c obecnie wynosz\u0105 \u0142\u0105czne mo\u017cliwo\u015bci energetyczne ca\u0142ej rasy ludzkiej.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/elektrownia_s\u0142oneczna|elektrowni_s\u0142onecznej|elektrowni_s\u0142onecznej|elektrowni\u0119_s\u0142oneczn\u0105|elektrownie_s\u0142oneczne|elektrowni_s\u0142onecznych|elektrowniom_s\u0142onecznym|elektrownie_s\u0142oneczne.png",
+        "prereq_tech": {
+            "name": "Ekologia|Ekologii|Ekologii|Ekologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/solar_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Mennica|Mennicy|Mennicy|Mennic\u0119|Mennice|Mennic|Mennicom|Mennice",
+        "game_info": "Ka\u017cde \u017ar\u00f3d\u0142o z\u0142ota i srebra eksploatowane przez to miasto wytwarza +2 z\u0142ota.Miasto musi wydobywa\u0107 w okolicy co najmniej jeden z tych surowc\u00f3w.",
+        "strategy": "Mennica mo\u017ce zosta\u0107 zbudowana tylko w mie\u015bcie, kt\u00f3re posiada w pobli\u017cu usprawnione pole ze z\u0142otem lub srebrem. Budynek ten zwi\u0119ksza wydajno\u015b\u0107 surowca ka\u017cdego z tych p\u00f3l, do jakiego miasto ma dost\u0119p.",
+        "historical_info": "Mennica jest instytucj\u0105 zajmuj\u0105c\u0105 si\u0119 wytwarzaniem waluty. W przesz\u0142o\u015bci zwykle by\u0142a to waluta metalowa w postaci monet, ale we wsp\u00f3\u0142czesnych czasach wi\u0119kszo\u015b\u0107 pieni\u0119dzy drukowana jest na papierze. Mennice s\u0105 bardzo istotne dla gospodarczego dobrobytu cywilizacji. Je\u017celi jej waluta jest \u0142atwa do podrobienia, zostanie sfa\u0142szowana, a zaufanie do rezerw finansowych danego kraju spadnie, co zaskutkuje inflacj\u0105 (spadkiem postrzeganej warto\u015bci pieni\u0105dza) lub czym\u015b gorszym. Wsp\u00f3\u0142czesne banknoty posiadaj\u0105 hologramy, r\u00f3\u017cne tusze oraz paski zabezpieczaj\u0105ce, kt\u00f3re maj\u0105 utrudni\u0107 \u017cycie fa\u0142szerzom. Niew\u0105tpliwie w przysz\u0142o\u015bci, gdy wpadn\u0105 oni na to, jak obej\u015b\u0107 aktualne zabezpieczenia, dodane zostan\u0105 kolejne.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mennica|mennicy|mennicy|mennic\u0119|mennice|mennic|mennicom|mennice.png",
+        "prereq_tech": {
+            "name": "Waluta|Waluty|Walucie|Walut\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/currency.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mint.json"
+    },
+    {
+        "id": 1,
+        "name": "Obserwatorium|Obserwatorium|Obserwatorium|Obserwatorium|Obserwatoria|Obserwatori\u00f3w|Obserwatoriom|Obserwatoria",
+        "game_info": "Miasto musi by\u0107 po\u0142o\u017cone w pobli\u017cu g\u00f3ry.",
+        "strategy": "Obserwatorium mo\u017ce powsta\u0107 jedynie w mie\u015bcie po\u0142o\u017conym w pobli\u017cu pola g\u00f3rskiego. Budynek ten znacz\u0105co zwi\u0119ksza wydajno\u015b\u0107 naukow\u0105 miasta.",
+        "historical_info": "Obserwatorium to budynek po\u015bwi\u0119cony badaniom nieba. Wczesny cz\u0142owiek przekonany by\u0142, \u017ce ruch gwiazd ma znaczenie mistyczne, w zwi\u0105zku z czym wiele pierwszych obserwatori\u00f3w by\u0142o budynkami religijnymi. W miar\u0119 up\u0142ywu czasu ludzie zrozumieli, \u017ce mog\u0105 bardzo dok\u0142adnie \u015bledzi\u0107 kolejne pory roku na podstawie wznoszenia si\u0119 i opadania gwiazd, i doszli do s\u0142usznego wniosku, \u017ce informacja taka mo\u017ce bardzo przyda\u0107 si\u0119 przy wyborze w\u0142a\u015bciwego dnia na zasadzenie czy zebranie plon\u00f3w. Odkrycie to zwi\u0119kszy\u0142o religijn\u0105 oraz praktyczn\u0105 warto\u015b\u0107 obserwatorium w spo\u0142eczno\u015bci. Wsp\u00f3\u0142czesne obserwatoria s\u0105 sterowane komputerowo oraz wyposa\u017cone w nowoczesne teleskopy (albo po\u0142\u0105czone z jeszcze mocniejszymi teleskopami znajduj\u0105cymi si\u0119 w kosmosie) i zapewniaj\u0105 naukowcom o wiele wi\u0119cej informacji ni\u017c te, o kt\u00f3rych mogli marzy\u0107 ich prymitywni przodkowie. Ale zadanie pozostaje to samo: odkrycie jak dzia\u0142a wszech\u015bwiat poprzez studiowanie nieba.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/obserwatorium|obserwatorium|obserwatorium|obserwatorium|obserwatoria|obserwatori\u00f3w|obserwatoriom|obserwatoria.png",
+        "prereq_tech": {
+            "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/astronomy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/observatory.json"
+    },
+    {
+        "id": 1,
+        "name": "Klasztor|Klasztoru|Klasztorowi|Klasztor|Klasztory|Klasztor\u00f3w|Klasztorom|Klasztory",
+        "game_info": "Ka\u017cde \u017ar\u00f3d\u0142o kadzid\u0142a i wina eksploatowane przez to miasto wytwarza +1 wiary i +1 kultury.",
+        "strategy": "Klasztory zwi\u0119kszaj\u0105 wiar\u0119 i kultur\u0119 miasta, zw\u0142aszcza je\u015bli w jego okolicy eksploatowane s\u0105 \u017ar\u00f3d\u0142a kadzid\u0142a i wina. Mog\u0105 zosta\u0107 zbudowane jedynie w miastach, kt\u00f3re wyznaj\u0105 wierzenie \u201eKlasztor\u00f3w\u201d. Za ich budow\u0119 trzeba zap\u0142aci\u0107 wiar\u0105.",
+        "historical_info": "Klasztor jest budynkiem albo kompleksem budynk\u00f3w, w kt\u00f3rych mieszkaj\u0105 mnisi lub zakonnice \u2013 ludzie, kt\u00f3rzy pozostawili za sob\u0105 ziemskie sprawy (pieni\u0105dze, wszelk\u0105 w\u0142asno\u015b\u0107 oraz seks) i po\u015bwi\u0119cili swoje \u017cycie modlitwie i medytacji. Najcz\u0119\u015bciej klasztory skupiaj\u0105 ludzi jednej p\u0142ci lub, je\u017celi mieszkaj\u0105 tam zar\u00f3wno m\u0119\u017cczy\u017ani jak i kobiety, przedstawiciele obu p\u0142ci rozdzieleni s\u0105 imponuj\u0105cymi murami. Historycznie klasztory by\u0142y miejscem zamieszkania os\u00f3b lepiej wykszta\u0142conych, szczeg\u00f3lnie w \u015bredniowieczu, kiedy cz\u0119sto cz\u0142onkowie zakon\u00f3w religijnych byli jedynymi poza elit\u0105 rz\u0105dz\u0105c\u0105 lud\u017ami potrafi\u0105cymi czyta\u0107 i pisa\u0107.",
+        "cost": {
+            "production": -1,
+            "faith": 150
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/klasztor|klasztoru|klasztorowi|klasztor|klasztory|klasztor\u00f3w|klasztorom|klasztory.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/monastery.json"
+    },
+    {
+        "id": 1,
+        "name": "Ogr\u00f3d|Ogrodu|Ogrodowi|Ogr\u00f3d|Ogrody|Ogrod\u00f3w|Ogrodom|Ogrody",
+        "game_info": "+25% do pojawiania si\u0119 wielkich ludzi w tym mie\u015bcie.Miasto musi le\u017ce\u0107 nad rzek\u0105 lub nad jeziorem.",
+        "strategy": "Ogr\u00f3d o 25% zwi\u0119ksza tempo, w jakim w danym mie\u015bcie pojawiaj\u0105 si\u0119 wielcy ludzie. Ogrody mog\u0105 powstawa\u0107 tylko w miastach po\u0142o\u017conych nad rzek\u0105 lub jeziorem.",
+        "historical_info": "Ogr\u00f3d jest miejscem, gdzie hodowane s\u0105 ro\u015bliny \u2013 w celach jadalnych, na okrycie lub na opa\u0142 \u2013 oraz miejscem odpoczynku i rekreacji. Najwcze\u015bniejsze znane plany ogrod\u00f3w nale\u017c\u0105 do Egipcjan i datuj\u0105 si\u0119 na 1400 rok przed nasz\u0105 er\u0105. Ale wszystkie kultury, zar\u00f3wno staro\u017cytne jak i wsp\u00f3\u0142czesne, tworzy\u0142y i podziwia\u0142y w\u0142asne ogrody. Japo\u0144czycy przez wi\u0119kszo\u015b\u0107 swojej historii tworzyli wyrafinowane i pi\u0119kne ogrody. \u015awi\u0105tynia Ryoan-ji w Kioto s\u0142ynie ze swojego ogrodu Zen, kt\u00f3ry sk\u0142ada si\u0119 z 17 kamieni u\u0142o\u017conych na pod\u0142o\u017cu z bia\u0142ego \u017cwiru i otoczony jest niskim murkiem. Mo\u017ce wed\u0142ug niekt\u00f3rych standard\u00f3w jest prosty, a nawet surowy, ale ogr\u00f3d ten przez wieki inspirowa\u0142 i porusza\u0142 ludzi.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ogr\u00f3d|ogrodu|ogrodowi|ogr\u00f3d|ogrody|ogrod\u00f3w|ogrodom|ogrody.png",
+        "prereq_tech": {
+            "name": "Teologia|Teologii|Teologii|Teologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/garden.json"
+    },
+    {
+        "id": 1,
+        "name": "Latarnia morska|Latarni morskiej|Latarni morskiej|Latarni\u0119 morsk\u0105|Latarnie morskie|Latarni morskich|Latarniom morskim|Latarnie morskie",
+        "game_info": "+1 pkt \u017cywno\u015bci z p\u00f3l oceanicznych i p\u00f3l wybrze\u017ca, +1 pkt produkcji z surowc\u00f3w morskich eksploatowanych przez miasto.Ka\u017cde \u017ar\u00f3d\u0142o ryb eksploatowane przez to miasto produkuje +1 pkt \u017cywno\u015bci.Miasto musi by\u0107 po\u0142o\u017cone na wybrze\u017cu.",
+        "strategy": "Latarnia morska mo\u017ce powsta\u0107 tylko w miastach po\u0142o\u017conych na wybrze\u017cu. Zwi\u0119ksza wydajno\u015b\u0107 pozyskiwania \u017cywno\u015bci z p\u00f3l wodnych i z ryb oraz zwi\u0119ksza poziom produkcji wszystkich surowc\u00f3w morskich.",
+        "historical_info": "Od chwili, gdy cz\u0142owiek wyp\u0142yn\u0105\u0142 statkiem w morze, zacz\u0105\u0142 budowa\u0107 nadajniki \u015bwietlne na brzegu, by bezpiecznie doprowadzi\u0107 do przystani powracaj\u0105ce jednostki i ostrzec kapitan\u00f3w przed zdradliwymi mieliznami i ska\u0142ami. Najstarsza znana latarnia morska to Faros (wielka latarnia morska) w Aleksandrii. Wybudowana na ma\u0142ej wyspie Faros, tu\u017c przy wybrze\u017cy Aleksandrii, przetrwa\u0142a tysi\u0105c lat, prowadz\u0105c tysi\u0105ce jednostek do bezpiecznej przystani.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/latarnia_morska|latarni_morskiej|latarni_morskiej|latarni\u0119_morsk\u0105|latarnie_morskie|latarni_morskich|latarniom_morskim|latarnie_morskie.png",
+        "prereq_tech": {
+            "name": "Optyka|Optyki|Optyce|Optyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/optics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/lighthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Przysta\u0144|Przystani|Przystani|Przysta\u0144|Przystanie|Przystani|Przystaniom|Przystanie",
+        "game_info": "Tworzy [ICON_CONNECTED] po\u0142\u0105czenie miasta drog\u0105 wodn\u0105 ze stolic\u0105 (o ile nie s\u0105 ju\u017c [ICON_CONNECTED] po\u0142\u0105czone l\u0105dowo). Morskie szlaki handlowe z tego miasta maj\u0105 o 50% wi\u0119kszy zasi\u0119g i zapewniaj\u0105 1 dodatkow\u0105 sztuk\u0119 z\u0142ota, je\u015bli prowadz\u0105 do innej cywilizacji.Miasto musi le\u017ce\u0107 na wybrze\u017cu.",
+        "strategy": "Przysta\u0144 to budynek epoki \u015bredniowiecznej. Przy\u015bpiesza produkcj\u0119 jednostek wodnych w mie\u015bcie oraz pozwala na tworzenie szlak\u00f3w wodnych (zobacz zasady) mi\u0119dzy miastami. Zwi\u0119ksza r\u00f3wnie\u017c poziom produkcji zapewnianej przez ulepszony surowiec morski.",
+        "historical_info": "Przysta\u0144 to zadaszony obszar wodny, kt\u00f3ry zapewnia ochron\u0119 przed \u017cywio\u0142ami zacumowanym tam \u0142odziom i okr\u0119tom. Cho\u0107 istniej\u0105 r\u00f3\u017cne \u201enaturalne\u201d przystanie, wi\u0119kszo\u015b\u0107 i tak wymaga pog\u0142\u0119bienia oraz budowy falochron\u00f3w i wiatrochron\u00f3w. Ponadto, przystanie posiadaj\u0105 doki oraz nabrze\u017ce do za\u0142adunku i roz\u0142adunku towar\u00f3w, a tak\u017ce magazyny do przechowywania transportowanych d\u00f3br.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/przysta\u0144|przystani|przystani|przysta\u0144|przystanie|przystani|przystaniom|przystanie.png",
+        "prereq_tech": {
+            "name": "Kompas|Kompasu|Kompasowi|Kompas",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/compass.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/harbor.json"
+    },
+    {
+        "id": 1,
+        "name": "Koloseum",
+        "game_info": "Koloseum zwi\u0119ksza zadowolenie cywilizacji. Zadowolenie nie mo\u017ce jednak przekroczy\u0107 liczby obywateli miasta.",
+        "strategy": "Koloseum zwi\u0119ksza zadowolenie cywilizacji. Zadowolenie nie mo\u017ce jednak przekroczy\u0107 liczby obywateli miasta.",
+        "historical_info": "Koloseum to miejsce pod otwartym niebem, gdzie publiczno\u015b\u0107 mo\u017ce ogl\u0105da\u0107 wydarzenia sportowe. Zale\u017cnie od czasu, mo\u017ce to by\u0107 walka gladiator\u00f3w, mecz futbolu ameryka\u0144skiego lub pi\u0142ki no\u017cnej. Z trzech podanych wy\u017cej widowisk najgro\u017aniejszym dla bior\u0105cych udzia\u0142 by\u0142y walki gladiator\u00f3w, ale mecze pi\u0142ki no\u017cnej (czasami) bywaj\u0105 tak samo gro\u017ane dla uczestnik\u00f3w.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/koloseum.png",
+        "prereq_tech": {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/colosseum.json"
+    },
+    {
+        "id": 1,
+        "name": "Zoo",
+        "game_info": "Zadowolenie nie mo\u017ce przekroczy\u0107 liczby obywateli miasta. W mie\u015bcie musi by\u0107 wybudowane Koloseum.",
+        "strategy": "Zoo zwi\u0119ksza zadowolenie w twoim imperium, lecz nie mo\u017ce by\u0107 ono wi\u0119ksze ni\u017c ilo\u015b\u0107 obywateli w twoim mie\u015bcie. Miejscowo\u015b\u0107 musi posiada\u0107 Koloseum, nim zbudujesz w niej zoo.",
+        "historical_info": "Najstarsza znana mena\u017ceria zoologiczna (\u201ezoo\u201d) zosta\u0142a odkryta na wykopaliskach w Hierakonpolis i pochodzi z oko\u0142o 3500 r. p.n.e. Najstarsze istniej\u0105ce zoo, wiede\u0144skie Tiergarten Schoenbrunn, wykszta\u0142ci\u0142o si\u0119 z kolekcji egzotycznych zwierz\u0105t utrzymywanej przez dynasti\u0119 Habsburg\u00f3w. Zosta\u0142o otwarte dla zwiedzaj\u0105cych w 1765 roku.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo.png",
+        "prereq_tech": {
+            "name": "Prasa drukarska|Prasy drukarskiej|Prasie drukarskiej|Pras\u0119 drukarsk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/printing_press.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/zoo.json"
+    },
+    {
+        "id": 1,
+        "name": "Stadion|Stadionu|Stadionowi|Stadion|Stadiony|Stadion\u00f3w|Stadionom|Stadiony",
+        "game_info": "Nie mo\u017ce zapewni\u0107 ci wi\u0119cej zadowolenia ni\u017c ilo\u015b\u0107 obywateli w mie\u015bcie. Miasto musi mie\u0107 zoo.",
+        "strategy": "Stadion to budynek epoki wsp\u00f3\u0142czesnej zwi\u0119kszaj\u0105cy zadowolenie w twoim imperium, nie mo\u017ce jednak zapewni\u0107 wi\u0119cej zadowolenia ni\u017c ilo\u015b\u0107 obywateli w mie\u015bcie. Aby w mie\u015bcie mo\u017cna by\u0142o zbudowa\u0107 stadion, musi tam by\u0107 ju\u017c zoo.",
+        "historical_info": "Stadion jest nowoczesn\u0105, serwuj\u0105c\u0105 prawdopodobnie lepsze przek\u0105ski wersj\u0105 Koloseum. Nowoczesne stadiony mieszcz\u0105 do 100 000 rozwrzeszczanych fan\u00f3w, ogl\u0105daj\u0105cych wydarzenie sportowe, koncert albo nawet debat\u0119 polityczn\u0105. Wsp\u00f3\u0142cze\u015bni entuzja\u015bci sportu nie s\u0105 wcale spokojniejsi od swoich staro\u017cytnych przodk\u00f3w, w zwi\u0105zku z czym dzisiejsze stadiony wyposa\u017cone s\u0105 w p\u0142oty i barierki ochronne. Na stra\u017cy porz\u0105dku stoi ochrona, kt\u00f3rej zadaniem jest radzenie sobie z szalej\u0105cymi widzami.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadion|stadionu|stadionowi|stadion|stadiony|stadion\u00f3w|stadionom|stadiony.png",
+        "prereq_tech": {
+            "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stadium.json"
+    },
+    {
+        "id": 1,
+        "name": "Pomnik|Pomnika|Pomnikowi|Pomnik|Pomniki|Pomnik\u00f3w|Pomnikom|Pomniki",
+        "game_info": "Pomnik zwi\u0119ksza wydajno\u015b\u0107 kulturow\u0105 miasta, przyspieszaj\u0105c powi\u0119kszanie si\u0119 jego terytorium oraz poznawanie ustroj\u00f3w spo\u0142ecznych.",
+        "strategy": "Pomnik zwi\u0119ksza wydajno\u015b\u0107 kulturow\u0105 miasta, przyspieszaj\u0105c powi\u0119kszanie si\u0119 jego terytorium oraz poznawanie ustroj\u00f3w spo\u0142ecznych.",
+        "historical_info": "Pomnik to budowla upami\u0119tniaj\u0105ca wa\u017cn\u0105 osob\u0119, wydarzenie, b\u00f3stwo lub ide\u0119. Wa\u017cniejsze pomniki powstaj\u0105 zwykle w centrach miast, przy pa\u0142acach w\u0142adc\u00f3w lub przy rogatkach miasta. Monumenty te przyjmuj\u0105 r\u00f3\u017cne kszta\u0142ty i rozmiary: od Wielkiego Sfinksa w Gizie, po Statu\u0119 Wolno\u015bci w Nowym Jorku czy Kolumn\u0119 Nelsona w Londynie. Najpi\u0119kniejsze pomniki napawaj\u0105 mieszka\u0144c\u00f3w przejmuj\u0105cym uczuciem obywatelskiej i narodowej dumy.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pomnik|pomnika|pomnikowi|pomnik|pomniki|pomnik\u00f3w|pomnikom|pomniki.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/monument.json"
+    },
+    {
+        "id": 1,
+        "name": "\u015awi\u0105tynia|\u015awi\u0105tyni|\u015awi\u0105tyni|\u015awi\u0105tyni\u0119|\u015awi\u0105tynie|\u015awi\u0105ty\u0144|\u015awi\u0105tyniom|\u015awi\u0105tynie",
+        "game_info": null,
+        "strategy": "\u015awi\u0105tynia zwi\u0119ksza wiar\u0119 miasta, zwi\u0119kszaj\u0105c tym samym tempo, z jakim mo\u017cesz zak\u0142ada\u0107 i krzewi\u0107 religie. W mie\u015bcie musi by\u0107 kaplica (lub piramida), zanim zbudujesz \u015bwi\u0105tyni\u0119.",
+        "historical_info": "\u015awi\u0105tynia jest budynkiem religijnym, w kt\u00f3rym wierni mog\u0105 zebra\u0107 si\u0119 w celu wsp\u00f3lnej modlitwy. Obecno\u015b\u0107 budowli tego typu dowodzi, \u017ce spo\u0142ecze\u0144stwo jest pobo\u017cne, jak r\u00f3wnie\u017c wzgl\u0119dnie bogate, skoro sta\u0107 je na ich postawienie oraz wy\u017cywienie i ubranie ksi\u0119\u017cy, akolit\u00f3w, westalek czy mnich\u00f3w. W wielu wczesnych kulturach ka\u017cda rodzina mia\u0142a w swoim domostwie niewielk\u0105 \u015bwi\u0105tyni\u0119. Najwcze\u015bniejsze wydzielone \u015bwi\u0105tynie pojawi\u0142y si\u0119 w X wieku p.n.e. w po\u0142udniowowschodniej Turcji.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/\u015bwi\u0105tynia|\u015bwi\u0105tyni|\u015bwi\u0105tyni|\u015bwi\u0105tyni\u0119|\u015bwi\u0105tynie|\u015bwi\u0105ty\u0144|\u015bwi\u0105tyniom|\u015bwi\u0105tynie.png",
+        "prereq_tech": {
+            "name": "Filozofia|Filozofii|Filozofii|Filozofi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/temple.json"
+    },
+    {
+        "id": 1,
+        "name": "Opera|Opery|Operze|Oper\u0119|Opery|Oper|Operom|Opery",
+        "game_info": null,
+        "strategy": "Opera jest budynkiem renesansu, kt\u00f3ry przyczynia si\u0119 do rozwoju kultury w mie\u015bcie. Przed wybudowaniem opery miasto musi posiada\u0107 amfiteatr. Zawiera 1 miejsce na wielkie dzie\u0142o muzyczne.",
+        "historical_info": "Oper\u0105 nazywamy sztuk\u0119 teatraln\u0105, w kt\u00f3rej aktorzy \u015bpiewaj\u0105 swoje partie dialogowe zamiast po prostu je recytowa\u0107. To odr\u00f3\u017cnia oper\u0119 od innych widowisk muzycznych. \u015apiewakom operowym zwykle towarzyszy orkiestra. Budynek opery jest najcz\u0119\u015bciej teatrem ze scen\u0105 dla \u015bpiewak\u00f3w i miejscem dla orkiestry. G\u0142\u00f3wne pomieszczenie ma dobr\u0105 akustyk\u0119, kt\u00f3ra polepsza kierowany do odbiorcy przekaz muzyczny. Jednym z pierwszych publicznie otwartych budynk\u00f3w opery by\u0142 Teatro San Cassiano w Wenecji we W\u0142oszech, otwarty w 1637. Od tego czasu opery otwierane by\u0142y na ca\u0142ym \u015bwiecie i ka\u017cde miasto, aspiruj\u0105ce do bycia centrum kultury i sztuki, musi je posiada\u0107.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/opera|opery|operze|oper\u0119|opery|oper|operom|opery.png",
+        "prereq_tech": {
+            "name": "Akustyka|Akustyki|Akustyce|Akustyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/opera_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Muzeum|Muzeum|Muzeum|Muzeum|Muzea|Muze\u00f3w|Muzeom|Muzea",
+        "game_info": null,
+        "strategy": "Muzeum to budynek ze \u015brodkowej cz\u0119\u015bci gry zwi\u0119kszaj\u0105cy wytwarzanie kultury w mie\u015bcie. Miejscowo\u015b\u0107 musi posiada\u0107 oper\u0119 (lub sal\u0119 ceilidh), by zbudowa\u0107 w niej muzeum. Zawiera 2 miejsca na wielkie dzie\u0142a sztuki.",
+        "historical_info": "Muzeum jest budynkiem lub grup\u0105 budynk\u00f3w stworzonych, by przechowywa\u0107 i udost\u0119pnia\u0107 zwiedzaj\u0105cym najcenniejsze zdobycze cywilizacji. Istniej\u0105 muzea zawieraj\u0105ce kolekcje dzie\u0142 sztuki, inne przechowuj\u0105 minera\u0142y, ciekawe przedmioty historycznie, jak r\u00f3wnie\u017c ubrania, klejnoty, staro\u017cytn\u0105 bro\u0144 albo cokolwiek innego, co mo\u017ce mie\u0107 jak\u0105\u015b warto\u015b\u0107 lub stanowi\u0107 przedmiot zainteresowania. Muzeum sztuki Ermita\u017c w Sankt Petersburgu za\u0142o\u017cone zosta\u0142o w roku 1764 przez Katarzyn\u0119 Wielk\u0105. Otwarte dla wszystkich zwiedzaj\u0105cych w roku 1852, jest jednym z najstarszych i najwi\u0119kszych muze\u00f3w na \u015bwiecie.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/muzeum|muzeum|muzeum|muzeum|muzea|muze\u00f3w|muzeom|muzea.png",
+        "prereq_tech": {
+            "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archaeology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/museum.json"
+    },
+    {
+        "id": 1,
+        "name": "Wie\u017ca transmisyjna|Wie\u017cy transmisyjnej|Wie\u017cy transmisyjnej|Wie\u017c\u0119 transmisyjn\u0105",
+        "game_info": "+33% kultury w danym mie\u015bcie.W mie\u015bcie musi by\u0107 wybudowane muzeum.",
+        "strategy": "Wie\u017ca transmisyjna jest budynkiem epoki przemys\u0142owej. Zwi\u0119ksza rozw\u00f3j kultury w mie\u015bcie o 33%. Miasto musi mie\u0107 wybudowane muzeum.",
+        "historical_info": "Wie\u017ca transmisyjna nadaje sygna\u0142 komunikacyjny \u2013 radiowy, telewizyjny i tak dalej \u2013 w powietrze, pozwalaj\u0105c, by chwyta\u0142y go odbiorniki znajduj\u0105ce si\u0119 o kilka kilometr\u00f3w dalej. Najwa\u017cniejsz\u0105 cech\u0105 wie\u017cy transmisyjnej jest jej wysoko\u015b\u0107 \u2013 im wy\u017cej znajduje si\u0119 odbiornik, tym dalej mo\u017cna przes\u0142a\u0107 sygna\u0142. Empire State Building na Manhattanie wysy\u0142a sw\u00f3j przekaz od roku 1931. Po zniszczeniu wie\u017cowc\u00f3w World Trade Center w roku 2001 ponownie sta\u0142 si\u0119 najwa\u017cniejszym o\u015brodkiem przeka\u017anikowym Nowego Jorku, transmituj\u0105c sygna\u0142 prawie wszystkich komercyjnych stacji w mie\u015bcie.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wie\u017ca_transmisyjna|wie\u017cy_transmisyjnej|wie\u017cy_transmisyjnej|wie\u017c\u0119_transmisyjn\u0105.png",
+        "prereq_tech": {
+            "name": "Radio|Radia|Radiu|Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radio.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/broadcast_tower.json"
+    },
+    {
+        "id": 1,
+        "name": "Koszary|Koszar|Koszarom|Koszary",
+        "game_info": "+15 punkt\u00f3w do\u015bwiadczenia dla wszystkich jednostek.",
+        "strategy": "Koszary daj\u0105 do\u015bwiadczenie jednostkom szkolonym w mie\u015bcie. Do\u015bwiadczenie to mo\u017cna wykorzysta\u0107 na awanse, dzi\u0119ki kt\u00f3rym jednostki staj\u0105 si\u0119 skuteczniejsze w boju.",
+        "historical_info": "Koszary s\u0105 budynkiem wojskowym, kt\u00f3ry s\u0142u\u017cy za mieszkanie zawodowemu wojsku danego kraju. Zapewnia \u017co\u0142nierzom wy\u017cywienie, dach nad g\u0142ow\u0105 i opiek\u0119 medyczn\u0105. Dba o ich kondycj\u0119 fizyczn\u0105. Dysponuje wi\u0119zieniami wojskowymi, zajmuje si\u0119 utrzymaniem maszyn bojowych i tym podobne.Koszary s\u0105 istotnym elementem s\u0142u\u017c\u0105cym osi\u0105gni\u0119ciu przez cywilizacj\u0119 szcz\u0119\u015bcia i dobrobytu. Zapewniaj\u0105 jedno\u015b\u0107 pomi\u0119dzy \u017co\u0142nierzami r\u00f3\u017cnych stopni, zwi\u0119kszaj\u0105c ich szanse na sukces w walce, a ponadto ograniczaj\u0105 kontakty pomi\u0119dzy wojskiem i cywilami, zmniejszaj\u0105c napi\u0119cie, kt\u00f3re powstaje zawsze, gdy te dwie grupy zbyt blisko ze sob\u0105 obcuj\u0105.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/koszary|koszar|koszarom|koszary.png",
+        "prereq_tech": {
+            "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/barracks.json"
+    },
+    {
+        "id": 1,
+        "name": "Zbrojownia|Zbrojowni|Zbrojowni|Zbrojowni\u0119|Zbrojownie|Zbrojowni|Zbrojowniom|Zbrojownie",
+        "game_info": "+15 punkt\u00f3w do\u015bwiadczenia dla wszystkich jednostek.W mie\u015bcie musz\u0105 by\u0107 wybudowane koszary lub twierdza.",
+        "strategy": "Zbrojownia daje do\u015bwiadczenie jednostkom szkolonym w mie\u015bcie. Aby m\u00f3c wznie\u015b\u0107 zbrojowni\u0119, w danym mie\u015bcie nale\u017cy wcze\u015bniej wybudowa\u0107 koszary.",
+        "historical_info": "Zbrojownia jest budynkiem wojskowym, w kt\u00f3rym w czasach pokoju przechowuje si\u0119 bro\u0144 i dba o to, by by\u0142a ona w dobrym stanie. \u017bo\u0142nierze, kt\u00f3rzy nie s\u0105 na s\u0142u\u017cbie, zwykle nie nosz\u0105 przy sobie broni (szczeg\u00f3lnie je\u015bli walcz\u0105 przy u\u017cyciu karabin\u00f3w maszynowych czy RPG).Zbrojownie s\u0105 zazwyczaj dobrze zabezpieczone, mog\u0105 nawet przypomina\u0107 nie tyle sk\u0142ad, ile warowny zamek. Bro\u0144 musi by\u0107 chroniona przed kradzie\u017c\u0105, czy to dokonan\u0105 po cichu przez zwinnego z\u0142odzieja, czy przez w\u015bciek\u0142y t\u0142um podczas zamieszek.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zbrojownia|zbrojowni|zbrojowni|zbrojowni\u0119|zbrojownie|zbrojowni|zbrojowniom|zbrojownie.png",
+        "prereq_tech": {
+            "name": "Stal|Stali|Stali|Stal",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/armory.json"
+    },
+    {
+        "id": 1,
+        "name": "Akademia wojskowa|Akademii wojskowej|Akademii wojskowej|Akademi\u0119 wojskow\u0105|Akademie wojskowe|Akademii wojskowych|Akademiom wojskowym|Akademie wojskowe",
+        "game_info": "+15 punkt\u00f3w do\u015bwiadczenia dla wszystkich jednostek.Miasto musi posiada\u0107 zbrojowni\u0119.",
+        "strategy": "Akademia wojskowa to budynek zwi\u0119kszaj\u0105cy liczb\u0119 punkt\u00f3w do\u015bwiadczenia jednostek szkolonych w danym mie\u015bcie. Aby m\u00f3c wznie\u015b\u0107 akademi\u0119 wojskow\u0105, w mie\u015bcie musi by\u0107 zbudowana zbrojownia.",
+        "historical_info": "Akademia wojskowa to wy\u017csza uczelnia, zajmuj\u0105ca si\u0119 szkoleniem oficer\u00f3w danego kraju. Akademie wojskowe oferuj\u0105 najlepsze dost\u0119pne wy\u017csze wykszta\u0142cenie, \u0142\u0105cz\u0105c je z wymagaj\u0105cymi \u0107wiczeniami fizycznymi oraz wyk\u0142adami na temat dowodzenia, strategii, logistyki oraz innych dziedzin wojskowych. Najcz\u0119\u015bciej do akademii wojskowych ucz\u0119szczaj\u0105 najlepsze i najzdolniejsze dzieci danego kraju (albo maj\u0105ce najlepsze koneksje).",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/akademia_wojskowa|akademii_wojskowej|akademii_wojskowej|akademi\u0119_wojskow\u0105|akademie_wojskowe|akademii_wojskowych|akademiom_wojskowym|akademie_wojskowe.png",
+        "prereq_tech": {
+            "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/military_academy.json"
+    },
+    {
+        "id": 1,
+        "name": "Arsena\u0142|Arsena\u0142u|Arsena\u0142owi|Arsena\u0142|Arsena\u0142y|Arsena\u0142\u00f3w|Arsena\u0142om|Arsena\u0142y",
+        "game_info": "W mie\u015bcie musi by\u0107 wybudowany zamek lub fort mogolski.",
+        "strategy": "Arsena\u0142 to budynek wojskowy ze \u015brodkowej cz\u0119\u015bci gry, kt\u00f3ry zwi\u0119ksza obronno\u015b\u0107 miasta o 9, a punkty \u017cywotno\u015bci o 25, utrudniaj\u0105c jego zdobycie. W mie\u015bcie musi by\u0107 zamek, nim zbudujesz tam arsena\u0142.",
+        "historical_info": "Arsena\u0142 jest wi\u0119ksz\u0105 i lepiej wyposa\u017con\u0105 zbrojowni\u0105, w kt\u00f3rej wojsko przechowuje swoj\u0105 najwi\u0119ksz\u0105 i najniebezpieczniejsz\u0105 bro\u0144 \u2013 czo\u0142gi, artyleri\u0119, wybuchow\u0105 amunicj\u0119 i tak dalej. Arsena\u0142y s\u0105 strze\u017cone jeszcze lepiej od zbrojowni, w uzasadnionej obawie, \u017ce kto\u015b m\u00f3g\u0142by chcie\u0107 ukra\u015b\u0107 czo\u0142g czy pocisk 88 milimetr\u00f3w.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/arsena\u0142|arsena\u0142u|arsena\u0142owi|arsena\u0142|arsena\u0142y|arsena\u0142\u00f3w|arsena\u0142om|arsena\u0142y.png",
+        "prereq_tech": {
+            "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/arsenal.json"
+    },
+    {
+        "id": 1,
+        "name": "Mur|Muru|Murowi|Mur|Mury|Mur\u00f3w|Murom|Mury",
+        "game_info": "Mury zwi\u0119kszaj\u0105 obronno\u015b\u0107 miasta o 5, a jego punkty \u017cywotno\u015bci o 50, utrudniaj\u0105c jego zdobycie. Przydaj\u0105 si\u0119 w miastach po\u0142o\u017conych na obrze\u017cach cywilizacji.",
+        "strategy": "Mury zwi\u0119kszaj\u0105 obronno\u015b\u0107 miasta o 5, a jego punkty \u017cywotno\u015bci o 50, utrudniaj\u0105c jego zdobycie. Przydaj\u0105 si\u0119 w miastach po\u0142o\u017conych na obrze\u017cach cywilizacji.",
+        "historical_info": "Od kiedy tylko ludzie zebrali si\u0119 w grupy \u2013 osady, miasta, jak zwa\u0142 tak zwa\u0142 \u2013 inni ludzie pragn\u0119li ukra\u015b\u0107 nale\u017c\u0105cy do nich maj\u0105tek. Od pocz\u0105tk\u00f3w swojej historii cz\u0142owiek wznosi\u0142 budynki obronne z b\u0142ota, drewna lub kamienia, aby utrzyma\u0107 wrog\u00f3w z daleka od swojego jedzenia, maj\u0105tku, a tak\u017ce kobiet i dzieci. Przed nastaniem \u015bredniowiecza krajobraz Europy upstrzony by\u0142 otoczonymi murami wsiami i miastami. Niekt\u00f3re z nich posiada\u0142y dodatkowo wymy\u015blne fosy oraz rowy. Cz\u0119\u015b\u0107 tych zmy\u015blnych konstrukcji mo\u017cemy ogl\u0105da\u0107 po dzi\u015b dzie\u0144. Znajduj\u0105ce si\u0119 w Anglii miasto York posiada rozleg\u0142e mury, jeszcze z czas\u00f3w rzymskich.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mur|muru|murowi|mur|mury|mur\u00f3w|murom|mury.png",
+        "prereq_tech": {
+            "name": "Murarstwo|Murarstwa|Murarstwu|Murarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/walls.json"
+    },
+    {
+        "id": 1,
+        "name": "Zamek|Zamku|Zamkowi|Zamek|Zamki|Zamk\u00f3w|Zamkom|Zamki",
+        "game_info": "Miasto musz\u0105 otacza\u0107 mury.",
+        "strategy": "Zamek to budynek z epoki \u015bredniowiecza zwi\u0119kszaj\u0105cy obronno\u015b\u0107 miasta o 7, a punkty \u017cywotno\u015bci o 25. Miasto musi posiada\u0107 mury, by mo\u017cna by\u0142o zbudowa\u0107 tam zamek.",
+        "historical_info": "Zamek jest budowl\u0105, kt\u00f3ra opracowana zosta\u0142a, by chroni\u0107 wojska (a czasem r\u00f3wnie\u017c paru cywil\u00f3w) przed wrogami. Przewa\u017cnie budowane z kamienia (niestety drewno jest zbyt \u0142atwopalne) zamki sk\u0142ada\u0142y si\u0119 ze \u015bciany zewn\u0119trznej oraz osobnego, zbrojonego budynku wewn\u0119trznego, nazywanego \u201esto\u0142pem\u201d. Zamek powinien tak\u017ce mie\u0107 niezale\u017cne \u017ar\u00f3d\u0142o wody oraz sk\u0142adowa\u0107 spore zapasy jedzenia.Dobrze zaprojektowany zamek powinien zapewnia\u0107 obro\u0144com mo\u017cliwo\u015b\u0107 zabijania atakuj\u0105cych w drodze do mur\u00f3w oraz podczas pr\u00f3b ich forsowania, tudzie\u017c przebijania si\u0119 przez bramy. W tym celu wymagane s\u0105 ambrazury oraz blanki (mury z fragmentami wyci\u0119tymi w regularnych odst\u0119pach). Mile widziane s\u0105 te\u017c otwory strzelnicze do strza\u0142 oraz lania wrz\u0105cego oleju na g\u0142owy atakuj\u0105cych.Zamki by\u0142y najwi\u0119ksz\u0105 oraz najdro\u017csz\u0105 oznak\u0105 wojskowej i gospodarczej mocy pa\u0144stwa a\u017c do chwili, gdy wynalezienie prochu oraz artylerii zmieni\u0142o je w skomplikowane i kosztowne pu\u0142apki dla os\u00f3b uwi\u0119zionych w \u015brodku.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zamek|zamku|zamkowi|zamek|zamki|zamk\u00f3w|zamkom|zamki.png",
+        "prereq_tech": {
+            "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/castle.json"
+    },
+    {
+        "id": 1,
+        "name": "Baza wojskowa|Bazy wojskowej|Bazie wojskowej|Baz\u0119 wojskow\u0105|Bazy wojskowe|Baz wojskowych|Bazom wojskowym|Bazy wojskowe",
+        "game_info": "W mie\u015bcie musi by\u0107 zbudowany arsena\u0142.",
+        "strategy": "Baza wojskowa to budynek ze \u015brodkowej cz\u0119\u015bci gry zwi\u0119kszaj\u0105cy obronno\u015b\u0107 miasta o 12, a jego punkty \u017cywotno\u015bci o 25. W mie\u015bcie musi by\u0107 arsena\u0142, by wybudowa\u0107 w nim baz\u0119 wojskow\u0105.",
+        "historical_info": "Baza wojskowa to grupa plac\u00f3w apelowych i budowli, w kt\u00f3rych stacjonuje jedna lub wi\u0119cej du\u017cych jednostek wojskowych \u2013 legion, dywizja, korpus, flota lub inne, zale\u017cnie od typu danej organizacji wojskowej. Baza wojskowa b\u0119dzie zawiera\u0142a wszystko, czego taka jednostka mo\u017ce potrzebowa\u0107 w celu utrzymania wysokiej formy bojowej, wliczaj\u0105c w to place do \u0107wicze\u0144, kwatery oficer\u00f3w i baraki, wi\u0119zienia, zbrojownie, szpitale, magazyny z wyposa\u017ceniem, jednostki transportowe i tak dalej. Bazy takie s\u0105 zwykle dobrze strze\u017cone i umieszczone na terenach \u0142atwych do obrony. Je\u017celi wykluczymy zdrad\u0119 od wewn\u0105trz, do zaj\u0119cia lub zniszczenia bazy wojskowej potrzebna jest wroga armia.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/baza_wojskowa|bazy_wojskowej|bazie_wojskowej|baz\u0119_wojskow\u0105|bazy_wojskowe|baz_wojskowych|bazom_wojskowym|bazy_wojskowe.png",
+        "prereq_tech": {
+            "name": "Cz\u0119\u015bci zamienne|Cz\u0119\u015bci zamiennych|Cz\u0119\u015bciom zamiennym|Cz\u0119\u015bci zamienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/replaceable_parts.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/military_base.json"
+    },
+    {
+        "id": 1,
+        "name": "Spichlerz|Spichlerza|Spichlerzowi|Spichlerz|Spichlerze|Spichlerzy|Spichlerzom|Spichlerze",
+        "game_info": "Ka\u017cde \u017ar\u00f3d\u0142o pszenicy, banan\u00f3w i zwierzyny eksploatowane przez to miasto produkuje +1 pkt \u017cywno\u015bci.Pozwala na przenoszenie \u017cywno\u015bci z tego miasta wzd\u0142u\u017c szlak\u00f3w handlowych wewn\u0105trz twojej cywilizacji.",
+        "strategy": "Spichlerz zwi\u0119ksza produkcj\u0119 \u017cywno\u015bci w mie\u015bcie, przyspieszaj\u0105c tym samym jego rozw\u00f3j. Przydaje si\u0119, gdy szybko chcesz rozbudowa\u0107 miasto.",
+        "historical_info": "Spichlerz jest budynkiem konstruowanym w celu przechowywania ziarna do spo\u017cycia przez ludzi, zwierz\u0119ta b\u0105d\u017a jedno i drugie. Najwcze\u015bniejsze odkryte do tej pory spichlerze znaleziono w osadzie epoki neolitu, znajduj\u0105cej si\u0119 w Dolinie Jordanu na Bliskim Wschodzie, kt\u00f3rej powstanie datuje si\u0119 na oko\u0142o 9500 rok przed nasz\u0105 er\u0105. Takie pierwsze spichlerze mierzy\u0142y oko\u0142o 3 na 3 metry. Mia\u0142y podwy\u017cszon\u0105 pod\u0142og\u0119, co pozwala\u0142o na swobodny przep\u0142yw powietrza oraz zapewnia\u0142o pewn\u0105 ochron\u0119 ziarna przed myszami oraz innymi zagro\u017ceniami.",
+        "cost": {
+            "production": 60,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/spichlerz|spichlerza|spichlerzowi|spichlerz|spichlerze|spichlerzy|spichlerzom|spichlerze.png",
+        "prereq_tech": {
+            "name": "Garncarstwo|Garncarstwa|Garncarstwu|Garncarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/granary.json"
+    },
+    {
+        "id": 1,
+        "name": "Szpital|Szpitala|Szpitalowi|Szpital|Szpitale|Szpitali|Szpitalom|Szpitale",
+        "game_info": "Szpital to budynek ery przemys\u0142owej. Jest przydatny, kiedy chcesz bardzo szybko stworzy\u0107 du\u017ce miasto.",
+        "strategy": "Szpital to budynek ery przemys\u0142owej. Jest przydatny, kiedy chcesz bardzo szybko stworzy\u0107 du\u017ce miasto.",
+        "historical_info": "Szpital to zak\u0142ad diagnozuj\u0105cy i lecz\u0105cy chorych i rannych, a tak\u017ce opiekuj\u0105cy si\u0119 nimi w trakcie rehabilitacji. Wiele szpitali to r\u00f3wnie\u017c instytucje dydaktyczne, dzi\u0119ki kt\u00f3rym m\u0142odzi lekarze i piel\u0119gniarki ucz\u0105 si\u0119 swojego fachu. Za pierwsze szpitale s\u0142u\u017cy\u0142y \u015bwi\u0105tynie r\u00f3\u017cnych b\u00f3stw zwi\u0105zanych z lecznictwem i zdrowiem. Szpitale religijne powstawa\u0142y na Sri Lance jeszcze przed 430 rokiem p.n.e., a hinduski kr\u00f3l Asoka w okolicy 230 roku p.n.e. utworzy\u0142 sie\u0107 szpitali w ca\u0142ym Hindustanie.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/szpital|szpitala|szpitalowi|szpital|szpitale|szpitali|szpitalom|szpitale.png",
+        "prereq_tech": {
+            "name": "Biologia|Biologii|Biologii|Biologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/biology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 5,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hospital.json"
+    },
+    {
+        "id": 1,
+        "name": "Laboratorium medyczne|Laboratorium medycznego|Laboratorium medycznemu|Laboratorium medyczne|Laboratoria medyczne|Laboratori\u00f3w medycznych|Laboratoriom medycznym|Laboratoria medyczne",
+        "game_info": "25% \u017cywno\u015bci zostaje zachowane po narodzinach nowego obywatela (efekt kumuluje si\u0119 z dzia\u0142aniem akweduktu).",
+        "strategy": "Laboratorium medyczne to budynek, kt\u00f3ry zmniejsza o 25% ilo\u015b\u0107 \u017cywno\u015bci niezb\u0119dnej do rozwoju miasta. Aby m\u00f3c wznie\u015b\u0107 laboratorium medyczne, miasto musi posiada\u0107 wybudowany szpital.",
+        "historical_info": "Laboratorium medyczne to instytucja naukowa zajmuj\u0105ca si\u0119 badaniami nad chorobami i ludzk\u0105 anatomi\u0105 przy pomocy szeregu niebywale skomplikowanych narz\u0119dzi: od ultrad\u017awi\u0119k\u00f3w, po kamery wielko\u015bci mr\u00f3wki i mikroskopy elektronowe. Wi\u0119kszo\u015b\u0107 post\u0119p\u00f3w na polu medycyny (je\u015bli nie wszystkie) w przeci\u0105gu ostatnich 25 lat poczyniono w laboratoriach medycznych. Do ich osi\u0105gni\u0119\u0107 nale\u017cy sekwencjonowanie ludzkiego DNA, stworzenie retrowirus\u00f3w do walki z HIV i AIDS, terapia genetyczna, nanotechnologia i inne. Spory procent zwi\u0119kszonego kosztu opieki zdrowotnej wynika z prostego faktu, \u017ce laboratoria medyczne wykaza\u0142y si\u0119 wielk\u0105 skuteczno\u015bci\u0105 w walce z chorobami, przed\u0142u\u017caj\u0105c ludzkie \u017cycie oraz zwi\u0119kszaj\u0105c jego jako\u015b\u0107, a ulepszenia te s\u0105 bardzo kosztowne.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorium_medyczne|laboratorium_medycznego|laboratorium_medycznemu|laboratorium_medyczne|laboratoria_medyczne|laboratori\u00f3w_medycznych|laboratoriom_medycznym|laboratoria_medyczne.png",
+        "prereq_tech": {
+            "name": "Penicylina|Penicyliny|Penicylinie|Penicylin\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/penicillin.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/medical_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Warsztat|Warsztatu|Warsztatowi|Warsztat|Warsztaty|Warsztat\u00f3w|Warsztatom|Warsztaty",
+        "game_info": "Pozwala na przenoszenie produkcji z tego miasta wzd\u0142u\u017c szlak\u00f3w handlowych wewn\u0105trz twojej cywilizacji.",
+        "strategy": "Warsztat przyspiesza tempo produkcji w mie\u015bcie.",
+        "historical_info": "Warsztat jest budynkiem po\u015bwi\u0119conym konstruowaniu r\u00f3\u017cnych rzeczy. Powinien zawiera\u0107 potrzebne surowce i narz\u0119dzia oraz mie\u0107 wykwalifikowanych robotnik\u00f3w do produkcji potrzebnych przedmiot\u00f3w. Warsztat garncarski b\u0119dzie produkowa\u0142 wyroby garncarskie (bez niespodzianek), podczas gdy warsztat stolarski mo\u017ce wytwarza\u0107 drzwi, szafy, pod\u0142ogi czy cokolwiek innego, co zrobione jest z drewna. We W\u0142oszech epoki renesansu w warsztatach pracowa\u0142o wielu artyst\u00f3w, a uznany malarz m\u00f3g\u0142 przypisa\u0107 sobie obraz naprawd\u0119 namalowany przez jego pracownik\u00f3w oraz uczni\u00f3w, kt\u00f3rzy nauczyli si\u0119 dok\u0142adnie odwzorowywa\u0107 jego styl. Dzia\u0142ania te po dzi\u015b dzie\u0144 przyprawiaj\u0105 o b\u00f3l g\u0142owy kolekcjoner\u00f3w i historyk\u00f3w.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/warsztat|warsztatu|warsztatowi|warsztat|warsztaty|warsztat\u00f3w|warsztatom|warsztaty.png",
+        "prereq_tech": {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/workshop.json"
+    },
+    {
+        "id": 1,
+        "name": "Fabryka|Fabryki|Fabryce|Fabryk\u0119|Fabryki|Fabryk|Fabrykom|Fabryki",
+        "game_info": "Wymaga 1 sztuki w\u0119gla.",
+        "strategy": "Fabryka to budynek ery przemys\u0142owej, kt\u00f3ry znacznie zwi\u0119ksza produkcj\u0119 w danym mie\u015bcie. Aby m\u00f3c wybudowa\u0107 fabryk\u0119, w mie\u015bcie musi si\u0119 znajdowa\u0107 warsztat (lub d\u0142ugi dom). Po wybudowaniu fabryki poch\u0142aniana jest 1 sztuka w\u0119gla.",
+        "historical_info": "Fabryka jest budynkiem, kt\u00f3ry wykorzystuje technologi\u0119 ery przemys\u0142owej do budowania r\u00f3\u017cnych rzeczy \u2013 samochod\u00f3w, gorset\u00f3w, stalowych belek, w\u0119dek i innych. Na wi\u0119ksz\u0105 skal\u0119 fabryki zacz\u0119\u0142y si\u0119 pojawia\u0107 w XVII i XVIII wieku. By\u0142y one bardziej wydajne od ma\u0142ych warsztat\u00f3w czy przedsi\u0119biorstw domowych, ale mniej przyjazne dla pracownik\u00f3w. Wbrew powszechnej opinii Henry Ford nie wynalaz\u0142 linii produkcyjnej: zosta\u0142a ona utworzona w XIX wieku w \u015brodkowozachodnim USA, w fabrykach pakowania mi\u0119sa. Korpusy wo\u0142owe by\u0142y w sta\u0142ym tempie przenoszone od stanowiska do stanowiska przy u\u017cyciu systemu podwieszonych wagonik\u00f3w. Pracownicy takich stanowisk mieli ustalon\u0105 ilo\u015b\u0107 czasu na odci\u0119cie przypisanego do nich kawa\u0142ka mi\u0119sa, zanim tusza przesuwa\u0142a si\u0119 dalej. Praca w fabryce pakuj\u0105cej mi\u0119so by\u0142a jedn\u0105 z najbrudniejszych i najbardziej niebezpiecznych w historii ameryka\u0144skiego przemys\u0142u. Historie z tego okresu potrafi\u0105 przera\u017ca\u0107 nawet w dzisiejszych czasach.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fabryka|fabryki|fabryce|fabryk\u0119|fabryki|fabryk|fabrykom|fabryki.png",
+        "prereq_tech": {
+            "name": "Industrializacja|Industrializacji|Industrializacji|Industrializacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/industrialization.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 4,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Elektrownia atomowa|Elektrowni atomowej|Elektrowni atomowej|Elektrowni\u0119 atomow\u0105|Elektrownie atomowe|Elektrowni atomowych|Elektrowniom atomowym|Elektrownie atomowe",
+        "game_info": "Wymaga 1 uranu. Miasto nie mo\u017ce posiada\u0107 elektrowni s\u0142onecznej.",
+        "strategy": "Elektrownia atomowa znacznie zwi\u0119ksza produktywno\u015b\u0107 miasta. Do jej budowy potrzebna jest 1 sztuka uranu. Miasto musi posiada\u0107 fabryk\u0119, zanim b\u0119dzie mo\u017cna wybudowa\u0107 elektrowni\u0119 atomow\u0105.",
+        "historical_info": "Elektrownia atomowa jest budynkiem, w kt\u00f3rym kontrolowana energia j\u0105drowa przekszta\u0142cana jest w pr\u0105d. Energia powstaj\u0105ca w wyniku rozszczepiania j\u0105dra atomu u\u017cywana jest, by nagrzewa\u0107 wod\u0119, kt\u00f3ra w efekcie przyjmuje form\u0119 pary. Para pompowana jest przez turbiny wytwarzaj\u0105cej pr\u0105d. W codziennym u\u017cytkowaniu energia atomowa jest du\u017co ta\u0144sza ni\u017celi olej, gaz czy w\u0119giel, poniewa\u017c powoduje du\u017co mniejsze ska\u017cenie powietrza i wody, a tak\u017ce stanowi mniejsze zagro\u017cenie dla mieszka\u0144c\u00f3w. Jednak elektrownia produkuje odpady promieniotw\u00f3rcze, kt\u00f3re stanowi\u0105 \u015bmiertelne zagro\u017cenie i w celu utraty toksyczno\u015bci musz\u0105 by\u0107 sk\u0142adowane przez stulecia. Dodatkowo wi\u0119kszy wypadek w elektrowni atomowej b\u0119dzie mia\u0142 znacznie bardziej paskudny i d\u0142ugotrwa\u0142y wp\u0142yw ni\u017c wypadek w dowolnej elektrowni innego typu. Znalezienie wystarczaj\u0105co du\u017cej ilo\u015bci energii, by cywilizacja funkcjonowa\u0142a, jest skomplikowanym i niebezpiecznym problemem, z kt\u00f3rym ludzko\u015b\u0107 zetknie si\u0119 za jaki\u015b czas, o ile nie zostanie odkryte bogate, czyste i bezpieczne \u017ar\u00f3d\u0142o energii.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/elektrownia_atomowa|elektrowni_atomowej|elektrowni_atomowej|elektrowni\u0119_atomow\u0105|elektrownie_atomowe|elektrowni_atomowych|elektrowniom_atomowym|elektrownie_atomowe.png",
+        "prereq_tech": {
+            "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/nuclear_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Fabryka SK|Fabryki SK|Fabryce SK|Fabryk\u0119 SK",
+        "game_info": "+50% do produkcji w trakcie wytwarzania komponent\u00f3w statku kosmicznego. Wymaga 1 sztuki aluminium.W mie\u015bcie musi by\u0107 wybudowana fabryka.",
+        "strategy": "Fabryka SK zwi\u0119ksza tempo produkcji cz\u0119\u015bci statku kosmicznego. Do jej budowy potrzebne jest aluminium, a w mie\u015bcie musi by\u0107 wybudowana fabryka.",
+        "historical_info": "Statki kosmiczne to jedne z najbardziej skomplikowanych maszyn kiedykolwiek wyprodukowanych przez ludzko\u015b\u0107. S\u0105 ogromne i wymagaj\u0105 wielkich ilo\u015bci materia\u0142\u00f3w odpowiadaj\u0105cych najwy\u017cszym standardom. Budowane s\u0105 przy tym z precyzj\u0105, jakiej nie osi\u0105ga si\u0119 w \u017cadnej innej dziedzinie. Fabryki statk\u00f3w kosmicznych Alfa Centauri zatrudniaj\u0105 najbardziej utalentowanych in\u017cynier\u00f3w. Wielu z nich wybranych zosta\u0142o do misji kolonizacyjnej, co gwarantuje ich po\u015bwi\u0119cenie oraz przyk\u0142adanie wi\u0119kszej wagi do szczeg\u00f3\u0142\u00f3w. Statki kosmiczne musz\u0105 by\u0107 bez skazy \u2013 jedna niedba\u0142a spoina lub najmniejsze wyszczerbienie w niew\u0142a\u015bciwym miejscu mog\u0105 sprawi\u0107, \u017ce kilkuset kolonist\u00f3w uwi\u0119zionych zostanie w uszkodzonym poje\u017adzie w odleg\u0142o\u015bci kilku milion\u00f3w kilometr\u00f3w od domu.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fabryka_sk|fabryki_sk|fabryce_sk|fabryk\u0119_sk.png",
+        "prereq_tech": {
+            "name": "Robotyka|Robotyki|Robotyce|Robotyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/robotics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 3,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/spaceship_factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Targowisko|Targowiska|Targowisku|Targowisko|Targowiska|Targowisk|Targowiskom|Targowiska",
+        "game_info": "Targowiska zwi\u0119kszaj\u0105 generowan\u0105 przez miasto ilo\u015b\u0107 z\u0142ota. Szlaki handlowe, kt\u00f3re gracze ustanowi\u0105 z miastem posiadaj\u0105cym targowisko, b\u0119d\u0105 generowa\u0107 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "strategy": "Targowiska zwi\u0119kszaj\u0105 generowan\u0105 przez miasto ilo\u015b\u0107 z\u0142ota. Szlaki handlowe, kt\u00f3re gracze ustanowi\u0105 z miastem posiadaj\u0105cym targowisko, b\u0119d\u0105 generowa\u0107 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "historical_info": "Targowisko jest miejscem, do kt\u00f3rego farmerzy i handlarze przynosz\u0105 swoje dobra na sprzeda\u017c. Najwcze\u015bniejsze i najbardziej prymitywne targi dzia\u0142a\u0142y na zasadzie wymiany handlowej, ale prawdziwie udany targ potrzebuje do swobodnej wymiany d\u00f3br i us\u0142ug godnej zaufania waluty. Z oczywistych powod\u00f3w targi mieszcz\u0105 si\u0119 tam, gdzie s\u0105 klienci \u2013 we wsiach, miastach i miasteczkach. Smithfield przez prawie tysi\u0105c lat by\u0142o targiem mi\u0119snym Londynu, co wyja\u015bnia niekt\u00f3re nazwy ulic, np. \u201eCow Cross Street\u201d (\u201eUlica, kt\u00f3r\u0105 przechodz\u0105 krowy\u201d).",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/targowisko|targowiska|targowisku|targowisko|targowiska|targowisk|targowiskom|targowiska.png",
+        "prereq_tech": {
+            "name": "Waluta|Waluty|Walucie|Walut\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/currency.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/market.json"
+    },
+    {
+        "id": 1,
+        "name": "Bank|Banku|Bankowi|Bank|Banki|Bank\u00f3w|Bankom|Banki",
+        "game_info": "W mie\u015bcie musi by\u0107 targowisko.",
+        "strategy": "Bank jest budynkiem renesansowym, kt\u00f3ry zwi\u0119ksza produkcj\u0119 z\u0142ota w mie\u015bcie. Przed zbudowaniem banku miasto musi posiada\u0107 targowisko lub bazar. Szlaki handlowe, kt\u00f3re gracze ustanowi\u0105 z miastem posiadaj\u0105cym bank, b\u0119d\u0105 generowa\u0107 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "historical_info": "Bank jest instytucj\u0105, do kt\u00f3rej mieszka\u0144cy mog\u0105 przynie\u015b\u0107 z\u0142oto, by by\u0142o bezpieczne. Bankier przyjmuje pieni\u0105dze na lokat\u0119 i po\u017cycza je innym ludziom, kt\u00f3rzy zwracaj\u0105 je potem wraz z dodatkow\u0105 op\u0142at\u0105 (\u201eprocentem\u201d). Bankier przekazuje cz\u0119\u015b\u0107 z uzyskanych w ten spos\u00f3b dochod\u00f3w w\u0142a\u015bcicielom lokat i reinwestuje reszt\u0119. Skuteczny system bankowy wymaga dzia\u0142aj\u0105cej waluty i praw, kt\u00f3re gwarantuj\u0105, \u017ce po\u017cyczkobiorcy zwr\u00f3c\u0105 po\u017cyczone pieni\u0105dze, o ile b\u0119d\u0105 w stanie.Banki s\u0105 wspania\u0142\u0105 si\u0142\u0105 nap\u0119dow\u0105 rozwoju cywilizacji. Je\u017celi miasto czego\u015b potrzebuje, na przyk\u0142ad nowego spichlerza, pojedynczy mieszkaniec prawdopodobnie nie b\u0119dzie m\u00f3g\u0142 sfinansowa\u0107 takiej budowy. Ale poniewa\u017c bank przechowuje oszcz\u0119dno\u015bci ca\u0142ej masy ludzi, mo\u017ce po\u017cyczy\u0107 budowniczemu odpowiedni\u0105 sum\u0119, a potem, po wybudowaniu spichlerza, odzyska swoje pieni\u0105dze z jego zysk\u00f3w. W tym momencie mieszka\u0144cy miasta zaczynaj\u0105 czerpa\u0107 korzy\u015bci z posiadania spichlerza oraz zyskuj\u0105 procent, kt\u00f3ry wyp\u0142aca im bank.Banki w Europie i Stanach Zjednoczonych w ostatnich latach nieco zepsu\u0142y sobie reputacj\u0119, ale jest to zwi\u0105zane przede wszystkim z tym, \u017ce wiele z nich da\u0142o si\u0119 wci\u0105gn\u0105\u0107 w ryzykowne machinacje finansowe lub po\u017cyczy\u0142o pieni\u0105dze stanowczo niew\u0142a\u015bciwym ludziom. Dobrze prowadzony bank jest b\u0142ogos\u0142awie\u0144stwem dla spo\u0142eczno\u015bci, zw\u0142aszcza je\u015bli nie jest ona szczeg\u00f3lnie maj\u0119tna.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bank|banku|bankowi|bank|banki|bank\u00f3w|bankom|banki.png",
+        "prereq_tech": {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/bank.json"
+    },
+    {
+        "id": 1,
+        "name": "Gie\u0142da|Gie\u0142dy|Gie\u0142dzie|Gie\u0142d\u0119|Gie\u0142dy|Gie\u0142d|Gie\u0142dom|Gie\u0142dy",
+        "game_info": "W mie\u015bcie musi by\u0107 wybudowany bank.",
+        "strategy": "Gie\u0142da papier\u00f3w warto\u015bciowych jest budynkiem zwi\u0119kszaj\u0105cym produkcj\u0119 z\u0142ota w mie\u015bcie. Przed wybudowaniem gie\u0142dy miasto musi posiada\u0107 bank (lub s\u0105d satrapy).",
+        "historical_info": "Gie\u0142da papier\u00f3w warto\u015bciowych jest organizacj\u0105, kt\u00f3ra umo\u017cliwia ludziom zakup i sprzeda\u017c \u201eakcji\u201d \u2013 udzia\u0142\u00f3w w\u0142asno\u015bci w biznesie. W niekt\u00f3rych przypadkach udzia\u0142y wi\u0105\u017c\u0105 si\u0119 z prawami do g\u0142osowania w kwestiach zarz\u0105dzania danym interesem. Czasem akcje zapewniaj\u0105 r\u00f3wnie\u017c \u201edywidendy\u201d, kt\u00f3re s\u0105 cz\u0119\u015bci\u0105 zysku firmy, raz do roku wyp\u0142acanego udzia\u0142owcom. Podstawow\u0105 (a przynajmniej pocz\u0105tkow\u0105) funkcj\u0105 gie\u0142dy papier\u00f3w warto\u015bciowych by\u0142o umo\u017cliwienie w\u0142a\u015bcicielom firm zebrania pieni\u0119dzy poprzez odsprzedanie cz\u0119\u015bci w\u0142asnej firmy inwestorom. W miar\u0119 wzrostu warto\u015bci przedsi\u0119biorstwa ro\u015bnie r\u00f3wnie\u017c warto\u015b\u0107 jego akcji. Oczywi\u015bcie wi\u0105\u017ce si\u0119 z tym r\u00f3wnie\u017c pewne ryzyko \u2013 je\u017celi warto\u015b\u0107 akcji spada, to spada r\u00f3wnie\u017c warto\u015b\u0107 inwestycji. Wsp\u00f3\u0142czesna gie\u0142da papier\u00f3w warto\u015bciowych mo\u017ce r\u00f3wnie\u017c sprzedawa\u0107 inne pot\u0119\u017cne instrumenty finansowe, takie jak obligacje, papiery warto\u015bciowe, opcje, swapy oraz pochodne. Przy nale\u017cytym zarz\u0105dzaniu gie\u0142da papier\u00f3w warto\u015bciowych mo\u017ce pchn\u0105\u0107 gospodark\u0119 kraju mocno do przodu. Przy niew\u0142a\u015bciwym \u2013 doprowadzi\u0107 do chaosu i upadku.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gie\u0142da|gie\u0142dy|gie\u0142dzie|gie\u0142d\u0119|gie\u0142dy|gie\u0142d|gie\u0142dom|gie\u0142dy.png",
+        "prereq_tech": {
+            "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stock_exchange.json"
+    },
+    {
+        "id": 1,
+        "name": "Biblioteka|Biblioteki|Bibliotece|Bibliotek\u0119|Biblioteki|Bibliotek|Bibliotekom|Biblioteki",
+        "game_info": "+1 do nauki za ka\u017cdych 2 obywateli w mie\u015bcie.",
+        "strategy": "Biblioteka zwi\u0119ksza wydajno\u015b\u0107 naukow\u0105 danego miasta, przyspieszaj\u0105c tempo, w jakim twoja cywilizacja odkrywa nowe technologie.",
+        "historical_info": "Biblioteka jest budynkiem, kt\u00f3ry mie\u015bci kolekcj\u0119 ksi\u0105\u017cek, zwoj\u00f3w i innych tekst\u00f3w pisanych. Historycznie ksi\u0105\u017cki by\u0142y bardzo drogie, czasami poza zasi\u0119giem cenowym przedstawicieli biedniejszych klas spo\u0142ecznych. Biblioteka daje biednym dost\u0119p do tej samej wiedzy, co bogatym, a przez to znacznie zwi\u0119ksza ich szanse na sukces i awans spo\u0142eczny.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/biblioteka|biblioteki|bibliotece|bibliotek\u0119|biblioteki|bibliotek|bibliotekom|biblioteki.png",
+        "prereq_tech": {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/library.json"
+    },
+    {
+        "id": 1,
+        "name": "Uniwersytet|Uniwersytetu|Uniwersytetowi|Uniwersytet|Uniwersytety|Uniwersytet\u00f3w|Uniwersytetom|Uniwersytety",
+        "game_info": "+2 do [ICON_SCIENCE] nauki z p\u00f3l z d\u017cungl\u0105 eksploatowanych przez to miasto. Pozwala na tworzenie w mie\u015bcie archeolog\u00f3w.Miejscowo\u015b\u0107 musi mie\u0107 bibliotek\u0119.",
+        "strategy": "Uniwersytet jest budynkiem epoki \u015bredniowiecznej, kt\u00f3ry zwi\u0119ksza wydajno\u015b\u0107 naukow\u0105 miasta. Jest najskuteczniejszy, je\u015bli metropolia le\u017cy w pobli\u017cu d\u017cungli. Aby m\u00f3c wznie\u015b\u0107 uniwersytet, miasto musi posiada\u0107 wybudowan\u0105 bibliotek\u0119.",
+        "historical_info": "Uniwersytet jest instytucj\u0105 zajmuj\u0105c\u0105 si\u0119 badaniami oraz wy\u017cszym kszta\u0142ceniem m\u0142odzie\u017cy w wieku od 18 do 24 lat (doro\u015bli r\u00f3wnie\u017c ucz\u0119szczaj\u0105 na uniwersytet, ale wi\u0119kszo\u015b\u0107 student\u00f3w mie\u015bci si\u0119 w podanej grupie wiekowej). Formalnie uniwersytet jest instytucj\u0105 posiadaj\u0105c\u0105 certyfikacj\u0119 pa\u0144stwow\u0105 i przyznaj\u0105c\u0105 stopnie akademickie w kilku dyscyplinach. Najstarszym dzia\u0142aj\u0105cym bez przerwy uniwersytetem \u015bwiata jest Uniwersytet Al-Karaouine w Fez w Maroku, kt\u00f3ry otwarty zosta\u0142 w roku 859 naszej ery.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/uniwersytet|uniwersytetu|uniwersytetowi|uniwersytet|uniwersytety|uniwersytet\u00f3w|uniwersytetom|uniwersytety.png",
+        "prereq_tech": {
+            "name": "Edukacja|Edukacji|Edukacji|Edukacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/university.json"
+    },
+    {
+        "id": 1,
+        "name": "Szko\u0142a publiczna|Szko\u0142y publicznej|Szkole publicznej|Szko\u0142\u0119 publiczn\u0105|Szko\u0142y publiczne|Szk\u00f3\u0142 publicznych|Szko\u0142om publicznym|Szko\u0142y publiczne",
+        "game_info": "+1 do nauki za ka\u017cdych 2 obywateli w mie\u015bcie.W mie\u015bcie musi by\u0107 wybudowany uniwersytet.",
+        "strategy": "Szko\u0142a publiczna to budynek, kt\u00f3ry znacznie zwi\u0119ksza wydajno\u015b\u0107 naukow\u0105 miasta. Aby m\u00f3c wznie\u015b\u0107 szko\u0142\u0119 publiczn\u0105, miasto musi posiada\u0107 wybudowany uniwersytet lub wat.",
+        "historical_info": "Szko\u0142a publiczna zapewnia darmowe wykszta\u0142cenie dzieciom, zanim wst\u0105pi\u0105 na uniwersytet. Jest to koncept dosy\u0107 zaawansowany. Po pierwsze, cywilizacja musi wierzy\u0107, \u017ce edukacja jest istotna, a uczenie biedak\u00f3w nie jest zagro\u017ceniem dla klasy rz\u0105dz\u0105cej. Po drugie, cywilizacja musi by\u0107 na tyle zamo\u017cna, by dzieci biedoty nie musia\u0142y pracowa\u0107 dla unikni\u0119cia g\u0142odu. Po trzecie, cywilizacja musi by\u0107 na tyle o\u015bwiecona, by chcie\u0107 \u0142o\u017cy\u0107 na edukacj\u0119 ze swoich dochod\u00f3w. Wsp\u00f3\u0142cze\u015bnie wi\u0119kszo\u015b\u0107 kraj\u00f3w na \u015bwiecie oferuje swojej m\u0142odzie\u017cy jaki\u015b poziom publicznej edukacji. Pierwsze szko\u0142y publiczne w Stanach Zjednoczonych pojawi\u0142y si\u0119 w epoce kolonialnej. Pierwsza publiczna szko\u0142a wy\u017csza otwarta zosta\u0142a w Bostonie w roku 1821.",
+        "cost": {
+            "production": 300,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/szko\u0142a_publiczna|szko\u0142y_publicznej|szkole_publicznej|szko\u0142\u0119_publiczn\u0105|szko\u0142y_publiczne|szk\u00f3\u0142_publicznych|szko\u0142om_publicznym|szko\u0142y_publiczne.png",
+        "prereq_tech": {
+            "name": "Teoria naukowa|Teorii naukowej|Teorii naukowej|Teori\u0119 naukow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/scientific_theory.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/public_school.json"
+    },
+    {
+        "id": 1,
+        "name": "Laboratorium badawcze|Laboratorium badawczego|Laboratorium badawczemu|Laboratorium badawcze|Laboratoria badawcze|Laboratori\u00f3w badawczych|Laboratoriom badawczym|Laboratoria badawcze",
+        "game_info": "Miasto musi posiada\u0107 szko\u0142\u0119 publiczn\u0105.",
+        "strategy": "Laboratorium badawcze to budynek, kt\u00f3ry znacznie zwi\u0119ksza przych\u00f3d naukowy danego miasta. Aby m\u00f3c wznie\u015b\u0107 laboratorium, miasto musi posiada\u0107 wybudowan\u0105 szko\u0142\u0119.",
+        "historical_info": "Laboratorium badawcze to plac\u00f3wka po\u015bwi\u0119cona zaawansowanym badaniom w pewnej dziedzinie. Dziedzin\u0105 t\u0105 mo\u017ce by\u0107 medycyna, chemia, robotyka, czysta energia czy dowolny inny obszar nauki. Laboratoria mog\u0105 by\u0107 finansowane ze \u015brodk\u00f3w publicznych lub fundowane przez bogatych ludzi czy korporacje. Mog\u0105 stanowi\u0107 cz\u0119\u015b\u0107 uniwersytet\u00f3w albo dzia\u0142a\u0107 niezale\u017cnie.Laboratoria to przysz\u0142o\u015b\u0107 dzia\u0142alno\u015bci badawczej. Wraz z coraz lepszym rozumieniem przez cz\u0142owieka otaczaj\u0105cego go \u015bwiata, dni zapalonych naukowc\u00f3w, pracuj\u0105cych samotnie w piwnicach i krzycz\u0105cych \u201eEureka!\u201d w zasadzie przesz\u0142y do lamusa. Wielkie odkrycia wsp\u00f3\u0142czesno\u015bci dokonywane s\u0105 w laboratoriach, w kt\u00f3rych pracuj\u0105 tuziny zdolnych ludzi.",
+        "cost": {
+            "production": 500,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorium_badawcze|laboratorium_badawczego|laboratorium_badawczemu|laboratorium_badawcze|laboratoria_badawcze|laboratori\u00f3w_badawczych|laboratoriom_badawczym|laboratoria_badawcze.png",
+        "prereq_tech": {
+            "name": "Tworzywo sztuczne|Tworzywa sztucznego|Tworzywu sztucznemu|Tworzywo sztuczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/plastics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 4,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/research_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Akwedukt|Akweduktu|Akweduktowi|Akwedukt|Akwedukty|Akwedukt\u00f3w|Akweduktom|Akwedukty",
+        "game_info": "40% \u017cywno\u015bci jest dostarczane po narodzinach nowego obywatela.",
+        "strategy": "Akwedukt zmniejsza o 40% ilo\u015b\u0107 \u017cywno\u015bci potrzebnej miastu do poszerzenia granic. Buduj akwedukty w miastach, kt\u00f3re maj\u0105 z czasem sta\u0107 si\u0119 du\u017ce.",
+        "historical_info": "Akwedukt to system wodoci\u0105gowy s\u0142u\u017c\u0105cy do transportu wody. Pocz\u0105tkowo korzystano z tego systemu do nawadniania p\u00f3l po\u0142o\u017conych z dala od \u017ar\u00f3de\u0142 wody. Jego nazwa pochodzi od \u0142aci\u0144skich s\u0142\u00f3w oznaczaj\u0105cych \u201ewod\u0119\u201d i \u201eprowadzenie\u201d, za\u015b same akwedukty s\u0105 najcz\u0119\u015bciej kojarzone z kultur\u0105 rzymsk\u0105. Najs\u0142ynniejszym rzymskim akweduktem jest Pont du Gard we Francji. Rzymianie nie byli jednak jedyn\u0105 cywilizacj\u0105, kt\u00f3ra budowa\u0142a akwedukty! Wspania\u0142e i skomplikowane akwedukty by\u0142y tworzone na ca\u0142ym \u015bwiecie, w tym w Ninevah, stolicy Asyrii, oraz w stolicy Aztek\u00f3w,Tenochtitlan, w Ameryce P\u00f3\u0142nocnej. Podstawowe za\u0142o\u017cenia planowania i konstrukcji akwedukt\u00f3w nie zmieni\u0142y si\u0119 do dzi\u015b i ludzie nadal transportuj\u0105 wod\u0119 na wielkie odleg\u0142o\u015bci w celu u\u0142atwienia sobie \u017cycia.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/akwedukt|akweduktu|akweduktowi|akwedukt|akwedukty|akwedukt\u00f3w|akweduktom|akwedukty.png",
+        "prereq_tech": {
+            "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/engineering.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/aqueduct.json"
+    },
+    {
+        "id": 1,
+        "name": "Zak\u0142ad kamieniarski|Zak\u0142adu kamieniarskiego|Zak\u0142adowi kamieniarskiemu|Zak\u0142ad kamieniarski|Zak\u0142ady kamieniarskie|Zak\u0142ad\u00f3w kamieniarskich|Zak\u0142adom kamieniarskim|Zak\u0142ady kamieniarskie",
+        "game_info": "Ka\u017cde \u017ar\u00f3d\u0142o marmuru i kamienia w obr\u0119bie miasta daje +1 do produkcji.Miasto musi posiada\u0107 w swym obr\u0119bie przynajmniej jeden z tych zasob\u00f3w ulepszony przy pomocy kamienio\u0142omu.Miasto nie mo\u017ce znajdowa\u0107 si\u0119 na r\u00f3wninie.",
+        "strategy": "Zak\u0142ad kamieniarski mo\u017ce by\u0107 zbudowany tylko w mie\u015bcie, kt\u00f3re posiada dost\u0119p do ulepszonych zasob\u00f3w kamienia lub marmuru. Zak\u0142ad kamieniarski zwi\u0119ksza produkcj\u0119 w mie\u015bcie. Miasto nie mo\u017ce by\u0107 po\u0142o\u017cone na r\u00f3wninie.",
+        "historical_info": "Zak\u0142ad kamieniarski spe\u0142nia rol\u0119 warsztatu kamieniarza, kt\u00f3ry obrabia i kszta\u0142tuje r\u00f3\u017cne rodzaje kamienia, a efekty jego pracy wykorzystywane s\u0105 p\u00f3\u017aniej jako elementy konstrukcyjne lub artystyczne. Zaw\u00f3d kamieniarza to jedna z najstarszych profesji obejmuj\u0105ca wszystko od pozyskania surowca z kamienio\u0142om\u00f3w po nanoszenie na kamienne p\u0142yty geometrycznych wzor\u00f3w oraz dopasowywanie element\u00f3w na placu budowy. Historycznie rzecz bior\u0105c, kamieniarze wykorzystywali najr\u00f3\u017cniejsze materia\u0142y \u2013 od u\u017cywanych w pot\u0119\u017cnych konstrukcjach wapieni zaczynaj\u0105c, a na pomnikowym granicie i marmurze ko\u0144cz\u0105c.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zak\u0142ad_kamieniarski|zak\u0142adu_kamieniarskiego|zak\u0142adowi_kamieniarskiemu|zak\u0142ad_kamieniarski|zak\u0142ady_kamieniarskie|zak\u0142ad\u00f3w_kamieniarskich|zak\u0142adom_kamieniarskim|zak\u0142ady_kamieniarskie.png",
+        "prereq_tech": {
+            "name": "Kalendarz|Kalendarza|Kalendarzowi|Kalendarz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/calendar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stone_works.json"
+    },
+    {
+        "id": 1,
+        "name": "Mury Babilonu|Mur\u00f3w Babilonu|Murom Babilonu|Mury Babilonu",
+        "game_info": "Mury Babilonu zwi\u0119kszaj\u0105 obra\u017cenia wszystkich dystansowych atak\u00f3w miasta i zwi\u0119kszaj\u0105 jego obron\u0119.",
+        "strategy": "Mury Babilonu to unikalny budynek Babilo\u0144czyk\u00f3w. Zast\u0119puje zwyk\u0142e mury miejskie. Zwi\u0119ksza obronno\u015b\u0107 miasta o 6, a punkty \u017cywotno\u015bci o 100 (znacznie wi\u0119cej jednego i drugiego ni\u017c zwyk\u0142e mury).",
+        "historical_info": "Jeden z oryginalnych siedmiu cud\u00f3w \u015bwiata Antypatra, mury Babilonu, otacza\u0142y miasto i chroni\u0142y je przed niebezpiecze\u0144stwem ze wszystkich stron, przekraczaj\u0105c nawet Eufrat (biegn\u0105cy przez centrum miasta). Zewn\u0119trzne \u015bciany mia\u0142y 16 kilometr\u00f3w d\u0142ugo\u015bci, ponad 7,5 m grubo\u015bci i pono\u0107 wznosi\u0142y si\u0119 prawie 100 metr\u00f3w nad miastem. Mniejsze mury otacza\u0142y miasto wewn\u0105trz g\u0142\u00f3wnych, zapewniaj\u0105c dodatkow\u0105 lini\u0119 obrony w razie upadku pierwszej. Oko\u0142o 250 wie\u017c by\u0142o wpasowanych w umocnienia, tworz\u0105c idealn\u0105 sie\u0107 obserwacyjn\u0105 i zapewniaj\u0105c liczne pozycje strzeleckie elitarnym babilo\u0144skim \u0142ucznikom. Mury stanowi\u0142y przeszkod\u0119 nie do pokonania dla \u00f3wczesnej technologii obl\u0119\u017cniczej, a na kra\u0144cach fragmentu rzeki zamontowano \u017celazne bramy (zapobiegaj\u0105ce podwodnym wtargni\u0119ciom). Na l\u0105dzie znajdowa\u0142o si\u0119 osiem ci\u0119\u017ckich bram ze s\u0142ynn\u0105 Bram\u0105 Isztar na czele. Mury te skutecznie chroni\u0142y miasto przez prawie sto lat.A\u017c do 539 r. p.n.e. szukano sposobu na z\u0142amanie obrony miasta. W ko\u0144cu Cyrus Wielki zainicjowa\u0142 plan przekierowania Eufratu w g\u00f3rze biegu w celu sp\u0142ycenia wody na tyle, by mo\u017cna by\u0142o przez ni\u0105 przechodzi\u0107. Jego armia prze\u015blizgn\u0119\u0142a si\u0119 pod metalowymi bramami miasta pod os\u0142on\u0105 nocy i zaj\u0119\u0142a miasto od wewn\u0105trz. Mury te, cho\u0107 by\u0142y w stanie wytrzyma\u0107 najzacieklejsze nawet wrogie ataki, nie mog\u0142y sprosta\u0107 pomys\u0142owo\u015bci jednego zdeterminowanego cz\u0142owieka.Wiele ze staro\u017cytnych mur\u00f3w nadal stoi, co \u015bwiadczy o ich pot\u0119dze. W 1983 roku Saddam Hussein rozpocz\u0105\u0142 odbudow\u0119 staro\u017cytnego miasta, \u0142\u0105cznie z murami i planami odtworzenia Bramy Isztar. Projekt zosta\u0142 potem wstrzymany, ale Irakijczycy nadal maj\u0105 nadziej\u0119 na wznowienie odtwarzania \u015bcian i powr\u00f3t cz\u0119\u015bci chwa\u0142y Babilonu.",
+        "cost": {
+            "production": 65,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mury_babilonu|mur\u00f3w_babilonu|murom_babilonu|mury_babilonu.png",
+        "prereq_tech": {
+            "name": "Murarstwo|Murarstwa|Murarstwu|Murarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/walls_of_babylon.json"
+    },
+    {
+        "id": 1,
+        "name": "Sala ceilidh|Sali ceilidh|Sali ceilidh|Sal\u0119 ceilidh|Sale ceilidh|Sal ceilidh|Salom ceilidh|Sale ceilidh",
+        "game_info": null,
+        "strategy": "Sala ceilidh to renesansowy budynek dost\u0119pny dla Celt\u00f3w, zast\u0119puj\u0105cy oper\u0119. Zwi\u0119ksza kultur\u0119 miasta i zadowolenie.",
+        "historical_info": "Wedle tradycji ceilidh by\u0142o rodzajem spotka\u0144 towarzyskich pierwotnych mieszka\u0144c\u00f3w Irlandii i Szkocji. Organizowano je cz\u0119sto w ci\u0105gu roku, towarzyszy\u0142y im ta\u0144ce i muzyka, stanowi\u0142y one okazj\u0119 do oderwania si\u0119 od trud\u00f3w \u017cycia codziennego. W miar\u0119 mo\u017cliwo\u015bci ceilidh odbywa\u0142y si\u0119 w salach, a czasem w domach, szko\u0142ach i miejscowych przedsi\u0119biorstwach.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/sala_ceilidh|sali_ceilidh|sali_ceilidh|sal\u0119_ceilidh|sale_ceilidh|sal_ceilidh|salom_ceilidh|sale_ceilidh.png",
+        "prereq_tech": {
+            "name": "Akustyka|Akustyki|Akustyce|Akustyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ceilidh_hall.json"
+    },
+    {
+        "id": 1,
+        "name": "Kawiarnia|Kawiarni|Kawiarni|Kawiarni\u0119|Kawiarnie|Kawiarni|Kawiarniom|Kawiarnie",
+        "game_info": "+25% wielkich ludzi generowanych w tym mie\u015bcie.",
+        "strategy": "Kawiarnia to renesansowy budynek dost\u0119pny dla Austrii, zast\u0119puj\u0105cy wiatrak. Zwi\u0119ksza o 25% produkcj\u0119 miasta i szybko\u015b\u0107 generowania wielkich ludzi.",
+        "historical_info": "S\u0142ynne austriackie kawiarnie, znajduj\u0105ce si\u0119 g\u0142\u00f3wnie w kulturalnym centrum Wiednia, od dawna by\u0142y miejscem ucieczki od trosk i trud\u00f3w codzienno\u015bci. Wedle legendy, pierwsz\u0105 kawiarni\u0119 w Wiedniu otworzy\u0142 polski \u017co\u0142nierz Jerzy Franciszek Kulczycki, kt\u00f3ry znalaz\u0142 skrzyni\u0119 ziaren kawy zostawion\u0105 przez Turk\u00f3w osma\u0144skich po bitwie pod Wiedniem w 1683 r. Kawiarniana kultura Wiednia rozkwit\u0142a w XIX wieku, kiedy to pisarze i arty\u015bci z ca\u0142ego miasta rozkoszowali si\u0119 spokojn\u0105 atmosfer\u0105 kawiar\u0144, cz\u0119sto sp\u0119dzaj\u0105c tam ca\u0142e dnie.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kawiarnia|kawiarni|kawiarni|kawiarni\u0119|kawiarnie|kawiarni|kawiarniom|kawiarnie.png",
+        "prereq_tech": {
+            "name": "Ekonomia|Ekonomii|Ekonomii|Ekonomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/coffee_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Piramida|Piramidy|Piramidzie|Piramid\u0119|Piramidy|Piramid|Piramidom|Piramidy",
+        "game_info": null,
+        "strategy": "Piramida to staro\u017cytny budynek Maj\u00f3w, zast\u0119puj\u0105cy kaplic\u0119. Zwi\u0119ksza nauk\u0119 i wiar\u0119 w mie\u015bcie, przyspiesza badania i odkrywanie religii przez cywilizacj\u0119.",
+        "historical_info": "Te niesamowite budowle w kszta\u0142cie piramid zosta\u0142y wzniesione przez Maj\u00f3w w celach ceremonialnych prawie 3000 lat temu. Rzemie\u015blnicy Maj\u00f3w r\u0119cznie wykuwali wszystkie kamienie tych budynk\u00f3w, nadaj\u0105c budowlom schodkowy wygl\u0105d. Po jednej stronie piramidy znajdowa\u0142y si\u0119 d\u0142ugie schody prowadz\u0105ce do ma\u0142ej kaplicy na szczycie, zwykle po\u015bwi\u0119conej jednemu z bog\u00f3w Maj\u00f3w. Najwi\u0119ksza piramida Maj\u00f3w znajduje si\u0119 w El Mirador i mierzy 87 metr\u00f3w wysoko\u015bci. Obj\u0119to\u015bciowo (prawie 33 miliony metr\u00f3w sze\u015bciennych) to jedna z najwi\u0119kszych piramid \u015bwiata.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/piramida|piramidy|piramidzie|piramid\u0119|piramidy|piramid|piramidom|piramidy.png",
+        "prereq_tech": {
+            "name": "Garncarstwo|Garncarstwa|Garncarstwu|Garncarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/pyramid.json"
+    },
+    {
+        "id": 1,
+        "name": "Amfiteatr|Amfiteatru|Amfiteatrowi|Amfiteatr|Amfiteatry|Amfiteatr\u00f3w|Amfiteatrom|Amfiteatry",
+        "game_info": null,
+        "strategy": "Amfiteatr zwi\u0119ksza kultur\u0119 miasta, przy\u015bpieszaj\u0105c rozrost jego terytorium oraz zdobywanie przez cywilizacj\u0119 ustroj\u00f3w spo\u0142ecznych. Miasto musi posiada\u0107 pomnik (lub stel\u0119), by mo\u017cna by\u0142o zbudowa\u0107 w nim amfiteatr. Zawiera 1 miejsce na wielkie dzie\u0142o literackie.",
+        "historical_info": "Amfiteatr to arena stoj\u0105ca na wolnym powietrzu przeznaczona do wystawiania spektakli teatralnych, organizowania imprez sportowych i koncert\u00f3w. Staro\u017cytni Rzymianie zas\u0142yn\u0119li budow\u0105 setek amfiteatr\u00f3w, w kt\u00f3rych odbywa\u0142y si\u0119 walki gladiator\u00f3w, wystawy i publiczne egzekucje.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/amfiteatr|amfiteatru|amfiteatrowi|amfiteatr|amfiteatry|amfiteatr\u00f3w|amfiteatrom|amfiteatry.png",
+        "prereq_tech": {
+            "name": "Dramat i poezja|Dramatu i poezji|Dramatowi i poezji|Dramat i poezj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/amphitheater.json"
+    },
+    {
+        "id": 1,
+        "name": "Kaplica|Kaplicy|Kaplicy|Kaplic\u0119|Kaplice|Kaplic|Kaplicom|Kaplice",
+        "game_info": null,
+        "strategy": "Kaplica to pierwszy z budynk\u00f3w zwi\u0119kszaj\u0105cych wytwarzanie wiary przez miasto, umo\u017cliwiaj\u0105cej ci tworzenie i szerzenie religii.",
+        "historical_info": "Kaplice to \u015bwi\u0119te pomniki zwykle budowane dla upami\u0119tnienia ikon kulturowych lub postaci religijnych. Wyst\u0119puj\u0105 praktycznie we wszystkich religiach \u015bwiata, odgrywaj\u0105 wa\u017cn\u0105 rol\u0119 w obrz\u0119dach odprawianych publicznie lub prywatnie.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kaplica|kaplicy|kaplicy|kaplic\u0119|kaplice|kaplic|kaplicom|kaplice.png",
+        "prereq_tech": {
+            "name": "Garncarstwo|Garncarstwa|Garncarstwu|Garncarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 1,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/shrine.json"
+    },
+    {
+        "id": 1,
+        "name": "Centrum recyklingu|Centrum recyklingu|Centrum recyklingu|Centrum recyklingu|Centra recyklingu|Centr\u00f3w recyklingu|Centrom recyklingu|Centra recyklingu",
+        "game_info": "Dostarcza 2 sztuk aluminium. W swoim imperium mo\u017cesz mie\u0107 maksymalnie 5 takich budynk\u00f3w.",
+        "strategy": "Ka\u017cde centrum recyklingu dostarcza 2 sztuk aluminium. W swoim imperium mo\u017cesz mie\u0107 maksymalnie 5 takich budynk\u00f3w.",
+        "historical_info": "Centrum recyklingu to miejsce gromadzenia popularnych materia\u0142\u00f3w recyklingowych u\u017cywanych w domach i firmach. W wielu spo\u0142eczno\u015bciach zbiera si\u0119 je razem z odpadkami i przekazuje do centr\u00f3w recyklingowych w celu posortowania. W wi\u0119kszo\u015bci przypadk\u00f3w materia\u0142y s\u0105 rozbijane lub ci\u0119te, nast\u0119pnie formowane w bele i wysy\u0142ane w inne miejsca przetwarzaj\u0105ce je w r\u00f3\u017cne nowe produkty.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centrum_recyklingu|centrum_recyklingu|centrum_recyklingu|centrum_recyklingu|centra_recyklingu|centr\u00f3w_recyklingu|centrom_recyklingu|centra_recyklingu.png",
+        "prereq_tech": {
+            "name": "Ekologia|Ekologii|Ekologii|Ekologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/recycling_center.json"
+    },
+    {
+        "id": 1,
+        "name": "Schron przeciwbombowy|Schronu przeciwbombowego|Schronowi przeciwbombowemu|Schron przeciwbombowy|Schrony przeciwbombowe|Schron\u00f3w przeciwbombowych|Schronom przeciwbombowym|Schrony przeciwbombowe",
+        "game_info": "O 75% zmniejsza straty populacji po ataku atomowym.",
+        "strategy": "Schrony zmniejszaj\u0105 o 75% straty populacji po atomowym ataku na miasto. Padnij i kryj si\u0119!",
+        "historical_info": "Schron to budowla zaprojektowana tak, by przetrwa\u0142a eksplozje bomb i innych \u0142adunk\u00f3w wybuchowych. Niekt\u00f3re schrony mia\u0142y chroni\u0107 przed bombardowaniami lotniczymi, inne budowano pod ziemi\u0105 w nadziei, \u017ce wytrzymaj\u0105 atak atomowy. W zale\u017cno\u015bci od przeznaczenia schronu budowano go z r\u00f3\u017cnych materia\u0142\u00f3w, najpopularniejszym z nich by\u0142 beton zbrojony.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schron_przeciwbombowy|schronu_przeciwbombowego|schronowi_przeciwbombowemu|schron_przeciwbombowy|schrony_przeciwbombowe|schron\u00f3w_przeciwbombowych|schronom_przeciwbombowym|schrony_przeciwbombowe.png",
+        "prereq_tech": {
+            "name": "Telekomunikacja|Telekomunikacji|Telekomunikacji|Telekomunikacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/telecommunications.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/bomb_shelter.json"
+    },
+    {
+        "id": 1,
+        "name": "Policja okr\u0119gowa|Policji okr\u0119gowej|Policji okr\u0119gowej|Policj\u0119 okr\u0119gow\u0105|Policje okr\u0119gowe|Policji okr\u0119gowych|Policji okr\u0119gowym|Policje okr\u0119gowe",
+        "game_info": "Zmniejsza o 25% szybko\u015b\u0107, z jak\u0105 szpieg wroga dokonuje kradzie\u017cy.",
+        "strategy": "Policja okr\u0119gowa zmniejsza pr\u0119dko\u015b\u0107, z jak\u0105 wrodzy szpiedzy mog\u0105 wykrada\u0107 z twoich miast technologie.",
+        "historical_info": "Jeden z pierwszych opis\u00f3w konstabla pochodzi od Bractona, jurysty z Anglii pisz\u0105cego w latach 1220-1250. \u201eGdziekolwiek by byli, ka\u017cdego dnia, rol\u0105 konstabla jest sprawianie, by wszystko by\u0142o w nale\u017cytym porz\u0105dku, i zachowywanie w pami\u0119ci tego, co widzi. Nie mo\u017ce jednak s\u0105dzi\u0107, gdy\u017c w Tower nie wolno wydawa\u0107 os\u0105d\u00f3w. Brakuje tam bowiem trzeciego elementu s\u0105du, mianowicie s\u0119dziego i jurysdykcji. Prowadzi on zapis fakt\u00f3w, nie za\u015b s\u0105d\u00f3w i praw\u201d.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/policja_okr\u0119gowa|policji_okr\u0119gowej|policji_okr\u0119gowej|policj\u0119_okr\u0119gow\u0105|policje_okr\u0119gowe|policji_okr\u0119gowych|policji_okr\u0119gowym|policje_okr\u0119gowe.png",
+        "prereq_tech": {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/constabulary.json"
+    },
+    {
+        "id": 1,
+        "name": "Posterunek policji|Posterunku policji|Posterunkowi policji|Posterunek policji|Posterunki policji|Posterunk\u00f3w policji|Posterunkom policji|Posterunki policji",
+        "game_info": "O 25% zmniejsza szybko\u015b\u0107, z jak\u0105 szpieg wroga dokonuje kradzie\u017cy.W mie\u015bcie musi by\u0107 policja okr\u0119gowa.",
+        "strategy": "Posterunki policji zmniejszaj\u0105 szybko\u015b\u0107, z jak\u0105 szpiedzy wykradaj\u0105 technologie z twojego miasta. W mie\u015bcie musi znajdowa\u0107 si\u0119 policja okr\u0119gowa, aby mo\u017cna by\u0142o wybudowa\u0107 posterunek.",
+        "historical_info": "Posterunek policji to baza operacyjna miejscowych policjant\u00f3w i detektyw\u00f3w. Zwykle znajduj\u0105 si\u0119 tam pomieszczenia biurowe, niewielki areszt, pokoje przes\u0142ucha\u0144 i magazyny dowod\u00f3w. W niekt\u00f3rych miejscach du\u017ce, centralne biuro mo\u017ce zawiera\u0107 wiele z tych element\u00f3w, a mniejsze posterunki s\u0142u\u017c\u0105 lokalnym wydzia\u0142om policji.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/posterunek_policji|posterunku_policji|posterunkowi_policji|posterunek_policji|posterunki_policji|posterunk\u00f3w_policji|posterunkom_policji|posterunki_policji.png",
+        "prereq_tech": {
+            "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/police_station.json"
+    },
+    {
+        "id": 1,
+        "name": "Katedra|Katedry|Katedrze|Katedr\u0119|Katedry|Katedr|Katedrom|Katedry",
+        "game_info": null,
+        "strategy": "Budynek ten mo\u017ce zosta\u0107 zbudowany jedynie w miastach z wierzeniem \u201eKatedr\u201d. Budowany poprzez zakup za punkty wiary.",
+        "historical_info": "Katedra to rodzaj chrze\u015bcija\u0144skiego ko\u015bcio\u0142a, w kt\u00f3rym znajduje si\u0119 tron biskupi. \u0141aci\u0144skie s\u0142owo \u201ecathedra\u201d oznacza \u201ekrzes\u0142o\u201d i odnosi si\u0119 do samego tronu. Katedra to budynek, w kt\u00f3rym go umieszczono. Wi\u0119kszo\u015b\u0107 katedr cechuje wyj\u0105tkowy styl architektoniczny odr\u00f3\u017cniaj\u0105cy je od s\u0105siednich budowli, dlatego katedry cz\u0119sto staj\u0105 si\u0119 charakterystycznymi punktami danej okolicy. S\u0105 one g\u0142\u00f3wnie miejscami kultu, ale spe\u0142niaj\u0105 te\u017c funkcje spo\u0142eczne.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/katedra|katedry|katedrze|katedr\u0119|katedry|katedr|katedrom|katedry.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 1,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/cathedral.json"
+    },
+    {
+        "id": 1,
+        "name": "Meczet|Meczetu|Meczetowi|Meczet|Meczety|Meczet\u00f3w|Meczetom|Meczety",
+        "game_info": null,
+        "strategy": "Budynek ten mo\u017ce zosta\u0107 zbudowany jedynie w miastach z wierzeniem \u201eMeczet\u00f3w\u201d. Budowany poprzez zakup za punkty wiary.",
+        "historical_info": "Meczet to tradycyjne miejsce kultu wyznawc\u00f3w islamu. Najwi\u0119kszy meczet \u015bwiata Al-Masd\u017cid al-Haram zbudowano w Mekce w Arabii Saudyjskiej oko\u0142o roku 638. Nazywa si\u0119 go te\u017c Wielkim Meczetem. Znajduje si\u0119 w nim sanktuarium Kaaba, naj\u015bwi\u0119tsze miejsce islamu.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/meczet|meczetu|meczetowi|meczet|meczety|meczet\u00f3w|meczetom|meczety.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 3,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Pagoda|Pagody|Pagodzie|Pagod\u0119|Pagody|Pag\u00f3d|Pagodom|Pagody",
+        "game_info": null,
+        "strategy": "Budynek ten mo\u017ce zosta\u0107 zbudowany jedynie w miastach z wierzeniem \u201ePag\u00f3d\u201d. Budowany poprzez zakup za punkty wiary.",
+        "historical_info": "Pagody, popularne w ca\u0142ej Azji, to budowle w charakterystycznym stylu architektonicznym, b\u0119d\u0105ce wielopoziomowymi wie\u017cami z wystaj\u0105cymi okapami i charakterystycznymi zwie\u0144czeniami. Wi\u0119kszo\u015b\u0107 pag\u00f3d wi\u0105\u017ce si\u0119 z buddyzmem, poniewa\u017c cz\u0119sto budowano je w miejscu lub w pobli\u017cu \u015bwi\u0105ty\u0144 buddyjskich, aby przechowywa\u0107 tam \u015bwi\u0119te relikwie.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pagoda|pagody|pagodzie|pagod\u0119|pagody|pag\u00f3d|pagodom|pagody.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/pagoda.json"
+    },
+    {
+        "id": 1,
+        "name": "Stela|Steli|Steli|Stel\u0119|Stele|Stel|Stelom|Stele",
+        "game_info": null,
+        "strategy": "Stela to budowla z epoki staro\u017cytnej typowa dla Etiopii, zast\u0119puj\u0105ca pomnik. Zwi\u0119ksza kultur\u0119 i wiar\u0119 w mie\u015bcie, przyspieszaj\u0105c powi\u0119kszanie jego terytorium oraz odkrywanie ustroj\u00f3w spo\u0142ecznych i religii przez cywilizacj\u0119.",
+        "historical_info": "Stela to wielka, stoj\u0105ca kamienna p\u0142yta b\u0119d\u0105ca pomnikiem upami\u0119tniaj\u0105cym wielkich przyw\u00f3dc\u00f3w, zwyci\u0119skie bitwy, czasem s\u0142u\u017cy\u0142a te\u017c do oznaczania granic. Znajduj\u0105 si\u0119 one na terenie Etiopii i okolicznych region\u00f3w, cz\u0119sto opisano na nich upami\u0119tniane osoby lub wydarzenia. Obelisk z Aksum to jedna z takich stel, wzniesiona w po\u0142owie IV w. w etiopskim mie\u015bcie Aksum. Wieki p\u00f3\u017aniej zosta\u0142a rozbita i wywieziona do W\u0142och przez wojska Mussoliniego okupuj\u0105ce Etiopi\u0119. Ta stela ma ponad 25 metr\u00f3w wysoko\u015bci i wa\u017cy 150 ton. W 2008 r. zosta\u0142a zwr\u00f3cona Etiopii i z\u0142o\u017cona w ca\u0142o\u015b\u0107, w wyniku stara\u0144 Organizacji Edukacji, Nauki i Kultury Narod\u00f3w Zjednoczonych.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stela|steli|steli|stel\u0119|stele|stel|stelom|stele.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stele.json"
+    },
+    {
+        "id": 1,
+        "name": "Ikanda|Ikand\u0119|Ikandzie|Ikand\u0119",
+        "game_info": "Unikalny budynek Zulus\u00f3w zast\u0119puj\u0105cy koszary. Zapewnia wyj\u0105tkowe awanse dla jednostek walcz\u0105cych w zwarciu sprzed wynalezienia prochu.",
+        "strategy": "Poza mo\u017cliwo\u015bciami, jakie daj\u0105 zwyk\u0142e koszary, ikanda zapewnia unikalny zestaw awans\u00f3w dost\u0119pnych dla jednostek walcz\u0105cych w zwarciu sprzed wynalezienia prochu wyprodukowanych w mie\u015bcie. Nale\u017c\u0105 do nich szybsze poruszanie si\u0119 i wi\u0119ksza si\u0142a bojowa. Ikand\u0119 mog\u0105 zbudowa\u0107 wy\u0142\u0105cznie Zulusi.",
+        "historical_info": "Ikanda by\u0142a czym\u015b w rodzaju wojskowego kraalu lub wybiegu dla zuluskiego byd\u0142a i innych zwierz\u0105t. Amabutho, \u201epu\u0142k wieku\u201d, sk\u0142ada\u0142 si\u0119 z m\u0142odzie\u017cy lub m\u0119\u017cczyzn w tym samym wieku, kt\u00f3rzy razem \u0107wiczyli, mieszkali i walczyli w tej samej formacji, ka\u017cdy za\u015b z takich pu\u0142k\u00f3w zamieszkiwa\u0142 jeden z kr\u00f3lewskich wybieg\u00f3w - czyni\u0105c go ikand\u0105. Do ka\u017cdej ikandy przydzielone by\u0142o stado kr\u00f3lewskiego byd\u0142a, kt\u00f3rego mi\u0119sem \u017cywili si\u0119 wojownicy. Bydl\u0119ce sk\u00f3ry wykorzystywano do produkcji tarcz, kt\u00f3rych barwy by\u0142y inne dla ka\u017cdego amabutho. Ikandy budowano podobnie jak tradycyjne kraale - dwa kr\u0119gi palisady z ciernistych krzew\u00f3w, mi\u0119dzy kt\u00f3rymi znajdowa\u0142y si\u0119 chaty mieszkalne. Stado umieszczano za obiema palisadami, w \u015brodku kompleksu.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ikanda|ikand\u0119|ikandzie|ikand\u0119.png",
+        "prereq_tech": {
+            "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ikanda.json"
+    },
+    {
+        "id": 1,
+        "name": "Ksi\u0105\u017c\u0119ce stajnie|Ksi\u0105\u017c\u0119cych stajni|Ksi\u0105\u017c\u0119cym stajniom|Ksi\u0105\u017c\u0119ce stajnie",
+        "game_info": "Unikalny dla Polski budynek zast\u0119puj\u0105cy stajni\u0119. +15% do produkcji i +15% PD dla jednostek konnych.Ka\u017cde eksploatowane przez miasto pastwisko zapewnia +1 do produkcji i +1 sztuk\u0119 z\u0142ota.",
+        "strategy": "Poza zwyk\u0142ymi mo\u017cliwo\u015bciami stajni, ksi\u0105\u017c\u0119ce stajnie zwi\u0119kszaj\u0105 produkcj\u0119 z\u0142ota na polach z pastwiskiem i zapewnia +15 PD dla jednostek konnych. Mog\u0105 j\u0105 zbudowa\u0107 tylko Polacy.",
+        "historical_info": "Po wst\u0105pieniu na tron w 1333 r. Kazimierz Wielki zmuszony by\u0142 do ob\u0142askawienia niespokojnej polskiej szlachty poprzez udzielenie jej licznych przywilej\u00f3w, z kt\u00f3rych jednym by\u0142o prawo do utrzymywania stajni r\u00f3wnie bogatych jak kr\u00f3lewskie. A\u017c do zako\u0144czenia wojen napoleo\u0144skich te ksi\u0105\u017c\u0119ce stajnie stanowi\u0142y \u017ar\u00f3d\u0142o zar\u00f3wno presti\u017cu, jak i pot\u0119gi. W ka\u017cdej z nich znale\u017a\u0107 mo\u017cna by\u0142o od pi\u0119\u0107dziesi\u0119ciu do kilkuset koni i koniuszych, posiada\u0142y one te\u017c dodatkowe pomieszczenia na uprz\u0119\u017ce, siod\u0142a i czapraki. Niekt\u00f3re z nich, jak na przyk\u0142ad ksi\u0105\u017c\u0119ca stajnia w Szczecinie, by\u0142y praktyczne i funkcjonalne. Inne ton\u0119\u0142y w przepychu zdobione kolumnami i pomnikami, jak na przyk\u0142ad stajnia w Kraskowie. Jednak niezale\u017cnie od rozmiar\u00f3w i ilo\u015bci ozd\u00f3b ka\u017cda z nich dostarcza\u0142a koni potrzebnych s\u0142awnym polskim formacjom kawaleryjskim.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ksi\u0105\u017c\u0119ce_stajnie|ksi\u0105\u017c\u0119cych_stajni|ksi\u0105\u017c\u0119cym_stajniom|ksi\u0105\u017c\u0119ce_stajnie.png",
+        "prereq_tech": {
+            "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ducal_stable.json"
+    },
+    {
+        "id": 1,
+        "name": "Kr\u00f3lewska biblioteka|Kr\u00f3lewskiej biblioteki|Kr\u00f3lewskiej bibliotece|Kr\u00f3lewsk\u0105 bibliotek\u0119",
+        "game_info": "Unikalny asyryjski budynek zast\u0119puj\u0105cy bibliotek\u0119. +1 nauki za ka\u017cdych 2 mieszka\u0144c\u00f3w tego miasta. Uwzgl\u0119dnia tak\u017ce miejsce na wielkie dzie\u0142o literackie - po jego wype\u0142nieniu szkolone tu jednostki otrzymuj\u0105 dodatkowe PD.",
+        "strategy": "Poza wydajno\u015bci\u0105 naukow\u0105 gwarantowan\u0105 przez bibliotek\u0119, kt\u00f3r\u0105 zast\u0119puje ten budynek, biblioteka kr\u00f3lewska uwzgl\u0119dnia tak\u017ce miejsce na wielkie dzie\u0142o literackie. Gdy umie\u015bcisz w nim dzie\u0142o, jednostki szkolone w tym mie\u015bcie otrzymaj\u0105 dodatkowe PD, warto wi\u0119c zrobi\u0107 to jak najwcze\u015bniej. Budynek dost\u0119pny tylko dla Asyryjczyk\u00f3w.",
+        "historical_info": "Najstarsza znana biblioteka pochodzi z czas\u00f3w asyryjskiego kr\u00f3la Senacheryba, z ok. 700 r. p.n.e., kt\u00f3ry zgromadzi\u0142 w swoim pa\u0142acu w Niniwie tysi\u0105ce glinianych tabliczek. S\u0142awn\u0105 kr\u00f3lewsk\u0105 bibliotek\u0119 stworzy\u0142 jednak jego wnuk Aszurbanipal. Jako pe\u0142en pasji kolekcjoner wysy\u0142a\u0142 on uczonych do r\u00f3\u017cnych miejsc ca\u0142ego regionu, by zbierali teksty, g\u0142\u00f3wnie, lecz nie tylko, babilo\u0144skie. By zapewni\u0107 przetrwanie swojej obszernej bibliotece tabliczek, kr\u00f3l nakaza\u0142 skrybom skopiowanie tekst\u00f3w, a nast\u0119pnie umieszczenie ich w innych nowoasyryjskich miastach, jakich wiele by\u0142o w rosn\u0105cym imperium. Kr\u00f3lewsk\u0105 bibliotek\u0119 spl\u0105drowano, gdy w 612 r. p.n.e. dosz\u0142o do z\u0142upienia Niniwy, lecz ok. 10\u00a0000 fragment\u00f3w tabliczek z pismem klinowym zosta\u0142o odnalezionych przez archeolog\u00f3w.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kr\u00f3lewska_biblioteka|kr\u00f3lewskiej_biblioteki|kr\u00f3lewskiej_bibliotece|kr\u00f3lewsk\u0105_bibliotek\u0119.png",
+        "prereq_tech": {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/royal_library.json"
+    },
+    {
+        "id": 1,
+        "name": "Czandi",
+        "game_info": "Unikalny indonezyjski budynek zast\u0119puj\u0105cy ogr\u00f3d. +25% do tworzenia wielkich ludzi w mie\u015bcie oraz +2 punkty wiary za ka\u017cd\u0105 \u015bwiatow\u0105 religi\u0119 maj\u0105c\u0105 w mie\u015bcie co najmniej 1 wyznawc\u0119.W przeciwie\u0144stwie do ogrodu, czandi nie musi by\u0107 po\u0142o\u017cone nad rzek\u0105 lub jeziorem.",
+        "strategy": "Poza premiami gwarantowanymi przez ogr\u00f3d, czandi zapewniaj\u0105 +2 wiary za ka\u017cd\u0105 \u015bwiatow\u0105 religi\u0119 maj\u0105c\u0105 w mie\u015bcie co najmniej jednego wyznawc\u0119. Budynek dost\u0119pny tylko dla Indonezji. Miasto nie musi by\u0107 po\u0142o\u017cone w s\u0105siedztwie rzeki ani jeziora.",
+        "historical_info": "Czandi to indonezyjskie budowle z kamienia inspirowane pojedyncz\u0105 \u015bwi\u0105tyni\u0105 Hindu z wie\u017c\u0105 w kszta\u0142cie piramidy i zdobionym portykiem. Wi\u0119kszo\u015b\u0107 z nich zbudowano mi\u0119dzy VIII a XV w. Bogato zdobione mandalami czandi mia\u0142y przypomina\u0107 Meru, \u015bwi\u0119t\u0105 g\u00f3r\u0119, na kt\u00f3rej szczycie mieszkaj\u0105 bogowie. Jawajczycy, podobnie jak Khmerowie, budowali swoje czandi w nieco inny spos\u00f3b, stawiaj\u0105c kolumny wok\u00f3\u0142 g\u0142\u00f3wnej \u015brodkowej budowli, ale zachowuj\u0105c podstawow\u0105 form\u0119. Najwi\u0119ksze i najs\u0142awniejsze czandi to Borobudur, buddyjska \u015bwi\u0105tynia z IX w., posiadaj\u0105ca 7 taras\u00f3w.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/czandi.png",
+        "prereq_tech": {
+            "name": "Teologia|Teologii|Teologii|Teologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/candi.json"
+    },
+    {
+        "id": 1,
+        "name": "Hanza|Hanzy|Hanzie|Hanz\u0119",
+        "game_info": "Unikalna budowla niemiecka zast\u0119puj\u0105ca bank. +5% produkcji za ka\u017cdy szlak handlowy prowadz\u0105cy z twojej cywilizacji do pa\u0144stwa-miasta. Szlaki handlowe doprowadzone przez innych graczy do miasta z Hanz\u0105 b\u0119d\u0105 generowa\u0107 1 dodatkow\u0105 sztuk\u0119 z\u0142ota dla w\u0142a\u015bciciela miasta; posiadacz szlaku handlowego r\u00f3wnie\u017c otrzyma za niego 1 dodatkow\u0105 sztuk\u0119 z\u0142ota.",
+        "strategy": "Opr\u00f3cz mo\u017cliwo\u015bci zwyk\u0142ego banku (wi\u0119ksza produkcja z\u0142ota, dodatkowe z\u0142oto ze szlak\u00f3w handlowych), Hanza zapewnia dodatkow\u0105 produkcj\u0119 za ka\u017cdy szlak handlowy na terenie twojej cywilizacji, prowadz\u0105cy do pa\u0144stwa-miasta. Szlaki handlowe mog\u0105 prowadzi\u0107 z r\u00f3\u017cnych miast, nawet tych, w kt\u00f3rych nie ma Hanzy. (Przyk\u0142ad: je\u017celi masz szlaki handlowe z Berlina do Genewy, z Monachium do Genewy, z Monachium do Berlina i z Berlina do Brukseli, to wszystkie miasta z Hanz\u0105 otrzymaj\u0105 +15% produkcji). Ten budynek mog\u0105 wznie\u015b\u0107 tylko Niemcy.",
+        "historical_info": "Hanza, co w starofrancuskim oznacza \u201ekompani\u0119 kupieck\u0105\u201d, by\u0142a dobrowolnym stowarzyszeniem kupc\u00f3w i handlarzy, organizowanym w mie\u015bcie w celu ochrony oraz uproszczenia handlu i transportu. W XIII wieku w portach handlowych na Ba\u0142tyku i Morzu P\u00f3\u0142nocnym te cechy kupieckie sta\u0142y si\u0119 wyj\u0105tkowo pot\u0119\u017cne i wp\u0142ywowe. Ich siedziby i nieruchomo\u015bci tak\u017ce nazywano Hanz\u0105. W najwi\u0119kszej hanzie znajdowa\u0142y si\u0119 nie tylko biura administracji cechu, ale tak\u017ce magazyny, sale konferencyjne, targi, banki i doki (od strony morza). Pierwsza hanza powsta\u0142a w Lubece oko\u0142o roku 1159, by usprawni\u0107 handel mi\u0119dzy Europ\u0105 Zachodni\u0105 a bogatymi w zasoby rejonami p\u00f3\u0142nocnej Rosji. Hanza da\u0142a nazw\u0119 Lidze Hanzeatyckiej, za\u0142o\u017conej oko\u0142o 1250 r. przez kilka niemieckich cech\u00f3w, d\u0105\u017c\u0105cych do opanowania ba\u0142tyckich szlak\u00f3w handlowych, standaryzacji weksli i komercyjnego rozwoju ich miast. Liga by\u0142a polityczn\u0105, militarn\u0105 [w\u015br\u00f3d pomniejszych konflikt\u00f3w warto wymieni\u0107 wojn\u0119 holendersko-hanzaetyck\u0105 (1438 - 1441 r.) i hanzaetycko-angielsk\u0105 (1470 - 1474 r.)] i gospodarcz\u0105 pot\u0119g\u0105 w regionie prawie do ko\u0144ca XVII w.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hanza|hanzy|hanzie|hanz\u0119.png",
+        "prereq_tech": {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hanse.json"
+    },
+    {
+        "id": 1,
+        "name": "Gildia pisarzy|Gildii pisarzy|Gildii pisarzy|Gildi\u0119 pisarzy|Gildie pisarzy|Gildii pisarzy|Gildiom pisarzy|Gildie pisarzy",
+        "game_info": "Zapewnia 1 punkt wielkich ludzi (PWL) niezb\u0119dny do narodzin wielkiego pisarza. Umie\u015b\u0107 w tym budynku do dw\u00f3ch specjalist\u00f3w, by zdobywa\u0107 kultur\u0119 i zwi\u0119kszy\u0107 cz\u0119stotliwo\u015b\u0107 narodzin wielkich pisarzy (3 pkt kultury i 3 PWL na specjalist\u0119).",
+        "strategy": "Gildia pisarzy to jedyny budynek zawieraj\u0105cy miejsca dla specjalist\u00f3w pisarzy, niezmiernie wa\u017cnych przy generowaniu wielkich pisarzy. Je\u015bli planujesz zwyci\u0119stwo kulturowe, musisz koniecznie mie\u0107 ten budynek. Zapewnia on 1 punkt wielkich ludzi, a ka\u017cdy przydzielony specjalista - dodatkowe 3 punkty wielkich ludzi i 3 punkty kultury.",
+        "historical_info": "Po wynalezieniu w epoce renesansu druku zacz\u0119\u0142y powstawa\u0107 gildie pisarzy, cho\u0107 nigdy nie by\u0142y one tak wp\u0142ywowe jak wsp\u00f3\u0142czesne im gildie artyst\u00f3w. W wielu europejskich miastach zacz\u0119\u0142y pojawia\u0107 si\u0119 zar\u00f3wno formalne, jak i nieformalne organizacje pragn\u0105ce dopilnowa\u0107, by autorzy byli odpowiednio wynagradzani przez drukarzy i ksi\u0119garzy. W Londynie Szekspira i innych miastach dramatopisarze zacz\u0119li \u0142\u0105czy\u0107 si\u0119 w grupy, by chroni\u0107 swoje zyski przed plagiatami i nieautoryzowanym wystawianiem sztuk. Cho\u0107 stanowi\u0142y one raczej zwi\u0105zki zawodowe ni\u017c gildie, ich tradycja pozostaje \u017cywa w setkach istniej\u0105cych na ca\u0142ym \u015bwiecie organizacji takich jak Izraelska Gildia Scenarzyst\u00f3w, Gildia Pisarzy Wielkiej Brytanii czy ameryka\u0144ska Authors Guild.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gildia_pisarzy|gildii_pisarzy|gildii_pisarzy|gildi\u0119_pisarzy|gildie_pisarzy|gildii_pisarzy|gildiom_pisarzy|gildie_pisarzy.png",
+        "prereq_tech": {
+            "name": "Dramat i poezja|Dramatu i poezji|Dramatowi i poezji|Dramat i poezj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/writers'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Gildia artyst\u00f3w|Gildii artyst\u00f3w|Gildii artyst\u00f3w|Gildi\u0119 artyst\u00f3w|Gildie artyst\u00f3w|Gildii artyst\u00f3w|Gildiom artyst\u00f3w|Gildie artyst\u00f3w",
+        "game_info": "Zapewnia 2 punkty wielkich ludzi (PWL) potrzebne do narodzin wielkiego artysty. Umie\u015b\u0107 w tym budynku do dw\u00f3ch specjalist\u00f3w, by zdobywa\u0107 kultur\u0119 i zwi\u0119kszy\u0107 cz\u0119stotliwo\u015b\u0107 narodzin wielkich artyst\u00f3w (3 pkt kultury i 3 PWL na specjalist\u0119).",
+        "strategy": "Gildia artyst\u00f3w to jedyny budynek zawieraj\u0105cy miejsca dla specjalist\u00f3w-artyst\u00f3w, niezmiernie wa\u017cnych przy generowaniu wielkich artyst\u00f3w. Je\u015bli planujesz zwyci\u0119stwo kulturowe, musisz koniecznie mie\u0107 ten budynek. Zapewnia on 2 punkty wielkich ludzi, a ka\u017cdy przydzielony specjalista - dodatkowe 3 punkty wielkich ludzi i 3 punkty kultury.",
+        "historical_info": "Pomys\u0142 stworzenia gildii dla artyst\u00f3w nie znalaz\u0142 poparcia a\u017c do p\u00f3\u017anego \u015bredniowiecza, gdy w Europie rozpocz\u0105\u0142 si\u0119 d\u0142ugi proces urbanizacji. W XIII w. w miastach pojawi\u0142y si\u0119 liczne tego typu gildie wzoruj\u0105ce si\u0119 na powszechnych w\u00f3wczas gildiach kupieckich. Stara\u0142y si\u0119 one ujednolici\u0107 koszta i ustali\u0107 ceny dzie\u0142 sztuki oraz oferowa\u0142y artystom w mie\u015bcie wsparcie i kszta\u0142cenie, usuwaj\u0105c w ten spos\u00f3b potrzeb\u0119 patronat\u00f3w bogaczy i szlachty. Cho\u0107 nieoficjalne gildie r\u00f3\u017cnych rodzaj\u00f3w sztuki istniej\u0105 do dzi\u015b, o\u015bwiecenie spowodowa\u0142o znikni\u0119cie monopolu tych organizacji, a\u017c wreszcie w po\u0142owie XIX w. ich istnienie zosta\u0142o zakazane.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gildia_artyst\u00f3w|gildii_artyst\u00f3w|gildii_artyst\u00f3w|gildi\u0119_artyst\u00f3w|gildie_artyst\u00f3w|gildii_artyst\u00f3w|gildiom_artyst\u00f3w|gildie_artyst\u00f3w.png",
+        "prereq_tech": {
+            "name": "Gildie|Gildii|Gildiom|Gildie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/artists'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Gildia muzyk\u00f3w|Gildii muzyk\u00f3w|Gildii muzyk\u00f3w|Gildi\u0119 muzyk\u00f3w|Gildie muzyk\u00f3w|Gildii muzyk\u00f3w|Gildiom muzyk\u00f3w|Gildie muzyk\u00f3w",
+        "game_info": "Zapewnia 3 punkty wielkich ludzi (PWL) niezb\u0119dne do narodzin wielkiego muzyka. Umie\u015b\u0107 w tym budynku do dw\u00f3ch specjalist\u00f3w, by zdobywa\u0107 kultur\u0119 i zwi\u0119kszy\u0107 cz\u0119stotliwo\u015b\u0107 narodzin wielkich muzyk\u00f3w (3 pkt kultury i 3 PWL na specjalist\u0119).",
+        "strategy": "Gildia muzyk\u00f3w to jedyny budynek zawieraj\u0105cy miejsca dla specjalist\u00f3w muzyk\u00f3w, niezmiernie wa\u017cnych przy generowaniu wielkich artyst\u00f3w. Je\u015bli planujesz zwyci\u0119stwo kulturowe, musisz koniecznie mie\u0107 ten budynek. Zapewnia on 3 punkty wielkich ludzi, a ka\u017cdy przydzielony specjalista - dodatkowe 3 punkty wielkich ludzi i 3 punkty kultury.",
+        "historical_info": "Gildie muzyk\u00f3w, kt\u00f3re na kr\u00f3tko pojawi\u0142y si\u0119 w epoce renesansu, swoje pocz\u0105tki zawdzi\u0119czaj\u0105 grupom nadwornych muzyk\u00f3w korzystaj\u0105cych z patronatu oraz opieki szlachty i rodzin kr\u00f3lewskich. W epoce renesansu, w miar\u0119 jak muzyka zacz\u0119\u0142a by\u0107 pisana zgodnie z upodobaniami rosn\u0105cej klasy kupieckiej i \u015bredniej, muzycy bez patron\u00f3w zacz\u0119li \u0142\u0105czy\u0107 si\u0119 w grupy, by zagwarantowa\u0107 sobie prac\u0119 i zarobki. Wraz z narodzinami wsp\u00f3\u0142czesnej orkiestry w XVII w. miasta zacz\u0119\u0142y sponsorowa\u0107 kompozytor\u00f3w i dyrygent\u00f3w, pozwalaj\u0105c na tworzenie coraz bardziej z\u0142o\u017conych dzie\u0142 muzycznych. To przesuni\u0119cie ku \u201emuzyce ludu\u201d znacz\u0105co zmniejszy\u0142o potrzeb\u0119 istnienia formalnych gildii muzyk\u00f3w. A\u017c do XX w., na pocz\u0105tku kt\u00f3rego nast\u0105pi\u0142 boom na muzyk\u0119 popularn\u0105 i kiedy powsta\u0142y zwi\u0105zki, muzycy nie tworzyli formalnych organizacji.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gildia_muzyk\u00f3w|gildii_muzyk\u00f3w|gildii_muzyk\u00f3w|gildi\u0119_muzyk\u00f3w|gildie_muzyk\u00f3w|gildii_muzyk\u00f3w|gildiom_muzyk\u00f3w|gildie_muzyk\u00f3w.png",
+        "prereq_tech": {
+            "name": "Akustyka|Akustyki|Akustyce|Akustyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/musicians'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Hotel|Hotelu|Hotelowi|Hotel|Hotele|Hoteli|Hotelom|Hotele",
+        "game_info": "50% kultury z cud\u00f3w \u015bwiata, cud\u00f3w natury i ulepsze\u0144 (s\u0142ynne miejsca, moai, chateau) dodawane jest do generowanej przez miasto turystyki. +50% do generowanej przez wielkie dzie\u0142a turystyki.",
+        "strategy": "Daj\u0105cy ogromn\u0105 premi\u0119 do turystyki hotel to doskona\u0142a budowla dla cywilizacji pragn\u0105cych osi\u0105gn\u0105\u0107 zwyci\u0119stwo kulturowe lub zwi\u0119kszy\u0107 sw\u00f3j ideologiczny wp\u0142yw na inne cywilizacje.",
+        "historical_info": "Gospody istnia\u0142y od tysi\u0105cleci, zapewniaj\u0105c schronienie i bezpiecze\u0144stwo kupcom i podr\u00f3\u017cnym. Marco Polo opisa\u0142 rozleg\u0142\u0105 sie\u0107 dom\u00f3w zapewniaj\u0105cych nocleg w\u0119drowcom istniej\u0105c\u0105 w XIII-wiecznych Chinach. Wsp\u00f3\u0142czesny hotel powsta\u0142 w du\u017cej mierze wskutek narodzin kolei, gdy\u017c nie tylko zwi\u0119kszy\u0142a si\u0119 ilo\u015b\u0107 podr\u00f3\u017cnych, ale i skr\u00f3ci\u0142 si\u0119 czas, na jaki potrzebowali oni noclegu. Najstarszy dzia\u0142aj\u0105cy nieprzerwanie hotel to Nishiyama Onsen Keiunkan w Japonii - otworzono go w 707 r. n.e., a jego w\u0142a\u015bcicielami jest od 46 pokole\u0144 jedna rodzina.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hotel|hotelu|hotelowi|hotel|hotele|hoteli|hotelom|hotele.png",
+        "prereq_tech": {
+            "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hotel.json"
+    },
+    {
+        "id": 1,
+        "name": "Karawanseraj|Karawanseraju|Karawanserajowi|Karawanseraj",
+        "game_info": "L\u0105dowe szlaki handlowe z tego miasta maj\u0105 o 50% wi\u0119kszy zasi\u0119g i zapewniaj\u0105 dodatkowe 2 sztuki z\u0142ota przy po\u0142\u0105czeniu z inn\u0105 cywilizacj\u0105.",
+        "strategy": "Karawanseraj to budynek epoki klasycznej. Zwi\u0119ksza zasi\u0119g i produkcj\u0119 z\u0142ota l\u0105dowych szlak\u00f3w handlowych.",
+        "historical_info": "W miar\u0119 jak szlaki w\u0119dr\u00f3wek karawan rozci\u0105ga\u0142y si\u0119 coraz dalej na Bliski Wsch\u00f3d, Azj\u0119 \u015arodkow\u0105 i Afryk\u0119 P\u00f3\u0142nocn\u0105, coraz wi\u0119ksza stawa\u0142a si\u0119 potrzeba stworzenia miejsc, w kt\u00f3rych juczne zwierz\u0119ta mog\u0142yby si\u0119 bezpiecznie schroni\u0107 i odpocz\u0105\u0107. Publiczne karawanseraje by\u0142y kompleksami budowanymi poza miejskimi murami. Prywatne zazwyczaj przybiera\u0142y form\u0119 ufortyfikowanego placu, wok\u00f3\u0142 kt\u00f3rego znajdowa\u0142y si\u0119 magazyny, sypialnie, stajnie i kuchnie. Najwi\u0119ksze z nich mog\u0142y przyj\u0105\u0107 setki wielb\u0142\u0105d\u00f3w, mu\u0142\u00f3w lub koni. Wi\u0119kszo\u015b\u0107 karawanseraj\u00f3w za op\u0142at\u0105 zapewnia\u0142a podstawowe zapasy takie jak woda, pasza, \u017cywno\u015b\u0107, jedzenie, ubranie i inne rzeczy niezb\u0119dne w podr\u00f3\u017cy. Najdawniejsze znane karawanseraje sta\u0142y wzd\u0142u\u017c perskiej Drogi Kr\u00f3lewskiej, \u0142\u0105cz\u0105cej Suz\u0119 z Sardes i maj\u0105cej d\u0142ugo\u015b\u0107 2575 km.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/karawanseraj|karawanseraju|karawanserajowi|karawanseraj.png",
+        "prereq_tech": {
+            "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/caravansary.json"
+    },
+    {
+        "id": 1,
+        "name": "Lotnisko|Lotniska|Lotnisku|Lotnisko|Lotniska|Lotnisk|Lotniskom|Lotniska",
+        "game_info": "Umo\u017cliwia transport powietrzny z miasta lub do miasta. Zwi\u0119ksza liczb\u0119 jednostek lotniczych, kt\u00f3re mog\u0105 stacjonowa\u0107 w mie\u015bcie, z 6 do 10. 50% kultury z cud\u00f3w \u015bwiata, cud\u00f3w natury i ulepsze\u0144 (s\u0142ynne miejsca, moai, chateau) dodawane jest do generowanej przez miasto turystyki. +50% do generowanej przez wielkie dzie\u0142a turystyki.",
+        "strategy": "Ten uniwersalny port lotniczy to doskona\u0142y wyb\u00f3r zar\u00f3wno dla cywilizacji, kt\u00f3re pr\u00f3buj\u0105 zwi\u0119kszy\u0107 ilo\u015b\u0107 generowanej turystyki, jak i dla tych, kt\u00f3re potrzebuj\u0105 mo\u017cliwo\u015bci transportowania jednostek drog\u0105 lotnicz\u0105 do odleg\u0142ych miast.",
+        "historical_info": "Technicznie rzecz bior\u0105c, \u201elotnisko\u201d to dowolne miejsce, gdzie mog\u0105 l\u0105dowa\u0107 i startowa\u0107 samoloty, \u015bmig\u0142owce, sterowce i inne statki powietrzne. Jednak we wsp\u00f3\u0142czesnym znaczeniu lotniskiem nazywa si\u0119 obiekt dla komercyjnych pasa\u017cerskich statk\u00f3w powietrznych sk\u0142adaj\u0105cy si\u0119 z pas\u00f3w startowych, wie\u017c kontrolnych, hangar\u00f3w, terminali, obiekt\u00f3w s\u0142u\u017cb ratowniczych, a nawet parking\u00f3w. Przed rokiem 1930 wi\u0119kszo\u015b\u0107 lotnisk by\u0142a ma\u0142ymi l\u0105dowiskami lub aerodromami z pasami nieprzekraczaj\u0105cymi 2000 st\u00f3p d\u0142ugo\u015bci. W roku 1939 La Guardia w Nowym Jorku obs\u0142ugiwa\u0142a niemal \u0107wier\u0107 miliona pasa\u017cer\u00f3w miesi\u0119cznie. Wedle najnowszych statystyk pasa\u017cerskiego ruchu lotniczego lotnisko Hartsfield-Jackson w Atlancie jest najbardziej obci\u0105\u017conym portem lotniczym \u015bwiata - w roku 2011 obs\u0142u\u017cy\u0142o ponad 92 miliony pasa\u017cer\u00f3w.",
+        "cost": {
+            "production": 400,
+            "faith": 0
+        },
+        "gold_maintenance": 5,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/lotnisko|lotniska|lotnisku|lotnisko|lotniska|lotnisk|lotniskom|lotniska.png",
+        "prereq_tech": {
+            "name": "Radar|Radaru|Radarowi|Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/airport.json"
+    }
+]

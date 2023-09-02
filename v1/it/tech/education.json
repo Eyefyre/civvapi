@@ -1,0 +1,52 @@
+{
+    "id": 27,
+    "name": "Educazione|dell'Educazione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/education.png",
+    "era": "Epoca medievale",
+    "cost": 485,
+    "civilopedia_entry": "L'educazione \u00e8 il processo con cui le persone apprendono le cose, e ovviamente \u00e8 vecchia quanto l'uomo. Per gran parte della storia l'educazione non \u00e8 stata organizzata in modo formale: tra lavori domestici, spedizioni di caccia, agguati di tigri e cos\u00ec via i genitori hanno sempre insegnato ai figli quello che dovevano sapere per sopravvivere. L'espansione e la crescita della ricchezza delle trib\u00f9 hanno portato gli anziani dei villaggi e le persone menomate fisicamente ad assumere sempre pi\u00f9 il ruolo di educatori dei giovani mentre gli adulti sani raccoglievano il cibo, costruivano oggetti o andavano in guerra. A un certo punto una trib\u00f9 molto ricca avrebbe potuto istituire vere e proprie classi scolastiche per i figli dei cittadini pi\u00f9 importanti. L'ulteriore maturazione della civilt\u00e0 l'avrebbe portata ad apprezzare il grande valore insito in un'educazione universale per tutti.Nell'antico Egitto la casta sacerdotale fungeva anche da corpo insegnante per i figli della nobilt\u00e0. In queste scuole egizie i bambini imparavano a leggere e scrivere e studiavano religione, storia, scienze, medicina, matematica e altri argomenti avanzati. La Mesopotamia, in costante competizione con l'Egitto, aveva adottato un sistema simile per i sacerdoti e gli scribi, che potevano essere copisti, bibliotecari o insegnanti. Gli studenti studiavano lettura, scrittura, religione, legge, medicina e astrologia. In Cina l'educazione organizzata ha fatto la sua comparsa circa 3.000 anni fa. Il programma era basato su lettura, scrittura, studio delle responsabilit\u00e0 civili, rituali e musica.Nella cultura maya l'educazione era nelle mani dei sacerdoti. La classe dei sacerdoti era quella dei sapienti, che spesso erano anche consiglieri stimati dei capi e degli altri cittadini. Per diventare prete uno studente riceveva un'educazione rigorosa che comprendeva storia, scrittura, divinazione, medicina e lo studio del calendario.",
+    "quote": "\"L'educazione \u00e8 la migliore previdenza per la vecchiaia.\" - Aristotele",
+    "tech_prereqs": [
+        {
+            "name": "Teologia|della Teologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/theology.json"
+        },
+        {
+            "name": "Pubblica amministrazione|della Pubblica amministrazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronomia|dell'Astronomia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+        },
+        {
+            "name": "Acustica|dell'Acustica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/acoustics.json"
+        },
+        {
+            "name": "Sistema bancario|del Sistema bancario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Wat|il Wat|un Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/wat.json"
+        },
+        {
+            "name": "Universit\u00e0|l'Universit\u00e0|un'Universit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/university.json"
+        },
+        {
+            "name": "Universit\u00e0 di Oxford|l'Universit\u00e0 di Oxford|l'Universit\u00e0 di Oxford",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/oxford_university.json"
+        },
+        {
+            "name": "Angkor Wat|l'Angkor Wat|l'Angkor Wat",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/angkor_wat.json"
+        }
+    ]
+}

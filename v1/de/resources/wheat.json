@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Weizen",
+    "game_info": null,
+    "historical_info": "Weizen, der urspr\u00fcnglich im Fruchtbaren Halbmond im Nahen Osten kultiviert wurde, geh\u00f6rt zu den wichtigsten Getreidesorten der menschlichen Nahrungskette. Weizen ist bemerkenswert vielseitig und kann zur Herstellung von Mehl verwendet werden, woraus wiederum Brot, Nudeln, M\u00fcsli oder Kuchen produziert werden kann. Au\u00dferdem kann er durch Fermentation zu einer Vielzahl schmackhafter alkoholischer Getr\u00e4nke verarbeitet werden.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/weizen.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Bauernhof",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Schwemmland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/schwemmland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        }
+    ]
+}

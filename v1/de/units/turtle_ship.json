@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Schildkr\u00f6tenschiff",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Schwer gepanzerte Marineeinheit der Renaissance, die nur schwer besiegbar ist. Schildkr\u00f6tenschiffe k\u00f6nnen jedoch keine Tiefsee-Gel\u00e4ndefelder au\u00dferhalb der Stadtgrenzen durchqueren. Nur Korea darf sie bauen. Ersetzt die Karavelle.",
+    "historical_info": "Diese gro\u00dfen gepanzerten Kriegsschiffe aus der Joseon-Dynastie spielten bei der Verteidigung Koreas w\u00e4hrend der japanischen Invasionen im 16. Jahrhundert eine entscheidende Rolle. Sie waren typischerweise zu gleicher Anzahl mit Soldaten und Ruderern besetzt und so hatte die koreanische Marine ein m\u00e4chtiges Nahkampfschiff zur Verf\u00fcgung. Das Schildkr\u00f6tenschiff sollte den Gegner in Angst und Schrecken versetzen und jedes davon war am Bug mit einer geschnitzten Drachenfigur ausgestattet, die angeblich eine Wolke aus schwefelhaltigem Rauch ausstie\u00df, um das Schiff bei seiner N\u00e4herung zu verbergen. Anders als die meisten Segelschiffe dieser Zeit besa\u00df das Schildkr\u00f6tenschiff kein Oberdeck. Die oberste Ebene des Schiffs war voller Eisenspitzen, um ein Entern durch den Gegner zu verhindern. Die Ruderer und die Soldaten waren weiter unten auf verschiedene Decks verteilt. Die Bewaffnung des Schildkr\u00f6tenschiffes bestand aus bis zu zwei Dutzend Kanonen und anderen Kleinprojektilwaffen und so stellte es f\u00fcr die \u00fcberrumpelten Seestreitkr\u00e4fte von Koreas Feinden ein \u00fcberaus gef\u00e4hrliches Wasserfahrzeug dar.",
+    "strategy": "Das Schildkr\u00f6tenschiff ist eine Spezialeinheit Koreas. Sein Angriff ist st\u00e4rker als der der Karavelle, die es ersetzt. Schildkr\u00f6tenschiffe sind nur sehr schwer zu besiegen, sie k\u00f6nnen aber Tiefsee-Gel\u00e4ndefelder au\u00dferhalb der Stadtgrenzen nicht durchqueren.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

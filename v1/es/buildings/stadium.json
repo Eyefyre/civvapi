@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Estadio|Estadios",
+    "game_info": "No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad. La ciudad debe tener un Zoo.",
+    "strategy": "Un Estadio es un edificio de la Era Moderna que aumenta la Felicidad de tu imperio, pero que no puede dar m\u00e1s de ella que ciudadanos haya en la ciudad. Para poder construir un Estadio, la ciudad debe contar con un Zoo.",
+    "historical_info": "El estadio es una versi\u00f3n moderna del coliseo en la que se ofrecen espect\u00e1culos menos sangrientos. Los estadios modernos pueden acoger a m\u00e1s de 100.000 espectadores exaltados disfrutando de un espect\u00e1culo deportivo, de un concierto o incluso de un mitin pol\u00edtico. Los aficionados al deporte de hoy en d\u00eda no son mucho m\u00e1s tranquilos que sus ancestros de la \u00e9poca cl\u00e1sica, as\u00ed que los estadios est\u00e1n equipados con vallas, tornos y muchos guardias de seguridad.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/estadio|estadios.png",
+    "prereq_tech": {
+        "name": "Refrigeraci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

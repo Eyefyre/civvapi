@@ -1,0 +1,45 @@
+{
+    "id": 66,
+    "name": "Nuclear Fission",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fission.png",
+    "era": "Atomic Era",
+    "cost": 6400,
+    "civilopedia_entry": "Nuclear fission is a nuclear reaction in which the nuclei of radioactive atoms break down (undergo fission), releasing neutrons which then crash into other atoms, causing them to break down and release even more neutrons. If there is enough radioactive material the fission may become self-sustaining, releasing a lot of energy at a controlled rate - say, in a nuclear reactor - or in a wildly uncontrolled rate - say, in a nuclear weapon.Nuclear fission produces a lot of energy - many millions of times more than say an equal weight of gasoline - but in the process it produces a good deal of very hard to manage waste. Also, it can kill people: fairly slowly, if they're exposed to the radioactive material, or extremely rapidly if the chain reaction gets out of hand and the material explodes.Nuclear fission occurs rarely in nature, with the last known episode on Earth occurring some 2 billion years ago. Since then the fissile material has decayed, making natural fission all but impossible on this planet.In 1917 New Zealander Ernest Rutherford was the first man to split the atom. In 1934 Italian Enrico Fermi experimented with bombarding uranium with neutrons. In the same year Ida Noddack postulated the idea of nuclear fission - ie, a sustained nuclear reaction. In 1938 German chemists Otto Hahn and Fritz Strassmann successfully created the first actual nuclear chain reaction.With the onset of World War II, the race to create a nuclear bomb went into high gear. After receiving a letter describing the potential deadliness of a nuclear weapon from refugees Albert Einstein and Leo Szilard, American President Franklin Roosevelt formed a scientific and military task force to create such a weapon ahead of the Germans, who were also known to be looking at the problem. Scientists from the United States, Canada and the United Kingdom worked cooperatively on the weapon, in a project codenamed \"The Manhattan Project.\"After five long hard years of feverish work, the Manhattan Project scientists successfully created and tested a nuclear weapon. On August 6 and 9, 1945, the United States of America dropped atomic bombs on the Japanese cities of Hiroshima and Nagasaki. The initial blasts killed approximately 120,000 Japanese within the first day, with another equal amount dying in the following three months of burns, radiation poisoning, and other traumatic injuries. Japan surrendered unconditionally on August 15, 1945.In the years since the Second World War, no other atomic bombs have been deployed in battle (though many have been tested). The United States, Russia, England, and France still have large nuclear stockpiles (with the US and Russia holding the vast majority), while countries like China, Israel, Pakistan, India, and North Korea have also joined the \"nuclear club.\" Currently the US is strenuously attempting to keep Iran from developing these weapons but the ultimate success or failure of this effort is yet unknown.",
+    "quote": "\"I am become Death, the destroyer of worlds.\" - J. Robert Oppenheimer",
+    "tech_prereqs": [
+        {
+            "name": "Atomic Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+        },
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Mobile Tactics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Advanced Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Atomic Bomb",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/atomic_bomb.json"
+        },
+        {
+            "name": "Bazooka",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/bazooka.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Nuclear Plant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/nuclear_plant.json"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "id": 46,
+    "name": "Science militaire",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/military_science.png",
+    "era": "\u00c8re industrielle",
+    "cost": 1600,
+    "civilopedia_entry": "La Science militaire est celle qui d\u00e9taille les m\u00e9thodes visant \u00e0 utiliser la puissance militaire \u00e0 des fins politiques. Cette science poss\u00e8de plusieurs branches et domaines d'expertise, et est souvent enseign\u00e9e au sein d'\u00e9coles militaires. Cette science r\u00e9pond \u00e0 des questions comme : \"Combien de kilom\u00e8tres une arm\u00e9e peut-elle parcourir en une journ\u00e9e ?\", \"De combien de calories un soldat a-t-il besoin pour rester au sommet de sa forme ?\", \"Comment mater une insurrection dans son propre pays ?\", \"Comment mater une insurrection en pays occup\u00e9 ?\" ou \"Quel est le taux estim\u00e9 de survie en cas de guerre nucl\u00e9aire, si nous attaquons les premiers ?\".\"L'Art de la guerre\" de Sun-Tzu est un classique de la science militaire. Bien que sa premi\u00e8re publication date du VIe si\u00e8cle av. J.-C., il est toujours tr\u00e8s \u00e9tudi\u00e9 aujourd'hui (en plus d'\u00eatre une lecture \u00e0 la fois informative et extr\u00eamement divertissante pour tout amateur d'histoire). \"Le Prince\" de Machiavel, publi\u00e9 en 1532 \u00e0 titre posthume, traite en d\u00e9tail des interactions entre la guerre et la politique.En 1832, un an apr\u00e8s la mort de son mari, la femme du g\u00e9n\u00e9ral prussien Carl von Clausewitz fait publier l'\u0153uvre de ce dernier : \"De la guerre\". Le trait\u00e9 \u00e9tudie les effets de la politique et de l'\u00e9conomie sur les conflits arm\u00e9s.Publi\u00e9 en 1890, le brillant trait\u00e9 d'Alfred Thayer Mahan, \"L'influence de la puissance maritime dans l'Histoire, 1660-1783\" marqua fortement nombre d'officiers militaires et politiciens am\u00e9ricains, et fut en grande partie responsable du d\u00e9veloppement de la marine \u00e9tasunienne au d\u00e9but du XXe si\u00e8cle. Sans cet ouvrage, les \u00c9tats-Unis auraient probablement manqu\u00e9 cruellement de pr\u00e9paration pour aborder les deux conflits mondiaux, avec toutes les cons\u00e9quences d\u00e9sastreuses que cela aurait pu avoir sur la nation et ses alli\u00e9s outre-Atlantique.",
+    "quote": "\"Ce sont les hommes et non les armes qui remportent les guerres. Les esprits de l'homme qui ob\u00e9it et de celui qui ordonne sont les cl\u00e9s de la victoire.\" - George S. Patton",
+    "tech_prereqs": [
+        {
+            "name": "Chimie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chemistry.json"
+        },
+        {
+            "name": "M\u00e9tallurgie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dynamite",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/dynamite.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cavalerie|Cavalerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/cavalry.json"
+        },
+        {
+            "name": "Cosaque|Cosaques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/cossack.json"
+        },
+        {
+            "name": "Hussard|Hussards",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/hussar.json"
+        },
+        {
+            "name": "Cavalerie berb\u00e8re|Cavaleries berb\u00e8res",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/berber_cavalry.json"
+        },
+        {
+            "name": "Cavaliers comanches",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/comanche_riders.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "\u00c9cole militaire|\u00c9coles militaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/military_academy.json"
+        },
+        {
+            "name": "Porte de Brandebourg",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/brandenburg_gate.json"
+        }
+    ]
+}

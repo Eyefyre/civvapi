@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "Submarine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can cause major damage to other ships if they get into range without being seen.",
+    "historical_info": "Pre-nuclear submarines were primarily employed as commerce raiders, seeking to sink the enemy's merchant vessels and cutting their supply chain. World War II-era subs were generally equipped with fore and aft torpedo tubes and perhaps a small deck gun capable of sinking a merchant vessel - if nobody was shooting back.Except in rare cases submarines did not seek out enemy naval vessels. The sub's job was to sink merchant craft and then slip away before the enemy warships or aircraft could find them. In encounters with destroyers the sub generally got the worst of the engagement. In both World Wars I and II German \"U-boats\" came perilously close to starving the United Kingdom into submission, sinking 11 million tons of shipping in World War I and 14 million tons in World War II, at a cost of close to 1,000 u-boats sunk.",
+    "strategy": "The Submarine is a specialized ship-killing vessel. It is invisible to most units - except for Destroyers, Missile Cruisers, and other Submarines - until it attacks, or is adjacent to another unit. The Submarine can enter ice hexes. Use the Submarine to patrol enemy waters and sink enemy ships, and to guard your own ships against attacks from enemy subs.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Refrigeration",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Is Invisible (Submarine)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Can See Submarines",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "May Enter Ice Tiles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus when Attacking (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

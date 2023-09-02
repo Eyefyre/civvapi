@@ -1,0 +1,68 @@
+{
+    "id": 20,
+    "name": "Cytadela|Cytadeli|Cytadeli|Cytadel\u0119|Cytadele|Cytadel|Cytadelom|Cytadele",
+    "game_info": "Cytadela to pot\u0119\u017cne umocnienia, kt\u00f3re mo\u017ce zbudowa\u0107 tylko wielki genera\u0142, zazwyczaj w pobli\u017cu miasta lub w miejscu o atrakcyjnych walorach obronnych. Akropol w greckich Atenach to przyk\u0142ad dawnej pot\u0119\u017cnej cytadeli. Budowle tego rodzaju by\u0142y niemal niemo\u017cliwe do zdobycia w bezpo\u015brednim natarciu, a nawet d\u0142ugotrwa\u0142e obl\u0119\u017cenia nie zawsze okazywa\u0142y si\u0119 skuteczne. Cytadel\u0119 mo\u017cesz zbudowa\u0107 w dowolnym punkcie twojego terytorium lub bezpo\u015brednio przylegaj\u0105cym do twojego terytorium. Po powstaniu cytadeli twoje granice kulturowe powi\u0119kszaj\u0105 si\u0119 tak, by otacza\u0142y ca\u0142\u0105 cytadel\u0119 na odleg\u0142o\u015b\u0107 jednego pola. Je\u015bli nowa granica kulturowa spowoduje zaj\u0119cie p\u00f3l b\u0119d\u0105cych w posiadaniu innej cywilizacji, narazisz si\u0119 na konsekwencje dyplomatyczne. Ka\u017cda jednostka znajduj\u0105ca si\u0119 w cytadeli otrzymuje 100% premii do si\u0142y obronnej. Ponadto jednostka wroga ko\u0144cz\u0105ca ruch w pobli\u017cu cytadeli otrzymuje 30 obra\u017ce\u0144 (obra\u017cenia z cytadel nie kumuluj\u0105 si\u0119).",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/cytadela|cytadeli|cytadeli|cytadel\u0119|cytadele|cytadel|cytadelom|cytadele.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+        },
+        {
+            "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Konie|Koni|Koniom|Konie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+        },
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+        },
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Filozofia|Filozofii|Filozofii|Filozofi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 175,
+    "civilopedia_entry": "Filozofia zajmuje si\u0119 badaniem rzeczywisto\u015bci i miejsca cz\u0142owieka w \u015bwiecie. S\u0142owo pochodzi z greckiego/\u0142aci\u0144skiego terminu \u201ephilosophia\u201d, co oznacza \u201eumi\u0142owanie m\u0105dro\u015bci\u201d. Jest oddzielona od religii, staraj\u0105cej si\u0119 zdefiniowa\u0107 i zrozumie\u0107 pewien system nadnaturalny \u2013 filozofia cofa si\u0119 o jeden krok i pyta, czy ten system nadnaturalny w og\u00f3le istnieje. Filozofia zajmuje si\u0119 logik\u0105, moralno\u015bci\u0105, obserwacj\u0105, realizmem, szcz\u0119\u015bciem, \u017cyciem, \u015bmierci\u0105 i innymi wielkimi pytaniami.W \u015bwiecie zachodnim za tw\u00f3rc\u00f3w filozofii uznaje si\u0119 Grek\u00f3w. W VI w. p.n.e. Tales z Miletu sta\u0142 si\u0119 pierwszym cz\u0142owiekiem, kt\u00f3ry zas\u0142yn\u0105\u0142 z podania czysto naturalnego (nie religijnego) wyja\u015bnienia pocz\u0105tku \u015bwiata. Uwa\u017ca\u0142, \u017ce wszystko wysz\u0142o z wody. Do tego wniosku doszed\u0142, znajduj\u0105c skamieliny zwierz\u0105t morskich daleko w g\u0142\u0119bi l\u0105du. To wyja\u015bnienie nie wymaga\u0142o aktu stworzenia przez istot\u0119 nadprzyrodzon\u0105, by\u0142 to wynik proces\u00f3w naturalnych. P\u00f3\u017aniejsi filozofowie rozwijali t\u0119 podstawow\u0105 teori\u0119 \u2013 oczywi\u015bcie poza filozofami, kt\u00f3rzy zaprzeczali jakiemukolwiek istnieniu i tymi, kt\u00f3rzy uwa\u017cali, i\u017c \u015bwiat jest zaledwie odbiciem innego, odleg\u0142ego miejsca itp. Problemem w badaniu rzeczywisto\u015bci jest to, \u017ce im g\u0142\u0119biej si\u0119 zagl\u0105da, tym bardziej wszystko staje si\u0119 pogmatwane.Filozofia w najlepszym razie daje narz\u0119dzia s\u0142u\u017c\u0105ce obserwacji i wydawania os\u0105d\u00f3w na temat otaczaj\u0105cego nas \u015bwiata, my\u015blenia o rzeczach, kt\u00f3rych nikt wcze\u015bniej nie rozwa\u017ca\u0142. Tak jak inne narz\u0119dzia, mo\u017ce s\u0142u\u017cy\u0107 dobru lub z\u0142u, ale filozofia przynajmniej pr\u00f3buje da\u0107 nam intelektualne ramy, pomagaj\u0105ce odr\u00f3\u017cni\u0107 jedno od drugiego.",
+    "quote": "\u201eJest tylko jedno dobro, wiedza, i jedno z\u0142o, ignorancja.\u201d \u2013 Sokrates",
+    "tech_prereqs": [
+        {
+            "name": "Kalendarz|Kalendarza|Kalendarzowi|Kalendarz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/calendar.json"
+        },
+        {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teologia|Teologii|Teologii|Teologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Meczet z piramid\u0105|Meczetu z piramid\u0105|Meczetowi z piramid\u0105|Meczet z piramid\u0105|Meczety z piramid\u0105|Meczet\u00f3w z piramid\u0105|Meczetom z piramid\u0105|Meczety z piramid\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Grobowiec|Grobowca|Grobowcowi|Grobowiec|Grobowce|Grobowc\u00f3w|Grobowcom|Grobowce",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/burial_tomb.json"
+        },
+        {
+            "name": "\u015awi\u0105tynia|\u015awi\u0105tyni|\u015awi\u0105tyni|\u015awi\u0105tyni\u0119|\u015awi\u0105tynie|\u015awi\u0105ty\u0144|\u015awi\u0105tyniom|\u015awi\u0105tynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/temple.json"
+        },
+        {
+            "name": "Akademia narodowa|Akademii narodowej|Akademii narodowej|Akademi\u0119 narodow\u0105|Akademie narodowe|Akademii narodowych|Akademiom narodowym|Akademie narodowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/national_college.json"
+        },
+        {
+            "name": "Wyrocznia|Wyroczni|Wyroczni|Wyroczni\u0119|Wyrocznie|Wyroczni|Wyroczniom|Wyrocznie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/oracle.json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 26,
+    "name": "Campamento de palo de Pernambuco|Campamentos de palo de Pernambuco",
+    "game_info": "El palo de Pernambuco (o de Brasil) es una madera dura tropical cuya corteza produce un extracto carmes\u00ed brillante y morado intenso que se utiliza en los tintes. Su madera es compacta y valiosa para hacer instrumentos de cuerda (especialmente los arcos) y muebles. La recogida de palo de Pernambuco no ces\u00f3 hasta 1875, momento en que los tintes sint\u00e9ticos pasaron a dominar la industria y se descubri\u00f3 que otras maderas duras eran mejores para los instrumentos musicales.El Campamento de palo de Pernambuco solo se puede construir en una casilla de Selva y conceder\u00e1 +2 a Cultura cuando se investigue la Ac\u00fastica.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campamento_de_palo_de_pernambuco|campamentos_de_palo_de_pernambuco.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/jungle.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Maquinaria",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+    },
+    "required_civ": {
+        "name": "Brazil",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/civilizations/brazil.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Raketenartillerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Schnelle Belagerungseinheit des sp\u00e4teren Spiels. Anders als andere Belagerungseinheiten muss sie vor dem Feuern nicht in Stellung gehen.",
+    "historical_info": "In der Vergangenheit setzte die Artillerie meist chemische Sprengs\u00e4tze ein, um tr\u00e4ge Geschosse auf ihre Ziele zu schleudern. Raketenartillerie hingegen feuert Raketengeschosse mit eigener Treibladung ab. Das erm\u00f6glicht kleinere und leichtere Artillerierohre als bei traditioneller Artillerie und sorgt f\u00fcr schnelle, bewegliche Artilleriefahrzeuge, die immer noch \u00fcber ordentliche Durchschlagskraft verf\u00fcgen. Noch fortschrittlichere Artilleriesysteme k\u00f6nnen Steuerungssysteme beinhalten, mit denen w\u00e4hrend des Flugs der Kurs eines Geschosses korrigiert werden kann.",
+    "strategy": "Raketenartillerie ist eine extrem starke Belagerungswaffe und der normalen Artillerie haushoch \u00fcberlegen. Raketenartillerie muss vor dem Feuern nicht in Stellung gebracht werden und ist somit viel schneller einsetzbar als \u00e4ltere Feuerwaffen. Auch wenn ihre Sichtweite beschr\u00e4nkt ist, kann die Raketenartillerie durch indirektes Feuer Ziele angreifen, die sie selbst nicht sieht (solange eine andere freundlich gesinnte Einheit sie sehen kann). Wie jede andere Artillerieeinheit ist sie besonders durch Infanterie- und Panzerangriffe gef\u00e4hrdet und sollte deshalb mit geeigneten Einheiten gesch\u00fctzt werden.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Raketentechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirektes Feuer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus gegen St\u00e4dte (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": 106,
+    "name": "Hakkapeliitta",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hakkapeliitta.png",
+    "game_info": "Elite mounted Unit that specializes in working with Great Generals. Only the Swedish may build it.",
+    "historical_info": "The snowy North is their fatherland; there, their heart crackles on the stormy beach. The Hakkapeliitta were a division of Finnish, light cavalrymen employed by King Gustavus Adolphus of Sweden during the Thirty Years War. They were highly trained, and excelled at raiding, spying, lightning-quick attacks, and most especially, charging. Attacking at full gallop, the Hakkapeliitta would fire pistol shots as they approached the enemy lines, drawing their sword once the horse made contact. The small, sturdy, and powerful horses ridden in the Hakkapeliitta were some of the founding members the modern Finnhorse breed, the national horse of Finland.",
+    "strategy": "Hakkapeliitta are the elite mounted units of the late Renaissance Swedish army. Stack a Great General with them if possible. The Great General receives the movement allowance of the Hakkapeliitta if they start the turn stacked. In addition, the Hakkapeliitta receive a 15% combat bonus when stacked with a Great General.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Transfer Movement to General",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/transfer_movement_to_general.json"
+        },
+        {
+            "name": "Great General Combat Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/great_general_combat_bonus.json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/formation_i.json"
+        }
+    ]
+}

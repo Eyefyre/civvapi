@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Rigatura delle canne|della Rigatura delle canne",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "Epoca industriale",
+    "cost": 1600,
+    "civilopedia_entry": "La rigatura delle canne \u00e8 il processo con cui si praticano scanalature elicoidali all'interno della canna di un fucile o di un cannone per impartire al proiettile una rotazione che stabilizza il proiettile in volo, aumentando notevolmente la precisione dell'arma. La rigatura delle canne \u00e8 stata inventata a Vienna nel XV secolo. Il processo per\u00f2 era estremamente lento e costoso e non riusc\u00ec a imporsi prima di tre secoli. All'inizio del XVIII secolo le armi a canna rigata erano usate dai tiratori scelti negli eserciti di tutta Europa e del mondo.A met\u00e0 del secolo l'introduzione della \"palla Mini\u00e9\" rese i moschetti a canna rigata ancora pi\u00f9 precisi e mortali. Questo tipo di fucili venne ampiamente usato durante la guerra civile americana e probabilmente fece pi\u00f9 vittime di tutti gli altri tipi di moschetti combinati.Alla fine della guerra le armi basate sul sistema Mini\u00e9 furono sostituite da fucili a cartuccia e a retrocarica, molto pi\u00f9 veloci dei predecessori. Questi, come il famoso Springfield modello 1865 e i suoi successori, sarebbero rimasti le armi d'ordinanza dei soldati americani fino alla Prima Guerra Mondiale, quando furono inventati i primi fucili automatici. Nell'epoca contemporanea la fanteria utilizza fucili d'assalto, come le diverse varianti dell'M16 americano o dell'AK-47 russo. Queste armi letali danno a ogni soldato una potenza di fuoco pari a quella di una dozzina di veterani della guerra civile americana.",
+    "quote": "\"\u00c8 un bene che la guerra sia cos\u00ec terribile, altrimenti potrebbe cominciare a piacerci troppo.\" - Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Economia|dell'Economia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/economics.json"
+        },
+        {
+            "name": "Metallurgia|della Metallurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fuciliere|un Fuciliere|dal tuo Fuciliere|al tuo Fuciliere|il tuo Fuciliere|da un Fuciliere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/rifleman.json"
+        },
+        {
+            "name": "Fanteria norvegese sugli sci|una Fanteria norvegese sugli sci|dalla tua Fanteria norvegese sugli sci|alla tua Fanteria norvegese sugli sci|la tua Fanteria norvegese sugli sci|da una Fanteria norvegese sugli sci",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari|un Mehal Sefari|dal tuo Mehal Sefari|al tuo Mehal Sefari|il tuo Mehal Sefari|da un Mehal Sefari",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/mehal_sefari.json"
+        },
+        {
+            "name": "Karoliner|un Karoliner|dal tuo Karoliner|al tuo Karoliner|il tuo Karoliner|da un Karoliner",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "\u7267\u5834",
+    "game_info": "\u7267\u5834\u662f\u4e00\u584a\u4ee5\u570d\u6b04\u570d\u8d77\u7684\u571f\u5730\uff0c\u5176\u4e0a\u690d\u8349\u4ee5\u9935\u990a\u653e\u7267\u7684\u99ac\u5339\u6216\u725b\u96bb\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u7267\u5834.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u99ac\u5339",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/horses.json"
+        },
+        {
+            "name": "\u725b\u7fa4",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/cattle.json"
+        },
+        {
+            "name": "\u7f8a\u7fa4",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u755c\u7267\u696d",
+        "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 56,
+    "name": "Railroad",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/railroad.png",
+    "era": "Modern Era",
+    "cost": 3100,
+    "civilopedia_entry": "The earliest railroads were constructed in European mines in the 16th century. These consisted of wheeled carts that rode upon tracks. They were pulled by men or animals (usually horses or donkeys). The first aboveground steam-powered railroad was constructed in England in 1825, and once the technology proved successful, construction took off around the world. Construction of the first general-purpose American railroad, the Baltimore and Ohio, began in 1828. Within a century every continent in the world had a significant rail network.The importance of railroads to world development cannot be overstated. Before the transcontinental railroad crossed the United States a journey from New York to San Francisco took months. The same journey took seven days by rail and cost just $65 dollars. Once the rail was completed, the European population of the American West and Midwest exploded. Towns located on rail lines grew rich, while those without railroad terminals withered and died.With the invention and mass production of automobiles and trucks in the 20th century, railroads have somewhat diminished in importance, particularly in the automobile-crazy United States. However, they remain an extremely economical and (relatively) environmentally-friendly way to move goods and people, and all indications suggest that they will be making a strong comeback in the near future.",
+    "quote": "\"The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        },
+        {
+            "name": "Dynamite",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/dynamite.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ballistics.json"
+        },
+        {
+            "name": "Combustion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combustion.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Kremlin",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/kremlin.json"
+        },
+        {
+            "name": "Neuschwanstein",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/neuschwanstein.json"
+        }
+    ]
+}

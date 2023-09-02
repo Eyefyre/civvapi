@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "Scout",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Excellent at exploring, this Unit is not slowed by rough terrain, but is vulnerable to attack.",
+    "historical_info": "Scouts form the eyes and ears of early civilizations. These fleet-footed warriors are not supposed to engage with enemy forces - they're supposed to find the lay of the land, discovering any potential threats or treasures. A civilization that doesn't know what's going on in the world around it is blind to both peril and opportunity.",
+    "strategy": "This early unit can attack but is weak. However, it can move through difficult terrain as though it were clear (all tiles cost 1mp per hex). Use it for world exploration.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignores Terrain Cost",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

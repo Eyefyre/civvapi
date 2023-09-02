@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "\u7267\u8349\u5730",
+    "game_info": "\u7267\u8349\u5730\u306f\u30d5\u30a7\u30f3\u30b9\u3067\u56f2\u307e\u308c\u305f\u5e83\u5927\u306a\u571f\u5730\u3067\u3001\u725b\u3084\u99ac\u306e\u3088\u3046\u306a\u8349\u98df\u52d5\u7269\u306e\u990c\u3068\u306a\u308b\u7267\u8349\u304c\u690d\u3048\u3066\u3042\u308b\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u7267\u8349\u5730.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u99ac",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/horses.json"
+        },
+        {
+            "name": "\u5bb6\u755c",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/cattle.json"
+        },
+        {
+            "name": "\u7f8a",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u755c\u7523",
+        "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

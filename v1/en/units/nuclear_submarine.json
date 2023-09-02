@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "name": "Nuclear Submarine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_submarine.png",
+    "game_info": "Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 2 Missiles, and is specialized in attacking Naval Units.",
+    "historical_info": "Nuclear submarines are Cold War-era vessels, designed to stealthily carry large numbers of nuclear missiles under the ocean for extended voyages. These huge vessels are nuclear powered themselves, giving them an almost unlimited cruising range (or as long as the food holds out). Nuclear submarines are strategic weapons platforms. They carry intercontinental missiles, able to fly halfway around the world before hitting their target - generally an enemy city. While they may carry torpedoes and surface-to-air missiles for their own defense, their primary duty is to stay hidden and avoid direct conflict with the enemy. They must survive at all costs.Nuclear submarines formed a part of the US' and USSR's \"Mutual Assured Destruction\" doctrine: if either side were to hit the other with a sneak nuclear attack, no matter how successful the attack, if even one enemy sub survived it could rain down a horrifying amount of death upon the victor, destroying them as well. Thus, the doctrine states, unless one can be TOTALLY assured that they can absolutely and without question destroy every one of the enemy's nuclear subs, planes and ICBMs, nuclear war is unwinnable. Whether one believes the M.A.D. doctrine to be insane or not, there has been no nuclear war on this planet since it was implemented.",
+    "strategy": "The Nuclear Submarine is tougher and stronger than the earlier model. It too is invisible to most units and can see other submarines. Most importantly, Nuclear Submarines can carry guided missiles and nuclear missiles. Like submarines, Nuclear Subs are vulnerable to enemy Destroyers, Missile Cruisers, and Subs, so send units of your own out ahead to make sure the coast is clear.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Telecommunications",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/telecommunications.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Is Invisible (Submarine)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Can See Submarines",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Can Carry 2 Cargo",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "May Enter Ice Tiles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus when Attacking (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_when_attacking_(75).json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        }
+    ]
+}

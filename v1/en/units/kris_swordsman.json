@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Kris Swordsman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Classical Era Melee unit that has a mystical weapon whose abilities will be discovered the first time it is used in combat. May only be build by Indonesia.",
+    "historical_info": "The kris is a long-bladed, asymmetrical dagger or sword with a distinctive wavy blade common to Indonesia and Malaya. Both weapon and mystical object, kris were believed by the Indonesian tribes to have an essence imbued with magical power, with some blades bringing good luck and others bad. So prized was the kris in Indonesia that heirloom blades were handed down through successive generations. In battle, a kris swordsman might carry as many as three: his own, one from his father-in-law, and one family heirloom. The forging of kris blades was restricted to a select few, and these skilled metalworkers made the blades in layers of different iron ores and meteorite nickel folded many times, a process that could take years to complete.",
+    "strategy": "The Kris Swordsman replaces the standard Swordsman. Try him out in combat as soon as possible to unlock the secret properties of his curvy Kris blade.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Iron Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mystic Blade",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/mystic_blade.json"
+        }
+    ]
+}

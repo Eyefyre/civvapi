@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Galera|Galeras",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galley.png",
+    "game_info": null,
+    "historical_info": "La galera es una nave b\u00e1rbara. Es un barco propulsado por remeros, inferior en todo al trirreme, la primera embarcaci\u00f3n a la que pueden acceder las civilizaciones. Por lo general, es de esperar que las galeras frecuenten las costas de las civilizaciones, donde hostigan a los barcos y capturan las unidades embarcadas. Se han de destruir en cuanto se las ve.",
+    "strategy": "La Galera es una unidad b\u00e1rbara que permanece en los hex\u00e1gonos de Costa en busca de unidades embarcadas que destruir. Es mucho m\u00e1s d\u00e9bil que otras unidades navales, pero puede resultar peligrosa en grupo. Es una unidad de cuerpo a cuerpo que se enfrenta a las unidades en el mar o en las ciudades (pero no tiene ataque a distancia).",
+    "movement": 3,
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

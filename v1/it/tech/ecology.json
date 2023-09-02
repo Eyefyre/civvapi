@@ -1,0 +1,44 @@
+{
+    "id": 65,
+    "name": "Ecologia|dell'Ecologia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ecology.png",
+    "era": "Epoca atomica",
+    "cost": 6400,
+    "civilopedia_entry": "L'ecologia non \u00e8 una tecnologia, quanto piuttosto lo studio interdisciplinare di tutte le varie forme di interazione e causalit\u00e0 tra organismi e ambiente. In altre parole, \u00e8 lo studio degli ecosistemi. Il postulato fondamentale della disciplina \u00e8 che qualsiasi cosa si trovi all'interno di un ecosistema (rocce, suolo, uccelli, insetti, alberi, ecc.) produce effetti su tutte le altre, direttamente o tramite una serie di reazioni a catena. Anche se tutti questi elementi sono connessi, gli ecologisti credono anche nel concetto di olismo, ossia che tutte queste micro-interazioni non riescano a spiegare ogni cosa possibile e che l'intero sistema vada studiato come una cosa sola. L'ecologia studia come tutte queste cose siano interconnesse e come modificarne una possa influire, beneficiare o distruggere le altre.La moderna scienza ecologica \u00e8 ancora giovane, ma a partire dai movimenti di protesta degli anni '60 ha goduto di una grande popolarit\u00e0. Oggi gli ecologi concentrano la loro attenzione sulla salvaguardia delle biodiversit\u00e0 e sugli effetti negativi che lo sviluppo umano ha prodotto sugli organismi e sull'ambiente circostanti. Proprio al riguardo sono attualmente in corso studi di lungo termine. Quello in atto da pi\u00f9 tempo \u00e8 stato avviato nel 1856.Dai risultati prodotti da queste ricerche sono derivate anche applicazioni pratiche, come una gestione pi\u00f9 efficiente e produttiva di risorse naturali come pianure allagate e foreste, una migliore pianificazione sanitaria della comunit\u00e0 e persino pratiche di pianificazione urbana pi\u00f9 avanzate. Dagli studi ecologici discendono anche alcuni principi di base che hanno permesso di comprendere meglio le interazioni sociali tra le persone.",
+    "quote": "\"Soltanto nel momento storico rappresentato dal secolo attuale una specie, quella dell'uomo, ha acquisito il potere necessario per alterare significativamente la natura del mondo.\" - Rachel Carson",
+    "tech_prereqs": [
+        {
+            "name": "Teoria atomica|della Teoria Atomica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/atomic_theory.json"
+        },
+        {
+            "name": "Penicillina|della Penicillina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/penicillin.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Telecomunicazioni|delle Telecomunicazioni",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/telecommunications.json"
+        },
+        {
+            "name": "Tattiche mobili|delle Tattiche mobili",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mobile_tactics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Centrale a energia solare|la Centrale a energia solare|una Centrale a energia solare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/solar_plant.json"
+        },
+        {
+            "name": "Teatro dell'opera di Sydney|il Teatro dell'opera di Sydney|il Teatro dell'opera di Sydney",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/sydney_opera_house.json"
+        },
+        {
+            "name": "Centro di riciclaggio|il Centro di riciclaggio|un Centro di riciclaggio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/recycling_center.json"
+        }
+    ]
+}

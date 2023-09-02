@@ -1,0 +1,18 @@
+{
+    "id": 6,
+    "name": "SS Cockpit",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_cockpit.png",
+    "game_info": "One of the Spaceship parts that must be built and sent to the capital to win a Science Victory.",
+    "historical_info": "Mankind's first interstellar colony vessel is an extremely complex machine, and the cockpit is the most complicated component. It is both the ship's command center and the reentry vehicle once the spacecraft reaches an appropriate planet in Alpha Centauri. The ship is entirely automated, but a human crew can be automatically woken from cold sleep in approximately 12 hours in case of emergency.",
+    "strategy": "This unit is part of the spaceship which must be constructed to win a science victory. See the section on Victory for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Satellites",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/satellites.json"
+    },
+    "free_promotions": []
+}

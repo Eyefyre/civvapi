@@ -1,0 +1,20 @@
+{
+    "id": 4,
+    "name": "Genio artistico",
+    "game_info": "Genio artisticoCompare un Grande Artista.",
+    "historical_info": "Un genio artistico \u00e8 una persona che ha la creativit\u00e0, l'originalit\u00e0 e l'abilit\u00e0 di realizzare la bellezza nell'arte, qualsiasi forma questa possa assumere. Il genio artistico si pu\u00f2 applicare anche a un'esecuzione, cos\u00ec come alla coreografia, all'orchestrazione o al teatro. La storia della civilt\u00e0 \u00e8 costellata da geni della letteratura, dell'arte e della performance, spesso contraddistinti da un temperamento emotivo, ma sempre brillanti nel loro campo.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/genio_artistico.png",
+    "required_policies": [
+        {
+            "name": "Belle Arti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Estetica",
+        "game_info": "L'Estetica aumenta la capacit\u00e0 della civilt\u00e0 di generare Cultura.Adottare l'Estetica ti permette di generare Grandi Scrittori, Grandi Artisti e Grandi Musicisti il 25% pi\u00f9 velocemente. Sblocca la costruzione degli Uffizi.Adottarne tutte le politiche raddoppia il bonus per il tema comune che puoi ricevere da Musei e Meraviglie; inoltre permette l'acquisto di Grandi Scrittori, Grandi Artisti e Grandi Musicisti in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca classica",
+        "historical_info": "L'estetica \u00e8 la filosofia che investiga la natura dell'arte e del gusto, analizzando la creazione e la valutazione della bellezza materiale. \u00c8 da notare che l'estetica non prende in considerazione la funzionalit\u00e0 o l'utilit\u00e0 di un oggetto, ma si focalizza solo sulla bellezza della sua forma, sui suoi colori e su altri aspetti artistici."
+    }
+}

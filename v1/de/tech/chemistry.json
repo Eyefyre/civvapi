@@ -1,0 +1,32 @@
+{
+    "id": 41,
+    "name": "Chemie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chemistry.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "Als Kind der Alchemie und der Mathematik ist die Chemie die Wissenschaft der Materie, ihrer Struktur, ihres Verhaltens, ihrer Zusammensetzung und ihrer Reaktion bei chemischen Vorg\u00e4ngen. Physiker werfen Kugeln von T\u00fcrmen und messen die Fallzeit - Chemiker untersuchen die Kugeln selbst und versuchen herauszufinden, warum manche zerbrechen und andere abprallen.Obwohl Wissenschaftler, \u00c4rzte und Philosophen sich schon immer f\u00fcr die Chemie interessierten, hat sie den erhabenen Status einer eigenen Wissenschaft erst 1789 erhalten, als Antoine Lavoisier das Gesetz der Massenerhaltung ver\u00f6ffentlichte. In seinem \"Trait\u00e9 \u00c9l\u00e9mentaire de Chimie\" entdeckte Lavoisier die Zusammensetzung von Luft und Wasser und pr\u00e4gte den Begriff Sauerstoff. Au\u00dferdem r\u00e4umte er den Mythos der Phlogiston-Theorie aus, die schon seit mehr als 100 Jahren Wissenschaftler verwirrt hatte.Lavoisier gilt als Vater der modernen Chemie. Sein Beispiel regte andere Chemiker an, chemische Stoffe mit wissenschaftlichen Methoden zu erforschen. So konnten sie Theorien widerlegen, die als unumst\u00f6\u00dflich galten, seit die Griechen sie vor Tausenden von Jahren entwickelt hatten.",
+    "quote": "\"Das Werk des Chemikers hat den Wert unserer Zivilisation in zahllosen Bereichen gesteigert wie auch die Produktionsleistung unserer Nation.\" - Calvin Coolidge",
+    "tech_prereqs": [
+        {
+            "name": "Schie\u00dfpulver",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Milit\u00e4rwissenschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+        },
+        {
+            "name": "D\u00fcnger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/fertilizer.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kanone",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/cannon.json"
+        }
+    ],
+    "building_unlocks": []
+}

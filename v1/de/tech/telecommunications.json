@@ -1,0 +1,49 @@
+{
+    "id": 69,
+    "name": "Telekommunikation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/telecommunications.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "Telekommunikation erm\u00f6glicht die \u00dcbertragung von Daten und Informationen \u00fcber gro\u00dfe Distanzen durch den Einsatz unterschiedlicher \u00dcbermittlungsger\u00e4te. Die fr\u00fchen Formen der primitiven Kommunikation \u00fcber gro\u00dfe Strecken mit Rauchzeichen und Signalflaggen mussten den Telegrafen weichen, sp\u00e4ter dann dem Telefon. Die Forschung und Technik der letzten 30 Jahre hat zu vielen Durchbr\u00fcchen gef\u00fchrt, wie wir heute global kommunizieren k\u00f6nnen. Satelliten im Orbit bieten jetzt M\u00f6glichkeiten zur \u00dcbertragung von Daten selbst an die entlegensten Stellen der Erde. TV, Internet, Handys und GPS geh\u00f6ren mittlerweile zum Alltagsleben von Millionen rings um den Globus. Das alles haben wir der Telekommunikationsforschung zu verdanken.",
+    "quote": "\"Je ausgefeilter unsere Kommunikationsmittel sind, desto weniger kommunizieren wir.\" - J.B. Priestly",
+    "tech_prereqs": [
+        {
+            "name": "\u00d6kologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Das Internet",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_internet.json"
+        },
+        {
+            "name": "Globalisierung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/globalization.json"
+        },
+        {
+            "name": "Teilchenphysik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Atom-U-Boot",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/nuclear_submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Luftschutzbunker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bomb_shelter.json"
+        },
+        {
+            "name": "CN Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/cn_tower.json"
+        },
+        {
+            "name": "Nationales Besucherzentrum",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/national_visitor_center.json"
+        }
+    ]
+}

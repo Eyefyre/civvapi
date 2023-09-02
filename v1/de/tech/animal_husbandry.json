@@ -1,0 +1,32 @@
+{
+    "id": 3,
+    "name": "Tierzucht",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/animal_husbandry.png",
+    "era": "Antike",
+    "cost": 35,
+    "civilopedia_entry": "Tierzucht scheint etwa zu der gleichen Zeit entwickelt worden zu sein wie die Landwirtschaft. Der Hund ist wohl das \u00e4lteste Haustier und wurde gez\u00fcchtet, um bei der Jagd und dem T\u00f6ten von Wild zu helfen. Allem Anschein nach wurden diese Tiere zuerst in China gez\u00e4hmt und gez\u00fcchtet. Genforscher gehen sogar davon aus, dass 95% der heute lebenden Hunde Nachkommen von einigen wenigen gew\u00f6hnlichen Tieren in China sind. Ziegen und Schafe wurden im Nahen Osten ab ca. 10.000 v. Chr. domestiziert.Um domestiziert werden zu k\u00f6nnen, muss ein Tier bestimmte Kriterien aufweisen: Es sollte Nahrung aufnehmen, die f\u00fcr Menschen weniger attraktiv ist, wie z. B. Gras, Ungeziefer oder Essensreste. Es sollte schnell wachsen, damit es schnell seinen Nutzen erbringen und durch Zucht \u00fcber mehrere Generationen genetisch ver\u00e4ndert werden kann. Es sollte ein freundliches Gem\u00fct haben. Es sollte nicht allzu leicht in Panik verfallen und wenn, sollte es bei seinen Artgenossen bleiben, damit Menschen oder Hunde sie in einer Gruppe zusammentreiben k\u00f6nnen. Und es ist \u00e4u\u00dferst n\u00fctzlich, wenn das Tier durch Training einen Menschen als Rudelf\u00fchrer akzeptieren kann.Wissenschaftler glauben, dass Pferde zuerst in der heutigen Ukraine um 4.000 bis 3.500 v. Chr. gez\u00e4hmt wurden. Es ist durchaus m\u00f6glich, dass die ersten Pferde wegen ihres Fleisches gehalten wurden und nicht als Arbeitstiere. Nach nur etwa einem halben Jahrtausend wurden Pferde als Zugtiere in gro\u00dfen Teilen Europas und Asiens eingesetzt. \u00dcber mehrere tausend Jahre brachte intensive Zucht ein gez\u00e4hmtes Tier hervor, das viel gr\u00f6\u00dfer und st\u00e4rker war als das urspr\u00fcngliche Wildpferd. Durch die Erfindung des Kummets sowie sp\u00e4ter des Sattels und der Steigb\u00fcgel wurde das Pferd zum wichtigsten domestizierten Tier in der Menschheitsgeschichte. (Das gilt zumindest f\u00fcr Eurasien und Nordafrika. Die Ureinwohner Nord-, Mittel- und S\u00fcdamerikas a\u00dfen alle ihre Pferde, bevor sie sie z\u00e4hmen konnten.)",
+    "quote": "\"Du sollst dem Ochsen, der da drischt, nicht das Maul verbinden.\" - Die Bibel, Deuteronomium 25,4",
+    "tech_prereqs": [
+        {
+            "name": "Landwirtschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fallenstellen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/trapping.json"
+        },
+        {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Karawane|Karawanen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/caravan.json"
+        }
+    ],
+    "building_unlocks": []
+}

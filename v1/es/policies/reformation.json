@@ -1,0 +1,20 @@
+{
+    "id": 65,
+    "name": "Reforma",
+    "game_info": "ReformaSi has fundado una religi\u00f3n, obtienes una creencia de Reforma adicional.",
+    "historical_info": "La reforma se refiere a un gran movimiento que pretende cambiar una organizaci\u00f3n religiosa o sistema de creencias de los cuales piensa que se han corrompido o que se han apartado de sus principios orientadores. La \"Reforma protestante\" fue un movimiento que pretendi\u00f3 cambiar la Iglesia Cat\u00f3lica Romana. Se inici\u00f3 en 1517, cuando Mart\u00edn Lutero public\u00f3 \"las noventa y cinco tesis\", en las que enumeraba las transgresiones de la Iglesia seg\u00fan su opini\u00f3n. El movimiento fue la chispa que inici\u00f3 una guerra sangrienta y horrible que asol\u00f3 Europa durante 130 a\u00f1os y lleg\u00f3 hasta el Nuevo Mundo. Como consecuencia, el cristianismo se fractur\u00f3 permanentemente en diversas iglesias distintas y la autoridad civil pas\u00f3 a tener un papel predominante frente a la religiosa.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/reforma.png",
+    "required_policies": [
+        {
+            "name": "Tolerancia religiosa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/religious_tolerance.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Devoci\u00f3n",
+        "game_info": "La Devoci\u00f3n aumenta la Fe .Adoptarla te permite construir Santuarios y Templos en la mitad de tiempo. Desbloquea la construcci\u00f3n de la Gran Mezquita de Djenn\u00e9.La adopci\u00f3n de todas las pol\u00edticas provocar\u00e1 la aparici\u00f3n de un Gran profeta y los Lugares sagrados dar\u00e1n +3 de Oro",
+        "prereq_era": null,
+        "historical_info": "Devoci\u00f3n significa la consagraci\u00f3n a una religi\u00f3n o a un sistema de creencias espirituales. Se considera que una persona \"devota\" es m\u00e1s \"religiosa\" que los dem\u00e1s, y sigue a pies juntillas las creencias de su religi\u00f3n y acepta sus doctrinas sin cuestionarlas."
+    }
+}

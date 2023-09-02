@@ -1,0 +1,18 @@
+{
+    "id": 30,
+    "name": "Bomber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bomber.png",
+    "game_info": "Air Unit that rains death from above onto enemy Units and Cities.",
+    "historical_info": "A bomber is an aircraft designed to rain destruction down upon enemy troops, armor, and infrastructure. Bombers generally have very long range, allowing them to fly deep into enemy territory to drop their deadly loads. While they may possess machine guns or other close combat weaponry, bombers are basically helpless against enemy fighter aircraft and require an escort of friendly fighters to protect them against hostile airpower.All major powers used bombers in World War II. The German \"blitz\" sought to destroy British industries (not to mention London and other cities) from the air, and the Allied bombers reciprocated, dropping massive tons of explosives on German cities, factories, railroads, and other infrastructure. In the Pacific Japanese bombers attacked Allied cities and military facilities, the assault on Pearl Harbor being a notable success. As they gained air dominance the Allied air forces wrecked havoc on Japanese cities and armed forces. Bombers (and their cousins the ballistic missiles) are still the deadliest weapons in modern arsenals.",
+    "strategy": "The Bomber is an air unit. It is effective against ground targets, less so against naval targets, and it's quite vulnerable to enemy aircraft. The Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range of \"10.\" Use Bombers to attack enemy units and cities. When possible, send in fighters first to \"use up\" the enemy's anti-aircraft defenses for that turn. See the rules on Aircraft for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+    },
+    "free_promotions": []
+}

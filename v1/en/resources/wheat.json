@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Wheat",
+    "game_info": null,
+    "historical_info": "Originally cultivated in the Fertile Crescent of the Middle East, wheat is one of the most important grains in the human diet. A remarkably versatile grain, wheat can be turned into flour and made into bread, pasta, cereal or cake, and it can be fermented and made into a variety of tasty alcoholic beverages.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wheat.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Farm",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Flood Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/flood_plains.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        }
+    ]
+}

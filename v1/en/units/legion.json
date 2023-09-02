@@ -1,0 +1,18 @@
+{
+    "id": 70,
+    "name": "Legion",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/legion.png",
+    "game_info": "Strong, front-line land Unit of the Classical Era. Only the Romans may build it. This Unit has a higher Combat Strength than the Swordsman, which it replaces.",
+    "historical_info": "The Roman Legion is - justifiably - the most famous military unit from antiquity. Armed with a \"pilum\" (throwing spear), and \"gladius\" (short sword) and wearing a metal helmet, cuirass and shield, Roman Legions conquered the known world. Along with the best weapons technology available at the time, the Roman Legions were highly trained and extremely disciplined. Under competent leadership there was literally no other military able to stand up to them.",
+    "strategy": "The Legion is the Roman unique unit, replacing the Swordsman. The Legion is more powerful than the Swordsman, making it the most powerful melee unit of the Classical Era. The Legion can also construct roads and forts and is the only non-Worker unit able to do so.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Iron Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/iron_working.json"
+    },
+    "free_promotions": []
+}

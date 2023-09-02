@@ -1,0 +1,61 @@
+{
+    "id": 10,
+    "name": "The Wheel",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/the_wheel.png",
+    "era": "Ancient Era",
+    "cost": 55,
+    "civilopedia_entry": "The wheel is a round object with a hole or an axle through its center. Taken alone it's of little use, but when part of a transportation system including roads and draft animals, it is of extraordinary value to human civilization. The earliest depiction of a vehicle with wheels is found in ancient Sumer, from approximately 3500 BC. The first wheels were of solid wood; spoked wheels first appear around 2000 BC in Asia Minor, where they were used on horse-drawn chariots. Later improvements included iron hubs which turned on greased axles, and the addition of springs or some other sort of shock absorber.Contrary to popular myth, the wheel was known in the New World prior to the arrival of the Spanish. However North, Central and South America lacked draft animals, so pretty much everything was transported by people. Humans are not designed to pull for long distances: they are more efficient carrying weights on their shoulders - in backpacks, for example - so carts were not developed. Once horses and other draft animals arrived, the Native American people happily used wheeled vehicles just like everybody else.",
+    "quote": "\"Wisdom and virtue are like the two wheels of a cart.\" - Japanese Proverb",
+    "tech_prereqs": [
+        {
+            "name": "Animal Husbandry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Archery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Horseback Riding",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/horseback_riding.json"
+        },
+        {
+            "name": "Mathematics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+        },
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Chariot Archer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/chariot_archer.json"
+        },
+        {
+            "name": "War Chariot",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/war_chariot.json"
+        },
+        {
+            "name": "War Elephant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/war_elephant.json"
+        },
+        {
+            "name": "Horse Archer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/horse_archer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Floating Gardens",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/floating_gardens.json"
+        },
+        {
+            "name": "Water Mill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/water_mill.json"
+        }
+    ]
+}

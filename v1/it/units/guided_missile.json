@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Missile teleguidato|un Missile teleguidato|dal tuo Missile teleguidato|al tuo Missile teleguidato|il tuo Missile teleguidato|da un Missile teleguidato",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "Un'unit\u00e0 economica che si pu\u00f2 usare per un singolo attacco per danneggiare le unit\u00e0 o le citt\u00e0 nemiche.",
+    "historical_info": "Il moderno progettista di missili pu\u00f2 avvalersi di una vasta gamma di tecnologie di tracciamento. Alcuni missili sono automatici e sfruttano radar o sistemi a ricerca di calore per puntare il loro bersaglio. Altri possono seguire un laser che \"illumina\" il nemico. Altri ancora sono pilotati direttamente da un operatore che li guida attraverso un collegamento radio o addirittura via cavo. Naturalmente man mano che sono diventate pi\u00f9 \"intelligenti\", queste armi si sono fatte anche pi\u00f9 costose, tanto che oggi un singolo missile teleguidato pu\u00f2 costare decine di migliaia di dollari o anche di pi\u00f9. Un esercito che ne faccia un uso eccessivo si potrebbe trovare a corto di fondi per altre cose altrettanto importanti... ad esempio gli approvvigionamenti.",
+    "strategy": "Il Missile teleguidato \u00e8 un'unit\u00e0 che attacca una volta sola e viene distrutta quando colpisce il bersaglio. Un Missile teleguidato pu\u00f2 usare come base qualsiasi citt\u00e0, sottomarino nucleare o incrociatore lanciamissili che appartiene al giocatore. I Missili si possono spostare da una base all'altra o attaccare un'unit\u00e0 o una citt\u00e0 nemica in un raggio di 8 caselle. Per ulteriori informazioni, consulta la sezione Missili.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistica avanzata|della Balistica avanzata",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Manovre evasive (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(100).json"
+        }
+    ]
+}

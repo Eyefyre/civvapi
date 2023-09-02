@@ -1,0 +1,27 @@
+{
+    "id": 118,
+    "name": "Corsario|Corsarios",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/privateer.png",
+    "game_info": "Una unidad naval especializada en atacar ciudades costeras para ganar Oro y capturar naves enemigas.",
+    "historical_info": "En tiempos de guerra, las patentes de corso daban libertad a los capitanes corsarios para atacar barcos mercantes extranjeros. Las principales potencias colonias de los siglos XVI al XIX, especialmente Gran Breta\u00f1a y Espa\u00f1a, recurrieron a los corsarios. Como las coronas no sol\u00edan pagar a los capitanes ni a la tripulaci\u00f3n de estos nav\u00edos, estos se quedaban con parte de los botines capturados a las flotas enemigas, lo que creaba una frontera difusa entre estos corsarios y los simples piratas.",
+    "strategy": "Una unidad naval que ataca como unidad de cuerpo a cuerpo. Empieza con el ascenso Asaltante costero I, lo que le permite ganar Oro por atacar ciudades costeras. Pueden capturar como presas a todas las unidades navales derrotadas.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Asaltante costero I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Conquista barcos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/prize_ships.json"
+        }
+    ]
+}

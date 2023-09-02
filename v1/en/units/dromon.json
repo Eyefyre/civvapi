@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Dromon",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "Dominant Ancient Era Naval Unit used to own the seas through the Classic Era with its ranged attack. Only the Byzantines may build it.",
+    "historical_info": "A modified form of the traditional galley, the Dromon was an integral part of the Byzantine navy throughout the empire's reign. Featuring both oar and sail power, the Dromon was highly maneuverable and agile, but also dangerously equipped for battle. Through the use of Greek Fire, a precursor to modern Napalm, the Byzantines used an early form of the flamethrower to strike fear in the hearts of any who opposed them on the sea.",
+    "strategy": "Only the Byzantines may build this unit. Attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. This unit fights at +50% strength against other naval units. It cannot enter Deep Ocean tiles outside of the city borders.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Naval",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 118,
+    "name": "Corsaro|un Corsaro|dal tuo Corsaro|al tuo Corsaro|il tuo Corsaro|da un Corsaro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/privateer.png",
+    "game_info": "Unit\u00e0 navale specializzata nell'attacco di citt\u00e0 costiere per guadagnare oro e catturare navi nemiche.",
+    "historical_info": "Muniti di apposite \"lettere di corsa\", i capitani corsari avevano mano libera per fare ci\u00f2 che volevano e in tempo di guerra potevano attaccare le navi mercantili nemiche a loro piacimento. Attivi principalmente tra il XVI e il XIX secolo, i corsari vennero utilizzati da tutte le grandi potenze coloniali, in particolar modo Inghilterra e Spagna. Tipicamente i corsari non ricevevano alcun pagamento dal governo che li aveva autorizzati, rifacendosi con gli interessi grazie al bottino saccheggiato alla flotta nemica. In virt\u00f9 di questi accordi poteva capitare che la distinzione tra corsari e semplici pirati sfumasse fin quasi a scomparire.",
+    "strategy": "Unit\u00e0 navale che attacca come fosse un'unit\u00e0 da mischia. Entra in gioco possedendo gi\u00e0 la promozione Incursione costiera I, che le permette di guadagnare oro attaccando le citt\u00e0 sulla costa. Inoltre pu\u00f2 catturare le unit\u00e0 navali che sconfigge in combattimento.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigazione|della Navigazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Incursione costiera I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Cattura delle navi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/prize_ships.json"
+        }
+    ]
+}

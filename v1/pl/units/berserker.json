@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserkowie|Berserk\u00f3w|Berserkom|Berserk\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Silna l\u0105dowa jednostka frontowa z epoki \u015bredniowiecza, specjalizuj\u0105ca si\u0119 w atakach z morza. Mog\u0105 j\u0105 budowa\u0107 tylko Du\u0144czycy. Zast\u0119puje ci\u0119\u017ckozbrojnych, ale jest dost\u0119pna wcze\u015bniej.",
+    "historical_info": "Berserkowie z wielkiej armii pogan byli jedn\u0105 z najbardziej przera\u017caj\u0105cych jednostek IX wieku. Armia pogan, sk\u0142adaj\u0105ca si\u0119 z berserk\u00f3w, wojownik\u00f3w i marynarzy, zosta\u0142a stworzona podczas serii wiki\u0144skich atak\u00f3w na Pary\u017c i Rouen w latach 845-850 n.e. Jej liczebno\u015b\u0107 szybko wzros\u0142a, a taktyka zosta\u0142a udoskonalona. W roku 865 armia dotar\u0142a do wschodnich wybrze\u017cy Wysp Brytyjskich z zamiarem zaj\u0119cia tych teren\u00f3w. Rok p\u00f3\u017aniej jej wojska podbi\u0142y kr\u00f3lestwo Nortumbrii, a kr\u00f3lestwo Anglii Wschodniej pad\u0142o w 870 r. Mercja zosta\u0142a zaj\u0119ta w 874 r. Podr\u00f3\u017cuj\u0105cy w towarzystwie wojsk osadnicy za\u0142o\u017cyli kr\u00f3lestwo Yorku. Ostatecznie armia pogan zosta\u0142a pokonana w 878 r., a ocalali z pogromu wojownicy osiedlili si\u0119 na sta\u0142e w Anglii Wschodniej, Essex i Mercji.",
+    "strategy": "Berserkowie to jedna z unikatowych jednostek du\u0144skich, zast\u0119puj\u0105ca ci\u0119\u017ckozbrojnych. Ma o 1 [ICON_MOVES] punkt ruchu wi\u0119cej ni\u017c ci\u0119\u017ckozbrojni i posiada awans \u201eDesant\u201d, umo\u017cliwiaj\u0105cy atak na l\u0105d z p\u00f3l wybrze\u017ca bez kary. Dost\u0119pni po wynalezieniu odlewania metalu zamiast stali.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Desant",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/amphibious.json"
+        }
+    ]
+}

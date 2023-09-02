@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "Marine|Marines",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Una unidad de la Era At\u00f3mica que es especialmente \u00fatil para embarcarse e invadir cruzando el mar.",
+    "historical_info": "Los fieles marines, cuyo destino inicial eran las operaciones anfibias, han progresado hasta desempe\u00f1ar diversos papeles de gran importancia dentro del ej\u00e9rcito. Suelen trabajar en estrecha colaboraci\u00f3n con la armada; se han empleado marines con diversas especialidades en conflictos de todo el mundo durante d\u00e9cadas.",
+    "strategy": "El Marine es una alternativa a la infanter\u00eda. Cuesta algo m\u00e1s que esta, pero tiene ascensos que mejoran su Visual y su Potencia de ataque cuando se embarca en el mar.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Penicilina",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Anfibia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/amphibious.json"
+        },
+        {
+            "name": "Visual adicional embarcada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "Embarco defensivo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

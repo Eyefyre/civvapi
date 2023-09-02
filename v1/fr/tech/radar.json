@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "\u00c8re atomique",
+    "cost": 5100,
+    "civilopedia_entry": "Le Radar est un syst\u00e8me de d\u00e9tection physique qui utilise des ondes \u00e9lectromagn\u00e9tiques pour identifier des objets lointains comme les navires ou les a\u00e9ronefs. Apparu en 1941, le terme radar est l'acronyme anglais de \"Radio Detection And Ranging\" (en fran\u00e7ais : d\u00e9tection et estimation de la distance par ondes radio).En 1904, Christian Hulsmeyer cr\u00e9a un appareil capable de d\u00e9tecter la pr\u00e9sence d'un navire en plein brouillard. Plus tard cette m\u00eame ann\u00e9e, il l'am\u00e9liora afin qu'il puisse d\u00e9terminer la distance \u00e0 laquelle se trouvait l'objet d\u00e9tect\u00e9.Au mois d'ao\u00fbt 1917, l'inventeur Nikola Tesla con\u00e7ut les premi\u00e8res sections radars permettant \u00e0 l'utilisateur de \"d\u00e9terminer la position ou la trajectoire d'un objet en mouvement (comme un navire en mer), la distance parcourue par ce dernier, ainsi que sa vitesse\".\u00c0 l'approche de la Deuxi\u00e8me Guerre mondiale, toutes les puissances industrielles du monde travaillaient activement \u00e0 la conception du radar. Les Britanniques furent les plus proches d'y parvenir, mettant au point un syst\u00e8me capable de rep\u00e9rer un a\u00e9ronef en approche bien qu'il soit encore tr\u00e8s loin des villes vuln\u00e9rables (leur recherche fut motiv\u00e9e par la rumeur selon laquelle les Allemands auraient \u00e9t\u00e9 en train de concevoir leur fameux Rayon de la mort). Ce syst\u00e8me resta secret, si bien que durant la guerre, les Britanniques avanc\u00e8rent que c'\u00e9tait en fait leurs sentinelles a\u00e9riennes qui d\u00e9tectaient avant l'heure les assaillants allemands.A la fin de la guerre, tous les pays d\u00e9velopp\u00e9s avaient r\u00e9alis\u00e9 d'importantes avanc\u00e9es en mati\u00e8re de technologie radar. Au milieu du si\u00e8cle, la technologie se r\u00e9pandait dans le monde au niveau civil, notamment dans le domaine du trafic a\u00e9rien. \u00c0 l'exception \u00e9ventuelle de certains a\u00e9ronefs furtifs perfectionn\u00e9s, il est aujourd'hui quasi impossible pour un avion de p\u00e9n\u00e9trer dans l'espace a\u00e9rien d'une nation industrialis\u00e9e sans \u00eatre rep\u00e9r\u00e9 par un radar.",
+    "quote": "\"La vision est l'art de voir les choses invisibles.\" - Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9lectronique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electronics.json"
+        },
+        {
+            "name": "Balistique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fission nucl\u00e9aire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Fus\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rocketry.json"
+        },
+        {
+            "name": "Informatique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardier|Bombardiers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/bomber.json"
+        },
+        {
+            "name": "B-17",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/b17.json"
+        },
+        {
+            "name": "Chasseur|Chasseurs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/fighter.json"
+        },
+        {
+            "name": "Z\u00e9ro|Z\u00e9ros",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/zero.json"
+        },
+        {
+            "name": "Parachutiste|Parachutistes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "A\u00e9roport|A\u00e9roports",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/airport.json"
+        }
+    ]
+}

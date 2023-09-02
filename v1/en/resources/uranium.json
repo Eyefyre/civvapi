@@ -1,0 +1,84 @@
+{
+    "id": 6,
+    "name": "Uranium",
+    "game_info": "Used by Nukes, Nuclear Plants and Giant Death Robots.",
+    "historical_info": "Uranium is a radioactive natural mineral that, once processed and enriched, can be used to generate enormous energy or blow things up. Discovered in the 18th century, it wasn't until the 20th, during the terrible crucible of World War II, that American scientists learned how to craft the mildly dangerous material into the most deadly explosive that history has ever seen. When used to power nuclear generators, uranium is seen as a \"clean\" energy, since it doesn't release the huge amounts of air pollution created by coal or petroleum. On the other hand, used nuclear fuel is incredibly toxic and poisons land, air, water, and/or any living organisms that encounter it for hundreds of years, so this is a problem too. Remember that uranium is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
+    "prereq_tech": {
+        "name": "Atomic Theory",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        },
+        {
+            "name": "Forest",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+        },
+        {
+            "name": "Marsh",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+        },
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

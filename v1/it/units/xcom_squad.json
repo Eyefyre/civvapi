@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "Squadra XCOM|una Squadra XCOM|dalla tua Squadra XCOM|alla tua Squadra XCOM|la tua Squadra XCOM|da una Squadra XCOM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Unit\u00e0 di fanteria futuristica, abituata a paracadutarsi nel bel mezzo del pericolo dopo aver attraversato mezzo mondo. La squadra pu\u00f2 muoversi e saccheggiare dopo l'atterraggio, ma non pu\u00f2 combattere fino al turno successivo.[COLOR_CYAN]Buona fortuna, comandante!",
+    "historical_info": "L'Iniziativa XCOM \u00e8 nata in seguito al riconoscimento del potenziale pericolo rappresentato da Robot Giganti della Morte, alieni e altre minacce esterne, per proteggere la popolazione da nemici noti e sconosciuti.",
+    "strategy": "La Squadra XCOM \u00e8 un gruppo di soldati d'\u00e9lite che usano una tecnologia sviluppata all'interno dell'Iniziativa XCOM. Quando inizia il turno in territorio amico la squadra pu\u00f2 essere paracadutata fino a una distanza di 40 caselle. Queste unit\u00e0 sono abituate ad affrontare livelli di pericolo fuori da questo mondo.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotecnologia|della Nanotecnologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Skyranger",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/skyranger.json"
+        }
+    ]
+}

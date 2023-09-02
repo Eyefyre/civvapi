@@ -1,0 +1,31 @@
+{
+    "id": 71,
+    "name": "Archer sur char|Archers sur char",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chariot_archer.png",
+    "game_info": "Unit\u00e9 de combat \u00e0 distance rapide et tr\u00e8s efficace sur terrain plat.",
+    "historical_info": "Avant l'invention de l'\u00e9trier, il \u00e9tait impossible de combattre \u00e0 cheval : en effet, le cavalier n'ayant aucune prise solide, le moindre choc pouvait le mettre \u00e0 terre et le blesser. Les chevaux firent leur premi\u00e8re apparition sur les champs de bataille pour tracter des chars. Ainsi, deux chevaux \u00e9taient attel\u00e9s \u00e0 un char, dont l'\u00e9quipage se composait d'un conducteur et d'un archer. La mobilit\u00e9 des archers sur char les rendait particuli\u00e8rement dangereux pour les soldats d'infanterie : ils \u00e9taient tr\u00e8s rapides, tiraient par salves et pouvaient fuir avant que les fantassins n'aient le temps de s'approcher. La plus grande faiblesse des archers sur char \u00e9tait leur difficult\u00e9 \u00e0 se mouvoir en terrain accident\u00e9. Sur les plaines d\u00e9gag\u00e9es, ils \u00e9taient les rois du champ de bataille, mais dans les bois ou les collines, ils \u00e9taient fortement d\u00e9savantag\u00e9s.",
+    "strategy": "L'archer sur char est une unit\u00e9 d'attaque \u00e0 distance rapide particuli\u00e8rement redoutable sur terrain d\u00e9gag\u00e9. S'il est l\u00e9g\u00e8rement moins puissant que l'archer, il peut en revanche se d\u00e9placer deux fois plus vite. Notez cependant qu'il subit un malus de d\u00e9placement lorsqu'il p\u00e9n\u00e8tre sur une case de for\u00eat, de jungle ou de collines (\u00e0 moins que cette derni\u00e8re soit travers\u00e9e par une route). Comme toutes les unit\u00e9s mont\u00e9es, l'archer sur char est particuli\u00e8rement vuln\u00e9rable aux attaques des lanciers.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "La roue",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "P\u00e9nalit\u00e9 sur terrain accident\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

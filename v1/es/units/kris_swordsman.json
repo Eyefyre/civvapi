@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Soldado con kris|Soldados con kris",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Unidad de cuerpo a cuerpo de la \u00c9poca Cl\u00e1sica con un arma m\u00edstica cuyas propiedades se descubrir\u00e1n la primera vez que la use en combate. Solo puede formarla Indonesia.",
+    "historical_info": "El kris es una daga o espada de hoja larga y asim\u00e9trica con una distintiva hoja ondulada muy habitual en Indonesia y Malasia. Tanto arma como objeto m\u00e1gico, las tribus indonesias creen que el kris tiene una esencia imbuida de poder, por lo que algunas hojas dan buena suerte y otras mala. Tan apreciado eran los kris en Indonesia que las armas se heredaban de padres a hijos. En combate, un soldado con kris pod\u00eda llevar hasta tres: el suyo, el de su suegro y el de herencia de la familia. La forja de las hojas de los kris estaba restringida a unos cuantos elegidos, y estos herreros habilidosos hac\u00edan las hojas de capas de distintos minerales y n\u00edquel de meteorito que plegaban varias veces, un proceso que pod\u00edan tardar a\u00f1os en completar.",
+    "strategy": "El Soldado con kris sustituye al Soldado con espada. Pru\u00e9balo en combate lo antes posible para desbloquear las propiedades secretas de su retorcido kris.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Forja del hierro",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Hoja m\u00edstica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/mystic_blade.json"
+        }
+    ]
+}

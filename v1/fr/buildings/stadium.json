@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stade|Stades",
+    "game_info": "Ne peut pas fournir plus de points de bonheur que de citoyens dans une ville. La ville doit poss\u00e9der un zoo.",
+    "strategy": "B\u00e2timent de l'\u00e8re moderne, le stade augmente le bonheur de votre empire mais ne peut fournir plus de bonheur qu'il y a de citoyens dans la ville. Vous ne pouvez construire un stade dans une ville que si cette derni\u00e8re poss\u00e8de d\u00e9j\u00e0 un zoo.",
+    "historical_info": "Un stade est une version moderne du colis\u00e9e, offrant sans doute un plus large choix de confiseries et boissons aux visiteurs... Les stades peuvent contenir jusqu'\u00e0 100 000 spectateurs venus applaudir un \u00e9v\u00e8nement sportif, un concert, un spectacle ou, pour les amateurs, un meeting politique. Les f\u00e9rus de sport d'aujourd'hui ne sont pas moins agit\u00e9s et passionn\u00e9s que leurs anc\u00eatres grecs, et c'est pour cette raison que les stades sont d\u00e9sormais \u00e9quip\u00e9s de barri\u00e8res et de rambardes de s\u00e9curit\u00e9.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stade|stades.png",
+    "prereq_tech": {
+        "name": "R\u00e9frig\u00e9ration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

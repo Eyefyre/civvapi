@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Police Station",
+    "game_info": "Reduces enemy spy stealing rate by 25%.City must have a Constabulary.",
+    "strategy": "Police stations slow down the rate at which enemy spies can steal technologies from your city. The city must possess an Constabulary in order to construct the Police Station.",
+    "historical_info": "A police station provides the base of operations for local police and detectives, typically housing office space, in addition to a small jail, interrogation rooms, and evidence storage areas. In some regions, a larger central office may contribute many of these facilities while smaller sub-stations serve as the primary post for local police departments.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/police_station.png",
+    "prereq_tech": {
+        "name": "Electricity",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

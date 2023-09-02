@@ -1,0 +1,45 @@
+{
+    "id": 73,
+    "name": "Robotics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/robotics.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "While various forms of automatons and machines have been in evidence from as early as the first century A.D., the first fully autonomous machine didn't appear until the mid 20th century. Science fiction writer Isaac Asimov unknowingly coined the term \"robotics\" in his 1941 short story \"Liar!,\" figuring that the word must already be in use since other ones like \"electronics\" were. The study of robotics covers all aspects of their electronic, mechanical, and software design, and the different ways in which they sense and interact with the world around them.Simple industrial robots have been in use since the early 1960's, but more powerful and sophisticated ones are always in development. While definitely helpful in factories performing repetitive precision-driven tasks, robotics are being pushed to create life-like prosthetic limbs, humanoid-style robots walking upright, and robots capable of recognizing and producing humanesque gestures, emotions, and expressions.[NEWLINE While the entertainment industry has made billions playing off the fear that robots will suddenly rise up and enslave their former masters, robotics is still grossly limited by the development of A.I., or artificial intelligence. They may be great at performing a set series of given tasks or instructions, but robots are still not fully capable of autonomous thought or reasoning, limiting their use somewhat in the foreseeable future (so it may be some time before we are conquered by self-aware vacuum cleaners).",
+    "quote": "\"1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law.3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.\" - Isaac Asimov",
+    "tech_prereqs": [
+        {
+            "name": "Rocketry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+        },
+        {
+            "name": "Computers",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nuclear Fusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fusion.json"
+        },
+        {
+            "name": "Stealth",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/stealth.json"
+        },
+        {
+            "name": "Nanotechnology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nanotechnology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Missile Cruiser",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/missile_cruiser.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Spaceship Factory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/spaceship_factory.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Kataphrakt",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Schnelle und kraftvolle berittene Einheit im Anfangsstadium des Spiels. Anf\u00e4llig gegen\u00fcber Speerk\u00e4mpfern. Nur die Byzantiner k\u00f6nnen sie bauen. Diese Einheit hat eine h\u00f6here Kampfst\u00e4rke, verteidigt sich besser und greift St\u00e4dte effektiver an als der Reiter, den sie ersetzt.",
+    "historical_info": "Der Kataphrakt, eine der am schwersten gepanzerten Formen der Kavallerie der Geschichte, war ein eindrucksvoller Gegner auf dem Schlachtfeld. Die Pferde waren mit Kettenhemden oder Plattenpanzern gesch\u00fctzt, die Reiter selbst trugen eine \u00e4hnlich beeindruckende R\u00fcstung. Diese Einheiten wurden vor allem dazu eingesetzt, die Infanterielinien des Feindes zu durchbrechen, dem man sich gegen\u00fcber sah. Das Byzantinische Reich war in seiner dokumentierten Geschichte daf\u00fcr bekannt, Kataphrakte ausgiebig einzusetzen, da sie nach dem Niedergang der r\u00f6mischen Br\u00fcder im Westen eine wichtige Rolle in der Verteidigung des Reiches spielten.",
+    "strategy": "Das Kataphrakt ist eine Einheit nur f\u00fcr Byzantiner, die den Reiter ersetzt. Kataphrakte sind langsamer, aber kraftvoller als die Reitereinheit, was sie zu einer der gef\u00e4hrlichsten Kavallerieeinheiten bis zum Ritter macht. Sie k\u00f6nnen sich nach dem Angriff noch bewegen. Anders als der Reiter k\u00f6nnen sie Defensivboni erhalten. Weiterhin ist die Strafe f\u00fcr einen Stadtangriff geringer.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Reiterei",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

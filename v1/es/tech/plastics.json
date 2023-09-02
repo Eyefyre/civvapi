@@ -1,0 +1,49 @@
+{
+    "id": 57,
+    "name": "Pl\u00e1stico",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/plastics.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 4100,
+    "civilopedia_entry": "El pl\u00e1stico es un material ligero, transparente y resistente que no conduce bien la electricidad. Puede presentar muchas formas distintas, unas m\u00e1s duras, otras m\u00e1s flexibles, con mayor o menor tolerancia al calor. Puede moldearse, prensarse o extrudirse para darle pr\u00e1cticamente cualquier forma imaginable. Est\u00e1 presente en todas las facetas de la vida moderna y se utiliza para todo, desde parachoques hasta pr\u00f3tesis, pasando por tarros de comida para beb\u00e9s y armas de infanter\u00eda. Es uno de los componentes b\u00e1sicos m\u00e1s importantes del siglo XXI.El primer pl\u00e1stico artificial fue inventado por el brit\u00e1nico Alexander Parkes en 1855. Su invento, denominado parquesina, estaba hecho de celulosa (c\u00e9lulas vegetales), y fue empleado como sustituto del marfil, que cada vez escaseaba m\u00e1s debido a la disminuci\u00f3n de la poblaci\u00f3n mundial de ballenas.El primer pl\u00e1stico enteramente sint\u00e9tico fue la baquelita, inventada en 1909 por el estadounidense de origen belga Leo Hendrik Baekeland. La baquelita era barata, fuerte y resistente. Fue utilizada en la construcci\u00f3n de radios, tel\u00e9fonos, mangos de utensilios, teclas para pianos y bolas de billar. Sin embargo, aunque es un material fuerte, resulta bastante quebradizo. Hace mucho que se sustituy\u00f3 por pl\u00e1sticos m\u00e1s baratos y flexibles como el poliestireno, el PVC, el nailon y otras variedades m\u00e1s ex\u00f3ticas creadas en el siglo XX.En su momento era relativamente econ\u00f3mico, pero actualmente se necesitan numerosas sustancias petroqu\u00edmicas para fabricar la mayor\u00eda de los pl\u00e1sticos. Y el incremento del coste del crudo supone un aumento similar del precio del pl\u00e1stico. Es posible que en el futuro se descubra alg\u00fan otro material milagroso que sustituya al ubicuo pl\u00e1stico, pero por el momento es irreemplazable.",
+    "quote": "\"Ben, quiero decirte una sola palabra, solo una: pl\u00e1stico.\" - Buck Henry y Calder Willingham, \"El graduado\"",
+    "tech_prereqs": [
+        {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radio.json"
+        },
+        {
+            "name": "Repuestos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Penicilina",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/penicillin.json"
+        },
+        {
+            "name": "Teor\u00eda del \u00e1tomo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Infanter\u00eda|Infanter\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/infantry.json"
+        },
+        {
+            "name": "Pracinha|Pracinhas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/pracinha.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratorio cient\u00edfico|Laboratorios cient\u00edficos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/research_lab.json"
+        },
+        {
+            "name": "Cristo Redentor|Cristos Redentores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/cristo_redentor.json"
+        }
+    ]
+}

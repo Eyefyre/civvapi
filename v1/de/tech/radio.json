@@ -1,0 +1,40 @@
+{
+    "id": 53,
+    "name": "Funkwesen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radio.png",
+    "era": "Moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Das Funkwesen bezeichnet die Technologie, mit der Informationen durch \u00c4nderung der Amplitude, Frequenz oder Dauer eines Tr\u00e4gersignals zu einem entfernten Empf\u00e4nger \u00fcbertragen werden. Weniger technischer ausgedr\u00fcckt \u00fcbersetzt ein Sender irgendwo T\u00f6ne in Wellen, die er dann in die Atmosph\u00e4re sendet. Entfernte Funkempf\u00e4nger k\u00f6nnen diese Wellen dann aufnehmen und sie wieder zu T\u00f6nen umwandeln.Ein Funkger\u00e4t ist eine komplizierte und schwierige Maschine. Wissenschaftler bzw. Physiker wie Michael Faraday, James Maxwell, Heinrich Hertz und Guglielmo Marconi forschten Hunderte von Jahren an dieser Entwicklung.Marconi war ein italienischer Physiker, der daran arbeitete, einen drahtlosen Telegrafen zu entwickeln. 1894 schaffte er es, ein Signal \u00fcber 20 Meter weit zu senden. Marconi verfeinerte diese Technologie weiter und sendete 1901 ein Signal \u00fcber den Atlantik. Er arbeitete weiter in diesem Bereich und in den 1920ern begann die Entwicklung des Kurzwellenfunks, der die Grundlage f\u00fcr den Gro\u00dfteil des modernen Langstrecken-Funkwesens ist.Das erste Radioprogramm wurde an Heiligabend im Jahr 1906 gesendet; die erste Nachrichtensendung wurde am 31. August 1920 aus Detroit, Michigan \u00fcbertragen. Ab Ende der 20er Jahre waren Radios aus den Haushalten in Europa und den Vereinigten Staaten nicht mehr wegzudenken.Im Zweiten Weltkrieg spielte das Funkwesen auch eine gro\u00dfe Rolle: Diese Technik erm\u00f6glichte nicht nur die Kommunikation zwischen Flugzeugen und Schiffen, sondern die verschiedenen beteiligten Regierungen waren dadurch auch in der Lage, Nachrichten und Propaganda sowohl an ihr eigenes Volk als auch an den Gegner zu senden. Die Deutschen, die Engl\u00e4nder und die Amerikaner waren Meister des neuen Mediums. Das Funkwesen blieb in den Jahren nach dem Krieg besonders in den USA popul\u00e4r, wo viele Radiosender und Sendestationen entstanden. Das Radio blieb das wichtigste Unterhaltungsmedium bis zum Vormarsch des Fernsehens in den 1950ern.Obwohl die Beliebtheit des Radios aufgrund der neueren Technologien - Fernsehen und Internet - abnahm, bleibt es ein konstantes und wichtiges Informations- und Unterhaltungsmedium f\u00fcr Menschen auf der ganzen Welt. So wie der Rock 'n' Roll wird es wohl nie sterben.",
+    "quote": "\"Das ganze Land war \u00fcber das Radio miteinander verbunden. Wir alle erlebten die gleichen Helden, Kom\u00f6dianten und S\u00e4nger. Sie waren Giganten.\" - Woody Allen",
+    "tech_prereqs": [
+        {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Plastik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Funkturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/broadcast_tower.json"
+        },
+        {
+            "name": "Eiffelturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/eiffel_tower.json"
+        },
+        {
+            "name": "Nationaler Nachrichtendienst",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/national_intelligence_agency.json"
+        },
+        {
+            "name": "Broadway",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/broadway.json"
+        }
+    ]
+}

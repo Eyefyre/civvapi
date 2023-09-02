@@ -1,0 +1,20 @@
+{
+    "id": 23,
+    "name": "Kultureller Austausch",
+    "game_info": "Kultureller AustauschErh\u00f6ht den Tourismus-Modifikator f\u00fcr gemeinsame Religion, Handelswege und offene Grenzen um jeweils 15%.",
+    "historical_info": "Einen inoffiziellen kulturellen Austausch gab es zwar schon seit den Anf\u00e4ngen des Industriezeitalters durch den gegenseitigen Besuch von Studenten, K\u00fcnstlern, Sportlern und anderen Bewohnern unterschiedlicher L\u00e4nder, doch im Zuge des Kalten Krieges wurden solche Programme von den USA und der UDSSR offiziell gef\u00f6rdert, da beide L\u00e4nder die weltweite Vormachstellung ihrer Kultur demonstrieren und das Verst\u00e4ndnis f\u00fcr das jeweilige Wertesystem verbessern wollten. Diese offiziellen Programme erleichterten Reisen und Auftritte von ausgew\u00e4hlten Gruppen im \"Feindgebiet\". Historiker haben diesen Vorgang als \"kulturelles trojanisches Pferd\" bezeichnet, da die Programme letztlich zum Machtverlust der sowjetischen Regierung beitragen sollten.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/kultureller_austausch.png",
+    "required_policies": [
+        {
+            "name": "Bl\u00fchende K\u00fcnste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/flourishing_of_the_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "\u00c4sthetik",
+        "game_info": "\u00c4sthetik verbessert die F\u00e4higkeit einer Zivilisation, Kultur zu generieren.Die Einf\u00fchrung der \u00c4sthetik erm\u00f6glicht es, Gro\u00dfe Schriftsteller, K\u00fcnstler und Musiker 25% schneller zu erhalten. Schaltet den Bau der Uffizien frei.Die Einf\u00fchrung aller Politiken verdoppelt den Themen-Bonus, den Ihr durch Eure Museen und Wunder erhaltet, und erm\u00f6glicht den Erwerb von Gro\u00dfen Schriftstellern, K\u00fcnstlern und Musikern mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": "Klassik",
+        "historical_info": "\u00c4sthetik ist die Philosophie der Natur von Kunst und Geschmack, sie besch\u00e4ftigt sich mit der Erschaffung und Wertsch\u00e4tzung materieller Sch\u00f6nheit. Man muss erw\u00e4hnen, dass \u00c4sthetik nicht die Funktionalit\u00e4t oder den Nutzen eines Dings umfasst, sie konzentriert sich lediglich auf dessen Sch\u00f6nheit in Form, Farbe, Kontrast und anderen k\u00fcnstlerischen Aspekten."
+    }
+}

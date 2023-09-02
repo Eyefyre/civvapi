@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Fromboliere|un Fromboliere|dal tuo Fromboliere|al tuo Fromboliere|il tuo Fromboliere|da un Fromboliere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "Una delle prime unit\u00e0 a distanza disponibili, quest'unit\u00e0 esclusiva degli Inca sostituisce l'Arciere. Il Fromboliere non \u00e8 pi\u00f9 forte di un Arciere, ed \u00e8 anzi ancora pi\u00f9 vulnerabile se attaccato direttamente nel corpo a corpo. Tuttavia possiede una promozione che gli d\u00e0 una buona possibilit\u00e0 di ritirarsi prima che l'attacco abbia luogo.",
+    "historical_info": "I guerrieri inca erano provetti frombolieri. In genere usavano pietre tonde come proiettili. Una fionda non ha la gittata o la potenza di un arco, ma le fionde sono piccole e leggere, per cui la fanteria le pu\u00f2 trasportare senza alcun problema. Come si legge anche nel Vecchio Testamento, un fromboliere ben addestrato pu\u00f2 uccidere con un solo colpo anche l'avversario pi\u00f9 robusto...",
+    "strategy": "Il Fromboliere \u00e8 un'unit\u00e0 a distanza di epoca antica che pu\u00f2 attaccare i nemici da lontano. Quest'unit\u00e0 esclusiva degli Inca \u00e8 in grado di ritirarsi da un combattimento, sfuggendo cos\u00ec alla maggior parte degli attacchi in mischia: usala per tormentare i tuoi nemici. Attenzione per\u00f2: un Fromboliere sar\u00e0 sconfitto facilmente se il nemico lo mette con le spalle al muro o se lo insegue con un'unit\u00e0 veloce.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tiro con l'arco|del Tiro con l'arco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Ritirata dalla mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

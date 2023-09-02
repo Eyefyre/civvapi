@@ -1,0 +1,31 @@
+{
+    "id": 72,
+    "name": "Carro de guerra|Carros de guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_chariot.png",
+    "game_info": "Una r\u00e1pida unidad de combate a distancia. Solo pueden construirla los egipcios. Para construir esta unidad no se necesitan Caballos , a diferencia del Arquero en carro, al que sustituye.",
+    "historical_info": "Los egipcios fueron los primeros se\u00f1ores de los carros, veh\u00edculos que los enemigos tem\u00edan con mucha raz\u00f3n. A menudo, los propios faraones participaban en la batalla montados en su carro de guerra. Amenofis II asegur\u00f3 haber alcanzado a cuatro objetivos separados por 30 metros desde su carro en marcha con tanta potencia que sus flechas penetraron 7 cent\u00edmetros de cobre. Al igual que otras unidades de caballer\u00eda, los carros de guerra eran mortales contra los enemigos que se baten en retirada. Cuando un enemigo huye, su escudo no lo protege, es vulnerable a las flechas y puede ser aplastado por las ruedas de un carro en movimiento.",
+    "strategy": "El Carro de guerra es la unidad exclusiva egipcia que sustituye al Arquero en carro. Es m\u00e1s r\u00e1pida que \u00e9l, y el jugador que lleve a Egipto puede crearla aunque no cuente con el recurso de los Caballos . Como unidad montada, el Carro de guerra es bastante vulnerable a los Lanceros.",
+    "movement": 5,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Rueda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Penalizaci\u00f3n por terreno abrupto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

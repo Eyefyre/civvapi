@@ -1,0 +1,32 @@
+{
+    "id": 48,
+    "name": "Biology",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/biology.png",
+    "era": "Industrial Era",
+    "cost": 2350,
+    "civilopedia_entry": "Biology is the study of living organisms. It's a wide field, ranging from the study of the largest whale to the smallest bacterium. Much of pre-nineteenth century biology was concerned with discovering and categorizing all of the plants, insects and animals in existence on the Earth. As the science advanced and the equipment improved, scientists began to dig into the building blocks of biology - cells, and later, genes and DNA. Today, much is known about the biology of all living organisms on the planet. Biologists have become so successful at manipulating life that the science has moved into areas that only a few years ago would have been considered science fiction. Sheep have been cloned, and sooner or later perhaps so will be people. Nanobiology is a real field of study. Specific genes can be activated for selective breeding. If progress continues it's possible to foresee a time in the not too distant future when most diseases have been conquered, bionic body parts are common and human lifespan has increased by decades.",
+    "quote": "\"If the brain were so simple we could understand it, we would be so simple we couldn't.\" - Lyall Watson",
+    "tech_prereqs": [
+        {
+            "name": "Archaeology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+        },
+        {
+            "name": "Scientific Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Refrigeration",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/refrigeration.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hospital",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hospital.json"
+        }
+    ]
+}

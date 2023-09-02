@@ -1,0 +1,45 @@
+{
+    "id": 73,
+    "name": "Robotica|della Robotica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/robotics.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "Anche se abbiamo testimonianze di vari tipi di automi e macchine gi\u00e0 nel primo secolo d.C., la prima macchina veramente autonoma non apparve che alla met\u00e0 del XX secolo. Lo scrittore di fantascienza Isaac Asimov coni\u00f2 involontariamente il termine \"robotica\" nel suo racconto del 1941 \"Bugiardo!\", immaginando che la parola fosse gi\u00e0 in uso, come \"elettronica\". Lo studio della robotica riguarda tutti gli aspetti della progettazione elettronica, meccanica e software dei robot e dei diversi modi con cui percepiscono e interagiscono con l'ambiente che li circonda.Semplici robot industriali sono in uso sin dagli anni '60, ma ogni giorno se ne sviluppano di sempre pi\u00f9 potenti e sofisticati. Anche se si \u00e8 rivelata molto utile nelle fabbriche per lo svolgimento di compiti ripetitivi e precisi, la robotica ambisce a creare protesi uguali agli arti originali, robot umanoidi in grado di camminare eretti e robot in grado di riconoscere e riprodurre gesti, emozioni ed espressioni umani.Anche se l'industria dell'intrattenimento ha incassato miliardi giocando sul timore che i robot un giorno si ribellino e riducano in schiavit\u00f9 i loro ex padroni, la robotica \u00e8 attualmente molto limitata dallo sviluppo dell'I.A., l'intelligenza artificiale. I robot possono anche essere eccezionali per eseguire una serie di compiti o istruzioni predeterminate, ma non sono ancora in grado di ragionare autonomamente, cosa che ne limita non poco le possibilit\u00e0 di utilizzo, almeno nell'immediato futuro (quindi abbiamo ancora tempo prima di essere sottomessi da aspirapolvere autocoscienti).",
+    "quote": "\"1. Un robot non pu\u00f2 recar danno a un essere umano n\u00e9 permettere che, a causa del proprio mancato intervento, un essere umano riceva danno.2. Un robot deve obbedire agli ordini impartiti dagli esseri umani, purch\u00e9 tali ordini non contravvengano alla Prima Legge.3. Un robot deve proteggere la propria esistenza, purch\u00e9 questa autodifesa non contrasti con la Prima e la Seconda Legge.\" - Isaac Asimov",
+    "tech_prereqs": [
+        {
+            "name": "Missilistica|della Missilistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+        },
+        {
+            "name": "Computer|del Computer",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusione nucleare|della Fusione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fusion.json"
+        },
+        {
+            "name": "Invisibilit\u00e0|dell'Invisibilit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/stealth.json"
+        },
+        {
+            "name": "Nanotecnologia|della Nanotecnologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nanotechnology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Incrociatore lanciamissili|un Incrociatore lanciamissili|dal tuo Incrociatore lanciamissili|al tuo Incrociatore lanciamissili|il tuo Incrociatore lanciamissili|da un Incrociatore lanciamissili",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/missile_cruiser.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fabbrica di astronavi|la Fabbrica di astronavi|una Fabbrica di astronavi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/spaceship_factory.json"
+        }
+    ]
+}

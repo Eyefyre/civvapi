@@ -1,0 +1,64 @@
+{
+    "id": 5,
+    "name": "Alluminio",
+    "game_info": "Utilizzata da edifici e unit\u00e0 potenti disponibili verso la fine del gioco.",
+    "historical_info": "L'alluminio, uno degli elementi pi\u00f9 abbondanti sulla Terra, \u00e8 un metallo molto utile in quanto flessibile, durevole e resistentissimo alla corrosione. Anche se molto comune, al suo stato naturale l'alluminio si trova quasi sempre unito ad altri materiali. Fu soltanto alla met\u00e0 del XIX secolo che gli scienziati scoprirono il modo di estrarre e lavorare l'alluminio in grandi quantit\u00e0, ma nel XX e XXI secolo questo metallo ha conosciuto un vasto impiego nell'industria militare e aerospaziale e nella produzione dei beni di consumo. Ricorda che l'alluminio costituisce una risorsa strategica e viene consumato a seguito della costruzione di unit\u00e0 ed edifici a esso collegati.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/alluminio.png",
+    "prereq_tech": {
+        "name": "Elettricit\u00e0|dell'Elettricit\u00e0",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        },
+        {
+            "name": "Dogana|una Dogana|una Dogana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+        },
+        {
+            "name": "Accademia|un'Accademia|un'Accademia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+        },
+        {
+            "name": "Cittadella|una Cittadella|una Cittadella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+        },
+        {
+            "name": "Manifattura|una Manifattura|una Manifattura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+        },
+        {
+            "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

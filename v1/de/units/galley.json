@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Galeere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galley.png",
+    "game_info": null,
+    "historical_info": "Die Galeere ist ein Barbarenschiff. Sie wird von Ruderern angetrieben und ist der Triere, also dem ersten Schiff jeder Zivilisation, in jeder Hinsicht unterlegen. Normalerweise findet man Galeeren in den K\u00fcstengebieten von Zivilisationen, wo sie Schiffe angreifen und Einheiten auf dem Wasser gefangen nehmen. Sie sollten sofort zerst\u00f6rt werden.",
+    "strategy": "Die Galeere ist eine Barbareneinheit, die in K\u00fcstengew\u00e4ssern bleibt und versucht, Einheiten, die sich zu Wasser befinden, zu zerst\u00f6ren. Sie ist viel schw\u00e4cher als alle anderen Marineeinheiten, kann aber in Gruppen gef\u00e4hrlich sein. Sie ist eine Nahkampf-Einheit und kann St\u00e4dte und Einheiten auf See angreifen (hat aber keinen Fernangriff).",
+    "movement": 3,
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

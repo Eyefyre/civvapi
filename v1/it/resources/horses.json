@@ -1,0 +1,60 @@
+{
+    "id": 2,
+    "name": "Cavalli",
+    "game_info": "Utilizzata dalle unit\u00e0 a cavallo.",
+    "historical_info": "Utilizzato come mezzo di trasporto, strumento di guerra, compagno e (talvolta anche) cibo, il cavallo \u00e8 tra gli animali addomesticati pi\u00f9 importanti della storia umana. I cavalli furono domati per la prima volta nell'Asia centrale intorno al 4000 a.C. Nel corso dei millenni successivi tale pratica si diffuse in Europa, nel resto dell'Asia, in Medio Oriente e in Africa. Nel XVI secolo gli spagnoli introdussero i cavalli anche nel Nuovo Mondo dove, nei secoli seguenti, il loro utilizzo fu adottato dai nativi rapidamente e con entusiasmo. Ricorda che i cavalli costituiscono una risorsa strategica e come tali vengono consumati quando costruisci unit\u00e0 che li richiedono.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cavalli.png",
+    "prereq_tech": {
+        "name": "Allevamento di animali|dell'Allevamento di animali",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pascolo|un Pascolo|un Pascolo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/pasture.json"
+        },
+        {
+            "name": "Dogana|una Dogana|una Dogana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+        },
+        {
+            "name": "Accademia|un'Accademia|un'Accademia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+        },
+        {
+            "name": "Cittadella|una Cittadella|una Cittadella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+        },
+        {
+            "name": "Manifattura|una Manifattura|una Manifattura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+        },
+        {
+            "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        }
+    ]
+}

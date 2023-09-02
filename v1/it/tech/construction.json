@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Costruzione|della Costruzione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "Epoca classica",
+    "cost": 105,
+    "civilopedia_entry": "La Costruzione rappresenta un miglioramento rispetto alla conoscenza del semplice lavoro murario. Il progresso passa principalmente attraverso l'uso del ferro e di altri metalli. Per quanto siano materiali robusti, pietra e mattone sono anche pesanti e poco flessibili. Con materiali simili \u00e8 impossibile costruire strutture molto alte (a meno che non siano di roccia piena o abbiano la forma di una piramide) perch\u00e9 collasserebbero sotto il loro stesso peso o per la forza del vento.Le costruzioni metalliche, al contrario, o di muratura rinforzata con metallo, possono essere alte, belle e strutturalmente solide. Con il metallo si possono creare maestosi ponti, gallerie profonde, alti grattacieli o autostrade sopraelevate. Senza la Costruzione le grandi citt\u00e0 del mondo, con la loro stupefacente architettura, semplicemente non potrebbero esistere.[TAB]",
+    "quote": "\"Di un edificio bisogna guardare tre cose: che sia collocato nel posto giusto; che abbia fondamenta solide; che la costruzione sia eseguita con perizia.\" - Johann Wolfgang von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Muratura|della Muratura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/masonry.json"
+        },
+        {
+            "name": "Ruota|della Ruota",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ingegneria|dell'Ingegneria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arciere con arco composito|un Arciere con arco composito|dal tuo Arciere con arco composito|al tuo Arciere con arco composito|il tuo Arciere con arco composito|da un Arciere con arco composito",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Colosseo|il Colosseo|un Colosseo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/colosseum.json"
+        },
+        {
+            "name": "Esercito di terracotta|l'Esercito di terracotta|un Esercito di terracotta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/terracotta_army.json"
+        }
+    ]
+}

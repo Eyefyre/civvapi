@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "name": "Bogenschie\u00dfen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archery.png",
+    "era": "Antike",
+    "cost": 35,
+    "civilopedia_entry": "Bogenschie\u00dfen ist eine Technik, bei der eine Person die Federkraft eines gebogenen Stocks (oder \"Bogens\") nutzt, um ein d\u00fcnnes, spitzes Projektil (einen \"Pfeil\") bei gro\u00dfer Geschwindigkeit \u00fcber eine gro\u00dfe Entfernung zu schie\u00dfen. B\u00f6gen und Pfeile werden schon sehr lange zur Jagd und im Krieg eingesetzt. Der fr\u00fcheste Gebrauch bleibt unter dem Schleier der Zeit verborgen, doch gilt die Altsteinzeit als am wahrscheinlichsten (sie endete vor \u00fcber 14.000 Jahren). In Afrika fanden Arch\u00e4ologen aber auch Steinspitzen von vor 60.000 Jahren, die wom\u00f6glich als Pfeilspitzen verwendet wurden. Nahezu jede fr\u00fche Kultur setzte Pfeile und B\u00f6gen ein, au\u00dfer den Ureinwohnern Australiens, die diese Technik anscheinend niemals entdeckt haben.Bogensch\u00fctzen wurden in Kriegen eingesetzt, seit es Kriege gibt. Die fr\u00fchen Griechen und \u00c4gypter stellten schon Bogensch\u00fctzen-Einheiten auf, wie es auch die fr\u00fchesten bekannten Armeen in Indien, Asien, Japan und Amerika taten. Ab dem Mittelalter wurden Pfeile und B\u00f6gen im Krieg und auf der Jagd nach und nach durch Armbr\u00fcste und Feuerwaffen ersetzt und ab dem 16. Jahrhundert gab es fast gar keine Bogensch\u00fctzen mehr in den modernen Armeen. Heute dient das Bogenschie\u00dfen noch als Sport in vielen Kulturen auf der ganzen Welt. Ein paar Begeisterte jagen auch immer noch mit Pfeil und Bogen - eine Methode, mit der man trotz ihres hohen Alters ein Reh genauso schnell erlegen kann wie vor 10.000 Jahren.",
+    "quote": " \"Der Pfeil aber war mit den Federn des Adlers selbst geschm\u00fcckt. Oft geben wir unseren Feinden das Mittel zu unserer Zerst\u00f6rung.\" - Aesop",
+    "tech_prereqs": [
+        {
+            "name": "Landwirtschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/archer.json"
+        },
+        {
+            "name": "Schleudersch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/slinger.json"
+        },
+        {
+            "name": "Kampfbogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Artemis-Tempel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/temple_of_artemis.json"
+        }
+    ]
+}

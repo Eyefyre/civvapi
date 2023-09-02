@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Silnik spalinowy|Silnika spalinowego|Silnikowi spalinowemu|Silnik spalinowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "Epoka wsp\u00f3\u0142czesna|Epoki wsp\u00f3\u0142czesnej|Epoce wsp\u00f3\u0142czesnej|Epok\u0119 wsp\u00f3\u0142czesn\u0105",
+    "cost": 4100,
+    "civilopedia_entry": "Silnik spalinowy wykorzystuje proces spalania. To reakcja chemiczna zachodz\u0105ca mi\u0119dzy substancjami, z kt\u00f3rych jedn\u0105 jest zwykle tlen, a jej wynikiem jest wydzielanie energii \u015bwietlnej oraz cieplnej. Tutaj mamy do czynienia z wykorzystaniem zap\u0142onu wewn\u0105trz silnika (czyli \u201espalaniem wewn\u0119trznym\u201d), co powoduje wytworzenie energii s\u0142u\u017c\u0105cej do obracania wa\u0142u korbowego lub t\u0142oka.Istniej\u0105 dwa rodzaje silnik\u00f3w spalania wewn\u0119trznego: silniki zap\u0142onu przerywanego i przep\u0142ywowe. W silniku zap\u0142onu przerywanego do komory spalania wtryskiwana jest pewna ilo\u015b\u0107 paliwa i tlenu, po czym dochodzi do zap\u0142onu, a wytworzona energia porusza t\u0142ok lub inne urz\u0105dzenie mechaniczne; nast\u0119pnie do komory wprowadzana jest kolejna porcja paliwa oraz tlenu i ca\u0142y proces zostaje powt\u00f3rzony. Silniki zap\u0142onu przerywanego stosuje si\u0119 w samochodach. W silniku przep\u0142ywowym do silnika wtryskuje si\u0119 ci\u0105g\u0142y strumie\u0144 paliwa i tlenu \u2013 spalanie jest procesem nieprzerwanym. Silniki odrzutowe to urz\u0105dzenia przep\u0142ywowe.Pierwszy patent na silnik spalania wewn\u0119trznego otrzyma\u0142 Anglik Samuel Brown w 1823 r. (\u201egazowy silnik pr\u00f3\u017cniowy\u201d zasilany wodorem i tlenem). Pierwszy patent na silnik odrzutowy dla samolotu trafi\u0142 w roku 1921 w r\u0119ce Francuza, Maxime'a Guillaume'a. \u017badna z tych pierwszych pr\u00f3b nie by\u0142a bardzo udana, ale utorowa\u0142y one drog\u0119 dla technologii, kt\u00f3re po dzi\u015b dzie\u0144 nap\u0119dzaj\u0105 \u015bwiat i b\u0119d\u0105 to robi\u0107 nadal w najbli\u017cszej przysz\u0142o\u015bci.",
+    "quote": "\u201eKto\u015b, kto potrafi bezpiecznie prowadzi\u0107 samoch\u00f3d, ca\u0142uj\u0105c dziewczyn\u0119, nie wk\u0142ada w poca\u0142unek wystarczaj\u0105co du\u017co serca.\u201d \u2013 Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Kolej|Kolei|Kolei|Kolej",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Niszczyciel|Niszczyciela|Niszczycielowi|Niszczyciela|Niszczycielem|Niszczycielu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/destroyer.json"
+        },
+        {
+            "name": "Okr\u0119ty l\u0105dowe|Okr\u0119t\u00f3w l\u0105dowych|Okr\u0119tom l\u0105dowym|Okr\u0119ty l\u0105dowe|Okr\u0119tami l\u0105dowymi|Okr\u0119tach l\u0105dowych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

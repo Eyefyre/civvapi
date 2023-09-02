@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "M\u00fcnzanstalt",
+    "game_info": "Jedes Gold- und Silbervorkommen, das von dieser Stadt bewirtschaftet wird, produziert +2 Gold.Die Stadt muss mindestens eine dieser Ressourcen abbauen.",
+    "strategy": "Die M\u00fcnzanstalt kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Gold oder Silber in der N\u00e4he verf\u00fcgen. Die M\u00fcnzanstalt steigert die Goldproduktion aller Gold- und Silber-Ressourcen, zu denen die Stadt Zugang hat.",
+    "historical_info": "Eine M\u00fcnzanstalt ist eine Einrichtung, in der die W\u00e4hrung einer Zivilisation produziert wird. In der Vergangenheit war das vor allem eine metallene W\u00e4hrung in Form von M\u00fcnzen, doch in modernen Zeiten besteht der Gro\u00dfteil der W\u00e4hrungen der Welt in Form von bedrucktem Papier. M\u00fcnzanstalten sind f\u00fcr die Wirtschaft einer Zivilisation extrem wichtig. Wenn die W\u00e4hrung einer Nation leicht gef\u00e4lscht werden kann, dann wird das auch geschehen und das Vertrauen in die Geldvorr\u00e4te dieser Nation wird sinken, was in einer gef\u00e4hrlichen Inflation, bei der der Wert einer W\u00e4hrung sinkt, oder Schlimmerem enden kann. Modernes Geld wird mit Hologrammen sowie verschiedenen Tinten gedruckt und mit Sicherheitsf\u00e4den versehen, um F\u00e4lschungen bestimmen zu k\u00f6nnen. Ohne Zweifel werden in Zukunft neue Ma\u00dfnahmen hinzukommen, wenn F\u00e4lscher Wege finden, bestehende zu kopieren.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/m\u00fcnzanstalt.png",
+    "prereq_tech": {
+        "name": "W\u00e4hrung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

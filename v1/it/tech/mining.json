@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Estrazione mineraria|dell'Estrazione mineraria",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mining.png",
+    "era": "Epoca antica",
+    "cost": 35,
+    "civilopedia_entry": "L'estrazione mineraria \u00e8 il processo con cui si estraggono diversi materiali utili dalla superficie terrestre. Fin dai tempi antichi sono stati estratti elementi come rame, ferro, diamanti, oro, argento, sale e carbone. Dal momento che non \u00e8 possibile mangiare quella roba (tranne il sale, naturalmente, che per\u00f2 da solo non costituisce una dieta equilibrata), i minatori devono far parte di una comunit\u00e0 che dispone di cibo in eccesso per supportare loro e le loro famiglie.La pi\u00f9 vecchia miniera scoperta dagli archeologi si trova in Swaziland, nel sud dell'Africa. Fu scavata 40.000 anni fa per estrarre ocra, un minerale usato nelle cerimonie funebri e per la pittura del corpo. \u00c8 possibile che il primo materiale estratto su larga scala in Europa sia stata la selce, un minerale fragile e facile da affilare utilizzato dagli uomini primitivi per realizzare raschietti, coltelli e punte di freccia. In Francia e Inghilterra sono state scoperte cave di selce, profonde una trentina di metri, che risalgono al neolitico (dall'8000 al 2000 a.C.).I minatori moderni sfruttano metodi diversi per estrarre una grande variet\u00e0 di materiali dal sottosuolo. Talvolta per estrarre il carbone vengono addirittura polverizzate le cime delle montagne. In Africa alcune grandi compagnie minerarie hanno scavato per chilometri nel sottosuolo in cerca di diamanti. Ma la risorsa che tutti cercano avidamente, con perforazioni in ogni dove - dal fondo degli oceani al permafrost ghiacciato del nord - \u00e8 il liquido pi\u00f9 prezioso, l'oro nero: il petrolio.",
+    "quote": "\"Gli umili erediteranno la terra, ma non i suoi diritti minerari.\" - J. Paul Getty",
+    "tech_prereqs": [
+        {
+            "name": "Agricoltura|dell'Agricoltura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Muratura|della Muratura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/masonry.json"
+        },
+        {
+            "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/bronze_working.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": []
+}

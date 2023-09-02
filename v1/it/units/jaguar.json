@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Guerriero giaguaro|un Guerriero giaguaro|dal tuo Guerriero giaguaro|al tuo Guerriero giaguaro|il tuo Guerriero giaguaro|da un Guerriero giaguaro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Unit\u00e0 militare piuttosto debole, disponibile nelle prima fasi del gioco. Solo gli aztechi possono costruirla. A differenza del Guerriero, che sostituisce, quest'unit\u00e0 combatte meglio nella giungla e cura i danni subiti ogni volta che uccide un'unit\u00e0 nemica.",
+    "historical_info": "Nella cultura azteca la guerra era non solo uno strumento politico, ma anche un vero e proprio rito religioso. Per ottenere prestigio i giovani dovevano catturare o uccidere diversi nemici, e la religione azteca richiedeva il sacrificio di un numero sempre crescente di prigionieri. I guerrieri giaguaro, soldati professionisti, erano gli elementi di spicco nell'esercito azteco. Vestiti di pelli di giaguaro e armati con le letali \"maquahuitl\", spade di legno costellate di affilatissime schegge d'ossidiana, i giaguari costituivano forse la fanteria leggera pi\u00f9 letale di tutta l'America del Nord e centrale precolombiana.",
+    "strategy": "Il Guerriero giaguaro \u00e8 un'unit\u00e0 esclusiva degli Aztechi e sostituisce il Guerriero. Il Guerriero giaguaro riceve un grosso bonus quando combatte nella Giungla. Inoltre, cura il danno subito quando distrugge unit\u00e0 nemiche e possiede la promozione Forestali, che gli permette di attraversare velocemente caselle di Foresta e Giungla.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus combat. in Foresta/Giungla (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Forestali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/woodsman.json"
+        },
+        {
+            "name": "Cura 25 punti se uccide un'altra unit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

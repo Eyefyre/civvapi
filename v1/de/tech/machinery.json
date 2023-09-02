@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "Maschinen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "Mittelalter",
+    "cost": 485,
+    "civilopedia_entry": "Eine Maschine ist ein Ger\u00e4t mit beweglichen Teilen (zumindest in der vorelektronischen Zeit), die Energie nutzt, um Arbeiten zu verrichten. Eine Druckerpresse ist ebenso eine Maschine wie ein Webstuhl, eine Uhr und nat\u00fcrlich eine Wasserm\u00fchle. Das Meistern von Maschinen erfordert F\u00e4higkeiten in Design und Ingenieurwissenschaft, doch ebenso die F\u00e4higkeit, Maschinenteile in exakten Abmessungen anzufertigen. Eine Dampfmaschine wird undicht sein, wenn sie schlecht zusammengebaut wird - und das auch nur, wenn sie nicht vorher explodiert. Das fr\u00fche Maschinenzeitalter war eine gef\u00e4hrliche Zeit, um in der N\u00e4he von Maschinen zu arbeiten. Wenn einen die D\u00e4mpfe nicht umbrachten, hatte man gute Chancen, verbr\u00fcht, in die Maschine gezogen oder in St\u00fccke gerissen zu werden.Andererseits errang eine Zivilisation, wenn sie erst komplizierte Maschinen zu meistern verstand, ungeheuren Wohlstand und Macht. Gro\u00dfbritannien st\u00fcrzte sich schnell in die Industrielle Revolution und so konnte die kleine Insel den Welthandel fast drei Jahrhunderte lang dominieren.",
+    "quote": "\"Die Presse ist das beste Instrument, den Geist des Menschen zu erleuchten und ihn als rationales, moralisches und soziales Wesen zu verbessern.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Maschinenbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+        },
+        {
+            "name": "Gilden",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Armbrustsch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/crossbowman.json"
+        },
+        {
+            "name": "Zhugenu-Sch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/chu-ko-nu.json"
+        },
+        {
+            "name": "Langbogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Eisenh\u00fctte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ironworks.json"
+        }
+    ]
+}

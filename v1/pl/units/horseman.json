@@ -1,0 +1,28 @@
+{
+    "id": 135,
+    "name": "Konnica|Konnicy|Konnicy|Konnic\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horseman.png",
+    "game_info": "Szybka i silna jednostka z pocz\u0105tku gry. S\u0142aba w walce z w\u0142\u00f3cznikami.",
+    "historical_info": null,
+    "strategy": null,
+    "movement": 4,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

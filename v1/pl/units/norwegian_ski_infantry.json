@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Narciarze norwescy|Narciarzy norweskich|Narciarzom norweskim|Narciarzy norweskich",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Silna l\u0105dowa jednostka frontowa specjalizuj\u0105ca si\u0119 w dzia\u0142aniach na \u015bniegu, w tundrze i na wzg\u00f3rzach. Mog\u0105 j\u0105 budowa\u0107 tylko Du\u0144czycy. Zast\u0119puje strzelc\u00f3w.",
+    "historical_info": "Ci nieustraszeni piechurzy du\u0144scy walczyli ze Szwedami w okresie Wojen Napoleo\u0144skich w latach 1807-1814. Szybko\u015bci\u0105 dor\u00f3wnywali lekkiej kawalerii, potrafili przedziera\u0107 si\u0119 przez g\u00f3ry i za\u015bnie\u017cone pola o wiele szybciej ni\u017c zwyk\u0142a piechota i kawalerzy\u015bci. Poza sprawnym przemieszczaniem si\u0119 przez zalesiony i skalisty teren, narciarze mogli te\u017c ci\u0105gn\u0105\u0107 wozy z zapasami, a nawet oddzia\u0142y \u017co\u0142nierzy, gdy podr\u00f3\u017c utrudnia\u0142 g\u0142\u0119boki \u015bnieg i brak dr\u00f3g. Ich pojawienie si\u0119 po raz pierwszy odnotowano oko\u0142o XIII wieku.Dzi\u015b formacje narciarzy wci\u0105\u017c znajduj\u0105 si\u0119 w du\u0144skiej marynarce wojennej, patroluj\u0105 rozleg\u0142e pustkowia p\u00f3\u0142nocnej i wschodniej Grenlandii, gdzie panuj\u0105 warunki zbyt trudne dla innych \u015brodk\u00f3w transportu. W Norwegii ka\u017cdy \u017co\u0142nierz jest szkolony w walce na nartach i w\u0142a\u015bnie dzi\u0119ki tym \u0107wiczeniom narodzi\u0142 si\u0119 biatlon sportowy.",
+    "strategy": "Norwescy narciarze to jedna z dw\u00f3ch unikatowych jednostek du\u0144skich, zast\u0119puj\u0105ca strzelc\u00f3w. Porusza si\u0119 z podw\u00f3jn\u0105 szybko\u015bci\u0105 w tundrze, na \u015bniegu i na wzg\u00f3rzach. Zyskuje premi\u0119 +25% do walki w tundrze, na \u015bniegu i na wzg\u00f3rzach, je\u015bli nie ma na nich lasu lub d\u017cungli.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia na \u015bniegu, w tundrze i na wzg\u00f3rzach",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

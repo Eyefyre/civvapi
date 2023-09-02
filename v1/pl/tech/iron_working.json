@@ -1,0 +1,49 @@
+{
+    "id": 21,
+    "name": "Obr\u00f3bka \u017celaza|Obr\u00f3bki \u017celaza|Obr\u00f3bce \u017celaza|Obr\u00f3bk\u0119 \u017celaza",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/iron_working.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 175,
+    "civilopedia_entry": "Obr\u00f3bka \u017celaza jest starsza ni\u017c historia. Pierwsze \u017celazo pochodzi\u0142o prawdopodobnie z meteoryt\u00f3w. Kiedy nie mo\u017cna by\u0142o znale\u017a\u0107 tego u\u017cytecznego materia\u0142u, staro\u017cytni prawdopodobnie szukali innych, podobnych surowc\u00f3w. Wytapianie \u017celaza \u2013 pozyskiwanie metalu z rudy \u017celaza \u2013 zosta\u0142o odkryte prawdopodobnie w XII w.p.n.e. na Kaukazie w Azji Mniejszej albo w Indiach. Produkcja kutego \u017celaza to wynalazek z mniej wi\u0119cej 1000 r.p.n.e.Najstarsze przedmioty wykonane z \u017celaza meteorytowego pochodz\u0105 ze staro\u017cytnego Egiptu i Sumerii, z 4000 r.p.n.e. W tamtych czasach \u017celazo by\u0142o niezwykle rzadko spotykane, historycy przypuszczaj\u0105, \u017ce mog\u0142o by\u0107 cenniejsze od z\u0142ota.Do XII w.p.n.e., \u017celazo zast\u0105pi\u0142o br\u0105z jako materia\u0142, z kt\u00f3rego wytwarzano narz\u0119dzia i bro\u0144 we wschodniej cz\u0119\u015bci basenu Morza \u015ar\u00f3dziemnego. \u017belazo z tamtego okresu nie by\u0142o lepszym metalem ni\u017c br\u0105z, ale by\u0142o go wi\u0119cej i znajdowano go w wielu miejscach, gdzie nie wyst\u0119powa\u0142y cyna i mied\u017a, przez co by\u0142o znacznie ta\u0144sze.\u201eWsp\u00f3\u0142czesna\u201d stal zosta\u0142a po raz pierwszy wyprodukowana w czasach prehistorycznych, ale technologi\u0119 masowej produkcji opracowano dopiero w XVII wieku. Kiedy stal sta\u0142a si\u0119 tania i powszechna, zast\u0105pi\u0142a \u017celazo w wi\u0119kszo\u015bci zastosowa\u0144.",
+    "quote": "\u201eNie czekaj z kuciem, a\u017c \u017celazo b\u0119dzie gor\u0105ce; uderzaj, by je rozgrza\u0107.\u201d \u2013 William Butler Yeats",
+    "tech_prereqs": [
+        {
+            "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Zbrojni|Zbrojnych|Zbrojnym|Zbrojnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/swordsman.json"
+        },
+        {
+            "name": "Wojownicy Mohawk\u00f3w|Wojownik\u00f3w Mohawk\u00f3w|Wojownikom Mohawk\u00f3w|Wojownik\u00f3w Mohawk\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/mohawk_warrior.json"
+        },
+        {
+            "name": "Legiony|Legion\u00f3w|Legionom|Legiony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/legion.json"
+        },
+        {
+            "name": "Wojownicy z krisami|Wojownik\u00f3w z krisami|Wojownikom z krisami|Wojownik\u00f3w z krisami|Wojownikami z krisami|Wojownikach z krisami",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/kris_swordsman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Epos|Eposu|Eposowi|Epos|Eposy|Epos\u00f3w|Eposom|Eposy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/heroic_epic.json"
+        },
+        {
+            "name": "Kolos|Kolosa|Kolosowi|Kolosa",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/colossus.json"
+        }
+    ]
+}

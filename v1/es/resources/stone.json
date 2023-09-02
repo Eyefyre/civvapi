@@ -1,0 +1,49 @@
+{
+    "id": 13,
+    "name": "Piedra",
+    "game_info": null,
+    "historical_info": "La piedra, alojada en la corteza y la parte superior del manto terrestre, se trata quiz\u00e1 del elemento que m\u00e1s importancia ha tenido a lo largo de la historia de las construcciones humanas. Hay tres clasificaciones principales de la piedra seg\u00fan su origen: sedimentaria, \u00edgnea y metam\u00f3rfica.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/piedra.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Cantera|Canteras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/nieve|nieves.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

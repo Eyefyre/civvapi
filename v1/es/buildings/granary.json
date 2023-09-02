@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Granero|Graneros",
+    "game_info": "Cada fuente de Trigo , Pl\u00e1tanos y Ciervos que explote la ciudad proporciona +1 a Alimentos .Permite mover Alimentos de esta ciudad por las rutas comerciales que haya dentro de tu civilizaci\u00f3n.",
+    "strategy": "El Granero aumenta el flujo de Alimentos de una ciudad, lo que acelera su crecimiento. Es \u00fatil cuando quieres crear una gran ciudad r\u00e1pidamente.",
+    "historical_info": "El granero es un edificio dise\u00f1ado con el objeto de almacenar grano para su consumo por humanos o ganado. Los graneros m\u00e1s antiguos fueron descubiertos en un enclave neol\u00edtico del valle del Jordania y datan aproximadamente del 9500 a. C. Estos primeros graneros med\u00edan unos tres metros cuadrados. Consist\u00edan en suelos elevados que permit\u00edan la circulaci\u00f3n del aire y ofrec\u00edan cierta protecci\u00f3n al grano frente a los ratones y otras amenazas.",
+    "cost": {
+        "production": 60,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/granero|graneros.png",
+    "prereq_tech": {
+        "name": "Alfarer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

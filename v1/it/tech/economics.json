@@ -1,0 +1,44 @@
+{
+    "id": 39,
+    "name": "Economia|dell'Economia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/economics.png",
+    "era": "Epoca rinascimentale",
+    "cost": 1150,
+    "civilopedia_entry": "L'economia \u00e8 lo studio del denaro, o pi\u00f9 precisamente della \"produzione, distribuzione e consumo di beni e servizi\". Anche se nei tempi antichi poteva accadere che alcuni beni fossero scambiati mediante baratto, negli ultimi millenni la maggior parte degli scambi \u00e8 stata regolata utilizzando il denaro.L'economia moderna \u00e8 nata nel 1776, quando il filosofo scozzese Adam Smith ha pubblicato il testo fondamentale \"La ricchezza delle nazioni\". Nel suo libro Smith sostiene che il libero mercato \u00e8 il modo pi\u00f9 efficiente per assegnare un valore a beni e servizi e per distribuirli. Un mercato totalmente libero, afferma Smith, produrr\u00e0 automaticamente la giusta quantit\u00e0 di beni al giusto prezzo. Qualsiasi interferenza o regolamentazione imposta del governo distorce il mercato, rendendolo meno efficiente e aumentando gli sprechi. Smith sosteneva che ognuno deve perseguire i propri interessi personali, perch\u00e9 quando una persona si sforza di migliorare la propria condizione sta automaticamente promuovendo il benessere della societ\u00e0 in generale. In altre parole, l'opinione di Smith era che il capitalismo puro fosse la migliore forma economica disponibile a una civilt\u00e0.Nei suoi confronti non mancarono i detrattori: dopo di lui molti economisti hanno cercato di modificare le sue tesi e alcuni le hanno rigettate completamente. Nel XIX secolo Karl Marx scrisse \"Das Kapital. Kritik der politischen Okonomie\" (Il Capitale: Critica dell'economia politica), in cui affermava che la forza trainante del capitalismo \u00e8 lo sfruttamento dei lavoratori da parte dei loro padroni.Smith \u00e8 considerato il padre del capitalismo moderno, Marx del comunismo. I loro successori non hanno ancora smesso di litigare.",
+    "quote": "\"L'interesse composto \u00e8 la forza pi\u00f9 potente dell'universo.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Sistema bancario|del Sistema bancario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+        },
+        {
+            "name": "Tipografia|della Tipografia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teoria scientifica|della Teoria scientifica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+        },
+        {
+            "name": "Industrializzazione|dell'Industrializzazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/industrialization.json"
+        },
+        {
+            "name": "Rigatura delle canne|della Rigatura delle canne",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mulino a vento|il Mulino a vento|un Mulino a vento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/windmill.json"
+        },
+        {
+            "name": "Sala da caff\u00e8|la Sala da caff\u00e8|una Sala da caff\u00e8",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/coffee_house.json"
+        }
+    ]
+}

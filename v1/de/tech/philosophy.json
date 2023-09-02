@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Philosophie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "Klassik",
+    "cost": 175,
+    "civilopedia_entry": "Philosophie studiert die Realit\u00e4t und den Platz, den der Mensch darin einnimmt. Das Wort stammt vom griechischen Wort \"philosoph\u00eda\", was Liebe zur Weisheit bedeutet. Sie unterscheidet sich insofern von der Religion, welche versucht, ein \u00fcbernat\u00fcrliches System zu verstehen und zu definieren, dass die Philosophie einen Schritt zur\u00fcck geht und infrage stellt, ob ein solches \u00fcbernat\u00fcrliches System \u00fcberhaupt existiert. Die Philosophie besch\u00e4ftigt sich mit Logik, Sterblichkeit, Beobachtung, Realismus, Gl\u00fcck, Leben, Tod und allen anderen gro\u00dfen Fragen.In der westlichen Zivilisation gelten die Griechen im Allgemeinen als Erfinder der Philosophie. Im 6. Jahrhundert v. Chr. war Thales von Milet der Erste, von dem bekannt ist, dass er eine rein nat\u00fcrliche, nicht-religi\u00f6se Erkl\u00e4rung zur Entstehung der Welt formulierte. Er glaubte, dass alles aus dem Wasser stammte. Diese Theorie st\u00fctzte er auf Fossilienfunde von Meerestieren tief im Landesinneren. Diese Erkl\u00e4rung erforderte kein kreatives Eingreifen eines \u00fcbernat\u00fcrlichen Wesens, sondern war das Ergebnis nat\u00fcrlicher Umst\u00e4nde. Sp\u00e4tere Philosophen f\u00fchrten diese grundlegende Theorie dann weiter aus - ausgenommen nat\u00fcrlich jene, die bestritten, dass \u00fcberhaupt etwas existiert und jene, die behaupteten, die Welt w\u00e4re nur ein Spiegelbild eines anderen Ortes und so weiter. Das Problem bei der Untersuchung der Realit\u00e4t ist, dass alles immer verwirrender wird, je weiter man forscht.Im Optimalfall bietet die Philosophie Werkzeuge, mit denen Philosophen die Welt beobachten und einsch\u00e4tzen k\u00f6nnen und \u00fcber Dinge nachdenken k\u00f6nnen, die vorher noch nie \u00fcberdacht wurden. Wie jedes andere Werkzeug kann sie zum Guten oder zum B\u00f6sen eingesetzt werden, aber wenigstens versucht die Philosophie, eine intellektuelle Struktur zu bieten, anhand derer man entscheiden kann, was gut und was b\u00f6se ist.",
+    "quote": "\"Es gibt nur ein einziges Gut f\u00fcr den Menschen: Die Wissenschaft. Und nur ein einziges \u00dcbel: Die Unwissenheit.\" - Sokrates",
+    "tech_prereqs": [
+        {
+            "name": "Kalender",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/calendar.json"
+        },
+        {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Lehmmoschee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Grabst\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/burial_tomb.json"
+        },
+        {
+            "name": "Tempel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/temple.json"
+        },
+        {
+            "name": "Staatliche Hochschule",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/national_college.json"
+        },
+        {
+            "name": "Orakel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/oracle.json"
+        }
+    ]
+}

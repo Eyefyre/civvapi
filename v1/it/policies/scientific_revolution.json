@@ -1,0 +1,20 @@
+{
+    "id": 70,
+    "name": "Rivoluzione scientifica",
+    "game_info": "Rivoluzione scientificaIncrementa del 50% la Scienza ottenuta dagli Accordi di ricerca.",
+    "historical_info": "Una rivoluzione scientifica \u00e8 un periodo in cui i rapidi avanzamenti nella conoscenza umana o nella tecnologia rovesciano la visione del mondo tradizionale, scatenando come risultato ulteriori scoperte e sviluppi del pensiero. Gran parte dell'Europa ha attraversato una rivoluzione scientifica nel XVI secolo in seguito alla pubblicazione delle opere di Niccol\u00f2 Copernico, \"Le rivoluzioni dei corpi celesti\", e di Andrea Vesalio, \"Sette libri sul modo in cui \u00e8 costituito il corpo umano\". Entrambi i lavori, basati su un metodo per l'epoca scientifico, hanno confutato teorie precedenti non corrette che in alcuni casi risalivano addirittura all'Antica Grecia. Il successo di questi libri diede il via a una serie di grandi scoperte: gli scienziati cominciarono a esaminare con cura il mondo che li circondava e nei secoli successivi la conoscenza umana crebbe esponenzialmente.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/rivoluzione_scientifica.png",
+    "required_policies": [
+        {
+            "name": "Sovranit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/sovereignty.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Razionalismo",
+        "game_info": "Il Razionalismo aumenta la capacit\u00e0 di generare e utilizzare Scienza.Adottare il Razionalismo fornisce +10% Scienza quando l'impero \u00e8 Felice. Sblocca la costruzione della Torre di porcellana.Adottare tutte le Politiche nell'albero del Razionalismo ti fa ottenere una tecnologia gratuita; inoltre permette l'acquisto di Grandi Scienziati in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca rinascimentale",
+        "historical_info": "Il razionalismo \u00e8 una visione del mondo che fa ricorso alla ragione (anzich\u00e9, per esempio, alla fede) per spiegare i fenomeni naturali. Chi segue il razionalismo crede che la ragione sia l'unico modo di interpretare il mondo, a partire dalle informazioni raccolte dai cinque sensi. Questa filosofia, che si pu\u00f2 far risalire all'Antica Grecia e alla grande figura di Socrate, ha vissuto una grande rinascita in Europa nei secoli XVI e XVII grazie al pensiero di uomini come Cartesio, Spinoza e Kant."
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dynamite",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "Industrial Era",
+    "cost": 2350,
+    "civilopedia_entry": "Dynamite is an explosive material invented by Swedish chemist and engineer Alfred Nobel in 1867. Dynamite is created by soaking an absorbent material like diatomaceous earth (interestingly, the same material used in many pool filters) in nitroglycerin. Nitroglycerin is an extremely powerful but terrifyingly unstable explosive; dynamite is less powerful but a lot more stable.Dynamite is primarily used in mining and construction. Historically, it has been used in military applications, but the explosive component nitroglycerin remains too unstable for the rather volatile conditions found in a battlefield, so generally militaries prefer a modified product called \"military dynamite\" which contains no nitroglycerin but instead uses other chemicals including TNT to create a product which is 60% less powerful but much less apt to explode when it's not supposed to.",
+    "quote": "\"As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.\" - Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "Fertilizer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/fertilizer.json"
+        },
+        {
+            "name": "Military Science",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Railroad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artillery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

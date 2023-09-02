@@ -1,0 +1,41 @@
+{
+    "id": 52,
+    "name": "Refrigeration",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/refrigeration.png",
+    "era": "Modern Era",
+    "cost": 3100,
+    "civilopedia_entry": "Refrigeration is the process of removing heat from an enclosed space or from a substance. The primary purpose for refrigeration has always been to preserve food, with air conditioning a strong second in developed nations in the latter decades of the 20th century.Before mechanical methods were invented, many wealthier cultures refrigerated their foodstuffs in cellars insulated with straw, using ice brought down from mountains. Ancient India and Egypt used evaporative cooling, in which large shallow trays were filled with water. As the water evaporated, the remaining water in the tray cooled rapidly. In fact, a well-designed evaporative system could be used to create ice, even in the warmest climates.Mechanical refrigeration relies on the cooling effect of the rapid expansion of gas, typically Freon or some other inert substance. The first known artificial refrigeration was demonstrated in 1748 in Scotland by William Cullen, but it would be over a century before an American, Alexander C. Twinning, would create the first practical commercial application of refrigeration in 1856. Several years later refrigerators were introduced in the meatpacking and brewing industries, and by 1914 their use was widespread. By the middle of the 20th century mechanical refrigeration trucks replaced the old ice-carrying vehicles. Home-use refrigerators were introduced in the 1920s, and by 1950 \"ice boxes\" were all but extinct.The modern air conditioner was invented in 1902 by Willis Carrier in Buffalo, New York. Originally used to keep the air at a specific temperature in factories where delicate manufacturing processes took place, by the 1920s the size and expense of the units had declined significantly, to the point where they began to be installed in movie theatres in large numbers. Window units began to appear in American houses following World War II, and by the '50s over a million units were installed across the country.Often taken for granted, refrigeration is one of the most important technological innovations in human history, and much of modern life would be impossible - or at least a lot sweatier - without it.",
+    "quote": "\"And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.\" - William Wordsworth",
+    "tech_prereqs": [
+        {
+            "name": "Electricity",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+        },
+        {
+            "name": "Biology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/biology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/penicillin.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Submarine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Stadium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/stadium.json"
+        },
+        {
+            "name": "Hotel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hotel.json"
+        }
+    ]
+}

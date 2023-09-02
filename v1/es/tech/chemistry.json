@@ -1,0 +1,32 @@
+{
+    "id": 41,
+    "name": "Qu\u00edmica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chemistry.png",
+    "era": "Renacimiento",
+    "cost": 1150,
+    "civilopedia_entry": "La qu\u00edmica, nacida de la alquimia y las matem\u00e1ticas, es la ciencia de la materia, su estructura, funcionamiento, composici\u00f3n y de su comportamiento durante las reacciones. Los f\u00edsicos dejan caer bolas de una torre y cronometran cu\u00e1nto tardan en llegar al suelo. Tambi\u00e9n estudian las propias bolas e intentan dilucidar por qu\u00e9 algunas se rompen y otras rebotan.Aunque cient\u00edficos, m\u00e9dicos y fil\u00f3sofos han estado interesados en la qu\u00edmica durante toda la historia, \u00e9sta adquiri\u00f3 el digno estatus de ciencia cuando, en 1789, Antoine Lavoisier public\u00f3 una obra en la que detallaba la ley de la conservaci\u00f3n de la masa. En \"Tratado elemental de qu\u00edmica\" Lavoisier descubri\u00f3 la composici\u00f3n del aire y el agua, y acu\u00f1\u00f3 el t\u00e9rmino \"ox\u00edgeno\". Tambi\u00e9n refut\u00f3 la teor\u00eda del flogisto, que hab\u00eda estado confundiendo a los cient\u00edficos durante cien a\u00f1os.Se considera que Lavoisier es el padre de la qu\u00edmica moderna. Su ejemplo llev\u00f3 a otros colegas a emplear m\u00e9todos cient\u00edficos para estudiar los productos qu\u00edmicos. Con ello, pudieron refutar teor\u00edas que se hab\u00edan tenido como verdades inamovibles desde que las formularan los griegos, miles de a\u00f1os antes.",
+    "quote": "\"All\u00e1 donde miremos, la obra de la qu\u00edmica ha llevado a nuestra civilizaci\u00f3n a nuevas cotas y ha aumentado la capacidad productiva de la naci\u00f3n.\" - Calvin Coolidge",
+    "tech_prereqs": [
+        {
+            "name": "P\u00f3lvora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Belicolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+        },
+        {
+            "name": "Fertilizante",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/fertilizer.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ca\u00f1\u00f3n|Ca\u00f1ones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/cannon.json"
+        }
+    ],
+    "building_unlocks": []
+}

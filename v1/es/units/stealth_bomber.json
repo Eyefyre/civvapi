@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Bombardero invisible|Bombarderos invisibles",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "Una unidad a\u00e9rea de largo alcance que siembra la muerte sobre unidades terrestres y mar\u00edtimas.",
+    "historical_info": "A medida que la tecnolog\u00eda de misiles antia\u00e9reos ha evolucionado, tambi\u00e9n lo ha hecho el dise\u00f1o de los bombarderos t\u00e1cticos y estrat\u00e9gicos. Una manera de evitar que el enemigo te derribe es permanecer invisible a su radar y a otros dispositivos de rastreo. Los bombarderos invisibles modernos est\u00e1n construidos de recios materiales compuestos, especialmente recubiertos de materiales antirradar, y su forma les permite desviar el radar. Puede llevar bombas at\u00f3micas o normales. Aunque son muy eficaces, tambi\u00e9n resultan asombrosamente caros: cada bombardero invisible B-2 estadounidense cuesta aproximadamente mil millones de d\u00f3lares de Estados Unidos, m\u00e1s que suficiente para pagar la deuda externa de casi cualquier naci\u00f3n del mundo que no sea una superpotencia.",
+    "strategy": "El Bombardero invisible es un bombardero modernizado que tiene un mayor alcance, m\u00e1s Fuerza de combate y una capacidad m\u00e1s grande de eludir a los cazas y aviones enemigos. Tiene la capacidad de reconocimiento a\u00e9reo, lo que significa que todo lo que tenga a 6 casillas de distancia ser\u00e1 visible al empezar el turno. Ten en cuenta que no puede llevarse en un Portaaviones. Consulta las reglas sobre Aviones para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Invisibilidad ante el radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasi\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Reconocimiento a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_recon.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Tour de radiodiffusion|Tours de radiodiffusion",
+    "game_info": " Culture par tour de la ville +33%. La ville doit poss\u00e9der un mus\u00e9e.",
+    "strategy": "B\u00e2timent de fin de jeu, la tour de radiodiffusion augmente de 33% la production de culture de la ville o\u00f9 elle se trouve. Votre ville doit d\u00e9j\u00e0 poss\u00e9der un mus\u00e9e pour que vous puissiez y construire une tour de radiodiffusion.",
+    "historical_info": "La tour de radiodiffusion sert \u00e0 transmettre un signal de communication (radio, t\u00e9l\u00e9vision, etc.) dans les airs, permettant au signal d'\u00eatre capt\u00e9 par des receveurs situ\u00e9s \u00e0 plusieurs kilom\u00e8tres \u00e0 la ronde. La caract\u00e9ristique essentielle d'une tour de radiodiffusion r\u00e9side dans sa hauteur : plus le r\u00e9cepteur est plac\u00e9 haut, plus le message pourra \u00eatre envoy\u00e9 loin. L'Empire State Building, \u00e0 Manhattan, fait office de tour de radiodiffusion depuis 1931. Suite \u00e0 la chute des tours du World Trade Center en 2001, l'Empire State Building est redevenu le site principal de transmission de New York, transmettant les signaux de pratiquement toutes les stations de la ville.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tour_de_radiodiffusion|tours_de_radiodiffusion.png",
+    "prereq_tech": {
+        "name": "Radio",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radio.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

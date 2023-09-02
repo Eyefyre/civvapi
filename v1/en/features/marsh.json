@@ -1,0 +1,35 @@
+{
+    "id": 3,
+    "name": "Marsh",
+    "historical_info": "Although rich in biodiversity, marshes have little to offer a hungry growing civilization, as they must be drained or otherwise altered before they provide any city bonuses. Note that military units in marshes receive a significant PENALTY when attacked.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/marsh.png",
+    "movement_cost": 3,
+    "combat_modifier": -15,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": -1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Sugar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+        },
+        {
+            "name": "Truffles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+        }
+    ]
+}

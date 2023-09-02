@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Colosseum",
+    "game_info": "The Colosseum increases a civilization's Happiness. It cannot provide more Happiness than there are Citizens in a city.",
+    "strategy": "The Colosseum increases a civilization's Happiness. It cannot provide more Happiness than there are Citizens in a city.",
+    "historical_info": "A colosseum is an outdoor venue where the public can watch sports events. Depending upon the time and place, the events might be gladiatorial contests, American football games, or soccer matches. Of the three contests mentioned, the gladiatorial battles were perhaps the hardest on the players involved, the soccer matches (occasionally) just about as dangerous for the participants.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/colosseum.png",
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

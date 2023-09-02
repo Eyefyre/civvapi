@@ -1,0 +1,42 @@
+{
+    "id": 7,
+    "name": "Puesto comercial|Puestos comerciales",
+    "game_info": "Los puestos comerciales son puestos de avanzada en los que cazadores y tramperos venden su g\u00e9nero a los ciudadanos a cambio de alimentos, whisky, oro y toda clase de pertrechos. Pueden generar mucha riqueza para una sociedad.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/puesto_comercial|puestos_comerciales.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Gremios",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/guilds.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "W\u00fcste",
+    "historical_info": "W\u00fcsten-Gel\u00e4ndefelder bieten f\u00fcr gew\u00f6hnlich sehr wenig Nutzen. Sie verschaffen St\u00e4dten keine Vorteile (au\u00dfer nat\u00fcrlich, es befindet sich eine Oase oder Ressource in der W\u00fcste oder wenn es einen direkten Zugang zu Frischwasser gibt).",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/w\u00fcste.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oase",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/oasis.json"
+        },
+        {
+            "name": "Schwemmland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Schafe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+        },
+        {
+            "name": "Stein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+        },
+        {
+            "name": "Gold",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+        },
+        {
+            "name": "Silber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silver.json"
+        },
+        {
+            "name": "Edelsteine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+        },
+        {
+            "name": "Marmor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+        },
+        {
+            "name": "Baumwolle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+        },
+        {
+            "name": "R\u00e4ucherwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/incense.json"
+        },
+        {
+            "name": "Kupfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+        },
+        {
+            "name": "Salz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+        }
+    ]
+}

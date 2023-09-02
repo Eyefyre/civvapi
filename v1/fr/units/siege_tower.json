@@ -1,0 +1,43 @@
+{
+    "id": 126,
+    "name": "Tour de si\u00e8ge|Tours de si\u00e8ge",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/siege_tower.png",
+    "game_info": "Exclusive aux Assyriens, cette puissante unit\u00e9 de si\u00e8ge de combat rapproch\u00e9 rapporte un bonus d'attaque de villes aux unit\u00e9s \u00e0 proximit\u00e9 lorsqu'elle se trouve sur une case adjacente \u00e0 une ville ennemie.",
+    "historical_info": "Les plus anciennes tours de si\u00e8ge connues remontent au IXe si\u00e8cle av. J.-C., \u00e0 l'\u00e9poque o\u00f9 elles \u00e9taient utilis\u00e9es par les arm\u00e9es de l'Empire n\u00e9o-assyrien. Les bas-reliefs datant du r\u00e8gne d'Assurbanipal\u00a0II repr\u00e9sentent des tours de si\u00e8ge au pied des murs de villes ennemies. \u00c0 cette p\u00e9riode, les murs de boue constituaient une protection g\u00e9n\u00e9ralement suffisante contre les arm\u00e9es de M\u00e9sopotamie. Les tours de si\u00e8ge utilis\u00e9es par les Assyriens leur permettaient n\u00e9anmoins d'engloutir rapidement et efficacement des villes ennemies. L'Empire assyrien disposa ainsi d'un moyen quasiment imbattable pour repousser ses fronti\u00e8res pendant trois si\u00e8cles.",
+    "strategy": "Cette unit\u00e9 de si\u00e8ge de combat rapproch\u00e9 doit se trouver sur une case adjacente \u00e0 une ville ennemie pour \u00eatre efficace, mais une fois en position, elle d\u00e9ploie des attaques d\u00e9vastatrices. Elle dispose d'une importante puissance de frappe et conf\u00e8re par ailleurs un bonus \u00e0 toutes vos unit\u00e9s \u00e0 proximit\u00e9 attaquant elles aussi la ville. Associez des unit\u00e9s d'attaque \u00e0 distance ou de combat rapproch\u00e9 \u00e0 votre tour de si\u00e8ge et assurez-vous qu'elle atteigne sa cible avant d'\u00eatre d\u00e9truite\u00a0; les villes tomberont ainsi beaucoup plus rapidement\u00a0!",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Math\u00e9matiques",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/sapper.json"
+        },
+        {
+            "name": "Bonus contre les villes (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Couverture I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cover_i.json"
+        },
+        {
+            "name": "Attaque de villes uniquement",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/city_attack_only.json"
+        },
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        }
+    ]
+}

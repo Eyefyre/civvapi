@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Sepolcro|il Sepolcro|un Sepolcro",
+    "game_info": "Non richiede Oro per il mantenimento.Se la citt\u00e0 dovesse essere catturata, la quantit\u00e0 di Oro saccheggiato sar\u00e0 doppia.",
+    "strategy": "Il Sepolcro \u00e8 un edificio di epoca classica che aumenta la Felicit\u00e0 nella citt\u00e0 senza alcun costo di mantenimento. Tuttavia, se una citt\u00e0 con un Sepolcro viene catturata da una civilt\u00e0 nemica, quest'ultima guadagner\u00e0 una quantit\u00e0 d'oro doppia. Sostituisce il Tempio.",
+    "historical_info": "Gli egizi hanno elevato il culto degli antenati ad altezze mai pi\u00f9 raggiunte nella storia dell'umanit\u00e0. Gran parte della ricchezza e dell'energia creativa della loro civilt\u00e0 \u00e8 stata dedicata alla costruzione di sepolcri per i defunti. Molte tombe ciclopiche si possono ancora ammirare nella valle dei Re, sul Nilo, vicino a Tebe. Spesso nelle tombe veniva racchiusa una parte delle ricchezze dei defunti, un costume che fece di loro un obiettivo privilegiato di ladri e saccheggiatori nel corso della storia.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/sepolcro|il_sepolcro|un_sepolcro.png",
+    "prereq_tech": {
+        "name": "Filosofia|della Filosofia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Biblioth\u00e8que|Biblioth\u00e8ques",
+    "game_info": "2 citoyens dans cette ville = science +1.",
+    "strategy": "La biblioth\u00e8que augmente la production de science de la ville o\u00f9 elle se trouve, augmentant la vitesse \u00e0 laquelle la civilisation acquiert de nouvelles technologies.",
+    "historical_info": "Une biblioth\u00e8que est un \u00e9tablissement h\u00e9bergeant une vaste collection de livres, parchemins et autres documents \u00e9crits. \u00c0 l'origine, les livres \u00e9taient des produits on\u00e9reux, bien trop chers pour les bourses des classes ouvri\u00e8res. La biblioth\u00e8que permet donc \u00e0 tout le monde, y compris aux plus pauvres, d'acc\u00e9der aux connaissances que renferment les livres, am\u00e9liorant ainsi leur culture g\u00e9n\u00e9rale et leurs chances d'\u00e9volution sociale ou professionnelle.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/biblioth\u00e8que|biblioth\u00e8ques.png",
+    "prereq_tech": {
+        "name": "\u00c9criture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/writing.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

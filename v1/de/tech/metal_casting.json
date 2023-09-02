@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Metallguss",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "Mittelalter",
+    "cost": 275,
+    "civilopedia_entry": "Metallguss ist der Prozess, bei dem ein Handwerker Objekte herstellen kann, indem er geschmolzenes Metall in eine Form gie\u00dft. Eine der \u00e4ltesten Methoden ist das Wachsausschmelzverfahren, das auf das 3. Jahrtausend v. Chr. zur\u00fcckdatiert. Bei diesem Verfahren erstellt der Handwerker ein Modell des gew\u00fcnschten Objekts aus Wachs, um das herum die Form geschaffen wird. Das Wachs wird dann geschmolzen und flie\u00dft ab, woraufhin geschmolzenes Metall in die Form hineingegossen wird. Sobald das Metall abgek\u00fchlt ist, wird die Form ge\u00f6ffnet und das Objekt kann entfernt werden.In der Geschichte waren Sand und Ton beliebte Materialien, um Formen herzustellen. Sp\u00e4ter wurden Formen aus Plastik oder latex\u00e4hnlichen Materialien hergestellt.",
+    "quote": "\"Wenn St\u00fccke von Bronze oder Gold brechen, f\u00fcgt der Schmied sie im Feuer wieder zusammen und das Band ist gekn\u00fcpft.\" - Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Maschinenbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+        },
+        {
+            "name": "Eisenverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Physik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/physics.json"
+        },
+        {
+            "name": "Stahl",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Langhaus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/longhouse.json"
+        },
+        {
+            "name": "Schmiede",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/forge.json"
+        },
+        {
+            "name": "Werkstatt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/workshop.json"
+        }
+    ]
+}

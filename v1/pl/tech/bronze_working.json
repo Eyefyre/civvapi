@@ -1,0 +1,61 @@
+{
+    "id": 12,
+    "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/bronze_working.png",
+    "era": "Staro\u017cytno\u015b\u0107|Staro\u017cytno\u015bci|Staro\u017cytno\u015bci|Staro\u017cytno\u015b\u0107",
+    "cost": 55,
+    "civilopedia_entry": "Br\u0105z to metal b\u0119d\u0105cy stopem miedzi i cyny. Jest on twardszy i wytrzymalszy od ka\u017cdego ze sk\u0142adnik\u00f3w oraz jest \u0142atwiejszy do wytopu i odlewania (np. wylewania do form, by otrzyma\u0107 groty w\u0142\u00f3czni i inne u\u017cyteczne przedmioty). Mied\u017a by\u0142a prawdopodobnie u\u017cywana ju\u017c w Egipcie ponad 5 tys. lat p.n.e. Pierwsze \u015bwiadectwa u\u017cywania br\u0105zu pojawiaj\u0105 si\u0119 jakie\u015b 1300 lat p\u00f3\u017aniej w formie br\u0105zowego pr\u0119ta znalezionego w piramidzie, datowanego na rok 3700 p.n.e. W Azji br\u0105z pojawi\u0142 si\u0119 znacznie p\u00f3\u017aniej, oko\u0142o 1500 roku p.n.e., a w Amerykach jeszcze p\u00f3\u017aniej, pomi\u0119dzy 100 a 200 rokiem n.e.",
+    "quote": "\u201eHektor mia\u0142 Trojan rad\u0119 nad Skamandru rzek\u0105; Zsiedli z woz\u00f3w, s\u0142uchali s\u0142\u00f3w z ust Pryjamida. Jedenasto\u0142okciowa w r\u0119ku jego dzida, B\u0142yszczy si\u0119 ostrze z\u0142otym obj\u0119te pier\u015bcieniem.\u201d \u2013 Homer",
+    "tech_prereqs": [
+        {
+            "name": "G\u00f3rnictwo|G\u00f3rnictwa|G\u00f3rnictwu|G\u00f3rnictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Obr\u00f3bka \u017celaza|Obr\u00f3bki \u017celaza|Obr\u00f3bce \u017celaza|Obr\u00f3bk\u0119 \u017celaza",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/iron_working.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "W\u0142\u00f3cznicy|W\u0142\u00f3cznik\u00f3w|W\u0142\u00f3cznikom|W\u0142\u00f3cznik\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/spearman.json"
+        },
+        {
+            "name": "Hoplici|Hoplit\u00f3w|Hoplitom|Hoplit\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/hoplite.json"
+        },
+        {
+            "name": "Nie\u015bmiertelni|Nie\u015bmiertelnych|Nie\u015bmiertelnym|Nie\u015bmiertelnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/immortal.json"
+        },
+        {
+            "name": "Wojownicy piktyjscy|Wojownik\u00f3w piktyjskich|Wojownikom piktyjskim|Wojownik\u00f3w piktyjskich",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/pictish_warrior.json"
+        },
+        {
+            "name": "Taran|Tarana|Taranowi|Taran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/battering_ram.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Twierdza|Twierdzy|Twierdzy|Twierdz\u0119|Twierdze|Twierdz|Twierdzom|Twierdze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/krepost.json"
+        },
+        {
+            "name": "Koszary|Koszar|Koszarom|Koszary",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/barracks.json"
+        },
+        {
+            "name": "Pos\u0105g Zeusa|Pos\u0105gu Zeusa|Pos\u0105gowi Zeusa|Pos\u0105g Zeusa",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/statue_of_zeus.json"
+        },
+        {
+            "name": "Ikanda|Ikand\u0119|Ikandzie|Ikand\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ikanda.json"
+        }
+    ]
+}

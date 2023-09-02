@@ -1,0 +1,24 @@
+{
+    "id": 64,
+    "name": "Protekcjonizm",
+    "game_info": "Protekcjonizm+2 do zadowolenia za ka\u017cdy surowiec luksusowy.",
+    "historical_info": "Protekcjonizm to polityka kontrolowania handlu pomi\u0119dzy pa\u0144stwami za pomoc\u0105 limit\u00f3w, ce\u0142 i innych metod. Wprowadzany jest przez kraje, kt\u00f3re staraj\u0105 si\u0119 spowolni\u0107 lub zatrzyma\u0107 nap\u0142yw zagranicznych towar\u00f3w i us\u0142ug na w\u0142asny rynek, by w ten spos\u00f3b \u201echroni\u0107\u201d w\u0142asny przemys\u0142. Protekcjonizm stosowany jest r\u00f3wnie\u017c przez w\u0142adc\u00f3w w celu ograniczenia kontakt\u00f3w podw\u0142adnych z lud\u017ami z zagranicy oraz z ich dobrami, b\u0105d\u017a dlatego, i\u017c uwa\u017caj\u0105 je oni za z\u0142e lub nie chc\u0105, by ich lud wiedzia\u0142, jak \u017ale wypada na tle pozosta\u0142ych narod\u00f3w. Korea P\u00f3\u0142nocna jest przyk\u0142adem groteskowo protekcjonistycznego kraju - jej w\u0142adcy ograniczaj\u0105 kontakt ze \u015bwiatem zewn\u0119trznym, by utrzyma\u0107 Korea\u0144czyk\u00f3w w nie\u015bwiadomo\u015bci w\u0142asnego zacofania.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/protekcjonizm.png",
+    "required_policies": [
+        {
+            "name": "Merkantylizm",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/policies/mercantilism.json"
+        },
+        {
+            "name": "Przedsi\u0119biorczo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/policies/entrepreneurship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Handel|Handlu|Handlowi|Handel|Handlem|Handlu|handlowej|handlowej",
+        "game_info": "Handel gwarantuje premie imperiom koncentruj\u0105cym si\u0119 na z\u0142ocie.Przyj\u0119cie handlu zwi\u0119kszy przych\u00f3d z\u0142ota w stolicy o 25%. Odblokowuje Big Bena.Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie handlu zapewni +1 z\u0142ota z ka\u017cdej plac\u00f3wki handlowej. Umo\u017cliwia tak\u017ce zakup wielkich kupc\u00f3w za wiar\u0119, pocz\u0105wszy od epoki przemys\u0142owej.",
+        "prereq_era": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+        "historical_info": "Handel zajmuje si\u0119 wymian\u0105 towar\u00f3w i us\u0142ug, zar\u00f3wno barterow\u0105 (za inne towary i us\u0142ugi), jak i w zamian za jaki\u015b rodzaj waluty. Handel jest tak stary jak ludzki j\u0119zyk, a by\u0107 mo\u017ce jeszcze starszy. W niekt\u00f3rych kulturach kupcy stanowi\u0105 ni\u017csz\u0105 klas\u0119 od tych, kt\u00f3rzy rz\u0105dz\u0105, b\u0105d\u017a od tych, co nosz\u0105 bro\u0144. W innych kulturach s\u0105 elit\u0105, a bogacenie si\u0119 uwa\u017cane jest za najwy\u017csze dobro. Przez wi\u0119kszo\u015b\u0107 swojej historii Stany Zjednoczone stanowi\u0142y ten drugi rodzaj kraju."
+    }
+}

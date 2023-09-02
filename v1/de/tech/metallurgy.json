@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "Metallverarbeitung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "Metallverarbeitung ist die Wissenschaft von Metall und metallischen Legierungen. In Civilization V deckt die Technologie Metallverarbeitung die Entwicklungen in diesem Bereich seit dem 19. Jahrhundert n. Chr. ab. Im 19. und 20. Jahrhundert wurden in allen Bereichen der Metallverarbeitung gro\u00dfe Fortschritte gemacht, von der Extraktion \u00fcber die Erschaffung neuer Legierungen bis zur Produktion von billigen, qualitativ hochwertigen Metallen.Metall bleibt ein wichtiger Teil einer modernen Zivilisation. In der Welt wird viel aus Stahl gebaut, und wenn nicht aus Stahl, dann aus Aluminium oder Titan. Unsere Kommunikationsnetzwerke sind ebenso aus Metall gemacht wie unsere Fahrzeuge, Waffen, Satelliten und Raumschiffe. Ohne die moderne Metallverarbeitung w\u00fcrden 90% der Weltbev\u00f6lkerung innerhalb eines Jahres verhungern.",
+    "quote": "\"Aus schlechtem Stahl wurde noch nie ein gutes Messer gefertigt.\" - Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "Schie\u00dfpulver",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+        },
+        {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Milit\u00e4rwissenschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+        },
+        {
+            "name": "Drall",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lancier",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/lancer.json"
+        },
+        {
+            "name": "Sipahi",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/sipahi.json"
+        },
+        {
+            "name": "Hakkapeliten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/hakkapeliitta.json"
+        },
+        {
+            "name": "Fl\u00fcgelhusar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Arsenal",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/arsenal.json"
+        },
+        {
+            "name": "Rotes Fort",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/red_fort.json"
+        }
+    ]
+}

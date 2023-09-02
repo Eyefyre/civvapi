@@ -1,0 +1,35 @@
+{
+    "id": 114,
+    "name": "Triplano|un Triplano|dal tuo Triplano|al tuo Triplano|il tuo Triplano|da un Triplano",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/triplane.png",
+    "game_info": "Una delle prime unit\u00e0 aeree, progettata per intercettare gli apparecchi nemici.",
+    "historical_info": "I triplani, utilizzati con diversi gradi di successo nella Prima Guerra Mondiale, prendono il nome dalla loro peculiare progettazione a tre ali sovrapposte. Il triplano pi\u00f9 famoso, il Fokker Dr. I, fu ampiamente usato dall'aviazione tedesca, guadagnandosi la notoriet\u00e0 come apparecchio preferito del leggendario Barone Rosso. Per quanto gli ingegneri abbiano sviluppato molte variazioni del modello base, le migliorie apportate al tradizionale biplano resero il triplano obsoleto nel giro di un decennio dalla sua introduzione.",
+    "strategy": "Il Triplano \u00e8 una delle prime unit\u00e0 aeree. Pu\u00f2 usare come base una qualsiasi delle tue citt\u00e0 o una portaerei. Pu\u00f2 spostarsi da una citt\u00e0 (o portaerei) all'altra ed eseguire missioni in un raggio d'azione di 5 caselle. Usa i Triplani per attaccare unit\u00e0 aeree e terrestri, per eseguire ricognizioni in territorio nemico e per difenderti dagli attacchi aerei. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Volo|del Volo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/flight.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(50).json"
+        },
+        {
+            "name": "Distruzione difese antiaeree",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_sweep.json"
+        },
+        {
+            "name": "Ricognizione aerea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contro bombardieri ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

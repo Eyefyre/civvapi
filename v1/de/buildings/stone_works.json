@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Steinwerke",
+    "game_info": "Alle Quellen von Marmor und Stein, die von dieser Stadt bearbeitet werden, generieren +1 Produktion.Die Stadt muss mindestens eine dieser Ressourcen mit einem Steinbruch verbessern.Die Stadt darf nicht auf einer Ebene liegen.",
+    "strategy": "Steinwerke k\u00f6nnen nur in einer Stadt gebaut werden, die an einer verbesserten Stein- oder Marmor-Ressource liegt. Steinwerke erh\u00f6hen die Produktion einer Stadt. Die Stadt darf nicht auf einer Ebene liegen.",
+    "historical_info": "Das Steinwerk ist die Werkstatt der Steinmetze, die verschiedene Arten von Stein formen und verarbeiten, um im Bauprozess sowohl k\u00fcnstlerische als auch strukturelle Elemente zu gestalten. Die Steinmetzkunst geh\u00f6rt zu den \u00e4ltesten Berufen der Welt und umfasst jeden Schritt vom Steinabbau aus Steinbr\u00fcchen bis zum Hauen geometrischer Formen und dem Einpassen dieser Steine an der Baustelle. In der Geschichte arbeiteten Steinmetze mit Materialien wie Kalkstein, aus dem haupts\u00e4chlich massive Geb\u00e4ude errichtet wurden, und Granit und Marmor, die h\u00e4ufiger f\u00fcr Statuen und Monumente verwendet wurden.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/steinwerke.png",
+    "prereq_tech": {
+        "name": "Kalender",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/calendar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 1
+    }
+}

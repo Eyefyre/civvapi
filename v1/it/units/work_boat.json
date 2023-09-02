@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Chiatta|una Chiatta|dalla tua Chiatta|alla tua Chiatta|la tua Chiatta|da una Chiatta",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Crea Miglioramenti su risorse acquatiche come il Pesce. La Chiatta viene consumata nel procedimento. Non ha alcuna difesa ed \u00e8 distrutta non appena arriva a contatto con il nemico.",
+    "historical_info": "Il mare pu\u00f2 fornire molte risorse a una civilt\u00e0. Queste possono andare dalle proteine fornite dalla pesca all'energia estratta dall'olio di balena o dal petrolio. Nella storia dell'umanit\u00e0, uomini e donne coraggiosi hanno affrontato il mare per raccoglierne i frutti. Non c'\u00e8 dubbio che continueranno a farlo finch\u00e9, alla fine dei tempi, \"il mare restituir\u00e0 i suoi morti\".",
+    "strategy": "Quest'unit\u00e0 pu\u00f2 essere costruita solo in una citt\u00e0 costiera. Le Chiatte possono migliorare tutte le riserve acquatiche: pesce, balene, petrolio e cos\u00ec via. Eseguire un miglioramento consuma una Chiatta. Le Chiatte non possono entrare negli esagoni di Oceano fino alla scoperta dell'Astronomia. Le Chiatte non possono combattere.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "\u00c8 necessario conoscere l'Astronomia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/astronomy_needed.json"
+        }
+    ]
+}

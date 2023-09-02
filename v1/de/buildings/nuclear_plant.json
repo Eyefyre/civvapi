@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Kernkraftwerk",
+    "game_info": "Ben\u00f6tigt 1 Uran. Die Stadt darf kein Sonnenkraftwerk besitzen.",
+    "strategy": "Das Kernkraftwerk steigert die Produktion einer Stadt in erheblichem Ma\u00dfe. Ein Kernkraftwerk ben\u00f6tigt die Ressource Uran, um gebaut werden zu k\u00f6nnen. Die Stadt muss vor dem Bau eine Fabrik besitzen.",
+    "historical_info": "Ein Kernkraftwerk ist eine Anlage, in der unter kontrollierten Bedingungen nukleare Energie in Strom verwandelt wird. Die bei der Kernspaltung frei werdende Energie erhitzt Wasser zu Dampf, der dann durch Strom produzierende Turbinen geleitet wird. Im t\u00e4glichen Betrieb sind Atomkraftwerke weitaus sauberer als \u00d6l, Gas oder Kohle, da sie Luft und Wasser in ihrer Umgebung weniger stark verschmutzen. Leider produzieren sie aber jede Menge radioaktiven Abfall. Dieser Atomm\u00fcll, ein \u00e4u\u00dferst t\u00f6dliches Nebenprodukt, muss jahrhundertelang gelagert werden, bevor seine Gef\u00e4hrlichkeit langsam abnimmt. Au\u00dferdem h\u00e4tte ein gr\u00f6\u00dferer St\u00f6rfall in einem Kernkraftwerk weitaus schlimmere und weitreichendere Konsequenzen als bei anderen Kraftwerken. Die Menschheit wird noch lange Zeit vor dem schwierigen und riskanten Problem stehen, ihren stetig wachsenden Energiebedarf zu decken, bis endlich ergiebige, saubere und sichere neue Verfahren zur Energiegewinnung in ausreichendem Ma\u00dfe zur Verf\u00fcgung stehen.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kernkraftwerk.png",
+    "prereq_tech": {
+        "name": "Kernspaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

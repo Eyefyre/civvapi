@@ -1,0 +1,41 @@
+{
+    "id": 42,
+    "name": "Arch\u00e4ologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archaeology.png",
+    "era": "Industriezeitalter",
+    "cost": 1600,
+    "civilopedia_entry": "Arch\u00e4ologie ist das Studium der \u00dcberreste antiker V\u00f6lker, um etwas \u00fcber ihre Kultur, Kunst, Architektur und Geschichte zu erfahren. Arch\u00e4ologen untersuchen die Ruinen von Bauwerken, Grabh\u00fcgel, M\u00fcllhalden, alte, in H\u00f6hlen verborgene Bilder und vor langer Zeit versunkene Schiffe auf dem Grund des Ozeans.Obwohl sich die Leute, seitdem es Menschen gibt, durchaus f\u00fcr das Leben derer interessierten, die vor ihnen kamen, begann die Arch\u00e4ologie als Wissenschaft erst im 15. Jahrhundert im Europa der Renaissance, als die Menschen damit anfingen, die Kunst und Architektur des antiken Griechenland und Rom zu studieren und nachzuempfinden, und Italiens reicher Adel - P\u00e4pste, H\u00e4ndler und Staatsoberh\u00e4upter - begann, Antiquit\u00e4ten zu sammeln. Als diese seltener wurden, finanzierten sie Ausgrabungen, um mehr Beute zu finden.Arch\u00e4ologie wurde ab dem 19. Jahrhundert durch die Bem\u00fchungen von deutschen Gelehrten wie Heinrich Schliemann, der die fr\u00fche griechische Zivilisation in Troja und Mykene untersuchte, auf einer wissenschaftlicheren Basis betrieben.Heute untersuchen Arch\u00e4ologen jeden Aspekt der antiken Menschheit, von unseren fr\u00fchesten Vorfahren bis hin zu unseren Ururgro\u00dfeltern. Ihre Werkzeuge sind unglaublich hochentwickelt und erlauben noch mehr Einblicke in das Leben unsere Vorfahren.",
+    "quote": "\"Wer sich der Geschichte nicht erinnert, ist dazu verdammt, sie zu wiederholen.\" - George Santayana",
+    "tech_prereqs": [
+        {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+        },
+        {
+            "name": "Architektur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/biology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arch\u00e4ologe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/archaeologist.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Museum",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/museum.json"
+        },
+        {
+            "name": "Louvre",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/louvre.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 43,
+    "name": "Kozacy|Kozak\u00f3w|Kozakom|Kozak\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cossack.png",
+    "game_info": "Jednostka kawalerii mog\u0105ca skutecznie walczy\u0107 z nowoczesn\u0105 piechot\u0105.Tylko Rosjanie mog\u0105 j\u0105 rekrutowa\u0107. Bardzo skutecznie walczy z jednostkami, kt\u00f3re zosta\u0142y ju\u017c nieco przetrzebione.",
+    "historical_info": "Kozacy tworzyli wojskowe komuny, \u017cyj\u0105ce na stepach Ukrainy i Rosji. Pierwotnie termin ten dotyczy\u0142 jednego z plemion tatarskich. Od ko\u0144ca XV wieku nazywani tak byli te\u017c ch\u0142opi, kt\u00f3rzy zbiegli od swych pan\u00f3w z teren\u00f3w Polski, Litwy oraz Moskwy i zamieszkali w dziczy. Kozacy uznawani byli za najlepszych je\u017ad\u017ac\u00f3w po Mongo\u0142ach. S\u0142u\u017cyli w armii rosyjskiej, ciesz\u0105c si\u0119 w zamian specjalnymi przywilejami. Rosjanie wykorzystywali Kozak\u00f3w w wi\u0119kszo\u015bci swoich wewn\u0119trznych i zewn\u0119trznych konflikt\u00f3w a\u017c do XX wieku. Kozacy walczyli te\u017c po obu stronach rosyjskiej wojny domowej. Wi\u0119kszo\u015b\u0107 z nich zgin\u0119\u0142a za czas\u00f3w Stalinizmu. Ci, kt\u00f3rzy przetrwali, staraj\u0105 si\u0119 odzyska\u0107 nale\u017cne im uznanie po upadku komunizmu.",
+    "strategy": "Kozacy to unikatowa jednostka rosyjska zast\u0119puj\u0105ca kawaleri\u0119. Maj\u0105 tak\u0105 sam\u0105 si\u0142\u0119 jak kawaleria, mog\u0105 tak\u017ce porusza\u0107 si\u0119 po wykonaniu ataku. Kozacy otrzymuj\u0105 du\u017c\u0105 premi\u0119 w walce z uszkodzonymi jednostkami. To czyni ich \u015bwietn\u0105 jednostk\u0105 do kontratak\u00f3w \u2013 niech wr\u00f3g zniszczy mi\u0119so armatnie \u2013 a potem Kozacy roznios\u0105 na strz\u0119py os\u0142abionego przeciwnika!",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Premia do ataku na przetrzebione jednostki (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/damaged_enemy_bonus_(33).json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

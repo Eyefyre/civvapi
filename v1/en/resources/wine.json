@@ -1,0 +1,33 @@
+{
+    "id": 27,
+    "name": "Wine",
+    "game_info": null,
+    "historical_info": "Wine is a tasty alcoholic beverage made of fermented grapes. Humans have been happily creating wine for some 8,000 years. The practice is believed to have originated in the area near the modern Iranian-Georgian border. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. France is the (self-proclaimed) center of wine production on the planet, but she is facing stiff competition from other countries in Europe, as well as the USA, South Africa, South America, and Australia.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wine.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Frumento",
+    "game_info": null,
+    "historical_info": "Coltivato originariamente nella mezzaluna fertile del Medio Oriente, per la sua versatilit\u00e0 il grano \u00e8 uno dei cereali pi\u00f9 importanti nella dieta dell'uomo: dalla sua farina si possono ottenere pane, pasta, cereali o dolci, oppure pu\u00f2 essere lasciato a fermentare per la produzione di ottime bevande alcooliche.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/frumento.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Fattoria|una Fattoria|una Fattoria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Terreni allagati|i terreni allagati|dei terreni allagati",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/terreni_allagati|i_terreni_allagati|dei_terreni_allagati.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        }
+    ]
+}

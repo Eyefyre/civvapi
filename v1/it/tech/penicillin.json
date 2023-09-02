@@ -1,0 +1,37 @@
+{
+    "id": 61,
+    "name": "Penicillina|della Penicillina",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/penicillin.png",
+    "era": "Epoca atomica",
+    "cost": 5100,
+    "civilopedia_entry": "Con il termine penicillina si indica un gruppo di antibiotici derivati da una muffa particolare. Gli antibiotici combattono e uccidono i batteri, microscopiche forme di vita che possono mettere a repentaglio la salute e la stessa vita delle persone: pensiamo a peste, sifilide e lebbra, per citarne solo tre. Si ritiene che l'uso di una primitiva forma di penicillina risalga al medioevo, in cui si usava pane ammuffito per curare le ferite che suppuravano. La scoperta scientifica degli antibiotici \u00e8 attribuita ad Alexander Fleming e risale al 1928. Il primo utilizzo ufficiale in ambito medico \u00e8 di due anni successivo, a opera del patologo Cecil George Paine. Man mano che l'uso della penicillina si \u00e8 diffuso, alcuni batteri hanno sviluppato una resistenza specifica, cos\u00ec sono stati inventati molti altri antibiotici per trattare questi nuovi ceppi \"selezionati\" dalla terapia. La penicillina, comunque, rimane insieme ai suoi derivati una delle armi pi\u00f9 importanti nell'infinita battaglia dei medici contro la mortale minaccia dei batteri.",
+    "quote": "\"Gli uomini non si avvicinano mai tanto agli d\u00e8i come quando danno la salute ad altri uomini.\" - Cicerone",
+    "tech_prereqs": [
+        {
+            "name": "Refrigerazione|della Refrigereazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+        },
+        {
+            "name": "Plastica|della Plastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/plastics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ecologia|dell'Ecologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ecology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Marine|un Marine|dal tuo Marine|al tuo Marine|il tuo Marine|da un Marine",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/marine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratorio di medicina|il Laboratorio di medicina|un Laboratorio di medicina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/medical_lab.json"
+        }
+    ]
+}

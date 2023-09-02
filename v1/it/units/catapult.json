@@ -1,0 +1,39 @@
+{
+    "id": 64,
+    "name": "Catapulta|una Catapulta|dalla tua Catapulta|alla tua Catapulta|la tua Catapulta|da una Catapulta",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/catapult.png",
+    "game_info": "Prima unit\u00e0 d'assedio del gioco. Infligge gravi danni alle unit\u00e0 e alle citt\u00e0 attaccando da lontano, ma prima di tirare deve eseguire l'allestimento.",
+    "historical_info": "La data esatta dell'invenzione della catapulta \u00e8 ignota, ma i Greci la utilizzavano gi\u00e0 nel III secolo a.C. Le catapulte lanciano proiettili a grande distanza grazie all'energia immagazzinata in corde ritorte o legno piegato. Non sono molto precise, ma possono essere mortali contro bersagli grandi o lenti, come ad esempio le fortificazioni (che sono piuttosto grosse e non si muovono affatto). In genere le catapulte erano trasportate in pezzi e assemblate sul campo di battaglia. Occasionalmente potevano anche essere costruite sul posto dai genieri. Le ultime catapulte furono usate nella Prima Guerra Mondiale dai francesi per lanciare granate nelle trincee nemiche.",
+    "strategy": "La Catapulta \u00e8 un'arma d'assedio, utilissima per assaltare le citt\u00e0 nemiche. Si tratta di un'unit\u00e0 lenta, estremamente vulnerabile agli attacchi nemici; pertanto dev'essere sempre protetta da altre unit\u00e0. La Catapulta dev'essere allestita (al costo di un 1 punto movimento) prima di poter attaccare.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematica|della Matematica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

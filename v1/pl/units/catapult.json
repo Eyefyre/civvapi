@@ -1,0 +1,39 @@
+{
+    "id": 64,
+    "name": "Katapulty|Katapult|Katapultom|Katapulty",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/catapult.png",
+    "game_info": "Pierwsza jednostka obl\u0119\u017cnicza w grze. Z odleg\u0142o\u015bci zadaje du\u017ce uszkodzenia innym jednostkom i miastom, ale trzeba j\u0105 rozstawi\u0107 przed rozpocz\u0119ciem ostrza\u0142u.",
+    "historical_info": "Dok\u0142adna data wynalezienia katapult nie jest znana, aczkolwiek greckie wojska korzysta\u0142y z nich ju\u017c oko\u0142o III wieku p.n.e. Maszyny te wykorzystuj\u0105 energi\u0119 zatrzyman\u0105 w skr\u0119conej linie lub wygi\u0119tym drewnie, do miotania pocisk\u00f3w na znaczne odleg\u0142o\u015bci. S\u0105 do\u015b\u0107 niecelne, lecz zab\u00f3jcze przeciwko du\u017cym lub powolnym celom, takim jak forty (kt\u00f3re s\u0105 ca\u0142kiem du\u017ce i nie poruszaj\u0105 si\u0119 za szybko). Katapulty zazwyczaj transportowano w cz\u0119\u015bciach i montowano na polu bitwy. Czasami konstruowano je na miejscu. Ostatni raz u\u017cyto katapult w walce w trakcie I Wojny \u015awiatowej, kiedy to wojska francuskie u\u017cywa\u0142y ich do obrzucania wrogich okop\u00f3w granatami.",
+    "strategy": "Katapulta to bro\u0144 obl\u0119\u017cnicza, niezwykle przydatna podczas atak\u00f3w na nieprzyjacielskie miasta. Jest powolna i bardzo s\u0142aba w walce wr\u0119cz, wi\u0119c powinna by\u0107 zawsze wspierana przez inne jednostki. Przed rozpocz\u0119ciem ataku katapulta musi zosta\u0107 odpowiednio ustawiona (co kosztuje 1 punkt ruchu).",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematyka|Matematyki|Matematyce|Matematyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

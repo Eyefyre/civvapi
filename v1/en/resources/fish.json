@@ -1,0 +1,29 @@
+{
+    "id": 12,
+    "name": "Fish",
+    "game_info": null,
+    "historical_info": "Fish have been an important source of protein for coastal dwellers for all of history. Fish remain an important foodstuff in the 21st century - so much so that there is increasing danger of depopulating the world's oceans of edible fish entirely.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fish.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Fishing Boats",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Coast",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+        }
+    ]
+}

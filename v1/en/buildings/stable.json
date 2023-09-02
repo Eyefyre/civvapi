@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stable",
+    "game_info": "+15% Production when building Mounted Units.Each source of Horses Sheep and Cattle worked by this City produce +1 Production.City must have at least one of these resources improved with a Pasture.",
+    "strategy": "The Stable can only be constructed in a city near to one or more improved horse, sheep or cattle resources. The Stable increases the speed of production of mounted units.",
+    "historical_info": "In Civilization V a stable is a military barracks for cavalry units. Here the cavalry soldiers are housed, fed and trained, as are their equine counterparts. Throughout much of history the cavalry has been the arm favored by a society's wealthy sons, for the simple reason that only the richest young men had ever ridden a horse. Because of this the cavalry stables/barracks were often much more luxurious than the poor infantry's dwellings.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stable.png",
+    "prereq_tech": {
+        "name": "Horseback Riding",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/horseback_riding.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Taller|Talleres",
+    "game_info": "Permite mover Alimentos de esta ciudad por las rutas comerciales que haya dentro de tu civilizaci\u00f3n.",
+    "strategy": "El Taller acelera la Producci\u00f3n de una ciudad.",
+    "historical_info": "El taller es un edificio en el que se fabrican cosas. Puede contener materias primas, herramientas y la mano de obra especializada necesaria para la fabricaci\u00f3n. En un taller de cer\u00e1mica se crear\u00edan, evidentemente, objetos de cer\u00e1mica, mientras que en una carpinter\u00eda pod\u00edan conseguirse puertas, armarios, suelos o cualquier cosa de madera. Muchos artistas italianos del Renacimiento trabajaban en talleres. Un gran pintor pod\u00eda llevarse el cr\u00e9dito de un cuadro pintado por sus empleados y aprendices, que hab\u00edan aprendido a imitar su estilo. Esta costumbre sigue causando muchos dolores de cabeza a los coleccionistas e historiadores actuales.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/taller|talleres.png",
+    "prereq_tech": {
+        "name": "Vaciado del metal",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

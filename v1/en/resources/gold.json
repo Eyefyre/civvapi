@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Gold",
+    "game_info": null,
+    "historical_info": "Gold is a soft, shiny and malleable metal, and it has been prized by men and women throughout history. It is a rare metal, and its rarity greatly adds to its value. Although it has some industrial and medicinal purposes, gold is used primarily as coinage or for decorative purposes, adorning jewelry, cups, utensils and the commodes of the super-rich and powerful.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gold.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

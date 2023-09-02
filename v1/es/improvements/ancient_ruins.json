@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "name": "Ruinas antiguas|Ruinas antiguas",
+    "game_info": "Las ruinas antiguas son los restos de civilizaciones desaparecidas hace mucho tiempo. Est\u00e1n llenas de valiosos secretos (oro, mapas, tecnolog\u00edas perdidas y, a veces, incluso supervivientes), que esperan a que un explorador intr\u00e9pido los descubra. Grandes recompensas aguardan al primero que entre en una ruina antigua.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ruinas_antiguas|ruinas_antiguas.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/jungle.json"
+        },
+        {
+            "name": "Bosque|Bosques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

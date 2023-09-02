@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Nave tartaruga|una Nave tartaruga|dalla tua Nave tartaruga|alla tua Nave tartaruga|la tua Nave tartaruga|da una Nave tartaruga",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Unit\u00e0 navale di epoca rinascimentale, pesantemente corazzata ed estremamente difficile da eliminare. Tuttavia non pu\u00f2 entrare negli esagoni di mare aperto al di fuori dei confini della citt\u00e0. Solo la Corea pu\u00f2 costruirla. Sostituisce la Caravella.",
+    "historical_info": "Queste grandi navi da guerra corazzate della dinastia Choson giocarono un ruolo fondamentale nella difesa della Corea dalle invasioni giapponesi del XVI secolo. Tipicamente una Nave Tartaruga trasportava un ugual numero di rematori e di soldati; il suo compito all'interno della flotta era di andare aggressivamente all'assalto delle navi nemiche. Progettate per infondere terrore nei nemici, le Navi Tartaruga avevano grandi polene intagliate a forma di drago sulla prua: si dice che queste teste emettessero nuvole di fumo sulfureo per nascondere l'avvicinarsi del vascello. A differenze delle altri navi costruite in quel periodo, le Navi Tartaruga non avevano un ponte superiore. Il livello pi\u00f9 alto della nave era coperto di punte di ferro per impedire l'abbordaggio, mentre rematori e soldati restavano chiusi su ponti separati sottocoperta. Armate con due dozzine di cannoni e altre armi da lancio pi\u00f9 piccole, le Navi Tartaruga erano avversari temibili per i nemici della Corea, che si ritrovavano impreparati al momento della battaglia.",
+    "strategy": "La Nave Tartaruga \u00e8 un'unit\u00e0 esclusiva della Corea che sostituisce la Caravella. La Nave Tartaruga ha un attacco pi\u00f9 potente di quello della Caravella ed \u00e8 estremamente difficile da affondare. Tuttavia non pu\u00f2 entrare negli esagoni di mare aperto al di fuori dei confini della citt\u00e0.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|dell'Astronomia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

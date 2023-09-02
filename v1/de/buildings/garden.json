@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Garten",
+    "game_info": "+25% Generierung von Gro\u00dfen Pers\u00f6nlichkeiten in dieser Stadt.Stadt muss an einem Fluss oder See liegen.",
+    "strategy": "Der Garten steigert die Geschwindigkeit, mit der Gro\u00dfe Pers\u00f6nlichkeiten in der Stadt generiert werden, um 25%. G\u00e4rten k\u00f6nnen nur in St\u00e4dten gebaut werden, die an Seen oder Fl\u00fcssen liegen.",
+    "historical_info": "Ein Garten ist ein Ort, an dem Pflanzen kultiviert werden. Sie dienen der Gewinnung von Nahrung, Schutz bzw. Energie oder als Orte der Ruhe und Erholung. Der erste bekannte Gartenplan stammt aus \u00c4gypten um 1400 v. Chr., aber praktisch alle antiken und modernen Kulturen haben G\u00e4rten kultiviert und zelebriert. Die Japaner legen schon fast seit Beginn ihrer Geschichte sch\u00f6ne, harmonische G\u00e4rten an. Der Ry\u014dan-ji-Tempel in Kyoto ist ber\u00fchmt f\u00fcr seinen Zen-Garten, der aus 15 gro\u00dfen Steinen in einem Bett aus wei\u00dfem Kies besteht und von niedrigen Mauern umgeben ist. Dieser Garten erscheint zwar sehr schlicht, um nicht zu sagen karg und asketisch, aber dennoch bewegt und inspiriert er die Menschen schon seit Jahrhunderten.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/garten.png",
+    "prereq_tech": {
+        "name": "Theologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

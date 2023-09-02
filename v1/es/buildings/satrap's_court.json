@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Corte del s\u00e1trapa|Cortes de los s\u00e1trapas",
+    "game_info": "La ciudad debe tener un Mercado. Las rutas comerciales que otros jugadores hagan a una ciudad con una Corte del s\u00e1trapa generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+    "strategy": "La Corte del s\u00e1trapa es el edificio exclusivo persa que sustituye al Banco. Al igual que este, aumenta la producci\u00f3n de riqueza de la ciudad, pero tambi\u00e9n la Felicidad de la civilizaci\u00f3n. Para poder construir la Corte del s\u00e1trapa, la ciudad ha de contar con un Mercado.",
+    "historical_info": "\"S\u00e1trapa\" es el t\u00edtulo de un gobernador provisional del Imperio Aquem\u00e9nida de Persia. Los nombraba el rey y sol\u00edan pertenecer a la familia real. El s\u00e1trapa era una figura poderosa, recaudaba impuestos y constitu\u00eda la m\u00e1xima autoridad judicial de la provincia. Tambi\u00e9n era responsable de reclutar y mantener un ej\u00e9rcito y, por tanto, hab\u00eda de ser una persona de gran confianza para el monarca. A medida que el poder central persa se fue debilitando durante el siglo V a. C., los s\u00e1trapas se fueron haciendo m\u00e1s independientes y, de hecho, algunos fueron m\u00e1s poderosos que el rey al que supuestamente serv\u00edan.Alejandro mantuvo la administraci\u00f3n de las satrap\u00edas tras la conquista de Persia, unas veces sustituyendo a los s\u00e1trapas por sus generales y otras dejando a los gobernadores que hubiera, siempre que mantuvieran la paz y siguieran pagando sus impuestos.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/corte_del_s\u00e1trapa|cortes_de_los_s\u00e1trapas.png",
+    "prereq_tech": {
+        "name": "Banca",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

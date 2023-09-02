@@ -1,0 +1,40 @@
+{
+    "id": 24,
+    "name": "Gilden",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/guilds.png",
+    "era": "Mittelalter",
+    "cost": 275,
+    "civilopedia_entry": "Vor der Industrialisierung bildeten in den St\u00e4dten die Handwerker oft Verb\u00e4nde - oder Handelsgilden - basierend auf ihrem Beruf. Diese Gilden dienten dazu, sowohl die Handwerksgeheimnisse zu sch\u00fctzen als auch den Einfluss und das Einkommen der Handwerker zu steigern. Vorl\u00e4ufer der Handelsgilden fand man schon im dritten Jahrhundert vor Christus in Rom und Han-China. Bis ins Jahr 300 n. Chr. war der Zusammenschluss von Handwerkern bis Gupta-Indien und im ptolem\u00e4ischen \u00c4gypten bekannt. Im Mittelalter haben sich die Gildenorganisationen rasch von Italien aus \u00fcber ganz Europa ausgebreitet. In Aufzeichnungen aus dem 12. Jahrhundert in Paris und London werden jeweils \u00fcber 100 Gilden aufgelistet, die von den St\u00e4dten bevollm\u00e4chtigt wurden. In einigen F\u00e4llen wurden manche Gilden so m\u00e4chtig, dass sie die Regierung der Stadt bildeten, zu erkennen an den Gildenhallen in Deutschland, der Schweiz und Holland.Im Laufe der Zeit \u00fcbernahmen die Gilden die Aufgabe, die Qualit\u00e4t zu \u00fcberwachen und die Handwerksausbildung mit einem lebenslangen Aufstieg vom Lehrling zum Gro\u00dfmeister. Um die Produktqualit\u00e4t zu sichern, wurde das System der Warenzeichen eingef\u00fchrt, die bezeugten, dass ein Gegenstand sowohl die Gildenstandards als auch die der Regierung erf\u00fcllt. Mit der Zeit sanken Einfluss und Macht der Gilden jedoch, als sie durch die Entstehung neuer Handelszweige, Bedenken seitens der Regierungen und Methoden zur Massenproduktion zerbrachen. In Frankreich wurden die Gilden zum Beispiel 1791 n. Chr. durch das Gesetz Le Chapelier abgeschafft, andere L\u00e4nder folgten schon bald diesem Beispiel. Die Gilden wurden zwar im Industriezeitalter gr\u00f6\u00dftenteils von den Gewerkschaften verdr\u00e4ngt, aber es gibt immer noch Beispiele f\u00fcr bestehende Gilden, vor allem in den Bereichen Film, Literatur und anderen k\u00fcnstlerischen Berufen.",
+    "quote": "\"Die H\u00e4ndler sind gekommen. Ihre Gewinne sind vorherbestimmt ...\" - Sri Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "W\u00e4hrung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ritterlichkeit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+        },
+        {
+            "name": "Maschinen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Ostindien-Kompanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/east_india_company.json"
+        },
+        {
+            "name": "Machu Picchu",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/machu_picchu.json"
+        },
+        {
+            "name": "K\u00fcnstlergilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/artists'_guild.json"
+        }
+    ]
+}

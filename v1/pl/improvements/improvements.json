@@ -1,0 +1,1340 @@
+[
+    {
+        "id": 1,
+        "name": "Ruiny miasta|Ruin miasta|Ruinom miasta|Ruiny miasta",
+        "game_info": "Ruiny miast to pozosta\u0142o\u015bci po miastach, kt\u00f3re zosta\u0142y zniszczone w trakcie gry. Nie przedstawiaj\u0105 one wi\u0119kszej warto\u015bci same w sobie, ale cz\u0119sto jednak znajduj\u0105 si\u0119 w dobrych lokacjach. Po uprz\u0105tni\u0119ciu gruz\u00f3w przez robotnik\u00f3w mo\u017cna tam wybudowa\u0107 r\u00f3\u017cne ulepszenia.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ruiny_miasta|ruin_miasta|ruinom_miasta|ruiny_miasta.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/city_ruins.json"
+    },
+    {
+        "id": 2,
+        "name": "Obozowisko|Obozowiska|Obozowisku|Obozowisko|Obozowiska|Obozowisk|Obozowiskom|Obozowiska",
+        "game_info": "Obozowisko jest tymczasow\u0105 osad\u0105, w kt\u00f3rej mieszkaj\u0105 barbarzy\u0144cy. Barbarzy\u0144cy to niecywilizowani wojownicy, kt\u00f3rzy nieustannie n\u0119kaj\u0105 miasta i jednostki wszystkich cywilizacji. Obozowiska w pobli\u017cu twoich miast powinny by\u0107 niszczone tak szybko, jak tylko b\u0119dzie to mo\u017cliwe. Te niedaleko miast wroga warto jest zostawi\u0107 w spokoju, by os\u0142abi\u0142y rywala. Oczywi\u015bcie o ile twoja moralno\u015b\u0107 na to pozwala...",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/obozowisko|obozowiska|obozowisku|obozowisko|obozowiska|obozowisk|obozowiskom|obozowiska.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
+            },
+            {
+                "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/encampment.json"
+    },
+    {
+        "id": 3,
+        "name": "Staro\u017cytne ruiny|Staro\u017cytnych ruin|Staro\u017cytnym ruinom|Staro\u017cytne ruiny",
+        "game_info": "Staro\u017cytne ruiny to pozosta\u0142o\u015bci po dawno wymar\u0142ych cywilizacjach. Zazwyczaj kryj\u0105 one w swych czelu\u015bciach z\u0142oto, mapy, cenne technologie, a czasem nawet grupki ludzi, kt\u00f3rzy czekaj\u0105, a\u017c ich kto\u015b odnajdzie. Czegokolwiek by nie skrywa\u0142y, ten, kt\u00f3ry pierwszy do nich dotrze, zostanie wynagrodzony!",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/staro\u017cytne_ruiny|staro\u017cytnych_ruin|staro\u017cytnym_ruinom|staro\u017cytne_ruiny.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
+            },
+            {
+                "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/ancient_ruins.json"
+    },
+    {
+        "id": 4,
+        "name": "Farma|Farmy|Farmie|Farm\u0119|Farmy|Farm|Farmom|Farmy",
+        "game_info": "Rolnictwo to jedno z najwcze\u015bniejszych i najwa\u017cniejszych ludzkich zaj\u0119\u0107. Pozwoli\u0142o ono ludzko\u015bci zaprzesta\u0107 migracji i osi\u0105\u015b\u0107 w jednym miejscu bez wyniszczania miejscowych surowc\u00f3w. Farmy mo\u017cna budowa\u0107 na prawie ka\u017cdej ziemi, by poprawi\u0107 ilo\u015b\u0107 \u017cywno\u015bci na danym polu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/farma|farmy|farmie|farm\u0119|farmy|farm|farmom|farmy.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Pszenica|Pszenicy|Pszenic\u0119|Pszenicy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wheat.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/farm.json"
+    },
+    {
+        "id": 5,
+        "name": "Kopalnia|Kopalni|Kopalni|Kopalni\u0119|Kopalnie|Kopal\u0144|Kopalniom|Kopalnie",
+        "game_info": "Kopalnie s\u0105 jednymi z najwa\u017cniejszych wynalazk\u00f3w w Civilization V. Nie tylko poprawiaj\u0105 wydajno\u015b\u0107 pola (a wysoka wydajno\u015b\u0107 umo\u017cliwia szybsz\u0105 budow\u0119 jednostek, budynk\u00f3w i cud\u00f3w), ale r\u00f3wnie\u017c zapewniaj\u0105 dost\u0119p do najwa\u017cniejszych surowc\u00f3w w grze \u2013 na przyk\u0142ad, do \u017celaza, w\u0119gla i uranu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kopalnia|kopalni|kopalni|kopalni\u0119|kopalnie|kopal\u0144|kopalniom|kopalnie.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            },
+            {
+                "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
+            },
+            {
+                "name": "Z\u0142oto|Z\u0142ota|Z\u0142otu|Z\u0142oto",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gold.json"
+            },
+            {
+                "name": "Srebro|Srebra|Srebru|Srebro",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silver.json"
+            },
+            {
+                "name": "Mied\u017a|Miedzi|Miedzi|Mied\u017a",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/copper.json"
+            },
+            {
+                "name": "S\u00f3l|Soli|Soli|S\u00f3l",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/salt.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "G\u00f3rnictwo|G\u00f3rnictwa|G\u00f3rnictwu|G\u00f3rnictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mining.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/mine.json"
+    },
+    {
+        "id": 6,
+        "name": "Kamienio\u0142om|Kamienio\u0142omu|Kamienio\u0142omowi|Kamienio\u0142om|Kamienio\u0142omy|Kamienio\u0142om\u00f3w|Kamienio\u0142omom|Kamienio\u0142omy",
+        "game_info": "W powszechnym u\u017cyciu kamienio\u0142om oznacza miejsce, gdzie wydobywa si\u0119 jakikolwiek kamie\u0144 lub \u017cwir. W Civilization V dzi\u0119ki kamienio\u0142omom uzyskuje si\u0119 premi\u0119 do produkcji z kamienia oraz dost\u0119p do marmuru, cennego surowca wykorzystywanego w budownictwie i sztuce.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kamienio\u0142om|kamienio\u0142omu|kamienio\u0142omowi|kamienio\u0142om|kamienio\u0142omy|kamienio\u0142om\u00f3w|kamienio\u0142omom|kamienio\u0142omy.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Marmur|Marmuru|Marmurowi|Marmur",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/marble.json"
+            },
+            {
+                "name": "Kamie\u0144|Kamienia|Kamieniowi|Kamie\u0144",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/stone.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Murarstwo|Murarstwa|Murarstwu|Murarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/masonry.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/quarry.json"
+    },
+    {
+        "id": 7,
+        "name": "Punkt handlowy|Punktu handlowego|Punkcie handlowym|Punkt handlowy|Punkty handlowe|Punkt\u00f3w handlowych|Punktom handlowym|Punkty handlowe",
+        "game_info": "Punkty handlowe to miejsca, gdzie my\u015bliwi i traperzy mog\u0105 sprzedawa\u0107 swoje towary obywatelom w zamian za \u017cywno\u015b\u0107, bro\u0144, whisky, z\u0142oto i inne pu\u0142apki cywilizacyjne. Dzi\u0119ki nim spo\u0142ecze\u0144stwo mo\u017ce si\u0119 wzbogaci\u0107.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/punkt_handlowy|punktu_handlowego|punkcie_handlowym|punkt_handlowy|punkty_handlowe|punkt\u00f3w_handlowych|punktom_handlowym|punkty_handlowe.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Gildie|Gildii|Gildiom|Gildie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/trading_post.json"
+    },
+    {
+        "id": 8,
+        "name": "Tartak|Tartaku|Tartakowi|Tartak|Tartaki|Tartak\u00f3w|Tartakom|Tartaki",
+        "game_info": "Tartak umo\u017cliwia popraw\u0119 produkcji na zalesionych polach.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/tartak|tartaku|tartakowi|tartak|tartaki|tartak\u00f3w|tartakom|tartaki.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/lumber_mill.json"
+    },
+    {
+        "id": 9,
+        "name": "Pastwisko|Pastwiska|Pastwisku|Pastwisko|Pastwiska|Pastwisk|Pastwiskom|Pastwiska",
+        "game_info": "Pastwisko to ogrodzony wycinek otwartej przestrzeni, na kt\u00f3rym zasiano traw\u0119, by wykarmi\u0107 prze\u017cuwacze, takie jak konie i krowy.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pastwisko|pastwiska|pastwisku|pastwisko|pastwiska|pastwisk|pastwiskom|pastwiska.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "Byd\u0142o|Byd\u0142a|Byd\u0142u|Byd\u0142o",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cattle.json"
+            },
+            {
+                "name": "Owce|Owiec|Owcom|Owce",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sheep.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Hodowla zwierz\u0105t|Hodowli zwierz\u0105t|Hodowli zwierz\u0105t|Hodowl\u0119 zwierz\u0105t",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/animal_husbandry.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/pasture.json"
+    },
+    {
+        "id": 10,
+        "name": "\u0141odzie rybackie|\u0141odzi rybackich|\u0141odziom rybackim|\u0141odzie rybackie",
+        "game_info": "\u0141odzie rybackie pozwalaj\u0105 cywilizacji eksploatowa\u0107 pola, na kt\u00f3rych znajduj\u0105 si\u0119 cenne kraby, ryby, wieloryby i per\u0142y. Aby skonstruowa\u0107 \u0142odzie rybackie, musisz najpierw zbudowa\u0107 kuter w przybrze\u017cnym mie\u015bcie (po tym, jak twoja cywilizacja odkryje odpowiedni\u0105 technologi\u0119). Kutry znikaj\u0105 po zbudowaniu \u0142odzi rybackich.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u0142odzie_rybackie|\u0142odzi_rybackich|\u0142odziom_rybackim|\u0142odzie_rybackie.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Ryby|Ryb|Rybom|Ryby",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/fish.json"
+            },
+            {
+                "name": "Wieloryby|Wieloryb\u00f3w|Wielorybom|Wieloryby",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/whales.json"
+            },
+            {
+                "name": "Per\u0142y|Pere\u0142|Per\u0142om|Per\u0142y",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/pearls.json"
+            },
+            {
+                "name": "Kraby|Krab\u00f3w|Krabom|Kraby|Krabami|Krabach",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/crab.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/fishing_boats.json"
+    },
+    {
+        "id": 11,
+        "name": "Plantacja|Plantacji|Plantacji|Plantacj\u0119|Plantacje|Plantacji|Plantacjom|Plantacje",
+        "game_info": "Plantacja to eleganckie okre\u015blenie dla farmy. Zwykle odnosi si\u0119 do wielkich posiad\u0142o\u015bci znajduj\u0105cych si\u0119 w podr\u00f3wnikowych lub r\u00f3wnikowych regionach, zw\u0142aszcza do tych, na kt\u00f3rych s\u0105 uprawiane ro\u015bliny przeznaczone raczej na eksport, a nie do lokalnej konsumpcji. Okre\u015blenie to nabra\u0142o nieprzyjemnego wyd\u017awi\u0119ku z powodu skojarze\u0144 z niewolnictwem w Stanach Zjednoczonych i na Karaibach, ale nie ma nic z\u0142ego w dobrze zarz\u0105dzanej plantacji, kt\u00f3ra zatrudnia darmow\u0105 si\u0142\u0119 robocz\u0105.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plantacja|plantacji|plantacji|plantacj\u0119|plantacje|plantacji|plantacjom|plantacje.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Banany|Banan\u00f3w|Bananom|Banany",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/bananas.json"
+            },
+            {
+                "name": "Barwniki|Barwnik\u00f3w|Barwnikom|Barwniki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/dyes.json"
+            },
+            {
+                "name": "Jedwab|Jedwabiu|Jedwabiowi|Jedwab",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silk.json"
+            },
+            {
+                "name": "Przyprawy|Przypraw|Przyprawom|Przyprawy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/spices.json"
+            },
+            {
+                "name": "Cukier|Cukru|Cukrowi|Cukier",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sugar.json"
+            },
+            {
+                "name": "Bawe\u0142na|Bawe\u0142ny|Bawe\u0142nie|Bawe\u0142n\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cotton.json"
+            },
+            {
+                "name": "Wino|Wina|Winu|Wino",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wine.json"
+            },
+            {
+                "name": "Kadzid\u0142o|Kadzid\u0142a|Kadzid\u0142u|Kadzid\u0142o",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/incense.json"
+            },
+            {
+                "name": "Cytrusy|Cytrus\u00f3w|Cytrusom|Cytrusy|Cytrusami|Cytrusach",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/citrus.json"
+            },
+            {
+                "name": "Kakao",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cocoa.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Kalendarz|Kalendarza|Kalendarzowi|Kalendarz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/calendar.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/plantation.json"
+    },
+    {
+        "id": 12,
+        "name": "Ob\u00f3z|Obozu|Obozowi|Ob\u00f3z|Obozy|Oboz\u00f3w|Obozom|Obozy",
+        "game_info": "Polowanie na dzikie zwierz\u0119ta by\u0142o jednym z pierwszych sposob\u00f3w, w jaki cz\u0142owiek eksploatowa\u0142 zasoby otaczaj\u0105cego go \u015bwiata. Ob\u00f3z my\u015bliwski daje dost\u0119p do saren, futer, trufli i ko\u015bci s\u0142oniowej.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ob\u00f3z|obozu|obozowi|ob\u00f3z|obozy|oboz\u00f3w|obozom|obozy.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Ko\u015b\u0107 s\u0142oniowa|Ko\u015bci s\u0142oniowej|Ko\u015bci s\u0142oniowej|Ko\u015b\u0107 s\u0142oniow\u0105",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/ivory.json"
+            },
+            {
+                "name": "Futra|Futer|Futrom|Futra",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/furs.json"
+            },
+            {
+                "name": "Zwierzyna|Zwierzyny|Zwierzynie|Zwierzyn\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/deer.json"
+            },
+            {
+                "name": "Trufle|Trufli|Truflom|Trufle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/truffles.json"
+            },
+            {
+                "name": "Bizon|Bizona|Bizonowi|Bizona|Bizonem|Bizonie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/bison.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "\u0141owiectwo|\u0141owiectwa|\u0141owiectwu|\u0141owiectwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/trapping.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/camp.json"
+    },
+    {
+        "id": 13,
+        "name": "Szyb naftowy|Szybu naftowego|Szybowi naftowemu|Szyb naftowy|Szyby naftowe|Szyb\u00f3w naftowych|Szybom naftowym|Szyby naftowe",
+        "game_info": "L\u0105dowa wersja platformy wiertniczej. Szyb jest p\u00f3\u017anym ulepszeniem, kt\u00f3re zapewnia dost\u0119p do bardzo wa\u017cnych z\u0142\u00f3\u017c ropy naftowej.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/szyb_naftowy|szybu_naftowego|szybowi_naftowemu|szyb_naftowy|szyby_naftowe|szyb\u00f3w_naftowych|szybom_naftowym|szyby_naftowe.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Biologia|Biologii|Biologii|Biologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/biology.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/oil_well.json"
+    },
+    {
+        "id": 14,
+        "name": "Platforma wiertnicza|Platformy wiertniczej|Platformie wiertniczej|Platform\u0119 wiertnicz\u0105|Platformy wiertnicze|Platform wiertniczych|Platformom wiertniczym|Platformy wiertnicze",
+        "game_info": "Platforma wiertnicza jest wa\u017cnym, p\u00f3\u017anym ulepszeniem w grze, poniewa\u017c zapewnia dost\u0119p do cennych z\u0142\u00f3\u017c ropy naftowej, ale tylko wtedy, gdy te z\u0142o\u017ca znajduj\u0105 si\u0119 w oceanie (robotnicy buduj\u0105 studnie, by dotrze\u0107 do z\u0142\u00f3\u017c ropy na l\u0105dzie). Kutry zu\u017cywaj\u0105 si\u0119 po zbudowaniu platformy wiertniczej.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/platforma_wiertnicza|platformy_wiertniczej|platformie_wiertniczej|platform\u0119_wiertnicz\u0105|platformy_wiertnicze|platform_wiertniczych|platformom_wiertniczym|platformy_wiertnicze.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/offshore_platform.json"
+    },
+    {
+        "id": 15,
+        "name": "Fort|Fortu|Fortowi|Fort|Forty|Fort\u00f3w|Fortom|Forty",
+        "game_info": "Fort to szczeg\u00f3lne ulepszenie, kt\u00f3re nie poprawia wydajno\u015bci pola, ani nie zapewnia dost\u0119pu do surowc\u00f3w. W zamian za to fort zwi\u0119ksza premi\u0119 do obrony pola o 50% dla wszystkich jednostek stacjonuj\u0105cych na tym polu. Nie daje jednak premii obronnej jednostkom na terytorium wroga.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fort|fortu|fortowi|fort|forty|fort\u00f3w|fortom|forty.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/engineering.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/fort.json"
+    },
+    {
+        "id": 16,
+        "name": "S\u0142ynne miejsce|S\u0142ynnego miejsca|S\u0142ynnemu miejscu|S\u0142ynne miejsce|S\u0142ynne miejsca|S\u0142ynnych miejsc|S\u0142ynnym miejscom|S\u0142ynne miejsca",
+        "game_info": "S\u0142ynne miejsce to dowolny wspania\u0142y artefakt, budowla, dzie\u0142o sztuki lub cud natury, kt\u00f3ry zwabia w okolice go\u015bci. S\u0142ynnym miejscem jest Kolumna Nelsona w Londynie czy Mount Rushmore w Stanach Zjednoczonych. Jednak nie ka\u017cdy odpowiednio du\u017cy obiekt to s\u0142ynne miejsce. Najwi\u0119kszy na \u015bwiecie k\u0142\u0119bek we\u0142ny mo\u017ce nigdy nie osi\u0105gn\u0105\u0107 tego statusu (mimo \u017ce, by\u0107 mo\u017ce, warto go zobaczy\u0107). S\u0142ynne miejsca zapewniaj\u0105 +1 do kultury za ka\u017cd\u0105 epok\u0119, kt\u00f3ra min\u0119\u0142a od epoki powstania artefaktu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/s\u0142ynne_miejsce|s\u0142ynnego_miejsca|s\u0142ynnemu_miejscu|s\u0142ynne_miejsce|s\u0142ynne_miejsca|s\u0142ynnych_miejsc|s\u0142ynnym_miejscom|s\u0142ynne_miejsca.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/landmark.json"
+    },
+    {
+        "id": 17,
+        "name": "Akademia|Akademii|Akademii|Akademi\u0119|Akademie|Akademii|Akademiom|Akademie",
+        "game_info": "Akademia to instytucja, gdzie dzieci zdobywaj\u0105 zaawansowane ni\u017csze (tj. przygotowuj\u0105ce do studi\u00f3w) wykszta\u0142cenie. Akademie mog\u0105 by\u0107 wszelkich rodzaj\u00f3w \u2013 wojskowe, religijne, rz\u0105dowe i tym podobne. Niekt\u00f3re s\u0105 prywatne, otwarte tylko dla dzieci z bogatych lub wp\u0142ywowych rodzin, natomiast inne s\u0105 otwarte dla wszystkich dzieci, kt\u00f3re spe\u0142niaj\u0105 surowe wymogi. Angielski Eton College jest jedn\u0105 z najbardziej znanych akademii na \u015bwiecie. Przyjmuje \u015bmietank\u0119 angielskiej m\u0142odzie\u017cy w wieku od 13 do 18 roku \u017cycia od 1440 roku.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/akademia|akademii|akademii|akademi\u0119|akademie|akademii|akademiom|akademie.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 8,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/academy.json"
+    },
+    {
+        "id": 18,
+        "name": "Urz\u0105d celny|Urz\u0119du celnego|Urz\u0119dowi celnemu|Urz\u0105d celny|Urz\u0119dy celne|Urz\u0119d\u00f3w celnych|Urz\u0119dom celnym|Urz\u0119dy celne",
+        "game_info": "Urz\u0105d celny to budynek rz\u0105dowy, gdzie zbierane s\u0105 podatki od importowanych i eksportowanych d\u00f3br. Gwarantuje on, \u017ce rz\u0105d dostanie swoj\u0105 dzia\u0142k\u0119 (lub \u201esprawiedliwy udzia\u0142\u201d) lub dochody z ka\u017cdego \u0142adunku przechodz\u0105cego przez port. Poniewa\u017c w gr\u0119 wchodzi du\u017ca suma pieni\u0119dzy, mamy do czynienia z nieograniczonymi mo\u017cliwo\u015bciami korupcji. W historii urz\u0119dnicy celni byli znani z tego, \u017ce ulegali pokusom.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/urz\u0105d_celny|urz\u0119du_celnego|urz\u0119dowi_celnemu|urz\u0105d_celny|urz\u0119dy_celne|urz\u0119d\u00f3w_celnych|urz\u0119dom_celnym|urz\u0119dy_celne.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 4,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/customs_house.json"
+    },
+    {
+        "id": 19,
+        "name": "Manufaktura|Manufaktury|Manufakturze|Manufaktur\u0119|Manufaktury|Manufaktur|Manufakturom|Manufaktury",
+        "game_info": "Manufaktura to zak\u0142ad sk\u0142adaj\u0105cy si\u0119 z jednego lub wi\u0119cej budynk\u00f3w, gdzie tworzy si\u0119 przedmioty. Tymi budynkami mog\u0105 by\u0107 odlewnie, fabryki, linie monta\u017cowe itd., zwykle tworz\u0105ce powi\u0105zane ze sob\u0105 przedmioty \u2013 odlewnia produkuje stal, kt\u00f3r\u0105 fabryka zwija w blachy. Nast\u0119pnie robotnicy przy linii monta\u017cowej robi\u0105 z blach puszki itd. Dobrze zarz\u0105dzana manufaktura mo\u017ce by\u0107 niewiarygodnie op\u0142acalna.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/manufaktura|manufaktury|manufakturze|manufaktur\u0119|manufaktury|manufaktur|manufakturom|manufaktury.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 4,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/manufactory.json"
+    },
+    {
+        "id": 20,
+        "name": "Cytadela|Cytadeli|Cytadeli|Cytadel\u0119|Cytadele|Cytadel|Cytadelom|Cytadele",
+        "game_info": "Cytadela to pot\u0119\u017cne umocnienia, kt\u00f3re mo\u017ce zbudowa\u0107 tylko wielki genera\u0142, zazwyczaj w pobli\u017cu miasta lub w miejscu o atrakcyjnych walorach obronnych. Akropol w greckich Atenach to przyk\u0142ad dawnej pot\u0119\u017cnej cytadeli. Budowle tego rodzaju by\u0142y niemal niemo\u017cliwe do zdobycia w bezpo\u015brednim natarciu, a nawet d\u0142ugotrwa\u0142e obl\u0119\u017cenia nie zawsze okazywa\u0142y si\u0119 skuteczne. Cytadel\u0119 mo\u017cesz zbudowa\u0107 w dowolnym punkcie twojego terytorium lub bezpo\u015brednio przylegaj\u0105cym do twojego terytorium. Po powstaniu cytadeli twoje granice kulturowe powi\u0119kszaj\u0105 si\u0119 tak, by otacza\u0142y ca\u0142\u0105 cytadel\u0119 na odleg\u0142o\u015b\u0107 jednego pola. Je\u015bli nowa granica kulturowa spowoduje zaj\u0119cie p\u00f3l b\u0119d\u0105cych w posiadaniu innej cywilizacji, narazisz si\u0119 na konsekwencje dyplomatyczne. Ka\u017cda jednostka znajduj\u0105ca si\u0119 w cytadeli otrzymuje 100% premii do si\u0142y obronnej. Ponadto jednostka wroga ko\u0144cz\u0105ca ruch w pobli\u017cu cytadeli otrzymuje 30 obra\u017ce\u0144 (obra\u017cenia z cytadel nie kumuluj\u0105 si\u0119).",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/cytadela|cytadeli|cytadeli|cytadel\u0119|cytadele|cytadel|cytadelom|cytadele.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/citadel.json"
+    },
+    {
+        "id": 21,
+        "name": "Uprawy tarasowe|Upraw tarasowych|Uprawom tarasowym|Uprawy tarasowe|Uprawami tarasowymi|Uprawach tarasowych",
+        "game_info": "Uprawy tarasowe rozwija\u0142y si\u0119 na terenach g\u00f3rskich w r\u00f3\u017cnych miejscach na \u015bwiecie, w\u0142\u0105cznie z Bali, Filipinami, Chinami i Peru. Ma\u0142e poletka s\u0105 wyci\u0119tymi w zboczu g\u00f3ry lub wzg\u00f3rza schodami, kt\u00f3re zapobiegaj\u0105 szybkiemu sp\u0142ywaniu wody i zapewniaj\u0105 wystarczaj\u0105c\u0105 ilo\u015b\u0107 miejsca na ziemie uprawne tam, gdzie wcze\u015bniej uprawa by\u0142a absolutnie niemo\u017cliwa. Inkowie byli mistrzami upraw tarasowych - wznosili kamienne \u015bcianki, kt\u00f3re mia\u0142y utrzymywa\u0107 poszczeg\u00f3lne tarasy na miejscu. Po nakre\u015bleniu kszta\u0142tu taras\u00f3w Inkowie konstruowali systemy nawadniaj\u0105ce sk\u0142adaj\u0105ce si\u0119 z kana\u0142\u00f3w i akwedukt\u00f3w, kt\u00f3re zwi\u0119ksza\u0142y p\u0142odno\u015b\u0107 ziemi. Technologia uprawy stosowana przez staro\u017cytnych Ink\u00f3w by\u0142a tak skuteczna, \u017ce dzisiejsi rolnicy peruwia\u0144scy nadal stosuj\u0105 te same rozwi\u0105zania na swoich polach.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/uprawy_tarasowe|upraw_tarasowych|uprawom_tarasowym|uprawy_tarasowe|uprawami_tarasowymi|uprawach_tarasowych.png",
+        "nearby_mountain_bonus": {
+            "food": 1
+        },
+        "can_be_built_on": [
+            {
+                "name": "Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rzu|Wzg\u00f3rze|Wzg\u00f3rza|Wzg\u00f3rz|Wzg\u00f3rzom|Wzg\u00f3rza",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/hill.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        },
+        "required_civ": {
+            "name": "The Inca",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/the_inca.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/terrace_farm.json"
+    },
+    {
+        "id": 22,
+        "name": "Moai",
+        "game_info": "By\u0107 mo\u017ce lepiej znane jako pos\u0105gi z Wyspy Wielkanocnej, moai to ogromne figury ludzi wyrze\u017abione zwykle z wulkanicznych g\u0142az\u00f3w narzutowych. Na terenie wyspy znajduje si\u0119 887 takich statui i uwa\u017ca si\u0119, \u017ce zosta\u0142y stworzone mi\u0119dzy 1250 a 1500 rokiem naszej ery. Prawie po\u0142owa z nich nadal znajduje si\u0119 w miejscu wydobycia u\u017cytego budulca, jednak reszta zosta\u0142a przeniesiona i ustawiona na wybrze\u017cu wyspy. \u0141atwo rozpoznawalne ze wzgl\u0119du na swe du\u017ce g\u0142owy i wyd\u0142u\u017cone proporcje, uwa\u017cane s\u0105 za wizerunki zmar\u0142ych przodk\u00f3w i pot\u0119\u017cnych wodz\u00f3w.Wi\u0119kszo\u015b\u0107 naukowc\u00f3w zgadza si\u0119 co do przyczyn i metod stworzenia pos\u0105g\u00f3w, jednak spos\u00f3b ich transportu nadal pozostaje tajemnic\u0105. Wa\u017c\u0105ce od 9 do 86 ton i wykonane z jednego kawa\u0142ka ska\u0142y rze\u017aby wymaga\u0142yby u\u017cycia niesamowitej technologii, by mo\u017cliwy by\u0142 transport z miejsca wydobycia do docelowego miejsca ich ustawienia.W 1994 roku statuy moai zosta\u0142y oficjalnie wpisane na list\u0119 \u015awiatowego Dziedzictwa UNESCO.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/moai.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        },
+        "required_civ": {
+            "name": "Polynesia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/polynesia.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/moai.json"
+    },
+    {
+        "id": 23,
+        "name": "\u015awi\u0119te miejsce|\u015awi\u0119tego miejsca|\u015awi\u0119temu miejscu|\u015awi\u0119te miejsce",
+        "game_info": "\u015awi\u0119te miejsca maj\u0105 znaczenie religijne, s\u0105 \u015bwiadectwem bog\u00f3w, prorok\u00f3w i tradycji danej religii. Cz\u0119sto stanowi\u0105 cel pielgrzymek religijnych, wierni odwiedzaj\u0105 je w nadziei wzmocnienia swej wi\u0119zi z Bogiem, a tak\u017ce aby odda\u0107 mu cze\u015b\u0107.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u015bwi\u0119te_miejsce|\u015bwi\u0119tego_miejsca|\u015bwi\u0119temu_miejscu|\u015bwi\u0119te_miejsce.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Konie|Koni|Koniom|Konie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+            },
+            {
+                "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+            },
+            {
+                "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+            },
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/holy_site.json"
+    },
+    {
+        "id": 24,
+        "name": "Polder",
+        "game_info": "Polder to nisko po\u0142o\u017cony grunt otoczony groblami i osuszony. Og\u00f3lnie rzecz bior\u0105c s\u0105 to tereny odebrane jeziorom, morzu, terenom zalewowym lub bagnom. Z czasem osuszony grunt osiada i po pewnym czasie ca\u0142y polder znajduje si\u0119 poni\u017cej poziomu otaczaj\u0105cej go wody. Sprawia to, \u017ce wdziera si\u0119 tam ona i musi zosta\u0107 wypompowana lub osuszona w inny spos\u00f3b. Groble robi si\u0119 zazwyczaj ze znajduj\u0105cych si\u0119 pod r\u0119k\u0105 materia\u0142\u00f3w, piasku lub ziemi. W dzisiejszych czasach pokrywa si\u0119 je lub odlewa w ca\u0142o\u015bci z betonu. Osuszony grunt jest niezwykle \u017cyzny i stanowi doskona\u0142e pastwisko lub pole uprawne.Pierwsze poldery stworzono w XI wieku naszej ery, cho\u0107 budowanie wa\u0142\u00f3w zatrzymuj\u0105cych wod\u0119 znane by\u0142o ju\u017c za czas\u00f3w rzymskich. D\u0142ug\u0105 histori\u0119 odzyskiwania ziemi spod bagien, a nawet morza, maj\u0105 Holendrzy \u2013 posiadaj\u0105 oni po\u0142ow\u0119 wszystkich polder\u00f3w w Europie. Znajduj\u0105 si\u0119 one te\u017c w innych krajach, r\u00f3wnie\u017c w Azji i Ameryce P\u00f3\u0142nocnej, Holandia jednak ma oko\u0142o 3000 polder\u00f3w, kt\u00f3re stanowi\u0105 27% jej powierzchni. Amsterdam w du\u017cej cz\u0119\u015bci zbudowany jest na polderze. Jak m\u00f3wi holenderskie przys\u0142owie \u2013 \u201eB\u00f3g stworzy\u0142 \u015bwiat, lecz Holendrzy Holandi\u0119\u201d.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/polder.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
+            },
+            {
+                "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Gildie|Gildii|Gildiom|Gildie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+        },
+        "required_civ": {
+            "name": "The Netherlands",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/the_netherlands.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/polder.json"
+    },
+    {
+        "id": 25,
+        "name": "Wykopaliska|Wykopalisk|Wykopaliskom|Wykopaliska",
+        "game_info": "Archeolodzy mog\u0105 za\u0142o\u017cy\u0107 wykopalisko archeologiczne na \u015bladach przesz\u0142o\u015bci. Przyk\u0142adem takich niezmiernie cennych wykopalisk jest staro\u017cytne miasto Troja. Po rozpocz\u0119ciu wykopalisk archeolodzy odkryj\u0105, jaki rodzaj artefaktu jest zakopany w danym miejscu. Mo\u017cesz nast\u0119pnie zdecydowa\u0107, czy maj\u0105 oni stworzy\u0107 na sta\u0142e s\u0142ynne miejsce, czy te\u017c wydoby\u0107 artefakt, kt\u00f3ry mo\u017cesz potem umie\u015bci\u0107 w dowolnym budynku z miejscem na wielkie dzie\u0142o sztuki.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/wykopaliska|wykopalisk|wykopaliskom|wykopaliska.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Ukryte \u015blady przesz\u0142o\u015bci|Ukrytych \u015blad\u00f3w przesz\u0142o\u015bci|Ukrytym \u015bladom przesz\u0142o\u015bci|Ukryte \u015blady przesz\u0142o\u015bci",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/hidden_antiquity_site.json"
+            },
+            {
+                "name": "\u015alady przesz\u0142o\u015bci|\u015alad\u00f3w przesz\u0142o\u015bci|\u015aladom przesz\u0142o\u015bci|\u015alady przesz\u0142o\u015bci",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/antiquity_site.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archaeology.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/archaeological_dig.json"
+    },
+    {
+        "id": 26,
+        "name": "Wycinka brezylki braz.|Wycinki brezylki braz.|Wycince brezylki braz.|Wycink\u0119 brezylki braz.|Wycinki brezylki braz.|Wycinek brezylki braz.|Wycinkom brezylki braz.|Wycinki brezylki braz.|",
+        "game_info": "Brezylka to tropikalne drzewo li\u015bciaste, z kt\u00f3rego kory mo\u017cna uzyska\u0107 jasnoczerwony i ciemnofioletowy ekstrakt u\u017cywany przy produkcji barwnik\u00f3w. Drewno jest g\u0119ste i bardzo cenione w produkcji instrument\u00f3w (zw\u0142aszcza smyczkowych) oraz mebli. Hodowla brezylki trwa\u0142a a\u017c do 1875 r., kiedy przemys\u0142 tekstylny zdominowa\u0142y sztuczne barwniki, a inne rodzaje drewna okaza\u0142y si\u0119 lepsze jako surowiec do produkcji instrument\u00f3w.Ob\u00f3z wyr\u0119bu brezylki mo\u017cna zbudowa\u0107 tylko na polu z d\u017cungl\u0105 i zapewni on dodatkowe +2 kultury, gdy opracowana zostanie akustyka.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/wycinka_brezylki_braz.|wycinki_brezylki_braz.|wycince_brezylki_braz.|wycink\u0119_brezylki_braz.|wycinki_brezylki_braz.|wycinek_brezylki_braz.|wycinkom_brezylki_braz.|wycinki_brezylki_braz.|.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/machinery.json"
+        },
+        "required_civ": {
+            "name": "Brazil",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/brazil.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/brazilwood_camp.json"
+    },
+    {
+        "id": 27,
+        "name": "Kasba|Kasby|Kasbie|Kasb\u0119|Kasby|Kasb|Kasbom|Kasby",
+        "game_info": "Kasba jest rodzajem medyny (otoczonej murem dzielnicy miasta), kt\u00f3r\u0105 mo\u017cna znale\u017a\u0107 na prowincji, zazwyczaj w ma\u0142ych osiedlach na szczycie lub zboczu wzg\u00f3rza. Zazwyczaj w kasbie zamieszkiwa\u0142 kacyk plemienia lub wa\u017cny islamski imam, kasb\u0119 charakteryzuj\u0105 wi\u0119c wysokie mury, domy bez okien i w\u0105skie, kr\u0119te uliczki. Zwykle dominuje nad nimi pojedyncza ufortyfikowana wie\u017ca. Kasby cz\u0119sto budowano wzd\u0142u\u017c p\u00f3\u0142nocnego wybrze\u017ca Afryki i na Bliskim Wschodzie, a\u017c do pocz\u0105tk\u00f3w XX w. Zbudowanie kasby by\u0142o dla maroka\u0144skich i algierskich rodzin pochodzenia arabskiego oznak\u0105 bogactwa, wp\u0142yw\u00f3w i pot\u0119gi.Kasba mo\u017ce powsta\u0107 jedynie na polu pustynnym.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kasba|kasby|kasbie|kasb\u0119|kasby|kasb|kasbom|kasby.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+        },
+        "required_civ": {
+            "name": "Morocco",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/morocco.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/kasbah.json"
+    },
+    {
+        "id": 28,
+        "name": "Faktoria|Faktorii|Faktorii|Faktori\u0119|Faktorie|Faktorii|Faktoriom|Faktorie",
+        "game_info": "Faktoria to nazwa, za pomoc\u0105 kt\u00f3rej okre\u015blano plac\u00f3wki handlowe zak\u0142adane w \u015bredniowieczu na cudzych terytoriach. S\u0142u\u017cy\u0142a ona jednocze\u015bnie za targowisko, magazyn, osad\u0119 i punkt wypadowy dla wypraw badawczych. Faktorie cz\u0119sto zak\u0142adane by\u0142y na mocy grantu udzielonego przez portugalsk\u0105 koron\u0119, a d\u0142ug sw\u00f3j zwraca\u0142y poprzez kupno i sprzeda\u017c towar\u00f3w w jej imieniu i pobieranie c\u0142a za towary, kt\u00f3re tam trafia\u0142y. W XV i XVI w. wzd\u0142u\u017c brzeg\u00f3w Afryki, Indii, Malezji, Chin i Japonii zbudowano sie\u0107 ponad 50 faktorii; pozwoli\u0142y one Portugalczykom zdominowa\u0107 szlaki handlowe Oceanu Atlantyckiego i Indyjskiego na trzy stulecia.Faktoria mo\u017ce powsta\u0107 jedynie na obszarze wolnego miasta, na wybrze\u017cu, gdzie nie znajduj\u0105 si\u0119 surowce. Zapewnia jedn\u0105 kopi\u0119 surowca luksusowego ka\u017cdego rodzaju spo\u015br\u00f3d tych, kt\u00f3re po\u0142\u0105czone s\u0105 z wolnym miastem, niezale\u017cnie od twoich relacji z tym miastem, ale kopia ta nie podlega wymianie. Dzi\u0119ki faktorii generowana jest ta sama premia do obrony co w przypadku fortu (+50%). Tylko Portugalczycy maj\u0105 mo\u017cliwo\u015b\u0107 budowy faktorii.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/faktoria|faktorii|faktorii|faktori\u0119|faktorie|faktorii|faktoriom|faktorie.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+        },
+        "required_civ": {
+            "name": "Portugal",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/portugal.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/feitoria.json"
+    },
+    {
+        "id": 29,
+        "name": "Chateau",
+        "game_info": "Chateau to dworek lub posiad\u0142o\u015b\u0107 wiejska szlachty zwykle nie posiadaj\u0105ca \u017cadnych umocnie\u0144. W \u015bredniowieczu chateau by\u0142o w wi\u0119kszo\u015bci samowystarczalne, utrzymywane przez ziemie nale\u017c\u0105ce do w\u0142adcy. W XVII wieku lordowie francuscy wybudowali liczne eleganckie, luksusowe, architektonicznie wyrafinowane posiad\u0142o\u015bci takie jak Chateau de Maisons. Dzi\u015b nazwy chateau u\u017cywa si\u0119 do\u015b\u0107 swobodnie, cz\u0119sto okre\u015bla si\u0119 tym mianem winnic\u0119 lub gospod\u0119, niewa\u017cne jak skromne.Chateau nale\u017cy budowa\u0107 obok zasob\u00f3w luksusowych. Nie mo\u017ce s\u0105siadowa\u0107 z innym chateau. Daje dodatkowo 1 z\u0142ota i 2 kultury. Podobnie jak fort daje premi\u0119 +50% do obrony. Po wynalezieniu lotu zwi\u0119ksza przych\u00f3d kultury o 1, a produkcj\u0119 z\u0142ota o 2. Musi by\u0107 budowane na terytorium francuskim.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+            },
+            {
+                "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+            },
+            {
+                "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+            },
+            {
+                "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+            },
+            {
+                "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+        },
+        "required_civ": {
+            "name": "France",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/france.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/chateau.json"
+    }
+]

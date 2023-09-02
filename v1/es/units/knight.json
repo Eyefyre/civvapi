@@ -1,0 +1,31 @@
+{
+    "id": 55,
+    "name": "Caballero|Caballeros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/knight.png",
+    "game_info": "Una poderosa unidad montada medieval, d\u00e9bil contra Piqueros.",
+    "historical_info": "Los caballeros casi siempre estaban formados por la nobleza de una naci\u00f3n (pues eran los \u00fanicos que pod\u00edan permitirse el equipo, los caballos y el exhaustivo entrenamiento necesarios) y conformaban la caballer\u00eda pesada del ej\u00e9rcito medieval. Durante gran parte de la Edad Media, los caballeros dominaron el campo de batalla. La superioridad de su armadura les confer\u00eda una buena protecci\u00f3n contra flechas y lanzas, y su gran movilidad les permit\u00eda aprovechar cualquier punto d\u00e9bil del enemigo en el campo de batalla. Se deb\u00eda tener mucho valor para enfrentarse a una carga de caballeros. Un muro de piqueros pod\u00eda frenar la acometida de la caballer\u00eda, pero solo si ten\u00edan la disciplina y los arrestos necesarios para mantener la posici\u00f3n. Si se acobardaban, estaban muertos.",
+    "strategy": "El Caballero es una unidad r\u00e1pida y poderosa, el rey indiscutible del campo de batalla medieval. Como unidad montada, es vulnerable a los Piqueros, pero puede aplastar a otros oponentes con relativa facilidad. El Caballero puede moverse despu\u00e9s de atacar, lo que le permite abrir huecos en las l\u00edneas enemigas y atravesarlos al galope.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

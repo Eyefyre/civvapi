@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "Ingegneria|dell'Ingegneria",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "Epoca classica",
+    "cost": 175,
+    "civilopedia_entry": "L'ingegneria \u00e8 la scienza (o forse l'arte) di progettare materiali, strutture, dispositivi e sistemi complessi. Al giorno d'oggi l'ambito ingegneristico \u00e8 alquanto allargato: i bioingegneri progettano cellule, gli ingegneri del software programmi per computer e cos\u00ec via. Storicamente, comunque, il termine \u00e8 stato applicato alla costruzione di oggetti fisici, come macchinari, ponti, ferrovie, fabbriche ecc. (in origine il termine \"ingegnere\" si riferiva specificatamente a chi progettava macchine da guerra).L'ingegneria fior\u00ec definitivamente nel XIX secolo, quando le nazioni di tutto il mondo cominciarono a intraprendere enormi progetti di costruzione. Completato dai francesi nel 1869, il Canale di Suez collega il Mediterraneo al Mar Rosso: in questo modo \u00e8 possibile raggiungere l'India dall'Europa via mare senza la lunga e pericolosa circumnavigazione dell'Africa. Nello stesso anno gli Stati Uniti completarono la ferrovia intercontinentale, mentre nel 1883 fu costruito il ponte di Brooklyn.",
+    "quote": "\"La scienza degli strumenti e della meccanica \u00e8 la pi\u00f9 nobile di tutte, e soprattutto la pi\u00f9 utile.\" - Leonardo da Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Matematica|della Matematica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+        },
+        {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusione del metallo|della Fusione del metallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+        },
+        {
+            "name": "Meccanica|della Meccanica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Grande Muraglia|la Grande Muraglia|una Grande Muraglia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/great_wall.json"
+        },
+        {
+            "name": "Acquedotto|l'Acquedotto|un Acquedotto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/aqueduct.json"
+        }
+    ]
+}

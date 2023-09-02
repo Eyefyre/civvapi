@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Bl\u00e9",
+    "game_info": null,
+    "historical_info": "Cultiv\u00e9 \u00e0 l'origine dans le Croissant fertile du Moyen-Orient, le bl\u00e9 est l'une des c\u00e9r\u00e9ales les plus essentielles du r\u00e9gime alimentaire de l'homme. Le bl\u00e9 a des utilisations incroyablement vari\u00e9es\u00a0: on peut le transformer en farine pour ensuite faire du pain, des p\u00e2tes ou des g\u00e2teaux, mais on peut \u00e9galement le laisser fermenter afin de cr\u00e9er de savoureuses boissons alcoolis\u00e9es.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bl\u00e9.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Ferme|Fermes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plaines inondables|Plaine inondable",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/plaines_inondables|plaine_inondable.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Cataphractaire|Cataphractaires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Puissante unit\u00e9 mont\u00e9e rapide de d\u00e9but de partie. Vuln\u00e9rable contre les lanciers. Exclusive aux Byzantins, elle dispose d'une puissance de combat sup\u00e9rieure et d'une meilleure d\u00e9fense, et attaque les villes plus efficacement que le cavalier qu'elle remplace.",
+    "historical_info": "Avec certainement l'armure la plus lourde jamais port\u00e9e par un cavalier au cours de l'histoire, le cataphractaire \u00e9tait un adversaire redoutable sur le champ de bataille. Le cavalier et sa monture \u00e9taient tous deux prot\u00e9g\u00e9s par une impressionnante cotte de mailles, ou une armure de plaques, leur permettant d'\u00e9craser sans mal les lignes de fantassins ennemies. L'Empire byzantin eut recours aux cataphractaires de mani\u00e8re tr\u00e8s importante au cours de son histoire, car ils jou\u00e8rent un r\u00f4le pr\u00e9dominant dans la d\u00e9fense de l'Empire apr\u00e8s le d\u00e9clin de l'Empire romain d'Occident.",
+    "strategy": "Le cataphractaire est une unit\u00e9 exclusive aux Byzantins, qui remplace le cavalier. Il est plus lent, mais plus puissant que le cavalier, ce qui en fait l'une des unit\u00e9s mont\u00e9es les plus dangereuses jusqu'\u00e0 l'arriv\u00e9e du chevalier. Le cataphractaire peut se d\u00e9placer apr\u00e8s avoir attaqu\u00e9. Il peut gagner des bonus d\u00e9fensifs, contrairement au cavalier. Sa p\u00e9nalit\u00e9 lors d'attaques de villes est aussi moins importante.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "\u00c9quitation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "P\u00e9nalit\u00e9 lors d'attaques de villes (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

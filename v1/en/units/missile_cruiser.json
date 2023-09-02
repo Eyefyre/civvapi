@@ -1,0 +1,39 @@
+{
+    "id": 8,
+    "name": "Missile Cruiser",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missile_cruiser.png",
+    "game_info": "Naval Unit specialized in warding off enemy aircraft. Can hold 3 Missiles. Used to hunt down and destroy enemy Submarines.",
+    "historical_info": "A missile cruiser is, excepting the aircraft carrier and nuclear submarine, the most powerful naval weapon in the modern arsenal. Designed to carry and deploy the enormously powerful, accurate and long-ranged cruise missiles, a missile cruiser can often target and destroy an enemy on land or sea, long before the enemy even knew the missile cruiser was in range. The Ticonderoga-class American missile cruiser is arguably the most powerful vessel afloat, armed with 122 launch tubes that can carry a huge variety of surface-to-surface, surface-to-air, and even anti-submarine missiles. It is also equipped with a variety of anti-aircraft Gatling-style guns, capable of destroying incoming enemy missiles and aircraft in short order.",
+    "strategy": "The Missile Cruiser is a modern warship. It's fast and tough, carries a mean Ranged Combat punch and is pretty good at intercepting enemy aircraft. Most importantly, the Missile Cruiser can carry Guided Missiles and Nuclear Missiles, allowing you to carry these deadly weapons right up to the enemy's shore. Missile Cruisers combined with carriers and submarines make a fiendishly powerful armada.",
+    "movement": 7,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Robotics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Can See Submarines",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Attack vs Submarines (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Can Carry 3 Cargo",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_carry_3_cargo.json"
+        },
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(100).json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

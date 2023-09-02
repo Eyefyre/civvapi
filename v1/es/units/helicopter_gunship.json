@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "Helic\u00f3ptero de combate|Helic\u00f3pteros de combate",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Unidad especializada en la lucha contra Tanques y blindados modernos. Es capaz de sobrevolar Monta\u00f1as, pero recibe da\u00f1o si termina el turno en una.",
+    "historical_info": "Los helic\u00f3pteros tuvieron un uso limitado como veh\u00edculos de transporte en la Segunda Guerra Mundial y en la guerra de Corea. En Vietnam, el ej\u00e9rcito de Estados Unidos decidi\u00f3 crear un helic\u00f3ptero con blindaje y armamento m\u00e1s pesados, dise\u00f1ado espec\u00edficamente para el combate. Desde entonces, el helic\u00f3ptero de combate ha evolucionado para convertirse b\u00e1sicamente en una m\u00e1quina de cazar tanques. Como los helic\u00f3pteros eran capaces de volar muy cerca del suelo y de \"emerger\" para realizar un disparo r\u00e1pido y luego volver a parapetarse a ras de tierra antes de que los blindados enemigos pudieran responder, fueron casi imparables (salvo desde el aire) hasta que se crearon los misiles tierra-aire port\u00e1tiles de infanter\u00eda, como los que los muyahidines usaron contra los helic\u00f3pteros sovi\u00e9ticos en Afganist\u00e1n. Los helic\u00f3pteros de combate modernos cumplen otros cometidos, como apoyar de cerca a las unidades de infanter\u00eda o el transporte r\u00e1pido de los equipos de operaciones especiales, pero su misi\u00f3n b\u00e1sica sigue siendo la de cazar tanques.",
+    "strategy": "El Helic\u00f3ptero de combate es una unidad a\u00e9rea mort\u00edfera que, en muchos aspectos, funciona como cualquier unidad terrestre, excepto en que no puede capturar ciudades. Su 6 de Movimiento hace que sea extremadamente r\u00e1pido y pueda moverse por encima de todos los tipos de terreno, incluyendo Monta\u00f1as, como si estuviera despejado, pero debe embarcar para cruzar masas de agua. Tambi\u00e9n recibe una gran bonificaci\u00f3n al combate contra Tanques.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Ordenadores",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Casillas cuestan 1 de Movimiento",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Unidad planeadora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Tanques (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No puede capturar ciudades",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

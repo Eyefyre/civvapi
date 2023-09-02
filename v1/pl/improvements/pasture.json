@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "Pastwisko|Pastwiska|Pastwisku|Pastwisko|Pastwiska|Pastwisk|Pastwiskom|Pastwiska",
+    "game_info": "Pastwisko to ogrodzony wycinek otwartej przestrzeni, na kt\u00f3rym zasiano traw\u0119, by wykarmi\u0107 prze\u017cuwacze, takie jak konie i krowy.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pastwisko|pastwiska|pastwisku|pastwisko|pastwiska|pastwisk|pastwiskom|pastwiska.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Konie|Koni|Koniom|Konie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+        },
+        {
+            "name": "Byd\u0142o|Byd\u0142a|Byd\u0142u|Byd\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cattle.json"
+        },
+        {
+            "name": "Owce|Owiec|Owcom|Owce",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Hodowla zwierz\u0105t|Hodowli zwierz\u0105t|Hodowli zwierz\u0105t|Hodowl\u0119 zwierz\u0105t",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

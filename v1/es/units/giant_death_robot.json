@@ -1,0 +1,27 @@
+{
+    "id": 19,
+    "name": "Robot gigante|Robots gigantes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/giant_death_robot.png",
+    "game_info": "No se beneficia de las bonificaciones defensivas por terreno, pero, por lo dem\u00e1s, es m\u00e1s fuerte que cualquier otra unidad militar del juego.",
+    "historical_info": "El \"mech\" es un robot b\u00edpedo gigantesco que cuenta con gran variedad de misiles, ametralladoras Gatling en los brazos, rayos l\u00e1ser en los ojos y que pega pu\u00f1etazos mortales de kung-fu. Aunque actualmente no se ven en los campos de batalla, no hay duda de que los gobiernos del mundo y las corporaciones malvadas est\u00e1n dise\u00f1ando en secreto a estos titanes de metal mientras est\u00e1s leyendo esto. Cuando estos mech entren en servicio, todo el armamento del mundo quedar\u00e1 obsoleto y el destino de la humanidad se decidir\u00e1 en una batalla final entre los ej\u00e9rcitos de los mech buenos y los malos en las calles del centro de Tokio (suponiendo que los monstruos gigantes radioactivos no acaben antes con nosotros).",
+    "strategy": "El Mech es una unidad blindada moderna \"hinchada de esteroides\". Tiene una Fuerza de combate sorprendentemente alta, lo que le permite destrozar a pisotones pr\u00e1cticamente a cualquier unidad que encuentre. Adem\u00e1s, se puede mover despu\u00e9s de atacar. No se beneficia de las bonificaciones por terreno defensivo, pero, francamente, \u00bfqu\u00e9 importa? \u00a1Mola mogoll\u00f3n!",
+    "movement": 5,
+    "cost": {
+        "production": 550,
+        "faith": 1100
+    },
+    "prereq_tech": {
+        "name": "Fusi\u00f3n nuclear",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fusion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

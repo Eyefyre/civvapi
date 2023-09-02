@@ -1,0 +1,30 @@
+{
+    "id": 8,
+    "name": "S\u00e4gewerk",
+    "game_info": "Mit einem S\u00e4gewerk ist es m\u00f6glich, die Produktion von Wald-Gel\u00e4ndefeldern zu erh\u00f6hen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/s\u00e4gewerk.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Bauwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

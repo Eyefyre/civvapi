@@ -1,0 +1,43 @@
+{
+    "id": 107,
+    "name": "Ariete|un Ariete|dal tuo Ariete|al tuo Ariete|il tuo Ariete|da un Ariete",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battering_ram.png",
+    "game_info": "Unit\u00e0 d'assedio dotata di un letale attacco diretto contro le citt\u00e0. Solo gli Unni possono costruirla.",
+    "historical_info": "L'ariete da sfondamento \u00e8 un'arma d'assedio che \u00e8 stata usata soprattutto in et\u00e0 antica. Gli arieti erano progettati con un solo scopo: sfondare i pesanti portoni di legno dell'epoca. Per quanto ci fossero diverse forme e variazioni, tutti gli arieti erano fondati sullo stesso principio: un pesante tronco veniva montato su un carro o su un'altra piattaforma mobile usando corde o catene, in modo che restasse sospeso. I soldati lo tiravano indietro a braccia, lasciandolo poi ricadere con forza sufficiente a sfondare il portone nemico. \u00c8 certo che gli unni abbiano usato con successo gli arieti in diverse occasioni durante la loro conquista dell'Europa, per quanto non siano stati tramandati molti dettagli sulla particolare versione utilizzata.",
+    "strategy": "Gli Arieti da sfondamento sono un'unit\u00e0 esclusiva degli Unni e sostituiscono i Lancieri. Usa gli Arieti per abbattere le difese di una citt\u00e0. La promozione Copertura I li protegge dagli attacchi a distanza: per batterli, attaccali con unit\u00e0 da mischia.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro le citt\u00e0 (300)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(300).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Penalit\u00e0 alla difesa (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_on_defense_(33).json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Copertura I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cover_i.json"
+        },
+        {
+            "name": "Pu\u00f2 attaccare solo le citt\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/city_attack_only.json"
+        }
+    ]
+}

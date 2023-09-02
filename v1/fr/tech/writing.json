@@ -1,0 +1,44 @@
+{
+    "id": 8,
+    "name": "\u00c9criture",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/writing.png",
+    "era": "Antiquit\u00e9",
+    "cost": 55,
+    "civilopedia_entry": "L'\u00e9criture est l'art de consigner des informations sur un mat\u00e9riau (papier, pierre, argile, peau d'animal), afin que ceux qui observent ce dernier puissent en d\u00e9gager un sens. Invent\u00e9e aux alentours du quatri\u00e8me mill\u00e9naire av. J.-C., l'\u00e9criture se pr\u00e9sentait \u00e0 ses d\u00e9buts sous forme de pictogrammes : l'auteur du message dessinait de petits \u00e9l\u00e9ments symbolisant le sujet abord\u00e9. Si cette m\u00e9thode se r\u00e9v\u00e9lait utile pour aborder des sujets simples, il fallut en trouver d'autres pour traiter de sujets plus \u00e9sot\u00e9riques (dessiner un mouton est simple, plus que d'en dessiner mille, et incroyablement plus que de symboliser le bruit que fait un mouton tombant du haut d'une pyramide !).Il est probable que la logographie soit apparue apr\u00e8s la pictographie. En logographie, chaque symbole repr\u00e9sente un mot unique : il existe un symbole pour \"un mouton\", un autre pour \"mille moutons\", et un autre pour \"son que fait un mouton tombant du haut d'une pyramide\". Malheureusement, une langue ainsi repr\u00e9sent\u00e9e n\u00e9cessite un nombre astronomique de symboles, et apprendre le symbole correspondant \u00e0 chaque unit\u00e9 de sens tient de la folie douce.Le syst\u00e8me phonographique, lui, propose d'attribuer un symbole unique \u00e0 chaque mot se pronon\u00e7ant diff\u00e9remment. Ainsi, \"mouton\" est repr\u00e9sent\u00e9 par un symbole unique, mais \"verre\", \"vert\", \"ver\" et \"vers\" partagent le m\u00eame symbole. Cela permet d'avoir moins de symboles \u00e0 m\u00e9moriser, mais augmente dans le m\u00eame temps les risques d'incompr\u00e9hension.Le syst\u00e8me alphab\u00e9tique, enfin, met \u00e0 disposition de ses utilisateurs un ensemble de symboles (l'alphabet) repr\u00e9sentant les diff\u00e9rents sons pr\u00e9sents dans une langue donn\u00e9e. Ces symboles peuvent \u00eatre li\u00e9s entre eux, afin de reproduire n'importe quel mot de la langue en question. En th\u00e9orie, n'importe qui sachant \u00e9peler un mot devrait \u00eatre capable de le prononcer. Le syst\u00e8me alphab\u00e9tique, utilis\u00e9 notamment en anglais, est g\u00e9n\u00e9ralement consid\u00e9r\u00e9 (surtout par les locuteurs anglais) comme le syst\u00e8me le plus utile et le plus flexible \u00e0 avoir jamais \u00e9t\u00e9 mis au point.",
+    "quote": "\"Qui d\u00e9truit un bon livre tue la raison elle-m\u00eame.\" - John Milton",
+    "tech_prereqs": [
+        {
+            "name": "Poterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/philosophy.json"
+        },
+        {
+            "name": "Drame et po\u00e9sie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/drama_and_poetry.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Fabrique de papier|Fabriques de papier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/paper_maker.json"
+        },
+        {
+            "name": "Biblioth\u00e8que|Biblioth\u00e8ques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/library.json"
+        },
+        {
+            "name": "Grande biblioth\u00e8que|Grandes biblioth\u00e8ques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/great_library.json"
+        },
+        {
+            "name": "Biblioth\u00e8que royale|Biblioth\u00e8ques royales",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/royal_library.json"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Trabocco|un Trabocco|dal tuo Trabocco|al tuo Trabocco|il tuo Trabocco|da un Trabocco",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "Potente unit\u00e0 d'assedio di epoca medievale, ottima per ridurre le difese delle citt\u00e0 nemiche. Deve eseguire l'allestimento prima di attaccare.",
+    "historical_info": "Il trabocco \u00e8 una potente arma d'assedio medievale. Comparso in Europa nel XII secolo, un trabocco poteva scagliare un proiettile di 150 kg a grande distanza e mandarlo a schiantarsi contro o al di l\u00e0 delle mura nemiche. La versione europea del trabocco utilizzava un sistema di contrappesi; era costituita da un braccio di legno molto lungo con una fionda a un'estremit\u00e0 e un grosso peso all'altra. Il tutto era montato su una pesante infrastruttura, anch'essa di legno. Il lungo braccio veniva abbassato a forza, provocando il sollevamento del peso, dopodich\u00e9 si poneva un proiettile nella fionda. Al momento del rilascio il peso sarebbe caduto a terra con violenza facendo scattare il braccio in aria e scagliando il proiettile a grande distanza. Queste macchine in genere non si potevano spostare e richiedevano un complesso processo di assemblaggio, cosa che limitava il loro uso agli assedi protratti.",
+    "strategy": "Il Trabocco \u00e8 un'arma d'assedio medievale molto pi\u00f9 potente della pi\u00f9 arcaica Catapulta. Un Trabocco deve spendere 1 PM per l'allestimento, ma una volta in posizione pu\u00f2 infliggere gravi danni a una citt\u00e0 fortificata nemica. Difendi i tuoi trabocchi con unit\u00e0 di mischia e unit\u00e0 che attaccano a distanza per impedire ai nemici di avvicinarsi troppo.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Fisica|della Fisica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

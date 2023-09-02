@@ -1,0 +1,33 @@
+{
+    "id": 7,
+    "name": "Pszenica|Pszenicy|Pszenic\u0119|Pszenicy",
+    "game_info": null,
+    "historical_info": "Pszenic\u0119 najpierw siano na obszarze \u017byznego P\u00f3\u0142ksi\u0119\u017cyca na Bliskim Wschodzie, lecz dzi\u015b jest kluczowym elementem diety we wszystkich kulturach. Jest to bardzo uniwersalne zbo\u017ce, poniewa\u017c mo\u017cna je zetrze\u0107 na m\u0105k\u0119, a z niej robi\u0107 chleb, makaron, p\u0142atki lub ciasto. Pszenic\u0119 mo\u017cna te\u017c fermentowa\u0107 w celu uzyskania r\u00f3\u017cnych odmian alkoholu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pszenica|pszenicy|pszenic\u0119|pszenicy.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Farma|Farmy|Farmie|Farm\u0119|Farmy|Farm|Farmom|Farmy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/farm.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/obszary_zalewowe|obszar\u00f3w_zalewowych|obszarom_zalewowym|obszary_zalewowe.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "name": "Ca\u00f1\u00f3n antitanque|Ca\u00f1ones antitanques",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-tank_gun.png",
+    "game_info": "Unidad especializada en la lucha contra Tanques y relativamente barata.",
+    "historical_info": "Son unidades de artiller\u00eda especialmente dise\u00f1adas para destruir los tanques enemigos. Deben ser m\u00f3viles, ya sean autopropulsadas o f\u00e1cilmente transportables por camiones. Disparan proyectiles capaces de penetrar el blindaje enemigo. Los ca\u00f1ones antitanque suelen ser vulnerables a la infanter\u00eda enemiga ,y deben contar con apoyo de unidades anti-infanter\u00eda cuando el enemigo se acerque.",
+    "strategy": "El Ca\u00f1\u00f3n antitanque es una unidad de combate especializada que resulta muy potente contra los blindados enemigos, pero d\u00e9bil cuando combate con otras unidades. Resp\u00e1ldalos con tus tanques o artiller\u00eda para tener una fuerza de combate poderosa.",
+    "movement": 2,
+    "cost": {
+        "production": 300,
+        "faith": 600
+    },
+    "prereq_tech": {
+        "name": "Fuerzas combinadas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra Tanques (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_tanks_(100).json"
+        }
+    ]
+}

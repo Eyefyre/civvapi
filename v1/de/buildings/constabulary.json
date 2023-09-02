@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Gendarmerie",
+    "game_info": "Senkt die Diebstahlrate feindlicher Spione um 25%.",
+    "strategy": "Gendarmerien machen es feindlichen Spionen schwerer, Technologien aus Eurer Stadt zu stehlen.",
+    "historical_info": "Eine der fr\u00fchesten bekannten Beschreibungen der Rolle eines Constables stammt von Bracton, einem Juristen in England, der zwischen 1235 und 1268 schrieb: \"Auf welchem Weg und an welchem Tag sie auch kommen, die Pflicht eines Constables ist es, alles ordnungsgem\u00e4\u00df abzuwickeln, er muss die Dinge, die er sieht, aufzeichnen. Aber er darf nicht richten, denn beim Tower gibt es kein Urteil, denn dort fehlt das dritte Element einer Justizprozedur, n\u00e4mlich ein Richter und Gerichtsbarkeit. Er muss die Tatsachen aufzeichnen, nicht Angelegenheiten der Rechtsprechung und des Gesetzes.\"",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gendarmerie.png",
+    "prereq_tech": {
+        "name": "Bankwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

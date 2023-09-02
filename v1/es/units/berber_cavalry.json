@@ -1,0 +1,39 @@
+{
+    "id": 129,
+    "name": "Caballer\u00eda bereber|Caballer\u00edas bereberes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berber_cavalry.png",
+    "game_info": "Unidad montada especializada en luchar en el Desierto y en proteger las tierras marroqu\u00edes. Recibe bonificaciones de combate cuando lucha en casillas de Desierto y cuando protege el territorio marroqu\u00ed. Solo puede formarla Marruecos.",
+    "historical_info": "Los fieros guerreros bereberes fueron los due\u00f1os de las monta\u00f1as del Rif y el desierto del S\u00e1hara Occidental. Los jinetes bereberes t\u00edpicos iban montados en sus caballos berberiscos, una raza norteafricana de una dureza excepcional. Los guerreros llevaban ropa ligera, adecuada al calor y al clima seco, y se cubr\u00edan con mantos durante el invierno. Su armamento estaba adaptado a partir del de los \u00e1rabes: una espada recta y larga, una daga curvada y decorada y un arma de fuego de ca\u00f1\u00f3n largo (con \u00e1nima rayada o estriada). Aunque los ataques a caravanas y asentamientos costeros eran frecuentes, los jinetes bereberes no eran contrarios a la batalla convencional: hab\u00edan demostrado su val\u00eda contra los caballeros europeos en varios conflictos.",
+    "strategy": "Esta unidad montada sustituye a la Caballer\u00eda. Se trata de fieros guerreros del desierto de Marruecos que reciben bonificaciones de combate al luchar en una casilla de Desierto o en territorio marroqu\u00ed (se apilan).",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Belicolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Guerrero del desierto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/desert_warrior.json"
+        },
+        {
+            "name": "Guardi\u00e1n de la tierra natal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/homeland_guardian.json"
+        }
+    ]
+}

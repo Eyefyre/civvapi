@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Aqueduct",
+    "game_info": "40% of Food is carried over after a new Citizen is born.",
+    "strategy": "The Aqueduct decreases the amount of Food a city needs to increase in size by 40%. Build Aqueducts in cities that you want to grow large over time.",
+    "historical_info": "An aqueduct is a system for moving water from a water supply at one location to another location, historically to irrigate crops away from natural water bodies. The word derives from the Latin for \"water\" and \"to lead,\" and the aqueduct is most traditionally associated with the Romans. The most famous Roman aqueduct is the Pont du Gard in France. But the Romans were not the only civilization to build aqueducts! Magnificent and complicated aqueducts were built all over the world, including at Ninevah, capital of the Assyrians, and the Aztec capital of Tenochtitlan in North America.The principles of aqueduct planning and construction are the same today as they were millennia ago, and humans continue to move water great distances to make our lives easier.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/aqueduct.png",
+    "prereq_tech": {
+        "name": "Engineering",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

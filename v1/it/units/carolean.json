@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Karoliner|un Karoliner|dal tuo Karoliner|al tuo Karoliner|il tuo Karoliner|da un Karoliner",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Forte unit\u00e0 terrestre, destinata a stare in prima fila. \u00c8 specializzata nell'esecuzione di lunghe marce, anche molto lontano dai territori svedesi. Solo la Svezia pu\u00f2 costruirla.",
+    "historical_info": "I Carolini erano un corpo scelto di soldati al servizio della Corona di Svezia, attivi pi\u00f9 o meno dal 1660 al 1697. I Carolini potevano contare su pochi uomini, ma allo scarso numero supplivano con la disciplina inflessibile e l'uso di tattiche militari innovative, tanto che si pu\u00f2 sostenere fossero uno dei contingenti pi\u00f9 temibili dell'epoca. Totalmente votati all'attacco, durante l'addestramento i Carolini non provavano neppure le manovre di ritirata. Di solito caricavano frontalmente le linee nemiche, rispondendo al fuoco solo quando erano abbastanza vicini da essere sicuri di colpire nel segno. Una simile carica furiosa era in grado di demoralizzare molti eserciti, e spesso davanti ai Carolini le truppe nemiche si disperdevano e finivano col darsi alla fuga.",
+    "strategy": "I Carolini costituiscono la spina dorsale dell'esercito svedese all'inizio dell'epoca industriale. Entrano in gioco con la promozione Marcia, che permette loro di curarsi ogni turno, anche quando eseguono un'azione.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rigatura delle canne|della Rigatura delle canne",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Marcia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/march.json"
+        }
+    ]
+}

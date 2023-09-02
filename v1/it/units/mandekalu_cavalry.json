@@ -1,0 +1,27 @@
+{
+    "id": 58,
+    "name": "Cavalleria Mandekalu|una Cavalleria Mandekalu|dalla tua Cavalleria Mandekalu|alla tua Cavalleria Mandekalu|la tua Cavalleria Mandekalu|da una Cavalleria Mandekalu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mandekalu_cavalry.png",
+    "game_info": "Potente unit\u00e0 a cavallo di epoca medievale, debole contro i Picchieri. Solo i Songhai possono costruirla. A differenza del Cavaliere, che sostituisce, quest'unit\u00e0 non \u00e8 penalizzata quando attacca le citt\u00e0.",
+    "historical_info": "Come gli eserciti occidentali, anche quelli musulmani comprendevano unit\u00e0 di cavalleria pesante, simili come forma e funzione ai cavalieri europei. Anche i cavalieri musulmani appartenevano alle classi pi\u00f9 ricche della societ\u00e0, che potevano permettersi armi, armatura e cavalli. L'armatura naturalmente era diversa, per tener conto delle differenze climatiche - anche il cavaliere pi\u00f9 nobile sarebbe andato arrosto se avesse indossato un'armatura di piastre metalliche sotto il sole del Medio Oriente - ma forniva comunque un'ottima protezione rispetto a quella disponibile alle altre unit\u00e0 sul campo. I resoconti storici in genere ammettono che i cavalieri musulmani erano in grado di sfidare alla pari i loro avversari europei.",
+    "strategy": "Questa unit\u00e0, esclusiva dei Songhai, sostituisce il Cavaliere. Ha le stesse statistiche della sua controparte, ma ottiene un significativo bonus quando attacca una citt\u00e0. La Cavalleria Mandekalu \u00e8 in grado di muoversi dopo aver attaccato. La sua velocit\u00e0 gli permette spesso di raggiungere il suo obiettivo prima che il nemico abbia avuto il tempo di preparare una linea di difesa.",
+    "movement": 4,
+    "cost": {
+        "production": 110,
+        "faith": 220
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Cirque|Cirques",
+    "game_info": "La ville doit exploiter dans ses environs une source am\u00e9lior\u00e9e de chevaux ou d'ivoire.",
+    "strategy": "Le cirque ne peut \u00eatre construit que dans une ville exploitant dans ses environs des chevaux ou de l'ivoire (am\u00e9nag\u00e9s). Ce b\u00e2timent augmente le taux de bonheur de votre civilisation.",
+    "historical_info": "Un cirque est une troupe d'artistes comprenant le plus souvent clowns, acrobates, jongleurs, funambules, trap\u00e9zistes, musiciens et dompteurs. La plupart des cirques sont des communaut\u00e9s itin\u00e9rantes allant de ville en ville le temps d'une saison. D'autres, moins nombreux, restent toute l'ann\u00e9e au m\u00eame endroit. Dans la Rome antique, le cirque \u00e9tait un b\u00e2timent dans lequel \u00e9taient organis\u00e9s courses de chars, combats mis en sc\u00e8ne, spectacles de jonglerie et autres \u00e9v\u00e9nements de divertissement. Le Circus Maximus, le premier cirque romain, pouvait \u00e0 son comble accueillir quelque 250\u00a0000\u00a0citoyens en d\u00e9lire (soit 25% de la population de la ville).",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/cirque|cirques.png",
+    "prereq_tech": {
+        "name": "Pi\u00e8ge",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/trapping.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

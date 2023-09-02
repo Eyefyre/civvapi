@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Flughafen",
+    "game_info": "Erm\u00f6glicht Lufttransport in diese oder aus dieser Stadt. Erh\u00f6ht die Lufteinheiten-Kapazit\u00e4t der Stadt von 6 auf 10. 50% der Kultur f\u00fcr Weltwunder, Naturwunder und Modernisierungen (Wahrzeichen, Moai-Statue, Chateau) wird zur Tourismusproduktion der Stadt addiert. Tourismusproduktion von Gro\u00dfen Werken +50%.",
+    "strategy": "Der vielseitig einsetzbare Flughafen ist eine ausgezeichnete Wahl f\u00fcr Zivilisationen, die ihre Tourismusproduktion verbessern wollen, und f\u00fcr solche, die Lufttransporte ben\u00f6tigen, um Einheiten in entfernte St\u00e4dte zu fliegen.",
+    "historical_info": "Technisch gesehen bezeichnet der Begriff \"Flughafen\" jeden Ort, an dem Flugzeuge, Hubschrauber, Zeppeline oder sonstige Luftfahrzeuge starten und landen k\u00f6nnen. Im allgemeinen Sprachgebrauch ist jedoch ein Komplex f\u00fcr den kommerziellen Flugverkehr, bestehend aus Start- und Landebahnen, Kontrollt\u00fcrmen, Hangars, Terminals, Notfalleinrichtungen und Parkm\u00f6glichkeiten gemeint. Vor 1930 waren die meisten Flugh\u00e4fen kleine Flugpl\u00e4tze mit Start- und Landebahnen, die in der Regel nicht mal 600 Meter lang waren. Im Jahr 1939 fertigte der Flughafen La Guardia in New York City fast eine viertel Million Passagiere pro Monat ab. Die j\u00fcngsten Statistiken \u00fcber das Passagieraufkommen f\u00fchren den Flughafen Hartsfield-Jackson in Atlanta als den gr\u00f6\u00dften Flughafen der Welt auf; \u00fcber 92 Millionen Passagiere wurden hier im Jahr 2011 abgefertigt.",
+    "cost": {
+        "production": 400,
+        "faith": 0
+    },
+    "gold_maintenance": 5,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/flughafen.png",
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

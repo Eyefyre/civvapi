@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Balistyka zaawansowana|Balistyki zaawansowanej|Balistyce zaawansowanej|Balistyk\u0119 zaawansowan\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "Epoka informacji|Epoki informacji|Epoce informacjii|Epok\u0119 informacji",
+    "cost": 7700,
+    "civilopedia_entry": "Balistyka jest nauk\u0105 o strzelaniu oraz wykonywaniu rzut\u00f3w na du\u017ce odleg\u0142o\u015bci z wielk\u0105 precyzj\u0105. Zaawansowana balistyka zajmuje si\u0119 z grubsza tym samym, lecz odleg\u0142o\u015bci rosn\u0105 na skal\u0119 kontynentaln\u0105. Wsp\u00f3\u0142czesna artyleria jest w stanie miota\u0107 \u0142adunki wybuchowe na dziesi\u0105tki kilometr\u00f3w z olbrzymi\u0105 celno\u015bci\u0105, a pociski mog\u0105 by\u0107 wystrzeliwane w precyzyjnie oznaczone cele znajduj\u0105ce si\u0119 po drugiej stronie planety. Gdy doda si\u0119 do tego ozdobniki pokroju GPS lub naprowadzania laserowego, praktycznie nie b\u0119dzie celu na \u015bwiecie, kt\u00f3ry nie b\u0119dzie m\u00f3g\u0142 by\u0107 trafiony jak\u0105\u015b broni\u0105. Ci\u0119\u017cko powiedzie\u0107, czy to dobrze \u2013 w znacznej mierze zale\u017cy to od tego, czyj palec spoczywa na spu\u015bcie.",
+    "quote": "\u201eSi\u0142a naszej nauki przeros\u0142a si\u0142\u0119 ducha. Mamy kierowane rakiety i \u017ale kierowanych ludzi.\" - Martin Luther King Jr.",
+    "tech_prereqs": [
+        {
+            "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Technika rakietowa|Techniki rakietowej|Technice rakietowej|Technik\u0119 rakietow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fizyka kwantowa|Fizyki kwantowej|Fizyce kwantowej|Fizyk\u0119 kwantow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/particle_physics.json"
+        },
+        {
+            "name": "Reakcja termoj\u0105drowa|Reakcji termoj\u0105drowej|Reakcji termoj\u0105drowej|Reakcj\u0119 termoj\u0105drow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Dopalacz SK|Dopalacza SK|Dopalaczowi SK|Dopalacz SK|Dopalacze SK|Dopalaczy SK|Dopalaczom SK|Dopalaczy SK",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/ss_booster.json"
+        },
+        {
+            "name": "Pocisk atomowy|Pocisku atomowego|Pociskowi atomowemu|Pocisk atomowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/nuclear_missile.json"
+        },
+        {
+            "name": "Pociski kierowane|Pocisk\u00f3w kierowanych|Pociskom kierowanym|Pociski kierowane",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

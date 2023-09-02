@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "\u51b6\u91d1\u8853",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "\u6587\u85dd\u5fa9\u8208\u6642\u4ee3",
+    "cost": 1150,
+    "civilopedia_entry": "\u51b6\u91d1\u662f\u9580\u95dc\u65bc\u91d1\u5c6c\u8207\u5408\u91d1\u7684\u79d1\u5b78\u3002\u5728\u6587\u660e\u5e1d\u570b5\u4e2d\uff0c\u300c\u51b6\u91d1\u8853\u300d\u79d1\u6280\u6db5\u84cb\u4e86\u5f9e19\u4e16\u7d00\u958b\u59cb\u5728\u9019\u500b\u9818\u57df\u7684\u9032\u6b65\u3002\u572819\u548c20\u4e16\u7d00\u6642\uff0c\u51b6\u91d1\u8853\u5728\u63d0\u7149\u3001\u5275\u9020\u65b0\u5408\u91d1\u53ca\u751f\u7522\u5ec9\u50f9\u4e14\u9ad8\u54c1\u8cea\u7684\u91d1\u5c6c\u65b9\u9762\u90fd\u6709\u660e\u986f\u7684\u9032\u6b65\u3002\u91d1\u5c6c\u662f\u73fe\u4ee3\u6587\u660e\u7684\u6838\u5fc3\u3002\u9019\u4e16\u754c\u5927\u90e8\u5206\u4e0d\u662f\u9760\u92fc\u9435\u6240\u5efa\u9020\u7684\uff0c\u5c31\u662f\u4ee5\u92c1\u548c\u9226\u70ba\u539f\u6599\u3002\u6211\u5011\u7684\u901a\u8a0a\u7db2\u8def\u662f\u9760\u91d1\u5c6c\u5efa\u9020\u7684\uff0c\u6211\u5011\u7684\u6c7d\u8eca\u3001\u6b66\u5668\u3001\u4eba\u9020\u885b\u661f\u548c\u592a\u7a7a\u8239\u4e5f\u90fd\u662f\u91d1\u5c6c\u88fd\u7684\u3002\u5982\u679c\u6c92\u6709\u73fe\u4ee3\u51b6\u91d1\u6280\u8853\uff0c\u5730\u7403\u4e0a90%\u7684\u4eba\u53e3\u5728\u4e00\u5e74\u5167\u6703\u9913\u6b7b\u7684\u3002",
+    "quote": "\u300c\u58de\u92fc\u9444\u4e0d\u6210\u597d\u5200\u3002\u300d--\u73ed\u5091\u660e\u00b7\u5bcc\u862d\u514b\u6797",
+    "tech_prereqs": [
+        {
+            "name": "\u706b\u85e5",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/gunpowder.json"
+        },
+        {
+            "name": "\u5370\u5237\u8853",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u8ecd\u4e8b\u79d1\u5b78",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/military_science.json"
+        },
+        {
+            "name": "\u819b\u7dda",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "\u69cd\u9a0e\u5175",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/units/lancer.json"
+        },
+        {
+            "name": "\u897f\u5e15\u5e0c\u9a0e\u5175",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/units/sipahi.json"
+        },
+        {
+            "name": "\u82ac\u862d\u8f15\u9a0e\u5175",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/units/hakkapeliitta.json"
+        },
+        {
+            "name": "\u7ffc\u9a0e\u5175",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "\u5175\u5de5\u5ee0",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/buildings/arsenal.json"
+        },
+        {
+            "name": "\u5fb7\u91cc\u7d05\u5821",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/buildings/red_fort.json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 68,
+    "name": "Ordenadores",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/computers.png",
+    "era": "Era At\u00f3mica",
+    "cost": 6400,
+    "civilopedia_entry": "En su forma m\u00e1s b\u00e1sica, un ordenador es una m\u00e1quina que manipula datos o controles partiendo de una serie de instrucciones predeterminadas. Si bien el primer ordenador no fue concebido hasta principios del siglo XX, sus ra\u00edces se remontan a los relojes astron\u00f3micos mec\u00e1nicos dise\u00f1ados por Al Jazar\u00ed en el a\u00f1o 1206 d. C. y al telar mec\u00e1nico construido por Jacquard en 1801. Aunque estos dos dispositivos eran programables, no desempe\u00f1aban la otra funci\u00f3n de los ordenadores modernos: el almacenamiento de informaci\u00f3n. Los primeros ordenadores dispon\u00edan de piezas mec\u00e1nicas y anal\u00f3gicas para almacenar datos, pero en la d\u00e9cada de 1940 se instaur\u00f3 el uso de medios electr\u00f3nicos digitales. No hay una fecha concreta que se\u00f1ale la invenci\u00f3n del ordenador moderno; su aparici\u00f3n tuvo lugar a ra\u00edz de una progresi\u00f3n de avances, entre los que destacaron la calculadora Z1 de Konrad Zuse y el ENIAC del ej\u00e9rcito de Estados Unidos.Desde la incorporaci\u00f3n de componentes electr\u00f3nicos, los ordenadores se han vuelto cada vez m\u00e1s peque\u00f1os, r\u00e1pidos y baratos; tambi\u00e9n consumen menos y son mucho m\u00e1s fiables y vers\u00e1tiles. A diferencia de los modelos m\u00e1s antiguos, que ocupaban habitaciones o incluso bloques de edificios enteros, los ordenadores modernos son tan comunes como el tel\u00e9fono, y no solo pueden encontrarse como equipos personales, sino tambi\u00e9n integrados en coches, lavadoras e incluso tejidos en prendas de vestir de corte vanguardista. Los ordenadores han hecho posible que los cient\u00edficos realicen c\u00e1lculos que de otro modo les llevar\u00eda toda la vida completar, predecir el clima con una precisi\u00f3n asombrosa, enviar humanos a la luna y naves no tripuladas m\u00e1s all\u00e1 de los confines del sistema solar, y permitir a un ni\u00f1o de Shanghai jugar a un videojuego con otro de Inglaterra sin tener que salir de casa.Lo que en un principio se consider\u00f3 una moda pasajera o un juguete para los ricos ha dejado una marca indeleble e innegable en la historia.",
+    "quote": "\"Los ordenadores son como los dioses del Antiguo Testamento: repletos de reglas y faltos de piedad.\" - Joseph Campbell",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        },
+        {
+            "name": "Fuerzas combinadas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Rob\u00f3tica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+        },
+        {
+            "name": "L\u00e1ser",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/lasers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Helic\u00f3ptero de combate|Helic\u00f3pteros de combate",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/helicopter_gunship.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Gran firewall|Grandes firewalls",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/great_firewall.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "name": "Navire de ligne|Navires de ligne",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ship_of_the_line.png",
+    "game_info": "Puissante unit\u00e9 navale de la Renaissance utilis\u00e9e pour contr\u00f4ler les mers. Le navire de ligne est exclusif aux Anglais.",
+    "historical_info": "Les navires de ligne sont les vaisseaux navals les plus grands et les plus puissants \u00e0 avoir jamais \u00e9t\u00e9 con\u00e7us. Ils constitu\u00e8rent la poutre ma\u00eetresse des grandes flottes d'Europe du XVIIe au milieu du XIXe si\u00e8cle. Les navires de ligne tirent leur nom de la formation qu'ils adoptaient traditionnellement en combat. Lors des batailles, deux lignes de navires, une de chaque c\u00f4t\u00e9, attaquaient l'ennemi et le bombardaient de boulets de canon, causant de terribles d\u00e9g\u00e2ts chez l'adversaire. La victoire allait g\u00e9n\u00e9ralement au b\u00e2timent disposant du plus grand nombre de canons et des navigateurs les mieux entra\u00een\u00e9s. Les Anglais \u00e9taient les ma\u00eetres de ce type de combats, et leurs navires de ligne domin\u00e8rent les oc\u00e9ans durant plus d'un si\u00e8cle.",
+    "strategy": "Unit\u00e9 exclusive aux Anglais, le navire de ligne remplace la fr\u00e9gate. Sa puissance de combat \u00e0 distance est l\u00e9g\u00e8rement plus importante que celle de cette derni\u00e8re, et il est un peu moins on\u00e9reux \u00e0 produire. Il peut \u00e9galement voir une case plus loin que la fr\u00e9gate, ce qui lui permet de rep\u00e9rer les ennemis pr\u00e9sents dans une portion d'oc\u00e9an plus importante.",
+    "movement": 5,
+    "cost": {
+        "production": 170,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": 47,
+    "name": "Military Caste",
+    "game_info": "Military CasteEach City with a garrison increases Local City Happiness by 1 and Culture by 2.",
+    "historical_info": "In a society with a military caste, all members of the military are from a specific tribe, nationality, religion, or other socio-economic subgroup. Citizens who are not part of the caste are forbidden from joining the military and often from carrying any weapons at all, often because the military caste fears that the citizens might use the weapons against them. Much of feudal Japan was under a military caste system, as was ancient Sparta.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/military_caste.png",
+    "required_policies": [
+        {
+            "name": "Discipline",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/discipline.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Honor",
+        "game_info": "Honor improves the effectiveness of one's army in a variety of ways.Adopting Honor gives a +33% combat bonus VS Barbarians, and notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain Culture for the empire from each barbarian killed. Unlocks building the Statue of Zeus.Adopting all policies in the Honor tree will grant Gold for each enemy unit killed. It also allows the purchase of Great Generals with Faith starting in the Industrial Era.",
+        "prereq_era": null,
+        "historical_info": "In an \"honorable\" society, the citizens' status is based upon the society's judgment of their personal qualities. Qualities that are usually considered honorable include fealty, honesty, integrity, and courage. In many such societies men are expected to \"defend their honor\" to the death, as any loss of honor is considered far worse than loss of life."
+    }
+}

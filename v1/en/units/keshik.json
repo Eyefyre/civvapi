@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "name": "Keshik",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/keshik.png",
+    "game_info": "This Mongolian Unique Unit replaces the standard Knight. It possesses a strong ranged attack, increased movement rate, and earns promotions 50% faster. Unit battles also contribute double the amount of points towards earning a Great General.",
+    "historical_info": "In the 12th century the Mongols came boiling out of Central Asia, conquering most of Asia, Eastern Europe and a large portion of the Middle East within a century. The Mongols' primary weapon was their incomparable horse archers, the Keshiks. The Mongols were nomadic tribesmen, and their children were almost literally \"raised in the saddle.\" Riding on their small but hearty steppe ponies, the lightly-armed and armored Mongols could cover an astonishing amount of territory in a day, far outpacing any infantry or even the heavier European cavalry.In battle the Mongol Keshiks would shoot from horseback with deadly accuracy, disrupting and demoralizing the enemy formations. Once the enemy was suitably weakened, the Mongol heavy cavalry units would charge into the wavering foe to deliver the coup de grace. When facing armored European knights the Mongols would simply shoot their horses, then ignore or destroy the unhorsed men as they wished.",
+    "strategy": "The Keshik is a unique replacement for the Knight, available to the Mongols starting in the Medieval Era. Keshiks possess a strong ranged attack and an increased movement rate (5 points total), allowing it to perform hit and run attacks remarkably effectively. If this wasn't enough, the Keshik also acquires promotions at double the rate of other units, and contributes twice the amount of points towards earning Great Generals. These mounted warriors singlehandedly afford Genghis control of the open plains.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Great Generals I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Quick Study",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/quick_study.json"
+        }
+    ]
+}

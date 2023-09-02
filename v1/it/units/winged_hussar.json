@@ -1,0 +1,43 @@
+{
+    "id": 122,
+    "name": "Ussaro alato|un Ussaro alato|dal tuo Ussaro alato|al tuo Ussaro alato|il tuo Ussaro alato|da un Ussaro alato",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/winged_hussar.png",
+    "game_info": "Pesante unit\u00e0 a cavallo specializzata nel combattimento contro altre unit\u00e0 a cavallo. \u00c8 pi\u00f9 veloce e potente del Lanciere a cavallo, che sostituisce. Quando infligge pi\u00f9 danni di quanti ne subisce, obbliga il difensore a ritirarsi. Solo i polacchi possono costruirla.",
+    "historical_info": "Gli ussari cosiddetti \"alati\" furono introdotti nell'esercito polacco-lituano da re Stephen B\u00e1thory negli anni '70 del Cinquecento. In genere erano dotati di pi\u00f9 armi secondarie, solitamente un martello da guerra, una sciabola e una o due pistole a ruota (pi\u00f9 tardi a pietra e martellina) in apposite fondine sulla sella. Fra tutto il loro equipaggiamento, comunque, l'elemento pi\u00f9 distintivo erano certamente le enormi \"ali\", strutture di legno fissate alla sella o sulle spalle del cavaliere e coperte di penne d'aquila, cigno, oca o struzzo. Lo scopo di queste ali non \u00e8 mai stato determinato precisamente: tra le varie ipotesi si pensa che potessero servire per difendersi dagli attacchi alle spalle dei nemici o a proteggere il cavallo dai rumori della battaglia, oppure a intimidire i fanti avversari facendo apparire gli ussari pi\u00f9 grandi del normale.",
+    "strategy": "L'Ussaro alato \u00e8 un sostituto del Lanciere a cavallo che solo i polacchi possono costruire. Pi\u00f9 veloce e potente del Lanciere a cavallo, quando infligge pi\u00f9 danni di quanti ne riceva l'Ussaro alato obbliga il difensore a ritirarsi. Un difensore che non pu\u00f2 ritirarsi subisce danni extra.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgia|della Metallurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Carica travolgente",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/heavy_charge.json"
+        },
+        {
+            "name": "Assalto I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+        },
+        {
+            "name": "Formazione I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 28,
+    "name": "Incense",
+    "game_info": null,
+    "historical_info": "Incense is a material created to slowly burn while releasing fragrant smoke. Incense is often employed in religious ceremonies, and some believe that certain incenses have healing powers. The use of incense dates back thousands of years. It probably originated in the Middle East, possibly in Egypt. The Pharaohs used it not only to cover the smell of grubby commoners but also to drive away demons and to please the gods. A wide variety of materials have been used to make incense: camphor, frankincense, myrrh, sandalwood, cloves, lavender, musk, and other exotic materials. Long used in traditional Eastern medicine, in the West incense is enjoying something of a boom in the pseudo-scientific \"aroma therapy\" which, while perhaps of dubious efficacy, at least makes the practitioner smell nice.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/incense.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        }
+    ]
+}

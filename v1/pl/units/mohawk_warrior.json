@@ -1,0 +1,23 @@
+{
+    "id": 69,
+    "name": "Wojownicy Mohawk\u00f3w|Wojownik\u00f3w Mohawk\u00f3w|Wojownikom Mohawk\u00f3w|Wojownik\u00f3w Mohawk\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mohawk_warrior.png",
+    "game_info": "Silna jednostka l\u0105dowa z epoki klasycznej. Mog\u0105 j\u0105 stworzy\u0107 wy\u0142\u0105cznie Irokezi. Otrzymuje du\u017c\u0105 premi\u0119, gdy walczy w lesie i d\u017cungli, w przeciwie\u0144stwie do zbrojnych, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Wojownicy Mohawk\u00f3w s\u0105 jednym z najlepszych rodzaj\u00f3w lekkiej piechoty, jakie kiedykolwiek istnia\u0142y. Wyj\u0105tkowo szybcy, potrafili \u0142atwo si\u0119 dostosowa\u0107 i przemierzy\u0107 w kr\u00f3tkim czasie ogromne odleg\u0142o\u015bci, zaskakuj\u0105c i przyt\u0142aczaj\u0105c lepiej uzbrojonych, ale wolniejszych Europejczyk\u00f3w. Jako uzbrojona formacja, kt\u00f3ra \u201enigdy nie przekroczy\u0142a 3 000 walcz\u0105cych ludzi\u201d przez prawie dwa stulecia samotnie hamowali nap\u00f3r Francuz\u00f3w, Brytyjczyk\u00f3w i Amerykan\u00f3w.",
+    "strategy": "Wojownicy Mohawk\u00f3w s\u0105 unikatow\u0105 jednostk\u0105 Irokez\u00f3w, zast\u0119puj\u0105c\u0105 zbrojnych. S\u0105 tak samo silni jak oni na terenie otwartym oraz wzg\u00f3rzach, a w lasach i d\u017cunglach otrzymuj\u0105 dodatkowo znacz\u0105c\u0105 premi\u0119 do si\u0142y bojowej. Nie wymagaj\u0105 tak\u017ce \u017celaza do budowania.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Obr\u00f3bka \u017celaza|Obr\u00f3bki \u017celaza|Obr\u00f3bce \u017celaza|Obr\u00f3bk\u0119 \u017celaza",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia bojowa w lesie/d\u017cungli (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/combat_bonus_in_forest_jungle_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Broadcast Tower",
+    "game_info": "+33% Culture in this City.City must have a Museum.",
+    "strategy": "A Broadcast Tower is a late-game building which increases Culture output of the city by 33%. The city must possess a Museum before it can construct a Broadcast Tower.",
+    "historical_info": "A broadcast tower \"broadcasts\" a communications signal - radio, television, so forth - into the air, allowing the signal to be picked up by receivers for miles around. The most important feature of a broadcast tower is its height - the higher the receiver, the farther the signal can be sent. The Empire State Building in Manhattan has been broadcasting signals since 1931. Following the fall of the World Trade Towers in 2001, it is once again the primary broadcasting site in New York City, transmitting signals for nearly all of the city's commercial broadcasting stations.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/broadcast_tower.png",
+    "prereq_tech": {
+        "name": "Radio",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radio.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

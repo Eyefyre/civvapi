@@ -1,0 +1,20 @@
+{
+    "id": 28,
+    "name": "Religi\u00f6se Toleranz",
+    "game_info": "Religi\u00f6se ToleranzSt\u00e4dte mit einer Mehrheitsreligion erhalten auch den Pantheon-Glaubenssatz-Bonus der zweitbeliebtesten Religion.",
+    "historical_info": "Religionsfreiheit ist die Politik eines Staates, der nicht festlegt, welche Religionen seine Mitglieder aus\u00fcben. Alle Religionen sind willkommen und der spirituelle Markt hat die freie Wahl. Obwohl sie vermutlich aus nobleren Gr\u00fcnden eingef\u00fchrt wurde, schr\u00e4nkt Religionsfreiheit h\u00e4ufig die Macht jeder einzelnen Religion ein. In Staaten mit nur einer Religion \u00fcben die Oberh\u00e4upter dieser Religion gro\u00dfen Einfluss aus (wie z. B. der moderne Iran zeigt). Staaten mit Religionsfreiheit bem\u00fchen sich in der Regel, alle Religionen gleich zu behandeln, damit letztendlich keine davon die Vorherrschaft \u00fcbernimmt.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/religi\u00f6se_toleranz.png",
+    "required_policies": [
+        {
+            "name": "Organisierte Religion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Fr\u00f6mmigkeit",
+        "game_info": "Fr\u00f6mmigkeit l\u00e4sst den Glauben eines Reiches florieren.Fr\u00f6mmigkeit reduziert die Bauzeit von Schreinen und Tempeln um die H\u00e4lfte. Schaltet den Bau der Gro\u00dfen Moschee von Djenn\u00e9 frei.Bei \u00dcbernahme aller Politiken erscheint ein Gro\u00dfer Prophet und Heilige St\u00e4tten produzieren +3 Kultur.",
+        "prereq_era": null,
+        "historical_info": "Fr\u00f6mmigkeit ist die Hingabe an eine bestimmte Religion oder ein geistiges Glaubenssystem. Fromme Menschen gelten in der Regel als besonders selbstgerecht und folgen meist den religi\u00f6sen Praktiken ihres Glaubens, ohne diese auch nur im Geringsten zu hinterfragen."
+    }
+}

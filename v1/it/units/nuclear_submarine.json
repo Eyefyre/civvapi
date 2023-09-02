@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "name": "Sottomarino nucleare|un Sottomarino nucleare|dal tuo Sottomarino nucleare|al tuo Sottomarino nucleare|il tuo Sottomarino nucleare|da un Sottomarino nucleare",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_submarine.png",
+    "game_info": "Invisibile a tutte le unit\u00e0 nemiche con l'eccezione dei Cacciatorpediniere, degli Incrociatori lanciamissili e degli altri sottomarini, finch\u00e9 non attacca o \u00e8 adiacente a un'altra unit\u00e0. Pu\u00f2 trasportare 2 Missili ed \u00e8 specialista nell'attaccare unit\u00e0 navali.",
+    "historical_info": "I sottomarini nucleari sono unit\u00e0 tipiche della guerra fredda, progettate per trasportare furtivamente un gran numero di missili nucleari da una parte all'altra del mondo. Questi enormi vascelli subacquei sono essi stessi a propulsione nucleare, il che conferisce loro un raggio d'azione praticamente infinito (almeno finch\u00e9 durano le scorte alimentari). I sottomarini nucleari sono vere e proprie piattaforme strategiche. Trasportano missili intercontinentali in grado di attraversare in volo mezzo mondo prima di colpire il loro bersaglio, che in generale \u00e8 rappresentato da una citt\u00e0 nemica. Per quanto trasportino siluri e missili terra-aria per difesa, il loro compito primario \u00e8 restare nascosti ed evitare lo scontro diretto con il nemico. Devono sopravvivere a tutti i costi.I sottomarini nucleari hanno formato parte integrante della strategia della \"distruzione mutua assicurata\" tra USA e URSS: se una delle due parti avesse colpito l'altra con un'aggressione nucleare a sorpresa, per quanto riuscito, sarebbe bastato un singolo sommergibile nemico per scatenare una pioggia di morte e distruzione sull'attaccante, distruggendolo senza scampo. La teoria afferma quindi che, a meno di non essere TOTALMENTE sicuri di poter distruggere certamente, senza alcun dubbio ogni singolo sottomarino nucleare, bombardiere e missile balistico intercontinentale nemico, non \u00e8 possibile vincere una guerra nucleare. Si pu\u00f2 credere che la strategia della distruzione mutua assicurata sia una follia, ma una cosa \u00e8 certa: da quando \u00e8 entrata in funzione non c'\u00e8 stata alcuna guerra nucleare sul pianeta.",
+    "strategy": "Il Sottomarino nucleare \u00e8 pi\u00f9 forte e resistente della sua controparte precedente. Anch'esso \u00e8 invisibile alla maggior parte delle unit\u00e0 nemiche e pu\u00f2 avvistare i sommergibili nemici. La cosa pi\u00f9 importante, per\u00f2, \u00e8 che i Sottomarini nucleari possono trasportare missili teleguidati e missili nucleari. Come i normali Sottomarini, anche quelli nucleari sono vulnerabili agli altri Sommergibili, agli Incrociatori lanciamissili e ai Cacciatorpediniere nemici, perci\u00f2 \u00e8 meglio assicurarsi che le acque siano sgombre prima di correre rischi.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Telecomunicazioni|delle Telecomunicazioni",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/telecommunications.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Invisibile (Sottomarino)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Pu\u00f2 vedere i sottomarini",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Pu\u00f2 trasportare 2 Carichi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Pu\u00f2 entrare nelle caselle di Ghiaccio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus al combattimento in attacco (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_when_attacking_(75).json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Fusilero|Fusileros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Una fuerte unidad de primera l\u00ednea de mediados del juego.",
+    "historical_info": "Un fusil es un arma de fuego pensada para dispararse apoyada en el hombro. El interior del ca\u00f1\u00f3n tiene unas estr\u00edas dise\u00f1adas para hacer girar el proyectil sobre s\u00ed mismo cuando se dispara, lo que le proporciona mucho m\u00e1s alcance y precisi\u00f3n que los de un ca\u00f1\u00f3n sin estr\u00edas. Los primeros intentos de hacer ca\u00f1ones estriados se dieron en Europa durante el siglo XV, pero las dificultades de su fabricaci\u00f3n impidieron que su uso se generalizara hasta el siglo XIX. Los hostigadores y batidores brit\u00e1nicos y estadounidenses contaron con mosquetes de ca\u00f1\u00f3n estriado durante las guerras napole\u00f3nicas y la guerra de 1812, pero el tiempo de recarga del arma, m\u00e1s lento, los apart\u00f3 de las manos de la infanter\u00eda regular hasta unos a\u00f1os m\u00e1s tarde.La invenci\u00f3n de la \"bala Mini\u00e9\" aceler\u00f3 enormemente el tiempo de recarga y, en tiempos de la Guerra de Secesi\u00f3n americana, todos los ej\u00e9rcitos europeos importantes ya usaban mosquetes de ca\u00f1\u00f3n estriado. Pero, a finales de dicha guerra, este mosquete ya hab\u00eda quedado obsoleto debido a la aparici\u00f3n del rifle de repetici\u00f3n de retrocarga, que ten\u00eda una cadencia de disparo de un segundo, mientras que la cadencia de fuego del fusil de avancarga era de unos 20-30 segundos por disparo para un soldado bien entrenado.",
+    "strategy": "El Fusilero es la unidad de p\u00f3lvora que sigue al Mosquete. Es notablemente m\u00e1s poderoso que \u00e9ste y ofrece al ej\u00e9rcito que cuente con \u00e9l una gran ventaja sobre las otras civilizaciones que a\u00fan no se hayan modernizado.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+    },
+    "free_promotions": []
+}

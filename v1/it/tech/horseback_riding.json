@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "Equitazione|dell'Equitazione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "Epoca classica",
+    "cost": 105,
+    "civilopedia_entry": "L'equitazione \u00e8 stata sviluppata nel II millennio a.C. (e forse ancora prima), probabilmente dai popoli nomadi dell'Asia centrale. A quell'epoca il cavallo era stato gi\u00e0 addomesticato da parecchio tempo, ma gli animali originali erano troppo piccoli. Solo quando la selezione permise di allevare esemplari abbastanza grandi e robusti divenne possibile praticare l'equitazione. Un'antica comunit\u00e0 di nomadi, gli Sciti, era formata da cavallerizzi particolarmente abili; \u00e8 possibile che siano stati loro a inventare le prime selle e staffe (per quanto le usassero quasi certamente solo per salire e scendere da cavallo). Secondo gli storici greci sono anche stati i primi a castrare i cavalli maschi troppo impetuosi, rendendoli molto pi\u00f9 docili e facili da manovrare.Intorno al 1500 a.C. molti popoli dell'area mesopotamica (Ittiti, Assiri e Babilonesi) combattevano a cavallo. In quel periodo i cavalli furono introdotti anche in Egitto. Al tempo di Alessandro Magno le tattiche di cavalleria erano gi\u00e0 abbastanza avanzate: la sua \"Cavalleria dei Compagni\" era forse l'unit\u00e0 militare pi\u00f9 potente ed efficace in tutto il Mediterraneo.",
+    "quote": "\"Un cavallo! Un cavallo! Il mio regno per un cavallo!\" - William Shakespeare (Riccardo III)",
+    "tech_prereqs": [
+        {
+            "name": "Ruota|della Ruota",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+        },
+        {
+            "name": "Trappole per animali|delle Trappole per animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pubblica amministrazione|della Pubblica amministrazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Guerriero a cavallo|un Guerriero a cavallo|dal tuo Guerriero a cavallo|al tuo Guerriero a cavallo|il tuo Guerriero a cavallo|da un Guerriero a cavallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/horseman.json"
+        },
+        {
+            "name": "Cavalleria dei Compagni|una Cavalleria dei Compagni|dalla tua Cavalleria dei Compagni|alla tua Cavalleria dei Compagni|la tua Cavalleria dei Compagni|da una Cavalleria dei Compagni",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/companion_cavalry.json"
+        },
+        {
+            "name": "Catafratto|un Catafratto|dal tuo Catafratto|al tuo Catafratto|il tuo Catafratto|da un Catafratto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/cataphract.json"
+        },
+        {
+            "name": "Elefante africano|un Elefante africano|dal tuo Elefante africano|al tuo Elefante africano|il tuo Elefante africano|da un Elefante africano",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Scuderia|la Scuderia|una Scuderia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/stable.json"
+        },
+        {
+            "name": "Circo Massimo|il Circo Massimo|il Circo Massimo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/circus_maximus.json"
+        },
+        {
+            "name": "Scuderia Ducale|la Scuderia Ducale|una Scuderia Ducale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Caravanserraglio|il Caravanserraglio|un Caravanserraglio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/caravansary.json"
+        }
+    ]
+}

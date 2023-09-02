@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Tempio|il Tempio|un Tempio",
+    "game_info": null,
+    "strategy": "Il Tempio aumenta la Fede in una citt\u00e0, velocizzando l'istituzione e la diffusione di una religione. Per poter costruire un Tempio la citt\u00e0 deve gi\u00e0 possedere un Santuario (o una Piramide).",
+    "historical_info": "Un tempio \u00e8 un edificio religioso in cui i fedeli si possono congregare per la liturgia. Questi edifici dimostrano che la comunit\u00e0 \u00e8 piuttosto ricca oltre che devota, dal momento che si pu\u00f2 permettere di costruire una struttura speciale e di mantenere i preti, i chierici, le vergini vestali o i monaci che la abitano. In molte culture antiche ogni famiglia aveva un piccolo santuario privato all'interno della propria abitazione; il tempio indipendente pi\u00f9 antico risale al decimo millennio a.C. e si trova nel sud-est della Turchia.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tempio|il_tempio|un_tempio.png",
+    "prereq_tech": {
+        "name": "Filosofia|della Filosofia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

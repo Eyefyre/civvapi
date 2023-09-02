@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "Marine|un Marine|dal tuo Marine|al tuo Marine|il tuo Marine|da un Marine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Unit\u00e0 di epoca atomica, particolarmente adatta a imbarcarsi ed effettuare invasioni attraverso il mare.",
+    "historical_info": "Nati originariamente come fanteria specializzata nelle incursioni anfibie, i Marine hanno assunto ruoli sempre pi\u00f9 numerosi e importanti nell'esercito statunitense. In genere i Marine lavorano a stretto contatto con la marina, ma negli ultimi decenni le loro molteplici capacit\u00e0 li hanno portati a essere utilizzati in diversi conflitti in tutto il mondo.",
+    "strategy": "Il Marine \u00e8 un'alternativa alla normale Fanteria. Rispetto alla Fanteria costa un po' di pi\u00f9, ma entra in gioco con promozioni che aumentano il raggio di visione e la forza d'attacco quando l'unit\u00e0 \u00e8 imbarcata.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Penicillina|della Penicillina",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Attacco anfibio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/amphibious.json"
+        },
+        {
+            "name": "Visione extra quando imbarcata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "Imbarco con difesa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

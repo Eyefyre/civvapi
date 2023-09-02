@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "Elektronik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "Moderne",
+    "cost": 4100,
+    "civilopedia_entry": "Die Elektronik besch\u00e4ftigt sich mit der kontrollierten Bewegung von Elektronen durch verschiedene Medien, auch luftleere R\u00e4ume, nicht zu verwechseln mit Elektrotechnik, die sich mit der Erzeugung und \u00dcbertragung von Strom auseinandersetzt. Bis 1950, als sie sich von der Funktechnik abspaltete, galt die Elektronik nicht als eigenst\u00e4ndiges Forschungsgebiet.Elektronische Schaltkreise k\u00f6nnen in zwei verschiedene Gruppen unterteilt werden, analog oder digital. Analoge Schaltkreise sind in der Regel einfache Kombinationen grundlegender Schaltungen an durchgehend anliegender Spannung; die meisten modernen Schaltkreise sind nur noch selten vollst\u00e4ndig analog. Digitale Schaltkreise bilden die Basis moderner Computer und speicherprogrammierbarer Steuerungen, da sie die am weitesten verbreitete physische Repr\u00e4sentation von Boolescher Algebra sind (die mit den Nullen und Einsen).Die Forschung und Entwicklung von Elektronik stehen in enger Verbindung zur Mathematik und Kenntnisse der letzteren Disziplin sind notwendig f\u00fcr die erstgenannte. Das Erstellen und Analysieren von komplexen Schaltkreisen beinhaltet lineare Systeme mit zahlreichen unbekannten Variablen (wie Spannung und Stromst\u00e4rke an bestimmten Stellen). Aus diesem Grund wird ein Gro\u00dfteil des heutigen Schaltkreisdesigns durch Automatisierungs-Software verbessert, eher ein \"Meta\"-Verfahren, wenn man es genau betrachtet.",
+    "quote": "\"Unterhaltungselektronik folgt einem Grundgesetz: Sie wird immer leistungsst\u00e4rker und zugleich immer billiger.\" - Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Normbauteile",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Luftfahrt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        },
+        {
+            "name": "Atomtheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Flugzeugtr\u00e4ger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/carrier.json"
+        },
+        {
+            "name": "Schlachtschiff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Wat",
+    "game_info": "+2 Wissenschaft durch Dschungel-Gel\u00e4ndefelder, die von dieser Stadt bewirtschaftet werden.Die Stadt ben\u00f6tigt eine Bibliothek.",
+    "strategy": "Der Wat ist das einzigartige Geb\u00e4ude der Siamesen und ersetzt die Universit\u00e4t. Er steigert die Kultur einer Stadt und beschleunigt so ihr Grenzwachstum und die Einf\u00fchrung von Sozialpolitiken in der Zivilisation. Der Wat bietet der Stadt au\u00dferdem einen Wissenschafts-Bonus.",
+    "historical_info": "Ein Wat ist ein buddhistischer Klostertempel, den man in Kambodscha, Thailand oder Laos findet. Die w\u00f6rtliche \u00dcbersetzung von \"Wat\" bedeutet \"Schule\", und die siamesischen Wats waren auch tats\u00e4chlich sowohl Orte des Glaubens als auch des Lernens. Ein Wat besteht aus einem Tempel mit Statuen von Buddha, einem Gebetsraum, einem Raum mit religi\u00f6sen Texten, einem Pavillon zur Entspannung, einer Bibliothek, einer Lernhalle, Glockent\u00fcrmen und Quartieren. Es kann sich um ein einzelnes Geb\u00e4ude oder einen ganzen Komplex handeln, der wie eine kleine Stadt wirkt. Der Angkor Wat in Angkor, Kambodscha, wurde im 12. Jahrhundert erbaut und ist einer der am besten erhaltenen Wats in S\u00fcdostasien.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat.png",
+    "prereq_tech": {
+        "name": "Bildungswesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 3,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

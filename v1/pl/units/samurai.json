@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samurajowie|Samuraj\u00f3w|Samurojom|Samuraj\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "Pot\u0119\u017cna \u015bredniowieczna jednostka piechoty. Mog\u0105 j\u0105 wyprodukowa\u0107 tylko Japo\u0144czycy. Walczy o wiele skuteczniej i pozwala szybciej wyprodukowa\u0107 wielkich genera\u0142\u00f3w, ni\u017c ci\u0119\u017ckozbrojni, kt\u00f3rych zast\u0119puje. Zaokr\u0119towani samurajowie mog\u0105 budowa\u0107 \u0142odzie rybackie w ci\u0105gu jednej tury i nie zostaj\u0105 p\u00f3\u017aniej poch\u0142oni\u0119ci (dzi\u0119ki czemu przydaj\u0105 si\u0119 nawet w czasie pokoju).",
+    "historical_info": "Japo\u0144scy samurajowie uznawani s\u0105 za najlepszych wojownik\u00f3w od czasu rzymskich legion\u00f3w, a\u017c do momentu wynalezienia prochu. Ich powstanie datuje si\u0119 na XII wiek. Byli kast\u0105 wojownik\u00f3w, przestrzegaj\u0105cych kodeksu bushido, kt\u00f3rego kluczowymi elementami by\u0142y: odwaga, honor, lojalno\u015b\u0107, kt\u00f3re by\u0142y wa\u017cniejsze ni\u017c w\u0142asne \u017cycie. Samurajowie korzystali zazwyczaj z dw\u00f3ch ostrzy, katany i kr\u00f3tszego wakizashi, w p\u00f3\u017aniejszym okresie u\u017cywanego do rytua\u0142u \u201eseppuku\u201d (samob\u00f3jstwo). Oba te ostrza by\u0142y o wiele pot\u0119\u017cniejsze od zachodnich odpowiednik\u00f3w. Niekt\u00f3rzy samuraje korzystali te\u017c z \u0142uk\u00f3w, w\u0142\u00f3czni, a p\u00f3\u017aniej r\u00f3wnie\u017c z broni palnej. W zale\u017cno\u015bci od okresu (oraz zamo\u017cno\u015bci), samuraj nosi\u0142 szat\u0119, lakowany lub nawet metalowy pancerz.",
+    "strategy": "Samurajowie to unikalna jednostka japo\u0144ska zast\u0119puj\u0105ca ci\u0119\u017ckozbrojnych. S\u0105 r\u00f3wnie silni jak zbrojni i automatycznie otrzymuj\u0105 awans \u201eSzturm I\u201d, daj\u0105cy im premi\u0119 do walki w terenie otwartym. Sukces w walce samurajami zapewnia wi\u0119ksze szanse stworzenia wielkich genera\u0142\u00f3w. Mog\u0105 budowa\u0107 \u0142odzie rybackie i nie s\u0105 przy tym poch\u0142aniani.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Stal|Stali|Stali|Stal",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Szturm I|Szturmu I|Szturmowi I|Szturm I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/shock_i.json"
+        },
+        {
+            "name": "Wielcy genera\u0142owie II|Wielkich genera\u0142\u00f3w II|Wielkim genera\u0142om II|Wielkich genera\u0142\u00f3w II",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/great_generals_ii.json"
+        }
+    ]
+}

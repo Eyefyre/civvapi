@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronomie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "L'astronomie est l'\u00e9tude des objets physiques pr\u00e9sents dans l'espace, tels la poussi\u00e8re cosmique, les ast\u00e9ro\u00efdes, les lunes, les plan\u00e8tes, les \u00e9toiles et les galaxies, ainsi que des \u00e9l\u00e9ments \u00e0 l'origine plus n\u00e9buleuse comme les trous noirs et les trous de ver. N\u00e9e des pratiques religieuses et astrologiques des peuples pr\u00e9historiques, l'astronomie est la plus ancienne des sciences naturelles.L'astronomie antique \u00e9tait principalement li\u00e9e \u00e0 la religion. Les \u00e9toiles et autres objets c\u00e9lestes \u00e9taient alors associ\u00e9s \u00e0 des divinit\u00e9s, et les hommes pensaient qu'ils exer\u00e7aient un contr\u00f4le direct sur eux et sur l'univers physique au sein duquel ils \u00e9voluaient. Il suffisait, par exemple, qu'une \u00e9toile ou une constellation apparaisse chaque ann\u00e9e au temps des moissons, pour que les hommes d'alors la consid\u00e8rent comme la demeure o\u00f9 vivait la divinit\u00e9 de celles-ci. En sacrifiant une ch\u00e8vre le jour de la premi\u00e8re apparition de l'objet c\u00e9leste en question, peut-\u00eatre la divinit\u00e9 reconnaissante offrirait-elle aux hommes de fructueuses r\u00e9coltes. Ce type de raisonnement est \u00e0 l'origine des premi\u00e8res r\u00e9flexions astronomiques, ainsi que des pr\u00e9mices de la cr\u00e9ation calendaire (savoir avec lequel l'astronomie est historiquement et \u00e9troitement li\u00e9e).Durant la Renaissance, l'astronomie se d\u00e9tacha quasi enti\u00e8rement de la religion, devenant une science \u00e0 part enti\u00e8re. En 1543, Nicolas Copernic publia \"De Revolutionibus Orbium Coelestium\", dans lequel il affirma que le soleil, et non la Terre, \u00e9tait au centre de l'univers, que les plan\u00e8tes gravitaient autour de lui, et que la lune \u00e9tait un satellite de notre plan\u00e8te. En plus de cette victoire de la science sur le dogme, le livre de Copernic statuait que l'utilisation des math\u00e9matiques aiderait consid\u00e9rablement l'homme \u00e0 comprendre le monde qui l'entoure. Si, \u00e0 l'\u00e9poque, son ouvrage a \u00e9t\u00e9 hautement controvers\u00e9, Copernic est aujourd'hui reconnu comme l'un des plus illustres scientifiques de l'Histoire, et l'un des p\u00e8res de la R\u00e9volution scientifique.",
+    "quote": "\"Et le divin Ulysse, joyeux, d\u00e9ploya ses voiles au vent propice, et s'\u00e9tant assis \u00e0 la barre, il gouvernait habilement.\" - Hom\u00e8re",
+    "tech_prereqs": [
+        {
+            "name": "Boussole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+        },
+        {
+            "name": "\u00c9ducation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caravelle|Caravelles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/caravel.json"
+        },
+        {
+            "name": "Bateau tortue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/turtle_ship.json"
+        },
+        {
+            "name": "Nef|Nefs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Observatoire|Observatoires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/observatory.json"
+        }
+    ]
+}

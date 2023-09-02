@@ -1,0 +1,27 @@
+{
+    "id": 118,
+    "name": "Corsaire|Corsaires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/privateer.png",
+    "game_info": "Unit\u00e9 navale sp\u00e9cialis\u00e9e dans l'attaque des villes c\u00f4ti\u00e8res. Permet de gagner de l'or et de capturer des navires ennemis.",
+    "historical_info": "N'oubliant jamais leurs lettres de marque, les capitaines corsaires arpentaient fi\u00e8rement les mers en temps de guerre et attaquaient librement les vaisseaux commer\u00e7ants \u00e9trangers. Les grandes puissances coloniales, Grande-Bretagne et Espagne en t\u00eate, eurent recours aux corsaires principalement du XVIe au XIXe si\u00e8cle. Comme les capitaines corsaires et leurs \u00e9quipages n'\u00e9taient pas pay\u00e9s par le gouvernement autorisant leurs missions, ils avaient droit \u00e0 leur part du butin d\u00e9rob\u00e9 \u00e0 l'ennemi, ce qui contribua parfois \u00e0 brouiller la distinction entre les corsaires et leurs \u00e9quivalents hors-la-loi, les pirates.",
+    "strategy": "Unit\u00e9 navale de combat rapproch\u00e9. D\u00e9marre avec la promotion Pillage des c\u00f4tes I, permettant de gagner de l'or en saccageant les cit\u00e9s c\u00f4ti\u00e8res. Peut conserver les unit\u00e9s navales ennemies vaincues.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pillage des c\u00f4tes I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Unit\u00e9s navales vaincues",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/prize_ships.json"
+        }
+    ]
+}

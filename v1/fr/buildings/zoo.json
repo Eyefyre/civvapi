@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zoo|Zoos",
+    "game_info": "Ne peut pas fournir plus de points de bonheur que de citoyens dans une ville. La ville doit poss\u00e9der un colis\u00e9e.",
+    "strategy": "Un zoo augmente le bonheur de votre empire mais ne peut fournir plus de bonheur qu'il y a de citoyens dans la ville. La ville doit d\u00e9j\u00e0 poss\u00e9der un colis\u00e9e pour que vous puissiez y construire un zoo.",
+    "historical_info": "La plus ancienne m\u00e9nagerie zoologique (ou zoo) connue a \u00e9t\u00e9 d\u00e9couverte \u00e0 Hi\u00e9rakonpolis et date d'environ 3500 av. J.-C. Le plus ancien zoo toujours en activit\u00e9, le Tiergarten Sch\u00f6nbrunn situ\u00e9 \u00e0 Vienne, \u00e9tait \u00e0 l'origine une collection d'animaux exotiques appartenant \u00e0 la dynastie des Habsbourg. Elle fut ouverte au public pour la premi\u00e8re fois en 1765.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo|zoos.png",
+    "prereq_tech": {
+        "name": "Imprimerie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

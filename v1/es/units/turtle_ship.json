@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Barco tortuga",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Una unidad naval del Renacimiento que cuenta con blindaje pesado y muy dif\u00edcil de matar. No obstante, el Barco tortuga no puede entrar en aguas oce\u00e1nicas profundas que est\u00e9n fuera de la frontera de las ciudades. Solo la puede construir Corea y sustituye a la Carabela.",
+    "historical_info": "Estos grandes buques de guerra acorazados de la Dinast\u00eda Joseon jugaron un papel fundamental en la defensa de Corea durante las invasiones japonesas del siglo XVI. El barco tortuga iba tripulado normalmente por igual cantidad de soldados y remeros, y era un agresivo aliado de la armada coreana en los ataques a corta distancia. Dise\u00f1ados para infundir el miedo en el enemigo, los barcos tortuga exhib\u00edan un drag\u00f3n tallado de mascar\u00f3n de proa, del que se dice que emit\u00eda una nube de humo sulfuroso que ocultaba el acercamiento de la nave. A diferencia de los dise\u00f1os habituales en los barcos de vela de la \u00e9poca, el barco tortuga carec\u00eda de cubierta superior. La parte m\u00e1s alta del barco se cubr\u00eda de p\u00faas de hierro para evitar abordajes, y los remeros y soldados se distribu\u00edan en cubiertas inferiores separadas. El barco tortuga, equipado con hasta dos docenas de ca\u00f1ones y otras armas de proyectiles peque\u00f1os, era un peligroso enemigo para los nav\u00edos poco preparados de los rivales de Corea.",
+    "strategy": "El Barco tortuga es una unidad exclusiva coreana que sustituye a la Carabela. Tiene un ataque m\u00e1s potente que esta y es extremadamente dif\u00edcil de destruir. No obstante, no puede entrar en aguas oce\u00e1nicas profundas que est\u00e9n fuera de la frontera de las ciudades.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronom\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

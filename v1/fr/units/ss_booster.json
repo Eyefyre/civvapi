@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "name": "Fus\u00e9es de lancement",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_booster.png",
+    "game_info": "L'une des pi\u00e8ces du vaisseau spatial n\u00e9cessaire \u00e0 une victoire scientifique. \u00c0 la diff\u00e9rence des autres pi\u00e8ces, vous devez construire et envoyer dans votre capitale trois fus\u00e9es de lancement pour terminer votre vaisseau.",
+    "historical_info": "Les fus\u00e9es de lancement du vaisseau spatial servent \u00e0 propulser l'engin vers l'espace et \u00e0 stabiliser son orbite. Elles sont identiques (mais bien plus grandes) aux fus\u00e9es simples, fiables et puissantes utilis\u00e9es par les Russes depuis plusieurs d\u00e9cennies. Les fus\u00e9es sont \u00e9ject\u00e9es pendant le lancement et retombent \u00e0 pic dans l'oc\u00e9an, o\u00f9 elles sont r\u00e9cup\u00e9r\u00e9es par des navires de charge.",
+    "strategy": "Un des composants du vaisseau spatial. Pour remporter une victoire scientifique, vous devez en construire trois. Pour plus d'informations, veuillez consulter la section consacr\u00e9e \u00e0 la victoire.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistique avanc\u00e9e",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/advanced_ballistics.json"
+    },
+    "free_promotions": []
+}

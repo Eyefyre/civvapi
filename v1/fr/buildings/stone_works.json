@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Exploitation de pierres|Exploitations de pierres",
+    "game_info": "Chaque source de marbre et de pierre exploit\u00e9e par la ville fournit +1 Production. La ville doit avoir am\u00e9nag\u00e9 au moins l'une de ces ressources avec une carri\u00e8re. La ville ne doit pas se trouver sur une plaine.",
+    "strategy": "Pour recourir \u00e0 l'exploitation de pierres, une ville doit \u00eatre situ\u00e9e pr\u00e8s d'une source am\u00e9nag\u00e9e de pierres ou de marbre et ne pas \u00eatre construite sur une plaine. L'exploitation de pierres augmente la production d'une ville.",
+    "historical_info": "L'exploitation de pierres est l'atelier des tailleurs de pierre, des ouvriers charg\u00e9s de fa\u00e7onner et traiter diff\u00e9rents types de pierres afin de cr\u00e9er des \u00e9l\u00e9ments artistiques et structurels au cours du processus de construction. La taille de la pierre est l'un des plus vieux m\u00e9tiers au monde\u00a0; elle englobe aussi bien l'extraction de la pierre dans les carri\u00e8res que sa taille en formes g\u00e9om\u00e9triques et son installation sur le site de construction. Historiquement, les tailleurs de pierre ont travaill\u00e9 sur tous les types de pierre, depuis le calcaire, utilis\u00e9 principalement dans la construction de structures massives, au granit et au marbre, que l'on retrouve plus souvent dans les statues et les monuments.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/exploitation_de_pierres|exploitations_de_pierres.png",
+    "prereq_tech": {
+        "name": "Calendrier",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/calendar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Cour de Satrape|Cours de Satrape",
+    "game_info": "La ville doit poss\u00e9der un march\u00e9. Les routes commerciales construites par les autres joueurs pour relier une ville poss\u00e9dant une cour de Satrape g\u00e9n\u00e8rent 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la ville et 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la route commerciale.",
+    "strategy": "B\u00e2timent exclusif aux Perses, la cour de Satrape remplace la banque. Comme cette derni\u00e8re, elle am\u00e9liore la production d'or de la ville o\u00f9 elle se trouve. La cour des Satrapes am\u00e9liore \u00e9galement le bonheur de votre civilisation. Votre ville doit d\u00e9j\u00e0 poss\u00e9der un march\u00e9 pour que vous puissiez y construire une cour de Satrape.",
+    "historical_info": "\"Satrape\" \u00e9tait le titre donn\u00e9 aux gouverneurs provisoires de l'Empire perse ach\u00e9m\u00e9nide. Les satrapes, nomm\u00e9s par le roi, \u00e9taient g\u00e9n\u00e9ralement issus de la famille royale. Personnage puissant, le satrape collectait les imp\u00f4ts et faisait office de juge supr\u00eame dans sa province. Responsable de la formation et de l'entretien d'une arm\u00e9e, il se devait de m\u00e9riter l'enti\u00e8re confiance du monarque. Lorsque le pouvoir central perse p\u00e9riclita au cours du Ve si\u00e8cle av. J.-C., les satrapes devinrent de plus en plus ind\u00e9pendants. Ironiquement, certains se retrouv\u00e8rent m\u00eame plus puissants que le roi qu'ils avaient fait le serment de servir.Apr\u00e8s sa conqu\u00eate de la Perse, Alexandre conserva l'administration des satrapes, rempla\u00e7ant parfois ces derniers par ses propres g\u00e9n\u00e9raux. Il lui arrivait \u00e9galement de laisser les gouverneurs en place, si ces derniers parvenaient \u00e0 maintenir la paix dans leur province et continuaient \u00e0 payer leurs imp\u00f4ts.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/cour_de_satrape|cours_de_satrape.png",
+    "prereq_tech": {
+        "name": "Banque",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/banking.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

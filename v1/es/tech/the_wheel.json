@@ -1,0 +1,61 @@
+{
+    "id": 10,
+    "name": "Rueda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/the_wheel.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "La rueda es un objeto redondo con un agujero o eje en el centro. Por si sola no vale para gran cosa, pero, cuando forma parte de un sistema de transporte en el que hay carreteras y animales de tiro, tiene un valor extraordinario para la civilizaci\u00f3n humana. La primera representaci\u00f3n de un veh\u00edculo con ruedas se encontr\u00f3 en Sumeria y data aproximadamente del 3500 a. C. Las primeras ruedas eran de madera maciza. Las ruedas con radios aparecieron alrededor del 2000 a. C. en Asia Menor, donde se utilizaban para los carros tirados por caballos. Las mejoras posteriores incluyeron rodamientos de hierro que giraban en torno a ejes engrasados y la incorporaci\u00f3n de muelles u otros elementos amortiguadores.Contrariamente a lo que se suele decir, la rueda ya se conoc\u00eda en el Nuevo Mundo antes de la llegada de los espa\u00f1oles. No obstante, Am\u00e9rica carec\u00eda de animales de tiro, por lo que casi todo lo transportaban las personas. Los humanos no est\u00e1n dise\u00f1ados para tirar de pesos durante largas distancias; son m\u00e1s eficaces si los llevan sobre los hombros (en mochilas, por ejemplo), por lo que no se desarrollaron los carros. Cuando llegaron los caballos y otros animales de carga, los indios americanos estuvieron encantados de usar los veh\u00edculos con ruedas, como todos los dem\u00e1s.",
+    "quote": "\"La sabidur\u00eda y la virtud son como las dos ruedas de un carro.\" - Proverbio japon\u00e9s",
+    "tech_prereqs": [
+        {
+            "name": "Ganader\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tiro con arco",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Equitaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+        },
+        {
+            "name": "Matem\u00e1ticas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+        },
+        {
+            "name": "Construcci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arquero en carro|Arqueros en carro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/chariot_archer.json"
+        },
+        {
+            "name": "Carro de guerra|Carros de guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/war_chariot.json"
+        },
+        {
+            "name": "Elefante de guerra|Elefantes de guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/war_elephant.json"
+        },
+        {
+            "name": "Arquero a caballo|Arqueros a caballo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/horse_archer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Jardines flotantes|Jardines flotantes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/floating_gardens.json"
+        },
+        {
+            "name": "Molino de agua|Molinos de agua",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/water_mill.json"
+        }
+    ]
+}

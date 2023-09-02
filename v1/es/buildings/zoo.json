@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zoo|Zoos",
+    "game_info": "No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad. La ciudad ha de tener un Coliseo.",
+    "strategy": "Un Zoo aumenta la Felicidad de tu imperio, pero no puede dar m\u00e1s de ella que ciudadanos haya en la ciudad. Para poder construir un Zoo, la ciudad debe contar con un Coliseo.",
+    "historical_info": "La colecci\u00f3n zool\u00f3gica (o \"zoo\") m\u00e1s antigua que se conoce se encontr\u00f3 en las excavaciones de Hierac\u00f3mpolis y data de alrededor del a\u00f1o 3500 a. C. El zoo m\u00e1s antiguo que sigue en funcionamiento, el Tiergarten Schoenbrunn de Viena, se cre\u00f3 a partir de una colecci\u00f3n de animales ex\u00f3ticos que ten\u00eda la dinast\u00eda Habsburgo y se abri\u00f3 al p\u00fablico en el a\u00f1o 1765.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo|zoos.png",
+    "prereq_tech": {
+        "name": "Imprenta",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

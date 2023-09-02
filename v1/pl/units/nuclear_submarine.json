@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "name": "Atomowy okr\u0119t podwodny|Atomowego okr\u0119tu podwodnego|Atomowemu okr\u0119towi podwodnemu|Atomowy okr\u0119t podwodny",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_submarine.png",
+    "game_info": "Niewidoczny dla wszystkich jednostek opr\u00f3cz niszczycieli, kr\u0105\u017cownik\u00f3w rakietowych i innych okr\u0119t\u00f3w podwodnych do chwili ataku lub zbytniego zbli\u017cenia. Mo\u017ce przenosi\u0107 2 pociski i \u015bwietnie sprawdza si\u0119 w zwalczaniu okr\u0119t\u00f3w.",
+    "historical_info": "Atomowe okr\u0119ty podwodne to \u0142odzie z okresu zimnej wojny zaprojektowane z my\u015bl\u0105 o dyskretnym przenoszeniu pocisk\u00f3w atomowych w pobli\u017ce wrogiego terytorium. Te olbrzymie statki same nap\u0119dzane s\u0105 energi\u0105 atomow\u0105. Zapewnia im to teoretycznie nieograniczony zasi\u0119g operacyjny (okrojony jedynie zapasami po\u017cywienia). Jednocze\u015bnie stanowi\u0105 platformy przenosz\u0105ce bro\u0144 strategiczn\u0105. Mog\u0105 przenosi\u0107 mi\u0119dzykontynentalne pociski, kt\u00f3re s\u0105 w stanie przelecie\u0107 po\u0142ow\u0119 globu przed uderzeniem w cel \u2013 kt\u00f3rym zwykle jest wrogie miasto. Mimo tego, \u017ce maj\u0105 na wyposa\u017ceniu torpedy i pociski woda-powietrze s\u0142u\u017c\u0105ce do samoobrony, ich g\u0142\u00f3wnym zadaniem jest pozostanie w ukryciu a\u017c do momentu nadej\u015bcia rozkazu ataku.Atomowe okr\u0119ty podwodne odegra\u0142y znacz\u0105c\u0105 rol\u0119 w doktrynie wzajemnej destrukcji, kt\u00f3r\u0105 swojego czasu prowadzi\u0142o USA i ZSRR. Wed\u0142ug niej, je\u015bli jedna ze stron wykona\u0142a uderzenie wyprzedzaj\u0105ce, bez wzgl\u0119du na to jak skuteczne ono by by\u0142o, to przetrwanie chocia\u017cby jednego atomowego okr\u0119tu podwodnego oznacza\u0142o r\u00f3wnie\u017c nuklearn\u0105 zag\u0142ad\u0119 zwyci\u0119zcy. Tak\u017ce zgodnie z ni\u0105 tylko ca\u0142kowite zniszczenie wszystkich wrogich \u0142odzi podwodnych, samolot\u00f3w czy wyrzutni rakietowych mi\u0119dzykontynentalnych pocisk\u00f3w balistycznych zdolnych do przenoszenia pocisk\u00f3w j\u0105drowych gwarantowa\u0142o zwyci\u0119stwo. Mimo ob\u0142\u0119dno\u015bci owej doktryny, od chwili jej powstania nie dosz\u0142o na Ziemi do \u017cadnej wojny atomowej.",
+    "strategy": "Atomowy okr\u0119t podwodny jest wytrzymalszy i pot\u0119\u017cniejszy ni\u017c model z wcze\u015bniejszej epoki. Jest tak\u017ce niewidzialny dla wi\u0119kszo\u015bci jednostek i wykrywa inne okr\u0119ty podwodne. Co najwa\u017cniejsze, atomowe okr\u0119ty podwodne mog\u0105 przenosi\u0107 kierowane pociski rakietowe i pociski atomowe. Podobnie jak okr\u0119ty podwodne s\u0105 podatne na ataki wrogich niszczycieli i okr\u0119t\u00f3w podwodnych, wi\u0119c wysy\u0142aj przodem inne jednostki, \u017ceby sprawdzi\u0107, czy nie ma tam oddzia\u0142\u00f3w wroga.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Telekomunikacja|Telekomunikacji|Telekomunikacji|Telekomunikacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/telecommunications.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Niewidzialno\u015b\u0107 (okr\u0119t podwodny)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Widzenie okr\u0119t\u00f3w podwodnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Mo\u017ce przewozi\u0107 2 \u0142adunki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Mo\u017ce wchodzi\u0107 na pola z lodem",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia do ataku (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_when_attacking_(75).json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        }
+    ]
+}

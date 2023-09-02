@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Schatzflotten",
+    "game_info": "Schatzflotten+4 Gold durch all Eure Seehandelswege.",
+    "historical_info": "Zu verschiedenen Zeiten haben Nationen, die gro\u00dfe Mengen an Sch\u00e4tzen und Handelswaren transportierten, sich auf Konvois verlassen, um die Chancen zu erh\u00f6hen, dass die Fracht tats\u00e4chlich am Zielort ankommt. Der ber\u00fchmteste war die spanische Schatzflotte, die von 1566 bis 1790 Gold, Silber, Gew\u00fcrze, Tabak, Perlen und andere Reicht\u00fcmer von den Westindischen Inseln zu den spanischen H\u00e4fen in Europa brachte. Die Pl\u00fcnderung des spanischen Havannas durch franz\u00f6sische Freibeuter und Angriffe auf einzelne Galeonen durch englische Seer\u00e4uber veranlassten die Spanier, Konvois zwischen der Neuen Welt und Europa einzurichten. Auch wenn die Meere jetzt relativ sicher vor Piraten sind, organisieren Nationen zu Kriegszeiten immer noch Konvois, um die Chancen zu erh\u00f6hen, dass ihre Handelsschiffe intakt ankommen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/schatzflotten.png",
+    "required_policies": [
+        {
+            "name": "Handelsmarine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/merchant_navy.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Erkundung",
+        "game_info": "Erkundung verbessert Eure F\u00e4higkeit, Euer Reich \u00fcber Ozeane auszudehnen.Die Einf\u00fchrung der Erkundung bringt +1 [ICON_MOVES] Fortbewegung f\u00fcr Marineeinheiten und +1 Sicht f\u00fcr Kampfeinheiten der Marine. Schaltet den Bau des Louvres frei.Die Einf\u00fchrung aller Politiken macht verborgene Altertumsst\u00e4tten sichtbar und erm\u00f6glicht den Kauf Gro\u00dfer Admir\u00e4le mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": "Mittelalter",
+        "historical_info": "Seit sich die ersten Menschen an einem Ort niedergelassen haben, gab es immer welche, die wissen wollten, was hinter dem Horizont liegt. Ob die Motivation Profit, Abenteuer, Religion, Notwendigkeit oder schlicht Neugier war - Entdecker haben unser Wissen \u00fcber die Welt und ihre Wunder erweitert. W\u00e4hrend des Entdeckungsprozesses haben sie auch viele unterschiedliche und entfernte Kulturen verkn\u00fcpft, zum Guten wie zum B\u00f6sen. Die gro\u00dfen Entdecker von Hanno aus Karthago \u00fcber den chinesischen Admiral Wang bis zum Engl\u00e4nder Sir Richard Burton und Tausende andere haben die Expansion vorangetrieben und die Geschichte geformt."
+    }
+}

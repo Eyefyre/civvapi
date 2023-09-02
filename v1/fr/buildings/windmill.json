@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Moulin \u00e0 vent|Moulins \u00e0 vent",
+    "game_info": "Construction de b\u00e2timents\u00a0: production +10%. La ville ne doit pas se trouver sur une colline.",
+    "strategy": "B\u00e2timent de la Renaissance, le moulin \u00e0 vent am\u00e9liore la production de la ville o\u00f9 il se trouve lors de la construction de b\u00e2timents. Les villes situ\u00e9es sur des collines ne peuvent pas poss\u00e9der de moulin \u00e0 vent.",
+    "historical_info": "Les moulins \u00e0 vent sont des b\u00e2timents qui utilisent l'\u00e9nergie \u00e9olienne pour accomplir diverses t\u00e2ches. S'ils servaient \u00e0 l'origine \u00e0 moudre le bl\u00e9, ils furent \u00e9galement utilis\u00e9s pour alimenter des scieries en \u00e9nergie ou pour pomper l'eau des puits. Les machines utilisant le vent existent depuis au moins 2\u00a0000\u00a0ans. La premi\u00e8re d'entre elles, l'orgue \u00e9olien, fut fabriqu\u00e9e au Ier si\u00e8cle apr. J.-C. par H\u00e9ron d'Alexandrie. Les moulins \u00e0 vent servant \u00e0 moudre le bl\u00e9 furent probablement invent\u00e9s en Asie centrale aux alentours du VIIIe si\u00e8cle.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/moulin_\u00e0_vent|moulins_\u00e0_vent.png",
+    "prereq_tech": {
+        "name": "Sciences \u00e9conomiques",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

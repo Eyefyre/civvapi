@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Starke Frontlinien-Landeinheit des Mittelalters, die auf Angriffe vom Meer aus spezialisiert ist. Nur D\u00e4nemark darf sie bauen. Ersetzt den Langschwertk\u00e4mpfer, ist jedoch fr\u00fcher verf\u00fcgbar.",
+    "historical_info": "Als Teil des Gro\u00dfen Heidnischen Heers war der Berserker eine der gef\u00fcrchtetsten Einheiten des sp\u00e4ten 9. Jahrhunderts. Diese riesige Wikinger-Armee aus Berserkern, Kriegern und Seefahrern bildete sich durch eine Reihe von Angriffen auf Paris und Rouen von 845 bis 850 n. Chr., wo sie ihre Anzahl vergr\u00f6\u00dferte und ihre Taktik verbesserte. 865 landete die Armee mit der Bestrebung an der Ostk\u00fcste der Britischen Inseln, die ganze Insel zum Besiedeln zu erobern. Nur ein Jahr sp\u00e4ter eroberte sie das K\u00f6nigreich von Northumbria. Das K\u00f6nigreich von East Anglia fiel 870. Mercia folgte 874. Die Siedler, die mit der gro\u00dfen Armee reisten, gr\u00fcndeten aus den Tr\u00fcmmern das K\u00f6nigreich von York. Die Armee wurde letztendlich 878 besiegt, aber ihre verbliebenen Mitglieder lie\u00dfen sich dauerhaft in East Anglia, Essex und Mercia nieder.",
+    "strategy": "Der Berserker ist eine von zwei Spezialeinheiten der D\u00e4nen, die den Langschwertk\u00e4mpfer ersetzt. Diese Einheit bietet gegen\u00fcber dem Langschwertk\u00e4mpfer +1 Fortbewegung [ICON_MOVES] und besitzt die Bef\u00f6rderung 'Amphibisch', wodurch sie ohne Malus von K\u00fcsten-Gel\u00e4ndefeldern Land-Gel\u00e4ndefelder angreifen kann. Nach der Erforschung von Metallguss anstatt Stahl verf\u00fcgbar.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Metallguss",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibisch",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/amphibious.json"
+        }
+    ]
+}

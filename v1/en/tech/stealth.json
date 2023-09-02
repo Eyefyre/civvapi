@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Stealth",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "Information Era",
+    "cost": 8800,
+    "civilopedia_entry": "The concept or practice of stealth is not a new one in the progress of human development, but modern stealth technology takes the idea of \"not being seen\" to a whole new level. Stealth technology is really a combination of multiple military disciplines and tactics expanding beyond what the human eye can see, trying to both hide and detect objects by radar, acoustics, thermal readings, or other less readily visible methods.Camouflage uniforms are one of the earliest and more simplistic methods by attempting to make an object blend into the background behind it, but many advances in technology have created the need for more dynamic and sophisticated methods of hiding and detecting hidden objects. Now thermal chemicals are injected into cloth, ships are fabricated from special radar-absorbing materials, and planes' infrared signatures are hidden with ingenious new exhaust systems. While it may not always be possible to completely make a given object invisible from all modes of detection, modern stealth vehicles and \"spy\" planes have changed the way militaristic operations are executed, giving countries with the know-how or ability to create these vehicles a huge advantage.",
+    "quote": "\"Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Robotics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+        },
+        {
+            "name": "Lasers",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Future Tech",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Stealth Bomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

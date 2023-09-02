@@ -1,0 +1,27 @@
+{
+    "id": 131,
+    "name": "F\u00e4hrtenleser",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pathfinder.png",
+    "game_info": "Diese einzigartige Schoschonen-Spezialeinheit ist ausgezeichnet zur Erkundung geeignet, furchterregend im Kampf und ersetzt den Sp\u00e4her. Sie verf\u00fcgt \u00fcber eine Bef\u00f6rderung, durch die sie den Vorteil w\u00e4hlen kann, wenn sie eine alte Ruine entdeckt.",
+    "historical_info": "Bei den Indianerst\u00e4mmen der Great Plains und Rocky Mountains gab es stets einige Individuen, die als vorbildliche Kundschafter galten und mit f\u00fcr die Nomaden wichtigen Aufgaben betraut wurden. Diese F\u00e4hrtenleser sp\u00fcrten Jagdwild und Feinde auf, kundschafteten Wege f\u00fcr die Stammeswanderungen aus, spionierten Feinde und Eindringlinge aus und sorgten f\u00fcr den Schutz der Winterlager. Sie waren derart geschickt, dass die Armeen der Gro\u00dfm\u00e4chte sie als Kundschafter und Berater anheuerten. Bereits zu Zeiten des Pequot-Krieges (1637 - 1638 n. Chr.) wurden die englischen Kolonisten der Massachusetts-Bucht von Kundschaftern der St\u00e4mme der Narragansett und Mohegan unterst\u00fctzt. Mit dem Ende des Grenzlands und der Abschiebung der amerikanischen Ureinwohner in Reservate fand ihre Rolle als Pfadfinder jedoch ein Ende.",
+    "strategy": "Der F\u00e4hrtenleser ersetzt den Sp\u00e4her und kann nur von den Schoschonen gebaut werden. Er erkundet so gut wie ein Sp\u00e4her und k\u00e4mpft beinahe so effizient wie ein Krieger. Er erlaubt dem Spieler, den Vorteil zu w\u00e4hlen, wenn er eine alte Ruine entdeckt. Kostet mehr als ein Sp\u00e4her.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Alte Sprache",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/native_tongue.json"
+        },
+        {
+            "name": "Ignoriert Gel\u00e4ndekosten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

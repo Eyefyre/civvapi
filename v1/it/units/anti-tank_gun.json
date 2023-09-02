@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "name": "Cannone anticarro|un Cannone anticarro|dal tuo Cannone anticarro|al tuo Cannone anticarro|il tuo Cannone anticarro|da un Cannone anticarro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-tank_gun.png",
+    "game_info": "Unit\u00e0 relativamente economica, specializzata nel combattimento contro Carri armati.",
+    "historical_info": "I cannoni anticarro sono, come dice il nome, unit\u00e0 di artiglieria progettate per distruggere i carri armati nemici. Queste armi devono essere necessariamente molto mobili: per questo sono dotate di propulsione autonoma o sono comunque facilmente trasportabili con i camion o altri dispositivi pesanti. I loro proiettili sono progettati per penetrare le corazze dei carri nemici. I cannoni anticarro sono spesso molto vulnerabili all'attacco della fanteria nemica e devono essere costantemente protetti.",
+    "strategy": "Il Cannone anticarro \u00e8 un'unit\u00e0 specializzata, molto potente contro i carri armati nemici ma debole contro tutte le altre unit\u00e0. Per ottenere una potente forza da combattimento \u00e8 possibile supportarla con i propri tank o un altro genere di artiglieria.",
+    "movement": 2,
+    "cost": {
+        "production": 300,
+        "faith": 600
+    },
+    "prereq_tech": {
+        "name": "Armi combinate|delle Armi combinate",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro Carri armati (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_tanks_(100).json"
+        }
+    ]
+}

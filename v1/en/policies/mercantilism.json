@@ -1,0 +1,20 @@
+{
+    "id": 42,
+    "name": "Mercantilism",
+    "game_info": "MercantilismPurchasing items in Cities requires 25% less Gold. +1 Science from every Mint, Market, Bank, and Stock Exchange.",
+    "historical_info": "Mercantilism is a form of economic nationalism that encourages a nation to engage in policies of \"protectionism\" to promote its own exports and to limit imports from other nations. As a nation's \"balance of trade\" increases, the nation gains in wealth and prosperity, and if it dips below zero (the nation imports more stuff than it exports), the nation and its people grow poorer and more vulnerable to external threats. The theory was popular in Western Europe from the 16th to the 18th centuries. Today most western nations seek to open their borders to trade, albeit often with some level of taxation or quotas to protect their most important national industries.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/mercantilism.png",
+    "required_policies": [
+        {
+            "name": "Mercenary Army",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/mercenary_army.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Commerce",
+        "game_info": "Commerce provides bonuses to empires focused on Gold.Adopting Commerce will boost Gold output in Capital City by 25%. Unlocks building Big Ben.Adopting all Policies in the Commerce tree will grant +1 Gold from every Trading Post. It also allows the purchase of Great Merchants with Faith starting in the Industrial Era",
+        "prereq_era": "Medieval Era",
+        "historical_info": "Commerce deals with the exchange of goods and services, either through barter (in exchange for other goods and services) or by the exchange of some form of currency. Commerce is as old as human language and perhaps even older. In some cultures merchants occupy a lower class than those who rule or who get to carry the weapons. In other cultures, merchants are seen as the elite, and the acquisition of wealth is seen as the greatest good. For most of its recent history the United States has been the second kind of country."
+    }
+}

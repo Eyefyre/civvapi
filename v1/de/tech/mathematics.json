@@ -1,0 +1,49 @@
+{
+    "id": 15,
+    "name": "Mathematik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mathematics.png",
+    "era": "Klassik",
+    "cost": 105,
+    "civilopedia_entry": "Mathematik kann als die Wissenschaft der Ordnung, Struktur und Relationen definiert werden. Sie hat sich aus einfachem Z\u00e4hlen, Messen und Beschreiben von Objekten und ihren Formen entwickelt. Mathematik ist der grundlegendste Baustein, auf dem alle physikalische Wissenschaft basiert. Die Sumerer hatten ein erstaunlich solides und komplexes mathematisches System, das sowohl auf dem Dezimalsystem (wie das moderne System) als auch auf dem Sexagesimalsystem basierte. Reste dieses 60er-Systems haben vor allem in der Zeitmessung \u00fcberlebt - 60 Sekunden in einer Minute, 60 Minuten in einer Stunde.Die \u00c4gypter hatten ein einfacheres System, das von den Schriftgelehrten/Steuereintreibern entwickelt wurde. Damit konnten die Berechnungen vorgenommen werden, die n\u00f6tig waren, um gro\u00dfe Ingenieursarbeiten wie die Pyramiden zu st\u00fctzen (und vermutlich auch, um nicht eingetriebene Steuern festzuhalten). Die Griechen teilten die Mathematik in zwei Bereiche: Arithmetik, also die Zahlentheorie, und die Geometrie, also die Lehre von Gr\u00f6\u00dfe und Fl\u00e4che. Ihre wichtigste Erg\u00e4nzung lag jedoch in der Anwendung von Theorie und Beweis in der Mathematik. Vorherige mathematische Systeme basierten auf Messungen und Beobachtungen in der realen Welt, die Griechen hingegen betrachteten die mathematischen Gesetze dahinter.Die islamische Welt erweiterte die Mathematik vom 8. bis zum 15. Jahrhundert n. Chr. stark. Die vielleicht wichtigste Erweiterung war die Erfindung des Dezimalsystems f\u00fcr ganze Zahlen und die Erfindung der Zahl 0 um das Jahr 600 n. Chr. herum in Indien. Dadurch wurde das extrem plumpe und unbeholfene numerische System der R\u00f6mer abgel\u00f6st, dass jetzt nur noch als Zahlenzusatz f\u00fcr Namen von Horrorfilmfortsetzungen genutzt wird.Die Mathematik ist seit ihren Anf\u00e4ngen extrem gewachsen. Sie hat es erm\u00f6glicht, dass der Mensch Atome teilt, das Internet erfunden und ausgekl\u00fcgelte Sportligen entwickelt hat. Wer wei\u00df, welche Geheimnisse sie in der Zukunft noch l\u00fcften wird.",
+    "quote": "\"Die Mathematik ist Tor und Schl\u00fcssel zu den Wissenschaften.\" - Roger Bacon",
+    "tech_prereqs": [
+        {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "W\u00e4hrung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+        },
+        {
+            "name": "Maschinenbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Katapult",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/catapult.json"
+        },
+        {
+            "name": "Balliste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ballista.json"
+        },
+        {
+            "name": "Belagerungsturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/siege_tower.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Gerichtsgeb\u00e4ude",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/courthouse.json"
+        },
+        {
+            "name": "H\u00e4ngende G\u00e4rten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hanging_gardens.json"
+        }
+    ]
+}

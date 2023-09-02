@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "P\u00e2turage|P\u00e2turages",
+    "game_info": "Un p\u00e2turage est une zone de terre cl\u00f4tur\u00e9e recouverte d'herbe sur laquelle peuvent venir pa\u00eetre certains animaux, comme les chevaux ou les vaches.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/p\u00e2turage|p\u00e2turages.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "B\u00e9tail",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cattle.json"
+        },
+        {
+            "name": "Moutons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u00c9levage",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

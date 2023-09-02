@@ -1,0 +1,29 @@
+{
+    "id": 12,
+    "name": "Poissons",
+    "game_info": null,
+    "historical_info": "Le poisson a toujours \u00e9t\u00e9 une source importante de prot\u00e9ine pour les habitants des c\u00f4tes. Aujourd'hui encore, il tient une place essentielle dans notre alimentation\u00a0; c'est d'ailleurs pour cette raison que nous courons le risque de vider enti\u00e8rement l'oc\u00e9an de sa population comestible.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/poissons.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "C\u00f4te",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+        }
+    ]
+}

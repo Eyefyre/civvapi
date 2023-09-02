@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "name": "Tanque|Tanques",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tank.png",
+    "game_info": "Una unidad r\u00e1pida y poderosa del juego tard\u00edo.",
+    "historical_info": "Un tanque (o \"blindado\") a\u00fana el poder de inmovilizaci\u00f3n de la artiller\u00eda con la movilidad de la caballer\u00eda. Los primeros tanques aparecieron a finales de la Primera Guerra Mundial y se inventaron para acabar con el predominio de la guerra defensiva en aquellos tiempos: con tantas ametralladoras, alambradas y trincheras, los ataques de infanter\u00eda sol\u00edan fracasar y cobrarse un precio muy alto, mientras que los de caballer\u00eda ni siquiera llegaban a lanzarse Aunque mal dise\u00f1ados, con muchos problemas de motor y una tripulaci\u00f3n inexperta, los primeros blindados s\u00ed que mostraron un gran potencial, al menos para aquellos que les prestaron atenci\u00f3n. En la Segunda Guerra Mundial, los alemanes usaron la \"blitzkrieg\" (ataques rel\u00e1mpago encabezados por flotas de tanques) con una eficacia extraordinaria, pues conquistaron Francia y expulsaron al ej\u00e9rcito brit\u00e1nico del continente antes de que sus generales pudieran encontrar una f\u00f3rmula contra la nueva y sorprendente t\u00e1ctica. Aunque en la actualidad los blindados siguen siendo el componente ofensivo m\u00e1s importante de un ej\u00e9rcito de tierra, han resultado ser bastante vulnerables a un arma m\u00e1s reciente y r\u00e1pida: el helic\u00f3ptero de combate.",
+    "strategy": "El Tanque es una unidad terrestre extremadamente poderosa y m\u00f3vil. Puede moverse despu\u00e9s del combate, lo que le permite abrir enormes agujeros en las l\u00edneas enemigas y ocupar los hex\u00e1gonos que queden vac\u00edos.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Fuerzas combinadas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": 4,
+    "name": "Module stase (vaisseau spatial)",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_stasis_chamber.png",
+    "game_info": "L'une des pi\u00e8ces du vaisseau spatial n\u00e9cessaire \u00e0 une victoire scientifique.",
+    "historical_info": "Le vaisseau spatial en partance pour Alpha du Centaure transportera plus de 3\u00a0000\u00a0colons, ainsi que divers plantes et animaux. Transporter autant de nourriture, d'eau et d'oxyg\u00e8ne pour un si grand nombre d'\u00eatres vivants est impossible (m\u00eame en utilisant un circuit de recyclage r\u00e9utilisant 100% des d\u00e9chets produits). Pour parer \u00e0 ce probl\u00e8me, les colons passeront le voyage en sommeil cryog\u00e9nique. Ce sommeil artificiel permet de r\u00e9duire leur besoin en oxyg\u00e8ne et en nourriture \u00e0 une fraction infime de ce dont ils auraient eu besoin s'ils avaient \u00e9t\u00e9 \u00e9veill\u00e9s et actifs. Si le processus ralentit le vieillissement, il ne l'interrompt pas totalement. Au final, les colons s'\u00e9veilleront biologiquement plus vieux de deux ans pour chaque d\u00e9cennie pass\u00e9e en vol.",
+    "strategy": "Cette unit\u00e9 est l'un des composants du vaisseau spatial qui doit \u00eatre construit pour obtenir une victoire scientifique. Pour plus d'informations, veuillez consulter l'article consacr\u00e9 aux diff\u00e9rentes victoires.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nanotechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nanotechnology.json"
+    },
+    "free_promotions": []
+}

@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Hoplite|Hoplites",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Unit\u00e9 de l'Antiquit\u00e9 particuli\u00e8rement efficace contre les unit\u00e9s mont\u00e9es. L'hoplite est exclusif aux Grecs. Il est plus puissant en combat que le lancier, qu'il remplace.",
+    "historical_info": "Les Grecs ma\u00eetrisaient l'art de faire la guerre avec des lances, longues armes mortelles qui, dans les mains de hoplites parfaitement entra\u00een\u00e9s et se d\u00e9pla\u00e7ant en phalanges, se r\u00e9v\u00e9laient quasiment impossibles \u00e0 arr\u00eater pour les soldats d'infanterie ou de cavalerie. Un soldat faisant face \u00e0 une phalange grecque devait non seulement tenir compte de l'ennemi direct, mais aussi des deux ou trois soldats rest\u00e9s en retrait. Cependant, le hoplite se r\u00e9v\u00e9lait tr\u00e8s vuln\u00e9rable face aux tirs des archers, et il \u00e9tait extr\u00eamement difficile de maintenir une formation de phalange sur un terrain accident\u00e9. Mais sur un terrain plat, les hoplites pouvaient s'av\u00e9rer tr\u00e8s dangereux.",
+    "strategy": "L'hoplite est une unit\u00e9 exclusive aux Grecs\u00a0; bien plus puissant, il remplace le lancier. L'hoplite est redoutable contre les unit\u00e9s mont\u00e9es.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Travail du bronze",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

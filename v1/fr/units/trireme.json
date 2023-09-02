@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Trir\u00e8me|Trir\u00e8mes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Unit\u00e9 navale de l'Antiquit\u00e9 utilis\u00e9e pour prendre le contr\u00f4le des mers gr\u00e2ce \u00e0 ses attaques de combat rapproch\u00e9 contre les autres unit\u00e9s navales et les villes.",
+    "historical_info": "La trir\u00e8me \u00e9tait une gal\u00e8re de guerre utilis\u00e9e par les forces marines antiques de la M\u00e9diterran\u00e9e. Bien que munie d'une voile, cette gal\u00e8re \u00e9tait \u00e9galement \u00e9quip\u00e9e de trois rang\u00e9es de rameurs. Quand la gal\u00e8re \u00e9tait mue par les rameurs, elle pouvait se montrer \u00e9tonnamment rapide et facile \u00e0 diriger. Les trir\u00e8mes \u00e9taient g\u00e9n\u00e9ralement dot\u00e9es d'un bec aiguis\u00e9 (\u00e9peron) \u00e0 la proue, permettant de percuter et couler un navire ennemi. Certaines trir\u00e8mes transportaient \u00e9galement des archers pour les combats rapproch\u00e9s, ou des soldats d'infanterie. Ces gal\u00e8res se rapprochaient d'un navire ennemi et les soldats entamaient alors une man\u0153uvre d'abordage afin de prendre le commandement du bateau. Les trir\u00e8mes compt\u00e8rent parmi les vaisseaux militaires les plus importants jusqu'\u00e0 ce que l'arriv\u00e9e des canons et les progr\u00e8s r\u00e9alis\u00e9s en mati\u00e8re de construction navales les rendent obsol\u00e8tes.",
+    "strategy": "La trir\u00e8me est la premi\u00e8re unit\u00e9 navale disponible du jeu. C'est une unit\u00e9 d'attaque rapproch\u00e9e qui peut attaquer des embarcations et des villes (mais pas \u00e0 distance). La trir\u00e8me est utile pour d\u00e9barrasser les eaux territoriales des navires barbares et pour explorer sommairement la carte (elle n'est pas en mesure de p\u00e9n\u00e9trer les cases d'oc\u00e9an, sauf pour les Polyn\u00e9siens).",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

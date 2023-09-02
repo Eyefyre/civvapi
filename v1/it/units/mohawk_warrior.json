@@ -1,0 +1,23 @@
+{
+    "id": 69,
+    "name": "Guerriero mohawk|un Guerriero mohawk|dal tuo Guerriero mohawk|al tuo Guerriero mohawk|il tuo Guerriero mohawk|da un Guerriero mohawk",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mohawk_warrior.png",
+    "game_info": "Forte unit\u00e0 terrestre di epoca classica, destinata a stare in prima fila. Solo gli irochesi possono costruirla. A differenza dello Spadaccino, che sostituisce, quest'unit\u00e0 riceve un bonus significativo quando combatte in una foresta o nella giungla.",
+    "historical_info": "I guerrieri mohawk irochesi sono tra i migliori fanti leggeri che il mondo abbia mai conosciuto. Incredibilmente veloci e versatili, i guerrieri irochesi potevano coprire in poco tempo enormi distanze, sorprendendo i nemici europei che erano meglio armati ma molto pi\u00f9 lenti. Con una forza complessiva che \"non super\u00f2 mai le 3.000 unit\u00e0 di combattenti\", riuscirono a resistere per quasi due secoli a francesi, inglesi e americani.",
+    "strategy": "Il Guerriero mohawk \u00e8 un'unit\u00e0 esclusiva degli Irochesi e sostituisce lo Spadaccino. Tanto potente quanto lo Spadaccino in terreno aperto o collinoso, il Guerriero mohawk riceve un significativo bonus al combattimento nella Foresta e nella Giungla. Inoltre, a differenza dello Spadaccino, non richiede di consumare una risorsa di Ferro.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Lavorazione del ferro|della Lavorazione del ferro",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus combat. in Foresta/Giungla (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/combat_bonus_in_forest_jungle_(33).json"
+        }
+    ]
+}

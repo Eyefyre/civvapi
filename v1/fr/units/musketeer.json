@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "name": "Mousquetaire|Mousquetaires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketeer.png",
+    "game_info": "L'une des premi\u00e8res unit\u00e9s du jeu \u00e0 utiliser la poudre \u00e0 canon. Le mousquetaire est exclusif aux Fran\u00e7ais. Il est plus puissant en combat que l'arquebusier, qu'il remplace.",
+    "historical_info": "Rendus c\u00e9l\u00e8bres par le roman de cape et d'\u00e9p\u00e9e d'Alexandre Dumas, les mousquetaires constituaient l'\u00e9lite des forces militaires fran\u00e7aises, arm\u00e9s de leur \u00e9p\u00e9e et de leur mousquet. Cr\u00e9\u00e9 en 1622, le corps des mousquetaires recrutait uniquement parmi les gentilshommes ayant d\u00e9j\u00e0 servi dans la Garde. Le passage aux mousquetaires \u00e9tait une promotion puisqu'il permettait de rejoindre un corps d'\u00e9lite, proche du roi. Les mousquetaires avaient la r\u00e9putation d'\u00eatre combatifs et tr\u00e8s s\u00fbrs d'eux, ils \u00e9taient admir\u00e9s \u00e0 Paris, mais aussi dans le reste du pays. Ce corps d'arm\u00e9e fut dissous \u00e0 la fin du XVIIIe si\u00e8cle.",
+    "strategy": "Unit\u00e9 exclusive aux Fran\u00e7ais, le mousquetaire remplace l'arquebusier. Nettement plus puissant que ce dernier, il s'agit du fantassin le plus redoutable du jeu (jusqu'\u00e0 l'apparition des unit\u00e9s d'infanterie de l'\u00e8re industrielle, en tout cas).",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Poudre \u00e0 canon",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

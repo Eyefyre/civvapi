@@ -1,0 +1,23 @@
+{
+    "id": 15,
+    "name": "Fregata|una Fregata|dalla tua Fregata|alla tua Fregata|la tua Fregata|da una Fregata",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/frigate.png",
+    "game_info": "Potente unit\u00e0 navale di epoca rinascimentale, utilizzata per ottenere il controllo dei mari.",
+    "historical_info": "Durante l'et\u00e0 dei grandi velieri, con il termine fregata si intendeva una nave da guerra pi\u00f9 piccola delle \"navi di linea\" a tre ponti che formavano il nucleo della flotta, ma comunque abbastanza grande da avere un potenza di fuoco rispettabile. Le fregate avevano tre alberi e un solo ponte di cannoni (una nave di linea ne poteva avere due o addirittura tre). A seconda delle dimensioni potevano trasportare da 25 a 50 cannoni. Le fregate solitamente servivano compiti di scorta o di pattuglia, oltre che a dare la caccia ai pirati. Durante la guerra del 1812 gli Stati Uniti vararono una sorta di super-fregate che potevano trasportare fino a 90 cannoni. Uno di questi vascelli, la USS Constitution, sopravvive ancora: \u00e8 la pi\u00f9 vecchia fregata militare ancora in acqua.",
+    "strategy": "La Fregata \u00e8 la prima unit\u00e0 navale disponibile dopo la Caravella. Rispetto a quest'ultima \u00e8 superiore sotto tutti gli aspetti: movimento e Forza di combattimento (sia a distanza sia in uno scontro ravvicinato). Una Fregata pu\u00f2 ripulire il mare da tutte le Caravelle, Triremi e unit\u00e0 barbariche ancora in circolazione.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigazione|della Navigazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

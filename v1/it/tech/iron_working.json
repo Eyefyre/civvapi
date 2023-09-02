@@ -1,0 +1,49 @@
+{
+    "id": 21,
+    "name": "Lavorazione del ferro|della Lavorazione del ferro",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/iron_working.png",
+    "era": "Epoca classica",
+    "cost": 175,
+    "civilopedia_entry": "La lavorazione del ferro \u00e8 pi\u00f9 vecchia della storia stessa. Il primo ferro lavorato probabilmente proveniva dai meteoriti; quando non se ne trov\u00f2 pi\u00f9, le antiche popolazioni si sono probabilmente messe a cercare altrove per ottenere materiali simili. Sembra che l'estrazione del metallo dal minerale ferroso sia stata scoperta gi\u00e0 nel XII secolo a.C. nelle montagne del Caucaso, in Asia Minore o forse in India. La produzione del ferro battuto risale al 1000 a.C. circa.I primi oggetti ricavati da ferro estratto dai meteoriti sono stati rinvenuti presso gli Egizi e i Sumeri e risalgono al 4000 a.C. A quei tempi il ferro era rarissimo, e gli storici pensano che valesse addirittura pi\u00f9 dell'oro.Nel XII secolo a.C. il ferro aveva ormai rimpiazzato il bronzo come metallo d'elezione per la realizzazione di strumenti e armi nel Mediterraneo orientale. A quei tempi il ferro non era superiore al bronzo come materiale, ma era pi\u00f9 abbondante e si poteva reperire in molti luoghi dove rame e stagno non erano disponibili, il che lo rendeva decisamente pi\u00f9 economico.Oggetti di acciaio \"moderno\" sono stati realizzati gi\u00e0 nella preistoria, ma la tecnologia per una produzione su larga scala non \u00e8 stata disponibile fino al Seicento. Una volta divenuto anch'esso economico e abbondante, l'acciaio ha sostituito il ferro nella maggior parte delle applicazioni.",
+    "quote": "\"Non aspettate che il ferro sia caldo prima di batterlo; rendetelo caldo con i vostri colpi.\" - William Butler Yeats",
+    "tech_prereqs": [
+        {
+            "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/bronze_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusione del metallo|della Fusione del metallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Spadaccino|uno Spadaccino|dal tuo Spadaccino|al tuo Spadaccino|il tuo Spadaccino|da uno Spadaccino",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/swordsman.json"
+        },
+        {
+            "name": "Guerriero mohawk|un Guerriero mohawk|dal tuo Guerriero mohawk|al tuo Guerriero mohawk|il tuo Guerriero mohawk|da un Guerriero mohawk",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/mohawk_warrior.json"
+        },
+        {
+            "name": "Legione|una Legione|dalla tua Legione|alla tua Legione|la tua Legione|da una Legione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/legion.json"
+        },
+        {
+            "name": "Spadaccino con kriss|uno Spadaccino con kriss|dal tuo Spadaccino con kriss|al tuo Spadaccino con kriss|il tuo Spadaccino con kriss|da uno Spadaccino con kriss",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/kris_swordsman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Poema epico|il Poema epico|un Poema epico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/heroic_epic.json"
+        },
+        {
+            "name": "Colosso|il Colosso|un Colosso",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/colossus.json"
+        }
+    ]
+}

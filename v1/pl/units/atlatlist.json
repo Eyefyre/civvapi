@@ -1,0 +1,23 @@
+{
+    "id": 97,
+    "name": "Oszczepnicy|Oszczepnik\u00f3w|Oszczepnikom|Oszczepnik\u00f3w|Oszczepnikami|Oszczepnikach",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atlatlist.png",
+    "game_info": "Jedynie Majowie mog\u0105 wybudowa\u0107 t\u0119 jednostk\u0119. Jest ta\u0144sza i wcze\u015bniej dost\u0119pna ni\u017c \u0142ucznik, kt\u00f3rego zast\u0119puje.",
+    "historical_info": "Oszczepnicy byli silnie wyspecjalizowanymi miotaczami strza\u0142ek, kt\u00f3rzy u\u017cywali do ich wyrzucania d\u0142ugich drewnianych rur podobnych do w\u0142\u00f3czni. Urz\u0105dzenie to, zwane atlatlem, mia\u0142o na jednym ko\u0144cu ma\u0142e zag\u0142\u0119bienie, w kt\u00f3rym k\u0142adziono strza\u0142k\u0119, i wyci\u0119ty przez ca\u0142\u0105 swoj\u0105 d\u0142ugo\u015b\u0107 rowek, w kt\u00f3rym si\u0119 rozp\u0119dza\u0142a. Za pomoc\u0105 atlatla jego u\u017cytkownik m\u00f3g\u0142 wyrzuci\u0107 strza\u0142k\u0119 na odleg\u0142o\u015b\u0107 niemal 100 metr\u00f3w z pr\u0119dko\u015bci\u0105 ok. 100 km/h \u2013 o wiele dalej, ni\u017c m\u00f3g\u0142 to zrobi\u0107 zwyk\u0142y miotacz. Oszczepnicy Maj\u00f3w potrafili zdziesi\u0105tkowa\u0107 z daleka szeregi wroga, o ile tylko dobrze je widzieli.Najstarsze znalezione atlatle maj\u0105 oko\u0142o 400 000 lat \u2013 u\u017cywa\u0142 ich wymar\u0142y gatunek homo heidelbergensis. Homo sapiens zacz\u0105\u0142 u\u017cywa\u0107 atlatli najpewniej w g\u00f3rnym paleolicie, ok. 15 500 lat p.n.e.",
+    "strategy": "Oszczepnicy to unikatowa jednostka Maj\u00f3w, kt\u00f3ra zast\u0119puje \u0142ucznik\u00f3w. Jest od nich ta\u0144sza i dost\u0119pna du\u017co wcze\u015bniej, gdy\u017c nie wymaga odkrycia \u0142ucznictwa. Dzi\u0119ki tej przewadze Majowie mog\u0105 pozwoli\u0107 sobie na obranie innych priorytet\u00f3w badawczych w pocz\u0105tkowej fazie gry.",
+    "movement": 2,
+    "cost": {
+        "production": 36,
+        "faith": 72
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

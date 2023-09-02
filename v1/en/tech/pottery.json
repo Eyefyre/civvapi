@@ -1,0 +1,44 @@
+{
+    "id": 2,
+    "name": "Pottery",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/pottery.png",
+    "era": "Ancient Era",
+    "cost": 35,
+    "civilopedia_entry": "Pottery is one of the oldest and most useful of all of the arts. In pottery, objects are built out of clay and then placed in an oven and subjected to extremely high temperatures. The resulting product is extremely brittle but is also airtight and virtually impervious to corrosion, oxidation, infestation, and the other destructive forces that would attack items made of metal, wood or cloth. The earliest pottery objects include jugs and containers to hold liquids or grains, as well as cooking pots, serving bowls, plates, and cups.The first kind of pottery discovered was earthenware, dating back some 9,000 years. This pottery is somewhat porous and is usually covered with a more watertight material (called \"slip\"), or it can be glazed. Earthenware pottery is extremely durable and remains in wide use today. Stoneware is pottery that has been baked (\"fired\") at extremely high temperatures until the clay is \"vitrified\" - glasslike and nonporous. This process was discovered in China around 1400 BC. Porcelain was invented in China around the sixth century AD. It is similar to stoneware (in fact, a line of demarcation between the two is open to debate), but porcelain products are generally more translucent and delicate.",
+    "quote": "\"Shall the clay say to him that fashioneth it, What makest thou?\" - The Bible, Isaiah, 45:9",
+    "tech_prereqs": [
+        {
+            "name": "Agriculture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Sailing",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+        },
+        {
+            "name": "Calendar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/calendar.json"
+        },
+        {
+            "name": "Writing",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Granary",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/granary.json"
+        },
+        {
+            "name": "Pyramid",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/pyramid.json"
+        },
+        {
+            "name": "Shrine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/shrine.json"
+        }
+    ]
+}

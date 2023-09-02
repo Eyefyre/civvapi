@@ -1,0 +1,20 @@
+{
+    "id": 119,
+    "name": "Inquisiteur|Inquisiteurs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/inquisitor.png",
+    "game_info": "Permet de faire dispara\u00eetre les autres religions des villes. Pour l'obtenir, vous devrez l'acheter avec de la foi.",
+    "historical_info": "On a beaucoup fait appel aux inquisiteurs \u00e0 travers l'Europe dans le but d'\u00e9liminer les ennemis de l'\u00c9glise catholique. Ceux que l'Inquisition d\u00e9signait comme h\u00e9r\u00e9tiques \u00e9taient, la plupart du temps, tortur\u00e9s et ex\u00e9cut\u00e9s pour les crimes qui leur \u00e9taient reproch\u00e9s. Les accusations des inquisiteurs laissaient peu de place \u00e0 la d\u00e9fense.",
+    "strategy": "Disponible en \u00e9change de foi dans n'importe quelle ville disposant d'une religion principale ayant \u00e9t\u00e9 d\u00e9velopp\u00e9e. Il peut \u00e9liminer les autres religions de vos villes (l'inquisiteur est alors d\u00e9truit) ou rester dans la ville pour la prot\u00e9ger des missionnaires et proph\u00e8tes cherchant \u00e0 r\u00e9pandre leur croyance.",
+    "movement": 3,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        }
+    ]
+}

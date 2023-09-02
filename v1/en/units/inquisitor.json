@@ -1,0 +1,20 @@
+{
+    "id": 119,
+    "name": "Inquisitor",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/inquisitor.png",
+    "game_info": "Used to remove other religions from cities. May only be obtained by purchasing with Faith.",
+    "historical_info": "Inquisitors were widely utilized throughout Europe as part of a broad effort to eliminate enemies of the Catholic Church. Those branded as heretics by the Inquisition were oftentimes tortured and executed for their alleged crimes, and there was typically little room for defense against the inquisitor's accusations.",
+    "strategy": "Can be purchased with Faith in any city with a majority Religion that has been enhanced. They can remove other religions from your cities (expending the Inquisitor) or be placed inside a city to protect it from Missionaries and Prophets trying to spread other religions into that city.",
+    "movement": 3,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        }
+    ]
+}

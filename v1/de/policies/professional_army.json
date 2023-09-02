@@ -1,0 +1,20 @@
+{
+    "id": 63,
+    "name": "Berufsarmee",
+    "game_info": "Berufsarmee Goldkosten f\u00fcr die Modernisierung von Milit\u00e4reinheiten sinken um 33% und Kasernen, Waffenkammern und Milit\u00e4rakademien werden 50% schneller gebaut.",
+    "historical_info": "Eine Berufsarmee ist eine milit\u00e4rische Organisation, die auch in Friedenszeiten aufrecht gehalten wird. Soldaten werden von der Regierung f\u00fcr ihre Dienste bezahlt und verbringen ihre Zeit damit, sich auf Eins\u00e4tze vorzubereiten oder diese durchzuf\u00fchren. Die ersten Armeen waren keine Berufsarmeen. Wenn ein Krieg bevorstand, riefen die Staatsoberh\u00e4upter alle k\u00f6rperlich f\u00e4higen M\u00e4nner zum Dienst, die dann auch ihre Waffen schulterten und in den Kampf zogen. Diese Amateursoldaten waren oft nicht besonders gut ausgebildet und mussten meistens ihre eigenen Waffen und R\u00fcstungen mitbringen, sodass deren Qualit\u00e4t oft nicht sehr hoch war. Viele dieser Soldaten desertierten auch, wenn sie sich um die Ernte k\u00fcmmern mussten, also wurden die Schlachten in den Sommer gelegt. Wenn der Sieg bis zur Ernte nicht errungen wurde, wurde der Krieg f\u00fcr ein Jahr ausgesetzt.Berufsarmeen bilden sich, wenn eine Gesellschaft wohlhabend genug geworden ist, um eine gro\u00dfe Anzahl an Menschen zu unterhalten, die nicht auf dem Feld arbeiten oder andere produktive Arbeit leisten. Die Soldaten werden in der Regel in Kasernen untergebracht und von der Zivilbev\u00f6lkerung ferngehalten, um Reibungen zu vermeiden, und der Staat sorgt f\u00fcr Verpflegung, Waffen, R\u00fcstung und Ausbildung. Sie sind fast immer effektiver als Amateure.Moderne Kriegsf\u00fchrung ist unglaublich komplex geworden und Soldaten t\u00f6ten mit extrem komplizierten Waffen, f\u00fcr deren effektiven Gebrauch ein erhebliches Training notwendig ist. Amateursoldaten sind solchen Anforderungen einfach nicht gewachsen, und die meisten Staaten leisten sich die ein oder andere Form einer professionellen Streitkraft.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/berufsarmee.png",
+    "required_policies": [
+        {
+            "name": "Kriegerkaste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/military_caste.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Ehre",
+        "game_info": "Ehre erh\u00f6ht die Effektivit\u00e4t der Armee auf mehrere Arten.Ehre f\u00fchrt zu einem Kampfbonus von +33% gegen Barbaren und Nachricht an den Spieler, wenn neue Barbarenlager in bereits erkundetem Gebiet entstehen. Das Reich erh\u00e4lt Kultur f\u00fcr jeden eliminierten Barbaren. Schaltet den Bau der Zeus-Statue frei.Bei \u00dcbernahme aller Politiken im Ehre-Zweig wird Gold f\u00fcr jede ausgeschaltete Feindeinheit gew\u00e4hrt. Erm\u00f6glicht ebenfalls den Kauf Gro\u00dfer Gener\u00e4le mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": null,
+        "historical_info": "In einer \"ehrenhaften\" Gesellschaft begr\u00fcndet sich der Status der B\u00fcrger auf der Beurteilung ihrer pers\u00f6nlichen Qualit\u00e4ten durch die Gesellschaft. Eigenschaften, die im Allgemeinen als ehrenhaft angesehen werden, sind unter anderem Treue, Ehrlichkeit, Anstand und Tapferkeit. In solchen Gesellschaften wird oft von M\u00e4nnern erwartet, dass sie \"ihre Ehre bis zum Tod verteidigen\", da ein Verlust der Ehre schlimmer ist als der Verlust des Lebens."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stadium",
+    "game_info": "It cannot provide more Happiness than there are Citizens in a city. City must have a Zoo.",
+    "strategy": "A Stadium is a Modern-era building which increases the Happiness of your empire, but it cannot provide more happiness than there are citizens in the city. The city must already possess a Zoo before it can construct a Stadium.",
+    "historical_info": "A stadium is a modern version of a colosseum, probably with a better selection of snacks. Modern stadiums hold upwards of 100,000 screaming fans watching a sports event, concert, or perhaps a political rally. Modern sports enthusiasts are not noticeably more sedate than their Classical Age ancestors, and today's stadiums come equipped with fences, guard rails, and loads of security guards for rampaging fans.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadium.png",
+    "prereq_tech": {
+        "name": "Refrigeration",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/refrigeration.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

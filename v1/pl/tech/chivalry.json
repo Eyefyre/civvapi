@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+    "cost": 485,
+    "civilopedia_entry": "Rycerstwo odnosi si\u0119 do honorowego zachowania oczekiwanego od rycerzy \u2013 zbrojnej arystokracji narodu. Termin jest nieco pokrewny \u201ebushido\u201d (drodze wojownika), kodeksowi post\u0119powania japo\u0144skich samuraj\u00f3w. Kodeks rycerski prze\u017cywa\u0142 rozkwit w XII wieku pod wp\u0142ywem krucjat, kt\u00f3rych uczestniczy wierzyli, \u017ce wykonuj\u0105 wol\u0119 Boga, zabijaj\u0105c niewiernych na Bliskim Wschodzie. Aby dost\u0105pi\u0107 \u0142aski Boga, nale\u017ca\u0142o post\u0119powa\u0107 pobo\u017cnie \u2013 nierycerskie zachowanie prowadzi\u0142o do pora\u017cki, \u015bmierci i pot\u0119pienia. Rycerze muzu\u0142ma\u0144scy opieraj\u0105cy si\u0119 chrze\u015bcija\u0144skim wyznawali podobny, a nawet pod pewnymi wzgl\u0119dami bardziej \u201ecywilizowany\u201d kodeks.Pewna forma kodeksu rycerskiego jest kluczowa dla cywilizacji, w kt\u00f3rej jedna uprzywilejowana klasa ma dost\u0119p do broni, kt\u00f3ra znajduje si\u0119 poza zasi\u0119giem klas ni\u017cszych. W innym przypadku ludzie wyposa\u017ceni w bro\u0144 mogliby za bardzo naciska\u0107 na ni\u017csze klasy, czego wynikiem by\u0142oby ciemi\u0119\u017cenie ich, narastanie niepokoj\u00f3w spo\u0142ecznych i potencjalna niszcz\u0105ca rewolucja.",
+    "quote": "\u201eKto wyci\u0105gnie ten miecz z kamienia tego i kowad\u0142a jest prawowitym kr\u00f3lem ca\u0142ej Anglii.\" \u2013 Malory",
+    "tech_prereqs": [
+        {
+            "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+        },
+        {
+            "name": "Gildie|Gildii|Gildiom|Gildie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        },
+        {
+            "name": "Prasa drukarska|Prasy drukarskiej|Prasie drukarskiej|Pras\u0119 drukarsk\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Rycerze|Rycerzy|Rycerzom|Rycerzy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/knight.json"
+        },
+        {
+            "name": "\u0141ucznicy arabscy|\u0141ucznik\u00f3w arabskich|\u0141ucznikom arabskim|\u0141ucznik\u00f3w arabskich",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/camel_archer.json"
+        },
+        {
+            "name": "S\u0142onie Naresuana|S\u0142oni Naresuana|S\u0142oniom Naresuana|S\u0142onie Naresuana",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Kawaleria Mandekalu|Kawalerii Mandekalu|Kawalerii Mandekalu|Kawaleri\u0119 Mandekalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Keshikowie|Keshik\u00f3w|Keshikom|Keshik\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/keshik.json"
+        },
+        {
+            "name": "Konkwistadorzy|Konkwistador\u00f3w|Konkwistadorom|Konkwistador\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fort mogolski|Fortu mogolskiego|Fortowi mogolskiemu|Fort mogolski|Forty mogolskie|Fort\u00f3w mogolskich|Fortom mogolskim|Forty mogolskie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Zamek|Zamku|Zamkowi|Zamek|Zamki|Zamk\u00f3w|Zamkom|Zamki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra|Alhambry|Alhambrze|Alhamnbr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/alhambra.json"
+        }
+    ]
+}

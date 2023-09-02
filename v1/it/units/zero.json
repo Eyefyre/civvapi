@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Zero|uno Zero|dal tuo Zero|al tuo Zero|il tuo Zero|da uno Zero",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Unit\u00e0 aerea progettata per acquisire la superiorit\u00e0 nei cieli e intercettare gli apparecchi nemici in avvicinamento. Solo i giapponesi possono costruirla. Quest'unit\u00e0 ottiene un bonus quando combatte contro altri Caccia e non richiede Petrolio.",
+    "historical_info": "L'A6M Zero della Mitsubishi \u00e8 stato il caccia utilizzato dal Giappone per tutta la Seconda Guerra Mondiale. Progettato per levarsi in volo da una portaerei, all'inizio della guerra lo Zero era il miglior caccia della categoria esistente al mondo. Lo Zero univa manovrabilit\u00e0 e raggio d'azione ed era ottimo negli scontri aerei, superando facilmente gli apparecchi inglesi e americani. Durante lo svolgimento del conflitto la qualit\u00e0 dei caccia alleati miglior\u00f2 notevolmente; l'aeronautica giapponese invece pat\u00ec la carenza di materie prime e di manodopera, cos\u00ec alla fine lo Zero fu superato. Al suo culmine, comunque, fu un caccia impareggiabile in grado di dominare il vasto teatro del Pacifico.",
+    "strategy": "Lo Zero \u00e8 un'unit\u00e0 esclusiva del Giappone e sostituisce il Caccia. Lo Zero \u00e8 un'unit\u00e0 aerea di potenza media. \u00c8 simile agli altri apparecchi, ma quando combatte contro un altro caccia ottiene un significativo bonus al combattimento. Inoltre non richiede la risorsa Petrolio. Pu\u00f2 usare come base una qualsiasi delle tue citt\u00e0 o una portaerei. Pu\u00f2 spostarsi da una citt\u00e0 (o portaerei) all'altra ed eseguire missioni in un raggio d'azione di 8 caselle. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|del Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contro Caccia (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Distruzione difese antiaeree",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_sweep.json"
+        },
+        {
+            "name": "Ricognizione aerea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contro bombardieri ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

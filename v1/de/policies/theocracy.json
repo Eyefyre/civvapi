@@ -1,0 +1,20 @@
+{
+    "id": 78,
+    "name": "Theokratie",
+    "game_info": "TheokratieTempel erh\u00f6hen die Goldproduktion einer Stadt um 25%. Heilige St\u00e4tten liefern +3 Gold.",
+    "historical_info": "In einem theokratisch organisierten Staat haben die religi\u00f6sen Anf\u00fchrer die absolute Macht im Land inne. Eigentlich hat der Gott der jeweiligen Religion die Macht und regiert durch g\u00f6ttliche Eingebung mit Hilfe der religi\u00f6sen Anf\u00fchrer. Theokratien sind oft militaristisch, da die religi\u00f6sen Anf\u00fchrer die Armee des Landes als Mittel sehen, um die eigene Religion in andere, heidnische Staaten zu tragen. Moderne Theokratien scheinen die Tendenz zu haben, den Fortschritt zu verdammen, da Luxus und technologische Entwicklungen als Bedrohung f\u00fcr die Fr\u00f6mmigkeit des eigenen Landes (und f\u00fcr die Macht der Anf\u00fchrer) gesehen werden.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/theokratie.png",
+    "required_policies": [
+        {
+            "name": "Organisierte Religion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Fr\u00f6mmigkeit",
+        "game_info": "Fr\u00f6mmigkeit l\u00e4sst den Glauben eines Reiches florieren.Fr\u00f6mmigkeit reduziert die Bauzeit von Schreinen und Tempeln um die H\u00e4lfte. Schaltet den Bau der Gro\u00dfen Moschee von Djenn\u00e9 frei.Bei \u00dcbernahme aller Politiken erscheint ein Gro\u00dfer Prophet und Heilige St\u00e4tten produzieren +3 Kultur.",
+        "prereq_era": null,
+        "historical_info": "Fr\u00f6mmigkeit ist die Hingabe an eine bestimmte Religion oder ein geistiges Glaubenssystem. Fromme Menschen gelten in der Regel als besonders selbstgerecht und folgen meist den religi\u00f6sen Praktiken ihres Glaubens, ohne diese auch nur im Geringsten zu hinterfragen."
+    }
+}

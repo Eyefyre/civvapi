@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nau",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn Gold and XP. May only be built by the Portuguese.",
+    "historical_info": "As the Portuguese extended their explorations and trading ventures further along the African coast and to the Far East, they needed a larger, sturdier ship capable of long voyages. The Nau, often referred to as a \"carrack\" or \"Indiaman\" by the English, evolved from the square-rigged cog widely used for commerce in the late Middle Ages. The design was perfected by Portuguese merchants in the late 1400s; the Nau came to be a three- or four-deck ocean-going vessel with three or four masts, with a broad beam stable in the high seas of the Atlantic, and capable of carrying provisions and cargo for a lengthy trip. It had a rounded stern and a high forecastle incorporated into the bow, the first ocean-going vessel with such. Its large storage holds meant that it could traverse great distances between landfalls, making it a mainstay in the Portuguese merchant fleet. The Nau would be supplanted by the Galleon on the ocean trade routes by the 1600s.",
+    "strategy": "This melee naval unit replaces the Caravel and is skilled at exploration. When it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a one-time trade mission to earn Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Exotic Cargo",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Withdraw Before Melee",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

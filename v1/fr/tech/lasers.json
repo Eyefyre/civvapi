@@ -1,0 +1,32 @@
+{
+    "id": 74,
+    "name": "Lasers",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/lasers.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 7700,
+    "civilopedia_entry": "Le terme \"laser\" s'\u00e9crivait \u00e0 l'origine LASER. Il s'agit en effet d'un acronyme anglais signifiant \"Light Amplification by Stimulated Emission of Radiation\" (soit \"Amplification de la lumi\u00e8re par \u00e9mission stimul\u00e9e de radiation\"). Un acronyme qui, d'ailleurs, fait tr\u00e8s justement office de d\u00e9finition. Les pr\u00e9mices du laser nous viennent d'Albert Einstein qui, en 1917, s'inspira une nouvelle fois de la loi de Planck sur la radiation. A la m\u00eame p\u00e9riode, pure co\u00efncidence, les auteurs de science-fiction commen\u00e7aient \u00e0 d\u00e9crire une technologie identique. Le premier laser fonctionnel n'apparut qu'en 1960, ann\u00e9e qui vit la cr\u00e9ation par les Laboratoires de recherche Hugues d'une technologie laser capable d'emmagasiner des donn\u00e9es gr\u00e2ce \u00e0 l'utilisation de dispositifs de stockage optiques (comme les graveurs de DVD).Depuis les premi\u00e8res ann\u00e9es de recherche, de nombreux types de lasers sp\u00e9cialis\u00e9s ont \u00e9t\u00e9 d\u00e9velopp\u00e9s, servant des int\u00e9r\u00eats aussi diff\u00e9rents qu'une aide \u00e0 la vis\u00e9e, l'am\u00e9lioration de la production ou l'utilisation de diff\u00e9rentes longueurs d'onde. Si, \u00e0 l'origine, le laser n'\u00e9tait qu'une \"solution \u00e0 la recherche d'un probl\u00e8me\", il trouva finalement des milliers d'utilisations diff\u00e9rentes. On le retrouve ainsi dans l'\u00e9lectronique de grande consommation, l'industrie du divertissement, les institutions polici\u00e8res, ainsi que dans l'arm\u00e9e. Quoi qu'il en soit, veillez \u00e0 ne jamais regarder la source d'un laser \u00e0 l'\u0153il nu !",
+    "quote": "\"La nuit est avanc\u00e9e, le jour approche. D\u00e9pouillons-nous donc des oeuvres des T\u00e9n\u00e8bres, et rev\u00eatons les armes de la lumi\u00e8re.\" - La Bible : Romains, 13:12",
+    "tech_prereqs": [
+        {
+            "name": "Informatique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Furtivit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/stealth.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Chasseur \u00e0 r\u00e9action|Chasseurs \u00e0 r\u00e9action",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/jet_fighter.json"
+        },
+        {
+            "name": "Blind\u00e9 moderne|Blind\u00e9s modernes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/modern_armor.json"
+        }
+    ],
+    "building_unlocks": []
+}

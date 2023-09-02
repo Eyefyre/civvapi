@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Katafrakci|Katafrakt\u00f3w|Katafraktom|Katafrakt\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Szybka i pot\u0119\u017cna jednostka konna dost\u0119pna we wczesnej fazie gry. Wra\u017cliwa na ataki w\u0142\u00f3cznik\u00f3w. Jedynie Bizantyjczycy mog\u0105 j\u0105 tworzy\u0107. Jednostka ta ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105, lepiej si\u0119 broni i atakuje miasta bardziej efektywnie ni\u017c konnica, kt\u00f3r\u0105 zast\u0119puje.",
+    "historical_info": "Katafrakci byli jedn\u0105 z najlepszych ci\u0119\u017ckich kawalerii w historii. Ich konie nosi\u0142y kolczugi lub zbroje \u0142uskowe, je\u017adziec posiada\u0142 r\u00f3wnie imponuj\u0105cy pancerz. Jednostki te s\u0142u\u017cy\u0142y g\u0142\u00f3wnie do rozbijania linii piechoty wroga. Katafrakci stanowili istotn\u0105 cz\u0119\u015b\u0107 wojsk Cesarstwa Bizantyjskiego i odgrywali istotn\u0105 rol\u0119 w jego obronie po os\u0142abieniu Rzymu na zachodzie.",
+    "strategy": "Katafrakci to unikatowa jednostka bizantyjska zast\u0119puj\u0105ca konnic\u0119. Katafrakci s\u0105 wolniejsi, lecz pot\u0119\u017cniejsi od konnicy, co czyni ich jednymi z najgro\u017aniejszych jednostek kawaleryjskich, p\u00f3ki nie pojawi\u0105 si\u0119 rycerze. S\u0105 w stanie si\u0119 przemieszcza\u0107 po ataku. W odr\u00f3\u017cnieniu od konnicy mog\u0105 zyska\u0107 premie do obrony. Dodatkowo kary otrzymywane za atakowanie miast nie s\u0105 tak wysokie.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara do ataku na miasta (25)|Kary do ataku na miasta (25)|Karze do ataku na miasta (25)|Kar\u0119 do ataku na miasta (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

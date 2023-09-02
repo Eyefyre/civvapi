@@ -1,0 +1,48 @@
+{
+    "id": 35,
+    "name": "Druckerpresse",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/printing_press.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Auch wenn bewegliche Lettern in China erfunden wurden, kann die Erfindung der ersten mechanischen Druckerpresse dem deutschen Buchdrucker Johannes Gutenberg Mitte des 15. Jahrhunderts zugeschrieben werden. Die fr\u00fchen Druckerpressen bestanden aus Holz und waren in der Bauart den Wein- und Oliven\u00f6lpressen sehr \u00e4hnlich, die seit Jahrhunderten im Mittelmeerraum verwendet wurden.In den urspr\u00fcnglichen Pressen wurden die Lettern umgekehrt auf h\u00f6lzerne Platten gelegt, welche sie genau in Position hielten. Die Arbeiter drehten dann die Kurbel, um Druck auf das Papier auszu\u00fcben und es gegen die geschw\u00e4rzten Lettern zu dr\u00fccken. Der Drucker entfernte das Papier und f\u00e4rbte die Lettern erneut ein. Danach begann der Prozess von vorne. Gutenbergs Presse konnte etwa 250 einseitig bedruckte Seiten pro Stunde liefern. Sein Konzept blieb etwa dreihundert Jahre unver\u00e4ndert, bis es durch Maschinen aus Metall ersetzt wurde. Seit dem 19. Jahrhundert wurden die Pressen mit Dampf betrieben und konnten etwa 7.500 Seiten pro Stunde drucken.Der Nutzen, den die Druckerpresse f\u00fcr das Wissen der Menschheit hatte, kann nicht stark genug betont werden. Vor der Erfindung der Druckerpresse gab es nur wenige B\u00fccher und diese waren mehr wert als der Jahresverdienst eines durchschnittlichen Arbeiters. Die Bibliothek der Universit\u00e4t von Cambridge umfasste lediglich etwas \u00fcber 100 B\u00fccher, als die Druckerpresse erfunden wurde. In unglaublich kurzer Zeit konnten sich gew\u00f6hnliche B\u00fcrger Bibeln und andere B\u00fccher leisten. Innerhalb von 60 Jahren erschien der erste gedruckte Vorl\u00e4ufer moderner Zeitungen in England.",
+    "quote": "\"Es ist die Pflicht einer Zeitung, Nachrichten zu drucken und L\u00e4rm zu schlagen.\" - Chicago Times",
+    "tech_prereqs": [
+        {
+            "name": "Maschinen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+        },
+        {
+            "name": "Physik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/physics.json"
+        },
+        {
+            "name": "Ritterlichkeit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        },
+        {
+            "name": "Metallverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zoo",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/zoo.json"
+        },
+        {
+            "name": "Schiefer Turm von Pisa",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/leaning_tower_of_pisa.json"
+        },
+        {
+            "name": "Globe Theatre",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/globe_theatre.json"
+        }
+    ]
+}

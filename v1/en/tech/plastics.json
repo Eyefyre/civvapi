@@ -1,0 +1,49 @@
+{
+    "id": 57,
+    "name": "Plastics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/plastics.png",
+    "era": "Modern Era",
+    "cost": 4100,
+    "civilopedia_entry": "Plastic is a lightweight, transparent and tough material that does not conduct electricity well. Plastic comes in many different forms, some tougher, some more flexible, some with a greater or lesser tolerance to heat. Plastic can be molded, pressed or extruded into virtually any shape desired. It's found in every facet of modern life, used in everything from automobile bumpers to prosthetic limbs, from baby food jars to infantry weapons. It's one of the most crucial building-blocks of the 21st century.The first human-made plastic was invented by Englishman Alexander Parkes in 1855. The product, Parkesine, was made from cellulose (plant cell material), and was used as a replacement for ivory, which was becoming ever more difficult to find as the whale population was diminishing world-wide.The first entirely synthetic plastic was Bakelite, invented in 1909 by Belgian-American inventor Leo Hendrik Baekeland. Bakelite was cheap, strong, and durable. It was used to construct radios, telephones, utensil handles, piano keys, and billiard balls. Although quite tough, Bakelite is also quite brittle. It has been largely replaced by cheaper and more flexible plastics like polystyrene, PVC, nylon, and even more exotic variants created in the 20th century.Although relatively cheap at the moment, most plastic requires a lot of petrochemicals to manufacture. As that fuel becomes more expensive, so too will plastic. It is possible that some new miracle material will eventually supplant the ubiquitous plastic sometime in the future, but for now plastic is irreplaceable.",
+    "quote": "\"Ben, I want to say one word to you, just one word: plastics.\" - Buck Henry and Calder Willingham, The Graduate",
+    "tech_prereqs": [
+        {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radio.json"
+        },
+        {
+            "name": "Replaceable Parts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/penicillin.json"
+        },
+        {
+            "name": "Atomic Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Infantry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/infantry.json"
+        },
+        {
+            "name": "Pracinha",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/pracinha.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Research Lab",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/research_lab.json"
+        },
+        {
+            "name": "Cristo Redentor",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/cristo_redentor.json"
+        }
+    ]
+}

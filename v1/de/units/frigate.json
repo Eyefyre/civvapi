@@ -1,0 +1,23 @@
+{
+    "id": 15,
+    "name": "Fregatte",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/frigate.png",
+    "game_info": "M\u00e4chtige Marineeinheit der Renaissance, die f\u00fcr Hoheit auf See sorgt.",
+    "historical_info": "W\u00e4hrend des \"Zeitalters der Entdeckungen\" waren Fregatten Kriegsschiffe, die kleiner waren als \"Linienschiffe\" mit drei Decks und den Kern vieler Marinekampfeinheiten bildeten. Dennoch waren sie gro\u00df genug, um betr\u00e4chtliche Feuerkraft an Bord haben zu k\u00f6nnen. Fregatten waren dreimastige Schiffe, deren Kanonen auf einem einzigen Deck angebracht waren (Linienschiffe konnten zwei oder sogar drei Kanonendecks haben). Abh\u00e4ngig von ihrer Gr\u00f6\u00dfe konnten Fregatten 25-50 Kanonen tragen. Sie dienten haupts\u00e4chlich als Geleitschutz- und Patrouillenschiffe sowie zur Jagd auf Piraten. Im Krieg von 1812 setzten die USA sogenannte \"Superfregatten\" ein, die mit bis zu 90 Kanonen ausger\u00fcstet waren. Eines dieser Schiffe, die USS Constitution, existiert bis heute; sie ist die \u00e4lteste noch im Dienst stehende Fregatte.",
+    "strategy": "Die Fregatte ist die erste Marineeinheit nach der Karavelle. Sie ist in Sachen Fortbewegung, Kampf- und Fernkampfst\u00e4rke besser als die \u00e4ltere Einheit. Die Fregatte kann das Meer von allen Karavellen, Trieren und Barbareneinheiten befreien, die dort noch zu finden sind.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

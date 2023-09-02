@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "Elicottero da guerra|un Elicottero da guerra|dal tuo Elicottero da guerra|al tuo Elicottero da guerra|il tuo Elicottero da guerra|da un Elicottero da guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Unit\u00e0 specializzata nel combattimento contro Carri armati e unit\u00e0 corazzate moderne. Pu\u00f2 superare le montagne, ma subisce danno se vi termina il suo movimento.",
+    "historical_info": "Gli elicotteri sono stati utilizzati esclusivamente come veicoli da trasporto nella Seconda Guerra Mondiale e nella guerra di Corea. Durante la guerra in Vietnam l'esercito americano decise di creare un elicottero armato pesantemente e corazzato, da usare specificatamente in combattimento. Da quel periodo l'elicottero da guerra si \u00e8 evoluto fino a diventare una macchina destinata principalmente alla distruzione di carri armati. Volando vicinissimi al suolo, eseguendo rapide incursioni per sparare un colpo e ritornando a bassa quota prima che i carri nemici potessero rispondere, per un certo periodo gli elicotteri si sono dimostrati inarrestabili, sfuggendo a qualsiasi attacco non provenisse dal cielo. Le cose sono cambiate con l'avvento di nuovi missili leggeri terra-aria, come quelli usati dai mujaheddin contro gli elicotteri sovietici in Afghanistan. Oggi gli elicotteri da combattimento eseguono anche altri compiti, come il supporto aereo ravvicinato alla fanteria o il trasporto rapido di squadre di incursori, ma la loro missione primaria rimane la distruzione dei carri nemici.",
+    "strategy": "L'Elicottero da guerra \u00e8 una letale unit\u00e0 aerea che si comporta sotto quasi tutti gli aspetti come un'unit\u00e0 terrestre, tranne per il fatto che non pu\u00f2 catturare le citt\u00e0. Il suo movimento di 6 lo rende estremamente veloce, e a questo si aggiunge il fatto che pu\u00f2 muoversi su qualsiasi terreno (tra cui le montagne) come se fosse campo aperto. Per attraversare l'acqua, comunque, deve imbarcarsi. Gli Elicotteri da guerra ricevono un sostanziale bonus quando combattono contro i carri armati.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Computer|del Computer",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Tutte le caselle costano 1 PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Unit\u00e0 fluttuante",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Bonus contro Carri armati (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Non pu\u00f2 catturare le citt\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

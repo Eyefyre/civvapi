@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Pociski kierowane|Pocisk\u00f3w kierowanych|Pociskom kierowanym|Pociski kierowane",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "Tania jednostka s\u0142u\u017c\u0105ca do atakowania nieprzyjacielskich miast lub jednostek.",
+    "historical_info": "Wsp\u00f3\u0142czesny tw\u00f3rca pocisk\u00f3w kierowanych ma do swojej dyspozycji wiele technologii s\u0142u\u017c\u0105cych do namierzania cel\u00f3w. Niekt\u00f3re z nich s\u0105 w pe\u0142ni automatyczne i zmierzaj\u0105 do celu kierowane za pomoc\u0105 namiaru radarowego lub \u017ar\u00f3d\u0142a ciep\u0142a. Inne kieruj\u0105 si\u0119 na wi\u0105zk\u0119 laserow\u0105, kt\u00f3r\u0105 o\u015bwietlony zostaje cel. Jeszcze inne kierowane s\u0105 przez cz\u0142owieka za pomoc\u0105 radia lub przewodowo. Oczywi\u015bcie im bardziej \u201einteligentny\u201d wariant, tym dro\u017cszy. Rakiety kierowane potrafi\u0105 kosztowa\u0107 dziesi\u0105tki tysi\u0119cy dolar\u00f3w lub wi\u0119cej za sztuk\u0119. Armia zazwyczaj korzysta z tej broni z du\u017c\u0105 rozwag\u0105. W innym przypadku mog\u0142oby jej zabrakn\u0105\u0107 \u015brodk\u00f3w na inne cele np. na \u017cywno\u015b\u0107.",
+    "strategy": "Rakieta kierowana to pocisk, kt\u00f3ry ulega zniszczeniu po trafieniu w cel. Mo\u017cna umie\u015bci\u0107 j\u0105 w kontrolowanym przez gracza mie\u015bcie lub na pok\u0142adzie jego okr\u0119tu podwodnego lub kr\u0105\u017cownika rakietowego. Mog\u0105 przemieszcza\u0107 si\u0119 mi\u0119dzy bazami lub zaatakowa\u0107 nieprzyjacielsk\u0105 jednostk\u0105 albo miasto w odleg\u0142o\u015bci do 8 p\u00f3l. Wi\u0119cej informacji znajdziesz w zasadach opisuj\u0105cych pociski rakietowe.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistyka zaawansowana|Balistyki zaawansowanej|Balistyce zaawansowanej|Balistyk\u0119 zaawansowan\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unik (100)|Uniku (100)|Unikowi (100)|Unik (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/evasion_(100).json"
+        }
+    ]
+}

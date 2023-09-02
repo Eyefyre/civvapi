@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "Kompositbogensch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Klassische Fernkampfinfanterieeinheit",
+    "historical_info": "Der oft als raffiniertester Bogen angesehene Kompositbogen unterscheidet sich von den traditionellen Modellen durch die Schichten von Knochen, Horn oder einem anderen Material, die verklebt werden, um einen \u00e4u\u00dferst starken, kr\u00e4ftigen Bogen zu erschaffen. Man vermutet, dass der Kompositbogen seinen Ursprung irgendwann im 2. oder 1. Jahrtausend v. Chr. bei den Stammesnomaden in Asien hat.",
+    "strategy": "Der Kompositbogensch\u00fctze ist eine kraftvollere Version des Bogensch\u00fctzen. Als Fernkampfeinheit kann er merklichen Schaden bei anderen Einheiten bis zu zwei Gel\u00e4ndefelder entfernt anrichten, aber ist f\u00fcr Nahkampfangriffe anf\u00e4llig. Platziert Kompositbogensch\u00fctzen in den St\u00e4dten als Verteidigung und besch\u00fctzt sie mit Nahkampfeinheiten, wenn sie unterwegs sind.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Bauwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

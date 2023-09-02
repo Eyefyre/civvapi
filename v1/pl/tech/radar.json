@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar|Radaru|Radarowi|Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "Epoka atomu|Epoki atomu|Epoce atomu|Epok\u0119 atomu",
+    "cost": 5100,
+    "civilopedia_entry": "Radar to system wykrywania obiekt\u00f3w wykorzystuj\u0105cy fale elektromagnetyczne do odnajdowania odleg\u0142ych rzeczy, takich jak okr\u0119ty lub samoloty. Termin \u201eRADAR\u201d, ukuty w 1941 roku, to skr\u00f3t od \u201eRadio Detection And Ranging\u201d (wykrywanie oraz wyznaczanie odleg\u0142o\u015bci za pomoc\u0105 fal radiowych). W 1904 r. Christian Hulsmeyer wykry\u0142 okr\u0119t w g\u0119stej mgle. W tym samym roku dokona\u0142 modyfikacji, kt\u00f3re pozwoli\u0142y okre\u015bla\u0107 odleg\u0142o\u015b\u0107 do wykrytego obiektu.W sierpniu 1917 roku wynalazca Nikola Tesla zaprojektowa\u0142 pierwsze prymitywne radary umo\u017cliwiaj\u0105ce \u201eokre\u015blenie wzgl\u0119dnej pozycji lub kursu poruszaj\u0105cego si\u0119 obiektu, takiego jak okr\u0119t na morzu, pokonywanej przez niego odleg\u0142o\u015bci lub jego szybko\u015bci\u201d.Gdy zbli\u017ca\u0142a si\u0119 II wojna \u015bwiatowa, wszystkie uprzemys\u0142owione mocarstwa prowadzi\u0142y gor\u0105czkowe prace nad radarem. W chwili wybuchu wojny Brytyjczycy byli na czele tego wy\u015bcigu, posiadali system mog\u0105cy wykrywa\u0107 nadlatuj\u0105ce samoloty daleko od angielskich miast nara\u017conych na atak (bod\u017acem nap\u0119dzaj\u0105cym ich badania by\u0142a plotka m\u00f3wi\u0105ca, \u017ce Niemcy pracuj\u0105 nad zab\u00f3jczym promieniowaniem). Ich system by\u0142 \u015bci\u015ble tajny, w czasie wojny Anglicy twierdzili, \u017ce to ich samoloty rozpoznawcze wykrywa\u0142y nadlatuj\u0105ce niemieckie samoloty.Pod koniec wojny wszystkie kraje rozwini\u0119te unowocze\u015bni\u0142y technologi\u0119 radarow\u0105, a do po\u0142owy XX wieku wesz\u0142a ona do u\u017cytku tak\u017ce w sektorze cywilnym, g\u0142\u00f3wnie do kierowania ruchem powietrznym. W tej chwili radary s\u0105 tak powszechne, \u017ce w\u0142a\u015bciwie tylko samoloty stealth mog\u0105 wlecie\u0107 niezauwa\u017cone w przestrze\u0144 powietrzn\u0105 kraju uprzemys\u0142owionego.",
+    "quote": "\u201eWizjonerstwo to sztuka dostrzegania rzeczy niewidzialnych.\u201d \u2013 Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "Elektronika|Elektroniki|Elektronice|Elektronik\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electronics.json"
+        },
+        {
+            "name": "Balistyka|Balistyki|Balistyce|Balistyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Technika rakietowa|Techniki rakietowej|Technice rakietowej|Technik\u0119 rakietow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rocketry.json"
+        },
+        {
+            "name": "Komputery|Komputer\u00f3w|Komputerom|Komputery",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombowiec|Bombowca|Bombowcowi|Bombowca",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/bomber.json"
+        },
+        {
+            "name": "B17",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/b17.json"
+        },
+        {
+            "name": "My\u015bliwce|My\u015bliwc\u00f3w|My\u015bliwcom|My\u015bliwce",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/fighter.json"
+        },
+        {
+            "name": "Zera|Zer|Zerom|Zera",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/zero.json"
+        },
+        {
+            "name": "Spadochroniarze|Spadochroniarzy|Spadochroniarzom|Spadochroniarzy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Lotnisko|Lotniska|Lotnisku|Lotnisko|Lotniska|Lotnisk|Lotniskom|Lotniska",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/airport.json"
+        }
+    ]
+}

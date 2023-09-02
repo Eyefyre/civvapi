@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Workshop",
+    "game_info": "Allows Production to be moved from this city along trade routes inside your civilization.",
+    "strategy": "The Workshop speeds a city's Production.",
+    "historical_info": "A workshop is a building dedicated to constructing stuff. It would contain raw materials, tools, and the skilled labor to build whatever was needed. A pottery workshop would create pottery (unsurprisingly), while a carpentry workshop might construct doors, cabinets, floors - anything wooden. In Renaissance Italy, many artists worked in workshops, where a great painter might take credit for a painting that was in fact painted by his employees and students who had learned to accurately mimic his style, a practice which gives art collectors and historians headaches even today.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/workshop.png",
+    "prereq_tech": {
+        "name": "Metal Casting",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

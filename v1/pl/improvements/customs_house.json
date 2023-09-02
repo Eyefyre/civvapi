@@ -1,0 +1,68 @@
+{
+    "id": 18,
+    "name": "Urz\u0105d celny|Urz\u0119du celnego|Urz\u0119dowi celnemu|Urz\u0105d celny|Urz\u0119dy celne|Urz\u0119d\u00f3w celnych|Urz\u0119dom celnym|Urz\u0119dy celne",
+    "game_info": "Urz\u0105d celny to budynek rz\u0105dowy, gdzie zbierane s\u0105 podatki od importowanych i eksportowanych d\u00f3br. Gwarantuje on, \u017ce rz\u0105d dostanie swoj\u0105 dzia\u0142k\u0119 (lub \u201esprawiedliwy udzia\u0142\u201d) lub dochody z ka\u017cdego \u0142adunku przechodz\u0105cego przez port. Poniewa\u017c w gr\u0119 wchodzi du\u017ca suma pieni\u0119dzy, mamy do czynienia z nieograniczonymi mo\u017cliwo\u015bciami korupcji. W historii urz\u0119dnicy celni byli znani z tego, \u017ce ulegali pokusom.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/urz\u0105d_celny|urz\u0119du_celnego|urz\u0119dowi_celnemu|urz\u0105d_celny|urz\u0119dy_celne|urz\u0119d\u00f3w_celnych|urz\u0119dom_celnym|urz\u0119dy_celne.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+        },
+        {
+            "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Konie|Koni|Koniom|Konie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+        },
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+        },
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 4,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

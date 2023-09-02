@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lanciere a cavallo|un Lanciere a cavallo|dal tuo Lanciere a cavallo|al tuo Lanciere a cavallo|il tuo Lanciere a cavallo|da un Lanciere a cavallo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Unit\u00e0 di cavalleria specializzata nel combattimento contro unit\u00e0 a cavallo.",
+    "historical_info": "I lancieri costituivano il nerbo della cavalleria rinascimentale. In quell'epoca l'uso sempre pi\u00f9 frequente dei cannoni e delle altre armi da fuoco rendeva la velocit\u00e0 e la manovrabilit\u00e0 molto pi\u00f9 utili delle armature, che si stavano rivelando via via pi\u00f9 inefficaci contro i proiettili. I lancieri abbandonarono quindi le pesanti cotte di piastre dei cavalieri medievali, conservando al massimo il solo gabbione sul petto. Nonostante lo sviluppo tecnologico, una lancia impugnata da un cavaliere ben addestrato rimaneva un'arma terrificante. Ancora ai tempi di Napoleone, i francesi ritenevano che per la cavalleria la lancia fosse pi\u00f9 efficace della spada. Nel XIX secolo, naturalmente, entrambe le armi furono soppiantate dalla carabina.",
+    "strategy": "Il Lanciere a cavallo \u00e8 l'unit\u00e0 rinascimentale che si pone tra il Cavaliere medievale e la successiva Cavalleria. \u00c8 pi\u00f9 veloce e potente del Cavaliere, tanto da poter spazzare via dalla mappa quelle unit\u00e0 che solo poco tempo prima erano cos\u00ec temute. I Lancieri a cavallo sono addirittura in grado di sopravvivere a uno scontro con le potenti unit\u00e0 di Cavalleria, che appaiono solo successivamente.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgia|della Metallurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formazione I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+        }
+    ]
+}

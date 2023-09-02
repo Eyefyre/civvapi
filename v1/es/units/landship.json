@@ -1,0 +1,27 @@
+{
+    "id": 116,
+    "name": "Carro de combate|Carros de combate",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landship.png",
+    "game_info": "Esta poderosa unidad del juego tard\u00edo, la primera de su clase, puede moverse despu\u00e9s de atacar.",
+    "historical_info": "El tanque, ideado por los ingenieros brit\u00e1nicos de la I Guerra Mundial como soluci\u00f3n a las constantes situaciones de estancamiento que provocaban la proliferaci\u00f3n de la guerra de trincheras, se convirti\u00f3 en un componente fundamental de la guerra terrestre. Aunque los primeros dise\u00f1os de tanques demostraron ser demasiado pesados y voluminosos, ambos bandos experimentaron con diversos conceptos de tanques durante la guerra. La fiabilidad, el peso y la maniobrabilidad eran los principales obst\u00e1culos que intentaron superar con el m\u00e9todo de ensayo y error.",
+    "strategy": "El Carro de combate es una unidad terrestre poderosa y m\u00f3vil. Puede moverse despu\u00e9s del combate, lo que le permite abrir enormes agujeros en las l\u00edneas enemigas y ocupar los hex\u00e1gonos que queden vac\u00edos.",
+    "movement": 4,
+    "cost": {
+        "production": 350,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combusti\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

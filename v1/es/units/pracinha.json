@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinha|Pracinhas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Unidad de infanter\u00eda de la \u00c9poca Moderna que gana puntos hacia las Edades de Oro al derrotar enemigos. Solo puede formarla Brasil.",
+    "historical_info": "Despu\u00e9s de que los submarinos alemanes hundieran 18 nav\u00edos mercantes en el Atl\u00e1ntico, Brasil declar\u00f3 la guerra contra la Alemania nazi y la Italia fascista en diciembre de 1942, con lo que se uni\u00f3 a los aliados occidentales. A inicios de 1944, 27.500 hombres y mujeres se entrenaron para formar la Fuerza Expedicionaria Brasile\u00f1a, conocida en su patria como los \"pracinhas brasileiros\". El pueblo brasile\u00f1o sigui\u00f3 muy de cerca sus logros en combate, orgullosos de que su pa\u00eds fuera el \u00fanico de toda Am\u00e9rica del Sur en tener un papel activo en Europa. Aunque peor armados que sus hom\u00f3logos estadounidenses y brit\u00e1nicos, los regimientos brasile\u00f1os lucharon con un entusiasmo y ferocidad que les ganaron alabanzas y honores, pero sufrieron casi 1.000 bajas en la campa\u00f1a.",
+    "strategy": "Esta unidad de cuerpo a cuerpo gana puntos para el pr\u00f3ximo Carnaval para Brasil cuando derrota a un enemigo. \u00dasala para librar guerras en el extranjero y conseguir una Victoria cultural con Brasil.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Pl\u00e1stico",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Edad de Oro por victorias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

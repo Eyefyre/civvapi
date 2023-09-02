@@ -1,0 +1,20 @@
+{
+    "id": 48,
+    "name": "Tradition militaire",
+    "game_info": "Tradition militaireUnit\u00e9s militaires\u00a0: EXP gagn\u00e9e en combat +50%.",
+    "historical_info": "La tradition militaire est une doctrine honorant et roman\u00e7ant les services rendus \u00e0 l'arm\u00e9e nationale. Les soldats et les v\u00e9t\u00e9rans sont v\u00e9n\u00e9r\u00e9s, alors que ceux qui n'ont pas servi leur pays \u00e0 la guerre sont consid\u00e9r\u00e9s comme inf\u00e9rieurs, voire comme d\u00e9shonorant pour la patrie. L'Isra\u00ebl moderne poss\u00e8de une tradition militaire forte, comme ce fut en leur temps le cas de l'Angleterre victorienne et du Sud des \u00c9tats-Unis avant la guerre de S\u00e9cession.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/tradition_militaire.png",
+    "required_policies": [
+        {
+            "name": "Code du guerrier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/warrior_code.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Honneur",
+        "game_info": "L'honneur am\u00e9liore de diverses fa\u00e7ons l'efficacit\u00e9 de l'arm\u00e9e. Adopter l'honneur octroie un bonus de combat de 33% contre les Barbares, et vous recevez une notification chaque fois que l'un de leurs campements appara\u00eet pr\u00e8s de votre territoire. Votre empire re\u00e7oit de la culture \u00e0 chaque barbare \u00e9limin\u00e9. L'honneur d\u00e9bloque la statue de Zeus. En adoptant toutes les doctrines de l'honneur, vous recevrez de l' or chaque fois que vous \u00e9liminerez une unit\u00e9 ennemie. Permet \u00e9galement d'acheter des g\u00e9n\u00e9raux illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": null,
+        "historical_info": "Dans une soci\u00e9t\u00e9 \"honorable\", le statut des citoyens est bas\u00e9 sur le jugement qu'a la communaut\u00e9 de leurs qualit\u00e9s personnelles. Les qualit\u00e9s traditionnellement consid\u00e9r\u00e9es comme honorables incluent\u00a0: l'all\u00e9geance, l'honn\u00eatet\u00e9, l'int\u00e9grit\u00e9 et le courage. Dans bon nombre de ces soci\u00e9t\u00e9s, on attend des hommes qu'ils \"d\u00e9fendent leur honneur\" jusqu'\u00e0 la mort, en cela que perdre son honneur est consid\u00e9r\u00e9e comme pire encore que de perdre la vie."
+    }
+}

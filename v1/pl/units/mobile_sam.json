@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "Wyrzutnie SAM|Wyrzutni SAM|Wyrzutniom SAM|Wyrzutnie SAM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "Przechwytuj\u0105 nieprzyjacielskie samoloty usi\u0142uj\u0105ce zbombardowa\u0107 pobliskie jednostki.",
+    "historical_info": "W zwi\u0105zku z dynamicznym rozwojem \u015bmig\u0142owc\u00f3w i innych jednostek lataj\u0105cych, pojawi\u0142a si\u0119 konieczno\u015b\u0107 udoskonalenia \u015brodk\u00f3w obrony przed atakami z powietrza. Jednym z najwi\u0119kszych osi\u0105gni\u0119\u0107 w tej dziedzinie s\u0105 samobie\u017cne baterie przeciwlotnicze. S\u0105 szybkie, lekkie oraz posiadaj\u0105 rada, dzi\u0119ki kt\u00f3remu s\u0105 w stanie wykrywa\u0107, namierza\u0107 i niszczy\u0107 wiele cel\u00f3w powietrznych jednocze\u015bnie. Korzystaj\u0105 przy tym z wysoce wybuchowej amunicji, kt\u00f3ra nawet je\u017celi nie zniszczy celu, z wysokim prawdopodobie\u0144stwem go uszkodzi. Mimo opracowania nowych system\u00f3w myl\u0105cych rakiety ziemia-powietrzne oraz pojawienia si\u0119 samolot\u00f3w stealth, samobie\u017cne wyrzutnie SAM wci\u0105\u017c stanowi\u0105 ogromne zagro\u017cenie dla ka\u017cdej jednostki powietrznej.",
+    "strategy": "Samobie\u017cne jednostki SAM (ziemia-powietrze) zapewniaj\u0105 nacieraj\u0105cej armii obron\u0119 przeciwlotnicz\u0105. Samobie\u017cne jednostki SAM mog\u0105 przechwytywa\u0107 i zestrzeliwa\u0107 nieprzyjacielskie samoloty bombarduj\u0105ce cele w promieniu 2 p\u00f3l (ale tylko jedn\u0105 jednostk\u0119 na tur\u0119). Te jednostki s\u0105 podatne na ataki innych formacji ni\u017c lotnictwo i powinny by\u0107 chronione przez piechot\u0119 lub czo\u0142gi.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Technika rakietowa|Techniki rakietowej|Technice rakietowej|Technik\u0119 rakietow\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Premia przeciwko samolotom i \u015bmig\u0142owcom (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "id": 6,
+    "name": "Segeln",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/sailing.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Segeln ist die Kunst, die Kraft des Windes zur Fortbewegung eines Bootes auf dem Wasser zu nutzen. Um beim Segeln Erfolg zu haben, ben\u00f6tigt man eine Vielzahl von F\u00e4higkeiten. Erstens muss die Zivilisation f\u00e4hig sein, ein seetaugliches Gef\u00e4hrt zu konstruieren. Zweitens muss sie in der Lage sein, stabile Tuchware (Segel) zu produzieren, die den Wind einfangen und seine Energie auf den Schiffsrumpf \u00fcbertragen kann. Drittens muss sie verschiedenste Seile, Klampen und Rollen herstellen k\u00f6nnen, mit denen die Segel kontrolliert werden k\u00f6nnen. Und schlussendlich muss sie f\u00e4hig sein, das Schiff erfolgreich von einem Punkt zum n\u00e4chsten zu steuern, ohne sich zu verfahren, zu kentern oder andere Missgeschicke zu erleben.Die fr\u00fchesten Hinweise auf Wasserfahrzeuge k\u00f6nnen in der \u00e4gyptischen Kunst um 4000 v. Chr. gefunden werden. Als an Fl\u00fcssen lebende Zivilisation waren die \u00c4gypter ausgezeichnete Seeleute. Viele ihrer Boote verf\u00fcgten sowohl \u00fcber Segel als auch \u00fcber Ruder. Diese wurden eingesetzt, wenn der Wind nicht stark genug oder aus einer unvorteilhaften Richtung wehte.Ab 3000 n. Chr. bereisten die \u00c4gypter das Mittelmeer und wagten die lange Reise \u00fcber das offene Meer nach Kreta und sp\u00e4ter nach Ph\u00f6nizien. Die \u00c4gypter segelten auch die K\u00fcste Afrikas entlang und suchten nach Wissen, Handel und Sch\u00e4tzen.Die fr\u00fchesten Kriegsschiffe - Biremen, Trieren und \u00e4hnliche - wurden von Rudern und Segeln angetrieben und verf\u00fcgten am Bug \u00fcber Rammen oder Dornen. W\u00e4hrend des Kampfes versuchte der Steuermann, das gegnerische Schiff mit hoher Geschwindigkeit zu rammen und gleichzeitig auszuweichen, wenn der Gegner dasselbe versuchte. Einige Schiffe waren mit Bogensch\u00fctzen bemannt, die aus gr\u00f6\u00dferer Entfernung auf den Gegner feuern konnten, w\u00e4hrend andere Soldaten an Bord hatten. Jene Schiffe versuchten, gegnerische Schiffe l\u00e4ngsseits zu bringen, sodass die Soldaten dieses Schiff entern konnten.Die Griechen - besonders die Athener und die Inselkolonien - waren Meister der Seekriegsf\u00fchrung. Einer der Gr\u00fcnde, warum sie ihren viel gr\u00f6\u00dferen und m\u00e4chtigeren Nachbarn Persien besiegen konnten, war die Tatsache, dass die athenische Flotte das \u00c4g\u00e4ische Meer kontrollierte und so st\u00e4ndig die immer l\u00e4nger werdende Versorgungskette der Perser bedrohte.",
+    "quote": "\"Wer das Meer beherrscht, beherrscht alles.\" - Themistokles",
+    "tech_prereqs": [
+        {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Optik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/optics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arbeitsboot",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/work_boat.json"
+        },
+        {
+            "name": "Triere",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/trireme.json"
+        },
+        {
+            "name": "Dromone",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/dromon.json"
+        },
+        {
+            "name": "Quinquereme",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/quinquereme.json"
+        },
+        {
+            "name": "Frachter",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/cargo_ship.json"
+        }
+    ],
+    "building_unlocks": []
+}

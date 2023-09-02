@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Hoplite",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Ancient Era Unit which specializes in defeating Mounted Units. Only the Greeks may build it. This Unit has a higher Combat Strength than the Spearman which it replaces.",
+    "historical_info": "The Greeks mastered the art of spear warfare, creating long, deadly-sharp weapons that, in the hands of highly-trained hoplite soldiers moving in phalanx formation, were nearly impossible for standard infantry or horsemen of the day to defeat. A soldier facing a Greek phalanx had to contend with not only the enemy he faced, but also with the spears of the two or three soldiers behind that enemy. The hoplite remained somewhat vulnerable to archery fire, of course, and it was nearly impossible to maintain a phalanx's formation in difficult terrain, but in flat, open terrain, the hoplites were extremely tough opponents.",
+    "strategy": "The Hoplite is the Greek unique unit, replacing the Spearman. It is far more powerful than the Spearman. The Hoplite is deadly against mounted opponents.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Luftfahrt",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "Moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Im Verlauf der Geschichte hat der Mensch davon getr\u00e4umt, den Himmel zu erobern. Leonardo da Vincis Visionen vom Fliegen sind nat\u00fcrlich allseits bekannt und es gab zudem viele andere nicht so ber\u00fchmte Vision\u00e4re. Die fr\u00fchen Theoretiker hielten sich an die nat\u00fcrlichen Meister der L\u00fcfte, die V\u00f6gel, und sie entwickelten Maschinen, welche die Form ihrer Fl\u00fcgel und ihren Fl\u00fcgelschlag nachahmten (Ornithopter). Aber die fr\u00fchen Entwickler hatten nicht die Materialien, Motoren und das Wissen \u00fcber Aerodynamik, um ihre Visionen zum Leben zu erwecken.Die Erforschung der Aerodynamik wurde im 16., 17., 18. und 19. Jahrhundert durch brillante Wissenschaftler wie da Vinci, Galileo, Huygens, Newton, Bernoulli, Euler und Smeaton vorangetrieben. 1804 lie\u00df der Engl\u00e4nder George Cayley ein Starrfl\u00fcgler-Gleiter-Modell fliegen und 1853 baute er ein Modell in Originalgr\u00f6\u00dfe, das seinen (widerwilligen) Kutscher auf den allerersten bemannten Gleiterflug trug.1902 konstruierten die Br\u00fcder Wright ihren eigenen Gleiter mit einer verbesserten Fl\u00fcgelform. Da sie keinen erfahrenen Hersteller fanden, der ihnen einen leichten mit Benzin betriebenen Motor nach ihren Vorstellungen bauen konnte, konzipierten und bauten sie ihren eigenen. Am 17. Dezember 1903 flog der Wright-Flieger viermal \u00fcber Entfernungen von bis zu 260 Metern. In den Jahren nach dem Durchbruch der Br\u00fcder Wright gab es gro\u00dfe und schnelle Fortschritte in der Technologie des Fliegens. 1908 flog der Amerikaner Glenn Hammond Curtiss \u00fcber einen Kilometer und 1909 flog der Franzose Louis Bl\u00e9riot \u00fcber den \u00c4rmelkanal.Im Ersten Weltkrieg gab es weitere Verbesserungen der Flugtechnologie, besonders bei der Waffenforschung in der Luft mit dem Bau von J\u00e4gern und Bombern. In den 20er Jahren flogen Piloten regelm\u00e4\u00dfig \u00fcber die Kontinente und 1927 gelang Charles Lindbergh der erste Alleinflug ohne Zwischenlandung \u00fcber den Atlantik. Der Zweite Weltkrieg brachte enorme Verbesserungen in den Bereichen Geschwindigkeit, Reichweite, Lebensdauer und der Kampfst\u00e4rke eines Flugzeugs und gegen Ende des Krieges waren D\u00fcsenflugzeuge, Kontinent \u00fcbergreifende H\u00f6hen-Bomber und Hubschrauber im Einsatz.Heutzutage geh\u00f6ren Reisen mit dem Flugzeug zum Alltag; eine Reise von den Vereinigten Staaten nach China - vor nur 75 Jahren ein unm\u00f6glicher Traum - ist nun haupts\u00e4chlich bemerkenswert durch seine Langweiligkeit. Und obwohl die Luft-Terroranschl\u00e4ge vom 11. September 2001 Flugreisen ein wenig gef\u00e4hrlicher gemacht haben, steigen Millionen von Menschen auf der ganzen Welt jeden Tag in den Himmel auf. Die Luftfahrt wird auch in Zukunft zum Leben dazugeh\u00f6ren.",
+    "quote": "\"Die Luftfahrt war weder Industrie noch Wissenschaft. Sie war ein Wunder.\" - Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+        },
+        {
+            "name": "Elektronik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Dreidecker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/triplane.json"
+        },
+        {
+            "name": "Weltkriegs-Bomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Prora",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/prora.json"
+        }
+    ]
+}

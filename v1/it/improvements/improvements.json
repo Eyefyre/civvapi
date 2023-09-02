@@ -1,0 +1,1340 @@
+[
+    {
+        "id": 1,
+        "name": "Rovine cittadine|delle Rovine cittadine|delle Rovine cittadine",
+        "game_info": "Una Rovina cittadina \u00e8 quanto resta di una citt\u00e0 distrutta nel corso del gioco. In s\u00e9 non hanno particolare valore, ma spesso si trovano sopra ad altre risorse preziose. Un Lavoratore pu\u00f2 ripulire una Rovina cittadina o semplicemente sostituirla con un altro miglioramento.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/rovine_cittadine|delle_rovine_cittadine|delle_rovine_cittadine.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/city_ruins.json"
+    },
+    {
+        "id": 2,
+        "name": "Accampamento|un Accampamento|un Accampamento",
+        "game_info": "Un Accampamento \u00e8 l'insediamento temporaneo di un gruppo di barbari che vogliono solo rovesciare e distruggere la tua civilt\u00e0. Queste perpetue spine nel fianco possono emettere un flusso ininterrotto di barbari inferociti il cui unico obiettivo \u00e8 mettere a ferro e fuoco le tue citt\u00e0, saccheggiare le tue terre e sfogare la propria lascivia sulle tue donne. Gli Accampamenti posti vicino alle tue citt\u00e0 devono essere distrutti senza indugio. Quelli che si trovano vicini alle civilt\u00e0 rivali possono essere lasciati stare in modo che aggrediscano i tuoi nemici, se questo \u00e8 il tuo stile...",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/accampamento|un_accampamento|un_accampamento.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Giungla|la giungla|una giungla",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
+            },
+            {
+                "name": "Foresta|la foresta|una foresta",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/encampment.json"
+    },
+    {
+        "id": 3,
+        "name": "Antiche rovine|delle Antiche rovine|delle Antiche rovine",
+        "game_info": "Le Antiche rovine sono i resti di civilt\u00e0 scomparse da lungo tempo. Sono piene di preziosi segreti - oro, mappe, tecnologie perdute, talvolta addirittura dei sopravvissuti - che aspettano solo di essere scoperti da un intrepido esploratore. Una ricca ricompensa attende chi entrer\u00e0 per primo in un'Antica rovina!",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/antiche_rovine|delle_antiche_rovine|delle_antiche_rovine.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Giungla|la giungla|una giungla",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
+            },
+            {
+                "name": "Foresta|la foresta|una foresta",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/ancient_ruins.json"
+    },
+    {
+        "id": 4,
+        "name": "Fattoria|una Fattoria|una Fattoria",
+        "game_info": "La coltivazione costituisce una delle pi\u00f9 antiche e importanti attivit\u00e0 umane e ha permesso all'uomo di insediarsi stabilmente in un luogo senza esaurirne le risorse. \u00c8 possibile costruire fattorie nella maggior parte delle caselle per incrementarne la produzione di cibo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fattoria|una_fattoria|una_fattoria.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Frumento",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/wheat.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Agricoltura|dell'Agricoltura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/farm.json"
+    },
+    {
+        "id": 5,
+        "name": "Miniera|una Miniera|una Miniera",
+        "game_info": "Le miniere sono tra le pi\u00f9 importanti migliorie al territorio in Civilization V. Non solo aumentano la produttivit\u00e0 di un esagono - con la conseguenza di velocizzare la costruzione di unit\u00e0, edifici e meraviglie - ma forniscono anche accesso ad alcune risorse fondamentali come ferro, carbone e uranio.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/miniera|una_miniera|una_miniera.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Collina",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/hill.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            },
+            {
+                "name": "Gemme",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+            },
+            {
+                "name": "Oro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gold.json"
+            },
+            {
+                "name": "Argento",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silver.json"
+            },
+            {
+                "name": "Rame",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+            },
+            {
+                "name": "Sale",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/salt.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Estrazione mineraria|dell'Estrazione mineraria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mining.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+    },
+    {
+        "id": 6,
+        "name": "Cava|una Cava|una Cava",
+        "game_info": "Nell'uso comune, una cava \u00e8 un sito da cui si estrae qualsiasi tipo di pietra, sabbia o ghiaia. In Civilization V le Cave aumentano la produzione se costruite sulla risorsa Pietra e permettono di accedere alla risorsa di lusso Marmo, un materiale di qualit\u00e0 usato per la costruzione di edifici e opere d'arte.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/cava|una_cava|una_cava.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Marmo",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/marble.json"
+            },
+            {
+                "name": "Pietra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/stone.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Muratura|della Muratura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/masonry.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/quarry.json"
+    },
+    {
+        "id": 7,
+        "name": "Base commerciale|una Base commerciale|una Base commerciale",
+        "game_info": "Le basi commerciali sono avamposti in cui i cacciatori e i trapper possono vendere i frutti del loro lavoro in cambio di cibo, armi, whisky, oro e tutti gli altri prodotti della gente civilizzata. Le basi commerciali possono generare molta ricchezza.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/base_commerciale|una_base_commerciale|una_base_commerciale.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Gilde|delle Gilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/trading_post.json"
+    },
+    {
+        "id": 8,
+        "name": "Segheria|una Segheria|una Segheria",
+        "game_info": "La segheria permette di incrementare la produttivit\u00e0 degli esagoni con foreste.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/segheria|una_segheria|una_segheria.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Foresta|la foresta|una foresta",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/lumber_mill.json"
+    },
+    {
+        "id": 9,
+        "name": "Pascolo|un Pascolo|un Pascolo",
+        "game_info": "Il pascolo \u00e8 una sezione recintata di campi aperti piantata a erba e adibita al pascolo di animali come cavalli e bovini.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pascolo|un_pascolo|un_pascolo.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Bestiame",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cattle.json"
+            },
+            {
+                "name": "Pecore",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sheep.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Allevamento di animali|dell'Allevamento di animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/pasture.json"
+    },
+    {
+        "id": 10,
+        "name": "Pescherecci|dei Pescherecci|dei Pescherecci",
+        "game_info": "I pescherecci consentono a una civilt\u00e0 di sfruttare le preziose risorse costituite da granchi, pesce, balene e perle. Per costruire un Peschereccio devi prima creare una Chiatta in una citt\u00e0 sulla costa (dopo che la tua civilt\u00e0 ha appreso la tecnologia necessaria). Costruire un Peschereccio consuma la Chiatta.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pescherecci|dei_pescherecci|dei_pescherecci.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Pesce",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/fish.json"
+            },
+            {
+                "name": "Balene",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/whales.json"
+            },
+            {
+                "name": "Perle",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/pearls.json"
+            },
+            {
+                "name": "Granchi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/crab.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Vela|della Vela",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/fishing_boats.json"
+    },
+    {
+        "id": 11,
+        "name": "Piantagione|una Piantagione|una Piantagione",
+        "game_info": "Una piantagione non \u00e8 altro che un grande complesso agricolo. In genere il termine si applica a grandi possedimenti situati in zone tropicali o semi-tropicali, in particolare quelli in cui viene coltivato un prodotto destinato all'esportazione e non al consumo locale. La parola ha acquistato una connotazione negativa perch\u00e9 solitamente \u00e8 associata alla schiavit\u00f9 negli Stati Uniti e nei Caraibi, ma non c'\u00e8 nulla di intrinsecamente malvagio in una piantagione ben amministrata che impiega liberi cittadini.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/piantagione|una_piantagione|una_piantagione.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Banane",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/bananas.json"
+            },
+            {
+                "name": "Tinture",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/dyes.json"
+            },
+            {
+                "name": "Seta",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silk.json"
+            },
+            {
+                "name": "Spezie",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/spices.json"
+            },
+            {
+                "name": "Zucchero",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sugar.json"
+            },
+            {
+                "name": "Cotone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cotton.json"
+            },
+            {
+                "name": "Vino",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/wine.json"
+            },
+            {
+                "name": "Incenso",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/incense.json"
+            },
+            {
+                "name": "Agrumi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/citrus.json"
+            },
+            {
+                "name": "Cacao|del Cacao|del Cacao",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cocoa.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Calendario|del Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/calendar.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/plantation.json"
+    },
+    {
+        "id": 12,
+        "name": "Campo|un Campo|un Campo",
+        "game_info": "Cacciare la selvaggina fu uno dei primi metodi adottati dagli uomini dell'antichit\u00e0 per reperire risorse. I campi da caccia permettono di accedere alle risorse Cervi, Pellicce, Tartufi e Avorio.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campo|un_campo|un_campo.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Avorio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/ivory.json"
+            },
+            {
+                "name": "Pellicce",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/furs.json"
+            },
+            {
+                "name": "Cervi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/deer.json"
+            },
+            {
+                "name": "Tartufi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+            },
+            {
+                "name": "Bisonti|dei Bisonti|dei Bisonti",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/bison.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Trappole per animali|delle Trappole per animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/trapping.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/camp.json"
+    },
+    {
+        "id": 13,
+        "name": "Pozzo petrolifero|un Pozzo petrolifero|un Pozzo petrolifero",
+        "game_info": "Il pozzo ha la stessa funzione di una piattaforma petrolifera, ma si pu\u00f2 costruire solo sulla terraferma. Anch'esso \u00e8 disponibile a partita avanzata e d\u00e0 accesso all'importantissima risorsa petrolio.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pozzo_petrolifero|un_pozzo_petrolifero|un_pozzo_petrolifero.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Biologia|della Biologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/biology.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/oil_well.json"
+    },
+    {
+        "id": 14,
+        "name": "Piattaforma petrolifera|una Piattaforma petrolifera|una Piattaforma petrolifera",
+        "game_info": "La piattaforma petrolifera \u00e8 un importante miglioramento che compare nelle fasi avanzate della partita dando accesso alla preziosa risorsa petrolio anche in mare (sugli esagoni terrestri i lavoratori costruiscono i pozzi). Con la costruzione delle piattaforme petrolifere, le chiatte si consumano.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/piattaforma_petrolifera|una_piattaforma_petrolifera|una_piattaforma_petrolifera.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Refrigerazione|della Refrigereazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/refrigeration.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/offshore_platform.json"
+    },
+    {
+        "id": 15,
+        "name": "Forte|un Forte|un Forte",
+        "game_info": "Il Forte \u00e8 un miglioramento speciale che non aumenta la resa di una casella e non d\u00e0 accesso a una risorsa. Piuttosto, le unit\u00e0 stanziate in un Forte ricevono un bonus di +50% alla forza difensiva. I Forti, tuttavia, non danno alcun bonus alle unit\u00e0 che si trovano in territorio nemico.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/forte|un_forte|un_forte.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Ingegneria|dell'Ingegneria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/fort.json"
+    },
+    {
+        "id": 16,
+        "name": "Punto di riferimento|un Punto di riferimento|un Punto di riferimento",
+        "game_info": "Un Punto di riferimento \u00e8 una struttura, un manufatto, un'opera d'arte o una bellezza naturale che attira frotte di visitatori con la sua magnificenza. La Colonna di Nelson, a Londra, \u00e8 un esempio, cos\u00ec come il Monte Rushmore negli Stati Uniti. Tuttavia, non tutti gli oggetti notevoli si qualificano come punti di riferimento: la Pi\u00f9 Grande Palla di Spago del Mondo non potrebbe mai aspirare a un simile titolo (per quanto meriti certamente una visita). I Punti di riferimento forniscono +1 Cultura per ogni epoca aggiuntiva trascorsa da quella originale del Manufatto intorno a cui sono costruiti.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/punto_di_riferimento|un_punto_di_riferimento|un_punto_di_riferimento.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/landmark.json"
+    },
+    {
+        "id": 17,
+        "name": "Accademia|un'Accademia|un'Accademia",
+        "game_info": "Un'accademia \u00e8 un istituto in cui i giovani possono ricevere un'istruzione secondaria (cio\u00e8 pre-universitaria) avanzata. Ci sono accademie di tutti i tipi: militari, religiose, governative e via dicendo. Alcune sono private, aperte solo ai figli dei ricchi e potenti, mentre altre accettano tutti i bambini che superano i loro severi requisiti. Una delle pi\u00f9 famose accademie del mondo \u00e8 Eton College, in Inghilterra, che dal 1440 accoglie i ragazzi pi\u00f9 brillanti dai 13 ai 18 anni.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/accademia|un'accademia|un'accademia.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 8,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+    },
+    {
+        "id": 18,
+        "name": "Dogana|una Dogana|una Dogana",
+        "game_info": "Una dogana \u00e8 un edificio governativo i cui si pagano le tasse sui beni in entrata e in uscita da una nazione. La dogana assicura che il governo ottenga una parte di tutti i profitti ottenuti facendo transitare merci attraverso il confine. Data la quantit\u00e0 di denaro coinvolta, c'\u00e8 sempre la possibilit\u00e0 che si verifichino episodi di corruzione. Nel corso della storia spesso gli ufficiali preposti alle ispezioni doganali non si sono mostrati particolarmente integerrimi.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/dogana|una_dogana|una_dogana.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 4,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+    },
+    {
+        "id": 19,
+        "name": "Manifattura|una Manifattura|una Manifattura",
+        "game_info": "Una Manifattura \u00e8 un complesso di uno o pi\u00f9 edifici dedicati alla costruzione di oggetti. Gli edifici possono includere fonderie, fabbriche, squadre di assemblaggio eccetera, e solitamente lavorano insieme sulla stessa linea di produzione: cos\u00ec la fonderia potrebbe creare l'acciaio che la fabbrica riduce in fogli, successivamente usati per fare lattine, e cos\u00ec via. Una Manifattura ben organizzata pu\u00f2 essere incredibilmente produttiva.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/manifattura|una_manifattura|una_manifattura.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 4,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+    },
+    {
+        "id": 20,
+        "name": "Cittadella|una Cittadella|una Cittadella",
+        "game_info": "Una Cittadella \u00e8 una potente fortificazione che pu\u00f2 essere costruita solo da un Grande Generale, di solito vicino a una citt\u00e0 o in una casella particolarmente difendibile. L'Acropoli di Atene, in Grecia, \u00e8 un esempio di Cittadella antica. Strutture simili erano quasi impossibili da conquistare con un assalto diretto e, prima di cadere, potevano sopportare un assedio anche prolungato. Puoi costruire una Cittadella in una casella qualsiasi all'interno o immediatamente adiacente al tuo territorio. Al momento della costruzione i tuoi confini culturali si espanderanno, circondando la Cittadella su tutti i lati nel raggio di un esagono. Se i nuovi confini comprendono caselle che appartengono gi\u00e0 a un'altra civilt\u00e0, subirai conseguenze a livello diplomatico negative. Le unit\u00e0 stanziate in una Cittadella ricevono un bonus di +100% alla forza difensiva. Inoltre, ogni unit\u00e0 nemica che termina il suo turno vicino alla Cittadella subisce 30 danni (il danno non si accumula in presenza di pi\u00f9 Cittadelle).",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/cittadella|una_cittadella|una_cittadella.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+    },
+    {
+        "id": 21,
+        "name": "Terrazzamento|un Terrazzamento|un Terrazzamento",
+        "game_info": "L'uso del terrazzamento si \u00e8 sviluppato simultaneamente in diverse aree montagnose in tutto il mondo, tra cui Bali, le Filippine, la Cina e il Per\u00f9. Questi campi lunghi e sottili sono letteralmente tagliati nel fianco di colline e montagne per ricavare terra coltivabile laddove molto spesso non ce n'era affatto. La configurazione a scalini impedisce che l'acqua di irrigazione scorra via. Gli Inca in particolare sono stati maestri della coltivazione a terrazze, sviluppando la costruzione delle mura a secco per puntellarle. Dopo aver dato forma alle terrazze, gli Inca costruivano sistemi di canali e acquedotti per rifornirle costantemente d'acqua, incrementando nettamente la fertilit\u00e0 dei campi. Le tecniche antiche degli Inca ebbero un tale successo che i contadini del Per\u00f9 moderno le utilizzano ancora nelle loro fattorie.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/terrazzamento|un_terrazzamento|un_terrazzamento.png",
+        "nearby_mountain_bonus": {
+            "food": 1
+        },
+        "can_be_built_on": [
+            {
+                "name": "Collina",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/hill.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        },
+        "required_civ": {
+            "name": "The Inca",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/the_inca.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/terrace_farm.json"
+    },
+    {
+        "id": 22,
+        "name": "Moai",
+        "game_info": "Pi\u00f9 noti come \"statue dell'Isola di Pasqua\", i Moai sono grandi figure umanoidi, per lo pi\u00f9 ricavate da una roccia vulcanica simile al tufo. Sull'isola se ne contano ben 887; secondo gli studi sono stati costruiti tra il 1250 e il 1500 d.C. Poco meno della met\u00e0 si trovano ancora nelle cave originali, mentre gli altri sono stati trasportati e dislocati lungo tutta la costa dell'isola. Oggi si ritiene che i Moai, facilmente riconoscibili dalle grandi teste e dai caratteristici lineamenti allungati, fossero rappresentazioni di singoli antenati e condottieri potenti.La maggior parte degli studiosi concorda sulle motivazioni che hanno portato gli indigeni a scolpire le statue, ma il metodo utilizzato per trasportarle nella loro posizione attuale resta un mistero. Ognuna, infatti, pesa dalle 9 alle 86 tonnellate: lo spostamento dalla cava al luogo finale \u00e8 stata un'incredibile impresa di ingegneria antica.Nel 1994 i Moai sono stati ufficialmente riconosciuti dall'UNESCO come patrimonio dell'umanit\u00e0.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/moai.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        },
+        "required_civ": {
+            "name": "Polynesia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/polynesia.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/moai.json"
+    },
+    {
+        "id": 23,
+        "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+        "game_info": "I luoghi santi sono siti di grande importanza religiosa, ritenuti consacrati agli d\u00e8i, ai profeti o alle tradizioni di una particolare religione. Spesso destinazione di pellegrinaggi, questi luoghi sono visitati dai fedeli che vogliono onorarli nella speranza, cos\u00ec facendo, di rafforzare il proprio legame con la divinit\u00e0.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/luogo_sacro|un_luogo_sacro|un_luogo_sacro.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [
+            {
+                "name": "Cavalli",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+            },
+            {
+                "name": "Ferro",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+            },
+            {
+                "name": "Carbone",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+            },
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Alluminio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            }
+        ],
+        "prereq_tech": null,
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+    },
+    {
+        "id": 24,
+        "name": "Polder",
+        "game_info": "Un polder \u00e8 un tratto di bassopiano racchiuso tra dighe da cui \u00e8 stata prosciugata l'acqua. In generale, si chiama polder una fascia di terra recuperata da mare, lago, terreni allagati o paludi. Con il tempo la terra prosciugata si abbassa, cosicch\u00e9 tutto il polder alla fine si trova sotto il livello dell'acqua circostante. A causa di ci\u00f2 l'acqua penetra nell'area prosciugata e deve essere pompata fuori o fatta defluire in altro modo. Le dighe in genere sono costruite con materiali reperibili sul luogo, di solito terra o sabbia; in tempi moderni queste barriere possono essere ricoperte o interamente composte di cemento. La terra prosciugata \u00e8 estremamente fertile e ottima per il pascolo o la coltivazione.I primi polder furono costruiti nell'XI secolo d.C., sebbene la costruzione di argini come barriere per l'acqua risalga all'epoca dei Romani. Gli olandesi hanno una lunga esperienza nel prosciugare paludi e addirittura nel riportare alla luce i fondi marini, e posseggono la met\u00e0 della superficie dei polder d'Europa. Sebbene ci siano polder in altri paesi europei, e se ne trovi qualche esempio anche in Asia e Nordamerica, l'Olanda ne ha quasi 3.000, che costituiscono quasi il 27% del territorio. Amsterdam stessa \u00e8 costruita in gran parte sopra un polder. Un detto olandese recita: \"Dio ha creato il mondo, ma gli olandesi hanno creato l'Olanda\".",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/polder.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Palude|la palude|una palude",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/marsh.json"
+            },
+            {
+                "name": "Terreni allagati|i terreni allagati|dei terreni allagati",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/flood_plains.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Gilde|delle Gilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+        },
+        "required_civ": {
+            "name": "The Netherlands",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/the_netherlands.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/polder.json"
+    },
+    {
+        "id": 25,
+        "name": "Scavo archeologico|uno Scavo archeologico|uno Scavo archeologico",
+        "game_info": "Uno Scavo Archeologico pu\u00f2 essere costruito solo da un Archeologo su una risorsa Sito Archeologico. Gli scavi dell'antica citt\u00e0 di Troia sono un esempio famoso di scavo archeologico. Al momento della costruzione dello Scavo, l'Archeologo scoprir\u00e0 il tipo di Manufatto sepolto nel sito. Puoi ordinare al tuo Archeologo di creare un Punto di riferimento permanente nella casella o estrarre il Manufatto e posizionarlo in uno slot Capolavoro Artistico in un edificio del tuo impero.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/scavo_archeologico|uno_scavo_archeologico|uno_scavo_archeologico.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [],
+        "improves_resources": [
+            {
+                "name": "Sito Archeologico Nascosto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/hidden_antiquity_site.json"
+            },
+            {
+                "name": "Sito archeologico",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/antiquity_site.json"
+            }
+        ],
+        "prereq_tech": {
+            "name": "Archeologia|dell'Archeologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+        },
+        "required_civ": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/archaeological_dig.json"
+    },
+    {
+        "id": 26,
+        "name": "Campo di pernambuco|un Campo di pernambuco|un Campo di pernambuco",
+        "game_info": "Il pernambuco \u00e8 un albero tropicale dalla cui corteccia si possono estrarre tinture rosso cremisi acceso o viola scuro. Il suo legno, duro e resistente, \u00e8 apprezzato per la costruzione di strumenti a corda (in particolare archetti) e in ebanisteria. La raccolta del pernambuco continu\u00f2 fino al 1875, dopodich\u00e9 l'industria tessile si rivolse definitivamente alle tinture sintetiche; nel frattempo erano anche stati trovati altri legni duri maggiormente adatti alla produzione di strumenti musicali.Un Campo di pernambuco pu\u00f2 essere collocato solo in una casella di Giungla. Dopo la scoperta dell'Acustica fornisce anche Cultura extra.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campo_di_pernambuco|un_campo_di_pernambuco|un_campo_di_pernambuco.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Giungla|la giungla|una giungla",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Meccanica|della Meccanica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+        },
+        "required_civ": {
+            "name": "Brazil",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/brazil.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/brazilwood_camp.json"
+    },
+    {
+        "id": 27,
+        "name": "Kasbah|una Kasbah|una Kasbah",
+        "game_info": "Una kasbah \u00e8 una specie di medina (un quartiere fortificato all'interno di una citt\u00e0) dislocata in una regione rurale, solitamente un piccolo insediamento sul fianco o in cima a una collina. Originariamente residenza di un capo tribale o di un importante imam islamico, la kasbah \u00e8 caratterizzata da alte case senza finestre e da strade strette e tortuose. In genere \u00e8 dominata da una singola torre fortificata. Fino all'inizio del Novecento le kasbah erano diffuse lungo tutta la costa del Nordafrica e in Medio Oriente: per le famiglie marocchine ed algerine di origine araba costruire una kasbah era segno di ricchezza, influenza e potere.Una Kasbah pu\u00f2 essere costruita solo in una casella di Deserto.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kasbah|una_kasbah|una_kasbah.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Codice cavalleresco|del Codice cavalleresco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+        },
+        "required_civ": {
+            "name": "Morocco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/morocco.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/kasbah.json"
+    },
+    {
+        "id": 28,
+        "name": "Feitoria|una Feitoria|una Feitoria",
+        "game_info": "Il termine portoghese \"feitoria\" ha indicato fin dal Medioevo una base commerciale stabilita in territorio straniero. Una feitoria fungeva allo stesso tempo da mercato, deposito, insediamento e base per l'organizzazione di spedizioni esplorative. Si trattava di iniziative private, spesso rese possibili dal supporto finanziario della corona portoghese, che ripagavano i loro debiti iniziali con la compravendita di beni a nome della corona e con la riscossione di tasse sugli scambi commerciali che avvenivano al loro interno. Tra il XV e il XVI Secolo ne vennero costruite pi\u00f9 di 50 lungo tutte le coste dell'Africa fino ad arrivare in India, Malesia, Cina e Giappone. L'istituzione delle feitorias ha permesso al Portogallo di dominare per tre secoli le rotte commerciali negli oceani Atlantico e Indiano.Una Feitoria pu\u00f2 essere costruita solo all'interno del territorio di una citt\u00e0-stato, in una casella sulla costa che non contiene risorse. La Feitoria fornisce una copia di ogni Risorsa di lusso collegata a quella citt\u00e0-stato, indipendentemente dalla tua relazione con essa, ma quella copia non pu\u00f2 essere scambiata. Inoltre fornisce lo stesso bonus difensivo di un Forte, +50%. Possono costruirla solo i portoghesi.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/feitoria|una_feitoria|una_feitoria.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Navigazione|della Navigazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/navigation.json"
+        },
+        "required_civ": {
+            "name": "Portugal",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/portugal.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/feitoria.json"
+    },
+    {
+        "id": 29,
+        "name": "Chateau|un Chateau|un Chateau",
+        "game_info": "Lo Chateau \u00e8 un maniero o palazzo di campagna nobiliare, solitamente privo di fortificazioni. Nel Medioevo gli chateau erano quasi completamente autosufficienti, dipendendo per il loro sostentamento dai soli domini ereditari del signore. Nel Seicento i ricchi aristocratici francesi punteggiarono il territorio di magioni lussuose, eleganti e architettonicamente raffinate, come lo Chateau de Maisons. Oggi il termine \u00e8 usato in senso ampio; ad esempio, \u00e8 piuttosto comune che industrie vinicole o taverne facciano precedere il loro nome dall'appellativo \"Chateau.\"Uno Chateau dev'essere costruito in una casella adiacente a una risorsa di lusso. Non pu\u00f2 essere attiguo a un altro Chateau. Fornisce 1 Oro e 2 Cultura extra. Inoltre fornisce lo stesso bonus difensivo di un Forte, +50%. Dopo la scoperta del Volo, rende 1 Cultura e 2 Oro extra. Dev'essere costruito all'interno del territorio francese.",
+        "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau|un_chateau|un_chateau.png",
+        "nearby_mountain_bonus": {
+            "food": null
+        },
+        "can_be_built_on": [
+            {
+                "name": "Prateria",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+            },
+            {
+                "name": "Pianura",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+            },
+            {
+                "name": "Deserto",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+            },
+            {
+                "name": "Neve",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+            }
+        ],
+        "improves_resources": [],
+        "prereq_tech": {
+            "name": "Codice cavalleresco|del Codice cavalleresco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+        },
+        "required_civ": {
+            "name": "France",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/france.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/chateau.json"
+    }
+]

@@ -1,0 +1,51 @@
+{
+    "id": 2,
+    "name": "Selva|Selvas",
+    "historical_info": "Oscura, imponente y mortal para los inexpertos, la selva es una rica fuente de alimentos para aquellos que tienen la habilidad y los conocimientos necesarios para vivir en ella. No obstante, la selva no proporciona muchos materiales, y una civilizaci\u00f3n incipiente puede caer en la tentaci\u00f3n de explotar sus minerales o de convertirla en cultivos. No obstante, las unidades militares que se encuentran en ella reciben una bonificaci\u00f3n defensiva importante.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/selva|selvas.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": -1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        },
+        {
+            "name": "Pl\u00e1tanos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/bananas.json"
+        },
+        {
+            "name": "Gemas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/gems.json"
+        },
+        {
+            "name": "Tintes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/dyes.json"
+        },
+        {
+            "name": "Especias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/spices.json"
+        },
+        {
+            "name": "Trufas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/truffles.json"
+        },
+        {
+            "name": "Cacao|Cacaos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/cocoa.json"
+        }
+    ]
+}

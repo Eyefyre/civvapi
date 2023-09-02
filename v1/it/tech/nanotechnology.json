@@ -1,0 +1,32 @@
+{
+    "id": 79,
+    "name": "Nanotecnologia|della Nanotecnologia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nanotechnology.png",
+    "era": "Epoca dell'informazione",
+    "cost": 8800,
+    "civilopedia_entry": "La nanotecnologia \u00e8 costituita dallo studio complessivo del controllo della materia a livello atomico o molecolare. Anche se nei non addetti richiama subito alla visione di miliardi di minuscoli robot che dirigono il flusso di singoli atomi, nel campo della nanotecnologia rientra qualsiasi scienza che implichi lo studio o l'utilizzo di particelle delle dimensioni di alcuni nanometri, per esempio per la creazione di nanotubi di carbonio o di nanobatterie solari o per le ricerche sul DNA. Il nanometro (l'ordine di grandezza alla quale fa riferimento la maggior parte dei costrutti nanotecnologici) \u00e8 pari a un miliardesimo di metro, che come scala si pu\u00f2 paragonare al diametro di una biglia rispetto a quello della Terra. Solo negli ultimi anni \u00e8 diventata disponibile la tecnologia necessaria per studiare ordini di grandezza tanto piccoli. Nonostante ci\u00f2, si stima che ogni settimana vengano messi a disposizione del pubblico tre o quattro nuovi prodotti nanotecnologici, con applicazioni che vanno dall'abbigliamento alla cosmesi, dal cibo al confezionamento.Anche se molti scienziati sono eccitati dalla prospettiva delle future applicazioni a seguito dello sviluppo della tecnologia relativa a questo ordine di grandezza, altri esprimono preoccupazione per i rischi per la salute e per l'ambiente e per le implicazioni etiche che questo tipo di ricerca porta con s\u00e9. In alcuni paesi sono state avanzate istanze di regolamentazione in tema di sicurezza e salute, specialmente per il caso di rilascio accidentale nell'ambiente o nel corpo umano di nanoparticelle tossiche.",
+    "quote": "\"Si pu\u00f2 prevedere che l'impatto delle nanotecnologie sulla nostra vita sar\u00e0 superiore a quello della rivoluzione elettronica.\" - Richard Schwartz",
+    "tech_prereqs": [
+        {
+            "name": "Robotica|della Robotica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tecnologia futura|della Tecnologia futura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Camera di stasi dell'astronave",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ss_stasis_chamber.json"
+        },
+        {
+            "name": "Squadra XCOM|una Squadra XCOM|dalla tua Squadra XCOM|alla tua Squadra XCOM|la tua Squadra XCOM|da una Squadra XCOM",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/xcom_squad.json"
+        }
+    ],
+    "building_unlocks": []
+}

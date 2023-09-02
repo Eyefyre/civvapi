@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Faro|il Faro|un Faro",
+    "game_info": "+1 Cibo dalle caselle di Costa e Oceano. +1 alla Produzione da ogni Risorsa marittima sfruttata dalla citt\u00e0.Ogni fonte di Pesce sfruttata da questa citt\u00e0 produce +1 Cibo.La citt\u00e0 dev'essere costruita sulla costa.",
+    "strategy": "Il Faro pu\u00f2 essere costruito solo in una citt\u00e0 sulla costa. Incrementa la produzione di Cibo nelle caselle acquatiche e in quelle che contengono la risorsa Pesce; inoltre aumenta la Produzione di tutte le risorse marine.",
+    "historical_info": "Fin da quando ha affrontato per la prima volta il mare, l'uomo ha costruito fuochi di segnalazione sulla riva per guidare il ritorno dei vascelli verso il porto o avvertire i capitani della presenza di scogli o secche pericolose. Il faro pi\u00f9 antico di cui si abbia notizia \u00e8 quello di Alessandria. Costruito sulla piccola isoletta di Faro, poco lontano dalla costa, il faro di Alessandria \u00e8 sopravvissuto per pi\u00f9 di mille anni, guidando un numero incalcolabile di vascelli verso un porto sicuro.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/faro|il_faro|un_faro.png",
+    "prereq_tech": {
+        "name": "Ottica|dell'Ottica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/optics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

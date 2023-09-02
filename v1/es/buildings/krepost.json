@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Krepost|Krepost",
+    "game_info": "+15 PX para todas las unidades. El coste en Cultura y Oro por adquirir nuevas casillas se reduce en un 25% en esta ciudad.",
+    "strategy": "El Krepost es el edificio exclusivo ruso que sustituye a los Cuarteles. Concede 15 puntos de experiencia a todas las unidades militares creadas en la ciudad en donde se encuentre. Adem\u00e1s, aumenta un 25% el crecimiento de las fronteras culturales de la ciudad. Merece la pena construir estos edificios en todas las ciudades rusas, pero especialmente en las que se encuentran en las fronteras de la civilizaci\u00f3n.",
+    "historical_info": "\"Krepost\" quiere decir \"fortaleza\" en ruso. Durante gran parte de su historia, Rusia fue un estado expansionista que extend\u00eda sus fronteras hacia al este, a trav\u00e9s de las enormes estepas, hasta llegar a Siberia y m\u00e1s all\u00e1. Al entrar en un nuevo territorio, los rusos sol\u00edan construir un \"krepost\" para proteger a sus tropas y acoger los edificios p\u00fablicos y religiosos. Seg\u00fan d\u00f3nde se encontrara y los materiales disponibles, un krepost pod\u00eda ser un fuerte provisional de madera o una obra defensiva de piedra m\u00e1s permanente e imponente. En muchos aspectos, el krepost es similar en forma y funciones a los omnipresentes fuertes que los romanos constru\u00edan en las tierras reci\u00e9n conquistadas.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/krepost|krepost.png",
+    "prereq_tech": {
+        "name": "Forja del bronce",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

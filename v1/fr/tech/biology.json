@@ -1,0 +1,32 @@
+{
+    "id": 48,
+    "name": "Biologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/biology.png",
+    "era": "\u00c8re industrielle",
+    "cost": 2350,
+    "civilopedia_entry": "La biologie est l'\u00e9tude des organismes vivants. Il s'agit d'une discipline extr\u00eamement vaste, allant de l'\u00e9tude du plus grand des c\u00e9tac\u00e9s \u00e0 celle de la plus petite des bact\u00e9ries. Avant le XIXe\u00a0si\u00e8cle, la biologie s'int\u00e9ressait principalement \u00e0 la d\u00e9couverte et \u00e0 la cat\u00e9gorisation de tous les animaux et de toutes les plantes de la plan\u00e8te. A mesure que la science s'est d\u00e9velopp\u00e9e, le mat\u00e9riel utilis\u00e9 s'est am\u00e9lior\u00e9, et les scientifiques ont pu se pencher sur l'\u00e9tude des \u00e9l\u00e9ments essentiels de la biologie, \u00e0 savoir les cellules et, plus tard, les g\u00e8nes et l'ADN. Aujourd'hui, nous n'ignorons plus grand-chose sur la biologie des divers organismes pr\u00e9sents sur Terre.Les biologistes sont devenus \u00e0 ce point performants dans la manipulation de la vie que la science a commenc\u00e9 \u00e0 s'int\u00e9resser \u00e0 des domaines qui, il y a encore quelques temps, passaient pour de la science-fiction. Ainsi, nous avons clon\u00e9 des brebis et pourrons, dans quelques ann\u00e9es peut-\u00eatre, en faire de m\u00eame avec les \u00eatres humains. La nanobiologie est un v\u00e9ritable champ d'\u00e9tudes. Il est possible d'activer des g\u00e8nes sp\u00e9cifiques pour orienter l'\u00e9levage. Si cette science continue \u00e0 progresser ainsi, il n'est pas exclu d'imaginer un monde, relativement proche, dans lequel nous aurions vaincu les maladies, cr\u00e9\u00e9 un \u00e9ventail complet de membres bioniques et offert \u00e0 l'Homme une esp\u00e9rance de vie plus longue de plusieurs d\u00e9cennies.",
+    "quote": "\"Si le cerveau \u00e9tait suffisamment simple pour que nous le comprenions, nous serions si simples d'esprit que nous ne le comprendrions pas.\" - Lyall Watson",
+    "tech_prereqs": [
+        {
+            "name": "Arch\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+        },
+        {
+            "name": "Th\u00e9orie scientifique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "R\u00e9frig\u00e9ration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "H\u00f4pital|H\u00f4pitaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hospital.json"
+        }
+    ]
+}

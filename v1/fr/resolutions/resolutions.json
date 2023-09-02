@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "Dirigeant mondial",
+        "summary": "Permet d'\u00e9lire un dirigeant mondial. Si une civilisation re\u00e7oit le soutien de suffisamment de d\u00e9l\u00e9gu\u00e9s au Congr\u00e8s, son dirigeant remporte une victoire diplomatique. Le nombre de d\u00e9l\u00e9gu\u00e9s n\u00e9cessaires \u00e0 la victoire d\u00e9pend du nombre de civilisations et de cit\u00e9s-\u00e9tats pr\u00e9sentes dans la partie\u00a0; il est affich\u00e9 sur l'\u00e9cran du Congr\u00e8s mondial. Si aucune civilisation ne re\u00e7oit suffisamment de soutien pour l'emporter, les deux civilisations ayant obtenu le plus de voix gagnent de fa\u00e7on permanente 2 d\u00e9l\u00e9gu\u00e9s suppl\u00e9mentaires pour les sessions suivantes. Ne peut pas \u00eatre propos\u00e9e par une civilisation. Cette r\u00e9solution est automatiquement propos\u00e9e \u00e0 intervalles r\u00e9guliers une fois que le Congr\u00e8s mondial devient l'Organisation des Nations Unies.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Choix de l'organisateur",
+        "summary": "D\u00e9signer une civilisation charg\u00e9e d'organiser le Congr\u00e8s. L'organisateur re\u00e7oit des d\u00e9l\u00e9gu\u00e9s suppl\u00e9mentaires et peut proposer des r\u00e9solutions. Ne peut pas \u00eatre propos\u00e9e par une civilisation. Cette r\u00e9solution est automatiquement propos\u00e9e \u00e0 mesure que les civilisations atteignent les derni\u00e8res \u00e8res du jeu.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Embargo sur les cit\u00e9s-\u00e9tats",
+        "summary": "Aucune route commerciale ne peut \u00eatre \u00e9tablie avec des cit\u00e9s-\u00e9tats. Les routes commerciales de ce type sont interrompues et doivent \u00eatre r\u00e9assign\u00e9es.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "Aucune route commerciale ne peut \u00eatre \u00e9tablie entre la civilisation choisie et une autre civilisation. Les routes commerciales de ce type sont interrompues et doivent \u00eatre r\u00e9assign\u00e9es.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Bannir ressource de luxe",
+        "summary": "Une ressource de luxe est consid\u00e9r\u00e9e comme immorale, en voie de disparition ou impropre \u00e0 toute utilisation par le peuple. Tant que la r\u00e9solution est en vigueur, les membres ne re\u00e7oivent aucun bonheur de cette ressource de luxe.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Taxe sur l'arm\u00e9e professionnelle",
+        "summary": "Les co\u00fbts de maintenance en or des unit\u00e9s augmentent de 25%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Savants r\u00e9sidents",
+        "summary": "Les civilisations \u00e9tudient une technologie 20% plus vite si cette derni\u00e8re a d\u00e9j\u00e0 \u00e9t\u00e9 d\u00e9couverte par au moins une des autres civilisations.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "Exposition internationale",
+        "summary": "Lance le projet d'exposition internationale. Une fois le projet en cours, les civilisations peuvent offrir une partie de la production de leurs villes en contribution au projet en le s\u00e9lectionnant dans la liste de production de ces derni\u00e8res. Une fois le projet termin\u00e9, les civilisations re\u00e7oivent un bonus en fonction de leur contribution. \u00a0 \u00a0 \u00a0 ",
+        "project_prizes": {
+            "gold": "La culture augmente de 100% pendant 20\u00a0tours.",
+            "silver": "Doctrine gratuite.",
+            "bronze": "500\u00a0points suppl\u00e9mentaires pour d\u00e9clencher le prochain \u00e2ge d'or."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "Jeux internationaux",
+        "summary": "Lance le projet de Jeux internationaux. Une fois le projet en cours, les civilisations peuvent offrir une partie de la production de leurs villes en contribution au projet en le s\u00e9lectionnant dans la liste de production de ces derni\u00e8res. Une fois le projet termin\u00e9, les civilisations re\u00e7oivent un bonus en fonction de leur contribution. \u00a0 \u00a0 \u00a0 Disponible d\u00e8s que l'une des civilisations en jeu d\u00e9couvre la radio.",
+        "project_prizes": {
+            "gold": "Le tourisme augmente de 100% pendant 20\u00a0tours. Doctrine gratuite.",
+            "silver": " Bonheur +3. Augmentation ponctuelle unique de 30\u00a0points de votre influence sur les cit\u00e9s-\u00e9tats.",
+            "bronze": " Bonheur +3."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "Station spatiale internationale",
+        "summary": "Lance le projet de station spatiale internationale. Une fois le projet en cours, les civilisations peuvent offrir une partie de la production de leurs villes en contribution au projet en le s\u00e9lectionnant dans la liste de production de ces derni\u00e8res. Une fois le projet termin\u00e9, les civilisations re\u00e7oivent un bonus en fonction de leur contribution. \u00a0 \u00a0 \u00a0 Disponible d\u00e8s que l'une des civilisations en jeu d\u00e9couvre les satellites.",
+        "project_prizes": {
+            "gold": "La station spatiale internationale, une merveille, appara\u00eet dans la capitale.  Production des scientifiques +1 et science des ing\u00e9nieurs +1. Les savants illustres augmentent de 33% la production de science lorsqu'ils sont utilis\u00e9s pour d\u00e9couvrir de nouvelles technologies. Doit \u00eatre construite en collaboration sous la supervision du Congr\u00e8s mondial.",
+            "silver": "Scientifique illustre gratuit.",
+            "bronze": "Bonus de recherche unique."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Sites d'h\u00e9ritage culturel",
+        "summary": "Chaque merveille mondiale fournit +3 Culture \u00e0 cette ville.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Sites d'h\u00e9ritage naturel",
+        "summary": "Chaque merveille naturelle exploit\u00e9e rapporte +5 Culture.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Non-prolif\u00e9ration des armes nucl\u00e9aires",
+        "summary": "Aucune civilisation ne peut plus construire d'armes nucl\u00e9aires (bombe atomique et missile nucl\u00e9aire), mais les armes d\u00e9j\u00e0 existantes ne sont pas d\u00e9mantel\u00e9es. Disponible d\u00e8s qu'une civilisation d\u00e9couvre la balistique avanc\u00e9e.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "Religion mondiale",
+        "summary": "Faites d'une religion la religion mondiale officielle. Les civilisations dont la majorit\u00e9 des villes sont adeptes de cette religion re\u00e7oivent deux d\u00e9l\u00e9gu\u00e9s suppl\u00e9mentaires. La religion se propage 25% plus vite, et sa ville sainte profite d'un bonus de tourisme de +50%. Il ne peut y avoir qu'une seule religion mondiale \u00e0 la fois.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "Id\u00e9ologie mondiale",
+        "summary": "Faites d'une id\u00e9ologie l'id\u00e9ologie mondiale officielle. Les civilisations adeptes de cette id\u00e9ologie re\u00e7oivent deux d\u00e9l\u00e9gu\u00e9s suppl\u00e9mentaires. L'opinion publique en faveur de cette id\u00e9ologie augmente pour toutes les civilisations. Il ne peut y avoir qu'une seule id\u00e9ologie mondiale \u00e0 la fois.Disponible d\u00e8s qu'une civilisation d\u00e9couvre la radio.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Financement artistique",
+        "summary": "Augmente de 33% la g\u00e9n\u00e9ration d'\u00e9crivains, d'artistes et de musiciens illustres. Diminue de 33% la g\u00e9n\u00e9ration de scientifiques, ing\u00e9nieurs et marchands illustres.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Financement scientifique",
+        "summary": "Augmente de 33% la g\u00e9n\u00e9ration de scientifiques, ing\u00e9nieurs et marchands illustres. Diminue de 33% la g\u00e9n\u00e9ration d'\u00e9crivains, d'artistes et de musiciens illustres.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Sites historiques",
+        "summary": "Les cases am\u00e9nag\u00e9es par des personnages illustres octroient 2 points de culture suppl\u00e9mentaires lorsqu'elles sont exploit\u00e9es, et les monuments construits par des arch\u00e9ologues fournissent +4 points de culture lorsqu'ils sont exploit\u00e9s. Disponible d\u00e8s qu'une civilisation d\u00e9couvre l'arch\u00e9ologie.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resolutions/historical_landmarks.json"
+    }
+]

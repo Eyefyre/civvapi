@@ -1,0 +1,38 @@
+{
+    "id": 9,
+    "name": "Pastizal|Pastizales",
+    "game_info": "Un pastizal es una parcela vallada en la que se ha plantado hierba para alimentar a los animales que pastan, como las vacas o los caballos.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pastizal|pastizales.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Caballos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/horses.json"
+        },
+        {
+            "name": "Ganado",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/cattle.json"
+        },
+        {
+            "name": "Ovejas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/sheep.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Ganader\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

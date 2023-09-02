@@ -1,0 +1,35 @@
+{
+    "id": 43,
+    "name": "Cosaco|Cosacos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cossack.png",
+    "game_info": "Una unidad montada capaz de luchar cara a cara contra unidades de infanter\u00eda de la misma \u00e9poca.Solo los rusos pueden crearla. Esta unidad tiene una bonificaci\u00f3n al combate contra enemigos que ya hayan recibido da\u00f1o.",
+    "historical_info": "Los cosacos eran comunidades militares que viv\u00edan en las estepas de Ucrania y de Rusia. Al principio, el t\u00e9rmino se us\u00f3 para referirse espec\u00edficamente a las tribus de los t\u00e1rtaros, pero a finales del siglo XV pas\u00f3 a usarse con los campesinos que hab\u00edan escapado de la servidumbre en Polonia, Lituania y Mosc\u00fa y se hab\u00edan establecido en las estepas. Fueron unos de los mejores jinetes natos desde los mongoles y sirvieron en el ej\u00e9rcito ruso a cambio de privilegios especiales para ellos y sus comunidades. Las fuerzas armadas rusas utilizaron a la caballer\u00eda cosaca en todos sus conflictos externos e internos importantes hasta el siglo XX, y los cosacos llegaron a luchar en los dos bandos durante la guerra civil rusa. Los cosacos fueron pr\u00e1cticamente borrados del mapa durante el estalinismo, pero algunos supervivientes intentan recuperar su herencia tras la ca\u00edda de la Uni\u00f3n Sovi\u00e9tica.",
+    "strategy": "El Cosaco es una unidad exclusiva rusa que sustituye a la Caballer\u00eda. Tiene su misma fuerza y, adem\u00e1s, puede moverse despu\u00e9s de atacar. Por si fuera poco, recibe una gran bonificaci\u00f3n al combate contra unidades da\u00f1adas. Esto hace que los Cosacos sean excepcionalmente fuertes en el contraataque: deja que el enemigo se desgaste contra los campesinos de primera l\u00ednea y luego destr\u00f3zalo con una carga cosaca.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Belicolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n por enemigo da\u00f1ado (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/damaged_enemy_bonus_(33).json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

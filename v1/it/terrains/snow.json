@@ -1,0 +1,40 @@
+{
+    "id": 5,
+    "name": "Neve",
+    "historical_info": "I terreni innevati sono di per s\u00e9 ben poco produttivi: alle citt\u00e0 vicine non forniscono n\u00e9 cibo n\u00e9 produzione. Naturalmente l'esagono potrebbe contenere una preziosa risorsa ma, altrimenti, si tratta solo di un terreno freddo e desolato.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/neve.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [],
+    "resources": [
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Petrolio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Pietra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/stone.json"
+        },
+        {
+            "name": "Rame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Deutscher Panzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/panzer.png",
+    "game_info": "Schnelle und m\u00e4chtige Einheit im sp\u00e4ten Spiel.Nur die Deutschen k\u00f6nnen sie bauen. Diese Einheit erh\u00e4lt +1 Fortbewegung im Vergleich zum Panzer, den sie ersetzt.",
+    "historical_info": "Zu Beginn des Zweiten Weltkriegs waren deutsche Panzer ihren franz\u00f6sischen oder russischen Gegenst\u00fccken nicht deutlich \u00fcberlegen, eher im Gegenteil. Die deutschen Panzer waren in puncto Feuerkraft und Panzerung schlechter ausger\u00fcstet. Stattdessen hatten die Deutschen milit\u00e4rische Vordenker wie Heinz Guderian, Kommandant des Panzerkorps und einer der Erfinder der Blitzkrieg-Taktik der konzentrierten Panzer-Kriegsf\u00fchrung. In Frankreich war diese Taktik erstaunlich erfolgreich und gro\u00dfe deutsche Panzerverb\u00e4nde sprengten zahlreiche franz\u00f6sische Panzer, die zwar besser bewaffnet und gepanzert waren, aber einzeln zwischen der Infanterie verstreut und damit chancenlos gegen die geb\u00fcndelte deutsche Feuerkraft waren. Die deutschen Panzer waren in der Fr\u00fchphase des Kriegs gegen die Sowjetunion \u00e4hnlich erfolgreich, bis die UdSSR selbst eine geeignete Taktik f\u00fcr ihre Panzerarmeen entwickelte.",
+    "strategy": "Der Deutsche Panzer ist die Spezialeinheit der Deutschen und ersetzt den Panzer, dem er in St\u00e4rke und Schnelligkeit \u00fcberlegen ist. Er kann sich aber nach einem Angriff bewegen und dadurch gro\u00dfe L\u00fccken in die feindlichen Linien schlagen und dann hindurchrollen, bevor der Feind seine Sch\u00e4den reparieren kann.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Verbundene Waffen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

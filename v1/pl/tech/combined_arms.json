@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combined_arms.png",
+    "era": "Epoka atomu|Epoki atomu|Epoce atomu|Epok\u0119 atomu",
+    "cost": 5100,
+    "civilopedia_entry": "Po\u0142\u0105czone rodzaje wojsk to doktryna wojskowa po raz pierwszy u\u017cyta ponad tysi\u0105c lat temu. Polega ona na po\u0142\u0105czeniu r\u00f3\u017cnych, lecz uzupe\u0142niaj\u0105cych si\u0119, rodzaj\u00f3w jednostek w celu polepszenia og\u00f3lnej wydajno\u015bci wojska jako ca\u0142o\u015bci. W czasach staro\u017cytnych taktyka po\u0142\u0105czonych rodzaj\u00f3w wojsk u\u017cywana by\u0142a przez liczne pot\u0119gi, a zw\u0142aszcza Grek\u00f3w oraz Rzymian. Precyzyjnie koordynowali oni lekk\u0105 oraz ci\u0119\u017ck\u0105 piechot\u0119, kawaleri\u0119 oraz bro\u0144 dystansow\u0105 w celu stworzenia sp\u00f3jnych formacji, kt\u00f3re wsp\u00f3\u0142gra\u0142y i wykorzystywa\u0142y swoje plusy i minusy. W dzisiejszych czasach powstanie arsena\u0142u opartego na si\u0142ach powietrznych doprowadzi\u0142o do jeszcze bardziej z\u0142o\u017conych wariacji na temat tradycyjnej idei po\u0142\u0105czonych rodzaj\u00f3w wojsk. Samoloty bezza\u0142ogowe, naprowadzane satelitami pociski oraz bombowce stratosferyczne - to tylko niekt\u00f3re przyk\u0142ady z rozrastaj\u0105cego si\u0119 zestawu narz\u0119dzi dost\u0119pnych dla wsp\u00f3\u0142czesnych dow\u00f3dc\u00f3w wojskowych.",
+    "quote": "\u201eZ\u0142o nie powstaje w wyniku konstruowania nowych, jeszcze straszliwszych rodzaj\u00f3w broni. Jego \u017ar\u00f3d\u0142o to ch\u0119\u0107 podboju.\u201d - Ludwig von Mises",
+    "tech_prereqs": [
+        {
+            "name": "Balistyka|Balistyki|Balistyce|Balistyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ballistics.json"
+        },
+        {
+            "name": "Silnik spalinowy|Silnika spalinowego|Silnikowi spalinowemu|Silnik spalinowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combustion.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Komputery|Komputer\u00f3w|Komputerom|Komputery",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Czo\u0142gi|Czo\u0142g\u00f3w|Czo\u0142gom|Czo\u0142gi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/tank.json"
+        },
+        {
+            "name": "Panzery|Panzer\u00f3w|Panzerom|Panzery",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/panzer.json"
+        },
+        {
+            "name": "Dzia\u0142a przeciwpancerne|Dzia\u0142 przeciwpancernych|Dzia\u0142om przeciwpancernym|Dzia\u0142a przeciwpancerne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/anti-tank_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Pentagon|Pentagonu|Pentagonowi|Pentagon",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/pentagon.json"
+        }
+    ]
+}

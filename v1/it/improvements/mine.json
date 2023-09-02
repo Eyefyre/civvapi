@@ -1,0 +1,67 @@
+{
+    "id": 5,
+    "name": "Miniera|una Miniera|una Miniera",
+    "game_info": "Le miniere sono tra le pi\u00f9 importanti migliorie al territorio in Civilization V. Non solo aumentano la produttivit\u00e0 di un esagono - con la conseguenza di velocizzare la costruzione di unit\u00e0, edifici e meraviglie - ma forniscono anche accesso ad alcune risorse fondamentali come ferro, carbone e uranio.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/miniera|una_miniera|una_miniera.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Carbone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+        },
+        {
+            "name": "Alluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Gemme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+        },
+        {
+            "name": "Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gold.json"
+        },
+        {
+            "name": "Argento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silver.json"
+        },
+        {
+            "name": "Rame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+        },
+        {
+            "name": "Sale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/salt.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Estrazione mineraria|dell'Estrazione mineraria",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mining.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Elektrownia atomowa|Elektrowni atomowej|Elektrowni atomowej|Elektrowni\u0119 atomow\u0105|Elektrownie atomowe|Elektrowni atomowych|Elektrowniom atomowym|Elektrownie atomowe",
+    "game_info": "Wymaga 1 uranu. Miasto nie mo\u017ce posiada\u0107 elektrowni s\u0142onecznej.",
+    "strategy": "Elektrownia atomowa znacznie zwi\u0119ksza produktywno\u015b\u0107 miasta. Do jej budowy potrzebna jest 1 sztuka uranu. Miasto musi posiada\u0107 fabryk\u0119, zanim b\u0119dzie mo\u017cna wybudowa\u0107 elektrowni\u0119 atomow\u0105.",
+    "historical_info": "Elektrownia atomowa jest budynkiem, w kt\u00f3rym kontrolowana energia j\u0105drowa przekszta\u0142cana jest w pr\u0105d. Energia powstaj\u0105ca w wyniku rozszczepiania j\u0105dra atomu u\u017cywana jest, by nagrzewa\u0107 wod\u0119, kt\u00f3ra w efekcie przyjmuje form\u0119 pary. Para pompowana jest przez turbiny wytwarzaj\u0105cej pr\u0105d. W codziennym u\u017cytkowaniu energia atomowa jest du\u017co ta\u0144sza ni\u017celi olej, gaz czy w\u0119giel, poniewa\u017c powoduje du\u017co mniejsze ska\u017cenie powietrza i wody, a tak\u017ce stanowi mniejsze zagro\u017cenie dla mieszka\u0144c\u00f3w. Jednak elektrownia produkuje odpady promieniotw\u00f3rcze, kt\u00f3re stanowi\u0105 \u015bmiertelne zagro\u017cenie i w celu utraty toksyczno\u015bci musz\u0105 by\u0107 sk\u0142adowane przez stulecia. Dodatkowo wi\u0119kszy wypadek w elektrowni atomowej b\u0119dzie mia\u0142 znacznie bardziej paskudny i d\u0142ugotrwa\u0142y wp\u0142yw ni\u017c wypadek w dowolnej elektrowni innego typu. Znalezienie wystarczaj\u0105co du\u017cej ilo\u015bci energii, by cywilizacja funkcjonowa\u0142a, jest skomplikowanym i niebezpiecznym problemem, z kt\u00f3rym ludzko\u015b\u0107 zetknie si\u0119 za jaki\u015b czas, o ile nie zostanie odkryte bogate, czyste i bezpieczne \u017ar\u00f3d\u0142o energii.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/elektrownia_atomowa|elektrowni_atomowej|elektrowni_atomowej|elektrowni\u0119_atomow\u0105|elektrownie_atomowe|elektrowni_atomowych|elektrowniom_atomowym|elektrownie_atomowe.png",
+    "prereq_tech": {
+        "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

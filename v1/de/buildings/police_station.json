@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Polizeiwache",
+    "game_info": "Senkt die Diebstahlrate feindlicher Spione um 25%.Stadt ben\u00f6tigt eine Gendarmerie.",
+    "strategy": "Polizeiwachen machen es feindlichen Spionen schwerer, Technologien aus Eurer Stadt zu stehlen. Die Stadt muss \u00fcber eine Gendarmerie verf\u00fcgen, bevor die Polizeiwache gebaut werden kann.",
+    "historical_info": "Eine Polizeiwache bietet die Operationsbasis f\u00fcr die \u00f6rtliche Polizei. In der Regel beherbergt sie B\u00fcros, ein kleines Gef\u00e4ngnis, Verh\u00f6rzimmer und eine Asservatenkammer. In einigen Regionen kann ein gr\u00f6\u00dferes Zentralb\u00fcro die Aufgaben mehrerer dieser Einrichtungen \u00fcbernehmen, w\u00e4hrend kleinere Unterstationen als prim\u00e4re Posten f\u00fcr Polizeidienststellen vor Ort dienen.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/polizeiwache.png",
+    "prereq_tech": {
+        "name": "Elektrizit\u00e4t",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

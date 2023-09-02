@@ -1,0 +1,20 @@
+{
+    "id": 45,
+    "name": "Meritokratie",
+    "game_info": "Meritokratie+1 Zufriedenheit f\u00fcr jede Eurer St\u00e4dte, die mit der Hauptstadt [ICON_CONNECTED] verbunden ist und -5% Unzufriedenheit von B\u00fcrgern in nicht besetzten St\u00e4dten.",
+    "historical_info": "Eine Meritokratie ist ein System, in dem die Talentiertesten und F\u00e4higsten Anstellungen bekommen und eher in der Regierungsb\u00fcrokratie aufsteigen als beispielsweise pers\u00f6nliche Freunde des derzeitigen Herrschers (oder Abgeordneten) oder Mitglieder eines bestimmten Stammes, einer Kaste oder Religion. Viele langlebige Regierungen wechseln immer wieder von einer Form der Meritokratie zu einer weniger sinnvollen Methode, die Leute auszuw\u00e4hlen, die das Sagen haben. Zuerst werden die Funktion\u00e4re aufgrund ihrer F\u00e4higkeit gew\u00e4hlt, dann schleichen sich \u00fcber die Jahre Patronat oder Beg\u00fcnstigung ins System ein und die Regierung wird immer ineffektiver und korrupt. Letztendlich wird es so schlimm, dass die B\u00fcrokratie verworfen oder reformiert wird und erneut f\u00e4higere Funktion\u00e4re ernannt werden. Dieses Muster wiederholt sich, bis die Sonne explodiert und alles Leben vom Planeten gefegt wird.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/meritokratie.png",
+    "required_policies": [
+        {
+            "name": "Staatsb\u00fcrgerschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/citizenship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Unabh\u00e4ngigkeit",
+        "game_info": "Unabh\u00e4ngigkeit eignet sich am besten f\u00fcr Zivilisationen, die schnelles Wachstum anstreben.Unabh\u00e4ngigkeit bringt 1 Kultur in jeder Stadt. Schaltet den Bau der Pyramiden frei.Bei \u00dcbernahme aller Politiken im Unabh\u00e4ngigkeit-Zweig wird nach Belieben eine kostenlose Gro\u00dfe Pers\u00f6nlichkeit in der N\u00e4he der Hauptstadt gew\u00e4hrt.",
+        "prereq_era": null,
+        "historical_info": "Als Politik kann Unabh\u00e4ngigkeit als die Grundvoraussetzung definiert werden, dass die B\u00fcrger einer Nation es verdienen, frei zu sein. Frei von k\u00f6rperlichen Einschr\u00e4nkungen und frei von tyrannischer Kontrolle. Leibeigene, Sklaven und erbliche Diener kann es dabei nicht geben, ebenso wenig wie B\u00fcrger, die gezwungen werden, in einem bestimmten Dorf, Gulag oder Ghetto zu leben."
+    }
+}

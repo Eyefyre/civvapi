@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Impi|Impis",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Especializado en derrotar a Caballeros y otras unidades montadas. Solo pueden formarlo los zul\u00faes. Adem\u00e1s, realiza un ataque a distancia antes de combatir.",
+    "historical_info": "\"Impi\" es el t\u00e9rmino zul\u00fa que designa a un grupo de hombres armados, y aunque su uso se generaliz\u00f3 en el siglo XIX, se refiere a uno de los regimientos del Imperio Zul\u00fa. Aunque los \"impi\" llevaban mucho tiempo siendo algo propio de la cultura zul\u00fa, su gran jefe Chaka implant\u00f3 profundas innovaciones al subir al trono en el 1816 d. C. Adem\u00e1s de su porra y lanza tradicionales, Chaka arm\u00f3 a sus tropas con un assegai, una lanza cuerpo a cuerpo de mango corto y punta ancha. Introdujo un escudo de piel de vaca m\u00e1s grande y pesado (isihlangu) y entren\u00f3 a sus fuerzas para acercarse r\u00e1pidamente al enemigo y causar grandes bajas en el combate cuerpo a cuerpo. Estrat\u00e9gicamente, los impi confiaban en la velocidad y la sorpresa para superar en n\u00famero e imponerse al enemigo. Con estos m\u00e9todos, los zul\u00faes obtuvieron victorias impresionantes incluso contra los fusileros europeos, aunque las bajas sufridas eran numerosas.",
+    "strategy": "Antes del cuerpo a cuerpo, el Impi arroja su lanza para herir o matar al enemigo. Solo pueden formarlo los zul\u00faes.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Administraci\u00f3n p\u00fablica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Lanzas arrojadizas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/spear_throw.json"
+        }
+    ]
+}

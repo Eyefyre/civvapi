@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Flotas del tesoro",
+    "game_info": "Flotas del tesoro+4 de Oro de todas tus rutas comerciales mar\u00edtimas.",
+    "historical_info": "En varios momentos hist\u00f3ricos, naciones que transportaban grandes cantidades de tesoro y art\u00edculos de comercio han recurrido a convoyes de transportes para incrementar las posibilidades de que las mercanc\u00edas lleguen a su destino. La m\u00e1s famosa era la flota del tesoro espa\u00f1ola que trajo oro, plata, especias, tabaco y otras mercanc\u00edas de las Am\u00e9ricas a Europa, desde 1566 a 1790. El saqueo de la Habana espa\u00f1ola por parte de corsarios franceses y los ataques de galeones solitarios ingleses impulsaron a los espa\u00f1oles a crear convoyes entre el Nuevo Mundo y Europa. Aunque ahora los mares est\u00e1n relativamente a salvo de piratas, las naciones todav\u00eda organizan convoyes para aumentar las posibilidades de que los barcos mercantes lleguen intactos en tiempos de guerra.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/flotas_del_tesoro.png",
+    "required_policies": [
+        {
+            "name": "Marina mercante",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/merchant_navy.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Exploraci\u00f3n",
+        "game_info": "La Exploraci\u00f3n potencia la capacidad de propagar tu imperio por los mares.La adopci\u00f3n de la Exploraci\u00f3n otorga +1 al Movimiento [ICON_MOVES] de las unidades navales y +1 a la Visual de las unidades de combate naval. Desbloquea la construcci\u00f3n del Louvre.Adoptar todas las pol\u00edticas te permite ver los Enclaves hist\u00f3ricos escondidos. Tambi\u00e9n permite comprar Grandes almirantes con Fe a partir de la Era Industrial.",
+        "prereq_era": "\u00c9poca Medieval",
+        "historical_info": "Desde que el hombre se hizo sedentario, siempre ha habido individuos que han querido ver lo que hab\u00eda m\u00e1s all\u00e1 del horizonte. Motivados por el beneficio, la aventura, la religi\u00f3n, la necesidad o simplemente la curiosidad, estos exploradores han ampliado nuestro conocimiento del mundo y sus maravillas. En el proceso de exploraci\u00f3n, tambi\u00e9n han comunicado a culturas diversas y distantes, para bien o para mal. Los grandes exploradores, como Hann\u00f3n de Cartago, el almirante chino Wang Dayuan, el ingl\u00e9s sir Richard Burton o miles de otros, han encabezado la expansi\u00f3n de las civilizaciones y han modelado la historia."
+    }
+}

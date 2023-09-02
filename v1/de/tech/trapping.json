@@ -1,0 +1,28 @@
+{
+    "id": 9,
+    "name": "Fallenstellen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/trapping.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Menschen locken Tiere bereits seit Jahrtausenden in Fallen. Diese Form der Jagd ist beinahe so alt wie das menschliche Leben. \u00dcber die Jahrhunderte haben J\u00e4ger eine gro\u00dfe Vielzahl verschiedenster Fallen genutzt, um ihre Opfer zu fangen - von verdeckten Gruben \u00fcber versteckte Netze bis hin zu Trittfallen mit Metallz\u00e4hnen. Im 17. bis 18. Jahrhundert haben franz\u00f6sich-kanadische Pelzj\u00e4ger oft Jahre in der Wildnis verbracht, um gewaltige Mengen von Pelztieren zu fangen und dann die Pelze in einer Siedlung im Osten zu verkaufen. Viele der wertvollen Pelze zierten sp\u00e4ter wohlhabende Europ\u00e4er in Form von H\u00fcten oder anderen Kleidungsst\u00fccken. Russische J\u00e4ger taten dasselbe in Sibirien oder anderen entlegenen eurasischen Gebieten.",
+    "quote": "\"Selbst wilde Bestien und Wanderv\u00f6gel geraten nicht zweimal in dieselbe Falle oder dasselbe Netz.\" - St. Hieronymus",
+    "tech_prereqs": [
+        {
+            "name": "Tierzucht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Reiterei",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zirkus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/circus.json"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 22,
+    "name": "Moai",
+    "game_info": "Los mo\u00e1is, m\u00e1s conocidos como \"las estatuas de la Isla de Pascua\", son grandes figuras con forma humana talladas en piedra volc\u00e1nica, como la toba. Hay esparcidas 887 de ellas por la citada isla, y se cree que se esculpieron entre el 1250 y el 1500 d. C. Casi la mitad de ellos permanecen en el sitio donde se encontraba la cantera, pero el resto se transport\u00f3 y erigi\u00f3 por toda la costa de la isla. F\u00e1cilmente reconocibles por su gran cabeza y figura alargada, se cree que eran representaciones personales de antepasados muertos y de jefes poderosos.Aunque la mayor\u00eda de eruditos se muestran de acuerdo sobre cu\u00e1ndo y por qu\u00e9 se crearon, el m\u00e9todo que se utiliz\u00f3 para transportarlos sigue siendo un misterio. Cada uno pesa entre 8 y 76 toneladas, por lo que moverlos desde la cantera hasta su destino requiri\u00f3 de una portentosa obra de ingenier\u00eda.En 1994, las estatuas mo\u00e1i recibieron la protecci\u00f3n oficial de la UNESCO al incluirse en el Patrimonio de la Humanidad.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/moai.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Construcci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "Polynesia",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/civilizations/polynesia.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

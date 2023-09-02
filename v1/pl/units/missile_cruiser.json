@@ -1,0 +1,39 @@
+{
+    "id": 8,
+    "name": "Kr\u0105\u017cownik rakietowy|Kr\u0105\u017cownika rakietowego|Kr\u0105\u017cownikowi rakietowemu|Kr\u0105\u017cownik rakietowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missile_cruiser.png",
+    "game_info": "Jednostka morska wyspecjalizowana w zwalczaniu lotnictwa wroga. Mo\u017ce przenosi\u0107 3 pociski i sprawdza si\u0119 w zwalczaniu okr\u0119t\u00f3w podwodnych.",
+    "historical_info": "Kr\u0105\u017cownik rakietowy to, nie licz\u0105c lotniskowca oraz atomowego okr\u0119tu podwodnego, najpot\u0119\u017cniejsza jednostka p\u0142ywaj\u0105ca wsp\u00f3\u0142czesnego pola bitwy. Zaprojektowano go tak, by przenosi\u0142 i wystrzeliwa\u0142 pot\u0119\u017cne, celne i dalekosi\u0119\u017cne rakiety kierowane, zdolne do ra\u017cenia cel\u00f3w na morzu i l\u0105dzie, na d\u0142ugo zanim przeciwnik dowie si\u0119, \u017ce znalaz\u0142 si\u0119 w ich zasi\u0119gu. Ameryka\u0144ski kr\u0105\u017cownik klasy Ticonderoga jest prawdopodobnie najpot\u0119\u017cniejsz\u0105 jednostk\u0105 nawodn\u0105, dysponuj\u0105c\u0105 122 wyrzutniami rakiet przystosowanych do odpalania pocisk\u00f3w woda-powietrze, woda-ziemia oraz rakietotorped. Jest ponadto wyposa\u017cony w przeciwlotnicze karabiny Gatlinga, umo\u017cliwiaj\u0105ce niszczenie zar\u00f3wno pocisk\u00f3w wroga, jak i wrogich samolot\u00f3w.",
+    "strategy": "Kr\u0105\u017cownik rakietowy to nowoczesny okr\u0119t wojenny. Jest szybki, wytrzyma\u0142y, wyposa\u017cony w poka\u017any arsena\u0142 broni przeciwlotniczej i doskonale sobie radzi z przechwytywaniem wrogich samolot\u00f3w. Co wa\u017cniejsze, kr\u0105\u017cownik rakietowy mo\u017ce przenosi\u0107 kierowane pociski rakietowe i pociski atomowe, dzi\u0119ki czemu mo\u017cesz dotrze\u0107 z nimi tu\u017c pod nieprzyjacielskie wybrze\u017ce. Kr\u0105\u017cowniki rakietowe po\u0142\u0105czone z lotniskowcami i okr\u0119tami podwodnymi to piekielnie pot\u0119\u017cna armada.",
+    "movement": 7,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Robotyka|Robotyki|Robotyce|Robotyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/robotics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Widzenie okr\u0119t\u00f3w podwodnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Premia przeciw okr\u0119tom podwodnym (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Mo\u017ce przewozi\u0107 3 \u0142adunki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_carry_3_cargo.json"
+        },
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

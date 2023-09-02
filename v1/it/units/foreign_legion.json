@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "Legione straniera|una Legione straniera|dalla tua Legione straniera|alla tua Legione straniera|la tua Legione straniera|da una Legione straniera",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Unit\u00e0 speciale di fanteria di epoca moderna. Si pu\u00f2 ricevere solo adottando il principio Esercito di volontari dell'Ideologia Uguaglianza. Quest'unit\u00e0 \u00e8 simile al Fante della Grande Guerra, ma ottiene un bonus in combattimento quando si trova al di fuori del territorio amico.",
+    "historical_info": "Costituita nel 1831, la legione straniera francese rappresenta un'unit\u00e0 peculiare all'interno dell'esercito. La legione fu creata specificatamente per gli stranieri che desideravano combattere per la Francia. Famosi per il coraggio e lo sprezzo dell'incolumit\u00e0 personale, i membri della legione straniera hanno prestato servizio in tutte le guerre a cui la Francia ha partecipato dalla costituzione della legione stessa. L'unit\u00e0 \u00e8 stata descritta in modo molto romantico: secondo la cultura popolare \u00e8 il rifugio ideale per gli uomini dal cuore spezzato che devono dimenticare le loro donne, o per i mascalzoni in fuga dalla giustizia. Queste storie possono essere vere o no, ma un fatto \u00e8 certo: la legione \u00e8 una forza bellica tosta e molto efficiente.",
+    "strategy": "La Legione straniera \u00e8 un'unit\u00e0 speciale che si pu\u00f2 ottenere solo attraverso il principio Esercito di volontari dell'Ideologia Uguaglianza. Dato che quando opera all'esterno dei confini riceve un significativo bonus al combattimento, rappresenta un'ottima unit\u00e0 da lanciare in territorio nemico.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus in terra straniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

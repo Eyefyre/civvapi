@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "Elefante africano|un Elefante africano|dal tuo Elefante africano|al tuo Elefante africano|il tuo Elefante africano|da un Elefante africano",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Potente unit\u00e0 di cavalleria disponibile nelle prime fasi del gioco. Debole contro i nemici armati di lancia. Solo i cartaginesi possono costruirla. Quest'unit\u00e0 ha una Forza di combattimento superiore rispetto al Guerriero a cavallo, che sostituisce. Inoltre incute paura nelle unit\u00e0 nemiche vicine e aiuta a produrre Grandi Generali pi\u00f9 velocemente.",
+    "historical_info": "Durante le sue campagne contro i romani il leggendario generale Annibale fece un uso frequente degli elefanti, sia come preziose bestie da carico sia come armi terrificanti. Utilizzati per tutte le Guerre Puniche, con diversi gradi di successo, gli elefanti da guerra cartaginesi portavano sul dorso alte torrette piene di soldati ed erano addestrati a caricare le linee nemiche. Nonostante le loro dimensioni imponenti gli elefanti erano vulnerabili all'attacco della fanteria leggera, che contro di loro poteva sfruttare la sua mobilit\u00e0. Inoltre prendersi cura di animali simili era estremamente dispendioso, e spesso gli elefanti morivano durante le lunghe marce a cui l'esercito cartaginese doveva sottoporsi.",
+    "strategy": "L'Elefante della foresta africana \u00e8 un'unit\u00e0 esclusiva cartaginese che sostituisce il Guerriero a cavallo. Gli Elefanti cartaginesi sono pi\u00f9 lenti ma pi\u00f9 potenti dei Guerrieri a cavallo. Possono muoversi dopo aver attaccato e spaventano le unit\u00e0 nemiche vicine, dando a tutte un modificatore negativo al combattimento. Le vittorie riportate con un Elefante hanno una maggiore possibilit\u00e0 di generare Grandi Generali.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "Equitazione|dell'Equitazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Elefante spaventoso",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/feared_elephant.json"
+        },
+        {
+            "name": "Grandi Generali II",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_ii.json"
+        }
+    ]
+}

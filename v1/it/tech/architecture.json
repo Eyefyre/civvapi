@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Architettura|dell'Architettura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Epoca rinascimentale",
+    "cost": 1150,
+    "civilopedia_entry": "L'architettura comprende tutto ci\u00f2 che riguarda la pianificazione iniziale di una struttura, la sua progettazione e la realizzazione concreta e pu\u00f2 essere considerata sia un'arte sia una scienza. Fin dai tempi antichi \u00e8 stata una disciplina cruciale per la costruzione di edifici: uno dei pi\u00f9 famosi trattati sull'argomento \u00e8 il \"De Architectura\" dell'architetto romano Vitruvio, scritto nel I secolo a.C. Costituito da 10 volumi, il \"De Architectura\" discute in modo dettagliato tutti i metodi di costruzione dei romani. Oggi l'opera di Vitruvio \u00e8 ampiamente riconosciuta come uno sviluppo cruciale nell'evoluzione della progettazione architetturale.",
+    "quote": "\"L'architettura inizia dove finisce l'ingegneria.\" - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Acustica|dell'Acustica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/acoustics.json"
+        },
+        {
+            "name": "Sistema bancario|del Sistema bancario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archeologia|dell'Archeologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+        },
+        {
+            "name": "Teoria scientifica|della Teoria scientifica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hermitage|l'Hermitage|l'Hermitage",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hermitage.json"
+        },
+        {
+            "name": "Torre di porcellana|la Torre di porcellana|la Torre di porcellana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Taj Mahal|il Taj Mahal|il Taj Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Uffizi|gli Uffizi|gli Uffizi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/uffizi.json"
+        }
+    ]
+}

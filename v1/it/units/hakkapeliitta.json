@@ -1,0 +1,43 @@
+{
+    "id": 106,
+    "name": "Hakkapeliitta|un Hakkapeliitta|dal tuo Hakkapeliitta|al tuo Hakkapeliitta|il tuo Hakkapeliitta|da un Hakkapeliitta",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hakkapeliitta.png",
+    "game_info": "Unit\u00e0 di cavalleria sceltissima, ottima se utilizzata insieme a un Grande Generale. Solo gli svedesi possono costruirla.",
+    "historical_info": "Il Nord innevato \u00e8 la loro terra natia; ecco, il loro cuore crepita sulla spiaggia tempestosa. Gli Hakkapeliitta erano una divisione di cavalleria leggera finlandese utilizzata da re Gustavo Adolfo di Svezia durante la Guerra dei Trent'anni. Si trattava di soldati sceltissimi, ben addestrati e ottimi per eseguire incursioni, ricognizione, attacchi rapidissimi e soprattutto per caricare. Gli Hakkapeliitta attaccavano al galoppo, facendo fuoco con le pistole quando raggiungevano le linee nemiche ed estraendo la spada una volta che i cavalli arrivavano a contatto. Le cavalcature piccole, forti e robuste degli Hakkapeliitta erano i progenitori dei moderni cavalli di razza finnhorse, un vanto nazionale della Finlandia.",
+    "strategy": "Gli Hakkapeliitta sono l'unit\u00e0 di cavalleria scelta dell'esercito svedese nel tardo Rinascimento. Appena possibile, assegna loro un Grande Generale. Se comincia il turno nella stessa casella, il Generale riceve gli stessi punti movimento degli Hakkapeliitta. In aggiunta, in presenza di un Grande Generale gli Hakkapeliitta ricevono un bonus del 15% al combattimento.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgia|della Metallurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Trasferisce il movimento al generale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/transfer_movement_to_general.json"
+        },
+        {
+            "name": "Bonus combatt. dei Grandi Generali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_general_combat_bonus.json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formazione I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+        }
+    ]
+}

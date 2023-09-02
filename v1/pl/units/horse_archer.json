@@ -1,0 +1,31 @@
+{
+    "id": 102,
+    "name": "\u0141ucznicy konni|\u0141ucznik\u00f3w konnych|\u0141ucznikom konnym|\u0141ucznik\u00f3w konnych",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horse_archer.png",
+    "game_info": "Szybka jednostka strzelecka u\u017cywana do dzia\u0142a\u0144 polegaj\u0105cych na ataku i ucieczce. Jedynie Hunowie mog\u0105 j\u0105 stworzy\u0107.",
+    "historical_info": "Straszliwa kawaleria Hun\u00f3w, s\u0142yn\u0105ca z umiej\u0119tno\u015bci \u0142uczniczych i je\u017adzieckich, n\u0119ka\u0142a Europ\u0119 podczas inwazji Hun\u00f3w w IV i V w. Konni \u0142ucznicy pos\u0142ugiwali si\u0119 pot\u0119\u017cnymi \u0142ukami kompozytowymi, a swe umiej\u0119tno\u015bci doskonalili podczas polowa\u0144 na stepach Azji \u015arodkowej i z powodzeniem wykorzystywali zdobyte umiej\u0119tno\u015bci podczas wojen. Uwa\u017ca si\u0119, \u017ce konni \u0142ucznicy Hun\u00f3w znacz\u0105co wp\u0142yn\u0119li na kszta\u0142t przysz\u0142ej my\u015bli wojskowej kr\u00f3lestw Europy i Azji, poniewa\u017c po ich inwazjach po\u0142o\u017cono tam wi\u0119kszy nacisk na wykorzystanie kawalerii.",
+    "strategy": "\u0141ucznicy konni to szybkie jednostki dystansowe, \u015bmierciono\u015bne na otwartym terenie. Maj\u0105 nieco lepsz\u0105 obron\u0119 ni\u017c \u0142ucznicy na rydwanach i mog\u0105 porusza\u0107 si\u0119 w trudnym terenie bez kary. Zaczynaj\u0105 z awansem \u201ecelno\u015b\u0107 I\u201d. Jako jednostka konna jest wra\u017cliwa na ataki w\u0142\u00f3cznik\u00f3w. W przeciwie\u0144stwie do strzelc\u00f3w rydwanowych, \u0142ucznicy konni nie musz\u0105 mie\u0107 koni.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Celno\u015b\u0107 I|Celno\u015bci I|Celno\u015bci I|Celno\u015b\u0107 I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/accuracy_i.json"
+        }
+    ]
+}

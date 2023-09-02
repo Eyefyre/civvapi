@@ -1,0 +1,18 @@
+{
+    "id": 28,
+    "name": "Mechanized Infantry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mechanized_infantry.png",
+    "game_info": "Fast, basic Unit of the late-game that requires no special resources to build.",
+    "historical_info": "As the speed of battle has risen, with the advent of armored vehicles, artillery and of course air power, modern infantry too has had to get faster and more maneuverable. Most modern infantry units are now \"mechanized,\" moving about the battlefield on armored personnel carriers. These vehicles are usually equipped with one or more heavy machine guns and grenade launchers. They are not tough enough to stand up to modern armor, but they do provide protection from bullets and shrapnel and other battlefield menaces to those inside. Depending upon the situation the soldiers can fight from inside the vehicle or dismount and proceed on foot, in the traditional manner of infantry soldiers since the dawn of warfare.",
+    "strategy": "Mechanized Infantry are stronger and faster than regular Infantry. Although fast, Mech Infantry cannot move after combat like Tanks; their primary responsibility is, as always, to take and hold the ground.",
+    "movement": 3,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Mobile Tactics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mobile_tactics.json"
+    },
+    "free_promotions": []
+}

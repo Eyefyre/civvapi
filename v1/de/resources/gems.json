@@ -1,0 +1,49 @@
+{
+    "id": 18,
+    "name": "Edelsteine",
+    "game_info": null,
+    "historical_info": "Edelsteine sind sch\u00f6n anzusehende, aber seltene Mineralien. Geschliffen und poliert weisen sie leuchtende Farben auf bzw. gl\u00e4nzen stark. Zu den Edelsteinen z\u00e4hlen z. B. Diamanten, Rubine und Smaragde. Amethyst, T\u00fcrkis usw. z\u00e4hlen zu den Halbedelsteinen. Edelsteine waren stets sehr begehrt. \u00dcblicherweise werden sie zur Verzierung von Schmuck und Haushaltsgegenst\u00e4nden der Reichen und M\u00e4chtigen benutzt.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/edelsteine.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/dschungel.json"
+        },
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

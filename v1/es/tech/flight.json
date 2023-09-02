@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Vuelo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 3100,
+    "civilopedia_entry": "El hombre sue\u00f1a con la conquista de los cielos desde los albores de su historia. Las m\u00e1quinas voladoras ideadas por Leonardo da Vinci son de sobra conocidas y, adem\u00e1s de \u00e9l, tambi\u00e9n han existido otros visionarios de menor talento. Los primeros te\u00f3ricos estudiaron las aves, amos naturales de los cielos, y dise\u00f1aron m\u00e1quinas que emulaban las formas de sus alas y sus movimientos (ornit\u00f3pteros). Pero aquellos dise\u00f1os tempranos carec\u00edan de los materiales, motores y conocimientos de aerodin\u00e1mica necesarios para culminarse con \u00e9xito.El estudio de la aerodin\u00e1mica se perfeccion\u00f3 a lo largo de los siglos XVI, XVII, XVIII y XIX gracias al trabajo de brillantes cient\u00edficos como da Vinci, Galileo, Huygens, Newton, Bernoulli, Euler y Smeaton. En 1804, el brit\u00e1nico George Cayley logr\u00f3 volar con un planeador de alas fijas y, en 1853, cre\u00f3 un modelo a escala completa que transport\u00f3 a su reticente cochero en el primer vuelo tripulado con planeador del que se tiene constancia.En 1902, los hermanos Wright construyeron su propio planeador perfeccionando el dise\u00f1o de las alas. Al ser incapaces de encontrar un fabricante experimentado que construyese un motor ligero de gasolina seg\u00fan sus especificaciones, decidieron dise\u00f1arlo y construirlo ellos mismos. El 17 de diciembre de 1903, el aparato de los Wright vol\u00f3 cuatro veces a distancias de hasta 280 metros. La tecnolog\u00eda aeron\u00e1utica creci\u00f3 a pasos agigantados en los a\u00f1os posteriores al innovador invento de los hermanos Wright. Hacia 1908, el estadounidense Glenn Hammond Curtiss recorri\u00f3 una distancia superior a 1 kil\u00f3metro y, en 1909, el franc\u00e9s Louis Bleriot sobrevol\u00f3 el Canal de la Mancha.Durante la Primera Guerra Mundial tambi\u00e9n se produjeron importantes avances en aeron\u00e1utica en lo relativo al uso de armamento a\u00e9reo; as\u00ed fue como se crearon los primeros cazas y bombarderos. Para los a\u00f1os 20 ya hab\u00eda pilotos sobrevolando los continentes con cierta regularidad y, en 1927, Charles Lindberg complet\u00f3 el primer vuelo ininterrumpido en solitario a trav\u00e9s del oc\u00e9ano Atl\u00e1ntico. En la Segunda Guerra Mundial se llevaron a cabo mejoras extraordinarias en la velocidad, autonom\u00eda, durabilidad y potencia de fuego de los aparatos voladores y, hacia el final de la guerra, ya estaban en servicio aviones de guerra a reacci\u00f3n, helic\u00f3pteros y bombarderos capaces de sobrevolar continentes enteros a gran altitud.En la era moderna, los viajes por aire son algo cotidiano; viajar desde Estados Unidos hasta China, un sue\u00f1o impensable hace tan solo 75 a\u00f1os, hoy d\u00eda destaca \u00fanicamente por lo aburrido que resulta. Y, aunque los atentados terroristas del 11 de septiembre de 2001 han incrementado ligeramente el riesgo que supone viajar en avi\u00f3n, millones de personas siguen haci\u00e9ndolo todos los d\u00edas. El vuelo forma ya una parte indisoluble de nuestras vidas.",
+    "quote": "\"La aeron\u00e1utica nunca ha sido ni una industria ni una ciencia. Ha sido un milagro.\" - Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Misiles bal\u00edsticos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+        },
+        {
+            "name": "Electr\u00f3nica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Triplano|Triplanos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/triplane.json"
+        },
+        {
+            "name": "Bombardero I Guerra|Bombarderos I Guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Prora|Prora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/prora.json"
+        }
+    ]
+}

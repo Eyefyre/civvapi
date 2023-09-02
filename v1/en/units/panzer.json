@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Panzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/panzer.png",
+    "game_info": "Fast and powerful late game Unit.Only the Germans may build it. This Unit has 1 additional movement compared to the Tank, which it replaces.",
+    "historical_info": "At the start of World War II, the German Panzer tanks were not markedly superior to their French or Russian counterparts - quite the opposite, in fact. The German \"Panzers\" (tanks) were inferior in firepower and in armor. What the Germans did have, was military geniuses like Heinz Guderian, Panzer Corps commander and one of the architects of the blitzkrieg, or lightning-assault doctrine of concentrated tank warfare. In France, this doctrine was astonishingly successful, as massed armies of tanks blew apart the French tanks, which, though superior in weaponry and armor, were dispersed among the French infantry and had no chance against the massed German firepower. The German panzers had equal success early in the war against the Soviet Union, until the USSR figured out how to create and organize their own tank armies.",
+    "strategy": "The Panzer is the German unique unit, replacing the tank. It is both stronger and faster than the tank. It also can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Combined Arms",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

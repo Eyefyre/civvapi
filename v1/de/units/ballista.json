@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Balliste",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Belagerungseinheit, die gro\u00dfen Schaden aus der Distanz anrichten kann, aber vor dem Feuern in Stellung gehen muss. Nur die R\u00f6mer k\u00f6nnen sie bauen. Diese Einheit hat eine h\u00f6here [ICON_RANGE_STRENGTH] Fernkampfst\u00e4rke als das Katapult, das sie ersetzt.",
+    "historical_info": "Die r\u00f6mische Balliste war ein fortschrittliches Katapult, das Geschosse aus Holz oder Stein auf die Gegner schleuderte. Die aus Holz konstruierte und mit schweren Eisenplatten verst\u00e4rkte Balliste war in den H\u00e4nden ge\u00fcbter Sch\u00fctzen erstaunlich pr\u00e4zise. Ihre maximale Reichweite betrug in etwa 460 Meter, wobei ihre effektiv nutzbare Reichweite deutlich geringer ausfiel, vor allem gegen befestigte Stellungen. Julius C\u00e4sar setzte sie mit gro\u00dfem Erfolg in seinen Feldz\u00fcgen gegen Germanien und Britannien ein.",
+    "strategy": "Die Balliste ist die Spezialeinheit der R\u00f6mer und m\u00e4chtiger als das Katapult, das durch sie ersetzt wird. Sie ist eine ausgezeichnete Belagerungswaffe und sehr n\u00fctzlich im Kampf gegen St\u00e4dte, aber fast wehrlos gegen Angriffe. Sch\u00fctzt Ballisten immer mit anderen Milit\u00e4reinheiten. Die Balliste muss erst \"in Stellung gehen\" (1 FP), bevor sie angreifen kann.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Mathematik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus gegen St\u00e4dte (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Muss f\u00fcr Fernkampf in Stellung gehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Universit\u00e4t",
+    "game_info": "+2 Wissenschaft durch Dschungel-Gel\u00e4ndefelder, die von dieser Stadt bewirtschaftet werden. Erm\u00f6glicht den Bau von Arch\u00e4ologen in dieser Stadt.Die Stadt ben\u00f6tigt eine Bibliothek.",
+    "strategy": "Die Universit\u00e4t ist ein Geb\u00e4ude des Mittelalters, das den Wissenschaftsertrag der jeweiligen Stadt erh\u00f6ht und sogar noch effektiver ist, wenn diese sich bei Dschungel-Gel\u00e4ndefeldern befindet. Die Stadt muss bereits \u00fcber eine Bibliothek (oder einen Papiermacher) verf\u00fcgen, um eine Universit\u00e4t zu bauen.",
+    "historical_info": "Eine Universit\u00e4t ist ein Institut f\u00fcr Forschung und Lehre, in dem junge Menschen im Alter von 18 bis ca. 24 Jahren Ausbildung finden (Erwachsene besuchen Universit\u00e4ten auch, doch die Mehrheit der Studenten geh\u00f6rt zu der oben genannten Altersgruppe). Formell ist eine Universit\u00e4t eine staatlich akkreditierte Einrichtung, die akademische Abschl\u00fcsse in verschiedenen Fachbereichen vergibt. Die \u00e4lteste durchgehend arbeitende Universit\u00e4t der Welt ist die Universit\u00e4t Al-Qarawiyyin in F\u00e8s, Marokko, die im Jahre 859 n. Chr. gegr\u00fcndet wurde.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/universit\u00e4t.png",
+    "prereq_tech": {
+        "name": "Bildungswesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

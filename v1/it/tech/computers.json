@@ -1,0 +1,41 @@
+{
+    "id": 68,
+    "name": "Computer|del Computer",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/computers.png",
+    "era": "Epoca atomica",
+    "cost": 6400,
+    "civilopedia_entry": "Essenzialmente, il computer \u00e8 una macchina che manipola dati o comandi seguendo una serie di istruzioni predeterminate. Anche se il computer \"moderno\" non \u00e8 stato concepito prima dell'inizio del XX secolo, i primi calcolatori si possono far risalire agli orologi meccanici astronomici di Al-Jazari del 1206 e al telaio programmabile di Jacquard del 1801. Per quanto entrambe queste macchine fossero programmabili, non avevano una caratteristica tipica dei computer moderni: non memorizzavano informazioni. I primi veri computer si servivano di parti meccaniche e analogiche per elaborare e conservare i dati; il passaggio all'elettronica digitale avvenne negli anni '40. Non \u00e8 possibile fissare la data precisa dell'invenzione del computer di oggi, poich\u00e9 si tratt\u00f2 pi\u00f9 che altro di una serie di progressi e avanzamenti costanti, durante i quali fecero la loro comparsa alcuni esemplari degni di nota come la Macchina Z di Konrad Zuse e l'ENIAC dell'esercito statunitense.Col passaggio all'elettronica i computer sono diventati pi\u00f9 piccoli, pi\u00f9 veloci, meno costosi ed esigenti in fatto d'energia, oltre che molto pi\u00f9 affidabili e versatili: un tempo occupavano intere stanze e persino interi palazzi, mentre quelli odierni sono diffusi come il telefono di casa e non comprendono solo i tradizionali personal computer, ma anche i computer inseriti nelle auto e nelle lavatrici e sono persino inseriti nei capi d'abbigliamento pi\u00f9 tecnologici. I computer hanno reso possibile agli scienziati l'esecuzione di calcoli per i quali sarebbe occorsa un'intera vita umana, la possibilit\u00e0 di prevedere le condizioni meteorologiche con grande precisione e quella di far atterrare l'uomo sulla Luna e di far raggiungere alle sonde gli estremi confini del sistema solare... senza contare che adesso un bambino di Shanghai pu\u00f2 giocare con uno inglese senza nemmeno uscire di casa.Anche se all'inizio era visto come una moda passeggera o come uno sciocco giocattolo per ricchi, il computer ha segnato un punto di svolta innegabile nella storia, dal quale non si potr\u00e0 pi\u00f9 tornare indietro.",
+    "quote": "\"I computer sono come il Dio del vecchio testamento: tante regole e nessuna piet\u00e0.\" - Joseph Campbell",
+    "tech_prereqs": [
+        {
+            "name": "Radar|del Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+        },
+        {
+            "name": "Armi combinate|delle Armi combinate",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Robotica|della Robotica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+        },
+        {
+            "name": "Laser|del Laser",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/lasers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Elicottero da guerra|un Elicottero da guerra|dal tuo Elicottero da guerra|al tuo Elicottero da guerra|il tuo Elicottero da guerra|da un Elicottero da guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/helicopter_gunship.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Grande Firewall|il Grande Firewall|un Grande Firewall",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/great_firewall.json"
+        }
+    ]
+}

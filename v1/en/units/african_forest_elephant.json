@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "African Forest Elephant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Powerful early game Mounted Unit. Weak to Spearmen. Only the Carthaginians may build it. This Unit has a higher Combat Strength than the Horseman which it replaces and strikes fear into nearby enemy units. Helps produce Great Generals more quickly.",
+    "historical_info": "Used frequently by the forces of Carthage under legendary general Hannibal during his campaigns against the Romans, the elephant was a valuable beast of burden, as well as a dangerous weapon. Utilized throughout the Punic Wars, with varying amounts of success, the Carthaginian war elephants were trained to charge the enemy lines carrying soldiers mounted in towering gondolas on their backs. Despite their intimidating size, the elephants were susceptible to the advances of mobile infantry, and the care and maintenance requirements of such a large animal often led to their deaths on the arduous marches of the Carthaginian army.",
+    "strategy": "The African Forest Elephant is a Carthaginian unique unit, replacing the Horseman. The Carthaginian Elephants are slower but more powerful than the Horseman. They can move after attacking. They also strike fear into nearby enemy units, giving them all a negative combat modifier. Success in combat with an Elephant has an increased chance of generating Great Generals.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "Horseback Riding",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Feared Elephant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/feared_elephant.json"
+        },
+        {
+            "name": "Great Generals II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/great_generals_ii.json"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": 14,
+    "name": "Offshore Platform",
+    "game_info": "The offshore platform is an important late-game improvement as it provides access to the highly-prized oil resource, but only when that resource is in the ocean (workers construct wells to access oil that is on land). Work boats are consumed when they construct an offshore platform.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/offshore_platform.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Refrigeration",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/refrigeration.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

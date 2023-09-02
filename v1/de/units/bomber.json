@@ -1,0 +1,18 @@
+{
+    "id": 30,
+    "name": "Bomber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bomber.png",
+    "game_info": "Lufteinheit, die Einheiten und St\u00e4dte von oben angreift.",
+    "historical_info": "Bomber sind daf\u00fcr konzipiert, Zerst\u00f6rung auf feindliche Truppen, Panzerungen und Infrastruktur niederregnen zu lassen. Bomber haben generell eine sehr hohe Reichweite, wodurch sie weit in feindliches Gebiet vordringen k\u00f6nnen, um ihre t\u00f6dliche Ladung abzuwerfen. Sie k\u00f6nnen zwar mit Maschinengewehren oder anderen Kurzstreckenwaffen ausgestattet sein, sind aber eigentlich hilflos gegen feindliche Flugzeuge. Daher bed\u00fcrfen sie Begleitschutz anderer Flieger gegen feindliche Lufteinheiten.Alle Gro\u00dfm\u00e4chte setzten im Zweiten Weltkrieg Bomber ein. Der deutsche \"Blitz\" sollte die britische Industrie (ganz zu schweigen von London und anderen St\u00e4dten) aus der Luft zerst\u00f6ren, und die Bomber der Alliierten r\u00e4chten sich, indem sie tonnenweise Sprengstoff auf deutsche St\u00e4dte, Fabriken, Eisenbahnstrecken und andere Infrastruktur abwarfen. Im Pazifik griffen japanische Bomber alliierte St\u00e4dte und Milit\u00e4reinrichtungen an, wobei der Angriff auf Pearl Harbor ein beachtlicher Sieg war. Als die Alliierten schlie\u00dflich die Lufthoheit hatten, brachten sie Zerst\u00f6rung \u00fcber japanische St\u00e4dte und Streitkr\u00e4fte. Bomber (und ihre Verwandten, ballistische Raketen) sind auch heute noch die zerst\u00f6rerischsten Waffen moderner Kriegsf\u00fchrung.",
+    "strategy": "Der Bomber ist eine Lufteinheit, die besonders gegen Bodenziele an Land effektiv ist und im Luftkampf eher schwach abschneidet. Der Bomber kann in einer Stadt oder auf einem Flugzeugtr\u00e4ger des Spielers stationiert werden. Er kann sich von St\u00fctzpunkt zu St\u00fctzpunkt bewegen und Missionen mit einer Reichweite von 10 Gel\u00e4ndefeldern ausf\u00fchren. Bomber eignen sich besonders zum Angriff auf feindliche Einheiten und St\u00e4dte. Wenn m\u00f6glich, sollten zuerst J\u00e4ger geschickt werden, um die feindliche Flugabwehr-Verteidigung f\u00fcr diese Runde zu besch\u00e4ftigen. Siehe Regeln f\u00fcr Flugzeuge f\u00fcr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "free_promotions": []
+}

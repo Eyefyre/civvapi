@@ -1,0 +1,49 @@
+{
+    "id": 57,
+    "name": "Plastik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/plastics.png",
+    "era": "Moderne",
+    "cost": 4100,
+    "civilopedia_entry": "Plastik ist ein leichtes, transparentes und widerstandsf\u00e4higes Material, das Strom nur sehr schlecht leitet. Plastik gibt es in vielen verschiedenen Formen, einige h\u00e4rter, andere biegsamer, wieder andere mit einer h\u00f6heren oder niedrigeren Toleranz gegen\u00fcber Hitze. Plastik kann geformt, gepresst oder in beinahe jede gew\u00fcnschte Form gedr\u00fcckt werden. Es findet sich in jeder Facette des modernen Lebens und wird \u00fcberall genutzt, von Sto\u00dfd\u00e4mpfern f\u00fcrs Auto \u00fcber Prothesen und Beh\u00e4lter f\u00fcr Babynahrung bis zu Infanterie-Waffen. Es ist einer der wichtigsten Bausteine des 21. Jahrhunderts.Das erste von Menschenhand erstellte Plastik wurde 1855 von dem Engl\u00e4nder Alexander Parkes erfunden. Das Produkt, Parkesine, wurde aus Zellulose (Pflanzenzellen-Material) gemacht und als Ersatz f\u00fcr Elfenbein eingesetzt, welches aufgrund des weltweit schwindenden Walbestands immer schwerer zu bekommen war.Das erste vollkommen synthetische Plastik war Bakelit, erfunden im Jahre 1909 von dem belgisch-amerikanischen Erfinder Leo Hendrik Baekeland. Bakelit war g\u00fcnstig, stark und strapazierf\u00e4hig. Es wurde benutzt, um Radios, Telefone, Griffe f\u00fcr Gebrauchsgegenst\u00e4nde, Klaviertasten und Billardkugeln herzustellen. Obwohl es sehr widerstandsf\u00e4hig ist, ist Bakelit auch sehr br\u00fcchig. Es wurde gr\u00f6\u00dftenteils durch g\u00fcnstigeres und biegsameres Plastik wie Polystyrol, PVC, Nylon und weitere exotischere Varianten, die im 20. Jahrhundert entstanden sind, ersetzt.Obwohl es im Moment \u00e4u\u00dferst g\u00fcnstig ist, bedarf das meiste Plastik f\u00fcr seine Herstellung vieler petrochemischer Produkte. Da dieser Treibstoff immer teurer wird, wird das Plastik es wohl auch werden. Es ist m\u00f6glich, dass letztendlich irgendein neues Wundermaterial das allgegenw\u00e4rtige Plastik irgendwann in der Zukunft ersetzen wird, aber vorerst bleibt Plastik unersetzlich.",
+    "quote": "\"Ich sag dir nur ein Wort, nur ein einziges Wort. Plastik!\" - Buck Henry und Calder Willingham, Die Reifepr\u00fcfung",
+    "tech_prereqs": [
+        {
+            "name": "Funkwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radio.json"
+        },
+        {
+            "name": "Normbauteile",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/penicillin.json"
+        },
+        {
+            "name": "Atomtheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Infanterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/infantry.json"
+        },
+        {
+            "name": "Pracinha",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/pracinha.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Forschungslabor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/research_lab.json"
+        },
+        {
+            "name": "Cristo Redentor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/cristo_redentor.json"
+        }
+    ]
+}

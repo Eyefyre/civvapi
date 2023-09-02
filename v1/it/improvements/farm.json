@@ -1,0 +1,43 @@
+{
+    "id": 4,
+    "name": "Fattoria|una Fattoria|una Fattoria",
+    "game_info": "La coltivazione costituisce una delle pi\u00f9 antiche e importanti attivit\u00e0 umane e ha permesso all'uomo di insediarsi stabilmente in un luogo senza esaurirne le risorse. \u00c8 possibile costruire fattorie nella maggior parte delle caselle per incrementarne la produzione di cibo.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fattoria|una_fattoria|una_fattoria.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Frumento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/wheat.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

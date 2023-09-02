@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Recycling-Anlage",
+    "game_info": "Bringt 2 Aluminium ein. Maximal 5 dieser Geb\u00e4ude in Eurem Reich.",
+    "strategy": "Jede Recycling-Anlage bringt 2 Aluminium ein. In Eurem Reich kann es maximal 5 dieser Geb\u00e4ude geben.",
+    "historical_info": "Eine Recycling-Anlage ist eine Sammelstelle f\u00fcr recycelbare Materialien, die in gew\u00f6hnlichen Haushalten und Firmen zu finden sind. In vielen Gemeinden wird recycelbares Material zusammen mit dem Hausm\u00fcll abgeholt und bei der Recycling-Anlage zum Sortieren abgeladen. In den meisten F\u00e4llen werden die Materialien gebrochen oder zerrissen. Geb\u00fcndelt werden sie dann verschickt, um zu einer Vielzahl neuer Produkte weiterverarbeitet zu werden.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/recycling-anlage.png",
+    "prereq_tech": {
+        "name": "\u00d6kologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

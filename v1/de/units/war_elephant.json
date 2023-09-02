@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "Kriegselefant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "Eine schnelle Fernwaffen-Einheit, die in flachem Gel\u00e4nde sehr effektiv ist. Nur die Inder k\u00f6nnen sie bauen. Diese Einheit hat eine h\u00f6here Kampf- und Fernkampfst\u00e4rke als der Streitwagen-Bogensch\u00fctze, den sie ersetzt.",
+    "historical_info": "Kriegselefanten sind ein Furcht einfl\u00f6\u00dfender Anblick auf dem Schlachtfeld und f\u00fcr die eigenen Truppen meist genauso gef\u00e4hrlich wie f\u00fcr den Gegner. Man kann sie mit Fug und Recht als die erste Massenvernichtungswaffe der Welt betrachten. Die Inder setzten Elefanten zu Kriegszwecken ein, bis sie durch die Erfindung des Schie\u00dfpulvers \u00fcberfl\u00fcssig wurden. Vor der Erfindung des Schie\u00dfpulvers dienten Kriegselefanten vor allem zwei Zwecken: Als Erstes versetzte ihr Geruch Pferde in Panik, wodurch die gegnerische Kavallerie praktisch ausgeschaltet wurde. Und als Zweites konnten sie selbst die st\u00e4rksten Infanterie-Reihen durchbrechen und ganze Speerw\u00e4nde zerquetschen, die kein Pferd je \u00fcberlebt h\u00e4tte. Elefanten waren extrem schwer zu t\u00f6ten und Berichten zufolge konnten sie sechzig Pfeile oder sogar mehr \u00fcberleben. Das Hauptproblem mit Elefanten war, dass sie unter Einfluss von Schmerz oder Wut wild wurden und von den Reitern nicht mehr zu kontrollieren waren. Elefantenreiter trugen h\u00e4ufig einen gro\u00dfen Nagel und einen Hammer bei sich, um das Tier zu t\u00f6ten, wenn es sich gegen die eigenen Truppen wandte.",
+    "strategy": "Der Kriegselefant ist die Spezialeinheit der Inder und ersetzt den Streitwagen-Bogensch\u00fctzen. Er ist st\u00e4rker (wenn auch langsamer) als der Streitwagen-Bogensch\u00fctze und kann sich ohne dessen Malus durch jegliches Gel\u00e4nde bewegen. Als berittene Einheit ist der Kriegselefant ziemlich verwundbar gegen Speerk\u00e4mpfer.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "Das Rad",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

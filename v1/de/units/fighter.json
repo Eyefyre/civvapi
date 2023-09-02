@@ -1,0 +1,35 @@
+{
+    "id": 32,
+    "name": "J\u00e4ger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/fighter.png",
+    "game_info": "Lufteinheit f\u00fcr die Vorherrschaft in der Luft und das Abfangen feindlicher Flugzeuge.",
+    "historical_info": "J\u00e4ger-Flugzeuge wurden im Ersten Weltkrieg entwickelt. Die ersten \"J\u00e4ger\" waren nicht viel mehr als Drachen mit Eigenantrieb und Maschinengewehren. Bis zum Zweiten Weltkrieg wurde sowohl die Technologie als auch die Kriegsf\u00fchrung wesentlich verbessert, was die inzwischen gepanzerten Eindecker zu t\u00f6dlichen Zerst\u00f6rungswerkzeugen machte. Die Hauptaufgabe der J\u00e4ger ist es, die Lufthoheit \u00fcber dem Schlachtfeld zu erlangen und feindliche Flugzeuge zu zerst\u00f6ren oder zu verjagen, was es freundlich gesinnten Bombern erm\u00f6glicht, feindliches Gebiet oder Schiffe ungehindert anzugreifen. Manche J\u00e4ger haben dazu Bomben an Bord, die sie gegen Bodeneinheiten einsetzen k\u00f6nnen, doch auch J\u00e4ger ohne Bomben k\u00f6nnen feindliche Boden- oder Marineeinheiten effektiv angreifen.Moderne Kampfflugzeuge sind schneller, besser bewaffnet und gepanzert als die aus dem Zweiten Weltkrieg, doch die Grundlagen des Luftkampfes sind gleich geblieben: Noch immer hat die Konfliktpartei mit Lufthoheit einen immensen Vorteil gegen\u00fcber ihrem Feind.",
+    "strategy": "Der J\u00e4ger ist eine durchschnittlich starke Lufteinheit. Er kann in einer Stadt oder auf einem Flugzeugtr\u00e4ger des Spielers stationiert werden, sich von Stadt zu Stadt (oder Flugzeugtr\u00e4ger) bewegen und Missionen mit einer Reichweite von 8 Gel\u00e4ndefeldern ausf\u00fchren. J\u00e4ger sollten eingesetzt werden, um feindliche Flugzeuge und Bodeneinheiten anzugreifen, feindliche Positionen auszusp\u00e4hen und eigene Einheiten gegen Luftangriffe zu verteidigen. J\u00e4ger sind besonders effektiv gegen feindliche Hubschrauber. Siehe Regeln f\u00fcr Flugzeuge f\u00fcr weitere Informationen.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Luftraums\u00e4uberung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_sweep.json"
+        },
+        {
+            "name": "Luftaufkl\u00e4rung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus gg. Bomber/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 13,
+    "name": "Cacciatorpediniere|un Cacciatorpediniere|dal tuo Cacciatorpediniere|al tuo Cacciatorpediniere|il tuo Cacciatorpediniere|da un Cacciatorpediniere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/destroyer.png",
+    "game_info": "Nave veloce disponibile nelle fasi finali della partita, molto efficace per la ricognizione. Inoltre pu\u00f2 dare la caccia e distruggere i Sottomarini nemici. Combatte come un'unit\u00e0 navale da mischia.",
+    "historical_info": "Un cacciatorpediniere \u00e8 una nave del XX secolo progettata per compiti di pattuglia, scorta e per azioni antiaeree e antisommergibili. I primi cacciatorpediniere erano vascelli leggeri, inadatti alla navigazione oceanica se non con l'aiuto di navi da supporto (tender) che trasportavano carburante aggiuntivo. Nella Seconda Guerra Mondiale i cacciatorpediniere erano diventati veloci, manovrabili e trasportavano abbastanza armi e scorte da rendere possibili missioni a lungo raggio da un capo all'altro del mondo.Un tipico cacciatorpediniere \u00e8 dotato di cannoni antiaerei, cannoni leggeri per l'attacco alle navi, siluri e cariche di profondit\u00e0. In genere i cacciatorpediniere accompagnavano gruppi di portaerei, pattugliando le acque intorno alle navi pi\u00f9 grandi per scovare i sommergibili in agguato e fornire una prima linea di difesa contro gli aerei. Inoltre erano molto utili per scortare i convogli che trasportavano merci e per il pattugliamento dei porti e delle coste. Durante la Seconda Guerra Mondiale servire a bordo di un cacciatorpediniere era davvero pericoloso: durante la guerra ne affondarono 220 tra inglesi, americani, australiani e canadesi, quasi tutti colpiti dagli aerei.",
+    "strategy": "Il Cacciatorpediniere \u00e8 un'unit\u00e0 navale che attacca da vicino, progettata per dare la caccia ai sottomarini e fornire supporto antiaereo. Spesso funziona da scorta per unit\u00e0 imbarcate, corazzate e portaerei che si trovano esposte a un potenziale attacco nemico. \u00c8 un'unit\u00e0 veloce, dotata di una promozione che gli d\u00e0 una buona possibilit\u00e0 di ritirarsi prima che il nemico gli sferri un attacco navale ravvicinato.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combustione|della Combustione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 vedere i sottomarini",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Intercettazione (40)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(40).json"
+        },
+        {
+            "name": "Attacco contro Sottomarini (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Ritirata dalla mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "name": "Optik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/optics.png",
+    "era": "Klassik",
+    "cost": 85,
+    "civilopedia_entry": "Optik ist die Lehre des Sehens und des Lichts. Die fr\u00fchesten und wichtigsten optischen Untersuchungen zielten darauf ab, die Wahrnehmung des menschlichen Auges zu unterst\u00fctzen - in weitere Entfernung zu sehen, winzig kleine Objekte anzusehen oder in der Dunkelheit zu sehen. Die ersten Linsen wurden von den alten \u00c4gyptern und Mesopotamiern entwickelt. Die \u00c4ltesten gefundenen Linsen, aus poliertem Kristall, stammen aus der Zeit um 700 v. Chr. Die Griechen und R\u00f6mer schufen grobe Linsen, indem sie Glaskugeln mit Wasser f\u00fcllten. In \"Optik\" beschrieb Euklid die mathematischen Regeln der Wahrnehmung und untersuchte die Lichtbrechung. Im 8. Jahrhundert n. Chr. studierten islamische Gelehrte die Optik eingehend und schrieben Abhandlungen \u00fcber die Lichtbrechung und die Konstruktion von Linsen und Spiegeln.Die erste tragbare Brille wurde im 12. Jahrhundert in Italien erfunden und das erste primitive Teleskop wie auch das erste Mikroskop wurden im 15. Jahrhundert entwickelt. An heutigen Standards gemessen m\u00f6gen diese Instrumente nicht besonders gut gewesen sein, doch sie erm\u00f6glichten es den Menschen, die Welt viel umfangreicher wahrzunehmen und die unbekannten Ozeane der Welt zu bereisen.",
+    "quote": "\"Auch hatte er eine Maschine verfertigt,vermittelst welcher man wissen konnte,ob es Vollmond w\u00e4re, oder nicht ...\" - Samuel Butler",
+    "tech_prereqs": [
+        {
+            "name": "Segeln",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kompass",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Leuchtturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/lighthouse.json"
+        },
+        {
+            "name": "Gro\u00dfer Leuchtturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/great_lighthouse.json"
+        }
+    ]
+}

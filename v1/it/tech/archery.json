@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "name": "Tiro con l'arco|del Tiro con l'arco",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archery.png",
+    "era": "Epoca antica",
+    "cost": 35,
+    "civilopedia_entry": "Il tiro con l'arco \u00e8 una tecnologia che permette di usare la potenza elastica immagazzinata in un bastone piegato (l'arco) per scagliare un sottile proiettile (la freccia) ad alta velocit\u00e0 e grande distanza. Per tutta la storia dell'uomo archi e frecce sono stati usati per la caccia e per la guerra. L'uso pi\u00f9 antico si perde nelle nebbie del tempo, ma risale probabilmente al paleolitico (terminato circa 14.000 anni fa) o ancora pi\u00f9 indietro: in Africa gli archeologi hanno trovato manufatti di pietra che risalgono a 60.000 anni fa e che potrebbero essere punte di freccia. Praticamente tutte le culture antiche hanno usato arco e frecce, tranne gli aborigeni australiani.Da quando esiste la guerra, gli arcieri ne hanno fatto parte. I primi eserciti greci ed egizi comprendevano contingenti di arcieri, e la stessa cosa si pu\u00f2 dire degli eserciti in India, Asia, Giappone e Americhe. Nel Rinascimento la balestra e le armi da fuoco cominciarono a sostituire arco e frecce in guerra e per la caccia. Nel XVI secolo gli arcieri erano ormai scomparsi dalla maggior parte degli eserciti moderni. Oggi il tiro con l'arco sopravvive come sport in molte culture in tutto il mondo. Alcuni appassionati vanno ancora a caccia con arco e frecce, un'arma che, nonostante la sua et\u00e0, \u00e8 ancora perfettamente in grado di abbattere un cervo oggi come 10.000 anni fa.",
+    "quote": "\"La freccia \u00e8 piumata con le penne dell'aquila. Cos\u00ec, spesso diamo ai nemici i mezzi per la nostra stessa distruzione.\" - Esopo",
+    "tech_prereqs": [
+        {
+            "name": "Agricoltura|dell'Agricoltura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ruota|della Ruota",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arciere|un Arciere|dal tuo Arciere|al tuo Arciere|il tuo Arciere|da un Arciere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/archer.json"
+        },
+        {
+            "name": "Fromboliere|un Fromboliere|dal tuo Fromboliere|al tuo Fromboliere|il tuo Fromboliere|da un Fromboliere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/slinger.json"
+        },
+        {
+            "name": "Guerriero con arco|un Guerriero con arco|dal tuo Guerriero con arco|al tuo Guerriero con arco|il tuo Guerriero con arco|da un Guerriero con arco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Tempio di Artemide|il Tempio di Artemide|il Tempio di Artemide",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/temple_of_artemis.json"
+        }
+    ]
+}

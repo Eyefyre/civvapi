@@ -1,0 +1,68 @@
+{
+    "id": 19,
+    "name": "Manifattura|una Manifattura|una Manifattura",
+    "game_info": "Una Manifattura \u00e8 un complesso di uno o pi\u00f9 edifici dedicati alla costruzione di oggetti. Gli edifici possono includere fonderie, fabbriche, squadre di assemblaggio eccetera, e solitamente lavorano insieme sulla stessa linea di produzione: cos\u00ec la fonderia potrebbe creare l'acciaio che la fabbrica riduce in fogli, successivamente usati per fare lattine, e cos\u00ec via. Una Manifattura ben organizzata pu\u00f2 essere incredibilmente produttiva.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/manifattura|una_manifattura|una_manifattura.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Cavalli",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+        },
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Carbone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+        },
+        {
+            "name": "Petrolio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+        },
+        {
+            "name": "Alluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

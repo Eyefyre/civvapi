@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stone Works",
+    "game_info": "Each source of Marble and Stone worked by this City produce +1 Production.City must have at least one of these resources improved with a Quarry.City must not be in Plains.",
+    "strategy": "Stone Works can only be constructed in a city near an improved Stone or Marble resource. Stone Works increase a city's production. The city must not be in Plains.",
+    "historical_info": "The stone works serves as the workshop for stonemasons, who shape and process various types of stone to create both artistic and structural elements during the construction process. The art of stonemasonry is one of the world's oldest professions, encompassing everything from the extraction of stone from quarries, to the actual carving of geometric shapes and the fitment of these stones at the building site. Historically, stonemasons have worked with everything from Limestone, which was primarily used in building massive structures, to Granite and Marble which were more commonly found in statues and monuments.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stone_works.png",
+    "prereq_tech": {
+        "name": "Calendar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/calendar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 1
+    }
+}

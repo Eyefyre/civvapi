@@ -1,0 +1,41 @@
+{
+    "id": 26,
+    "name": "Br\u00fajula",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/compass.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 375,
+    "civilopedia_entry": "Una br\u00fajula es, en su forma m\u00e1s b\u00e1sica, un aparato que emplea un im\u00e1n o una aguja magnetizada para se\u00f1alar la direcci\u00f3n del norte \"magn\u00e9tico\". Aunque el norte magn\u00e9tico no es id\u00e9ntico al norte \"real\", los dos est\u00e1n lo bastante pr\u00f3ximos como para hacer que resulte un instrumento muy \u00fatil cuando se navega por el mundo. Las primeras br\u00fajulas surgieron en China y Europa (al parecer, de forma separada) en el siglo XII. Permit\u00edan a los marineros seguir minuciosamente el \"rumbo\" (la direcci\u00f3n) de sus barcos en el mar, algo que antes de la aparici\u00f3n de este invento era del todo imposible en los d\u00edas y noches nublados o tormentosos. Eran igualmente \u00fatiles para los viajeros que recorr\u00edan a pie desiertos sin caminos, o se encontraban en medio de una ventisca o en lo m\u00e1s profundo de la b\u00f3veda forestal de una antigua selva.Los viajeros de la actualidad siguen llevando br\u00fajulas, aunque hoy en d\u00eda resultan aparatos algo pintorescos y anticuados, especialmente en comparaci\u00f3n con los sat\u00e9lites de posicionamiento global (GPS), que no solo te dicen d\u00f3nde est\u00e1s, sino que adem\u00e1s te indican d\u00f3nde cae la cafeter\u00eda m\u00e1s cercana, algo que ni la br\u00fajula m\u00e1s buena y precisa puede hacer.",
+    "quote": "\"Creo que la gran pregunta de este mundo no es tanto d\u00f3nde estamos como hacia d\u00f3nde vamos.\" - Oliver Wendell Holmes",
+    "tech_prereqs": [
+        {
+            "name": "\u00d3ptica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/optics.json"
+        },
+        {
+            "name": "Teolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/theology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Astronom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Galeaza|Galeazas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/galleass.json"
+        },
+        {
+            "name": "Gran galeaza|Grandes galeazas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/great_galleass.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Puerto|Puertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/harbor.json"
+        }
+    ]
+}

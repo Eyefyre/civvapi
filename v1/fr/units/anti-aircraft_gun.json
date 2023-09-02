@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Canon antia\u00e9rien|Canons antia\u00e9riens",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "Intercepte toute unit\u00e9 a\u00e9rienne ennemie cherchant \u00e0 bombarder les unit\u00e9s \u00e0 proximit\u00e9.",
+    "historical_info": "Ces pi\u00e8ces d'artillerie tirent des obus vers le ciel. Lorsque la munition atteint une hauteur pr\u00e9d\u00e9finie, elle explose et envoie des balles de shrapnel mortelles vers tous les appareils a\u00e9riens \u00e0 proximit\u00e9. Les canons antia\u00e9riens sont vuln\u00e9rables aux attaques terrestres, et peuvent \u00eatre facilement d\u00e9truits par l'infanterie ou les unit\u00e9s arm\u00e9es ennemies s'ils sont laiss\u00e9s sans protection.",
+    "strategy": "Ces unit\u00e9s d'artillerie sp\u00e9cialis\u00e9es attaquent automatiquement toute unit\u00e9 a\u00e9rienne ennemie en la bombardant dans un rayon de deux cases (elles ne peuvent cependant intercepter qu'une unit\u00e9 par tour). Comme elles sont relativement faibles contre les autres unit\u00e9s terrestres, mieux vaut les faire prot\u00e9ger lorsqu'elles sont susceptibles d'\u00eatre attaqu\u00e9es au sol.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Balistique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contre les a\u00e9ronefs/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

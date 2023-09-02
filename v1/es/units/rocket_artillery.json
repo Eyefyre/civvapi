@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Artiller\u00eda lanzacohetes|Artiller\u00edas lanzacohetes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Una r\u00e1pida unidad de asedio de las \u00faltimas fases del juego. A diferencia de otras unidades de asedio, no tiene que desplegarse antes de disparar.",
+    "historical_info": "Durante la mayor parte de su historia, la artiller\u00eda ha utilizado explosivos qu\u00edmicos para propulsar proyectiles contra sus objetivos. La artiller\u00eda lanzacohetes, por otro lado, dispara cohetes que cuentan con un propulsor propio. Esto permite que haya tubos de lanzamiento mucho m\u00e1s peque\u00f1os y ligeros que los de la artiller\u00eda tradicional, lo que facilita que haya veh\u00edculos artilleros autopropulsados r\u00e1pidos y que siguen disponiendo de una gran potencia. Los sistemas de artiller\u00eda m\u00e1s avanzados pueden contener sistemas de direcci\u00f3n que permiten a los proyectiles corregir el rumbo en pleno vuelo.",
+    "strategy": "La Artiller\u00eda lanzacohetes es un arma de asedio extremadamente poderosa, muy superior a la artiller\u00eda normal. No tiene que desplegarse antes de disparar, lo que hace que sea mucho m\u00e1s r\u00e1pida que los ca\u00f1ones precedentes. Aunque tiene una visibilidad de alcance limitado, se puede usar para disparar fuego indirecto contra objetivos a los que no pueda ver (siempre y cuando otras unidades amigas s\u00ed puedan verlos). Como toda artiller\u00eda, es vulnerable a los ataques de infanter\u00eda y blindados, por lo que debe defenderse con las unidades apropiadas.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Coheter\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuego indirecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/indirect_fire.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

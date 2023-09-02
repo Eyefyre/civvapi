@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Navigation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "Navigation ist die Kunst, auf dem Ozean seinen Weg zu finden. Fr\u00fche Seefahrer hielten sich fast ausschlie\u00dflich in Sichtweite der K\u00fcste auf, wodurch sich die Navigation recht einfach gestaltete. Doch dies schr\u00e4nkte die Bewegungsm\u00f6glichkeiten der Schiffe stark ein und erh\u00f6hte auch das Risiko, von widrigen Winden ans Ufer oder gegen Klippen gedr\u00e4ngt zu werden. F\u00fcr den Kapit\u00e4n eines Segelschiffs (vor der Erfindung der Dampfmaschine) gibt es kaum etwas Be\u00e4ngstigenderes, als an einer \"Leek\u00fcste\" zu fahren, also von einem starken Wind direkt auf ein nahegelegenes Ufer gedr\u00e4ngt zu werden.Vor der Verwendung von Satelliten, Funk und Radar verfolgten Schiffe auf See ihre Bewegungen per \"Koppelnavigation\" auf einer Karte nach. Wenn man die Geschwindigkeit und die genaue Bewegungsrichtung kannte, wusste man ziemlich genau, wo man sich befand. Doch nach einigen Wochen auf See konnte sich die geringste Abweichung bei Geschwindigkeit oder Richtung zu eklatanten Fehlberechnungen summieren. Wenn mitten auf dem Pazifik der Wasservorrat knapp wird und man den einzigen Flecken Land in Tausenden von Kilometern Umkreis ansteuert, auf dem es angeblich Wasser gibt, kann ein Fehler bei der Koppelnavigation sehr leicht zu einem unangenehmen Ende f\u00fchren.Ein Schiffskapit\u00e4n konnte auch zum Himmel blicken, um Hilfe bei der Navigation zu bekommen. Bei sonnigem Wetter erfuhren Kapit\u00e4ne mithilfe von ausgekl\u00fcgelten Instrumenten, wann genau die Sonne den Zenit (den h\u00f6chsten Punkt) \u00fcber dem Schiff erreicht hatte. Wenn sie au\u00dferdem \u00fcber eine pr\u00e4zise Uhr verf\u00fcgten, welche die korrekte Zeit anzeigte, konnten sie mithilfe dieser Information ihren genauen L\u00e4ngengrad (\u00f6stliche oder westliche Entfernung zum Nullmeridian, welcher durch Greenwich, England l\u00e4uft) bestimmen. Diese Art der Positionsbestimmung erforderte nat\u00fcrlich gutes Wetter, eine genaue Uhr und die M\u00f6glichkeit, auch bei hohem Seegang den h\u00f6chsten Sonnenstand zu messen. In klaren N\u00e4chten gaben den Kapit\u00e4nen der Auf- und Untergang bestimmter Sterne \u00e4hnliche Informationen.Mit der Erfindung von Funk, Radar und Satelliten wurde die Navigation nat\u00fcrlich viel leichter und sicherer. Aber selbst heute laufen Schiffe noch auf Grund oder rammen Br\u00fcckenpfeiler - und das sind Schiffe mit Motoren. Ein Segelschiff auf dem korrekten Kurs zu halten erfordert ein Vielfaches mehr an F\u00e4higkeiten.",
+    "quote": "\"Wind und Wellen sind immer auf der Seite des besseren Seefahrers.\" - Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arch\u00e4ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fregatte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/frigate.json"
+        },
+        {
+            "name": "Linienschiff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Wassergeuse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/sea_beggar.json"
+        },
+        {
+            "name": "Freibeuter",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Seehafen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/seaport.json"
+        }
+    ]
+}

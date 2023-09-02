@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "\u00c9l\u00e9phant de guerre|\u00c9l\u00e9phants de guerre",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "Unit\u00e9 de combat \u00e0 distance rapide et particuli\u00e8rement efficace sur terrain plat. L'\u00e9l\u00e9phant de guerre est exclusif aux Indiens. Cette unit\u00e9 est plus puissante en combat rapproch\u00e9 et \u00e0 distance que l'archer sur char, qu'il remplace.",
+    "historical_info": "Terrifiant, souvent aussi dangereux pour leurs propri\u00e9taires que pour les ennemis, l'\u00e9l\u00e9phant de guerre pourrait \u00eatre consid\u00e9r\u00e9 comme la premi\u00e8re arme de destruction massive ayant vu le jour. Les Indiens utilis\u00e8rent les \u00e9l\u00e9phants pour faire la guerre jusqu'\u00e0 ce que l'apparition de la poudre \u00e0 canon ne les rende obsol\u00e8tes. Mais auparavant, l'\u00e9l\u00e9phant de guerre pr\u00e9sentait deux int\u00e9r\u00eats majeurs. Premi\u00e8rement, l'odeur qu'il d\u00e9gageait terrifiait les chevaux, rendant ainsi la cavalerie ennemie totalement inutile. Deuxi\u00e8mement, il avait la capacit\u00e9 de briser le plus r\u00e9sistant des rangs d'infanterie, pulv\u00e9risant un mur de lances qu'aucun cheval n'aurait jamais pu franchir. Les \u00e9l\u00e9phants \u00e9taient tr\u00e8s difficiles \u00e0 tuer et certains \u00e9crits historiques racontent qu'ils pouvaient survivre \u00e0 plus de 60 fl\u00e8ches. Le principal probl\u00e8me pos\u00e9 par les \u00e9l\u00e9phants r\u00e9side dans le fait qu'ils devenaient fous furieux sous la douleur, et donc impossibles \u00e0 contr\u00f4ler. Leur conducteur \u00e9tait g\u00e9n\u00e9ralement \u00e9quip\u00e9 d'un maillet et d'une pointe en fer qu'il devait utiliser pour tuer l'animal si celui-ci attaquait les forces alli\u00e9es.",
+    "strategy": "L'\u00e9l\u00e9phant de guerre est une unit\u00e9 exclusive aux Indiens\u00a0; il remplace l'archer sur char. Il est plus puissant (mais plus lent) que ce dernier, et peut se d\u00e9placer sur n'importe quel type de terrain sans \u00eatre p\u00e9nalis\u00e9. Comme toutes les unit\u00e9s mont\u00e9es, l'\u00e9l\u00e9phant de guerre est particuli\u00e8rement vuln\u00e9rable aux attaques des lanciers.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "La roue",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

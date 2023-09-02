@@ -1,0 +1,29 @@
+{
+    "id": 23,
+    "name": "Especias",
+    "game_info": null,
+    "historical_info": "Las especias son sustancias vegetales que se utilizan para conservar los alimentos y mejorar su sabor, color o textura. Algunas tambi\u00e9n tienen una connotaci\u00f3n religiosa, y se dice que otras tienen propiedades medicinales. Las m\u00e1s comunes incluyen la pimienta, la mostaza, la canela, el azafr\u00e1n y el jengibre. Por lo general, las especias se han de secar y moler antes de utilizarse en la comida. Esto las distingue de las hierbas, como la salvia o el or\u00e9gano, que tienen hojas y son verdes, y pueden usarse frescas o secas.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/especias.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantaci\u00f3n|Plantaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/selva|selvas.json"
+        }
+    ]
+}

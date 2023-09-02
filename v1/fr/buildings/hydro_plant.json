@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Centrale hydro\u00e9lectrique|Centrales hydro\u00e9l\u00e9ctriques",
+    "game_info": "Cases proches d'une rivi\u00e8re\u00a0: +1. Requiert 1\u00a0 Aluminium.La ville doit se situer pr\u00e8s d'une rivi\u00e8re.",
+    "strategy": "La centrale hydro\u00e9lectrique est un b\u00e2timent de milieu de partie ne pouvant \u00eatre construit que dans les villes adjacentes \u00e0 une case de rivi\u00e8re. Elle am\u00e9liore la production de toutes les cases exploit\u00e9es de la ville qui jouxtent le cours d'eau. La construction d'une centrale hydro\u00e9lectrique consomme 1 Aluminium.",
+    "historical_info": "Une centrale hydro\u00e9lectrique est un b\u00e2timent permettant de transformer l'\u00e9nergie hydraulique en \u00e9lectricit\u00e9. Plus la force hydraulique et le volume d'eau sont importants, plus la quantit\u00e9 d'\u00e9lectricit\u00e9 g\u00e9n\u00e9r\u00e9e est grande. Le barrage des Trois-Gorges en Chine est la plus grande centrale hydro\u00e9lectrique du monde. Lorsque le barrage est rempli, il g\u00e9n\u00e8re environ 22 500 m\u00e9gawatts, c'est-\u00e0-dire dix fois plus que le barrage Hoover, aux \u00c9tats-Unis.Les centrales hydro\u00e9lectriques sont g\u00e9n\u00e9ralement consid\u00e9r\u00e9es comme \u00e9tant des sources d'\u00e9nergie \"verte\", m\u00eame si l'impact qu'elles ont sur la faune locale est important. Les centrales capturant l'\u00e9nergie produite par la mar\u00e9e montante sont en effet construites sur des zones c\u00f4ti\u00e8res.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centrale_hydro\u00e9lectrique|centrales_hydro\u00e9l\u00e9ctriques.png",
+    "prereq_tech": {
+        "name": "\u00c9lectricit\u00e9",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

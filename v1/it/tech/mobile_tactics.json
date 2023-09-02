@@ -1,0 +1,32 @@
+{
+    "id": 70,
+    "name": "Tattiche mobili|delle Tattiche mobili",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mobile_tactics.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "Le tattiche mobili sono un complesso di strategie adottate dalle forze militari per consentire a unit\u00e0 veloci e altamente manovrabili di entrare in battaglia e successivamente disimpegnarsi senza restare invischiate in uno scontro prolungato. Le tattiche mobili sono spesso utilizzate da unit\u00e0 irregolari o guerriglieri che si specializzano nel portare attacchi rapidi e imprevedibili allo scopo di disorientare avversari pi\u00f9 potenti.",
+    "quote": "\"Tutti possono osservare le tattiche che mi portano alla conquista, ma quello che nessuno pu\u00f2 vedere \u00e8 la strategia che gradualmente conduce alla vittoria.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Ecologia|dell'Ecologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ecology.json"
+        },
+        {
+            "name": "Fissione nucleare|della Fissione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fisica delle particelle|della Fisica delle particelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fanteria meccanizzata|una Fanteria meccanizzata|dalla tua Fanteria meccanizzata|alla tua Fanteria meccanizzata|la tua Fanteria meccanizzata|da una Fanteria meccanizzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/mechanized_infantry.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Wat|Wats",
+    "game_info": "+3 a Cultura por turno. +50% a Ciencia .",
+    "strategy": "El Wat es el edificio exclusivo siam\u00e9s que sustituye a la Universidad. Aumenta la Cultura de una ciudad, acelerando el crecimiento de sus fronteras y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n. Adem\u00e1s, concede una bonificaci\u00f3n a la Ciencia de la ciudad.",
+    "historical_info": "Un \"Wat\" es un tipo de templo y monasterio budista que se puede encontrar en Camboya, Tailandia o Laos. La traducci\u00f3n literal de \"wat\" es \"escuela\", pues los wats siameses eran a la vez lugares de culto y de ense\u00f1anza. Un wat se compone de un templo en el que hay estatuas de Buda, una sala de oraciones, una habitaci\u00f3n con textos religiosos, un pabell\u00f3n donde relajarse, una biblioteca, un aula de estudios, campanarios y habitaciones. Puede ser un solo edificio o un conjunto de ellos, que a veces llegan a componer una peque\u00f1a ciudad. Construido en el siglo XII, el Angkor Wat (\"wat de Angkor\"), en Camboya, es uno de los m\u00e1s grandes y mejor conservados de todo el sudeste asi\u00e1tico.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat|wats.png",
+    "prereq_tech": {
+        "name": "Educaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 3,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

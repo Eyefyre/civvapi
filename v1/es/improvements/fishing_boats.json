@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "Barcos pesqueros|Barcos pesqueros",
+    "game_info": "Los barcos pesqueros permiten a una civilizaci\u00f3n obtener los valiosos recursos que representan los Cangrejos, la Pesca, las Perlas y las Ballenas. Para crear barcos de pesca, debes construir un barco faenero en una ciudad costera (despu\u00e9s de que tu civilizaci\u00f3n haya aprendido la tecnolog\u00eda necesaria). Cuando se construyen barcos pesqueros, los barcos faeneros se consumen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/barcos_pesqueros|barcos_pesqueros.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Pesca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/fish.json"
+        },
+        {
+            "name": "Ballenas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/whales.json"
+        },
+        {
+            "name": "Perlas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/pearls.json"
+        },
+        {
+            "name": "Cangrejos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 106,
+    "name": "Hakkapelitas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hakkapeliitta.png",
+    "game_info": "Elitarna jednostka konna specjalizuj\u0105ca si\u0119 we wsp\u00f3\u0142pracy z wielkimi genera\u0142ami. Jedynie Szwedzi mog\u0105 j\u0105 wytworzy\u0107.",
+    "historical_info": "Ich ojczyzn\u0105 jest \u015bnie\u017cna p\u00f3\u0142noc \u2013 tam ich serce szemrze na burzliwej pla\u017cy. Hakkapelitas by\u0142a dywizj\u0105 lekkiej fi\u0144skiej kawalerii u\u017cywanej przez szwedzkiego kr\u00f3la Gustawa Adolfa podczas wojny trzydziestoletniej. Wysoce wyszkoleni \u017co\u0142nierze byli doskonali w \u0142upieniu, szpiegostwie, b\u0142yskawicznych atakach i \u2013 w szczeg\u00f3lno\u015bci \u2013 w szar\u017cy. Atakuj\u0105c w pe\u0142nym galopie, Hakkapelitas u\u017cywali pistolet\u00f3w, a gdy ko\u0144 wszed\u0142 w kontakt z przeciwnikiem, dobywali miecza. Ma\u0142e, silne i odporne konie, kt\u00f3rych u\u017cywali, s\u0105 przodkami wsp\u00f3\u0142czesnej narodowej ko\u0144skiej rasy Finlandii \u2013 konia fi\u0144skiego.",
+    "strategy": "Hakkapelitas to elitarna jednostka konna p\u00f3\u017anorenesansowej armii szwedzkiej. W miar\u0119 mo\u017cliwo\u015bci do\u0142\u0105cz do niej wielkiego genera\u0142a. Otrzyma on pr\u0119dko\u015b\u0107 ruchu Hakkapelitas, je\u015bli rozpoczn\u0105 tur\u0119 jako grupa. Dodatkowo, Hakkapelitas otrzyma 15% premii bojowej b\u0119d\u0105c w grupie z wielkim genera\u0142em.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przekazanie punkt\u00f3w ruchu genera\u0142owi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/transfer_movement_to_general.json"
+        },
+        {
+            "name": "Premia za obecno\u015b\u0107 wielkiego genera\u0142a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/great_general_combat_bonus.json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Szyk I|Szyku I|Szykowi I|Szyk I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/formation_i.json"
+        }
+    ]
+}

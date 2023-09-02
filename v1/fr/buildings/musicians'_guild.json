@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Guilde de musiciens|Guildes de musiciens",
+    "game_info": "Fournit 3 points de personnage illustre (PPI) pour faire progresser l'acquisition d'un musicien illustre. Ajoutez jusqu'\u00e0 deux sp\u00e9cialistes \u00e0 ce b\u00e2timent pour gagner de la culture et augmenter la vitesse d'acquisition de musiciens illustres (3 Culture et 3 PPI par sp\u00e9cialiste).",
+    "strategy": "La guilde des musiciens est le seul b\u00e2timent qui contient des emplacements de sp\u00e9cialistes musiciens, essentiels pour g\u00e9n\u00e9rer des musiciens illustres. Si votre objectif est une victoire culturelle, ce b\u00e2timent est indispensable. La guilde des musiciens fournit 3 points de personnage illustre, et chaque sp\u00e9cialiste assign\u00e9 fournit 3 points de personnage illustre et 3 Culture.",
+    "historical_info": "Les guildes de musiciens qui prosp\u00e9r\u00e8rent bri\u00e8vement pendant la Renaissance s'inspiraient des troupes de musiciens de la cour qui se trouvaient sous le patronage et la protection de la noblesse et de la royaut\u00e9. Pendant la Renaissance, alors que la musique visait \u00e0 satisfaire les go\u00fbts des marchands et des classes moyennes, des musiciens sans patronage s'associ\u00e8rent afin de garantir leurs salaires et leur travail. Avec l'av\u00e8nement des orchestres modernes au XVIIe si\u00e8cle, les villes et les cit\u00e9s soutinrent les compositeurs et les chefs d'orchestre, leur permettant de r\u00e9aliser des performances encore plus \u00e9labor\u00e9es. Ce mouvement vers la \"musique civique\" rendit en grande partie inutile la formation de guildes officielles de musiciens. Ce n'est qu'au XXe si\u00e8cle, avec l'explosion de la musique populaire, que les musiciens recommenc\u00e8rent \u00e0 s'organiser de mani\u00e8re formelle, cette fois-ci en syndicats.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/guilde_de_musiciens|guildes_de_musiciens.png",
+    "prereq_tech": {
+        "name": "Acoustique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

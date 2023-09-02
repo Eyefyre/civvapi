@@ -1,0 +1,23 @@
+{
+    "id": 15,
+    "name": "Fregata|Fregaty|Fregacie|Fregat\u0119|Fregat\u0105|Fregacie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/frigate.png",
+    "game_info": "Pot\u0119\u017cna jednostka p\u0142ywaj\u0105ca z epoki renesansu wykorzystywana do walki o panowanie na morzu.",
+    "historical_info": "Fregata pojawi\u0142a si\u0119 podczas \u201eepoki \u017cagla\u201d. By\u0142a mniejsza od tr\u00f3jpok\u0142adowych \u201eokr\u0119t\u00f3w liniowych\u201d, kt\u00f3re stanowi\u0142y rdze\u0144 \u00f3wczesnych flotylli. Mimo mniejszego rozmiaru wci\u0105\u017c by\u0142a na tyle du\u017ca, by dysponowa\u0107 znaczn\u0105 si\u0142\u0105 ognia. Fregaty posiada\u0142y 3 maszty. Dzia\u0142a znajdowa\u0142y si\u0119 tylko na jednym pok\u0142adzie (okr\u0119ty liniowe mog\u0142y posiada\u0107 nawet 3 pok\u0142ady z dzia\u0142ami). W zale\u017cno\u015bci od rozmiaru by\u0142y wyposa\u017cane w od 25 do 50 dzia\u0142. Fregaty s\u0142u\u017cy\u0142y zazwyczaj jako okr\u0119ty patrolowe i eskortowe. Cz\u0119sto wykorzystywano je tak\u017ce do polowania na pirat\u00f3w. Podczas ameryka\u0144skiej wojny w 1812 roku stworzono tak zwane \u201esuperfregaty\u201d, kt\u00f3re by\u0142y w stanie zabra\u0107 na pok\u0142ad do 90 dzia\u0142. Jeden z takich okr\u0119t\u00f3w, USS Constitution, wci\u0105\u017c istnieje. Jest on najstarsz\u0105 fregat\u0105, kt\u00f3ra nadal p\u0142ywa.",
+    "strategy": "Fregata to pierwsza jednostka morska od czas\u00f3w karaweli. Jest od niej nieco szybsza i lepiej uzbrojona. Fregata bez problemu radzi sobie z ka\u017cd\u0105 napotkan\u0105 karawel\u0105, trirem\u0105 i wodn\u0105 jednostk\u0105 barbarzy\u0144c\u00f3w.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

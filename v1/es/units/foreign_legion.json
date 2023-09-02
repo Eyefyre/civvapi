@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "Legi\u00f3n Extranjera|Legiones Extranjeras",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Unidad especial de infanter\u00eda de la \u00c9poca Moderna. Solo puede conseguirse mediante el principio de Ej\u00e9rcito de voluntarios, de la ideolog\u00eda de la Igualdad. Recibe una bonificaci\u00f3n importante al combate cuando opera fuera de su territorio, pero por lo dem\u00e1s es muy similar a la Infanter\u00eda de la Guerra Mundial.",
+    "historical_info": "Fundada en 1831, la Legi\u00f3n Extranjera francesa es una unidad de infanter\u00eda \u00fanica en el ej\u00e9rcito franc\u00e9s. La legi\u00f3n se cre\u00f3 especialmente para los extranjeros que deseaban luchar por Francia. Sus miembros son famosos por su valor y porque su seguridad personal les da completamente igual. Desde que se fund\u00f3, el cuerpo ha estado en servicio en toda guerra que ha librado Francia. La unidad est\u00e1 envuelta en un halo de romanticismo: seg\u00fan la cultura popular, es el lugar donde van los hombres con el coraz\u00f3n roto a olvidar sus desamores y los canallas a escapar de la justicia. Puede que esto sea cierto o puede que no, pero la verdad es que la legi\u00f3n es una fuerza de combate dura y efectiva.",
+    "strategy": "La Legi\u00f3n extranjera es una unidad especial que solo est\u00e1 disponible mediante el principio de Ej\u00e9rcito de voluntarios, de la ideolog\u00eda de la Igualdad. Recibe una bonificaci\u00f3n importante al combate cuando opera fuera de su territorio, lo que la convierte en una unidad excelente para asaltar el territorio enemigo.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Repuestos",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n en tierra extranjera",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

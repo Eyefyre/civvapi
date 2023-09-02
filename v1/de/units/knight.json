@@ -1,0 +1,31 @@
+{
+    "id": 55,
+    "name": "Ritter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/knight.png",
+    "game_info": "M\u00e4chtige berittene Einheit des Mittelalters, anf\u00e4llig gegen\u00fcber Pikenieren.",
+    "historical_info": "Ritter waren fast immer Angeh\u00f6rige des Adels einer Nation: die einzigen Menschen, die sich die notwendige Ausr\u00fcstung, Pferde und umfangreiche Ausbildung leisten konnten. Sie waren die schwere Kavallerie der mittelalterlichen Armee und \u00fcber gro\u00dfe Teile des Mittelalters beherrschten sie das Schlachtfeld. Ihre R\u00fcstung bot ihnen guten Schutz vor Pfeilen und Speeren, und ihre hohe Mobilit\u00e4t erm\u00f6glichte es ihnen, die Schw\u00e4che eines Gegners \u00fcberall auf dem Schlachtfeld auszunutzen. Es erforderte viel Mut, sich dem Angriff eines Ritters zu stellen. Eine Mauer aus Pikenieren konnte heranst\u00fcrmenden Rittern nur widerstehen, wenn sie die Disziplin und den Schneid besa\u00dfen, ihre Stellung zu halten. Wenn sie zur\u00fcckschreckten, waren sie erledigt.",
+    "strategy": "Der Ritter ist eine schnelle und m\u00e4chtige Einheit und unbestrittener K\u00f6nig auf dem mittelalterlichen Schlachtfeld. Als berittene Einheit ist er verwundbar bei Angriffen von Pikenieren, kann andere Einheiten aber relativ einfach vernichten. Der Ritter kann sich nach dem Angriff bewegen und so L\u00fccken in die feindlichen Linien schlagen, durch die er dann hindurchreitet.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

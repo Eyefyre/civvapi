@@ -1,0 +1,40 @@
+{
+    "id": 33,
+    "name": "Acoustics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/acoustics.png",
+    "era": "Renaissance Era",
+    "cost": 780,
+    "civilopedia_entry": "Acoustics is the study of sound. Sounds are waves of energy transmitted through gases, liquids and solids. The most important aspect of acoustics of course is that humans can \"hear\" sounds, and much of the current research involves improving human reception of sounds, especially for the deaf. Acoustics is used in other applications as well, including sonar. Sonar allows equipment to \"hear\" undersea vessels, animals and geological formations.Since acoustics require a medium in which the waves of energy can be transmitted, sound does not travel in the vacuum outside of Earth's atmosphere. It is a creepy but true statement that, \"in space, no one can hear you scream.\"",
+    "quote": "\"Their rising all at once was as the sound of thunder heard remote.\" - Milton",
+    "tech_prereqs": [
+        {
+            "name": "Education",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/architecture.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Opera House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/opera_house.json"
+        },
+        {
+            "name": "Sistine Chapel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/sistine_chapel.json"
+        },
+        {
+            "name": "Ceilidh Hall",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/ceilidh_hall.json"
+        },
+        {
+            "name": "Musicians' Guild",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/musicians'_guild.json"
+        }
+    ]
+}

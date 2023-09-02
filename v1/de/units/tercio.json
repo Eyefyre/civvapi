@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Vorherrschende Milit\u00e4reinheit der Renaissance. Kann nur von Spanien ausgebildet werden. Diese Einheit hat eine h\u00f6here Kampfst\u00e4rke als der Musketier, den sie ersetzt, und die Bef\u00f6rderung 'Bonus gegen Beritten (50)'. Allerdings ist es auch teurer, sie auszubilden.",
+    "historical_info": "Das Tercio ist eine brillante milit\u00e4rische Innovation, die aus einer gemischten Formation aus Pikenieren und Arkebusieren (Soldaten mit \u00e4u\u00dferst primitiven Schusswaffen) besteht. Es wurde im fr\u00fchen 16. Jahrhundert vom spanischen General Gonzalo Fern\u00e1ndez de C\u00f3rdoba erfunden. Das Tercio (auch bekannt als das \"spanische Viereck\") wurde in einer Schachbrett-Formation eingesetzt, in der Pikeniere und Arkebusiere abwechselnd in unterst\u00fctzenden Bl\u00f6cken angeordnet sind. Die Vorteile dieses Aufbaus liegen auf der Hand: Die Arkebusiere k\u00f6nnen den Feind aus der Distanz angreifen und im Nahkampf \u00fcbernehmen die Pikeniere. Diese Formation sollte die Kriegsf\u00fchrung der Renaissance \u00fcber ein Jahrhundert lang beherrschen.",
+    "strategy": "Das Tercio ist eine der zwei Spezialeinheiten Spaniens und ersetzt den Musketier. Diese Einheit ist im Kampf st\u00e4rker als der Musketier und k\u00e4mpft mit doppelter St\u00e4rke gegen berittene Einheiten. Es ist allerdings teurer, das Tercio auszubilden.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "Schie\u00dfpulver",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

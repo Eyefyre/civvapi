@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "name": "Arm\u00e9e combin\u00e9e",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combined_arms.png",
+    "era": "\u00c8re atomique",
+    "cost": 5100,
+    "civilopedia_entry": "L'arm\u00e9e combin\u00e9e est une doctrine militaire ayant vu le jour voil\u00e0 plus d'un mill\u00e9naire. Elle vise \u00e0 regrouper diff\u00e9rents types d'unit\u00e9s compl\u00e9mentaires de fa\u00e7on \u00e0 am\u00e9liorer l'efficacit\u00e9 g\u00e9n\u00e9rale d'une arm\u00e9e. \u00c0 l'antiquit\u00e9, l'arm\u00e9e combin\u00e9e \u00e9tait utilis\u00e9e par la plupart des grandes puissances, particuli\u00e8rement les Grecs et les Romains, qui organisaient avec soin l'infanterie lourde et l\u00e9g\u00e8re, la cavalerie et les armes \u00e0 distance pour cr\u00e9er des formations unies \u00e9quilibrant les forces et les faiblesses de chacun. De nos jours, l'av\u00e8nement des armes a\u00e9riennes a conduit \u00e0 des variations encore plus complexes autour du concept traditionnel d'arm\u00e9e combin\u00e9e. Les drones, les missiles guid\u00e9s par satellite et les bombardiers stratosph\u00e9riques ne sont que quelques exemples de l'arsenal toujours plus large offert aux commandants militaires modernes.",
+    "quote": "\"Les racines du mal ne sont pas dans la construction de nouvelles armes plus redoutables. Elles sont dans l'esprit de conqu\u00eate.\" - Ludwig von Mises",
+    "tech_prereqs": [
+        {
+            "name": "Balistique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+        },
+        {
+            "name": "Combustion",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/combustion.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Informatique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Char|Chars",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/tank.json"
+        },
+        {
+            "name": "Panzer|Panzers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/panzer.json"
+        },
+        {
+            "name": "Canon antichar|Canons antichars",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/anti-tank_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Pentagone|Pentagones",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/pentagon.json"
+        }
+    ]
+}

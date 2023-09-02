@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Central nuclear|Centrales nucleares",
+    "game_info": "Requiere 1 de Uranio . La ciudad no debe tener una Central de energ\u00eda solar.",
+    "strategy": "La Central nuclear aumenta notoriamente la productividad de una ciudad. Para poder construirla, se necesita un recurso de Uranio . La ciudad ha de contar con una F\u00e1brica para poder construirla.",
+    "historical_info": "La central nuclear es un edificio en el que la energ\u00eda nuclear controlada se convierte en electricidad. La energ\u00eda de la fisi\u00f3n nuclear se utiliza para calentar agua y convertirla en vapor. Este vapor se bombea a trav\u00e9s de turbinas que generan energ\u00eda el\u00e9ctrica. A corto plazo, la energ\u00eda nuclear es mucho m\u00e1s limpia que el petr\u00f3leo o el carb\u00f3n, pues produce mucha menos contaminaci\u00f3n que envenene el aire, el agua y a las personas que hay cerca. No obstante, la central produce muchos residuos nucleares, un subproducto notablemente letal que debe almacenarse durante siglos antes de que pierda su toxicidad. Adem\u00e1s, un accidente importante en una central nuclear tiene efectos mucho m\u00e1s horribles y duraderos que el ocurrido en cualquier otra clase de planta generadora de electricidad. Encontrar la energ\u00eda suficiente para mantener al planeta alimentado es un problema dif\u00edcil y peligroso que la humanidad tendr\u00e1 que afrontar en el futuro, hasta que descubra una nueva fuente de energ\u00eda abundante, limpia y segura.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/central_nuclear|centrales_nucleares.png",
+    "prereq_tech": {
+        "name": "Fisi\u00f3n nuclear",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 10,
+    "name": "Wild",
+    "game_info": null,
+    "historical_info": "Wild und die dazugeh\u00f6rigen Arten - Rentiere, Elche, Rehe usw. - findet man in Herden auf der ganzen Welt. \u00dcber unz\u00e4hlige Jahrtausende hinweg nutzte die vorindustrielle Gesellschaft sie als Quelle von Nahrung, Leder, Knochen, Sehnen und weiteren Materialien.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wild.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Jagdlager",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/wald.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

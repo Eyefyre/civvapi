@@ -1,0 +1,56 @@
+{
+    "id": 22,
+    "name": "Theology",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/theology.png",
+    "era": "Medieval Era",
+    "cost": 275,
+    "civilopedia_entry": "Theology is the study of religion. Theologians study religious traditions and beliefs. The practice goes at least as far back in history as the Classical Greeks, who had an extremely rich mythology and religious tradition to observe. In the first and second century AD, Jewish religious scholarship flourished. The Jerusalem Talmud, a collection of Rabbinic notes about Jewish Oral tradition, was published around 200 AD and added to and expanded upon over the next two centuries.Theology is important. It has had an incredibly powerful effect upon world history. Countless millions have died over religious disputes, and they continue to do so today. The Romans killed Christians over their radical new theology which denied the existence of the Roman gods. Christians killed Jews and Muslims and Christians over religious disputes. Theologian and Christian revolutionary Martin Luther triggered hundreds of years of brutal religious conflict in Europe with his \"95 Theses\" questioning, among other things, the selling of papal indulgences (divine forgiveness of sins) to pay for the construction of St. Peter's Basilica. If it is ever to end, theology will be of critical importance in solving the current religious war between radical Muslims and the Western World.",
+    "quote": "\"Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do.\" - St. Thomas Aquinas",
+    "tech_prereqs": [
+        {
+            "name": "Philosophy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/philosophy.json"
+        },
+        {
+            "name": "Drama and Poetry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/drama_and_poetry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Compass",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+        },
+        {
+            "name": "Education",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Garden",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/garden.json"
+        },
+        {
+            "name": "Hagia Sophia",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hagia_sophia.json"
+        },
+        {
+            "name": "Great Mosque of Djenne",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/great_mosque_of_djenne.json"
+        },
+        {
+            "name": "Grand Temple",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/grand_temple.json"
+        },
+        {
+            "name": "Candi",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/candi.json"
+        },
+        {
+            "name": "Borobudur",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/borobudur.json"
+        }
+    ]
+}

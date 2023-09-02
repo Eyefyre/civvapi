@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Drama and Poetry",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "Classical Era",
+    "cost": 175,
+    "civilopedia_entry": "Drama and poetry are both forms of artistic expression, the former expressed through the use of visual performance, the latter through the written word. Drama is most commonly associated with theatrical performances - plays, musicals, and operas - although in modern times these traditional forms have been surpassed by television and movie productions. Poetry focuses on the use of written language to express both a literal meaning, and often a thought-provoking underlying message.",
+    "quote": "\"What is\u00a0drama\u00a0but life with the dull bits cut out.\" - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "Writing",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Theology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/theology.json"
+        },
+        {
+            "name": "Civil Service",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "National Epic",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/national_epic.json"
+        },
+        {
+            "name": "Amphitheater",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/amphitheater.json"
+        },
+        {
+            "name": "Writers' Guild",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Parthenon",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/parthenon.json"
+        }
+    ]
+}

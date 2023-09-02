@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "Afrikanischer Waldelefant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Kraftvolle berittene Einheit im Anfangsstadium des Spiels. Anf\u00e4llig gegen\u00fcber Speerk\u00e4mpfern. Nur die Karthager k\u00f6nnen sie bauen. Diese Einheit hat eine h\u00f6here Kampfst\u00e4rke als der Reiter, den sie ersetzt. Sie ver\u00e4ngstigt feindliche Einheiten in der N\u00e4he und hilft, Gro\u00dfe Gener\u00e4le schneller zu produzieren.",
+    "historical_info": "Der Elefant, der unter dem legend\u00e4ren General Hannibal bei seinen Feldz\u00fcgen gegen die R\u00f6mer h\u00e4ufig in den Streitkr\u00e4ften Karthagos eingesetzt wurde, war wertvolles Lasttier und gef\u00e4hrliche Waffe zugleich. Karthagische Kriegselefanten wurden in den Punischen Kriegen mit wechselndem Erfolg verwendet und waren darauf trainiert, mit Soldaten auf dem R\u00fccken in die feindlichen Linien zu st\u00fcrmen. Trotz ihrer Furcht einfl\u00f6\u00dfenden Gr\u00f6\u00dfe waren Elefanten beim Einsatz mobiler Infanterie sehr verwundbar, und die hohen Nahrungs- und Pflegeanforderungen dieser gewaltigen Tiere f\u00fchrten oft dazu, dass sie auf den qu\u00e4lenden M\u00e4rschen der karthagischen Armee verendeten.",
+    "strategy": "Der Afrikanische Waldelefant ist eine Einheit nur f\u00fcr Karthager, die den Reiter ersetzt. Sie sind langsamer, aber kraftvoller als die Reiter. Sie k\u00f6nnen sich nach dem Angriff noch bewegen. Sie be\u00e4ngstigen auch Einheiten in der N\u00e4he und geben ihnen einen negativen Kampfmultiplikator. Der Erfolg im Kampf mit einem Elefanten erh\u00f6ht die Wahrscheinlichkeit auf Gro\u00dfe Gener\u00e4le.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "Reiterei",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Furchteinfl\u00f6\u00dfender Elefant",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/feared_elephant.json"
+        },
+        {
+            "name": "Gro\u00dfe Gener\u00e4le II",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/great_generals_ii.json"
+        }
+    ]
+}

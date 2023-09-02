@@ -1,0 +1,18 @@
+{
+    "id": 5,
+    "name": "SS Engine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_engine.png",
+    "game_info": "One of the Spaceship parts that must be built and sent to the capital to win a Science Victory.",
+    "historical_info": "The engine for the spaceship is a modified ion drive. Once the boosters have propelled the ship into Earth's orbit, the engines will kick in, driving the ship into deep space. The vessel will accelerate slowly but steadily for the first eight years of its journey, then coast for most of the trip. As it approaches Alpha Centauri, the ship will rotate 180 degrees and the engines will fire in the opposite direction for the last eight years, slowing the ship until it is in orbit around the target planet.",
+    "strategy": "This unit is part of the spaceship which must be constructed to win a science victory. See the section on Victory for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Particle Physics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/particle_physics.json"
+    },
+    "free_promotions": []
+}

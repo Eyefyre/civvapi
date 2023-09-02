@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Base militar|Bases militares",
+    "game_info": "La ciudad debe tener una F\u00e1brica de armas.",
+    "strategy": "La Base militar es un edificio de mediados del juego que aumenta en 12 la Fuerza defensiva de la ciudad y en 25 sus puntos de golpe. Para poder construir una Base militar, la ciudad ha de contar con una F\u00e1brica de armas.",
+    "historical_info": "La base militar est\u00e1 formada por un grupo de estructuras y terrenos que acogen a una o m\u00e1s unidades militares importantes: legiones, divisiones, flotas, u otros grupos cuyo nombre depende del tipo de organizaci\u00f3n militar. Contiene todo lo necesario para entrenar en combate a la unidad militar, incluyendo campos de entrenamiento, alojamientos para oficiales, cuarteles, calabozos, polvorines, hospitales, almacenes, equipo de transporte, etc. Estas bases suelen estar bien protegidas y ubicadas en terrenos f\u00e1cilmente defendibles. Si no hay una traici\u00f3n de por medio, se necesitar\u00eda todo un ej\u00e9rcito para capturar o destruir una base militar.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/base_militar|bases_militares.png",
+    "prereq_tech": {
+        "name": "Repuestos",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "id": 4,
+    "name": "\u00d6l",
+    "game_info": "Wird sp\u00e4ter im Spiel f\u00fcr starke Einheiten ben\u00f6tigt.",
+    "historical_info": "\u00d6l ist ein fl\u00fcssiger Brennstoff, der in kleinen und gro\u00dfen Vorkommen \u00fcberall auf der Welt zu finden ist. Auch wenn es von einigen wenigen Zivilisationen schon vor 4.000 Jahren dazu verwendet wurde, Asphalt und Naphtha herzustellen oder durch Verbrennen Licht zu erzeugen, datiert der Beginn seiner neuzeitlichen Verwendung auf das Jahr 1857, als im franz\u00f6sischen Elsass die erste moderne Raffinerie errichtet wurde. Etwa zur gleichen Zeit wurde \u00fcberall in Europa und Nordamerika nach \u00d6l gebohrt. Zu Anfang des 20. Jahrhunderts war die Nachfrage nach \u00d6l bereits enorm, was vor allem auf die Verwendung von Verbrennungsmotoren in Schiffen, Flugzeugen und Automobilen zur\u00fcckgef\u00fchrt werden kann. Die internationale Politik wird heutzutage oft von den zunehmenden Spannungen zwischen F\u00f6rder- und Abnehmerl\u00e4ndern bestimmt. Wichtig: \u00d6l ist eine strategische Ressource und wird als solche verbraucht, wenn man die damit verbundenen Einheiten und Geb\u00e4ude baut.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/\u00f6l.png",
+    "prereq_tech": {
+        "name": "Biologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/biology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Bohrturm",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/oil_well.json"
+        },
+        {
+            "name": "Bohrinsel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/offshore_platform.json"
+        },
+        {
+            "name": "Zollamt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/academy.json"
+        },
+        {
+            "name": "Zitadelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/citadel.json"
+        },
+        {
+            "name": "Fabrikanlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/manufactory.json"
+        },
+        {
+            "name": "Heilige St\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/dschungel.json"
+        },
+        {
+            "name": "Sumpf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/sumpf.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/schnee.json"
+        },
+        {
+            "name": "K\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/k\u00fcste.json"
+        }
+    ]
+}

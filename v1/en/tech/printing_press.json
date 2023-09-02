@@ -1,0 +1,48 @@
+{
+    "id": 35,
+    "name": "Printing Press",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/printing_press.png",
+    "era": "Renaissance Era",
+    "cost": 780,
+    "civilopedia_entry": "While movable type was invented in China, as far as can be determined, the first mechanized printing press was invented in the mid-fifteenth century by German printer Johannes Gutenberg. The earliest printing presses were wooden machines, very similar in design to the wine and olive oil presses which had been used around the Mediterranean for centuries.In the original presses, the type was laid out in reverse on a wooden \"platen\" which held it tightly in position. Ink was applied to the type on the platen, then the paper was placed atop the platen in the press. The craftsmen turned the screw to put pressure on the paper and bring it into contact with the inked type. The printer then removed the paper and reinked the type, and the process began once again. Gutenberg's press could turn out some 250 sheets per hour (printed on one side). His design remained unchanged for some three hundred years, until it was supplanted by metal machines. By the nineteenth century, presses were powered by steam, and capable of producing some 7500 sheets per hour.The value of the printing press to human knowledge cannot be overstated. Before the press, few books were in print, and those that were might cost more than the average worker made in a year. Cambridge University Library had just over 100 books when the press was invented; within an astonishingly short time common folks could afford to have bibles and other books in their homes. Within 60 years the first printed \"news book\" (forerunner to the newspaper) appeared in England.",
+    "quote": "\"It is a newspaper's duty to print the news and raise hell.\" - The Chicago Times",
+    "tech_prereqs": [
+        {
+            "name": "Machinery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+        },
+        {
+            "name": "Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/physics.json"
+        },
+        {
+            "name": "Chivalry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Economics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+        },
+        {
+            "name": "Metallurgy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zoo",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/zoo.json"
+        },
+        {
+            "name": "Leaning Tower of Pisa",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/leaning_tower_of_pisa.json"
+        },
+        {
+            "name": "Globe Theatre",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/globe_theatre.json"
+        }
+    ]
+}

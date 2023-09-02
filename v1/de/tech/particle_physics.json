@@ -1,0 +1,36 @@
+{
+    "id": 77,
+    "name": "Teilchenphysik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/particle_physics.png",
+    "era": "Informationszeitalter",
+    "cost": 8800,
+    "civilopedia_entry": "Teilchenphysik f\u00fchrt uns einen Schritt n\u00e4her an das Verst\u00e4ndnis der Natur von Materie und Energie heran als sein Vorg\u00e4nger, die Atomtheorie. W\u00e4hrend der Begriff \"Atom\" erst 1803 durch den Chemiker John Dalton gepr\u00e4gt wurde, reicht die Idee, dass jede Materie in immer kleinere grundlegende Bausteine aufgespalten werden kann, zur\u00fcck bis ins 6. Jahrhundert v. Chr. Moderne Teilchenphysik oder besser gesagt die Erforschung von Quantenmechanik begann erst im Jahre 1838 mit der Entdeckung von Kathodenstrahlen durch Michael Faraday, welche dabei half zu beweisen, dass Atome - bis dahin die kleinsten bekannten Objekte in der Wissenschaft - tats\u00e4chlich aus noch kleineren Teilchen bestehen.Im Allgemeinen kann die Grundlage der Quantentheorie durch das Standardmodell zusammengefasst werden, in dem 17 Arten von Elementarteilchen kategorisiert werden: zw\u00f6lf Fermionen, vier Vektorbosonen und ein Skalarboson (nicht Protonen und Neutronen, wie es gemeinhin auf den unteren Bildungsebenen gelehrt wird - diese bestehen eigentlich aus Quarks, unterschiedlichen Varianten von Fermionen). Teilchen in Verbindung mit Materie geh\u00f6ren zu den Fermionen (sie besitzen einen halbzahligen Spin) und Teilchen, die mit Kr\u00e4ften in Verbindung stehen, die Bosonen, besitzen einen ganzzahligen Spin. Aus diesen 17 Grundteilchen k\u00f6nnen Hunderte von anderen Arten von Verbund- und Elementarteilchen erschaffen werden.Obwohl viele Teilchenphysiker glauben, dass es immer noch gr\u00f6\u00dfere Zusammenh\u00e4nge gibt, das es zu entdecken gilt, haben Forschungen in der Teilchenphysik gezeigt, dass es m\u00f6glich ist, Blei in Gold umzuwandeln (allerdings nicht gewinnbringend), und dass solche Fantasien aus dem Science-Fiction-Bereich wie dunkle Materie und die Weltformel tats\u00e4chlich existieren k\u00f6nnten.",
+    "quote": "\"Jeder Massenpunkt zieht jeden anderen Massenpunkt mittels einer Kraft an, die umgekehrt proportional zum Quadrat des Abstandes der beiden Massen ist.\" - Isaac Newton",
+    "tech_prereqs": [
+        {
+            "name": "Telekommunikation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/telecommunications.json"
+        },
+        {
+            "name": "Mobile Taktiken",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Fortgeschrittene Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Zukunftstechnologien",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "RS-Motor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ss_engine.json"
+        }
+    ],
+    "building_unlocks": []
+}

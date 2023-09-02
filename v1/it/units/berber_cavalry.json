@@ -1,0 +1,39 @@
+{
+    "id": 129,
+    "name": "Cavalleria berbera|una Cavalleria berbera|dalla tua Cavalleria berbera|alla tua Cavalleria berbera|la tua Cavalleria berbera|da una Cavalleria berbera",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berber_cavalry.png",
+    "game_info": "Unit\u00e0 a cavallo specializzata nel combattimento nel deserto e nella protezione del territorio marocchino. Riceve un bonus al combattimento quando lotta in una casella di Deserto e quando si trova all'interno del territorio marocchino. Solo il Marocco pu\u00f2 costruirla.",
+    "historical_info": "I fieri guerrieri berberi hanno abitato per secoli il Maghreb, dominando la regione montuosa del Rif e il Sahara occidentale. I famosi cavalli berberi sono una razza nordafricana di eccezionale resistenza. I guerrieri indossavano vesti leggere, adatte al clima caldo e secco, a cui si aggiungevano mantelli durante l'inverno. Le loro armi erano un adattamento di quelle arabe: una lunga spada dritta, un pugnale ricurvo finemente ornato e un'arma da fuoco a canna lunga (con la canna liscia o rigata). Sebbene effettuassero comunemente scorribande contro le carovane o gli insediamenti costieri, i cavalieri berberi non temevano di affrontare una battaglia convenzionale: in molti conflitti dimostrarono il loro valore contro i cavalieri europei, che rispetto a loro erano corazzati e armati pesantemente.",
+    "strategy": "Questa unit\u00e0 a cavallo, fiera combattente dei deserti del Marocco, sostituisce la Cavalleria. Riceve un bonus al combattimento quando lotta in una casella di Deserto e quando si trova all'interno del territorio marocchino (i due bonus si sommano).",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Scienza militare|della Scienza militare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Guerriero del Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/desert_warrior.json"
+        },
+        {
+            "name": "Guardiano della terra natia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/homeland_guardian.json"
+        }
+    ]
+}

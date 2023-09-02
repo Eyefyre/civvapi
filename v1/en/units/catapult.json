@@ -1,0 +1,39 @@
+{
+    "id": 64,
+    "name": "Catapult",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/catapult.png",
+    "game_info": "First siege Unit of the game. Does major damage to Units and Cities from a distance, but must set up prior to firing.",
+    "historical_info": "The exact date of the invention of the catapult is uncertain, but Greek armies were known to have employed them as far back as the third century BC. Catapults use energy stored in twisted rope or bent wood to hurl missiles a great distance. They are quite inaccurate, but can be deadly against big or slow targets - forts, for instance (which are fairly large and don't move very fast at all). Generally catapults were transported in pieces, then assembled at the field of battle. Occasionally they were constructed on the spot by engineers. The last catapults to see battle appeared in World War I, used by the French to hurl grenades at the enemy trenches.",
+    "strategy": "The Catapult is a siege weapon, extremely useful when assaulting early enemy cities. It is slow and extremely vulnerable to enemy melee attack; it always should be supported by other units when it's in the field. The Catapult must \"set up\" (1 Movement Point) before attacking.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Mathematics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

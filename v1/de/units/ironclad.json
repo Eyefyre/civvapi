@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "name": "Panzerschiff",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ironclad.png",
+    "game_info": "Das Panzerschiff, eine sehr starke Marine-Nahkampfeinheit, bezahlt f\u00fcr seine St\u00e4rke mit geringerer Geschwindigkeit auf Ozeanfeldern.",
+    "historical_info": "Schon zu Zeiten Leonardo da Vincis tr\u00e4umten Vision\u00e4re von maschinenbetriebenen bewaffneten Schiffen, doch erst im Amerikanischen B\u00fcrgerkrieg Mitte des 19. Jahrhunderts waren Panzerschiffe weiter verbreitet. Die erste richtige Panzerschiff-Schlacht fand 1862 im Amerikanischen B\u00fcrgerkrieg statt, als die \"Monitor\" der Nordstaaten und die \"Virginia\" (auch \"Merrimac\" genannt) der S\u00fcdstaaten aufeinandertrafen. Die Schlacht dauerte vier Stunden und die Kanonen beider Schiffe feuerten st\u00e4ndig mit nur geringen Auswirkungen - letztlich endete die Schlacht unentschieden. Doch die Auswirkungen dieser Schlacht auf die Welt waren bahnbrechend. Diese schwerf\u00e4lligen und plumpen Schiffe - die sich gegen den Wind bewegen konnten und Geschosse aus den damaligen Kanonen ohne Weiteres abhielten - sorgten an einem einzigen Morgen ergebnisloser K\u00e4mpfe daf\u00fcr, dass die Marineverb\u00e4nde aller Staaten mit einem Mal veraltet waren.",
+    "strategy": "Panzerschiffe sind die ersten dampfgetriebenen Kriegsschiffe im Spiel. Sie k\u00e4mpfen als Nahkampf-Marineeinheit, sind schwieriger zu zerst\u00f6ren als jedes Segelschiff und haben eine gr\u00f6\u00dfere Kampfst\u00e4rke. Sie sollten haupts\u00e4chlich zur K\u00fcstenverteidigung und zum Angriff auf St\u00e4dte eingesetzt werden.",
+    "movement": 3,
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Dampfmaschine",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Doppelte Fortbew. an der K\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/double_movement_in_coast.json"
+        },
+        {
+            "name": "Bonus gegen St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": 5,
+    "name": "Mine",
+    "game_info": "Minen geh\u00f6ren zu den bedeutendsten Modernisierungen in Civilization V. Sie erh\u00f6hen nicht nur die Produktion eines Gel\u00e4ndefelds, was einen schnelleren Bau von Einheiten, Geb\u00e4uden und Wundern erm\u00f6glicht, sondern bieten zudem Zugang zu einigen der wichtigsten Ressourcen im Spiel: Eisen, Kohle und Uran, um nur ein paar zu nennen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/mine.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "Kohle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Edelsteine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+        },
+        {
+            "name": "Gold",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+        },
+        {
+            "name": "Silber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silver.json"
+        },
+        {
+            "name": "Kupfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+        },
+        {
+            "name": "Salz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Bergbau",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mining.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

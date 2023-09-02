@@ -1,0 +1,18 @@
+{
+    "id": 79,
+    "name": "Warrior",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/warrior.png",
+    "game_info": "Fairly weak early-game military Unit.",
+    "historical_info": "In primitive civilizations there's no such thing as a \"professional soldier.\" A young civilization can't afford to support a full-time army; all of the civilization's able-bodied men form an ad hoc militia, coming together during a crisis, dispersing back to their farms and villages during peace. Such warriors usually have very little training and are equipped with the most primitive of weapons - clubs, perhaps, or stone daggers.",
+    "strategy": "The Warrior is the earliest combat unit available, useful for battling barbarians, early city defense and limited exploration. Warriors are generally not strong enough to take enemy cities, unless heavily supported by Archers and Catapults - and even then they may simply not have the strength for the task.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

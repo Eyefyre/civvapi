@@ -1,0 +1,44 @@
+{
+    "id": 2,
+    "name": "Ceramica|della Ceramica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/pottery.png",
+    "era": "Epoca antica",
+    "cost": 35,
+    "civilopedia_entry": "La ceramica \u00e8 una delle arti pi\u00f9 antiche e utili all'uomo. La padronanza della ceramica permette di costruire oggetti di argilla che poi sono cotti in forno ad altissime temperature. Il prodotto che ne risulta \u00e8 estremamente fragile ma \u00e8 a prova d'aria e resiste perfettamente alla corrosione, all'ossidazione, alle infestazioni animali e a tutte le altre forze distruttive che potrebbero attaccare oggetti fatti di metallo, legno o stoffa. I primi oggetti di terracotta includono brocche e contenitori per liquidi o granaglie, oltre a pentole, coppe, piatti e stoviglie.I primi oggetti prodotti risalgono a 9.000 anni fa e non sono di ceramica, ma appunto di terracotta. Si tratta di un materiale poroso, che in genere veniva ricoperto da una patina impermeabile o smaltato. Le stoviglie di terracotta sono estremamente durevoli (se non si rompono) e restano in uso ancora oggi. La ceramica dura, o gr\u00e8s, viene cotta a temperature altissime che \"vetrificano\" l'argilla, rendendola simile al vetro ed eliminando la porosit\u00e0. Questo processo \u00e8 stato scoperto in Cina intorno al 1400 a.C. Anche la porcellana \u00e8 stata inventata in Cina, intorno al VI secolo d.C. \u00c8 simile al gr\u00e8s (anzi, la linea di demarcazione tra i due materiali \u00e8 argomento di dibattito), ma gli oggetti di porcellana in genere sono pi\u00f9 delicati e traslucidi.",
+    "quote": "L'argilla dir\u00e0 forse a colui che le d\u00e0 forma: \"Che fai\"? - La Bibbia, Isaia, 45:9",
+    "tech_prereqs": [
+        {
+            "name": "Agricoltura|dell'Agricoltura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Vela|della Vela",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+        },
+        {
+            "name": "Calendario|del Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/calendar.json"
+        },
+        {
+            "name": "Scrittura|della Scrittura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/writing.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Granaio|il Granaio|un Granaio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/granary.json"
+        },
+        {
+            "name": "Piramide|la Piramide|una Piramide",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/pyramid.json"
+        },
+        {
+            "name": "Santuario|il Santuario|un Santuario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/shrine.json"
+        }
+    ]
+}

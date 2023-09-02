@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Stealth Bomber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "A long-range Air Unit that rains death from above onto enemy Units and Cities.",
+    "historical_info": "As anti-aircraft missile technology has evolved, so has the design of strategic and tactical bombers. One way to avoid being shot down by an enemy is to remain invisible to the enemy's radar and other tracking devices. The modern stealth bomber is built of strong composite materials specially coated with anti-radar materials and is shaped as to deflect enemy radar. Stealth bombers can carry nuclear or standard bombs. While quite effective, stealth bombers are also staggeringly expensive, with each American B-2 stealth bomber costing approximately one billion US dollars, more than enough to break the bank of nearly any non-super power in the world.",
+    "strategy": "The Stealth Bomber is an upgraded bomber, possessing increased range, a greater Ranged Combat Strength, and an increased ability to avoid enemy anti-aircraft and fighters. The Stealth Bomber has the \"air recon\" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. Note that Stealth Bombers cannot be transported aboard Carriers. See the rules on Aircraft for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Stealth",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasion (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Air Recon",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/air_recon.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 57,
+    "name": "Naresuans Elefant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/naresuan's_elephant.png",
+    "game_info": "M\u00e4chtige berittene Einheit des Mittelalters, anf\u00e4llig gegen\u00fcber Pikenieren. Nur die Siamesen k\u00f6nnen sie bauen. Diese Einheit erh\u00e4lt einen Bonus gegen andere berittene Einheiten und hat eine h\u00f6here Kampfst\u00e4rke als der Ritter, den sie ersetzt.",
+    "historical_info": "In S\u00fcdostasien wurden Elefanten noch weit bis ins Mittelalter in der Kriegsf\u00fchrung eingesetzt. Besonders in Siam waren Kriegselefanten hochgesch\u00e4tzt und Anf\u00fchrer k\u00e4mpften h\u00e4ufig von ihren R\u00fccken aus. 1593 endete ein Krieg zwischen Birma und Siam mit einem siamesischen Sieg, als der siamesische K\u00f6nig Naresuan den birmesischen Kronprinzen Minchit Sra im Einzelkampf auf den R\u00fccken von Elefanten besiegte.",
+    "strategy": "Dies ist die siamesische Spezialeinheit, die den Ritter ersetzt. Die Einheit Naresuans Elefant ist langsamer als ein Ritter, aber daf\u00fcr st\u00e4rker. Genau wie der Ritter kann Naresuans Elefant sich nach dem Angriff bewegen. Da er mit Speeren ausger\u00fcstet ist, erh\u00e4lt der Elefant einen erheblichen Kampfbonus beim Angriff auf berittene Einheiten.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Kusznicy|Kusznik\u00f3w|Kusznikom|Kusznik\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "\u015aredniowieczna jednostka strzelaj\u0105ca.",
+    "historical_info": "Kusz\u0119 wynaleziono w Europie w X wieku. Mimo mniejszej szybkostrzelno\u015bci wzgl\u0119dem \u0142uku, jej obs\u0142uga wymaga\u0142a kr\u00f3tszego treningu i mniejszej si\u0142y. Te dwie cechy spowodowa\u0142y, i\u017c szybko zacz\u0119\u0142a dominowa\u0107 na polach bitew. Od strony technicznej jest to kr\u00f3tki, ale dosy\u0107 ci\u0119\u017cki \u0142uk, kt\u00f3ry osadza si\u0119 na trzonie. Mechanizm spustowy skonstruowany jest tak, by odci\u0105ga\u0107 ci\u0119ciw\u0119 do pozycji strza\u0142u (cz\u0119sto wspomagaj\u0105c w tym strzelca). Nast\u0119pnie strzelec umieszcza be\u0142t na trzonie i wciska spust, kt\u00f3ry powoduje zwolnienie ci\u0119ciwy i wystrzelenie pocisku. Poza wymienionymi ju\u017c zaletami, z kuszy mo\u017cna te\u017c strzela\u0107 z pozycji kl\u0119cz\u0105cej i le\u017c\u0105cej, co jest niemo\u017cliwe w przypadku klasycznego \u0142uku.",
+    "strategy": "Kusznicy s\u0105 pot\u0119\u017cniejsi od strzelc\u00f3w turniejowych. Potrafi\u0105 zada\u0107 znaczne obra\u017cenia \u015bredniowiecznym jednostkom, kt\u00f3re znajduj\u0105 si\u0119 w odleg\u0142o\u015bci jednego pola. S\u0105 te\u017c jednak bardzo podatni na atak w zwarciu. Jednostka ta idealnie nadaje si\u0119 do obrony miast.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

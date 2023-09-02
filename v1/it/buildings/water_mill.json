@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Mulino ad acqua|il Mulino ad acqua|un Mulino ad acqua",
+    "game_info": "La citt\u00e0 dev'essere costruita vicino a un fiume.",
+    "strategy": "Il Mulino ad acqua pu\u00f2 essere costruito solo in una citt\u00e0 posta accanto a un fiume. Il Mulino ad acqua aumenta la produzione di Cibo nella citt\u00e0.",
+    "historical_info": "Un mulino ad acqua \u00e8 un edificio che utilizza la potenza dell'acqua corrente per trasformare il grano in farina. Il grano viene versato tra due pietre, una delle quali ruota lentamente. Il movimento della pietra superiore stritola i semi e li riduce in farina. I primi mulini utilizzavano il lavoro di animali o esseri umani per girare la macina; i mulini ad acqua consentono di destinare il lavoro di animali e persone ad attivit\u00e0 pi\u00f9 produttive. In seguito il vapore e l'elettricit\u00e0 hanno permesso di azionare le macine in modo molto pi\u00f9 affidabile ed efficiente, ma nei tempi antichi i mulini ad acqua hanno rappresentato una soluzione geniale quanto preziosa.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mulino_ad_acqua|il_mulino_ad_acqua|un_mulino_ad_acqua.png",
+    "prereq_tech": {
+        "name": "Ruota|della Ruota",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

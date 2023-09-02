@@ -1,0 +1,29 @@
+{
+    "id": 33,
+    "name": "Cangrejos",
+    "game_info": null,
+    "historical_info": "Los cangrejos, unos crust\u00e1ceos provistos de pinzas que habitan en el fondo marino, suelen consumir cualquier cosa que encuentran. Hay m\u00e1s de 800 especies en todo el mundo y se han convertido en la comida t\u00edpica de algunas zonas, pues constituyen uno de los recursos marinos m\u00e1s abundantes. Entre las variedades m\u00e1s populares se encuentra el cangrejo azul, que se produce en la bah\u00eda de Chesapeake, en Maryland, del cual se consumen m\u00e1s de cincuenta millones de kilogramos anuales.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cangrejos.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Barcos pesqueros|Barcos pesqueros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/costa.json"
+        }
+    ]
+}

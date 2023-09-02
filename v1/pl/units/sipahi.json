@@ -1,0 +1,43 @@
+{
+    "id": 46,
+    "name": "Spahisi|Spahis\u00f3w|Spahisom|Spahis\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sipahi.png",
+    "game_info": "Kawaleria wyspecjalizowana w zwalczaniu innych jednostek tego typu. Tylko Turcy mog\u0105 j\u0105 rekrutowa\u0107. Jest ona szybsza i ma wi\u0119kszy zasi\u0119g widzenia ni\u017c lansjer, kt\u00f3rego zast\u0119puje.",
+    "historical_info": "Spahisi byli lansjerami Imperium Osma\u0144skiego. Formacja ta powsta\u0142a za panowania Murada I (1362-1389), a jej cz\u0142onkowie nale\u017celi do szlachty i wywodzili si\u0119 z etnicznej ludno\u015bci tureckiej. Byli silnie zmotywowani i bardzo lojalni wobec su\u0142tana. Z tego powodu cz\u0119sto s\u0142u\u017cyli jako jego stra\u017c przyboczna. Spahisi byli wielkimi rywalami Janczar\u00f3w (inna specjalna jednostka Imperium Osma\u0144skiego), kt\u00f3rych rekrutowano spo\u015br\u00f3d \u017co\u0142nierzy wywodz\u0105cych si\u0119 z ludno\u015bci tureckiej, jak i innych narodowo\u015bci. W 1826 ochoczo pomagali w krwawej likwidacji tej formacji, b\u0119d\u0105cej nast\u0119pstwem nieudanej rewolty przez ni\u0105 wznieconej.",
+    "strategy": "Spahisi to unikatowa jednostka osma\u0144ska, zast\u0119puj\u0105ca lansjer\u00f3w. Spahisi s\u0105 o wiele szybsi, maj\u0105 zasi\u0119g widzenia wi\u0119kszy o jedno pole ni\u017c lansjerzy, ale tak samo jak oni, s\u0105 s\u0142abi w obronie. Spahisi mog\u0105 pl\u0105drowa\u0107 nieprzyjacielskie ulepszenia, nie ponosz\u0105c dodatkowych koszt\u00f3w.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia|Metalurgii|Metalurgii|Metalurgi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nie traci ruchu za pl\u0105drowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Szyk I|Szyku I|Szykowi I|Szyk I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/formation_i.json"
+        }
+    ]
+}

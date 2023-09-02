@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Kaserne",
+    "game_info": "+15 EP f\u00fcr alle Einheiten.",
+    "strategy": "In der Kaserne erhalten die in der Stadt ausgebildeten Einheiten Erfahrung. Diese Erfahrung kann dazu genutzt werden, um die Einheiten zu bef\u00f6rdern und somit ihre Effizienz im Kampf zu steigern.",
+    "historical_info": "Kasernen sind milit\u00e4rische Geb\u00e4ude, in denen die Berufssoldaten eines Landes untergebracht sind. Sie bieten nicht nur Verpflegung und Unterkunft, sondern auch Ausbildungs- und medizinische Einrichtungen sowie Milit\u00e4rgef\u00e4ngnisse, Fahrzeugwerkst\u00e4tten usw.Kasernen sind wichtig f\u00fcr Zufriedenheit und Wohlergehen einer Zivilisation. Sie f\u00f6rdern Zusammenhalt zwischen den R\u00e4ngen, verbessern die Chancen der Soldaten, im Kampf erfolgreich zu sein, und regeln den Kontakt zwischen Soldaten und Zivilisten, um die Spannungen zu beschr\u00e4nken, die unweigerlich auftreten, wenn beide Gruppen zu stark miteinander interagieren.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kaserne.png",
+    "prereq_tech": {
+        "name": "Bronzeverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

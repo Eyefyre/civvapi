@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Bomba at\u00f3mica|Bombas at\u00f3micas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "Desata la destrucci\u00f3n nuclear sobre tus enemigos. Causa un gran da\u00f1o a las ciudades y afecta a cualquier unidad que est\u00e9 en el radio de la explosi\u00f3n. Puede llevarse en Portaaviones.Requiere el Proyecto Manhattan y un recurso de Uranio.",
+    "historical_info": "Los primeros bombarderos at\u00f3micos no eran diferentes a los dem\u00e1s bombarderos pesados, salvo en la carga. El \"Enola Gay\" que transport\u00f3 la bomba at\u00f3mica hasta Hiroshima el 6 de agosto de 1945 era un bombardero B-29 estadounidense, igual que el \"Bockscar\" que solt\u00f3 la segunda en Nagasaki tres d\u00edas despu\u00e9s. Desde entonces, las potencias nucleares han dise\u00f1ado \"bombarderos estrat\u00e9gicos\" especiales para transportar las armas nucleares hasta el coraz\u00f3n del territorio enemigo. Estas aeronaves tienen mucha autonom\u00eda, pueden alcanzar una altitud muy elevada, y est\u00e1n equipadas con sofisticada tecnolog\u00eda de radiointerferencias y antimisiles. Los \u00faltimos bombarderos estrat\u00e9gicos disponen de tecnolog\u00eda de invisibilidad, por lo que es m\u00e1s dif\u00edcil destruirlos antes de que puedan soltar su carga mortal.",
+    "strategy": "La Bomba at\u00f3mica es una unidad extremadamente poderosa. Puede encontrarse en una ciudad del jugador o llevarse en un Portaaviones. Puede moverse de una base a otra o atacar a un objetivo que est\u00e9 a una distancia de 10 casillas. Cuando detone, da\u00f1ar\u00e1 gravemente (y, posiblemente, destruir\u00e1) todas las ciudades y unidades que se encuentren en el radio de la explosi\u00f3n (2 casillas). Esta unidad se destruye autom\u00e1ticamente en el ataque. Consulta las reglas sobre Armas nucleares para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fisi\u00f3n nuclear",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasi\u00f3n (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/evasion_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": 70,
+    "name": "T\u00e1cticas de movilidad",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mobile_tactics.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "Las t\u00e1cticas de movilidad son estrategias que aplican las fuerzas militares para permitir que las unidades r\u00e1pidas y maniobrables entren y salgan del combate sin verse envueltas en un enfrentamiento en curso. Estas t\u00e1cticas suelen usarlas las unidades de guerrilla, que est\u00e1n especializadas en ataques de hostigamiento dirigidos a desorientar a fuerzas m\u00e1s grandes.",
+    "quote": "\"Todos los hombres son capaces de ver la t\u00e1ctica gracias a la cual conquisto, pero nadie es capaz de ver la estrategia de la que nace la victoria.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Ecolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+        },
+        {
+            "name": "Fisi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "F\u00edsica de part\u00edculas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Infanter\u00eda mecanizada|Infanter\u00edas mecanizadas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/mechanized_infantry.json"
+        }
+    ],
+    "building_unlocks": []
+}

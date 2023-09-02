@@ -1,0 +1,32 @@
+{
+    "id": 41,
+    "name": "Chimie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chemistry.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "N\u00e9e de l'alchimie et des math\u00e9matiques, la Chimie est la science de la mati\u00e8re : de sa structure, de son comportement, de sa composition et de la fa\u00e7on dont elle r\u00e9agit durant diverses r\u00e9actions chimiques. L\u00e0 o\u00f9 le physicien l\u00e2che des balles du haut d'une tour et chronom\u00e8tre le temps qu'elles mettent \u00e0 tomber, le chimiste \u00e9tudie les balles et essaient de comprendre pourquoi certaines \u00e9clatent quand d'autres rebondissent.Si les scientifiques, les m\u00e9decins et les philosophes se sont tr\u00e8s t\u00f4t int\u00e9ress\u00e9s \u00e0 la chimie, elle ne fut consid\u00e9r\u00e9e comme une science \u00e0 part enti\u00e8re qu'en 1789, lorsqu'Antoine Lavoisier publia un ouvrage d\u00e9crivant la loi de conservation de la mati\u00e8re. Dans \"Trait\u00e9 \u00e9l\u00e9mentaire de chimie\", Lavoisier d\u00e9taillait la composition de l'eau et de l'air, utilisant pour la premi\u00e8re fois le terme d'oxyg\u00e8ne. Il d\u00e9mythifia \u00e9galement la th\u00e9orie phlogistique qui embarrassait les scientifiques depuis plus d'un si\u00e8cle.Lavoisier est consid\u00e9r\u00e9 comme le p\u00e8re de la chimie moderne. Suivant son exemple, d'autres chimistes ont commenc\u00e9 \u00e0 employer des m\u00e9thodes scientifiques pour \u00e9tudier les \u00e9l\u00e9ments chimiques. De cette fa\u00e7on, ils purent r\u00e9futer certaines th\u00e9ories qui \u00e9taient consid\u00e9r\u00e9es depuis la Gr\u00e8ce antique (soit des milliers d'ann\u00e9es auparavant) comme paroles d'Evangiles.",
+    "quote": "\"O\u00f9 que nous regardions, l'\u0153uvre des chimistes a cr\u00e9\u00e9 une civilisation meilleure et augment\u00e9 la productivit\u00e9 des nations.\" - Calvin Coolidge",
+    "tech_prereqs": [
+        {
+            "name": "Poudre \u00e0 canon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Science militaire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/military_science.json"
+        },
+        {
+            "name": "Engrais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/fertilizer.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Canon|Canons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/cannon.json"
+        }
+    ],
+    "building_unlocks": []
+}

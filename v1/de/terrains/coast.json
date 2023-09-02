@@ -1,0 +1,49 @@
+{
+    "id": 6,
+    "name": "K\u00fcste",
+    "historical_info": "K\u00fcsten-Gel\u00e4ndefelder sind Ozean-Gel\u00e4ndefelder, die an Land grenzen. Sie bieten einer nahen Stadt Nahrung und Gold, aber nur, wenn die Zivilisation \u00fcber die Technologie Segeln verf\u00fcgt. Nur K\u00fcsteneinheiten und Landeinheiten \"zu Wasser\" k\u00f6nnen K\u00fcsten-Gel\u00e4ndefelder betreten.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/k\u00fcste.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Eis",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/ice.json"
+        },
+        {
+            "name": "Atoll",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/atoll.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Fisch",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/fish.json"
+        },
+        {
+            "name": "Wale",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/whales.json"
+        },
+        {
+            "name": "Perlen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/pearls.json"
+        },
+        {
+            "name": "Krabben",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/crab.json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": 31,
+    "name": "Kupfer",
+    "game_info": null,
+    "historical_info": "Das weiche, leicht orangefarbene Metall Kupfer wird seit Tausenden von Jahren eingesetzt - beim Waffenbau, als W\u00e4hrung und in der heutigen Zeit f\u00fcr elektrische Dr\u00e4hte. Kupfer verf\u00fcgt \u00fcber einige einzigartige Eigenschaften, nicht zuletzt eine antimikrobielle Wirkung. Kupfer ist von Natur aus resistent gegen viele Arten von Bakterien, wodurch es gern in Rohrleitungen und an anderen Orten verwendet wird, wo Menschen h\u00e4ufig damit in Kontakt kommen, beispielsweise bei T\u00fcrkn\u00e4ufen. Auch die Legierungen, die bei der Kombination mit anderen Metallen entstehen, machen Kupfer wertvoll. In Verbindung mit Zinn erzeugt Kupfer die Legierung Bronze. Durch die Kombination mit Zink entsteht Messing.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kupfer.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/schnee.json"
+        }
+    ]
+}

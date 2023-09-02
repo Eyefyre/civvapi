@@ -1,0 +1,45 @@
+{
+    "id": 31,
+    "name": "Copper",
+    "game_info": null,
+    "historical_info": "The soft, orange-hued metal known as copper has been used for thousands of years for everything from weapons, to currency, to circuits and electrical wiring in the modern day. Copper has a number of unique qualities, not the least of which are its antimicrobial abilities. Copper is naturally resistant to many forms of bacteria, leading to its use in plumbing and other applications where human contact is frequent, for example in doorknobs. Copper is also valuable for the alloys produced when it is combined with other metals. When mixed with tin, copper forms the alloy known as bronze. When combined with zinc, brass is produced.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/copper.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        }
+    ]
+}

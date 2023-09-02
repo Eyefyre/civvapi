@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Janissary",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "One of the first gunpowder units of the game. Only the Ottomans may build it. This Unit is stronger on offense and heals when it kills an enemy, unlike the Musketman which it replaces.",
+    "historical_info": "Janissaries were members of an elite corps in the army of the Ottoman Empire. Created in the late 14th century, the original Janissaries were Christian youths (often slaves from the Balkans) who were converted to Islam and then drafted into the Ottoman army. The original Janissaries were forced to remain celibate (which might help to explain their ferocious fighting spirit), but this was eventually relaxed. As the years passed, the Janissaries gained huge political influence in the Empire, engineering frequent palace coups in the 17th and 18th centuries. But as their influence grew they became tradition-bound and stubborn, refusing to update their weapons and tactics to keep pace with the rest of the world. In 1826 they were forcibly disbanded and replaced by more modern Ottoman troops.",
+    "strategy": "The Janissary is an Ottoman unique unit, replacing the Musketman. The Janissary receives a significant combat bonus when on the attack. In addition, the Janissary unit automatically heals all damage when it destroys a non-Barbarian unit. This can give a Janissary army a crushing advantage against an enemy force on the defensive.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Gunpowder",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Heal 50 Damage If Kills a Unit",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Combat Bonus When Attacking (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 175,
+    "civilopedia_entry": "In\u017cynieria to nauka (a mo\u017ce sztuka) tworzenia z\u0142o\u017conych materia\u0142\u00f3w, konstrukcji, urz\u0105dze\u0144 i system\u00f3w. We wsp\u00f3\u0142czesnym znaczeniu to bardzo szerokie poj\u0119cie \u2013 bioin\u017cynierowie tworz\u0105 kom\u00f3rki, in\u017cynierowie informatyki programy komputerowe i tak dalej \u2013 ale dawniej termin ten odnosi\u0142 si\u0119 do konstruowania rzeczy fizycznych, maszyn, most\u00f3w, tor\u00f3w kolejowych, fabryk itp. (pocz\u0105tkowo okre\u015blenie \u201ein\u017cynier\u201d odnosi\u0142o si\u0119 wy\u0142\u0105cznie do ludzi projektuj\u0105cych silniki wojskowe)In\u017cynieria rozkwit\u0142a w XIX wieku, kiedy ca\u0142y \u015bwiat pracowa\u0142 nad wielkimi projektami budowlanymi. W 1869 roku Francuzi uko\u0144czyli Kana\u0142 Sueski \u0142\u0105cz\u0105cy Morze \u015ar\u00f3dziemne z Morzem Czerwonym, dzi\u0119ki czemu mo\u017cna przep\u0142yn\u0105\u0107 z Europy do Indii oszcz\u0119dzaj\u0105c sobie d\u0142ugiej i niebezpiecznej podr\u00f3\u017cy dooko\u0142a Afryki. W tym samym roku Stany Zjednoczone uko\u0144czy\u0142y kolej transkontynentaln\u0105, a w 1883 roku zbudowano Most Brookly\u0144ski.",
+    "quote": "\u201eNauka instrumentalna, zwana te\u017c mechaniczn\u0105, to najszlachetniejsza z dziedzin, a przede wszystkim najbardziej u\u017cyteczna.\u201d \u2013 Leonardo da Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Matematyka|Matematyki|Matematyce|Matematyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mathematics.json"
+        },
+        {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        },
+        {
+            "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Wielki Mur|Wielkiego Muru|Wielkiemu Murowi|Wielki Mur",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/great_wall.json"
+        },
+        {
+            "name": "Akwedukt|Akweduktu|Akweduktowi|Akwedukt|Akwedukty|Akwedukt\u00f3w|Akweduktom|Akwedukty",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/aqueduct.json"
+        }
+    ]
+}

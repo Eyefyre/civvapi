@@ -1,0 +1,29 @@
+{
+    "id": 12,
+    "name": "Pesca",
+    "game_info": null,
+    "historical_info": "La pesca ha sido una importante fuente de prote\u00ednas para los pueblos costeros a lo largo de la historia. El pescado sigue siendo un alimento importante en el siglo XXI, tanto que el peligro de agotar completamente los oc\u00e9anos de peces comestibles es cada vez mayor.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pesca.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Barcos pesqueros|Barcos pesqueros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/costa.json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 30,
+    "name": "Physique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/physics.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 485,
+    "civilopedia_entry": "La physique, science physique premi\u00e8re, est l'\u00e9tude de la mati\u00e8re. Appel\u00e9e \u00e0 l'origine \"science naturelle\", elle traitait de tout ce qui appartenait au monde visible, de la plus infime particule \u00e0 la plus vaste galaxie. La physique s'int\u00e9resse \u00e0 des ph\u00e9nom\u00e8nes comme la gravit\u00e9, la lumi\u00e8re, la chaleur et le magn\u00e9tisme. Au fil des si\u00e8cles, les connaissances humaines se d\u00e9veloppant de fa\u00e7on exponentielle, la physique fut subdivis\u00e9e en de nombreuses disciplines telles l'astronomie, la chimie, la g\u00e9ologie, la biologie et l'ing\u00e9nierie. Cela dit, chacune, \u00e0 sa mani\u00e8re, se concentrait sur la mesure et l'explication rationnelle de ph\u00e9nom\u00e8nes naturels.En 1687, Isaac Newton publia son \u0153uvre ma\u00eetresse \"Philosophiae Naturalis Principia Mathematica\" (\"Principes math\u00e9matiques de philosophie naturelle\"), \u0153uvre qui r\u00e9volutionna la physique. Sans trop rentrer dans les d\u00e9tails, la premi\u00e8re loi de Newton, baptis\u00e9e \"principe d'inertie\", \u00e9nonce qu'un objet immobile restera immobile et qu'un objet en mouvement restera en mouvement, tant qu'une force ext\u00e9rieure ne viendra pas alt\u00e9rer ces \u00e9tats. Sa deuxi\u00e8me loi d\u00e9crit les alt\u00e9rations que les forces peuvent produire sur le d\u00e9placement d'un objet (pour ce faire, il utilise une formule signifiant que la force \u00e9gale la masse multipli\u00e9e par l'acc\u00e9l\u00e9ration). Sa troisi\u00e8me loi, ou \"principe des actions r\u00e9ciproques\", stipule que lorsque deux objets entrent en interaction, ils s'appliquent mutuellement des forces de magnitudes \u00e9gales, mais de directions oppos\u00e9es (ou, en termes plus courants : \"Pour toute action existent une r\u00e9action similaire et une r\u00e9action inverse\").Les lois de Newton domin\u00e8rent la physique jusqu'au XXe si\u00e8cle, au cours duquel elles furent d\u00e9tr\u00f4n\u00e9es par les lois de la relativit\u00e9 et de la m\u00e9canique quantique, deux d\u00e9couvertes qui chang\u00e8rent le monde au moins autant que celles de Newton \u00e0 leur \u00e9poque.",
+    "quote": "\"Mesure ce qui est mesurable et rends mesurable ce qui ne peut l'\u00eatre.\" - Galil\u00e9e ",
+    "tech_prereqs": [
+        {
+            "name": "Moulage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Imprimerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+        },
+        {
+            "name": "Poudre \u00e0 canon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Tr\u00e9buchet|Tr\u00e9buchets",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/trebuchet.json"
+        },
+        {
+            "name": "Hwach'a",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/hwach'a.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Notre-Dame",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/notre_dame.json"
+        }
+    ]
+}

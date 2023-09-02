@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronomy",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Renaissance Era",
+    "cost": 780,
+    "civilopedia_entry": "Astronomy is the study of objects in space - from space dust to asteroids to moons, planets, stars, and galaxies - as well as other more esoteric objects like black holes and wormholes. Astronomy is the oldest of the natural sciences, with its roots in the religious and astrological practices of pre-history.Much of early astronomy is related to religion. Stars and other celestial objects were associated with gods, and it was believed that they had direct control over man and his physical universe. A certain star or cluster of stars might appear each year around harvest time, and eventually ancient man might decide that the star is the home of the god governing the harvest. Perhaps if one sacrifices a goat on the day that the star first appears, that god would bless the upcoming harvest. This kind of thinking lies at the root of ancient astronomical studies as well as ancient calendar-making, with which astronomy has been historically allied.During the Renaissance astronomy shed much of its religious, astronomical trappings, becoming a pure science in its own right. In 1543 Nicolaus Copernicus published \"De Revolutionibus Orbium Coelestium,\" which postulated that the sun was at the center of the universe, not the earth, and that the planets orbited the sun, and the moon orbited the earth. In addition to the triumph of scientific research over dogma, Copernicus' book also argued that the use of mathematics would greatly help mankind to understand the world around him. Although this work was deeply controversial in his day, today Copernicus is acknowledged as one of the great scientists of history, and one of the fathers of the Scientific Revolution.",
+    "quote": "\"Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.\" - Homer",
+    "tech_prereqs": [
+        {
+            "name": "Compass",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+        },
+        {
+            "name": "Education",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caravel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/caravel.json"
+        },
+        {
+            "name": "Turtle Ship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/turtle_ship.json"
+        },
+        {
+            "name": "Nau",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Observatory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/observatory.json"
+        }
+    ]
+}

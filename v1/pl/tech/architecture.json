@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Architektura|Architektury|Architekturze|Architektur\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 1150,
+    "civilopedia_entry": "Architektur\u0119 mo\u017cna uzna\u0107 zar\u00f3wno za sztuk\u0119, jak i za nauk\u0119. Obejmuje wszystko - od stadium wst\u0119pnego planowania i projektowania struktury do w\u0142a\u015bciwego procesu konstrukcji, przez co by\u0142a kluczowym elementem procesu budowania ju\u017c od czas\u00f3w staro\u017cytnych. Jedna z najwcze\u015bniejszych rozpraw o architekturze i jej regu\u0142ach, \u201eDe Architectura\u201d, napisana zosta\u0142a przez rzymskiego architekta Witruwiusza w I w. p.n.e. Ta dziesi\u0119ciotomowa praca, na kt\u00f3r\u0105 sk\u0142ada\u0142y si\u0119 wszystkie najbardziej z\u0142o\u017cone szczeg\u00f3\u0142y rzymskich metod budowlanych, jest dzi\u015b uwa\u017cana za kluczowe osi\u0105gni\u0119cie w procesie rozwoju projektowania architektonicznego.",
+    "quote": "\u201eArchitektura zaczyna si\u0119 tam, gdzie ko\u0144czy si\u0119 in\u017cynieria.\u201d - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Akustyka|Akustyki|Akustyce|Akustyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/acoustics.json"
+        },
+        {
+            "name": "Bankowo\u015b\u0107|Bankowo\u015bci|Bankowo\u015bci|Bankowo\u015b\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archaeology.json"
+        },
+        {
+            "name": "Teoria naukowa|Teorii naukowej|Teorii naukowej|Teori\u0119 naukow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Ermita\u017c|Ermita\u017cu|Ermita\u017cowi|Ermita\u017c",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hermitage.json"
+        },
+        {
+            "name": "Porcelanowa Wie\u017ca|Porcelanowej Wie\u017cy|Porcelanowej Wie\u017cy|Porcelanow\u0105 Wie\u017c\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Tad\u017c Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Galeria Uffizi|Galerii Uffizi|Galerii Uffizi|Galeri\u0119 Uffizi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/uffizi.json"
+        }
+    ]
+}

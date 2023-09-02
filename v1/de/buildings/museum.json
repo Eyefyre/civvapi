@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Museum",
+    "game_info": null,
+    "strategy": "Das Museum ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das den Kulturertrag einer Stadt erh\u00f6ht. Die Stadt muss \u00fcber ein Opernhaus (oder eine Ceilidh-Halle) verf\u00fcgen, um ein Museum bauen zu k\u00f6nnen. Beinhaltet 2 Pl\u00e4tze f\u00fcr Gro\u00dfe Kunstwerke.",
+    "historical_info": "Ein Museum ist ein Ort oder eine Kette von Geb\u00e4uden, in der besonders gesch\u00e4tzte Besitzt\u00fcmer einer Zivilisation der \u00d6ffentlichkeit zug\u00e4nglich gemacht werden. Es gibt Museen mit Kunstsammlungen, Museen mit Fossilien oder historisch relevanten Gegenst\u00e4nden sowie Museen f\u00fcr Kost\u00fcme, Schmuck, antike Waffen oder nahezu alles, was von Wert oder Interesse sein k\u00f6nnte. Das Kunstmuseum Eremitage in St. Petersburg wurde 1764 von Katharina der Gro\u00dfen gegr\u00fcndet. Seit 1852 ist es der \u00d6ffentlichkeit zug\u00e4nglich und es ist eines der \u00e4ltesten und ber\u00fchmtesten Museen der Welt.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museum.png",
+    "prereq_tech": {
+        "name": "Arch\u00e4ologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

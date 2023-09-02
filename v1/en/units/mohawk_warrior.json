@@ -1,0 +1,23 @@
+{
+    "id": 69,
+    "name": "Mohawk Warrior",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mohawk_warrior.png",
+    "game_info": "Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces.",
+    "historical_info": "The Iroquois Mohawk warriors are among the best light infantry the world has ever seen. Amazingly fast and flexible fighters, the Iroquois warriors were able to cover an incredible amount of ground in a short amount of time, surprising and overwhelming their better-armed but slower European enemies. With an armed force that \"never numbered more than 3,000 fighting men,\" they held their own for almost two centuries against the French, British, and Americans.",
+    "strategy": "The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. As powerful as the Swordsman in Clear or Hilly terrain, the Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Also, unlike the Swordsman, it does not require Iron to build.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Iron Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Combat Bonus in Forest/Jungle (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/combat_bonus_in_forest_jungle_(33).json"
+        }
+    ]
+}

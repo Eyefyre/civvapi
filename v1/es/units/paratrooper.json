@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Paracaidista|Paracaidistas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Una fuerte unidad de infanter\u00eda, capaz de lanzarse en paraca\u00eddas hasta a 9 casillas de distancia de territorio amistoso. El paracaidista puede moverse tras el aterrizaje, pero no puede entablar combate hasta el turno siguiente.",
+    "historical_info": "Los paracaidistas son soldados de infanter\u00eda ligera entrenados para saltar al combate detr\u00e1s de las l\u00edneas enemigas desde aviones. Est\u00e1n obligados por necesidad a llevar armas ligeras y poca munici\u00f3n, y conf\u00edan enormemente en el factor sorpresa para vencer a sus oponentes.Los paracaidistas se usaron con un \u00e9xito limitado en la Segunda Guerra Mundial. Las tropas aerotransportadas alemanas tomaron parte en la invasi\u00f3n de Dinamarca en 1940. Los paracaidistas alemanes asaltaron y capturaron la isla de Creta desde el aire en 1941, pero el n\u00famero de bajas fue tan horroroso que Adolf Hitler prohibi\u00f3 que en el futuro se usaran ataques aerotransportados a gran escala. Las fuerzas aliadas desplegaron paracaidistas con cierto \u00e9xito durante la invasi\u00f3n de Normand\u00eda en 1941, pero los enormes desembarcos a\u00e9reos de la operaci\u00f3n Market Garden en los Pa\u00edses Bajos, unos meses m\u00e1s tarde de aquel mismo a\u00f1o, distaron mucho de tener \u00e9xito y comportaron graves p\u00e9rdidas para los paracaidistas brit\u00e1nicos, polacos y estadounidenses.Aunque las fuerzas especiales siguen usando paracaidistas, los ej\u00e9rcitos actuales pr\u00e1cticamente han dejado de utilizarlos. Hoy en d\u00eda, la mayor parte de las tropas aerotransportadas se despliegan en combate mediante helic\u00f3pteros.",
+    "strategy": "El Paracaidista es una unidad de infanter\u00eda de las \u00faltimas fases del juego. Es algo m\u00e1s d\u00e9bil que la unidad de Infanter\u00eda mecanizada; no obstante, puede lanzarse en paraca\u00eddas hasta a 9 casillas de distancia (si sale de territorio amistoso). Esto le permite saltar, literalmente, sobre posiciones hostiles y destruir redes de carreteras, saquear recursos vitales y sembrar el caos tras las l\u00edneas enemigas. El Paracaidista corre un gran peligro cuando se encuentra en misiones de este tipo, as\u00ed que aseg\u00farate de que el objetivo valga la pena.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Puede hacer un desembarco a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_paradrop.json"
+        },
+        {
+            "name": "Sin coste de movimiento por saquear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

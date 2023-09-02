@@ -1,0 +1,27 @@
+{
+    "id": 58,
+    "name": "Mandekalu-Kavallerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mandekalu_cavalry.png",
+    "game_info": "M\u00e4chtige berittene Einheit des Mittelalters, anf\u00e4llig gegen\u00fcber Pikenieren. Nur die Songhai k\u00f6nnen sie bauen. Diese Einheit erh\u00e4lt keinen Malus beim Angriff auf St\u00e4dte, im Gegensatz zum Ritter, den sie ersetzt.",
+    "historical_info": "Wie ihre n\u00f6rdlichen Gegenst\u00fccke bestanden muslimische Armeen auch aus schweren Kavallerie-Einheiten, in Form und Funktion \u00e4hnlich den europ\u00e4ischen Rittern. Wie die Europ\u00e4er kamen muslimische Ritter ebenfalls aus den oberen Schichten der Gesellschaft und verf\u00fcgten \u00fcber die besten Waffen, R\u00fcstungen und Pferde. Die R\u00fcstung konnte den klimatischen Gegebenheiten angepasst werden (selbst der edelste Ritter w\u00fcrde schnell getoastet, tr\u00fcge er im Nahen Osten w\u00e4hrend des Sommers eine Plattenr\u00fcstung) aber sie verschaffte ihnen immer noch einen gro\u00dfen Vorteil gegen\u00fcber anderen Einheiten auf dem Schlachtfeld. Historische Berichte belegen, dass muslimische Ritter ihren europ\u00e4ischen Gegnern in der Regel ebenb\u00fcrtig waren.",
+    "strategy": "Diese Spezialeinheit der Songhai ersetzt den Ritter. Sie hat dieselben Attribute wie der Ritter, ist aber erheblich st\u00e4rker beim Angriff auf St\u00e4dte. Die Mandekalu-Kavallerie kann sich nach dem Angriff bewegen. Ihre Geschwindigkeit macht es dem Feind extrem schwer, eine Verteidigungslinie aufzubauen, bevor die Mandekalu-Kavallerie ihr Ziel erreicht.",
+    "movement": 4,
+    "cost": {
+        "production": 110,
+        "faith": 220
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

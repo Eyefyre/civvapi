@@ -1,0 +1,60 @@
+{
+    "id": 3,
+    "name": "Kohle",
+    "game_info": "Wird f\u00fcr Fabriken und Panzerschiffe ben\u00f6tigt.",
+    "historical_info": "Kohle besteht aus uralter pflanzlicher Materie, die \u00fcber Jahrtausende zersetzt und gepresst wurde, bis schlie\u00dflich eine stark brennbare schwarze Verbindung entstand. Kohle, die in gro\u00dfen Mengen praktisch auf dem ganzen Planeten vorkommt, war in der Geschichte stets eine der wichtigsten Energiequellen der Menschheit. Kohle ist jedoch kein sauberer Brennstoff, und ihre Gewinnung und Verbrennung verursacht weltweit starke Umweltverschmutzung. Wissenschaftler versuchen verzweifelt, wenn auch bisher vergeblich, eine \"saubere\" Kohletechnologie zu entwickeln. Wichtig: Kohle ist eine strategische Ressource und wird als solche verbraucht, wenn man die damit verbundenen Einheiten und Geb\u00e4ude baut.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/kohle.png",
+    "prereq_tech": {
+        "name": "Industrialisierung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        },
+        {
+            "name": "Zollamt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/academy.json"
+        },
+        {
+            "name": "Zitadelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/citadel.json"
+        },
+        {
+            "name": "Fabrikanlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/manufactory.json"
+        },
+        {
+            "name": "Heilige St\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

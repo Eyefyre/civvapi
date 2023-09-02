@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zoo",
+    "game_info": "Die Zufriedenheit kann die Anzahl von B\u00fcrgern in einer Stadt nicht \u00fcbersteigen. Stadt ben\u00f6tigt ein Kolosseum.",
+    "strategy": "Ein Zoo erh\u00f6ht die Zufriedenheit Eures Reichs, kann aber nie mehr Zufriedenheit bringen, als sich B\u00fcrger in der Stadt befinden. Die Stadt muss \u00fcber ein Kolosseum verf\u00fcgen, bevor sie einen Zoo bauen kann.",
+    "historical_info": "Die \u00e4lteste bekannte zoologische Menagerie (der Vorl\u00e4ufer des Zoos) wurde bei Hierakonpolis ausgegraben und stammt aus der Zeit um 3.500 v. Chr. Der \u00e4lteste bestehende Zoo, der Tiergarten Sch\u00f6nbrunn in Wien, entstand aus der Sammlung exotischer Tiere der Habsburger Dynastie und wurde 1765 n. Chr. der \u00d6ffentlichkeit zug\u00e4nglich gemacht.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo.png",
+    "prereq_tech": {
+        "name": "Druckerpresse",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

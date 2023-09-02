@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hydro Plant",
+    "game_info": "+1 Production in every tile next to a River. Requires 1 Aluminum.City must be built next to a River.",
+    "strategy": "The Hydro Plant is a mid-game building which can only be constructed in a city which is adjacent to a river. The Hydro Plant increases the Production output of every tile the city works which is also adjacent to the river. Constructing the Hydro Plant consumes 1 Aluminum.",
+    "historical_info": "A hydro plant is a building that converts energy from falling water into electrical power. The larger the volume of water and the greater the distance it falls, the more power the plant generates. The Three Gorges Dam in China is the largest hydro power plant ever constructed. When completed it will generate some 22,500 mega-watts, ten times more than the American Hoover Dam.Hydro plants are generally considered \"green\" sources of energy, though their impact on local fish can be great. Hydro plants that capture the energy from rising tides have been constructed in coastal areas.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hydro_plant.png",
+    "prereq_tech": {
+        "name": "Electricity",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

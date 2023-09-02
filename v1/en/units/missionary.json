@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Missionary",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Used to spread a religion to cities. May only be obtained by purchasing with Faith.",
+    "historical_info": "Missionaries are members of a religious group or sect sent abroad to spread the message of their chosen religion. While their primary goal is to share their religious views and hopefully gain new followers, missionaries typically provide other beneficial services to the areas they visit. By setting up clinics, schools, and other social welfare programs, missionaries help those in need while also serving in their evangelical role.",
+    "strategy": "Can be purchased with Faith in any city with a majority Religion. Once adjacent to a city they can spread their religion to it (expending the Missionary after the second use). If a Missionary enters another civilization without Open Borders, their Religious Strength is reduced each turn. Once their Religious Strength reaches zero, they are destroyed.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Can Enter Rival Territory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Unwelcome Evangelist",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

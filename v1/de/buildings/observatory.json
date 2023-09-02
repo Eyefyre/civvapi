@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Observatorium",
+    "game_info": "Stadt muss an einem Berg liegen.",
+    "strategy": "Das Observatorium kann nur in St\u00e4dten gebaut werden, die direkt an ein Berg-Gel\u00e4ndefeld angrenzen. Das Observatorium steigert die Wissenschaftsproduktion einer Stadt in erheblichem Ma\u00dfe.",
+    "historical_info": "Ein Observatorium ist ein Geb\u00e4ude, das dem Studium des Himmels gewidmet ist. Fr\u00fcher waren die Menschen davon \u00fcberzeugt, dass die Bewegung der Sterne eine mystische Bedeutung hatte, und so waren viele der ersten Observatorien auch religi\u00f6se Geb\u00e4ude. Mit der Zeit lernten die Menschen, dass sie den Wechsel der Jahreszeiten sehr genau anhand der Sterne bestimmen konnten und fanden heraus, dass diese Informationen \u00fcberaus wichtig f\u00fcr die Bestimmung des richtigen Tages zur Aussaat bzw. der Ernte waren. Diese Erkenntnisse bekr\u00e4ftigten die religi\u00f6se und praktische Bedeutung der Observatorien f\u00fcr die \u00d6ffentlichkeit. Moderne Observatorien sind computergesteuert und mit fortschrittlichen Teleskopen ausgestattet (oder sie kommunizieren mit noch m\u00e4chtigeren Teleskopen im All) und liefern den Wissenschaftlern bedeutend mehr Informationen als ihre primitiven Vorfahren je zu tr\u00e4umen gewagt h\u00e4tten. Aber ihre Aufgabe bleibt dieselbe: die Funktionsweise des Universums durch Beobachtung des Himmels zu untersuchen.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/observatorium.png",
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

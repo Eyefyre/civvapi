@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nao|Naos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Unidad de cuerpo a cuerpo naval que destaca en el campo de la exploraci\u00f3n. Tiene m\u00e1s puntos de Movimiento [ICON_MOVES] que la Carabela, a la cual sustituye, y puede ejecutar una habilidad de un solo uso cerca de tierras extranjeras para ganar Oro y PX. Solo pueden construirla los portugueses.",
+    "historical_info": "Cuando los portugueses ampliaron sus exploraciones y sus aventuras comerciales por la costa africana y el Lejano Oriente, necesitaron una nave m\u00e1s grande y recia, capaz de hacer largos viajes. La nao, tambi\u00e9n conocida como \"carraca\" o \"indiaman\" por los ingleses, evolucion\u00f3 a partir de la coca de velas cuadras que se utiliz\u00f3 para comerciar en la Baja Edad Media. El dise\u00f1o lo perfeccionaron los mercaderes portugueses a finales del siglo XV, y la nao se convirti\u00f3 en un bajel transoce\u00e1nico de tres o cuatro cubiertas con tres o cuatro m\u00e1stiles, con un francobordo m\u00e1s grande y estable para la alta mar del Atl\u00e1ntico y capaz de llevar provisiones y cargamento para un viaje largo. Ten\u00eda una popa redondeada y un gran castillo de proa, el primer bajel transoce\u00e1nico en incorporarlo. Sus grandes bodegas hac\u00edan que pudiera cruzar grandes distancias entre recaladas, lo que la convirti\u00f3 en el principal sost\u00e9n de la flota mercante portuguesa. La nao ser\u00eda sustituida por el gale\u00f3n en las rutas comerciales oce\u00e1nicas del siglo XVII.",
+    "strategy": "Esta unidad de cuerpo a cuerpo naval sustituye a la Carabela y es buena explorando. Cuando se encuentra en una casilla colindante con tierra propiedad de otra civilizaci\u00f3n o ciudad-estado con la que est\u00e9s en paz, puede ejecutar una \u00fanica misi\u00f3n comercial que aportar\u00e1 Oro y PX. Cuanto m\u00e1s lejos est\u00e9 la tierra de tu capital, mayor ser\u00e1 la bonificaci\u00f3n, as\u00ed que es mejor usarla con jugadores distantes. Usa esta unidad para explorar el mapa y descubrir las ubicaciones de otros jugadores.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronom\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cargamento ex\u00f3tico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Retirarse antes del cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

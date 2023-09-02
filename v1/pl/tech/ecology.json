@@ -1,0 +1,44 @@
+{
+    "id": 65,
+    "name": "Ekologia|Ekologii|Ekologii|Ekologi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ecology.png",
+    "era": "Epoka atomu|Epoki atomu|Epoce atomu|Epok\u0119 atomu",
+    "cost": 6400,
+    "civilopedia_entry": "Ekologia nie jest pojedyncz\u0105 technologi\u0105, to nauka interdyscyplinarna badaj\u0105ca r\u00f3\u017cne formy interakcji i zwi\u0105zk\u00f3w przyczynowych mi\u0119dzy organizmami a ich \u015brodowiskiem, w skr\u00f3cie \u2013 zajmuje si\u0119 badaniem ekosystem\u00f3w. Podstawowym za\u0142o\u017ceniem tej dyscypliny jest przekonanie, \u017ce wszystko w danym ekosystemie \u2013 ska\u0142y, gleba, ptaki, owady, drzewa, etc. \u2013 ma wp\u0142yw na wszystkie elementy ekosystemu i jest z nimi po\u0142\u0105czone, bezpo\u015brednio lub poprzez \u0142a\u0144cuch zale\u017cno\u015bci. Skoro wszystko jest po\u0142\u0105czone, ekolodzy wierz\u0105 te\u017c w poj\u0119cie holizmu \u2013 nawet znaj\u0105c wszystkie drobne interakcje, nie mo\u017cna przewidzie\u0107 ka\u017cdej mo\u017cliwej reakcji, dlatego nale\u017cy bada\u0107 ca\u0142e systemy. Ekologia bada po\u0142\u0105czenia mi\u0119dzy tymi elementami oraz to, jak zmiana jednego z nich przynosi korzy\u015b\u0107 innym lub je niszczy.Wsp\u00f3\u0142czesna nauka ekologii jest bardzo m\u0142oda, ale zyska\u0142a spor\u0105 popularno\u015b\u0107 i rozmach dzi\u0119ki ruchowi ochrony \u015brodowiska z lat sze\u015b\u0107dziesi\u0105tych XX w. Od niedawna ekologia zajmuje si\u0119 zachowaniem r\u00f3\u017cnorodno\u015bci biologicznej i niekorzystnym wp\u0142ywem rozwoju ludzko\u015bci na \u015brodowisko i inne organizmy \u017cywe. Prowadzi si\u0119 d\u0142ugotrwa\u0142e badania tych skutk\u00f3w; najd\u0142u\u017cej trwaj\u0105cy projekt rozpocz\u0105\u0142 si\u0119 w roku 1856.Wyniki tych bada\u0144 znalaz\u0142y praktyczne zastosowania, np. wydajniejsze i korzystniejsze zarz\u0105dzanie zasobami naturalnymi, takimi jak mokrad\u0142a i lasy, lepsze planowanie zdrowia publicznego, a nawet usprawnione metody planowania zabudowy miast. Ekologia stworzy\u0142a te\u017c podwaliny g\u0142\u0119bszego zrozumienia spo\u0142ecznych interakcji mi\u0119dzy lud\u017ami.",
+    "quote": "\u201eZaledwie w czasie jednego, wsp\u00f3\u0142czesnego nam stulecia, jeden gatunek \u2013 cz\u0142owiek \u2013 zdoby\u0142 pot\u0119\u017cn\u0105 si\u0142\u0119 pozwalaj\u0105c\u0105 zmieni\u0107 natur\u0119 tego \u015bwiata.\u201d \u2013 Rachel Carson",
+    "tech_prereqs": [
+        {
+            "name": "Teoria atomu|Teorii atomu|Teorii atomu|Teori\u0119 atomu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/atomic_theory.json"
+        },
+        {
+            "name": "Penicylina|Penicyliny|Penicylinie|Penicylin\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/penicillin.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Telekomunikacja|Telekomunikacji|Telekomunikacji|Telekomunikacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/telecommunications.json"
+        },
+        {
+            "name": "Taktyki mobilne|Taktyk mobilnych|Taktykom mobilnym|Taktyki mobilne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mobile_tactics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Elektrownia s\u0142oneczna|Elektrowni s\u0142onecznej|Elektrowni s\u0142onecznej|Elektrowni\u0119 s\u0142oneczn\u0105|Elektrownie s\u0142oneczne|Elektrowni s\u0142onecznych|Elektrowniom s\u0142onecznym|Elektrownie s\u0142oneczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/solar_plant.json"
+        },
+        {
+            "name": "Opera w Sydney|Opery w Sydney|Operze w Sydney|Oper\u0119 w Sydney",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/sydney_opera_house.json"
+        },
+        {
+            "name": "Centrum recyklingu|Centrum recyklingu|Centrum recyklingu|Centrum recyklingu|Centra recyklingu|Centr\u00f3w recyklingu|Centrom recyklingu|Centra recyklingu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/recycling_center.json"
+        }
+    ]
+}

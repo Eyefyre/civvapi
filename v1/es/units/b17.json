@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Una unidad a\u00e9rea que siembra la muerte sobre unidades terrestres y mar\u00edtimas. Solo los estadounidenses pueden construirla. Esta unidad tiene posibilidades de burlar la intercepci\u00f3n y hace m\u00e1s da\u00f1o a las ciudades que el Bombardero, al que sustituye.",
+    "historical_info": "El Boeing B-17, la \"Fortaleza a\u00e9rea\", fue un bombardero pesado de las fuerzas a\u00e9reas de los Estados Unidos durante la Segunda Guerra Mundial. Dispone de cuatro motores, varias plataformas de disparo y la posibilidad de alcanzar una gran altitud. Fue el favorito de la fuerza a\u00e9rea de los Estados Unidos a pesar de su inferior autonom\u00eda y bodega de carga frente al B24 Liberator, sobre todo porque era capaz de seguir funcionando incluso tras sufrir da\u00f1os graves.Al principio se usaron durante arriesgadas incursiones diurnas en Alemania, pero las bajas causadas por los cazas de la Luftwaffe fueron aplastantes. La guerra fue avanzando, y los Aliados dise\u00f1aron cazas para escoltar a los bombarderos hasta territorio enemigo; as\u00ed, los ataques de los B-17 tuvieron m\u00e1s \u00e9xito contra las ciudades y las f\u00e1bricas alemanas.Se construyeron m\u00e1s de doce mil B-17 durante la Segunda Guerra Mundial y aproximadamente la tercera parte se perdieron en combate.",
+    "strategy": "El Bombardero B17 es una unidad exclusiva estadounidense que reemplaza al Bombardero. Es similar a \u00e9ste, pero los antia\u00e9reos y cazas enemigos tienen m\u00e1s dif\u00edcil derribarlo. Adem\u00e1s, el B17 recibe una bonificaci\u00f3n cuando ataca ciudades enemigas. Al igual que el Bombardero, el alcance del B17 es de 10. Consulta las reglas sobre Aviones para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasi\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/evasion.json"
+        },
+        {
+            "name": "Asedio I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/siege_i.json"
+        }
+    ]
+}

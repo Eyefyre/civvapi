@@ -1,0 +1,43 @@
+{
+    "id": 107,
+    "name": "Battering Ram",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battering_ram.png",
+    "game_info": "Siege unit deadly at melee attacks versus cities. Only the Huns may build it.",
+    "historical_info": "The battering ram was a siege warfare device primarily utilized during the ancient era. Designed with a singular purpose in mind, battering rams were used to crash through the heavy wooden gates used during this period. Although there were varying shapes and forms found among the many battering ram designs, all shared the same general principle. Mounted on a cart or other wheeled platform, a heavy log or post was slung using chains or ropes. Soldiers manning the ram would then pull back on the log, releasing it with enough force to splinter the enemy's gate. Although the specific details surrounding the Huns implementation of this siege weapon are scarce, it is known that they successfully deployed battering rams against a number of major European cities during their conquest.",
+    "strategy": "Battering Rams are a Hunnic unique unit replacing the Spearman. Use Battering Rams to knock down the defenses of a city. They have the Cover I promotion to keep them safe from ranged units; attack them with melee units to defeat them.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Cities (300)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(300).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Penalty on Defense (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_on_defense_(33).json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Cover I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cover_i.json"
+        },
+        {
+            "name": "City Attack Only",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/city_attack_only.json"
+        }
+    ]
+}

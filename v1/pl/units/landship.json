@@ -1,0 +1,27 @@
+{
+    "id": 116,
+    "name": "Okr\u0119ty l\u0105dowe|Okr\u0119t\u00f3w l\u0105dowych|Okr\u0119tom l\u0105dowym|Okr\u0119ty l\u0105dowe|Okr\u0119tami l\u0105dowymi|Okr\u0119tach l\u0105dowych",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landship.png",
+    "game_info": "Pierwsza w swym rodzaju pot\u0119\u017cna jednostka z ko\u0144cowej cz\u0119\u015bci gry, kt\u00f3ra mo\u017ce wykona\u0107 ruch po ataku.",
+    "historical_info": "Czo\u0142g zosta\u0142 wymy\u015blony podczas I wojny \u015bwiatowej przez brytyjskich in\u017cynier\u00f3w jako rozwi\u0105zanie patowych sytuacji spowodowanych rozwojem walki pozycyjnej. Z czasem sta\u0142 si\u0119 jednym z kluczowych czynnik\u00f3w w walce l\u0105dowej. Cho\u0107 pierwsze modele by\u0142y powolne i niezgrabne, przez ca\u0142\u0105 wojn\u0119 obie strony konfliktu eksperymentowa\u0142y z tym rodzajem pojazd\u00f3w opancerzonych. Awaryjno\u015b\u0107, zbytni ci\u0119\u017car i niska manewrowo\u015b\u0107 zosta\u0142y ostatecznie przezwyci\u0119\u017cone metod\u0105 pr\u00f3b i b\u0142\u0119d\u00f3w.",
+    "strategy": "Okr\u0119ty l\u0105dowe to pot\u0119\u017cne, mobilne jednostki l\u0105dowe. Mog\u0105 porusza\u0107 si\u0119 po walce, co pozwala im tworzy\u0107 wyrwy w liniach wroga i przemieszcza\u0107 si\u0119 na zwolnione w ten spos\u00f3b pola.",
+    "movement": 4,
+    "cost": {
+        "production": 350,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Silnik spalinowy|Silnika spalinowego|Silnikowi spalinowemu|Silnik spalinowy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

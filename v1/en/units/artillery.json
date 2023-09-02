@@ -1,0 +1,43 @@
+{
+    "id": 37,
+    "name": "Artillery",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/artillery.png",
+    "game_info": "The first Siege Unit in the game capable of firing 3 tiles away. Must set up prior to firing.",
+    "historical_info": "As technology has advanced, artillery has assumed ever greater importance on the battlefield. The 19th century guns of the Napoleonic and American Civil Wars are gone, having been replaced by ever-larger, more accurate and deadlier weapons as the years have passed. The German 88 mm gun is one of the best and most versatile artillery weapons of the Second World War. Originally designed as an anti-aircraft weapon, the gun proved so successful as an anti-tank weapon that variants were created for just that purpose.",
+    "strategy": "Artillery is a deadly siege weapon, more powerful than a cannon and with a longer range. Like the cannon it has limited visibility and must set up (1 mp) to attack, but its Ranged Combat strength is tremendous. Artillery also has the \"indirect fire\" ability, allowing it to shoot over obstructions at targets it cannot see (as long as other friendly units can see them). Like other siege weapons, Artillery is vulnerable to melee attack.",
+    "movement": 2,
+    "cost": {
+        "production": 250,
+        "faith": 500
+    },
+    "prereq_tech": {
+        "name": "Dynamite",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/dynamite.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirect Fire",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/indirect_fire.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 67,
+    "name": "Companion Cavalry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/companion_cavalry.png",
+    "game_info": "Fast and powerful early game Mounted Unit. Weak to Spearmen. Only the Greeks may build it. This Unit is faster, has a higher Combat Strength and helps produce Great Generals more quickly than the Horseman which it replaces.",
+    "historical_info": "The hetairoi, or \"companion cavalry,\" were elite horsemen who accompanied Alexander the Great into battle. The term \"hetairoi\" derives from the name of the Macedonian aristocracy, and the companion cavalry came from only the best Macedonian families (though later this was expanded to include the nobility of allied and subject peoples). Each cavalryman carried a \"xyston\" (thrusting spear), and \"kopis\" (curved sword), and wore a bronze cuirass, shoulder pads and helmet.In battle, Alexander usually held back the companions until the enemy was fully engaged with his phalanx units. Alexander himself would then lead his companions against the enemy's flank or rear, sowing confusion and dismay in the enemy army. The opposing forces never found a satisfactory answer to this combination, and with it Alexander conquered most of the known world.",
+    "strategy": "Companion Cavalry are Greek unique units, replacing the Horseman. Companion Cavalry are faster and more powerful than the Horseman unit, making them the most dangerous cavalry units until the arrival of the Knight. Companion Cavalry help generate Great Generals more rapidly than other units. In addition, they can move after attacking. Companion Cavalry are mounted, and still vulnerable to Spearmen and Pikemen attack.",
+    "movement": 5,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Horseback Riding",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Great Generals I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

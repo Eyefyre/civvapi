@@ -1,0 +1,20 @@
+{
+    "id": 53,
+    "name": "Navigation School",
+    "game_info": "Navigation SchoolA Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.",
+    "historical_info": "In 1418 AD, Prince Henry of Portugal founded the first school for the study of oceanic navigation, along with an astronomical observatory, at Sagres. Here Portuguese pilots were trained in navigation, map-making, the science of tides and currents, and other skills to better enable them to sail the coasts of Africa, where Henry wanted to establish a string of ports leading to the riches of the Far East. As exploration and colonization reached a fevered pitch in the 1600s, most European monarchs followed Henry's lead and established navigation schools.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/navigation_school.png",
+    "required_policies": [
+        {
+            "name": "Naval Tradition",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/naval_tradition.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Exploration",
+        "game_info": "Exploration enhances your abilties to spread your empire over the seas.Adopting Exploration gives +1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre.Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with Faith starting in the Industrial Era.",
+        "prereq_era": "Medieval Era",
+        "historical_info": "Since man first settled in one place, there have always been those among them who have been driven to see what lies over the horizon. Whether motivated by profit, adventure, religion, necessity or just curiosity, explorers have widened our knowledge of the world and its wonders. In the process of exploring, they have also linked diverse and distant cultures, for good or ill. Great explorers from the Carthaginian Hanno to the Chinese admiral Wang Dayuan to the Englishman Sir Richard Burton and thousands of others have driven the expansion of civilizations and shaped history."
+    }
+}

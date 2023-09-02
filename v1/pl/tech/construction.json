@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 105,
+    "civilopedia_entry": "Budownictwo reprezentuje rozw\u00f3j kamieniarstwa, wzbogaconego o wykorzystanie \u017celaza oraz innych metali. Kamie\u0144 i ceg\u0142y s\u0105 wyj\u0105tkowo wytrzyma\u0142e, lecz przy tym bardzo ci\u0119\u017ckie i nieelastyczne. Z tych materia\u0142\u00f3w nie mo\u017cna wznosi\u0107 bardzo wysokich konstrukcji, chyba \u017ce budowle b\u0119d\u0105 kamiennymi blokami maj\u0105cymi kszta\u0142t piramidy \u2013 w przeciwnym razie wal\u0105 si\u0119 pod w\u0142asnym ci\u0119\u017carem lub pod wp\u0142ywem silnego wiatru.Co innego budowle metalowe lub kamienne wzmocnione metalem \u2013 mog\u0105 by\u0107 naprawd\u0119 wysokie i pi\u0119kne, a do tego jak najbardziej stabilne. Z pomoc\u0105 metalu mo\u017cna budowa\u0107 wielkie mosty, d\u0142ugie tunele, olbrzymie drapacze chmur i strome drogi. Bez budownictwa nie powsta\u0142yby wielkie miasta \u015bwiata ani najpi\u0119kniejsze obiekty architektury.",
+    "quote": "\u201eDobry budynek musi mie\u0107 trzy cechy: powinien sta\u0107 w dobrym miejscu; mie\u0107 dobre fundamenty i dobrze wykonan\u0105 konstrukcj\u0119.\u201d \u2013 Johann Wolfgang von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Murarstwo|Murarstwa|Murarstwu|Murarstwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/masonry.json"
+        },
+        {
+            "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "\u0141ucznicy z \u0142ukiem kompozyt.|\u0141ucznik\u00f3w z \u0142ukiem kompozytowym|\u0141ucznikom z \u0142ukiem kompozytowym|\u0141ucznik\u00f3w z \u0142ukiem kompozytowym",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Koloseum",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/colosseum.json"
+        },
+        {
+            "name": "Terakotowa Armia|Terakotowej Armii|Terakotowej Armii|Terakotow\u0105 Armi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/terracotta_army.json"
+        }
+    ]
+}

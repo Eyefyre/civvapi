@@ -1,0 +1,44 @@
+{
+    "id": 2,
+    "name": "Garncarstwo|Garncarstwa|Garncarstwu|Garncarstwo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/pottery.png",
+    "era": "Staro\u017cytno\u015b\u0107|Staro\u017cytno\u015bci|Staro\u017cytno\u015bci|Staro\u017cytno\u015b\u0107",
+    "cost": 35,
+    "civilopedia_entry": "Garncarstwo to jedna z najstarszych i najbardziej u\u017cytecznych dziedzin sztuki. W garncarstwie wytwarza si\u0119 przedmioty z gliny, nast\u0119pnie umieszcza si\u0119 je w piecu i poddaje dzia\u0142aniu bardzo wysokiej temperatury. Uzyskany produkt jest bardzo kruchy, ale przy tym szczelny i praktycznie niewra\u017cliwy na korozj\u0119, utlenianie, robaczywienie i inne niszczycielskie si\u0142y poch\u0142aniaj\u0105ce przedmioty wykonane z metalu, drewna lub tkanin. Pierwsze przedmioty garncarskie to s\u0142oje i pojemniki na p\u0142yny lub zbo\u017ce, a tak\u017ce garnki, miski, talerze i kubki.Pierwsz\u0105 odkryt\u0105 form\u0105 garncarstwa by\u0142a ceramika, kt\u00f3ra narodzi\u0142a si\u0119 oko\u0142o 9000 lat temu. Wyroby ceramiczne s\u0105 porowate i zwykle pokryte bardziej wodoszczelnym materia\u0142em (zwanym \u201ewy\u015bci\u00f3\u0142k\u0105\u201d) albo szkliwem. Ceramika jest bardzo wytrzyma\u0142a i korzysta si\u0119 z niej po dzi\u015b dzie\u0144. Wyroby kamionkowe s\u0105 wypalane (\u201epieczone\u201d) w wysokich temperaturach, dop\u00f3ki glina nie ulegnie zeszkleniu i przestanie by\u0107 porowata. Proces ten wynaleziono w Chinach, oko\u0142o 1400 r. p.n.e. W VI wieku, tak\u017ce w Chinach, wynaleziono porcelan\u0119. Przypomina ona kamionk\u0119 (r\u00f3\u017cnice mi\u0119dzy nimi s\u0105 dyskusyjne), ale wyroby porcelanowe s\u0105 bardziej przejrzyste i delikatniejsze.",
+    "quote": "\u201eCzy\u017c powie glina temu, co j\u0105 kszta\u0142tuje: Co robisz?\u201d \u2013 Biblia, Ksi\u0119ga Izajasza 45,9",
+    "tech_prereqs": [
+        {
+            "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+        },
+        {
+            "name": "Kalendarz|Kalendarza|Kalendarzowi|Kalendarz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/calendar.json"
+        },
+        {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Spichlerz|Spichlerza|Spichlerzowi|Spichlerz|Spichlerze|Spichlerzy|Spichlerzom|Spichlerze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/granary.json"
+        },
+        {
+            "name": "Piramida|Piramidy|Piramidzie|Piramid\u0119|Piramidy|Piramid|Piramidom|Piramidy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/pyramid.json"
+        },
+        {
+            "name": "Kaplica|Kaplicy|Kaplicy|Kaplic\u0119|Kaplice|Kaplic|Kaplicom|Kaplice",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/shrine.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Jednostka powietrzna zrzucaj\u0105ca \u015bmier\u0107 na nieprzyjacielskie jednostki i miasta. Mog\u0105 j\u0105 skonstruowa\u0107 tylko Amerykanie. Ta jednostka ma szans\u0119 unikn\u0105\u0107 przechwycenia oraz zadaje miastom wi\u0119ksze uszkodzenia ni\u017c bombowce, kt\u00f3re zast\u0119puje.",
+    "historical_info": "Boeing B-17 \u201eLataj\u0105ca forteca\u201d, by\u0142 ci\u0119\u017ckim bombowcem, u\u017cywanym przez lotnictwo Stan\u00f3w Zjednoczonych podczas II wojny \u015bwiatowej. Wyposa\u017cony w cztery silniki, wiele stanowisk strzeleckich i osi\u0105gaj\u0105cy niezwykle wysoki pu\u0142ap, B-17 by\u0142 ulubionym bombowcem ameryka\u0144skiego lotnictwa \u2013 pomimo jego kr\u00f3tszego zasi\u0119gu i mniejszej \u0142adowno\u015bci w por\u00f3wnaniu z B24 Liberatorem \u2013 g\u0142\u00f3wnie z powodu mo\u017cliwo\u015bci przetrwania ci\u0119\u017ckich uszkodze\u0144, dzi\u0119ki czemu za\u0142oga wraca\u0142a \u017cywa do bazy.Na pocz\u0105tku wykorzystywano go w dziennych nalotach na cele w Niemczech, gdzie B-17 ponosi\u0142 ci\u0119\u017ckie straty spowodowane przez my\u015bliwce Luftwaffe. Z up\u0142ywem czasu Alianci zaprojektowali my\u015bliwce zdolne do eskortowania bombowc\u00f3w na terytorium wroga. Rajdy B-17 sta\u0142y si\u0119 bardziej skuteczne, zadaj\u0105c olbrzymie straty niemieckiemu przemys\u0142owi i miastom.W czasie II wojny \u015bwiatowej zbudowano ponad 12 000 B-17, a oko\u0142o jedna trzecia z nich zosta\u0142a utracona w walce.",
+    "strategy": "Bombowce B17 to unikatowa jednostka ameryka\u0144ska zast\u0119puj\u0105ca bombowce. Jest do nich podobna, ale jest odporniejsza na ataki artylerii przeciwlotniczej i my\u015bliwc\u00f3w wroga. B17 otrzymuj\u0105 te\u017c premi\u0119 podczas ataku na wrogie miasta. Podobnie do bombowc\u00f3w, B17 maj\u0105 zasi\u0119g 10 p\u00f3l. Wi\u0119cej szczeg\u00f3\u0142\u00f3w znajdziesz w zasadach dotycz\u0105cych lotnictwa.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|Radaru|Radarowi|Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unik|Uniku|Unikowi|Unik",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/evasion.json"
+        },
+        {
+            "name": "Obl\u0119\u017cenie I|Obl\u0119\u017cenia I|Obl\u0119\u017ceniu I|Obl\u0119\u017cenie I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/siege_i.json"
+        }
+    ]
+}

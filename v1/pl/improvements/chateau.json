@@ -1,0 +1,49 @@
+{
+    "id": 29,
+    "name": "Chateau",
+    "game_info": "Chateau to dworek lub posiad\u0142o\u015b\u0107 wiejska szlachty zwykle nie posiadaj\u0105ca \u017cadnych umocnie\u0144. W \u015bredniowieczu chateau by\u0142o w wi\u0119kszo\u015bci samowystarczalne, utrzymywane przez ziemie nale\u017c\u0105ce do w\u0142adcy. W XVII wieku lordowie francuscy wybudowali liczne eleganckie, luksusowe, architektonicznie wyrafinowane posiad\u0142o\u015bci takie jak Chateau de Maisons. Dzi\u015b nazwy chateau u\u017cywa si\u0119 do\u015b\u0107 swobodnie, cz\u0119sto okre\u015bla si\u0119 tym mianem winnic\u0119 lub gospod\u0119, niewa\u017cne jak skromne.Chateau nale\u017cy budowa\u0107 obok zasob\u00f3w luksusowych. Nie mo\u017ce s\u0105siadowa\u0107 z innym chateau. Daje dodatkowo 1 z\u0142ota i 2 kultury. Podobnie jak fort daje premi\u0119 +50% do obrony. Po wynalezieniu lotu zwi\u0119ksza przych\u00f3d kultury o 1, a produkcj\u0119 z\u0142ota o 2. Musi by\u0107 budowane na terytorium francuskim.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+        },
+        {
+            "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "France",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/france.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

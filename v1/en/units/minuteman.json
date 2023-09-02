@@ -1,0 +1,31 @@
+{
+    "id": 49,
+    "name": "Minuteman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/minuteman.png",
+    "game_info": "One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit may move through rough ground as though it were flat, receives a bonus when fighting in rough terrain, and earns points toward a Golden Age when it defeats an enemy.",
+    "historical_info": "Seeing service during the American Revolutionary War, the American minutemen were select members of the colonial militia. They were a \"rapid response\" force, trained to respond quickly to enemy attacks, giving the Regular Army (as well as the rest of the militia) time to react and prepare for battle. Minutemen actually predate the American Revolution: the Massachusetts Bay Colony had certain members of its militia designated as minutemen as early as 1645.",
+    "strategy": "The Minuteman is the American unique unit, replacing the Musketman. The Minuteman can move through difficult terrain as though it were clear (all tiles cost 1mp per hex), receives a bonus when fighting in rough terrain, and earns points toward a Golden Age when it defeats an enemy.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Gunpowder",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignores Terrain Cost",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/ignores_terrain_cost.json"
+        },
+        {
+            "name": "Drill I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/drill_i.json"
+        },
+        {
+            "name": "Golden Age from Victories",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Universidad|Universidades",
+    "game_info": "+2 a Ciencia por las casillas de Selva que esta ciudad explote. Permite crear Arque\u00f3logos en esta ciudad.La ciudad debe contar con una Biblioteca.",
+    "strategy": "La Universidad es un edificio medieval. Aumenta la producci\u00f3n cient\u00edfica de la ciudad y es m\u00e1s eficaz a\u00fan si esta se encuentra construida cerca de casillas de Selva. La ciudad ha de contar con una Biblioteca (o Papelero) para que se pueda construir en ella una Universidad.",
+    "historical_info": "La universidad es una instituci\u00f3n que ofrece investigaci\u00f3n y educaci\u00f3n superior a j\u00f3venes de entre 18 y 24 a\u00f1os (los adultos tambi\u00e9n acuden a las universidades, pero la mayor\u00eda de los estudiantes se encuentran dentro de esa edad). Formalmente, una universidad es una instituci\u00f3n acreditada por el estado que concede t\u00edtulos acad\u00e9micos en diversas materias. La universidad que m\u00e1s tiempo lleva abierta en todo el mundo es la de Al-Karaouine, en Fez, Marruecos, que se fund\u00f3 en el 859 d. C.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/universidad|universidades.png",
+    "prereq_tech": {
+        "name": "Educaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

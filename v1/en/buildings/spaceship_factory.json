@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Spaceship Factory",
+    "game_info": "+50% Production when building Spaceship Parts. Requires 1 Aluminum.City must have a Factory.",
+    "strategy": "The Spaceship Factory increases the speed at which a city constructs spaceship parts. The Spaceship Factory requires one Aluminum resource, and the city must possess a Factory before it can be constructed.",
+    "historical_info": "Spaceships are the most complicated things that humanity has ever produced. They're huge, requiring large amounts of material manufactured to the highest level of quality and constructed with a degree of precision unmatched in any other field. The Alpha Centauri spaceship factories employ the most talented workers in modern industry. Many of the workers have been chosen to go on the colonizing mission, which helps ensure their dedication and attention to detail. These vehicles must be flawless - a single careless weld or the tiniest dent in the wrong surface might leave several hundred colonists locked in a damaged vehicle some several million miles from home.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/spaceship_factory.png",
+    "prereq_tech": {
+        "name": "Robotics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 3,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

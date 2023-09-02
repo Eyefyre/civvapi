@@ -1,0 +1,20 @@
+{
+    "id": 48,
+    "name": "Tradici\u00f3n militar",
+    "game_info": "Tradici\u00f3n militarLas unidades militares ganan un 50% m\u00e1s de experiencia en combate.",
+    "historical_info": "La tradici\u00f3n militar es la pol\u00edtica de honrar e idealizar el servicio en el ej\u00e9rcito del estado. Se venera a los soldados y veteranos, mientras que quienes no forman parte del ej\u00e9rcito suelen quedar relegados, o incluso se considera que carecen de honor. El Israel actual tiene una tradici\u00f3n militar importante, como la tuvieron la Inglaterra victoriana y los estados sure\u00f1os de Estados Unidos antes de la Guerra Civil.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/tradici\u00f3n_militar.png",
+    "required_policies": [
+        {
+            "name": "C\u00f3digo del Guerrero",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/warrior_code.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Honor",
+        "game_info": "El Honor mejora la eficacia del ej\u00e9rcito propio de varias maneras.Adoptarlo concede un +33% de bonificaci\u00f3n al combatir a los B\u00e1rbaros, y se te notificar\u00e1 la aparici\u00f3n de nuevos Campamentos b\u00e1rbaros en el territorio que hayas descubierto. El imperio gana Cultura por cada B\u00e1rbaro que mate. Desbloquea la construcci\u00f3n de la Estatua de Zeus.Adoptar todas las pol\u00edticas del \u00e1rbol del Honor otorgar\u00e1 Oro por cada unidad enemiga que mates. Tambi\u00e9n permite comprar Grandes generales con Fe a partir de la Era Industrial.",
+        "prereq_era": null,
+        "historical_info": "En una sociedad \"honorable\", el estatus de los ciudadanos se basa en la estimaci\u00f3n social de sus cualidades personales. Las cualidades que se suelen considerar honorables son la lealtad, la honradez, la integridad y el valor. En muchas de estas sociedades, se espera que los hombres \"defiendan su honor\" hasta la muerte, pues perder el honor es peor que perder la vida."
+    }
+}

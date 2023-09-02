@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Quinquerreme|Quinquerremes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Una unidad naval fuerte de la Antig\u00fcedad que se utiliza para dominar los mares mediante ataques cuerpo a cuerpo contra unidades navales y ciudades. Solo los cartagineses pueden construirla.",
+    "historical_info": "El famoso quinquerreme, una nave fuertemente armada, era uno de los muchos modelos de barcos que Cartago emple\u00f3 contra Roma. Estos nav\u00edos deb\u00edan su nombre al uso de cinco filas horizontales de remeros en cada lado del barco. Aunque se desconoce la cantidad exacta, se cree que, entre ej\u00e9rcito y tripulantes, estas naves pesadas transportaban a varios cientos de hombres. La calidad de los quinquerremes cartagineses era excelente; de hecho, se dice que su dise\u00f1o fue obra de los ingenieros navales del norte de \u00c1frica, y que los romanos lo copiaron m\u00e1s tarde.",
+    "strategy": "Solo los cartagineses pueden construir esta unidad. Es una versi\u00f3n m\u00e1s potente del Trirreme, incluida su Fuerza de combate. Al igual que este, es una unidad de cuerpo a cuerpo que se enfrenta a las unidades en el mar o en las ciudades (pero no tiene ataque a distancia). El Quinquerreme no puede adentrarse en casillas de aguas oce\u00e1nicas profundas que est\u00e9n fuera de las fronteras de las ciudades.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

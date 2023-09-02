@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "\u5f3e\u9053\u30df\u30b5\u30a4\u30eb",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "\u73fe\u4ee3",
+    "cost": 4100,
+    "civilopedia_entry": "\u5f3e\u9053\u5b66\u3068\u306f\u5f3e\u4e38\u3001\u30df\u30b5\u30a4\u30eb\u3001\u7206\u5f3e\u306a\u3069\u306e\u98db\u7fd4\u4f53\u306e\u8ecc\u9053\u306b\u95a2\u3059\u308b\u5b66\u554f\u3067\u3042\u308b\u3002\u307b\u3068\u3093\u3069\u306e\u5834\u5408\u3001\u5f3e\u9053\u5b66\u3068\u3044\u3046\u8a00\u8449\u306f\u72af\u7f6a\u79d1\u5b66\u306b\u304a\u3051\u308b\u6b66\u5668\u3084\u5f3e\u85ac\u306e\u7814\u7a76\u306b\u95a2\u9023\u3057\u305f\u4e8b\u67c4\u3067\u7528\u3044\u3089\u308c\u308b\u3002\u7279\u306b\u72af\u7f6a\u3068\u3044\u3046\u72b6\u6cc1\u306b\u304a\u3044\u3066\u306f\u3001\u767a\u898b\u3055\u308c\u305f\u5f3e\u4e38\u304c\u7279\u5b9a\u306e\u6b66\u5668\u304b\u3089\u767a\u5c04\u3055\u308c\u305f\u3082\u306e\u304b\u3069\u3046\u304b\u3092\u8a3c\u660e\u3059\u308b\u3053\u3068\u304c\u3001\u88ab\u7591\u8005\u3078\u306e\u5224\u6c7a\u3092\u4e0b\u3059\u4e0a\u3067\u5fc5\u8981\u3068\u306a\u308b\u3053\u3068\u304c\u3042\u308b\u3002\u904e\u53bb1\u4e16\u7d00\u306b\u6e21\u308b\u5f3e\u9053\u5b66\u306e\u7814\u7a76\u306e\u6210\u679c\u306b\u3088\u308a\u3001\u69d8\u3005\u306a\u98db\u3073\u9053\u5177\u306e\u7cbe\u5ea6\u3001\u7834\u58ca\u529b\u3001\u304a\u3088\u3073\u7dcf\u5408\u7684\u306a\u6709\u52b9\u6027\u306f\u591a\u5927\u306a\u308b\u9032\u6b69\u3092\u9042\u3052\u305f\u3002",
+    "quote": "\u300c\u5f3e\u4e38\u306e\u3088\u3046\u306b\u6700\u3082\u6ed1\u3089\u304b\u306a\u7537\u304c\u6700\u3082\u9060\u304f\u3078\u884c\u304f\u3053\u3068\u304c\u3067\u304d\u308b\u300d - \u30b8\u30e7\u30f3\u30fb\u30dd\u30fc\u30eb",
+    "tech_prereqs": [
+        {
+            "name": "\u9244\u9053",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/railroad.json"
+        },
+        {
+            "name": "\u98db\u884c\u6a5f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u30ec\u30fc\u30c0\u30fc",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/radar.json"
+        },
+        {
+            "name": "\u9023\u5408\u90e8\u968a",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "\u5bfe\u7a7a\u7832",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "\u30de\u30b7\u30f3\u30ac\u30f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

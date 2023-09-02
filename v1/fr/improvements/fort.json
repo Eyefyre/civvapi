@@ -1,0 +1,46 @@
+{
+    "id": 15,
+    "name": "Fort|Forts",
+    "game_info": "Le fort est un am\u00e9nagement sp\u00e9cial qui n'augmente pas la productivit\u00e9 d'une case et ne donne pas acc\u00e8s \u00e0 une ressource. En revanche, il am\u00e9liore son bonus d\u00e9fensif de 50% pour les unit\u00e9s pr\u00e9sentes sur cette case, \u00e0 l'exception des unit\u00e9s en territoire ennemi.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fort|forts.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Ing\u00e9nierie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/engineering.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

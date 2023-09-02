@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Strzelcy|Strzelc\u00f3w|Strzelcom|Strzelc\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Silna jednostka l\u0105dowa charakterystyczna dla \u015brodkowego etapu gry.",
+    "historical_info": "Karabin to bro\u0144 zaprojektowana tak, by mo\u017cliwe by\u0142o prowadzenie ognia z ramienia. Wn\u0119trze lufy jest gwintowane, dzi\u0119ki czemu po wystrzeleniu pocisk nabiera ruchu wirowego. Zwi\u0119ksza to jego zasi\u0119g i celno\u015b\u0107. Pierwsze karabiny pojawi\u0142y si\u0119 na polach bitew w XV wieku, ale ze wzgl\u0119du na problemy z produkcj\u0105 do powszechnego u\u017cycia wesz\u0142y dopiero w XIX wieku. Angielscy i ameryka\u0144scy zwiadowcy byli wyposa\u017cani w karabiny ju\u017c podczas wojen napoleo\u0144skich, w 1812 roku. Ze wzgl\u0119du na d\u0142ugi czas prze\u0142adowania min\u0119\u0142o sporo czasu, nim bro\u0144 ta trafi\u0142a do powszechnego u\u017cycia.Czas prze\u0142adowania uleg\u0142 znacznemu skr\u00f3ceniu po wynalezieniu pocisk\u00f3w typu \u201eminie\u201d. Spowodowa\u0142o to pojawienie si\u0119 karabin\u00f3w muszkietowych w arsenale wi\u0119kszo\u015bci armii europejskich. Pod koniec wojny secesyjnej karabiny muszkietowe sta\u0142y si\u0119 przestarza\u0142e. Zast\u0105pi\u0142a je bro\u0144 odtylcowa, kt\u00f3r\u0105 mo\u017cna by\u0142o prze\u0142adowa\u0107 w oko\u0142o sekund\u0119. W por\u00f3wnaniu z broni\u0105 odprzodow\u0105, kt\u00f3r\u0105 wyszkolony strzelec prze\u0142adowywa\u0142 20-30 sekund, r\u00f3\u017cnica by\u0142a gigantyczna.",
+    "strategy": "Strzelcy to jednostka z broni\u0105 paln\u0105, kt\u00f3ra zast\u0119puje arkebuzer\u00f3w. Jest od nich zdecydowanie pot\u0119\u017cniejsza, daj\u0105c wyra\u017an\u0105 przewag\u0119 militarn\u0105 wobec cywilizacji, kt\u00f3re ni\u0105 nie dysponuj\u0105.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rifling.json"
+    },
+    "free_promotions": []
+}

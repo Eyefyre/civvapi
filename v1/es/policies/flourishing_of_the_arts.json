@@ -1,0 +1,24 @@
+{
+    "id": 26,
+    "name": "Florecimiento de las artes",
+    "game_info": "Florecimiento de las artesUn 33% m\u00e1s a Cultura en todas las ciudades que cuenten con una Gran maravilla del mundo y el imperio entra de inmediato en una Edad de Oro .",
+    "historical_info": "Por \"florecimiento de las artes\" nos solemos referir a un periodo est\u00e9tico caracterizado por una gran producci\u00f3n de arte innovador, normalmente acompa\u00f1ado por una edad de oro de una civilizaci\u00f3n. Adem\u00e1s de los avances cient\u00edficos y la mejora de condiciones de vida, el \"florecimiento de las artes\" afecta a todas las formas art\u00edsticas: literatura, m\u00fasica o artes materiales. Desgraciadamente, cada ciclo suele ser interrumpido por influencias externas, como guerras, crisis econ\u00f3micas, fanatismo religioso y otras circunstancias que escapan al control popular.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/florecimiento_de_las_artes.png",
+    "required_policies": [
+        {
+            "name": "Centros culturales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/cultural_centers.json"
+        },
+        {
+            "name": "Bellas artes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Est\u00e9tica",
+        "game_info": "La Est\u00e9tica mejora la capacidad de generaci\u00f3n de Cultura de una civilizaci\u00f3n.La adopci\u00f3n de la Est\u00e9tica te permite generar Grandes escritores, artistas y m\u00fasicos un 25% m\u00e1s r\u00e1pido. Desbloquea la construcci\u00f3n de la Galer\u00eda de los Uffizi.La adopci\u00f3n de todas las pol\u00edticas duplica la bonificaci\u00f3n por tema de Maravillas y Museos. Tambi\u00e9n te permite comprar Grandes escritores, artistas y m\u00fasicos con Fe a partir de la Era Industrial.",
+        "prereq_era": "\u00c9poca Cl\u00e1sica",
+        "historical_info": "La est\u00e9tica es la filosof\u00eda de la naturaleza del arte y del gusto y se ocupa de la creaci\u00f3n y la apreciaci\u00f3n de la belleza material. Debe advertirse que la est\u00e9tica no engloba la funcionalidad ni la utilidad de algo, se centra solo en la belleza de la forma, el color, el contraste y otros aspectos art\u00edsticos."
+    }
+}

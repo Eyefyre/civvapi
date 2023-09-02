@@ -1,0 +1,35 @@
+{
+    "id": 32,
+    "name": "Chasseur|Chasseurs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/fighter.png",
+    "game_info": "Unit\u00e9 a\u00e9rienne con\u00e7ue pour contr\u00f4ler les cieux et intercepter tout a\u00e9ronef ennemi en approche.",
+    "historical_info": "Les avions de chasse, ou chasseurs, sont apparus au cours de la Premi\u00e8re Guerre mondiale. Les tout premiers mod\u00e8les n'\u00e9taient rien de plus que de gros cerfs-volants autopropuls\u00e9s \u00e9quip\u00e9s de mitrailleuses. Avec l'\u00e9volution de la technologie et de la doctrine militaire, ces appareils de fortune ont rapidement fait place \u00e0 des engins a\u00e9riens mortels et extr\u00eamement puissants. Lors de la Deuxi\u00e8me Guerre mondiale, le r\u00f4le principal des chasseurs \u00e9tait de contr\u00f4ler l'espace a\u00e9rien au-dessus du champ de bataille, en d\u00e9truisant les appareils ennemis ou en les repoussant, permettant ainsi aux bombardiers alli\u00e9s de frapper les unit\u00e9s ennemies terrestres ou navales. Certains chasseurs transportent \u00e9galement des bombes pour attaquer les unit\u00e9s au sol, mais ils peuvent parvenir au m\u00eame r\u00e9sultat avec leur arsenal de base.Les chasseurs \u00e0 r\u00e9action modernes sont plus rapides, mieux arm\u00e9s et mieux prot\u00e9g\u00e9s, mais les principes de combat restent les m\u00eames, et les arm\u00e9es disposant d'une sup\u00e9riorit\u00e9 a\u00e9rienne ont un \u00e9norme avantage sur leurs ennemis.",
+    "strategy": "L'avion de chasse est une unit\u00e9 a\u00e9rienne de puissance mod\u00e9r\u00e9e. Il peut \u00eatre plac\u00e9 dans l'une de vos villes ou \u00e0 bord d'un porte-avions, se d\u00e9placer de ville en ville (ou de porte-avions en porte-avions) et effectuer des missions dans un rayon de 8\u00a0cases. Utilisez les avions de chasse pour attaquer les unit\u00e9s a\u00e9riennes et terrestres, pour rep\u00e9rer les positions ennemies et pour vous d\u00e9fendre contre les attaques a\u00e9riennes de vos rivaux. Les chasseurs sont particuli\u00e8rement efficaces contre les h\u00e9licopt\u00e8res ennemis. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(100).json"
+        },
+        {
+            "name": "Balayage a\u00e9rien",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconnaissance a\u00e9rienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contre bombardiers/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

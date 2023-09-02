@@ -1,0 +1,18 @@
+{
+    "id": 44,
+    "name": "Rifleman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rifleman.png",
+    "game_info": "Strong, front-line land Unit of the mid-game.",
+    "historical_info": "A rifle is a firearm designed to be fired from the shoulder. The inside of the barrel has \"rifled\" grooves designed to spin the projectile as it is fired, giving it far greater range and accuracy than an unrifled projectile. The earliest attempts at rifled barrels in Europe occurred in the 15th century, but difficulties in manufacturing kept it from general use until the 19th. British and American skirmishers and scouts were equipped with rifled muskets during the Napoleonic Wars/War of 1812, but the weapons' slower loading time kept them out of the hands of the regular infantry for some years further.The invention of the \"minie ball\" greatly speeded up loading time, and by the American Civil War rifled muskets were in use in all major European armies. By the end of the Civil War the rifled musket was rendered obsolete by the breech-loading repeating rifle, which had a firing rate of perhaps a second (as fast as one could cock the lever and pull the trigger), compared to the muzzle-loading rifle's firing rate of perhaps 20 to 30 seconds per shot for a well-trained soldier.",
+    "strategy": "The Rifleman is the gunpowder unit following the musketman. It is significantly more powerful than the musketman, giving the army with the advanced units a big advantage over civs which have not yet upgraded to the new unit.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Rifling",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+    },
+    "free_promotions": []
+}

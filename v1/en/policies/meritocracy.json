@@ -1,0 +1,20 @@
+{
+    "id": 45,
+    "name": "Meritocracy",
+    "game_info": "Meritocracy+1 Happiness for each City you own [ICON_CONNECTED] connected to the Capital and -5% Unhappiness from Citizens in non-occupied Cities.",
+    "historical_info": "A meritocracy is a system in which the most talented and worthy are assigned jobs and gain advancement in the government bureaucracy, rather than, say, those who are close personal friends of the current ruler (or congressman), or those from a certain tribe or caste or religion. Many long-lived governments swing back and forth between some form of meritocracy and some less sensible method of choosing those who run things. At first the officials are chosen for their ability, then over the years patronage or privilege creeps into the system and the government becomes increasingly inefficient and corrupt. Eventually things become so bad that the bureaucracy is jettisoned or reformed, and more meritorious officials are once again appointed. This pattern repeats itself until the sun explodes and all life is wiped off of the face of the planet.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/meritocracy.png",
+    "required_policies": [
+        {
+            "name": "Citizenship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/citizenship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Liberty",
+        "game_info": "Liberty is best for civilizations which desire rapid expansion.Adopting Liberty will provide 1 Culture in every city. Unlocks building the Pyramids.Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the Capital.",
+        "prereq_era": null,
+        "historical_info": "As a policy, liberty can be defined as the basic assumption that a nation's citizens deserve to be free. Free from physical restraint, and free from despotic control. Serfs, slaves, and hereditary servants do not enjoy liberty, nor do citizens who are forced to live within a certain village or gulag or ghetto."
+    }
+}

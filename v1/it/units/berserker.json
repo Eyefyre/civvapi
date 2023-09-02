@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserker|un Berserker|dal tuo Berserker|al tuo Berserker|il tuo Berserker|da un Berserker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Forte unit\u00e0 terrestre di epoca medievale, destinata a stare in prima fila e specialista in attacchi dal mare. Solo la Danimarca pu\u00f2 costruirla. Sostituisce il Guerriero con spada lunga, ma \u00e8 disponibile gi\u00e0 da prima.",
+    "historical_info": "Il berserker, membro di spicco del \"grande esercito pagano\", era una delle unit\u00e0 pi\u00f9 temute nella seconda met\u00e0 del IX secolo. Questa grande armata vichinga di berserker, guerrieri e marinai si consolid\u00f2 nel corso di una serie di attacchi contro Parigi e Rouen tra l'845 e il 850 d.C., aumentando man mano i numeri e raffinando le tattiche. Nell'865 l'esercito sbarc\u00f2 sulle rive orientali delle isole britanniche con l'obiettivo di conquistare l'intera Inghilterra e insediarvisi. Un anno dopo aveva gi\u00e0 conquistato il regno di Northumbria; nell'870 occup\u00f2 anche l'Anglia orientale. Segu\u00ec la Mercia, nell'874. I coloni che avevano viaggiato al seguito dell'esercito fondarono il regno di York sulle rovine. L'esercito venne finalmente sconfitto nell'878, ma i sopravvissuti si insediarono in modo permanente in Anglia orientale, Essex e Mercia.",
+    "strategy": "Il Berserker sostituisce il Guerriero con spada lunga ed \u00e8 una delle due unit\u00e0 esclusive danesi. Quest'unit\u00e0 ha +1 [ICON_MOVES] movimento rispetto al Guerriero con spada lunga e dispone della promozione Anfibio, che gli permette di attaccare una casella di terra dalla costa senza alcuna penalit\u00e0. Disponibile dopo la ricerca sulla Fusione del Metallo al posto dell'Acciaio.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Fusione del metallo|della Fusione del metallo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Attacco anfibio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/amphibious.json"
+        }
+    ]
+}

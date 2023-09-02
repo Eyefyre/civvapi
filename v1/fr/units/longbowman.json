@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "Archer long|Archers longs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "Unit\u00e9 d'infanterie m\u00e9di\u00e9vale attaquant \u00e0 distance. L'archer long est exclusif aux Anglais. Il profite d'un bonus de +1 \u00e0 la port\u00e9e, ce qui le diff\u00e9rencie de l'arbal\u00e9trier, qu'il remplace.",
+    "historical_info": "Le c\u00e9l\u00e8bre arc long anglais fut invent\u00e9 au cours du XIIe si\u00e8cle, \u00e0 l'\u00e9poque o\u00f9 les Anglais combattaient pour conqu\u00e9rir le pays de Galles. L'arc long \u00e9tait fait en if ou en orme et faisait entre 1,5 et 2 m\u00e8tres de haut, selon la taille et la force de son utilisateur. Cette arme \u00e9tait extr\u00eamement difficile \u00e0 ma\u00eetriser, mais des archers bien entra\u00een\u00e9s pouvaient tirer plus loin, plus vite et plus pr\u00e9cis\u00e9ment que les arbal\u00e9triers de l'\u00e9poque. Cette capacit\u00e9 n\u00e9cessitait cependant des ann\u00e9es d'entra\u00eenement. Au fur et \u00e0 mesure que la population augmentait, la campagne anglaise se transformait en une vaste \u00e9tendue de terres cultiv\u00e9es. L'activit\u00e9 de la chasse disparut progressivement et les paysans anglais devinrent de moins en moins habiles avec un arc et une fl\u00e8che. Ceci, ajout\u00e9 \u00e0 l'arriv\u00e9e de la poudre \u00e0 canon, marqua le d\u00e9clin de l'arc long.",
+    "strategy": "Unit\u00e9 exclusive aux Anglais, l'archer long remplace l'arbal\u00e9trier. Sa distance de tir plus \u00e9lev\u00e9e lui permet d'attaquer des unit\u00e9s ennemies situ\u00e9es \u00e0 trois cases de distance. De ce fait, il a souvent le temps de les d\u00e9truire avant m\u00eame qu'elles n'aient pu riposter. Comme toutes les unit\u00e9s d'attaque \u00e0 distance, l'archer long est vuln\u00e9rable aux attaques de combat rapproch\u00e9.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "M\u00e9canique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Port\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/range.json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "name": "SS Booster",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_booster.png",
+    "game_info": "One of the Spaceship parts that must be built and sent to the capital to win a Science Victory. Unlike other parts, three SS Boosters are needed to complete the spaceship.",
+    "historical_info": "The spaceship's boosters are used to propel the craft off of Earth and into a stable orbit. They are similar to (but much larger than) the simple but reliable and powerful boosters the Russians have been using to put their ships into space for decades. The boosters are ejected during the launch, falling harmlessly into the ocean where they can be retrieved by waiting cargo vessels.",
+    "strategy": "This piece is part of the spaceship, three units of which must be constructed to win a science victory. See the section on Victory for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Advanced Ballistics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+    },
+    "free_promotions": []
+}

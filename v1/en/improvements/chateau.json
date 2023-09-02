@@ -1,0 +1,49 @@
+{
+    "id": 29,
+    "name": "Chateau",
+    "game_info": "A chateau is a manor house or country home of gentry, usually without fortifications. In the Middle Ages, a chateau was largely self-sufficient, being supported by the lord's demesne (hereditary lands). In the 1600s, the wealthy and aristocratic French lords dotted the countryside with elegant, luxuriant, architecturally refined mansions such as the Chateau de Maisons. Today, the term chateau is loosely used; for instance, it is common for any winery or inn, no matter how humble, to prefix its name with \"Chateau.\"A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau. It provides one additional Gold and 2 Culture. It also provides the same +50% defense bonus as a Fort. When Flight is researched its Culture yield increases by 1 and its Gold output rises by 2. Must be built in French territory.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "France",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/civilizations/france.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

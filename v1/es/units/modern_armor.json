@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Blindado moderno|Blindados modernos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Una unidad r\u00e1pida y poderosa del juego tard\u00edo.",
+    "historical_info": "El blindado moderno ha mejorado significativamente, incluso respecto a los mejores tanques de la Segunda Guerra Mundial. Los tanques de hoy en d\u00eda son m\u00e1s grandes, r\u00e1pidos, cuentan con mejor blindaje y armas y, quiz\u00e1 lo m\u00e1s importante, van dotados de ordenadores y equipos de comunicaciones sofisticados que mejoran con mucho su potencia y capacidad de supervivencia en el mort\u00edfero campo de batalla moderno. Un tanque actual puede ir zumbando por el campo de batalla a unos 60 kil\u00f3metros por hora mientras dispara con una precisi\u00f3n milim\u00e9trica contra un objetivo que est\u00e1 a centenares de metros de distancia, pues un ordenador de punter\u00eda asistida ajusta el ca\u00f1\u00f3n del blindado, compensando cada bache o agujero que haya en la carretera.En el campo de batalla actual, las mayores amenazas para el tanque moderno las constituyen los blindados, la artiller\u00eda, los cazas y los helic\u00f3pteros de combate enemigos. La infanter\u00eda rara vez lleva armas con potencia suficiente para destruir los tanques enemigos, excepto, por supuesto, las radios, que pueden utilizar para solicitar apoyo a\u00e9reo o de artiller\u00eda.",
+    "strategy": "El Blindado moderno es muy parecido a su predecesor, el Tanque, solo que perfeccionado. Es mucho m\u00e1s fuerte que este y tiene todas sus capacidades, como la de moverse despu\u00e9s de atacar.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "L\u00e1ser",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

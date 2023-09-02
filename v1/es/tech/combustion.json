@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Combusti\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 4100,
+    "civilopedia_entry": "La \"combusti\u00f3n\" consiste en quemar algo. Se trata de una reacci\u00f3n qu\u00edmica entre sustancias, una de las cuales suele ser ox\u00edgeno, que a menudo genera luz y energ\u00eda calor\u00edfica. En este contexto hace referencia al uso de la combusti\u00f3n en el interior de un motor (de ah\u00ed la expresi\u00f3n \"combusti\u00f3n interna\") para generar energ\u00eda capaz de girar un cig\u00fce\u00f1al o accionar un pist\u00f3n.Existen dos clases distintas de motores de combusti\u00f3n interna: los convencionales (a dos o cuatro tiempos) y las turbinas. En los motores de combusti\u00f3n convencionales se introduce una determinada cantidad de combustible y ox\u00edgeno en la c\u00e1mara de combusti\u00f3n, donde se inflaman y mueven un pist\u00f3n o alg\u00fan otro dispositivo mec\u00e1nico. Una vez accionado, se vuelve a introducir otra medida de combustible y ox\u00edgeno, y se repite todo el proceso. Un ejemplo de este tipo de motor de combusti\u00f3n son los motores de los autom\u00f3viles. Las turbinas funcionan introduciendo un suministro continuo de combustible y ox\u00edgeno que se mantiene siempre en combusti\u00f3n. Los motores a reacci\u00f3n de los cazas son turbinas.La primera patente del motor de combusti\u00f3n interna se concedi\u00f3 al brit\u00e1nico Samuel Brown en 1823 por su \"bomba de gas y vac\u00edo\", que funcionaba a base de hidr\u00f3geno y ox\u00edgeno. La primera patente de utilizaci\u00f3n de un motor a reacci\u00f3n para propulsar una aeronave fue solicitada en 1921 por el franc\u00e9s Maxime Guillaume. Ninguno de estos primeros intentos obtuvo mucho \u00e9xito, pero abrieron el camino a nuevas tecnolog\u00edas que mover\u00edan el mundo no solo hasta el d\u00eda de hoy, sino tambi\u00e9n en un futuro previsible.",
+    "quote": "\"El hombre que besa a una mujer bonita mientras conduce sin chocar es que no le est\u00e1 dando al beso la atenci\u00f3n que merece.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Ferrocarril",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fuerzas combinadas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Destructor|Destructores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/destroyer.json"
+        },
+        {
+            "name": "Carro de combate|Carros de combate",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

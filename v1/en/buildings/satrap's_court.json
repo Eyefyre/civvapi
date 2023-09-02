@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Satrap's Court",
+    "game_info": "City must have a Market. Trade routes other players make to a city with a Satraps Court will generate an extra 1 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.",
+    "strategy": "The Satrap's Court is the Persian unique building. It replaces the Bank. Like a bank the Satrap's Court increases the city's output of wealth. However, the Satrap's Court also increases the civilization's Happiness. The city must have a Market before the Satrap's Court may be constructed.",
+    "historical_info": "A \"satrap\" is the title of a provisional governor in the Achaemenian Empire of Persia. The satraps were appointed by the king, and were usually members of the royal family. A powerful figure, the satrap collected taxes and was the supreme judicial figure in the province. He was responsible for raising and maintaining an army, and therefore had to be highly trusted by the monarch. As the central power of the Persian empire weakened during the 5th century BC, the Satraps grew more independent, and some were in fact more powerful than the king they allegedly answered to.Alexander maintained the satrapal administration after he conquered Persia, sometimes replacing the Satraps with his generals and sometimes retaining the existing governors if they maintained the peace and kept paying their taxes.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/satrap's_court.png",
+    "prereq_tech": {
+        "name": "Banking",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

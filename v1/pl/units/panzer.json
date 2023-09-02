@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Panzery|Panzer\u00f3w|Panzerom|Panzery",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/panzer.png",
+    "game_info": "Szybka i silna jednostka na p\u00f3\u017anym etapie gry.Tylko Niemcy mog\u0105 j\u0105 budowa\u0107. Jest ona o jeden punkt szybsza ni\u017c czo\u0142g, kt\u00f3ry zast\u0119puje.",
+    "historical_info": "Na pocz\u0105tku II wojny \u015bwiatowej niemieckie czo\u0142gi panzer nie by\u0142y wcale lepsze od francuskich czy rosyjskich odpowiednik\u00f3w \u2013 w\u0142a\u015bciwie wr\u0119cz przeciwnie. Niemieckie panzery (czo\u0142gi) mia\u0142y s\u0142absz\u0105 si\u0142\u0119 ognia i opancerzenie. Ale za to Niemcy mieli wojskowych geniuszy, takich jak Heinz Guderian, dow\u00f3dca Korpus\u00f3w Pancernych i jeden z teoretyk\u00f3w blitzkriegu, czyli doktryny wojny b\u0142yskawicznej, opartej na skoncentrowanym uderzeniu czo\u0142gami. We Francji doktryna okaza\u0142a si\u0119 wyj\u0105tkowo skuteczna, kiedy to zmasowany atak panzer\u00f3w zdmuchn\u0105\u0142 francuskie czo\u0142gi, kt\u00f3re mia\u0142y lepsz\u0105 bro\u0144 i opancerzenie, ale by\u0142y rozrzucone w\u015br\u00f3d francuskiej piechoty i nie mia\u0142y szans przeciwko zmasowanej, niemieckiej sile ognia. Niemieckie panzery odnosi\u0142y podobne sukcesy na pocz\u0105tku wojny ze Zwi\u0105zkiem Radzieckim, a\u017c ZSRR zrozumia\u0142, jak stworzy\u0107 i zorganizowa\u0107 w\u0142asne brygady pancerne.",
+    "strategy": "Panzery to unikatowa jednostka niemiecka zast\u0119puj\u0105ca czo\u0142gi. Jest od nich silniejsza i szybsza. Mo\u017ce tak\u017ce ruszy\u0107 si\u0119 po walce, dzi\u0119ki czemu jest w stanie wykorzysta\u0107 wyrw\u0119 w liniach wroga, zanim \u00f3w zd\u0105\u017cy j\u0105 za\u0142ata\u0107.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

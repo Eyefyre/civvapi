@@ -1,0 +1,20 @@
+{
+    "id": 4,
+    "name": "Artistic Genius",
+    "game_info": "Artistic GeniusA Great Artist appears.",
+    "historical_info": "An artistic genius might be defined as someone who has the creativity, originality and skill to bring about beauty in an art form, whatever it may be. Artistic genius can even be applied to performance, as with choreography, orchestration or theater. The history of civilization is dotted with literary, artistic and performance geniuses, often temperamental but always brilliant in their field.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/artistic_genius.png",
+    "required_policies": [
+        {
+            "name": "Fine Arts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Aesthetics",
+        "game_info": "Aesthetics improves the civilization's ability to generate Culture.Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.Adopting all policies doubles the theming bonus you receive from Museums and Wonders. It also allows the purchase of Great Writers, Artists, or Musicians with Faith starting in the Industrial Era.",
+        "prereq_era": "Classical Era",
+        "historical_info": "Aesthetics is the philosophy of the nature of art and taste, concerned with the creation and appreciation of material beauty. It should be noted that aesthetics does not encompass the functionality or utility of a thing, focusing only on its beauty of form, color, contrast and other artistic aspects."
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 44,
+    "name": "Merchant Navy",
+    "game_info": "Merchant Navy+1 Gold for each Harbor, Seaport, or Lighthouse. +4 Production and +4 in the city with the East India Company.",
+    "historical_info": "A merchant navy is a group of merchant ships which, in times of war, can be pressed into service and carry a nation's military goods and supplies, often with protection from the nation's navy. For many years the British maintained the largest and best fleet of merchant marine vessels in world history. Implemented in 1835, the British Merchant Navy suffered huge losses in World Wars I and II. Nearly 15,000 merchant seamen lost their lives in World War I, and a staggering 30,000 died in the Second World War.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/merchant_navy.png",
+    "required_policies": [
+        {
+            "name": "Naval Tradition",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/naval_tradition.json"
+        },
+        {
+            "name": "Maritime Infrastructure",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/maritime_infrastructure.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Exploration",
+        "game_info": "Exploration enhances your abilties to spread your empire over the seas.Adopting Exploration gives +1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre.Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with Faith starting in the Industrial Era.",
+        "prereq_era": "Medieval Era",
+        "historical_info": "Since man first settled in one place, there have always been those among them who have been driven to see what lies over the horizon. Whether motivated by profit, adventure, religion, necessity or just curiosity, explorers have widened our knowledge of the world and its wonders. In the process of exploring, they have also linked diverse and distant cultures, for good or ill. Great explorers from the Carthaginian Hanno to the Chinese admiral Wang Dayuan to the Englishman Sir Richard Burton and thousands of others have driven the expansion of civilizations and shaped history."
+    }
+}

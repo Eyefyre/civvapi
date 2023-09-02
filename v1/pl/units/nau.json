@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nau",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Jednostka morska walcz\u0105ca w zwarciu, doskona\u0142a do eksploracji m\u00f3rz. Ma wi\u0119cej [ICON_MOVES] punkt\u00f3w ruchu ni\u017c karawela, kt\u00f3r\u0105 zast\u0119puje, i mo\u017ce jednorazowo u\u017cy\u0107 zdolno\u015bci, znajduj\u0105c si\u0119 obok obcego terytorium, by zyska\u0107 z\u0142oto i PD. Mog\u0105 j\u0105 tworzy\u0107 tylko Portugalczycy.",
+    "historical_info": "W miar\u0119 jak Portugalia zwi\u0119ksza\u0142a obszar swoich przedsi\u0119wzi\u0119\u0107 handlowych i badawczych, coraz bardziej potrzebny stawa\u0142 si\u0119 wi\u0119kszy i mocniejszy statek zdolny do d\u0142ugich podr\u00f3\u017cy. Nau, cz\u0119sto nazywany te\u017c karak\u0105, wywodzi si\u0119 z rejowej kogi u\u017cywanej powszechnie w handlu w czasach \u015bredniowiecza. Projekt zosta\u0142 udoskonalony przez portugalskich kupc\u00f3w pod koniec XV w. Nau by\u0142o trzy- lub czteropok\u0142adowym statkiem oceanicznym o trzech lub czterech masztach i szerokiej st\u0119pce, wystarczaj\u0105co solidnym na pe\u0142en Atlantyk i zdolnym do przewiezienia \u017cywno\u015bci i \u0142adunku niezb\u0119dnych do d\u0142ugiej podr\u00f3\u017cy. Mia\u0142 zaokr\u0105glon\u0105 ruf\u0119 i - jako pierwszy ze statk\u00f3w oceanicznych - wysoki, wbudowany w dzi\u00f3b forkasztel. Jego du\u017ce \u0142adownie pozwala\u0142y na przep\u0142yni\u0119cie du\u017cych odleg\u0142o\u015bci bez przybijania do brzegu, dzi\u0119ki czemu sta\u0142 si\u0119 najpopularniejszym statkiem portugalskiej floty handlowej. Nau na szlakach oceanicznych zast\u0105pi\u0142y w XVII w. galeony.",
+    "strategy": "Ta morska jednostka walcz\u0105ca w zwarciu zast\u0119puje karawel\u0119, specjalizuj\u0105c\u0105 si\u0119 w eksploracji. Kiedy znajduje si\u0119 na polu s\u0105siaduj\u0105cym z terytorium innej cywilizacji albo pa\u0144stwa-miasta, z kt\u00f3rym nie prowadzisz wojny, mo\u017ce przeprowadzi\u0107 jednorazow\u0105 misj\u0119 handlow\u0105, by zyska\u0107 z\u0142oto i PD. Im dalej od twojej stolicy, tym wi\u0119ksza premia, dlatego najlepiej u\u017cywa\u0107 tej zdolno\u015bci u odleg\u0142ych graczy. U\u017cywaj tej jednostki do eksploracji mapy i odkrywania po\u0142o\u017cenia innych graczy.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Egzotyczny \u0142adunek",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Wycofanie przed walk\u0105 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "Ballistics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "Modern Era",
+    "cost": 4100,
+    "civilopedia_entry": "Ballistics is the study of motion involving projectiles - mainly bullets, missiles, and bombs. In most cases, the term ballistics arises in relation to the forensic study of weapons and ammunition, particularly involving crime, where it may be necessary to connect a weapon with a recovered bullet to prove guilt or innocence. The more general study of ballistics has, over the past century, led to vast improvements in the accuracy, power, and overall effectiveness of projectile weapons of varying types.",
+    "quote": "\"Men, like bullets, go farthest when they are smoothest.\" - Jean Paul",
+    "tech_prereqs": [
+        {
+            "name": "Railroad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/railroad.json"
+        },
+        {
+            "name": "Flight",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+        },
+        {
+            "name": "Combined Arms",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Anti-Aircraft Gun",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "Machine Gun",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

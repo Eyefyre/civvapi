@@ -1,0 +1,39 @@
+{
+    "id": 8,
+    "name": "Raketenkreuzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missile_cruiser.png",
+    "game_info": "Marineeinheit, spezialisiert auf die Abwehr feindlicher Flugzeuge. Kann 3 Raketen transportieren. Wird eingesetzt, um feindliche U-Boote zu jagen und zu zerst\u00f6ren.",
+    "historical_info": "Mit Ausnahme des Flugzeugtr\u00e4gers und des Atom-U-Boots ist der Raketenkreuzer die m\u00e4chtigste Waffe der modernen Marine. Ein Raketenkreuzer ist daf\u00fcr ausgelegt, sehr m\u00e4chtige und pr\u00e4zise Langstrecken-Marschflugk\u00f6rper zu transportieren und abzufeuern. Er kann den Gegner an Land und zu Wasser anpeilen und zerst\u00f6ren, oft lange bevor dieser \u00fcberhaupt wei\u00df, dass der Raketenkreuzer in Reichweite war. Der amerikanische Raketenkreuzer der Ticonderoga-Klasse ist wohl das m\u00e4chtigste Schiff auf See - er ist mit 122 Abschussrohren bewaffnet, die eine gro\u00dfe Anzahl an Boden-Boden-, Boden-Luft- und selbst U-Boot-Abwehrraketen bef\u00f6rdern k\u00f6nnen. Zudem ist er mit einer Vielzahl von Flugabwehr-Kanonen im Gatling-Stil ausgestattet, die in der Lage sind, eingehende feindliche Raketen und Flugzeuge schnell zu vernichten.",
+    "strategy": "Der Raketenkreuzer ist ein modernes Kriegsschiff. Er ist schnell und stark gepanzert, hat eine erhebliche Fernkampfst\u00e4rke und ist ziemlich gut beim Abfangen von feindlichen Flugzeugen. Viel wichtiger ist jedoch seine F\u00e4higkeit, Lenkraketen und Atomraketen direkt bis zur K\u00fcste des feindlichen Gebiets zu transportieren. Raketenkreuzer, Flugzeugtr\u00e4ger und U-Boote ergeben zusammen eine geradezu teuflische Armada.",
+    "movement": 7,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Robotertechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann U-Boote sehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Angriff gegen U-Boote (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Tragkraft f\u00fcr 3 Frachten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_carry_3_cargo.json"
+        },
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

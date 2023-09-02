@@ -1,0 +1,28 @@
+{
+    "id": 9,
+    "name": "Caza con trampas",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/trapping.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "Los hombres llevan milenios cazando animales con trampas. Es una forma de caza casi tan antigua como la propia humanidad. Durante toda la historia, los cazadores han utilizado gran variedad de trampas para atrapar a sus presas, desde hoyos cubiertos a redes escondidas, pasando por artilugios mec\u00e1nicos con dientes de metal. En los siglos XVIII y XIX, los tramperos estadounidenses y franco-canadienses pasaban a\u00f1os en plena naturaleza, cazando gran cantidad de animales para llevarlos a los asentamientos orientales y vender sus valiosas pieles, que sol\u00edan acabar como sombreros y otras prendas con las que se engalanaban los europeos m\u00e1s ricos. Los cazadores rusos hicieron pr\u00e1cticamente lo mismo en Siberia y otros lejanos territorios euroasi\u00e1ticos.",
+    "quote": "\"Ni las bestias m\u00e1s brutas ni las aves errantes caen en la misma trampa o red dos veces.\" - San Jer\u00f3nimo",
+    "tech_prereqs": [
+        {
+            "name": "Ganader\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Equitaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Circo|Circos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/circus.json"
+        }
+    ]
+}

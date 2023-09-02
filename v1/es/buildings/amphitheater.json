@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Anfiteatro|Anfiteatros",
+    "game_info": null,
+    "strategy": "El Anfiteatro aumenta la Cultura de una ciudad, acelerando el crecimiento del territorio urbano y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n. Para poder construir un Anfiteatro, la ciudad ha de contar con un Monumento o una Estela. Contiene un espacio para una gran obra de la literatura.",
+    "historical_info": "El anfiteatro es un recinto destinado a la representaci\u00f3n de obras teatrales, la pr\u00e1ctica de eventos deportivos y conciertos al aire libre. Los antiguos romanos construyeron cientos de anfiteatros que consagraban los combates de gladiadores, exhibiciones y ejecuciones p\u00fablicas.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/anfiteatro|anfiteatros.png",
+    "prereq_tech": {
+        "name": "Dramaturgia y poes\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

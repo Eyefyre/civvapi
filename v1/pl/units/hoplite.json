@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Hoplici|Hoplit\u00f3w|Hoplitom|Hoplit\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Jednostka z epoki staro\u017cytnej specjalizuj\u0105ca si\u0119 w zwalczaniu kawalerii. Mog\u0105 j\u0105 tworzy\u0107 tylko Grecy. Ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 ni\u017c w\u0142\u00f3cznicy, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Grecy osi\u0105gn\u0119li mistrzostwo w walce w\u0142\u00f3czniami, tworz\u0105c d\u0142ug\u0105 i \u015bmiertelnie ostr\u0105 bro\u0144, kt\u00f3ra w r\u0119kach dobrze wy\u0107wiczonego hoplity przemieszczaj\u0105cego si\u0119 w falandze jest praktycznie niezawodna przeciwko zwyk\u0142ej piechocie oraz je\u017adzie. \u017bo\u0142nierz, stoj\u0105cy naprzeciwko greckiej falangi musia\u0142 radzi\u0107 sobie nie tylko z wrogiem bezpo\u015brednio przed nim, ale r\u00f3wnie\u017c z w\u0142\u00f3czniami dw\u00f3ch albo trzech \u017co\u0142nierzy za nim. Oczywi\u015bcie hoplici do pewnego stopnia byli nara\u017ceni na ostrza\u0142 z \u0142uk\u00f3w, a na trudniejszym terenie formacja falangi by\u0142a praktycznie nie do utrzymania, ale na p\u0142askiej, otwartej przestrzeni hoplici stawali si\u0119 niezwykle trudnymi przeciwnikami.",
+    "strategy": "Hoplici to unikatowa jednostka grecka, zast\u0119puj\u0105ca w\u0142\u00f3cznik\u00f3w, od kt\u00f3rych jest o wiele silniejsza. Hoplici s\u0105 zab\u00f3jczy w walce z jednostkami kawalerii.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

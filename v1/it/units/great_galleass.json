@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Grande Galeazza|una Grande Galeazza|dalla tua Grande Galeazza|alla tua Grande Galeazza|la tua Grande Galeazza|da una Grande Galeazza",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "Unit\u00e0 navale di epoca medievale, dalla potenza brutale, usata per acquisire il controllo dei mari con il suo attacco a distanza. Sostituisce la normale Galeazza: \u00e8 pi\u00f9 costosa ma \u00e8 superiore sia in attacco che in difesa. Solo Venezia pu\u00f2 costruirla.",
+    "historical_info": "Il progetto originale della galeazza, un'evoluzione delle grandi galee mercantili, \u00e8 rimasto sostanzialmente immutato fino al 1660 d.C., anno in cui Venezia ha costruito il suo primo vascello di linea. Solitamente le galeazze avevano tre alberi a vela latina ed erano caratterizzate dalla presenza di un castello sia a prua sia a poppa. Per aumentare la loro velocit\u00e0 avevano una velatura e una dotazione di remi superiore a quella delle normali galee; inoltre avevano un \"ponte di batteria\" posto sopra la testa dei rematori allo scopo di ospitare i cannoni. La galeazza veneziana rimase in servizio nel Mediterraneo molto tempo dopo che le altre nazioni l'avevano sostituita con navi da guerra pi\u00f9 grandi e robuste.",
+    "strategy": "La Grande Galeazza sostituisce la Galeazza. Solo i veneziani possono costruirla. Ha un attacco a distanza pi\u00f9 potente ed \u00e8 pi\u00f9 resistente in battaglia, ma costa di pi\u00f9 della Galeazza base.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Bussola|della Bussola",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

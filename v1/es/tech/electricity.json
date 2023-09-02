@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "Electricidad",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "Era Industrial",
+    "cost": 2350,
+    "civilopedia_entry": "La primera experiencia que la humanidad tuvo con la electricidad, en forma de descargas de un pez el\u00e9ctrico, la documentaron los autores egipcios ya en el 2750 a. C. En el siglo XV d. C., los \u00e1rabes descubrieron que el rayo era otra forma de electricidad, hecho que confirm\u00f3 posteriormente el cient\u00edfico brit\u00e1nico-estadounidense Benjamin Franklin en 1752. La primera pila medianamente fiable la cre\u00f3 en 1800 Alessandro Volta y, en 1821, Michael Faraday invent\u00f3 el motor el\u00e9ctrico.Los avances en electricidad en la segunda mitad del siglo XIX vinieron de manos de genios como Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell y lord Kelvin, y revolucionaron la vida de todo el mundo. El tel\u00e9grafo, seguido poco despu\u00e9s por el tel\u00e9fono y m\u00e1s tarde por la radio, mejor\u00f3 radicalmente la velocidad y la precisi\u00f3n a las que se pod\u00eda transmitir la informaci\u00f3n. Una vez se tendi\u00f3 un cable transatl\u00e1ntico, se pod\u00eda enviar un mensaje de Londres a Nueva York en cuesti\u00f3n de segundos. Antes de la electricidad, un mensaje transportado en el barco m\u00e1s r\u00e1pido pod\u00eda tardar semanas en llegar a su destino. La luz el\u00e9ctrica revolucion\u00f3 el hogar y el lugar de trabajo, y el fon\u00f3grafo, la radio y la c\u00e1mara de cine hicieron lo mismo en el ocio. La creaci\u00f3n de centrales el\u00e9ctricas que suministran energ\u00eda el\u00e9ctrica a las casas ha cambiado las condiciones de vida m\u00e1s all\u00e1 de todo lo imaginable. Impulsada por la electricidad, la \"segunda revoluci\u00f3n industrial\" ha representado la mayor mejora de la humanidad despu\u00e9s de la imprenta.",
+    "quote": "\"\u00bfEs un hecho que, por medio de la electricidad, el mundo de la materia se ha convertido en un gran nervio, que vibra a miles de kil\u00f3metros en una mil\u00e9sima de segundo? \u00bfO acaso lo he so\u00f1ado?\" - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Teor\u00eda cient\u00edfica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Repuestos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Refrigeraci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+        },
+        {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Central hidr\u00e1ulica|Centrales hidr\u00e1ulicas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hydro_plant.json"
+        },
+        {
+            "name": "Bolsa|Bolsas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Comisar\u00eda|Comisar\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/police_station.json"
+        }
+    ]
+}

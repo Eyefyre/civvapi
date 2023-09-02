@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Zero",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Lufteinheit f\u00fcr die Vorherrschaft in der Luft und das Abfangen feindlicher Flugzeuge. Nur die Japaner k\u00f6nnen sie bauen. Diese Einheit bekommt einen Bonus gegen andere J\u00e4ger und ben\u00f6tigt kein \u00d6l.",
+    "historical_info": "Die Mitsubishi A6M Zero war ein Flugzeug, das w\u00e4hrend des gesamten Zweiten Weltkriegs eingesetzt wurde. Zu Beginn des Kriegs war es der beste J\u00e4ger der Welt, der von Flugzeugtr\u00e4gern aus startete. Die Maschine war sehr wendig und hatte eine hohe Reichweite, weswegen sie f\u00fcr den Kurvenkampf hervorragend geeignet war, bei dem sie die unterlegenen amerikanischen und britischen Flugzeuge leicht abh\u00e4ngen konnte. Die alliierten J\u00e4ger wurden w\u00e4hrend des Kriegs erheblich verbessert, wohingegen die japanische Luftwaffe unter einem Mangel an Material und Arbeitskr\u00e4ften zu leiden hatte, was letztlich zur Unterlegenheit der Zero f\u00fchrte. Dennoch war die Zero zu ihren besten Zeiten ein hervorragender J\u00e4ger und hatte die Lufthoheit im riesigen Pazifikgebiet.",
+    "strategy": "Die Zero ist die Spezialeinheit der Japaner und ersetzt den J\u00e4ger. Die Zero ist eine durchschnittlich starke Lufteinheit, die dem Standard-J\u00e4ger \u00e4hnelt, aber im Luftkampf gegen andere J\u00e4ger einen erheblichen Kampfbonus erh\u00e4lt. Au\u00dferdem ben\u00f6tigt sie kein \u00d6l. Sie kann in jeder freundlich gesinnten Stadt oder auf einem Flugzeugtr\u00e4ger stationiert werden. Sie kann von Stadt zu Stadt (oder Flugzeugtr\u00e4ger) verlegt werden und Missionen innerhalb einer Reichweite von 8 Gel\u00e4ndefeldern fliegen. Siehe Regeln f\u00fcr Flugzeuge f\u00fcr weitere Informationen.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus gegen J\u00e4ger (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Luftraums\u00e4uberung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_sweep.json"
+        },
+        {
+            "name": "Luftaufkl\u00e4rung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus gg. Bomber/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

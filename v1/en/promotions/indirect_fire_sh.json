@@ -1,0 +1,24 @@
+{
+    "id": 25,
+    "name": "Indirect Fire",
+    "game_info": "Ranged attacks may be performed over obstacles (as long as other friendly units can see the target).",
+    "prereq_promotions": [
+        {
+            "name": "Targeting II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/targeting_ii.json"
+        },
+        {
+            "name": "Bombardment II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bombardment_ii.json"
+        },
+        {
+            "name": "Accuracy III",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/accuracy_iii.json"
+        },
+        {
+            "name": "Barrage III",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/barrage_iii.json"
+        }
+    ],
+    "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/indirect_fire_sh.png"
+}

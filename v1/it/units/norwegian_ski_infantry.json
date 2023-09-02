@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Fanteria norvegese sugli sci|una Fanteria norvegese sugli sci|dalla tua Fanteria norvegese sugli sci|alla tua Fanteria norvegese sugli sci|la tua Fanteria norvegese sugli sci|da una Fanteria norvegese sugli sci",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Forte unit\u00e0 terrestre, disponibile a met\u00e0 partita e destinata a stare in prima fila. Addestrata per muoversi in caselle di Neve, Tundra e Collina. Solo la Danimarca pu\u00f2 costruirla. Sostituisce il Fuciliere.",
+    "historical_info": "Questi intrepidi soldati furono ampiamente utilizzati dalla Danimarca contro la Svezia durante le guerre napoleoniche del 1807-1814. Dotati di una velocit\u00e0 analoga alla cavalleria leggera, erano in grado di attraversare le montagne e i campi innevati molto pi\u00f9 rapidamente di qualsiasi altra unit\u00e0 a piedi o a cavallo. Oltre a essere in grado di attraversare in modo efficiente terreno roccioso o coperto di boschi, la fanteria sugli sci poteva anche trainare carichi di vettovaglie o addirittura altre squadre di soldati, dal momento che la mancanza di strade e la neve alta rendeva difficile l'uso dei cavalli. Il suo primo utilizzo documentato risale al XIII secolo.Oggi i soldati sugli sci sono ancora usati dalla marina danese per pattugliare ampie zone della Groenlandia nord-orientale, il cui territorio \u00e8 troppo irregolare per consentire altre forme di trasporto. In Norvegia ogni soldato \u00e8 addestrato nell'arte del combattimento sugli sci: l'evento sportivo del biathlon si \u00e8 ispirato e sviluppato partendo dalle caratteristiche dell'addestramento e pattugliamento militare.",
+    "strategy": "La Fanteria norvegese sugli sci sostituisce il Fuciliere ed \u00e8 una delle due unit\u00e0 esclusive danesi. Quest'unit\u00e0 si muove con velocit\u00e0 doppia in caselle di Neve, Tundra e Collina. Inoltre gode di un bonus in combattimento del 25% in caselle di Neve, Tundra e Collina, a patto che non siano presenti n\u00e9 Foresta n\u00e9 Giungla.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Rigatura delle canne|della Rigatura delle canne",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus in Neve, Tundra e Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

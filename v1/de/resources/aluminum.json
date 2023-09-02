@@ -1,0 +1,64 @@
+{
+    "id": 5,
+    "name": "Aluminium",
+    "game_info": "Wird sp\u00e4ter im Spiel f\u00fcr starke Einheiten und Geb\u00e4ude ben\u00f6tigt.",
+    "historical_info": "Aluminium geh\u00f6rt zu den Elementen, die auf der Erde am h\u00e4ufigsten vorkommen. Es ist ein bemerkenswert n\u00fctzliches Metall - formbar, strapazierf\u00e4hig und sehr resistent gegen Korrosion. Obwohl es so reichlich vorhanden ist, kommt Aluminium im nat\u00fcrlichen Zustand beinahe immer in Verbindung mit anderen Stoffen vor. Erst Mitte des 19. Jahrhunderts stellten Wissenschaftler fest, wie man Aluminium in Mengen gewinnen und verarbeiten konnte. Im 20. und 21. Jahrhundert findet es weitverbreitete Anwendung in der Konstruktion von G\u00fctern f\u00fcr Milit\u00e4r, Weltraum und Haushalt. Wichtig: Aluminium ist eine strategische Ressource und wird als solche verbraucht, wenn man die damit verbundenen Einheiten und Geb\u00e4ude baut.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminium.png",
+    "prereq_tech": {
+        "name": "Elektrizit\u00e4t",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        },
+        {
+            "name": "Zollamt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/academy.json"
+        },
+        {
+            "name": "Zitadelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/citadel.json"
+        },
+        {
+            "name": "Fabrikanlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/manufactory.json"
+        },
+        {
+            "name": "Heilige St\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 89,
+    "name": "Conquistador|un Conquistador|dal tuo Conquistador|al tuo Conquistador|il tuo Conquistador|da un Conquistador",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/conquistador.png",
+    "game_info": "Unit\u00e0 medievale specializzata nell'esplorazione e nella colonizzazione di terre al di l\u00e0 del mare. Solo gli spagnoli possono costruirla. Sostituisce il Cavaliere.",
+    "historical_info": "I conquistador, soldati ed esploratori spagnoli, si impossessarono di gran parte del Nuovo Mondo nei secoli XVI e XVII. Avendo scacciato poco prima gli ultimi mori dalla Spagna, i conquistador disponevano di molti cavalieri veterani. La loro capacit\u00e0 di attraversare rapidamente il terreno accidentato a cavallo li rendeva particolarmente efficaci contro i nativi del Nuovo Mondo, che non possedevano cavalcature e non potevano sfuggire ai loro terrificanti attacchi.",
+    "strategy": "Il Conquistador \u00e8 un'unit\u00e0 polivalente che sostituisce il Cavaliere ed \u00e8 utile sia sulla terra sia in mare. Sulla terra \u00e8 un esploratore eccezionale, dotato di un raggio visivo ampio. Inoltre ha la capacit\u00e0 di fondare nuove citt\u00e0, ma solo in un continente straniero che non contiene la capitale spagnola. Sull'acqua il Conquistador gode della promozione Imbarco con difesa, che gli permette di difendersi dagli attacchi delle unit\u00e0 navali. Inoltre, a differenza del Cavaliere, non subisce alcuna penalit\u00e0 quando attacca le citt\u00e0.",
+    "movement": 4,
+    "cost": {
+        "production": 135,
+        "faith": 270
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Visione extra (2)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(2).json"
+        },
+        {
+            "name": "Imbarco con difesa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

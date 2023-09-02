@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Osservatorio|l'Osservatorio|un Osservatorio",
+    "game_info": "La citt\u00e0 dev'essere costruita vicino a una montagna.",
+    "strategy": "L'Osservatorio pu\u00f2 essere costruito solo in una citt\u00e0 vicina a una montagna. L'Osservatorio aumenta significativamente la Scienza nella citt\u00e0.",
+    "historical_info": "Un Osservatorio \u00e8 un edificio dedicato allo studio del cielo. I primi uomini erano convinti che il movimento delle stelle avesse un significato mistico, perci\u00f2 molti dei primi osservatori erano strutture religiose. Con il passare del tempo gli astronomi scoprirono che osservando il sorgere e il tramonto delle stelle nel cielo notturno potevano misurare il passaggio delle stagioni con estrema precisione, arrivando a utilizzare tali informazioni per scegliere il giorno in cui seminare i campi o raccogliere le messi. Siffatte rivelazioni rinforzarono ulteriormente l'importanza pratica e religiosa degli osservatori nelle comunit\u00e0. Gli osservatori moderni sfruttano al massimo i computer e sono dotati di telescopi avanzati (o comunicano con telescopi in orbita, ancora pi\u00f9 potenti), fornendo agli scienziati una quantit\u00e0 di informazioni che i loro precursori non avrebbero neppure sognato. Il loro lavoro, comunque, rimane lo stesso: cercare di capire il funzionamento dell'universo studiando il cielo.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/osservatorio|l'osservatorio|un_osservatorio.png",
+    "prereq_tech": {
+        "name": "Astronomia|dell'Astronomia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

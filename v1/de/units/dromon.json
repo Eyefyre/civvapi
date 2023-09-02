@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Dromone",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "Dominante Marineeinheit der Antike, die mit ihrem Fernkampfangriff auch in der Klassik noch die Meere beherrschte. Nur die Byzantiner k\u00f6nnen sie bauen.",
+    "historical_info": "Die Dromone, eine modifizierte Form der klassischen Galeere, war ein elementarer Bestandteil der byzantinischen Marine w\u00e4hrend der Bl\u00fctezeit des Reiches. Sie verf\u00fcgte sowohl \u00fcber Ruder- als auch Segelantrieb und war extrem man\u00f6vrierf\u00e4hig und schnell, doch auch f\u00fcr den Kampf war sie effizient ausger\u00fcstet. Durch den Einsatz von Griechischem Feuer, einem Vorg\u00e4nger des modernen Napalms, verf\u00fcgten die Byzantiner \u00fcber eine fr\u00fche Form eines Flammenwerfers, um all jene mit Furcht zu schlagen, die sich ihnen auf See in den Weg stellten.",
+    "strategy": "Nur die Byzantiner k\u00f6nnen diese Einheit bauen. Sie greift mit t\u00f6dlichem Griechischem Feuer an, wodurch sie zur ersten Marineeinheit mit einem Fernkampfangriff wird. Sie k\u00e4mpft mit +50% St\u00e4rke gegen andere Marineeinheiten. Sie kann keine Tiefsee-Gel\u00e4ndefelder au\u00dferhalb der Stadtgrenzen betreten.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus gegen Marine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

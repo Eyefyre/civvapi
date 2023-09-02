@@ -1,0 +1,69 @@
+{
+    "id": 28,
+    "name": "Ritterlichkeit",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chivalry.png",
+    "era": "Mittelalter",
+    "cost": 485,
+    "civilopedia_entry": "Die Ritterlichkeit ist das ehrenhafte Verhalten, das eine Kultur von den Rittern, also dem k\u00e4mpfenden Adelsstand erwartet. Sie ist eng verwandt mit dem Bushido-Kodex (dem Weg des Kriegers) der japanischen Samurai. Der Kodex der Ritterlichkeit erreichte im 12. Jahrhundert vor dem Hintergrund der Kreuzz\u00fcge seine Bl\u00fctezeit, da die Ritter im Glauben waren, Gottes Werk zu verrichten, wenn sie die Ungl\u00e4ubigen im Nahen Osten vernichteten. Die Gunst Gottes l\u00e4sst sich demnach nur durch gottesf\u00fcrchtiges Verhalten erreichen - unritterliches Verhalten f\u00fchrt zum Scheitern, Tod und zur Verdammnis. Die muslimischen Ritter, die sich den Christen entgegenstellten, hatten \u00e4hnliche Vorstellungen, die zum Teil sogar noch \"kultivierter\" waren.Ein bestimmter Ritterlichkeits-Kodex ist vor allem in Gesellschaften wichtig, in denen eine privilegierte Klasse Zugang zu Waffen hat, der den niederen Klassen verwehrt ist. Sonst k\u00f6nnten es passieren, dass die Menschen mit den Waffen die niederen Klassen zu sehr unterdr\u00fccken und so zivile Unruhen und wom\u00f6glich sogar Revolutionen provozieren.",
+    "quote": "\"Wer dieses Schwert aus diesem Stein und Amboss zieht, ist rechtm\u00e4\u00dfiger K\u00f6nig \u00fcber ganz England.\" - Malory",
+    "tech_prereqs": [
+        {
+            "name": "\u00d6ffentliche Verwaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+        },
+        {
+            "name": "Gilden",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ritter",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/knight.json"
+        },
+        {
+            "name": "Kamel-Bogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/camel_archer.json"
+        },
+        {
+            "name": "Naresuans Elefant",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/naresuan's_elephant.json"
+        },
+        {
+            "name": "Mandekalu-Kavallerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/mandekalu_cavalry.json"
+        },
+        {
+            "name": "Keshik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/keshik.json"
+        },
+        {
+            "name": "Konquistador",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/conquistador.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Mogul-Festung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mughal_fort.json"
+        },
+        {
+            "name": "Burg",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/castle.json"
+        },
+        {
+            "name": "Alhambra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/alhambra.json"
+        }
+    ]
+}

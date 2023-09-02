@@ -1,0 +1,24 @@
+{
+    "id": 26,
+    "name": "Fioritura delle arti",
+    "game_info": "Fioritura delle artiLa Cultura aumenta del 33% in tutte le citt\u00e0 che hanno costruito una Grande Meraviglia; inoltre l'impero entra immediatamente in un' Et\u00e0 dell'Oro.",
+    "historical_info": "Con \"fioritura delle arti\" si fa riferimento a un periodo in cui il senso estetico \u00e8 particolarmente sviluppato e si verifica una grande produzione di opere d'arte innovative, solitamente in concomitanza con un'et\u00e0 dell'oro per la civilt\u00e0 in questione. Insieme ai progressi scientifici e ai miglioramenti nelle condizioni di vita, la \"fioritura delle arti\" durante un'et\u00e0 dell'oro influenza anche letteratura e musica oltre naturalmente alle arti visive. Sfortunatamente anche questi periodi arrivano fatalmente alla fine, in genere per cause esterne, come guerra, crisi economica, fanatismo religioso o altri avvenimenti che sfuggono al controllo dei popoli.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/fioritura_delle_arti.png",
+    "required_policies": [
+        {
+            "name": "Centri culturali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/cultural_centers.json"
+        },
+        {
+            "name": "Belle Arti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/fine_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Estetica",
+        "game_info": "L'Estetica aumenta la capacit\u00e0 della civilt\u00e0 di generare Cultura.Adottare l'Estetica ti permette di generare Grandi Scrittori, Grandi Artisti e Grandi Musicisti il 25% pi\u00f9 velocemente. Sblocca la costruzione degli Uffizi.Adottarne tutte le politiche raddoppia il bonus per il tema comune che puoi ricevere da Musei e Meraviglie; inoltre permette l'acquisto di Grandi Scrittori, Grandi Artisti e Grandi Musicisti in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca classica",
+        "historical_info": "L'estetica \u00e8 la filosofia che investiga la natura dell'arte e del gusto, analizzando la creazione e la valutazione della bellezza materiale. \u00c8 da notare che l'estetica non prende in considerazione la funzionalit\u00e0 o l'utilit\u00e0 di un oggetto, ma si focalizza solo sulla bellezza della sua forma, sui suoi colori e su altri aspetti artistici."
+    }
+}

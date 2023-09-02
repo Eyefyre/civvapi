@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Misil guiado|Misiles guiados",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "Una unidad barata que se puede usar una vez para da\u00f1ar a las unidades o ciudades enemigas.",
+    "historical_info": "El dise\u00f1ador de misiles moderno dispone de ciertas tecnolog\u00edas avanzadas de rastreo para los misiles guiados. Algunos de ellos son autom\u00e1ticos, y se dirigen contra sus objetivos gracias a un radar o a la tecnolog\u00eda de detecci\u00f3n por calor. Otros misiles pueden \"ver\" un l\u00e1ser que \"ilumina\" al enemigo. Los hay que est\u00e1n dirigidos por humanos, conectados a los misiles por radio o incluso por cable. Obviamente, a medida que estas armas se han vuelto m\u00e1s \"inteligentes\", tambi\u00e9n ha aumentado su precio, y un solo misil teledirigido puede llegar a costar decenas de miles de euros, o incluso m\u00e1s. Un ej\u00e9rcito que use armas as\u00ed con despreocupaci\u00f3n, puede llegar a encontrarse sin fondos para otras cosas importantes (por ejemplo, alimentos).",
+    "strategy": "El Misil guiado es una unidad de un solo uso que se destruye al atacar al objetivo. Puede tener su base en una ciudad del jugador o encontrarse en un Submarino nuclear o un Crucero portamisiles. Puede moverse de una base a otra o atacar una unidad o ciudad del enemigo que est\u00e9 a una distancia de 8 casillas o menos. Consulta las reglas sobre Misiles para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Bal\u00edstica avanzada",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasi\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/evasion_(100).json"
+        }
+    ]
+}

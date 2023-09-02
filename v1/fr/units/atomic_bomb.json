@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Bombe atomique|Bombes atomiques",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "Lib\u00e8re l'enfer nucl\u00e9aire sur vos ennemis. Inflige \u00e9norm\u00e9ment de d\u00e9g\u00e2ts aux villes et touche toute unit\u00e9 pr\u00e9sente dans le rayon de l'explosion. Peut \u00eatre bas\u00e9e \u00e0 bord d'un porte-avions. N\u00e9cessite le Projet Manhattan et une source d'uranium.",
+    "historical_info": "Les premiers bombardiers atomiques n'\u00e9taient pas diff\u00e9rents des bombardiers classiques, \u00e0 l'exception de leur chargement. L'\"Enola Gay\", qui a transport\u00e9 la bombe atomique jusqu'\u00e0 Hiroshima le 6 ao\u00fbt 1945, \u00e9tait un bombardier am\u00e9ricain B-29, de m\u00eame que le \"Bockscar\", qui a l\u00e2ch\u00e9 la seconde bombe sur Nagasaki trois jours plus tard. Depuis ces \u00e9v\u00e9nements, les diff\u00e9rentes puissances nucl\u00e9aires ont d\u00e9velopp\u00e9 des bombardiers strat\u00e9giques pour transporter les armes nucl\u00e9aires au plus profond du territoire ennemi. Ces appareils peuvent voler tr\u00e8s longtemps et \u00e0 des altitudes tr\u00e8s \u00e9lev\u00e9es, ils sont \u00e9quip\u00e9s d'une technologie de brouillage sophistiqu\u00e9e et d'un armement antimissile. Les tout derniers bombardiers strat\u00e9giques disposent de techniques de furtivit\u00e9, ils sont ainsi plus difficiles \u00e0 rep\u00e9rer en cours de mission.",
+    "strategy": "La bombe atomique est une unit\u00e9 extr\u00eamement puissante. Elle peut \u00eatre plac\u00e9e dans l'une de vos villes ou \u00e0 bord d'un porte-avions, se d\u00e9placer de base en base ou attaquer une cible situ\u00e9e dans un rayon de 10\u00a0cases. Lorsqu'elle explose, la bombe atomique blesse, voire annihile, les unit\u00e9s, et endommage s\u00e9rieusement les villes, le tout dans un rayon de deux cases. Suite \u00e0 son attaque, la bombe atomique est d\u00e9truite. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux armes nucl\u00e9aires.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fission nucl\u00e9aire",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Esquive (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/evasion_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "Monasterio|Monasterios",
+    "game_info": "Cada fuente de Incienso y de Vino que explote esta Ciudad dar\u00e1 +1 a Fe y a Cultura .",
+    "strategy": "Los Monasterios aumentan la producci\u00f3n de Fe y de Cultura de una ciudad, especialmente si esta se encuentra cerca de fuentes mejoradas de estos recursos. Solo se pueden construir en una ciudad que siga la creencia de los Monasterios. Construye este edificio adquiri\u00e9ndolo con Fe .",
+    "historical_info": "El monasterio es un edificio o complejo de edificios que alberga a monjes y monjas, personas que han renunciado a las cosas mundanas (riqueza, posesiones, sexo), y dedicado su vida a la plegaria y la meditaci\u00f3n. Por lo general, los monasterios son organizaciones solo para hombres o solo para mujeres o, de ser mixtas, los miembros de cada sexo est\u00e1n separados por muros imponentes. Hist\u00f3ricamente, los monasterios han sido lugares de ense\u00f1anza, especialmente durante la Edad Media, en la que los miembros de las \u00f3rdenes religiosas eran los \u00fanicos, aparte de la \u00e9lite gobernante, que sab\u00edan leer y escribir.",
+    "cost": {
+        "production": -1,
+        "faith": 150
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/monasterio|monasterios.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 44,
+    "name": "Marine marchande",
+    "game_info": "Marine marchande Or +1 pour chaque port, chantier naval ou phare. Production et Culture +4 dans la ville accueillant la Compagnie des Indes orientales.",
+    "historical_info": "Une marine marchande est une flotte de navires marchands qui, en temps de guerre, peuvent \u00eatre r\u00e9quisitionn\u00e9s afin de transporter des marchandises et du mat\u00e9riel militaires appartenant \u00e0 la nation. Souvent, ces navires sont escort\u00e9s par des vaisseaux de la marine du pays. Pendant de nombreuses ann\u00e9es, les Britanniques ont entretenu la flotte de marine marchande la plus nombreuse et la plus efficace de toute l'Histoire. Mise en place en 1835, la marine marchande britannique a subi de lourdes pertes durant les deux guerres mondiales. Pr\u00e8s de 15\u00a0000\u00a0marins marchands ont perdu la vie durant la premi\u00e8re, et 30\u00a0000 durant la seconde.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/marine_marchande.png",
+    "required_policies": [
+        {
+            "name": "Tradition navale",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/naval_tradition.json"
+        },
+        {
+            "name": "Infrastructures maritimes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/maritime_infrastructure.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Exploration",
+        "game_info": "L'exploration am\u00e9liore votre aptitude \u00e0 \u00e9tendre votre empire par-del\u00e0 les mers. Adopter l'exploration octroie 1\u00a0[ICON_MOVES] point de mouvement suppl\u00e9mentaire aux unit\u00e9s navales et 1\u00a0point de champ de vision aux unit\u00e9s militaires navales, et d\u00e9bloque le Louvre. En adoptant toutes les doctrines, vous deviendrez capable de voir les sites antiques cach\u00e9s et vous pourrez acheter des amiraux illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": "Moyen \u00c2ge",
+        "historical_info": "Depuis que l'homme a commenc\u00e9 \u00e0 se s\u00e9dentariser, il y a toujours eu des individus d\u00e9sireux de d\u00e9couvrir ce qui se trouvait au-del\u00e0 de l'horizon. Motiv\u00e9s par le profit, l'aventure, la religion, la n\u00e9cessit\u00e9 ou tout simplement par la curiosit\u00e9, des explorateurs ont \u00e9tendu notre connaissance du monde et de ses merveilles. Au cours de leurs p\u00e9r\u00e9grinations, ils ont \u00e9galement fait se rencontrer des cultures diff\u00e9rentes et \u00e9loign\u00e9es, pour le meilleur ou pour le pire. Ce sont des explorateurs tels que le Carthaginois Hannon, l'amiral chinois Wang Dayuan, l'anglais Sir Richard Burton et des milliers d'autres qui ont permis l'expansion des civilisations et fa\u00e7onn\u00e9 l'histoire."
+    }
+}

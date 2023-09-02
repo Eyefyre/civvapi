@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Combustion",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "Modern Era",
+    "cost": 4100,
+    "civilopedia_entry": "\"Combustion\" means burning. It's a chemical reaction between substances, one of which is usually oxygen, which often results in the generation of light and heat energy. Here we're speaking specifically about the use of combustion inside of an engine (hence, \"internal combustion\") to create energy to turn a crank or move a piston.There are two different types of internal combustion engines: intermittent-combustion engines and steady flow engines. In an intermittent-combustion engine, a certain amount of fuel and oxygen is injected into the combustion chamber where it ignites and moves a piston or some other mechanical device, after which another discrete amount of fuel and oxygen is once again inserted, and the entire process repeats. Automobile engines are examples of intermittent-combustion engines. In a steady-flow engine, a steady stream of fuel and oxygen is injected into the engine, burning continuously. Jet engines are steady-flow.The first internal combustion engine patent was given to Englishmen Samuel Brown in 1823 for his \"gas vacuum engine,\" which ran on hydrogen and oxygen. The first patent for using a jet engine to power an aircraft was filed in 1921 by Frenchman Maxime Guillaume. Neither of these first attempts was very successful, but they paved the way for technologies which would power the world right up until today, and for the foreseeable future.",
+    "quote": "\"Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Railroad",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Combined Arms",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Destroyer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/destroyer.json"
+        },
+        {
+            "name": "Landship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

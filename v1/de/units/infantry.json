@@ -1,0 +1,18 @@
+{
+    "id": 40,
+    "name": "Infanterie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/infantry.png",
+    "game_info": "Die st\u00e4rkste Infanterieeinheit im Spiel bis zur mechanisierten Infanterie.",
+    "historical_info": "Zu Beginn des 20. Jahrhunderts erlebte die Welt zwei der verheerendsten und zerst\u00f6rerischsten Kriege der Menschheitsgeschichte. In dieser Zeit schritt die Kampftechnologie weit fort und \u00fcber die Jahrzehnte wurden immer ausgefeiltere Schiffe, Flug- und Landfahrzeuge eingesetzt. Immer dabei war die Infanterie, die sich unbeugsam dem gr\u00f6\u00dften Grauen stellte, das den kl\u00fcgsten K\u00f6pfen des Planeten entsprungen war.Der typische Infanterist im Zweiten Weltkrieg war mit einem halbautomatischen Gewehr - zum Beispiel dem M1 Garand - und eventuell mit einer oder mehreren Granaten ausger\u00fcstet. Sein einziger Schutz war ein Metallhelm, der gegen direkten Beschuss nahezu nutzlos war und bestenfalls Granatsplitter abhielt. Infanteristen waren z\u00e4h und einfallsreich und Hunderttausende von ihnen starben im Kampf f\u00fcr ihre Heimat.",
+    "strategy": "Infanterie ist deutlich st\u00e4rker als ihr Vorg\u00e4nger, die Weltkriegs-Infanterie. Der moderne Krieg wird immer komplexer, und auf sich allein gestellt ist eine Infanterieeinheit bei Flug-, Artillerie- und Panzerangriffen sehr gef\u00e4hrdet. Wenn m\u00f6glich sollte die Infanterie stets durch Artillerie, Panzer, Flugzeuge oder Flugabwehreinheiten unterst\u00fctzt werden.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Plastik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+    },
+    "free_promotions": []
+}

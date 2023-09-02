@@ -1,0 +1,49 @@
+{
+    "id": 6,
+    "name": "Wybrze\u017ce",
+    "historical_info": "Pola z wybrze\u017cem to miejsca, gdzie ocean bezpo\u015brednio graniczy z l\u0105dem. Je\u015bli cywilizacja posiada technologi\u0119 \u017ceglugi, wybrze\u017ce zapewnia pobliskiemu miastu po\u017cywienie i z\u0142oto. Tylko jednostki morskie i zaokr\u0119towane mog\u0105 przemieszcza\u0107 si\u0119 po wybrze\u017cu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/wybrze\u017ce.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "L\u00f3d|Lodu|Lodowi|L\u00f3d",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/ice.json"
+        },
+        {
+            "name": "Atol|Atolu|Atolowi|Atol|Atole|Atoli|Atolom|Atole",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/atoll.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Ryby|Ryb|Rybom|Ryby",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/fish.json"
+        },
+        {
+            "name": "Wieloryby|Wieloryb\u00f3w|Wielorybom|Wieloryby",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/whales.json"
+        },
+        {
+            "name": "Per\u0142y|Pere\u0142|Per\u0142om|Per\u0142y",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/pearls.json"
+        },
+        {
+            "name": "Kraby|Krab\u00f3w|Krabom|Kraby|Krabami|Krabach",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/crab.json"
+        }
+    ]
+}

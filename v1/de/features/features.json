@@ -1,0 +1,561 @@
+[
+    {
+        "id": 1,
+        "name": "Eis",
+        "historical_info": "Eis ist unpassierbar, au\u00dfer f\u00fcr Luft- und U-Boot-Einheiten. St\u00e4dten bietet es nichts.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/eis.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/ice.json"
+    },
+    {
+        "id": 2,
+        "name": "Dschungel",
+        "historical_info": "Dschungel k\u00f6nnen dunkel, bedrohlich und f\u00fcr unerfahrene Eindringlinge sogar t\u00f6dlich sein, doch sie sind auch eine wichtige Nahrungsquelle f\u00fcr alle, die \u00fcber die F\u00e4higkeiten und das Wissen verf\u00fcgen, um darin zu \u00fcberleben. Dschungel bieten jedoch nur wenige Materialien und eine wachsende Zivilisation k\u00f6nnte versucht sein, dort Minen zu bauen oder sie zu Ackerland umzuwandeln. Milit\u00e4reinheiten, die sich im Dschungel befinden, erhalten aber einen erheblichen Verteidigungsbonus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/dschungel.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": -1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Bananen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bananas.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "F\u00e4rbemittel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/dyes.json"
+            },
+            {
+                "name": "Gew\u00fcrze",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/spices.json"
+            },
+            {
+                "name": "Tr\u00fcffel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+            },
+            {
+                "name": "Kakao",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cocoa.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/jungle.json"
+    },
+    {
+        "id": 3,
+        "name": "Sumpf",
+        "historical_info": "S\u00fcmpfe besitzen zwar eine reiche Artenvielfalt, k\u00f6nnen aber einer hungrigen, wachsenden Zivilisation nur wenig bieten, da sie trockengelegt oder anderweitig bearbeitet werden m\u00fcssen, bevor sie einer Stadt Bonusse bieten k\u00f6nnen. Milit\u00e4reinheiten, die auf Sumpffeldern angegriffen werden, erhalten einen erheblichen Malus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/sumpf.png",
+        "movement_cost": 3,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": -1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Zucker",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sugar.json"
+            },
+            {
+                "name": "Tr\u00fcffel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/marsh.json"
+    },
+    {
+        "id": 4,
+        "name": "Oase",
+        "historical_info": "Eine Oase ist ein besonders \u00fcppiges und fruchtbares Gebiet in einer W\u00fcste, was meist daran liegt, dass sie sich \u00fcber einer reichen und sauberen Wasserquelle befindet. Oasen sind \u00e4u\u00dferst wertvolle Ressourcen in der ansonsten unfruchtbaren und leblosen W\u00fcste und W\u00fcstenst\u00e4mme lieferten sich bereits zahllose Schlachten, um sie zu erobern.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oase.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/oasis.json"
+    },
+    {
+        "id": 5,
+        "name": "Schwemmland",
+        "historical_info": "Schwemmland sind tief gelegene Gebiete am Rand von Fl\u00fcssen. Jedes Jahr \u00fcberflutet der Fluss das Land und versorgt es so mit nat\u00fcrlicher Bew\u00e4sserung und vielen N\u00e4hrstoffen. Schwemmland bietet den fruchtbarsten und ertragreichsten Ackerboden auf der ganzen Welt. Das alte \u00c4gypten verdankte den Gro\u00dfteil seines Reichtums und seiner Macht der j\u00e4hrlichen \u00dcberschwemmung durch den m\u00e4chtigen Nil.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/schwemmland.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Weizen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wheat.json"
+            },
+            {
+                "name": "Zucker",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sugar.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/flood_plains.json"
+    },
+    {
+        "id": 6,
+        "name": "Wald",
+        "historical_info": "In den fr\u00fchen Jahren der Menschheit boten W\u00e4lder eine reiche Ausbeute: Feuerholz, Werkzeuge und Schutz, und nicht zu vergessen viele Tiere, die Nahrung und Kleidung lieferten. Wenn eine Stadt w\u00e4chst, ist die Versuchung gro\u00df, die W\u00e4lder zugunsten von Ackerland zu roden, doch ein weises Staatsoberhaupt l\u00e4sst immer auch ein paar W\u00e4lder stehen - das dient n\u00e4mlich der Produktivit\u00e4t und hebt die Stimmung des Volkes. Milit\u00e4reinheiten, die in W\u00e4ldern stationiert sind, erhalten zudem einen erheblichen Verteidigungsbonus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/wald.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Wild",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/deer.json"
+            },
+            {
+                "name": "Pelze",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/furs.json"
+            },
+            {
+                "name": "F\u00e4rbemittel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/dyes.json"
+            },
+            {
+                "name": "Seide",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silk.json"
+            },
+            {
+                "name": "Tr\u00fcffel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+    },
+    {
+        "id": 7,
+        "name": "Fallout",
+        "historical_info": "Fallout ist die Reststrahlung, die nach einer nuklearen Explosion zur\u00fcckbleibt. Der Fallout \"f\u00e4llt\" aus der Luft als Ablagerung radioaktiver Partikel, die extrem gef\u00e4hrlich f\u00fcr Pflanzen und Tiere sind und diese entweder sofort t\u00f6ten oder ihre DNS ver\u00e4ndern und so Krebs und andere Krankheiten oder Genmutationen hervorrufen. Je nach Art der nuklearen Explosion kann es dazu kommen, dass das Land f\u00fcr Jahrzehnte, wenn nicht sogar f\u00fcr Jahrhunderte verstrahlt bleibt. Zur S\u00e4uberung ist es n\u00f6tig, alle kontaminierten Bereiche wie Geb\u00e4ude, B\u00f6den und Vegetation zu entfernen.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fallout.png",
+        "movement_cost": 2,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": -3,
+            "production": -3,
+            "science": 0,
+            "culture": 0,
+            "food": -3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/fallout.json"
+    },
+    {
+        "id": 8,
+        "name": "Der Barringer-Krater",
+        "historical_info": "Der Barringer-Krater ist ein riesiger Meteoritenkrater in Arizona, USA. Er hat einen Durchmesser von rund 1,2 km und entstand vermutlich vor gut 50.000 Jahren, als an der Stelle ein Meteorit bestehend aus Nickel und Eisen einschlug, der beim Aufprall gesch\u00e4tzte 160.000 Tonnen wog und sich mit einer Geschwindigkeit von \u00fcber 40.000 km/h fortbewegte.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/der_barringer-krater.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/the_barringer_crater.json"
+    },
+    {
+        "id": 9,
+        "name": "Fuji-san",
+        "historical_info": "Der Fuji-san, ein aktiver Vulkan, ist der h\u00f6chste Berg Japans. Sein ber\u00fchmter schneebedeckter Gipfel, fast 3.800 m hoch und oft von Wolken umgeben, ist von Tokio aus zu sehen. Der majest\u00e4tische Berg wurde in zahlreichen Gedichten, Liedern, Fotos, Skulpturen, Gem\u00e4lden und anderen Kunstwerken besungen und dargestellt. Der Fuji-san stellt f\u00fcr ganz Japan ein Sinnbild der Sch\u00f6nheit und des Stolzes dar.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fuji-san.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 3,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/mt._fuji.json"
+    },
+    {
+        "id": 10,
+        "name": "Grand Mesa",
+        "historical_info": "Die Grand Mesa ist eine gro\u00dfe geologische Formation in Colorado, USA. Sie erhebt sich rund 1.500 m \u00fcber ihre Umgebung und ist mit einer Fl\u00e4che von 1.300 km\u00b2 der gr\u00f6\u00dfte Tafelberg der Welt. Die oberste Schicht der Grand Mesa besteht aus verwitterungsbest\u00e4ndigem vulkanischem Basalt. Der Berg wurde nicht nach oben gedr\u00fcckt; vielmehr behielt er seine urspr\u00fcngliche H\u00f6he, w\u00e4hrend das umliegende Gebiet von den Fl\u00fcssen Colorado River und Gunnison River ausgewaschen wurde.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/grand_mesa.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 3,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/the_grand_mesa.json"
+    },
+    {
+        "id": 11,
+        "name": "Das Great Barrier Reef",
+        "historical_info": "Das Great Barrier Reef ist das gr\u00f6\u00dfte Korallenriff der Erde. Es besteht aus einer 2.300 km langen Kette von fast 3.000 Einzelriffen und 1.000 Inseln vor der Nordostk\u00fcste Australiens. Dieses Riff, das in \u00fcber 500.000 Jahren von Abermilliarden winziger Korallenpolypen erbaut wurde, stellt die gr\u00f6\u00dfte von Lebewesen hergestellte Einzelstruktur auf unserem Planeten dar. Es beherbergt eine Vielzahl unterschiedlichster Tierarten, darunter Wale, Delfine und T\u00fcmmler, Dugongs (Seek\u00fche), Schildkr\u00f6ten und Fische sowie Tintenfische und Schlangen; von den \u00fcber 200 Vogelarten ganz zu schweigen.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/das_great_barrier_reef.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 2,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/the_great_barrier_reef.json"
+    },
+    {
+        "id": 12,
+        "name": "Krakatau",
+        "historical_info": "Krakatau ist eine Vulkaninsel, die zwischen den indonesischen Inseln Java und Sumatra liegt. Der Vulkan brach im August 1883 mit einer Gewalt aus, die der 13.000-fachen Kraft der Atombombe von Hiroshima entspricht. Die Eruption zerst\u00f6rte die halbe Insel und der Ausbruch war sogar in Teilen Australiens in 3.200 km Entfernung noch zu h\u00f6ren. Bei der Eruption und den folgenden Tsunamis kamen 37.000 Menschen ums Leben. Aus dem Vulkan str\u00f6mt schon seit den letzten acht Jahren st\u00e4ndig Lava, wodurch sich der Kegel um ca. 4,5 m pro Jahr neu aufbaut.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatau.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 5,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/krakatoa.json"
+    },
+    {
+        "id": 13,
+        "name": "Felsen von Gibraltar",
+        "historical_info": "Gibraltar ist eine Halbinsel mit einer bemerkenswerten Felsenformation an der Einfahrt zum Mittelmeer. Urspr\u00fcnglich im Besitz Spaniens wurde es 1704 von den Engl\u00e4ndern und Holl\u00e4ndern eingenommen und 1713 England zugesprochen. Seither ist Gibraltar eine britische Kronkolonie (sehr zum Leidwesen Spaniens, das die Hoheit gern wiedererlangen m\u00f6chte). Gibraltar \u00fcberblickt die Meerenge zwischen Atlantik und Mittelmeer und ist schon seit dreihundert Jahren ein wichtiger britischer Marinest\u00fctzpunkt.Der gr\u00f6\u00dfte Teil Gibraltars besteht aus dem \"Felsen\", einer riesigen, fast 430 m hohen Formation aus Schiefer, Sandstein und Kalkstein, die von den unglaublichen Kr\u00e4ften der Plattentektonik aufgeworfen wurde. Fr\u00fcher war Gibraltar eine massive Festung, die es Gro\u00dfbritannien erm\u00f6glichte, die schmale Passage zwischen Mittelmeer und Atlantik zu kontrollieren. Heute hat die Halbinsel ihre Bedeutung als Milit\u00e4rst\u00fctzpunkt verloren und ist vor allem ein Naturschutzgebiet und beliebtes Ausflugsziel.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/felsen_von_gibraltar.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 5,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/rock_of_gibraltar.json"
+    },
+    {
+        "id": 14,
+        "name": "Old Faithful",
+        "historical_info": "Old Faithful ist ein Geysir im Yellowstone-Nationalpark in Wyoming (USA). Er wurde 1870 erstmals von Europ\u00e4ern gesehen (von den Ureinwohnern wohl schon \u00fcber 10.000 Jahre zuvor) und er verdankt seinen Namen der Regelm\u00e4\u00dfigkeit seiner Eruptionen. Der Geysir schleudert alle 60-90 Minuten (die L\u00e4nge des Intervalls h\u00e4ngt von der St\u00e4rke der vorigen Eruption ab) eine Font\u00e4ne kochenden Wassers in eine H\u00f6he von 30-50 Metern. Geysire entstehen, wenn Wasser unter der Erde auf Magma (geschmolzenen Stein) trifft. Das Wasser verdampft blitzartig und schie\u00dft mit enormem Druck durch die n\u00e4chste \u00d6ffnung hinaus. Old Faithful und die anderen 250 Geysire im Yellowstone-Nationalpark erfreuen jedes Jahr die Augen von rund drei Millionen Besuchern.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/old_faithful.json"
+    },
+    {
+        "id": 15,
+        "name": "Jungbrunnen",
+        "historical_info": "Eines der ersten Zeugnisse \u00fcber diesen legend\u00e4ren Brunnen stammt von Herodot, der ihn als eine Art \"Wasser des Lebens\" beschreibt, das jedem, der es trinkt, ein au\u00dfergew\u00f6hnlich langes Leben schenkt. \u00c4hnliche Geschichten gibt es auch bei den Urv\u00f6lkern in der Karibik und in S\u00fcdamerika, durch die der Jungbrunnen im Zuge der spanischen Entdeckungsreisen Ber\u00fchmtheit erlangte. Einer weit verbreiteten Geschichte zufolge soll der spanische Konquistador Juan Ponce de Le\u00f3n 1513 w\u00e4hrend seiner Reisen in Puerto Rico Erz\u00e4hlungen \u00fcber den Brunnen geh\u00f6rt und anschlie\u00dfend die Segel gesetzt haben, um das ewige Leben zu finden. So entdeckte er zwar Florida (und war somit einer der ersten Europ\u00e4er, die nordamerikanischen Boden betraten), aber den mythischen Brunnen fand er nicht. Der Jungbrunnen fasziniert die Menschen bis heute - Filme, B\u00fccher, Comics und Spiele handeln von dem sagenumwobenen Brunnen und der unaufh\u00f6rlichen Suche der Menschheit nach ihm.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jungbrunnen.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 10
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/fountain_of_youth.json"
+    },
+    {
+        "id": 16,
+        "name": "Cerro de Potosi",
+        "historical_info": "Der Berg Potos\u00ed im S\u00fcden Boliviens hat fast das gesamte Silber hervorgebracht, das die Spanier in der Bl\u00fctezeit ihres Imperiums abbauten. Nach dem Abbau wurde es mit Lamas und Maultieren an die K\u00fcste gebracht und dort auf Schiffe verladen, die zur\u00fcck nach Europa segelten. Fast 41.000 Tonnen pures Silber wurden in 200 Jahren abgebaut, von denen 8.200 Tonnen direkt an die spanische Krone gingen. Nach 1800 waren die Vorkommen in den gr\u00f6\u00dften Silberminen ersch\u00f6pft, doch bis heute gibt es am Potos\u00ed aktive Minen. In manchen wird Silber abgebaut, in den meisten jedoch Zinn.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cerro_de_potosi.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 10,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/cerro_de_potosi.json"
+    },
+    {
+        "id": 17,
+        "name": "El Dorado",
+        "historical_info": "Diese sagenumwobene untergegangene Stadt aus Gold zog viele spanische Konquistadoren wie ein Magnet in die Neue Welt, die alle hofften, auf ihre unvorstellbaren Reicht\u00fcmer zu sto\u00dfen. Fast drei Jahrhunderte lang folgten Entdecker dem Mythos der wertvollen Edelsteine und Goldsch\u00e4tze an die s\u00fcdamerikanischen K\u00fcsten und pl\u00fcnderten auf dem Weg oft andere St\u00e4dte, die sie vorfanden. El Dorado hat im Laufe der Jahrhunderte immer wieder Entdecker fasziniert und noch bis 1804 wurden Expeditionen auf die Suche nach diesem Ort geschickt. Heute geht man allerdings davon aus, dass die mythische Stadt aus dem Namen eines Muisca-H\u00e4uptlings entstanden ist, der sich, so wird berichtet, bei einem Initiationsritus selbst mit einer feinen Schicht aus Goldstaub bedeckte und in den Guatavita-See sprang.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 5,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/el_dorado.json"
+    },
+    {
+        "id": 18,
+        "name": "Atoll",
+        "historical_info": "Unter einem Atoll versteht man eine Korallenformation, die eine Insel bildet. Atolle haben eine typische Ringgestalt mit einer zentralen, seichten Lagune und sind zumeist flach und klein. Im Pazifik geh\u00f6ren Atolle neben Inseln vulkanischen Ursprungs zu den h\u00e4ufigsten Inselarten. Man kann Atolle mit Oasen vergleichen, da sie oftmals f\u00fcr Hunderte von Quadratkilometern Meer das einzige Land sind. Meerestiere und V\u00f6gel nutzen Atolle, aber obwohl Menschen auf einigen von ihnen wohnen, stellen Atolle doch normalerweise f\u00fcr gr\u00f6\u00dfere Landtiere eine eher feindliche Umgebung dar. Durch ihr flaches Profil k\u00f6nnen St\u00fcrme ungehindert \u00fcber die Atolle hinwegtoben und es ist oft wenig Schatten unter der starken Sonne vorhanden. Basierend auf seinen Erfahrungen und Beobachtungen auf der HMS Beagle war Charles Darwin der erste Mensch aus dem Westen, der eine richtige Hypothese \u00fcber die Entstehung von Atollen formulierte.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atoll.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/atoll.json"
+    },
+    {
+        "id": 19,
+        "name": "Sri Pada",
+        "historical_info": "Der \u00fcber Sri Lanka aufragende Sri Prada ist ein hoher Berg mit ungew\u00f6hnlicher, konischer Form, der auf Grund eines \"Fu\u00dfabdrucks\" auf seinem Gipfel von verschiedenen Religionen als heilig angesehen wird. Der Fu\u00dfabdruck, eine gro\u00dfe Vertiefung in einer Felsformation auf der Spitze des Berges, wurde Buddha, Shiva und dem biblischen Adam zugeschrieben, was dazu f\u00fchrte, dass Anh\u00e4nger des Buddhismus, des Hinduismus und des Islam diesen Berg verehren. Jedes Jahr wandern Tausende von Pilgern stundenlang den Berg hinauf, um der heiligen St\u00e4tte ihren Respekt zu zollen.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/sri_pada.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 4,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/sri_pada.json"
+    },
+    {
+        "id": 20,
+        "name": "Berg Sinai",
+        "historical_info": "Der Berg Sinai auf der Sinai-Halbinsel in \u00c4gypten geh\u00f6rt zu den verehrtesten heiligen St\u00e4tten unter den Anh\u00e4ngern des Judentums, des Christentums und des Islam. Auf dem Sinai soll Moses beim Auszug der Israeliten aus \u00c4gypten die Zehn Gebote von Gott erhalten haben, was diesen Berg zu einem wichtigen Ziel f\u00fcr Pilger aus aller Welt macht.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/berg_sinai.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 8,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/mt._sinai.json"
+    },
+    {
+        "id": 21,
+        "name": "Berg Kailash",
+        "historical_info": "Der heilige Gipfel des Kailash im Himalaya von Tibet wird von einer Vielzahl von Religionen in Ehren gehalten, besonders von Anh\u00e4ngern des Hinduismus. Der \u00dcberlieferung nach ist er die Heimat Shivas, der in einem Zustand ewiger Verz\u00fcckung auf diesem Berg wohnt. Der Kailash ist als eines der schwierigsten religi\u00f6sen Pilgerziele bekannt, da die harten Umweltbedingungen viele angehende Pilger abschrecken und der Berg f\u00fcr moderne Transportmittel nicht zug\u00e4nglich ist.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/berg_kailash.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/mt._kailash.json"
+    },
+    {
+        "id": 22,
+        "name": "Uluru",
+        "historical_info": "Der riesige rote Sandsteinfelsen im Zentrum Australiens, der als \"Ayers Rock\" bekannt ist, wurde im letzten Jahrhundert zu einem der herausragendsten Wahrzeichen Australiens. Lange bevor er Ende des 19. Jahrhunderts von englischen Erforschern entdeckt wurde, war der Berg als \"Uluru\" bekannt. Dieser Name wurde ihm von den dortigen Ureinwohnern gegeben, unter denen es verschiedene Legenden \u00fcber seine Sch\u00f6pfung und seine Bedeutung gibt. 1987 wurde er von der UNESCO zum Weltkulturerbe erkl\u00e4rt, was einen immensen Anstieg des Tourismus bewirkte. Mittlerweile str\u00f6men j\u00e4hrlich mehrere hunderttausend Besucher dorthin.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 6,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/uluru.json"
+    },
+    {
+        "id": 23,
+        "name": "Victoriasee",
+        "historical_info": "Mit einer Oberfl\u00e4che von \u00fcber 68.800 Quadratkilometern ist der Viktoriasee gleichzeitig der gr\u00f6\u00dfte See Afrikas, der zweitgr\u00f6\u00dfte S\u00fc\u00dfwassersee und der gr\u00f6\u00dfte tropische See der Welt. Er speist zwei gro\u00dfe Fl\u00fcsse, den Wei\u00dfen Nil und den Katonga. Die ersten Aufzeichnungen \u00fcber den See stammen von arabischen H\u00e4ndlern, die auf der Suche nach Gold, Elfenbein und anderen Luxusg\u00fctern von der K\u00fcste aus ins Landesinnere reisten. Die Suche europ\u00e4ischer Forschungsreisender nach der Quelle des Nils f\u00fchrte 1858 zur Entdeckung des Sees durch den Engl\u00e4nder John Speke, der ihn nach der britischen Monarchin benannte.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/victoriasee.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 6,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/lake_victoria.json"
+    },
+    {
+        "id": 24,
+        "name": "Kilimandscharo",
+        "historical_info": "Das Kilimandscharo-Massiv besteht aus drei vulkanischen Gipfeln, deren h\u00f6chster mit 5895 Metern gleichzeitig Afrikas h\u00f6chsten Punkt sowie den h\u00f6chsten freistehenden Berg der Welt darstellt. Das Gebirge liegt im Nordosten Tansanias und z\u00e4hlt zu den Schichtvulkanen. Zwei seiner Gipfel (Mawenzi und Shira) sind erloschen, der h\u00f6chste von ihnen (Kibo) ruht. Sein letzter Ausbruch fand vor etwa 150.000 Jahren statt. Der Afrikareisende und Sprachforscher Johann Krapf berichtete 1860, dass der Berg von den Suaheli an der K\u00fcste \"Kilimandscharo\" genannt wird, was er als \"Berg der Gr\u00f6\u00dfe\" oder \"Berg der Karawanen\" \u00fcbersetzte.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/kilimandscharo.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/mt._kilimanjaro.json"
+    },
+    {
+        "id": 25,
+        "name": "K\u00f6nig Salomons Minen",
+        "historical_info": "K\u00f6nig Salomons Minen \u00fcbten eine unwiderstehliche Anziehungskraft auf europ\u00e4ische Forscher im Afrika des 19. Jahrhunderts aus - wie damals El Dorado auf die spanischen Konquistadoren in der Neuen Welt des 16. Jahrhunderts. Als die Europ\u00e4er auf die geheimnisvollen Ruinen der uralten Stadt Gro\u00df-Simbabwe stie\u00dfen, waren sie fasziniert. Zahlreiche Erkl\u00e4rungen f\u00fcr die Existenz dieser Stadt wurden ersonnen, doch am weitesten verbreitet war die Vorstellung, dass Gro\u00df-Simbabwe den Arbeitern in K\u00f6nig Salomons Minen im Chimanimani-Gebirge als Schutz diente. Hier, so glaubte man, befand sich die Quelle f\u00fcr den in der Bibel erw\u00e4hnten legend\u00e4ren K\u00f6nigsschatz an Edelmetallen und Edelsteinen. Mehrere Jahrzehnte lang durchsuchten Abenteurer und Schatzj\u00e4ger die Minen, jedoch ohne Erfolg.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/k\u00f6nig_salomons_minen.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 6,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/features/king_solomon's_mines.json"
+    }
+]

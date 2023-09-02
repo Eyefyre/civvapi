@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Pyramid",
+    "game_info": null,
+    "strategy": "The Pyramid is an Ancient-era building unique to the Maya, replacing the Shrine. It increases the Science and Faith of a city, speeding Research and the civilization's acquisition of Religions.",
+    "historical_info": "These impressive, pyramid-shaped structures were built by the Mayans for ceremonial purposes, beginning nearly 3,000 years ago. The Mayan crafters hand-carved every stone of the building, giving the structures a \"stepped\" appearance. A long staircase would run up one side of the pyramid, leading to a small shrine at the top, usually dedicated to one of the Mayan gods. The largest Mayan Pyramid is located at El Mirador, measuring nearly 260 feet in height. By volume (almost 99 million cubic feet) it is one of the largest pyramids in the world.",
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pyramid.png",
+    "prereq_tech": {
+        "name": "Pottery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 2,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

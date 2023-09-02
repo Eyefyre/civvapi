@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Anti-Aircraft Gun",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "Will intercept enemy aircraft which try to bomb nearby Units.",
+    "historical_info": "These artillery tubes fire shells up into the air. Upon reaching a pre-set height the shells explode, sending an expanding ball of deadly shrapnel into any nearby aircraft. Anti-Aircraft (or \"ack-ack\") guns are quite vulnerable to attack from the ground: if left unprotected they can be easily destroyed by any enemy infantry or armed unit.",
+    "strategy": "These specialized artillery units will automatically attack any air unit bombing a target within 2 tiles. (They can only intercept one unit per turn.) They are quite weak in combat against other ground units and should be defended by stronger units when under threat of ground attack.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Ballistics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus vs Aircraft/Helicopters (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

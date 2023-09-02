@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Satrapenhof",
+    "game_info": "Stadt ben\u00f6tigt einen Markt. Handelswege anderer Spieler zu einer Stadt mit einem Satrapenhof bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "strategy": "Der Satrapenhof ist das einzigartige Geb\u00e4ude der Perser und ersetzt die Bank. \u00c4hnlich wie die Bank erh\u00f6ht auch der Satrapenhof den Wohlstandsertrag der Stadt. Dar\u00fcber hinaus wird aber auch die Zufriedenheit der Zivilisation gesteigert. Die Stadt muss \u00fcber einen Markt verf\u00fcgen, bevor ein Satrapenhof gebaut werden kann.",
+    "historical_info": "\"Satrap\" war der Titel eines Provinzstatthalters im Ach\u00e4menidenreich von Persien. Die Satrapen wurden vom Gro\u00dfk\u00f6nig ernannt und waren f\u00fcr gew\u00f6hnlich Mitglieder der k\u00f6niglichen Familie. Mit seinen umfangreichen Machtbefugnissen konnte der Satrap Steuern eintreiben und war der oberste Rechtsherr in der Provinz. Da er zudem f\u00fcr das Aufstellen und den Unterhalt einer Armee verantwortlich war, musste der Monarch gro\u00dfes Vertrauen in ihn setzen k\u00f6nnen. Als die Zentralmacht des Persischen Reiches im 5. Jahrhundert v. Chr. schw\u00e4cher wurde, wurden die Satrapen immer unabh\u00e4ngiger und einige von ihnen sogar m\u00e4chtiger als der Gro\u00dfk\u00f6nig selbst, der formell noch \u00fcber sie herrschte.Alexander behielt nach der Eroberung Persiens das Verwaltungssystem der Satrapen bei. Manchmal ersetzte er zwar den Satrapen einer Provinz durch einen eigenen General, doch oft durften die bestehenden Statthalter auch ihre Stellung behalten, wenn sie den Frieden wahrten und weiterhin ihre Steuern zahlten.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/satrapenhof.png",
+    "prereq_tech": {
+        "name": "Bankwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

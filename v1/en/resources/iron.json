@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "name": "Iron",
+    "game_info": "Used by powerful early-game Units.",
+    "historical_info": "Iron is one of the most important metals in human history. It is used for construction, for military weapons, and for tools. The first iron used came from pure deposits found in meteorites, and by the 2nd millennium BC some cultures had learned how to extract it from ores found in mines. Iron continues to be an extremely important material in the modern era, though it is most often used in its steel alloy form. Remember that iron is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/iron.png",
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

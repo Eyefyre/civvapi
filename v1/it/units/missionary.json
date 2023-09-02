@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Missionario|un Missionario|dal tuo Missionario|al tuo Missionario|il tuo Missionario|da un Missionario",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Usato per diffondere una religione nelle citt\u00e0. Si pu\u00f2 ottenere solo acquistandolo in cambio di Fede.",
+    "historical_info": "I missionari sono membri di un gruppo religioso o di una setta, inviati all'estero per diffondere il messaggio della loro fede. Bench\u00e9 il loro scopo principale sia diffondere la loro religione e guadagnare nuovi seguaci, spesso i missionari forniscono altri servizi alle regioni visitate. Costruendo ospedali, scuole e promuovendo in altri modi il benessere sociale, i missionari aiutano i bisognosi mentre svolgono la loro missione evangelica.",
+    "strategy": "Possono essere acquistati spendendo Fede in qualsiasi citt\u00e0 con una religione di maggioranza. Quando sono adiacenti a una citt\u00e0 possono diffondervi la loro religione (ma il secondo utilizzo di quest'azione sacrifica il Missionario). Se un Missionario entra nel territorio di un'altra civilt\u00e0 senza che sia stato stipulato il Diritto di Passaggio, la sua Forza Religiosa viene ridotta ogni turno. Quando la Forza Religiosa si riduce a 0, \u00e8 distrutto.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 entrare nel territorio di altre civilt\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Evangelista sgradito",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

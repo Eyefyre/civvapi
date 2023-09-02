@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "name": "Pancernik parowy|Pancernika parowego|Pancernikowi parowemu|Pancernik parowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ironclad.png",
+    "game_info": "Pot\u0119\u017cna jednostka morska, niestety bardzo powolna na g\u0142\u0119bokich wodach.",
+    "historical_info": "Mimo \u017ce o opancerzonych okr\u0119tach parowych marzono ju\u017c od czas\u00f3w Leonardo da Vinci, pancerniki parowe pojawi\u0142y si\u0119 dopiero w po\u0142owie XIX wieku. Do pierwszej bitwy tych okr\u0119t\u00f3w dosz\u0142o w 1862, podczas Wojny Secesyjnej. Walczy\u0142y ze sob\u0105 okr\u0119ty Monitor, nale\u017c\u0105cy do Unii, oraz Virginia (zwana tak\u017ce \u201eMerrimac\u201d) p\u0142yn\u0105ca pod bander\u0105 Konfederacji. Cho\u0107 bitwa trwa\u0142a 4 godziny, oba okr\u0119ty ostrzeliwa\u0142y si\u0119 na tyle niezdarnie, i\u017c pozosta\u0142a ona nierozstrzygni\u0119ta. Jednak jej wp\u0142yw na dzia\u0142ania wojenne toczone na morzy by\u0142 znacz\u0105cy. Udowodni\u0142a ona, \u017ce statki te s\u0105 w stanie wykonywa\u0107 manewry, kt\u00f3rych nigdy nie by\u0142yby w stanie wykona\u0107 \u017caglowce (np. p\u0142ywa\u0107 pod wiatr). Tak oto w jeden poranek floty wszystkich kraj\u00f3w \u015bwiata sta\u0142y si\u0119 przestarza\u0142e.",
+    "strategy": "Pancernik parowy to pierwszy okr\u0119t wojenny nap\u0119dzany silnikiem parowym. Jest wytrzymalszy od \u017caglowca, dysponuje te\u017c wi\u0119ksz\u0105 si\u0142\u0119 ostrza\u0142u, nie mo\u017ce jednak wyp\u0142ywa\u0107 na otwarty ocean. U\u017cywaj go g\u0142\u00f3wnie do obrony wybrze\u017ca.",
+    "movement": 3,
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Silnik parowy|Silnika parowego|Silnikowi parowemu|Silnik parowy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steam_power.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Podw. szybko\u015b\u0107 podczas ruchu na wybrze\u017cu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/double_movement_in_coast.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(33).json"
+        }
+    ]
+}

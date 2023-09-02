@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "name": "Trabajador|Trabajadores",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/worker.png",
+    "game_info": "Aumenta la cantidad de Alimentos , Producci\u00f3n y Oro al construir mejoras en las casillas del mapa que est\u00e1n fuera de las ciudades.",
+    "historical_info": "Para sobrevivir, una civilizaci\u00f3n necesita trabajadores entrenados. Puede tratarse de ingenieros muy capaces o de civiles adscritos a una funci\u00f3n, o incluso de esclavos, pero alguien debe excavar las minas, sembrar los campos y pavimentar los caminos. Una civilizaci\u00f3n sin estos hombres y mujeres se estancar\u00eda y acabar\u00eda sucumbiendo a manos de un vecino m\u00e1s laborioso.",
+    "strategy": "Esta unidad tiende Carreteras, Ferrocarriles y construye mejoras, como Granjas y Minas. No es capaz de defenderse por s\u00ed misma, as\u00ed que acomp\u00e1\u00f1ala con una unidad militar cuando est\u00e9 en territorio peligroso.",
+    "movement": 2,
+    "cost": {
+        "production": 70,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

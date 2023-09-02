@@ -1,0 +1,31 @@
+{
+    "id": 56,
+    "name": "Archer m\u00e9hariste|Archers m\u00e9haristes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/camel_archer.png",
+    "game_info": "Unit\u00e9 de combat \u00e0 distance m\u00e9di\u00e9vale rapide. Vuln\u00e9rable contre les piquiers. L'archer m\u00e9hariste est exclusif aux Arabes. Il peut attaquer \u00e0 distance, \u00e0 la diff\u00e9rence du chevalier, qu'il remplace.",
+    "historical_info": "Certains cavaliers musulmans combattaient sur des dromadaires, provoquant parfois la surprise des cavaliers europ\u00e9ens, qui n'avaient jamais vu ce genre d'animal. Les dromadaires sont bien plus adapt\u00e9s aux d\u00e9placements dans le d\u00e9sert que les chevaux. L'archer m\u00e9hariste utilisait une tactique dite de \"hit-and-run\", consistant \u00e0 frapper l'ennemi et \u00e0 quitter imm\u00e9diatement la zone de combat ; tactique plus similaire \u00e0 celles des archers mongols sur leurs chevaux qu'\u00e0 celles des chevaliers ou autres unit\u00e9s de cavalerie lourde. Un archer m\u00e9hariste bien entra\u00een\u00e9 pouvait \u00eatre un adversaire redoutable face \u00e0 un chevalier, s'il n'\u00e9tait pas lui-m\u00eame prot\u00e9g\u00e9 par des archers ou des unit\u00e9s de cavalerie l\u00e9g\u00e8re.",
+    "strategy": "Unit\u00e9 exclusive aux Arabes, l'archer m\u00e9hariste remplace le chevalier. Cette unit\u00e9 d'attaque \u00e0 distance puissante est capable d'atteindre des cibles situ\u00e9es \u00e0 2\u00a0cases d'elle. L'archer m\u00e9hariste peut se d\u00e9placer apr\u00e8s avoir combattu, mais il est moins puissant que le chevalier en combat rapproch\u00e9. Comme toutes les unit\u00e9s mont\u00e9es, l'archer m\u00e9hariste est vuln\u00e9rable aux attaques des piquiers.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Chevalerie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

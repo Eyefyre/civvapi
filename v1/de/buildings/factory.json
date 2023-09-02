@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Fabrik",
+    "game_info": "Ben\u00f6tigt 1 Kohle.",
+    "strategy": "Die Fabrik ist ein Geb\u00e4ude des Industriezeitalters, das die Produktion einer Stadt erheblich steigert. Beim Bau einer Fabrik wird 1 Kohle verbraucht.",
+    "historical_info": "Eine Fabrik ist ein Geb\u00e4ude, in dem Techniken der Industrialisierung genutzt werden, um Sachen zu bauen: Autos, Korsetts, Stahltr\u00e4ger, Angelruten und was auch immer. Im gro\u00dfen Stil erschienen die ersten Fabriken im 17. Und 18. Jahrhundert auf der Bildfl\u00e4che. Sie waren effizienter als kleine Werkst\u00e4tten oder H\u00fctten, die sie ersetzten, daf\u00fcr aber potentiell weniger human. Im Gegensatz zur allgemeinen Meinung war es nicht Henry Ford, der das Flie\u00dfband erfand: Diese Erfindung hat ihren Ursprung in der Fleischindustrie im Mittleren Westen der USA im 19. Jahrhundert. Tierkadaver wurden dort in einem steten Tempo \u00fcber ein erh\u00f6htes F\u00f6rdersystem von Station zu Station transportiert. Arbeiter an den einzelnen Stationen hatten eine bestimmte Zeitvorgabe, in der sie das ihnen zugewiesene St\u00fcck Fleisch abtrennen mussten, bevor der Kadaver weitertransportiert wurde. In einer solchen Fleischfabrik zu arbeiten war einer der dreckigsten und gef\u00e4hrlichsten Jobs in der Geschichte des amerikanischen Arbeitsmarktes und Geschichten aus dieser Zeit lassen einem noch heute Schauer \u00fcber den R\u00fccken laufen.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fabrik.png",
+    "prereq_tech": {
+        "name": "Industrialisierung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 17,
+    "name": "Argent",
+    "game_info": null,
+    "historical_info": "L'argent est un m\u00e9tal pr\u00e9cieux mall\u00e9able, doux et brillant. Activement recherch\u00e9 pour sa valeur intrins\u00e8que, il est utilis\u00e9 dans le monde entier depuis des si\u00e8cles en d\u00e9coration, en joaillerie, ainsi que dans la fabrication d'ustensiles et de pi\u00e8ces de monnaie. L'argent poss\u00e8de une excellente conductivit\u00e9 thermique et \u00e9lectrique, ce qui le rend extr\u00eamement utile dans nombre d'applications \u00e9lectroniques. Cela fait 6\u00a0000\u00a0ans au minimum que l'argent est min\u00e9. En 1859, le \"Filon de Comstock\" fut d\u00e9couvert dans le Nevada, aux \u00c9tats-Unis. Il s'agissait d'un riche gisement d'argent qui fut la source d'une importante croissance de l'\u00e9conomie locale. Cet \"\u00e2ge d'argent\" dura trente-trois ans, jusqu'au jour o\u00f9 les plus bas niveaux de la mine furent inond\u00e9s, rendant l'extraction impossible. Apr\u00e8s cela, les villes devenues riches p\u00e9rirent \u00e0 petit feu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/argent.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine|Mines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Colline|Collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+        }
+    ]
+}

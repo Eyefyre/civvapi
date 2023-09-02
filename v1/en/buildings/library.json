@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Library",
+    "game_info": "+1 Science for every 2 Citizens in this City.",
+    "strategy": "The Library increases the Science output of the city, speeding up the civ's acquisition of new technology.",
+    "historical_info": "A library is a building housing a collection of books, scrolls, and other written material. Historically, books have been fairly expensive, often beyond the reach of a civilization's poorer classes. The library allows the poor access to the same knowledge as the rich, greatly improving their chances of success and advancement.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/library.png",
+    "prereq_tech": {
+        "name": "Writing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

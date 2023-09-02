@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Carolean",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Strong, front-line land Unit that specializes in long marches, even far from Swedish lands. Only the Swedish may build it.",
+    "historical_info": "An elite army of Swedish soldiers, these soldiers served the Swedish crown from roughly 1660 - 1697. Arguably the most effective soldiers of their time, the Caroleans were a small group, but made up for their fewer numbers with innovative tactics and staunch discipline. The Caroleans were strictly offensive troops, and never practiced nor drilled any kind of retreat maneuver. They would charge towards the enemy lines, only responding with their own fire once they were close enough to be sure to hit. The raging, all out charge demoralized many an army, and the Caroleans caused many lines of enemy troops to break and flee.",
+    "strategy": "Caroleans are the backbone of the early Industrial era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rifling",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "March",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/march.json"
+        }
+    ]
+}

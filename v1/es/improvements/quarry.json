@@ -1,0 +1,34 @@
+{
+    "id": 6,
+    "name": "Cantera|Canteras",
+    "game_info": "En el mundo real, la cantera es un lugar del que se extrae cualquier tipo de piedra o grava. En Civilization V, las canteras aumentan la producci\u00f3n del recurso de la piedra y proporcionan acceso al recurso de lujo del m\u00e1rmol, una piedra muy apreciada que se utiliza para la construcci\u00f3n y para la realizaci\u00f3n de obras de arte.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/cantera|canteras.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "M\u00e1rmol",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/marble.json"
+        },
+        {
+            "name": "Piedra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/stone.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Mamposter\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/masonry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

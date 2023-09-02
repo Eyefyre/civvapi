@@ -1,0 +1,68 @@
+{
+    "id": 18,
+    "name": "Zollamt",
+    "game_info": "Ein Zollamt ist ein Regierungsgeb\u00e4ude, in dem Steuern auf Import- und Exportg\u00fcter eines Landes gezahlt werden. Es stellt sicher, dass die Regierung ihren Teil des Profits von jeder Fracht abbekommt, die \u00fcber einen Hafen verschickt wird. Bedenkt man die Summen, um die es dabei geht, ist die Gefahr der Korruption nahezu unbegrenzt. Im Laufe der Geschichte waren Zollbeamte nicht unbedingt ber\u00fchmt daf\u00fcr, stets der Versuchung zu widerstehen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/zollamt.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Pferde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+        },
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "Kohle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+        },
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 4,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

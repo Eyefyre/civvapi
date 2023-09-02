@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "name": "Archery",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archery.png",
+    "era": "Ancient Era",
+    "cost": 35,
+    "civilopedia_entry": "Archery is the technology by which a person uses the spring power stored in a bent stick (or \"bow\") to shoot a slender pointed projectile (an \"arrow\") a great distance at rapid speed. Throughout history bows and arrows have been employed in the hunt and in war. Their earliest use is lost in the mists of time, but probably dates from the Paleolithic era (which ended some 14,000 years ago) or even earlier (archaeologists have found stone points in Africa dating 60,000 years ago that may have been arrowheads). Virtually every early culture employed bows and arrows, excepting for the Aboriginal Australians, who appear never to have invented them.Archers have been used in war about as long as there has been war. The early Greeks and Egyptians deployed ranks of archers, as did the earliest known armies from India, Asia, Japan, and the Americas. By the Middle Ages the crossbow and firearms began to replace the bow and arrow in warfare and hunting, and by the 16th century it had all but disappeared from most modern armies. Today target archery survives as a sport in many cultures around the world. Some enthusiasts still hunt with the bow and arrow which, despite its great antiquity, can take down a deer as effectively as it did ten thousand years ago.",
+    "quote": "\"The haft of the arrow had been feathered with one of the eagle's own plumes. We often give our enemies the means of our own destruction.\" - Aesop",
+    "tech_prereqs": [
+        {
+            "name": "Agriculture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "The Wheel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/archer.json"
+        },
+        {
+            "name": "Slinger",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/slinger.json"
+        },
+        {
+            "name": "Bowman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Temple of Artemis",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/temple_of_artemis.json"
+        }
+    ]
+}

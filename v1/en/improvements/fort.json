@@ -1,0 +1,46 @@
+{
+    "id": 15,
+    "name": "Fort",
+    "game_info": "A fort is a special improvement that doesn't increase a hex's productivity or provide access to a resource. Instead, a fort improves a hex's defensive bonus by 50% for units stationed in that hex. However, they do not provide a defensive bonus to units in enemy territory.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fort.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        },
+        {
+            "name": "Snow",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Engineering",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

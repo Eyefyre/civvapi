@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Acorazado|Acorazados",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battleship.png",
+    "game_info": "Es la unidad naval de combate a distancia m\u00e1s potente hasta la llegada del Crucero portamisiles.",
+    "historical_info": "Los acorazados son buques de guerra grandes y fuertemente blindados, equipados con varios ca\u00f1ones de gran calibre. Son los descendientes directos de las corbetas de la era de la navegaci\u00f3n a vela, pues est\u00e1n equipados para hacer frente a los nav\u00edos enemigos de mayor tama\u00f1o. Estos acorazados eran los due\u00f1os de los mares antes de la llegada de los aviones y los submarinos. Sus ca\u00f1ones son muy potentes, y tambi\u00e9n pueden usarse a modo de artiller\u00eda para enviar enormes misiles tierra adentro. A pesar de su tama\u00f1o, velocidad, blindaje y potencia de fuego, los acorazados son muy vulnerables ante los ataques a\u00e9reos y de submarinos. En Pearl Harbor, unos cazas japoneses que proced\u00edan de unos portaaviones hundieron cuatro acorazados estadounidenses y produjeron graves da\u00f1os a otros cuatro. Eso convenci\u00f3 a los Aliados del importante papel que jugaban los portaaviones como armas ofensivas, y los acorazados quedaron relegados a bombardeos de costa y misiones de escolta durante el resto de la guerra.",
+    "strategy": "El Acorazado es un barco de guerra extremadamente poderoso, pues cuenta con un gran Fuerza de combate y Fuerza de combate a distancia. Su ataque tiene un alcance de 3 hex\u00e1gonos, lo que le permite ca\u00f1onear unidades o ciudades que est\u00e9n a varias casillas tierra adentro. Su capacidad de fuego indirecto le permite ca\u00f1onear objetivos que no puede ver (siempre y cuando otras unidades amigas s\u00ed puedan verlos). El Acorazado es vulnerable a los ataques a\u00e9reos y submarinos.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Electr\u00f3nica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuego indirecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/indirect_fire.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

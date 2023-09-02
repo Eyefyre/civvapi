@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "\u00c9lectronique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "\u00c8re moderne",
+    "cost": 4100,
+    "civilopedia_entry": "L'\u00c9lectronique couvre la branche de la technologie qui \u00e9tudie les d\u00e9placements contr\u00f4l\u00e9s des \u00e9lectrons au travers de diverses substances dont le vide. Cette discipline ne doit pas \u00eatre confondue avec la technologie \"\u00e9lectricit\u00e9\" qui comprend la production et la distribution du courant \u00e9lectrique. L'\u00e9lectronique ne fut reconnue comme un champ d'\u00e9tudes \u00e0 part enti\u00e8re qu'en 1950, lorsqu'elle fut distingu\u00e9e de la radio.Les circuits \u00e9lectroniques peuvent \u00eatre de deux types : analogiques ou num\u00e9riques. Les circuits analogiques ne sont g\u00e9n\u00e9ralement que de simples assemblages de circuits basiques utilisant une tension \u00e9lectrique continue. Aujourd'hui, rares sont les circuits \u00e0 \u00eatre encore enti\u00e8rement analogiques. Les circuits num\u00e9riques constituent la base des ordinateurs modernes et des automates programmables industriels, en cela qu'ils sont l'application physique la plus courante de l'alg\u00e8bre de Boole (0 et 1, \u00e7a vous dit quelque chose ?).L'\u00e9tude et le d\u00e9veloppement de l'\u00e9lectronique sont \u00e9troitement li\u00e9s \u00e0 ceux des math\u00e9matiques, et la ma\u00eetrise de ceux-ci est une des conditions sine qua non \u00e0 la ma\u00eetrise de la discipline. Cr\u00e9er et analyser des circuits complexes impliquent de r\u00e9soudre des syst\u00e8mes lin\u00e9aires comptant de nombreuses variables inconnues (comme le voltage et le courant \u00e9lectrique en certains lieux pr\u00e9cis). C'est la raison pour laquelle, de nos jours, la conception de circuits est facilit\u00e9e par l'utilisation de logiciels d'automatisation.",
+    "quote": "\"L'\u00e9lectronique de grande consommation est r\u00e9gie par une seule loi\u00a0: les produits sont de plus en plus puissants, et de moins en moins chers.\"- Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Pi\u00e8ces de rechange",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Aviation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+        },
+        {
+            "name": "Th\u00e9orie atomique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Porte-avions|Porte-avions",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/carrier.json"
+        },
+        {
+            "name": "Cuirass\u00e9|Cuirass\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

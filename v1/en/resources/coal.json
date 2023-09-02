@@ -1,0 +1,60 @@
+{
+    "id": 3,
+    "name": "Coal",
+    "game_info": "Used by Factories and Ironclads.",
+    "historical_info": "Coal is ancient plant matter that has decomposed and compressed over the millennia into a highly combustible black compound. Found in substantial quantities across virtually the entire planet, coal has been one of the most important sources of energy to mankind throughout history. Coal is not a clean fuel and its extraction and burning is a major source of pollution around the world. Scientists are frantically looking for the elusive \"clean coal\" technology, but that remains as of yet undiscovered. Remember that coal is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/coal.png",
+    "prereq_tech": {
+        "name": "Industrialization",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

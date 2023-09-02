@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Karawana|Karawany|Karawanie|Karawan\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Zak\u0142ada mi\u0119dzy dwiema cywilizacjami l\u0105dowe szlaki handlowe przynosz\u0105ce z\u0142oto. Mo\u017ce te\u017c pos\u0142u\u017cy\u0107 do dostarczania \u017cywno\u015bci lub produkcji na twoim terytorium po wybudowaniu spichlerza lub warsztatu.",
+    "historical_info": "Od niepami\u0119tnych czas\u00f3w kupcy u\u017cywali zwierz\u0105t jucznych - od koni i mu\u0142\u00f3w po wielb\u0142\u0105dy i lamy - by umo\u017cliwi\u0107 sobie handel na du\u017ce odleg\u0142o\u015bci. Pierwsze historyczne wzmianki o karawanach pochodz\u0105 z oko\u0142o 1000 r. p.n.e., kiedy to zachodnimi brzegami Arabii ci\u0105gn\u0119\u0142y grupy wielb\u0142\u0105dnik\u00f3w nios\u0105ce klejnoty, cenne metale, kadzid\u0142o i przyprawy, \u0142\u0105cz\u0105c Indie z imperiami egipskim, fenickim i mezopotamskim. Wiele tras karawan, jak s\u0142awny jedwabny szlak z Chin na Bliski Wsch\u00f3d, mia\u0142y r\u00f3wnie wielki udzia\u0142 w historii jak wojny i religia. Cho\u0107 w dzisiejszych czasach zast\u0105pi\u0142 je w wi\u0119kszo\u015bci przypadk\u00f3w transport zmotoryzowany, na niego\u015bcinnych terenach, jak obrze\u017ca Sahary i pustyni Gobi, nadal spotka\u0107 mo\u017cna juczne karawany.",
+    "strategy": "Karawana umo\u017cliwia ci utworzenie l\u0105dowego szlaku handlowego mi\u0119dzy dwoma cywilizacjami, przynosi z\u0142oto w\u0142a\u015bcicielowi i cywilizacji docelowej. Zbudowanie spichlerza lub warsztatu w mie\u015bcie pocz\u0105tkowym pozwoli ci przewozi\u0107 \u017cywno\u015b\u0107 lub produkcj\u0119 pomi\u0119dzy twoimi miastami. Gdy przydzielisz j\u0105 do jakiego\u015b szlaku, nie mo\u017ce si\u0119 broni\u0107, wi\u0119c sprawd\u017a, czy na szlaku nie ma \u017cadnych niebezpiecze\u0144stw.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Hodowla zwierz\u0105t|Hodowli zwierz\u0105t|Hodowli zwierz\u0105t|Hodowl\u0119 zwierz\u0105t",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

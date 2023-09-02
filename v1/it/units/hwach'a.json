@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "Hwach'a|un Hwach'a|dal tuo Hwach'a|al tuo Hwach'a|il tuo Hwach'a|da un Hwach'a",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hwach'a.png",
+    "game_info": "Unit\u00e0 di epoca medievale che lancia razzi anti-uomo. Forte contro le unit\u00e0 terrestri, ma debole contro le citt\u00e0. Solo la Corea pu\u00f2 costruirla. Sostituisce il Trabocco.",
+    "historical_info": "Il Hwach'a, la leggendaria arma anti-uomo coreana, fu un'innovazione assoluta nello sviluppo delle prime armi da fuoco. Creato nel XV secolo sotto la supervisione di re Sejong il Grande, il Hwach'a era composto da un grande carro a due ruote che trasportava un'infrastruttura a reticolo, non dissimile da una moderna batteria di missili, in grado di contenere centinaia di proiettili a propulsione autonoma. Il peso limitato di questi primi razzi, chiamati \"Singijeon\", conferiva al Hwach'a un notevole vantaggio, e cio\u00e8 un'eccellente manovrabilit\u00e0 in confronto ai tradizionali cannoni. Il Hwach'a si dimostr\u00f2 un'arma formidabile nel XVI secolo, durante la difesa della penisola coreana dalle invasioni giapponesi.",
+    "strategy": "Il Hwach'a \u00e8 estremamente efficace contro le unit\u00e0 terrestri nemiche. Si tratta di un'unit\u00e0 lenta e vulnerabile agli attacchi nemici; pertanto dev'essere sempre protetta da altre unit\u00e0. Il Hwach'a dev'essere allestito (al costo di un 1 punto movimento) prima di poter attaccare.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Fisica|della Fisica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        }
+    ]
+}

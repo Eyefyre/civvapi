@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "Hwach'a",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hwach'a.png",
+    "game_info": "Una unidad de Cohetes antipersonales de la \u00c9poca Medieval. Es fuerte contra unidades terrestres, pero d\u00e9bil contra ciudades. Solo la puede construir Corea y reemplaza al Trabuquete.",
+    "historical_info": "El hwach'a, una legendaria arma coreana anti-infanter\u00eda, supuso una innovaci\u00f3n ins\u00f3lita en el desarrollo de las primeras armas de p\u00f3lvora. Creada durante el siglo XV bajo la supervisi\u00f3n del rey Sejong el Grande, el hwach'a consist\u00eda en un gran carro de dos ruedas cargado con una caja en forma de panal que, de forma parecida a las bater\u00edas de misiles modernas, era capaz de contener cientos de flechas propulsadas por p\u00f3lvora. La variante ligera de estos cohetes primitivos, llamada \"singijeon\", aport\u00f3 una notable ventaja al hwach'a, ya que lo dot\u00f3 de una maniobrabilidad excelente, si se la compara con la de un ca\u00f1\u00f3n tradicional. El hwach'a demostrar\u00eda ser un arma formidable para la defensa de la pen\u00ednsula de Corea durante las invasiones japonesas del siglo XVI.",
+    "strategy": "La Hwacha es un arma de asedio extremadamente eficaz contra las unidades terrestres enemigas. Es lenta y muy vulnerable a los ataques cuerpo a cuerpo del enemigo y, mientras se encuentre en el campo, siempre debe contar con el apoyo de otras unidades. Para poder atacar, la Hwacha debe \"desplegarse\" (1 punto de movimiento).",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "F\u00edsica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        }
+    ]
+}

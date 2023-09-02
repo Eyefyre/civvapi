@@ -1,0 +1,43 @@
+{
+    "id": 37,
+    "name": "Artiller\u00eda|Artiller\u00edas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/artillery.png",
+    "game_info": "La primera unidad de asedio del juego capaz de disparar a 3 casillas de distancia. Debe desplegarse antes de disparar.",
+    "historical_info": "Con el progreso de la tecnolog\u00eda, la artiller\u00eda ha asumido un papel todav\u00eda m\u00e1s importante en el campo de batalla. Con el transcurso de los a\u00f1os, los ca\u00f1ones del siglo XIX de las guerras napole\u00f3nicas y de independencia estadounidense han sido sustituidos por armas m\u00e1s grandes y precisas. El ca\u00f1\u00f3n alem\u00e1n de 88 mm fue una de las piezas de artiller\u00eda mejores y m\u00e1s vers\u00e1tiles de la Segunda Guerra Mundial. Fue dise\u00f1ada como un arma antia\u00e9rea, pero tuvo tanto \u00e9xito contra los tanques que se crearon otros modelos con ese objetivo.",
+    "strategy": "La Artiller\u00eda es un arma de asedio mortal, m\u00e1s potente que un Ca\u00f1\u00f3n y con mayor alcance. Al igual que el Ca\u00f1\u00f3n, tiene una visibilidad limitada y debe desplegarse (1 PM) para poder atacar, pero su Fuerza de combate a distancia es tremenda. La Artiller\u00eda tiene adem\u00e1s la capacidad de \"fuego indirecto\", lo que le permite disparar por encima de obst\u00e1culos contra objetivos a los que no puede ver (siempre y cuando otras unidades amigas s\u00ed puedan verlos). Como otras armas de asedio, la Artiller\u00eda es vulnerable a los ataques cuerpo a cuerpo.",
+    "movement": 2,
+    "cost": {
+        "production": 250,
+        "faith": 500
+    },
+    "prereq_tech": {
+        "name": "Dinamita",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/dynamite.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuego indirecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/indirect_fire.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

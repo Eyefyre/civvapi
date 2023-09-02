@@ -1,0 +1,39 @@
+{
+    "id": 8,
+    "name": "Crucero portamisiles|Cruceros portamisiles",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missile_cruiser.png",
+    "game_info": "Una unidad naval especializada en repeler a los aviones enemigos. Adem\u00e1s, puede llevar tres Misiles. Se utiliza para perseguir y destruir Submarinos enemigos.",
+    "historical_info": "Un crucero portamisiles es el arma naval m\u00e1s potente del arsenal moderno, a excepci\u00f3n del portaaviones y del submarino nuclear. Est\u00e1 pensado para transportar y desplegar misiles de crucero (de una potencia enorme y de gran alcance y precisi\u00f3n) y puede destruir a un enemigo que est\u00e9 en tierra o en el mar antes siquiera de que se entere de que el crucero portamisiles lo ten\u00eda a tiro. El crucero portamisiles estadounidense clase Ticonderoga es posiblemente el barco m\u00e1s poderoso que hay. Armado con 122 tubos de lanzamiento, puede llevar gran variedad de misiles, ya sean tierra-tierra, tierra-aire o incluso antisubmarinos. Tambi\u00e9n va equipado con una gran variedad de ca\u00f1ones antia\u00e9reos del tipo Gatling que son capaces de destruir en un santiam\u00e9n los misiles y aviones enemigos que se aproximen.",
+    "strategy": "El Crucero portamisiles es un barco de guerra moderno. Es r\u00e1pido y duro de pelar, tiene un combate a distancia dentro de la media y es bastante bueno interceptando aviones enemigos. Lo m\u00e1s importante es que puede transportar Misiles guiados y Misiles nucleares, lo que te permite llevar esas mortales armas hasta las costas enemigas. Los Cruceros portamisiles, combinados con Portaaviones y Submarinos, constituyen una armada endiabladamente poderosa.",
+    "movement": 7,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rob\u00f3tica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Puede ver a los Submarinos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Ataque contra submarinos (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Puede llevar 3 de Cargamento",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_carry_3_cargo.json"
+        },
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

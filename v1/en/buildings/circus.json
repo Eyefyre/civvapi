@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Circus",
+    "game_info": "City must have an improved source of Horses or Ivory nearby.",
+    "strategy": "The Circus can only be constructed in a city with an improved source of Horses or Ivory nearby. The Circus increases a civilization's Happiness.",
+    "historical_info": "A circus is a company of performers that often includes clowns, acrobats, jugglers, high-wire acts, trapeze artists, musicians, and animal trainers. Most circuses are traveling companies which move from city to city over the course of a season, while some remain in a single location year-round. In ancient Rome the circus was the name of a building where chariot racing, staged battles, jugglers, and other entertainments were held. The first Roman circus was the Circus Maximus, which at its largest could seat some 250,000 screaming citizens - roughly 25% of the city's population.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/circus.png",
+    "prereq_tech": {
+        "name": "Trapping",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/trapping.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

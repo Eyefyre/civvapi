@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Triere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Marineeinheit der Antike, die eingesetzt wird, um die See mit Nahkampfangriffen auf Marineeinheiten und St\u00e4dte zu kontrollieren.",
+    "historical_info": "Trieren waren Kriegsschiffe, die von den antiken Marinen im Mittelmeerraum eingesetzt wurden. Auch wenn sie \u00fcber ein Segel verf\u00fcgten, wurden sie im Kampf von drei Ruderreihen angetrieben. Von trainierten und motivierten Ruderern angetriebene Trieren konnten \u00fcberraschend schnell und wendig sein. Trieren waren am Bug meist mit einem spitzen Schnabel (Ramme) ausgestattet, um gegnerische Schiffe rammen und versenken zu k\u00f6nnen. Einige Trieren f\u00fchrten auch Bogensch\u00fctzen f\u00fcr den Fernkampf mit, w\u00e4hrend andere eine Menge Infanteristen an Bord hatten. Diese Schiffe begaben sich neben die feindlichen Schiffe, um den Infanteristen einen Enterversuch zur \u00dcbernahme des feindlichen Schiffes zu erm\u00f6glichen. Trieren waren wichtige Milit\u00e4rschiffe, bis sie durch die Erfindung von Kanonen und weiteren Fortschritten im Schiffbau und bei der Segeltakelage verdr\u00e4ngt wurden.",
+    "strategy": "Die Triere ist die erste Marineeinheit, die Zivilisationen im Spiel bauen k\u00f6nnen. Sie ist eine Nahkampf-Einheit, die Einheiten auf dem Meer oder St\u00e4dte angreifen kann (sie kann aber keine Fernangriffe ausf\u00fchren). Die Triere ist n\u00fctzlich, um Barbarenschiffe in heimischen Gew\u00e4ssern zu zerst\u00f6ren oder um in begrenztem Rahmen die Welt zu erkunden (sie kann sich nur auf Tiefsee-Gel\u00e4ndefelder au\u00dferhalb der Stadtgrenzen bewegen, wenn sie aus Polynesien stammt).",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kein Zugang zur Tiefsee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

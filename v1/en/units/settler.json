@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "name": "Settler",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/settler.png",
+    "game_info": "Founds new Cities to expand your empire. Growth of the City is stopped while this Unit is being built.",
+    "historical_info": "Pioneers drive civilization. While most are satisfied with the status quo, happy just to survive, in every culture there are a few hardy individuals willing to strike out on their own, to risk everything in the hope of finding a better life for themselves and their children. In the past, brave settlers have led humanity out of Africa and into Europe, Asia, the Pacific, and the Americas. In the future they may lead the way to the moon, Mars, and even beyond.",
+    "strategy": "Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit.",
+    "movement": 2,
+    "cost": {
+        "production": 0,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

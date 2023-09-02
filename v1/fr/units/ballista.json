@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Baliste|Balistes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Unit\u00e9 de si\u00e8ge qui inflige de lourds d\u00e9g\u00e2ts \u00e0 distance aux unit\u00e9s et aux villes, mais doit \u00eatre install\u00e9e avant d'attaquer. La baliste est exclusive aux Romains. Sa [ICON_RANGE_STRENGTH] puissance de combat \u00e0 distance est sup\u00e9rieure \u00e0 celle de la catapulte, qu'elle remplace.",
+    "historical_info": "La baliste romaine \u00e9tait une catapulte sophistiqu\u00e9e permettant de projeter des pierres ou des missiles en bois sur l'ennemi. Construite en bois renforc\u00e9 de plaques de fer, la baliste pouvait se montrer \u00e9tonnante de pr\u00e9cision entre les mains d'op\u00e9rateurs aguerris. Sa port\u00e9e ne d\u00e9passait pas les 500 m\u00e8tres, et devait \u00eatre encore plus r\u00e9duite pour se montrer efficace face \u00e0 un b\u00e2timent fortifi\u00e9, par exemple. Jules C\u00e9sar utilisa ces engins de si\u00e8ge lors des campagnes allemandes et britanniques.",
+    "strategy": "Unit\u00e9 exclusive aux Romains, elle est plus puissante que la catapulte qu'elle remplace. La baliste est une excellente unit\u00e9 de si\u00e8ge. Si elle est extr\u00eamement efficace contre les villes, elle est elle-m\u00eame particuli\u00e8rement vuln\u00e9rable, assurez-vous donc de la faire prot\u00e9ger par d'autres unit\u00e9s militaires. Avant d'attaquer, la baliste doit d'abord \u00eatre install\u00e9e (1\u00a0PM).",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Math\u00e9matiques",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contre les villes (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Installation n\u00e9cessaire avant attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        }
+    ]
+}

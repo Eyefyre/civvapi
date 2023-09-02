@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazooka",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Atomic era ranged Unit that must be adjacent to an enemy to strike.",
+    "historical_info": "\"Bazooka\" is the generic name for a man-portable, recoilless weapon designed for use against enemy armored vehicles. Initially developed at the end of the First World War by the U.S. Army, the Bazooka uses a small rocket engine to fire a shaped-charge explosive shell. As with its British (PIAT) and German (panzerschreck) counterparts, the bazooka came into widespread use during the Second World War. As the presence of tanks, halftracks and other armored vehicles became prevalent on the battlefield, soldiers needed to be able to respond quickly, without the necessity of waiting for heavy weapons. In the hands of a skilled team willing to get close to an enemy tank, the bazooka was a devastating weapon.",
+    "strategy": "The Bazooka is the last non-siege ranged unit. It is the most powerful ranged unit. Despite having only a one-hex range it can still deal significant damage to other units without being hurt itself. This makes it a great defense unit.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Nuclear Fission",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

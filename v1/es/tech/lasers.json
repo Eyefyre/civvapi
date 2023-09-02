@@ -1,0 +1,32 @@
+{
+    "id": 74,
+    "name": "L\u00e1ser",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/lasers.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "La palabra l\u00e1ser deriva del acr\u00f3nimo LASER, \"amplificaci\u00f3n de luz por emisi\u00f3n estimulada de radiaci\u00f3n\" (en ingl\u00e9s, \"Light Amplification by Stimulated Emission of Radiation\"), que es justamente la definici\u00f3n de esta tecnolog\u00eda. Las primeras bases de la tecnolog\u00eda l\u00e1ser fueron establecidas por Albert Einstein en 1917 tras replantear la ley de radiaci\u00f3n de Planck, al mismo tiempo que ciertos autores de ciencia ficci\u00f3n empezaban a describir una posible tecnolog\u00eda muy similar en sus obras. El primer l\u00e1ser operativo no fue probado hasta 1960, cuando los laboratorios de investigaci\u00f3n Hughes presentaron una tecnolog\u00eda l\u00e1ser capaz de almacenar datos mediante dispositivos \u00f3pticos (como las grabadoras de DVD).Desde aquellas investigaciones originales se han desarrollado muchos tipos de l\u00e1seres especializados, optimizados para cubrir largas distancias, emitir con diferentes potencias de salida u oscilar en diversos intervalos de longitud de onda. Aunque en un principio la tecnolog\u00eda l\u00e1ser fue tachada de \"una soluci\u00f3n a la espera de un problema\", en la actualidad se le da miles de usos distintos, desde aparatos electr\u00f3nicos de consumo y ocio hasta equipo para militares y fuerzas de la ley. Eso s\u00ed, procura no mirar directamente a la luz.",
+    "quote": "\"La noche ya casi ha pasado y el d\u00eda est\u00e1 pr\u00f3ximo: renunciemos pues a las obras de la oscuridad y revist\u00e1monos con la armadura de la luz.\" - La Biblia, Romanos 13:12 ",
+    "tech_prereqs": [
+        {
+            "name": "Ordenadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Invisibilidad ante el radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/stealth.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caza a reacci\u00f3n|Cazas a reacci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/jet_fighter.json"
+        },
+        {
+            "name": "Blindado moderno|Blindados modernos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/modern_armor.json"
+        }
+    ],
+    "building_unlocks": []
+}

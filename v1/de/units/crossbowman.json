@@ -1,0 +1,23 @@
+{
+    "id": 59,
+    "name": "Armbrustsch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/crossbowman.png",
+    "game_info": "Mittelalterliche Fernwaffen-Einheit",
+    "historical_info": "Erstmals tauchte die Armbrust in Europa im 10. Jahrhundert auf. Obwohl sie langsamer ist als ein herk\u00f6mmlicher Bogen, bedarf eine Armbrust weniger \u00dcbung und Kraft als ein regul\u00e4rer Bogen, und mit der Zeit wurde sie die h\u00e4ufigste Waffe auf dem Schlachtfeld. Eine Armbrust besteht aus einem recht kurzen, aber schweren Bogen, der auf einen Schaft aufgesetzt ist. Der Sch\u00fctze zieht die Sehne zur\u00fcck (h\u00e4ufig mit mechanischer Unterst\u00fctzung), um den Bogen zu spannen, und legt dann einen \"Bolzen\" (Pfeil) in die Rille im Schaft. Der Sch\u00fctze zielt und bet\u00e4tigt dann den Abzug, um die Sehne loszulassen, die den Bolzen auf das Ziel feuert. Neben anderen Vorteilen kann eine Armbrust aus einer knienden Position oder Bauchlage abgeschossen werden, was mit einem normalen Bogen unm\u00f6glich ist.",
+    "strategy": "Der Armbrustsch\u00fctze ist st\u00e4rker als der Kompositbogensch\u00fctze. Als Fernkampfeinheit kann er merklichen Schaden bei anderen mittelalterlichen Einheiten bis zu zwei Gel\u00e4ndefelder entfernt anrichten, aber ist f\u00fcr Nahkampfangriffe anf\u00e4llig. Platziert Armbrustsch\u00fctzen in den St\u00e4dten als Verteidigung und besch\u00fctzt sie mit Nahkampfeinheiten, wenn sie unterwegs sind.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maschinen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

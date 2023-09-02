@@ -1,0 +1,29 @@
+{
+    "id": 42,
+    "name": "Cocoa",
+    "game_info": null,
+    "historical_info": "Cocoa beans, the product of the cacao tree native to South America, was an important commodity in pre-Columbian Mesoamerica, and figured prominently in tribal cultures. Introduced by the Spanish to Europe, by the mid-1700s it was immensely popular there as a beverage, cooking ingredient, and even as a medicine.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cocoa.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        }
+    ]
+}

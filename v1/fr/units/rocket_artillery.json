@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Lance-roquettes|Lance-roquettes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Unit\u00e9 de si\u00e8ge rapide de fin de partie. Contrairement aux autres unit\u00e9s de si\u00e8ge, elle n'a pas besoin d'\u00eatre install\u00e9e avant d'attaquer.",
+    "historical_info": "Par le pass\u00e9, l'artillerie a souvent utilis\u00e9 des explosifs chimiques pour tirer des obus inertes sur leurs cibles, ce qui les diff\u00e9rencie des roquettes mobiles qui tirent des projectiles autopropuls\u00e9s. Ces derni\u00e8res peuvent \u00eatre tir\u00e9es \u00e0 partir de tubes de lancement plus petits et plus l\u00e9gers que dans l'artillerie traditionnelle, et pouvant \u00eatre embarqu\u00e9s dans des v\u00e9hicules. L'artillerie rapide et mobile garantit un avantage non n\u00e9gligeable. Les dispositifs am\u00e9lior\u00e9s d'artillerie peuvent pr\u00e9senter des syst\u00e8mes de guidage permettant de corriger la trajectoire de la roquette en pleine course.",
+    "strategy": "Les roquettes mobiles constituent une arme de si\u00e8ge extr\u00eamement puissante, nettement sup\u00e9rieure \u00e0 l'artillerie standard. Elles n'ont pas besoin d'\u00eatre install\u00e9es avant l'assaut, ce qui les fait b\u00e9n\u00e9ficier d'une cadence de tir nettement plus \u00e9lev\u00e9e que les armes \u00e0 feu pr\u00e9c\u00e9dentes. Si le champ de vision des roquettes mobiles est limit\u00e9, elles peuvent par contre utiliser leur capacit\u00e9 de tir indirect pour attaquer des cibles qu'elles ne voient pas (\u00e0 condition que que ces derni\u00e8res se trouvent dans le champ de vision d'une autre unit\u00e9 alli\u00e9e). Comme toutes les unit\u00e9s d'artillerie, les roquettes mobiles sont vuln\u00e9rables aux attaques des unit\u00e9s d'infanterie et des blind\u00e9es, pensez donc \u00e0 leur adjoindre des unit\u00e9s d'escorte appropri\u00e9es.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Fus\u00e9es",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Tir indirect",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contre les villes (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 22,
+    "name": "My\u015bliwiec odrzutowy|My\u015bliwca odrzutowego|My\u015bliwcowi odrzutowemu|My\u015bliwiec odrzutowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jet_fighter.png",
+    "game_info": "Jednostka powietrzna do walki o panowanie w powietrzu i przechwytywania nieprzyjacielskiego lotnictwa.",
+    "historical_info": "My\u015bliwiec odrzutowy pe\u0142ni tak\u0105 sam\u0105 rol\u0119 jak jego starszy odpowiednik. R\u00f3\u017cni si\u0119 jednak znacznie pod wzgl\u0119dem osi\u0105g\u00f3w i si\u0142y ra\u017cenia. Najlepszy my\u015bliwiec II wojny \u015bwiatowej by\u0142 w stanie rozwin\u0105\u0107 pr\u0119dko\u015b\u0107 do 400 mil/h. Wsp\u00f3\u0142czesny samolot my\u015bliwski osi\u0105ga pr\u0119dko\u015b\u0107 3 razy wy\u017csz\u0105. Dawny p\u0142atowiec dysponowa\u0142 jednym lub dwoma karabinami maszynowymi. Wsp\u00f3\u0142czesne my\u015bliwce maj\u0105 na pok\u0142adzie 20 mm dzia\u0142ko obrotowe, do 10 rakiet powietrze-powietrze i wiele innego typu pocisk\u00f3w. Opr\u00f3cz tego nowoczesne samoloty bojowe dysponuj\u0105 te\u017c wysoce zaawansowan\u0105 awionik\u0105 i systemami komunikacyjnymi znacznie przewy\u017cszaj\u0105cymi wszystkie dost\u0119pne wcze\u015bniej rozwi\u0105zania. Podobnie jak i inne samoloty s\u0105 wra\u017cliwe na ataki ziemia-powietrze, ale najwi\u0119ksze zagro\u017cenie stanowi\u0105 dla nich wrogie my\u015bliwce. Nie zmienia to jednak faktu, i\u017c z chwil\u0105 osi\u0105gni\u0119cia przewagi w powietrzu, praktycznie ka\u017cda bitwa staje si\u0119 wygrana.",
+    "strategy": "My\u015bliwce odrzutowe to pot\u0119\u017cne jednostki lotnicze. Mog\u0105 stacjonowa\u0107 w dowolnym z twoich miast lub na pok\u0142adzie twojego lotniskowca. Potrafi\u0105 porusza\u0107 si\u0119 mi\u0119dzy bazami i wykonywa\u0107 \u201emisje\u201d w promieniu 10 p\u00f3l. Wykorzystuj my\u015bliwce odrzutowe do atakowania nieprzyjacielskiego lotnictwa i jednostek l\u0105dowych, do rozpoznawania pozycji wroga i do obrony przed nalotami przeciwnika. S\u0105 wyj\u0105tkowo skuteczne w zwalczaniu \u015bmig\u0142owc\u00f3w wroga. My\u015bliwce odrzutowe maj\u0105 zdolno\u015b\u0107 \u201erozpoznanie lotnicze\u201d, co oznacza, \u017ce na pocz\u0105tku tury widoczne jest wszystko w zasi\u0119gu 6 p\u00f3l od ich pozycji pocz\u0105tkowej. Wi\u0119cej informacji znajdziesz w zasadach po\u015bwi\u0119conym lotnictwu.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Lasery|Laser\u00f3w|Laserom|Lasery",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Czyszczenie nieba|Czyszczenia nieba|Czyszczeniu nieba|Czyszczenie nieba",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_sweep.json"
+        },
+        {
+            "name": "Rozpoznanie powietrzne|Rozpoznania powietrznego|Rozpoznaniu powietrznemu|Rozpoznanie powietrzne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_recon.json"
+        },
+        {
+            "name": "Premia przeciwko bombowcom i \u015bmig\u0142. (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

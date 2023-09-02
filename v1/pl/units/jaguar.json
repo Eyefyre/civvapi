@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Jaguarzy|Jaguar\u00f3w|Jaguarom|Jaguar\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Do\u015b\u0107 s\u0142aba jednostka z pocz\u0105tku gry. Mog\u0105 j\u0105 stworzy\u0107 tylko Aztekowie. Ta jednostka skuteczniej walczy w d\u017cungli i leczy si\u0119, gdy zniszczy jednostk\u0119 wroga, w przeciwie\u0144stwie do wojownik\u00f3w, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "W kulturze Aztek\u00f3w wojna by\u0142a w du\u017co wi\u0119kszym stopniu cz\u0119\u015bci\u0105 kultu religijnego ni\u017c narz\u0119dziem politycznym. M\u0142odzi m\u0119\u017cczy\u017ani musieli bra\u0107 wrog\u00f3w do niewoli lub zabija\u0107 ich, by uzyska\u0107 wy\u017csz\u0105 pozycj\u0119 spo\u0142eczn\u0105, a sk\u0142adanie ofiar w azteckich rytua\u0142ach religijnych wymaga\u0142o wci\u0105\u017c powi\u0119kszaj\u0105cego si\u0119 strumienia wi\u0119\u017ani\u00f3w. Rycerze Jaguarzy byli elitarnymi zawodowymi \u017co\u0142nierzami wojska azteckiego. Ubrani w sk\u00f3ry jaguar\u00f3w i uzbrojeni w mordercze \u201emacuahuitle\u201d (drewniane miecze z ostrymi obsydianowymi ostrzami) Jaguarzy stanowili chyba najbardziej mordercz\u0105 lekk\u0105 piechot\u0119 w prekolumbijskiej \u015arodkowej i P\u00f3\u0142nocnej Ameryce.",
+    "strategy": "Jaguarzy to unikatowa jednostka Aztek\u00f3w, kt\u00f3ra zast\u0119puje wojownik\u00f3w. Jaguarzy otrzymuj\u0105 znacz\u0105c\u0105 premi\u0119 podczas walk w d\u017cungli. Lecz\u0105 te\u017c swoje obra\u017cenia, kiedy niszcz\u0105 nieprzyjacielskie jednostki. Posiadaj\u0105 awans \u201ele\u015bnicy\u201d pozwalaj\u0105cy im porusza\u0107 si\u0119 b\u0142yskawicznie w lesie oraz w d\u017cungli.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia bojowa w lesie/d\u017cungli (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Le\u015bnik|Le\u015bnika|Le\u015bnikowi|Le\u015bnika",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/woodsman.json"
+        },
+        {
+            "name": "Leczenie 25 P\u017b po pokonaniu wroga",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "Ingenier\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 175,
+    "civilopedia_entry": "La ingenier\u00eda es la ciencia (o el arte, quiz\u00e1) de dise\u00f1ar complejos materiales, estructuras, aparatos y sistemas. En la actualidad ha alcanzado nuevas cotas (los bioingenieros dise\u00f1an c\u00e9lulas, los ingenieros de software crean programas inform\u00e1ticos, etc.), pero, hist\u00f3ricamente, el t\u00e9rmino se aplicaba a la construcci\u00f3n de cosas f\u00edsicas, como m\u00e1quinas, puentes, ferrocarriles o f\u00e1bricas (al principio, el t\u00e9rmino \"ingeniero\" se refer\u00eda espec\u00edficamente a los que creaban ingenios militares.)La ingenier\u00eda demostr\u00f3 su gran utilidad en el siglo XIX, cuando pa\u00edses de todo el mundo se embarcaron en enormes proyectos de construcci\u00f3n. Completado por los franceses en 1869, el Canal de Suez comunic\u00f3 el Mediterr\u00e1neo con el mar Rojo, haciendo posible la navegaci\u00f3n entre Europa y la India sin tener que rodear \u00c1frica, un viaje largo y arduo. En Estados Unidos se termin\u00f3 el ferrocarril transcontinental ese mismo a\u00f1o, y el puente de Brooklyn se construy\u00f3 en 1883.",
+    "quote": "\"La ciencia instrumental, o mec\u00e1nica, es la m\u00e1s noble y la m\u00e1s \u00fatil, por encima de todas.\" - Leonardo da Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Matem\u00e1ticas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+        },
+        {
+            "name": "Construcci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        },
+        {
+            "name": "Maquinaria",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Gran Muralla|Grandes Murallas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/great_wall.json"
+        },
+        {
+            "name": "Acueducto|Acueductos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/aqueduct.json"
+        }
+    ]
+}

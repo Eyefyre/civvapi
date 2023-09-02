@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bolsa|Bolsas",
+    "game_info": "La ciudad ha de tener un Banco.",
+    "strategy": "La Bolsa es un edificio de mitad del juego que aumenta la producci\u00f3n de Oro de la ciudad. Esta ha de tener un Banco o una Corte del s\u00e1trapa para poder construirla.",
+    "historical_info": "La bolsa es una instituci\u00f3n que permite a las personas comprar y vender \"acciones\" (participaciones en la propiedad de un negocio). En algunos casos, las acciones incluyen derecho a voto, lo que concede a sus titulares un cierto peso en la gesti\u00f3n de la empresa. Algunas acciones tambi\u00e9n dan \"dividendos\", por los que se reparte un porcentaje de los beneficios de la sociedad entre los accionistas anualmente. El principal prop\u00f3sito de las bolsas (o, al menos, el original) es permitir al due\u00f1o de una empresa captar capital con la venta de una peque\u00f1a parte de su sociedad a los inversores. A medida que aumenta el valor de la compa\u00f1\u00eda, lo hace el de sus acciones. Obviamente, todo esto entra\u00f1a un riesgo: si el valor de la acci\u00f3n cae, tambi\u00e9n lo hace el valor de la inversi\u00f3n. En una bolsa moderna tambi\u00e9n se utilizan o venden otros poderosos \"instrumentos\" financieros, como son los bonos, tanto estatales como privados, las opciones de compra, los canjes y los productos financieros derivados. Si se gestiona adecuadamente, una bolsa puede turbopropulsar una econom\u00eda. Si se gestiona mal, puede causar el caos financiero y la ruina.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bolsa|bolsas.png",
+    "prereq_tech": {
+        "name": "Electricidad",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

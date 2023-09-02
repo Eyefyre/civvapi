@@ -1,0 +1,45 @@
+{
+    "id": 64,
+    "name": "Fuerzas combinadas",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combined_arms.png",
+    "era": "Era At\u00f3mica",
+    "cost": 5100,
+    "civilopedia_entry": "La de las fuerzas combinadas es una doctrina militar que se adopt\u00f3 por primera vez hace m\u00e1s de dos mil a\u00f1os y que supone combinar distintos tipos de unidades que se complementan en un esfuerzo por mejorar la eficacia general de la fuerza armada considerada globalmente. En la Antig\u00fcedad, esta t\u00e1ctica la usaron las grandes potencias, especialmente griegos y romanos, que coordinaron cuidadosamente la infanter\u00eda ligera y pesada con la caballer\u00eda y las armas a distancia para crear formaciones cohesionadas en las que compensaban las desventajas de unas unidades con los puntos fuertes de otras. En la actualidad, el auge del armamento a\u00e9reo ha llevado a variaciones a\u00fan m\u00e1s complejas del concepto tradicional de fuerzas combinadas. Aviones teledirigidos, misiles guiados por sat\u00e9lite y bombarderos capaces de volar a gran altura son solo unos cuantos ejemplos del creciente abanico armament\u00edstico que tienen a su disposici\u00f3n los mandos militares modernos.",
+    "quote": "\"La ra\u00edz del mal no est\u00e1 en la construcci\u00f3n de armas nuevas y m\u00e1s terribles. Est\u00e1 en el esp\u00edritu de conquista.\" - Ludwig von Mises",
+    "tech_prereqs": [
+        {
+            "name": "Misiles bal\u00edsticos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+        },
+        {
+            "name": "Combusti\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combustion.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ordenadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Tanque|Tanques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/tank.json"
+        },
+        {
+            "name": "Panzer|Panzers",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/panzer.json"
+        },
+        {
+            "name": "Ca\u00f1\u00f3n antitanque|Ca\u00f1ones antitanques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/anti-tank_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Pent\u00e1gono|Pent\u00e1gonos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/pentagon.json"
+        }
+    ]
+}

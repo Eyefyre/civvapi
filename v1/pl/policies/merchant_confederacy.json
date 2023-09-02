@@ -1,0 +1,24 @@
+{
+    "id": 43,
+    "name": "Konfederacja kupiecka",
+    "game_info": "Konfederacja kupiecka+2 do z\u0142ota ze szlak\u00f3w handlowych z pa\u0144stwami-miastami.",
+    "historical_info": "Konfederacje kupieckie, cz\u0119sto nazywane ligami handlowymi lub gildiami kupieckimi, powstaj\u0105, by chroni\u0107 interesy ekonomiczne i przywileje dyplomatyczne kupc\u00f3w w miastach i krajach le\u017c\u0105cych wzd\u0142u\u017c szlak\u00f3w handlowych. Cho\u0107 konfederacje te nie mia\u0142y oficjalnych wp\u0142yw\u00f3w, wiele z nich - jak Company of Merchant Adventurers of London (za\u0142o\u017cona w 1407 r.) czy jeszcze pot\u0119\u017cniejsza Liga Hanzeatycka (stworzona oko\u0142o 1356 r.) - mia\u0142y du\u017ce znaczenie ekonomiczne i przez d\u0142ugie okresy dominowa\u0142y nad niekt\u00f3rymi szlakami handlowymi. W czasach wczesnego renesansu konfederacje kupieckie zak\u0142adano w wolnych miastach takich jak Wenecja czy Genua, by chroni\u0142y interesy znajduj\u0105cych si\u0119 za granic\u0105 kupc\u00f3w handluj\u0105cych konkretnymi towarami. Ligi takie osi\u0105gn\u0119\u0142y szczyt wp\u0142yw\u00f3w w XV i XVI wieku, lecz w p\u00f3\u017aniejszych czasach straci\u0142y na znaczeniu, gdy\u017c rz\u0105dy pa\u0144stwowe i kompanie powo\u0142ywane przez koron\u0119 powoli przej\u0119\u0142y funkcje regulacyjne i dyplomatyczne, jakie pe\u0142ni\u0142y ligi.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/konfederacja_kupiecka.png",
+    "required_policies": [
+        {
+            "name": "Scholastyka",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/policies/scholasticism.json"
+        },
+        {
+            "name": "Konsulaty",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/policies/consulates.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Mecenat|Mecenatu|Mecenatowi|Mecenat|Mecenatem|Mecenacie|Mecenatu|Mecenatu",
+        "game_info": "Mecenat zwi\u0119ksza korzy\u015bci p\u0142yn\u0105ce z przyja\u017ani z pa\u0144stwem-miastem.Przyj\u0119cie mecenatu sprawia, \u017ce wp\u0142ywy w pa\u0144stwach-miastach spadaj\u0105 o 25% wolniej ni\u017c zwykle. Odblokowuje Zakazany Pa\u0142ac.Przyj\u0119cie wszystkich ustroj\u00f3w w drzewie mecenatu sprawi, \u017ce sprzymierzone pa\u0144stwa-miasta b\u0119d\u0105 ci od czasu do czasu przekazywa\u0107 wielkiego cz\u0142owieka.",
+        "prereq_era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+        "historical_info": "Mecenat polega na tym, \u017ce bogaci i wp\u0142ywowi \u2013 cz\u0119sto magnateria \u2013 wspieraj\u0105 w spo\u0142ecze\u0144stwie utalentowanych artyst\u00f3w. W wielu staro\u017cytnych spo\u0142ecze\u0144stwach bogactwo skoncentrowane by\u0142o w r\u0119kach wybra\u0144c\u00f3w, na przyk\u0142ad rodziny kr\u00f3lewskiej lub bogatych kupc\u00f3w. Malarze, rze\u017abiarze, muzycy i inni utalentowani arty\u015bci pracowali dla elity, poniewa\u017c tylko ona by\u0142a w stanie ich op\u0142aci\u0107. Cho\u0107 by\u0142o to niesprawiedliwe wobec szarych obywateli, system ten doprowadzi\u0142 do powstania genialnych dzie\u0142 autorstwa m.in. Leonarda da Vinci, Bena Johnsona czy Mozarta. Mecenat doczeka\u0142 si\u0119 obecnie czego\u015b w rodzaju odrodzenia, rol\u0119 mecenasa przej\u0119\u0142y jednak wielkie korporacje."
+    }
+}

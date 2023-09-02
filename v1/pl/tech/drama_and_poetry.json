@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Dramat i poezja|Dramatu i poezji|Dramatowi i poezji|Dramat i poezj\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 175,
+    "civilopedia_entry": "Dramat oraz poezja to formy artystycznego wyrazu. Dramat pos\u0142uguje si\u0119 \u015brodkami wizualnymi, najcz\u0119\u015bciej wyra\u017ca si\u0119 poprzez przedstawienia teatralne - sztuki, musicale oraz opery - lecz w dzisiejszych czasach te tradycyjne formy zdominowane zosta\u0142y przez telewizj\u0119 oraz produkcj\u0119 filmow\u0105. Poezja, kt\u00f3ra jako formy ekspresji u\u017cywa s\u0142owa pisanego, prezentuje znaczenie zar\u00f3wno dos\u0142owne, jak i zmuszaj\u0105ce do my\u015blenia drugie dno.",
+    "quote": "\u201eCzym jest dramat, je\u015bli nie \u017cyciem z wyci\u0119tymi nudnymi kawa\u0142kami.\u201d - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "Pismo|Pisma|Pismu|Pismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teologia|Teologii|Teologii|Teologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/theology.json"
+        },
+        {
+            "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Epopeja narodowa|Epopei narodowej|Epopei narodowej|Epopej\u0119 narodow\u0105|Epopeje narodowe|Epopei narodowych|Epopejom narodowym|Epopeje narodowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/national_epic.json"
+        },
+        {
+            "name": "Amfiteatr|Amfiteatru|Amfiteatrowi|Amfiteatr|Amfiteatry|Amfiteatr\u00f3w|Amfiteatrom|Amfiteatry",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/amphitheater.json"
+        },
+        {
+            "name": "Gildia pisarzy|Gildii pisarzy|Gildii pisarzy|Gildi\u0119 pisarzy|Gildie pisarzy|Gildii pisarzy|Gildiom pisarzy|Gildie pisarzy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Partenon|Partenonu|Partenonowi|Partenon",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/parthenon.json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 4,
+    "name": "Tir \u00e0 l'arc",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archery.png",
+    "era": "Antiquit\u00e9",
+    "cost": 35,
+    "civilopedia_entry": "Le tir \u00e0 l'arc est la technologie gr\u00e2ce \u00e0 laquelle un individu apprend \u00e0 utiliser la puissance g\u00e9n\u00e9r\u00e9e par la tension d'un b\u00e2ton courbe (ou \"arc\") pour propulser un fin projectile pointu (ou \"fl\u00e8che\") \u00e0 la fois loin et rapidement. Au cours de l'histoire, les arcs et les fl\u00e8ches ont \u00e9t\u00e9 utilis\u00e9s aussi bien pour la chasse que pour la guerre. Leur premi\u00e8re utilisation se perd dans la nuit des temps, mais date probablement du Pal\u00e9olithique (qui s'est achev\u00e9 il y a quelque 14 000 ans), voire plus t\u00f4t (les arch\u00e9ologues ont d\u00e9couvert en Afrique des pointes qui pourraient \u00eatre des pointes de fl\u00e8ches, ayant pr\u00e8s de 60 000 ans). \u00c0 l'exception des aborig\u00e8nes australiens qui semblent ne jamais les avoir invent\u00e9s, toutes les cultures primitives se servaient d'arcs et de fl\u00e8ches.Les archers sont des combattants probablement aussi anciens que la guerre elle-m\u00eame. Les Grecs, les \u00c9gyptiens, les Indiens, ainsi que les peuples d'Asie et des Am\u00e9riques, tous, ont d\u00e9ploy\u00e9 d\u00e8s l'antiquit\u00e9 de tr\u00e8s nombreux archers. Au Moyen \u00c2ge, l'arbal\u00e8te et les armes \u00e0 feu commenc\u00e8rent \u00e0 supplanter l'arc et les fl\u00e8ches, \u00e0 la chasse comme \u00e0 la guerre, et au XVIe si\u00e8cle, ils avaient globalement disparu de l'armement des bataillons modernes. Aujourd'hui, le tir \u00e0 l'arc ne se pratique plus que sur cible, en tant que sport. Il survit sous cette forme dans de tr\u00e8s nombreuses cultures. Certains passionn\u00e9s continuent de chasser \u00e0 l'arc, une arme qui, malgr\u00e9 son \u00e2ge canonique, peut terrasser un cerf avec la m\u00eame efficacit\u00e9 aujourd'hui qu'elle le faisait il y a dix mille ans.",
+    "quote": "\"Sur la fl\u00e8che qui l'atteint, l'oiseau reconna\u00eet ses plumes. Nous donnons bien souvent \u00e0 nos ennemis le moyen de nous d\u00e9truire.\" - \u00c9sope",
+    "tech_prereqs": [
+        {
+            "name": "Agriculture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "La roue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archer|Archers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/archer.json"
+        },
+        {
+            "name": "Frondeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/slinger.json"
+        },
+        {
+            "name": "Archer Babylonien|Archers Babyloniens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Temple d'Art\u00e9mis|Temples d'Art\u00e9mis",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/temple_of_artemis.json"
+        }
+    ]
+}

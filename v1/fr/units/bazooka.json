@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazooka|Bazookas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Unit\u00e9 de combat \u00e0 distance de l'\u00e8re atomique devant \u00eatre plac\u00e9e sur une case adjacente \u00e0 un ennemi pour frapper.",
+    "historical_info": "Le \"bazooka\" est un terme g\u00e9n\u00e9rique d\u00e9signant toute arme portable et au recul n\u00e9gligeable, con\u00e7ue pour combattre les v\u00e9hicules blind\u00e9s ennemis. Initialement mis au point \u00e0 la fin de la Premi\u00e8re Guerre mondiale par l'arm\u00e9e am\u00e9ricaine, le bazooka utilise un petit moteur-fus\u00e9e pour propulser un obus explosif \u00e0 charge creuse. Tout comme ses homologues britannique (le PIAT) et allemand (le Panzerschreck), le bazooka connut son heure de gloire lors de la Deuxi\u00e8me Guerre mondiale. Pour contrer les chars, autochenilles et autres v\u00e9hicules blind\u00e9s, de plus en plus pr\u00e9sents sur le champ de bataille, les soldats devaient \u00eatre en mesure de r\u00e9agir rapidement, sans devoir attendre le d\u00e9ploiement de l'artillerie lourde. Entre les mains d'une \u00e9quipe aguerrie, pr\u00eate \u00e0 s'approcher d'un char ennemi, le bazooka \u00e9tait une arme d\u00e9vastatrice.",
+    "strategy": "Le bazooka est l'ultime unit\u00e9 d'attaque \u00e0 distance hors si\u00e8ge. Elle est la plus puissante de sa cat\u00e9gorie. Malgr\u00e9 sa port\u00e9e d'une seule case, le bazooka peut infliger d'importants d\u00e9g\u00e2ts aux autres unit\u00e9s sans en subir en retour, ce qui en fait une unit\u00e9 de d\u00e9fense redoutable.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Fission nucl\u00e9aire",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

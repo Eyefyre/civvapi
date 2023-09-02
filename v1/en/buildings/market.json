@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Market",
+    "game_info": "Markets increase the amount of Gold a city generates. Trade routes other players make to a city with a Market will generate an extra 1 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.",
+    "strategy": "Markets increase the amount of Gold a city generates. Trade routes other players make to a city with a Market will generate an extra 1 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.",
+    "historical_info": "A market is a location where farmers and tradesmen and merchants bring their wares to sell. While the earliest and most primitive markets may have operated under a barter system, a truly successful market requires a working trusted currency to allow for the free exchange of goods and services. For obvious reasons, markets are located where the customers are, in villages, towns and cities. Smithfield has been a meat-trading market in London for over a thousand years, which helps to explain some of the street names like, \"Cow Cross Street.\"",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/market.png",
+    "prereq_tech": {
+        "name": "Currency",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/currency.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

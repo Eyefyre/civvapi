@@ -1,0 +1,43 @@
+{
+    "id": 106,
+    "name": "Haccap\u00e9lite|Haccap\u00e9lites",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hakkapeliitta.png",
+    "game_info": "Una unidad montada de \u00e9lite especializada en cooperar con los Grandes generales. Solo la pueden crear los suecos.",
+    "historical_info": "El norte nevado es su patria; all\u00ed, su coraz\u00f3n vibra en la agitada playa. Los haccap\u00e9lites eran una divisi\u00f3n de caballer\u00eda ligera finlandesa que emple\u00f3 el rey Gustavo Adolfo de Suecia durante la Guerra de los Treinta A\u00f1os. Estaban muy bien entrenados y destacaban como jinetes, esp\u00edas, con los ataques r\u00e1pidos y, sobre todo, con la carga. Los haccap\u00e9lites disparaban mientras avanzaban a galope tendido y desenfundaban sus espadas al llegar a las l\u00edneas enemigas. Los peque\u00f1os pero potentes caballos sobre los que cabalgaban dieron origen a la raza finlandesa, el caballo nacional de Finlandia.",
+    "strategy": "Los haccap\u00e9lites son las unidades montadas de \u00e9lite del ej\u00e9rcito sueco de la \u00faltima parte del Renacimiento. Apila a un Gran general con ellos si es posible, pues este recibir\u00e1 la capacidad de movimiento de los primeros si empieza el turno apilado con ellos. Adem\u00e1s, los haccap\u00e9lites recibir\u00e1n un 15% de bonificaci\u00f3n al combate cuando est\u00e1n apilados con un Gran general.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Conferir movimiento a General",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/transfer_movement_to_general.json"
+        },
+        {
+            "name": "Bonif. al combate del Gran general",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/great_general_combat_bonus.json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formaci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/formation_i.json"
+        }
+    ]
+}

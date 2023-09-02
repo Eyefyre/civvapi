@@ -1,0 +1,60 @@
+{
+    "id": 2,
+    "name": "Pferde",
+    "game_info": "Wird f\u00fcr berittene Einheiten ben\u00f6tigt.",
+    "historical_info": "Als Transportmittel, Kriegswerkzeug, Kameraden und (gelegentlich) Nahrungsquelle geh\u00f6ren Pferde zu den wichtigsten domestizierten Tieren der Menschheitsgeschichte. Urspr\u00fcnglich wurden Pferde in Zentralasien um das Jahr 4.000 v. Chr. domestiziert, und im Laufe der n\u00e4chsten Jahrtausende verbreitete sich diese Praxis in Europa, Asien, dem Nahen Osten und Afrika. Die Spanier brachten Pferde im 16. Jahrhundert in die Neue Welt, wo ihre Verwendung im Laufe der folgenden Jahrhunderte von den Ureinwohnern begeistert \u00fcbernommen wurde. Wichtig: Pferde sind eine strategische Ressource und werden als solche verbraucht, wenn man die damit verbundenen Einheiten baut.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pferde.png",
+    "prereq_tech": {
+        "name": "Tierzucht",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Weide",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/pasture.json"
+        },
+        {
+            "name": "Zollamt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/academy.json"
+        },
+        {
+            "name": "Zitadelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/citadel.json"
+        },
+        {
+            "name": "Fabrikanlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/manufactory.json"
+        },
+        {
+            "name": "Heilige St\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        }
+    ]
+}

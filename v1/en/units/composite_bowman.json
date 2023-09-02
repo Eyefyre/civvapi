@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "Composite Bowman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Classical ranged infantry Unit.",
+    "historical_info": "Widely considered the most sophisticated of all bow designs, the composite bow differs from other traditional models in that they are constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow. The composite bow is thought to have originated with the tribal nomads of Asia sometime in the first or second millennia BC.",
+    "strategy": "The Composite Bowman is more powerful than the Archer. As a Ranged unit it can deal significant damage to other units up to two hexes away, but it is vulnerable to melee attack. Put Composite Bowman in your city for defense, and guard them with melee units when on the move.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 69,
+    "name": "Telecomunicazioni|delle Telecomunicazioni",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/telecommunications.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "Le telecomunicazioni permettono di trasmettere dati e informazioni a lunga distanza usando vari tipi di dispositivi. Le prime forme di comunicazione a distanza, piuttosto primitive, utilizzavano segnali di fumo o bandiere. A queste si sostitu\u00ec il telegrafo e, pi\u00f9 tardi, il telefono. La ricerca scientifica e l'ingegneria, specialmente negli ultimi 30 anni, ha condotto a una vera rivoluzione nella nostra capacit\u00e0 di comunicare a livello globale. I satelliti orbitali consentono di trasmettere dati anche nelle aree pi\u00f9 remote della Terra. Grazie alla ricerca nel campo delle telecomunicazioni, oggi la televisione, Internet, i telefoni cellulari e la localizzazione GPS sono parte integrante della vita di milioni di persone in tutto il mondo.",
+    "quote": "\"Pi\u00f9 disponiamo di mezzi di comunicazione elaborati, meno comunichiamo.\" - J.B. Priestly",
+    "tech_prereqs": [
+        {
+            "name": "Ecologia|dell'Ecologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ecology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Internet|dell'Internet",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_internet.json"
+        },
+        {
+            "name": "Globalizzazione|della Globalizzazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/globalization.json"
+        },
+        {
+            "name": "Fisica delle particelle|della Fisica delle particelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Sottomarino nucleare|un Sottomarino nucleare|dal tuo Sottomarino nucleare|al tuo Sottomarino nucleare|il tuo Sottomarino nucleare|da un Sottomarino nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/nuclear_submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Rifugio antiatomico|il Rifugio antiatomico|un Rifugio antiatomico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/bomb_shelter.json"
+        },
+        {
+            "name": "CN Tower|la CN Tower|la CN Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/cn_tower.json"
+        },
+        {
+            "name": "Ufficio Turistico Nazionale|l'Ufficio Turistico Nazionale|un Ufficio Turistico Nazionale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/national_visitor_center.json"
+        }
+    ]
+}

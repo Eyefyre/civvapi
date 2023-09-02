@@ -1,0 +1,61 @@
+{
+    "id": 10,
+    "name": "Ruota|della Ruota",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/the_wheel.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "Una ruota \u00e8 un oggetto circolare con un buco o mozzo nel centro. Presa da sola serve a ben poco, ma quando fa parte di un sistema di trasporto che comprende strade e animali da tiro ha un valore straordinario per la civilt\u00e0 umana. La rappresentazione pi\u00f9 antica di un veicolo su ruote \u00e8 stata rinvenuta presso i Sumeri e risale al 3500 a.C. circa. Le prime ruote erano di legno massiccio; i raggi apparvero per la prima volta intorno al 2000 a.C. in Asia Minore, utilizzati su carri tirati dai cavalli. Successivamente furono introdotti mozzi di ferro entro cui ruotavano assi lubrificati con grasso e i primi rudimentali ammortizzatori.A differenza di quanto si ritiene comunemente, il Nuovo Mondo conosceva l'esistenza della ruota anche prima dell'arrivo degli spagnoli. Nelle Americhe per\u00f2 non c'erano animali da tiro, per cui la quasi totalit\u00e0 delle merci era trasportata dagli esseri umani. Gli esseri umani non sono adatti per tirare carichi per lunghe distanze; riescono pi\u00f9 facilmente a portare il peso sulle spalle (ad esempio all'interno di zaini) ed \u00e8 per questo che non furono sviluppati carretti e affini. Con l'arrivo dei cavalli e degli altri animali da tiro, i nativi americani cominciarono a usare veicoli su ruote proprio come tutti gli altri.",
+    "quote": "\"La saggezza e la virt\u00f9 sono come le due ruote di un carretto.\" - Proverbio giapponese",
+    "tech_prereqs": [
+        {
+            "name": "Allevamento di animali|dell'Allevamento di animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tiro con l'arco|del Tiro con l'arco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Equitazione|dell'Equitazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/horseback_riding.json"
+        },
+        {
+            "name": "Matematica|della Matematica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+        },
+        {
+            "name": "Costruzione|della Costruzione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arciere su carro|un Arciere su carro|dal tuo Arciere su carro|al tuo Arciere su carro|il tuo Arciere su carro|da un Arciere su carro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/chariot_archer.json"
+        },
+        {
+            "name": "Carro da guerra|un Carro da guerra|dal tuo Carro da guerra|al tuo Carro da guerra|il tuo Carro da guerra|da un Carro da guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/war_chariot.json"
+        },
+        {
+            "name": "Elefante da guerra|un Elefante da guerra|dal tuo Elefante da guerra|al tuo Elefante da guerra|il tuo Elefante da guerra|da un Elefante da guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/war_elephant.json"
+        },
+        {
+            "name": "Arciere a cavallo|un Arciere a cavallo|dal tuo Arciere a cavallo|al tuo Arciere a cavallo|il tuo Arciere a cavallo|da un Arciere a cavallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/horse_archer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Giardini galleggianti|i Giardini galleggianti|i Giardini galleggianti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/floating_gardens.json"
+        },
+        {
+            "name": "Mulino ad acqua|il Mulino ad acqua|un Mulino ad acqua",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/water_mill.json"
+        }
+    ]
+}

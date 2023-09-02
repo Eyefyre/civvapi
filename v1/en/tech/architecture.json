@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Architecture",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Renaissance Era",
+    "cost": 1150,
+    "civilopedia_entry": "Architecture can be considered both an art and a science. Encompassing everything from the initial planning and design of a structure, to the actual construction process, architecture has been a crucial element of the building process since ancient times. One of the earliest known discussions of architecture and its principles, \"De Architectura,\" was written by the Roman architect Vitruvius in the first century BC. A ten volume set comprising all of the most intricate details of Roman construction methods, Vitruvius's work is widely recognized today as a crucial development in the evolution of the architectural design process.",
+    "quote": "\"Architecture begins where engineering ends.\" - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Acoustics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/acoustics.json"
+        },
+        {
+            "name": "Banking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archaeology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+        },
+        {
+            "name": "Scientific Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hermitage",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hermitage.json"
+        },
+        {
+            "name": "Porcelain Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Taj Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Uffizi",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/uffizi.json"
+        }
+    ]
+}

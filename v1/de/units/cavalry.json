@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Kavallerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Berittene Einheit, die es mit anderen modernen Infanterieeinheiten aufnehmen kann.",
+    "historical_info": "Zum Ende des 19. Jahrhunderts waren europ\u00e4ische und amerikanische Kavalleristen mit Repetiergewehren ausgestattet - kleinen, verl\u00e4sslichen Waffen mit 5-15 Schuss Munition, die auf etwa 450 Meter genau schossen - sowie mit Pistolen und Schwertern. Da ihre Ausr\u00fcstung so viel leichter war als die der Lanciers und Ritter vor ihnen, waren sie viel schneller und konnten ein ganzes St\u00fcck weiter reiten als ihre Vorl\u00e4ufer. Der Kavallerieangriff von einst wurde zwar vielleicht unter sehr g\u00fcnstigen Umst\u00e4nden noch eingesetzt, doch die gr\u00f6\u00dfere Genauigkeit und Feuerrate der Infanterie machte dieses Man\u00f6ver extrem gef\u00e4hrlich. Traf die Kavallerie auf Infanterieeinheiten, stieg sie normalerweise zum K\u00e4mpfen ab, wobei ein Soldat vier Pferde im Hintergrund hielt und seine drei Kameraden auf den Gegner schossen.",
+    "strategy": "Die Kavallerie ist eine berittene Einheit, sehr stark im Kampf gegen Nahkampf-, Fernwaffen- und Belagerungseinheiten. Sie sollte verwendet werden, um Musketiere anzugreifen und dann nach dem Angriff hinter die feindlichen Linien durchzusto\u00dfen.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

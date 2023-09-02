@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "Pelot\u00f3n de XCOM|Pelotones de XCOM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Infanter\u00eda futurista especializada en lanzarse al peligro desde lejos. Puede moverse y saquear tras aterrizar, pero no puede atacar hasta el siguiente turno.[COLOR_CYAN]\u00a1Buena suerte, comandante!",
+    "historical_info": "Consciente del posible peligro que representan los Robots gigantes, los alien\u00edgenas y otras amenazas externas, la iniciativa XCOM naci\u00f3 para proteger a la gente de los enemigos conocidos y desconocidos.",
+    "strategy": "El Pelot\u00f3n XCOM es un equipo de soldados de \u00e9lite que emplea la tecnolog\u00eda dise\u00f1ada por la iniciativa XCOM. Si empieza el turno en territorio amistoso, puede saltar hasta a 40 casillas de distancia. Despliega estas unidades all\u00e1 donde el nivel de peligro no sea de este mundo.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotecnolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Skyranger",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/skyranger.json"
+        }
+    ]
+}

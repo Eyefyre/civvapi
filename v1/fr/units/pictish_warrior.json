@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Guerrier picte|Guerriers pictes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Unit\u00e9 exclusive aux Celtes, le guerrier picte profite d'un bonus de combat en dehors des terres alli\u00e9es et peut piller les am\u00e9nagements ennemis sans co\u00fbt de mouvement additionnel. Vous recevez 50% de la puissance de l'adversaire vaincu sous forme de foi \u00e0 chaque victoire.",
+    "historical_info": "Peuple de la fin de l'\u00e2ge du fer, les Pictes vivaient dans l'est et le nord de l'\u00c9cosse actuelle et constituaient l'une des nombreuses tribus celtes des \u00eeles britanniques. Leurs guerriers \u00e9taient craints non seulement par les autres peuplades celtiques, mais aussi par les l\u00e9gionnaires romains aguerris. L'historien grec Denys d'Halicarnasse \u00e9crivit, sous le r\u00e8gne de C\u00e9sar Auguste, que leur \"mani\u00e8re de combattre \u00e0 la fa\u00e7on de b\u00eates sauvages et d\u00e9cha\u00een\u00e9es\" fut un atout consid\u00e9rable contre les formations militaires massives qui manoeuvraient dans les for\u00eats et les collines du nord de l'Europe. \u00c0 leur r\u00e9putation terrifiante s'ajoutait l'utilisation du carnyx, une trompette en bronze qui sonnait sans cesse pendant la bataille pour encourager les Pictes et intimider l'adversaire. Enfin, les pens\u00e9es de leurs ennemis \u00e9taient hant\u00e9es par les rumeurs de guerriers pictes exhibant des t\u00eates coup\u00e9es. Les Pictes croyaient en effet qu'en portant les t\u00eates des ennemis vaincus au combat, ils seraient remplis de courage et peut-\u00eatre de col\u00e8re divine.",
+    "strategy": "Le guerrier picte est une unit\u00e9 exclusive aux Celtes. Parfaitement adapt\u00e9s aux premi\u00e8res batailles, ils peuvent d\u00e9vaster les terres ennemies en les pillant avant de se replier dans le m\u00eame tour de jeu. De plus, ils gagnent de la foi pour chaque unit\u00e9 \u00e9limin\u00e9e et font progresser vos objectifs religieux en faisant la guerre.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Travail du bronze",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus terres \u00e9trang\u00e8res",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "Pillage\u00a0: 0\u00a0PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

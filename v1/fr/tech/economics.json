@@ -1,0 +1,44 @@
+{
+    "id": 39,
+    "name": "Sciences \u00e9conomiques",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/economics.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "L'\u00e9conomie est l'\u00e9tude de l'argent. Plus exactement, il s'agit de l'\u00e9tude de la production, de la distribution et de la consommation des marchandises et des services. Si, autrefois, les biens s'\u00e9changeaient via la pratique du troc, durant ces derniers si\u00e8cles, l'argent a \u00e9t\u00e9 le moyen d'\u00e9change quasi exclusif de la plupart des pays du globe.L'\u00e9conomie moderne date de 1776, lorsque le philosophe \u00e9cossais Adam Smith publia son \u0153uvre majeure, \"La Richesse des nations\". Dans cet ouvrage, Smith avance que le march\u00e9 libre est le moyen le plus efficace d'assigner une valeur aux marchandises et aux services, et de les distribuer. En th\u00e9orie, selon Smith, un march\u00e9 totalement libre permettrait de produire une quantit\u00e9 ad\u00e9quate de marchandises \u00e0 un prix juste. Il affirme \u00e9galement que toute intervention ou tentative de r\u00e9gulation de la part du gouvernement pervertit le march\u00e9, le rendant moins efficace et rentable. De plus, Smith \u00e9tait un ardent partisan de l'int\u00e9r\u00eat personnel. Il \u00e9tait en effet convaincu que lorsqu'un individu se concentre sur ses propres int\u00e9r\u00eats, il participe automatiquement \u00e0 l'am\u00e9lioration de la soci\u00e9t\u00e9 dans son ensemble. En d'autres termes, Smith avait la conviction que le capitalisme absolu \u00e9tait le meilleur syst\u00e8me \u00e9conomique qu'une civilisation pouvait adopter.Les travaux de Smith comptaient quelques d\u00e9tracteurs : nombre d'\u00e9conomistes qui lui ont succ\u00e9d\u00e9 ont cherch\u00e9 \u00e0 retravailler son approche, et d'autres l'ont tout simplement rejet\u00e9 en bloc. Au XIXe si\u00e8cle, Karl Marx \u00e9crivit \"Das Kapital: Kritik der politischen Okonomie\" (Le Capital : critique de l'\u00e9conomie politique) dans lequel il d\u00e9nonce le fait que le principal moteur du capitalisme est l'exploitation des travailleurs par leurs employeurs.Smith est consid\u00e9r\u00e9 comme le p\u00e8re du capitalisme moderne, et Marx comme celui du communisme. Depuis lors, leurs h\u00e9ritiers (\u00e9conomiquement parlant) ne cessent de s'entred\u00e9chirer.",
+    "quote": "\"Les int\u00e9r\u00eats compos\u00e9s sont la plus grande force dans tout l'univers.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Banque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/banking.json"
+        },
+        {
+            "name": "Imprimerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Th\u00e9orie scientifique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+        },
+        {
+            "name": "Industrialisation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/industrialization.json"
+        },
+        {
+            "name": "Fusil",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Moulin \u00e0 vent|Moulins \u00e0 vent",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/windmill.json"
+        },
+        {
+            "name": "Caf\u00e9|Caf\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/coffee_house.json"
+        }
+    ]
+}

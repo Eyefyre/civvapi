@@ -1,0 +1,28 @@
+{
+    "id": 135,
+    "name": "Reiter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horseman.png",
+    "game_info": "Schnelle und m\u00e4chtige berittene Einheit in der fr\u00fchen Spielphase. Anf\u00e4llig gegen\u00fcber Speerk\u00e4mpfern.",
+    "historical_info": null,
+    "strategy": null,
+    "movement": 4,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

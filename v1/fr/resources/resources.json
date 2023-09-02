@@ -1,0 +1,1615 @@
+[
+    {
+        "id": 1,
+        "name": "Fer",
+        "game_info": "Utilis\u00e9 par les unit\u00e9s puissantes de d\u00e9but de partie.",
+        "historical_info": "Le fer est l'un des m\u00e9taux les plus importants de notre histoire\u00a0: il sert \u00e0 la construction, aux armes et aux outils. \u00c0 l'origine, on utilisait le fer d\u00e9couvert sous forme de d\u00e9p\u00f4ts purs avec les m\u00e9t\u00e9orites. Aux alentours du deuxi\u00e8me mill\u00e9naire av. J.-C., certaines cultures \u00e9taient parvenues \u00e0 l'extraire des filons d\u00e9couverts dans les mines. Aujourd'hui, le fer tient une place toujours aussi importante, m\u00eame s'il est le plus souvent utilis\u00e9 sous forme d'alliage avec l'acier. Gardez toujours \u00e0 l'esprit que le fer est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fer.png",
+        "prereq_tech": {
+            "name": "Travail du bronze",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Neige",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+    },
+    {
+        "id": 2,
+        "name": "Chevaux",
+        "game_info": "Utilis\u00e9s par les unit\u00e9s mont\u00e9es.",
+        "historical_info": "Cumulant les r\u00f4les de moyen de transport, mat\u00e9riel de guerre, compagnon fid\u00e8le et (parfois) nourriture, le cheval est l'un des animaux domestiqu\u00e9s les plus importants de notre histoire. Les premiers chevaux domestiqu\u00e9s apparaissent en Asie centrale autour de 4\u00a0000 av. J.-C., puis la pratique se r\u00e9pand au cours des mill\u00e9naires qui suivent en Europe, en Asie, au Moyen-Orient et en Afrique. Des chevaux furent envoy\u00e9s au Nouveau Monde par les Espagnols au XVIe si\u00e8cle, o\u00f9 ils furent rapidement mis \u00e0 profit par les tribus indig\u00e8nes au cours des si\u00e8cles suivants. Gardez toujours \u00e0 l'esprit que le cheval est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction des unit\u00e9s associ\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/chevaux.png",
+        "prereq_tech": {
+            "name": "\u00c9levage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/animal_husbandry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "P\u00e2turage|P\u00e2turages",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/pasture.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+    },
+    {
+        "id": 3,
+        "name": "Charbon",
+        "game_info": "Utilis\u00e9 par les usines et les cuirass\u00e9s.",
+        "historical_info": "Le charbon na\u00eet de la d\u00e9composition et de la compression de la mati\u00e8re v\u00e9g\u00e9tale au cours des si\u00e8cles, qui se transforme alors en compos\u00e9 noir hautement combustible. On le trouve en bonne quantit\u00e9 un peu partout sur la plan\u00e8te. Le charbon est historiquement l'une des sources d'\u00e9nergie les plus importantes de l'humanit\u00e9, mais c'est un combustible \"sale\", et son extraction et sa combustion polluent \u00e9norm\u00e9ment. Les scientifiques sont \u00e0 la recherche d'une technologie du \"charbon propre\", mais tout reste encore \u00e0 d\u00e9couvrir. Gardez toujours \u00e0 l'esprit que le charbon est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/charbon.png",
+        "prereq_tech": {
+            "name": "Industrialisation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/industrialization.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+    },
+    {
+        "id": 4,
+        "name": "P\u00e9trole",
+        "game_info": "Utilis\u00e9 par les unit\u00e9s puissantes de fin de partie.",
+        "historical_info": "Le p\u00e9trole est une source d'\u00e9nergie liquide que l'on trouve sous forme de gisements de tailles diverses un peu partout sur la plan\u00e8te. Bien que l'on retrouve des traces de son utilisation chez certaines civilisations datant de 4\u00a0000\u00a0ans environ, aussi bien pour cr\u00e9er de l'asphalte que du naphte, ou comme source de lumi\u00e8re lorsqu'il est enflamm\u00e9, son usage actuel remonte \u00e0 1857, lorsque la toute premi\u00e8re raffinerie moderne fut construite \u00e0 Pechelbronn, en Alsace. A la m\u00eame \u00e9poque, on creusait des puits un peu partout en Europe et en Am\u00e9rique du Nord. Au d\u00e9but du XXe si\u00e8cle, le p\u00e9trole \u00e9tait une ressource tr\u00e8s demand\u00e9e, en particulier parce qu'il servait \u00e0 alimenter les moteurs \u00e0 combustion interne utilis\u00e9s par les navires, les avions et les automobiles. Aujourd'hui, il r\u00e9git la politique internationale, puisque l'on rel\u00e8ve perp\u00e9tuellement des tensions entre les pays qui en poss\u00e8dent, et ceux qui en sont d\u00e9pourvus. Gardez toujours \u00e0 l'esprit que le p\u00e9trole est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/p\u00e9trole.png",
+        "prereq_tech": {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/biology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Puits de p\u00e9trole|Puits de p\u00e9trole",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/oil_well.json"
+            },
+            {
+                "name": "Plateforme offshore|Plateformes offshore",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/offshore_platform.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            },
+            {
+                "name": "Marais",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Neige",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+            },
+            {
+                "name": "C\u00f4te",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+    },
+    {
+        "id": 5,
+        "name": "Aluminium",
+        "game_info": "Utilis\u00e9 par les b\u00e2timents et les unit\u00e9s puissantes de fin de partie.",
+        "historical_info": "L'aluminium est l'un des \u00e9l\u00e9ments le plus courant sur notre plan\u00e8te. Ce m\u00e9tal incroyablement utile est souple, solide et particuli\u00e8rement r\u00e9sistant \u00e0 la corrosion. Malgr\u00e9 son abondance, \u00e0 l'\u00e9tat naturel l'aluminium se trouve presque uniquement combin\u00e9 avec d'autres mat\u00e9riaux. Ce n'est qu'au milieu du XIXe si\u00e8cle que des scientifiques ont d\u00e9couvert comment extraire l'aluminium et le traiter en quantit\u00e9. De nos jours, on l'utilise tr\u00e8s couramment pour les constructions d'\u00e9quipements militaires et a\u00e9rospatiaux, ainsi que pour les biens de consommation. Gardez toujours \u00e0 l'esprit que l'aluminium est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminium.png",
+        "prereq_tech": {
+            "name": "\u00c9lectricit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+    },
+    {
+        "id": 6,
+        "name": "Uranium",
+        "game_info": "Utilis\u00e9 par les bombes atomiques, les centrales nucl\u00e9aires et les m\u00e9cacolosses de la mort.",
+        "historical_info": "L'uranium est un minerai naturel radioactif qui, une fois trait\u00e9 et enrichi, permet de g\u00e9n\u00e9rer une \u00e9nergie incroyable ou de faire exploser n'importe quoi. D\u00e9couvert au XVIIIe si\u00e8cle, ce n'est qu'au cours de la Deuxi\u00e8me Guerre mondiale que des scientifiques am\u00e9ricains sont parvenus \u00e0 manipuler ce mat\u00e9riau dangereux pour en faire l'explosif le plus redoutable de tous les temps. En tant que source d'alimentation pour g\u00e9n\u00e9rateurs nucl\u00e9aires, l'uranium est consid\u00e9r\u00e9 comme une \u00e9nergie \"propre\", puisqu'il n'est pas source de pollution comme peuvent l'\u00eatre le charbon ou le p\u00e9trole. \u00c0 l'inverse, les d\u00e9chets nucl\u00e9aires sont incroyablement toxiques et polluent le sol, l'air, l'eau et tout organisme vivant avec lequel ils entrent contact, et ce pour des centaines d'ann\u00e9es. Gardez toujours \u00e0 l'esprit que l'uranium est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
+        "prereq_tech": {
+            "name": "Th\u00e9orie atomique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/atomic_theory.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            },
+            {
+                "name": "Bureau de douane|Bureaux de douane",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+            },
+            {
+                "name": "Acad\u00e9mie|Acad\u00e9mies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+            },
+            {
+                "name": "Citadelle|Citadelles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+            },
+            {
+                "name": "Manufacture|Manufactures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+            },
+            {
+                "name": "Lieu saint|Lieux saints",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            },
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            },
+            {
+                "name": "Marais",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+            },
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Neige",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+    },
+    {
+        "id": 7,
+        "name": "Bl\u00e9",
+        "game_info": null,
+        "historical_info": "Cultiv\u00e9 \u00e0 l'origine dans le Croissant fertile du Moyen-Orient, le bl\u00e9 est l'une des c\u00e9r\u00e9ales les plus essentielles du r\u00e9gime alimentaire de l'homme. Le bl\u00e9 a des utilisations incroyablement vari\u00e9es\u00a0: on peut le transformer en farine pour ensuite faire du pain, des p\u00e2tes ou des g\u00e2teaux, mais on peut \u00e9galement le laisser fermenter afin de cr\u00e9er de savoureuses boissons alcoolis\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bl\u00e9.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Ferme|Fermes",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/farm.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines inondables|Plaine inondable",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/plaines_inondables|plaine_inondable.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wheat.json"
+    },
+    {
+        "id": 8,
+        "name": "B\u00e9tail",
+        "game_info": null,
+        "historical_info": "Comptant parmi les premiers animaux domestiqu\u00e9s de toute l'histoire, les vaches, b\u0153ufs et autres bovins sont utilis\u00e9s pour l'\u00e9levage, les produits laitiers et le trait. Parall\u00e8lement, on utilise la peau du b\u00e9tail pour le cuir, et sa bouse comme combustible. Bien des civilisations tribales calculent la richesse d'une personne en fonction de la taille de son troupeau.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/b\u00e9tail.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "P\u00e2turage|P\u00e2turages",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/pasture.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cattle.json"
+    },
+    {
+        "id": 9,
+        "name": "Moutons",
+        "game_info": null,
+        "historical_info": "Les moutons sont des animaux particuli\u00e8rement savoureux dont on peut, en plus de la viande, exploiter le lait, la laine et le cuir. Comptant parmi les premiers animaux \u00e0 avoir \u00e9t\u00e9 domestiqu\u00e9s par l'homme, les moutons furent pour la premi\u00e8re fois apprivois\u00e9s en M\u00e9sopotamie voil\u00e0 pr\u00e8s de 10\u00a0000\u00a0ans. Depuis, la pratique de l'\u00e9levage de moutons s'est largement r\u00e9pandue, et on trouve aujourd'hui des moutons aux quatre coins du monde. Il en existe plus de 200\u00a0esp\u00e8ces, poss\u00e9dant chacune des qualit\u00e9s sp\u00e9cifiques\u00a0: r\u00e9sistance, taille, quantit\u00e9 et qualit\u00e9 de la laine, quantit\u00e9 de lait produite et, bien entendu, saveur de la viande\u00a0!",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/moutons.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "P\u00e2turage|P\u00e2turages",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/pasture.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+    },
+    {
+        "id": 10,
+        "name": "Cervid\u00e9s",
+        "game_info": null,
+        "historical_info": "Le cerf et sa famille (le renne, l'\u00e9lan, le chevreuil, etc.) vivent en troupeau aux quatre coins de la plan\u00e8te. Ils furent une source de nourriture, de cuir, d'os, de boyaux et d'autres mat\u00e9riaux pour les peuples pr\u00e9industriels pendant des mill\u00e9naires.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cervid\u00e9s.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp|Camps",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/deer.json"
+    },
+    {
+        "id": 11,
+        "name": "Bananes",
+        "game_info": null,
+        "historical_info": "La banane est un fruit tropical particuli\u00e8rement appr\u00e9ci\u00e9. Avec sa cousine la banane plantain, c'est un \u00e9l\u00e9ment essentiel du r\u00e9gime alimentaire de la plupart des habitants des \u00eeles. M\u00eame si elle a vu le jour en Asie du Sud-Est, la banane est d\u00e9sormais cultiv\u00e9e partout dans le monde.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bananes.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bananas.json"
+    },
+    {
+        "id": 12,
+        "name": "Poissons",
+        "game_info": null,
+        "historical_info": "Le poisson a toujours \u00e9t\u00e9 une source importante de prot\u00e9ine pour les habitants des c\u00f4tes. Aujourd'hui encore, il tient une place essentielle dans notre alimentation\u00a0; c'est d'ailleurs pour cette raison que nous courons le risque de vider enti\u00e8rement l'oc\u00e9an de sa population comestible.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/poissons.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "C\u00f4te",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/fish.json"
+    },
+    {
+        "id": 13,
+        "name": "Pierre",
+        "game_info": null,
+        "historical_info": "\u00c9l\u00e9ment essentiel de tous nos efforts de construction \u00e0 travers l'histoire, on trouve la pierre dans la cro\u00fbte terrestre et le manteau sup\u00e9rieur de notre plan\u00e8te. On peut la classer en trois grandes cat\u00e9gories d'origines\u00a0: s\u00e9dimentaire, magmatique et m\u00e9tamorphique.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pierre.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Carri\u00e8re|Carri\u00e8res",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/quarry.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Neige",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+    },
+    {
+        "id": 14,
+        "name": "Baleines",
+        "game_info": null,
+        "historical_info": "Plus grand mammif\u00e8re au monde, la baleine est chass\u00e9e par l'homme depuis des si\u00e8cles pour sa chair, son blanc et ses os. \u00c0 l'\u00e8re pr\u00e9industrielle, l'homme chassait ce gigantesque animal au harpon, depuis un navire, dans un impressionnant combat \u00e0 l'issue bien souvent incertaine. Aujourd'hui, les baleiniers sont bien plus modernes\u00a0; ils sont \u00e9quip\u00e9s d'un sonar et d'armes explosives, ce qui leur permet d'assurer leur survie face \u00e0 un adversaire redoutable.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/baleines.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "C\u00f4te",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/whales.json"
+    },
+    {
+        "id": 15,
+        "name": "Perles",
+        "game_info": null,
+        "historical_info": "Les perles sont des billes brillantes, le plus souvent blanches et translucides, que l'on trouve dans les carapaces de certains mollusques. Elles sont tr\u00e8s pris\u00e9es et souvent utilis\u00e9es en joaillerie et autres artisanats d\u00e9coratifs. Si de nombreux mollusques produisent des perles, certaines esp\u00e8ces d'hu\u00eetres marines et de palourdes d'eau douce (celles dont les carapaces sont z\u00e9br\u00e9es de nacre, aussi appel\u00e9e la \"m\u00e8re des perles\") en renferment les vari\u00e9t\u00e9s les plus recherch\u00e9es. La couleur de la perle varie en fonction du mollusque et de son environnement, pouvant aller du noir au blanc, en passant par le cr\u00e8me, le bleu, le jaune ou le vert. Les perles roses d'Inde sont g\u00e9n\u00e9ralement les plus recherch\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/perles.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "C\u00f4te",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/pearls.json"
+    },
+    {
+        "id": 16,
+        "name": "Or",
+        "game_info": null,
+        "historical_info": "L'or est un m\u00e9tal ductile, brillant et mall\u00e9able, objet des plus grandes convoitises de l'homme depuis toujours. Sa raret\u00e9 ajoute encore \u00e0 sa valeur. Bien qu'il soit l'objet de quelques applications industrielles et m\u00e9dicales, on l'utilise principalement pour la monnaie ou la d\u00e9coration (bijouterie, coupes, ustensiles, voire les toilettes pour les plus puissants).",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/or.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+    },
+    {
+        "id": 17,
+        "name": "Argent",
+        "game_info": null,
+        "historical_info": "L'argent est un m\u00e9tal pr\u00e9cieux mall\u00e9able, doux et brillant. Activement recherch\u00e9 pour sa valeur intrins\u00e8que, il est utilis\u00e9 dans le monde entier depuis des si\u00e8cles en d\u00e9coration, en joaillerie, ainsi que dans la fabrication d'ustensiles et de pi\u00e8ces de monnaie. L'argent poss\u00e8de une excellente conductivit\u00e9 thermique et \u00e9lectrique, ce qui le rend extr\u00eamement utile dans nombre d'applications \u00e9lectroniques. Cela fait 6\u00a0000\u00a0ans au minimum que l'argent est min\u00e9. En 1859, le \"Filon de Comstock\" fut d\u00e9couvert dans le Nevada, aux \u00c9tats-Unis. Il s'agissait d'un riche gisement d'argent qui fut la source d'une importante croissance de l'\u00e9conomie locale. Cet \"\u00e2ge d'argent\" dura trente-trois ans, jusqu'au jour o\u00f9 les plus bas niveaux de la mine furent inond\u00e9s, rendant l'extraction impossible. Apr\u00e8s cela, les villes devenues riches p\u00e9rirent \u00e0 petit feu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/argent.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+    },
+    {
+        "id": 18,
+        "name": "Pierres pr\u00e9cieuses",
+        "game_info": null,
+        "historical_info": "La pierre pr\u00e9cieuse est un minerai aussi rare qu'il est magnifique. Une fois taill\u00e9e et polie, elle brille de fa\u00e7on incroyable et/ou ses couleurs sont \u00e9clatantes. On peut distinguer deux cat\u00e9gories\u00a0: les pierres dites \"pr\u00e9cieuses\", comme le diamant, le rubis et l'\u00e9meraude, et les pierres \"fines\", comme l'am\u00e9thyste ou encore l'aigue-marine. La pierre pr\u00e9cieuse a toujours \u00e9t\u00e9 tr\u00e8s recherch\u00e9e\u00a0; on l'utilise le plus souvent en bijouterie et pour agr\u00e9menter les objets de la maison lorsqu'on est particuli\u00e8rement riche et puissant.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pierres_pr\u00e9cieuses.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            },
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+    },
+    {
+        "id": 19,
+        "name": "Marbre",
+        "game_info": null,
+        "historical_info": "Le marbre est une roche magnifique et tr\u00e8s recherch\u00e9e, aussi bien comme mat\u00e9riau de construction que comme mati\u00e8re premi\u00e8re pour les sculpteurs. On le trouve dans diff\u00e9rents tons et coloris, parfois monochrome, parfois stri\u00e9 de veines ou orn\u00e9 de poches de couleurs. Certains des plus beaux b\u00e2timents du monde (le Taj Mahal, par exemple) sont b\u00e2tis en marbre, tout comme les plus grandes sculptures de l'antiquit\u00e9.La production augmente de 15% lorsque vous construisez des merveilles de l'Antiquit\u00e9 et de l'\u00e8re classique dans la ville.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/marbre.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Carri\u00e8re|Carri\u00e8res",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/quarry.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Colline|Collines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+    },
+    {
+        "id": 20,
+        "name": "Ivoire",
+        "game_info": null,
+        "historical_info": "On r\u00e9colte l'ivoire sur les dents et les d\u00e9fenses des animaux, notamment les \u00e9l\u00e9phants, les baleines, les hippopotames, les narvals et autres animaux du m\u00eame type. L'ivoire est tr\u00e8s recherch\u00e9 pour sa long\u00e9vit\u00e9 et sa beaut\u00e9. Au cours des si\u00e8cles, il fut utilis\u00e9 pour fabriquer des billes de billard, des touches de piano, un support structurel pour v\u00eatements, des poign\u00e9es, etc. L'homme a fini par inventer des plastiques permettant de remplacer ce mat\u00e9riau de fa\u00e7on tout \u00e0 fait correcte, mais rien ne remplace sa beaut\u00e9 et son \u00e9l\u00e9gance... un bien malheureux al\u00e9a pour les esp\u00e8ces en voie d'extinction que l'on massacre chaque ann\u00e9e pour leur ivoire.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ivoire.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp|Camps",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/ivory.json"
+    },
+    {
+        "id": 21,
+        "name": "Fourrures",
+        "game_info": null,
+        "historical_info": "En tant que ressource, la fourrure d\u00e9signe le pelage de certains mammif\u00e8res, tr\u00e8s pris\u00e9s pour leur beaut\u00e9 et la chaleur qu'ils procurent une fois port\u00e9s. Contrairement aux animaux comme les moutons, dont la laine peut \u00eatre tondue sans blesser la b\u00eate, les animaux \u00e0 fourrure doivent \u00eatre tu\u00e9s pour que l'on puisse retirer leur pelage. Les humains chassent les animaux pour leur fourrure depuis des mill\u00e9naires. Autrefois, il est probable que les chasseurs et leurs familles mangeaient les animaux qu'ils \u00e9liminaient, mais aujourd'hui, leurs corps sont souvent abandonn\u00e9s sur place. Les animaux chass\u00e9s pour leur fourrure comprennent les renards, les ours, les castors, les phoques et les lapins.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fourrures.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp|Camps",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/furs.json"
+    },
+    {
+        "id": 22,
+        "name": "Teintures",
+        "game_info": null,
+        "historical_info": "Une teinture est une substance pouvant (temporairement ou de fa\u00e7on permanente) modifier la couleur d'une autre substance, le plus souvent un tissu ou la peau. L'homme a appris \u00e0 fabriquer des teintures \u00e0 partir de diff\u00e9rents mat\u00e9riaux\u00a0: plantes, min\u00e9raux, et restes d'animaux. Les teintures font partie de notre vie depuis au moins 37\u00a0000\u00a0ans, si ce n'est plus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/teintures.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            },
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/dyes.json"
+    },
+    {
+        "id": 23,
+        "name": "\u00c9pices",
+        "game_info": null,
+        "historical_info": "Les \u00e9pices sont des substances extraites des plantes et utilis\u00e9es afin de pr\u00e9server et d'enrichir le go\u00fbt, la couleur ou la texture de la nourriture. Certaines \u00e9pices ont \u00e9galement une port\u00e9e religieuse, tandis que d'autres auraient des bienfaits m\u00e9dicinaux. On retrouve parmi les \u00e9pices communes le poivre, la moutarde, la cannelle, le safran et le gingembre. Le plus souvent, les \u00e9pices sont s\u00e9ch\u00e9es et r\u00e9duites en poudre avant d'\u00eatre utilis\u00e9es pour une pr\u00e9paration culinaire. C'est ce qui les diff\u00e9rencie des herbes comme la sauge ou l'origan, qui se pr\u00e9sentent sous forme de feuilles vertes pouvant \u00eatre utilis\u00e9es fra\u00eeches ou s\u00e9ch\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/\u00e9pices.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/spices.json"
+    },
+    {
+        "id": 24,
+        "name": "Soie",
+        "game_info": null,
+        "historical_info": "La soie est une fibre provenant du cocon du ver \u00e0 soie. Le tissu du m\u00eame nom a vu le jour en Chine, selon la l\u00e9gende gr\u00e2ce \u00e0 l'imp\u00e9ratrice Lei Zu. R\u00e9serv\u00e9e au d\u00e9part \u00e0 la noblesse chinoise, son utilisation s'est vite r\u00e9pandue \u00e0 travers la Chine, et gr\u00e2ce \u00e0 la c\u00e9l\u00e8bre Route de la Soie de l'antiquit\u00e9, la mati\u00e8re finit par atteindre l'Europe et le reste de la plan\u00e8te. (La premi\u00e8re mention de la soie en Europe remonte \u00e0 l'\u00c9gypte, aux alentours de l'an 1\u00a0000\u00a0av. J.-C.)",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/soie.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silk.json"
+    },
+    {
+        "id": 25,
+        "name": "Sucre",
+        "game_info": null,
+        "historical_info": "Le sucre est une substance tr\u00e8s douce obtenue \u00e0 partir de la canne \u00e0 sucre (ou de la betterave). On l'utilise pour adoucir la nourriture et les boissons. Sa premi\u00e8re utilisation remonterait aux Polyn\u00e9siens, puis l'habitude se serait propag\u00e9e pour atteindre l'Inde, et peu \u00e0 peu l'Asie et l'Europe. La canne \u00e0 sucre fut par la suite introduite dans les Cara\u00efbes et en Am\u00e9rique du Nord et du Sud, des r\u00e9gions particuli\u00e8rement propices \u00e0 sa r\u00e9colte. Tr\u00e8s abordables et disponibles en abondance, le sucre et ses \"petits camarades\" (glucose, fructose, etc.) se retrouvent dans la plupart des nourritures trait\u00e9es du monde, au grand dam des dentistes et des di\u00e9t\u00e9ticiens.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sucre.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines inondables|Plaine inondable",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/plaines_inondables|plaine_inondable.json"
+            },
+            {
+                "name": "Marais",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sugar.json"
+    },
+    {
+        "id": 26,
+        "name": "Coton",
+        "game_info": null,
+        "historical_info": "Le coton est une plante cultiv\u00e9e depuis des si\u00e8cles. La fibre qui entoure la graine qu'il produit peut \u00eatre fil\u00e9e, puis transform\u00e9e en un tissu qui sert notamment \u00e0 la fabrication de v\u00eatements, de voiles de bateau, ou de tout autre mat\u00e9riau de valeur. S'il fut d'abord cultiv\u00e9 en Inde voil\u00e0 7\u00a0000\u00a0ans, le coton reste aujourd'hui le mat\u00e9riau naturel le plus utilis\u00e9 dans l'industrie du textile.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/coton.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+    },
+    {
+        "id": 27,
+        "name": "Vin",
+        "game_info": null,
+        "historical_info": "Le vin est un alcool savoureux fabriqu\u00e9 \u00e0 partir de la fermentation du raisin. Les humains produisent du vin depuis pr\u00e8s de 8\u00a0000\u00a0ans. Le proc\u00e9d\u00e9 est probablement originaire de la r\u00e9gion situ\u00e9e pr\u00e8s de la fronti\u00e8re irano-g\u00e9orgienne. Dans de nombreuses cultures, on a attribu\u00e9 au vin des pouvoirs mystiques, et il a \u00e9t\u00e9 utilis\u00e9 dans d'innombrables c\u00e9r\u00e9monies religieuses. La France est le c\u0153ur plan\u00e9taire autoproclam\u00e9 de la production viticole, mais elle fait face \u00e0 l'opposition tenace d'autres pays d'Europe, des \u00c9tats-Unis, de l'Afrique du Sud, de l'Am\u00e9rique du Sud et de l'Australie.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/vin.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wine.json"
+    },
+    {
+        "id": 28,
+        "name": "Encens",
+        "game_info": null,
+        "historical_info": "L'encens est un mat\u00e9riau cr\u00e9\u00e9 afin de br\u00fbler lentement, tout en d\u00e9gageant une fum\u00e9e odorante. Il est souvent employ\u00e9 lors de rituels religieux, et d'aucuns pensent qu'il poss\u00e8de certains pouvoirs curatifs. L'encens est utilis\u00e9 depuis des mill\u00e9naires. Il nous vient probablement du Moyen-Orient (peut-\u00eatre d'\u00c9gypte). Les pharaons s'en servaient \u00e0 la fois pour dissiper les effluves des roturiers, \u00e9loigner les d\u00e9mons et satisfaire les dieux. L'encens peut \u00eatre fabriqu\u00e9 \u00e0 partir d'une grande vari\u00e9t\u00e9 de mat\u00e9riaux, dont le camphre, l'oliban, la myrrhe, le santal, les clous de girofles, la lavande, le musc et d'autres substances exotiques. Longtemps utilis\u00e9 dans la m\u00e9decine traditionnelle orientale, l'encens conna\u00eet une vague de popularit\u00e9 en Occident gr\u00e2ce \u00e0 l'essor de la pseudo-scientifique \"aromath\u00e9rapie\", qui, si son efficacit\u00e9 est douteuse, a au moins l'avantage de parfumer agr\u00e9ablement le praticien.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/encens.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+    },
+    {
+        "id": 29,
+        "name": "Joaillerie",
+        "game_info": "La joaillerie n'est disponible que dans les cit\u00e9s-\u00e9tats mercantiles.",
+        "historical_info": "La joaillerie d\u00e9signe les bijoux en or, argent, pierres pr\u00e9cieuses et autres mat\u00e9riaux rares port\u00e9s dans le seul souci de l'embellissement personnel. Les premi\u00e8res formes de bijoux d\u00e9couverts en Afrique indiquent que des parures de perles, de coquillages et d'ossements \u00e9taient port\u00e9es il y a plus de 50\u00a0000\u00a0ans. Au cours des cinq derniers mill\u00e9naires, l'or a \u00e9t\u00e9 le m\u00e9tal le plus utilis\u00e9 en joaillerie, de par sa nature mall\u00e9able qui permet de r\u00e9aliser des bijoux complexes t\u00e9moignant de la richesse de leurs propri\u00e9taires.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/joaillerie.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/jewelry.json"
+    },
+    {
+        "id": 30,
+        "name": "Porcelaine",
+        "game_info": "La porcelaine n'est disponible que dans les cit\u00e9s-\u00e9tats mercantiles.",
+        "historical_info": "Apparue en Chine il y a environ 3\u00a0000\u00a0ans, la porcelaine est une c\u00e9ramique obtenue en chauffant de l'argile pour fabriquer des r\u00e9cipients semi-translucides de tailles et de formes diverses. Les artistes et artisans ont pass\u00e9 des si\u00e8cles \u00e0 am\u00e9liorer les techniques permettant d'obtenir des objets en porcelaine aussi solides qu'esth\u00e9tiques. Lorsqu'elle devint tr\u00e8s populaire en Europe, la vaisselle en porcelaine \u00e9tait simplement appel\u00e9e \"China\" par les anglo-saxons, en r\u00e9f\u00e9rence \u00e0 son pays d'origine.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/porcelaine.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/porcelain.json"
+    },
+    {
+        "id": 31,
+        "name": "Cuivre",
+        "game_info": null,
+        "historical_info": "Le cuivre, m\u00e9tal souple de couleur rouge\u00e2tre, est employ\u00e9 depuis des milliers d'ann\u00e9es pour toutes sortes d'usages\u00a0: armes, monnaie, jusqu'aux circuits \u00e9lectroniques et raccordements \u00e9lectriques actuels. Le cuivre poss\u00e8de de nombreux avantages sp\u00e9cifiques, l'un des plus notables \u00e9tant ses propri\u00e9t\u00e9s antimicrobiennes. Le cuivre est naturellement r\u00e9sistant \u00e0 de nombreuses formes de bact\u00e9ries, et c'est pour cela qu'il est utilis\u00e9 dans les plomberies et objets du quotidien fr\u00e9quemment en contact avec l'Homme, comme les poign\u00e9es de porte. Le cuivre est \u00e9galement tr\u00e8s utile pour cr\u00e9er des alliages avec d'autres m\u00e9taux. Combin\u00e9 avec de l'\u00e9tain, le cuivre forme un alliage connu sous le nom de bronze. Avec du zinc, on obtient du laiton, ou cuivre jaune.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cuivre.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            },
+            {
+                "name": "Neige",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+    },
+    {
+        "id": 32,
+        "name": "Sel",
+        "game_info": null,
+        "historical_info": "N\u00e9cessaire \u00e0 toute vie humaine, le sel se trouve partout dans le monde, autant \u00e0 l'\u00e9tat naturel que dans des environnements cr\u00e9\u00e9s artificiellement. Utilis\u00e9 des milliers d'ann\u00e9es durant pour conserver la viande, le sel \u00e9tait un \u00e9l\u00e9ment indispensable pour stocker la nourriture avant l'invention de la r\u00e9frig\u00e9ration artificielle. Dans les marais salants, de grands bassins con\u00e7us pour l'exploitation du sel, l'\u00e9vaporation naturelle fait peu \u00e0 peu dispara\u00eetre l'\u00e9l\u00e9ment liquide, r\u00e9v\u00e9lant le r\u00e9sidu sal\u00e9 pr\u00eat \u00e0 \u00eatre r\u00e9colt\u00e9.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sel.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine|Mines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            },
+            {
+                "name": "D\u00e9sert|D\u00e9serts",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+            },
+            {
+                "name": "Toundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+    },
+    {
+        "id": 33,
+        "name": "Crabe",
+        "game_info": null,
+        "historical_info": "Habitant des fonds marins, le crabe est un crustac\u00e9 omnivore dot\u00e9 de pinces qui se nourrit g\u00e9n\u00e9ralement de tout ce qu'il trouve. Avec plus de 800\u00a0esp\u00e8ces recens\u00e9es dans le monde, le crabe est un aliment fondamental dans certaines contr\u00e9es et constitue aujourd'hui l'une des principales marchandises en provenance de la mer. La baie de Chesapeake, dans l'\u00c9tat du Maryland aux \u00c9tats-Unis, est c\u00e9l\u00e8bre pour sa production de crabes bleus, l'une des esp\u00e8ces les plus populaires\u00a0: on en consomme plus de 45\u00a0000 tonnes par an.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/crabe.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "C\u00f4te",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/crab.json"
+    },
+    {
+        "id": 34,
+        "name": "Truffe",
+        "game_info": null,
+        "historical_info": "Les truffes sont un mets rare et on\u00e9reux, issues d'une famille de champignons qui poussent sous terre. Dot\u00e9es d'un ar\u00f4me \u00e2cre et d'un go\u00fbt prononc\u00e9, les truffes sont avant tout utilis\u00e9es pour parfumer les plats dans bon nombre de cuisines internationales. L'un des aspects les plus surprenants de la truffe r\u00e9side dans son moyen de r\u00e9colte, via des \"cochons truffiers\". Ces derniers, dress\u00e9s sp\u00e9cialement pour d\u00e9tecter les truffes sous la terre, disposent d'un grand avantage naturel. Dot\u00e9s d'un flair hors du commun, les cochons truffiers sont vraisemblablement utilis\u00e9s depuis l'\u00e8re romaine.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/truffe.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp|Camps",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+            },
+            {
+                "name": "Marais",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+            },
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/truffles.json"
+    },
+    {
+        "id": 35,
+        "name": "Agrumes",
+        "game_info": null,
+        "historical_info": "L'Homme consomme des agrumes (principalement l'orange, le citron et le pamplemousse) depuis la nuit des temps. Tout d'abord cultiv\u00e9es dans des r\u00e9gions voisines de l'Asie du Sud-Est, les plantations du genre Citrus ont fini par se r\u00e9pandre dans les pays du monde entier. D\u00e8s le XVe si\u00e8cle, et pendant l'\u00e2ge des Grandes d\u00e9couvertes, une affection due au manque de vitamine C, le scorbut, fit des ravages parmi les navigateurs. Ce n'est qu'au XVIIIe si\u00e8cle, que l'on trouva comment vaincre le scorbut en mangeant des aliments riches en vitamine C, comme la choucroute, et en buvant r\u00e9guli\u00e8rement du jus de citron. La plupart des marins pensaient que c'\u00e9tait l'acide contenu dans les agrumes, plut\u00f4t que la vitamine C, qui prot\u00e9geait de la maladie. Quoi qu'il en soit, les conditions de vie des \u00e9quipages en furent grandement am\u00e9lior\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/agrumes.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/citrus.json"
+    },
+    {
+        "id": 36,
+        "name": "Site antique|Sites antiques",
+        "game_info": "Am\u00e9nag\u00e9 en fouilles arch\u00e9ologiques, un site antique peut produire un artefact pouvant \u00eatre plac\u00e9 dans un emplacement pour chef-d'oeuvre artistique ou \u00eatre transform\u00e9 en monument.",
+        "historical_info": "Francis Bacon \u00e9crivait en 1605 que \"les antiquit\u00e9s sont une vision d\u00e9grad\u00e9e de l'histoire, ou quelques vestiges d'elle ayant r\u00e9ussi par hasard \u00e0 \u00e9chapper \u00e0 ce naufrage qu'est le temps\". Par d\u00e9finition, une antiquit\u00e9 est un objet du pass\u00e9, quel qu'il soit\u00a0: simple pointe de fl\u00e8che ou v\u00e9ritable tr\u00e9sor artistique. Depuis des g\u00e9n\u00e9rations, l'id\u00e9e m\u00eame qu'une civilisation perdue puisse \u00eatre recompos\u00e9e par l'\u00e9tude m\u00e9thodique de ses reliques et artefacts a pouss\u00e9 les collectionneurs amateurs comme les scientifiques de renom \u00e0 rechercher ses objets, \u00e0 les d\u00e9terrer et \u00e0 les pr\u00e9server, aussi bien chez eux que dans des universit\u00e9s ou des mus\u00e9es. Cette passion pour le regroupement des vestiges d'une civilisation pass\u00e9e a donn\u00e9 sa raison d'\u00eatre \u00e0 une nouvelle discipline scientifique\u00a0: l'arch\u00e9ologie.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/site_antique|sites_antiques.png",
+        "prereq_tech": {
+            "name": "Arch\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fouilles arch\u00e9ologiques",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/archaeological_dig.json"
+            }
+        ],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/antiquity_site.json"
+    },
+    {
+        "id": 37,
+        "name": "Noix de muscade|Noix de muscade",
+        "game_info": "Appara\u00eet sous forme de ressource de luxe unique dans une ville indon\u00e9sienne.",
+        "historical_info": "Le muscadier est une plante \u00e0 feuilles persistantes originaire des \u00eeles Banda, en Indon\u00e9sie. La noix de muscade fait partie de la culture culinaire de nombreuses civilisations depuis maintenant plusieurs si\u00e8cles. Sur l'\u00eele de Penang, elle est g\u00e9n\u00e9ralement bouillie ou mix\u00e9e pour en faire une boisson. En Inde, elle est utilis\u00e9e pour son c\u00f4t\u00e9 sucr\u00e9e, tandis qu'au Moyen-Orient, on la retrouve plut\u00f4t sous forme d'\u00e9pice dans les plats sal\u00e9s. Mais c'est la d\u00e9couverte, en 1511, de son \u00eele productrice en Indon\u00e9sie, par l'explorateur portugais Albuquerque, qui d\u00e9clencha une v\u00e9ritable ru\u00e9e pour importer cette \u00e9pice sur les tables europ\u00e9ennes.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/noix_de_muscade|noix_de_muscade.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/nutmeg.json"
+    },
+    {
+        "id": 38,
+        "name": "Clou de girofle|Clous de girofle",
+        "game_info": "Appara\u00eet sous forme de ressource de luxe unique dans une ville indon\u00e9sienne.",
+        "historical_info": "Le clou de girofle est le bouton s\u00e9ch\u00e9 de la fleur d'un arbre issu de l'archipel des Moluques du Nord, en Indon\u00e9sie. Cette \u00e9pice aromatique est utilis\u00e9e en cuisine partout dans le monde. Aujourd'hui principalement r\u00e9colt\u00e9 en Indon\u00e9sie, en Inde, au Zanzibar et \u00e0 Madagascar, le clou de girofle a un effet anesth\u00e9siant sur les tissus buccaux et \u00e9tait utilis\u00e9 autrefois comme m\u00e9dicament et comme drogue, en plus de ses qualit\u00e9s gustatives. Avant que le giroflier ne fasse son apparition en dehors de son \u00eele d'origine, la Compagnie hollandaise des Indes orientales profitait d'un monopole virtuel sur cette \u00e9pice\u00a0; dans l'Europe des XVIIe et XVIIIe si\u00e8cles, la demande \u00e9tait telle que le clou de girofle avait quasiment la m\u00eame valeur que l'or.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/clou_de_girofle|clous_de_girofle.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cloves.json"
+    },
+    {
+        "id": 39,
+        "name": "Poivre|Poivres",
+        "game_info": "Appara\u00eet sous forme de ressource de luxe unique dans une ville indon\u00e9sienne.",
+        "historical_info": "C'est sous bien des formes et partout dans le monde que le poivre se cultive et vient assaisonner nos plats depuis des mill\u00e9naires. Ainsi, l'on retrouva dans les narines de Rams\u00e8s II des grains de poivre noir, cette \u00e9pice faisant partie du processus de momification. Le poivre est utilis\u00e9 dans la gastronomie de l'Asie du sud-est depuis le IIe si\u00e8cle av. J.-C., et certaines d\u00e9couvertes arch\u00e9ologiques laissent \u00e0 penser que les Azt\u00e8ques et les Mayas utilisaient \u00e9galement diff\u00e9rents types de piments pour cuisiner. \u00c0 Rome, le poivre \u00e9tait si pris\u00e9 qu'il faisait office de caution pour les pr\u00eats ; ainsi, au Ve si\u00e8cle, Attila exigea une tonne de poivre pour \u00e9pargner la ville. Ce n'est donc pas pour rien que l'on qualifie le poivre de \"reine des \u00e9pices\"\u00a0!",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/poivre|poivres.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/pepper.json"
+    },
+    {
+        "id": 40,
+        "name": "Site antique cach\u00e9",
+        "game_info": "Lorsque vous am\u00e9nagez un site antique cach\u00e9 en fouilles arch\u00e9ologiques, il peut alors produire un artefact \u00e0 exposer dans un emplacement pour chef-d'oeuvre artistique, ou \u00eatre transform\u00e9 en monument. Les sites antiques cach\u00e9s ne sont visibles que par les civilisations ayant d\u00e9couvert toutes les doctrines de la cat\u00e9gorie Exploration.",
+        "historical_info": "Francis Bacon \u00e9crivait en 1605 que \"les antiquit\u00e9s sont une vision d\u00e9grad\u00e9e de l'histoire, ou quelques vestiges d'elle ayant r\u00e9ussi par hasard \u00e0 \u00e9chapper \u00e0 ce naufrage qu'est le temps\". Par d\u00e9finition, une antiquit\u00e9 est un objet du pass\u00e9, quel qu'il soit\u00a0: simple pointe de fl\u00e8che ou v\u00e9ritable tr\u00e9sor artistique. Depuis des g\u00e9n\u00e9rations, l'id\u00e9e m\u00eame qu'une civilisation perdue puisse \u00eatre recompos\u00e9e par l'\u00e9tude m\u00e9thodique de ses reliques et artefacts a pouss\u00e9 les collectionneurs amateurs comme les scientifiques de renom \u00e0 rechercher ses objets, \u00e0 les d\u00e9terrer et \u00e0 les pr\u00e9server, aussi bien chez eux que dans des universit\u00e9s ou des mus\u00e9es. Cette passion pour le regroupement des vestiges d'une civilisation pass\u00e9e a donn\u00e9 sa raison d'\u00eatre \u00e0 une nouvelle discipline scientifique\u00a0: l'arch\u00e9ologie.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/site_antique_cach\u00e9.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fouilles arch\u00e9ologiques",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/archaeological_dig.json"
+            }
+        ],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/hidden_antiquity_site.json"
+    },
+    {
+        "id": 41,
+        "name": "Bison|Bisons",
+        "game_info": null,
+        "historical_info": "Le bison nord-am\u00e9ricain, dont les troupeaux \u00e9taient autrefois tr\u00e8s r\u00e9pandus en Am\u00e9rique du Nord, \u00e9tait pour bien des tribus autochtones une source incontournable de viande, de tendon, de peau et d'os, des \u00e9l\u00e9ments essentiels \u00e0 leur survie. Chass\u00e9 jusqu'\u00e0 extinction quasi totale par les Am\u00e9ricains \u00e0 la fin du XIXe si\u00e8cle, le bison a fait au cours de ces derni\u00e8res d\u00e9cennies un retour fracassant gr\u00e2ce aux programmes de r\u00e9insertion f\u00e9d\u00e9raux et locaux.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bison|bisons.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp|Camps",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Prairie|Prairies",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+            },
+            {
+                "name": "Plaines|Plaine",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bison.json"
+    },
+    {
+        "id": 42,
+        "name": "Cacao",
+        "game_info": null,
+        "historical_info": "Les f\u00e8ves de cacao, qui poussent sur les cacaotiers originaires d'Am\u00e9rique du Sud, \u00e9taient un produit essentiel dans la M\u00e9soam\u00e9rique pr\u00e9colombienne, et tenaient un r\u00f4le majeur dans les cultures tribales. Rapport\u00e9es en Europe par les Espagnols, les f\u00e8ves de cacao y rencontr\u00e8rent un franc succ\u00e8s. D\u00e8s le milieu du XVIIIe si\u00e8cle, elles \u00e9taient tr\u00e8s pris\u00e9es aussi bien sous la forme de boisson que d'ingr\u00e9dient de cuisine, et m\u00eame de m\u00e9dicament.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cacao.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation|Plantations",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cocoa.json"
+    }
+]

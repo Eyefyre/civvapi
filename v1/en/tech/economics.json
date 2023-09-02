@@ -1,0 +1,44 @@
+{
+    "id": 39,
+    "name": "Economics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/economics.png",
+    "era": "Renaissance Era",
+    "cost": 1150,
+    "civilopedia_entry": "Economics is the study of money, or more precisely, the study of \"the production, distribution and consumption of goods and services.\" While in older times goods might have been distributed via barter, for most of the last several thousand years money has been the medium of exchange.Modern economics dates back to 1776, when Scottish philosopher Adam Smith published his seminal work, \"The Wealth of Nations.\" In \"Wealth,\" Smith argues that the free market is the most efficient of all means of assigning values to and distributing goods and services. A totally free market, Smith contends, will naturally produce the right amount of goods at the right price, that any government interference or regulation distorts the market, making it less efficient and more wasteful. Further, Smith was a big believer in self-interest, because when a person pursues his own self-interest, he automatically is promoting the good of society in general. In other words, Smith believes that pure capitalism is the best economic form available to a civilization.Smith's works were not without their detractors, and many later economists have sought to modify his thesis, and some have repudiated them in their entirety. In the 19th century Karl Marx wrote \"Das Kapital: Kritik der politischen Okonomie\" (Capital: A Critique of Political Economy), in which he stated that the driving force of capitalism is the exploitation of labor by employers.Smith is considered the father of modern capitalism, and Marx the father of communism. Their economic heirs have been fighting it out ever since.",
+    "quote": "\"Compound interest is the most powerful force in the universe.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Banking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+        },
+        {
+            "name": "Printing Press",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Scientific Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/scientific_theory.json"
+        },
+        {
+            "name": "Industrialization",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+        },
+        {
+            "name": "Rifling",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Windmill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/windmill.json"
+        },
+        {
+            "name": "Coffee House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/coffee_house.json"
+        }
+    ]
+}

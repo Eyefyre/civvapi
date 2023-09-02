@@ -1,0 +1,51 @@
+{
+    "id": 2,
+    "name": "Jungle",
+    "historical_info": "Dark, forbidding, and deadly to the uninitiated, jungles are a rich source of food to those with the skill and knowledge to live within them. However, jungles do not provide much in the way of materials, and a growing civilization may be tempted to mine them or turn them into cropland. However, military units situated in jungles receive a significant defensive bonus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jungle.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": -1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Bananas",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bananas.json"
+        },
+        {
+            "name": "Gems",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gems.json"
+        },
+        {
+            "name": "Dyes",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+        },
+        {
+            "name": "Spices",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/spices.json"
+        },
+        {
+            "name": "Truffles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+        },
+        {
+            "name": "Cocoa",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cocoa.json"
+        }
+    ]
+}

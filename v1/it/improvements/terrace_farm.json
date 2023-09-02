@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Terrazzamento|un Terrazzamento|un Terrazzamento",
+    "game_info": "L'uso del terrazzamento si \u00e8 sviluppato simultaneamente in diverse aree montagnose in tutto il mondo, tra cui Bali, le Filippine, la Cina e il Per\u00f9. Questi campi lunghi e sottili sono letteralmente tagliati nel fianco di colline e montagne per ricavare terra coltivabile laddove molto spesso non ce n'era affatto. La configurazione a scalini impedisce che l'acqua di irrigazione scorra via. Gli Inca in particolare sono stati maestri della coltivazione a terrazze, sviluppando la costruzione delle mura a secco per puntellarle. Dopo aver dato forma alle terrazze, gli Inca costruivano sistemi di canali e acquedotti per rifornirle costantemente d'acqua, incrementando nettamente la fertilit\u00e0 dei campi. Le tecniche antiche degli Inca ebbero un tale successo che i contadini del Per\u00f9 moderno le utilizzano ancora nelle loro fattorie.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/terrazzamento|un_terrazzamento|un_terrazzamento.png",
+    "nearby_mountain_bonus": {
+        "food": 1
+    },
+    "can_be_built_on": [
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Costruzione|della Costruzione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "The Inca",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/civilizations/the_inca.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

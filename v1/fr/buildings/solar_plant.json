@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Centrale solaire|Centrales solaires",
+    "game_info": "La ville doit se situer pr\u00e8s ou sur une case de d\u00e9sert et ne doit pas poss\u00e9der de centrale nucl\u00e9aire.La ville doit avoir une usine.",
+    "strategy": "B\u00e2timent de fin de jeu, la centrale solaire augmente fortement la production d'une ville. Votre ville doit se trouver sur ou pr\u00e8s d'une case de d\u00e9sert et poss\u00e9der une usine pour que la construction d'une centrale solaire y soit possible.",
+    "historical_info": "Une centrale solaire capte l'\u00e9nergie produite par le soleil avant de la transformer en \u00e9lectricit\u00e9. \u00c9videmment, pour \u00eatre efficaces, les centrales solaires doivent \u00eatre implant\u00e9es dans des zones tr\u00e8s expos\u00e9es \u00e0 la lumi\u00e8re du soleil. L'\u00e9nergie g\u00e9n\u00e9r\u00e9e par le soleil est relativement co\u00fbteuse compar\u00e9e \u00e0 l'\u00e9nergie tir\u00e9e des combustibles fossiles (p\u00e9trole ou charbon). Cependant, la technologie solaire commence \u00e0 se g\u00e9n\u00e9raliser et donc \u00e0 devenir abordable, contrairement aux combustibles fossiles qui se rar\u00e9fient et donc, deviennent plus on\u00e9reux (encore plus si l'on consid\u00e8re le co\u00fbt environnemental des agents polluants qu'ils \u00e9mettent). D\u00e8s lors que cette technologie sera perfectionn\u00e9e, elle permettra de combler une grande partie des besoins \u00e9nerg\u00e9tiques du monde : on estime que la Terre re\u00e7oit du soleil plus de 8000 fois la quantit\u00e9 d'\u00e9nergie d\u00e9pens\u00e9e chaque ann\u00e9e dans le monde.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centrale_solaire|centrales_solaires.png",
+    "prereq_tech": {
+        "name": "\u00c9cologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ecology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

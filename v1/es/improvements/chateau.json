@@ -1,0 +1,49 @@
+{
+    "id": 29,
+    "name": "Chateau|Chateaux",
+    "game_info": "Un ch\u00e2teau es una casa solariega o una casa rural de la aristocracia, normalmente sin fortificar. En la Edad Media, era en su mayor parte autosuficiente, al incluir las heredades del se\u00f1or. En el siglo XVII, los acaudalados y aristocr\u00e1ticos lores franceses poblaron la campi\u00f1a de mansiones elegantes, lujosas y de gran refinamiento arquitect\u00f3nico, como el Ch\u00e2teau de Maisons. Hoy en d\u00eda, el t\u00e9rmino se usa con cierta prodigalidad; por ejemplo, es frecuente que cualquier bodega o taberna, por humilde que sea, acompa\u00f1e su nombre con el t\u00e9rmino \"Ch\u00e2teau\".Un Chateau debe construirse adyacente a un recurso de lujo y no puede estar al lado de otro Chateau. Concede uno m\u00e1s de Oro y 2 de Cultura . Adem\u00e1s, proporciona la misma bonificaci\u00f3n defensiva (+50%) que un Fuerte. Cuando el Vuelo se investigue, la Cultura que produzca aumentar\u00e1 en 1 y el Oro en 2. Debe construirse en territorio franc\u00e9s.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/chateau|chateaux.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "France",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/civilizations/france.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

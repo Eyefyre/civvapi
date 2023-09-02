@@ -1,0 +1,34 @@
+{
+    "id": 6,
+    "name": "Quarry",
+    "game_info": "In common usage a quarry is a place that produces any stone or gravel. In Civilization V quarries boost production from the stone resource and provide access to the marble luxury resource, a highly-valued stone used for construction and artwork.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/quarry.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Marble",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/marble.json"
+        },
+        {
+            "name": "Stone",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/stone.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Masonry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/masonry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

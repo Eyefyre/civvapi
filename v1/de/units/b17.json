@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B-17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Lufteinheit, die Einheiten und St\u00e4dte von oben angreifen kann. Nur die Amerikaner k\u00f6nnen sie bauen. Diese Einheit kann evtl. einem Abfangen entgehen und richtet bei St\u00e4dten noch mehr Sch\u00e4den an als der Bomber, den sie ersetzt.",
+    "historical_info": "Die Boeing B-17 \"Flying Fortress\" war ein schwerer Bomber, der im Zweiten Weltkrieg von den Luftstreitkr\u00e4ften der US Army eingesetzt wurde. Die B-17 war mit vier Motoren und zahlreichen Gesch\u00fctzen ausgestattet und ihre maximale Flugh\u00f6he war \u00fcberragend. Sie war der beliebteste Bomber der US-Luftwaffe, trotz ihrer im Vergleich zur B-24 Liberator relativ geringen Reichweite und Bombenladung. Der Hauptgrund daf\u00fcr war ihre F\u00e4higkeit, die Crew trotz schwerer Sch\u00e4den dennoch wieder sicher zur\u00fcckzubringen.Urspr\u00fcnglich wurde dieser Bomber in riskanten Tageseins\u00e4tzen gegen Ziele in Deutschland eingesetzt und die B-17 erlitt auch schwere Besch\u00e4digungen durch die Flieger der Luftwaffe. Sp\u00e4ter entwickelten die Alliierten Flugzeuge, die die Bomber in feindliches Gebiet begleiten konnten, und so wurden die Angriffe der B-17 erfolgreicher und sie f\u00fcgte so der deutschen Industrie und den deutschen St\u00e4dten betr\u00e4chtlichen Schaden zu.W\u00e4hrend des Zweiten Weltkriegs wurden \u00fcber 12.000 B-17 gebaut und etwa ein Drittel davon wurde abgeschossen.",
+    "strategy": "Der B-17-Bomber ist eine Spezialeinheit der Amerikaner und ersetzt den Bomber. Er ist dem Bomber sehr \u00e4hnlich, jedoch ein schwierigeres Ziel f\u00fcr feindliche Flugabwehr und J\u00e4ger. Die B-17 erh\u00e4lt au\u00dferdem einen Bonus beim Angriff auf feindliche St\u00e4dte. Sie hat dieselbe Reichweite wie der Bomber, also 10 Gel\u00e4ndefelder. Siehe Regeln f\u00fcr Flugzeuge f\u00fcr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ausweichen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/evasion.json"
+        },
+        {
+            "name": "Belagerung I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/siege_i.json"
+        }
+    ]
+}

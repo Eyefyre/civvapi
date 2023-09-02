@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Frachter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Errichtet Handelswege auf dem Wasser zwischen zwei Zivilisationen, die Gold einbringen. Kann auch verwendet werden, um Nahrung oder Produktion innerhalb Eurer Grenzen zu liefern, nachdem Ihr einen Kornspeicher oder eine Werkstatt gebaut habt.",
+    "historical_info": "Frachter sind zum Transport von G\u00fctern und Fracht auf dem Seeweg konzipiert. Es gibt bereits fr\u00fche Aufzeichnungen \u00fcber den Transport von Handelsg\u00fctern \u00fcber Wasser und es existieren arch\u00e4ologische Beweise f\u00fcr seet\u00fcchtige Frachtschiffe auf dem Mittelmeer und dem Roten Meer um den Beginn des ersten Jahrtausends v. Chr. Mit zunehmender L\u00e4nge der Reisen wurden auch die Frachter immer weiter perfektioniert. Zu Beginn des 16. Jahrhunderts waren die portugiesische Nau und die spanische Galleone die K\u00f6niginnen des internationalen Seehandels. Mit dem Industriezeitalter wurde die Geschwindigkeit der Frachter immer wichtiger, was im sp\u00e4ten 19. Jahrhundert in den Klipperschiffen gipfelte. Heute durchqueren Dutzende spezialisierter Frachtschiffe die Ozeane - von Containerschiffen \u00fcber Massengutfrachter bis hin zu riesigen \u00d6ltankern.",
+    "strategy": "Mit einem Frachter k\u00f6nnt Ihr zwischen zwei Zivilisationen einen Handelsweg auf dem Wasser einrichten, was sowohl dem Besitzer als auch der Ziel-Zivilisation Gold einbringt. Au\u00dferdem hat der Frachter eine viel gr\u00f6\u00dfere Reichweite als Karawanen. Wenn Ihr einen Kornspeicher oder eine Werkstatt in der Heimatstadt baut, k\u00f6nnt Ihr auch Nahrung oder Produktion zwischen Euren St\u00e4dten bef\u00f6rdern. Sobald Ihr einen Weg zugewiesen habt, kann sich die Einheit nicht mehr verteidigen, also sorgt daf\u00fcr, dass der Weg frei von Gefahren ist.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

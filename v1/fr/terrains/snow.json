@@ -1,0 +1,40 @@
+{
+    "id": 5,
+    "name": "Neige",
+    "historical_info": "La neige n'a que peu d'utilit\u00e9, puisqu'elle n'am\u00e9liore en rien la production ou la quantit\u00e9 de nourriture d'une ville. Bien s\u00fbr, il se peut toujours qu'une case de neige cache une ressource int\u00e9ressante, mais dans l'absolu, vous n'y trouverez que du froid et de l'aridit\u00e9. Brrrrr.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/neige.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [],
+    "resources": [
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        },
+        {
+            "name": "Pierre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+        },
+        {
+            "name": "Cuivre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+        }
+    ]
+}

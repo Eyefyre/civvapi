@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "Sous-marin|Sous-marins",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Invisible pour toutes les unit\u00e9s \u00e0 l'exception des destroyers, des croiseurs lance-missiles et des autres sous-marins, sauf s'il attaque ou s'il est adjacent \u00e0 une autre unit\u00e9. Il peut causer d'importants d\u00e9g\u00e2ts aux autres navires s'il parvient \u00e0 se mettre \u00e0 port\u00e9e sans \u00eatre vu.",
+    "historical_info": "Les sous-marins pr\u00e9-nucl\u00e9aires \u00e9taient principalement utilis\u00e9s pour des attaques contre les navires commerciaux, le but \u00e9tant de viser la cha\u00eene de ravitaillement ennemie. Les sous-marins des ann\u00e9es 1940 \u00e9taient \u00e9quip\u00e9s de torpilles \u00e0 l'avant et \u00e0 l'arri\u00e8re, et parfois d'un petit canon de pont capable de faire couler un navire marchand... tant qu'il n'y avait pas de riposte.Sauf exception, les sous-marins ne cherchaient pas \u00e0 combattre les vaisseaux ennemis, ils se contentaient de couler les navires marchands puis de se retirer avant que les bateaux ou avions ennemis ne les rep\u00e8rent, car ils avaient peu de chance de s'en sortir face \u00e0 un destroyer. Au cours des deux guerres mondiales, les \"U-Boats\" allemands ont quasiment r\u00e9ussi \u00e0 soumettre la Grande-Bretagne en bloquant son approvisionnement en vivres, avec 11 millions de tonnes de cargaison coul\u00e9es au cours de la Premi\u00e8re Guerre mondiale et 14 millions au cours de la Deuxi\u00e8me Guerre mondiale (au prix de pr\u00e8s de 1000 U-Boats d\u00e9truits).",
+    "strategy": "Le sous-marin est sp\u00e9cialis\u00e9 dans l'extermination de navires. Il est invisible pour la plupart des unit\u00e9s (\u00e0 l'exception des destroyers, des croiseurs lance-missiles et des autres sous-marins) sauf s'il ouvre le feu ou s'il est adjacent \u00e0 une autre unit\u00e9. Le sous-marin peut p\u00e9n\u00e9trer sur les cases de glace. Utilisez les sous-marins pour patrouiller dans les eaux territoriales ennemies, couler les navires de vos rivaux et prot\u00e9ger vos propres navires des sous-marins adverses.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "R\u00e9frig\u00e9ration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Est invisible (sous-marin)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Peut voir les sous-marins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Peut p\u00e9n\u00e9trer sur les cases de glace",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus en cas d'attaque (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

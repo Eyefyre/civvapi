@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Verbrennungsmotor",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "Moderne",
+    "cost": 4100,
+    "civilopedia_entry": "\"Verbrennung\" ist eine chemische Reaktion zwischen Substanzen, eine davon meist Sauerstoff, die h\u00e4ufig die Entwicklung von Licht- und W\u00e4rmeenergie zur Folge hat. In diesem Zusammenhang sprechen wir insbesondere \u00fcber die Verwendung von Verbrennung innerhalb eines Motors (daher \"innere Verbrennung\"), um Energie zu erzeugen, die eine Kurbel oder einen Kolben bewegt.Es gibt zwei verschiedene Arten von Verbrennungskraftmaschinen: Verbrennungsmotoren und Str\u00f6mungsmaschinen. Bei einem Verbrennungsmotor wird eine bestimmte Menge an Treibstoff und Sauerstoff in den Brennraum eingespritzt, wo sich das Gemisch entz\u00fcndet und einen Kolben oder ein \u00e4hnliches mechanisches Ger\u00e4t bewegt. Anschlie\u00dfend wird erneut eine separate Menge an Treibstoff und Sauerstoff eingespritzt und der gesamte Prozess wiederholt sich. Automotoren sind Beispiele f\u00fcr Verbrennungsmotoren. In einer Str\u00f6mungsmaschine wird unter kontinuierlicher Verbrennung ein st\u00e4ndiger Strom aus Treibstoff und Sauerstoff in den Motor gespritzt. D\u00fcsentriebwerke werden mit Str\u00f6mungsmaschinen betrieben.Das erste Patent f\u00fcr eine Verbrennungskraftmaschine wurde dem Engl\u00e4nder Samuel Brown 1823 f\u00fcr seinen \"Gasmotor\" gegeben, der mit Wasserstoff und Sauerstoff betrieben wurde. Das erste Patent f\u00fcr den Gebrauch eines D\u00fcsentriebwerks, um ein Flugzeug anzutreiben, wurde 1921 von dem Franzosen Maxime Guillaume eingereicht. Keiner dieser ersten Versuche war sehr erfolgreich, aber sie haben den Weg f\u00fcr Technologien bereitet, welche die Welt bis zum heutigen Tag sowie in absehbarer Zukunft am Laufen halten.",
+    "quote": "\"Jeder Mann, der sicher fahren kann, w\u00e4hrend er eine sch\u00f6ne Frau k\u00fcsst, schenkt dem Kuss einfach nicht die Aufmerksamkeit, die er verdient.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Eisenbahn",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Verbundene Waffen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Zerst\u00f6rer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/destroyer.json"
+        },
+        {
+            "name": "Landfahrzeug",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,44 @@
+{
+    "id": 50,
+    "name": "Dampfmaschine",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steam_power.png",
+    "era": "Industriezeitalter",
+    "cost": 2350,
+    "civilopedia_entry": "Wenn Wasser erhitzt wird, entsteht Dampf. In einer Dampfmaschine wird ein Teil der W\u00e4rmeenergie genutzt, um einen Kolben oder einen Rotor anzutreiben. Das Prinzip hinter der Dampfkraft war schon den alten Griechen bekannt, aber bis zum sp\u00e4ten 17. Jahrhundert hatte niemand das Prinzip praktisch nutzbar gemacht. Zu dem Zeitpunkt baute der Engl\u00e4nder Thomas Savery eine dampfbetriebene Pumpe, die Wasser aus Minen f\u00f6rdern sollte. 1765 verbesserte James Watt die Dampfmaschine so weit, dass sie f\u00fcr eine Vielzahl von Arbeiten eingesetzt werden konnte. Ab 1802 wurden Dampfmaschinen in Schiffen eingebaut und ab 1825 gab es dampfbetriebene Eisenbahnen.Die Dampfkraft revolutionierte die Industrie und das Transportwesen auf der ganzen Welt. Innerhalb eines Jahrhunderts war der Globus von Schienentrassen und Dampfschiffrouten \u00fcberzogen. Gigantische dampfbetriebene Fabriken produzierten Millionen Tonnen Handelswaren (und milit\u00e4rische Ausr\u00fcstung). Die Industrienationen verzeichneten einen enormen Anstieg an Produktivit\u00e4t und Wohlstand (und Umweltverschmutzung). Kohle, die haupts\u00e4chlich genutzte Energiequelle f\u00fcr Dampfmaschinen, wurde auf dem gesamten Planeten emsig gef\u00f6rdert. Ein Hauptaugenmerk bei der Milit\u00e4rstrategie Gro\u00dfbritanniens lag auf der Bereitstellung und Sicherung mariner Kohlestationen an strategisch sinnvollen Positionen in den Weltmeeren.Mit der Zeit wurden Dampfmaschinen von Verbrennungsmotoren verdr\u00e4ngt, die weit effizienter waren und weniger Schadstoffe produzierten. Doch vor dem Erd\u00f6l war Dampf die Energie, die die moderne Welt, wie sie heute existiert, erschaffen hat.",
+    "quote": "\"Die Nationen des Westens hoffen, dass durch den Dampfverkehr die ganze Welt zu einer Familie wird.\" - Townsend Harris",
+    "tech_prereqs": [
+        {
+            "name": "Drall",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+        },
+        {
+            "name": "Industrialisierung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+        },
+        {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Normbauteile",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Eisenbahn",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/railroad.json"
+        },
+        {
+            "name": "Luftfahrt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/flight.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Panzerschiff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ironclad.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserk|Berserker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Una poderosa unidad terrestre de primera l\u00ednea de la Edad Media especializada en atacar desde el mar. Solo la puede construir Dinamarca. Sustituye al Soldado con espada larga, pero est\u00e1 disponible antes.",
+    "historical_info": "Como miembros del Gran Ej\u00e9rcito Pagano, los berserker eran una de las unidades m\u00e1s temidas de finales del siglo IX. Este gran ej\u00e9rcito vikingo de guerreros y marinos se form\u00f3 durante una serie de ataques contra Par\u00eds y Ru\u00e1n entre los a\u00f1os 845 y 850 d.C., donde aumentaron su n\u00famero y refinaron sus t\u00e1cticas. En el 865, el ej\u00e9rcito desembarc\u00f3 en la costa oriental de las Islas Brit\u00e1nicas con la aspiraci\u00f3n de conquistar todas esas tierras para establecerse. Tan solo un a\u00f1o despu\u00e9s, ya hab\u00edan conquistado el reino de Nortumbria, y el de Anglia oriental caer\u00eda en el 870. Mercia los sigui\u00f3 en el 874. Los colonos que viajaban con el gran ej\u00e9rcito fundaron el reino de York desde las cenizas. Finalmente, cayeron derrotados en el 878, pero los supervivientes se afincaron permanentemente en Anglia oriental, Essex y Mercia.",
+    "strategy": "El Berserk (berserker, en plural) es una de las dos unidades exclusivas danesas y sustituye al Soldado con espada larga. Comparado con \u00e9ste, el Berserk tiene +1 al Movimiento [ICON_MOVES] y cuenta con el ascenso de Anfibia, lo que le permite atacar a tierra desde una casilla de Costa sin penalizaci\u00f3n. Disponible tras investigar Vaciado del metal en vez de Acero.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Vaciado del metal",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Anfibia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/amphibious.json"
+        }
+    ]
+}

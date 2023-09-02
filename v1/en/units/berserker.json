@@ -1,0 +1,23 @@
+{
+    "id": 91,
+    "name": "Berserker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berserker.png",
+    "game_info": "Strong, front-line land Unit of the Medieval Era that specializes in attacks from the sea. Only Denmark may build it. Replaces the Longswordsman, but is available earlier.",
+    "historical_info": "As a member of the Great Heathen Army, the berserker was one of the most feared units of the late 9th century. This large Viking army of berserkers, warriors, and mariners was formed over a series of attacks on Paris and Rouen from 845- 850 AD, where they bolstered their numbers and refined their tactics. In 865, the army landed on the eastern shores of the British Isles, with the aspiration to conquer the entire island for settlement. Only one year later, it conquered the Kingdom of Northumbria, with the Kingdom of East Anglia falling in 870. Mercia followed in 874. The settlers who traveled with the great army founded the Kingdom of York from the rubble. The army was eventually defeated in 878, but its remaining members took up permanent residence in East Anglia, Essex, and Mercia.",
+    "strategy": "The Berserker is one of two Danish Unique Units, replacing the Longswordsman. This Unit is +1 Movement [ICON_MOVES] compared to the Longswordsman and possesses the Amphibious promotion, allowing it to attack onto land from a Coast tile with no penalty. Available after researching Metal Casting instead of Steel.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Metal Casting",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibious",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/amphibious.json"
+        }
+    ]
+}

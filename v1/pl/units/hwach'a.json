@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "Hwacha|Hwachy|Hwasze|Hwach\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hwach'a.png",
+    "game_info": "Przeciwpiechotna jednostka rakietowa z epoki \u015bredniowiecza. Silna przeciwko jednostkom l\u0105dowym, ale s\u0142aba w walce z miastami. Mo\u017ce j\u0105 budowa\u0107 tylko Korea. Zast\u0119puje trebusz.",
+    "historical_info": "Hwacha to legendarna korea\u0144ska bro\u0144 przeciwpiechotna. By\u0142o to b\u0142yskotliwe udoskonalenie wczesnej broni prochowej, stworzone w XV w. pod kierownictwem kr\u00f3la Sedzonga Wielkiego. Hwacha sk\u0142ada\u0142a si\u0119 z du\u017cego, dwuko\u0142owego w\u00f3zka zabudowanego bateri\u0105 na zasadzie podobnej jak we wsp\u00f3\u0142czesnej artylerii rakietowej, zdolnej pomie\u015bci\u0107 setki ma\u0142ych, nap\u0119dzanych prochem strza\u0142. Lekka waga tych prymitywnych rakiet znanych jako \u201eSingijeon\u201d zapewnia\u0142a hwachy kluczow\u0105 przewag\u0119 nad tradycyjnymi dzia\u0142ami: manewrowo\u015b\u0107. Hwacha odegra\u0142a znacz\u0105c\u0105 rol\u0119 w obronie Korei przed Japo\u0144czykami w XVI w.",
+    "strategy": "Hwacha jest niezwykle skuteczna przeciwko nieprzyjacielskim jednostkom naziemnym. Ze wzgl\u0119du na powolno\u015b\u0107 oraz podatno\u015b\u0107 na nieprzyjacielskie ataki bezpo\u015brednie, zawsze powinna mie\u0107 wsparcie innych jednostek. Hwacha musi zosta\u0107 \u201erozstawiona\u201d (1 punkt ruchu), zanim rozpocznie atak.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Fizyka|Fizyki|Fizyce|Fizyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        }
+    ]
+}

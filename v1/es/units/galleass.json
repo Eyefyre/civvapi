@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Galeaza|Galeazas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "Unidad naval de la Edad Media que se utiliza para hacerse con el control de los mares con su ataque a distancia.",
+    "historical_info": "La galeaza fue un tipo de embarcaci\u00f3n de guerra cuya popularidad se dispar\u00f3 durante el siglo XVI. Los dise\u00f1os de la galera tradicional se modificaron para dotarla de armas m\u00e1s pesadas. Una galeaza t\u00edpica comenzaba su andadura como un barco mercante de remos, que luego se mejoraba con m\u00e1stiles para velas. Estas dos formas de propulsi\u00f3n y el dise\u00f1o de las galeazas permit\u00edan a los barcos conservar casi toda la velocidad por la que las galeras eran famosas y a la vez transportar las armas pesadas con las que rechazaban a los enemigos.",
+    "strategy": "La Galeaza es la primera unidad naval con un ataque a distancia que est\u00e1 disponible generalmente para las civilizaciones en el juego. Es mucho m\u00e1s fuerte que las unidades navales anteriores, pero tambi\u00e9n algo m\u00e1s lenta. No puede iniciar un combate cuerpo a cuerpo. La Galeaza es \u00fatil para acabar con las naves enemigas en aguas poco profundas. No puede adentrarse en casillas de aguas oce\u00e1nicas profundas a menos que sea de Polinesia.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Br\u00fajula",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

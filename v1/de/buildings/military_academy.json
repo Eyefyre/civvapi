@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Milit\u00e4rakademie",
+    "game_info": "+15 EP f\u00fcr alle Einheiten.Stadt ben\u00f6tigt eine Waffenkammer.",
+    "strategy": "Die Milit\u00e4rakademie ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das die Anzahl der Erfahrungspunkte von Einheiten erh\u00f6ht, die in der Stadt gebaut werden. Die Stadt muss bereits \u00fcber eine Waffenkammer verf\u00fcgen, bevor die Milit\u00e4rakademie gebaut werden kann.",
+    "historical_info": "Eine Milit\u00e4rakademie ist eine Einrichtung f\u00fcr weiterf\u00fchrende Bildung, die sich auf die Ausbildung der Offiziere eines Landes konzentriert. Milit\u00e4rakademien bieten die beste Bildung in Verbindung mit einem strikten Training und Kursen in Kommandof\u00fchrung, Strategie, Logistik und anderen milit\u00e4rischen Bereichen. Im Allgemeinen werden die besten und kl\u00fcgsten Kinder eines Landes in einer Milit\u00e4rakademie aufgenommen - oder zumindest die mit den besten Verbindungen.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/milit\u00e4rakademie.png",
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

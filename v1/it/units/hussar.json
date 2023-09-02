@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "name": "Ussaro|un Ussaro|dal tuo Ussaro|al tuo Ussaro|il tuo Ussaro|da un Ussaro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hussar.png",
+    "game_info": "Una veloce unit\u00e0 a cavallo usata per la ricognizione e per attacchi rapidi e imprevisti. Particolarmente letale quando attacca con accerchiamento. Solo gli austriaci possono costruirla.",
+    "historical_info": "Gli ussari, la temibile cavalleria leggera ungherese, prendono il nome dal termine latino \"cursarius\", che significa \"incursore\". Gli ussari servirono l'Austria e l'impero asburgico per tutto il XVII e XVIII secolo. Imitati ma mai eguagliati dalle unit\u00e0 di cavalleria di tutta Europa, gli ussari formavano un reggimento irregolare di cavalieri provetti che si affidavano a tattiche imprevedibili, attaccando e ritirandosi prima che il nemico potesse organizzare una difesa. Con il tempo l'unit\u00e0 si formalizz\u00f2: le reclute dovevano soddisfare precisi requisiti, che riguardavano il cavaliere ma anche il cavallo. I reggimenti di ussari furono ampiamente utilizzati durante le guerre napoleoniche, servendo gli eserciti in Europa e Asia fino al XIX secolo inoltrato.",
+    "strategy": "Gli Ussari sono ottimi per la ricognizione e l'attacco sui fianchi. Sono leggermente pi\u00f9 veloci della Cavalleria che sostituiscono. Inoltre entrano in gioco gi\u00e0 muniti di promozioni che aumentano di 1 casella il raggio visivo e del 50% il bonus all'attacco con accerchiamento.",
+    "movement": 5,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Scienza militare|della Scienza militare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Bonus di accerchiamento potenziato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/enhanced_flank_attack.json"
+        }
+    ]
+}

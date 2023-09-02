@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "\u6f01\u8239",
+    "game_info": "\u6f01\u8239\u4f7f\u6587\u660e\u5f97\u4ee5\u7372\u53d6\u8cb4\u91cd\u7684\u8783\u87f9\u3001\u9b5a\u7fa4\u3001\u9be8\u9b5a\u53ca\u73cd\u73e0\u7b49\u8cc7\u6e90\u3002\u5efa\u9020\u6f01\u8239\u4e4b\u524d\uff0c\u73a9\u5bb6\u5fc5\u9808\u5728\u6cbf\u6d77\u57ce\u5e02\u4e2d\u751f\u7522\u4e00\u8258\u5de5\u4f5c\u8239\uff08\u5728\u6587\u660e\u64c1\u6709\u76f8\u61c9\u79d1\u6280\u5f8c\uff09\u3002\u5efa\u9020\u6f01\u8239\u5c07\u6d88\u8017\u5de5\u4f5c\u8239\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u6f01\u8239.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "\u9b5a\u7fa4",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/fish.json"
+        },
+        {
+            "name": "\u9be8\u9b5a",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/whales.json"
+        },
+        {
+            "name": "\u73cd\u73e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/pearls.json"
+        },
+        {
+            "name": "\u8783\u87f9",
+            "url": "https://eyefyre.github.io/civvapi/v1/zh/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "\u822a\u6d77",
+        "url": "https://eyefyre.github.io/civvapi/v1/zh/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

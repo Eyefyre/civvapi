@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Caravane|Caravanes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Cette unit\u00e9 \u00e9tablit entre deux civilisations des routes commerciales terrestres qui produisent de l' or. En construisant un grenier ou un atelier, elle peut \u00e9galement \u00eatre utilis\u00e9e pour faire transiter de la nourriture ou de la production \u00e0 l'int\u00e9rieur de vos fronti\u00e8res.",
+    "historical_info": "Depuis toujours, les marchands utilisent les b\u00eates de charge, depuis les chevaux et les mules jusqu'aux chameaux et aux lamas, pour les \u00e9changes commerciaux de longue distance. La premi\u00e8re mention faite des caravanes remonte \u00e0 l'an 1000\u00a0av. J.-C. lorsque les chameaux transportaient des pierres pr\u00e9cieuses, des m\u00e9taux pr\u00e9cieux, de l'encens et des \u00e9pices vers la c\u00f4te occidentale de l'Arabie, reliant ainsi l'Inde avec l'\u00c9gypte, la Ph\u00e9nicie et les empires m\u00e9sopotamiens. De nombreuses routes caravani\u00e8res, telle que la fameuse route de la soie entre la Chine et le Moyen-Orient, ont fa\u00e7onn\u00e9 l'histoire aussi s\u00fbrement que les guerres et les croyances. Bien que largement remplac\u00e9es par des v\u00e9hicules \u00e0 moteur, les caravanes servent encore de moyen de transport aujourd'hui, notamment sur des terrains inhospitaliers comme les fronti\u00e8res des d\u00e9serts du Sahara et de Gobi.",
+    "strategy": "La caravane vous permet d'\u00e9tablir une route commerciale terrestre entre deux civilisations. Celle-ci rapporte de l' or aussi bien \u00e0 son propri\u00e9taire qu'\u00e0 sa civilisation de destination. La construction d'un grenier ou d'un atelier dans sa cit\u00e9 d'origine vous permet par ailleurs d'envoyer de la nourriture ou de la production dans les villes vous appartenant. Une fois assign\u00e9e \u00e0 une route, la caravane ne peut pas se d\u00e9fendre seule, vous devez donc veiller \u00e0 ce que la voie soit exempte de menaces.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u00c9levage",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": 28,
+    "name": "Feitoria",
+    "game_info": "Eine Feitoria - portugiesisch f\u00fcr \"Fabrik\" - war ein Handelsposten, der im Mittelalter in fremden Gebieten errichtet wurde. Sie diente zudem als Marktplatz, Lagerhaus, Siedlung und Ausgangspunkt f\u00fcr Erkundungen. Feitorias waren Privatunternehmen, die h\u00e4ufig durch ein Darlehen der portugiesischen Krone finanziert wurden und ihre Schulden zur\u00fcckzahlten, indem sie G\u00fcter f\u00fcr die Krone ein- und verkauften und Steuern auf Handelsg\u00fcter erhoben, die ihre Tore passierten. Im 15. und 16. Jahrhundert wurde eine Kette von mehr als 50 Feitorias entlang der K\u00fcsten von West- und Ostafrika, Indien, der Malaiischen Halbinsel sowie von China und Japan gebaut. Die Feitorias erm\u00f6glichten es Portugal, die Handelsrouten des Atlantischen und Indischen Ozeans drei Jahrhunderte lang zu beherrschen.Eine Feitoria kann nur auf einem K\u00fcsten-Gel\u00e4ndefeld ohne Ressource gebaut werden, das im Gebiet eines Stadtstaats liegt. Sie liefert Euch jede Art von Luxusgut einmal, zu der dieser Stadtstaat Zugang hat, unabh\u00e4ngig von Eurem Status mit diesem Stadtstaat, aber mit diesen kann nicht gehandelt werden. Zudem erh\u00e4lt sie den gleichen +50%igen Verteidigungsbonus wie ein Fort. Kann nur von den Portugiesen gebaut werden.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/feitoria.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+    },
+    "required_civ": {
+        "name": "Portugal",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/civilizations/portugal.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

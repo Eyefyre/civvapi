@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Puerto|Puertos",
+    "game_info": "Forma una conexi\u00f3n [ICON_CONNECTED] entre ciudades con la capital por el agua (si no est\u00e1n conectadas [ICON_CONNECTED] ya por tierra). Las rutas comerciales mar\u00edtimas que se originen en esta ciudad tienen un 50% m\u00e1s de alcance y producen 1 de Oro m\u00e1s cuando se comunican con otra civilizaci\u00f3n.La ciudad debe construirse en la costa.",
+    "strategy": "El Puerto es un edificio de la Edad Media. Aumenta el alcance y la producci\u00f3n de Oro de las rutas comerciales mar\u00edtimas. Tambi\u00e9n permite establecer \"comunicaciones por agua entre ciudades\" (consulta las reglas). El Puerto tambi\u00e9n aumenta el r\u00e9gimen de Producci\u00f3n de los recursos marinos mejorados.",
+    "historical_info": "El puerto consiste en una masa de agua resguardada que ofrece protecci\u00f3n frente a los elementos a los barcos anclados en su interior. Aunque existen algunos puertos naturales, la mayor\u00eda han sido dragados o han requerido la construcci\u00f3n de rompeolas, protecciones contra el viento, etc. Adem\u00e1s, los puertos tambi\u00e9n poseen muelles y embarcaderos para la carga y descarga de mercanc\u00edas, as\u00ed como almacenes para depositarlas.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/puerto|puertos.png",
+    "prereq_tech": {
+        "name": "Br\u00fajula",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

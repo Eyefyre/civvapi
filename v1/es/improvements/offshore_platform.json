@@ -1,0 +1,30 @@
+{
+    "id": 14,
+    "name": "Plataforma petrol\u00edfera|Plataformas petrol\u00edferas",
+    "game_info": "La plataforma petrol\u00edfera es una mejora importante de las \u00faltimas fases del juego, ya que da acceso al preciad\u00edsimo recurso del petr\u00f3leo, pero solo cuando \u00e9ste se encuentre en el oc\u00e9ano (los trabajadores construyen pozos para acceder al que se encuentra en tierra). Cuando se construye una plataforma petrol\u00edfera, los barcos faeneros se consumen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plataforma_petrol\u00edfera|plataformas_petrol\u00edferas.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Refrigeraci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

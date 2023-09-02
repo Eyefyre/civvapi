@@ -1,0 +1,33 @@
+{
+    "id": 28,
+    "name": "Incienso",
+    "game_info": null,
+    "historical_info": "El incienso es un material creado para quemar lentamente a la vez que desprende un humo arom\u00e1tico. A menudo se utiliza en ceremonias religiosas y algunos creen que tiene tambi\u00e9n poderes curativos. Su uso se remonta a hace miles de a\u00f1os. Es posible que se originara en el Oriente Medio, probablemente en Egipto Los faraones no solo lo usaban para tapar el olor de los mugrientos plebeyos, tambi\u00e9n para ahuyentar a los demonios y complacer a los dioses. Se han utilizado una gran variedad de materiales para hacer incienso: alcanfor, ol\u00edbano, mirra, s\u00e1ndalo, clavo, lavanda, almizcle y otros materiales ex\u00f3ticos. Se ha empleado mucho en la medicina tradicional oriental, y en Occidente est\u00e1 experimentando un auge con la llamada \"aromaterapia\" que, aunque de dudosa eficacia, al menos hace que el paciente huela bien.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/incienso.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantaci\u00f3n|Plantaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        }
+    ]
+}

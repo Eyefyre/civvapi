@@ -1,0 +1,27 @@
+{
+    "id": 131,
+    "name": "Pathfinder",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pathfinder.png",
+    "game_info": "Excellent at exploring and fearsome in combat, this Shoshone Unique Unit replaces the Scout. It possesses a promotion that allows it to choose the benefit when uncovering an ancient ruin.",
+    "historical_info": "Among the Native American tribes of the Great Plains and Rocky Mountains, some members were trusted as superior scouts, relied upon to carry out critical duties for the nomads. Called by a variety of titles, these \"pathfinders\" tracked game and enemies, scouted routes for migration, spied on foes and interlopers, and protected the winter encampments. So skilled were they that the armies of the major powers hired them as scouts and advisors, beginning as early as the Pequot War (1637-1638 AD) when the English colonists of Massachusetts Bay were aided by scouts of the Narragansett and Mohegan tribes. However, with the end of the frontier and the confinement of Native American tribes to reservations, the role of the pathfinder faded.",
+    "strategy": "The Pathfinder is the Scout replacement, and only the Shoshone may build it. It explores as well as a Scout and fights almost as well as a Warrior. It allows the player to choose the benefit when uncovering an ancient ruin. Costs more than a Scout.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Native Tongue",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/native_tongue.json"
+        },
+        {
+            "name": "Ignores Terrain Cost",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

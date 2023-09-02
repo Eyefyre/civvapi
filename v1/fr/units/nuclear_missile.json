@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Missile nucl\u00e9aire|Missiles nucl\u00e9aires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Lib\u00e8re l'enfer nucl\u00e9aire sur vos ennemis. Inflige des d\u00e9g\u00e2ts incroyables aux villes et d\u00e9truit toute unit\u00e9 pr\u00e9sente dans le rayon de l'explosion.N\u00e9cessite le Projet Manhattan et deux ressources d'uranium.",
+    "historical_info": "Les missiles nucl\u00e9aires disposent d'une ou plusieurs t\u00eates nucl\u00e9aires contenant des bombes d'hydrog\u00e8ne, chacune pouvant faire exploser une ville enti\u00e8re. Ils sont capables de transporter leur chargement mortel sur des milliers de kilom\u00e8tres. Ces missiles sont sans aucun doute les armes les plus mortelles et les plus d\u00e9vastatrices jamais cr\u00e9\u00e9es. Aujourd'hui, il n'existe aucune d\u00e9fense contre des missiles nucl\u00e9aires qui, une fois lanc\u00e9s, rasent automatiquement la ville cible. En plus des d\u00e9g\u00e2ts imm\u00e9diats caus\u00e9s par l'explosion, les r\u00e9sidus nucl\u00e9aires contaminent la terre, l'eau et l'air de la zone pour plusieurs dizaines d'ann\u00e9es. Le vent peut emporter les radiations sur plusieurs kilom\u00e8tres, contaminant ainsi des terres et affectant des populations sur tout un continent. Il est peu rationnel d'utiliser cette arme sur un ennemi qui vit sur la m\u00eame plan\u00e8te, \u00e0 moins que ce ne soit pour l'emp\u00eacher de se servir de cette m\u00eame arme contre vous.",
+    "strategy": "Le missile nucl\u00e9aire est une version am\u00e9lior\u00e9e de la bombe atomique. Il peut \u00eatre plac\u00e9 dans une ville sous votre contr\u00f4le ou \u00e0 bord d'un sous-marin nucl\u00e9aire ou d'un croiseur lance-missiles. Il peut se d\u00e9placer de base en base ou attaquer une cible situ\u00e9e dans un rayon de 12\u00a0cases. Lorsqu'il explose, le missile nucl\u00e9aire endommage, voire annihile, unit\u00e9s et villes dans un rayon de 2 cases. Apr\u00e8s son attaque, le missile nucl\u00e9aire est d\u00e9truit. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux armes nucl\u00e9aires.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistique avanc\u00e9e",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Esquive (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/evasion_(50).json"
+        }
+    ]
+}

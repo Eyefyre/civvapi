@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Tumba|Tumbas",
+    "game_info": "No requiere mantenimiento en Oro .Si captura esta ciudad, se doblar\u00e1 la cantidad de Oro saqueada por el enemigo.",
+    "strategy": "La Tumba es un edificio de la \u00c9poca Cl\u00e1sica que aumenta la Felicidad de la ciudad y no le cuesta mantenimiento. No obstante, si una civilizaci\u00f3n enemiga captura la ciudad, ganar\u00e1 el doble del oro que ganar\u00eda si no tuviera una Tumba. Este edificio sustituye al Templo.",
+    "historical_info": "Los egipcios elevaron la adoraci\u00f3n de los antepasados a cotas nunca vistas, y gran parte de la riqueza de esta civilizaci\u00f3n y de su creatividad se invirti\u00f3 en la construcci\u00f3n de tumbas para sus allegados muertos. Muchas de ellas se pueden encontrar en el Valle de los Reyes, en la orilla occidental de Tebas. Estas tumbas sol\u00edan llenarse con parte de la fortuna del difunto, lo que las convirti\u00f3 en suculentas presas para los ladrones de tumbas de todos los tiempos.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tumba|tumbas.png",
+    "prereq_tech": {
+        "name": "Filosof\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Commissariat|Commissariats",
+    "game_info": "R\u00e9duit la vitesse de vol des espions ennemis de 25%. La ville doit poss\u00e9der une gendarmerie.",
+    "strategy": "Les commissariats ralentissent la vitesse de vol des technologies des espions ennemis dans votre ville. La ville doit d\u00e9j\u00e0 poss\u00e9der une gendarmerie pour pouvoir accueillir un commissariat.",
+    "historical_info": "Un commissariat est le centre des op\u00e9rations de la police et des inspecteurs locaux. On y trouve le plus souvent des bureaux, ainsi que quelques cellules, des salles d'interrogatoire et un espace de stockage pour les preuves. Dans certaines r\u00e9gions, un bureau central de plus grande taille peut regrouper la plupart de ces lieux, tandis que de petites annexes font office de postes principaux pour les d\u00e9partements de police locaux.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/commissariat|commissariats.png",
+    "prereq_tech": {
+        "name": "\u00c9lectricit\u00e9",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

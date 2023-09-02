@@ -1,0 +1,35 @@
+{
+    "id": 22,
+    "name": "D\u00fcsenj\u00e4ger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jet_fighter.png",
+    "game_info": "Lufteinheit f\u00fcr die Vorherrschaft in der Luft und das Abfangen feindlicher Flugzeuge.",
+    "historical_info": "Der D\u00fcsenj\u00e4ger spielt eine recht \u00e4hnliche Rolle wie sein Vorg\u00e4nger, der propellerbetriebene J\u00e4ger im Zweiten Weltkrieg, aber es gibt gro\u00dfe Unterschiede in Sachen St\u00e4rke, Panzerung, Bewaffnung sowie Computer- und Kommunikationsausr\u00fcstung der Flugzeuge. Das beste Flugzeug im Zweiten Weltkrieg konnte h\u00f6chstens etwa 640 Kilometer pro Stunde zur\u00fccklegen, w\u00e4hrend ein moderner D\u00fcsenj\u00e4ger dreimal so schnell fliegen kann. Ein Flugzeug aus dem Zweiten Weltkrieg konnte ein oder zwei Maschinengewehre und vermutlich ein oder zwei Bomben bef\u00f6rdern. Ein moderner J\u00e4ger kann eine 20mm-Gatling-Kanone, zehn oder mehr Luft-Luft-Raketen und Dutzende verschiedener Raketen bef\u00f6rdern. Er ist mit hochentwickelten Computern, Radar und Kommunikationsausr\u00fcstung ausgestattet, die s\u00e4mtliche zuvor verf\u00fcgbare M\u00f6glichkeiten \u00fcbertreffen. Wie jedes andere Flugzeug sind D\u00fcsenj\u00e4ger ein Ziel f\u00fcr Boden-Luft-Raketen, aber ihre gr\u00f6\u00dfte Bedrohung sind feindliche J\u00e4ger. Die Seite, die in der Luft die Oberhand gewinnt, hat im Kampf einen fast unschlagbaren Vorteil.",
+    "strategy": "Der D\u00fcsenj\u00e4ger ist eine m\u00e4chtige Lufteinheit. Er kann in jeder Stadt des Spielers oder an Bord eines Flugzeugtr\u00e4gers stationiert sein. Er kann von St\u00fctzpunkt zu St\u00fctzpunkt verlegt werden und Missionen mit einer Reichweite von 10 Gel\u00e4ndefeldern fliegen. D\u00fcsenj\u00e4ger sind besonders n\u00fctzlich, um feindliche Luft- und Bodeneinheiten anzugreifen, feindliche Positionen auszusp\u00e4hen und feindliche Luftangriffe abzuwehren. Besonders im Kampf gegen Hubschrauber kann der D\u00fcsenj\u00e4ger punkten. Mit seiner F\u00e4higkeit \"Luftaufkl\u00e4rung\" kann er jedes Gel\u00e4ndefeld im Umkreis von 6 Feldern ab dem Startort zu Beginn der Runde sehen. Siehe Regeln f\u00fcr Flugzeuge f\u00fcr weitere Informationen.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Lasertechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Luftraums\u00e4uberung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_sweep.json"
+        },
+        {
+            "name": "Luftaufkl\u00e4rung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus gg. Bomber/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

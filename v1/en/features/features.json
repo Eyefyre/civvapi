@@ -1,0 +1,561 @@
+[
+    {
+        "id": 1,
+        "name": "Ice",
+        "historical_info": "Ice is impassable, except to air and submarine units. It provides nothing to cities.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/ice.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/ice.json"
+    },
+    {
+        "id": 2,
+        "name": "Jungle",
+        "historical_info": "Dark, forbidding, and deadly to the uninitiated, jungles are a rich source of food to those with the skill and knowledge to live within them. However, jungles do not provide much in the way of materials, and a growing civilization may be tempted to mine them or turn them into cropland. However, military units situated in jungles receive a significant defensive bonus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jungle.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": -1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Oil",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+            },
+            {
+                "name": "Bananas",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bananas.json"
+            },
+            {
+                "name": "Gems",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gems.json"
+            },
+            {
+                "name": "Dyes",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+            },
+            {
+                "name": "Spices",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/spices.json"
+            },
+            {
+                "name": "Truffles",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+            },
+            {
+                "name": "Cocoa",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cocoa.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+    },
+    {
+        "id": 3,
+        "name": "Marsh",
+        "historical_info": "Although rich in biodiversity, marshes have little to offer a hungry growing civilization, as they must be drained or otherwise altered before they provide any city bonuses. Note that military units in marshes receive a significant PENALTY when attacked.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/marsh.png",
+        "movement_cost": 3,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": -1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Oil",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+            },
+            {
+                "name": "Sugar",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+            },
+            {
+                "name": "Truffles",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+    },
+    {
+        "id": 4,
+        "name": "Oasis",
+        "historical_info": "An oasis is an especially lush and verdant area within a desert, usually because it sits atop a source of clean and plentiful water. Oases are extremely valuable resources in an otherwise barren and lifeless desert, and countless battles have been fought between desperate desert tribesmen to possess them.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oasis.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/oasis.json"
+    },
+    {
+        "id": 5,
+        "name": "Flood Plains",
+        "historical_info": "Flood plains are low-lying areas adjacent to rivers. Every year the river floods, providing natural irrigation and rich nutrients to the land, making flood plains incredibly fertile and the most productive farmland in the world. Ancient Egypt owed most of its wealth and power to the annual flood of the mighty Nile river.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/flood_plains.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Wheat",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/wheat.json"
+            },
+            {
+                "name": "Sugar",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/flood_plains.json"
+    },
+    {
+        "id": 6,
+        "name": "Forest",
+        "historical_info": "For early man, the forests were a great source of bounty, providing wood for fire, tools and shelter, and also many animals for sustenance and clothing. As a city grows there is a great temptation to cut down the forests for farmland, but a wise leader will always leave some standing - for productivity and to lift his people's spirits. Also, military units stationed in forests receive a significant defensive bonus.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/forest.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+            },
+            {
+                "name": "Deer",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/deer.json"
+            },
+            {
+                "name": "Furs",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/furs.json"
+            },
+            {
+                "name": "Dyes",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+            },
+            {
+                "name": "Silk",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silk.json"
+            },
+            {
+                "name": "Truffles",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+    },
+    {
+        "id": 7,
+        "name": "Fallout",
+        "historical_info": "Fallout is the residual radiation left over following a nuclear explosion. The fallout \"falls out\" of the air as a layer of radioactive particles which are highly dangerous to plants and animals, killing them immediately or damaging their DNA, giving them cancer, other diseases, or unfortunate mutations. Depending upon the type of nuclear explosion, the land may remain poisoned for decades, possibly centuries. Cleanup requires the replacement of the contaminated buildings, soil and vegetation.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fallout.png",
+        "movement_cost": 2,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": -3,
+            "production": -3,
+            "science": 0,
+            "culture": 0,
+            "food": -3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/fallout.json"
+    },
+    {
+        "id": 8,
+        "name": "The Barringer Crater",
+        "historical_info": "The Barringer Crater is a huge meteorite crater located in Arizona, in the United States of America. The crater is four thousand feet in diameter, and scientists believe that it was created some 50,000 years ago when the site was hit by a large nickel-iron meteorite weighing, at time of impact, 160,000 tons and moving at perhaps 27,000 miles per hour.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_barringer_crater.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/the_barringer_crater.json"
+    },
+    {
+        "id": 9,
+        "name": "Mt. Fuji",
+        "historical_info": "An active volcano, Mount Fuji is the highest mountain in Japan. Standing some 12,000 feet high and often wreathed in clouds, its famous snow-capped silhouette can be seen from Tokyo. The stately mountain is the subject of uncounted works of art - poems, songs, photographs, sculptures and paintings. Mount Fuji is a symbol of pride and beauty for all of Japan.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._fuji.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 3,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/mt._fuji.json"
+    },
+    {
+        "id": 10,
+        "name": "The Grand Mesa",
+        "historical_info": "The Grand Mesa is a large geologic formation in Colorado, the United States of America. Rising some 5,000 feet above the surrounding territory and with an area of 500 square miles, it is the largest mesa in the world. The Grand Mesa has a layer of volcanic basalt on top, which resists erosion. It did not so much rise into the air, as it remained at its original height as the surrounding terrain was eroded by the action of the Colorado and Gunnison rivers.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_grand_mesa.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 3,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/the_grand_mesa.json"
+    },
+    {
+        "id": 11,
+        "name": "The Great Barrier Reef",
+        "historical_info": "The Great Barrier Reef is the world's largest reef. A chain of almost 3000 reefs and 1000 islands, it stretches almost 1600 miles along the coast of north-east Australia. Constructed over 500,000 years by billions of coral polyps, the Great Barrier Reef is the largest single structure made by living creatures. The Great Barrier Reef is home to a hugely diverse population of whales, dolphins, porpoises, dugongs, turtles, fish, octopi, and snakes, not to mention over 200 species of birds.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/the_great_barrier_reef.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 2,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/the_great_barrier_reef.json"
+    },
+    {
+        "id": 12,
+        "name": "Krakatoa",
+        "historical_info": "Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The eruption destroyed over half of the island, and was heard in parts of Australia, some 2,000 miles away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 15 feet per year.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatoa.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 5,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/krakatoa.json"
+    },
+    {
+        "id": 13,
+        "name": "Rock of Gibraltar",
+        "historical_info": "Gibraltar is a peninsula containing a remarkable rock formation at the mouth of the Mediterranean Sea. Captured from Spain by the English and Dutch in 1704 and ceded to England in 1713, Gibraltar has been a British possession ever since (much to the annoyance of Spain, which wants it back). Commanding the entrance to the Atlantic from the Mediterranean, Gibraltar has been a major British naval base for three hundred years.Most of Gibraltar is covered by the \"Rock,\" a huge formation of shale, sandstone and limestone thrust up by the unimaginable power of plate tectonics. The Rock stands some 1400 feet in height. At one time Gibraltar was a massive fortification allowing Britain to dominate the narrow Mediterranean-Atlantic passage, but today the peninsula is more of a nature preserve and tourist destination than it is a military base.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/rock_of_gibraltar.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 5,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/rock_of_gibraltar.json"
+    },
+    {
+        "id": 14,
+        "name": "Old Faithful",
+        "historical_info": "Old Faithful is a geyser found in Yellowstone National Park, in Wyoming, United States of America. First seen by Europeans in 1870 (and by natives some 10,000 years before that), Old Faithful was thus named because of the regularity of its eruption. The geyser shoots a column of boiling water to a height of some 100-175 feet every 60-90 minutes (the interval determined by the ferocity of the previous eruption). Geysers occur when subterranean water hits magma (molten rock). The water is instantly turned to steam, which rushes out the nearest available opening at tremendously high pressure. Old Faithful and the other 250 geysers in Yellowstone are enjoyed by some three million visitors each year.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/old_faithful.json"
+    },
+    {
+        "id": 15,
+        "name": "Fountain of Youth",
+        "historical_info": "One of the earliest accounts of this legendary spring comes from Herodotus, who describes it as a special \"Water of Life\" giving any who drinks of it exceptionally long life. Similar stories have also been told among the indigenous people of the Caribbean and South America, which brought the Fountain of Youth to prominence during Spain's era of exploration. According to one popular story, in 1513 the Spanish conquistador Juan Ponce de Leon heard tales of the fountain during his travels in Puerto Rico, and set sail to search for eternal life. In doing so, he discovered Florida (and become one of the first Europeans to set foot on American soil) but never did locate the mythical fountain. The Fountain of Youth continues to captivate audiences today - movies, books, comics, and games have all featured the fabled spring and man's eternal quest to obtain it.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fountain_of_youth.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 10
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/fountain_of_youth.json"
+    },
+    {
+        "id": 16,
+        "name": "Cerro de Potosi",
+        "historical_info": "Located in southern Bolivia, the mountain of Potosi produced nearly all of the silver mined by the Spanish during their imperial days. Once removed from the mountain, it was taken by llama and mule to the coast where it was then loaded onto treasure ships sailing back to Europe. Nearly 41,000 tons of pure silver were mined over the course of 200 years, 8,200 of which went directly to the Spanish crown. After 1800, the main silver mines were depleted, but the mining of Potosi still continues today - some for silver but now mostly for tin.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cerro_de_potosi.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 10,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/cerro_de_potosi.json"
+    },
+    {
+        "id": 17,
+        "name": "El Dorado",
+        "historical_info": "This fabled \"Lost City of Gold\" drew many Spanish conquistadors to the New World, all hoping to stumble upon its untold riches. For nearly three centuries, the myth of precious gems and gold drew explorers to the South American coasts, who often sacked other cities they found along the way. El Dorado has captivated explorers throughout the centuries, and expeditions as late as 1804 were arranged to divine its location. However, it is now believed that the mythical city was inspired by the name of a Muisca chief, who reportedly, as part of an initiation, covered himself in a fine layer of gold dust and dove into the Guatavita Lake.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 5,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/el_dorado.json"
+    },
+    {
+        "id": 18,
+        "name": "Atoll",
+        "historical_info": "An atoll is a formation of coral which creates an island. Atolls are typically ring-shaped, encompassing a central shallow lagoon, and the islands are typically low and small. Atolls are one of the most common island types in the Pacific, the other being islands of volcanic origin. Atolls are akin to oases, in that they are often the only points of land in hundreds of square miles of pelagic expanse. Marine life and birds make ready use of atolls, and though humans have inhabited some, atolls are often hostile for larger land animals. Their low profile means that storms regularly engulf them, and there is often little shade from the powerful sun. As a result of his experiences and observations on the Beagle Voyage, Charles Darwin was the first Westerner to correctly hypothesize how atolls were formed.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atoll.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/atoll.json"
+    },
+    {
+        "id": 19,
+        "name": "Sri Pada",
+        "historical_info": "Towering above Sri Lanka, Sri Pada is a large mountain peak with an unusually conical shape that is held sacred by a number of religions for the \"footprint\" found at its peak. The footprint, a large depression found in a rock formation on the mountain's summit, has been attributed to Buddha, Shiva, and the biblical figure Adam, leading to the mountain's reverence among followers of Buddhism, Hinduism, and Islam. Each year, thousands of pilgrims trek for hours up the mountain to pay their respects at the holy site.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/sri_pada.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 4,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/sri_pada.json"
+    },
+    {
+        "id": 20,
+        "name": "Mt. Sinai",
+        "historical_info": "Found on the Sinai Peninsula of Egypt, Mount Sinai is among the most revered holy sites recognized by the followers of Judaism, Christianity, and Islam. Mount Sinai is believed to be the location where Moses first received the Ten Commandments from God during the Israelites' exodus from Egypt, making the peak an important site for religious pilgrims from around the world.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._sinai.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 8,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/mt._sinai.json"
+    },
+    {
+        "id": 21,
+        "name": "Mt. Kailash",
+        "historical_info": "The sacred peak of Mount Kailash, found in the Himalayas of Tibet, is cherished by a number of religions, particularly the followers of Hinduism. It is believed to be the home of Lord Shiva, who dwells on the mountain in a state of eternal bliss. Mount Kailash is said to be among the most difficult of all religious pilgrimages, as the harsh conditions dissuade many would-be pilgrims, and the mountain is not accessible by any forms of modern transportation.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._kailash.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/mt._kailash.json"
+    },
+    {
+        "id": 22,
+        "name": "Uluru",
+        "historical_info": "Commonly referred to as \"Ayers Rock,\" the massive red sandstone formation in central Australia has, over the past century, become one of Australia's most recognizable landmarks. Long before it was discovered by English explorers in the late 1800s, the mountain was known as \"Uluru,\" a name given by the indigenous tribesmen of the area who share varying legends as to its creation and significance. Designated as a UNESCO World Heritage Site in 1987, this led to an immediate upsurge in tourism, with several hundred thousand visitors exploring the site each year.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 6,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/uluru.json"
+    },
+    {
+        "id": 23,
+        "name": "Lake Victoria",
+        "historical_info": "With a surface area over 26,000 square miles, Lake Victoria is the largest lake in Africa, the second largest freshwater lake on Earth, and the largest tropical lake in the world. Two large rivers leave the lake, the White Nile and the Katonga. The first historical records of the lake come from Arab traders seeking gold, ivory and other commodities from the natives as they pushed inland from the coast. The search by European explorers for the source of the Nile led to the discovery of the lake by the Englishman John Speke in 1858 AD, who named it after the then British monarch.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/lake_victoria.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 6,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/lake_victoria.json"
+    },
+    {
+        "id": 24,
+        "name": "Mt. Kilimanjaro",
+        "historical_info": "Composed of three volcanic cones, the highest reaching 19,340 feet - making it the highest point in Africa and the highest free-standing mountain in the world - the Kilimanjaro massif lies in northeastern Tanzania. Considered a strato-volcano, two of its peaks (Mawenzi and Shira) are extinct, while its highest (Kibo) is dormant; its last eruption dates back approximately 150 thousand years. According to Johann Krapf in 1860 the mountain was called \"Kilimanjaro\" by the Swahilis along the coast, meaning either \"mountain of greatness\" or \"mountain of caravans.\"",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mt._kilimanjaro.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/mt._kilimanjaro.json"
+    },
+    {
+        "id": 25,
+        "name": "King Solomon's Mines",
+        "historical_info": "King Solomon's Mines exerted a pull on European explorers in 19th Century Africa akin to that of El Dorado on Spanish conquistadors in the 16th Century New World. When Europeans first encountered the mysterious ruins of the ancient city of Zimbabwe in East Africa, they were baffled by its location. Numerous explanations were put forth for its existence, but the one that captured the popular imagination was that Great Zimbabwe served to shelter and protect the workers in King Solomon's mines in the nearby Chimanimani Mountains. Here, it was believed, could be found the source of the Biblical king's legendary treasure of precious metals and gems. For several decades adventurers and fortune hunters sought the legendary mines without success.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/king_solomon's_mines.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 6,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/features/king_solomon's_mines.json"
+    }
+]

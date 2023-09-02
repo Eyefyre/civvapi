@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinha|un Pracinha|dal tuo Pracinha|al tuo Pracinha|il tuo Pracinha|da un Pracinha",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Unit\u00e0 di fanteria di epoca moderna che fa guadagnare punti per avviare un' Et\u00e0 dell'Oro quando sconfigge un nemico. Solo il Brasile pu\u00f2 costruirla.",
+    "historical_info": "Dopo l'affondamento di 18 navi da carico brasiliane da parte dei sottomarini tedeschi nell'Atlantico, nel dicembre del 1942 il Brasile si un\u00ec agli Alleati e dichiar\u00f2 guerra alla Germania nazista e all'Italia fascista. All'inizio del 1944, 27.500 uomini e donne furono addestrati per costituire la Forza di Spedizione Brasiliana: in patria furono soprannominati \"pracinhas brasileiros\". Le loro imprese sul campo di battaglia furono seguite da vicino dalla popolazione brasiliana, orgogliosa del fatto che il loro fosse l'unico paese sudamericano ad assumere un ruolo attivo nei combattimenti in Europa. Sebbene disponessero di armamenti pi\u00f9 leggeri rispetto alle loro controparti inglese e americana, i reggimenti brasiliani combatterono con uno slancio e una determinazione tali da far guadagnare loro molti elogi e onori, ma subirono quasi 1.000 perdite nel corso della campagna.",
+    "strategy": "Quando sconfigge un nemico, questa unit\u00e0 da mischia fa guadagnare al Brasile punti che avvicinano il Carnevale successivo. Utilizzate per combattere in territorio straniero, queste unit\u00e0 possono spingere il Brasile a una Vittoria culturale.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Plastica|della Plastica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Le vittorie avvicinano l'Et\u00e0 dell'Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

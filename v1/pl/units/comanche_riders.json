@@ -1,0 +1,35 @@
+{
+    "id": 132,
+    "name": "Konni Komancze|Konnych Komancz\u00f3w|Konnym Komanczom|Konnych Komancz\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/comanche_riders.png",
+    "game_info": "Jednostka konna specjalizuj\u0105ca si\u0119 w szybkich atakach. Mog\u0105 j\u0105 tworzy\u0107 tylko Szoszoni.",
+    "historical_info": "Komancze byli od\u0142amem plemienia Szoszon\u00f3w wypartym na po\u0142udnie, do Oklahomy i Nowego Teksasu, pod rosn\u0105cym naciskiem Indian z P\u00f3\u0142nocnych R\u00f3wnin. \u0141owiecko-zbieracki lud Komancz\u00f3w, \u017cyj\u0105c w sta\u0142ym konflikcie z innymi plemionami oraz meksyka\u0144skimi i ameryka\u0144skimi osadnikami, wykszta\u0142ci\u0142 kultur\u0119 wojownika konnego. Dosiadaj\u0105cy silnych kuc\u00f3w m\u0142odzi ch\u0142opcy uczyli si\u0119 je\u017adzi\u0107 ju\u017c od bardzo wczesnego wieku. Wojownicy uzbrojeni byli w \u015bmierciono\u015bne dla pieszych przeciwnik\u00f3w w\u0142\u00f3cznie z obsydianowymi grotami, \u0142uki, a p\u00f3\u017aniej r\u00f3wnie\u017c karabiny. Ich ulubion\u0105 form\u0105 walki by\u0142a partyzantka: kr\u00f3tkie, gwa\u0142towne ataki z bliska, w trakcie kt\u00f3rych pr\u00f3bowali zabi\u0107 jak najwi\u0119cej przeciwnik\u00f3w i skra\u015b\u0107 ich byd\u0142o. Tak zwane wojny Komancz\u00f3w, kt\u00f3re rozpocz\u0119\u0142y si\u0119 na pocz\u0105tku XVIII w. pierwszymi atakami na hiszpa\u0144skie plac\u00f3wki w Nowym Meksyku, trwa\u0142y niemal nieprzerwanie a\u017c do schwytania w 1875 r. przez armi\u0119 ameryka\u0144sk\u0105 ostatnich oddzia\u0142\u00f3w Komancz\u00f3w.",
+    "strategy": "Konni Komancze zast\u0119puj\u0105 kawaleri\u0119, mog\u0105 ich tworzy\u0107 tylko Szoszoni. S\u0105 ta\u0144si i szybsi ni\u017c jednostka podstawowa.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Wojownik pe\u0142ni Ksi\u0119\u017cyca",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/full_moon_striker.json"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": 30,
+    "name": "Fisica|della Fisica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/physics.png",
+    "era": "Epoca medievale",
+    "cost": 485,
+    "civilopedia_entry": "La fisica \u00e8 lo studio della materia ed \u00e8 la base delle scienze fisiche. Chiamata in origine \"scienza naturale\", si occupa di tutto ci\u00f2 che riguarda l'universo osservabile, dalla pi\u00f9 piccola particella alle enormi galassie. La fisica studia la gravit\u00e0, la luce, il calore e il magnetismo. Con il tempo le conoscenze umane sono cresciute esponenzialmente e la fisica \u00e8 stata suddivisa in molte branche, come astronomia, chimica, geologia, biologia e ingegneria, ma tutte, alla radice continuano a occuparsi della misurazione e dello studio dei fenomeni naturali.Nel 1687 Isaac Newton ha pubblicato la sua opera pi\u00f9 importante, la \"Philosophiae Naturalis Principia Mathematica\", che rivoluzion\u00f2 la fisica. In breve, la prima legge di Newton, nota anche come \"legge dell'inerzia\", afferma che un oggetto in quiete rester\u00e0 in quiete mentre un oggetto in moto continuer\u00e0 a muoversi a meno che non subiscano l'azione di una forza esterna. La seconda legge descrive il cambiamento che una forza pu\u00f2 apportare al movimento di un corpo con la formula: \"la forza \u00e8 uguale alla massa moltiplicata per l'accelerazione\". La terza legge, nota come \"legge dell'azione e della reazione\", afferma che quando due oggetti interagiscono applicano l'uno all'altro due forze che sono uguali in grandezza e opposte in direzione, o come si dice di solito, \"per ogni azione c'\u00e8 una reazione uguale e contraria\".Le leggi di Newton hanno dominato la fisica fino al XX secolo, quando sono state rimpiazzate dalla relativit\u00e0 e dalla meccanica quantistica, scoperte rivoluzionarie che hanno cambiato il mondo quanto quelle di Newton nel Seicento.",
+    "quote": "\"Misura ci\u00f2 che \u00e8 misurabile e rendi misurabile ci\u00f2 che non lo \u00e8.\" - Galileo",
+    "tech_prereqs": [
+        {
+            "name": "Fusione del metallo|della Fusione del metallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tipografia|della Tipografia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/printing_press.json"
+        },
+        {
+            "name": "Polvere da sparo|della Polvere da sparo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Trabocco|un Trabocco|dal tuo Trabocco|al tuo Trabocco|il tuo Trabocco|da un Trabocco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/trebuchet.json"
+        },
+        {
+            "name": "Hwach'a|un Hwach'a|dal tuo Hwach'a|al tuo Hwach'a|il tuo Hwach'a|da un Hwach'a",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/hwach'a.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Notre Dame|Notre Dame|Notre Dame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/notre_dame.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Karolanie|Karolan|Karolanom|Karolan",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Silna, frontowa jednostka l\u0105dowa specjalizuj\u0105ca si\u0119 w d\u0142ugich marszach, nawet daleko od szwedzkich ziem. Jedynie Szwedzi mog\u0105 j\u0105 wytworzy\u0107.",
+    "historical_info": "Elitarna armia szwedzka. \u017bo\u0142nierze ci s\u0142u\u017cyli koronie mniej wi\u0119cej w latach 1660-1697. Jedni z najskuteczniejszych, je\u015bli nie najskuteczniejsi \u017co\u0142nierze swych czas\u00f3w \u2013 karolanie stanowili ma\u0142\u0105 grup\u0119, lecz ma\u0142\u0105 liczebno\u015b\u0107 nadrabiali innowacyjn\u0105 taktyk\u0105 i surow\u0105 dyscyplin\u0105. Byli wojskiem czysto ofensywnym, nie \u0107wiczyli nigdy \u017cadnych manewr\u00f3w odwrotu. Szar\u017cowali na linie wroga, odpowiadaj\u0105c ogniem tylko wtedy, gdy mieli pewno\u015b\u0107, \u017ce trafi\u0105. Ta w\u015bciek\u0142a szar\u017ca zazwyczaj demoralizowa\u0142a wroga \u2013 karolanie w swej historii spowodowali za\u0142amanie si\u0119 i ucieczk\u0119 wielu linii obrony.",
+    "strategy": "Karolanie to kr\u0119gos\u0142up armii szwedzkiej we wczesnej epoce przemys\u0142owej. Rozpoczynaj\u0105 z awansem \u201eMarsz\u201d, co pozwala im leczy\u0107 si\u0119 w ka\u017cdej turze, nawet je\u015bli wykonuj\u0105 inne dzia\u0142ania.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Marsz|Marszu|Marszowi|Marsz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/march.json"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 49,
+    "name": "Milicja|Milicji|Milicji|Milicj\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/minuteman.png",
+    "game_info": "Jedna z pierwszych jednostek u\u017cywaj\u0105cych broni palnej. Mog\u0105 j\u0105 stworzy\u0107 tylko Amerykanie. Zast\u0119puje arkebuzer\u00f3w. Ta jednostka otrzymuje premie podczas walki w trudnym terenie, porusza si\u0119 po nim jak po otwartym i gromadzi punkty przybli\u017caj\u0105ce z\u0142ot\u0105 er\u0119, gdy pokona przeciwnika.",
+    "historical_info": "Formacja ta wywodzi si\u0119 z czas\u00f3w wojny o niepodleg\u0142o\u015b\u0107 Stan\u00f3w Zjednoczonych. S\u0142u\u017cyli w niej cz\u0142onkowie milicji kolonialnej. By\u0142y to si\u0142y \u201eszybkiego reagowania\u201d. Szkolone w celu odparcia nag\u0142ych atak\u00f3w wroga i zapewnienia regularnej armii czasu na reakcj\u0119 i przygotowanie do bitwy. Pierwsze wzmianki o oddzia\u0142ach tego typu datowane s\u0105 na 1645 rok, kiedy to w kolonii Massachusetts cz\u0119\u015b\u0107 cz\u0142onk\u00f3w stra\u017cy obywatelskiej zosta\u0142a wyznaczona do s\u0142u\u017cby w milicji.",
+    "strategy": "Milicja to unikalna jednostka ameryka\u0144ska, zast\u0119puj\u0105ca arkebuzer\u00f3w. Milicja otrzymuje premie podczas walki w trudnym terenie, porusza si\u0119 po nim jak po otwartym (wszystkie pola kosztuj\u0105 1 punkt ruchu) i gromadzi punkty przybli\u017caj\u0105ce z\u0142ot\u0105 er\u0119, gdy pokona przeciwnika.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignoruje koszt terenu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/ignores_terrain_cost.json"
+        },
+        {
+            "name": "Wyszkolenie I|Wyszkolenia I|Wyszkoleniu I|Wyszkolenie I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/drill_i.json"
+        },
+        {
+            "name": "Z\u0142ota era za zwyci\u0119stwa",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

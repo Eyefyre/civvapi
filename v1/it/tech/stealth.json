@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Invisibilit\u00e0|dell'Invisibilit\u00e0",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "Epoca dell'informazione",
+    "cost": 8800,
+    "civilopedia_entry": "Il concetto e la pratica dell'invisibilit\u00e0 non sono nuovi alla storia dello sviluppo umano, anche se la tecnologia stealth moderna porta il concetto del \"non essere visti\" a livelli prima impensabili. La tecnologia stealth in realt\u00e0 \u00e8 costituita dalla combinazione di diverse discipline e tattiche militari che vanno al di l\u00e0 di ci\u00f2 che l'occhio umano pu\u00f2 vedere, nel tentativo sia di nascondere sia di rilevare gli oggetti tramite i radar, l'acustica, le impronte termiche o altri metodi ancora meno diretti.Le uniformi mimetiche rappresentano uno dei primi e pi\u00f9 semplici metodi per tentare di camuffare un oggetto con l'ambiente in cui si muove, ma molti progressi tecnologici hanno fatto emergere l'esigenza di metodi pi\u00f9 dinamici e sofisticati per nascondere e rilevare oggetti nascosti. Adesso, per esempio, nei tessuti sono iniettati agenti chimici sensibili al calore, le navi sono costruite con particolari materiali radar-assorbenti e le tracce nell'infrarosso dei velivoli vengono coperte con nuovi ingegnosi sistemi di scarico. Anche se non sempre \u00e8 possibile rendere un oggetto invisibile di fronte a tutte le modalit\u00e0 di rilevamento, i moderni veicoli stealth e gli aerei \"spia\" hanno cambiato il modo di concepire ed eseguire le operazioni militari, dando ai paesi con le conoscenze o la capacit\u00e0 di costruire questi veicoli un enorme vantaggio.",
+    "quote": "\"Sii estremamente inafferrabile, fino a perdere la forma. Sii estremamente misterioso, fino a soffocare ogni suono. Cos\u00ec facendo potrai decidere il destino del tuo avversario.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Robotica|della Robotica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+        },
+        {
+            "name": "Laser|del Laser",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tecnologia futura|della Tecnologia futura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardiere invisibile|un Bombardiere invisibile|dal tuo Bombardiere invisibile|al tuo Bombardiere invisibile|il tuo Bombardiere invisibile|da un Bombardiere invisibile",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

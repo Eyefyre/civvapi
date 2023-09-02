@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Infanterie \u00e0 ski norv\u00e9gienne",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Puissante unit\u00e9 terrestre de premi\u00e8re ligne de milieu de jeu sp\u00e9cialis\u00e9e dans les op\u00e9rations dans la neige, la toundra et les collines. Peut \u00eatre construite uniquement par le Danemark. Remplace le fusilier.",
+    "historical_info": "Ces intr\u00e9pides soldats furent largement utilis\u00e9s par le Danemark, au cours des assauts contre l'arm\u00e9e su\u00e9doise pendant les guerres napol\u00e9oniennes entre 1807 et 1814. Ces soldats, dont la vitesse de d\u00e9placement \u00e9galait celle de la cavalerie l\u00e9g\u00e8re, \u00e9taient capables de progresser en montagne ou dans des zones enneig\u00e9es, foresti\u00e8res comme rocheuses, bien plus rapidement que n'importe quelle unit\u00e9 \u00e0 pied ou \u00e0 cheval. Ils \u00e9taient parfois amen\u00e9s \u00e0 tirer des cargaisons de ravitaillement ou des escouades de soldats sur des terrains recouverts de neige et d\u00e9pourvus de routes, o\u00f9 les d\u00e9placements \u00e0 cheval \u00e9taient impossibles. Les premi\u00e8res mentions des soldats-skieurs datent du XIIIe si\u00e8cle.Il existe encore aujourd'hui des soldats-skieurs dans la Marine danoise. Leur sp\u00e9cialit\u00e9 leur permet de couvrir de vastes zones au nord et \u00e0 l'est du Groenland, o\u00f9 le terrain est impraticable pour les autres types de transport. En Norv\u00e8ge, tous les soldats de l'arm\u00e9e b\u00e9n\u00e9ficient encore d'un entra\u00eenement au combat \u00e0 skis. L'\u00e9preuve sportive du biathlon a d'ailleurs \u00e9t\u00e9 inspir\u00e9e et d\u00e9velopp\u00e9e \u00e0 partir de leurs itin\u00e9raires de patrouille et d'entra\u00eenement.",
+    "strategy": "L'infanterie \u00e0 ski norv\u00e9gienne est l'une des deux unit\u00e9s exclusives aux Danois. Elle se d\u00e9place deux fois plus vite dans la neige, la toundra et les collines. Elle b\u00e9n\u00e9ficie \u00e9galement d'un bonus de +25% lorsqu'elle combat sur l'un de ces trois terrains, \u00e0 condition qu'il n'y ait ni for\u00eat ni jungle.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus sur neige, toundra et collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Sito archeologico",
+    "game_info": "Quando viene migliorato con uno Scavo Archeologico, un Sito Archeologico pu\u00f2 fornire un Manufatto che pu\u00f2 essere inserito in uno slot Capolavoro Artistico o essere trasformato in un miglioramento Punto di riferimento.",
+    "historical_info": "Francis Bacon ha scritto nel 1605 che \"gli oggetti antichi sono storia deturpata, o qualche brandello di storia che per caso \u00e8 sfuggito al naufragio del tempo\". Per definizione le antichit\u00e0 sono oggetti del passato, dalle semplici punte di freccia ai tesori dell'arte. La sensazione che sia possibile recuperare lo spirito di una civilt\u00e0 perduta attraverso lo studio sistematico delle sue reliquie e dei suoi manufatti ha spinto generazioni di collezionisti dilettanti e illustri studiosi a cercare questi reperti, estrarli con gli scavi e conservarli nelle case, nelle universit\u00e0 e nei musei. Questa passione per la raccolta e la conservazione dei resti del passato dell'umanit\u00e0 ha dato origine a una nuova disciplina di studi: l'archeologia.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sito_archeologico.png",
+    "prereq_tech": {
+        "name": "Archeologia|dell'Archeologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Scavo archeologico|uno Scavo archeologico|uno Scavo archeologico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/archaeological_dig.json"
+        }
+    ],
+    "terrains_found_on": []
+}

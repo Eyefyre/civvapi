@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "\u0141ucznicy babilo\u0144scy|\u0141ucznik\u00f3w babilo\u0144skich|\u0141ucznikom babilo\u0144skim|\u0141ucznik\u00f3w babilo\u0144skich",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "Jako jedna z pierwszych dost\u0119pnych jednostek dystansowych, ta unikatowa jednostka babilo\u0144ska zast\u0119puje \u0142ucznika. Strzelcy Babilonu mog\u0105 skuteczniej od zwyk\u0142ych stawia\u0107 czo\u0142a atakom wr\u0119cz.",
+    "historical_info": "Mamy ca\u0142kiem dobre poj\u0119cie o elitarnych babilo\u0144skich jednostkach \u0142uczniczych dzi\u0119ki pi\u0119knej asyryjskiej mozaice, ukazuj\u0105cej je maszeruj\u0105ce na bitw\u0119. Babilo\u0144scy \u0142ucznicy s\u0105 ubrani w kolorowe, zdobione szaty i nios\u0105 \u0142uki o d\u0142ugo\u015bci oko\u0142o 1,2 m oraz ko\u0142czany zawieszone na plecach. Maj\u0105 r\u00f3wnie\u017c w\u0142\u00f3cznie lub sztylety, najprawdopodobniej do obrony osobistej przed jednostkami wroga, kt\u00f3re zbli\u017cy\u0142yby si\u0119 dostatecznie, by zaatakowa\u0107 wr\u0119cz.\r\nStrzelcom towarzyszy\u0142y oddzielne jednostki z du\u017cymi tarczami wysoko\u015bci cz\u0142owieka, tworz\u0105c co\u015b w rodzaju ruchomej fortecy. Strzelcy byli nieod\u0142\u0105czn\u0105 cz\u0119\u015bci\u0105 piechoty Babilonu, gdy\u017c \u0142atwiej ich by\u0142o trenowa\u0107 i zast\u0119powa\u0107 ni\u017c kosztowniejsz\u0105 kawaleri\u0119. Obsadzano te\u017c nimi s\u0142ynne mury Babilonu, umieszczaj\u0105c ich w licznych wie\u017cyczkach, kt\u00f3rymi by\u0142y obsiane.",
+    "strategy": "Strzelec Babilonu jest unikatow\u0105 jednostk\u0105 zast\u0119puj\u0105c\u0105 \u0142ucznika. S\u0105 oni silniejsi od \u0142ucznik\u00f3w zar\u00f3wno w ofensywie, jak i defensywie, co pozwala na umieszczanie ich na linii frontu. Zwi\u0119kszona si\u0142a bojowa strzelc\u00f3w pozwala im na szybkie zaradzenie wi\u0119kszo\u015bci problem\u00f3w przez naszpikowanie ich strza\u0142ami.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "\u0141ucznictwo|\u0141ucznictwa|\u0141ucznictwu|\u0141ucznictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

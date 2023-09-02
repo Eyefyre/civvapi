@@ -1,0 +1,43 @@
+{
+    "id": 46,
+    "name": "Sipahi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sipahi.png",
+    "game_info": "Berittene Einheit, die darauf spezialisiert ist, feindliche berittene Einheiten zu besiegen. Nur die Osmanen k\u00f6nnen sie bauen. Diese Einheit ist schneller und hat eine h\u00f6here Sichtweite als der Lancier, den sie ersetzt.",
+    "historical_info": "Die Sipahi waren die Lanciers des Osmanischen Reiches. Sie wurden w\u00e4hrend der Herrschaft von Murad I. gegr\u00fcndet (der von 1362 bis 1389 regierte) und vom t\u00fcrkischen Landadel eingezogen. Sipahi waren hochmotivierte, treue K\u00e4mpfer und die pers\u00f6nlichen Leibw\u00e4chter des Sultans. Sie waren gro\u00dfe Gegner der Janitscharen, einer anderen osmanischen Eliteeinheit, die sowohl aus t\u00fcrkischen als auch aus nicht-t\u00fcrkischen Soldaten bestand. Die Sipahi halfen mit Begeisterung bei der gewaltsamen Aufl\u00f6sung der Janitscharen im Jahr 1826, nachdem diese erfolglos revoltiert hatten.",
+    "strategy": "Der Sipahi ist die Spezialeinheit der Osmanen und ersetzt den Lancier. Er ist viel schneller und kann ein Gel\u00e4ndefeld weiter sehen, hat aber dieselben Verteidigungsschw\u00e4chen wie der Lancier. Der Sipahi kann feindliche Modernisierungen ohne zus\u00e4tzliche Kosten pl\u00fcndern.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Keine Fortbewegungskosten beim Pl\u00fcndern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/formation_i.json"
+        }
+    ]
+}

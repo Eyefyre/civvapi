@@ -1,0 +1,20 @@
+{
+    "id": 22,
+    "name": "Entrepreneurship",
+    "game_info": "EntrepreneurshipGreat Merchants are earned 25% faster. Receive double Gold from Great Merchant trade missions.",
+    "historical_info": "Entrepreneurship, from the French term \"to undertake,\" refers to the capability and willingness by an individual to develop, organize and manage a commercial venture in the hopes of making a profit. In history, entrepreneurship has taken many forms, from the great explorer-merchants of Renaissance Italy to the government-chartered companies of the Age of Discovery to the robber barons of the Industrial Age; regardless of the form, the willingness to risk their own funds to generate greater wealth has driven the evolution of civilization as surely as any other factor.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/entrepreneurship.png",
+    "required_policies": [
+        {
+            "name": "Wagon Trains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/wagon_trains.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Commerce",
+        "game_info": "Commerce provides bonuses to empires focused on Gold.Adopting Commerce will boost Gold output in Capital City by 25%. Unlocks building Big Ben.Adopting all Policies in the Commerce tree will grant +1 Gold from every Trading Post. It also allows the purchase of Great Merchants with Faith starting in the Industrial Era",
+        "prereq_era": "Medieval Era",
+        "historical_info": "Commerce deals with the exchange of goods and services, either through barter (in exchange for other goods and services) or by the exchange of some form of currency. Commerce is as old as human language and perhaps even older. In some cultures merchants occupy a lower class than those who rule or who get to carry the weapons. In other cultures, merchants are seen as the elite, and the acquisition of wealth is seen as the greatest good. For most of its recent history the United States has been the second kind of country."
+    }
+}

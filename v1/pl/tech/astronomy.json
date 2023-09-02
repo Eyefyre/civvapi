@@ -1,0 +1,45 @@
+{
+    "id": 32,
+    "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/astronomy.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 780,
+    "civilopedia_entry": "Astronomia zajmuje si\u0119 badaniem obiekt\u00f3w w kosmosie \u2013 od py\u0142u kosmicznego, poprzez asteroidy do ksi\u0119\u017cyc\u00f3w, planet, gwiazd i wreszcie galaktyk \u2013 a tak\u017ce bardziej tajemniczych obiekt\u00f3w, jak czarne dziury czy tunele czasoprzestrzenne. Astronomia jest najstarsz\u0105 z nauk przyrodniczych, maj\u0105c korzenie w religijnych i astrologicznych praktykach prehistorycznych.Du\u017ca cz\u0119\u015b\u0107 dawnej astronomii zwi\u0105zana jest z religi\u0105. Gwiazdy i inne cia\u0142a niebieskie by\u0142y kojarzone z bogami i wierzono, \u017ce sprawuj\u0105 one bezpo\u015bredni\u0105 kontrol\u0119 nad cz\u0142owiekiem i jego \u015bwiatem fizycznym. Pewna gwiazda lub gromada gwiazd mog\u0142a pojawia\u0107 si\u0119 na niebie ka\u017cdego roku w okolicy \u017cniw, wi\u0119c staro\u017cytny cz\u0142owiek m\u00f3g\u0142 ostatecznie uzna\u0107, \u017ce jest ona domem boga \u017cniw. By\u0107 mo\u017ce, je\u015bli po\u015bwi\u0119ci\u0107 koz\u0119 w dniu, w kt\u00f3rym dana gwiazda pojawia si\u0119 po raz pierwszy, bogowie pob\u0142ogos\u0142awi\u0105 nadchodz\u0105ce \u017cniwa. Tego rodzaju my\u015blenie le\u017cy u korzeni staro\u017cytnych bada\u0144 astronomicznych, jak r\u00f3wnie\u017c tworzenia staro\u017cytnych kalendarzy, czym historycznie astronomia si\u0119 trudni\u0142a.W czasie renesansu astronomia wyzby\u0142a si\u0119 wielu religijnych pu\u0142apek, staj\u0105c si\u0119 czyst\u0105 nauk\u0105 na w\u0142asnych prawach. W roku 1543 Miko\u0142aj Kopernik opublikowa\u0142 dzie\u0142o \u201eO obrotach sfer niebieskich\u201d, w kt\u00f3rym postulowa\u0142, \u017ce S\u0142o\u0144ce, nie za\u015b Ziemia, znajduje si\u0119 w centrum wszech\u015bwiata oraz \u017ce planety okr\u0105\u017caj\u0105 s\u0142o\u0144ce, a Ksi\u0119\u017cyc okr\u0105\u017ca Ziemi\u0119. W uzupe\u0142nieniu triumfu bada\u0144 naukowych nad dogmatami wiary Kopernik w swoim dziele argumentowa\u0142 r\u00f3wnie\u017c, \u017ce u\u017cycie matematyki mo\u017ce wielce wspom\u00f3c ludzko\u015b\u0107 w zrozumieniu otaczaj\u0105cego j\u0105 \u015bwiata. Chocia\u017c jego praca by\u0142a bardzo kontrowersyjna w tamtych czasach, dzi\u015b Kopernik uwa\u017cany jest za jednego z wielkich naukowc\u00f3w w dziejach i jednego z ojc\u00f3w rewolucji naukowej.",
+    "quote": "\u201eRad z wiatru, heroj \u017cagiel rozpi\u0105\u0142, i by\u0142 wzd\u0119ty; siad\u0142 u steru i biegle przez ciemne odm\u0119ty \u0142\u00f3d\u017a kierowa\u0142.\u201d \u2013 Homer",
+    "tech_prereqs": [
+        {
+            "name": "Kompas|Kompasu|Kompasowi|Kompas",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/compass.json"
+        },
+        {
+            "name": "Edukacja|Edukacji|Edukacji|Edukacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Karawela|Karaweli|Karaweli|Karawel\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/caravel.json"
+        },
+        {
+            "name": "Kobukson|Kobuksonu|Kobuksonowi|Kobukson",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/turtle_ship.json"
+        },
+        {
+            "name": "Nau",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/nau.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Obserwatorium|Obserwatorium|Obserwatorium|Obserwatorium|Obserwatoria|Obserwatori\u00f3w|Obserwatoriom|Obserwatoria",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/observatory.json"
+        }
+    ]
+}

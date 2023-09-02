@@ -1,0 +1,41 @@
+{
+    "id": 68,
+    "name": "Informatique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/computers.png",
+    "era": "\u00c8re atomique",
+    "cost": 6400,
+    "civilopedia_entry": "De fa\u00e7on tr\u00e8s simplifi\u00e9e, un ordinateur est une machine qui traite des donn\u00e9es ou effectue certaines t\u00e2ches en fonction d'indications pr\u00e9d\u00e9finies. Si le premier ordinateur \"moderne\" ne fut cr\u00e9\u00e9 qu'au d\u00e9but du XXe si\u00e8cle, les premiers mod\u00e8les reconnus sont les horloges astronomiques m\u00e9caniques d'Al-Djazari en 1206 et le m\u00e9tier \u00e0 tisser semi-automatique de Jacquard en 1801. Si les deux machines \u00e9taient programmables, elles ne disposaient pas de la seconde fonction des ordinateurs modernes, \u00e0 savoir le stockage de donn\u00e9es. Les premiers ordinateurs fonctionnaient et emmagasinaient des donn\u00e9es gr\u00e2ce \u00e0 certaines parties m\u00e9caniques et d'autres analogiques. Dans les ann\u00e9es 1940, ces derni\u00e8res furent remplac\u00e9es par des pi\u00e8ces utilisant l'\u00e9lectronique num\u00e9rique. Il n'existe pas de consensus sur la date d'invention des ordinateurs modernes. Cependant, il est traditionnellement admis qu'il est issu d'avanc\u00e9es successives qui donn\u00e8rent naissance \u00e0 des mod\u00e8les comme le Z3 de Konrad Zuse et l'ENIAC de l'arm\u00e9e de terre \u00e9tasunienne.Avec l'av\u00e8nement de l'\u00e9lectronique, les ordinateurs sont devenus plus petits, plus rapides, plus fiables, plus polyvalents, meilleur march\u00e9 et consomment moins d'\u00e9nergie. Si les vieux mod\u00e8les occupaient des pi\u00e8ces enti\u00e8res (et m\u00eame des p\u00e2t\u00e9s de maison entiers), l'ordinateur moderne, de part sa taille, est aujourd'hui aussi omnipr\u00e9sent que le t\u00e9l\u00e9phone fixe : outre l'existence de machines individuelles autonomes, il peut \u00eatre int\u00e9gr\u00e9 aux voitures, aux machines \u00e0 laver, voire \u00eatre utilis\u00e9 dans l'industrie textile de pointe. Les ordinateurs ont permis aux scientifiques de r\u00e9aliser des op\u00e9rations qui sans cela auraient n\u00e9cessit\u00e9 une vie enti\u00e8re de calculs, de pr\u00e9dire le temps qu'il fera avec une grande exactitude, d'envoyer des hommes sur la Lune et des vaisseaux spatiaux au-del\u00e0 des fronti\u00e8res du syst\u00e8me solaire, et de permettre \u00e0 un enfant de Shanghai de jouer avec un petit Anglais sans qu'aucun des deux n'ait \u00e0 quitter son salon.Bien qu'il ait \u00e9t\u00e9 consid\u00e9r\u00e9 \u00e0 ses d\u00e9buts comme une attraction \u00e0 la mode, voire comme un passe-temps pour excentriques ais\u00e9s, l'ordinateur a marqu\u00e9 l'Histoire et n'est pas pr\u00e8s de dispara\u00eetre.",
+    "quote": "\"Les ordinateurs sont comme les Dieux de l'Ancien Testament\u00a0: beaucoup de r\u00e8gles et aucune piti\u00e9.\"- Joseph Campbell",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+        },
+        {
+            "name": "Arm\u00e9e combin\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/combined_arms.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Robotique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/robotics.json"
+        },
+        {
+            "name": "Lasers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/lasers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "H\u00e9licopt\u00e8re de combat|H\u00e9licopt\u00e8res de combat",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/helicopter_gunship.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Grand pare-feu|Grands pare-feu",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/great_firewall.json"
+        }
+    ]
+}

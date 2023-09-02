@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Armory",
+    "game_info": "+15 XP for all Units.City must have a Barracks or Krepost.",
+    "strategy": "The Armory provides experience for military units constructed in the city. The city must contain a Barracks before an Armory can be constructed.",
+    "historical_info": "An armory is a military building which stores and maintains weapons during peacetime. Unless on duty, soldiers do not usually carry their weapons with them at all times (especially if their weapons are machine guns or rocket-propelled grenades).Armories are generally heavily armored and guarded, and may resemble a full-fledged castle more than a warehouse. A military's weapons need to be protected from theft, be it minor pilferage or a rampaging mob bent upon insurrection.",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/armory.png",
+    "prereq_tech": {
+        "name": "Steel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

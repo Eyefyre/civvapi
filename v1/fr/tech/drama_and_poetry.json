@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Drame et po\u00e9sie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "\u00c8re classique",
+    "cost": 175,
+    "civilopedia_entry": "Le drame et la po\u00e9sie sont deux formes d'expression artistique, respectivement par la performance visuelle et par l'\u00e9criture. On associe le plus souvent le drame aux repr\u00e9sentations th\u00e9\u00e2trales (pi\u00e8ces, com\u00e9dies musicales et op\u00e9ras), bien qu'\u00e0 notre \u00e9poque, ces formes traditionnelles aient \u00e9t\u00e9 supplant\u00e9es par la t\u00e9l\u00e9vision et le cin\u00e9ma. La po\u00e9sie utilise la langue \u00e9crite pour exprimer \u00e0 la fois un sens litt\u00e9ral et un message cach\u00e9 destin\u00e9 \u00e0 faire r\u00e9fl\u00e9chir le lecteur.",
+    "quote": "\"Le drame n'est rien de plus que la vie sans le quotidien.\" - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9criture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Th\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/theology.json"
+        },
+        {
+            "name": "Administration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "\u00c9pop\u00e9e nationale",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/national_epic.json"
+        },
+        {
+            "name": "Amphith\u00e9\u00e2tre|Amphith\u00e9\u00e2tres",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/amphitheater.json"
+        },
+        {
+            "name": "Guilde des \u00e9crivains|Guildes des \u00e9crivains",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Parth\u00e9non|Parth\u00e9nons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/parthenon.json"
+        }
+    ]
+}

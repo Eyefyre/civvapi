@@ -1,0 +1,61 @@
+{
+    "id": 12,
+    "name": "Travail du bronze",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/bronze_working.png",
+    "era": "Antiquit\u00e9",
+    "cost": 55,
+    "civilopedia_entry": "Le bronze est un alliage de cuivre et d'\u00e9tain. \u00c0 la fois plus dur et plus r\u00e9sistant que l'un et l'autre, il est aussi plus facile \u00e0 fondre et \u00e0 modeler (exemple d'utilisation : l'alliage fondu vers\u00e9 dans des moules pour forger des pointes de lance ou autres objets pratiques). Les premi\u00e8res utilisations du cuivre remontent probablement au cinqui\u00e8me mill\u00e9naire av. J.-C., en \u00c9gypte. La premi\u00e8re pi\u00e8ce de bronze serait, elle, apparue 1300 plus tard, sous la forme d'un sceptre de bronze retrouv\u00e9 dans une pyramide datant de 3700 av. J.-C. Le bronze n'apparut en Asie que bien plus tard, autour de 1500 av. J.-C., et dans les Am\u00e9riques plus tard encore, entre 100 et 200 apr. J.-C.",
+    "quote": "\"C'est l\u00e0 qu'entra Hector. Sa main tenait une lance haute de onze coud\u00e9es ; la pointe de bronze brillait en haut de la hampe, o\u00f9 la cernait un anneau dor\u00e9\". - Hom\u00e8re",
+    "tech_prereqs": [
+        {
+            "name": "Exploitation mini\u00e8re",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Travail du fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/iron_working.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lancier|Lanciers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/spearman.json"
+        },
+        {
+            "name": "Hoplite|Hoplites",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/hoplite.json"
+        },
+        {
+            "name": "Immortel|Immortels",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/immortal.json"
+        },
+        {
+            "name": "Guerrier picte|Guerriers pictes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/pictish_warrior.json"
+        },
+        {
+            "name": "B\u00e9lier|B\u00e9liers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/battering_ram.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Krepost",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/krepost.json"
+        },
+        {
+            "name": "Caserne|Casernes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/barracks.json"
+        },
+        {
+            "name": "Statue de Zeus|Statues de Zeus",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/statue_of_zeus.json"
+        },
+        {
+            "name": "iKanda|iKandas",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/ikanda.json"
+        }
+    ]
+}

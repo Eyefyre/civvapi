@@ -1,0 +1,43 @@
+{
+    "id": 37,
+    "name": "Artillerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/artillery.png",
+    "game_info": "Die erste Belagerungseinheit des Spiels, die drei Gel\u00e4ndefelder weit feuern kann. Muss vor dem Feuern in Stellung gehen.",
+    "historical_info": "Mit dem technologischen Fortschritt hat die Artillerie auf dem Schlachtfeld immer mehr an Bedeutung gewonnen. Die Gesch\u00fctze der napoleonischen oder amerikanischen B\u00fcrgerkriege aus dem 19. Jahrhundert verschwanden und wurden \u00fcber die Jahre durch gr\u00f6\u00dfere, genauere und t\u00f6dlichere Waffen ersetzt. Die deutsche 8,8-cm-FlaK war eine der besten und vielseitigsten Artilleriewaffen des Zweiten Weltkriegs. Urspr\u00fcnglich wurde sie als Flugabwehrkanone konzipiert, aber sie erwies sich auch gegen Panzer so wirkungsvoll, dass spezielle Varianten nur f\u00fcr diesen Zweck gebaut wurden.",
+    "strategy": "Artillerie ist eine gef\u00e4hrliche Belagerungswaffe, die st\u00e4rker ist als die Kanone und \u00fcber eine gr\u00f6\u00dfere Reichweite verf\u00fcgt. \u00c4hnlich wie die Kanone hat sie auch nur eine begrenzte Sicht und muss vor dem Angriff in Stellung gebracht werden (1 FP), aber die Fernkampfst\u00e4rke ist immens. Artillerie bietet zudem die M\u00f6glichkeit des \"indirekten Feuers\", sodass Ziele in Reichweite geraten, die blockiert und nicht sichtbar sind (solange eine andere freundlich gesinnte Einheit sie sehen kann). Genau wie andere Belagerungswaffen ist auch die Artillerie bei Nahkampfangriffen leicht verwundbar.",
+    "movement": 2,
+    "cost": {
+        "production": 250,
+        "faith": 500
+    },
+    "prereq_tech": {
+        "name": "Dynamit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/dynamite.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirektes Feuer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus gegen St\u00e4dte (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Muss f\u00fcr Fernkampf in Stellung gehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

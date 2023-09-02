@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Opera House",
+    "game_info": null,
+    "strategy": "The Opera House is a Renaissance-era building which increases a city's Culture. The city needs to have an Amphitheater in order to construct the Opera House. Contains 1 slot for a Great Work of Music.",
+    "historical_info": "Opera is a theatrical drama in which the actors sing all their dialog rather than speaking it, differentiating it from other forms of musical dramas. The opera singers are usually accompanied by an orchestra. An opera house is a theatre designed with a stage for the singers, space to seat the orchestra, and acoustics which help project the music to the audience. The Teatro San Cassiano was the first public opera house, opened in Venice, Italy, in 1637. Since that time opera houses have opened across the world - they are almost de rigueur for any city with pretensions of being a center of culture and art.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/opera_house.png",
+    "prereq_tech": {
+        "name": "Acoustics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

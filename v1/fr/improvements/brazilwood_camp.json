@@ -1,0 +1,33 @@
+{
+    "id": 26,
+    "name": "Campement de bois-br\u00e9sil|Campements de bois-br\u00e9sil",
+    "game_info": "Le bois-br\u00e9sil est un bois dur tropical dont l'\u00e9corce produit un extrait rouge cramoisi et violet profond utilis\u00e9 pour les teintures. Son bois dense est tr\u00e8s recherch\u00e9 pour la fabrication d'instruments \u00e0 cordes (et notamment leurs archets) et l'\u00e9b\u00e9nisterie. La r\u00e9colte du bois-br\u00e9sil ne prit fin qu'en 1875, avec l'av\u00e8nement des teintures synth\u00e9tiques dans l'industrie du textile et la d\u00e9couverte d'autres bois durs permettant de fabriquer des instruments de meilleure qualit\u00e9 encore. Le campement de bois-br\u00e9sil doit \u00eatre construit sur une case de jungle, et g\u00e9n\u00e9rera \u00e9galement +2\u00a0points de culture une fois l'acoustique d\u00e9couverte.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campement_de_bois-br\u00e9sil|campements_de_bois-br\u00e9sil.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "M\u00e9canique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+    },
+    "required_civ": {
+        "name": "Brazil",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/civilizations/brazil.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

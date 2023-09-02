@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "Elefante da guerra|un Elefante da guerra|dal tuo Elefante da guerra|al tuo Elefante da guerra|il tuo Elefante da guerra|da un Elefante da guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "Una veloce unit\u00e0 che attacca da lontano, molto efficace su terreno pianeggiante. Solo gli indiani possono costruirla. Rispetto all'Arciere su carro, che sostituisce, quest'unit\u00e0 ha una Forza di combattimento superiore sia in mischia sia a distanza.",
+    "historical_info": "L'elefante da guerra pu\u00f2 essere considerato la prima arma di distruzione di massa della storia. Spesso tanto pericoloso per i propri soldati quanto per il nemico, la sua sola presenza era in grado di spargere il terrore sul campo da battaglia. Gli Indiani continuarono a usare gli elefanti da guerra finch\u00e9 la diffusione della polvere da sparo non li rese obsoleti. In battaglia l'elefante aveva un duplice scopo. In primo luogo, il suo odore terrorizzava completamente i cavalli, rendendo inutilizzabile la cavalleria. La sua seconda funzione era di sfondare le linee di fanteria, che non potevano assolutamente resistere alla sua carica. Un elefante era in grado di disperdere un muro di lance che nessun cavallo avrebbe mai potuto superare. Gli elefanti erano incredibilmente difficili da uccidere: si narra che alcuni esemplari siano riusciti a sopravvivere a pi\u00f9 di sessanta frecce. Il problema principale degli elefanti era la loro tendenza a impazzire per il dolore o la rabbia, sfuggendo completamente al controllo. Per questo i soldati che conducevano gli elefanti spesso portavano con s\u00e9 un martello e un paletto con cui avrebbero potuto uccidere l'animale che avesse cominciato ad attaccare le truppe amiche.",
+    "strategy": "L'Elefante da guerra \u00e8 un'unit\u00e0 esclusiva dell'India e sostituisce l'Arciere su carro. \u00c8 pi\u00f9 potente (sebbene pi\u00f9 lento) della sua controparte e pu\u00f2 attraversare qualsiasi terreno senza le penalit\u00e0 che gravano sui carri. L'Elefante da guerra \u00e8 considerato alla stregua di cavalleria e quindi vulnerabile all'attacco dei Lancieri.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "Ruota|della Ruota",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

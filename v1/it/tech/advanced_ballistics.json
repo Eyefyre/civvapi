@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Balistica avanzata|della Balistica avanzata",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "La balistica \u00e8 la scienza che permette di sparare o scagliare oggetti molto lontano con grande precisione. La balistica avanzata non \u00e8 altro che la sua prosecuzione, in cui le distanze si allungano fino ad abbracciare interi continenti. Gli artiglieri moderni possono sparare colpi esplosivi a decine di chilometri con grande precisione, mentre i missili sono in grado di colpire il loro bersaglio anche dall'altra parte del pianeta. Se poi entrano in gioco tecnologie moderne come GPS e puntamento laser, non c'\u00e8 praticamente bersaglio al mondo che non possa essere colpito da qualche tipo di arma. Se questo sia un bene o un male \u00e8 oggetto di discussione; in gran parte le opinioni cambiano a seconda del dito che in quel momento preme il pulsante di fuoco.",
+    "quote": "\"Il nostro potere scientifico si \u00e8 lasciato dietro quello spirituale. I missili sono teleguidati, gli uomini senza guida.\" - Martin Luther King, Jr.",
+    "tech_prereqs": [
+        {
+            "name": "Fissione nucleare|della Fissione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Missilistica|della Missilistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fisica delle particelle|della Fisica delle particelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/particle_physics.json"
+        },
+        {
+            "name": "Fusione nucleare|della Fusione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Propulsore dell'astronave",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ss_booster.json"
+        },
+        {
+            "name": "Missile nucleare|un Missile nucleare|dal tuo Missile nucleare|al tuo Missile nucleare|il tuo Missile nucleare|da un Missile nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/nuclear_missile.json"
+        },
+        {
+            "name": "Missile teleguidato|un Missile teleguidato|dal tuo Missile teleguidato|al tuo Missile teleguidato|il tuo Missile teleguidato|da un Missile teleguidato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

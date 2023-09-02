@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Constabulary",
+    "game_info": "Reduces enemy spy stealing rate by 25%.",
+    "strategy": "Constabularies slow down the rate at which enemy spies can steal technologies from your city.",
+    "historical_info": "One of the first known descriptions of the role of a constable comes from Bracton, a jurist in England writing between 1220 and 1250. \"In whatever way they come and on whatever day, it is the duty of the constable to enroll everything in order, for he has record as to the things he sees; but he cannot judge, because there is no judgment at the Tower, since there the third element of a judicial proceeding is lacking, namely a judge and jurisdiction. He has record as to matters of fact, not matters of judgment and law.\"",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/constabulary.png",
+    "prereq_tech": {
+        "name": "Banking",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/banking.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

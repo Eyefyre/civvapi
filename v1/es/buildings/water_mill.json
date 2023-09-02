@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Molino de agua|Molinos de agua",
+    "game_info": "La ciudad se ha de construir al lado de un R\u00edo.",
+    "strategy": "El Molino de agua solo se puede construir en una ciudad que est\u00e9 junto a un R\u00edo. Aumenta el flujo de Alimentos a la ciudad",
+    "historical_info": "El molino de agua es un edificio que aprovecha la energ\u00eda del agua para convertir el grano en harina. El grano se esparce entre dos piedras del molino y una de ellas gira lentamente. Al moverse entre las piedras, el grano queda machacado y convertido en harina. Los primeros molinos usaban animales o personas para hacer girar la piedra, pero en este caso lo hace el agua. As\u00ed, las personas y animales quedan libres para trabajar en otra parte. M\u00e1s tarde, el vapor y la electricidad se convirtieron en una fuente de energ\u00eda mucho m\u00e1s fiable y eficaz, pero los molinos de agua de aquellos d\u00edas sirvieron para ahorrar much\u00edsimo trabajo.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/molino_de_agua|molinos_de_agua.png",
+    "prereq_tech": {
+        "name": "Rueda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

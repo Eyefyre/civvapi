@@ -1,0 +1,52 @@
+{
+    "id": 34,
+    "name": "Bankwesen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/banking.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Die ersten Banken entstanden um 3.000 v. Chr. und waren vermutlich religi\u00f6se Tempel. Es k\u00f6nnte sogar sein, dass es sogar schon vor der Erfindung des Geldes Banken gab; die ersten Anlagen k\u00f6nnten in der Form von Getreide gemacht worden sein. Im 18. Jahrhundert v. Chr. schrieb der gro\u00dfe Hammurabi in Babylon in seinem ber\u00fchmten Codex Gesetze zur Bankenregulierung. Die Griechen entwickelten das Bankwesen weiter und Quellen berichten \u00fcber Tempel und andere Finanzinstitutionen, die Kredite ausgaben, Anlagen annahmen, W\u00e4hrungen tauschten und M\u00fcnzen auf F\u00e4lschungen \u00fcberpr\u00fcften. Die R\u00f6mer \u00fcbernahmen das griechische Bankenmodell mit einigen Verbesserungen. Als das R\u00f6mische Reich unterging, erlitten jedoch auch die meisten Banken in Europa dieses Schicksal. Banken entstanden in Europa erst wieder im Mittelalter, als die Menschen nach M\u00f6glichkeiten suchten, die Kreuzz\u00fcge zu finanzieren.Auch heute \u00fcbernehmen Banken meist noch dieselben Funktionen wie im alten Griechenland. Sie nehmen Geldanlagen an und zahlen es den Anlegern mit Zinsen zur\u00fcck. Einen Teil des Geldes verleihen sie ebenfalls f\u00fcr Zinsen. Und sie tauschen W\u00e4hrungen, geben Schecks aus usw.Der Wert des Bankwesens f\u00fcr die Gesellschaft ergibt sich aus der M\u00f6glichkeit, dass viele Menschen ihr Geld zusammenlegen und so gro\u00dfe Projekte finanzieren k\u00f6nnen. Angenommen, jemand m\u00f6chte eine Druckerei er\u00f6ffnen und braucht daf\u00fcr 1.000 Goldm\u00fcnzen, die er nicht hat. Vor Erfindung des Bankwesens h\u00e4tte er sich nur beim Adel oder vielleicht bei wichtigen Kirchenmitgliedern um finanzielle Unterst\u00fctzung bem\u00fchen k\u00f6nnen und das Projekt w\u00e4re somit abh\u00e4ngig gewesen vom Interesse dieser Leute. Bei einer Bank kann er aber viel einfacher an einen Kredit kommen. Wenn das Projekt als vern\u00fcnftig angesehen wird und der Kreditnehmer einen guten Eindruck macht, wird das Gold flie\u00dfen.Ohne Banken ist es f\u00fcr einen einzelnen B\u00fcrger extrem schwierig, \u00fcberhaupt etwas zu erreichen.",
+    "quote": "\"Gl\u00fcck: ein gutes Bankkonto, eine gute K\u00f6chin und eine gute Verdauung.\" - Jean-Jacques Rousseau",
+    "tech_prereqs": [
+        {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        },
+        {
+            "name": "Ritterlichkeit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architektur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/architecture.json"
+        },
+        {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Satrapenhof",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/satrap's_court.json"
+        },
+        {
+            "name": "Bank",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bank.json"
+        },
+        {
+            "name": "Verbotene Stadt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/forbidden_palace.json"
+        },
+        {
+            "name": "Gendarmerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/constabulary.json"
+        },
+        {
+            "name": "Hansekontor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hanse.json"
+        }
+    ]
+}

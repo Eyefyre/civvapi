@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Catafratto|un Catafratto|dal tuo Catafratto|al tuo Catafratto|il tuo Catafratto|da un Catafratto",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Unit\u00e0 a cavallo disponibile nelle prime fasi del gioco, veloce e potente. Debole contro i nemici armati di lancia. Solo i bizantini possono costruirla. Quest'unit\u00e0 ha una Forza di combattimento superiore, si difende meglio ed \u00e8 pi\u00f9 efficace contro le citt\u00e0 rispetto al Guerriero a cavallo, che sostituisce.",
+    "historical_info": "I catafratti, avversari davvero temibili sul campo di battaglia, rappresentano una delle unit\u00e0 di cavalleria pi\u00f9 pesantemente corazzate della storia. I cavalli erano protetti da cotte di maglia o piastre metalliche e anche i cavalieri indossavano corazze impressionanti. Il compito dei catafratti era principalmente quello di sfondare le linee della fanteria nemica. Bisanzio ha fatto largo uso dei catafratti lungo tutta la sua storia: la cavalleria pesante ha avuto un ruolo cruciale nella difesa dell'impero d'Oriente mentre, a ovest, Roma declinava e cadeva in rovina.",
+    "strategy": "Il Catafratto \u00e8 un'unit\u00e0 esclusiva bizantina che sostituisce il Guerriero a cavallo. Rispetto alla controparte il Catafratto \u00e8 pi\u00f9 lento ma pi\u00f9 potente, tanto da rappresentare una delle unit\u00e0 pi\u00f9 pericolose sino alla comparsa dei Cavalieri. I Catafratti possono muoversi dopo aver attaccato e, a differenza dei Guerrieri a cavallo, possono ottenere bonus difensivi. Inoltre non subiscono penalit\u00e0 cos\u00ec severe quando attaccano le citt\u00e0.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Equitazione|dell'Equitazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

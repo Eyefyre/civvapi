@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nau|una Nau|dalla tua Nau|alla tua Nau|la tua Nau|da una Nau",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Unit\u00e0 navale che combatte da vicino ed eccelle nell'esplorazione dei mari. Ha pi\u00f9 [ICON_MOVES] movimento della Caravella, che sostituisce, e pu\u00f2 sfruttare una capacit\u00e0 speciale una tantum vicino a una terra straniera per guadagnare Oro e XP. Solo i portoghesi possono costruirla.",
+    "historical_info": "Man mano che i portoghesi estendevano le loro rotte commerciali, spingendosi nelle loro esplorazioni sempre pi\u00f9 lontano lungo la costa africana e fino all'estremo oriente, si fece sempre pi\u00f9 pressante la necessit\u00e0 di disporre di navi pi\u00f9 grandi e robuste, in grado di affrontare lunghe traversate. La Nau, chiamata anche \"caracca\" o \"Indiaman\" dagli inglesi, era un'evoluzione della cocca a vela quadra ampiamente utilizzata per il commercio marittimo nel tardo Medioevo. Il suo progetto fu perfezionato dai mercanti portoghesi verso la fine del Quattrocento. La Nau aveva tre o quattro ponti e tre o quattro alberi; la sua larghezza la rendeva pi\u00f9 stabile sulle onde dell'Atlantico, permettendole di affrontare traversate oceaniche; inoltre era in grado di trasportare le vettovaglie e le merci necessarie per un viaggio di lunga durata. Aveva la poppa arrotondata e fu il primo vascello oceanico dotato di un alto castello di prua. Le sue capienti stive le permettevano di attraversare grandi distanze senza scalo, una caratteristica che la impose come vascello principale della flotta mercantile portoghese. Sulle rotte commerciali oceaniche le caracche sarebbero state soppiantate dai galeoni solo nel Seicento.",
+    "strategy": "Questa unit\u00e0 navale che combatte da vicino sostituisce la Caravella ed \u00e8 ottima per l'esplorazione. Quando si trova in una casella adiacente a un territorio che appartiene a un'altra civilt\u00e0 o citt\u00e0-stato con cui hai rapporti pacifici, pu\u00f2 eseguire una singola missione commerciale per ottenere Oro e XP. Il bonus aumenta con la distanza dalla tua capitale, perci\u00f2 \u00e8 meglio usare quest'abilit\u00e0 in terre lontane. Usala per esplorare la mappa e scoprire dove si trovano gli altri giocatori.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|dell'Astronomia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Merci esotiche",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Ritirata dalla mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

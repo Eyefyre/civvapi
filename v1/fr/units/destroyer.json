@@ -1,0 +1,35 @@
+{
+    "id": 13,
+    "name": "Destroyer|Destroyers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/destroyer.png",
+    "game_info": "Navire rapide de fin de partie tr\u00e8s efficace pour les missions de reconnaissance. Peut \u00e9galement traquer et d\u00e9truire les sous-marins ennemis. Unit\u00e9 navale de combat rapproch\u00e9.",
+    "historical_info": "Les destroyers ont \u00e9t\u00e9 con\u00e7us au d\u00e9but du XXe si\u00e8cle pour des missions de patrouilles, d'escortes, et de d\u00e9fense antia\u00e9rienne et anti-sous-marine. Les premiers destroyers \u00e9taient trop l\u00e9gers pour effectuer de longues travers\u00e9es, mais ils furent rapidement accompagn\u00e9s de ravitailleurs disposant d'une r\u00e9serve de carburant suppl\u00e9mentaire. Les destroyers utilis\u00e9s lors de la Deuxi\u00e8me Guerre mondiale \u00e9taient rapides et maniables, et pouvaient transporter suffisamment de munitions et de provisions pour effectuer des missions de grande envergure dans tous les oc\u00e9ans du monde.Les destroyers (ou contre-torpilleurs) \u00e9taient \u00e9quip\u00e9s de canons antia\u00e9riens, de canons l\u00e9gers, de torpilles et de grenades sous-marines. La plupart du temps, ils accompagnaient les porte-avions et patrouillaient pour prot\u00e9ger les vaisseaux les plus grands contre les attaques sous-marines et a\u00e9riennes. Pendant la Deuxi\u00e8me Guerre mondiale, faire partie de l'\u00e9quipage d'un destroyer n'\u00e9tait pas sans danger : plus de 220 destroyers britanniques, am\u00e9ricains, australiens et canadiens furent d\u00e9truits, le plus souvent \u00e0 la suite d'attaques a\u00e9riennes.",
+    "strategy": "Le destroyer est une unit\u00e9 navale d'attaque rapproch\u00e9e con\u00e7ue pour traquer et d\u00e9truire les sous-marins et assurer un soutien antia\u00e9rien. Il escorte souvent les unit\u00e9s embarqu\u00e9es, les cuirass\u00e9s et les porte-avions qui sont \u00e0 port\u00e9e de l'aviation et des sous-marins ennemis. Il est rapide et b\u00e9n\u00e9ficie d'une promotion qui augmente ses chances de se replier avant qu'une unit\u00e9 navale de combat rapproch\u00e9 ennemie puisse l'attaquer.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Combustion",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Peut voir les sous-marins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Interception (40)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(40).json"
+        },
+        {
+            "name": "Attaque contre les sous-marins (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Se retirer avant combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

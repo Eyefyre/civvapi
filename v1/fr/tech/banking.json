@@ -1,0 +1,52 @@
+{
+    "id": 34,
+    "name": "Banque",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/banking.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Les premi\u00e8res banques de l'histoire auraient \u00e9t\u00e9 des temples religieux, aux alentours de 3000 av. J.-C. En fait, elles ont probablement pr\u00e9c\u00e9d\u00e9 l'argent lui-m\u00eame : les premiers d\u00e9p\u00f4ts effectu\u00e9s devaient \u00eatre des d\u00e9p\u00f4ts de bl\u00e9. Au XVIIIe si\u00e8cle av. J.-C., \u00e0 Babylone, l'illustre dirigeant Hammurabi r\u00e9digea, dans son fameux Code, des lois r\u00e9gissant le fonctionnement des banques. Plus tard, les Grecs d\u00e9velopp\u00e8rent le principe de syst\u00e8me bancaire : certains documents font r\u00e9f\u00e9rence \u00e0 des temples et autres b\u00e2timents financiers qui accordaient des pr\u00eats, acceptaient des d\u00e9p\u00f4ts, proposaient des \u00e9changes de devises, et validaient les pi\u00e8ces de monnaie (pour s'assurer de leur authenticit\u00e9). Les Romains adopt\u00e8rent, puis am\u00e9lior\u00e8rent le syst\u00e8me grec mais, \u00e0 la chute de l'Empire, la plupart des institutions bancaires europ\u00e9ennes s'effondr\u00e8rent avec lui. Les banques ne refirent leur apparition en Europe qu'au Moyen \u00c2ge, red\u00e9couvertes par les autorit\u00e9s d\u00e9sireuses de financer les croisades.De nos jours, les banques proposent bon nombre des services qu'offraient celles de la Gr\u00e8ce antique. Elles acceptent des d\u00e9p\u00f4ts qu'elles rendent ensuite sur simple demande, avec des d'int\u00e9r\u00eats. Elles accordent des pr\u00eats d'argent que les emprunteurs leur rendent \u00e0 \u00e9ch\u00e9ance, major\u00e9s, l\u00e0 encore, d'int\u00e9r\u00eats. Elles pratiquent \u00e9galement l'\u00e9change de devises, d\u00e9livrent des ch\u00e8ques, etc.L'int\u00e9r\u00eat social du syst\u00e8me bancaire est qu'il permet \u00e0 de nombreuses personnes de mettre leurs ressources en commun pour investir dans des projets d'envergure. A titre d'exemple, prenons un citoyen d\u00e9sireux de construire une imprimerie co\u00fbtant 1000 pi\u00e8ces d'or (soit bien plus qu'il n'en poss\u00e8de). Avant le syst\u00e8me bancaire, les seuls \u00e0 \u00eatre capables d'assumer une telle d\u00e9pense \u00e9taient les membres de la famille royale et certains hauts dignitaires de l'\u00c9glise : si le projet ne les int\u00e9ressait pas, il n'aboutissait tout simplement pas. Suite \u00e0 l'invention du syst\u00e8me bancaire, en revanche, ce m\u00eame citoyen pouvait se rendre dans une banque pour demander un pr\u00eat : si le projet semblait raisonnable et l'emprunteur digne de confiance, l'argent \u00e9tait d\u00e9bloqu\u00e9.Aujourd'hui, sans les banques, il serait extr\u00eamement difficile pour un citoyen isol\u00e9 de pouvoir r\u00e9aliser le moindre projet.",
+    "quote": "\"Le bonheur, c'est un bon compte en banque, une bonne cuisine et une bonne digestion.\" - Jean-Jacques Rousseau",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9ducation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/education.json"
+        },
+        {
+            "name": "Chevalerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/architecture.json"
+        },
+        {
+            "name": "Sciences \u00e9conomiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Cour de Satrape|Cours de Satrape",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/satrap's_court.json"
+        },
+        {
+            "name": "Banque|Banques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/bank.json"
+        },
+        {
+            "name": "Cit\u00e9 interdite|Cit\u00e9s interdites",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/forbidden_palace.json"
+        },
+        {
+            "name": "Gendarmerie|Gendarmeries",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/constabulary.json"
+        },
+        {
+            "name": "Hanse",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hanse.json"
+        }
+    ]
+}

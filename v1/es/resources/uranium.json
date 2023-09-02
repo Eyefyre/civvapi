@@ -1,0 +1,84 @@
+{
+    "id": 6,
+    "name": "Uranio",
+    "game_info": "Los utilizan las Armas nucleares, las Centrales nucleares y los Robots gigantes.",
+    "historical_info": "El uranio es un mineral natural radioactivo que, una vez se procesa y enriquece, se puede utilizar para generar grandes cantidades de energ\u00eda o volar cosas por los aires. Descubierto en el siglo XVIII, no fue hasta el siglo XX, en el terrible marco de la Segunda Guerra Mundial, que los cient\u00edficos estadounidenses aprendieron a convertir este material medianamente peligroso en el explosivo m\u00e1s mort\u00edfero que la historia haya visto nunca. Cuando se utiliza para alimentar reactores nucleares, se considera que el uranio es una energ\u00eda limpia, ya que no suelta al aire la ingente cantidad de poluci\u00f3n que sueltan el carb\u00f3n o el petr\u00f3leo. Por otro lado, el combustible nuclear utilizado resulta incre\u00edblemente t\u00f3xico y contamina durante cientos de a\u00f1os la tierra, el aire, el agua y a los organismos vivos que lo encuentran, por lo que tambi\u00e9n representa un problema. Recuerda que el uranio es un recurso estrat\u00e9gico y que, como tal, se consume a medida que construyes las unidades y los edificios a \u00e9l asociados.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranio.png",
+    "prereq_tech": {
+        "name": "Teor\u00eda del \u00e1tomo",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/atomic_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        },
+        {
+            "name": "Aduana|Aduanas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/customs_house.json"
+        },
+        {
+            "name": "Academia|Academias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/academy.json"
+        },
+        {
+            "name": "Ciudadela|Ciudadelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/citadel.json"
+        },
+        {
+            "name": "Factor\u00eda|Factor\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/manufactory.json"
+        },
+        {
+            "name": "Lugar sagrado|Lugares sagrados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/selva|selvas.json"
+        },
+        {
+            "name": "Bosque|Bosques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/bosque|bosques.json"
+        },
+        {
+            "name": "Ci\u00e9naga|Ci\u00e9nagas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/ci\u00e9naga|ci\u00e9nagas.json"
+        },
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/nieve|nieves.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

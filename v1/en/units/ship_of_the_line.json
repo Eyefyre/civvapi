@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "name": "Ship of the Line",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ship_of_the_line.png",
+    "game_info": "Powerful Renaissance Era Naval Unit used to wrest control of the seas. Only the English may build it.",
+    "historical_info": "Ships of the line are the largest and most powerful sailing vessels ever built. They formed the backbone of Europe's great navies from the 17th to the mid 19th centuries. Ships of the line were named for the classic formation that these ships fought in. In battle, each side's ships would approach the enemy in a line, and as the opposing ships passed, each would let off a thundering broadside of cannon fire, doing horrific damage to the vessels and to those aboard her. Victory usually went to the side with the most cannon and the best-trained sailors. The English were masters at this form of warfare, and their ships of the line dominated the world's oceans for more than a century.",
+    "strategy": "The Ship of the Line is the English unique unit, replacing the Frigate. The Ship of the Line has a slightly higher Ranged Combat strength than the Frigate, and it's slightly cheaper to produce. It can see one hex farther than the Frigate, allowing it to spot enemies in a significantly larger section of ocean.",
+    "movement": 5,
+    "cost": {
+        "production": 170,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        }
+    ]
+}

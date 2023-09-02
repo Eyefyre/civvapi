@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "Guerriero con arco|un Guerriero con arco|dal tuo Guerriero con arco|al tuo Guerriero con arco|il tuo Guerriero con arco|da un Guerriero con arco",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "Una delle prime unit\u00e0 a distanza disponibili, questa unit\u00e0 esclusiva sostituisce l'Arciere. Il Guerriero con arco pu\u00f2 sopportare meglio gli attacchi in mischia rispetto all'Arciere normale disponibile per le altre civilt\u00e0.",
+    "historical_info": "Grazie a un bellissimo mosaico assiro che li raffigura in marcia verso la battaglia, conosciamo abbastanza bene l'aspetto degli straordinari arcieri babilonesi. Gli arcieri indossano colorate vesti imbottite, sono muniti di archi lunghi pi\u00f9 di un metro e portano una faretra sulla schiena. Inoltre sono armati con lance e pugnali, per difendersi nel caso dovessero rimanere coinvolti in un corpo a corpo con il nemico. \r\nUnit\u00e0 separate accompagnavano i guerrieri con arco, trasportando scudi alti quanto un uomo e formando di fatto una specie di fortezza mobile. I guerrieri con arco erano una parte integrante della fanteria babilonese, poich\u00e9 i loro ranghi erano pi\u00f9 facili da addestrare e rimpiazzare rispetto alla pi\u00f9 costosa cavalleria. Inoltre aiutavano a difendere le famose Mura di Babilonia, prendendo posizione nelle loro numerose torri.",
+    "strategy": "Il Guerriero con arco \u00e8 l'unit\u00e0 esclusiva babilonese, che sostituisce l'Arciere. Quest'unit\u00e0 \u00e8 pi\u00f9 forte in mischia dell'Arciere, sia in attacco che in difesa, il che ne consente il posizionamento nel rango frontale. La capacit\u00e0 migliorata in combattimento del Guerriero con arco aiuta a compensare le preoccupazioni sulla possibilit\u00e0 che sia travolto in fretta.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tiro con l'arco|del Tiro con l'arco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

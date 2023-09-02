@@ -1,0 +1,33 @@
+{
+    "id": 25,
+    "name": "Sucre",
+    "game_info": null,
+    "historical_info": "Le sucre est une substance tr\u00e8s douce obtenue \u00e0 partir de la canne \u00e0 sucre (ou de la betterave). On l'utilise pour adoucir la nourriture et les boissons. Sa premi\u00e8re utilisation remonterait aux Polyn\u00e9siens, puis l'habitude se serait propag\u00e9e pour atteindre l'Inde, et peu \u00e0 peu l'Asie et l'Europe. La canne \u00e0 sucre fut par la suite introduite dans les Cara\u00efbes et en Am\u00e9rique du Nord et du Sud, des r\u00e9gions particuli\u00e8rement propices \u00e0 sa r\u00e9colte. Tr\u00e8s abordables et disponibles en abondance, le sucre et ses \"petits camarades\" (glucose, fructose, etc.) se retrouvent dans la plupart des nourritures trait\u00e9es du monde, au grand dam des dentistes et des di\u00e9t\u00e9ticiens.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sucre.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantation|Plantations",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plaines inondables|Plaine inondable",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/plaines_inondables|plaine_inondable.json"
+        },
+        {
+            "name": "Marais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+        }
+    ]
+}

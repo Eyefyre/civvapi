@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "K\u00f6nigliche Bibliothek",
+    "game_info": "Einzigartige assyrische Version der Bibliothek. +1 Wissenschaft je 2 B\u00fcrger in der Stadt. Verf\u00fcgt auch \u00fcber einen Gro\u00dfes-Literaturwerk-Platz und gew\u00e4hrt ausgebildeten Einheiten zus\u00e4tzliche EP, wenn dieser gef\u00fcllt ist.",
+    "strategy": "Zus\u00e4tzlich zu der Wissenschaftsproduktion der Bibliothek, die sie ersetzt, verf\u00fcgt die K\u00f6nigliche Bibliothek auch \u00fcber einen Gro\u00dfes-Literaturwerk-Platz. Sobald sich hier ein Gro\u00dfes Werk befindet, bringt es in dieser Stadt ausgebildeten Einheiten zus\u00e4tzliche EP ein; platziert hier also so schnell wie m\u00f6glich ein Gro\u00dfes Werk, um die maximalen Vorteile zu erzielen. Kann nur von Assyrern gebaut werden.",
+    "historical_info": "Den Grundstein f\u00fcr die erste bekannte Bibliothek der Welt legte der assyrische K\u00f6nig Sanherib (ca. 700 v. Chr.), der in seinem Palast in Ninive Tausende von Tontafeln sammelte. Doch erst sein Enkel Assurbanipal gr\u00fcndete die ber\u00fchmte k\u00f6nigliche Bibliothek. Als leidenschaftlicher Sammler entsandte der K\u00f6nig Gelehrte, um Texte zu sammeln, vorrangig babylonische Texte, aber auch Texte aus benachbarten K\u00f6nigreichen. Um das Bestehen seiner umfangreichen Tontafelsammlung zu sichern, lie\u00df der K\u00f6nig von Schriftgelehrten Kopien der Texte anfertigen, die dann in anderen neuassyrischen St\u00e4dten seines expandierenden Reichs untergebracht wurden. Die k\u00f6nigliche Bibliothek selbst wurde 612 v. Chr. beim Fall von Ninive zerst\u00f6rt, doch um die 10.000 Fragmente der Keilschrift-Tafeln wurden von Arch\u00e4ologen ausgegraben.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/k\u00f6nigliche_bibliothek.png",
+    "prereq_tech": {
+        "name": "Schrift",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

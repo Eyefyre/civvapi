@@ -1,0 +1,18 @@
+{
+    "id": 6,
+    "name": "RS-Cockpit",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_cockpit.png",
+    "game_info": "Eines der Raumschiffteile, das gebaut und in die Hauptstadt geschickt werden muss, um einen Wissenschaftssieg zu erringen.",
+    "historical_info": "Das erste Kolonisierungsraumschiff der Menschheit ist an sich schon eine extrem komplexe Maschine, doch das Cockpit \u00fcbertrifft alles. Es dient sowohl als Kommandozentrale des Schiffs als auch als Wiedereintrittskapsel, sobald das Raumschiff im System Alpha Centauri einen geeigneten Planeten gefunden hat. Das Schiff ist komplett automatisiert, doch in Notf\u00e4llen kann eine menschliche Crew innerhalb von 12 Stunden aus dem K\u00e4lteschlaf geholt werden.",
+    "strategy": "Diese Einheit ist Teil des Raumschiffs, das gebaut werden muss, um einen Wissenschaftssieg zu erringen. Im Abschnitt 'Sieg' findet Ihr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Satellitentechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/satellites.json"
+    },
+    "free_promotions": []
+}

@@ -1,0 +1,35 @@
+{
+    "id": 22,
+    "name": "Chasseur \u00e0 r\u00e9action|Chasseurs \u00e0 r\u00e9action",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jet_fighter.png",
+    "game_info": "Unit\u00e9 a\u00e9rienne con\u00e7ue pour contr\u00f4ler les cieux et intercepter tout a\u00e9ronef ennemi en approche.",
+    "historical_info": "Le r\u00f4le du chasseur \u00e0 r\u00e9action est similaire \u00e0 celui de son pr\u00e9d\u00e9cesseur utilis\u00e9 lors de la Deuxi\u00e8me Guerre mondiale, le chasseur \u00e0 h\u00e9lices. Mais l'\u00e9norme diff\u00e9rence r\u00e9side dans la puissance de l'appareil, son armement et ses \u00e9quipements en informatique et en communication. L'appareil le plus performant de la Deuxi\u00e8me Guerre mondiale pouvait voler \u00e0 640 km/h. Un chasseur \u00e0 r\u00e9action moderne peut aller trois fois plus vite. En 1940, un appareil pouvait transporter une \u00e0 deux unit\u00e9s d'artillerie, et peut-\u00eatre une ou deux bombes. Aujourd'hui, le chasseur peut transporter \u00e0 son bord une mitrailleuse Gatling 20 mm, une dizaine de missiles air-air ainsi qu'une dizaine de roquettes. Il est aussi \u00e9quip\u00e9 d'ordinateurs, de radars et d'\u00e9quipements de communication d'une sophistication in\u00e9gal\u00e9e. Comme tous les autres appareils a\u00e9riens, les chasseurs \u00e0 r\u00e9action sont vuln\u00e9rables aux missiles sol-air, mais leurs pires adversaires sont leurs homologues ennemis. Le camp qui parvient \u00e0 assoir sa sup\u00e9riorit\u00e9 dans les airs acquiert un avantage presque d\u00e9cisif, en temps de guerre.",
+    "strategy": "Le chasseur \u00e0 r\u00e9action est une puissante unit\u00e9 a\u00e9rienne. Il peut \u00eatre plac\u00e9 dans l'une de vos villes ou \u00e0 bord d'un porte-avions, se d\u00e9placer de base en base et effectuer des missions dans un rayon de 10\u00a0cases. Utilisez les chasseurs \u00e0 r\u00e9action pour attaquer les unit\u00e9s a\u00e9riennes et terrestres, pour rep\u00e9rer les positions ennemies et pour vous d\u00e9fendre des attaques a\u00e9riennes de vos rivaux. De plus, le chasseur \u00e0 r\u00e9action b\u00e9n\u00e9ficie de la capacit\u00e9 \"reconnaissance a\u00e9rienne\" qui lui permet, au d\u00e9but de son tour de jeu, de voir tout ce qui l'entoure dans un rayon de six cases. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Lasers",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(100).json"
+        },
+        {
+            "name": "Balayage a\u00e9rien",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconnaissance a\u00e9rienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contre bombardiers/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": 5,
+    "name": "Moteur (vaisseau spatial)",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_engine.png",
+    "game_info": "L'une des pi\u00e8ces du vaisseau spatial n\u00e9cessaire \u00e0 une victoire scientifique.",
+    "historical_info": "Le vaisseau spatial est propuls\u00e9 par un moteur ionique modifi\u00e9. Une fois le vaisseau dans l'orbite de la Terre gr\u00e2ce \u00e0 ses fus\u00e9es, les moteurs prendront le relais, le projetant dans l'espace. Le vaisseau acc\u00e9l\u00e8rera lentement, mais de fa\u00e7on constante, durant les huit premi\u00e8res ann\u00e9es de son voyage, puis stabilisera sa vitesse durant la majeure partie de l'exp\u00e9dition. En approchant d'Alpha du Centaure, il pivotera de 180\u00b0, puis les moteurs le pousseront dans la direction oppos\u00e9e pendant les huit derni\u00e8res ann\u00e9es de la travers\u00e9e, le ralentissant jusqu'\u00e0 ce qu'il orbite autour de la plan\u00e8te cible.",
+    "strategy": "Cette unit\u00e9 est l'un des composants du vaisseau spatial qui doit \u00eatre construit pour obtenir une victoire scientifique. Pour plus d'informations, veuillez consulter l'article consacr\u00e9 aux diff\u00e9rentes victoires.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Physique des particules",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/particle_physics.json"
+    },
+    "free_promotions": []
+}

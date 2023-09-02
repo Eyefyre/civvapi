@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Fusione del metallo|della Fusione del metallo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "Epoca medievale",
+    "cost": 275,
+    "civilopedia_entry": "La fusione del metallo \u00e8 il processo che permette di realizzare uno o pi\u00f9 oggetti versando metallo il stesso, fuso, all'interno di uno stampo. Una delle tecniche pi\u00f9 antiche \u00e8 quella \"a cera persa\", che risale almeno al III millennio a.C. In questo processo l'artigiano crea un duplicato con la cera, intorno al quale costruisce lo stampo; la cera viene successivamente fusa e sostituita dal metallo. Una volta che questo si \u00e8 raffreddato, lo stampo viene aperto e l'oggetto estratto.Storicamente, per costruire gli stampi i materiali pi\u00f9 usati sono stati l'argilla e la sabbia. In tempi moderni l'argilla \u00e8 stata sostituita da vari tipi di plastica e di sostanze simili al lattice.",
+    "quote": "\"Quando pezzi di bronzo o d'oro o di ferro si rompono, il fabbro li rinsalda ancora con il fuoco e il legame \u00e8 ristabilito.\" - Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Ingegneria|dell'Ingegneria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+        },
+        {
+            "name": "Lavorazione del ferro|della Lavorazione del ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fisica|della Fisica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/physics.json"
+        },
+        {
+            "name": "Acciaio|dell'Acciaio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserker|un Berserker|dal tuo Berserker|al tuo Berserker|il tuo Berserker|da un Berserker",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Casa Lunga|la Casa Lunga|una Casa Lunga",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/longhouse.json"
+        },
+        {
+            "name": "Fucina|la Fucina|una Fucina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/forge.json"
+        },
+        {
+            "name": "Bottega|la Bottega|una Bottega",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/workshop.json"
+        }
+    ]
+}

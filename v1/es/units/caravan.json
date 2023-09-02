@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Caravana|Caravanas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Funda rutas comerciales terrestres que producen Oro entre dos civilizaciones. Si has construido un Granero o un Taller, tambi\u00e9n se pueden usar para repartir Alimentos o Producci\u00f3n dentro de tus fronteras.",
+    "historical_info": "Desde tiempos inmemoriales, los mercaderes han usado animales de carga \u2013de caballos a mulas pasando por camellos y llamas\u2013 para el comercio de larga distancia. Los primeros registros hist\u00f3ricos que se tienen de caravanas se remontan al 1000 a. C., cuando las recuas de camellos llevaban gemas, metales preciosos, incienso y especias hasta la costa occidental de Arabia, uniendo la India con los imperios de Egipto, Fenicia y Mesopotamia. Muchas rutas de caravanas, como la Ruta de la Seda, desde China a Oriente Medio, conformaron la historia con tanta certeza como las guerras y las creencias. Aunque en su mayor\u00eda se han visto sustituidas por el transporte motorizado, sigue habiendo caravanas de carga por tierras tan inh\u00f3spitas como los m\u00e1rgenes del Sahara y del Gobi.",
+    "strategy": "Una Caravana te permite fundar una ruta comercial terrestre entre dos civilizaciones, que generar\u00e1 Oro tanto para el due\u00f1o como para la civilizaci\u00f3n de destino. Al construir un Granero o un Taller en la ciudad de origen tendr\u00e1s la posibilidad de enviar Alimentos o Producci\u00f3n entre tus propias ciudades. Una vez asignada a una ruta no podr\u00e1 defenderse, as\u00ed que aseg\u00farate de que el camino no es peligroso.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Ganader\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

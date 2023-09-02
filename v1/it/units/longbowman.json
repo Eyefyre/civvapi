@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "Arciere con arco lungo|un Arciere con arco lungo|dal tuo Arciere con arco lungo|al tuo Arciere con arco lungo|il tuo Arciere con arco lungo|da un Arciere con arco lungo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "Unit\u00e0 di fanteria di epoca medievale che attacca a distanza. Solo gli inglesi possono costruirla. Quest'unit\u00e0 ha un raggio di tiro di 1 casella pi\u00f9 ampio rispetto al Balestriere, che sostituisce.",
+    "historical_info": "L'arco lungo inglese \u00e8 stato sviluppato nel XII secolo, durante la conquista del Galles. Costruito con legno di tasso o di olmo, un arco poteva essere lungo da 1,5 a oltre 2 metri (a seconda dell'altezza e della forza dell'arciere). Si trattava di un'arma estremamente difficile da padroneggiare, ma un arciere inglese ben addestrato poteva tirare pi\u00f9 lontano, pi\u00f9 velocemente e con maggior precisione dei balestrieri dell'epoca. Per far questo, per\u00f2, servivano anni di pratica. Al crescere della popolazione la campagna incontaminata inglese fu trasformata gradualmente in terreno coltivato. Le opportunit\u00e0 per andare a caccia diminuirono e cos\u00ec i piccoli proprietari terrieri usarono sempre pi\u00f9 raramente arco e frecce. Questo motivo, ancor pi\u00f9 dell'avvento della polvere da sparo, decret\u00f2 il declino dell'arco lungo.",
+    "strategy": "L'Arciere con arco lungo \u00e8 un'unit\u00e0 esclusiva inglese e sostituisce il Balestriere. L'Arciere con arco lungo ha un raggio di tiro superiore a quello della sua controparte, arrivando a colpire nemici tre esagoni pi\u00f9 in l\u00e0 e spesso distruggendoli prima che possano contrattaccare. Come le altre unit\u00e0 che attaccano a distanza, gli Arcieri con arco lungo sono vulnerabili agli attacchi ravvicinati.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Meccanica|della Meccanica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Raggio di tiro ampliato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/range.json"
+        }
+    ]
+}

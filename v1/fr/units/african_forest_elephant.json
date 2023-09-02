@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "\u00c9l\u00e9phant de for\u00eat d'Afrique|\u00c9l\u00e9phants de for\u00eat d'Afrique",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Puissante unit\u00e9 mont\u00e9e de d\u00e9but de partie, vuln\u00e9rable contre les lanciers et exclusive aux Carthaginois. Elle est plus puissante en combat que le cavalier, qu'elle remplace, et inspire la peur aux unit\u00e9s ennemies proches. Elle permet de g\u00e9n\u00e9rer l'apparition de g\u00e9n\u00e9raux illustres plus rapidement.",
+    "historical_info": "Souvent utilis\u00e9 par les forces carthaginoises du l\u00e9gendaire g\u00e9n\u00e9ral Hannibal durant ses campagnes contre les Romains, l'\u00e9l\u00e9phant \u00e9tait une b\u00eate de somme pr\u00e9cieuse, mais aussi une arme dangereuse. Employ\u00e9s durant toutes les guerres puniques, avec plus ou moins de succ\u00e8s, les \u00e9l\u00e9phants de guerre carthaginois \u00e9taient dress\u00e9s pour charger les lignes ennemies en portant sur leur dos des soldats install\u00e9s dans des nacelles. Malgr\u00e9 leur taille impressionnante, les \u00e9l\u00e9phants \u00e9taient vuln\u00e9rables face \u00e0 l'infanterie mobile et il n'\u00e9tait pas rare qu'ils meurent lors des marches \u00e9puisantes de l'arm\u00e9e carthaginoise, car d'aussi grands animaux n\u00e9cessitaient \u00e9norm\u00e9ment de soins.",
+    "strategy": "L'\u00e9l\u00e9phant de for\u00eat d'Afrique est une unit\u00e9 exclusive aux Carthaginois, qui remplace le cavalier. L'\u00e9l\u00e9phant carthaginois est plus lent, mais plus puissant que le cavalier. Il peut se d\u00e9placer apr\u00e8s avoir attaqu\u00e9. Il inspire aussi la peur aux unit\u00e9s ennemies proches, qui subissent toutes un modificateur de combat n\u00e9gatif. Les victoires militaires des \u00e9l\u00e9phants sont plus susceptibles de g\u00e9n\u00e9rer l'apparition d'un g\u00e9n\u00e9ral illustre.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "\u00c9quitation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "P\u00e9nalit\u00e9 (attaque de villes)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Crainte de l'\u00e9l\u00e9phant",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/feared_elephant.json"
+        },
+        {
+            "name": "G\u00e9n\u00e9raux illustres II",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/great_generals_ii.json"
+        }
+    ]
+}

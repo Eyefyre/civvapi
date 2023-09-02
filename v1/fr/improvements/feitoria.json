@@ -1,0 +1,49 @@
+{
+    "id": 28,
+    "name": "Feitoria|Feitoria",
+    "game_info": "La feitoria, nom portugais signifiant \"fabrique\", d\u00e9signait au Moyen-\u00e2ge un comptoir commercial \u00e9tabli en territoire \u00e9tranger. Elle servait \u00e0 la fois de march\u00e9, d'entrep\u00f4t, de colonie et de zone de passage pour l'exploration. Souvent mises en place avec l'aide financi\u00e8re de la couronne portugaise, ces entreprises priv\u00e9es remboursaient leur emprunt en achetant et en revendant des marchandises pour le compte de la cour, et en percevant des taxes commerciales sur les cargaisons en transit. Au cours des XVe et XVIe si\u00e8cles, une cha\u00eene de plus de 50\u00a0feitorias fut \u00e9rig\u00e9e le long des c\u00f4tes de l'Afrique de l'est et de l'ouest, de l'Inde, de la Malaisie, de la Chine et du Japon. Gr\u00e2ce \u00e0 ses feitorias, le Portugal a pu dominer les routes commerciales de l'Atlantique et de l'oc\u00e9an Pacifique durant trois si\u00e8cles. La feitoria ne peut \u00eatre construite que sur le territoire d'une cit\u00e9-\u00e9tat, sur une case c\u00f4ti\u00e8re sans ressource. Elle vous fait profiter d'un exemplaire de chaque type de ressource de luxe connect\u00e9 \u00e0 cette cit\u00e9-\u00e9tat, quelle que soit votre relation avec elle, mais cet exemplaire ne peut pas \u00eatre \u00e9chang\u00e9. Elle octroie \u00e9galement le m\u00eame bonus d\u00e9fensif de 50% que le fort. Cet am\u00e9nagement est exclusif aux Portugais.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/feitoria|feitoria.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+    },
+    "required_civ": {
+        "name": "Portugal",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/civilizations/portugal.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 64,
+    "name": "Protezionismo",
+    "game_info": "ProtezionismoOgni risorsa di lusso causa +2 Felicit\u00e0.",
+    "historical_info": "Il protezionismo \u00e8 la politica di chi impone vincoli al commercio internazionale attraverso quote, dazi e altri metodi. \u00c8 utilizzato dai paesi che cercano di rallentare o bloccare le importazioni di beni e servizi dall'estero per \"proteggere\" l'industria locale. Il protezionismo serve anche ai governi per limitare il contatto dei cittadini con persone e idee straniere, perch\u00e9 pensano che siano intrinsecamente malvagie o perch\u00e9 non vogliono che il loro popolo si renda conto di quanto se la passa male rispetto al resto del mondo. La Corea del Nord \u00e8 un esempio di stato grottescamente protezionista: i suoi leader limitano al massimo il contatto con il mondo esterno per tenere i cittadini all'oscuro della loro stessa arretratezza.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/protezionismo.png",
+    "required_policies": [
+        {
+            "name": "Mercantilismo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/mercantilism.json"
+        },
+        {
+            "name": "Imprenditorialit\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/entrepreneurship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Commercio",
+        "game_info": "Il Commercio fornisce diversi bonus agli imperi che si focalizzano sull' Oro.Adottare il Commercio aumenter\u00e0 del 25% le entrate di Oro nella capitale. Sblocca la costruzione del Big Ben.Adottare tutte le Politiche nell'albero del Commercio ti fa guadagnare +1 Oro per ogni Base commerciale. Inoltre permette l'acquisto di Grandi Mercanti in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca medievale",
+        "historical_info": "Il termine \"commercio\" indica lo scambio di beni e servizi attraverso il baratto (cio\u00e8 in cambio di altri beni o servizi) o l'uso di qualche forma di valuta. Tra gli esseri umani il commercio \u00e8 antico quanto il linguaggio, forse ancora di pi\u00f9. In alcune culture i mercanti occupano una classe inferiore rispetto ai governanti o ai guerrieri. In altre culture i mercanti appartengono all'\u00e9lite: l'acquisizione di ricchezze \u00e8 considerata la pi\u00f9 alta fra tutte le attivit\u00e0. Per la maggior parte della loro storia recente gli Stati Uniti si sono posti nella seconda categoria."
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Unit\u00e0 corazzata|un'Unit\u00e0 corazzata|dalla tua Unit\u00e0 corazzata|alla tua Unit\u00e0 corazzata|la tua Unit\u00e0 corazzata|da un'Unit\u00e0 corazzata",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Unit\u00e0 veloce e potente, disponibile verso la fine del gioco.",
+    "historical_info": "Le Unit\u00e0 corazzate moderne sono molto superiori ai carri della Seconda Guerra Mondiale, anche quelli pi\u00f9 evoluti. I mezzi di oggi sono pi\u00f9 grandi, veloci, meglio armati e corazzati. Inoltre, cosa forse ancora pi\u00f9 importante, sono dotati di sofisticati computer e sistemi di comunicazione che aumentano notevolmente la loro capacit\u00e0 di sopravvivere sul campo di battaglia moderno. Un carro moderno pu\u00f2 sfrecciare a 60 km/h mentre spara con precisione millimetrica a un bersaglio posto a centinaia di metri di distanza, grazie al computer di puntamento che corregge la posizione del cannone controbilanciando ogni minima buca o cunetta sul terreno.La minaccia pi\u00f9 grande per i carri sono gli altri carri, l'artiglieria nemica, i caccia e soprattutto gli elicotteri da guerra. \u00c8 raro che un'unit\u00e0 di fanteria trasporti armi in grado di distruggere un carro armato: in questi casi l'arma pi\u00f9 potente \u00e8 la radio, con cui guidare il tiro dell'artiglieria o chiamare il supporto aereo.",
+    "strategy": "La moderna Unit\u00e0 corazzata \u00e8 simile al suo predecessore, il Carro armato, ma superiore sotto tutti gli aspetti. Le Unit\u00e0 corazzate sono molto pi\u00f9 forti dei vecchi carri, di cui possiedono tutte le abilit\u00e0, tra cui quella di muoversi dopo il combattimento.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Laser|del Laser",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

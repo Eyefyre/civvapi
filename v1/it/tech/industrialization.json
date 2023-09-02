@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrializzazione|dell'Industrializzazione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "Epoca industriale",
+    "cost": 1600,
+    "civilopedia_entry": "Con il termine industrializzazione si indica il passaggio da una societ\u00e0 agricola a una industriale, in genere accompagnato da un profondo cambiamento sociale ed economico nella comunit\u00e0. La Rivoluzione Industriale, che ha avuto inizio in Europa nel XVIII secolo, ha portato immensi cambiamenti nella vita quotidiana delle persone. Molti lavori che una volta erano lasciati alle abili mani degli artigiani diventarono obsoleti con la comparsa delle catene di montaggio, in cui grandi gruppi di operai non specializzati azionano macchine e strumenti sempre pi\u00f9 complessi.",
+    "quote": "\"L'industrializzazione basata sui macchinari, gi\u00e0 indicata come una caratteristica della nostra epoca, \u00e8 solo uno degli aspetti della rivoluzione prodotta dalla tecnologia.\" - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Economia|dell'Economia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mitragliatrice Gatling|una Mitragliatrice Gatling|dalla tua Mitragliatrice Gatling|alla tua Mitragliatrice Gatling|la tua Mitragliatrice Gatling|da una Mitragliatrice Gatling",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fabbrica|la Fabbrica|una Fabbrica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben|il Big Ben|il Big Ben",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/big_ben.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Funkturm",
+    "game_info": "+33% Kultur in dieser Stadt.Stadt ben\u00f6tigt ein Museum.",
+    "strategy": "Ein Funkturm ist ein Geb\u00e4ude im sp\u00e4teren Verlauf des Spiels, das den Kulturertrag einer Stadt um 33% steigert. Die Stadt muss \u00fcber ein Museum verf\u00fcgen, bevor sie einen Funkturm errichten kann.",
+    "historical_info": "Ein Funkturm \u00fcbertr\u00e4gt Kommunikationssignale - Radio, Fernsehen etc. - \u00fcber die Luft, was es Empfangsger\u00e4ten in einem Umkreis von vielen Kilometern erm\u00f6glicht, sie zu empfangen. Das wichtigste Merkmal eines Funkturms ist seine H\u00f6he. Je h\u00f6her der Sender liegt, desto weiter kann das Signal ausgestrahlt werden. Das Empire State Building in Manhattan sendet seit 1931 Signale. Nach dem Fall der T\u00fcrme des World Trade Centers 2001 ist es wieder zum wichtigsten Funkturm in New York City geworden, \u00fcber den die Signale fast aller kommerziellen Funkh\u00e4user der Stadt gesendet werden.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/funkturm.png",
+    "prereq_tech": {
+        "name": "Funkwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radio.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

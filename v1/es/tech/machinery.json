@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "Maquinaria",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 485,
+    "civilopedia_entry": "Una m\u00e1quina es un ingenio con partes m\u00f3viles que usa energ\u00eda para llevar a cabo sus tareas (al menos, \u00e9sta ser\u00eda la definici\u00f3n de la era pre-electr\u00f3nica). Una imprenta es una m\u00e1quina, como lo es un telar, un reloj o un molino de agua. El dominio de la maquinaria requiere la habilidad de dise\u00f1ar e ingeniar, por supuesto, pero tambi\u00e9n la capacidad de fabricar piezas de las m\u00e1quinas con medidas precisas. Una m\u00e1quina de vapor tendr\u00e1 fugas si se construye mal (eso si no estalla directamente). Trabajar con aparatos de la \u00e9poca de las primeras m\u00e1quinas era muy peligroso: si los humos no te mataban, ten\u00edas muchas posibilidades de acabar abrasado, succionado por el aparato o volado en pedazos.Por otro lado, cuando una civilizaci\u00f3n empezaba a dominar la maquinaria compleja, \u00e9sta le daba una riqueza y un poder sin igual. Inglaterra inici\u00f3 muy pronto la Revoluci\u00f3n Industrial y, con ella, la peque\u00f1a isla-estado domin\u00f3 el mundo del comercio durante los casi tres siglos siguientes.",
+    "quote": "\"La imprenta es el mejor invento para iluminar la mente del hombre y para mejorarlo como ser racional, moral y social.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Ingenier\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+        },
+        {
+            "name": "Gremios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Imprenta",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ballestero|Ballesteros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/crossbowman.json"
+        },
+        {
+            "name": "Cho-ko-nu|Cho-ko-nu",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/chu-ko-nu.json"
+        },
+        {
+            "name": "Saetero|Saeteros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fundici\u00f3n|Fundiciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/ironworks.json"
+        }
+    ]
+}

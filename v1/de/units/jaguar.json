@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Jaguarkrieger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Relativ schwache, fr\u00fche Milit\u00e4reinheit. Nur die Azteken k\u00f6nnen sie bauen. Diese Einheit k\u00e4mpft im Dschungel effektiver und heilt Schaden, wenn sie eine andere Einheit besiegt, anders als der Krieger, den sie ersetzt.",
+    "historical_info": "In der aztekischen Kultur war der Krieg zugleich religi\u00f6ser Ritus als auch politisches Werkzeug. Junge M\u00e4nner mussten zur Verbesserung ihres Standes Gegner t\u00f6ten oder gefangen nehmen und f\u00fcr die religi\u00f6sen Riten der Azteken wurde zudem eine stetig wachsende Zahl von Gefangenen zum Opfern ben\u00f6tigt. Die Jaguarkrieger waren die Elitesoldaten der aztekischen Armee. In Jaguarfelle gekleidet und mit t\u00f6dlichen \"Macuahuitls\" (Holzschwertern mit an den Seiten eingebetteten scharfen Obsidianklingen) ausgestattet, waren die Jaguarkrieger die vielleicht gef\u00e4hrlichsten leichten Infanteristen im pr\u00e4kolumbischen Mittel- und Nordamerika.",
+    "strategy": "Der Jaguarkrieger ist die Spezialeinheit der Azteken und ersetzt den Krieger. Der Jaguarkrieger erh\u00e4lt einen erheblichen Bonus, wenn er im Dschungel k\u00e4mpft. Er heilt Schaden, wenn er feindliche Einheiten zerst\u00f6rt, und besitzt die Waldkampf-Bef\u00f6rderung, dank der er sich schnell durch Dschungel und Wald fortbewegen kann.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kampfbonus in Wald/Dschungel (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Waldkampf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/woodsman.json"
+        },
+        {
+            "name": "Heilt 25 Schaden beim Vern. v. Einh.",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

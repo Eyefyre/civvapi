@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Trebusze|Trebuszy|Trebuszom|Trebusze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "Pot\u0119\u017cna, \u015bredniowieczna jednostka obl\u0119\u017cnicza, dobra w os\u0142abianiu obrony wrogich miast. Przed rozpocz\u0119ciem ostrza\u0142u musi si\u0119 ustawi\u0107.",
+    "historical_info": "Trebusze to pot\u0119\u017cna \u015bredniowieczna bro\u0144 obl\u0119\u017cnicza. Po raz pierwszy pojawi\u0142y si\u0119 w Europie w XII wieku. By\u0142a w stanie przerzuci\u0107 za nawet bardzo oddalone mury wrogiego miasta pocisk o wadze 300 funt\u00f3w. Trebusze wykorzystuj\u0105 zasad\u0119 przeciwwagi. Machina ta sk\u0142ada\u0142a si\u0119 z bardzo d\u0142ugiego drewnianego ramienia, z miejscem na pocisk z jednej strony i ci\u0119\u017carem z drugiej. Rami\u0119 by\u0142o napinane pod obci\u0105\u017ceniem ci\u0119\u017caru. Po zwolnieniu pocisk wylatywa\u0142 w powietrze i by\u0142 w stanie przelecie\u0107 du\u017c\u0105 odleg\u0142o\u015b\u0107. Machiny te by\u0142y w zasadzie niemobilne. Przygotowanie ich do ostrza\u0142u zajmowa\u0142o du\u017co czasu, dlatego te\u017c wykorzystywano je g\u0142\u00f3wnie podczas d\u0142ugotrwa\u0142ych obl\u0119\u017ce\u0144.",
+    "strategy": "Trebusze to \u015bredniowieczna bro\u0144 obl\u0119\u017cnicza, znacznie silniejsza od prymitywnych katapult. Przed oddaniem strza\u0142u musz\u0105 wyda\u0107 1 punkt ruchu, \u017ceby si\u0119 rozstawi\u0107, ale gdy to zrobi\u0105, mog\u0105 zada\u0107 powa\u017cne uszkodzenia umocnionemu miastu wroga. Chro\u0144 trebusze za pomoc\u0105 jednostek do walki wr\u0119cz i strzelaj\u0105cych, aby nie zbli\u017cy\u0142 si\u0119 do nich przeciwnik.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Fizyka|Fizyki|Fizyce|Fizyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 102,
+    "name": "Archer mont\u00e9|Archers mont\u00e9s",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horse_archer.png",
+    "game_info": "Unit\u00e9 d'attaque \u00e0 distance rapide id\u00e9ale pour attaquer, puis prendre la fuite. Exclusive aux Huns.",
+    "historical_info": "Les redoutables cavaliers hunniques, r\u00e9put\u00e9s pour leurs talents d'archers et leur adresse \u00e0 cheval, firent des ravages en Europe durant les conqu\u00eates hunniques des IVe et Ve\u00a0si\u00e8cles de notre \u00e8re. Arm\u00e9s de puissants arcs composites, les archers mont\u00e9s hunniques parfaisaient leur savoir-faire en chassant dans les steppes d'Asie centrale et c'est sans mal qu'ils mettaient ensuite \u00e0 profit leurs comp\u00e9tences en temps de guerre. Tout le monde s'accorde \u00e0 dire que l'utilisation d'archers mont\u00e9s par les Huns influen\u00e7a beaucoup les arm\u00e9es des royaumes d'Asie et d'Europe, o\u00f9 les unit\u00e9s de cavalerie se d\u00e9velopp\u00e8rent apr\u00e8s les invasions hunniques.",
+    "strategy": "Unit\u00e9s rapides de combat \u00e0 distance, les archers mont\u00e9s sont redoutables en terrain d\u00e9gag\u00e9. Ils sont l\u00e9g\u00e8rement meilleurs en d\u00e9fense que l'archer sur char et se d\u00e9placent sur des terrains accident\u00e9s sans subir la p\u00e9nalit\u00e9 de d\u00e9placement de l'archer sur char. Ils d\u00e9marrent \u00e9galement avec la promotion Pr\u00e9cision I. Comme toutes les unit\u00e9s mont\u00e9es, les archers mont\u00e9s sont vuln\u00e9rables aux lanciers. \u00c0 la diff\u00e9rence de l'archer sur char, les archers mont\u00e9s ne n\u00e9cessitent pas de chevaux.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "La roue",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Pr\u00e9cision I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/accuracy_i.json"
+        }
+    ]
+}

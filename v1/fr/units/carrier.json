@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Porte-avions|Porte-avions",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Transporte 2 a\u00e9ronefs\u00a0; cette capacit\u00e9 peut \u00eatre am\u00e9lior\u00e9e gr\u00e2ce aux promotions.",
+    "historical_info": "Le premier vol d'un avion depuis un vaisseau am\u00e9ricain a eu lieu en 1910. M\u00eame si certains traditionnalistes ont protest\u00e9 contre le d\u00e9veloppement du porte-avions, persuad\u00e9s que les cuirass\u00e9s \u00e9taient et resteraient l'\u00e9l\u00e9ment essentiel d'une flotte, la production mondiale de porte-avions commen\u00e7a \u00e0 partir des ann\u00e9es 1920. En d\u00e9cembre 1941, la marine japonaise a prouv\u00e9 la toute puissance du porte-avions en d\u00e9truisant une grande partie de la flotte am\u00e9ricaine dans le Pacifique (dont un grand nombre de ces cuirass\u00e9s si pris\u00e9s) lors de l'attaque surprise de Pearl Harbor. Par un extraordinaire concours de circonstances, les porte-avions am\u00e9ricains \u00e9taient en man\u0153uvre lorsque l'attaque a eu lieu, ils purent ainsi \u00e9chapper \u00e0 la destruction et ralentir l'avanc\u00e9e japonaise jusqu'\u00e0 ce que la production massive de porte-avions am\u00e9ricains commence \u00e0 porter ses fruits, et \u00e0 asseoir leur supr\u00e9matie maritime (et a\u00e9rienne) jusqu'\u00e0 la d\u00e9faite japonaise.",
+    "strategy": "Le porte-avions est un navire sp\u00e9cialis\u00e9 pouvant transporter des avions de chasse, des bombardiers (\u00e0 l'exception des bombardiers furtifs) et des bombes atomiques. Le porte-avions ne peut pas attaquer, mais les avions qu'il transporte font de cette unit\u00e9 la plus puissante de toutes les unit\u00e9s navales. En revanche, sa d\u00e9fense est faible, vous devriez donc lui adjoindre des destroyers et des sous-marins.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u00c9lectronique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Capacit\u00e9 de transport\u00a0: 2",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samur\u00e1i|Samur\u00e1i",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "Poderosa unidad de infanter\u00eda medieval. Solo los japoneses pueden crearla. Esta unidad lucha m\u00e1s eficazmente y ayuda a producir Grandes generales m\u00e1s r\u00e1pido que el Soldado con espada larga, al que sustituye. Los Samur\u00e1is embarcados pueden construir barcos pesqueros en un turno sin consumirse (por lo que son \u00fatiles incluso en tiempos de paz).",
+    "historical_info": "Los samur\u00e1is japoneses fueron, posiblemente, los mejores guerreros anteriores a las armas de p\u00f3lvora desde los legionarios romanos. Aparecieron en el siglo XII, y eran una casta de guerreros que hab\u00edan jurado seguir el c\u00f3digo del Bushido, que antepon\u00eda el valor, el honor y la lealtad a la propia vida. El samur\u00e1i sol\u00eda llevar dos espadas, la katana, de una sola hoja, y una versi\u00f3n m\u00e1s corta, la wakizashi, que se utilizaba para el \"seppuku\" (suicidio ritual). Estas espadas eran muy superiores a sus equivalentes occidentales, las espadas largas, pues los armeros japoneses hab\u00edan dominado el arte de combinar el acero con alto y bajo contenido de carbono. Algunos llevaban tambi\u00e9n arco o lanza y, posteriormente, armas de fuego. Seg\u00fan la \u00e9poca (y su estatus y riqueza) el samur\u00e1i pod\u00eda llevar armadura acolchada, lacada o de metal.",
+    "strategy": "El Samur\u00e1i es la unidad exclusiva de los japoneses y sustituye al Soldado con espada larga. Tan poderoso como este, el Samur\u00e1i recibe autom\u00e1ticamente el ascenso de Choque I, lo que le concede una bonificaci\u00f3n al luchar en terreno abierto. Si tiene \u00e9xito en combate, aumenta la probabilidad de generar Grandes generales. Puede construir barcos pesqueros sin consumirse.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Acero",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Choque I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/shock_i.json"
+        },
+        {
+            "name": "Grandes generales II",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/great_generals_ii.json"
+        }
+    ]
+}

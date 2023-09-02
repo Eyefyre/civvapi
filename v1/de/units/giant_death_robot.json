@@ -1,0 +1,27 @@
+{
+    "id": 19,
+    "name": "Riesiger Killerroboter",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/giant_death_robot.png",
+    "game_info": "Profitiert nicht von defensiven Gel\u00e4nde-Bonussen, ist ansonsten aber st\u00e4rker als alle anderen milit\u00e4rischen Einheiten im Spiel.",
+    "historical_info": "Der riesige, zweibeinige, mechanische Roboter ist mit einer Reihe von Raketen, Gatling-Kanonen-Armen, Laserstrahl-Augen und einem t\u00f6dlichen Kung-Fu-Schlag ausgestattet. Obwohl er derzeit nicht auf modernen Schlachtfeldern zu finden ist, arbeiten in diesem Moment zweifellos Regierungen und b\u00f6se Konzerne auf der ganzen Welt im Geheimen an der Entwicklung dieser Giganten aus Metall. Wenn diese Kampfroboter zum Einsatz kommen, werden alle anderen Waffen \u00fcberfl\u00fcssig sein und das Schicksal der Menschheit wird sich in einem fulminanten Kampf zwischen Armeen der guten und der b\u00f6sen Kampfroboter in den Stra\u00dfen der Innenstadt Tokios entscheiden. (Vorausgesetzt, die riesigen radioaktiven Monster erwischen uns nicht zuerst.)",
+    "strategy": "Der Kampfroboter ist eine Kampfpanzer-Einheit auf Steroiden. Er besitzt extrem hohe Kampfst\u00e4rke und kann praktisch jede feindliche Einheit zermalmen. Der Kampfroboter kann sich nach dem Angriff bewegen. Die Einheit profitiert nicht von defensiven Gel\u00e4nde-Bonussen, aber mal ehrlich - wen interessiert das schon? Das Ding ist echt cool!",
+    "movement": 5,
+    "cost": {
+        "production": 550,
+        "faith": 1100
+    },
+    "prereq_tech": {
+        "name": "Kernfusion",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fusion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

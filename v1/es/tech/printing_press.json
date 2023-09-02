@@ -1,0 +1,48 @@
+{
+    "id": 35,
+    "name": "Imprenta",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/printing_press.png",
+    "era": "Renacimiento",
+    "cost": 780,
+    "civilopedia_entry": "Aunque los tipos m\u00f3viles se inventaron en China, la primera imprenta mec\u00e1nica de la que se tiene constancia la invent\u00f3 el impresor alem\u00e1n Johannes Gutenberg a mediados del siglo XV. Las primeras imprentas eran m\u00e1quinas de madera, muy parecidas a las prensas para hacer vino y aceite que se hab\u00edan utilizado en el Mediterr\u00e1neo durante siglos.En las primeras imprentas, se grababan los tipos al rev\u00e9s en una \"plancha\" de madera que se sujetaba firmemente. Se aplicaba tinta a los tipos de la plancha y luego se pon\u00eda una hoja encima de ellos, en la imprenta, El impresor giraba el torno para presionar el papel y ponerlo en contacto con los tipos entintados. Luego quitaba la hoja, volv\u00eda a entintar los tipos y empezaba de nuevo el proceso. La imprenta de Gutenberg pod\u00eda imprimir unas 250 hojas por hora (a una cara). Su dise\u00f1o permaneci\u00f3 pr\u00e1cticamente inalterado durante 300 a\u00f1os, hasta que aparecieron las m\u00e1quinas de metal. En el siglo XIX, las imprentas ya eran a vapor y capaces de producir unas 7.500 hojas por hora.No puede olvidarse la importancia que ha tenido la imprenta para el conocimiento humano. Antes de ella, hab\u00eda pocos libros disponibles, y los que hab\u00eda costaban m\u00e1s de lo que un trabajador ganaba en un a\u00f1o. La biblioteca de la universidad de Cambridge solo contaba con poco m\u00e1s de 100 vol\u00famenes cuando se invent\u00f3 la imprenta. En un periodo de tiempo asombrosamente breve, la gente normal pudo permitirse el lujo de tener biblias y otros libros en su casa. Durante los 60 a\u00f1os siguientes, empezaron a aparecer las primeras \"hojas informativas\" (predecesoras del peri\u00f3dico) en Inglaterra.",
+    "quote": "\"El deber de un peri\u00f3dico consiste en publicar noticias y montar una buena.\" - The Chicago Times",
+    "tech_prereqs": [
+        {
+            "name": "Maquinaria",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+        },
+        {
+            "name": "F\u00edsica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/physics.json"
+        },
+        {
+            "name": "Caballer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        },
+        {
+            "name": "Metalurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zoo|Zoos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/zoo.json"
+        },
+        {
+            "name": "Torre inclinada de Pisa|Torres inclinadas de Pisa",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/leaning_tower_of_pisa.json"
+        },
+        {
+            "name": "Globe Theatre|Globe Theatres",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/globe_theatre.json"
+        }
+    ]
+}

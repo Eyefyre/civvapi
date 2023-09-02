@@ -1,0 +1,36 @@
+{
+    "id": 77,
+    "name": "Particle Physics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/particle_physics.png",
+    "era": "Information Era",
+    "cost": 8800,
+    "civilopedia_entry": "Particle physics takes us one step deeper into the understanding of the nature of matter and energy than its ancestor, \"atomic theory.\" While the term \"atom\" wasn't coined until 1803 by chemist John Dalton, the idea that all matter can be broken down into smaller and smaller fundamental building blocks can be traced back as far as the 6th century B.C. Modern particle physics, or more properly the study of quantum mechanics, didn't fully begin until 1838 with the discovery of cathode rays by Michael Faraday, which helped prove that atoms - until then the smallest known objects in science - were in fact composed of even smaller particles.In general, the basic foundation of quantum theory can be summed up by the Standard Model, a categorization of the seventeen species of elementary particles: 12 fermions, 4 vector bosons, and 1 scalar boson (not protons and neutrons as commonly taught in lower levels of schooling - these are actually made up of quarks, different flavors of fermions). Particles associated with matter are categorized as fermions (having a half-integer spin) and particles associated with forces, the bosons, have an integer spin. From these 17 basic particles, hundreds of other species of composite and fundamental particles can be created.While many particle physicists believe that there still exists some greater understanding to be uncovered, studies in particle physics have shown that it is possible to transmute lead into gold (although not economically so) and that such fantasies of the science fiction world as Dark Matter and the Great Theory of Everything may in fact exist.",
+    "quote": "\"Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.\" - Isaac Newton",
+    "tech_prereqs": [
+        {
+            "name": "Telecommunications",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/telecommunications.json"
+        },
+        {
+            "name": "Mobile Tactics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Advanced Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Future Tech",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "SS Engine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ss_engine.json"
+        }
+    ],
+    "building_unlocks": []
+}

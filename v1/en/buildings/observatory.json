@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Observatory",
+    "game_info": "City must be built next to a Mountain.",
+    "strategy": "The Observatory can only be constructed in a city next to a mountain tile. The Observatory greatly increases the city's Science output.",
+    "historical_info": "An observatory is a building dedicated to the study of the sky. Early Man was convinced that the movement of the stars had mystical importance, and many of the first observatories were religious structures. As time passed men realized that they could chart the passage of the seasons with extreme accuracy by the rise and fall of the stars, eventually concluding that such information was critically useful when choosing the correct day to plant or harvest crops. Such revelations reinforced the observatories' religious and practical importance to the community. Modern observatories are computer-driven and equipped with advanced telescopes (or communicate with even more powerful space-based telescopes), providing the scientists with far more information than their primitive ancestors could ever have dreamed of. But the job remains the same: figuring out the how the universe works by studying the sky.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/observatory.png",
+    "prereq_tech": {
+        "name": "Astronomy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/astronomy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

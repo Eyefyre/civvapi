@@ -1,0 +1,20 @@
+{
+    "id": 37,
+    "name": "Legalism",
+    "game_info": "LegalismProvides a free culture building in your first 4 cities.",
+    "historical_info": "Legalism is a policy in which the relationship between the ruler and his or her subjects are laid out in a series of laws, which both sides must adhere to strictly. If the law is fair and is properly enforced, the people will be content and the ruler's position will be secure. While this may seem to cover most governments that follow the rule of law, legalism almost achieved the status of a state religion in China during the Warring State Period.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/legalism.png",
+    "required_policies": [
+        {
+            "name": "Oligarchy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/oligarchy.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Tradition",
+        "game_info": "Tradition is best for small empires.Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 Culture in the Capital. Unlocks building the Hanging Gardens.Adopting all Policies in the Tradition tree will grant +15% Growth and a free Aqueduct in your first 4 cities. It also allows the purchase of Great Engineers with Faith starting in the Industrial Era.",
+        "prereq_era": null,
+        "historical_info": "Tradition is the policy of honoring the decisions made by one's ancestors and all earlier rulers of the state. New policies are viewed with deep suspicion and distrust. Even in allegedly forward-thinking countries like the United States, tradition can be quite powerful indeed, as may be seen in the tension between those who favor strict adherence to the original literal meaning of the US Constitution, and those who believe that the Constitution must be more broadly interpreted in light of the changing nature of the United States and the world. The former group would be considered to be more traditionalist than the latter."
+    }
+}

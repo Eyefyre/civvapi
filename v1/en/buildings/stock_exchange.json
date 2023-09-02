@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stock Exchange",
+    "game_info": "City must have a Bank.",
+    "strategy": "The Stock Exchange is a mid-game building which increases the city's output of Gold. The city must possess a Bank (or Satrap's Court) before the Stock Exchange can be constructed.",
+    "historical_info": "A stock exchange is an organization which allows people to buy and sell \"stocks\" - shares of ownership of businesses. In some cases, the stocks include voting rights, giving the owners some say in the management of the business. Some stocks also provide \"dividends\" in which a portion of the company's profits are annually paid to the stockholders. The primary (or at least the original) purpose of stock exchanges is to allow the owners of companies to raise money by selling a portion of their company to investors. As the value of the company rises, so does the value of the stock. And of course there's risk involved as well - if the value of the stock falls, so does the value of the investment. A modern stock exchange may also sell other powerful financial \"instruments\" such as bonds, securities, options, swaps and derivatives. When properly run, a stock exchange can turbo-charge an economy. When poorly managed, it can cause financial chaos and ruin.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stock_exchange.png",
+    "prereq_tech": {
+        "name": "Electricity",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

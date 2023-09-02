@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Navire marchand|Navires marchands",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Cette unit\u00e9 \u00e9tablit entre deux civilisations des routes commerciales maritimes qui produisent de l' or. En construisant un grenier ou un atelier, elle peut \u00e9galement \u00eatre utilis\u00e9e pour faire transiter de la nourriture ou de la production \u00e0 l'int\u00e9rieur de vos fronti\u00e8res.",
+    "historical_info": "Les navires marchands ont pour fonction de transporter des biens par la mer. Les registres historiques les plus anciens mentionnent d\u00e9j\u00e0 le transport des produits de commerce par voie maritime, et les arch\u00e9ologues sont parvenus \u00e0 prouver le passage de navires marchands dans la mer M\u00e9diterran\u00e9e et la mer Rouge au d\u00e9but du Ier mill\u00e9naire av. J.-C. Les voyages commerciaux entrepris \u00e9tant de plus en plus longs, les plans de ces navires furent revisit\u00e9s \u00e0 de nombreuses reprises. Au XVIe si\u00e8cle, la nef portugaise et le galion espagnol \u00e9taient indubitablement les rois du commerce maritime international. Avec l'essor de l'\u00e2ge industriel, la vitesse est devenue un enjeu de taille, jusqu'\u00e0 l'apparition des clippers \u00e0 la fin du XIXe si\u00e8cle. Aujourd'hui, des dizaines de navires marchands sp\u00e9cialis\u00e9s naviguent sur les oc\u00e9ans, des porte-conteneurs aux vraquiers en passant par les imposants p\u00e9troliers.",
+    "strategy": "Le navire marchand vous permet d'\u00e9tablir une route commerciale maritime entre deux civilisations. Celle-ci rapporte de l' or aussi bien \u00e0 son propri\u00e9taire qu'\u00e0 sa civilisation de destination. Le navire marchand est capable de parcourir une distance plus longue que la caravane. La construction d'un grenier ou d'un atelier dans sa cit\u00e9 d'origine vous permet par ailleurs d'envoyer de la nourriture ou de la production dans les villes vous appartenant. Une fois assign\u00e9 \u00e0 une route, le navire marchand ne peut pas se d\u00e9fendre seul, vous devez donc veiller \u00e0 ce que la voie soit exempte de menaces.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        }
+    ]
+}

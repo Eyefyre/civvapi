@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Guerrero picto|Guerreros pictos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Solo los celtas pueden crear esta unidad. Tiene una bonificaci\u00f3n al combate fuera del territorio amistoso y puede saquear las mejoras enemigas sin ning\u00fan coste adicional al movimiento. Por matar, gana como Fe el 50% de la fuerza del oponente.",
+    "historical_info": "Los pictos fueron un pueblo de la Edad de Hierro tard\u00eda que habitaba en lo que es la actual Escocia oriental y septentrional, una de las muchas tribus celtas de las Islas Brit\u00e1nicas. A sus guerreros no solo los tem\u00edan otros pueblos celtas, sino tambi\u00e9n los afamados legionarios romanos. El historiador griego Dionisio escribi\u00f3 durante el reinado de C\u00e9sar Augusto que \"su manera de luchar, parecida en gran medida a la de las fieras salvajes y furiosas\", tuvo un \u00e9xito considerable contra las lentas formaciones militares que operaban en los bosques y monta\u00f1as del norte de Europa.Adem\u00e1s de su temible reputaci\u00f3n, contaban con la \"carnyx\", una trompeta de bronce que tocaban incesantemente durante la batalla, tanto para darse \u00e1nimos como para intimidar a los oponentes. Por \u00faltimo, sus enemigos ten\u00edan muy presentes los informes de las cabezas cortadas que los guerreros pictos llevaban, puesto que estos cre\u00edan que llevarlos al combate los imbu\u00eda de coraje y, posiblemente, de c\u00f3lera divina.",
+    "strategy": "El Guerrero picto es la unidad exclusiva celta. Es ideal para las primeras acometidas, pues puede devastar las tierras de un oponente saqueando r\u00e1pidamente y movi\u00e9ndose en el mismo turno. Adem\u00e1s, gana Fe por cada unidad que mate, lo que avanza constantemente tus metas religiosas mientras est\u00e9s en guerra.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Forja del bronce",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n en tierra extranjera",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "Sin coste de movimiento por saquear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

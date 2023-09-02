@@ -1,0 +1,20 @@
+{
+    "id": 23,
+    "name": "Scambio culturale",
+    "game_info": "Scambio culturaleReligione condivisa, rotte commerciali e diritto di passaggio aumentano del 15% ognuna il modificatore del Turismo.",
+    "historical_info": "I primi scambi culturali non ufficiali tra nazioni (con la visita reciproca di studenti, artisti, atleti e altri) risalgono all'inizio dell'epoca industriale, ma affinch\u00e9 si formalizzassero programmi ufficiali di scambio da parte di governi avversari si dovette aspettare la Guerra Fredda, durante la quale USA e URSS cercarono simultaneamente di mostrare al mondo la superiorit\u00e0 della propria cultura e allo stesso tempo approfondire la comprensione dei rispettivi sistemi di valori. Questi programmi formali mitigavano le restrizioni sul viaggio e l'esibizione di gruppi selezionati in \"territorio nemico\", un processo che molti storici hanno definito \"cavallo di Troia culturale\", perch\u00e9 alla fine contribu\u00ec a erodere il potere sovietico.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/scambio_culturale.png",
+    "required_policies": [
+        {
+            "name": "Fioritura delle arti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/flourishing_of_the_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Estetica",
+        "game_info": "L'Estetica aumenta la capacit\u00e0 della civilt\u00e0 di generare Cultura.Adottare l'Estetica ti permette di generare Grandi Scrittori, Grandi Artisti e Grandi Musicisti il 25% pi\u00f9 velocemente. Sblocca la costruzione degli Uffizi.Adottarne tutte le politiche raddoppia il bonus per il tema comune che puoi ricevere da Musei e Meraviglie; inoltre permette l'acquisto di Grandi Scrittori, Grandi Artisti e Grandi Musicisti in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca classica",
+        "historical_info": "L'estetica \u00e8 la filosofia che investiga la natura dell'arte e del gusto, analizzando la creazione e la valutazione della bellezza materiale. \u00c8 da notare che l'estetica non prende in considerazione la funzionalit\u00e0 o l'utilit\u00e0 di un oggetto, ma si focalizza solo sulla bellezza della sua forma, sui suoi colori e su altri aspetti artistici."
+    }
+}

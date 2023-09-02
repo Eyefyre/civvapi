@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Karoliner",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Starke Front-Landeinheit, die auf lange M\u00e4rsche spezialisiert ist, selbst weit von Schweden entfernt. Nur die Schweden k\u00f6nnen sie bauen.",
+    "historical_info": "Diese elit\u00e4re Armee schwedischer Soldaten diente der schwedischen Krone von ca. 1660-1697. Die Karoliner waren die wohl effektivsten Soldaten ihrer Zeit, eine kleine Gruppe, die ihre geringe zahlenm\u00e4\u00dfige Gr\u00f6\u00dfe durch neuartige Taktiken und rigorose Disziplin ausglich. Die Karoliner waren grunds\u00e4tzlich offensive Soldaten, die niemals irgendeine Art von R\u00fcckzugsman\u00f6ver trainierten. Sie st\u00fcrmten auf die feindlichen Reihen zu und feuerten erst dann zur\u00fcck, wenn sie nahe genug waren, um auch sicher zu treffen. Dieser tobende, unaufhaltsame Ansturm entmutigte viele Armeen und die Karoliner brachten auf diese Weise viele feindliche Truppen dazu, ihre Stellungen aufzugeben und die Flucht zu ergreifen.",
+    "strategy": "Karoliner sind das R\u00fcckgrat der schwedischen Armee im fr\u00fchen Industriezeitalter. Sie beginnen mit der Marschieren-Bef\u00f6rderung, sodass sie in jeder Runde heilen, selbst wenn sie andere Aktionen ausf\u00fchren.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Drall",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Marschieren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/march.json"
+        }
+    ]
+}

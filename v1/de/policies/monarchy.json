@@ -1,0 +1,20 @@
+{
+    "id": 50,
+    "name": "Monarchie",
+    "game_info": "Monarchie+1 Gold und -1 Unzufriedenheit f\u00fcr jeweils 2 B\u00fcrger in der Hauptstadt.",
+    "historical_info": "Monarchie ist eine Regierungsform, in der die Macht bei einem Individuum liegt. Oft (aber nicht immer) wird die Macht eines Monarchen nach dessen Tod auf einen Erben \u00fcbertragen (es gibt einige gew\u00e4hlte Monarchen, aber nicht viele). Die Monarchie \u00e4hnelt dem Despotismus, doch es gibt einen entscheidenden Unterschied: Der Monarch herrscht innerhalb der Grenzen der Gesetze eines Landes, w\u00e4hrend der Despot \u00fcber dem Gesetz steht. Es ist durchaus m\u00f6glich, dass ein Monarch auch ein Despot ist, aber es ist ebenso m\u00f6glich, dass ein Monarch Teil eines politischen Prozesses ist, der den B\u00fcrgern gro\u00dfe Freiheiten einr\u00e4umt. Gro\u00dfbritannien ist z. B. ein Beispiel f\u00fcr Letzteres.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/monarchie.png",
+    "required_policies": [
+        {
+            "name": "Legalismus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/legalism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Tradition",
+        "game_info": "Tradition ist eine gute Wahl f\u00fcr kleine Reiche.Tradition beschleunigt die Grenzerweiterung in St\u00e4dten und bietet 3 Kultur in der Hauptstadt. Schaltet den Bau der H\u00e4ngenden G\u00e4rten frei.Bei \u00dcbernahme aller Politiken im Tradition-Zweig wird in jeder Stadt +15% Wachstum und ein kostenloses Aqu\u00e4dukt in den ersten 4 St\u00e4dten gew\u00e4hrt. Erm\u00f6glicht au\u00dferdem den Kauf Gro\u00dfer Ingenieure mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": null,
+        "historical_info": "Tradition ist eine Weltanschauung, bei der die Entscheidungen der eigenen Vorfahren und aller fr\u00fcheren Anf\u00fchrer des Staates sehr hoch gesch\u00e4tzt werden. Neuen politischen Bewegungen begegnet man meist mit Argwohn und Misstrauen. Selbst in angeblich so fortschrittlichen Staaten wie den USA kann Tradition eine gewaltige Rolle spielen, was sich nicht zuletzt an den Spannungen zwischen Verfechtern einer w\u00f6rtlichen Auslegung der Verfassung und jenen zeigt, die glauben, dass die Verfassung aufgrund der sich ver\u00e4ndernden Welt etwas freier gedeutet werden sollte. Letztere w\u00fcrde man als weniger traditionalistisch einstufen als die erste Gruppe."
+    }
+}

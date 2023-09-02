@@ -1,0 +1,31 @@
+{
+    "id": 49,
+    "name": "Minuteman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/minuteman.png",
+    "game_info": "Eine der ersten Schie\u00dfpulver-Einheiten des Spiels. Kann nur von den Amerikanern gebaut werden. Ersetzt den Musketier. Diese Einheit bewegt sich in umwegsamem Gel\u00e4nde wie in flachem, erh\u00e4lt einen Bonus beim Kampf in umwegsamem Gel\u00e4nde und verdient Punkte f\u00fcr ein Goldenes Zeitalter, wenn sie einen Gegner besiegt.",
+    "historical_info": "Die amerikanischen Minutemen dienten w\u00e4hrend des amerikanischen Unabh\u00e4ngigkeitskriegs und waren ausgesuchte Mitglieder der Kolonialmiliz. Sie waren eine schnelle Einsatztruppe: ausgebildet, um direkt auf feindliche Angriffe zu reagieren und somit der Armee (wie auch der restlichen Miliz) Zeit zu verschaffen, um zu reagieren und sich f\u00fcr den Kampf vorzubereiten. Die Minutemen gab es sogar bereits vor der amerikanischen Unabh\u00e4ngigkeitsbewegung: Die Massachusetts Bay Colony hatte bereits 1645 einzelne Mitglieder ihrer Miliz zu Minutemen ernannt.",
+    "strategy": "Der Minuteman ist die Spezialeinheit der Amerikaner und ersetzt den Musketier. Der Minuteman bewegt sich durch schwieriges Gel\u00e4nde wie durch freies (alle Gel\u00e4ndefelder kosten 1 FP pro Gel\u00e4ndefeld), erh\u00e4lt einen Bonus beim Kampf in umwegsamem Gel\u00e4nde und verdient Punkte f\u00fcr ein Goldenes Zeitalter, wenn er einen Gegner besiegt.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Schie\u00dfpulver",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignoriert Gel\u00e4ndekosten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/ignores_terrain_cost.json"
+        },
+        {
+            "name": "Drill I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/drill_i.json"
+        },
+        {
+            "name": "Goldenes Zeitalter durch Siege",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

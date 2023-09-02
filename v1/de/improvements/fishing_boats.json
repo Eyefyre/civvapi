@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "Fischerboote",
+    "game_info": "Fischerboote erm\u00f6glichen es einer Zivilisation, die kostbaren Ressourcen Krabben, Fisch, Wal und Perlen zu ernten. Um Fischerboote zu bauen, muss ein Arbeitsboot in einer K\u00fcstenstadt erbaut werden (nachdem die Zivilisation die erforderliche Technologie erlernt hat). Arbeitsboote werden verbraucht, wenn sie Fischerboote konstruieren.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fischerboote.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Fisch",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/fish.json"
+        },
+        {
+            "name": "Wale",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/whales.json"
+        },
+        {
+            "name": "Perlen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/pearls.json"
+        },
+        {
+            "name": "Krabben",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Segeln",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

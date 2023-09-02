@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "name": "Sous-marin nucl\u00e9aire|Sous-marins nucl\u00e9aires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_submarine.png",
+    "game_info": "Invisible pour toutes les unit\u00e9s \u00e0 l'exception des destroyers, des croiseurs lance-missiles et des autres sous-marins, sauf s'il attaque ou s'il est adjacent \u00e0 une autre unit\u00e9. Navire sp\u00e9cialis\u00e9 dans l'attaque des unit\u00e9s navales, il peut transporter 2\u00a0missiles.",
+    "historical_info": "Les sous-marins nucl\u00e9aires trouvent leur origine pendant la guerre froide, ils \u00e9taient con\u00e7us pour transporter furtivement, et sur une tr\u00e8s grande distance, un stock important de missiles nucl\u00e9aires sous l'oc\u00e9an. Ces vaisseaux sont eux-m\u00eames \u00e0 propulsion nucl\u00e9aire, ce qui leur permet de naviguer de fa\u00e7on presque illimit\u00e9e (enfin si vous n'avez pas le mal de mer). Les sous-marins nucl\u00e9aires sont des plateformes d'armement strat\u00e9giques. Ils transportent des missiles intercontinentaux capables de traverser la moiti\u00e9 du globe avant d'atteindre leur cible, g\u00e9n\u00e9ralement une ville ennemie. Ils peuvent aussi d\u00e9tenir des torpilles et des missiles sol-air pour leur d\u00e9fense, m\u00eame si leur r\u00f4le principal est de rester cach\u00e9s et d'\u00e9viter tout conflit direct avec l'ennemi. Ils ne doivent en aucun cas \u00eatre d\u00e9truits.Les sous-marins nucl\u00e9aires fonctionnent selon la doctrine am\u00e9ricaine et russe \"Destruction mutuelle assur\u00e9e\"\u00a0: si l'un des deux camps parvient \u00e0 lancer furtivement une attaque nucl\u00e9aire sur son ennemi, peu importe ce qu'elle parvient \u00e0 d\u00e9truire, si un autre sous-marin ennemi est toujours op\u00e9rationnel, il fera s'abattre une pluie nucl\u00e9aire dans le camp des ''victorieux'' pour les d\u00e9truire \u00e0 leur tour. Comme la doctrine le stipule, \u00e0 moins qu'un camp ne soit capable de d\u00e9truire l'INT\u00c9GRALITE des forces nucl\u00e9aires ennemies (sous-marins, avions et missiles balistiques intercontinentaux ou ICBM), une guerre nucl\u00e9aire ne peut \u00eatre gagn\u00e9e. Depuis que cette doctrine existe, aucune guerre nucl\u00e9aire n'a jamais \u00e9t\u00e9 d\u00e9clench\u00e9e.",
+    "strategy": "Le sous-marin nucl\u00e9aire est plus puissant et plus r\u00e9sistant que ne l'\u00e9tait le mod\u00e8le pr\u00e9c\u00e9dent. Il est lui aussi invisible pour la plupart des unit\u00e9s et peut voir les autres sous-marins. Plus important encore, il peut transporter des missiles guid\u00e9s et des missiles nucl\u00e9aires. Comme les sous-marins pr\u00e9c\u00e9dents, il est vuln\u00e9rable aux attaques des destroyers, des croiseurs lance-missiles et des sous-marins ennemis. Envoyez des unit\u00e9s pour nettoyer les c\u00f4tes ennemies avant de laisser vos destroyers s'y aventurer.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "T\u00e9l\u00e9communications",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/telecommunications.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Est invisible (sous-marin)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Peut voir les sous-marins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Capacit\u00e9 de transport\u00a0: 2",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Peut p\u00e9n\u00e9trer sur les cases de glace",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus en cas d'attaque (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_when_attacking_(75).json"
+        },
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        }
+    ]
+}

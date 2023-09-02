@@ -1,0 +1,49 @@
+{
+    "id": 18,
+    "name": "Gemme",
+    "game_info": null,
+    "historical_info": "Le gemme sono minerali molto belli e rari. Una volta tagliate e levigate, le gemme sono caratterizzate da colori vibranti e/o da un'estrema luminosit\u00e0. Le gemme ricadono essenzialmente in due categorie: le gemme preziose, come i diamanti, i rubini e gli smeraldi, e quelle semi-preziose, come l'ametista, il turchese e cos\u00ec via. Nel corso della storia le gemme sono sempre state molto ricercate. Sono di norma usate per adornare i gioielli e in generale i beni dei ricchi e dei potenti.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gemme.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Giungla|la giungla|una giungla",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/giungla|la_giungla|una_giungla.json"
+        },
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

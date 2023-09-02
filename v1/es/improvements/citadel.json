@@ -1,0 +1,68 @@
+{
+    "id": 20,
+    "name": "Ciudadela|Ciudadelas",
+    "game_info": "Una ciudadela es una recia fortificaci\u00f3n que solo puede construir un Gran general, normalmente cerca de una ciudad o de una parcela especialmente defendible. La Acr\u00f3polis de Atenas, en Grecia, es una muestra temprana de ciudadela imponente. Tales fortificaciones eran casi imposibles de tomar con un ataque directo y pod\u00edan resistir asedios prolongados antes de caer. Puedes construir una Ciudadela en cualquier lugar de tu territorio o directamente adyacente con \u00e9l. Tras construirla, tus fronteras culturales se expandir\u00e1n en una casilla de radio alrededor de ella. Si tus nuevas fronteras culturales entran en casillas que ya son de otra civilizaci\u00f3n, habr\u00e1 una penalizaci\u00f3n diplom\u00e1tica. Cualquier unidad que se encuentre en una Ciudadela recibe una bonificaci\u00f3n defensiva del 100%. Adem\u00e1s, cualquier unidad enemiga que termine su movimiento a su lado recibe 3 de da\u00f1o.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ciudadela|ciudadelas.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Caballos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/horses.json"
+        },
+        {
+            "name": "Hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/iron.json"
+        },
+        {
+            "name": "Carb\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/coal.json"
+        },
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Aluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

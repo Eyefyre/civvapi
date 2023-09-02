@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Military Academy",
+    "game_info": "+15 XP for all Units.City must have an Armory.",
+    "strategy": "The Military Academy is a mid-game building which increases the number of experience points of units constructed in the city. The city must already possess an Armory before the Military Academy can be constructed.",
+    "historical_info": "A military academy is an institution of higher education dedicated to training a country's officer corps. Military academies offer the finest higher education available combined with rigorous physical training and courses in command, strategy, logistics and other military subjects. Generally the best and the brightest - or at least the best connected - of a nation's children attend its military academies.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/military_academy.png",
+    "prereq_tech": {
+        "name": "Military Science",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

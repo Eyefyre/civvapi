@@ -1,0 +1,20 @@
+{
+    "id": 119,
+    "name": "Inquisidor|Inquisidores",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/inquisitor.png",
+    "game_info": "Se usa para eliminar otras religiones de la ciudad. \u00danicamente se puede conseguir adquiri\u00e9ndolo con Fe .",
+    "historical_info": "Los inquisidores actuaron en toda Europa como parte de un denodado esfuerzo por eliminar a los enemigos de la iglesia cat\u00f3lica. Aquellos a los que la Inquisici\u00f3n declaraba herejes sol\u00edan ser torturados y ejecutados por los cr\u00edmenes que supuestamente hab\u00edan cometido, ya que no era f\u00e1cil defenderse de la acusaci\u00f3n de un inquisidor.",
+    "strategy": "Se puede adquirir con Fe en cualquier ciudad con una religi\u00f3n mayoritaria que se haya visto potenciada. Puede eliminar otras religiones de tus ciudades (a costa de gastar al Inquisidor) o ponerse en una ciudad para protegerla de los Misioneros y Profetas que intenten propagar otras religiones en ella.",
+    "movement": 3,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        }
+    ]
+}

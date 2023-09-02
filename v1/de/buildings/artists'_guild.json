@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "K\u00fcnstlergilde",
+    "game_info": "Bringt 2 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte (GPP) f\u00fcr einen Gro\u00dfen K\u00fcnstler ein. F\u00fcgt bis zu zwei Spezialisten zu diesem Geb\u00e4ude hinzu, dann erhaltet Ihr Kultur und schneller Gro\u00dfe K\u00fcnstler (3 Kultur und 3 GPP pro Spezialist).",
+    "strategy": "Die K\u00fcnstlergilde ist das einzige Geb\u00e4ude mit K\u00fcnstler-Spezialistenpl\u00e4tzen, die entscheidend sind, um Gro\u00dfe K\u00fcnstler zu generieren. Wenn Ihr als Ziel den Kultursieg ins Auge gefasst habt, ben\u00f6tigt Ihr dieses Geb\u00e4ude unbedingt. Die K\u00fcnstlergilde bringt 2 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte ein, und jeder zugewiesene Spezialist bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte und 3 Kultur ein.",
+    "historical_info": "Das Konzept von K\u00fcnstlergilden konnte sich erst im sp\u00e4ten Mittelalter etablieren, als in Europa der lange Prozess der Urbanisierung einsetzte. Im 13. Jahrhundert bildete sich in den St\u00e4dten eine Reihe von K\u00fcnstlergilden, die dem Vorbild der damaligen H\u00e4ndlergilden folgten. Die Gilden strebten geregelte Kosten und feste Preise an und boten allen K\u00fcnstlern in der Stadt Unterst\u00fctzung und Ausbildung an, um die Probleme des Patronats durch die Reichen und den Adel zu umgehen. Obwohl f\u00fcr verschiedene Arten von K\u00fcnstlern noch immer inoffizielle Gilden existierten, brachte das Zeitalter der Aufkl\u00e4rung den Untergang der Gildenmonopole mit sich, bis Mitte des 19. Jahrhunderts alle Gilden abgeschafft waren.",
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/k\u00fcnstlergilde.png",
+    "prereq_tech": {
+        "name": "Gilden",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

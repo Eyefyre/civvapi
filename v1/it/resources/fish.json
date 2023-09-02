@@ -1,0 +1,29 @@
+{
+    "id": 12,
+    "name": "Pesce",
+    "game_info": null,
+    "historical_info": "Nel corso della storia, il pesce ha sempre costituito un'importante fonte di proteine per le popolazioni costiere. Anche nel XXI secolo il pesce \u00e8 un cibo molto diffuso, al punto che stiamo correndo il rischio di spopolare del tutto gli oceani dalle specie commestibili.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pesce.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pescherecci|dei Pescherecci|dei Pescherecci",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/costa.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Medizinisches Labor",
+    "game_info": "25% Nahrung bleibt erhalten, wenn ein neuer B\u00fcrger geboren wird (Wirkung kumulativ mit Aqu\u00e4dukt).",
+    "strategy": "Das Medizinische Labor ist ein Geb\u00e4ude im sp\u00e4teren Spiel. Es verringert die zum Wachstum der Stadt ben\u00f6tigte Nahrung um 25%. Die Stadt braucht ein Krankenhaus, um das Medizinische Labor bauen zu k\u00f6nnen.",
+    "historical_info": "Ein medizinisches Labor ist eine Einrichtung zur Erforschung von Krankheiten und der menschlichen Anatomie mit Hilfe von \u00fcberaus komplizierten und leistungsf\u00e4higen Ger\u00e4ten - von Ultraschall \u00fcber Kameras in Ameisengr\u00f6\u00dfe bis hin zu Elektronenmikroskopen. Viele - wenn nicht gar alle - der gr\u00f6\u00dften medizinischen Fortschritte der vergangenen 25 Jahre wurden in medizinischen Labors gemacht. Dazu z\u00e4hlen zum Beispiel die Sequenzierung der menschlichen DNS, die Entwicklung von Retroviren im Kampf gegen HIV und AIDS, die Gentherapie, die Nanotechnologie und noch vieles mehr. Ein Gro\u00dfteil der gestiegenen Kosten f\u00fcr das Gesundheitswesen kann der einfachen Tatsache zugeschrieben werden, dass medizinische Labors nachweisliche Erfolge im Kampf gegen Krankheiten, bei der Verl\u00e4ngerung des menschlichen Lebens und bei der Verbesserung der Lebensqualit\u00e4t erzielt haben - all dies kostet eine Menge Geld.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/medizinisches_labor.png",
+    "prereq_tech": {
+        "name": "Penicillin",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/penicillin.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

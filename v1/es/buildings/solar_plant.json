@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Central de energ\u00eda solar|Centrales de energ\u00eda solar",
+    "game_info": "La ciudad debe construirse en un Desierto o junto a este y no puede contener una Central nuclear.La ciudad ha de tener una F\u00e1brica.",
+    "strategy": "La Central de energ\u00eda solar es un edificio del juego tard\u00edo que aumenta significativamente la Producci\u00f3n de una ciudad. Para poder construir este edificio, la ciudad ha de encontrarse en una casilla de Desierto o adyacente. La ciudad ha de contar con una F\u00e1brica para poder construirlo.",
+    "historical_info": "Una central de energ\u00eda solar recoge la energ\u00eda del sol y la convierte en electricidad. Las centrales solares m\u00e1s eficientes se encuentran en los lugares a los que llega la luz directa del sol, sin muchas nubes. De momento, la energ\u00eda solar es m\u00e1s cara comparada con la obtenida de los combustibles f\u00f3siles (petr\u00f3leo y carb\u00f3n), pero la tecnolog\u00eda solar se est\u00e1 abaratando y los combustibles f\u00f3siles cada vez son m\u00e1s caros, especialmente si se tienen en cuenta los costes ambientales de la poluci\u00f3n emitida. Cuando la tecnolog\u00eda se perfeccione, satisfar\u00e1 una buena parte de las necesidades energ\u00e9ticas mundiales. Se ha calculado que la energ\u00eda solar que recibe la Tierra es unas 200.000 veces superior a la capacidad de generaci\u00f3n energ\u00e9tica actual de la humanidad.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/central_de_energ\u00eda_solar|centrales_de_energ\u00eda_solar.png",
+    "prereq_tech": {
+        "name": "Ecolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

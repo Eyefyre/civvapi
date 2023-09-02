@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Grenier|Greniers",
+    "game_info": "Chaque source de bl\u00e9, de bananes et de cervid\u00e9s exploit\u00e9e par cette ville produit +1 Nourriture.Permet d'exp\u00e9dier de la nourriture vers votre civilisation \u00e0 partir de cette ville en utilisant des routes commerciales.",
+    "strategy": "Le grenier augmente la production de nourriture d'une ville, acc\u00e9l\u00e9rant ainsi sa croissance. Ce b\u00e2timent est tr\u00e8s utile lorsque vous souhaitez cr\u00e9er rapidement une ville tr\u00e8s peupl\u00e9e.",
+    "historical_info": "Un grenier est un b\u00e2timent dans lequel sont stock\u00e9es les c\u00e9r\u00e9ales destin\u00e9es \u00e0 la consommation des hommes et/ou des animaux. Les plus anciens greniers furent mis au jour dans un ancien village du N\u00e9olithique, dans la vall\u00e9e du Jourdain, et datent d'environ 9 500 av. J.-C. Ces greniers antiques faits en terre mesuraient environ 3 m\u00e8tres sur 3 et \u00e9taient \u00e9quip\u00e9s de sols sur\u00e9lev\u00e9s afin de faciliter la circulation de l'air et de prot\u00e9ger les r\u00e9coltes des rongeurs et autres menaces.",
+    "cost": {
+        "production": 60,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/grenier|greniers.png",
+    "prereq_tech": {
+        "name": "Poterie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

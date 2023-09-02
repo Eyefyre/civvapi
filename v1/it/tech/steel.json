@@ -1,0 +1,37 @@
+{
+    "id": 31,
+    "name": "Acciaio|dell'Acciaio",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steel.png",
+    "era": "Epoca medievale",
+    "cost": 485,
+    "civilopedia_entry": "L'acciaio \u00e8 una lega di ferro e carbonio. A seconda del rapporto tra i due componenti il metallo risultante pu\u00f2 essere pi\u00f9 o meno robusto, flessibile e resistente alla corrosione. L'uomo ha iniziato a lavorare il ferro a partire dal 2000 a.C., e sin da allora sono state prodotte anche piccole quantit\u00e0 d'acciaio. In genere il ferro pu\u00f2 essere lavorato in due modi, come ferro battuto o come ghisa: il primo \u00e8 pi\u00f9 flessibile, il secondo pi\u00f9 duro e fragile, ma anche pi\u00f9 economico.Nel 1751 l'inventore inglese Benjamin Huntsman apr\u00ec una fabbrica d'acciaio a Sheffield, in Inghilterra. Il metodo \"a crogiuolo\" utilizzato nella fabbrica di Huntsman per produrre l'acciaio si diffuse rapidamente in tutta Europa, negli Stati Uniti e infine in Asia e nel resto del mondo. Il grande progresso successivo avvenne negli Stati Uniti d'America nel 1855, quando l'inventore Henry Bessemer escogit\u00f2 il processo produttivo che porta il suo nome. Con qualche raffinamento questa tecnica port\u00f2 a un netto incremento della produzione in tutto il mondo. All'inizio del XX secolo la produzione mondiale aveva raggiunto i 50 milioni di tonnellate all'anno.",
+    "quote": "\"John Henry disse al suo Capitano,'Un uomo non \u00e8 che un uomo, E prima che la tua perforatrice a vapore mi batta, Morir\u00f2 con il martello in mano.'\" - Anonimo: La ballata di John Henry, l'uomo che batte l'acciaio",
+    "tech_prereqs": [
+        {
+            "name": "Fusione del metallo|della Fusione del metallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Polvere da sparo|della Polvere da sparo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Guerriero con spada lunga|un Guerriero con spada lunga|dal tuo Guerriero con spada lunga|al tuo Guerriero con spada lunga|il tuo Guerriero con spada lunga|da un Guerriero con spada lunga",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/longswordsman.json"
+        },
+        {
+            "name": "Samurai|un Samurai|dal tuo Samurai|al tuo Samurai|il tuo Samurai|da un Samurai",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/samurai.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Armeria|l'Armeria|un'Armeria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/armory.json"
+        }
+    ]
+}

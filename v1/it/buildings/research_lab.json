@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Laboratorio di ricerca|il Laboratorio di ricerca|un Laboratorio di ricerca",
+    "game_info": "La citt\u00e0 deve avere una Scuola pubblica.",
+    "strategy": "Il Laboratorio di ricerca \u00e8 un edificio disponibile nelle fasi finali del gioco che aumenta sensibilmente la ricerca scientifica in una citt\u00e0. Per costruire un Laboratorio di ricerca la citt\u00e0 deve gi\u00e0 possedere una Scuola pubblica.",
+    "historical_info": "Un laboratorio di ricerca \u00e8 un istituto dedicato allo studio avanzato di un particolare campo scientifico, come medicina, fisica, chimica, robotica, energia pulita o qualsiasi altro argomento d'interesse. I laboratori possono godere di fondi pubblici o essere finanziati da singoli individui o multinazionali. Inoltre possono essere indipendenti o associati a qualche universit\u00e0.\u00c8 chiaro che queste istituzioni rappresentano il futuro della ricerca scientifica. Man mano che l'uomo ha approfondito la sua comprensione del mondo che lo circonda, i tempi in cui uno scienziato poteva lavorare da solo nel suo scantinato ed esclamare \"Eureka!\" sono definitivamente tramontati. Oggi le scoperte scientifiche hanno luogo in laboratori di ricerca che impiegano decine di persone di talento.",
+    "cost": {
+        "production": 500,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorio_di_ricerca|il_laboratorio_di_ricerca|un_laboratorio_di_ricerca.png",
+    "prereq_tech": {
+        "name": "Plastica|della Plastica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/plastics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 4,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

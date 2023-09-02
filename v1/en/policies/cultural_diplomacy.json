@@ -1,0 +1,20 @@
+{
+    "id": 14,
+    "name": "Cultural Diplomacy",
+    "game_info": "Cultural DiplomacyQuantity of Resources gifted by City-States increased by 100%. Happiness from gifted Luxuries increased by 50%.",
+    "historical_info": "Cultural Diplomacy is the policy of lending out a civilization's most beautiful and treasured items to other civilizations in order to promote peace and understanding between all people. One of the most enduring forms of cultural diplomacy is the World's Fair, also known as the Universal Exposition, which is held in a different city every two to five years. The World's Fair features samples of many nations' arts, crafts, agriculture, and industry. The first World's Fair was held in 1851 in the Crystal Palace in Hyde Park, London. It was the brainchild of Prince Albert, husband to Queen Victoria. There were some 13,000 exhibits in total, seen by some six million people. The next World's Fair is scheduled to run in Shanghai, China in 2010. Some 70 million visitors are expected.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/cultural_diplomacy.png",
+    "required_policies": [
+        {
+            "name": "Scholasticism",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/scholasticism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Patronage",
+        "game_info": "Patronage enhances the benefits of City-State friendship.Adopting Patronage will cause Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you Great People.",
+        "prereq_era": "Classical Era",
+        "historical_info": "Patronage is the policy where the wealthy and powerful - often the nobility - support the talented artisans in a society. In many ancient societies, a society's wealth was concentrated in a few individuals: the Royal Family, say, or the merchant princes. Painters, sculptors, musicians, and other gifted artists worked for the elite, as they were the only ones who could afford to pay them. While perhaps unfair to commoners, this system has produced brilliant works by the likes of Leonardo da Vinci, Ben Johnson, and Mozart. The system is enjoying something of a revival today, with the role of patron being taken by mega-corporations rather than individuals."
+    }
+}

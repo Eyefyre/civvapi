@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "World Leader",
+        "summary": "Designate a World Leader. If a Civilization receives support from enough Delegates in the Congress, that leader will attain Diplomatic Victory. The number of Delegates needed depends on the number of Civilizations and City-States in the game, and can be seen on the World Congress screen.If no Civilization receives enough support to win, the two Civilizations who received the most support permanently gain 2 additional Delegates to use in future sessions.May not be proposed by a Civilization. Automatically proposed at regular intervals once the World Congress becomes the United Nations.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Choose Host",
+        "summary": "Designate a Civilization to host the Congress. Being the host grants additional Delegates and the ability to propose resolutions.May not be proposed by a Civilization. Automatically proposed as Civilizations advance to later eras.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Embargo City-States",
+        "summary": "No Trade Routes can be established with City-States. Any such Trade Routes are ended and must be reassigned.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "No Trade Routes can be established between the chosen Civilization and any other Civilization. Any such Trade Routes are ended and must be reassigned.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Ban Luxury",
+        "summary": "A Luxury resource is designated as immoral, endangered, or otherwise inappropriate for use by the general population. As long as the ban is in place, Civilizations receive no Happiness benefit from this Luxury resource.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Standing Army Tax",
+        "summary": "Unit maintenance costs are raised by 25% Gold.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Scholars In Residence",
+        "summary": "Civilizations research a technology 20% more quickly if it has been discovered by at least one other Civilization.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "World's Fair",
+        "summary": "Begins the World's Fair project. Once underway, Civilizations can contribute Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.   ",
+        "project_prizes": {
+            "gold": " Culture increases by 100% for 20 Turns.",
+            "silver": "Free Social Policy.",
+            "bronze": "500 points towards next Golden Age."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "International Games",
+        "summary": "Begins the International Games project. Once underway, Civilizations can contribute Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.  Available once any Civilization discovers Radio.",
+        "project_prizes": {
+            "gold": " Tourism increases by 100% for 20 Turns. Free Social Policy.",
+            "silver": "+3 Happiness. One time increase of 30 Influence with City-States.",
+            "bronze": "+3 Happiness."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "International Space Station",
+        "summary": "Begins the International Space Station project. Once underway, Civilizations can contribute Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.  Available once any Civilization discovers Satellites.",
+        "project_prizes": {
+            "gold": "International Space Station wonder appears in Capital. +1 Production from Scientists, and +1 Science from Engineers. Great Scientists provide 33% more Science when used to discover new technology. May only be built collaboratively through the World Congress.",
+            "silver": "Free Great Scientist.",
+            "bronze": "One time Research boost."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Cultural Heritage Sites",
+        "summary": "Each World Wonder provides +3 Culture to its city.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Natural Heritage Sites",
+        "summary": "Each Natural Wonder provides +5 Culture when worked.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Nuclear Non-Proliferation",
+        "summary": "All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb and Nuclear Missile). Weapons already constructed, however, are not disarmed.Available once any Civilization discovers Advanced Ballistics.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "World Religion",
+        "summary": "Designate a religion as the official World Religion. Civilizations who have a majority of the cities in their empire following the religion get an additional 2 Delegates. The religion spreads 25% faster, and its Holy City receives +50% Tourism. There can only be one World Religion at a time.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "World Ideology",
+        "summary": "Designate an Ideology as the official World Ideology. Civilizations following that Ideology get an additional 2 Delegates. Public opinion in favor of that Ideology is increased for all Civilizations. There can only be one World Ideology at a time.Available once any Civilization discovers Radio.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Arts Funding",
+        "summary": "Increases generation of Great Writers, Artists, and Musicians by 33%. Decreases generation of Great Scientists, Engineers, and Merchants by 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Sciences Funding",
+        "summary": "Increases generation of Great Scientists, Engineers, and Merchants by 33%. Decreases generation of Great Writers, Artists, and Musicians by 33%.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Historical Landmarks",
+        "summary": "Great Person tile improvements provide +2 Culture when worked, and Landmarks built by Archaeologists provide +4 Culture when worked.Available once any Civilization discovers Archaeology.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resolutions/historical_landmarks.json"
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Misil nuclear|Misiles nucleares",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Desata la destrucci\u00f3n nuclear sobre tus enemigos. Causa un da\u00f1o enorme a las ciudades y da\u00f1a a cualquier unidad que est\u00e9 en el radio de la explosi\u00f3n.Requiere el Proyecto Manhattan y dos recursos de Uranio.",
+    "historical_info": "Los misiles nucleares llevan una ojiva o m\u00e1s que contienen bombas de hidr\u00f3geno, y cada una de ellas puede destruir una ciudad. Capaces de transportar su mort\u00edfera carga por medio mundo, los misiles at\u00f3micos son las armas m\u00e1s mortales y terribles que jam\u00e1s se hayan creado. De momento no existen defensas factibles contra ellos: una vez lanzados, la ciudad objetivo enemiga quedar\u00e1 destruida si no ocurre un milagro. Adem\u00e1s de la destrucci\u00f3n inmediata causada por la enorme explosi\u00f3n, las deflagraciones at\u00f3micas envenenan la tierra, el agua y el aire para las generaciones venideras. Los vientos errantes pueden llevar la mortal lluvia radiactiva a kil\u00f3metros distancia y contaminar la tierra y matar a la gente de todo un continente. Es una completa locura usarlas contra un enemigo con el que compartes el planeta, a menos que sea para evitar que \u00e9l las use contigo.",
+    "strategy": "El Misil nuclear es como una Bomba at\u00f3mica, solo que modernizada y m\u00e1s potente. Puede tener su base en una ciudad que controles o encontrarse en un Submarino nuclear o un Crucero portamisiles. Puede moverse de una base a otra o atacar a un objetivo que est\u00e9 a una distancia de 12 casillas. Cuando detone, da\u00f1ar\u00e1 (y, posiblemente, destruir\u00e1) todas las ciudades y unidades que se encuentren en el radio de la explosi\u00f3n (2 casillas). Esta unidad se destruye autom\u00e1ticamente en el ataque. Consulta las reglas sobre Armas nucleares para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Bal\u00edstica avanzada",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasi\u00f3n (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/evasion_(50).json"
+        }
+    ]
+}

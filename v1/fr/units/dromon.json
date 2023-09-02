@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Dromon|Dromon",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "Unit\u00e9 navale dominante de l'Antiquit\u00e9, utilis\u00e9e pour contr\u00f4ler la mer \u00e0 l'\u00e9poque classique gr\u00e2ce \u00e0 son attaque \u00e0 distance. Elle est exclusive aux Byzantins.",
+    "historical_info": "Modification de la gal\u00e8re traditionnelle, le dromon fit partie int\u00e9grante de la marine byzantine durant le r\u00e8gne de l'Empire. Disposant de bancs de rameurs et d'un gr\u00e9ement, le dromon \u00e9tait tr\u00e8s maniable et agile, mais aussi parfaitement \u00e9quip\u00e9 pour la bataille. Gr\u00e2ce \u00e0 une forme rudimentaire de lance-flammes, les Byzantins jetaient depuis ce navire du feu gr\u00e9geois, anc\u00eatre du napalm, pour terroriser quiconque s'opposait \u00e0 eux.",
+    "strategy": "Unit\u00e9 exclusive aux Byzantins attaquant avec le terrible feu gr\u00e9geois, ce qui en fait la premi\u00e8re unit\u00e9 navale avec une attaque \u00e0 distance. Elle b\u00e9n\u00e9ficie de 50% de puissance de combat suppl\u00e9mentaire contre les autres unit\u00e9s navales. Les cases d'oc\u00e9an \u00e0 l'ext\u00e9rieur des fronti\u00e8res de la ville lui sont inaccessibles.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contre les unit\u00e9s navales",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

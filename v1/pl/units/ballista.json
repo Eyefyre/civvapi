@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Balisty|Balist|Balistom|Balisty",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Jednostka obl\u0119\u017cnicza zadaj\u0105ca wielkie obra\u017cenia z odleg\u0142o\u015bci, wymagaj\u0105ca ustawienia przed rozpocz\u0119ciem ostrza\u0142u. Mog\u0105 j\u0105 skonstruowa\u0107 tylko Rzymianie. Ta jednostka ma wi\u0119ksz\u0105 [ICON_RANGE_STRENGTH] si\u0142\u0119 bojow\u0105 ni\u017c katapulty, kt\u00f3re zast\u0119puje.",
+    "historical_info": "Rzymska balista by\u0142a zaawansowan\u0105 katapult\u0105 strzelaj\u0105c\u0105 kamieniami lub drewnianymi pociskami. Ta drewniana konstrukcja wzmocniona ci\u0119\u017ckimi metalowymi sztabami by\u0142a zadziwiaj\u0105co celna w r\u0119kach do\u015bwiadczonych kanonier\u00f3w. Posiada\u0142a maksymalny zasi\u0119g prawie 500 metr\u00f3w, cho\u0107 zasi\u0119g skuteczny wynosi\u0142 znacznie mniej, szczeg\u00f3lnie w starciu z ufortyfikowanymi pozycjami. Juliusz Cezar doskonale wykorzysta\u0142 balisty w swoich kampaniach przeciwko Germanom i Brytom.",
+    "strategy": "Unikatowa jednostka rzymska, o wiele silniejsza od katapult, kt\u00f3re zast\u0119puje. Balisty to doskona\u0142a bro\u0144 obl\u0119\u017cnicza. \u015awietnie nadaj\u0105 si\u0119 do atakowania miast, ale s\u0105 podatne na inne ataki. Nale\u017cy je chroni\u0107 za pomoc\u0105 innych jednostek. Przed rozpocz\u0119ciem ostrza\u0142u balisty musz\u0105 zosta\u0107 odpowiednio ustawione (co kosztuje 1 punkt ruchu).",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematyka|Matematyki|Matematyce|Matematyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

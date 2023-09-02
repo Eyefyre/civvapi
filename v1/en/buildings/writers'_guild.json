@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Writers' Guild",
+    "game_info": "Provides 1 Great Person Point (GPP) towards a Great Writer. Add up to two specialists to this building to gain Culture and increase the rate of Great Writer acquisition (3 Culture and 3 GPP per specialist).",
+    "strategy": "The Writers' Guild is the only building that contains writer specialist slots, which are critical for generating Great Writers. If your goal is a cultural victory, this building is a must-have. The Writers' Guild provides 1 Great Person Point, and each assigned specialist provides 3 Great Person Points and 3 Culture.",
+    "historical_info": "Although never as influential as contemporary artists' guilds, guild organizations for writers were created with the advent of the printing press in the Renaissance. Both formal and informal organizations seeking to insure that authors were fairly compensated by printers and booksellers sprang up in a number of European cities. In Shakespeare's London and elsewhere, playwrights banded together to protect their profits from plagiarism and unlicensed performances. Although more trade unions than guilds, today the tradition is carried on by hundreds of organizations around the world, such as the Scriptwriters Guild of Israel, Writers Guild of Great Britain, and the American Authors Guild.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/writers'_guild.png",
+    "prereq_tech": {
+        "name": "Drama and Poetry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "name": "Ruines antiques",
+    "game_info": "Les ruines antiques sont les vestiges de civilisations primitives depuis longtemps disparues. Elles contiennent de pr\u00e9cieux tr\u00e9sors (or, cartes, technologies oubli\u00e9es, voire quelques survivants) attendant d'\u00eatre d\u00e9couverts par des explorateurs intr\u00e9pides. Les d\u00e9couvreurs de ruines antiques sont toujours richement r\u00e9compens\u00e9s\u00a0!",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ruines_antiques.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+        },
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

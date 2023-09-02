@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "name": "Kloster",
+    "game_info": "Jedes Vorkommen von R\u00e4ucherwerk und Wein, das in dieser Stadt bearbeitet wird, bringt +1 Glauben und +1 Kultur.",
+    "strategy": "Kl\u00f6ster steigern den Glaubens- und Kulturertrag einer Stadt, wenn diese in der N\u00e4he von modernisierten R\u00e4ucherwerk- und/oder Wein-Ressourcen liegt. Kl\u00f6ster k\u00f6nnen nur in St\u00e4dten gebaut werden, die der Religion der Kl\u00f6ster anh\u00e4ngen. Baut dieses Geb\u00e4ude, indem Ihr es mit Glauben erwerbt.",
+    "historical_info": "Ein Kloster ist ein Geb\u00e4ude bzw. ein Geb\u00e4udekomplex, in dem M\u00f6nche oder Nonnen leben - Menschen, die weltlichen Dingen wie Reichtum, Besitz und Sex abgeschworen haben und ihr Leben dem Gebet und der Meditation widmen. In den meisten Kl\u00f6stern leben entweder nur M\u00e4nner oder ausschlie\u00dflich Frauen; falls beide Geschlechter vertreten sind, werden sie durch hohe Mauern getrennt. In der Geschichte waren Kl\u00f6ster Orte h\u00f6herer Bildung, besonders im Mittelalter, als Mitglieder religi\u00f6ser Orden oft die einzigen Menschen au\u00dferhalb der herrschenden Oberschicht waren, die lesen und schreiben konnten.",
+    "cost": {
+        "production": -1,
+        "faith": 150
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kloster.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

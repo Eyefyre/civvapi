@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Phare|Phares",
+    "game_info": "Cases c\u00f4ti\u00e8res et d'oc\u00e9an\u00a0: nourriture +1. Ressources marines exploit\u00e9es par la ville\u00a0: production +1.Chaque source de poisson exploit\u00e9e par la ville fournit +1 Nourriture.La ville doit se trouver sur la c\u00f4te.",
+    "strategy": "Le phare ne peut \u00eatre construit que dans une ville adjacente \u00e0 une case c\u00f4ti\u00e8re. Il augmente la production de nourriture issue des cases d'eau et du poisson, ainsi que la production de toutes les ressources marines.",
+    "historical_info": "La conqu\u00eate des mers et des oc\u00e9ans par l'homme fut associ\u00e9e \u00e0 la construction de phares. Ces \u00e9difices permettent aux navires de rentrer au port et signalent \u00e9galement la pr\u00e9sence de hauts-fonds et de rochers dangereux. Le premier phare construit fut celui d'Alexandrie. B\u00e2ti sur une petite \u00eele au large de la c\u00f4te d'Alexandrie, il r\u00e9sista aux intemp\u00e9ries durant plus de mille ans, et guida des dizaines de milliers de navires jusqu'au port de la ville.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/phare|phares.png",
+    "prereq_tech": {
+        "name": "Optique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/optics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

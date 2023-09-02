@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Porto|il Porto|un Porto",
+    "game_info": "Forma un [ICON_CONNECTED] Collegamento tra citt\u00e0 con la capitale attraverso l'acqua (se le due citt\u00e0 non sono gi\u00e0 [ICON_CONNECTED] collegate via terra). Le Rotte commerciali marittime che hanno origine in questa citt\u00e0 hanno un raggio d'azione pi\u00f9 ampio del 50% e fruttano 1 Oro aggiuntivo quando collegano altre civilt\u00e0.La citt\u00e0 dev'essere costruita sulla costa.",
+    "strategy": "Il Porto \u00e8 un edificio di epoca medievale che aumenta il raggio d'azione e la resa in Oro delle Rotte commerciali marittime. Permette di stabilire Collegamenti tra citt\u00e0 attraverso l'acqua (vedi regole). Inoltre il Porto aumenta la Produzione di una risorsa marina migliorata.",
+    "historical_info": "Un porto \u00e8 uno specchio d'acqua riparato che fornisce protezione alle barche e alle navi ormeggiate al suo interno. Bench\u00e9 esistano porti naturali, la maggior parte richiede almeno il dragaggio del fondo, la costruzione di frangiflutti, barriere contro il vento e via dicendo. Inoltre i porti contengono moli e banchine per caricare e scaricare merci e magazzini per la conservazione dei prodotti in transito.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/porto|il_porto|un_porto.png",
+    "prereq_tech": {
+        "name": "Bussola|della Bussola",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/compass.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

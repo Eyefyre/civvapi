@@ -1,0 +1,43 @@
+{
+    "id": 122,
+    "name": "H\u00fasar alado|H\u00fasares alados",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/winged_hussar.png",
+    "game_info": "Unidad montada pesada, especialista contra unidades montadas. Es m\u00e1s r\u00e1pida y poderosa que el Lancero, al que sustituye. Obliga al defensor a retirarse cuando le causan m\u00e1s da\u00f1o del que recibe. Solo la pueden formar los polacos.",
+    "historical_info": "El h\u00fasar \"alado\" lo introdujo en el ej\u00e9rcito polaco-lituano el rey Esteban B\u00e1thory en los a\u00f1os 1570. Los h\u00fasares alados sol\u00edan llevar varias armas auxiliares, como un martillo de guerra, un sable (szabla) y un par de pistolas de llave de rueda (posteriormente de llave de pedernal) en las cananas de la silla. Pero sus accesorios m\u00e1s distintivos eran las gigantescas \"alas\", unos armazones de madera pegados a la silla o bien a hombros del jinete, cubiertas de plumas de \u00e1guila, cisne, ganso o avestruz. Nunca ha quedado muy claro el prop\u00f3sito de esas alas, pero las teor\u00edas van desde defenderse de los ataques enemigos por la espalda hasta proteger al propio caballo de los sonidos del combate, pasando por intimidar a los enemigos a pie haciendo que el h\u00fasar pareciera m\u00e1s grande que los hombres normales.",
+    "strategy": "Los H\u00fasares alados sustituyen al Lancero y solo pueden formarlos los polacos. Son m\u00e1s r\u00e1pidos y poderosos que los lanceros y obligan al defensor a retirarse cuando le causan m\u00e1s da\u00f1o del que reciben. Un defensor que no se pueda retirar sufre m\u00e1s da\u00f1o.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metalurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Carga pesada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/heavy_charge.json"
+        },
+        {
+            "name": "Choque I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/shock_i.json"
+        },
+        {
+            "name": "Formaci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/formation_i.json"
+        }
+    ]
+}

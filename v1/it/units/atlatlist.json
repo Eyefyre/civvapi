@@ -1,0 +1,23 @@
+{
+    "id": 97,
+    "name": "Lanciatore con atlatl|un Lanciatore con atlatl|dal tuo Lanciatore con atlatl|al tuo Lanciatore con atlatl|il tuo Lanciatore con atlatl|da un Lanciatore con atlatl",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atlatlist.png",
+    "game_info": "Quest'unit\u00e0 \u00e8 pi\u00f9 economica e viene resa disponibile prima dell'Arciere, che sostituisce. Solo i Maya possono costruirla.",
+    "historical_info": "Gli atlatlisti erano lanciatori altamente specializzati che utilizzavano un lungo bastone di legno simile a una lancia per scagliare dardi ad altissima velocit\u00e0 contro i loro bersagli. Il loro attrezzo, chiamato atlatl, era dotato di un alloggiamento a un'estremit\u00e0 in cui posizionare il dardo e di un canale che correva per tutta la sua lunghezza. Un atlatlista poteva lanciare fino a una distanza di 100 metri e con una velocit\u00e0 di 100 km/h: molto pi\u00f9 lontano e con molta pi\u00f9 potenza di un semplice proiettile scagliato a mano. A patto di avere una buona linea di tiro, gli atlatlisti maya sarebbero stati in grado di devastare da lontano le linee di un esercito nemico.Alcuni degli atlatl pi\u00f9 antichi, risalenti a circa 400.000 anni fa, sono stati costruiti dall'estinto Homo heidelbergensis. L'Homo sapiens ha cominciato a usare una prima versione dell'atlatl a partire dall'alto Paleolitico, intorno al 15500 a.C.",
+    "strategy": "L'Atlatlista \u00e8 un'unit\u00e0 esclusiva maya e sostituisce l'Arciere. Gli Atlatlisti costano meno del tradizionale Arciere e sono disponibili prima, non richiedendo di aver scoperto il Tiro con l'arco. All'inizio della partita questo permette di concentrare la ricerca su altri obiettivi scientifici.",
+    "movement": 2,
+    "cost": {
+        "production": 36,
+        "faith": 72
+    },
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

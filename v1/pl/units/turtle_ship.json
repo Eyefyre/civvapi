@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Kobukson|Kobuksonu|Kobuksonowi|Kobukson",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Ci\u0119\u017cko opancerzona jednostka wodna z epoki Renesansu, niezwykle trudna do zniszczenia. Kobuksony nie mog\u0105 wyp\u0142ywa\u0107 na pola otwartego morza poza granicami miasta. Mo\u017ce je budowa\u0107 wy\u0142\u0105cznie Korea. Zast\u0119puj\u0105 karawele.",
+    "historical_info": "Te du\u017ce opancerzone okr\u0119ty wojenne dynastii Choson odegra\u0142y znacz\u0105c\u0105 rol\u0119 w obronie Korei przed Japo\u0144czykami w XVI w. Za\u0142oga sk\u0142ada\u0142a si\u0119 po po\u0142owie z \u017co\u0142nierzy i wio\u015blarzy. Ten tzw. statek-\u017c\u00f3\u0142w by\u0142 morderczym narz\u0119dziem korea\u0144skiej marynarki do walki na kr\u00f3tkim dystansie. Zaprojektowano go, by sia\u0142 przera\u017cenie w szeregach wroga \u2013 ka\u017cdy z okr\u0119t\u00f3w mia\u0142 na dziobie wyrze\u017abion\u0105 g\u0142ow\u0119 smoka, kt\u00f3ra podobno wydziela\u0142a siarkowe wyziewy, by ukry\u0107 podej\u015bcie okr\u0119tu do wroga. W odr\u00f3\u017cnieniu od innych konstrukcji tego okresu kobukson nie posiada\u0142 g\u00f3rnego pok\u0142adu. Najwy\u017csza cz\u0119\u015b\u0107 okr\u0119tu by\u0142a pokryta \u017celaznymi kolcami, kt\u00f3re mia\u0142y uchroni\u0107 przed aborda\u017cem. \u017bo\u0142nierze i wio\u015blarze znajdowali si\u0119 na oddzielnych pok\u0142adach poni\u017cej. Kobukson, uzbrojony w dwa tuziny dzia\u0142 i inne bronie strzeleckie, by\u0142 niezwykle gro\u017anym przeciwnikiem dla nieprzygotowanych marynarek wrog\u00f3w Korei.",
+    "strategy": "Kobukson to unikatowa jednostka korea\u0144ska, zast\u0119puj\u0105ca karawel\u0119. Ma on wi\u0119ksz\u0105 si\u0142\u0119 ognia ni\u017c karawela, jest te\u017c wyj\u0105tkowo trudny do zniszczenia. Nie mo\u017ce on jednak wyp\u0142ywa\u0107 na pola otwartego morza poza granicami miasta.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

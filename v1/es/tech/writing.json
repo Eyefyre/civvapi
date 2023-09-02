@@ -1,0 +1,44 @@
+{
+    "id": 8,
+    "name": "Escritura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/writing.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "La escritura es al arte de registrar informaci\u00f3n sobre un material (ya sea papel, piedra, barro o pieles de animales) para que otros la vean y sepan descifrar su significado. Inventada alrededor del cuarto milenio a. C., la primera forma de escritura fue la \"pictograf\u00eda\", en la que el que escribe hace dibujos que representan los objetos deseados. Puede que funcione adecuadamente para cosas sencillas, pero se hacen necesarios otros m\u00e9todos cuando se habla de temas m\u00e1s complejos (puede que dibujar una oveja sea f\u00e1cil, pero, \u00bfc\u00f3mo dibujas mil ovejas? \u00bfY el sonido que hace una cuando cae de una pir\u00e1mide? Es mucho m\u00e1s dif\u00edcil).La ideograf\u00eda probablemente vino despu\u00e9s de la pictograf\u00eda. En la ideograf\u00eda, hay un s\u00edmbolo para cada concepto. Hay un ideograma para una oveja, otro para mil ovejas y otro m\u00e1s para el sonido que hace una cuando cae de una pir\u00e1mide. No obstante, un idioma completo puede tener miles de palabras, y aprender el s\u00edmbolo para cada una puede ser muy arduo.Un sistema fonogr\u00e1fico proporciona un s\u00edmbolo \u00fanico por cada palabra que se pronuncie diferente. \"Oveja\" tendr\u00eda un s\u00edmbolo \u00fanico, pero \"t\u00e9\" y \"te\" compartir\u00edan el mismo. Este sistema supone que haya menos s\u00edmbolos que memorizar, pero tambi\u00e9n propicia que se den m\u00e1s malentendidos.En un sistema alfab\u00e9tico, el idioma tiene un juego de s\u00edmbolos (alfabeto) que representa los distintos sonidos que se pueden dar en \u00e9l. Estos s\u00edmbolos se pueden concatenar para replicar cualquier palabra hablada en dicho idioma. En teor\u00eda, todo el que sepa leer ser\u00e1 capaz de pronunciar con precisi\u00f3n esa palabra escrita. \u00c9ste es el sistema que usan los idiomas occidentales y se cree, por lo general (especialmente lo creemos los que hablamos dichos idiomas), que es el sistema de escritura m\u00e1s \u00fatil y vers\u00e1til que existe.",
+    "quote": "\"El que destruye un buen libro mata a la propia raz\u00f3n.\" - John Milton",
+    "tech_prereqs": [
+        {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        },
+        {
+            "name": "Dramaturgia y poes\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/drama_and_poetry.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Papelero|Papeleros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/paper_maker.json"
+        },
+        {
+            "name": "Biblioteca|Bibliotecas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/library.json"
+        },
+        {
+            "name": "Gran Biblioteca|Grandes Bibliotecas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/great_library.json"
+        },
+        {
+            "name": "Biblioteca real|Bibliotecas reales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/royal_library.json"
+        }
+    ]
+}

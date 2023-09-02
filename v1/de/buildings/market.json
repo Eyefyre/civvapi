@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Markt",
+    "game_info": "M\u00e4rkte erh\u00f6hen die Menge an Gold, die eine Stadt produziert. Handelswege anderer Spieler zu einer Stadt mit einem Markt bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "strategy": "M\u00e4rkte erh\u00f6hen die Menge an Gold, die eine Stadt produziert. Handelswege anderer Spieler zu einer Stadt mit einem Markt bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "historical_info": "Ein Markt ist ein Ort, an dem Bauern, Gesch\u00e4ftsleute und H\u00e4ndler ihre Waren verkaufen. W\u00e4hrend die fr\u00fchen und primitiven M\u00e4rkte auf einem Barterhandel basierten, erfordert ein wirklich erfolgreicher Markt eine stabile W\u00e4hrung, um den freien Tausch von G\u00fctern und Dienstleistungen zu gew\u00e4hrleisten. Aus offensichtlichen Gr\u00fcnden sind M\u00e4rkte zu finden, wo die Kunden sind, also in D\u00f6rfern, Gemeinden und St\u00e4dten. Smithfield ist seit \u00fcber Tausend Jahren ein Fleischmarkt in London, was Stra\u00dfennamen wie \"Cow Cross Street\" (Kuhkreuzung) erkl\u00e4rt.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/markt.png",
+    "prereq_tech": {
+        "name": "W\u00e4hrung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

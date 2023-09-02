@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Bombowiec stealth|Bombowca stealth|Bombowcowi stealth|Bombowiec stealth",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "Jednostka powietrzna dalekiego zasi\u0119gu, zrzucaj\u0105ca \u015bmier\u0107 na nieprzyjacielskie jednostki i miasta.",
+    "historical_info": "Z chwil\u0105 rozwoju system\u00f3w przeciwlotniczych pojawi\u0142a si\u0119 potrzeba stworzenia bombowc\u00f3w taktycznych i strategicznych, kt\u00f3re b\u0119d\u0105 niewidzialne dla radar\u00f3w wroga i innych urz\u0105dze\u0144 namierzaj\u0105cych. Wsp\u00f3\u0142czesne bombowce stealth budowane s\u0105 ze specjalnych materia\u0142\u00f3w kompozytowych, pokrytych specjaln\u0105 pow\u0142ok\u0105 poch\u0142aniaj\u0105c\u0105 fale radarowe. Ponadto posiadaj\u0105 kszta\u0142t powoduj\u0105cy rozpraszanie wi\u0105zki radarowej oraz maskuj\u0105cy wszelkie \u015blady mog\u0105ce zdradzi\u0107 ich pozycj\u0119. Bombowce stealth s\u0105 w stanie przenosi\u0107 bomby konwencjonalne, jak i atomowe. Cho\u0107 maj\u0105 olbrzymi zasi\u0119g, jednostki te s\u0105 r\u00f3wnie\u017c bardzo kosztowne. Ameryka\u0144ski B-2 kosztuje oko\u0142o miliard dolar\u00f3w, czyli wi\u0119cej, ni\u017c bud\u017cet ma\u0142ego pa\u0144stwa.",
+    "strategy": "Bombowce stealth to ulepszone bombowce, maj\u0105ce wi\u0119kszy zasi\u0119g i si\u0142\u0119 ognia oraz lepsze zdolno\u015bci unikania nieprzyjacielskiej broni przeciwlotniczej i my\u015bliwc\u00f3w. Bombowce te dysponuj\u0105 r\u00f3wnie\u017c umiej\u0119tno\u015bci\u0105 \u201erozpoznanie lotnicze\u201d, kt\u00f3ra umo\u017cliwia ods\u0142oni\u0119cie obszaru w obr\u0119bie 6 p\u00f3l od bombowca. Nale\u017cy pami\u0119ta\u0107, \u017ce te jednostki nie mog\u0105 by\u0107 transportowane na lotniskowcach. Wi\u0119cej na ich temat znale\u017a\u0107 mo\u017cna w rozdziale Samoloty.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Technologia stealth|Technologii stealth|Technologii stealth|Technologi\u0119 stealth",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unik (100)|Uniku (100)|Unikowi (100)|Unik (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Rozpoznanie powietrzne|Rozpoznania powietrznego|Rozpoznaniu powietrznemu|Rozpoznanie powietrzne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/air_recon.json"
+        }
+    ]
+}

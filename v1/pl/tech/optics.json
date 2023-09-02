@@ -1,0 +1,32 @@
+{
+    "id": 13,
+    "name": "Optyka|Optyki|Optyce|Optyk\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/optics.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 85,
+    "civilopedia_entry": "Optyka to nauka badaj\u0105ca \u015bwiat\u0142o i widzenie. Pierwsze i najwa\u017cniejsze wyzwania optyki by\u0142y zwi\u0105zane ze wzmocnieniem ludzkiego wzroku, dzi\u0119ki czemu cz\u0142owiek m\u00f3g\u0142by widzie\u0107 na wi\u0119ksz\u0105 odleg\u0142o\u015b\u0107 lub obserwowa\u0107 bardzo ma\u0142e obiekty albo widzie\u0107 w ciemno\u015bci. Pierwsze soczewki stworzono w staro\u017cytnym Egipcie i Mezopotamii. Najstarsze soczewki, z wypolerowanego kryszta\u0142u, pochodz\u0105 z 700 r. p.n.e. Grecy i Rzymianie tworzyli prymitywne soczewki wype\u0142niaj\u0105c szklane kule wod\u0105. W \u201eOptyce\u201d Euklides opisa\u0142 matematyczne zasady percepcji i zbada\u0142 za\u0142amanie \u015bwiat\u0142a. W VIII wieku islamscy uczeni zg\u0142\u0119biali optyk\u0119, spisywali traktaty o za\u0142amaniu \u015bwiat\u0142a i wytwarzaniu soczewek i luster.Pierwsze noszone okulary wynaleziono w XII wieku we W\u0142oszech, a pierwsze prymitywne teleskopy w XV wieku, podobnie jak pierwszy mikroskop. Cho\u0107 wedle dzisiejszych standard\u00f3w nie by\u0142y to najlepsze urz\u0105dzenia, znacz\u0105co zwi\u0119kszy\u0142y ludzkie mo\u017cliwo\u015bci postrzegania \u015bwiata i nawigacji po niezbadanych wodach.",
+    "quote": "\u201eStworzy\u0142 instrument, by wiedzie\u0107, czy ksi\u0119\u017cyc jest w pe\u0142ni, czy nie.\u201d \u2013 Samuel Butler",
+    "tech_prereqs": [
+        {
+            "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kompas|Kompasu|Kompasowi|Kompas",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/compass.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Latarnia morska|Latarni morskiej|Latarni morskiej|Latarni\u0119 morsk\u0105|Latarnie morskie|Latarni morskich|Latarniom morskim|Latarnie morskie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/lighthouse.json"
+        },
+        {
+            "name": "Latarnia z Faros|Latarni z Faros|Latarni z Faros|Latarni\u0119 z Faros",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/great_lighthouse.json"
+        }
+    ]
+}

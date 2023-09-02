@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "name": "Keshik",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/keshik.png",
+    "game_info": "Diese mongolische Einheit ersetzt den Ritter. Sie verf\u00fcgt \u00fcber einen starken Fernangriff, erh\u00f6hte Fortbewegungsgeschwindigkeit und verdient 50% schneller Bef\u00f6rderungen. K\u00e4mpfe mit dieser Einheit bringen auch doppelt so viele Punkte, um einen Gro\u00dfen General zu verdienen.",
+    "historical_info": "Im 12. Jahrhundert str\u00f6mten die Mongolen aus Zentralasien und eroberten innerhalb eines Jahrhunderts einen Gro\u00dfteil Asiens und Osteuropas sowie gro\u00dfe Gebiete im Nahen Osten. Die wichtigste Waffe der Mongolen waren ihre einzigartigen berittenen Bogensch\u00fctzen, die Keshiks. Die Mongolen waren Nomadenst\u00e4mme und ihre Kinder waren (beinahe buchst\u00e4blich) geborene Reiter. Auf ihren kleinen, aber kr\u00e4ftigen Steppenpferden konnten die nur leicht bewaffneten und gepanzerten Mongolen innerhalb eines Tages unglaubliche Distanzen zur\u00fccklegen und schlugen damit Infanterie und sogar die schwerere europ\u00e4ische Kavallerie um L\u00e4ngen.Im Kampf schossen die mongolischen Keshiks vom R\u00fccken der Pferde aus mit t\u00f6dlicher Pr\u00e4zision und zerschlugen und entmutigten so die gegnerischen Formationen. Sobald der Gegner ausreichend geschw\u00e4cht war, st\u00fcrmte die schwere mongolische Kavallerie auf den zitternden Gegner los, um ihm den Gnadensto\u00df zu verpassen. Im Kampf gegen europ\u00e4ische Ritter in R\u00fcstungen schossen die Mongolen auf die Pferde, woraufhin sie deren abgeworfene Reiter je nach Lust und Laune ignorierten oder t\u00f6teten.",
+    "strategy": "Die Spezialeinheit Keshik ersetzt den Ritter und kann von den Mongolen ab dem Mittelalter ausgebildet werden. Keshiks verf\u00fcgen \u00fcber einen starken Fernangriff und eine erh\u00f6hte Fortbewegungsgeschwindigkeit (5 Punkte insgesamt), wodurch sie besonders effizient \u00fcberfallsartige Angriffe durchf\u00fchren und anschlie\u00dfend fliehen k\u00f6nnen. Dar\u00fcber hinaus erh\u00e4lt der Keshik Bef\u00f6rderungen doppelt so schnell wie andere Einheiten und tr\u00e4gt doppelt so viele Punkte zum Auftauchen von Gro\u00dfen Gener\u00e4len bei. Diese berittenen Krieger verschaffen Dschingis Khan im Alleingang die Herrschaft \u00fcber offene Ebenen.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Gro\u00dfe Gener\u00e4le I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Heller Kopf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/quick_study.json"
+        }
+    ]
+}

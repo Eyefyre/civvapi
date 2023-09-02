@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Ceca|Cecas",
+    "game_info": "Cada fuente de Oro y Plata que la ciudad explote produce +3 de Oro .La ciudad ha de poder extraer cerca al menos uno de estos recursos.",
+    "strategy": "La Ceca solo se puede construir en una ciudad que tenga cerca un recurso mejorado de Oro o de Plata. La Ceca aumenta la producci\u00f3n de Oro por cada uno de dichos recursos que la ciudad tenga cerca.",
+    "historical_info": "La ceca es una instituci\u00f3n que fabrica la moneda de una civilizaci\u00f3n. En el pasado sol\u00eda tratarse de monedas f\u00edsicas de metal, pero en tiempos m\u00e1s modernos se sustituy\u00f3 por papel impreso en su mayor parte. Las cecas son importantes para el bienestar econ\u00f3mico de una civilizaci\u00f3n. Si la moneda de una naci\u00f3n se puede falsificar con facilidad, se falsificar\u00e1, y la confianza depositada en ella se hundir\u00e1, provocando una peligrosa inflaci\u00f3n (cae el valor de la moneda) o consecuencias a\u00fan peores. La moneda actual se imprime con hologramas, tinta variable y filamentos de seguridad para detectar las falsificaciones; sin duda se a\u00f1adir\u00e1n m\u00e1s medidas de seguridad cuando los falsificadores aprendan a imitar las que ya existen.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ceca|cecas.png",
+    "prereq_tech": {
+        "name": "Moneda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

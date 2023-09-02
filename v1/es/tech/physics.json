@@ -1,0 +1,41 @@
+{
+    "id": 30,
+    "name": "F\u00edsica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/physics.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 485,
+    "civilopedia_entry": "La f\u00edsica es el estudio de la materia y conforma la base de las ciencias f\u00edsicas. Llamada en origen \"ciencia natural\", se ocupa de todo lo que se puede observar en el universo: desde la part\u00edcula m\u00e1s peque\u00f1a hasta la galaxia m\u00e1s grande. Estudia la gravedad, la luz, el calor y el magnetismo. Con el tiempo, a medida que el conocimiento humano creci\u00f3 exponencialmente, la f\u00edsica se fue dividiendo en varias ramas, como la astronom\u00eda, la qu\u00edmica, la biolog\u00eda y la ingenier\u00eda, pero todas tienen en com\u00fan que miden y explican los fen\u00f3menos naturales.En 1687, Isaac Newton public\u00f3 su obra culmen \"Philosophiae Naturalis Principia Mathematica\", que revolucion\u00f3 la f\u00edsica. Para entendernos, la primera ley de Newton, conocida como \"ley de la inercia\", dice que un objeto en reposo permanecer\u00e1 en reposo y un objeto en movimiento permanecer\u00e1 en movimiento, a menos que act\u00faen sobre ellos fuerzas externas. La segunda ley describe los cambios que la fuerza puede producir en el movimiento de un cuerpo con una f\u00f3rmula: \"fuerza es igual a masa por aceleraci\u00f3n\". La tercera, la \"ley de acci\u00f3n y reacci\u00f3n\", afirma que, cuando dos objetos interact\u00faan, aplican fuerzas en el otro cuerpo que son iguales en magnitud y opuestas en direcci\u00f3n o, en el acerbo popular, \"por cada acci\u00f3n hay una reacci\u00f3n igual en sentido opuesto\".Las leyes de Newton rigieron la f\u00edsica hasta el siglo XX, cuando las sustituyeron las leyes de la relatividad y de la mec\u00e1nica cu\u00e1ntica, hitos que han cambiado tanto el mundo como lo hicieron los descubrimientos de Newton en su momento.",
+    "quote": "\"Mide lo que es mesurable y haz mesurable lo que no lo es.\" - Galileo",
+    "tech_prereqs": [
+        {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Imprenta",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+        },
+        {
+            "name": "P\u00f3lvora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Trabuquete|Trabuquetes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/trebuchet.json"
+        },
+        {
+            "name": "Hwach'a",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/hwach'a.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Notre Dame|Notre Dame",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/notre_dame.json"
+        }
+    ]
+}

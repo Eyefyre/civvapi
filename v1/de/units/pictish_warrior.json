@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Piktenkrieger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Nur die Kelten k\u00f6nnen diese Einheit bauen. Sie hat einen Kampfbonus au\u00dferhalb des verb\u00fcndeten Territoriums und kann feindliche Verbesserungen ohne zus\u00e4tzliche Fortbewegungskosten pl\u00fcndern. Verdient beim Sieg 50% der gegnerischen St\u00e4rke als Glaube.",
+    "historical_info": "Die Pikten waren ein Volk, das w\u00e4hrend der sp\u00e4ten Eisenzeit im heutigen \u00f6stlichen und n\u00f6rdlichen Schottland lebte, einer der vielen keltischen St\u00e4mme auf den britischen Inseln. Ihre Krieger waren nicht nur unter den anderen keltischen V\u00f6lkern gef\u00fcrchtet, sondern sogar bei den ger\u00fchmten r\u00f6mischen Legion\u00e4ren. Der griechische Historiker Dionysius sollte w\u00e4hrend der Herrschaft des C\u00e4sar Augustus schreiben, dass ihr \"Kampfverhalten, das in starkem Ma\u00dfe an wilde Tiere und Raserei erinnert\", ihnen betr\u00e4chtliche Erfolge einbrachte gegen die schwerf\u00e4lligen milit\u00e4rischen Formationen, die in den W\u00e4ldern und H\u00fcgeln Nordeuropas operierten.Ihr Furcht erregender Ruf wurde durch den Einsatz des Carnyx, einer bronzenen Trompete, die w\u00e4hrend der Schlacht pausenlos ert\u00f6nte, um die Pikten anzustacheln und Gegner einzusch\u00fcchtern, noch verst\u00e4rkt. Berichte \u00fcber die abgetrennten K\u00f6pfe besiegter Gegner, die Piktenkrieger bei sich tragen sollten, taten ihr \u00dcbriges. Die Pikten glaubten, wenn sie die K\u00f6pfe besiegter Gegner mit in die Schlacht nahmen, w\u00fcrde ihnen Mut und vielleicht g\u00f6ttlicher Zorn eingefl\u00f6\u00dft.",
+    "strategy": "Der Piktenkrieger ist die Spezialeinheit der Kelten. Sie ist perfekt f\u00fcr fr\u00fche \u00dcberf\u00e4lle geeignet und kann den Besitz des Gegners verw\u00fcsten, da sie innerhalb eines Zuges schnell pl\u00fcndern und sich fortbewegen kann. Au\u00dferdem bringen sie Glauben f\u00fcr jede Einheit, die sie besiegt, was die religi\u00f6sen Ziele w\u00e4hrend des Krieges konstant n\u00e4herbringt.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronzeverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fremdes-Land-Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "Keine Fortbewegungskosten beim Pl\u00fcndern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

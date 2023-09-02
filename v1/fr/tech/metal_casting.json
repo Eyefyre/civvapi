@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Moulage",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "Moyen \u00c2ge",
+    "cost": 275,
+    "civilopedia_entry": "Le moulage est le proc\u00e9d\u00e9 gr\u00e2ce auquel un artisan peut r\u00e9aliser un ou plusieurs objets en versant un m\u00e9tal fondu dans un moule. L'une des plus anciennes techniques de moulage est la m\u00e9thode dite de la \"cire perdue\", datant du troisi\u00e8me mill\u00e9naire av. J.-C. : l'artisan cr\u00e9e une r\u00e9plique en cire de l'objet \u00e0 dupliquer, autour de laquelle il fabrique le moule ; la cire est ensuite fondue, \u00e9vacu\u00e9e, puis remplac\u00e9e par du m\u00e9tal fondu. Une fois que le m\u00e9tal a refroidi, le moule est ouvert et l'objet retir\u00e9. Historiquement, le sable et l'argile furent tr\u00e8s souvent utilis\u00e9s pour les moulages. Plus tard, on commen\u00e7a \u00e0 fabriquer des moules \u00e0 partir de plastique ou de substances de type latex.",
+    "quote": "\"Lorsque des objets de bronze, d'or ou de fer se brisent, le forgeron les rassemble dans le feu et le lien est r\u00e9tabli.\" - Gur\u00fb Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Ing\u00e9nierie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/engineering.json"
+        },
+        {
+            "name": "Travail du fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Physique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/physics.json"
+        },
+        {
+            "name": "Acier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserker|Berserkers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Long\u00e8re|Long\u00e8res",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/longhouse.json"
+        },
+        {
+            "name": "Forge|Forges",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/forge.json"
+        },
+        {
+            "name": "Atelier|Ateliers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/workshop.json"
+        }
+    ]
+}

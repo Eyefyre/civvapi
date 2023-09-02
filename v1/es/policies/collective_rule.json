@@ -1,0 +1,20 @@
+{
+    "id": 9,
+    "name": "Gobierno colectivo",
+    "game_info": "Gobierno colectivoAcelera la formaci\u00f3n de Colonos en un 50% en la capital y cerca de esta aparecer\u00e1 gratis un Colono (Venecia recibe un Mercader de Venecia en vez de un Colono).",
+    "historical_info": "El gobierno colectivo es la pol\u00edtica en la que cada miembro (o cada miembro mayor de edad, o mayor de edad y var\u00f3n) de la sociedad toma parte en el proceso de gobierno votando directamente las decisiones, en vez de hacerlo a trav\u00e9s de un representante (como en una rep\u00fablica). Aunque quiz\u00e1 sea una forma de gobierno eficaz para tribus o peque\u00f1as aldeas, el gobierno colectivo se hace cada vez m\u00e1s dif\u00edcil y poco manejable a medida que la poblaci\u00f3n crece en tama\u00f1o. Si la mitad de los miembros de una tribu de 100 personas quieren hablar durante un minuto en una asamblea, pueden hacerlo en una hora. Si la mitad de los ciudadanos de Nueva York quisieran hacer lo mismo, se necesitar\u00edan unas 66.000 horas (adem\u00e1s de un sal\u00f3n de reuniones realmente enorme).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/gobierno_colectivo.png",
+    "required_policies": [
+        {
+            "name": "Rep\u00fablica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/policies/republic.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Libertad",
+        "game_info": "La Libertad es mejor para las civilizaciones que quieren expandirse r\u00e1pidamente.Adoptarla proporcionar\u00e1 1 de Cultura en todas las ciudades. Desbloquea la construcci\u00f3n de las Pir\u00e1mides.La adopci\u00f3n de todas las pol\u00edticas del \u00e1rbol de la Libertad te proporcionar\u00e1 un Gran personaje gratis de tu elecci\u00f3n cerca de la capital .",
+        "prereq_era": null,
+        "historical_info": "Como pol\u00edtica, la libertad se puede definir como presunci\u00f3n b\u00e1sica de que los ciudadanos de una naci\u00f3n merecen ser libres, libres de restricciones f\u00edsicas y del control desp\u00f3tico. Los vasallos, esclavos y siervos no tienen libertad, ni los ciudadanos que est\u00e1n obligados a vivir en una determinada aldea, un gulag o un gueto."
+    }
+}

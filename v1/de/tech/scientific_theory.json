@@ -1,0 +1,40 @@
+{
+    "id": 43,
+    "name": "Wissenschaftstheorie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/scientific_theory.png",
+    "era": "Industriezeitalter",
+    "cost": 1600,
+    "civilopedia_entry": "Wissenschaftstheorie ist eine Weise, die Welt zu betrachten, bei der die Betrachter wissenschaftliche Methoden anwenden, um Wissen \u00fcber das Universum zu erlangen. Durch genaues Beobachten und Experimente entwickelt ein Wissenschaftler Theorien, um Ph\u00e4nomene zu erkl\u00e4ren. Wenn andere Wissenschaftler durch Experimentieren die Theorie dieses Wissenschaftlers best\u00e4tigen k\u00f6nnen, wird diese als empirisches Gesetz angesehen - zumindest, bis neue Beobachtungen oder Experimente das Gesetz kippen. Wenn Experimente eines Wissenschaftlers von anderen nicht reproduziert werden k\u00f6nnen, m\u00fcssen seine bzw. ihre Theorien \u00e4u\u00dferst skeptisch betrachtet werden.Auch wenn die Wissenschaftstheorie heute in den meisten fortschrittlichen L\u00e4ndern vorherrscht, ist sie nicht die einzige Methode, um die Welt zu sehen. Einige Leute erkl\u00e4ren das Universum durch g\u00f6ttliche Offenbarungen, wie sie z. B. in heiligen B\u00fcchern geschrieben stehen. Gem\u00e4\u00df dieser Sichtweise m\u00fcssen wissenschaftliche Beobachtungen oder Experimente fehlerhaft oder falsch sein, wenn sie mit einer solchen Offenbarung in Konflikt stehen. Diese zwei unterschiedlichen Sichtweisen auf die Welt stehen seit Jahrhunderten im Konflikt miteinander und werden das vermutlich auch noch viele Jahre lang tun.",
+    "quote": "\"Jedem gro\u00dfen wissenschaftlichen Fortschritt geht eine neue, tollk\u00fchne Idee voraus.\" - John Dewey",
+    "tech_prereqs": [
+        {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        },
+        {
+            "name": "Architektur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/biology.json"
+        },
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        },
+        {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "\u00d6ffentliche Schule",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/public_school.json"
+        }
+    ]
+}

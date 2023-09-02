@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Trabuquete|Trabuquetes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "Una poderosa unidad de asedio medieval, buena para reducir la defensa de las ciudades. Debe desplegarse antes de disparar.",
+    "historical_info": "El trabuquete es una poderosa arma de asedio medieval. Apareci\u00f3 por primera vez en Europa en el siglo XII y pod\u00eda arrojar un proyectil de m\u00e1s de 130 kilos a larga distancia contra las murallas del enemigo o por encima de ellas. La versi\u00f3n europea medieval del trabuquete era la \"m\u00e1quina de contrapeso\". Se compon\u00eda de un brazo de madera muy largo con una honda enorme en un extremo y un gran peso en el otro, montado sobre un pesado armaz\u00f3n de madera. El brazo largo se bajaba con un torno, lo que hac\u00eda ascender el peso, y se pon\u00eda un proyectil en la honda. Cuando se soltaba, el contrapeso bajaba y el brazo ascend\u00eda r\u00e1pidamente trazando un arco, lanzando el proyectil a una gran distancia. Estas m\u00e1quinas no sol\u00edan ser m\u00f3viles y requer\u00edan un largo proceso de montaje, y eso limitaba la eficacia de su uso a los asedios prolongados.",
+    "strategy": "Un Trabuquete es un arma de asedio medieval, bastante m\u00e1s poderosa que las unidades de Catapultas anteriores. Debe gastar 1 PM para desplegarse, pero, una vez est\u00e1 en posici\u00f3n, puede provocar da\u00f1os muy graves a una ciudad fortificada enemiga. Defiende a tus Trabuquetes con unidades de combate cuerpo a cuerpo y a distancia para evitar que el enemigo se acerque demasiado.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "F\u00edsica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Desplegarse y atacar a distancia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

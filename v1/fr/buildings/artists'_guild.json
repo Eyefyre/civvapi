@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Guilde des artistes|Guildes des artistes",
+    "game_info": "Fournit 2 points de personnage illustre (PPI) pour faire progresser l'acquisition d'un artiste illustre. Ajoutez jusqu'\u00e0 deux sp\u00e9cialistes \u00e0 ce b\u00e2timent pour gagner de la culture et augmenter la vitesse d'acquisition d'artistes illustres (3 Culture et 3 PPI par sp\u00e9cialiste).",
+    "strategy": "La guilde des artistes est le seul b\u00e2timent qui contient des emplacements de sp\u00e9cialistes artistes, essentiels pour g\u00e9n\u00e9rer des artistes illustres. Si vous souhaitez remporter une victoire culturelle, ce b\u00e2timent est indispensable. La guilde des artistes fournit 2 points de personnage illustre, et chaque sp\u00e9cialiste assign\u00e9 fournit 3 points de personnage illustre et 3 Culture.",
+    "historical_info": "Le concept des guildes d'artisans ne se r\u00e9pandit pas avant la fin du Moyen \u00c2ge, lorsque l'Europe commen\u00e7a son long processus d'urbanisation. Au cours du XIIIe si\u00e8cle, un certain nombre de guildes d'artistes apparut dans les villes, inspir\u00e9es des guildes de marchands de l'\u00e9poque. Les guildes avaient pour objectif de fixer les co\u00fbts et les prix, et proposaient un soutien ainsi que des moyens de formation aux artistes de leur ville. Elles \u00e9vitaient ainsi les probl\u00e8mes de patronage par les riches et la noblesse. Bien que des guildes non officielles existent toujours pour certains types d'artistes, le Si\u00e8cle des Lumi\u00e8res marqua le d\u00e9clin du monopole des guildes, jusqu'\u00e0 leur abolition au milieu du XIXe si\u00e8cle.",
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/guilde_des_artistes|guildes_des_artistes.png",
+    "prereq_tech": {
+        "name": "Guildes",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

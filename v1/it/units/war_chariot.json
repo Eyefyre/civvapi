@@ -1,0 +1,31 @@
+{
+    "id": 72,
+    "name": "Carro da guerra|un Carro da guerra|dal tuo Carro da guerra|al tuo Carro da guerra|il tuo Carro da guerra|da un Carro da guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_chariot.png",
+    "game_info": "Una veloce unit\u00e0 che attacca da lontano. Solo gli Egizi possono costruirla. A differenza dell'Arciere su carro, che sostituisce, quest'unit\u00e0 non richiede Cavalli per essere costruita.",
+    "historical_info": "Gli Egiziani erano veri maestri nell'uso dei carri da guerra, che con buona ragione erano molto temuti dai loro avversari. Gli stessi faraoni andarono spesso in battaglia a bordo dei carri. Amenhotep II si vant\u00f2 di aver colpito da un carro in piena corsa quattro bersagli posti a 30 piedi l'uno dietro l'altro, con tanta potenza da penetrare tre pollici di rame. Come la cavalleria, anche i carri erano particolarmente letali contro un avversario in ritirata. Il nemico, una volta in rotta, non era pi\u00f9 riparato dallo scudo ed era completamente vulnerabile alle frecce, senza contare che lo si poteva facilmente schiacciare sotto le ruote.",
+    "strategy": "Il Carro da guerra \u00e8 un'unit\u00e0 esclusiva egizia e sostituisce l'Arciere su carro. \u00c8 pi\u00f9 veloce dell'Arciere su carro standard, e il giocatore egizio pu\u00f2 costruirlo anche se non ha accesso alla risorsa Cavalli. Il Carro da guerra \u00e8 considerato alla stregua di cavalleria e quindi vulnerabile all'attacco dei Lancieri.",
+    "movement": 5,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ruota|della Ruota",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Penalit\u00e0 su terreno accidentato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

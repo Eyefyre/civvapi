@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "Balistyka|Balistyki|Balistyce|Balistyk\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "Epoka wsp\u00f3\u0142czesna|Epoki wsp\u00f3\u0142czesnej|Epoce wsp\u00f3\u0142czesnej|Epok\u0119 wsp\u00f3\u0142czesn\u0105",
+    "cost": 4100,
+    "civilopedia_entry": "Balistyka to nauka o ruchu pocisk\u00f3w - przede wszystkim naboj\u00f3w, rakiet oraz bomb. O balistyce m\u00f3wi si\u0119 zazwyczaj w kontek\u015bcie badania broni i amunicji powi\u0105zanej z miejscem zbrodni - g\u0142\u00f3wnie w przypadku post\u0119powania \u015bledczego, kt\u00f3re ma na celu ustalenie winy lub niewinno\u015bci na podstawie powi\u0105zania danego modelu broni z odzyskanym pociskiem. Bardziej og\u00f3lne podej\u015bcie do tej nauki doprowadzi\u0142o na przestrzeni ostatniego stulecia do znacznych post\u0119p\u00f3w w zakresie zwi\u0119kszenia celno\u015bci i si\u0142y, a wi\u0119c i skuteczno\u015bci broni palnej r\u00f3\u017cnego typu.",
+    "quote": "\u201eLudzie, zupe\u0142nie jak kule, docieraj\u0105 najdalej dzi\u0119ki g\u0142adko\u015bci.\u201d - Jean Paul",
+    "tech_prereqs": [
+        {
+            "name": "Kolej|Kolei|Kolei|Kolej",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/railroad.json"
+        },
+        {
+            "name": "Lot|Lotu|Lotowi|Lot",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar|Radaru|Radarowi|Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+        },
+        {
+            "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Dzia\u0142a przeciwlotnicze|Dzia\u0142 przeciwlotniczych|Dzia\u0142om przeciwlotniczym|Dzia\u0142a przeciwlotnicze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "Karabiny maszynowe|Karabin\u00f3w maszynowych|Karabinom maszynowym|Karabiny maszynowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

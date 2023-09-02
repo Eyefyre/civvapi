@@ -1,0 +1,66 @@
+{
+    "id": 11,
+    "name": "Plantation",
+    "game_info": "A plantation is a fancy name for a farm. It is generally applied to large estates located in semi-tropical or tropical locations, and especially those which grow crops for export rather than for local consumption. The term has acquired an unsavory flavor because of its association with slavery in the United States and the Caribbean, but there's nothing inherently evil about a well-run plantation which employs free workers.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plantation.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Bananas",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bananas.json"
+        },
+        {
+            "name": "Dyes",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+        },
+        {
+            "name": "Silk",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silk.json"
+        },
+        {
+            "name": "Spices",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/spices.json"
+        },
+        {
+            "name": "Sugar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+        },
+        {
+            "name": "Cotton",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cotton.json"
+        },
+        {
+            "name": "Wine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/wine.json"
+        },
+        {
+            "name": "Incense",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/incense.json"
+        },
+        {
+            "name": "Citrus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/citrus.json"
+        },
+        {
+            "name": "Cocoa",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cocoa.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Calendar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/calendar.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

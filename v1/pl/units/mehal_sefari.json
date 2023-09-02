@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Silna, frontowa jednostka l\u0105dowa specjalizuj\u0105ca si\u0119 w walce w trudnym terenie i obronie w pobli\u017cu etiopskiej stolicy. Jedynie Etiopczycy mog\u0105 j\u0105 stworzy\u0107.",
+    "historical_info": "Mehal Sefari to elitarna jednostka cesarskich stra\u017cnik\u00f3w, kt\u00f3rzy chronili cesarzy Etiopii w XIX i XX w. Z pocz\u0105tku s\u0142u\u017cyli jako osobi\u015bci ochroniarze cesarzy, wkr\u00f3tce jednak stali si\u0119 pot\u0119\u017cn\u0105 brygad\u0105 w strukturach etiopskiego wojska. Mehal Sefari sk\u0142ada\u0142o si\u0119 z wysoce wyspecjalizowanych jednostek piechoty, kawalerii, artylerii oraz strzelc\u00f3w wyborowych i uznawane by\u0142o za elitarne wojsko Etiopii. \u017bo\u0142nierze poddawani byli niezwykle ci\u0119\u017ckiemu treningowi i wyposa\u017cani w najnowocze\u015bniejsz\u0105 dost\u0119pn\u0105 bro\u0144.",
+    "strategy": "Mehal Sefari stanowi\u0105 kr\u0119gos\u0142up etiopskiej armii. Rozpoczynaj\u0105 z awansami, kt\u00f3re daj\u0105 im premie podczas walki w trudnym terenie i blisko etiopskiej stolicy. S\u0105 nieco ta\u0144si ni\u017c strzelcy, kt\u00f3rych zast\u0119puj\u0105.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Gwintowanie|Gwintowania|Gwintowaniu|Gwintowanie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Wyszkolenie I|Wyszkolenia I|Wyszkoleniu I|Wyszkolenie I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/drill_i.json"
+        },
+        {
+            "name": "Premia sto\u0142eczna",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/near_capital_bonus.json"
+        }
+    ]
+}

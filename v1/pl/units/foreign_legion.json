@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "Legia Cudzoziemska|Legii Cudzoziemskiej|Legii Cudzoziemskiej|Legi\u0119 Cudzoziemsk\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Specjalna jednostka piechoty z epoki wsp\u00f3\u0142czesnej. Mo\u017cna otrzyma\u0107 j\u0105 tylko po przyj\u0119ciu zasady \u201earmia ochotnicza\u201d ideologii Swob\u00f3d. Otrzymuje premi\u0119 do walki poza w\u0142asnym terytorium, a poza tym jest bardzo podobna do piechoty z czas\u00f3w wielkiej wojny.",
+    "historical_info": "Za\u0142o\u017cona w 1831 roku francuska Legia Cudzoziemska jest unikaln\u0105 jednostk\u0105 piechoty w armii francuskiej. Legia zosta\u0142a stworzona specjalnie dla cudzoziemc\u00f3w, kt\u00f3rzy chcieli walczy\u0107 pod sztandarami Francji. Znana z odwagi, zupe\u0142nie oboj\u0119tna na w\u0142asne bezpiecze\u0144stwo, Legia Cudzoziemska od pocz\u0105tku uczestniczy\u0142a w ka\u017cdej francuskiej wojnie. Jednostka zyska\u0142a romantyczn\u0105 legend\u0119 \u2013 wed\u0142ug kultury masowej jest to miejsce, gdzie udaj\u0105 si\u0119 m\u0119\u017cczy\u017ani ze z\u0142amanym sercem, by zapomnie\u0107 o kobietach, i \u0142otrzy, kt\u00f3rzy chc\u0105 umkn\u0105\u0107 sprawiedliwo\u015bci. By\u0107 mo\u017ce to niezupe\u0142nie prawda, ale z jakich\u015b przyczyn legia jest gro\u017an\u0105 i skuteczn\u0105 si\u0142\u0105 bojow\u0105.",
+    "strategy": "Legia Cudzoziemska to jednostka specjalna dost\u0119pna jedynie dzi\u0119ki zasadzie \u201eArmii ochotniczej\u201d ideologii Swob\u00f3d. Otrzymuje znaczn\u0105 premi\u0119 do walki podczas dzia\u0142a\u0144 poza w\u0142asnym terytorium, co czyni j\u0105 doskona\u0142\u0105 jednostk\u0105 do przejmowania kontroli nad obcymi terenami.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Cz\u0119\u015bci zamienne|Cz\u0119\u015bci zamiennych|Cz\u0119\u015bciom zamiennym|Cz\u0119\u015bci zamienne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia obcego terytorium|Premii obcego terytorium|Premii obcego terytorium|Premi\u0119 obcego terytorium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

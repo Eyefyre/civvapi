@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "name": "Calendario",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/calendar.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "Un calendario es un m\u00e9todo de llevar la cuenta de los d\u00edas. En muchas culturas antiguas, los calendarios obedec\u00edan tanto a prop\u00f3sitos religiosos como pr\u00e1cticos: ciertos d\u00edas del a\u00f1o estaban dedicados a la adoraci\u00f3n de determinadas deidades, y no estaba bien fallarles a los dioses y no darles lo que se les deb\u00eda. De forma m\u00e1s prosaica, claro, los calendarios permit\u00edan a la gente seguir el clima en un \u00e1rea e informarles de cu\u00e1ndo plantar, cu\u00e1ndo cosechar, etc.Al parecer, los egipcios fueron los primeros en desarrollar el primer calendario pr\u00e1ctico, y los romanos se lo apropiaron y lo refinaron mediante el calendario juliano. El calendario gregoriano, usado casi universalmente en la actualidad, se bas\u00f3 en el juliano. Aprobado en 1582 por el papa Gregorio XIII, el calendario gregoriano define con m\u00e1s precisi\u00f3n un a\u00f1o solar y corrige una leve imprecisi\u00f3n del juliano. En el primero, el a\u00f1o duraba 365 d\u00edas y seis horas, mientras que en el gregoriano tiene 12 minutos menos: 365 d\u00edas, 5 horas y 48 minutos. Este error se fue acumulando con los siglos y, en tiempos de Gregorio, el calendario juliano ya estaba desfasado 14 d\u00edas respecto a las estaciones.",
+    "quote": "\"Ens\u00e9\u00f1anos, pues, a contar nuestros d\u00edas para que adquiramos un coraz\u00f3n sabio.\" - La Biblia, Salmos 90:12",
+    "tech_prereqs": [
+        {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stonehenge|Stonehenge",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stonehenge.json"
+        },
+        {
+            "name": "Taller de canter\u00eda|Talleres de canter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stone_works.json"
+        }
+    ]
+}

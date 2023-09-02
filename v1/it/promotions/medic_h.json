@@ -1,0 +1,24 @@
+{
+    "id": 20,
+    "name": "Medico",
+    "game_info": "Tutte le unit\u00e0 nelle caselle adiacenti Curano 5 PF aggiuntivi per turno.",
+    "prereq_promotions": [
+        {
+            "name": "Assalto I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/shock_i.json"
+        },
+        {
+            "name": "Addestramento I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+        },
+        {
+            "name": "Esplorazione II",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/scouting_ii.json"
+        },
+        {
+            "name": "Sopravvivenza II",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/survivalism_ii.json"
+        }
+    ],
+    "icon": "https://eyefyre.github.io/civvapi/images/promotion_icons/medico_h.png"
+}

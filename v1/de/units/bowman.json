@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "Kampfbogensch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "Diese babylonische Spezialeinheit ist eine der ersten verf\u00fcgbaren Fernwaffeneinheiten und ersetzt den Bogensch\u00fctzen. Der Kampfbogensch\u00fctze kann Nahkampfangriffen besser standhalten als der Bogensch\u00fctze anderer Zivilisationen.",
+    "historical_info": "Dank eines wundervollen assyrischen Mosaiks, das die au\u00dfergew\u00f6hnlichen babylonischen Bogensch\u00fctzen auf dem Weg in die Schlacht zeigt, k\u00f6nnen wir uns ein ziemlich gutes Bild von ihnen machen. Die babylonischen Bogensch\u00fctzen sind in farbenpr\u00e4chtige gepolsterte Roben gekleidet und tragen 1,20 m lange B\u00f6gen sowie einen K\u00f6cher voller Pfeile auf dem R\u00fccken. Die Bogensch\u00fctzen f\u00fchren zudem Speere oder Dolche zu ihrer eigenen Verteidigung bei sich, falls eine feindliche Einheit in Nahkampfreichweite vorsto\u00dfen sollte.Separate Einheiten mit gro\u00dfen, mannshohen Schilden begleiteten den Kampfbogensch\u00fctzen und boten ihm so eine Art bewegliche Festung. Die Kampfbogensch\u00fctzen waren ein wesentlicher Bestandteil der babylonischen Infanterie, da sie einfacher auszubilden und zu ersetzen waren als die teurere Kavallerie. Kampfbogensch\u00fctzen wurden au\u00dferdem zur Verteidigung der ber\u00fchmten Mauern von Babylon eingesetzt und nahmen Positionen in den zahlreichen Gesch\u00fctzt\u00fcrmen entlang dieser Linie ein.",
+    "strategy": "Der Kampfbogensch\u00fctze ist die babylonische Spezialeinheit und ersetzt den Bogensch\u00fctzen. Diese Einheit ist im Kampf sowohl offensiv als auch defensiv st\u00e4rker als der Bogensch\u00fctze und kann daher an vorderster Front eingesetzt werden. Die verbesserte Kampfst\u00e4rke des Kampfbogensch\u00fctzen verhindert, dass er einfach \u00fcberrannt werden kann.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Bogenschie\u00dfen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

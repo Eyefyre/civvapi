@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "Era At\u00f3mica",
+    "cost": 5100,
+    "civilopedia_entry": "El radar es un sistema de detecci\u00f3n que emplea ondas electromagn\u00e9ticas para identificar objetos lejanos como barcos o aviones. Acu\u00f1ado en 1941, el t\u00e9rmino \"RADAR\" son las siglas de Radio Detection And Ranging (detecci\u00f3n y medici\u00f3n de distancias por radio).En 1904, Christian Hulsmeyer logr\u00f3 detectar la presencia de un barco en un denso banco de niebla. M\u00e1s adelante, en ese mismo a\u00f1o, realiz\u00f3 mejoras a su invento que permit\u00edan determinar la distancia a la que se encontraba el objeto detectado.En agosto de 1917, el inventor Nikola Tesla dise\u00f1\u00f3 los primeros radares primitivos, que permit\u00edan al usuario \"determinar la posici\u00f3n relativa o el rumbo de un objeto en movimiento, como una embarcaci\u00f3n en el mar, la distancia recorrida por la misma o su velocidad\".Ante el inminente estallido de la Segunda Guerra Mundial, todas las potencias industriales del mundo pugnaron por inventar radares m\u00e1s sofisticados. Los brit\u00e1nicos contaban con los adelantos m\u00e1s innovadores cuando se declar\u00f3 la guerra: sus sistemas eran capaces de detectar objetos voladores situados a gran distancia de las vulnerables ciudades brit\u00e1nicas. Los rumores de que los alemanes trabajaban en una especie de rayo mortal estimularon la investigaci\u00f3n. Su sistema se guardaba bajo alto secreto, y los brit\u00e1nicos aseguran que, durante la guerra, sus detectores humanos de aviones fueron los responsables de su \u00e9xito a la hora de interceptar las ofensivas alemanas.Hacia el final de la guerra, las principales potencias hab\u00edan hecho grandes avances en la tecnolog\u00eda del radar y, a mediados de siglo, se extendi\u00f3 por todo el mundo con usos civiles, principalmente para controlar el tr\u00e1fico a\u00e9reo. Con la posible excepci\u00f3n de ciertas aeronaves indetectables, en la actualidad es casi imposible que un avi\u00f3n entre en el espacio a\u00e9reo de cualquier naci\u00f3n industrializada sin que lo detecte un radar en alguna parte.",
+    "quote": "\"Visi\u00f3n es el arte de ver las cosas invisibles.\" - Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "Electr\u00f3nica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electronics.json"
+        },
+        {
+            "name": "Misiles bal\u00edsticos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fisi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Coheter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+        },
+        {
+            "name": "Ordenadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardero|Bombarderos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/bomber.json"
+        },
+        {
+            "name": "B17",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/b17.json"
+        },
+        {
+            "name": "Caza|Cazas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/fighter.json"
+        },
+        {
+            "name": "Zero|Zeros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/zero.json"
+        },
+        {
+            "name": "Paracaidista|Paracaidistas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Aeropuerto|Aeropuertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/airport.json"
+        }
+    ]
+}

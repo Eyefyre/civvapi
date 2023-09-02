@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "name": "Buque de guerra|Buques de guerra",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ship_of_the_line.png",
+    "game_info": "Poderosa unidad naval de Renacimiento utilizada para hacerse con el control de los mares. Solo los ingleses pueden construirla.",
+    "historical_info": "Los buques de guerra son los nav\u00edos de vela m\u00e1s grandes y poderosos que jam\u00e1s se hayan construido. Conformaron la espina dorsal de los ej\u00e9rcitos europeos desde el siglo XVII y hasta mediados del XIX. En ingl\u00e9s se llaman \"ships of the line\" (literalmente, \"buques de l\u00ednea\") por la formaci\u00f3n cl\u00e1sica que adoptaban en combate. Los buques de cada bando se acercaban al enemigo en l\u00ednea y, a medida que pasaban los barcos del contrario, cada uno soltaba una ensordecedora andanada con los ca\u00f1ones que les hac\u00eda un da\u00f1o terrible a las naves rivales. La victoria se la sol\u00eda llevar el bando que tuviera los mejores ca\u00f1ones y los marinos mejor entrenados. Los ingleses fueron unos maestros en esta forma de guerra, y sus buques de guerra dominaron los oc\u00e9anos del mundo durante m\u00e1s de un siglo.",
+    "strategy": "El Buque de guerra es la unidad exclusiva inglesa que sustituye a la Fragata. Tiene una Fuerza de combate a distancia algo superior a \u00e9sta y es un poco m\u00e1s barato de producir. Puede ver un hex\u00e1gono m\u00e1s lejos que la Fragata, lo que le permite avistar enemigos en una secci\u00f3n del oc\u00e9ano notablemente mayor.",
+    "movement": 5,
+    "cost": {
+        "production": 170,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        }
+    ]
+}

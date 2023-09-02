@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "name": "Keshikowie|Keshik\u00f3w|Keshikom|Keshik\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/keshik.png",
+    "game_info": "Ta unikatowa mongolska jednostka zast\u0119puje standardowych rycerzy. Jest silna w atakach dystansowych, ma zwi\u0119kszon\u0105 szybko\u015b\u0107 ruchu i dostaje awans o 50% szybciej. Walki stoczone przez jednostk\u0119 daj\u0105 te\u017c dwa razy wi\u0119cej punkt\u00f3w do wyszkolenia wielkiego genera\u0142a.",
+    "historical_info": "W XII wieku Mongo\u0142owie zacz\u0119li ekspansj\u0119 militarn\u0105 z Azji centralnej, podbijaj\u0105c wi\u0119ksz\u0105 cz\u0119\u015b\u0107 Azji, Wschodni\u0105 Europ\u0119, i znaczn\u0105 cz\u0119\u015b\u0107 Bliskiego Wschodu zaledwie w ci\u0105gu jednego stulecia. Podstawow\u0105 broni\u0105 mongolskiej armii byli niezr\u00f3wnani konni \u0142ucznicy zwani Keshikami. Jako plemiona w\u0119drowne, Mongo\u0142owie w\u0142a\u015bciwie dorastali w siodle. Je\u017cd\u017c\u0105c na niskich, ale szybkich i wytrwa\u0142ych kucykach, z lekkimi pancerzami i broni\u0105 mogli pokonywa\u0107 niesamowite wr\u0119cz odleg\u0142o\u015bci w jeden dzie\u0144. To dawa\u0142o im przewag\u0119 nad wszelk\u0105 piechot\u0105, a nawet nad ci\u0119\u017csz\u0105 kawaleri\u0105 Europejsk\u0105.W walce mongolscy Keshikowie strzelali z ko\u0144skiego grzbietu ze \u015bmierteln\u0105 precyzj\u0105, rozbijaj\u0105c zar\u00f3wno szyki, jak i morale wrogich armii. Na tak zmi\u0119kczonego przeciwnika spada\u0142a ci\u0119\u017cka kawaleria, kt\u00f3ra ko\u0144czy\u0142a bitw\u0119. W walce z ci\u0119\u017ckozbrojn\u0105 kawaleri\u0105 europejsk\u0105 Mongo\u0142owie strzelali w bardziej ods\u0142oni\u0119te wierzchowce, ignoruj\u0105c lub dobijaj\u0105c pozbawionych koni rycerzy \u2015 zale\u017cnie od sytuacji.",
+    "strategy": "Keshikowie zast\u0119puj\u0105 standardowych rycerzy \u2013 jest to opcja dost\u0119pna dla Mongo\u0142\u00f3w w epoce \u015bredniowiecza. Dysponuj\u0105 oni pot\u0119\u017cnym atakiem z dystansu i poruszaj\u0105 si\u0119 szybciej (5 punkt\u00f3w ruchu na tur\u0119), co pozwala im na wyj\u0105tkowo efektywne korzystanie z taktyki ataku i ucieczki. Jakby tego by\u0142o ma\u0142o, Keshikowie awansuj\u0105 dwa razy szybciej i zapewniaj\u0105 dwa razy wi\u0119cej punkt\u00f3w potrzebnych do pojawienia si\u0119 wielkiego genera\u0142a. Ci je\u017ad\u017acy mog\u0105 samodzielnie zapewni\u0107 chanowi kontrol\u0119 na r\u00f3wninach.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Wielcy genera\u0142owie I|Wielkich genera\u0142\u00f3w I|Wielkim genera\u0142om I|Wielkich genera\u0142\u00f3w I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Szybka nauka|Szybkiej nauki|Szybkiej nauce|Szybk\u0105 nauk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/quick_study.json"
+        }
+    ]
+}

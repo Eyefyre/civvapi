@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Enclave hist\u00f3rico",
+    "game_info": "Cuando se mejora con una Excavaci\u00f3n arqueol\u00f3gica, un Enclave hist\u00f3rico puede producir un artefacto que puede ponerse en un espacio de Gran obra de arte o convertirse en una mejora de Sitio de inter\u00e9s.",
+    "historical_info": "Francis Bacon escribi\u00f3 en 1605 que \"las antig\u00fcedades son la historia desfigurada o algunos restos de ella que han sobrevivido por casualidad al naufragio del tiempo\". Por definici\u00f3n, las antig\u00fcedades son objetos del pasado, que van desde sencillas puntas de flecha a tesoros art\u00edsticos. La idea de que una civilizaci\u00f3n perdida podr\u00eda recuperarse mediante un estudio sistem\u00e1tico de sus reliquias ha llevado a muchas generaciones de coleccionistas aficionados y eruditos eminentes a buscarlas, desenterrarlas y conservarlas en casas, universidades y museos. Esta pasi\u00f3n por coleccionar los restos del pasado humano acab\u00f3 dando lugar a una nueva disciplina de estudio: el campo de la arqueolog\u00eda.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/enclave_hist\u00f3rico.png",
+    "prereq_tech": {
+        "name": "Arqueolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Excavaci\u00f3n arqueol\u00f3gica|Excavaciones arqueol\u00f3gicas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/archaeological_dig.json"
+        }
+    ],
+    "terrains_found_on": []
+}

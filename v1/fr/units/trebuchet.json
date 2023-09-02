@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Tr\u00e9buchet|Tr\u00e9buchets",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "Puissante unit\u00e9 de si\u00e8ge m\u00e9di\u00e9vale, id\u00e9ale pour r\u00e9duire les d\u00e9fenses des villes ennemies. Doit \u00eatre install\u00e9e avant d'attaquer.",
+    "historical_info": "Le tr\u00e9buchet \u00e9tait une arme de si\u00e8ge m\u00e9di\u00e9vale tr\u00e8s puissante. Sa premi\u00e8re utilisation en Europe date du XIIe si\u00e8cle. Cette arme \u00e9tait capable de lancer un projectile de pr\u00e8s de 130 kg dans ou par-dessus un rempart ennemi \u00e0 tr\u00e8s grande distance. La version m\u00e9di\u00e9vale europ\u00e9enne du tr\u00e9buchet fonctionnait avec un syst\u00e8me de contrepoids. Elle consistait en un tr\u00e8s long bras en bois muni d'une fronde d'un c\u00f4t\u00e9 et d'un poids lourd de l'autre, le tout mont\u00e9 sur un lourd cadre de bois. Le bras \u00e9tait baiss\u00e9 \u00e0 l'aide d'un treuil, ce qui relevait le poids de l'autre c\u00f4t\u00e9, et un projectile \u00e9tait plac\u00e9 dans la fronde. Lorsqu'il \u00e9tait rel\u00e2ch\u00e9, le poids redescendait et le bras s'\u00e9lan\u00e7ait en projetant le boulet en l'air \u00e0 tr\u00e8s longue distance. Ces machines de guerre n'\u00e9taient g\u00e9n\u00e9ralement pas tr\u00e8s mobiles et un long processus d'assemblage \u00e9tait n\u00e9cessaire, ce qui limitait leur utilisation \u00e0 des si\u00e8ges prolong\u00e9s.",
+    "strategy": "Le tr\u00e9buchet est une arme de si\u00e8ge m\u00e9di\u00e9vale bien plus puissante que ne l'\u00e9taient les anciennes catapultes. Son installation n\u00e9cessite 1\u00a0PM, mais une fois en position, il provoque des d\u00e9g\u00e2ts consid\u00e9rables aux cit\u00e9s ennemies fortifi\u00e9es. D\u00e9fendez vos tr\u00e9buchets avec des unit\u00e9s de combat rapproch\u00e9 et de combat \u00e0 distance afin d'emp\u00eacher l'ennemi de s'en approcher.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Physique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contre les villes (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Installation n\u00e9cessaire avant attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        }
+    ]
+}

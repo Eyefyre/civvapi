@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "M\u00e9tallurgie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "La m\u00e9tallurgie est la science des m\u00e9taux et des alliages m\u00e9talliques. Dans Civilization V, la technologie \"M\u00e9tallurgie\" couvre les d\u00e9couvertes de ce domaine \u00e0 partir du XIXe si\u00e8cle. Au XIXe et au XXe si\u00e8cles, de grandes avanc\u00e9es ont \u00e9t\u00e9 effectu\u00e9es dans tous les aspects de la discipline : de l'extraction \u00e0 la cr\u00e9ation de nouveaux alliages, en passant par la production de m\u00e9taux \u00e0 la fois bon march\u00e9 et de tr\u00e8s grande qualit\u00e9.Le m\u00e9tal reste aujourd'hui encore au c\u0153ur de la civilisation moderne. Presque tout, \u00e0 la surface du globe, est fait d'acier, et ce qui ne l'est pas est en aluminium ou en titane. Nos r\u00e9seaux de communication sont constitu\u00e9s de m\u00e9tal, tout comme nos v\u00e9hicules, nos armes, nos satellites et nos vaisseaux spatiaux. Sans la m\u00e9tallurgie moderne, 90% de la population terrestre mourraient probablement de faim en moins d'un an.",
+    "quote": "\"Jamais il n'y a eu de bon couteau n\u00e9 d'un mauvais acier.\" - Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "Poudre \u00e0 canon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+        },
+        {
+            "name": "Imprimerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Science militaire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/military_science.json"
+        },
+        {
+            "name": "Fusil",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lancier|Lanciers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/lancer.json"
+        },
+        {
+            "name": "Spahi|Spahis",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/sipahi.json"
+        },
+        {
+            "name": "Hakkap\u00e9lite|Hakkap\u00e9lites",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/hakkapeliitta.json"
+        },
+        {
+            "name": "Hussard ail\u00e9|Hussards ail\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Arsenal|Arsenaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/arsenal.json"
+        },
+        {
+            "name": "Fort rouge",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/red_fort.json"
+        }
+    ]
+}

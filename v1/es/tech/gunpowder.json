@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "P\u00f3lvora",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Renacimiento",
+    "cost": 780,
+    "civilopedia_entry": "La p\u00f3lvora (o \"p\u00f3lvora negra\") se invent\u00f3 en China posiblemente en el siglo IX d. C. Los art\u00edfices fueron los alquimistas que buscaban un elixir de la inmortalidad (cosa que no era). Es una mezcla de azufre, carb\u00f3n vegetal y nitrato de potasio, arde r\u00e1pidamente cuando se expone a una llama y produce una gran cantidad de gases y s\u00f3lidos que puede usarse como gas propelente de las armas de fuego y de los fuegos artificiales. Los chinos usaron la p\u00f3lvora en bombas y cohetes primitivos que lanzaban contra los invasores mongoles y, cuando \u00e9stos conquistaron China, las usaron contra todos los dem\u00e1s.Durante la primera mitad del siglo XII d. C., el mundo \u00e1rabe aprendi\u00f3 a fabricar p\u00f3lvora. Algunos textos hist\u00f3ricos aseveran que fueron los mamelucos los que usaron el primer ca\u00f1\u00f3n de la historia; fue contra los mongoles durante la batalla de Ain Jalut en 1260 d. C., aunque a\u00fan no hay consenso. El primer \"ca\u00f1\u00f3n de mano\" aparece en un manuscrito \u00e1rabe del siglo XIV.Europa tambi\u00e9n aprendi\u00f3 a fabricarla a mediados del siglo XII. Mejoraron la calidad de la p\u00f3lvora \"granul\u00e1ndola\", es decir, a\u00f1adi\u00e9ndole un l\u00edquido para crear granos m\u00e1s grandes, lo que aumentaba la estabilidad del explosivo.La p\u00f3lvora sigui\u00f3 siendo el explosivo predilecto para ca\u00f1ones y armas de fuego hasta la aparici\u00f3n de la p\u00f3lvora \"sin humo\", en el siglo XIX. El nuevo producto quemaba m\u00e1s limpiamente y produc\u00eda mucho menos humo, resultando superior a la antigua p\u00f3lvora negra.",
+    "quote": "\"El d\u00eda en que dos ej\u00e9rcitos puedan aniquilarse en un segundo, es de esperar que todas las naciones civilizadas renuncien a la guerra y disuelvan sus tropas.\" - Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "F\u00edsica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/physics.json"
+        },
+        {
+            "name": "Acero",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Qu\u00edmica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chemistry.json"
+        },
+        {
+            "name": "Metalurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mosquete|Mosquetes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/musketman.json"
+        },
+        {
+            "name": "Miliciano|Milicianos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/minuteman.json"
+        },
+        {
+            "name": "Mosquetero|Mosqueteros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/musketeer.json"
+        },
+        {
+            "name": "Jen\u00edzaro|Jen\u00edzaros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/janissary.json"
+        },
+        {
+            "name": "Tercio|Tercios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Castillo Himeji|Castillos Himeji",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/himeji_castle.json"
+        }
+    ]
+}

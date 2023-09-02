@@ -1,0 +1,23 @@
+{
+    "id": 120,
+    "name": "Karabiny Gatlinga|Karabin\u00f3w Gatlinga|Karabinom Gatlinga|Karabiny Gatlinga|Karabinami Gatlinga|Karabinach Gatlinga",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/gatling_gun.png",
+    "game_info": "Jednostka dystansowa, kt\u00f3ra mo\u017ce atakowa\u0107 tylko s\u0105siednie oddzia\u0142y.",
+    "historical_info": "Karabin Gatlinga, przodek karabinu maszynowego, zosta\u0142 wynaleziony w 1861 r. przez ameryka\u0144skiego doktora Richarda Gatlinga, kt\u00f3ry pragn\u0105\u0142 w ten spos\u00f3b zmniejszy\u0107 liczebno\u015b\u0107 armii i wykaza\u0107, jak bezcelowa jest wojna. Dzia\u0142ko Gatlinga opiera\u0142o si\u0119 na projekcie kilku obracaj\u0105cych si\u0119 luf - mechanizm obs\u0142ugiwany by\u0142 korb\u0105. W czasie obrotu lufy wyrzucana by\u0142a zu\u017cyta \u0142uska, \u0142adowany nowy nab\u00f3j, za\u015b lufa si\u0119 ch\u0142odzi\u0142a. W ten spos\u00f3b mo\u017cna by\u0142o zachowa\u0107 wysok\u0105 szybkostrzelno\u015b\u0107 bez przegrzewania si\u0119 broni. Swoj\u0105 nisk\u0105 celno\u015b\u0107 karabin Gatlinga nadrabia\u0142 si\u0142\u0105 ataku.Cho\u0107 nie znajdowa\u0142 si\u0119 oficjalnie na stanie armii ameryka\u0144skiej a\u017c do 1966 r., pierwszy raz zosta\u0142 u\u017cyty w walce podczas wojny secesyjnej przez si\u0142y Unii. Nast\u0119pnym konfliktem z jego udzia\u0142em by\u0142a wojna o Pacyfik mi\u0119dzy Peru a Chile, kiedy to si\u0142y europejskie przekona\u0142y si\u0119 o jego u\u017cyteczno\u015bci. W przeci\u0105gu dekady znalaz\u0142 si\u0119 na wyposa\u017ceniu niemal wszystkich wielkich pot\u0119g. Najefektywniej wykorzystano go przy poszerzaniu imperi\u00f3w kolonialnych przeciw ludom takim jak Ndebele, Zulusi, Beduini, Turkmeni, Bokserzy i inni rodowici mieszka\u0144cy podbijanych ziem. W pierwszej dekadzie XX w. projekty nap\u0119dzanych gazem karabin\u00f3w maszynowych uczyni\u0142y dzia\u0142ko przestarza\u0142ym - armia USA wycofa\u0142a z u\u017cycia wszystkie jego egzemplarze w 1911 r., a jej \u015bladem pod\u0105\u017cy\u0142y wkr\u00f3tce armie europejskie.",
+    "strategy": "Karabin Gatlinga to do\u015b\u0107 zaawansowana jednostka strzelecka, znacznie silniejsza od wcze\u015bniejszych oddzia\u0142\u00f3w tego typu. Jej zasi\u0119g wynosi tylko jeden heks, ale i to czasem wystarcza do rozbicia przeciwnika bez zagro\u017cenia z jego strony. Takie karabiny \u015bwietnie nadaj\u0105 si\u0119 do obrony miast.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Industrializacja|Industrializacji|Industrializacji|Industrializacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/industrialization.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": 25,
+    "name": "Scavo archeologico|uno Scavo archeologico|uno Scavo archeologico",
+    "game_info": "Uno Scavo Archeologico pu\u00f2 essere costruito solo da un Archeologo su una risorsa Sito Archeologico. Gli scavi dell'antica citt\u00e0 di Troia sono un esempio famoso di scavo archeologico. Al momento della costruzione dello Scavo, l'Archeologo scoprir\u00e0 il tipo di Manufatto sepolto nel sito. Puoi ordinare al tuo Archeologo di creare un Punto di riferimento permanente nella casella o estrarre il Manufatto e posizionarlo in uno slot Capolavoro Artistico in un edificio del tuo impero.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/scavo_archeologico|uno_scavo_archeologico|uno_scavo_archeologico.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Sito Archeologico Nascosto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/hidden_antiquity_site.json"
+        },
+        {
+            "name": "Sito archeologico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/antiquity_site.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Archeologia|dell'Archeologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archaeology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

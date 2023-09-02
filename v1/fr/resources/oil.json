@@ -1,0 +1,76 @@
+{
+    "id": 4,
+    "name": "P\u00e9trole",
+    "game_info": "Utilis\u00e9 par les unit\u00e9s puissantes de fin de partie.",
+    "historical_info": "Le p\u00e9trole est une source d'\u00e9nergie liquide que l'on trouve sous forme de gisements de tailles diverses un peu partout sur la plan\u00e8te. Bien que l'on retrouve des traces de son utilisation chez certaines civilisations datant de 4\u00a0000\u00a0ans environ, aussi bien pour cr\u00e9er de l'asphalte que du naphte, ou comme source de lumi\u00e8re lorsqu'il est enflamm\u00e9, son usage actuel remonte \u00e0 1857, lorsque la toute premi\u00e8re raffinerie moderne fut construite \u00e0 Pechelbronn, en Alsace. A la m\u00eame \u00e9poque, on creusait des puits un peu partout en Europe et en Am\u00e9rique du Nord. Au d\u00e9but du XXe si\u00e8cle, le p\u00e9trole \u00e9tait une ressource tr\u00e8s demand\u00e9e, en particulier parce qu'il servait \u00e0 alimenter les moteurs \u00e0 combustion interne utilis\u00e9s par les navires, les avions et les automobiles. Aujourd'hui, il r\u00e9git la politique internationale, puisque l'on rel\u00e8ve perp\u00e9tuellement des tensions entre les pays qui en poss\u00e8dent, et ceux qui en sont d\u00e9pourvus. Gardez toujours \u00e0 l'esprit que le p\u00e9trole est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/p\u00e9trole.png",
+    "prereq_tech": {
+        "name": "Biologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/biology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Puits de p\u00e9trole|Puits de p\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/oil_well.json"
+        },
+        {
+            "name": "Plateforme offshore|Plateformes offshore",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/offshore_platform.json"
+        },
+        {
+            "name": "Bureau de douane|Bureaux de douane",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+        },
+        {
+            "name": "Acad\u00e9mie|Acad\u00e9mies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+        },
+        {
+            "name": "Citadelle|Citadelles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+        },
+        {
+            "name": "Manufacture|Manufactures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+        },
+        {
+            "name": "Lieu saint|Lieux saints",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+        },
+        {
+            "name": "Marais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+        },
+        {
+            "name": "C\u00f4te",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/c\u00f4te.json"
+        }
+    ]
+}

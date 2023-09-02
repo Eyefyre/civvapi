@@ -1,0 +1,27 @@
+{
+    "id": 14,
+    "name": "Ironclad",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ironclad.png",
+    "game_info": "A very powerful naval melee unit, the Ironclad pays for its strength by being slower in ocean tiles.",
+    "historical_info": "Although visionaries had been dreaming of machine-powered armored vessels as far back as Leonardo da Vinci, ironclads first saw widespread use in the American Civil War in the mid 19th century. The first true ironclad battle was in the American Civil War in 1862, between the Union's Monitor and the Confederacy's Virginia (also known as the \"Merrimac\"). The battle raged on for four hours, with both vessels' cannon hammering away at each other to little effect, and the fight pretty much ended in a draw. However, the effect of the battle on the world was profound. In a single morning of inconclusive fighting these ponderous and clumsy vessels - able to move against the wind and mostly impervious to the cannon of the day - made every nation's navy obsolete.",
+    "strategy": "Ironclads are the first steam-powered warships available. Fighting as a naval melee unit, they are harder to kill than any sailing vessel, and their Combat strength is higher. Use them primarily for in-shore defense and to assault cities.",
+    "movement": 3,
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Steam Power",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Double movement in Coast",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/double_movement_in_coast.json"
+        },
+        {
+            "name": "Bonus vs Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(33).json"
+        }
+    ]
+}

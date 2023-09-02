@@ -1,0 +1,35 @@
+{
+    "id": 108,
+    "name": "Sea Beggar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sea_beggar.png",
+    "game_info": "Naval Unit that specializes in attacking coastal cities to earn gold and capturing enemy ships. Only the Dutch can build it.",
+    "historical_info": "The Sea Beggars, or Watergeuzen, were a collective of privateers opposed to the Spanish control of the Netherlands, active during the Eighty Years' War. The name originates with a group of Dutch nobles, who marched to the Duchess of Parma's palace with a list of grievances and requests. Councillors of the Duchess referred to the mass as \"beggars\", and the name stuck.In 1569, the Beggars were given official letters of operation from William of Orange, and a total of 84 ships were equipped for action. These Sea Beggars at first limited themselves to basic looting and plundering, but in a time of desperation took a Spanish town and garrison by force. Inspired by their victory, they began a more offensive campaign, capturing other cities along the coast. The success of the Sea Beggars was a rally cry to the rest of the Netherlands, and the entire nation began to revolt. The Sea Beggars' capturing of the Spanish garrison at Brielle is now seen as the beginning of the war for Dutch independence.",
+    "strategy": "Naval Unit used to specializes in attacking coastal cities to earn gold and capturing enemy ships. Only the Dutch may build it. Heals outside friendly territory. Starts with the first two Coastal Raider promotions allowing it to earn gold from attacking coastal cities. May capture any enemy naval units it defeats as prize ships.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Coastal Raider I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Coastal Raider II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/coastal_raider_ii.json"
+        },
+        {
+            "name": "Prize Ships",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/prize_ships.json"
+        },
+        {
+            "name": "Supply",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/supply.json"
+        }
+    ]
+}

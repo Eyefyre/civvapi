@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lancier|Lanciers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Unit\u00e9 mont\u00e9e sp\u00e9cialis\u00e9e dans la destruction d'autres unit\u00e9s mont\u00e9es.",
+    "historical_info": "Les lanciers \u00e9taient les cavaliers de la Renaissance. A cette \u00e9poque, les lanciers abandonn\u00e8rent les lourdes carapaces de plates des chevaliers qui les avaient pr\u00e9c\u00e9d\u00e9s, n'en conservant que le plastron m\u00e9tallique. En effet, suite \u00e0 l'utilisation grandissante des canons et autres pi\u00e8ces d'arsenal rapides et pratiques bas\u00e9es sur la poudre, les anciennes armures devenaient de plus en plus inutiles. Cependant, m\u00eame si l'armement s'\u00e9tait, \u00e0 l'\u00e9poque, consid\u00e9rablement am\u00e9lior\u00e9, les lances demeuraient des armes redoutables dans les mains de cavaliers entra\u00een\u00e9s. Jusqu'aux guerres napol\u00e9oniennes, les Fran\u00e7ais rest\u00e8rent convaincus que la lance constituait une meilleure arme de cavalerie que l'\u00e9p\u00e9e. Au XIXe si\u00e8cle, les deux furent bien entendu supplant\u00e9es par la carabine.",
+    "strategy": "Le lancier est une unit\u00e9 mont\u00e9e de la Renaissance qui se situe entre le chevalier et la cavalerie. Il est plus rapide et plus puissant que le chevalier et peut balayer cette unit\u00e9 autrefois redout\u00e9e de la carte. Le lancier peut m\u00eame affronter les puissantes unit\u00e9s de cavalerie lorsqu'elles deviennent disponibles.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "M\u00e9tallurgie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "P\u00e9nalit\u00e9 (attaque de villes)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/formation_i.json"
+        }
+    ]
+}

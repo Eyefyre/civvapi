@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "Arciere con arco composito|un Arciere con arco composito|dal tuo Arciere con arco composito|al tuo Arciere con arco composito|il tuo Arciere con arco composito|da un Arciere con arco composito",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Unit\u00e0 di fanteria di epoca classica che attacca a distanza.",
+    "historical_info": "Considerata unanimemente la pi\u00f9 sofisticata di tutte, la tecnica di costruzione dell'arco composito differisce da quella tradizionale perch\u00e9 utilizza pi\u00f9 strati di materiali diversi come osso, corno e altro, incollati insieme per dare origine a un'arma estremamente potente. Si ritiene che l'arco composito abbia avuto origine fra le trib\u00f9 nomadi dell'Asia nel primo o secondo millennio a.C.",
+    "strategy": "L'Arciere con arco composito \u00e8 una versione pi\u00f9 potente dell'Arciere. Il suo attacco a distanza pu\u00f2 infliggere gravi danni a qualsiasi unit\u00e0 nemica fino a una distanza di due caselle, ma \u00e8 vulnerabile agli attacchi ravvicinati. Un'ottima unit\u00e0 da tenere in citt\u00e0 per la difesa, va protetta con altre unit\u00e0 da mischia quando si trova in movimento.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Costruzione|della Costruzione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

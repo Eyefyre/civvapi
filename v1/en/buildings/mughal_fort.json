@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Mughal Fort",
+    "game_info": "Provides +2 Tourism after Flight is researched.City must have Walls.",
+    "strategy": "The Mughal Fort is a Medieval-era building that increases the city's Defense Strength by 7, Hit Points by 25, and provides some Culture every turn. It is the Indian unique building, replacing the Castle. After Flight is learned, it provides +2 Tourism as well. Building Walls is a prerequisite for building the Mughal Fort.",
+    "historical_info": "The Mughals were an Islamic empire that invaded India in the 15th century, and ruled most of the subcontinent until the mid-19th. During their rule they constructed elaborate forts across the countryside which served as administrative centers and living quarters for the occupiers. These forts were beautiful structures, fitting palaces for the rulers of a vast empire. Several - including the magnificent \"Lahore Fort\" and Red Fort of Agra - survive today and remain as some of the largest tourist attractions to India, monuments to the Mughals' power and style.",
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mughal_fort.png",
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 2,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

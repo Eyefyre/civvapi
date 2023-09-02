@@ -1,0 +1,37 @@
+{
+    "id": 31,
+    "name": "Stal|Stali|Stali|Stal",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steel.png",
+    "era": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+    "cost": 485,
+    "civilopedia_entry": "Stal to stop (mieszanina) \u017celaza i w\u0119gla. W zale\u017cno\u015bci od stosunku ilo\u015bci \u017celaza do w\u0119gla, otrzymany materia\u0142 mo\u017ce by\u0107 mocniejszy, elastyczniejszy i lepiej opiera\u0107 si\u0119 korozji. Obr\u00f3bk\u0119 \u017celaza rozpocz\u0119to w 2000 r. p.n.e. i od samego pocz\u0105tku wytwarzano te\u017c niewielkie ilo\u015bci stali. Og\u00f3lnie rzecz bior\u0105c \u017celazo produkuje si\u0119 w dw\u00f3ch postaciach: odlewanej i kutej. Ta ostatnia jest elastyczniejsza, a pierwsza twardsza i bardziej krucha, ale ta\u0144sza.W roku 1751 Angielski wynalazca Benjamin Huntsman za\u0142o\u017cy\u0142 hut\u0119 \u017celaza w Sheffield, w Anglii. Jego fabryka wytwarza\u0142a stal w tyglach i metoda ta szybko rozprzestrzeni\u0142a si\u0119 w Europie i Stanach Zjednoczonych, a p\u00f3\u017aniej w Azji i reszcie \u015bwiata. Kolejny prze\u0142om nast\u0105pi\u0142 w roku 1855 w USA, kiedy to ameryka\u0144ski wynalazca Henry Bessemer opracowa\u0142 tak zwany \u201eproces Bessemera\u201d. Po drobnych modyfikacjach umo\u017cliwi\u0142 on olbrzymi wzrost \u015bwiatowej produkcji stali. Na pocz\u0105tku XX wieku na ca\u0142ym \u015bwiecie produkowano oko\u0142o 50 milion\u00f3w ton stali rocznie.",
+    "quote": "\u201eJohn Henry powiedzia\u0142 do kapitana:\u00bbCz\u0142owiek jest tylko cz\u0142owiekiem,i zanim pozwol\u0119, by pokona\u0142 mnie tw\u00f3j \u015bwider parowy,umr\u0119 z m\u0142otkiem w r\u0119ku\u00ab.\u201d \u2013 Anonim, Ballada o Johnie Henrym, Cz\u0142owieku ze Stali",
+    "tech_prereqs": [
+        {
+            "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ci\u0119\u017ckozbrojni|Ci\u0119\u017ckozbrojnych|Ci\u0119\u017ckozbrojnym|Ci\u0119\u017ckozbrojnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/longswordsman.json"
+        },
+        {
+            "name": "Samurajowie|Samuraj\u00f3w|Samurojom|Samuraj\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/samurai.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Zbrojownia|Zbrojowni|Zbrojowni|Zbrojowni\u0119|Zbrojownie|Zbrojowni|Zbrojowniom|Zbrojownie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/armory.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Pentera|Pentery|Penterze|Penter\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Silna jednostka morska staro\u017cytno\u015bci. U\u017cywana, aby podbija\u0107 morza za pomoc\u0105 atak\u00f3w z bliska na inne jednostki morskie oraz miasta. Jedynie Kartagi\u0144czycy mog\u0105 j\u0105 zbudowa\u0107.",
+    "historical_info": "Kartagi\u0144czycy i Rzymianie pos\u0142ugiwali si\u0119 wieloma typami okr\u0119t\u00f3w, ci\u0119\u017cko uzbrojone pentery by\u0142y jednymi z najpopularniejszych. Jednostki te wzi\u0119\u0142y sw\u0105 nazw\u0119 od pi\u0119ciu wio\u015blarzy obs\u0142uguj\u0105cych ka\u017cde z pionowo ustawionych wiose\u0142 pogrupowanych w kolumny biegn\u0105ce wzd\u0142u\u017c burt statku. Cho\u0107 nieznane s\u0105 dok\u0142adne liczby, przyjmuje si\u0119, \u017ce te ci\u0119\u017ckie okr\u0119ty przewozi\u0142y kilkaset os\u00f3b za\u0142ogi i \u017co\u0142nierzy. Pentemy Kartaginy s\u0142yn\u0119\u0142y z najlepszej konstrukcji, podobno by\u0142y dzie\u0142em szkutnik\u00f3w z Afryki P\u00f3\u0142nocnej, p\u00f3\u017aniej ich dzie\u0142o skopiowali Rzymianie.",
+    "strategy": "Jedynie Kartagi\u0144czycy mog\u0105 tworzy\u0107 takie jednostki. Jest to silniejsza wersja triremy, tak\u017ce pod wzgl\u0119dem si\u0142y bojowej. Tak samo jak trirema, jest to jednostka atakuj\u0105ca z bliska inne morskie jednostki lub miasta (nie posiada ataku dystansowego). Pentera nie mo\u017ce wp\u0142ywa\u0107 na pola g\u0142\u0119bokiego oceanu poza granicami miasta.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

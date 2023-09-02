@@ -1,0 +1,29 @@
+{
+    "id": 8,
+    "name": "Bestiame",
+    "game_info": null,
+    "historical_info": "Tra i primi animali nella storia a essere addomesticati, mucche, buoi e altri bovini sono una preziosa fonte di carne, prodotti caseari e forza muscolare. A ci\u00f2 vanno aggiunti il cuoio prodotto dalla loro pelle e il combustibile che si ricava dal loro letame. Molte civilt\u00e0 di tipo tribale giudicano la ricchezza di una persona dal numero di capi di bestiame posseduti.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bestiame.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pascolo|un Pascolo|un Pascolo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/pasture.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        }
+    ]
+}

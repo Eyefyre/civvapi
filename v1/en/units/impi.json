@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Impi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Specialized in defeating Knights and other mounted units. Only the Zulu may build it. Also performs a first-strike ranged attack before combat.",
+    "historical_info": "\"Impi\" is the Zulu word for an armed body of men, although in common usage during the 1800s it referred to one of the Zulu empire's regiments. While impi had long been a feature of Zulu culture, their great chieftain Shaka instituted broad innovations upon his ascension to the throne in 1816 AD. In addition to their traditional club and throwing spear, Shaka armed his troops with the assegai, a short-shaft stabbing spear with a broad, foot-long blade. He introduced a larger, heavier cowhide shield (isihlangu) and trained his forces to quickly close with the enemy for devastating hand-to-hand combat. Strategically, the impi relied on speed and surprise to suddenly outnumber and overwhelm their enemy. Using such methods the Zulu won impressive victories, even against rifle-armed Europeans, although their own casualties were high.",
+    "strategy": "Before engaging in melee, the Impi performs a spear throw attack that can damage or kill the enemy unit before making contact. Only the Zulu may build it.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Civil Service",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Spear Throw",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/spear_throw.json"
+        }
+    ]
+}

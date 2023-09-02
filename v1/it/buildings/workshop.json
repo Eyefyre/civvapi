@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bottega|la Bottega|una Bottega",
+    "game_info": "Permette di usare le Rotte commerciali per distribuire Produzione da questa citt\u00e0 all'interno della tua civilt\u00e0.",
+    "strategy": "La Bottega aumenta la Produzione in una citt\u00e0.",
+    "historical_info": "Una bottega \u00e8 un edificio destinato alla costruzione di manufatti. Ogni bottega contiene le materie prime, gli attrezzi e i lavoratori specializzati necessari per costruire determinati oggetti. Una bottega di terracotta produrr\u00e0 stoviglie e ceramiche, mentre una di falegnameria costruir\u00e0 porte, mobili, pavimenti e qualsiasi altra cosa fatta di legno. Nell'Italia del Rinascimento molti artisti lavoravano nelle botteghe, per cui un pittore famoso poteva firmare un dipinto che in realt\u00e0 era stato realizzato da allievi e studenti che avevano imparato a imitarne con cura lo stile. Questa pratica provoca anche oggi non pochi problemi di attribuzione a collezionisti e storici dell'arte.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bottega|la_bottega|una_bottega.png",
+    "prereq_tech": {
+        "name": "Fusione del metallo|della Fusione del metallo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

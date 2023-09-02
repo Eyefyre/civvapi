@@ -1,0 +1,23 @@
+{
+    "id": 120,
+    "name": "Gatling-Kanone",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/gatling_gun.png",
+    "game_info": "Fernkampf-Infanterieeinheit, die direkt neben einem Gegner stehen muss, um anzugreifen.",
+    "historical_info": "Die Gatling-Kanone, der Vorl\u00e4ufer des Maschinengewehrs, wurde 1861 n. Chr. vom Amerikaner Dr. Richard Gatling erfunden, in der Hoffnung, die Gr\u00f6\u00dfe von Armeen reduzieren zu k\u00f6nnen und zu zeigen, wie sinnlos Krieg ist. Zu einer Gatling-Kanone geh\u00f6rte eine Rolle mit mehreren sich drehenden L\u00e4ufen, die mit einer Handkurbel gedreht wurde. Beim Drehen des Laufs wurde die verbrauchte H\u00fclse ausgeworfen, eine neue Patrone geladen und die M\u00fcndung des Laufs gek\u00fchlt. Auf diese Art und Weise konnte man eine hohe Schussrate ohne \u00dcberhitzung erreichen. Was der Gatling-Kanone an Pr\u00e4zision fehlte, machte sie durch ihre T\u00f6dlichkeit wieder wett.Sie wurde zwar erst 1866 offiziell von der Armee der Vereinigten Staaten eingesetzt, ihr erster Einsatz in der Schlacht fand aber w\u00e4hrend des amerikanischen B\u00fcrgerkriegs auf Seiten der Union statt. Dann wurde sie im Pazifikkrieg zwischen Peru und Chile (1879-1883) verwendet, was die europ\u00e4ischen Armeen von ihrer Tauglichkeit gegen Gegnermassen \u00fcberzeugte. Innerhalb eines Jahrzehnts wurde die Gatling-Kanone von den meisten wichtigen M\u00e4chten \u00fcbernommen. Sie wurde \u00e4u\u00dferst effektiv gegen die Ndebele, Zulu, Beduinen, Turkmenen, Boxer und andere Eingeborenenv\u00f6lker eingesetzt, um die Kolonialreiche auszudehnen. In der ersten Dekade des 20. Jahrhunderts machten Entw\u00fcrfe von gasbetriebenen \"Maschinen\"-Gewehren die Waffe \u00fcberfl\u00fcssig. Die U.S. Armee nahm alle Modelle der Gatling-Kanone bis 1911 au\u00dfer Dienst, die europ\u00e4ischen Armeen folgten schon bald nach.",
+    "strategy": "Die Gatling-Kanone ist eine Fernkampf-Einheit im mittleren Spiel zur Abwehr von Belagerungen. Sie ist viel wirkungsvoller als fr\u00fchere Fernkampf-Einheiten wie der Armbrustsch\u00fctze. Die Reichweite betr\u00e4gt nur ein Feld, aber sie kann dennoch bei anderen Einheiten betr\u00e4chtlichen Schaden anrichten, ohne selbst besch\u00e4digt zu werden. Platziert Gatling-Kanonen in der Stadt zur Verteidigung.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Industrialisierung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

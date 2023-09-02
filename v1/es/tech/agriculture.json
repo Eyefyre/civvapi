@@ -1,0 +1,63 @@
+{
+    "id": 1,
+    "name": "Agricultura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/agriculture.png",
+    "era": "Antig\u00fcedad",
+    "cost": 20,
+    "civilopedia_entry": "La agricultura es el cultivo de plantas, principalmente para obtener alimentos, pero tambi\u00e9n para conseguir ropa, refugio, medicinas, diversiones y otros usos diversos. Las t\u00e9cnicas de cultivo probablemente se desarrollaron de manera independiente en numerosos lugares. La primera evidencia de agricultura encontrada hasta el momento se remonta a finales de la Edad de Hielo, hace 10.000 a\u00f1os, aproximadamente. Lo m\u00e1s interesante es que, al parecer, no se la inventaron cazadores-recolectores hambrientos que buscaban desesperadamente nuevos medios de procurarse el sustento, sino que los indicios sugieren que los primeros agricultores eran cazadores-recolectores acomodados que probablemente ya ten\u00edan a mano gran cantidad de alimentos. Tiene sentido: los pueblos con excedentes de alimentos pueden permitirse el lujo de experimentar con nuevas tecnolog\u00edas, mientras que los que pasan hambre van a dedicar todas sus energ\u00edas a los m\u00e9todos contrastados y fiables de procurarse el sustento.En sus albores, la agricultura era un proceso lento y c\u00edclico. Se sembraba en primavera, se cuidaban los campos y se regaban hasta que las cosechas estuvieran listas para recogerse, varios meses m\u00e1s tarde. Como hay pocos lugares que tengan un clima apropiado para dar productos agr\u00edcolas durante todo el a\u00f1o, los agricultores ten\u00edan que guardar los alimentos para los flacos meses de invierno o intercambiarlos con aquellos que ten\u00edan comida todo el a\u00f1o gracias a la caza, la pesca, etc. Los agricultores siempre han estado a merced de la naturaleza y el tiempo: si un a\u00f1o no llov\u00eda o las plagas se com\u00edan la cosecha, una familia pod\u00eda morirse de hambre.La agricultura moderna (o \"agroindustria\") es una ciencia compleja y detallista que incluye manipulaci\u00f3n gen\u00e9tica, fertilizantes e insecticidas muy avanzados, sistemas de regad\u00edo computerizados y cosechadoras rob\u00f3ticas. Los avances en tecnolog\u00eda han aumentado mucho la producci\u00f3n de alimentos de un acre de tierra, por lo que muchos pa\u00edses, incluyendo Estados Unido, suelen sufrir en ocasiones no de hambre, sino de exceso de alimentos, lo que conlleva la obesidad cr\u00f3nica de sus ciudadanos y unos precios tan bajos que ponen en peligro el medio de vida de los propios agricultores que est\u00e1n cultivando toda la comida.",
+    "quote": "\"Donde aparece la labranza, la siguen las dem\u00e1s artes. Los campesinos son, por tanto, los fundadores de la civilizaci\u00f3n humana.\" - Daniel Webster",
+    "tech_prereqs": [],
+    "tech_unlocks": [
+        {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        },
+        {
+            "name": "Ganader\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tiro con arco",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archery.json"
+        },
+        {
+            "name": "Miner\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mining.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Colono|Colonos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/settler.json"
+        },
+        {
+            "name": "Trabajador|Trabajadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/worker.json"
+        },
+        {
+            "name": "Batidor|Batidores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/scout.json"
+        },
+        {
+            "name": "Guerrero|Guerreros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/warrior.json"
+        },
+        {
+            "name": "Jaguar|Jaguares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/jaguar.json"
+        },
+        {
+            "name": "Guerrero maor\u00ed|Guerreros maor\u00edes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/maori_warrior.json"
+        },
+        {
+            "name": "Lanzadardos|Lanzadardos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/atlatlist.json"
+        },
+        {
+            "name": "Rastreador|Rastreadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/pathfinder.json"
+        }
+    ],
+    "building_unlocks": []
+}

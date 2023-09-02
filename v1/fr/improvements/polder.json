@@ -1,0 +1,37 @@
+{
+    "id": 24,
+    "name": "Polder",
+    "game_info": "Un polder est une \u00e9tendue basse entour\u00e9e de digues dont l'eau a \u00e9t\u00e9 drain\u00e9e. Le plus souvent, le polder est une portion de terre ass\u00e9ch\u00e9e sur un lac ou sur la mer, sur des plaines inondables, ou sur un marais. Avec le temps, les terres ass\u00e9ch\u00e9es s'affaissent, de sorte que le polder se retrouve en-dessous du niveau de l'eau qui l'entoure. Pour cette raison, l'eau filtre \u00e0 l'int\u00e9rieur de la zone et doit \u00eatre \u00e0 son tour pomp\u00e9e ou ass\u00e9ch\u00e9e. Le plus souvent, les digues sont fabriqu\u00e9es \u00e0 l'aide de mat\u00e9riaux \u00e0 disposition et facilement accessibles, comme la terre ou le sable. De nos jours, ces barri\u00e8res peuvent \u00eatre faites ou recouvertes de b\u00e9ton. Le terrain ass\u00e9ch\u00e9 est extr\u00eamement fertile et forme un p\u00e2turage ou une terre cultivable de grande qualit\u00e9. Les premiers polders de terre ass\u00e9ch\u00e9e furent construits au XIe si\u00e8cle, bien que la construction de digues pour retenir l'eau remonte aux Romains. Les N\u00e9erlandais ont depuis longtemps l'habitude d'ass\u00e9cher les marais, et m\u00eame la mer par endroit\u00a0; ils poss\u00e8dent ainsi la moiti\u00e9 des polders d'Europe. Bien qu'on trouve des polders dans d'autres pays du continent, mais aussi en Asie et en Am\u00e9rique du Nord, les Pays-Bas regroupent pr\u00e8s de 3000 polders, qui repr\u00e9sentent 27% du territoire total du pays. La ville d'Amsterdam, par exemple, est en grande partie b\u00e2tie sur un polder. Comme les habitants du pays aiment \u00e0 le dire, \"c'est Dieu qui a cr\u00e9\u00e9 la Terre, mais les N\u00e9erlandais qui ont b\u00e2ti les Pays-Bas\".",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/polder.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Marais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marsh.json"
+        },
+        {
+            "name": "Plaines inondables|Plaine inondable",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/flood_plains.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Guildes",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+    },
+    "required_civ": {
+        "name": "The Netherlands",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/civilizations/the_netherlands.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 3,
+        "faith": 0,
+        "happiness": 0
+    }
+}

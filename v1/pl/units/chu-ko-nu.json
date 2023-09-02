@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Chu-Ko-Nu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "\u015aredniowieczna jednostka piechoty strzelaj\u0105cej. Mog\u0105 j\u0105 stworzy\u0107 wy\u0142\u0105cznie Chi\u0144czycy. Mo\u017ce strzeli\u0107 dwa razy na tur\u0119, w przeciwie\u0144stwie do kusznik\u00f3w, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Chu-Ko-Nu to nazwa eleganckiej samopowtarzalnej kuszy, kt\u00f3r\u0105 wynaleziono w Chinach, w drugim wieku naszej ery. Jej mechanizm strzelecki zbli\u017cony by\u0142 do tego, kt\u00f3ry stosowano w tradycyjnych kuszach europejskich. Podobnie jak w wersji europejskiej, be\u0142t umieszczano w jej g\u00f3rnej cz\u0119\u015bci, tu\u017c przed ci\u0119ciw\u0105. Wyposa\u017cona by\u0142a r\u00f3wnie\u017c w ko\u0142czan z be\u0142tami, a tak\u017ce d\u017awigni\u0119 u\u0142atwiaj\u0105c\u0105 napi\u0119cie ci\u0119ciwy, za\u0142adowanie oraz wystrzelenie be\u0142tu. Czyni\u0142o j\u0105 to bardziej szybkostrzeln\u0105 wzgl\u0119dem kusz europejskich. Chu-Ko-Nu strzela\u0142a jednak l\u017cejszymi be\u0142tami i mia\u0142a mniejszy zasi\u0119g. O ile kusza europejska stanowi\u0142a du\u017ce zagro\u017cenie nawet w otwartym terenie i przeciwko silnie opancerzonym przeciwnikom, o tyle jej chi\u0144ski odpowiednik sprawdza\u0142 si\u0119 lepiej na kr\u00f3tszym dystansie i przeciwko wi\u0119kszej liczbie lekko opancerzonych wrog\u00f3w.",
+    "strategy": "Chu-Ko-Nu to unikatowa jednostka chi\u0144ska zast\u0119puj\u0105ca kusznik\u00f3w. S\u0105 oni od nich troch\u0119 s\u0142absi, ale mog\u0105 atakowa\u0107 dwa razy na tur\u0119, co daje im du\u017c\u0105 si\u0142\u0119 ofensywn\u0105. Jednostka ta jest szczeg\u00f3lnie skuteczna, gdy stacjonuje w obleganym mie\u015bcie.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Podw\u00f3jny atak",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_attack_twice.json"
+        }
+    ]
+}

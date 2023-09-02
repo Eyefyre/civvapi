@@ -1,0 +1,37 @@
+{
+    "id": 24,
+    "name": "Polder",
+    "game_info": "Polder to nisko po\u0142o\u017cony grunt otoczony groblami i osuszony. Og\u00f3lnie rzecz bior\u0105c s\u0105 to tereny odebrane jeziorom, morzu, terenom zalewowym lub bagnom. Z czasem osuszony grunt osiada i po pewnym czasie ca\u0142y polder znajduje si\u0119 poni\u017cej poziomu otaczaj\u0105cej go wody. Sprawia to, \u017ce wdziera si\u0119 tam ona i musi zosta\u0107 wypompowana lub osuszona w inny spos\u00f3b. Groble robi si\u0119 zazwyczaj ze znajduj\u0105cych si\u0119 pod r\u0119k\u0105 materia\u0142\u00f3w, piasku lub ziemi. W dzisiejszych czasach pokrywa si\u0119 je lub odlewa w ca\u0142o\u015bci z betonu. Osuszony grunt jest niezwykle \u017cyzny i stanowi doskona\u0142e pastwisko lub pole uprawne.Pierwsze poldery stworzono w XI wieku naszej ery, cho\u0107 budowanie wa\u0142\u00f3w zatrzymuj\u0105cych wod\u0119 znane by\u0142o ju\u017c za czas\u00f3w rzymskich. D\u0142ug\u0105 histori\u0119 odzyskiwania ziemi spod bagien, a nawet morza, maj\u0105 Holendrzy \u2013 posiadaj\u0105 oni po\u0142ow\u0119 wszystkich polder\u00f3w w Europie. Znajduj\u0105 si\u0119 one te\u017c w innych krajach, r\u00f3wnie\u017c w Azji i Ameryce P\u00f3\u0142nocnej, Holandia jednak ma oko\u0142o 3000 polder\u00f3w, kt\u00f3re stanowi\u0105 27% jej powierzchni. Amsterdam w du\u017cej cz\u0119\u015bci zbudowany jest na polderze. Jak m\u00f3wi holenderskie przys\u0142owie \u2013 \u201eB\u00f3g stworzy\u0142 \u015bwiat, lecz Holendrzy Holandi\u0119\u201d.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/polder.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
+        },
+        {
+            "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Gildie|Gildii|Gildiom|Gildie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/guilds.json"
+    },
+    "required_civ": {
+        "name": "The Netherlands",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/civilizations/the_netherlands.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 3,
+        "faith": 0,
+        "happiness": 0
+    }
+}

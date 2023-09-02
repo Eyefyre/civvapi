@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari|Mehal Sefaris",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Una unidad fuerte de primera l\u00ednea que est\u00e1 especializada en luchar en terreno abrupto y defender cerca de la capital et\u00edope. Solo la pueden crear los et\u00edopes.",
+    "historical_info": "Los Mehal Sefaris eran una unidad de \u00e9lite de guardias imperiales que proteg\u00edan a los emperadores de Etiop\u00eda en los siglos XIX y XX. Comenzaron siendo los guardaespaldas personales de los emperadores et\u00edopes antes de popularizarse como una brigada formidable del ej\u00e9rcito. Se trata de unidades especializadas de infanter\u00eda, caballer\u00eda, artiller\u00eda y francotiradores que adquir\u00edan su estatus de unidades de \u00e9lite gracias a un riguroso entrenamiento y a un equipo moderno.",
+    "strategy": "Los Mehal Sefaris son la espina dorsal del ej\u00e9rcito et\u00edope. Empiezan con ascensos que les conceden bonificaciones al luchar en terreno abrupto y cerca de su capital. Son algo m\u00e1s baratos de crear que el Fusilero, al que sustituyen.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Instrucci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/drill_i.json"
+        },
+        {
+            "name": "Bonif. por proximidad con la capital",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/near_capital_bonus.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Candi",
+    "game_info": "Unique Indonesian Garden replacement. +25% Great People generation in this City, and +2 Faith for each World Religion that has at least 1 follower in the city.Unlike the Garden the Candi does not have to be built next to a River or Lake.",
+    "strategy": "In addition to the regular abilities of the Garden, the Candi also provides +2 Faith for each World Religion that has at least 1 follower in the city. Only Indonesia may build it, and the city does not need to be located next to a River or Lake.",
+    "historical_info": "Candi refers to an Indonesian stone structure based on the Hindu single shrine, with a pyramidal tower above it and an ornamented portico, built primarily between the 8th and 15th centuries. Incorporating mandala designs, the candi was designed to mimic Meru, the holy mountain that was the abode of the gods. The Javanese, notably the Khmer, developed a somewhat different architecture for their candi, making use of pillars around a central solid mass, but retaining the basic form. The largest, and most famous, candi is Borobadur, the 9th Century Buddhist temple with seven terraces.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/candi.png",
+    "prereq_tech": {
+        "name": "Theology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/theology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

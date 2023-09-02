@@ -1,0 +1,33 @@
+{
+    "id": 72,
+    "name": "Satellites",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/satellites.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "In the context of a technology, Satellites covers the study and development of artificial, orbital bodies - not naturally occurring ones like the Moon. Man-made satellites had been a major source of inspiration for science fiction writers through the early 1900's, with visionaries like Arthur C. Clarke laying out plans for a network of mass communications satellites long before such things were technologically feasible.Satellites remained the stuff of fiction, however, until 1957, when the Soviet Union successfully launched its first satellite, Sputnik 1. Not only proving that it was in fact possible to put a manmade object into a sustained orbital path around the Earth, the launch also triggered the start of the Space Race between the Soviets and the United States. Later in 1957 Sputnik 2 was launched carrying the first living passenger into space, a dog named Laika. A year later the U.S. launched its first, Explorer 1. From this race between two rivals, thousands of super specialized satellites have been launched into orbit from over fifty different originating countries. With the obvious militaristic and spy applications aside, satellites are used for mass communication (Clarke was right in the end), GPS and navigation, weather research and observation and entertainment broadcasting to name a few. The largest satellite currently in orbit is the International Space Station.",
+    "quote": "\"Now, somehow, in some new way, the sky seemed almost alien.\" - Lyndon B. Johnson",
+    "tech_prereqs": [
+        {
+            "name": "Rocketry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nuclear Fusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "SS Cockpit",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ss_cockpit.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Hubble Space Telescope",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hubble_space_telescope.json"
+        }
+    ]
+}

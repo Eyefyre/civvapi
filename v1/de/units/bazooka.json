@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazooka",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Fernkampfeinheit des Atomzeitalters, die direkt neben einem Gegner stehen muss, um anzugreifen.",
+    "historical_info": "Bazooka ist der allgemeine Name f\u00fcr eine tragbare Waffe ohne R\u00fccksto\u00df, entwickelt f\u00fcr den Einsatz gegen feindliche Panzerfahrzeuge. Die Bazooka wurde erstmals gegen Ende des Ersten Weltkriegs von der US-Armee entwickelt. Sie nutzt einen kleinen Raketenantrieb, um ein Explosivgeschoss abzufeuern. Genau wie die britischen (PIAT) und deutschen (Panzerschreck) Varianten war auch der Einsatz der Bazooka w\u00e4hrend des Zweiten Weltkriegs weit verbreitet. Da Panzer, Halbkettenfahrzeuge und andere gepanzerte Fahrzeuge das Schlachtfeld dominierten, mussten Soldaten schnell reagieren k\u00f6nnen, ohne auf schwere Waffen warten zu m\u00fcssen. In den H\u00e4nden eines f\u00e4higen Teams, das bereit war, sich einem feindlichen Panzer zu n\u00e4hern, war die Bazooka eine verheerende Waffe.",
+    "strategy": "Die Bazooka ist die letzte Nicht-Belagerungs-Fernkampfeinheit. Es ist die m\u00e4chtigste Fernkampfeinheit. Trotz ihrer Reichweite von nur einem Gel\u00e4ndefeld verursacht sie bei anderen Einheiten betr\u00e4chtlichen Schaden, ohne selbst Schaden zu nehmen. Das macht sie zu einer sehr guten Verteidigungseinheit.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Kernspaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

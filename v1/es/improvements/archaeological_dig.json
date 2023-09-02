@@ -1,0 +1,34 @@
+{
+    "id": 25,
+    "name": "Excavaci\u00f3n arqueol\u00f3gica|Excavaciones arqueol\u00f3gicas",
+    "game_info": "Una Excavaci\u00f3n arqueol\u00f3gica solo la puede construir un Arque\u00f3logo en un recurso de Enclave hist\u00f3rico. Las excavaciones de la antigua ciudad de Troya son una muestra de una excavaci\u00f3n arqueol\u00f3gica importante. Tras construir la Excavaci\u00f3n, el Arque\u00f3logo descubrir\u00e1 qu\u00e9 tipo de Artefactos hay enterrados en este lugar. Entonces puedes elegir entre hacer que el Arque\u00f3logo cree aqu\u00ed una mejora permanente (Sitio de inter\u00e9s) o saque el Artefacto para ponerlo en el espacio para una Gran obra de arte de un edificio de tu imperio.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/excavaci\u00f3n_arqueol\u00f3gica|excavaciones_arqueol\u00f3gicas.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Enclave hist\u00f3rico escondido",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/hidden_antiquity_site.json"
+        },
+        {
+            "name": "Enclave hist\u00f3rico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/antiquity_site.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Arqueolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

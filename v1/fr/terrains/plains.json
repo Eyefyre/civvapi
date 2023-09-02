@@ -1,0 +1,101 @@
+{
+    "id": 2,
+    "name": "Plaines|Plaine",
+    "historical_info": "Les plaines sont une source de nourriture et de production pour les villes \u00e0 proximit\u00e9. Une ville entour\u00e9e de plaines grandira moins vite qu'une ville entour\u00e9e de prairies, mais elle sera beaucoup plus productive.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plaines|plaine.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "Charbon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        },
+        {
+            "name": "Bl\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wheat.json"
+        },
+        {
+            "name": "Moutons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+        },
+        {
+            "name": "Pierre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+        },
+        {
+            "name": "Or",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+        },
+        {
+            "name": "Pierres pr\u00e9cieuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+        },
+        {
+            "name": "Marbre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+        },
+        {
+            "name": "Ivoire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/ivory.json"
+        },
+        {
+            "name": "Coton",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+        },
+        {
+            "name": "Vin",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wine.json"
+        },
+        {
+            "name": "Encens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+        },
+        {
+            "name": "Cuivre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+        },
+        {
+            "name": "Sel",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+        },
+        {
+            "name": "Agrumes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/citrus.json"
+        },
+        {
+            "name": "Bison|Bisons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bison.json"
+        }
+    ]
+}

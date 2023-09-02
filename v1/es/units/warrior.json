@@ -1,0 +1,18 @@
+{
+    "id": 79,
+    "name": "Guerrero|Guerreros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/warrior.png",
+    "game_info": "Primitiva unidad militar b\u00e1sica, bastante d\u00e9bil.",
+    "historical_info": "En las civilizaciones primitivas no exist\u00eda el soldado profesional. Una civilizaci\u00f3n joven no puede mantener un ej\u00e9rcito permanente. En momentos de crisis, todos los hombres capaces de una civilizaci\u00f3n forman una milicia provisional, y regresan a sus granjas y pueblos en tiempos de paz. Estos guerreros cuentan con muy poco entrenamiento y solo disponen de armas primitivas: garrotes o, con suerte, dagas de piedra.",
+    "strategy": "El Guerrero es la primera unidad de combate que hay disponible y resulta \u00fatil para combatir a los b\u00e1rbaros, defender las ciudades m\u00e1s tempranas y hacer exploraciones limitadas. Por lo general, los Guerreros no son lo bastante fuertes como para tomar ciudades enemigas a menos que los apoyen intensamente Arqueros y Catapultas (e incluso as\u00ed, puede que no tengan la fuerza necesaria para ello).",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

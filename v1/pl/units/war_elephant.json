@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "S\u0142onie bojowe|S\u0142oni bojowych|S\u0142oniom bojowym|S\u0142onie bojowe",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "Szybka jednostka strzelaj\u0105ca, bardzo skuteczna na p\u0142askim terenie. Mog\u0105 j\u0105 stworzy\u0107 tylko Hindusi. Ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 i si\u0142\u0119 ostrza\u0142u ni\u017c strzelcy rydwanowi, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "S\u0142onie bojowe stanowi\u0142y przera\u017caj\u0105cy widok na polu walki, cz\u0119sto by\u0142y dla sojusznik\u00f3w takim samym zagro\u017ceniem, jak dla wrog\u00f3w, i mog\u0105 zosta\u0107 uznane za pierwsz\u0105 bro\u0144 masowego ra\u017cenia. Hindusi u\u017cywali s\u0142oni w walce a\u017c do wynalezienie prochu, co spowodowa\u0142o, \u017ce sta\u0142y si\u0119 bezu\u017cyteczne. W walkach przed wynalezieniem prochu s\u0142onie bojowe mia\u0142y dwa podstawowe zadania. Po pierwsze, ich zapach \u015bmiertelnie przera\u017ca\u0142 konie, wy\u0142\u0105czaj\u0105c kawaleri\u0119 wroga z u\u017cytku. Po drugie, mog\u0142y przebi\u0107 si\u0119 przez najsilniejsz\u0105 nawet lini\u0119 piechoty, mia\u017cd\u017c\u0105c \u015bcian\u0119 w\u0142\u00f3czni, kt\u00f3ra by\u0142a nie do pokonania dla \u017cadnego konia. S\u0142onie by\u0142y wyj\u0105tkowo trudne do zabicia, historia odnotowuje przypadki, gdy prze\u017cy\u0142y trafienia sze\u015b\u0107dziesi\u0119ciu i wi\u0119cej strza\u0142. Podstawowy problem z u\u017cywaniem s\u0142oni polega\u0142 na tym, \u017ce z w\u015bciek\u0142o\u015bci lub b\u00f3lu cz\u0119sto wpada\u0142y w sza\u0142 i je\u017adziec nie m\u00f3g\u0142 ich opanowa\u0107. Je\u017ad\u017acy dosiadaj\u0105cy s\u0142oni cz\u0119sto uzbrojeni byli we gw\u00f3\u017ad\u017a i m\u0142ot, kt\u00f3rych mogli u\u017cy\u0107 do zabicia zwierz\u0119cia, je\u017celi zaatakowa\u0142o ono w\u0142asne jednostki.",
+    "strategy": "S\u0142onie bojowe to unikatowa jednostka indyjska, zast\u0119puj\u0105ca strzelc\u00f3w rydwanowych. Jest od nich silniejsza (i wolniejsza), ale mo\u017ce porusza\u0107 si\u0119 po ka\u017cdym terenie, nie otrzymuj\u0105c takiej kary, jak strzelcy rydwanowi. S\u0142onie bojowe to jednostka kawaleryjska, s\u0142aba w walce z w\u0142\u00f3cznikami.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Ballista",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Siege Unit that does major damage from a distance, but must set up prior to firing. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength than the Catapult, which it replaces.",
+    "historical_info": "The Roman Ballista was an advanced catapult that fired stones or wooden missiles at the enemy. Constructed of wood reinforced with heavy iron plates, the ballista was surprisingly accurate in the hands of trained operators. It had a maximum range of perhaps 500 yards, but its practical range was significantly shorter, especially against a fortified position. Julius Caesar used them to great effect in his German and British campaigns.",
+    "strategy": "Roman unique unit, more powerful than the Catapult it replaces. The Ballista is an excellent siege weapon. It is extremely useful against cities, but it is quite vulnerable to attack. Be sure to protect the Ballista with other military units. The Ballista must first \"set up\" (1 MP) before attacking.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Mathematics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

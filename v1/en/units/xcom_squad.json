@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "XCOM Squad",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Futuristic infantry unit skilled at dropping into danger from far across the world. Squad can move and pillage after landing but cannot enter combat until the following turn.[COLOR_CYAN]Good Luck, Commander!",
+    "historical_info": "Recognizing the potential threat from Giant Death Robots, aliens, and other external threats, the XCOM Initiative was born to protect the populace from enemies known, and unknown.",
+    "strategy": "The XCOM Squad is an elite team of soldiers based on the technology pioneered by the XCOM Initiative. When starting the turn in friendly territory this squad can be dropped up to 40 tiles away. Deploy these units into areas where the danger level is out of this world.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotechnology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Skyranger",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/skyranger.json"
+        }
+    ]
+}

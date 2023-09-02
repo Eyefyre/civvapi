@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "Misiles bal\u00edsticos",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 4100,
+    "civilopedia_entry": "Los misiles bal\u00edsticos se desarrollaron por primera vez en las d\u00e9cadas de 1930 y 1940, fruto de las investigaciones de la Alemania nazi, que inaugur\u00f3 su descubrimiento lanzando el cohete en 1942. Los misiles bal\u00edsticos se diferencian de otros proyectiles similares en que su trayectoria de vuelo consta de tres etapas. En la primera etapa del vuelo, el misil es propulsado por cohetes y sigue una trayectoria controlada. Luego emprende un recorrido suborbital, iniciando una etapa de vuelo libre antes de volver a entrar en la atm\u00f3sfera y dirigirse hacia su objetivo final. El descenso a trav\u00e9s de la atm\u00f3sfera se calcula de antemano para garantizar que alcance el blanco deseado.En la actualidad, varios pa\u00edses utilizan y prueban diversos modelos de misiles bal\u00edsticos. Los misiles bal\u00edsticos intercontinentales (ICBM) poseen el mayor alcance registrado (m\u00e1s de 5.500 kil\u00f3metros). La capacidad de lanzar un cohete pr\u00e1cticamente indetectable desde el propio territorio (o, en algunos casos, desde un submarino) y hacer que caiga en suelo enemigo, a miles de kil\u00f3metros de distancia, ha dado un giro radical a las t\u00e1cticas b\u00e9licas en la era moderna. Muchos de estos misiles pueden equiparse con cabezas nucleares extremadamente mort\u00edferas, capaces de aniquilar ciudades enteras con un solo impacto.",
+    "quote": "\"Los hombres, como las balas, llegan m\u00e1s lejos cuanto m\u00e1s lisos.\" - Jean Paul",
+    "tech_prereqs": [
+        {
+            "name": "Ferrocarril",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/railroad.json"
+        },
+        {
+            "name": "Vuelo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        },
+        {
+            "name": "Fuerzas combinadas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ca\u00f1\u00f3n antia\u00e9reo|Ca\u00f1ones antia\u00e9reos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "Ametralladora|Ametralladoras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

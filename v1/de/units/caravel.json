@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Karavelle",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Eine schnelle Erkundungseinheit der Renaissance mit erh\u00f6htem Sichtradius, die sich auf Ozeane begeben kann. K\u00e4mpft als Marine-Nahkampfeinheit.",
+    "historical_info": "Die Karavelle war ein kleines, hochseetaugliches Schiff, das im 15. Jahrhundert f\u00fcr Entdeckungsreisen verwendet wurde. Sie wurde von Prinz Heinrich dem Seefahrer von Portugal erfunden und bald darauf erkannten andere Nationen die Vorteile der Karavelle und bauten dieses praktische Schiff nach. Mit meist 20 bis 30 Metern L\u00e4nge und zwei oder drei Masten mit Lateinersegeln waren Karavellen leicht und hatten wenig Tiefgang, was sie ideal zum Erforschen unbekannter K\u00fcsten und Fl\u00fcsse machte. Sie konnten sich furchtlos an Stellen wagen, die gr\u00f6\u00dferen Schiffen verwehrt blieben. Die Karavelle war au\u00dferdem ein auffallend seet\u00fcchtiges Schiff, das die schlimmsten St\u00fcrme des Atlantiks \u00fcberstehen konnte. Zwei von Kolumbus' drei Schiffen, die Pinta und die Ni\u00f1a, waren Karavellen. (Die gr\u00f6\u00dfere Santa Mar\u00eda war eine Karacke.)",
+    "strategy": "Die Karavelle bedeutet einen erheblichen Fortschritt der Seemacht einer Zivilisation. Die Nahkampfeinheit ist st\u00e4rker und schneller als die Triere und kann auch Tiefsee-Gel\u00e4ndefelder durchqueren. Sie kann durch eine Bef\u00f6rderung gute Chancen darauf erhalten, sich zur\u00fcckzuziehen, bevor eine gegnerische Marine-Nahkampfeinheit angreifen kann. Die Karavelle hat einen riesigen Sichtbereich und wird so zu einer unerl\u00e4sslichen Marine-Aufkl\u00e4rungseinheit im mittleren Abschnitt des Spiels. Der Sichtbonus geht verloren, wenn die Karavelle zu einem Zerst\u00f6rer verbessert wird.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Vor Nahkampf zur\u00fcckziehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": 46,
+    "name": "Sipahi|un Sipahi|dal tuo Sipahi|al tuo Sipahi|il tuo Sipahi|da un Sipahi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sipahi.png",
+    "game_info": "Unit\u00e0 di cavalleria specializzata nel combattimento contro unit\u00e0 a cavallo. Solo gli ottomani possono costruirla. Quest'unit\u00e0 \u00e8 pi\u00f9 forte e ha un raggio di visione pi\u00f9 ampio del Lanciere, che sostituisce.",
+    "historical_info": "I sipahi erano i lancieri a cavallo dell'impero ottomano. Costituiti durante il regno di Murad I (dal 1362 al 1389), i sipahi erano costituiti esclusivamente da aristocratici turchi dotati di possedimenti terrieri. Erano guerrieri leali, estremamente motivati, e costituivano la guardia personale del sultano. I sipahi erano grandi avversari dei giannizzeri (un'altra unit\u00e0 speciale ottomana), che comprendevano anche elementi stranieri. In effetti nel 1826, in seguito a una rivolta fallita dei giannizzeri, i sipahi contribuirono con entusiasmo allo scioglimento del corpo rivale.",
+    "strategy": "Il Sipahi \u00e8 un'unit\u00e0 esclusiva degli Ottomani e sostituisce il Lanciere a cavallo. Il Sipahi \u00e8 molto pi\u00f9 veloce della sua controparte e ha un raggio di visione di un esagono pi\u00f9 ampio, ma ha le sue stesse falle difensive. Un'unit\u00e0 di Sipahi pu\u00f2 saccheggiare i miglioramenti nemici senza alcun costo aggiuntivo.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgia|della Metallurgia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Nessun costo di PM per il saccheggio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formazione I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/formation_i.json"
+        }
+    ]
+}

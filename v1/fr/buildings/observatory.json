@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Observatoire|Observatoires",
+    "game_info": "La ville doit \u00eatre adjacente \u00e0 une montagne.",
+    "strategy": "L'observatoire ne peut \u00eatre construit que dans une ville adjacente \u00e0 une case de montagne. Il augmente de mani\u00e8re consid\u00e9rable la production de science de la ville o\u00f9 il se trouve.",
+    "historical_info": "Un observatoire est un b\u00e2timent d\u00e9di\u00e9 \u00e0 l'\u00e9tude du ciel. Les premiers hommes \u00e9taient convaincus que le mouvement des \u00e9toiles avait une importance mystique. Ainsi, bon nombre des premiers observatoires \u00e9taient des structures religieuses. Au fil du temps, les hommes se rendirent compte qu'ils pouvaient planifier les saisons tr\u00e8s pr\u00e9cis\u00e9ment en \u00e9tudiant les d\u00e9placements ascendants et descendants des astres. Ils comprirent aussi que les informations ainsi glan\u00e9es pouvaient s'av\u00e9rer d'une importance capitale dans l'organisation des semailles et des r\u00e9coltes. Ces r\u00e9v\u00e9lations renforc\u00e8rent l'importance religieuse et pratique que prirent les observatoires au sein des communaut\u00e9s humaines. Les observatoires modernes sont enti\u00e8rement informatis\u00e9s et \u00e9quip\u00e9s de t\u00e9lescopes sophistiqu\u00e9s (lorsqu'ils ne communiquent pas directement avec des t\u00e9lescopes spatiaux encore plus puissants), fournissant aux scientifiques une somme d'informations bien plus importante que leurs anc\u00eatres primitifs n'auraient jamais pu en r\u00eaver. Leur travail reste cependant inchang\u00e9\u00a0: tenter de comprendre comment fonctionne l'univers en \u00e9tudiant les cieux.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/observatoire|observatoires.png",
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

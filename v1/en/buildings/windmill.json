@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Windmill",
+    "game_info": "+10% Production when constructing Buildings.City must not be built on Hills.",
+    "strategy": "The Windmill is a Renaissance-era building which increases the Production output of a city when constructing buildings. Cities constructed on hills may not build Windmills.",
+    "historical_info": "Windmills are buildings which use the energy from wind to perform a variety of tasks. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells. Wind-powered machines have been in existence for at least 2000 years. The earliest known is a wind organ, constructed by Heron of Alexandria in the first century, AD. Wind-powered mills for grinding grain were probably invented in Central Asia sometime around the eighth century AD.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/windmill.png",
+    "prereq_tech": {
+        "name": "Economics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

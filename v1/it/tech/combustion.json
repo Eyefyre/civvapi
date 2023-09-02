@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Combustione|della Combustione",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "Epoca moderna",
+    "cost": 4100,
+    "civilopedia_entry": "Parlare di \"combustione\" significa dire che qualcosa brucia: si tratta di una reazione chimica tra sostanze (una delle quali di solito \u00e8 l'ossigeno), che spesso genera luce e calore. In questo caso stiamo specificamente parlando dello sfruttamento della combustione all'interno di un motore (da cui \"combustione interna\") per creare energia e muovere una manovella o un pistone.Esistono due tipi di motori a combustione interna: a combustione intermittente e a flusso continuo. Nei primi certe quantit\u00e0 di combustibile e ossigeno vengono introdotte nella camera di combustione. L\u00ec avviene la reazione che muove il pistone o qualche altro dispositivo meccanico, dopodich\u00e9 vengono introdotti altro combustibile e altro ossigeno e il processo si ripete. I motori delle automobili sono esempi di motori a combustione intermittente. Nei secondi, ossigeno e combustibile vengono introdotti e bruciano continuamente. I motori a reazione sono a flusso continuo.Il primo brevetto di motore a combustione interna fu concesso all'inglese Samuel Brown nel 1823 per la sua \"macchina a vuoto spinto\", alimentata da idrogeno e ossigeno. Il primo brevetto per un motore a reazione per velivoli fu concesso nel 1921 al francese Maxime Guillaume. Questi due tentativi non ebbero molto successo, ma le ricerche gettarono le basi per sviluppare le tecnologie che hanno mosso il mondo fino a oggi e, probabilmente, nel prossimo futuro.",
+    "quote": "\"Un uomo che sappia guidare in tutta sicurezza mentre sta baciando una ragazza non sta dedicando al bacio tutta l'attenzione che si merita.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Ferrovia|della Ferrovia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Armi combinate|delle Armi combinate",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cacciatorpediniere|un Cacciatorpediniere|dal tuo Cacciatorpediniere|al tuo Cacciatorpediniere|il tuo Cacciatorpediniere|da un Cacciatorpediniere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/destroyer.json"
+        },
+        {
+            "name": "Nave di terra|una Nave di terra|dalla tua Nave di terra|alla tua Nave di terra|la tua Nave di terra|da una Nave di terra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

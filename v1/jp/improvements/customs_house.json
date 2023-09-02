@@ -1,0 +1,68 @@
+{
+    "id": 18,
+    "name": "\u7a0e\u95a2",
+    "game_info": "\u7a0e\u95a2\u306f\u3001\u8f38\u51fa\u30fb\u8f38\u5165\u3055\u308c\u308b\u7269\u306b\u5bfe\u3059\u308b\u7a0e\u91d1\u304c\u652f\u6255\u308f\u308c\u308b\u3001\u653f\u5e9c\u306e\u5efa\u7269\u3002\u6e2f\u3092\u901a\u904e\u3059\u308b\u5168\u3066\u306e\u8ca8\u7269\u306e\u5229\u76ca\u304b\u3089\u78ba\u5b9f\u306b\u30d4\u30f3\u30cf\u30cd\u3059\u308b\uff08\u8a00\u3044\u65b9\u304c\u60aa\u3044\u306e\u306a\u3089\u300c\u6b63\u5f53\u306a\u53d6\u308a\u5206\u3092\u5fb4\u53ce\u3059\u308b\u300d\uff09\u305f\u3081\u306e\u5834\u6240\u3067\u3042\u308b\u3002\u304b\u304b\u308f\u3063\u3066\u304f\u308b\u91d1\u984d\u3092\u8003\u3048\u308c\u3070\u3001\u6c5a\u8077\u306e\u6a5f\u4f1a\u304c\u5c3d\u304d\u308b\u3053\u3068\u306f\u306a\u3044\u3002\u6b74\u53f2\u5168\u4f53\u3092\u898b\u6e21\u3057\u3066\u3082\u3001\u8a98\u60d1\u306b\u8010\u3048\u305f\u3053\u3068\u3067\u6709\u540d\u306a\u7a0e\u95a2\u8077\u54e1\u3068\u3044\u3046\u306e\u306f\u5b58\u5728\u3057\u306a\u3044\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/\u7a0e\u95a2.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u8349\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/grassland.json"
+        },
+        {
+            "name": "\u5e73\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/plains.json"
+        },
+        {
+            "name": "\u7802\u6f20",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/desert.json"
+        },
+        {
+            "name": "\u30c4\u30f3\u30c9\u30e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/tundra.json"
+        },
+        {
+            "name": "\u6c37\u571f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "\u99ac",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/horses.json"
+        },
+        {
+            "name": "\u9244",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/iron.json"
+        },
+        {
+            "name": "\u77f3\u70ad",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/coal.json"
+        },
+        {
+            "name": "\u77f3\u6cb9",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/oil.json"
+        },
+        {
+            "name": "\u30a2\u30eb\u30df\u30cb\u30a6\u30e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/aluminum.json"
+        },
+        {
+            "name": "\u30a6\u30e9\u30f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 4,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

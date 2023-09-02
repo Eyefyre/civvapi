@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Chu-Ko-Nu|un Chu-Ko-Nu|dal tuo Chu-Ko-Nu|al tuo Chu-Ko-Nu|il tuo Chu-Ko-Nu|da un Chu-Ko-Nu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "Unit\u00e0 di fanteria di epoca medievale che attacca a distanza. Solo i cinesi possono costruirla. A differenza del Balestriere, che sostituisce, quest'unit\u00e0 pu\u00f2 attaccare due volte nello stesso turno.",
+    "historical_info": "Il Chu-Ko-Nu \u00e8 una balestra a ripetizione piuttosto ingegnosa, inventata in Cina alla fine del II secolo d.C. L'arma assomiglia molto a una balestra europea ma ha una scatola di legno fissata in cima, proprio sopra la corda. La scatola veniva riempita di dardi. Un soldato doveva solo tirare una leva per incoccare e poi spingere avanti la stessa leva per far s\u00ec che un dardo cadesse dalla scatola direttamente nella posizione pronta a sparare. In questo modo il Chu-Ko-Nu aveva un ritmo di fuoco superiore a quello di una balestra standard. Tuttavia i suoi dardi erano pi\u00f9 leggeri e anche il raggio di tiro era inferiore a quello delle controparti europee. Quale delle due armi era superiore? La risposta dipende dalla situazione: il modello europeo potrebbe essere preferibile in campo aperto e contro nemici pesantemente corazzati, mentre il Chu-Ko-Nu \u00e8 pi\u00f9 indicato a corta distanza contro un gran numero di attaccanti dotati di armature leggere.",
+    "strategy": "Il Chu-Ko-Nu \u00e8 un'unit\u00e0 esclusiva della Cina e sostituisce il Balestriere. Il Chu-Ko-Nu \u00e8 leggermente meno potente del balestriere, ma pu\u00f2 attaccare due volte per turno, una caratteristica che lo rende molto efficace durante le offensive. L'unit\u00e0 \u00e8 particolarmente mortale quando viene usata come guarnigione in una citt\u00e0 sotto attacco.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Meccanica|della Meccanica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Pu\u00f2 attaccare due volte",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_attack_twice.json"
+        }
+    ]
+}

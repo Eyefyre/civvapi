@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Galleass",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "Medieval Era Naval Unit used to wrest control of the seas with its ranged attack.",
+    "historical_info": "The Galleass was a class of naval warship that grew in popularity during the 16th century, when designs based on the traditional galley were modified to include heavier armaments. A typical galleass began life as a merchant ship powered by oars, which was then upgraded to include masts for sails. With two forms of propulsion available, the galleass design allowed the ship to maintain much of the traditional galley's renowned speed, while also carrying heavy guns to fend off would-be attackers.",
+    "strategy": "The Galleass is the first naval unit with a ranged attack generally available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Galleass is useful for clearing enemy ships out of shallow waters. It cannot enter Deep Ocean hexes unless it is from Polynesia.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Compass",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

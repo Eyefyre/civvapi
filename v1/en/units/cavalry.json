@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Cavalry",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Mounted Unit capable of fighting toe-to-toe with contemporary infantry units.",
+    "historical_info": "By the end of the 19th century, European and American cavalrymen were armed with repeating rifles, small, reliable weapons holding 5-15 rounds which were accurate up to perhaps 500 yards, as well as pistols and swords. Because their equipment was so much lighter than that encumbering earlier lancers and knights, they were much faster and could ride a good deal farther than their predecessors. While the cavalry charge of old might still occur under very favorable conditions, the infantry's increased accuracy and rate of fire made that maneuver extremely dangerous. When facing infantry units the cavalry usually dismounted to fight, with one soldier holding four horses a distance to the rear while his three comrades traded shots with the enemy.",
+    "strategy": "The Cavalry mounted units are devastating against melee, ranged and siege weapons. Use them to destroy Musketmen and then break through the enemy's lines with their ability to move after attacking.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Military Science",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

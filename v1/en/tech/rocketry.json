@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Rocketry",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "Atomic Era",
+    "cost": 6400,
+    "civilopedia_entry": "The earliest known rocket flight is a bit contested, although it is generally believed that it occurred sometime around 1230 A.D. in China, during a military operation. The first actual recorded flight did occur in China in 1264 as part of an internal-combustion firework. These early rockets used solid fuel, usually gunpowder, and did not fly very far, perhaps only 2000 feet.The invention of modern rocketry can be attributed directly to Professor Robert Goddard when he postulated that fuel should be burned in a small, separate combustion chamber, the rocket should be built in separable stages, and that the exhaust speed could be increased by using a special hour-glass shaped nozzle called a De Laval nozzle. Up to this point rockets burned all their fuel in one large solid chamber and weren't capable of going exceptionally fast or travelling intercontinental distances.Rockets now commonly use a combination of liquid fuels which are able to accelerate the rocket to hypersonic speeds with great efficiency for a relatively low price. Besides their obvious military use to propel warheads across great distances, rockets are also used for fireworks, ejection seats, scientific atmospheric research, and of course, spaceflight.",
+    "quote": "\"A good rule for rocket experimenters to follow is this: always assume that it will explode.\" - Astronautics Magazine, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Advanced Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satellites",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/satellites.json"
+        },
+        {
+            "name": "Robotics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mobile SAM",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/mobile_sam.json"
+        },
+        {
+            "name": "Rocket Artillery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

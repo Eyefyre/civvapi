@@ -1,0 +1,41 @@
+{
+    "id": 42,
+    "name": "Arch\u00e9ologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archaeology.png",
+    "era": "\u00c8re industrielle",
+    "cost": 1600,
+    "civilopedia_entry": "L'arch\u00e9ologie est l'\u00e9tude des vestiges des peuples antiques, afin d'en apprendre davantage sur leur culture, leur architecture et leur histoire. Les arch\u00e9ologues \u00e9tudient tout aussi bien les b\u00e2timents en ruine que les tumulus, les d\u00e9p\u00f4ts d'ordures, les inscriptions antiques trouv\u00e9es dans des cavernes et les \u00e9paves reposant de longue date au fond des oc\u00e9ans.Bien que l'homme se soit toujours int\u00e9ress\u00e9 \u00e0 la vie de ses anc\u00eatres, l'arch\u00e9ologie en tant que science n'est apparue qu'au XVe si\u00e8cle, dans l'Europe de la Renaissance. A cette \u00e9poque, l'art et l'architecture de la Gr\u00e8ce et de la Rome antiques \u00e9taient abondamment \u00e9tudi\u00e9s et imit\u00e9s, et la noblesse italienne, les papes, les marchands et les dirigeants collectionnaient les antiquit\u00e9s. Lorsque ces derni\u00e8res se firent plus rares, ils financ\u00e8rent des missions d'excavation pour en trouver davantage.L'arch\u00e9ologie ne b\u00e9n\u00e9ficia d'une base d'\u00e9tude plus scientifique qu'au XIXe si\u00e8cle, gr\u00e2ce aux travaux d'\u00e9rudits allemands (comme Heinrich Schliemann) qui \u00e9tudi\u00e8rent les vestiges pr\u00e9hell\u00e9niques de Troie et de Myc\u00e8nes.De nos jours, les arch\u00e9ologues \u00e9tudient toutes les facettes de l'antiquit\u00e9 humaine, de nos plus anciens anc\u00eatres \u00e0 nos arri\u00e8re-arri\u00e8re-grands-parents. Leurs outils extr\u00eamement sophistiqu\u00e9s leur permettent de d\u00e9crire de mani\u00e8re de plus en plus pr\u00e9cise l'histoire et le quotidien de nos a\u00efeux.",
+    "quote": "\"Ceux qui ne peuvent se rappeler le pass\u00e9 sont condamn\u00e9s \u00e0 le r\u00e9p\u00e9ter.\"- George Santayana",
+    "tech_prereqs": [
+        {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/navigation.json"
+        },
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/biology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arch\u00e9ologue|Arch\u00e9ologues",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/archaeologist.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Mus\u00e9e|Mus\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/museum.json"
+        },
+        {
+            "name": "Louvre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/louvre.json"
+        }
+    ]
+}

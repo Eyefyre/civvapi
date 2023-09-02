@@ -1,0 +1,32 @@
+{
+    "id": 70,
+    "name": "Mobile Tactics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mobile_tactics.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "Mobile tactics are strategies implemented by military forces to allow for quick, highly maneuverable units to get in and out of battle without becoming mired in an ongoing engagement. Mobile tactics are often used by irregular or guerilla units who specialize in hit-and-run attacks aimed at disorienting larger forces.",
+    "quote": "\"All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Ecology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ecology.json"
+        },
+        {
+            "name": "Nuclear Fission",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Particle Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mechanized Infantry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/mechanized_infantry.json"
+        }
+    ],
+    "building_unlocks": []
+}

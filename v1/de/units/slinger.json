@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Schleudersch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "Diese Spezialeinheit der Inka ist eine der ersten verf\u00fcgbaren Fernwaffen-Einheiten und ersetzt den Bogensch\u00fctzen. Der Schleudersch\u00fctze ist nicht st\u00e4rker als der Bogensch\u00fctze, sondern bei Nahkampfangriffen sogar schw\u00e4cher. Er verf\u00fcgt allerdings \u00fcber eine Bef\u00f6rderung, die ihm mit hoher Wahrscheinlichkeit den R\u00fcckzug erlaubt, bevor der gegnerische Nahkampfangriff stattfindet.",
+    "historical_info": "Die Inkakrieger waren wohlbekannt als ausgezeichnete Schleudersch\u00fctzen. Das Projektil ihrer Wahl bestand aus einem abgerundeten Stein. Die Schleuder verf\u00fcgt nicht \u00fcber die Reichweite oder Stoppwirkung von Pfeil und Bogen, ist jedoch eine bemerkenswert kleine und leichte Waffe, sodass Infanterie-Krieger sie problemlos mitf\u00fchren konnten, ohne durch sie behindert zu werden. Und wie im Alten Testament geschrieben steht, kann ein ge\u00fcbter Schleudersch\u00fctze sogar den gr\u00f6\u00dften Gegner mit einem einzigen Stein t\u00f6ten ...",
+    "strategy": "Der Schleudersch\u00fctze ist eine Fernwaffeneinheit der Infanterie in der Antike, die Feinde aus der Distanz angreifen kann. Diese Spezialeinheit der Inka kann vor den meisten Nahkampfangriffen den R\u00fcckzug antreten. Nutzt ihn, um den Feind zu drangsalieren. Der Schleudersch\u00fctze kann allerdings leicht besiegt werden, wenn ihn der Gegner in die Enge dr\u00e4ngt oder ihn mit schnellen Einheiten verfolgt.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Bogenschie\u00dfen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Vor Nahkampf zur\u00fcckziehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

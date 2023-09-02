@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "Kampfhubschrauber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Einheit spezialisiert auf Angriffe gegen Kampfpanzer und Panzer. Sie kann \u00fcber Gebirge schweben, erh\u00e4lt aber Schaden, wenn sie die Runde auf einem beendet.",
+    "historical_info": "Hubschrauber wurden im Zweiten Weltkrieg und im Koreakrieg nur begrenzt zu Transportzwecken eingesetzt. W\u00e4hrend des Vietnamkrieges entschied die US-Armee, einen schwerer bewaffneten und gepanzerten Helikopter zu konstruieren, der speziell f\u00fcr den Kampfeinsatz ausgelegt war. Seitdem ist der Kampfhubschrauber haupts\u00e4chlich zu einer Panzerzerst\u00f6rungsmaschine geworden. Hubschrauber k\u00f6nnen ziemlich nah am Boden fliegen, f\u00fcr einen schnellen Schuss \"auftauchen\" und anschlie\u00dfend nach unten wegtauchen, ehe die feindliche Verteidigung reagieren kann. Dadurch waren Hubschrauber - au\u00dfer aus der Luft - beinahe unm\u00f6glich zu stoppen, erst die tragbaren \"Koffer\"-Boden-Luft-Raketen, wie sie die Mudschaheddin gegen die sowjetischen Helikopter in Afghanistan einsetzten, konnten ihnen Einhalt gebieten. Moderne Kampfhubschrauber erf\u00fcllen andere Funktionen, wie Luftunterst\u00fctzung f\u00fcr Infanterie-Einheiten oder schnelle Transporte f\u00fcr Spezialeinheiten, aber ihre prim\u00e4re Aufgabe bleibt die Zerst\u00f6rung von Panzern.",
+    "strategy": "Der Kampfhubschrauber ist eine t\u00f6dliche Lufteinheit, die sich gr\u00f6\u00dftenteils wie eine Bodeneinheit verh\u00e4lt, sie kann nur keine St\u00e4dte einnehmen. Mit seiner Fortbewegungsreichweite von 6 Gel\u00e4ndefeldern ist er extrem schnell und kann sich \u00fcber alle Gel\u00e4ndearten (auch Berge) bewegen, als ob diese frei w\u00e4ren. Zum \u00dcberqueren von Gew\u00e4ssern muss er jedoch wassern. Kampfhubschrauber erhalten einen starken Bonus im Kampf gegen Panzer.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Computertechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Alle Gel\u00e4ndefelder kosten 1 Fortbewegung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Schwebeeinheit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Bonus gegen Panzer (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Kann keine St\u00e4dte einnehmen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

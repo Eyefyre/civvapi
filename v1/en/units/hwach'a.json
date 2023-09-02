@@ -1,0 +1,31 @@
+{
+    "id": 94,
+    "name": "Hwach'a",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hwach'a.png",
+    "game_info": "Anti-personnel rocket unit of the Medieval Era. Strong against land units, but weak against cities. Only Korea may build it. Replaces the Trebuchet.",
+    "historical_info": "The Hwach'a, legendary Korean anti-infantry weapon, was a unique innovation in the development of early gunpowder-based weaponry. Created during the 15th century under the supervision of King Sejong the Great, the Hwach'a consisted of a large two-wheeled cart carrying a type of \"honeycomb\" housing, not unlike a modern missile battery, capable of storing hundreds of gunpowder-propelled arrows. The light-weight of these early rockets, known as \"Singijeon,\" provided the Hwach'a with a notable advantage, allowing excellent maneuverability compared to a traditional cannon. The Hwach'a would prove to be a formidable weapon for the defense of the Korean Peninsula during the Japanese invasions of the 16th century.",
+    "strategy": "The Hwach'a is extremely effective against enemy land units. It is slow and vulnerable to enemy melee attack; it always should be supported by other units when it's in the field. The Hwach'a must \"set up\" (1 Movement Point) before attacking.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Physics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        }
+    ]
+}

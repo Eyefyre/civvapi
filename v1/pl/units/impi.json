@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Piechota impi|Piechoty impi|Piechocie impi|Piechot\u0119 impi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Specjalizuje si\u0119 w niszczeniu rycerzy i innych jednostek konnych. Mog\u0105 j\u0105 tworzy\u0107 tylko Zulusi. Przed walk\u0105 przeprowadza przygotowawczy atak dystansowy.",
+    "historical_info": "\u201eImpi\u201d to zuluskie s\u0142owo oznaczaj\u0105ce oddzia\u0142 uzbrojonych m\u0119\u017cczyzn, cho\u0107 powszechnie u\u017cywano go w XIX w. do nazywania jednego z pu\u0142k\u00f3w zuluskiego imperium. Cho\u0107 impi od dawna by\u0142y cz\u0119\u015bci\u0105 zuluskiej kultury, wielki w\u00f3dz tego ludu Czaka wprowadzi\u0142 w nich wielkie innowacje, gdy w 1816 r. wst\u0105pi\u0142 na tron. Uzbroi\u0142 on swoich wojownik\u00f3w, poza tradycyjn\u0105 maczug\u0105 i oszczepem, w assagaj, w\u0142\u00f3czni\u0119 do pchni\u0119\u0107 o kr\u00f3tkiej r\u0119koje\u015bci i szerokim, d\u0142ugim na 30 cm ostrzu. Wprowadzi\u0142 r\u00f3wnie\u017c do u\u017cytku wi\u0119ksz\u0105, ci\u0119\u017csz\u0105 tarcz\u0119 z krowiej sk\u00f3ry (isihlangu) i wyszkoli\u0142 swe wojska, by szybko zmniejsza\u0142y dystans do przeciwnika i anga\u017cowa\u0142y si\u0119 w \u015bmierteln\u0105 walk\u0119 wr\u0119cz. Strategicznie rzecz bior\u0105c, impi polega\u0142y na pr\u0119dko\u015bci i elemencie zaskoczenia, by szybko uzyska\u0107 przewag\u0119 liczebn\u0105 i pokona\u0107 przeciwnika. Wykorzystuj\u0105c t\u0119 metod\u0119, Zulusi odnosili wspania\u0142e zwyci\u0119stwa nawet przeciw uzbrojonym w bro\u0144 paln\u0105 Europejczykom, cho\u0107 ich w\u0142asne straty by\u0142y du\u017ce.",
+    "strategy": "Piechota impi zanim wejdzie w zwarcie, rzuca w\u0142\u00f3czniami, kt\u00f3re rani\u0105 lub zabijaj\u0105 wroga przed rozpocz\u0119ciem walki bezpo\u015bredniej. Mog\u0105 j\u0105 tworzy\u0107 tylko Zulusi.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Rzut w\u0142\u00f3czni\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/spear_throw.json"
+        }
+    ]
+}

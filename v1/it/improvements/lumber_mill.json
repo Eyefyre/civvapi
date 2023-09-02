@@ -1,0 +1,30 @@
+{
+    "id": 8,
+    "name": "Segheria|una Segheria|una Segheria",
+    "game_info": "La segheria permette di incrementare la produttivit\u00e0 degli esagoni con foreste.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/segheria|una_segheria|una_segheria.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Foresta|la foresta|una foresta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Costruzione|della Costruzione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/construction.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

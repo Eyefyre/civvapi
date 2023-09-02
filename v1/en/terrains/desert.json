@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "Desert",
+    "historical_info": "In general, desert hexes are remarkably unuseful. They provide no benefits to cities (unless the desert contains an oasis or resource, of course, or if it has access to fresh water).",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/desert.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oasis",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/oasis.json"
+        },
+        {
+            "name": "Flood Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Iron",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/iron.json"
+        },
+        {
+            "name": "Oil",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+        },
+        {
+            "name": "Aluminum",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Sheep",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sheep.json"
+        },
+        {
+            "name": "Stone",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/stone.json"
+        },
+        {
+            "name": "Gold",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gold.json"
+        },
+        {
+            "name": "Silver",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silver.json"
+        },
+        {
+            "name": "Gems",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gems.json"
+        },
+        {
+            "name": "Marble",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/marble.json"
+        },
+        {
+            "name": "Cotton",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cotton.json"
+        },
+        {
+            "name": "Incense",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/incense.json"
+        },
+        {
+            "name": "Copper",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/copper.json"
+        },
+        {
+            "name": "Salt",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/salt.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Atomrakete",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Die nukleare Vernichtung der Feinde. Richtet gro\u00dfen Schaden bei St\u00e4dten und Einheiten innerhalb des Wirkungsradius an.Ben\u00f6tigt Manhattan-Projekt und zwei Uran-Ressourcen.",
+    "historical_info": "Atomraketen tragen einen oder mehrere Sprengk\u00f6pfe, die Wasserstoffbomben enthalten, von denen jede in der Lage ist, eine Stadt zu zerst\u00f6ren. Da sie ihre t\u00f6dliche Ladung um die halbe Welt bef\u00f6rdern k\u00f6nnen, sind Atomraketen die t\u00f6dlichste und schrecklichste Waffe, die jemals erschaffen wurde. Momentan gibt es keine realisierbare Abwehr gegen eine Atomrakete: Sobald sie gestartet ist - und wenn kein Wunder geschieht -, ist die Zielstadt erledigt. Abgesehen von der sofortigen Vernichtung durch die enorme Explosion, vergiften Kernwaffenexplosionen Land, Wasser und Luft f\u00fcr die nachfolgenden Generationen. Wechselnde Winde k\u00f6nnen den t\u00f6dlichen radioaktiven Niederschlag weit weg bef\u00f6rdern und so auf dem ganzen Kontinent das Land und die Menschen vergiften. Es ist ziemlich wahnsinnig, sie gegen einen Feind auf demselben Planeten einzusetzen, es sei denn, man muss diesen Feind davon abhalten, sie selbst einzusetzen.",
+    "strategy": "Die Atomrakete ist eine weiterentwickelte und st\u00e4rkere Atombombe. Die Atomrakete kann in jeder Eurer St\u00e4dte, auf einem Raketenkreuzer oder an Bord eines Atom-U-Boots stationiert sein. Sie kann von St\u00fctzpunkt zu St\u00fctzpunkt verlegt werden oder ein Ziel in einer Reichweite von 12 Gel\u00e4ndefeldern angreifen. Bei der Detonation besch\u00e4digt oder zerst\u00f6rt die Atomrakete St\u00e4dte und vernichtet alle Einheiten im Explosionsradius von 2 Gel\u00e4ndefeldern. Die Rakete wird beim Angriff automatisch zerst\u00f6rt. Siehe Regeln zu Atomwaffen f\u00fcr weitere Details.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fortgeschrittene Ballistik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ausweichen (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/evasion_(50).json"
+        }
+    ]
+}

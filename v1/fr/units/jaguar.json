@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Jaguar|Jaguars",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Unit\u00e9 militaire de d\u00e9but de partie relativement faible. Le jaguar est exclusif aux Azt\u00e8ques. Il combat plus \u00e2prement dans la jungle et se soigne lorsqu'il \u00e9limine une unit\u00e9 ennemie, \u00e0 la diff\u00e9rence du guerrier, qu'il remplace.",
+    "historical_info": "Dans la culture azt\u00e8que, la guerre tenait plus du rite religieux que d'une strat\u00e9gie politique. Les jeunes hommes devaient capturer ou tuer des ennemis afin de b\u00e9n\u00e9ficier d'un statut \u00e9lev\u00e9 et un nombre sans cesse croissant de prisonniers \u00e9tait n\u00e9cessaire pour les sacrifices effectu\u00e9s lors des rituels religieux. Les chevaliers-jaguars \u00e9taient des soldats professionnels d'\u00e9lite de l'arm\u00e9e azt\u00e8que. V\u00eatus de peaux de jaguars et \u00e9quip\u00e9s de \"macuahuitls\" (\u00e9p\u00e9es de bois parsem\u00e9es de fragments tranchants d'obsidienne), les jaguars repr\u00e9sentaient sans doute l'unit\u00e9 d'infanterie l\u00e9g\u00e8re la plus meurtri\u00e8re d'Am\u00e9rique du Nord et d'Am\u00e9rique centrale pr\u00e9colombiennes.",
+    "strategy": "Le jaguar est une unit\u00e9 exclusive aux Azt\u00e8ques. Rempla\u00e7ant le guerrier, il re\u00e7oit un bonus important lorsqu'il combat dans la jungle, et gu\u00e9rit lorsqu'il d\u00e9truit une unit\u00e9 ennemie. La promotion Forestier lui permet de se d\u00e9placer rapidement sur les cases de jungle et de for\u00eat.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus de combat en for\u00eat/jungle (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Forestier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/woodsman.json"
+        },
+        {
+            "name": "Unit\u00e9 ennemie tu\u00e9e\u00a0: +25 PV",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

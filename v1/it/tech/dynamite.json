@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dinamite|della Dinamite",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "Epoca industriale",
+    "cost": 2350,
+    "civilopedia_entry": "La dinamite \u00e8 un materiale esplosivo inventato nel 1867 dal chimico e ingegnere svedese Alfred Nobel. Per creare la dinamite bisogna impregnare nella nitroglicerina un materiale assorbente come la terra diatomacea, anche nota come farina fossile (che stranamente \u00e8 lo stesso materiale usato in molti filtri per piscine). La nitroglicerina \u00e8 un esplosivo potente ma terribilmente instabile; la dinamite \u00e8 meno potente, ma molto pi\u00f9 stabile.La dinamite viene usata soprattutto per gli scavi minerari e nell'edilizia. Storicamente \u00e8 stata usata anche per applicazioni militari, ma il suo componente esplosivo (la nitroglicerina) rimane troppo instabile per le condizioni imprevedibili del campo di battaglia: in generale quindi gli eserciti preferiscono utilizzare un prodotto alternativo chiamato \"dinamite militare\" che al posto della nitroglicerina contiene altri composti chimici come il TNT. Il prodotto risultante \u00e8 circa il 60% meno potente, ma \u00e8 molto pi\u00f9 difficile che esploda al momento sbagliato.",
+    "quote": "\"Non appena si decide che per combattere il male tutti i mezzi sono leciti, il bene diventa indistinguibile dal male che si vuole distruggere.\" - Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "Fertilizzanti|dei Fertilizzanti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/fertilizer.json"
+        },
+        {
+            "name": "Scienza militare|della Scienza militare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ferrovia|della Ferrovia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artiglieria|un'Artiglieria|dalla tua Artiglieria|alla tua Artiglieria|la tua Artiglieria|da un'Artiglieria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

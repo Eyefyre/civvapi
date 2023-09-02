@@ -1,0 +1,31 @@
+{
+    "id": 62,
+    "name": "Atomic Theory",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/atomic_theory.png",
+    "era": "Atomic Era",
+    "cost": 5100,
+    "civilopedia_entry": "Atomic theory of matter was first proposed in ancient Greece. The philosophers Leucippus and Democritus proposed that the physical world was composed of an infinite number of extremely small particles, or \"atoms,\" which existed in a void, or vacuum. Atoms combine in different quantities and formations to create everything in existence, from air to gold to human flesh to the world beneath our feet. The men had of course no way to prove their theory, and it was rejected by later Greek philosophers such as Plato and Aristotle, who had what might be called a more spiritual view of existence. That view as adopted by the Church and most of Medieval Europe, and the atomic theory languished for millennia.In the 17th century atomic theory began to make a comeback, as the brilliant Italian scientist Galileo expressed his belief in vacuums and scientists and philosophers tried to separate the religious/spiritual argument from the scientific. In 1658 the Irish chemist Robert Boyle performed a series of experiments on air, after which he concluded that all matter was composed of solid particles arranged into molecules, which combinations gave the matter its different properties. At the turn of the 18th century Isaac Newton further refined the atomic theory, and over the course of the next 100 years chemists made great advances in their knowledge of the composition and properties of matter.In 1808 English chemist and physicist John Dalton published \"A New System of Chemical Philosophy,\" which put the atomic theory on a truly scientific basis. It laid out a coherent picture of how elements combine to form compounds and attempted to provide physical proof of the existence of atoms. By 1869 Russian Dmitry Mendeleyev created a system to arrange the known elements according to their atomic weight in a \"periodic table,\" and over the next decades human knowledge of the properties of matter grew exponentially.In 1895 the German Wilhelm Rontgen discovered X-rays, and in 1896 Frenchman Henri Becquerel discovered radioactivity in uranium. Their work was further advanced by French pioneers Marie and Pierre Curie later in the decade. These would lead to radical alterations/refinements in the basic atomic theory.This research would continue into the 20th century with great success, eventually resulting in various world-shaking practical applications like the x-ray machine and the atom bomb, to name two. Leucippus and Democritus probably would be astonished at where their theory has led their scientific heirs.",
+    "quote": "\"The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Plastics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/plastics.json"
+        },
+        {
+            "name": "Electronics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ecology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ecology.json"
+        },
+        {
+            "name": "Nuclear Fission",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": []
+}

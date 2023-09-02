@@ -1,0 +1,33 @@
+{
+    "id": 41,
+    "name": "Bison",
+    "game_info": null,
+    "historical_info": "The North American bison, which once covered the Great Plains in massive herds, was the primary source for the meat, sinew, hide and bone necessary for survival by many native tribes. Hunted to near extinction by Americans in the late 1800s, in recent decades the buffalo has made a comeback due to federal and state wildlife programs.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bison.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        }
+    ]
+}

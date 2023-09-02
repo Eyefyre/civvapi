@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Volo|del Volo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "Epoca moderna",
+    "cost": 3100,
+    "civilopedia_entry": "Nel corso della storia, l'uomo ha sempre sognato di conquistare i cieli. Le visioni di Leonardo da Vinci sul volo sono ben note, ma accanto a lui vi furono molti altri sognatori. I primi scienziati volsero la loro attenzione ai padroni naturali del cielo, gli uccelli, e pensarono a macchine che riproducessero la forma e il movimento delle ali d'uccello (gli ornitotteri). Ma per realizzare i loro sogni quei progettisti mancavano di materiali, motori e della conoscenza dell'aerodinamica.Lo studio dell'aerodinamica fu portato avanti nel corso dei secoli XVI-XIX da brillanti scienziati come Da Vinci, Galileo, Huygens, Newton, Bernoulli, Eulero e Smeaton. Nel 1804 l'inglese George Cayley fece volare un aliante ad ala fissa e nel 1853 cre\u00f2 un modello in scala 1:1 che affid\u00f2 al suo (riluttante) vetturino in quello che fu il primo volo d'aliante a guida umana.Nel 1902 i fratelli Wright costruirono il loro aliante, perfezionando la forma delle ali. Non riuscendo a trovare nessun esperto della costruzione di motori a benzina leggera che avesse le caratteristiche desiderate, se ne progettarono e costruirono uno da soli. Il 17 dicembre 1903 l'apparecchio degli Wright vol\u00f2 quattro volte, percorrendo tratte lunghe fino a 260 metri. Negli anni seguenti, l'impresa degli Wright ispir\u00f2 il rapidissimo perfezionamento delle tecnologie che permettevano il volo. Nel 1908 l'americano Glenn Hammond Curtiss vol\u00f2 per oltre un chilometro, nel 1909 il francese Louis Bl\u00e9riot attravers\u00f2 in volo la Manica.Nel corso della Prima Guerra Mondiale si compirono enormi progressi nella tecnologia del volo, specialmente in senso offensivo, con la creazione dei caccia e dei bombardieri. Negli anni '20 l'Europa era solcata da piloti che l'attraversavano regolarmente e nel 1927 Charles Lindbergh complet\u00f2 il primo volo senza scalo attraverso l'Atlantico. La Seconda Guerra Mondiale fu testimone di enormi passi in avanti nella velocit\u00e0, portata, resistenza e potenza di fuoco dei velivoli; al suo termine entrarono in servizio i jet, i bombardieri continentali e gli elicotteri.Oggi il viaggio in aereo \u00e8 diventato un evento comune: un volo dagli USA alla Cina (un sogno impossibile solo 75 anni fa) rischia al massimo di risultare noioso. Anche se gli attacchi terroristici dell'11 settembre 2001 hanno reso gli spostamenti aerei leggermente pi\u00f9 complicati, milioni di persone nel mondo continuano a volare ogni giorno. Dal volo non si torner\u00e0 indietro.",
+    "quote": "\"L'aeronautica non \u00e8 stata n\u00e9 un settore industriale n\u00e9 una scienza. \u00c8 stata un miracolo.\" - Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "Energia a vapore|dell'Energia a vapore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+        },
+        {
+            "name": "Elettronica|dell'Elettronica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Triplano|un Triplano|dal tuo Triplano|al tuo Triplano|il tuo Triplano|da un Triplano",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/triplane.json"
+        },
+        {
+            "name": "Bombardiere della Grande Guerra|un Bombardiere della Grande Guerra|dal tuo Bombardiere della Grande Guerra|al tuo Bombardiere della Grande Guerra|il tuo Bombardiere della Grande Guerra|da un Bombardiere della Grande Guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Seebad Prora|Seebad Prora|Seebad Prora",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/prora.json"
+        }
+    ]
+}

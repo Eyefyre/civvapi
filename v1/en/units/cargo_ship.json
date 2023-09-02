@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Cargo Ship",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Establishes sea-based Trade Routes between two civilizations that yields Gold. Can also be used to deliver Food or Production within your own borders after building a Granary or a Workshop.",
+    "historical_info": "Cargo ships are those designed to transport goods and freight across water. The earliest records of commerce mention the shipping of trade goods over water, and archeology shows evidence of sea-going cargo ships in the Mediterranean and Red seas by the beginning of the 1st millennium BC. As longer voyages of trade were undertaken, cargo ship design was constantly revised; by the 1500s the Portuguese nau and Spanish galleon were the queens of international maritime trade. With the dawn of the industrial age, speed became ever more a consideration, culminating with the clipper ships of the late 1800s. Today, dozens of specialized cargo ships ply the oceans, ranging from container ships to bulk carriers to massive oil tankers.",
+    "strategy": "A Cargo Ship allows you to establish a sea-based Trade Route between two civilizations, earning Gold for both the owner and the destination civilization. It also has a much longer range than the land-based Caravans. Building a Granary or a Workshop in its home city also allows you to shuttle Food or Production among your own cities. Once you assign it to a route, it cannot defend itself, so make sure the route is clear of danger.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

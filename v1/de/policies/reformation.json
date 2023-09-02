@@ -1,0 +1,20 @@
+{
+    "id": 65,
+    "name": "Reformation",
+    "game_info": "ReformationWenn Ihr eine Religion gegr\u00fcndet habt, erhaltet Ihr einen Bonus-Reformations-Glaubenssatz.",
+    "historical_info": "Als Reformation bezeichnet man eine umfassende Bewegung zur Reform von religi\u00f6sen Organisationen oder Glaubenssystemen, die einen moralischen Verfall erlitten haben oder den eigenen Prinzipien nicht mehr treu sind. Die protestantische Reformation war eine Bewegung, welche die Reform der r\u00f6misch-katholischen Kirche zum Ziel hatte und 1517 mit der Ver\u00f6ffentlichung der 95 Thesen durch Martin Luther begann, in denen er die Verfehlungen der katholischen Kirche auflistete, so wie er sie sah. Die Bewegung l\u00f6ste rund 130 Jahre schrecklicher, blutiger Religionskriege in ganz Europa und der Neuen Welt aus. Die Christenheit wurde dadurch permanent in verschiedene Organisationen aufgesplittert, und die b\u00fcrgerliche Macht konnte endg\u00fcltig die Oberhand \u00fcber die religi\u00f6sen Instanzen im Staat gewinnen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/reformation.png",
+    "required_policies": [
+        {
+            "name": "Religi\u00f6se Toleranz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/religious_tolerance.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Fr\u00f6mmigkeit",
+        "game_info": "Fr\u00f6mmigkeit l\u00e4sst den Glauben eines Reiches florieren.Fr\u00f6mmigkeit reduziert die Bauzeit von Schreinen und Tempeln um die H\u00e4lfte. Schaltet den Bau der Gro\u00dfen Moschee von Djenn\u00e9 frei.Bei \u00dcbernahme aller Politiken erscheint ein Gro\u00dfer Prophet und Heilige St\u00e4tten produzieren +3 Kultur.",
+        "prereq_era": null,
+        "historical_info": "Fr\u00f6mmigkeit ist die Hingabe an eine bestimmte Religion oder ein geistiges Glaubenssystem. Fromme Menschen gelten in der Regel als besonders selbstgerecht und folgen meist den religi\u00f6sen Praktiken ihres Glaubens, ohne diese auch nur im Geringsten zu hinterfragen."
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 102,
+    "name": "Arciere a cavallo|un Arciere a cavallo|dal tuo Arciere a cavallo|al tuo Arciere a cavallo|il tuo Arciere a cavallo|da un Arciere a cavallo",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/horse_archer.png",
+    "game_info": "Un'unit\u00e0 veloce che attacca a distanza, ottima per attacchi rapidi e imprevedibili. Solo gli Unni possono costruirla.",
+    "historical_info": "I temibili cavalieri unni, noti per la loro estrema abilit\u00e0 con l'arco e la padronanza assoluta dell'equitazione, furono un vero flagello per l'Europa durante le invasioni del IV e V secolo d.C. Gli arcieri a cavallo, che utilizzavano potenti archi compositi, avevano perfezionato la loro tecnica andando a caccia nelle steppe dell'Asia centrale e non ebbero problemi a mettere in pratica sul campo di battaglia tutta la conoscenza accumulata. \u00c8 opinione comune degli storici che l'uso degli arcieri a cavallo da parte degli unni abbia influenzato profondamente lo sviluppo militare sia in Europa sia in Asia, un'ipotesi che sembra verificata dal grande sviluppo della cavalleria nei secoli successivi alle loro incursioni.",
+    "strategy": "Gli Arcieri a cavallo sono unit\u00e0 veloci che attaccano a distanza, letali in campo aperto. In difesa sono leggermente pi\u00f9 forti degli Arcieri su carro e, rispetto a quelli, possono muoversi su terreno accidentato senza penalit\u00e0 al movimento. Inoltre entrano in gioco con la promozione Precisione I. Come tutte le unit\u00e0 di cavalleria, gli Arcieri a cavallo sono vulnerabili all'attacco dei nemici armati di lancia. A differenza dell'Arciere su carro, un Arciere a cavallo non richiede Cavalli per essere costruito.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ruota|della Ruota",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Precisione I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/accuracy_i.json"
+        }
+    ]
+}

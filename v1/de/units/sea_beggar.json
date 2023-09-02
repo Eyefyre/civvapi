@@ -1,0 +1,35 @@
+{
+    "id": 108,
+    "name": "Wassergeuse",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sea_beggar.png",
+    "game_info": "Marineeinheit, die sich auf den Angriff von K\u00fcstenst\u00e4dten spezialisiert hat, um Gold und feindliche Schiffe einzunehmen. Nur die Holl\u00e4nder k\u00f6nnen sie bauen.",
+    "historical_info": "Die Wassergeusen (etwa \"Wasserbettler\") waren eine Vereinigung von Freibeutern, die die spanische Herrschaft der Niederlande ablehnten und w\u00e4hrend des Achtzigj\u00e4hrigen Krieges aktiv wurden. Der Name stammt von einer Gruppe niederl\u00e4ndischer Adliger, die mit einer Liste von Klagen und Bitten zum Palast der Herzogin von Parma marschierten. Die Berater der Herzogin nannten die Gruppe \"Bettler\" - der Name blieb h\u00e4ngen.1569 erhielten die Wassergeusen offizielle Autorisierung von Wilhelm von Oranien und insgesamt 84 Schiffe wurden seet\u00fcchtig gemacht. Anfangs blieben die Wassergeusen bei einfachen Beutez\u00fcgen, doch in einer verzweifelten Zeit eroberten sie eine spanische Stadt und ihre Garnison mit Gewalt. Durch ihren Sieg ermutigt wurden sie aggressiver und nahmen weitere St\u00e4dte entlang der K\u00fcste ein. Der Erfolg der Wassergeusen war wie ein Schlachtruf an die restlichen Niederlande und die gesamte Nation begann zu rebellieren. Heute gilt der Sieg \u00fcber die spanische Garnison von Brielle durch die Wassergeusen als der Beginn des Krieges um die niederl\u00e4ndische Unabh\u00e4ngigkeit.",
+    "strategy": "Marineeinheit, die sich auf den Angriff von K\u00fcstenst\u00e4dten spezialisiert hat, um Gold und feindliche Schiffe einzunehmen. Nur die Holl\u00e4nder k\u00f6nnen sie bauen. Heilt au\u00dferhalb des verb\u00fcndeten Gebietes. Beginnt mit den ersten beiden K\u00fcstenr\u00e4uber-Bef\u00f6rderungen, wodurch sie Gold durch den Angriff auf K\u00fcstenst\u00e4dte verdient. Kann alle feindlichen Marineeinheiten, die sie besiegt, als Prisenschiffe \u00fcbernehmen.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "K\u00fcstenr\u00e4uber I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "K\u00fcstenr\u00e4uber II",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/coastal_raider_ii.json"
+        },
+        {
+            "name": "Prisenschiffe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/prize_ships.json"
+        },
+        {
+            "name": "Versorgung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/supply.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Burg",
+    "game_info": "Stadt ben\u00f6tigt Stadtmauern.",
+    "strategy": "Die Burg ist ein Geb\u00e4ude des Mittelalters, das die Verteidigungsst\u00e4rke einer Stadt um 7 und die Trefferpunkte um 25 erh\u00f6ht. Die Stadt muss \u00fcber Stadtmauern verf\u00fcgen, bevor die Burg gebaut werden kann.",
+    "historical_info": "Eine Burg ist ein Geb\u00e4ude, das so angelegt ist, eine milit\u00e4rische Streitkraft (und vielleicht auch einige Zivilisten) vor Feinden zu sch\u00fctzen. Burgen sind haupts\u00e4chlich aus Stein gebaut (Holz ist leider zu leicht entflammbar) und bestehen f\u00fcr gew\u00f6hnlich aus einer \u00e4u\u00dferen Mauer und einem davon getrennten, befestigten Geb\u00e4ude im Innern, das man Donjon nennt. Eine Burg sollte au\u00dferdem \u00fcber eine eigene Wasserquelle und genug Lagerkapazit\u00e4t f\u00fcr Nahrungsmittel verf\u00fcgen.Eine gut durchdachte Burg sollte den Verteidigern die M\u00f6glichkeit bieten, die Angreifer zu attackieren, w\u00e4hrend diese sich der Burg n\u00e4hern, die Mauern erklimmen oder durch die Tore brechen wollen. Schie\u00dfscharten und Mauern mit intervallartigen Aussparungen sind absolut notwendig, w\u00e4hrend Fallluken zum Schie\u00dfen von Pfeilen oder zum Vergie\u00dfen von siedendem \u00d6l ein netter Zusatz sind.Burgen waren die gr\u00f6\u00dften und teuersten Zeichen f\u00fcr die milit\u00e4rische und wirtschaftliche Macht eines Landes, bis das Aufkommen der Schie\u00dfpulver-Artillerie sie zu ausgekl\u00fcgelten und teuren Todesfallen f\u00fcr alle im Innern machte.",
+    "cost": {
+        "production": 160,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/burg.png",
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

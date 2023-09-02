@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Repuestos",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "\u00c9poca Moderna",
+    "cost": 3100,
+    "civilopedia_entry": "Los repuestos son el resultado de un proceso de fabricaci\u00f3n en el que se crean varias copias de las piezas que componen un producto. Este proceso supone un tremendo incremento de la rapidez y rentabilidad de la fabricaci\u00f3n, lo que a su vez propici\u00f3 la Revoluci\u00f3n Industrial del siglo XIX.Uno de los principales impulsores de la industria de los repuestos fue el deseo de suministrar armas de fuego a los soldados. Al principio, los mosquetes se fabricaban artesanalmente y todos presentaban ligeras diferencias; algunos eran un poco m\u00e1s largos, otros ten\u00edan gatillos de distinto tama\u00f1o, etc. Esto no supon\u00eda necesariamente un problema para el usuario; si el mosquete se romp\u00eda, siempre pod\u00eda acudir de nuevo al artesano para que lo reparase. Pero claro, en el caso de un ej\u00e9rcito equipado con mil mosquetes, esto no era factible.Sin embargo, si todos fueran id\u00e9nticos, bien podr\u00eda utilizarse una pieza de un mosquete roto para reparar otro. Es m\u00e1s, un soldado adiestrado para el uso del mosquete podr\u00eda coger otro y obtener los mismos resultados sin tener que habituarse al dise\u00f1o concreto de su nueva arma.En la actualidad, pr\u00e1cticamente todos los productos manufacturados del planeta se construyen con repuestos. En la actualidad, los artesanos son considerados artistas, y sus productos son demasiado caros para el consumidor medio.",
+    "quote": "\"Nada es especialmente dif\u00edcil si lo divides en peque\u00f1as tareas.\" - Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        },
+        {
+            "name": "Electricidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pl\u00e1stico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/plastics.json"
+        },
+        {
+            "name": "Electr\u00f3nica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Legi\u00f3n Extranjera|Legiones Extranjeras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/foreign_legion.json"
+        },
+        {
+            "name": "Infanter\u00eda I Guerra|Infanter\u00edas I Guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Base militar|Bases militares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/military_base.json"
+        },
+        {
+            "name": "Estatua de la Libertad|Estatuas de la Libertad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/statue_of_liberty.json"
+        }
+    ]
+}

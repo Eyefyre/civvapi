@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "\u00c9cole publique|\u00c9coles publiques",
+    "game_info": "Science +1 par tranche de deux citoyen dans la ville. La ville doit poss\u00e9der une universit\u00e9.",
+    "strategy": "B\u00e2timent de milieu de jeu, l'\u00e9cole publique augmente de fa\u00e7on importante la production de science de la ville o\u00f9 elle se trouve. Votre ville doit d\u00e9j\u00e0 poss\u00e9der une universit\u00e9 ou un wat pour pouvoir accueillir une \u00e9cole publique.",
+    "historical_info": "L'\u00e9cole publique est une institution offrant aux enfants une scolarit\u00e9 gratuite. C'est un concept r\u00e9cent et \u00e9labor\u00e9 qui ne peut fonctionner que sous certaines conditions. Premi\u00e8rement, la population doit croire en l'importance de l'\u00e9ducation et \u00e9galement partir du principe qu'\u00e9duquer les plus pauvres ne constitue en rien une menace pour les classes ais\u00e9es. Deuxi\u00e8mement, la soci\u00e9t\u00e9 doit b\u00e9n\u00e9ficier d'une \u00e9conomie suffisamment fertile afin que les enfants des classes pauvres ne soient pas oblig\u00e9s de travailler pour se nourrir. Troisi\u00e8mement, la population doit faire preuve d'ouverture d'esprit et \u00eatre d\u00e9sireuse de d\u00e9penser une partie des revenus publics dans le domaine de l'\u00e9ducation. Aujourd'hui, la plupart des pays du monde sont dot\u00e9s d'un syst\u00e8me de scolarit\u00e9 publique. Les premi\u00e8res \u00e9coles publiques am\u00e9ricaines ouvrirent leurs portes durant l'\u00e8re coloniale et le premier lyc\u00e9e fut inaugur\u00e9 \u00e0 Boston en 1821.",
+    "cost": {
+        "production": 300,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/\u00e9cole_publique|\u00e9coles_publiques.png",
+    "prereq_tech": {
+        "name": "Th\u00e9orie scientifique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 3,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

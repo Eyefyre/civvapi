@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Fabbrica|la Fabbrica|una Fabbrica",
+    "game_info": "Richiede 1 Carbone.",
+    "strategy": "La Fabbrica \u00e8 un edificio di epoca industriale che aumenta significativamente la Produzione di una citt\u00e0. Per costruirla la citt\u00e0 deve gi\u00e0 possedere una Bottega (o una Casa Lunga). Creare una Fabbrica consuma 1 risorsa di Carbone.",
+    "historical_info": "Una fabbrica \u00e8 un edificio in cui si utilizzano tecniche industriali per costruire manufatti: automobili, bustini, putrelle d'acciaio, canne da pesca o qualsiasi altra cosa. Le fabbriche si sono diffuse tra il XVII e il XVIII secolo e sono pi\u00f9 efficienti dei piccoli laboratori artigianali che hanno sostituito, anche se le condizioni di lavoro possono essere molto meno piacevoli. A differenza di quanto si ritiene comunemente non \u00e8 stato Henry Ford a inventare la catena di montaggio; in realt\u00e0 \u00e8 stata introdotta negli Stati Uniti centro-occidentali nel XIX secolo nell'industria di inscatolamento della carne. Le carcasse di manzo venivano trasportate con velocit\u00e0 regolare da un punto di lavorazione all'altro con un sistema di carrelli sopraelevati; gli operai nelle varie postazioni avevano un tempo limitato per tagliare il pezzo di carne loro assegnato prima che la carcassa si spostasse verso il punto successivo. Lavorare in queste fabbriche era una delle occupazioni pi\u00f9 luride e pericolose in tutta la storia americana. I racconti di quest'epoca sono orripilanti ancora oggi.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fabbrica|la_fabbrica|una_fabbrica.png",
+    "prereq_tech": {
+        "name": "Industrializzazione|dell'Industrializzazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Impi|un Impi|dal tuo Impi|al tuo Impi|il tuo Impi|da un Impi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Specializzata nell'affrontare Cavalieri e altre unit\u00e0 a cavallo. Solo gli Zulu possono costruirla. Esegue un singolo attacco a distanza appena prima di entrare in combattimento.",
+    "historical_info": "\"Impi\" \u00e8 la parola zulu che indica un gruppo di uomini armati, bench\u00e9 durante l'Ottocento abbia cominciato a essere usata comunemente per far riferimento a uno dei reggimenti dell'impero zulu. Gli impi sono stati da sempre una caratteristica della cultura Zulu, ma il grande capitano Shaka ha introdotto profonde innovazioni dopo la sua ascesa al trono nel 1816. In aggiunta alla tradizionale mazza e alla lancia da scagliare, Shaka arm\u00f2 le sue truppe con l'assegai, una lancia corta per il corpo a corpo dotata di una larga punta di circa 30 cm di lunghezza. Inoltre introdusse uno scudo di cuoio pi\u00f9 grande e pesante (l'isihlangu) e addestr\u00f2 i soldati a colmare rapidamente la distanza che li separava dai nemici per dare il via a devastanti mischie. Strategicamente, gli impi si affidavano alla loro velocit\u00e0 e all'effetto sorpresa per superarli in numero e sopraffarli rapidamente. Pur subendo un gran numero di perdite, con questo metodo gli Zulu riportarono vittorie notevoli, anche contro truppe europee armate di fucile.",
+    "strategy": "Prima di ingaggiare il corpo a corpo l'Impi esegue un attacco a distanza con la lancia che pu\u00f2 danneggiare o uccidere l'unit\u00e0 nemica prima ancora di entrare in contatto. Solo gli Zulu possono costruirlo.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Pubblica amministrazione|della Pubblica amministrazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Giavellotti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/spear_throw.json"
+        }
+    ]
+}

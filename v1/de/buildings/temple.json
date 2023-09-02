@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Tempel",
+    "game_info": null,
+    "strategy": "Der Tempel steigert den Glauben einer Stadt, sodass Ihr schneller Religionen gr\u00fcnden und verbreiten k\u00f6nnt. Die Stadt muss \u00fcber einen Schrein (oder eine Pyramide) verf\u00fcgen, bevor ein Tempel gebaut werden kann.",
+    "historical_info": "Ein Tempel ist ein religi\u00f6ses Geb\u00e4ude, in dem Gl\u00e4ubige zur Andacht zusammenkommen k\u00f6nnen. Solche Geb\u00e4ude zeigen, dass eine Gemeinde sowohl wohlhabend als auch fromm ist, da man sich den Bau eines besonderen Geb\u00e4udes sowie die Versorgung von Priestern, Akolythen, Vestalinnen oder M\u00f6nchen darin leisten kann. In vielen alten Kulturen hatte jede Familie einen kleinen Schrein in ihren Unterk\u00fcnften. Der \u00e4lteste bekannte gesonderte Tempel ist datiert auf das 10. Jahrtausend v. Chr. und befindet sich in der s\u00fcd\u00f6stlichen T\u00fcrkei.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tempel.png",
+    "prereq_tech": {
+        "name": "Philosophie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

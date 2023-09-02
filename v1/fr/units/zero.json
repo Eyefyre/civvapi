@@ -1,0 +1,39 @@
+{
+    "id": 33,
+    "name": "Z\u00e9ro|Z\u00e9ros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/zero.png",
+    "game_info": "Unit\u00e9 a\u00e9rienne exclusive aux Japonais et con\u00e7ue pour contr\u00f4ler les cieux et intercepter tout a\u00e9ronef ennemi en approche. Cette unit\u00e9 profite d'un bonus contre les autres chasseurs et ne n\u00e9cessite pas de p\u00e9trole.",
+    "historical_info": "Le Mitsubishi A6M Z\u00e9ro \u00e9tait l'avion de chasse utilis\u00e9 par les forces japonaises tout au long de la Deuxi\u00e8me Guerre mondiale. Il a \u00e9t\u00e9 le meilleur chasseur con\u00e7u pour d\u00e9coller depuis un porte-avions au d\u00e9but de la guerre. Gr\u00e2ce \u00e0 sa maniabilit\u00e9 et \u00e0 sa longue port\u00e9e, le Z\u00e9ro d\u00e9passait largement ses \u00e9quivalents am\u00e9ricains et britanniques en combat a\u00e9rien. Au cours de la guerre, les chasseurs alli\u00e9s ont connu de nombreuses am\u00e9liorations, tandis que les forces a\u00e9riennes japonaises subissaient des p\u00e9nuries de mat\u00e9riel et de main-d'\u0153uvre. \u00c0 la fin de la guerre, le Z\u00e9ro \u00e9tait techniquement d\u00e9pass\u00e9 ; mais au sommet de sa gloire, il fut un chasseur exceptionnel et domina la zone du Pacifique.",
+    "strategy": "Le z\u00e9ro est une unit\u00e9 exclusive aux Japonais rempla\u00e7ant l'avion de chasse. De puissance moyenne, cette unit\u00e9 a\u00e9rienne se diff\u00e9rencie de son pr\u00e9d\u00e9cesseur en cela qu'elle b\u00e9n\u00e9ficie d'un bonus important lorsqu'elle combat d'autres avions de chasse et qu'elle ne n\u00e9cessite pas de p\u00e9trole. Le z\u00e9ro peut \u00eatre plac\u00e9 dans l'une de vos villes ou \u00e0 bord d'un porte-avions, se d\u00e9placer de ville en ville (ou de porte-avions en porte-avions) et effectuer des missions dans un rayon de 8\u00a0cases. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contre les avions de chasse (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_fighters_(33).json"
+        },
+        {
+            "name": "Balayage a\u00e9rien",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconnaissance a\u00e9rienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contre bombardiers/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

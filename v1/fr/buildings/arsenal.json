@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Arsenal|Arsenaux",
+    "game_info": "La ville doit poss\u00e9der un ch\u00e2teau ou un fort moghol.",
+    "strategy": "L'arsenal est un b\u00e2timent militaire de milieu de partie qui augmente la puissance d\u00e9fensive (+9) et les PV de la ville (+25), ce qui la rend plus difficile \u00e0 capturer. La ville doit d\u00e9j\u00e0 poss\u00e9der un ch\u00e2teau pour pouvoir accueillir un arsenal.",
+    "historical_info": "Un arsenal est un vaste d\u00e9p\u00f4t d'armes, abritant g\u00e9n\u00e9ralement des armes et des machines de guerre plus imposantes et dangereuses\u00a0: chars, artillerie, munitions hautement explosives, etc. Les arsenaux sont encore mieux gard\u00e9s que les d\u00e9p\u00f4ts d'armes, car la s\u00e9curit\u00e9 d'une ville enti\u00e8re pourrait \u00eatre menac\u00e9e si quiconque venait \u00e0 s'emparer d'un char ou d'un canon de 88 mm.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/arsenal|arsenaux.png",
+    "prereq_tech": {
+        "name": "M\u00e9tallurgie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

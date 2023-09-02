@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari|un Mehal Sefari|dal tuo Mehal Sefari|al tuo Mehal Sefari|il tuo Mehal Sefari|da un Mehal Sefari",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Forte unit\u00e0 terrestre, destinata a stare in prima fila, specializzata nel combattimento in terreno accidentato e nella difesa della capitale etiope. Solo l'Etiopia pu\u00f2 costruirla.",
+    "historical_info": "I Mehal Sefari erano un'unit\u00e0 scelta di guardie imperiali attive nel XIX e XX secolo. In origine dedicati esclusivamente alla protezione degli imperatori d'Etiopia, i Mehal Sefari furono successivamente integrati nell'esercito, in cui costituirono una formidabile brigata. Composti da unit\u00e0 speciali di fanteria, cavalleria, artiglieria e tiratori scelti, i Mehal Sefari difendevano la loro reputazione di truppe sceltissime con un addestramento rigoroso e l'uso dell'equipaggiamento pi\u00f9 moderno.",
+    "strategy": "I Mehal Sefari costituiscono la spina dorsale dell'esercito etiope. Quando entrano in gioco hanno gi\u00e0 delle promozioni che danno loro un bonus quando combattono in terreno accidentato e vicino alla loro capitale. Sono anche leggermente pi\u00f9 economici da costruire dei Fucilieri, che sostituiscono.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rigatura delle canne|della Rigatura delle canne",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Addestramento I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/drill_i.json"
+        },
+        {
+            "name": "Bonus vicino alla capitale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/near_capital_bonus.json"
+        }
+    ]
+}

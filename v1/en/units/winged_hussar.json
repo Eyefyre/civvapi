@@ -1,0 +1,43 @@
+{
+    "id": 122,
+    "name": "Winged Hussar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/winged_hussar.png",
+    "game_info": "Heavy Mounted Unit specialized in defeating enemy mounted units. This unit is faster and more powerful than the Lancer, which it replaces. Forces defenders to retreat when it inflicts more damage than it receives. May only be built by the Polish.",
+    "historical_info": "The \"winged\" type of hussar was introduced into the Polish-Lithuanian military by King Stephen Bathory in the 1570s. Winged hussars generally carried a number of secondary weapons, usually a warhammer, a szabla saber, and one or two wheellock (later flintlock) pistols in saddle holsters. But their most distinctive accoutrement was the huge \"wings,\" wooden frames attached to either the saddle or the rider's shoulders, covered with eagle, swan, goose or ostrich feathers. The purpose of the wings has never been definitely determined, but theories range from defense against enemy attacks from behind to making their own horse deaf to battle sounds, to intimidating enemy foot soldiers by making the hussars appear larger than normal men.",
+    "strategy": "The Winged Hussar is the Lancer replacement, and only the Polish may build it. Faster and more powerful than the Lancer, the Winged Hussar forces a defender to retreat when it inflicts more damage than it receives. A defender who cannot retreat instead takes extra damage.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Heavy Charge",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/heavy_charge.json"
+        },
+        {
+            "name": "Shock I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/shock_i.json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/formation_i.json"
+        }
+    ]
+}

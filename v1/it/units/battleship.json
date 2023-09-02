@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Corazzata|una Corazzata|dalla tua Corazzata|alla tua Corazzata|la tua Corazzata|da una Corazzata",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battleship.png",
+    "game_info": "L'unit\u00e0 navale che attacca a distanza pi\u00f9 potente del gioco sino all'arrivo dell'Incrociatore lanciamissili",
+    "historical_info": "Le corazzate sono navi da guerra grandi e pesantemente corazzate, armate con molteplici cannoni di grosso calibro. Sono discendenti dirette delle \"navi di linea\" dell'et\u00e0 della vela, equipaggiate per dare battaglia alle pi\u00f9 grandi e temibili navi da guerra nemiche. Prima dell'avvento dell'aviazione e dei sommergibili le corazzate dominavano i mari ed erano in grado di affondare qualsiasi cosa si parasse sul loro cammino. I loro potentissimi cannoni potevano essere usati anche come artiglieria per bombardare bersagli posti diversi chilometri al largo della costa. Nonostante le loro dimensioni, la velocit\u00e0, le pesanti difese e la potenza di fuoco, le corazzate erano estremamente vulnerabili sia agli attacchi aerei sia a quelli dei sommergibili. A Pearl Harbor gli apparecchi giapponesi che si erano levati in volo dalle portaerei affondarono quattro corazzate americane e ne danneggiarono pesantemente altre quattro. Questo convinse gli alleati dell'importanza fondamentale delle portaerei come armi d'offesa, cos\u00ec per il resto della guerra le corazzate furono riservate al bombardamento delle coste e alla scorta delle portaerei.",
+    "strategy": "La Corazzata \u00e8 una nave da guerra estremamente potente sia in combattimento ravvicinato sia a distanza. Il suo raggio d'attacco \u00e8 di 3 esagoni, cosa che le consente di bombardare citt\u00e0 e unit\u00e0 che si trovano ben lontane dalla costa. La sua abilit\u00e0 di fuoco indiretto le consente di colpire anche gli obiettivi che non pu\u00f2 vedere (a patto che siano visibili ad altre unit\u00e0 amiche). La Corazzata \u00e8 vulnerabile agli attacchi dall'aria e ai sottomarini.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Elettronica|dell'Elettronica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fuoco indiretto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

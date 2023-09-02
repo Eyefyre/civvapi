@@ -1,0 +1,27 @@
+{
+    "id": 60,
+    "name": "Chu-Ko-Nu",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chu-ko-nu.png",
+    "game_info": "Medieval ranged infantry Unit. Only the Chinese may build it. This Unit may fire twice in one turn, unlike the Crossbowman which it replaces.",
+    "historical_info": "The Chu-Ko-Nu is a rather nifty repeating crossbow invented in China at the end of the second century AD. The machine looks something like a standard European crossbow with a box bolted to its top, just above the string. The box was filled with crossbow bolts. In operation, the soldier would pull a lever to cock the string and then push the lever back, causing a bolt to drop out of the box and into place to be fired. This gave the Chu-Ko-Nu a faster rate of fire than a standard European crossbow. However, the Chu-Ko-Nu fired a lighter bolt and had a shorter range than a European machine. Which was the superior weapon would depend upon circumstances - the European model might prevail in open terrain against heavily armored opponents, while the Chu-Ko-Nu would probably be better at short-range against large numbers of lighter-armored attackers.",
+    "strategy": "The Chu-Ko-Nu is the Chinese unique unit, replacing the Crossbowman. The Chu-Ko-Nu is slightly less powerful than the Crossbowman, but it can attack twice during a turn, giving it a hefty offensive punch. This unit is particularly deadly when garrisoned in a city that is under attack.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Machinery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "May Attack Twice",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_attack_twice.json"
+        }
+    ]
+}

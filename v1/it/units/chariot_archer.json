@@ -1,0 +1,31 @@
+{
+    "id": 71,
+    "name": "Arciere su carro|un Arciere su carro|dal tuo Arciere su carro|al tuo Arciere su carro|il tuo Arciere su carro|da un Arciere su carro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chariot_archer.png",
+    "game_info": "Una veloce unit\u00e0 che attacca da lontano, molto efficace su terreno pianeggiante.",
+    "historical_info": "Prima dell'invenzione della staffa era praticamente impossibile combattere a cavallo. Senza alcun appoggio saldo bastava una piccola spinta per disarcionare un guerriero, con effetti disastrosi. I primi cavalli comparsi sui campi di battaglia tiravano i carri da guerra. Un carro normalmente era trainato da uno o due cavalli e trasportava un cocchiere e un arciere. La grande mobilit\u00e0 dei carri li rendeva particolarmente pericolosi per la fanteria nemica: potevano arrivare velocemente a tiro, scagliare una raffica di frecce e allontanarsi molto prima che i soldati a piedi potessero reagire. Il maggior punto debole dei carri era l'impossibilit\u00e0 di muoversi su terreno accidentato. In campo aperto dominavano la battaglia; in collina o in presenza di alberi si trovavano in grande difficolt\u00e0.",
+    "strategy": "Gli Arcieri su carro sono unit\u00e0 veloci che attaccano a distanza, letali su terreno aperto. Sono un po' pi\u00f9 potenti degli Arcieri e possono coprire una distanza doppia. Tuttavia subiscono una penalit\u00e0 al movimento quando entrano in esagoni di Foresta, Giungla o Collina (a meno che non vi sia stata costruita una strada). In quanto unit\u00e0 a cavallo, un Arciere su carro \u00e8 vulnerabile ai Lancieri.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Ruota|della Ruota",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Penalit\u00e0 su terreno accidentato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

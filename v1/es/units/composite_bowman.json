@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "Saetero de poleas|Saeteros de poleas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Unidad de infanter\u00eda cl\u00e1sica de combate a distancia.",
+    "historical_info": "El compuesto, el m\u00e1s sofisticado de los arcos, se diferencia del resto de modelos tradicionales en que est\u00e1 construido con varias capas de huesos, cuernos u otros materiales pegados juntos para formar un arco muy fuerte y potente. Se cree que el arco compuesto procede de las tribus n\u00f3madas de Asia y que se invent\u00f3 en alg\u00fan momento del primer o segundo milenio a. C.",
+    "strategy": "El Saetero de poleas es el doble de poderoso que el Arquero. Como unidad de combate a distancia, puede infligir un da\u00f1o importante a las unidades que est\u00e9n a dos hex\u00e1gonos de distancia, pero es vulnerable a los combates cuerpo a cuerpo. Ponlo en una ciudad para defenderla y prot\u00e9gelo con unidades de cuerpo a cuerpo cuando est\u00e9 en movimiento.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Construcci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

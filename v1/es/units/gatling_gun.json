@@ -1,0 +1,23 @@
+{
+    "id": 120,
+    "name": "Ametralladora Gatling|Ametralladoras Gatling",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/gatling_gun.png",
+    "game_info": "Una unidad de combate a distancia de mediados del juego que debe encontrarse adyacente a un enemigo para atacar.",
+    "historical_info": "La ametralladora Gatling, precursora de la ametralladora moderna, la invent\u00f3 en 1861 el estadounidense Richard Gatling con la esperanza de disminuir el tama\u00f1o de los ej\u00e9rcitos y demostrar lo in\u00fatil que es la guerra. Contaba un dise\u00f1o de varios ca\u00f1ones giratorios, con una manivela de acci\u00f3n manual para mover el mecanismo. Cuando un ca\u00f1\u00f3n entraba en posici\u00f3n de disparo, expulsaba el casquillo gastado, cargaba una nueva bala y el ca\u00f1\u00f3n previo pasaba a enfriarse. De esta manera, pod\u00eda mantener una cadencia de fuego alta sin sobrecalentarse. Lo que a la ametralladora Gatling le faltaba en precisi\u00f3n lo compensaba con creces con su letalidad.Aunque el ej\u00e9rcito de los Estados Unidos no la adopt\u00f3 oficialmente hasta 1866, la utilizaron por primera vez en combate en la Guerra de Secesi\u00f3n las fuerzas de la Uni\u00f3n. Posteriormente se vio en acci\u00f3n en la Guerra del Pac\u00edfico entre Per\u00fa y Chile (1879-1883), lo que convenci\u00f3 a los ej\u00e9rcitos europeos de su utilidad contra las masas de enemigos. En una d\u00e9cada, todas las grandes potencias adoptaron la ametralladora Gatling, que utilizaron con gran eficacia para expandir sus imperios coloniales contra pueblos nativos como los ndebele, zul\u00faes, beduinos, turcomanos y b\u00f3xers. En la primera d\u00e9cada del siglo XX, el dise\u00f1o de ametralladoras accionadas a gas hizo que la Gatling quedara obsoleta. El ej\u00e9rcito de los Estados Unidos retir\u00f3 del servicio todos los modelos de esta ametralladora en 1911, y poco despu\u00e9s hicieron lo mismo los ej\u00e9rcitos europeos.",
+    "strategy": "La Ametralladora Gatling es una unidad de ataque a distancia de mediados del juego y que no es de asedio. Es mucho m\u00e1s potente que las primeras unidades de ataque a distancia, como el Ballestero. Solo tiene una casilla de alcance, pero aun as\u00ed puede infligir da\u00f1os importantes a otras unidades y salir ilesa. Pon Ametralladoras Gatling en tu ciudad para defenderla.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Industrializaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/industrialization.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Schmiede",
+    "game_info": "+15% Produktion bei der Ausbildung von Landeinheiten.Jede von dieser Stadt genutzte Quelle von Eisen erzeugt +1 Produktion.Die Stadt muss \u00fcber eine genutzte Quelle von Eisen in der N\u00e4he verf\u00fcgen.",
+    "strategy": "Die Schmiede kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Eisen in der N\u00e4he verf\u00fcgen. Sie beschleunigt die Produktion von Landeinheiten in der Stadt.",
+    "historical_info": "Eine Schmiede ist ein Geb\u00e4ude, das eine Feuerstelle beinhaltet, die die Temperaturen erzeugen kann, die zum Schmelzen und Formen von Eisen notwendig sind, um Hufeisen, N\u00e4gel, Pfeilspitzen und andere Eisenwaren herzustellen. Dazu ist erhebliche Hitze erforderlich und ein Schmied hat oft einen Sch\u00fcler oder Gehilfen, der nicht viel mehr tut, als Luft in die Flammen zu pumpen, um diese hei\u00df zu halten. Ein Schmied bearbeitet Eisen, indem er es gl\u00fchend hei\u00df macht und dann mit verschiedenen H\u00e4mmern auf einem Amboss in Form h\u00e4mmert. Eisen kann auch in eine Form aus Ton, Sand oder Metall gegossen und die Form entfernt werden, sobald das Eisen sich weit genug abgek\u00fchlt hat, um die Form zu halten.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schmiede.png",
+    "prereq_tech": {
+        "name": "Metallguss",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

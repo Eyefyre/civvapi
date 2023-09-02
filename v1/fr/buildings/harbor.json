@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Port|Ports",
+    "game_info": "Forme une [ICON_CONNECTED] connexion maritime entre la ville o\u00f9 il est construit et la capitale (si elle n'est pas d\u00e9j\u00e0 [ICON_CONNECTED] reli\u00e9e par la terre). Les routes commerciales maritimes provenant de cette ville disposent d'une port\u00e9e augment\u00e9e de 50% et produisent 1 Or suppl\u00e9mentaire si elles sont reli\u00e9es \u00e0 une autre civilisation.La ville doit se trouver sur la c\u00f4te.",
+    "strategy": "Le port est un b\u00e2timent du Moyen \u00c2ge. Il am\u00e9liore la port\u00e9e et la production d' or des routes commerciales. Il permet d'\u00e9tablir des \"connexions urbaines maritimes\" (voir r\u00e8gles) entre les villes. Le port augmente \u00e9galement la production g\u00e9n\u00e9r\u00e9e par une ressource maritime am\u00e9nag\u00e9e.",
+    "historical_info": "Un port est une enceinte maritime o\u00f9 les navires et bateaux jettent l'ancre. M\u00eame si certains ports sont \"naturels\", la plupart ont n\u00e9cessit\u00e9 des travaux de dragage, ainsi que la construction de digues et de brise-vents. De plus, les ports sont \u00e9quip\u00e9s de docks et d'embarcad\u00e8res pour le chargement et le d\u00e9chargement des navires marchands, ainsi que d'entrep\u00f4ts pour stocker les biens en transit.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/port|ports.png",
+    "prereq_tech": {
+        "name": "Boussole",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

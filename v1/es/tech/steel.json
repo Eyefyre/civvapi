@@ -1,0 +1,37 @@
+{
+    "id": 31,
+    "name": "Acero",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steel.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 485,
+    "civilopedia_entry": "El acero es una aleaci\u00f3n (mezcla) de hierro y carb\u00f3n. Dependiendo de la proporci\u00f3n de uno y otro, el metal resultante puede ser mucho m\u00e1s fuerte, flexible y resistente a la corrosi\u00f3n. El hierro se utiliz\u00f3 por primera vez en el 2000 a. C. y, desde ese mismo momento, ya empezaron a producirse cantidades peque\u00f1as de acero. Por lo general, el hierro se produce de dos formas: forjado o fundido. El primero es m\u00e1s flexible; el segundo, m\u00e1s duro y quebradizo, pero tambi\u00e9n mucho m\u00e1s barato.En 1751, el inventor brit\u00e1nico Benjamin Huntsman fund\u00f3 una sider\u00fargica en Sheffield, Inglaterra. La f\u00e1brica de Huntsman utiliz\u00f3 el \"proceso de crisol\" para fabricar acero, y este m\u00e9todo se extendi\u00f3 r\u00e1pidamente por Europa y Estados Unidos, hasta que finalmente lleg\u00f3 a Asia y al resto del mundo. El siguiente gran avance se dio en Estados Unidos en 1855, cuando el inventor estadounidense Henry Bessemer dio con el llamado \"proceso Bessemer\" para fabricar acero. Tras perfeccionarlo un poco, permiti\u00f3 un aumento espectacular en la producci\u00f3n mundial de acero. A inicios del siglo XX, \u00e9sta ya llegaba a unos 50 millones de toneladas anuales.",
+    "quote": "\"John Henry le dijo a su capit\u00e1n:\u2014Un hombre no es m\u00e1s que un hombre,y antes de dejar que vuestra perforadora a vapor me derrote,morir\u00e9 con el martillo en la mano.\"- \"The Ballad of John Henry, the Steel-Driving Man\", balada tradicional estadounidense",
+    "tech_prereqs": [
+        {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "P\u00f3lvora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Soldado con espada larga|Soldados con espada larga",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/longswordsman.json"
+        },
+        {
+            "name": "Samur\u00e1i|Samur\u00e1i",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/samurai.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Polvor\u00edn|Polvorines",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/armory.json"
+        }
+    ]
+}

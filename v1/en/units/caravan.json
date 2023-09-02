@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Caravan",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Establishes land-based Trade Routes between two civilizations that yields Gold. Can also be used to deliver Food or Production within your own borders after building a Granary or a Workshop.",
+    "historical_info": "From time immemorial traders have used beasts of burden - from horses and mules to camels and llamas - to engage in long-range commerce. The first historical records of caravans date to around 1000 BC when camel trains brought gems, precious metals, incense and spices up the west coast of Arabia, linking India with Egypt, Phoenicia, and the Mesopotamian empires. Many caravan routes, such as the famous Silk Road from China to the Middle East, shaped history as surely as wars and beliefs. Although largely supplanted by motorized transport, pack caravans still operate across such inhospitable terrain as the fringes of the Sahara and Gobi deserts.",
+    "strategy": "A Caravan allow you to establish a land-based Trade Route between two civilizations, earning Gold for both the owner and the destination civilization. Building a Granary or a Workshop in its home city also allows you to shuttle Food or Production among your own cities. Once you assign it to a route, it cannot defend itself, so make sure the route is clear of danger.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Animal Husbandry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

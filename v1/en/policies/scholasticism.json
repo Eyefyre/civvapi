@@ -1,0 +1,20 @@
+{
+    "id": 69,
+    "name": "Scholasticism",
+    "game_info": "ScholasticismAll City-States which are Allies provide a Science bonus equal to 25% of what they produce for themselves.",
+    "historical_info": "Scholasticism is a style of teaching employed in medieval European universities from around 1000-1500 AD. The method emphasized critical reasoning and debate. The teacher would choose a book for study, and then he and the students would debate the meaning of the book, examine other books on the same topic, examine any criticism of the work, and so forth, by so doing gaining a fuller understanding of the topic than might be gained by rote memorization. The movement was largely fueled by the rediscovery of the works of Greek philosophers and subsequent attempts to integrate them with Christianity.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/scholasticism.png",
+    "required_policies": [
+        {
+            "name": "Philanthropy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/philanthropy.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Patronage",
+        "game_info": "Patronage enhances the benefits of City-State friendship.Adopting Patronage will cause Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you Great People.",
+        "prereq_era": "Classical Era",
+        "historical_info": "Patronage is the policy where the wealthy and powerful - often the nobility - support the talented artisans in a society. In many ancient societies, a society's wealth was concentrated in a few individuals: the Royal Family, say, or the merchant princes. Painters, sculptors, musicians, and other gifted artists worked for the elite, as they were the only ones who could afford to pay them. While perhaps unfair to commoners, this system has produced brilliant works by the likes of Leonardo da Vinci, Ben Johnson, and Mozart. The system is enjoying something of a revival today, with the role of patron being taken by mega-corporations rather than individuals."
+    }
+}

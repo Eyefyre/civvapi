@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "name": "Musketeer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketeer.png",
+    "game_info": "One of the first gunpowder units of the game. Only the French may build it. This Unit has a higher Combat Strength than the Musketman, which it replaces.",
+    "historical_info": "Made famous by the swashbuckling tales of Alexandre Dumas, the Musketeers were elite French soldiers armed with sword and musket. Created in 1622 as a \"junior unit\" in the Royal Guard, the Musketeers were open to the lower ranks of the French aristocracy, while the more prestigious guard units were reserved for the higher classes. The Musketeers had a reputation for fighting spirit and swagger and were much admired in Paris and the country at large. They were disbanded at the end of the eighteenth century.",
+    "strategy": "The Musketeer is the French unique unit, replacing the Musketman. The Musketeer is significantly more powerful than the Musketman, making it the most powerful foot soldier unit in the game (until the introduction of Industrial Era Infantry units).",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Gunpowder",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

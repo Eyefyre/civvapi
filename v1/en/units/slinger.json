@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Slinger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, and is even more fragile if subjected to a melee attack. However it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.",
+    "historical_info": "The Inca warriors were renowned slingers. Their projectile of choice was a rounded stone. While a sling does not have the range or stopping power of a bow and arrow, slings are remarkably small and light weapons, and infantry warriors could easily carry them without becoming encumbered. And as is written in the Old Testament, a trained slinger can kill even the largest opponent with but a single stone...",
+    "strategy": "The Slinger is an Ancient Era ranged infantry Unit that can strike foes from afar. This Incan Unique Unit can withdraw before most melee attacks: use it to harass your foes. However the Slinger can be easily defeated if the enemy pins it against obstructions or chases it with fast units.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Archery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Withdraw Before Melee",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

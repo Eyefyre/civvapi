@@ -1,0 +1,140 @@
+[
+    {
+        "resolution_id": 1,
+        "name": "Leader del Mondo",
+        "summary": "Viene designato un Leader del Mondo. Se una civilt\u00e0 riceve il supporto di un numero sufficiente di Delegati nel Congresso, il suo leader ottiene una Vittoria diplomatica. Il numero di Delegati necessario dipende dal numero di civilt\u00e0 e citt\u00e0-stato in gioco e pu\u00f2 essere verificato nella schermata del Congresso Mondiale.Se nessuna civilt\u00e0 riceve abbastanza voti per vincere, le due civilt\u00e0 che ne hanno ricevuti di pi\u00f9 guadagnano permanentemente 2 Delegati extra, che potranno usare nelle sedute successive.Non pu\u00f2 essere presentata da una civilt\u00e0. Proposta automaticamente a intervalli regolari una volta che il Congresso Mondiale si trasforma nelle Nazioni Unite.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/world_leader.json"
+    },
+    {
+        "resolution_id": 2,
+        "name": "Scelta dell'ospite",
+        "summary": "Si designa una civilt\u00e0 come ospite del Congresso. L'ospite ottiene Delegati extra e ha la facolt\u00e0 di presentare risoluzioni.Non pu\u00f2 essere proposta da una civilt\u00e0. Proposta automaticamente man mano che le civilt\u00e0 passano alle epoche successive.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/choose_host.json"
+    },
+    {
+        "resolution_id": 3,
+        "name": "Embargo verso le citt\u00e0-stato",
+        "summary": "Non si possono stabilire Rotte commerciali con le citt\u00e0-stato. Rotte commerciali simili gi\u00e0 esistenti sono abolite e devono essere riassegnate.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/embargo_city-states.json"
+    },
+    {
+        "resolution_id": 4,
+        "name": "Embargo",
+        "summary": "Non \u00e8 possibile stabilire Rotte commerciali fra la civilt\u00e0 prescelta e qualsiasi altra civilt\u00e0. Rotte commerciali simili gi\u00e0 esistenti sono abolite e devono essere riassegnate.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/embargo.json"
+    },
+    {
+        "resolution_id": 5,
+        "name": "Abolire lusso",
+        "summary": "Una risorsa di lusso viene designata come immorale, a rischio o comunque inappropriata all'uso da parte della popolazione. Finch\u00e9 il bando resta in atto, le civilt\u00e0 non ricevono pi\u00f9 Felicit\u00e0 da quella risorsa.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/ban_luxury.json"
+    },
+    {
+        "resolution_id": 6,
+        "name": "Tasse esercito regolare",
+        "summary": "I costi di mantenimento delle unit\u00e0 costano il 25% di Oro in pi\u00f9.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/standing_army_tax.json"
+    },
+    {
+        "resolution_id": 7,
+        "name": "Scienziati ospiti",
+        "summary": "Le civilt\u00e0 ricercano il 20% pi\u00f9 velocemente una tecnologia che \u00e8 gi\u00e0 stata scoperta da almeno un'altra civilt\u00e0.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/scholars_in_residence.json"
+    },
+    {
+        "resolution_id": 8,
+        "name": "Fiera mondiale",
+        "summary": "D\u00e0 inizio al progetto Fiera mondiale. Una volta avviato, le civilt\u00e0 possono fornire Produzione per il suo completamento selezionando il progetto nella lista di possibili produzioni delle citt\u00e0. Una volta completato, le civilt\u00e0 ricevono bonus diversi in base all'entit\u00e0 del loro contributo.   ",
+        "project_prizes": {
+            "gold": "La Cultura aumenta del 100% per 20 turni.",
+            "silver": "Politica Sociale gratuita.",
+            "bronze": "500 punti verso la prossima Et\u00e0 dell'Oro."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/world's_fair.json"
+    },
+    {
+        "resolution_id": 9,
+        "name": "Giochi internazionali",
+        "summary": "D\u00e0 inizio al progetto Giochi internazionali. Una volta avviato, le civilt\u00e0 possono fornire Produzione per il suo completamento selezionando il progetto nella lista di possibili produzioni delle citt\u00e0. Una volta completato, le civilt\u00e0 ricevono bonus diversi in base all'entit\u00e0 del loro contributo.  Disponibile dopo che una qualsiasi civilt\u00e0 ha scoperto la Radio.",
+        "project_prizes": {
+            "gold": "Il Turismo aumenta del 100% per 20 turni. Politica Sociale gratuita.",
+            "silver": "+3 Felicit\u00e0. Aumento \"una tantum\" di 30 Influenza sulle citt\u00e0-stato.",
+            "bronze": "+3 Felicit\u00e0."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/international_games.json"
+    },
+    {
+        "resolution_id": 10,
+        "name": "Stazione Spaziale Internazionale",
+        "summary": "D\u00e0 inizio al progetto Stazione Spaziale Internazionale. Una volta avviato, le civilt\u00e0 possono fornire Produzione per il suo completamento selezionando il progetto nella lista di possibili produzioni delle citt\u00e0. Una volta completato, le civilt\u00e0 ricevono bonus diversi in base all'entit\u00e0 del loro contributo.  Disponibile dopo che una qualsiasi civilt\u00e0 ha scoperto i Satelliti.",
+        "project_prizes": {
+            "gold": "La meraviglia Stazione Spaziale Internazionale compare nella capitale. +1 Produzione dagli scienziati e +1 Scienza dagli ingegneri. I Grandi Scienziati forniscono il 33% di Scienza in pi\u00f9 quando sono utilizzati per scoprire nuove tecnologie. Si pu\u00f2 costruire solo attraverso uno sforzo cooperativo coordinato dal Congresso Mondiale.",
+            "silver": "Grande Scienziato gratuito.",
+            "bronze": "Contributo una tantum alla Ricerca scientifica."
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/international_space_station.json"
+    },
+    {
+        "resolution_id": 11,
+        "name": "Siti di interesse culturale",
+        "summary": "Ogni Grande Meraviglia fornisce +3 Cultura alla sua citt\u00e0.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/cultural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 12,
+        "name": "Beni culturali naturali",
+        "summary": "Ogni Meraviglia naturale fornisce +5 Cultura quando viene sfruttata.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/natural_heritage_sites.json"
+    },
+    {
+        "resolution_id": 13,
+        "name": "Non-proliferazione Nucleare",
+        "summary": "A tutte le civilt\u00e0 \u00e8 impedita la costruzione di nuove armi nucleari (Bomba atomica e Missili nucleari). Le armi gi\u00e0 realizzate, comunque, non sono disinnescate.Disponibile dopo che una qualsiasi civilt\u00e0 ha scoperto la Balistica avanzata.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/nuclear_non-proliferation.json"
+    },
+    {
+        "resolution_id": 14,
+        "name": "Religione mondiale",
+        "summary": "Si designa una religione come Religione mondiale ufficiale. Le civilt\u00e0 che seguono tale religione nella maggioranza delle citt\u00e0 del loro impero guadagnano 2 Delegati extra. La religione si diffonde il 25% pi\u00f9 velocemente e la sua Citt\u00e0 santa riceve il 50% di Turismo in pi\u00f9. In un dato momento pu\u00f2 esserci una sola Religione mondiale.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/world_religion.json"
+    },
+    {
+        "resolution_id": 15,
+        "name": "Ideologia mondiale",
+        "summary": "Si designa un'Ideologia come Ideologia mondiale ufficiale. Le civilt\u00e0 che seguono tale Ideologia guadagnano 2 Delegati extra. L'Opinione Pubblica in favore di tale Ideologia aumenta in tutte le civilt\u00e0. In un dato momento pu\u00f2 esserci una sola Ideologia mondiale.Disponibile dopo che una qualsiasi civilt\u00e0 ha scoperto la Radio.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/world_ideology.json"
+    },
+    {
+        "resolution_id": 16,
+        "name": "Finanziamento delle arti",
+        "summary": "Velocizza del 33% la generazione di Grandi Scrittori, Grandi Artisti e Grandi Musicisti. Rallenta del 33% la generazione di Grandi Scienziati, Grandi Ingegneri e Grandi Mercanti.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/arts_funding.json"
+    },
+    {
+        "resolution_id": 17,
+        "name": "Finanziamento delle scienze",
+        "summary": "Velocizza del 33% la generazione di Grandi Scienziati, Grandi Ingegneri e Grandi Mercanti. Rallenta del 33% la generazione di Grandi Scrittori, Grandi Artisti e Grandi Musicisti.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/sciences_funding.json"
+    },
+    {
+        "resolution_id": 18,
+        "name": "Punti di riferimento storici",
+        "summary": "I miglioramenti nelle caselle creati dai Grandi Personaggi forniscono +2 Cultura quando sfruttati, mentre i Punti di riferimento costruiti dagli Archeologi forniscono +4 Cultura quando sfruttati.Disponibile dopo che una qualsiasi civilt\u00e0 ha scoperto l'Archeologia.",
+        "project_prizes": null,
+        "url": "https://eyefyre.github.io/civvapi/v1/it/resolutions/historical_landmarks.json"
+    }
+]

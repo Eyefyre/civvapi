@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hansekontor",
+    "game_info": "Einzigartige Bank-Version der Deutschen. +5% Produktion f\u00fcr jeden Handelsweg Eurer Zivilisation mit einem Stadtstaat. Handelswege anderer Spieler zu einer Stadt mit einem Hansekontor bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "strategy": "Zus\u00e4tzlich zu den F\u00e4higkeiten der Bank (zus\u00e4tzliche Goldproduktion und zus\u00e4tzliches Gold durch Handelswege), bringt das Hansekontor Produktion f\u00fcr jeden Handelsweg in Eurer Zivilisation, der zu einem Stadtstaat f\u00fchrt. Diese Handelswege k\u00f6nnen beliebige St\u00e4dte verbinden, auch wenn diese kein Hansekontor haben. (Beispiel: Wenn Ihr Handelswege von Berlin nach Genf, M\u00fcnchen nach Genf, M\u00fcnchen nach Berlin und Berlin nach Br\u00fcssel habt, erhalten alle St\u00e4dte mit Hansekontor +15% Produktion.) Nur Deutschland kann es bauen.",
+    "historical_info": "Abgeleitet von dem bereits aus dem Alt- und Mittelhochdeutschen bekannten Begriff f\u00fcr \"Kaufmannsverbund\" war die Hanse ein freiwilliges B\u00fcndnis von Kauf- und Handelsleuten, die sich in einer Stadt zusammentaten, um den Schutz und den Betrieb ihrer Gesch\u00e4fte zu gew\u00e4hrleisten. In den Handelsh\u00e4fen der Ost- und Nordsee wurden diese Kaufmannsgilden im 13. Jahrhundert sehr m\u00e4chtig und einflussreich und hatten ihre Zentren in so genannten Hansekontoren. In den gr\u00f6\u00dften davon befanden sich nicht nur die Verwaltungsr\u00e4ume der Gilde, sondern auch Lagerr\u00e4ume, Versammlungsr\u00e4ume, M\u00e4rkte, Banken und, wenn sie am Wasser lagen, auch Docks. Das erste Hansekontor wurde wohl 1159 n. Chr. in L\u00fcbeck errichtet, um den Handel zwischen Westeuropa und den an Ressourcen reichen Gebieten im Norden Russlands zu f\u00f6rdern. 1250 n. Chr. schlossen sich offiziell mehrere deutsche Gilden zur Hanse zusammen, um die Handelswege im Baltikum zu sichern, einheitliche Wechsel durchzusetzen und ihre St\u00e4dte in kommerzieller Hinsicht zu entwickeln. Die Hanse sollte in dieser Region bis zum Ende des 17. Jahrhunderts eine gro\u00dfe politische, milit\u00e4rische und wirtschaftliche Rolle spielen und war unter anderem ma\u00dfgeblich am Hansisch-Niederl\u00e4ndischen Krieg (1438 - 1441) und dem Hansisch-Englischen Krieg (1470 - 1474) beteiligt.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hansekontor.png",
+    "prereq_tech": {
+        "name": "Bankwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

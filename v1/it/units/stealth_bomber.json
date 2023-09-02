@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Bombardiere invisibile|un Bombardiere invisibile|dal tuo Bombardiere invisibile|al tuo Bombardiere invisibile|il tuo Bombardiere invisibile|da un Bombardiere invisibile",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "Un'unit\u00e0 aerea a largo raggio che sgancia un carico di morte sulle unit\u00e0 e sulle citt\u00e0 nemiche.",
+    "historical_info": "Parallelamente all'evoluzione dei missili antiaerei, anche la progettazione dei bombardieri tattici e strategici ha fatto molti progressi. Uno dei modi pi\u00f9 efficaci per evitare di essere abbattuti dal nemico \u00e8 di rimanere invisibili ai suoi radar e agli altri sistemi di rilevamento. Il moderno bombardiere stealth \u00e8 costruito con materiali speciali anti-radar e ha una forma progettata esplicitamente per deflettere i raggi. I bombardieri stealth possono trasportare bombe nucleari o tradizionali. Per quanto efficaci, questi bombardieri sono anche incredibilmente costosi: ogni B-2 americano costa circa un miliardo di dollari, abbastanza da mandare in bancarotta ogni paese tranne le pi\u00f9 ricche super-potenze.",
+    "strategy": "Il Bombardiere invisibile \u00e8 un Bombardiere migliorato che ha un raggio d'azione pi\u00f9 ampio, una forza di combattimento a distanza maggiore e la capacit\u00e0 di evitare i caccia e l'antiaerea nemica. Il Bombardiere invisibile ha l'abilit\u00e0 Ricognizione aerea, il che significa che all'inizio del turno ogni cosa in un raggio di 6 caselle dalla sua posizione viene rivelata. \u00c8 da notare che i Bombardieri invisibili non possono essere trasportati sulle portaerei. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Invisibilit\u00e0|dell'Invisibilit\u00e0",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Manovre evasive (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Ricognizione aerea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+        }
+    ]
+}

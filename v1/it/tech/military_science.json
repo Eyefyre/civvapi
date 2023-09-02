@@ -1,0 +1,57 @@
+{
+    "id": 46,
+    "name": "Scienza militare|della Scienza militare",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/military_science.png",
+    "era": "Epoca industriale",
+    "cost": 1600,
+    "civilopedia_entry": "La scienza militare studia l'applicazione del potere bellico per il raggiungimento di obiettivi politici. Ha molte diramazioni e aree di competenza, e in genere viene insegnata nelle accademie militari. Per esempio, quanta strada pu\u00f2 percorrere un esercito in marcia e quante calorie servono a un soldato per rimanere in ottime condizioni? Ancora, qual \u00e8 il modo migliore di sedare un'insurrezione nel proprio paese? Supponiamo invece di comandare un esercito di occupazione in un'altra nazione; come cambia in questo caso l'approccio verso una ribellione? Qual \u00e8 il tasso di sopravvivenza previsto per chi sferra per primo un attacco nucleare?\"L'arte della guerra\" di Sun Tzu \u00e8 un classico testo di scienza militare. Per quanto sia stato pubblicato nel VI secolo a.C., ancora oggi \u00e8 ampiamente studiato (e resta una lettura interessante ed estremamente divertente per chiunque si diletti di storia). \"Il Principe\" di Machiavelli, pubblicato postumo nel 1532, esamina in dettaglio il rapporto tra guerra e politica. Nel 1832 il generale prussiano Carl von Clausewitz pubblic\u00f2 il trattato \"Della guerra\", che tra le altre cose analizza gli effetti dell'economia e della politica sui conflitti.Pubblicato nel 1890, il brillante lavoro di Alfred Thayer Mahan \"L'influenza del potere marittimo sulla storia, 1660-1783\" influenz\u00f2 profondamente molti militari e politici americani e fu il principale responsabile dello sviluppo della flotta statunitense all'inizio del XX secolo. Senza quel libro gli USA avrebbero potuto trovarsi ancora pi\u00f9 rovinosamente impreparati alle due guerre mondiali, con risultati potenzialmente disastrosi per la nazione e i suoi alleati oltreoceano.",
+    "quote": "\"Le guerre possono anche essere combattute con le armi, ma sono vinte dagli uomini. \u00c8 lo spirito degli uomini che seguono e dell'uomo che conduce che porta alla vittoria.\" - George S. Patton",
+    "tech_prereqs": [
+        {
+            "name": "Chimica|della Chimica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chemistry.json"
+        },
+        {
+            "name": "Metallurgia|della Metallurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dinamite|della Dinamite",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/dynamite.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cavalleria|una Cavalleria|dalla tua Cavalleria|alla tua Cavalleria|la tua Cavalleria|da una Cavalleria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/cavalry.json"
+        },
+        {
+            "name": "Cosacco|un Cosacco|dal tuo Cosacco|al tuo Cosacco|il tuo Cosacco|da un Cosacco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/cossack.json"
+        },
+        {
+            "name": "Ussaro|un Ussaro|dal tuo Ussaro|al tuo Ussaro|il tuo Ussaro|da un Ussaro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/hussar.json"
+        },
+        {
+            "name": "Cavalleria berbera|una Cavalleria berbera|dalla tua Cavalleria berbera|alla tua Cavalleria berbera|la tua Cavalleria berbera|da una Cavalleria berbera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/berber_cavalry.json"
+        },
+        {
+            "name": "Comanche|un Comanche|dal tuo Comanche|al tuo Comanche|il tuo Comanche|da un Comanche",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/comanche_riders.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Accademia militare|l'Accademia militare|un'Accademia militare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/military_academy.json"
+        },
+        {
+            "name": "Porta di Brandeburgo|la Porta di Brandeburgo|la Porta di Brandeburgo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/brandenburg_gate.json"
+        }
+    ]
+}

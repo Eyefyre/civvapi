@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Odlewanie metalu|Odlewania metalu|Odlewaniu metalu|Odlewanie metalu",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "\u015aredniowiecze|\u015aredniowiecza|\u015aredniowieczu|\u015aredniowiecze",
+    "cost": 275,
+    "civilopedia_entry": "Odlewanie metalu to proces, w kt\u00f3rym rzemie\u015blnik wytwarza jeden lub kilka metalowych przedmiot\u00f3w, wlewaj\u0105c do formy stopiony metal. Jedn\u0105 z najstarszych sposob\u00f3w tworzenia form jest metoda \u201eznikaj\u0105cego wosku\u201d, znana ju\u017c w trzecim tysi\u0105cleciu p.n.e. W tym procesie rzemie\u015blnik tworzy woskow\u0105 kopi\u0119 obiektu, wok\u00f3\u0142 kt\u00f3rej buduje form\u0119, nast\u0119pnie roztapia wosk, by ten wyp\u0142yn\u0105\u0142 na zewn\u0105trz, po czym zast\u0119puje go roztopionym metalem. Kiedy metal ostygnie, otwiera si\u0119 form\u0119 i wyci\u0105ga przedmiot.W przesz\u0142o\u015bci formy tworzono najcz\u0119\u015bciej z piasku i gliny. W p\u00f3\u017aniejszych czasach formy wykonywano z plastiku i substancji przypominaj\u0105cych lateks.",
+    "quote": "\u201eKiedy \u0142ami\u0105 si\u0119 kawa\u0142ki br\u0105zu, z\u0142ota lub \u017celaza, kowal zespala je w ogniu i tak tworzy si\u0119 wi\u0119\u017a.\u201d \u2013 Sri Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "In\u017cynieria|In\u017cynierii|In\u017cynierii|In\u017cynieri\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/engineering.json"
+        },
+        {
+            "name": "Obr\u00f3bka \u017celaza|Obr\u00f3bki \u017celaza|Obr\u00f3bce \u017celaza|Obr\u00f3bk\u0119 \u017celaza",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fizyka|Fizyki|Fizyce|Fizyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/physics.json"
+        },
+        {
+            "name": "Stal|Stali|Stali|Stal",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserkowie|Berserk\u00f3w|Berserkom|Berserk\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "D\u0142ugi dom|D\u0142ugiego domu|D\u0142ugiemu domowi|D\u0142ugi dom|D\u0142ugie domy|D\u0142ugich dom\u00f3w|D\u0142ugim domom|D\u0142ugie domy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/longhouse.json"
+        },
+        {
+            "name": "Ku\u017ania|Ku\u017ani|Ku\u017ani|Ku\u017ani\u0119|Ku\u017anie|Ku\u017ani|Ku\u017aniom|Ku\u017anie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/forge.json"
+        },
+        {
+            "name": "Warsztat|Warsztatu|Warsztatowi|Warsztat|Warsztaty|Warsztat\u00f3w|Warsztatom|Warsztaty",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/workshop.json"
+        }
+    ]
+}

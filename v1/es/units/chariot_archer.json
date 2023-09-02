@@ -1,0 +1,31 @@
+{
+    "id": 71,
+    "name": "Arquero en carro|Arqueros en carro",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chariot_archer.png",
+    "game_info": "Una r\u00e1pida unidad de combate a distancia, que resulta muy eficaz en terreno llano.",
+    "historical_info": "Hasta que se invent\u00f3 el estribo, era virtualmente imposible combatir a lomos de un caballo. Sin sujeci\u00f3n, bastaba una m\u00ednima fuerza para descabalgar al jinete, a menudo con resultados desastrosos. Los primeros caballos aparecieron en combate tirando de carros. La dotaci\u00f3n de un carro consist\u00eda en uno o dos caballos, un auriga y un arquero. La movilidad del carro lo hac\u00eda especialmente peligroso contra la infanter\u00eda: pod\u00eda acercarse para lanzar flechas y huir antes de que los infantes lo alcanzaran. Su gran debilidad consist\u00eda en su incapacidad para maniobrar en terrenos accidentados. Se convirtieron en los reyes del campo de batalla en las llanuras, pero en colinas o bosques se encontraban en desventaja.",
+    "strategy": "Los Arqueros en carro son unidades de combate a distancia muy r\u00e1pidas que resultan letales en terreno abierto. Son algo menos poderosos que el Arquero, pero casi pueden moverse al doble de distancia. No obstante, los Arqueros en carro sufren una penalizaci\u00f3n al movimiento cuando entran en hex\u00e1gonos de Bosque, Selva o Colina (a menos que se hayan construido Carreteras en ellos). Como unidad montada, el Arquero en carro es vulnerable a los Lanceros.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Rueda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Penalizaci\u00f3n por terreno abrupto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

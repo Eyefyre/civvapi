@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Atelier|Ateliers",
+    "game_info": "Permet de d\u00e9placer la production de cette ville vers votre civilisation en utilisant des routes commerciales.",
+    "strategy": "L'atelier acc\u00e9l\u00e8re la production d'une ville.",
+    "historical_info": "Un atelier est un \u00e9tablissement d\u00e9di\u00e9 \u00e0 la construction d'objets. Il abrite une main-d'\u0153uvre qualifi\u00e9e, manipulant mat\u00e9riaux bruts et outils sp\u00e9cifiques. Ainsi, certains ateliers seront sp\u00e9cialis\u00e9s dans la fabrication de poteries tandis que d'autres confectionneront des pi\u00e8ces et objets li\u00e9s au domaine de la charpenterie. Dans l'Italie de la Renaissance, de nombreux artistes travaillaient dans des ateliers, et il est arriv\u00e9 que de grands peintres r\u00e9put\u00e9s s'attribuent toute la gloire d'une \u0153uvre r\u00e9alis\u00e9e en fait par ses employ\u00e9s ou \u00e9tudiants qui avaient appris \u00e0 reproduire son style. Cette pratique cause d'ailleurs bien des soucis aux collectionneurs d'art et aux historiens d'aujourd'hui.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/atelier|ateliers.png",
+    "prereq_tech": {
+        "name": "Moulage",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

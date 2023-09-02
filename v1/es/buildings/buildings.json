@@ -1,0 +1,2171 @@
+[
+    {
+        "id": 1,
+        "name": "Jardines flotantes|Jardines flotantes",
+        "game_info": "+15% a Alimentos . Cada casilla de Lago explotada proporciona +2 a Alimentos .La ciudad se ha de construir al lado de un R\u00edo o un Lago.",
+        "strategy": "Los Jardines flotantes son la unidad exclusiva azteca que sustituye al Molino de agua. Aumentan el rendimiento de Alimentos de la ciudad, y deben construirse si la ciudad est\u00e1 cerca de un r\u00edo.",
+        "historical_info": "El jard\u00edn flotante es una peque\u00f1a isla artificial construida en un lago de agua dulce para aumentar la tierra cultivable. El lago irriga la isla y le proporciona material org\u00e1nico continuamente, lo que proporciona un entorno incre\u00edblemente f\u00e9rtil para cultivar. Los aztecas eran maestros de esta forma de agricultura, y la fama de los jardines flotantes de Xochimilco nos ha llegado hasta el d\u00eda de hoy.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/jardines_flotantes|jardines_flotantes.png",
+        "prereq_tech": {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/floating_gardens.json"
+    },
+    {
+        "id": 1,
+        "name": "Delegaci\u00f3n|Delegaciones",
+        "game_info": "Elimina Infelicidad adicional de una ciudad ocupada .",
+        "strategy": "La Delegaci\u00f3n reduce la Infelicidad en las ciudades capturadas. Construye una en cada ciudad ocupada lo m\u00e1s r\u00e1pido posible, especialmente si planeas conquistar unas cuantas.",
+        "historical_info": "Una delegaci\u00f3n es un edificio en el que las autoridades locales imparten justicia. A veces, tambi\u00e9n es la sede del gobierno civil del lugar, pero eso no tiene por qu\u00e9 ser siempre as\u00ed. Por lo general, la delegaci\u00f3n ocupa un lugar destacado en el centro de la ciudad, ya sea porque los ciudadanos est\u00e9n orgullosos de ella o porque las autoridades quieran recordarles que no les quitan el ojo de encima.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 4,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/delegaci\u00f3n|delegaciones.png",
+        "prereq_tech": {
+            "name": "Matem\u00e1ticas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/courthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Fuerte mogol|Fuertes mogoles",
+        "game_info": "Proporciona +2 de Turismo despu\u00e9s de investigar el Vuelo.La ciudad debe tener Murallas.",
+        "strategy": "El Fuerte mogol es un edificio militar de la \u00c9poca Medieval que aumenta en 7 la potencia de defensa de una ciudad y en 25 sus puntos de golpe, y proporciona algo de Cultura cada turno. Es el edificio exclusivo indio y sustituye al Castillo. Despu\u00e9s de aprender Vuelo, tambi\u00e9n concede a la ciudad un +2 a Turismo . La ciudad debe tener unas Murallas para poder construir un Fuerte mogol.",
+        "historical_info": "Los mogoles eran un pueblo isl\u00e1mico que invadi\u00f3 la India en el siglo XV y gobern\u00f3 gran parte del subcontinente hasta el XIX. Durante este per\u00edodo, construyeron elaborados fuertes por todas las zonas rurales que serv\u00edan como centros administrativos y morada para sus ocupantes. Estos fuertes constitu\u00edan hermosos edificios, unos palacios dignos de los gobernantes de un vasto imperio. Varios de ellos, incluyendo el Fuerte de Lahore y el Fuerte rojo de Agra, han sobrevivido hasta la actualidad y siguen siendo una de las mayores atracciones tur\u00edsticas de la India y monumentos al poder y estilo de los mogoles.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fuerte_mogol|fuertes_mogoles.png",
+        "prereq_tech": {
+            "name": "Caballer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mughal_fort.json"
+    },
+    {
+        "id": 1,
+        "name": "Krepost|Krepost",
+        "game_info": "+15 PX para todas las unidades. El coste en Cultura y Oro por adquirir nuevas casillas se reduce en un 25% en esta ciudad.",
+        "strategy": "El Krepost es el edificio exclusivo ruso que sustituye a los Cuarteles. Concede 15 puntos de experiencia a todas las unidades militares creadas en la ciudad en donde se encuentre. Adem\u00e1s, aumenta un 25% el crecimiento de las fronteras culturales de la ciudad. Merece la pena construir estos edificios en todas las ciudades rusas, pero especialmente en las que se encuentran en las fronteras de la civilizaci\u00f3n.",
+        "historical_info": "\"Krepost\" quiere decir \"fortaleza\" en ruso. Durante gran parte de su historia, Rusia fue un estado expansionista que extend\u00eda sus fronteras hacia al este, a trav\u00e9s de las enormes estepas, hasta llegar a Siberia y m\u00e1s all\u00e1. Al entrar en un nuevo territorio, los rusos sol\u00edan construir un \"krepost\" para proteger a sus tropas y acoger los edificios p\u00fablicos y religiosos. Seg\u00fan d\u00f3nde se encontrara y los materiales disponibles, un krepost pod\u00eda ser un fuerte provisional de madera o una obra defensiva de piedra m\u00e1s permanente e imponente. En muchos aspectos, el krepost es similar en forma y funciones a los omnipresentes fuertes que los romanos constru\u00edan en las tierras reci\u00e9n conquistadas.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/krepost|krepost.png",
+        "prereq_tech": {
+            "name": "Forja del bronce",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/krepost.json"
+    },
+    {
+        "id": 1,
+        "name": "Gran casa|Grandes casas",
+        "game_info": "+1 de Producci\u00f3n por cada casilla de Bosque explotada.",
+        "strategy": "La Gran casa es el edificio exclusivo iroqu\u00e9s que sustituye al Taller. Aumenta el r\u00e9gimen de Producci\u00f3n por cada Bosque que se encuentre en el radio de la ciudad.",
+        "historical_info": "Durante gran parte de su historia, la mayor\u00eda de iroqueses viv\u00edan en aldeas compuestas de una o m\u00e1s \"grandes casas\", edificios comunales construidos con \u00e1rboles j\u00f3venes y techados con corteza de olmo. De hecho, los iroqueses se llaman a s\u00ed mismos \"hodenosaunee\", que significa \"el pueblo de la gran casa\". Estos edificios pod\u00edan tener entre 12 y 120 metros de largo, y unos 24 metros de ancho. Se divid\u00edan en compartimentos mediante mamparas internas y estaban comunicados mediante un pasillo central abierto. Varios de ellos compart\u00edan un fuego para cocinar en el pasillo central, con una abertura en el techo que hac\u00eda las veces de chimenea.Las casas grandes son edificios eficientes, m\u00e1s baratos de construir y calentar que las viviendas individuales, por lo que requieren menos recursos naturales que otros tipos de casas. Son representativos del deseo de la cultura iroquesa de sobrevivir y crecer en armon\u00eda con el entorno que los rodea.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gran_casa|grandes_casas.png",
+        "prereq_tech": {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/longhouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Bazar|Bazares",
+        "game_info": "Proporciona uno m\u00e1s de cada recurso de lujo mejorado que haya cerca de esta ciudad. Cada fuente de Petr\u00f3leo y cada Oasis proporcionan +2 de Oro . Las rutas comerciales que otros jugadores hagan a una ciudad con un Bazar generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+        "strategy": "El Bazar es el edificio exclusivo \u00e1rabe que sustituye al Mercado. Concede una bonificaci\u00f3n al Oro de la ciudad. La civilizaci\u00f3n gana uno m\u00e1s de cada recurso de lujo que proporcione una ciudad con un Bazar. El Bazar proporciona +2 de Oro en Petr\u00f3leo y Oasis.",
+        "historical_info": "El bazar es una especie de mercado p\u00fablico que se suele encontrar en las poblaciones \u00e1rabes y otras ciudades mediterr\u00e1neas. El bazar \u00e1rabe cl\u00e1sico es un hervidero de peque\u00f1as tiendas y puestos, en los que se venden toda clase de g\u00e9nero: desde comida hasta software, pasando por alfombras o especias. Algunos bazares est\u00e1n al aire libre, mientras que otros se encuentran a cubierto para proteger de los elementos a los clientes y la mercanc\u00eda. Muchos de ellos sobreviven hoy en d\u00eda, constituyendo una alternativa alegre y bulliciosa a los as\u00e9pticos centros comerciales occidentales.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazar|bazares.png",
+        "prereq_tech": {
+            "name": "Moneda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/bazaar.json"
+    },
+    {
+        "id": 1,
+        "name": "Corte del s\u00e1trapa|Cortes de los s\u00e1trapas",
+        "game_info": "La ciudad debe tener un Mercado. Las rutas comerciales que otros jugadores hagan a una ciudad con una Corte del s\u00e1trapa generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+        "strategy": "La Corte del s\u00e1trapa es el edificio exclusivo persa que sustituye al Banco. Al igual que este, aumenta la producci\u00f3n de riqueza de la ciudad, pero tambi\u00e9n la Felicidad de la civilizaci\u00f3n. Para poder construir la Corte del s\u00e1trapa, la ciudad ha de contar con un Mercado.",
+        "historical_info": "\"S\u00e1trapa\" es el t\u00edtulo de un gobernador provisional del Imperio Aquem\u00e9nida de Persia. Los nombraba el rey y sol\u00edan pertenecer a la familia real. El s\u00e1trapa era una figura poderosa, recaudaba impuestos y constitu\u00eda la m\u00e1xima autoridad judicial de la provincia. Tambi\u00e9n era responsable de reclutar y mantener un ej\u00e9rcito y, por tanto, hab\u00eda de ser una persona de gran confianza para el monarca. A medida que el poder central persa se fue debilitando durante el siglo V a. C., los s\u00e1trapas se fueron haciendo m\u00e1s independientes y, de hecho, algunos fueron m\u00e1s poderosos que el rey al que supuestamente serv\u00edan.Alejandro mantuvo la administraci\u00f3n de las satrap\u00edas tras la conquista de Persia, unas veces sustituyendo a los s\u00e1trapas por sus generales y otras dejando a los gobernadores que hubiera, siempre que mantuvieran la paz y siguieran pagando sus impuestos.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/corte_del_s\u00e1trapa|cortes_de_los_s\u00e1trapas.png",
+        "prereq_tech": {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/satrap's_court.json"
+    },
+    {
+        "id": 1,
+        "name": "Papelero|Papeleros",
+        "game_info": "+1 a Ciencia por cada 2 ciudadanos que haya en esta ciudad. +2 de Oro .",
+        "strategy": "El Papelero es la unidad exclusiva china que sustituye a la Biblioteca. Aumenta la Ciencia lograda por una ciudad y concede una bonificaci\u00f3n a su flujo de Oro [ICON_GOLD.",
+        "historical_info": "El papel se invent\u00f3 en China y se remonta al 200 a. C. Por lo que se sabe, se utiliz\u00f3 en un principio como material de embalaje, y la primera muestra de su aplicaci\u00f3n como soporte para escritura data del 8 a. C., aproximadamente. Hacia el 300 d. C., su uso para escribir ya se hab\u00eda extendido por toda China. Los talleres papeleros chinos eran muy avanzados para su \u00e9poca, y en ellos se fabricaba un papel recio y casi libre de impurezas para las clases educadas chinas, sus mercaderes y la Corte Imperial, siglos antes de que la primera hoja llegara al mundo \u00e1rabe o europeo.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/papelero|papeleros.png",
+        "prereq_tech": {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/paper_maker.json"
+    },
+    {
+        "id": 1,
+        "name": "Wat|Wats",
+        "game_info": "+3 a Cultura por turno. +50% a Ciencia .",
+        "strategy": "El Wat es el edificio exclusivo siam\u00e9s que sustituye a la Universidad. Aumenta la Cultura de una ciudad, acelerando el crecimiento de sus fronteras y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n. Adem\u00e1s, concede una bonificaci\u00f3n a la Ciencia de la ciudad.",
+        "historical_info": "Un \"Wat\" es un tipo de templo y monasterio budista que se puede encontrar en Camboya, Tailandia o Laos. La traducci\u00f3n literal de \"wat\" es \"escuela\", pues los wats siameses eran a la vez lugares de culto y de ense\u00f1anza. Un wat se compone de un templo en el que hay estatuas de Buda, una sala de oraciones, una habitaci\u00f3n con textos religiosos, un pabell\u00f3n donde relajarse, una biblioteca, un aula de estudios, campanarios y habitaciones. Puede ser un solo edificio o un conjunto de ellos, que a veces llegan a componer una peque\u00f1a ciudad. Construido en el siglo XII, el Angkor Wat (\"wat de Angkor\"), en Camboya, es uno de los m\u00e1s grandes y mejor conservados de todo el sudeste asi\u00e1tico.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat|wats.png",
+        "prereq_tech": {
+            "name": "Educaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/wat.json"
+    },
+    {
+        "id": 1,
+        "name": "Mezquita piramidal|Mezquitas piramidales",
+        "game_info": "No requiere mantenimiento en Oro .",
+        "strategy": "La Mezquita piramidal de adobe es un edificio exclusivo songhai que sustituye al Templo. Aumenta enormemente la Cultura de la ciudad, acelerando el crecimiento del territorio urbano y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n. La Mezquita piramidal de adobe no tiene costes de mantenimiento.",
+        "historical_info": "La mezquita piramidal de adobe es en realidad un complejo de edificios que se encuentra en la ciudad de Gao. Cuenta con una tumba, dos mezquitas y un campo de reuniones. Seg\u00fan la leyenda, es el lugar donde est\u00e1 enterrado Askia Mohamed I, uno de los mayores emperadores songhai. Aunque no son tan grades como la mezquita de Gao, se pueden encontrar edificios parecidos por toda \u00c1frica occidental que atestiguan la habilidad constructora de los songhai.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mezquita_piramidal|mezquitas_piramidales.png",
+        "prereq_tech": {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mud_pyramid_mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Tumba|Tumbas",
+        "game_info": "No requiere mantenimiento en Oro .Si captura esta ciudad, se doblar\u00e1 la cantidad de Oro saqueada por el enemigo.",
+        "strategy": "La Tumba es un edificio de la \u00c9poca Cl\u00e1sica que aumenta la Felicidad de la ciudad y no le cuesta mantenimiento. No obstante, si una civilizaci\u00f3n enemiga captura la ciudad, ganar\u00e1 el doble del oro que ganar\u00eda si no tuviera una Tumba. Este edificio sustituye al Templo.",
+        "historical_info": "Los egipcios elevaron la adoraci\u00f3n de los antepasados a cotas nunca vistas, y gran parte de la riqueza de esta civilizaci\u00f3n y de su creatividad se invirti\u00f3 en la construcci\u00f3n de tumbas para sus allegados muertos. Muchas de ellas se pueden encontrar en el Valle de los Reyes, en la orilla occidental de Tebas. Estas tumbas sol\u00edan llenarse con parte de la fortuna del difunto, lo que las convirti\u00f3 en suculentas presas para los ladrones de tumbas de todos los tiempos.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tumba|tumbas.png",
+        "prereq_tech": {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/burial_tomb.json"
+    },
+    {
+        "id": 1,
+        "name": "Puerto mar\u00edtimo|Puertos mar\u00edtimos",
+        "game_info": "+1 a la Producci\u00f3n y al Oro por los recursos marinos que esta ciudad explote. +15% a la Producci\u00f3n cuando se crean unidades navales.La ciudad debe estar construida en la costa.",
+        "strategy": "Un Puerto mar\u00edtimo aumenta el r\u00e9gimen de Producci\u00f3n de un recurso marino mejorado.",
+        "historical_info": "El puerto mar\u00edtimo es un superpuerto moderno. Es un puerto en aguas profundas que cuenta con instalaciones para manejar los buques cisterna y transportes m\u00e1s grandes. Suelen tener un mont\u00f3n de gr\u00faas para la r\u00e1pida carga y descarga de los cargamentos, que se transportan mediante un enrevesado laberinto de ferrocarriles y carreteras. Los puertos mar\u00edtimos modernos est\u00e1n controlados por los capitanes de puerto mediante salas con la \u00faltima tecnolog\u00eda, pues est\u00e1n equipadas con radares y sat\u00e9lites de detecci\u00f3n, as\u00ed como sofisticados ordenadores que utilizan un complejo software de seguimiento.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/puerto_mar\u00edtimo|puertos_mar\u00edtimos.png",
+        "prereq_tech": {
+            "name": "Navegaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/seaport.json"
+    },
+    {
+        "id": 1,
+        "name": "Establo|Establos",
+        "game_info": "+15% a la Producci\u00f3n cuando se crean unidades montadas.Cada fuente de Caballos , Ovejas y Ganado que la ciudad explote da +1 a Producci\u00f3n .La ciudad ha de tener cerca al menos una fuente mejorada de estos recursos mejorada con un Pastizal.",
+        "strategy": "El Establo solo se puede construir en una ciudad que tenga cerca un recurso mejorado de Caballos , Ovejas o Ganado . Aumenta la velocidad a la que se producen las unidades montadas.",
+        "historical_info": "En Civilization V, un establo es un cuartel militar para unidades de caballer\u00eda. En \u00e9l viven y se alimentan tanto los soldados como sus monturas. Durante gran parte de la historia, la caballer\u00eda ha sido la favorita de los hijos ricos de la sociedad, ya que solo los j\u00f3venes m\u00e1s acaudalados montaban a caballo. Por ello, estos establos a menudo eran m\u00e1s lujosos que los pobres habit\u00e1culos de la infanter\u00eda.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/establo|establos.png",
+        "prereq_tech": {
+            "name": "Equitaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stable.json"
+    },
+    {
+        "id": 1,
+        "name": "Molino de agua|Molinos de agua",
+        "game_info": "La ciudad se ha de construir al lado de un R\u00edo.",
+        "strategy": "El Molino de agua solo se puede construir en una ciudad que est\u00e9 junto a un R\u00edo. Aumenta el flujo de Alimentos a la ciudad",
+        "historical_info": "El molino de agua es un edificio que aprovecha la energ\u00eda del agua para convertir el grano en harina. El grano se esparce entre dos piedras del molino y una de ellas gira lentamente. Al moverse entre las piedras, el grano queda machacado y convertido en harina. Los primeros molinos usaban animales o personas para hacer girar la piedra, pero en este caso lo hace el agua. As\u00ed, las personas y animales quedan libres para trabajar en otra parte. M\u00e1s tarde, el vapor y la electricidad se convirtieron en una fuente de energ\u00eda mucho m\u00e1s fiable y eficaz, pero los molinos de agua de aquellos d\u00edas sirvieron para ahorrar much\u00edsimo trabajo.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/molino_de_agua|molinos_de_agua.png",
+        "prereq_tech": {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/water_mill.json"
+    },
+    {
+        "id": 1,
+        "name": "Circo|Circos",
+        "game_info": "La ciudad ha de tener cerca una fuente de Caballos o Marfil mejorados.",
+        "strategy": "El Circo solo se puede construir en una ciudad que tenga cerca los recursos mejorados de Caballos o Marfil . El Circo aumenta la Felicidad de una civilizaci\u00f3n.",
+        "historical_info": "Un circo es una compa\u00f1\u00eda de artistas esc\u00e9nicos que incluye acr\u00f3batas, payasos, malabaristas, funambulistas, trapecistas y domadores. La mayor\u00eda de circos son itinerantes y se trasladan de una ciudad a otra durante la temporada, mientras que otros permanecen fijos en un lugar durante todo el a\u00f1o. En la antigua Roma, el circo era el nombre del edificio donde se realizaban carreras de cuadrigas, combates escenificados, juegos malabares y otros espect\u00e1culos. El primer circo romano fue el Circus Maximus, que pod\u00eda acoger a 250.000 ciudadanos vociferantes con el aforo completo (cerca de un 25% de la poblaci\u00f3n de la ciudad).",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/circo|circos.png",
+        "prereq_tech": {
+            "name": "Caza con trampas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/trapping.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/circus.json"
+    },
+    {
+        "id": 1,
+        "name": "Fragua|Fraguas",
+        "game_info": "+15% a la Producci\u00f3n cuando se crean unidades terrestres.Cada fuente de Hierro que la ciudad explote da +1 a la Producci\u00f3n .La ciudad debe estar explotando cerca una fuente de Hierro.",
+        "strategy": "La Fragua solo se puede construir en una ciudad que tenga cerca un recurso mejorado de Hierro . Aumenta la velocidad con la que la ciudad produce unidades terrestres.",
+        "historical_info": "La fragua es un edificio que contiene un horno capaz de generar la temperatura necesaria para fundir y moldear el hierro en cualquier cosa, desde herraduras hasta puntas de flechas, pasando por clavos. Se necesita mucha cantidad de calor, y el herrero suele tener un aprendiz o ayudante que hace poco m\u00e1s que accionar los fuelles para reavivar el fuego y mantener la temperatura. Un herrero trabaja el hierro calent\u00e1ndolo al rojo vivo y golpe\u00e1ndolo sobre un yunque con diversos martillos. Tambi\u00e9n puede derramar metal fundido en moldes de cer\u00e1mica o metal para pulirlo una vez que se ha enfriado lo suficiente para conservar la forma.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fragua|fraguas.png",
+        "prereq_tech": {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/forge.json"
+    },
+    {
+        "id": 1,
+        "name": "Molino de viento|Molinos de viento",
+        "game_info": "+10% a la Producci\u00f3n cuando se construyen edificios.La ciudad no debe construirse en Colinas.",
+        "strategy": "El Molino de viento es un edificio del Renacimiento que aumenta el r\u00e9gimen de Producci\u00f3n de una ciudad a la hora de construir edificios. No se pueden construir Molinos de viento en las ciudades erigidas sobre Colinas.",
+        "historical_info": "Los molinos son edificios que aprovechan la energ\u00eda e\u00f3lica para realizar varias tareas. Hist\u00f3ricamente, se han usado para propulsar muelas con las que moler grano, aunque tambi\u00e9n se han usado como aserraderos o para sacar el agua de pozos. Las m\u00e1quinas e\u00f3licas existen desde hace 2.000 a\u00f1os. La primera que se conoce es un \u00f3rgano de viento, construido por Her\u00f3n de Alejandr\u00eda en el siglo I d. C. Los molinos de vientos para la muela de grano probablemente se inventaron en Asia Central, alrededor del siglo VIII d. C.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/molino_de_viento|molinos_de_viento.png",
+        "prereq_tech": {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/windmill.json"
+    },
+    {
+        "id": 1,
+        "name": "Central hidr\u00e1ulica|Centrales hidr\u00e1ulicas",
+        "game_info": "+1 a la Producci\u00f3n en cada casilla que est\u00e9 junto a un R\u00edo. Requiere 1 de Aluminio .La ciudad se ha de construir al lado de un R\u00edo.",
+        "strategy": "La Central hidr\u00e1ulica es un edificio de mediados de la partida que solo se puede construir en una ciudad adyacente a un r\u00edo. Aumenta el r\u00e9gimen de Producci\u00f3n de todas las casillas que explote una ciudad y que se encuentren tambi\u00e9n junto al r\u00edo. Construir la Central hidr\u00e1ulica consume 1 de Aluminio .",
+        "historical_info": "La central hidr\u00e1ulica es un edificio que convierte la energ\u00eda del agua en ca\u00edda en electricidad. Cuanto mayor son el volumen de agua y la distancia, m\u00e1s potencia genera la planta. La presa china de las Tres Gargantas es la central el\u00e9ctrica m\u00e1s grande jam\u00e1s construida. Cuando se termine, generar\u00e1 22.500 megavatios, diez veces m\u00e1s que la Presa Hoover estadounidense.Las centrales hidr\u00e1ulicas suelen ser consideradas fuentes de energ\u00eda limpia, aunque su impacto en el ecosistema fluvial puede ser muy grande. En las zonas costeras se han construido centrales hidr\u00e1ulicas que obtienen energ\u00eda gracias al crecimiento de las mareas.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/central_hidr\u00e1ulica|centrales_hidr\u00e1ulicas.png",
+        "prereq_tech": {
+            "name": "Electricidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hydro_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Central de energ\u00eda solar|Centrales de energ\u00eda solar",
+        "game_info": "La ciudad debe construirse en un Desierto o junto a este y no puede contener una Central nuclear.La ciudad ha de tener una F\u00e1brica.",
+        "strategy": "La Central de energ\u00eda solar es un edificio del juego tard\u00edo que aumenta significativamente la Producci\u00f3n de una ciudad. Para poder construir este edificio, la ciudad ha de encontrarse en una casilla de Desierto o adyacente. La ciudad ha de contar con una F\u00e1brica para poder construirlo.",
+        "historical_info": "Una central de energ\u00eda solar recoge la energ\u00eda del sol y la convierte en electricidad. Las centrales solares m\u00e1s eficientes se encuentran en los lugares a los que llega la luz directa del sol, sin muchas nubes. De momento, la energ\u00eda solar es m\u00e1s cara comparada con la obtenida de los combustibles f\u00f3siles (petr\u00f3leo y carb\u00f3n), pero la tecnolog\u00eda solar se est\u00e1 abaratando y los combustibles f\u00f3siles cada vez son m\u00e1s caros, especialmente si se tienen en cuenta los costes ambientales de la poluci\u00f3n emitida. Cuando la tecnolog\u00eda se perfeccione, satisfar\u00e1 una buena parte de las necesidades energ\u00e9ticas mundiales. Se ha calculado que la energ\u00eda solar que recibe la Tierra es unas 200.000 veces superior a la capacidad de generaci\u00f3n energ\u00e9tica actual de la humanidad.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/central_de_energ\u00eda_solar|centrales_de_energ\u00eda_solar.png",
+        "prereq_tech": {
+            "name": "Ecolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/solar_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Ceca|Cecas",
+        "game_info": "Cada fuente de Oro y Plata que la ciudad explote produce +3 de Oro .La ciudad ha de poder extraer cerca al menos uno de estos recursos.",
+        "strategy": "La Ceca solo se puede construir en una ciudad que tenga cerca un recurso mejorado de Oro o de Plata. La Ceca aumenta la producci\u00f3n de Oro por cada uno de dichos recursos que la ciudad tenga cerca.",
+        "historical_info": "La ceca es una instituci\u00f3n que fabrica la moneda de una civilizaci\u00f3n. En el pasado sol\u00eda tratarse de monedas f\u00edsicas de metal, pero en tiempos m\u00e1s modernos se sustituy\u00f3 por papel impreso en su mayor parte. Las cecas son importantes para el bienestar econ\u00f3mico de una civilizaci\u00f3n. Si la moneda de una naci\u00f3n se puede falsificar con facilidad, se falsificar\u00e1, y la confianza depositada en ella se hundir\u00e1, provocando una peligrosa inflaci\u00f3n (cae el valor de la moneda) o consecuencias a\u00fan peores. La moneda actual se imprime con hologramas, tinta variable y filamentos de seguridad para detectar las falsificaciones; sin duda se a\u00f1adir\u00e1n m\u00e1s medidas de seguridad cuando los falsificadores aprendan a imitar las que ya existen.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ceca|cecas.png",
+        "prereq_tech": {
+            "name": "Moneda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mint.json"
+    },
+    {
+        "id": 1,
+        "name": "Observatorio|Observatorios",
+        "game_info": "La ciudad se ha de construir al lado de una Monta\u00f1a.",
+        "strategy": "El Observatorio solo se puede construir en una ciudad que est\u00e9 junto a una casilla de Monta\u00f1a. Aumenta mucho la producci\u00f3n cient\u00edfica de la ciudad.",
+        "historical_info": "Un observatorio es un edificio destinado al estudio del firmamento. El hombre primitivo estaba convencido de que el movimiento de los astros ten\u00eda una importancia m\u00e1gica, y muchos de los primeros observatorios eran en realidad edificios religiosos. A medida que pas\u00f3 el tiempo, el hombre se fue dando cuenta de que pod\u00eda trazar el transcurso de las estaciones con una gran precisi\u00f3n observando cu\u00e1ndo aparec\u00edan y desaparec\u00edan las estrellas, y lleg\u00f3 a la conclusi\u00f3n de que esta informaci\u00f3n era crucial a la hora de escoger el d\u00eda apropiado para plantar o recoger las cosechas. Estos descubrimientos reforzaron la importancia religiosa y pr\u00e1ctica de los observatorios a ojos de la comunidad. Los observatorios modernos est\u00e1n informatizados y cuentan con telescopios avanzados (o est\u00e1n comunicados con telescopios espaciales todav\u00eda m\u00e1s potentes), lo que proporciona a los cient\u00edficos una cantidad de informaci\u00f3n con la que sus primitivos antepasados ni tan siquiera pod\u00edan so\u00f1ar. Pero su tarea sigue siendo esencialmente la misma: dilucidar c\u00f3mo funciona el universo mediante el estudio del cielo.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/observatorio|observatorios.png",
+        "prereq_tech": {
+            "name": "Astronom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/observatory.json"
+    },
+    {
+        "id": 1,
+        "name": "Monasterio|Monasterios",
+        "game_info": "Cada fuente de Incienso y de Vino que explote esta Ciudad dar\u00e1 +1 a Fe y a Cultura .",
+        "strategy": "Los Monasterios aumentan la producci\u00f3n de Fe y de Cultura de una ciudad, especialmente si esta se encuentra cerca de fuentes mejoradas de estos recursos. Solo se pueden construir en una ciudad que siga la creencia de los Monasterios. Construye este edificio adquiri\u00e9ndolo con Fe .",
+        "historical_info": "El monasterio es un edificio o complejo de edificios que alberga a monjes y monjas, personas que han renunciado a las cosas mundanas (riqueza, posesiones, sexo), y dedicado su vida a la plegaria y la meditaci\u00f3n. Por lo general, los monasterios son organizaciones solo para hombres o solo para mujeres o, de ser mixtas, los miembros de cada sexo est\u00e1n separados por muros imponentes. Hist\u00f3ricamente, los monasterios han sido lugares de ense\u00f1anza, especialmente durante la Edad Media, en la que los miembros de las \u00f3rdenes religiosas eran los \u00fanicos, aparte de la \u00e9lite gobernante, que sab\u00edan leer y escribir.",
+        "cost": {
+            "production": -1,
+            "faith": 150
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/monasterio|monasterios.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/monastery.json"
+    },
+    {
+        "id": 1,
+        "name": "Jard\u00edn|Jardines",
+        "game_info": "+25% a la generaci\u00f3n de Grandes personajes en esta ciudad.La ciudad se ha de construir al lado de un R\u00edo o un Lago.",
+        "strategy": "El Jard\u00edn aumenta en un 25% la velocidad a la que la ciudad genera Grandes personajes . Solo se puede construir en ciudades que est\u00e9n al lado de un R\u00edo o un Lago.",
+        "historical_info": "El jard\u00edn es un lugar donde se cultivan plantas, ya sea para obtener comida, refugio o energ\u00eda, o como lugar de descanso y recreo. El plan de ajardinamiento m\u00e1s antiguo que se conoce es egipcio y se remonta al 1400 a. C., aunque pr\u00e1cticamente todas las culturas, tanto antiguas como modernas, han creado y celebrado sus jardines. Los japoneses llevan creando sutiles y hermosos jardines casi desde el principio de su historia. El templo del Ryoan-ji (\"drag\u00f3n tranquilo\"), en Kioto es famoso por su jard\u00edn zen, que se compone de quince piedras dispuestas sobre un lecho de gravilla y rodeadas de muros bajos. Aunque sencillo (y austero, quiz\u00e1s, para algunos) este jard\u00edn ha inspirado e impresionado a la gente durante siglos.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/jard\u00edn|jardines.png",
+        "prereq_tech": {
+            "name": "Teolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/garden.json"
+    },
+    {
+        "id": 1,
+        "name": "Faro|Faros",
+        "game_info": "+1 a Alimentos en las casillas de Costa y Oc\u00e9ano. +1 a la Producci\u00f3n de Recursos marinos que explote esta ciudad.Cada fuente de Pesca que explote la ciudad proporciona +1 a Alimentos .La ciudad se ha de construir en la Costa.",
+        "strategy": "El Faro solo se puede construir en una ciudad que est\u00e9 junto a una casilla de Costa. Aumenta la producci\u00f3n de Alimentos y Pesca de las casillas de Agua y el r\u00e9gimen de Producci\u00f3n de todos los recursos marinos.",
+        "historical_info": "Desde que el hombre se embarc\u00f3 para adentrarse en el mar, ha construido faros en la costa que sirvan de gu\u00eda a los barcos que pretenden regresar a puerto y evitar que embarranquen en baj\u00edos o arrecifes. El primero del que se tiene constancia fue el Gran Faro de Alejandr\u00eda. Fue construido en la peque\u00f1a isla de Faro, en la costa de Alejandr\u00eda, sobrevivi\u00f3 m\u00e1s de mil a\u00f1os y gui\u00f3 a miles de nav\u00edos hasta el puerto de Alejandr\u00eda.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/faro|faros.png",
+        "prereq_tech": {
+            "name": "\u00d3ptica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/optics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/lighthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Puerto|Puertos",
+        "game_info": "Forma una conexi\u00f3n [ICON_CONNECTED] entre ciudades con la capital por el agua (si no est\u00e1n conectadas [ICON_CONNECTED] ya por tierra). Las rutas comerciales mar\u00edtimas que se originen en esta ciudad tienen un 50% m\u00e1s de alcance y producen 1 de Oro m\u00e1s cuando se comunican con otra civilizaci\u00f3n.La ciudad debe construirse en la costa.",
+        "strategy": "El Puerto es un edificio de la Edad Media. Aumenta el alcance y la producci\u00f3n de Oro de las rutas comerciales mar\u00edtimas. Tambi\u00e9n permite establecer \"comunicaciones por agua entre ciudades\" (consulta las reglas). El Puerto tambi\u00e9n aumenta el r\u00e9gimen de Producci\u00f3n de los recursos marinos mejorados.",
+        "historical_info": "El puerto consiste en una masa de agua resguardada que ofrece protecci\u00f3n frente a los elementos a los barcos anclados en su interior. Aunque existen algunos puertos naturales, la mayor\u00eda han sido dragados o han requerido la construcci\u00f3n de rompeolas, protecciones contra el viento, etc. Adem\u00e1s, los puertos tambi\u00e9n poseen muelles y embarcaderos para la carga y descarga de mercanc\u00edas, as\u00ed como almacenes para depositarlas.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/puerto|puertos.png",
+        "prereq_tech": {
+            "name": "Br\u00fajula",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/harbor.json"
+    },
+    {
+        "id": 1,
+        "name": "Coliseo|Coliseos",
+        "game_info": "El Coliseo aumenta la Felicidad de una civilizaci\u00f3n. No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad.",
+        "strategy": "El Coliseo aumenta la Felicidad de una civilizaci\u00f3n. No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad.",
+        "historical_info": "El coliseo es un edificio abierto en el que el p\u00fablico puede disfrutar de espect\u00e1culos deportivos. En funci\u00f3n del momento y el lugar, los espect\u00e1culos podr\u00edan ser luchas de gladiadores, partidos de f\u00fatbol o de b\u00e9isbol. De los tres mencionados, puede que las luchas de gladiadores fueran los m\u00e1s exigentes con los participantes y, sin duda, los m\u00e1s peligrosos.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/coliseo|coliseos.png",
+        "prereq_tech": {
+            "name": "Construcci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/colosseum.json"
+    },
+    {
+        "id": 1,
+        "name": "Zoo|Zoos",
+        "game_info": "No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad. La ciudad ha de tener un Coliseo.",
+        "strategy": "Un Zoo aumenta la Felicidad de tu imperio, pero no puede dar m\u00e1s de ella que ciudadanos haya en la ciudad. Para poder construir un Zoo, la ciudad debe contar con un Coliseo.",
+        "historical_info": "La colecci\u00f3n zool\u00f3gica (o \"zoo\") m\u00e1s antigua que se conoce se encontr\u00f3 en las excavaciones de Hierac\u00f3mpolis y data de alrededor del a\u00f1o 3500 a. C. El zoo m\u00e1s antiguo que sigue en funcionamiento, el Tiergarten Schoenbrunn de Viena, se cre\u00f3 a partir de una colecci\u00f3n de animales ex\u00f3ticos que ten\u00eda la dinast\u00eda Habsburgo y se abri\u00f3 al p\u00fablico en el a\u00f1o 1765.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo|zoos.png",
+        "prereq_tech": {
+            "name": "Imprenta",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/zoo.json"
+    },
+    {
+        "id": 1,
+        "name": "Estadio|Estadios",
+        "game_info": "No puede proporcionar m\u00e1s Felicidad que Ciudadanos haya en una ciudad. La ciudad debe tener un Zoo.",
+        "strategy": "Un Estadio es un edificio de la Era Moderna que aumenta la Felicidad de tu imperio, pero que no puede dar m\u00e1s de ella que ciudadanos haya en la ciudad. Para poder construir un Estadio, la ciudad debe contar con un Zoo.",
+        "historical_info": "El estadio es una versi\u00f3n moderna del coliseo en la que se ofrecen espect\u00e1culos menos sangrientos. Los estadios modernos pueden acoger a m\u00e1s de 100.000 espectadores exaltados disfrutando de un espect\u00e1culo deportivo, de un concierto o incluso de un mitin pol\u00edtico. Los aficionados al deporte de hoy en d\u00eda no son mucho m\u00e1s tranquilos que sus ancestros de la \u00e9poca cl\u00e1sica, as\u00ed que los estadios est\u00e1n equipados con vallas, tornos y muchos guardias de seguridad.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/estadio|estadios.png",
+        "prereq_tech": {
+            "name": "Refrigeraci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stadium.json"
+    },
+    {
+        "id": 1,
+        "name": "Monumento|Monumentos",
+        "game_info": "El Monumento aumenta la Cultura de una ciudad, acelerando el crecimiento del territorio urbano y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n.",
+        "strategy": "El Monumento aumenta la Cultura de una ciudad, acelerando el crecimiento del territorio urbano y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n.",
+        "historical_info": "El monumento es una obra erigida en honor de una persona importante, un hecho, un dios o una idea. Los m\u00e1s importantes suelen construirse en el centro de la ciudad, cerca del palacio del gobernante o en las proximidades de la puerta de la poblaci\u00f3n. Hay monumentos de todas las formas y tama\u00f1os: desde la Gran Esfinge de Gizeh, en Egipto, hasta la Estatua de la Libertad de Nueva York, EE. UU., pasando por la Columna de Nelson de Londres, Inglaterra. Los mejores de ellos consiguen que los habitantes se sientan orgullosos de su ciudad y su naci\u00f3n.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/monumento|monumentos.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/monument.json"
+    },
+    {
+        "id": 1,
+        "name": "Templo|Templos",
+        "game_info": null,
+        "strategy": "El Templo aumenta la Fe de una ciudad, aumentando la velocidad a la que puedes descubrir y propagar religiones. La ciudad debe contener un Santuario o una Pir\u00e1mide para poder construir un Templo en ella.",
+        "historical_info": "El templo es un edificio religioso al que los fieles acuden para venerar. Estos edificios demuestran que una comunidad es razonablemente rica y devota, ya que puede permitirse la construcci\u00f3n de una estructura especial y el mantenimiento de los sacerdotes, ac\u00f3litos, v\u00edrgenes vestales o monjes de su interior. En muchas culturas primitivas, todas las familias ten\u00edan un peque\u00f1o santuario en su domicilio. El templo independiente m\u00e1s antiguo data del d\u00e9cimo milenio a. C., y se encuentra en el sureste de Turqu\u00eda.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/templo|templos.png",
+        "prereq_tech": {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/temple.json"
+    },
+    {
+        "id": 1,
+        "name": "Teatro de la \u00d3pera|Teatros de la \u00d3pera",
+        "game_info": null,
+        "strategy": "El Teatro de la \u00d3pera es un edificio del Renacimiento que aumenta la Cultura de una ciudad. La ciudad debe contar con un Anfiteatro para poder construir este edificio. Contiene 1 espacio para una Gran obra de la m\u00fasica.",
+        "historical_info": "La \u00f3pera es una representaci\u00f3n musical en la que los actores cantan sus di\u00e1logos en vez de recitarlos, lo que la diferencia de otras representaciones musicales. Los cantantes suelen ir acompa\u00f1ados por una orquesta. El teatro de la \u00f3pera es un edificio que cuenta con un escenario para los cantantes, un foso para la orquesta y una disposici\u00f3n ac\u00fastica pensada para proyectar la m\u00fasica hacia la audiencia. El primer teatro de la \u00f3pera, el Teatro San Cassiano, abri\u00f3 sus puertas en Venecia, Italia, en 1637. Desde entonces, se han abierto teatros de la \u00f3pera en todo el mundo, y casi son de rigor para toda ciudad que aspire a ser un centro de la cultura y las artes.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/teatro_de_la_\u00f3pera|teatros_de_la_\u00f3pera.png",
+        "prereq_tech": {
+            "name": "Ac\u00fastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/opera_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Museo|Museos",
+        "game_info": null,
+        "strategy": "El Museo es un edificio de mediados del juego que aumenta el rendimiento de Cultura de la ciudad. Para poder construir el Museo, esta debe tener un Teatro de la \u00d3pera (o un Ceilidh Hall). Contiene 2 espacios para Grandes obras de arte.",
+        "historical_info": "El museo es un edificio o un complejo de edificios dise\u00f1ado para albergar y mostrar al p\u00fablico las posesiones m\u00e1s preciadas de una civilizaci\u00f3n. Hay museos que contienen colecciones de arte, f\u00f3siles, art\u00edculos de inter\u00e9s hist\u00f3rico, trajes, joyas, armas antiguas o cualquier otra cosa valiosa o interesante. El Hermitage de San Petersburgo fue fundado en 1764 por Catalina la Grande. Es uno de los museos m\u00e1s grandes y antiguos del mundo, pues abri\u00f3 sus puertas al p\u00fablico en 1852.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museo|museos.png",
+        "prereq_tech": {
+            "name": "Arqueolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/museum.json"
+    },
+    {
+        "id": 1,
+        "name": "Torre de radio|Torres de radio",
+        "game_info": "+33% a Cultura en esta ciudad.La ciudad debe tener un Museo.",
+        "strategy": "La Torre de radiodifusi\u00f3n es un edificio del juego tard\u00edo que aumenta el rendimiento de Cultura de la ciudad en un 33%. La ciudad debe tener un Museo para poder construir una Torre de radiodifusi\u00f3n.",
+        "historical_info": "La torre de radiodifusi\u00f3n emite una se\u00f1al de comunicaci\u00f3n (de radio, televisi\u00f3n, etc.) al aire para que la capten los receptores desde muy lejos. Su caracter\u00edstica m\u00e1s importante es su altura; cuanto m\u00e1s alta sea, m\u00e1s lejos puede llegar la se\u00f1al. El Empire State Building de Manhattan lleva emitiendo se\u00f1ales desde 1931. Tras la ca\u00edda de las torres del World Trade Center en 2001, ha vuelto a ser el principal emisor de se\u00f1ales de Nueva York; transmite se\u00f1ales de casi todas las estaciones comerciales de la ciudad.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/torre_de_radio|torres_de_radio.png",
+        "prereq_tech": {
+            "name": "Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radio.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/broadcast_tower.json"
+    },
+    {
+        "id": 1,
+        "name": "Cuarteles|Cuarteles",
+        "game_info": "+15 PX para todas las unidades.",
+        "strategy": "Los Cuarteles proporcionan experiencia a las unidades militares creadas en la ciudad. Esta experiencia se puede usar para conceder ascensos a las unidades, lo que las hace m\u00e1s eficaces en combate.",
+        "historical_info": "Los cuarteles son edificios militares en los que se alojan los soldados profesionales de un pa\u00eds. Adem\u00e1s de ofrecerles alimento y cobijo, proporcionan entrenamiento, instalaciones m\u00e9dicas, calabozos, mantenimiento de veh\u00edculos, etc.Los cuarteles son importantes para la felicidad y el bienestar de una civilizaci\u00f3n. Fomentan la cohesi\u00f3n entre los soldados y sus probabilidades de tener \u00e9xito en combate. Tambi\u00e9n controlan el contacto directo entre civiles y soldados, limitando las fricciones que siempre se crean cuando estos dos grupos interaccionan demasiado.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/cuarteles|cuarteles.png",
+        "prereq_tech": {
+            "name": "Forja del bronce",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/barracks.json"
+    },
+    {
+        "id": 1,
+        "name": "Polvor\u00edn|Polvorines",
+        "game_info": "+15 PX para todas las unidades.La ciudad debe tener Cuarteles o el Krepost.",
+        "strategy": "El Polvor\u00edn concede experiencia a las unidades militares creadas en la ciudad. Para poder construir un Polvor\u00edn, la ciudad ha de contar con Cuarteles.",
+        "historical_info": "El polvor\u00edn es un edificio militar en el que se conservan las armas en tiempos de paz. Los soldados que no est\u00e1n de guardia no suelen llevar sus armas consigo, especialmente si se trata de ametralladoras, granadas o cohetes.Los polvorines suelen estar blindados y muy protegidos; son algo m\u00e1s parecido a un castillo que a un almac\u00e9n. Es necesario proteger las armas de un ej\u00e9rcito contra los robos, ya se trate de peque\u00f1os hurtos o de una chusma insurrecta.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/polvor\u00edn|polvorines.png",
+        "prereq_tech": {
+            "name": "Acero",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/armory.json"
+    },
+    {
+        "id": 1,
+        "name": "Academia militar|Academias militares",
+        "game_info": "+15 PX para todas las unidades.La ciudad debe tener un Polvor\u00edn.",
+        "strategy": "La Academia militar es un edificio de mediados del juego que aumenta el n\u00famero de puntos de experiencia de las unidades construidas en la ciudad. Esta ha de disponer de un Polvor\u00edn antes de poder construirla.",
+        "historical_info": "La academia militar es una instituci\u00f3n que ofrece educaci\u00f3n superior para preparar a los oficiales militares de un pa\u00eds. A menudo, las academias militares ofrecen la mejor educaci\u00f3n disponible y la combinan con una exigente preparaci\u00f3n f\u00edsica y cursos de instrucci\u00f3n, estrategia, log\u00edstica y otros temas militares. A estas academias suelen asistir los chicos m\u00e1s brillantes de un pa\u00eds o, al menos, los que tienen mejores enchufes.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/academia_militar|academias_militares.png",
+        "prereq_tech": {
+            "name": "Belicolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/military_academy.json"
+    },
+    {
+        "id": 1,
+        "name": "F\u00e1brica de armas|F\u00e1bricas de armas",
+        "game_info": "La ciudad debe tener un Castillo o un Fuerte mogol.",
+        "strategy": "La F\u00e1brica de armas es un edificio militar de mediados del juego que aumenta en 9 la potencia de defensa de una ciudad y en 25 sus puntos de golpe, lo que hace que la ciudad sea m\u00e1s dif\u00edcil de capturar. La ciudad debe tener un Castillo para poder construir una F\u00e1brica de armas.",
+        "historical_info": "La f\u00e1brica de armas es m\u00e1s grande y cara que el polvor\u00edn, y contiene armas m\u00e1s grandes y peligrosas: tanques, artiller\u00eda, munici\u00f3n explosiva, etc. Las f\u00e1bricas de armas est\u00e1n mejor protegidas que los polvorines, pues es mejor no pensar lo que suceder\u00eda si alguien robara un tanque o un proyectil explosivo de 88 mm.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/f\u00e1brica_de_armas|f\u00e1bricas_de_armas.png",
+        "prereq_tech": {
+            "name": "Metalurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/arsenal.json"
+    },
+    {
+        "id": 1,
+        "name": "Murallas|Murallas",
+        "game_info": "Las Murallas aumentan en 5 la potencia de defensa de una ciudad y en 50 sus puntos de golpe, lo que hace que resulte m\u00e1s dif\u00edcil de capturar. Son \u00fatiles para las ciudades que se encuentran en la frontera de una civilizaci\u00f3n.",
+        "strategy": "Las Murallas aumentan en 5 la potencia de defensa de una ciudad y en 50 sus puntos de golpe, lo que hace que resulte m\u00e1s dif\u00edcil de capturar. Son \u00fatiles para las ciudades que se encuentran en la frontera de una civilizaci\u00f3n.",
+        "historical_info": "Desde que las personas comenzaron a reunirse en grupos (pueblos, ciudades o lo que sea), siempre ha habido otros interesados en robarles. Desde el principio de la historia, el hombre ha erigido construcciones defensivas de barro, madera o piedra para proteger su comida, su riqueza y su familia. En la Edad Media, los pueblos y ciudades amuralladas, a veces acompa\u00f1ados de complejos diques o fosos, salpicaban el paisaje europeo. Algunos de ellos todav\u00eda pueden verse en la actualidad. La ciudad de York, en Inglaterra, tiene una larga muralla romana.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/murallas|murallas.png",
+        "prereq_tech": {
+            "name": "Mamposter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/walls.json"
+    },
+    {
+        "id": 1,
+        "name": "Castillo|Castillos",
+        "game_info": "La ciudad ha de tener Murallas.",
+        "strategy": "El Castillo es un edificio de la \u00c9poca Medieval que aumenta en 7 la Fuerza defensiva de la ciudad y en 25 sus puntos de golpe. Para poder construir un Castillo, la ciudad ha de contar con Murallas.",
+        "historical_info": "El castillo es un edificio dise\u00f1ado para proteger a un contingente militar (quiz\u00e1 tambi\u00e9n a algunos civiles) de sus enemigos. La madera es inflamable, as\u00ed que su material principal es la piedra. Suelen tener muralla exterior y un edificio interior fortificado llamado torre del homenaje. Un castillo tambi\u00e9n deber\u00eda disponer de una fuente independiente de agua y capacidad de almacenaje para mucha comida.Un castillo bien dise\u00f1ado debe ofrecer a sus defensores una forma de matar a sus enemigos mientras se aproximan e intentan escalar las murallas o echar abajo las puertas. Necesitan saeteras y almenas, y algunos matacanes nunca vienen mal para disparar flechas o echar aceite hirviendo sobre las cabezas de los enemigos.Los castillos fueron los s\u00edmbolos m\u00e1s grandes y caros del poder\u00edo militar y econ\u00f3mico de un pa\u00eds, hasta que la p\u00f3lvora los convirti\u00f3 en trampas mortales para los que se encontraban dentro.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/castillo|castillos.png",
+        "prereq_tech": {
+            "name": "Caballer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/castle.json"
+    },
+    {
+        "id": 1,
+        "name": "Base militar|Bases militares",
+        "game_info": "La ciudad debe tener una F\u00e1brica de armas.",
+        "strategy": "La Base militar es un edificio de mediados del juego que aumenta en 12 la Fuerza defensiva de la ciudad y en 25 sus puntos de golpe. Para poder construir una Base militar, la ciudad ha de contar con una F\u00e1brica de armas.",
+        "historical_info": "La base militar est\u00e1 formada por un grupo de estructuras y terrenos que acogen a una o m\u00e1s unidades militares importantes: legiones, divisiones, flotas, u otros grupos cuyo nombre depende del tipo de organizaci\u00f3n militar. Contiene todo lo necesario para entrenar en combate a la unidad militar, incluyendo campos de entrenamiento, alojamientos para oficiales, cuarteles, calabozos, polvorines, hospitales, almacenes, equipo de transporte, etc. Estas bases suelen estar bien protegidas y ubicadas en terrenos f\u00e1cilmente defendibles. Si no hay una traici\u00f3n de por medio, se necesitar\u00eda todo un ej\u00e9rcito para capturar o destruir una base militar.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/base_militar|bases_militares.png",
+        "prereq_tech": {
+            "name": "Repuestos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/military_base.json"
+    },
+    {
+        "id": 1,
+        "name": "Granero|Graneros",
+        "game_info": "Cada fuente de Trigo , Pl\u00e1tanos y Ciervos que explote la ciudad proporciona +1 a Alimentos .Permite mover Alimentos de esta ciudad por las rutas comerciales que haya dentro de tu civilizaci\u00f3n.",
+        "strategy": "El Granero aumenta el flujo de Alimentos de una ciudad, lo que acelera su crecimiento. Es \u00fatil cuando quieres crear una gran ciudad r\u00e1pidamente.",
+        "historical_info": "El granero es un edificio dise\u00f1ado con el objeto de almacenar grano para su consumo por humanos o ganado. Los graneros m\u00e1s antiguos fueron descubiertos en un enclave neol\u00edtico del valle del Jordania y datan aproximadamente del 9500 a. C. Estos primeros graneros med\u00edan unos tres metros cuadrados. Consist\u00edan en suelos elevados que permit\u00edan la circulaci\u00f3n del aire y ofrec\u00edan cierta protecci\u00f3n al grano frente a los ratones y otras amenazas.",
+        "cost": {
+            "production": 60,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/granero|graneros.png",
+        "prereq_tech": {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/granary.json"
+    },
+    {
+        "id": 1,
+        "name": "Hospital|Hospitales",
+        "game_info": "El Hospital es un edificio de la Era Industrial. Es \u00fatil cuando se quiere crear r\u00e1pido una gran ciudad.",
+        "strategy": "El Hospital es un edificio de la Era Industrial. Es \u00fatil cuando se quiere crear r\u00e1pido una gran ciudad.",
+        "historical_info": "El hospital es un establecimiento donde se diagnostica y atiende a los enfermos y heridos, y se les aloja durante su convalecencia. Muchos de ellos son tambi\u00e9n instituciones de ense\u00f1anza, donde los futuros m\u00e9dicos y enfermeros aprenden su oficio. Los primeros hospitales eran templos dedicados a ciertos dioses asociados con la sanaci\u00f3n y la curaci\u00f3n. Los hospitales religiosos aparecieron por primera vez en Sri Lanka alrededor del 430 a. C., y el rey Asoka de la India cre\u00f3 una cadena de ellos por todo el Indost\u00e1n hacia el a\u00f1o 230 a. C.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hospital|hospitales.png",
+        "prereq_tech": {
+            "name": "Biolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/biology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 5,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hospital.json"
+    },
+    {
+        "id": 1,
+        "name": "Laboratorio m\u00e9dico|Laboratorio m\u00e9dico",
+        "game_info": "Se transfiere un 25% de Alimentos cada vez que nace un nuevo ciudadano (estos efectos se acumulan con los del Acueducto).",
+        "strategy": "El Laboratorio m\u00e9dico es un edificio del juego tard\u00edo que disminuye en un 25% la cantidad de Alimentos que una ciudad necesita para aumentar de tama\u00f1o. Esta ha de contar con un Hospital para poder construir el Laboratorio m\u00e9dico.",
+        "historical_info": "El laboratorio m\u00e9dico es un lugar donde se estudian las enfermedades y la anatom\u00eda humanas utilizando una gran variedad de instrumentos extremadamente sofisticados y potentes (desde aparatos de ultrasonidos hasta c\u00e1maras del tama\u00f1o de una hormiga, pasando por microscopios electr\u00f3nicos). La mayor\u00eda de avances destacables, si no todos, conseguidos en medicina durante los \u00faltimos 25 a\u00f1os se han realizado en laboratorios m\u00e9dicos. Estos avances incluyen la secuenciaci\u00f3n del ADN humano, la obtenci\u00f3n de retrov\u00edricos para combatir el SIDA, las terapias gen\u00e9ticas, la nanotecnolog\u00eda m\u00e9dica y muchos m\u00e1s. Gran parte del coste creciente en asistencia sanitaria puede atribuirse al hecho de que los laboratorios m\u00e9dicos han tenido un gran \u00e9xito en la lucha contra las enfermedades y en el aumento de la esperanza y la calidad de vida, y estas mejoras cuestan grandes cantidades de dinero.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorio_m\u00e9dico|laboratorio_m\u00e9dico.png",
+        "prereq_tech": {
+            "name": "Penicilina",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/penicillin.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/medical_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Taller|Talleres",
+        "game_info": "Permite mover Alimentos de esta ciudad por las rutas comerciales que haya dentro de tu civilizaci\u00f3n.",
+        "strategy": "El Taller acelera la Producci\u00f3n de una ciudad.",
+        "historical_info": "El taller es un edificio en el que se fabrican cosas. Puede contener materias primas, herramientas y la mano de obra especializada necesaria para la fabricaci\u00f3n. En un taller de cer\u00e1mica se crear\u00edan, evidentemente, objetos de cer\u00e1mica, mientras que en una carpinter\u00eda pod\u00edan conseguirse puertas, armarios, suelos o cualquier cosa de madera. Muchos artistas italianos del Renacimiento trabajaban en talleres. Un gran pintor pod\u00eda llevarse el cr\u00e9dito de un cuadro pintado por sus empleados y aprendices, que hab\u00edan aprendido a imitar su estilo. Esta costumbre sigue causando muchos dolores de cabeza a los coleccionistas e historiadores actuales.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/taller|talleres.png",
+        "prereq_tech": {
+            "name": "Vaciado del metal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/workshop.json"
+    },
+    {
+        "id": 1,
+        "name": "F\u00e1brica|F\u00e1bricas",
+        "game_info": "Requiere 1 de Carb\u00f3n .",
+        "strategy": "La F\u00e1brica es un edificio de la Era Industrial que aumenta mucho la Producci\u00f3n de una ciudad. Esta ha de contar ya con un Taller (o una Gran casa en su defecto). Al construir una F\u00e1brica, se consume 1 de Carb\u00f3n .",
+        "historical_info": "La f\u00e1brica es un edificio que emplea t\u00e9cnicas de la Era Industrial para construir cosas: coches, cors\u00e9s, barras de acero, ca\u00f1as de pescar, etc. Comenzaron a aparecer a gran escala en los siglos XVII y XVIII; aunque quiz\u00e1 eran menos humanitarias, su productividad superaba a los peque\u00f1os talleres o industrias r\u00fasticas. A pesar de lo que se dice, Henry Ford no invent\u00f3 la cadena de montaje; \u00e9sta apareci\u00f3 en el siglo XIX, en las industrias estadounidenses de empacado de carne del medio oeste. Un sistema de cintas transportadoras llevaba a las reses muertas de puesto en puesto y cada trabajador dispon\u00eda de un tiempo limitado para cortar su porci\u00f3n predeterminada de carne antes de que la res fuera transportada a otro puesto. El trabajo en una planta de empacado de carne es uno de los m\u00e1s sucios y peligrosos de la historia norteamericana; los relatos que se cuentan siguen horroriz\u00e1ndonos hoy en d\u00eda.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/f\u00e1brica|f\u00e1bricas.png",
+        "prereq_tech": {
+            "name": "Industrializaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/industrialization.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 4,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Central nuclear|Centrales nucleares",
+        "game_info": "Requiere 1 de Uranio . La ciudad no debe tener una Central de energ\u00eda solar.",
+        "strategy": "La Central nuclear aumenta notoriamente la productividad de una ciudad. Para poder construirla, se necesita un recurso de Uranio . La ciudad ha de contar con una F\u00e1brica para poder construirla.",
+        "historical_info": "La central nuclear es un edificio en el que la energ\u00eda nuclear controlada se convierte en electricidad. La energ\u00eda de la fisi\u00f3n nuclear se utiliza para calentar agua y convertirla en vapor. Este vapor se bombea a trav\u00e9s de turbinas que generan energ\u00eda el\u00e9ctrica. A corto plazo, la energ\u00eda nuclear es mucho m\u00e1s limpia que el petr\u00f3leo o el carb\u00f3n, pues produce mucha menos contaminaci\u00f3n que envenene el aire, el agua y a las personas que hay cerca. No obstante, la central produce muchos residuos nucleares, un subproducto notablemente letal que debe almacenarse durante siglos antes de que pierda su toxicidad. Adem\u00e1s, un accidente importante en una central nuclear tiene efectos mucho m\u00e1s horribles y duraderos que el ocurrido en cualquier otra clase de planta generadora de electricidad. Encontrar la energ\u00eda suficiente para mantener al planeta alimentado es un problema dif\u00edcil y peligroso que la humanidad tendr\u00e1 que afrontar en el futuro, hasta que descubra una nueva fuente de energ\u00eda abundante, limpia y segura.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/central_nuclear|centrales_nucleares.png",
+        "prereq_tech": {
+            "name": "Fisi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/nuclear_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "F\u00e1brica de naves espaciales|F\u00e1bricas de naves espaciales",
+        "game_info": "+50% a la Producci\u00f3n en la construcci\u00f3n de piezas de Nave espacial. Requiere 1 de Aluminio .La ciudad ha de tener una F\u00e1brica.",
+        "strategy": "La F\u00e1brica de naves espaciales aumenta en un 50% la velocidad a la que la ciudad construye piezas de naves espaciales. Este edificio requiere un recurso de Aluminio , y la ciudad ha de contar con una F\u00e1brica para poder construirlo.",
+        "historical_info": "Las naves espaciales son las m\u00e1quinas m\u00e1s complejas que la humanidad haya producido nunca. Son enormes, y requieren de grandes cantidades de materiales fabricados con la m\u00e1xima calidad y construidos con un grado de precisi\u00f3n nunca igualado en ning\u00fan otro sector. Las f\u00e1bricas de la nave espacial de Alpha Centauri emplean a los trabajadores de m\u00e1s talento de la historia moderna. Muchos de ellos han sido elegidos para ir a la misi\u00f3n de colonizaci\u00f3n, lo que ayuda a asegurar su dedicaci\u00f3n y minuciosidad. Estos veh\u00edculos han de ser perfectos: una sola soldadura mal hecha o una melladura diminuta en la superficie incorrecta, y varios miles de trabajadores podr\u00edan quedarse en un veh\u00edculo averiado a millones de kil\u00f3metros de su hogar.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/f\u00e1brica_de_naves_espaciales|f\u00e1bricas_de_naves_espaciales.png",
+        "prereq_tech": {
+            "name": "Rob\u00f3tica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 3,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/spaceship_factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Mercado|Mercados",
+        "game_info": "Los Mercados aumentan la cantidad de Oro que genera una ciudad. Las rutas comerciales que otros jugadores hagan a una ciudad con un Mercado generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+        "strategy": "Los Mercados aumentan la cantidad de Oro que genera una ciudad. Las rutas comerciales que otros jugadores hagan a una ciudad con un Mercado generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+        "historical_info": "El mercado es un lugar en el que los granjeros y los mercaderes venden sus mercanc\u00edas. Aunque los primeros mercados funcionaron con un sistema de trueque, para que tengan \u00e9xito se necesita una divisa fiable que permita el libre intercambio de bienes y servicios. Por motivos obvios, los mercados se encuentran en el mismo lugar que los clientes, es decir, en pueblos y ciudades. El mercado de carne de Smithfield, en Londres, lleva m\u00e1s de mil a\u00f1os abierto. Eso explica los nombres de algunas calles, como \"Cow Cross Street\", que significa \"calle del Cruce de las vacas\".",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mercado|mercados.png",
+        "prereq_tech": {
+            "name": "Moneda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/market.json"
+    },
+    {
+        "id": 1,
+        "name": "Banco|Bancos",
+        "game_info": "La ciudad ha de tener un Mercado.",
+        "strategy": "El Banco es un edificio del Renacimiento que aumenta la producci\u00f3n de Oro de la ciudad. Esta ha de tener un Mercado o un Bazar para poder construirlo. Las rutas comerciales que otros jugadores hagan a una ciudad con un Banco generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+        "historical_info": "El banco es una instituci\u00f3n en la que los ciudadanos pueden dejar su dinero para mantenerlo a salvo. El banquero recoge los dep\u00f3sitos y ofrece pr\u00e9stamos a otras personas, que tendr\u00e1n que devolverlo con un inter\u00e9s adicional. El banquero entrega parte de los beneficios a los depositantes y reinvierte el resto. Para tener \u00e9xito, un sistema bancario necesita liquidez y que las leyes obliguen a devolver las deudas a los prestatarios siempre que puedan.Los bancos son aut\u00e9nticos motores del progreso de una civilizaci\u00f3n. Si una ciudad necesita algo (por ejemplo, un granero) un \u00fanico ciudadano podr\u00eda ser incapaz de construirlo por su cuenta. Pero el banco, que guarda los ahorros de muchos ciudadanos, puede prestar el dinero al constructor. Cuando haya construido el granero, el empresario podr\u00e1 devolver el pr\u00e9stamo al banco con las ganancias y los ciudadanos se beneficiar\u00e1n del nuevo granero (y del inter\u00e9s que han conseguido con sus dep\u00f3sitos).En los \u00faltimos a\u00f1os, los bancos europeos y estadounidenses han conseguido una mala reputaci\u00f3n; suele deberse a inversiones arriesgadas o pr\u00e9stamos a personas inadecuadas. Un banco bien gestionado es una bendici\u00f3n para la comunidad, especialmente si \u00e9sta es pobre.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/banco|bancos.png",
+        "prereq_tech": {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/bank.json"
+    },
+    {
+        "id": 1,
+        "name": "Bolsa|Bolsas",
+        "game_info": "La ciudad ha de tener un Banco.",
+        "strategy": "La Bolsa es un edificio de mitad del juego que aumenta la producci\u00f3n de Oro de la ciudad. Esta ha de tener un Banco o una Corte del s\u00e1trapa para poder construirla.",
+        "historical_info": "La bolsa es una instituci\u00f3n que permite a las personas comprar y vender \"acciones\" (participaciones en la propiedad de un negocio). En algunos casos, las acciones incluyen derecho a voto, lo que concede a sus titulares un cierto peso en la gesti\u00f3n de la empresa. Algunas acciones tambi\u00e9n dan \"dividendos\", por los que se reparte un porcentaje de los beneficios de la sociedad entre los accionistas anualmente. El principal prop\u00f3sito de las bolsas (o, al menos, el original) es permitir al due\u00f1o de una empresa captar capital con la venta de una peque\u00f1a parte de su sociedad a los inversores. A medida que aumenta el valor de la compa\u00f1\u00eda, lo hace el de sus acciones. Obviamente, todo esto entra\u00f1a un riesgo: si el valor de la acci\u00f3n cae, tambi\u00e9n lo hace el valor de la inversi\u00f3n. En una bolsa moderna tambi\u00e9n se utilizan o venden otros poderosos \"instrumentos\" financieros, como son los bonos, tanto estatales como privados, las opciones de compra, los canjes y los productos financieros derivados. Si se gestiona adecuadamente, una bolsa puede turbopropulsar una econom\u00eda. Si se gestiona mal, puede causar el caos financiero y la ruina.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bolsa|bolsas.png",
+        "prereq_tech": {
+            "name": "Electricidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stock_exchange.json"
+    },
+    {
+        "id": 1,
+        "name": "Biblioteca|Bibliotecas",
+        "game_info": "+1 a Ciencia por cada 2 ciudadanos que haya en esta ciudad.",
+        "strategy": "La Biblioteca aumenta la producci\u00f3n cient\u00edfica de la ciudad, pues acelera la adquisici\u00f3n de nuevas tecnolog\u00edas en la civilizaci\u00f3n.",
+        "historical_info": "La biblioteca es un edificio que contiene una colecci\u00f3n de libros, manuscritos y otros materiales escritos. En el pasado, los libros eran muy caros y a menudo estaban fuera del alcance de las clases m\u00e1s pobres. La biblioteca permit\u00eda a los pobres acceder a los mismos conocimientos que los ricos, mejorando as\u00ed sus posibilidades de tener \u00e9xito en la vida.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/biblioteca|bibliotecas.png",
+        "prereq_tech": {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/library.json"
+    },
+    {
+        "id": 1,
+        "name": "Universidad|Universidades",
+        "game_info": "+2 a Ciencia por las casillas de Selva que esta ciudad explote. Permite crear Arque\u00f3logos en esta ciudad.La ciudad debe contar con una Biblioteca.",
+        "strategy": "La Universidad es un edificio medieval. Aumenta la producci\u00f3n cient\u00edfica de la ciudad y es m\u00e1s eficaz a\u00fan si esta se encuentra construida cerca de casillas de Selva. La ciudad ha de contar con una Biblioteca (o Papelero) para que se pueda construir en ella una Universidad.",
+        "historical_info": "La universidad es una instituci\u00f3n que ofrece investigaci\u00f3n y educaci\u00f3n superior a j\u00f3venes de entre 18 y 24 a\u00f1os (los adultos tambi\u00e9n acuden a las universidades, pero la mayor\u00eda de los estudiantes se encuentran dentro de esa edad). Formalmente, una universidad es una instituci\u00f3n acreditada por el estado que concede t\u00edtulos acad\u00e9micos en diversas materias. La universidad que m\u00e1s tiempo lleva abierta en todo el mundo es la de Al-Karaouine, en Fez, Marruecos, que se fund\u00f3 en el 859 d. C.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/universidad|universidades.png",
+        "prereq_tech": {
+            "name": "Educaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/university.json"
+    },
+    {
+        "id": 1,
+        "name": "Escuela p\u00fablica|Escuelas p\u00fablicas",
+        "game_info": "+1 a Ciencia por cada 2 ciudadanos que haya en la ciudad.\u00c9sta debe tener una Universidad.",
+        "strategy": "La Escuela p\u00fablica es un edificio de mediados del juego que aumenta mucho la producci\u00f3n cient\u00edfica de la ciudad. Esta ha de contar con una Universidad o Wat para poder construirla.",
+        "historical_info": "La escuela p\u00fablica ofrece educaci\u00f3n preuniversitaria gratuita a los hijos de los ciudadanos. Se trata de un concepto bastante avanzado. En primer lugar, la civilizaci\u00f3n debe creer que la educaci\u00f3n es importante y que educar a los pobres no supone una amenaza para la clase pudiente. En segundo lugar, la civilizaci\u00f3n debe tener suficientes recursos para que los hijos de los pobres no necesiten trabajar para sobrevivir. Y, por \u00faltimo, la civilizaci\u00f3n debe haber alcanzado un grado de ilustraci\u00f3n tal que le parezca apropiado gastar parte de los ingresos p\u00fablicos en educaci\u00f3n. La mayor\u00eda de los pa\u00edses actuales ofrecen alg\u00fan tipo de educaci\u00f3n p\u00fablica a sus j\u00f3venes. La primera escuela elemental norteamericana se abri\u00f3 durante la era colonial. El primer instituto p\u00fablico se abri\u00f3 en Boston en 1821.",
+        "cost": {
+            "production": 300,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/escuela_p\u00fablica|escuelas_p\u00fablicas.png",
+        "prereq_tech": {
+            "name": "Teor\u00eda cient\u00edfica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/public_school.json"
+    },
+    {
+        "id": 1,
+        "name": "Laboratorio cient\u00edfico|Laboratorios cient\u00edficos",
+        "game_info": "La ciudad ha de tener una Escuela p\u00fablica.",
+        "strategy": "El Laboratorio de investigaci\u00f3n es un edificio de los \u00faltimos estadios del juego que aumenta mucho el rendimiento de Ciencia de una ciudad. Esta ha de contar con una Universidad para poder construirlo.",
+        "historical_info": "El laboratorio de investigaci\u00f3n es una instituci\u00f3n consagrada al estudio de un tema: medicina, f\u00edsica, qu\u00edmica, rob\u00f3tica, energ\u00eda limpia o cualquier otra materia interesante. Estos laboratorios pueden recibir financiaci\u00f3n tanto p\u00fablica como privada, de algunas personas adineradas o de empresas. Los laboratorios de investigaci\u00f3n pueden estar vinculados a universidades o ser independientes.Es evidente que el futuro de nuestras investigaciones depende de estos laboratorios. El hombre comprende mucho mejor todo lo que le rodea y los d\u00edas del cient\u00edfico entregado trabajando en solitario en su s\u00f3tano y gritando \"\u00a1Eureka!\" han pasado. Hoy son los laboratorios con docenas de investigadores de talento los que hacen los grandes descubrimientos.",
+        "cost": {
+            "production": 500,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorio_cient\u00edfico|laboratorios_cient\u00edficos.png",
+        "prereq_tech": {
+            "name": "Pl\u00e1stico",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/plastics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 4,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/research_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Acueducto|Acueductos",
+        "game_info": "Se transfiere un 40% de Alimentos cada vez que nace un nuevo ciudadano .",
+        "strategy": "El Acueducto disminuye en un 40% la cantidad de Alimentos que la ciudad necesita para aumentar de tama\u00f1o. Constr\u00fayelos en las ciudades que quieras que se hagan grandes con el tiempo.",
+        "historical_info": "Un acueducto es un sistema para transportar agua desde un lugar a otro. Tradicionalmente se ha utilizado para regar cosechas que estaban lejos de las fuentes naturales de agua. El t\u00e9rmino proviene de las palabras latinas para \"agua\" y \"conducir\", y se suele asociar hist\u00f3ricamente a los romanos. El acueducto romano m\u00e1s famoso es el Pont du Gard, en Francia. Pero los romanos no fueron la \u00fanica civilizaci\u00f3n que los construy\u00f3: se erigieron acueductos magn\u00edficos y complejos por todo el mundo, incluyendo N\u00ednive, capital de los asirios, y la capital azteca de Tenochtitl\u00e1n, en Am\u00e9rica.En la actualidad se siguen usando los mismos principios para construir y planificar acueductos que hace milenios, y seguimos llevando agua a nuestras casas para hacernos la vida m\u00e1s c\u00f3moda.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/acueducto|acueductos.png",
+        "prereq_tech": {
+            "name": "Ingenier\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/aqueduct.json"
+    },
+    {
+        "id": 1,
+        "name": "Taller de canter\u00eda|Talleres de canter\u00eda",
+        "game_info": "Cada fuente de M\u00e1rmol y Piedra explotada en esta ciudad proporciona +1 a la Producci\u00f3n .La ciudad debe haber mejorado al menos uno de estos recursos con una Cantera.La ciudad no debe estar situada sobre Llanura.",
+        "strategy": "El Taller de canter\u00eda solo se puede construir en una ciudad que est\u00e9 cerca de un recurso mejorado de M\u00e1rmol o Piedra . El Taller de canter\u00eda aumenta la Producci\u00f3n de la ciudad. Esta no debe estar situada en una Llanura.",
+        "historical_info": "El taller de canter\u00eda es el lugar de trabajo de los canteros, que se dedican a dar forma y procesar diversos tipos de piedra para crear tanto elementos art\u00edsticos como estructurales de las obras de construcci\u00f3n. El arte de la canter\u00eda es una de las profesiones m\u00e1s antiguas del mundo, y abarca desde la extracci\u00f3n de la piedra de las canteras hasta la propia talla de figuras geom\u00e9tricas, y la colocaci\u00f3n de estas piedras en el lugar de construcci\u00f3n. A lo largo de la historia, los canteros han empleado todo tipo de piedra; desde la caliza, que se utilizaba para construir estructuras de enorme tama\u00f1o, hasta el granito y el m\u00e1rmol, que pod\u00edan encontrarse principalmente en las estatuas y los monumentos.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/taller_de_canter\u00eda|talleres_de_canter\u00eda.png",
+        "prereq_tech": {
+            "name": "Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/calendar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stone_works.json"
+    },
+    {
+        "id": 1,
+        "name": "Murallas de Babilonia|Murallas de Babilonia",
+        "game_info": "Las Murallas de Babilonia aumentan el da\u00f1o que causan todos los ataques a distancia de la ciudad y aumentan la defensa de la ciudad.",
+        "strategy": "Las Murallas de Babilonia son un edificio exclusivo babilonio que sustituye a las Murallas est\u00e1ndar. Aumentan en 6 la potencia de defensa de una ciudad y en 100 sus puntos de golpe (significativamente m\u00e1s que las Murallas normales).",
+        "historical_info": "Incluidas en la lista original de las siete maravillas del mundo antiguo de Ant\u00edpatro, las Murallas de Babilonia cerraban la ciudad y la proteg\u00edan de los ataques, rode\u00e1ndola por todos los frentes y abarcando hasta el r\u00edo \u00c9ufrates, que atravesaba el centro de la ciudad. Las murallas exteriores se extend\u00edan a lo largo de m\u00e1s de 15 kil\u00f3metros, med\u00edan 8 metros de ancho y se dec\u00eda que se elevaban hasta casi 100 metros sobre la ciudad. Unas murallas m\u00e1s peque\u00f1as rodeaban la ciudad detr\u00e1s de las murallas principales, lo que garantizaba una l\u00ednea defensiva adicional por si la primera llegaba a caer. Hab\u00eda unas 250 torres colocadas por toda la extensi\u00f3n de las murallas que proporcionaban excelentes puestos de vigilancia y bases de combate para los h\u00e1biles arqueros babilonios. Las murallas eran impenetrables a cualquier tecnolog\u00eda de las disponibles para los asedios de la \u00e9poca. Se instalaron grandes puertas de metal en los extremos del r\u00edo para evitar intrusos submarinos, y se construyeron ocho puertas enormes para controlar el paso a pie (la m\u00e1s famosa es la Puerta de Ishtar). Estas murallas protegieron con eficacia la ciudad durante casi un centenar de a\u00f1os.No fue hasta el 539 a. C. que se hall\u00f3 una manera de sortear las murallas. Ciro el Grande tram\u00f3 un plan con el que consigui\u00f3 desviar la corriente del \u00c9ufrates y bajar el nivel del agua, de modo que pudiera atravesarse a pie. Su ej\u00e9rcito se introdujo bajo las puertas de metal del r\u00edo en plena oscuridad y tom\u00f3 la ciudad desde dentro. Aunque eran capaces de repeler cualquier medio directo de asalto, las murallas no pudieron detener el ingenio resuelto de un hombre.Gran parte de las antiguas murallas sigue en pie, todo un testamento de su fortaleza. En 1983, Saddam Hussein comenz\u00f3 un proyecto de reconstrucci\u00f3n en el lugar de la antigua ciudad que inclu\u00eda la restauraci\u00f3n de las murallas y una recreaci\u00f3n de la Puerta de Ishtar. Desde entonces, el proyecto est\u00e1 detenido, pero Irak espera continuar con la restauraci\u00f3n de las murallas y volver a hacer de Babilonia un lugar maravilloso.",
+        "cost": {
+            "production": 65,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/murallas_de_babilonia|murallas_de_babilonia.png",
+        "prereq_tech": {
+            "name": "Mamposter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/walls_of_babylon.json"
+    },
+    {
+        "id": 1,
+        "name": "Ceilidh Hall|Ceilidh Halls",
+        "game_info": null,
+        "strategy": "El Ceilidh Hall es un edificio renacentista exclusivo de los celtas que sustituye al Teatro de la \u00d3pera. Aumenta la Cultura y la Felicidad que produce la ciudad.",
+        "historical_info": "Tradicionalmente, un \"Ceilidh\" era una reuni\u00f3n social que al principio se asociaba con los primeros habitantes de Irlanda y Escocia. Los ceilidhs, que se celebraban con frecuencia durante el a\u00f1o, sol\u00edan estar amenizados por m\u00fasica y constitu\u00edan una importante v\u00eda de escape social de las labores cotidianas. Los ceilidhs sol\u00edan celebrarse en salones, pero cuando no estaban disponibles, tambi\u00e9n se organizaban en domicilios privados, escuelas y negocios locales.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ceilidh_hall|ceilidh_halls.png",
+        "prereq_tech": {
+            "name": "Ac\u00fastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/ceilidh_hall.json"
+    },
+    {
+        "id": 1,
+        "name": "Cafeter\u00eda|Cafeter\u00edas",
+        "game_info": "+25% a la generaci\u00f3n de Grandes personajes en esta ciudad.",
+        "strategy": "La Cafeter\u00eda es un edificio renacentista exclusivo de Austria que sustituye al Molino de viento. Aumenta la Producci\u00f3n de la ciudad y la velocidad de generaci\u00f3n de Grandes personajes en un 25%.",
+        "historical_info": "Las famosas cafeter\u00edas de Austria, que se encuentran principalmente en el centro hist\u00f3rico de Viena, siempre han constituido un refugio frente al estr\u00e9s y la agitaci\u00f3n de la vida cotidiana. Seg\u00fan cuenta la leyenda, Jerzy Franciszek Kulczycki, un soldado polaco, abri\u00f3 la primera cafeter\u00eda vienesa tras descubrir caf\u00e9 en un escondite que dejaron los otomanos al retirarse de la Batalla de Viena, en 1683. La cultura del caf\u00e9 floreci\u00f3 en Viena durante el siglo XIX, cuando escritores y artistas de toda la ciudad se acomodaban en el relajante ambiente de las cafeter\u00edas, en las que sol\u00edan permanecer todo el d\u00eda.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/cafeter\u00eda|cafeter\u00edas.png",
+        "prereq_tech": {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/coffee_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Pir\u00e1mide|Pir\u00e1mides",
+        "game_info": null,
+        "strategy": "La Pir\u00e1mide es un edificio de la Antig\u00fcedad exclusivo de los mayas que sustituye al Santuario. Aumenta la Ciencia y la Fe de una ciudad, y acelera la investigaci\u00f3n y la adquisici\u00f3n de religiones de la civilizaci\u00f3n.",
+        "historical_info": "Los mayas comenzaron a construir estas impresionantes estructuras de forma piramidal hace casi 3.000 a\u00f1os. Los artesanos mayas tallaban todas las piedras del edificio, dotando a las estructuras de un aspecto \"escalonado\". Una larga escalera ascend\u00eda por un lado de la pir\u00e1mide hasta el peque\u00f1o altar de la cima, que sol\u00eda estar dedicado a uno de los dioses mayas. La pir\u00e1mide maya m\u00e1s grande se encuentra en El Mirador y supera los setenta metros de altura. Su volumen (casi tres millones de metros c\u00fabicos) la convierte en una de las mayores pir\u00e1mides del mundo.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pir\u00e1mide|pir\u00e1mides.png",
+        "prereq_tech": {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/pyramid.json"
+    },
+    {
+        "id": 1,
+        "name": "Anfiteatro|Anfiteatros",
+        "game_info": null,
+        "strategy": "El Anfiteatro aumenta la Cultura de una ciudad, acelerando el crecimiento del territorio urbano y la consecuci\u00f3n de pol\u00edticas sociales por parte de la civilizaci\u00f3n. Para poder construir un Anfiteatro, la ciudad ha de contar con un Monumento o una Estela. Contiene un espacio para una gran obra de la literatura.",
+        "historical_info": "El anfiteatro es un recinto destinado a la representaci\u00f3n de obras teatrales, la pr\u00e1ctica de eventos deportivos y conciertos al aire libre. Los antiguos romanos construyeron cientos de anfiteatros que consagraban los combates de gladiadores, exhibiciones y ejecuciones p\u00fablicas.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/anfiteatro|anfiteatros.png",
+        "prereq_tech": {
+            "name": "Dramaturgia y poes\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/amphitheater.json"
+    },
+    {
+        "id": 1,
+        "name": "Santuario|Santuarios",
+        "game_info": null,
+        "strategy": "El Santuario es el primer edificio que aumenta la Fe que genera una ciudad, y que te permite fundar y propagar religiones.",
+        "historical_info": "Los santuarios son monumentos sagrados que suelen construirse para conmemorar ciertos iconos culturales o personajes religiosos. Los santuarios, presentes en la pr\u00e1ctica totalidad de las confesiones religiosas de todo el mundo, desempe\u00f1an un papel importante en las ceremonias religiosas de adoraci\u00f3n p\u00fablica y privada.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/santuario|santuarios.png",
+        "prereq_tech": {
+            "name": "Alfarer\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 1,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/shrine.json"
+    },
+    {
+        "id": 1,
+        "name": "Centro de reciclaje|Centros de reciclaje",
+        "game_info": "Proporciona 2 de Aluminio. Tu imperio puede erigir un m\u00e1ximo de 5 de estos edificios.",
+        "strategy": "Cada Centro de reciclaje proporciona 2 de Aluminio. Tu imperio puede erigir un m\u00e1ximo de 5 de estos centros.",
+        "historical_info": "Un centro de reciclaje es un punto de recogida de materiales reciclables de uso dom\u00e9stico o comercial. En muchas comunidades, los productos reciclables se recogen junto a la basura y se transportan hasta los centros de reciclaje para ser almacenados. En la mayor\u00eda de los casos, estos materiales se descomponen, se empacan y se env\u00edan a otros lugares para procesarlos y convertirlos en otros productos.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centro_de_reciclaje|centros_de_reciclaje.png",
+        "prereq_tech": {
+            "name": "Ecolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/recycling_center.json"
+    },
+    {
+        "id": 1,
+        "name": "Refugio antia\u00e9reo|Refugios antia\u00e9reos",
+        "game_info": "Reduce la p\u00e9rdida de poblaci\u00f3n derivada de los ataques nucleares en un 75%.",
+        "strategy": "Los Refugios antia\u00e9reos reducen la p\u00e9rdida de poblaci\u00f3n derivada de los ataques nucleares en un 75%. \u00a1Ponte a cubierto!",
+        "historical_info": "Como el nombre sugiere, un refugio antia\u00e9reo es una estructura dise\u00f1ada para soportar el da\u00f1o causado por las bombas y otras armas explosivas. Aunque algunos de estos refugios estaban destinados a la protecci\u00f3n contra los bombardeos a\u00e9reos, otros se constru\u00edan bajo tierra con la esperanza de ofrecer cobijo contra un hipot\u00e9tico ataque nuclear. Se pod\u00edan usar diversos materiales en funci\u00f3n del objetivo del refugio; el m\u00e1s com\u00fan era el hormig\u00f3n armado.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/refugio_antia\u00e9reo|refugios_antia\u00e9reos.png",
+        "prereq_tech": {
+            "name": "Telecomunicaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/telecommunications.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/bomb_shelter.json"
+    },
+    {
+        "id": 1,
+        "name": "Gendarmer\u00eda|Gendarmer\u00edas",
+        "game_info": "Reduce la velocidad del robo de los esp\u00edas enemigos en un 25%.",
+        "strategy": "Las Gendarmer\u00edas reducen la velocidad a la que los esp\u00edas enemigos roban tecnolog\u00edas en tu ciudad.",
+        "historical_info": "Una de las primeras descripciones del cometido de un condestable nos lleg\u00f3 de la mano de Brancton, un jurista ingl\u00e9s que, entre 1220 y 1250, escribi\u00f3: \"En cualquiera manera o d\u00eda que llegara, es deber del condestable anotar todo ordenadamente, puesto que debe registrar las cosas que viera, pero sin juzgarlas, porque no hay juicios en la Torre ya que falta el tercer elemento de un proceso judicial; a saber: un juez y una jurisdicci\u00f3n. As\u00ed, es su deber recoger hechos, no juicios ni leyes\".",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gendarmer\u00eda|gendarmer\u00edas.png",
+        "prereq_tech": {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/constabulary.json"
+    },
+    {
+        "id": 1,
+        "name": "Comisar\u00eda|Comisar\u00edas",
+        "game_info": "Reduce la velocidad del robo de los esp\u00edas enemigos en un 25%.La ciudad debe tener una Gendarmer\u00eda.",
+        "strategy": "Las Comisar\u00edas reducen la velocidad a la que los esp\u00edas enemigos roban tecnolog\u00edas en tu ciudad. Para poder construirla, la ciudad debe tener una Gendarmer\u00eda.",
+        "historical_info": "La comisar\u00eda constituye una base de operaciones para la polic\u00eda local; suele incluir oficinas, un peque\u00f1o calabozo, salas de interrogatorio y zonas para el almacenaje de pruebas. En algunas regiones, una oficina central de mayor tama\u00f1o puede cumplir varios de esos cometidos, mientras que las comisar\u00edas secundarias, de menor tama\u00f1o, hacen las veces de puesto principal para los departamentos de polic\u00eda local.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/comisar\u00eda|comisar\u00edas.png",
+        "prereq_tech": {
+            "name": "Electricidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/police_station.json"
+    },
+    {
+        "id": 1,
+        "name": "Catedral|Catedrales",
+        "game_info": null,
+        "strategy": "Solo se puede construir en una ciudad que tenga la creencia de las Catedrales. Construye este edificio adquiri\u00e9ndolo con Fe .",
+        "historical_info": "La catedral es una especie de iglesia cristiana cuya diferencia es la presencia de un trono de obispo. El t\u00e9rmino lat\u00edn \"cathedra\" significa \"silla\", en referencia al propio trono, y la catedral es el edificio que lo contiene. La mayor\u00eda de las catedrales exhiben un estilo arquitect\u00f3nico \u00fanico comparado con el de las construcciones circundantes, lo que las hace destacar. Aunque su principal uso es el religioso, las catedrales tambi\u00e9n cumplen diversas funciones sociales dentro de la comunidad.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/catedral|catedrales.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 1,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/cathedral.json"
+    },
+    {
+        "id": 1,
+        "name": "Mezquita|Mezquitas",
+        "game_info": null,
+        "strategy": "Solo se puede construir en una ciudad que tenga la creencia de las Mezquitas. Construye este edificio adquiri\u00e9ndolo con Fe .",
+        "historical_info": "La mezquita sirve como lugar de adoraci\u00f3n tradicional para los partidarios del Islam. La mezquita m\u00e1s grande del mundo, la Madjid al-Haram, se construy\u00f3 en La Meca, en Arabia Saud\u00ed, en torno al 638 d. C. La Madjid al-Haram, tambi\u00e9n llamada Gran Mezquita, incluye el enclave de la Kaaba, el lugar m\u00e1s sagrado de la religi\u00f3n isl\u00e1mica.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mezquita|mezquitas.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 3,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Pagoda|Pagodas",
+        "game_info": null,
+        "strategy": "Solo se puede construir en una ciudad que tenga la creencia de las Pagodas. Construye este edificio adquiri\u00e9ndolo con Fe .",
+        "historical_info": "La pagoda, un edificio com\u00fan de toda Asia, es una torre con un estilo arquitect\u00f3nico peculiar que la dota de varias terrazas con saledizos y un puntal prominente en la parte superior. La mayor\u00eda de las pagodas se asocian a la religi\u00f3n budista, pues fueron construidas en o dentro de complejos de templos dedicados a Buda para alojar reliquias sagradas.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pagoda|pagodas.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/pagoda.json"
+    },
+    {
+        "id": 1,
+        "name": "Estela|Estelas",
+        "game_info": null,
+        "strategy": "La Estela es un edificio de la Antig\u00fcedad exclusivo de Etiop\u00eda que sustituye al Monumento. Aumenta la Cultura y la Fe de una ciudad, acelerando la expansi\u00f3n de su territorio y la adquisici\u00f3n de pol\u00edticas sociales y religiones.",
+        "historical_info": "Una estela es una gran losa de piedra o madera erecta que hace las veces de monumento destinado a conmemorar victorias b\u00e9licas, grandes l\u00edderes o, en ocasiones, a delimitar fronteras. Las estelas se encuentran a lo largo y ancho de Etiop\u00eda y las regiones circundantes, y a menudo contienen intrincadas inscripciones con los detalles de la persona o el evento conmemorado. El Obelisco de Aksum, una de estas estelas, se construy\u00f3 a mediados del siglo IV d. C. en la ciudad et\u00edope de Aksum, pero m\u00e1s tarde se desmantel\u00f3 y transport\u00f3 a Italia durante la ocupaci\u00f3n de Etiop\u00eda por parte de las fuerzas de Mussolini. Esta estela de 24 metros y 150 toneladas fue devuelta a Etiop\u00eda y ensamblada de nuevo en 2008 como parte de un programa educativo, cient\u00edfico y cultural de las Naciones Unidas.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/estela|estelas.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/stele.json"
+    },
+    {
+        "id": 1,
+        "name": "Ikanda|Ikanda",
+        "game_info": "Es el sustituto de los Cuarteles, exclusivo de los zul\u00faes. Concede ascensos \u00fanicos a las unidades de cuerpo a cuerpo anteriores a la p\u00f3lvora.",
+        "strategy": "Adem\u00e1s de las capacidades normales de los Cuarteles, a los que sustituye, la Ikanda concede un conjunto \u00fanico de ascensos a las unidades de cuerpo a cuerpo anteriores a la p\u00f3lvora que se creen en la ciudad. Estos incluyen un movimiento m\u00e1s r\u00e1pido y una fuerza de combate mayor. Solo los zul\u00faes la pueden construir.",
+        "historical_info": "La ikanda era una forma de kraal o corral militar para el ganado y los animales de los zul\u00faes. Un amabutho, o \"quinta\", estaba compuesto por j\u00f3venes u hombres de la misma edad que entrenaban, viv\u00edan y luchaban juntos en una sola formaci\u00f3n y que se alojaban en uno de los corrales reales, lo que los convert\u00eda en una ikanda. Cada ikanda ten\u00eda asignado un reba\u00f1o de ganado real, donde los guerreros se abastec\u00edan de carne. Las pieles de los animales se usaban para fabricar los escudos, con un color distinto para cada amabutho. Las ikandas segu\u00edan la disposici\u00f3n general de un kraal tradicional, consistente en dos empalizadas conc\u00e9ntricas de espino con las chozas para vivir en el c\u00edrculo exterior y el ganado protegido en el anillo interior.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ikanda|ikanda.png",
+        "prereq_tech": {
+            "name": "Forja del bronce",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/ikanda.json"
+    },
+    {
+        "id": 1,
+        "name": "Establo ducal|Establos ducales",
+        "game_info": "Es el sustituto del Establo exclusivo de los polacos. +15% a la Producci\u00f3n y +15 PX por unidades montadas.Cada Pastizal que explote esta ciudad concede +1 a la Producci\u00f3n y +1 al Oro .",
+        "strategy": "Adem\u00e1s de las capacidades normales del Establo, el Establo ducal aumenta el Oro en las casillas de Pastizal y concede +15 PX por unidades montadas. Solo los polacos los pueden construir.",
+        "historical_info": "Tras subir al trono en al a\u00f1o 1333 d. C., Casimiro III se vio obligado a aplacar a la alborotada nobleza polaca haciendo grandes concesiones, incluido el derecho a mantener establos del equivalente a los de la corona. Hasta el final de las Guerras Napole\u00f3nicas, estos establos ducales fueron una fuente de prestigio y poder, y albergaban entre 50 y varios cientos de equinos, adem\u00e1s de a los mozos de cuadra, con habitaciones para los jaeces, sillas y aperos. Algunos, como el establo ducal de Szczecin, eran pr\u00e1cticos y funcionales, mientras que otros eran ostentosos, con columnas y estatuas, como muestra el establo de Krask\u00f3w. Con independencia de su tama\u00f1o y ornamentaci\u00f3n, los establos ducales proporcionaban las monturas para las famosas formaciones de caballer\u00eda polacas.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/establo_ducal|establos_ducales.png",
+        "prereq_tech": {
+            "name": "Equitaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/ducal_stable.json"
+    },
+    {
+        "id": 1,
+        "name": "Biblioteca real|Bibliotecas reales",
+        "game_info": "Es el sustituto \u00fanico de la Biblioteca para los asirios. +1 a Ciencia por cada 2 ciudadanos que haya en esta ciudad. Adem\u00e1s, dispone de un espacio para una Gran obra de arte de la literatura que, cuando se llena, concede PX adicionales a las unidades entrenadas.",
+        "strategy": "Adem\u00e1s de la producci\u00f3n normal de Ciencia de la Biblioteca, a la que sustituye, la Biblioteca real tiene un espacio para una Gran obra de la literatura. Una vez ocupado con una Gran obra, concede PX extra a las unidades que se entrenen en esta ciudad, as\u00ed que pon una Gran obra aqu\u00ed cuanto antes para aprovecharla al m\u00e1ximo. Solo la pueden construir los asirios.",
+        "historical_info": "La primera biblioteca que se conoce del mundo se remonta al reinado del monarca asirio Senaquerib, c. del 700. a. C., que reuni\u00f3 miles de tablillas de arcilla en su palacio de N\u00ednive. Pero fue su nieto Asurbanipal quien cre\u00f3 la famosa Biblioteca Real. El rey, que era un coleccionista apasionado, envi\u00f3 a eruditos por toda la regi\u00f3n a recoger textos, principalmente babilonios, aunque tambi\u00e9n de los reinos vecinos. Para asegurarse de que su gran biblioteca de tablillas perdurase, el rey hizo que los escribas copiaran los textos, copias que luego podr\u00edan guardarse en otras ciudades neoasirias de su imperio en expansi\u00f3n. La propia Biblioteca Real qued\u00f3 arrasada durante el saqueo de N\u00ednive en el a\u00f1o 612 a. C., pero los arque\u00f3logos han encontrado cerca de 10.000 fragmentos de tablillas en escritura cuneiforme.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/biblioteca_real|bibliotecas_reales.png",
+        "prereq_tech": {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/royal_library.json"
+    },
+    {
+        "id": 1,
+        "name": "Candi|Candis",
+        "game_info": "Es el sustituto del Jard\u00edn, exclusivo de los indonesios. +25% a la generaci\u00f3n de Grandes personajes en esta ciudad y 2 m\u00e1s de Fe por cada Religi\u00f3n del mundo que tenga al menos un seguidor en la ciudad.A diferencia del Jard\u00edn, el Candi no ha de construirse al lado de un R\u00edo o un Lago.",
+        "strategy": "Adem\u00e1s de las capacidades normales del Jard\u00edn, el Candi concede +2 de Fe por cada religi\u00f3n del mundo que tenga al menos un seguidor en la ciudad. Solo lo puede construir Indonesia, y la ciudad no ha de construirse al lado de un R\u00edo o de un Lago.",
+        "historical_info": "\"Candi\" es un edificio de piedra indonesio basado en el altar individual hind\u00fa, con una torre piramidal encima y un p\u00f3rtico ornamentado, que se construy\u00f3 principalmente entre los siglos VIII y XV. El candi, que incorpora dibujos de mandalas, se pens\u00f3 a imagen y semejanza de Meru, la monta\u00f1a sagrada que era la morada de los dioses. Los javaneses, especialmente los jemeres, desarrollaron una arquitectura algo distinta para sus candi, usando pilares alrededor de una masa s\u00f3lida central, pero conservando la forma b\u00e1sica. El candi m\u00e1s grande y famoso es el de Borobudur, el templo budista del siglo IX con siete terrazas.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/candi|candis.png",
+        "prereq_tech": {
+            "name": "Teolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/candi.json"
+    },
+    {
+        "id": 1,
+        "name": "Hansa|Hansas",
+        "game_info": "Es el sustituto del Banco, exclusiva de los alemanes. +5% a la Producci\u00f3n por cada ruta comercial que tenga tu civilizaci\u00f3n con una ciudad-estado. Las rutas comerciales que establezcan otros jugadores con una ciudad con una Hansa generar\u00e1n 1 m\u00e1s de Oro al propietario de la ciudad, y el propietario de la ruta comercial gana 1 m\u00e1s de Oro por la ruta comercial.",
+        "strategy": "Adem\u00e1s de las capacidades normales del Banco (producci\u00f3n adicional de Oro y m\u00e1s Oro por rutas comerciales), la Hansa proporciona Producci\u00f3n por cada ruta comercial en tu civilizaci\u00f3n que conecte con una ciudad-estado. Las rutas comerciales pueden venir de cualquier combinaci\u00f3n de ciudades sin la Hansa. (Ejemplo: si tienes rutas comerciales desde Berl\u00edn a G\u00e9nova; M\u00fanich a G\u00e9nova; M\u00fanich a Berl\u00edn, y Berl\u00edn a Bruselas, entonces todas las ciudades en la Hansa obtendr\u00e1n +15% a la Producci\u00f3n ). Solo Alemania puede construirla.",
+        "historical_info": "La Hansa, que en franc\u00e9s antiguo significaba \"compa\u00f1\u00eda de mercaderes\", era una confederaci\u00f3n voluntaria de mercaderes y comerciantes organizada en una ciudad para asegurar la protecci\u00f3n y facilitar el comercio y el transporte. En los puertos mercantiles del B\u00e1ltico y del mar del Norte estos gremios, que establec\u00edan sus sedes centrales en edificios tambi\u00e9n denominados Hansas, se volvieron extremadamente poderosos e influyentes en el siglo XIII. La Hansa m\u00e1s grande no solo alojaba las oficinas administrativas del gremio, sino tambi\u00e9n almacenes, salas de reuniones, mercados, bancos y, si estaban en la costa, puertos. Se cree que la primera se construy\u00f3 en L\u00fcbeck en 1159 d. C. para facilitar el comercio entre Europa occidental y las zonas ricas en recursos del norte de Rusia. La Hansa dio nombre a la Liga Hanse\u00e1tica, formada alrededor de 1250 d. C. por varios gremios alemanes con el fin de pacificar las rutas comerciales del B\u00e1ltico, estandarizar los pagar\u00e9s y desarrollar comercialmente sus respectivas ciudades. La Hansa mantendr\u00eda su poder pol\u00edtico, militar (entre otros conflictos, la Guerra Hanse\u00e1tica-Holandesa entre 1438-1441 y la Guerra Anglo-Hanse\u00e1tica entre 1470-1474) y econ\u00f3mico en la regi\u00f3n hasta finales del siglo XVII.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hansa|hansas.png",
+        "prereq_tech": {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hanse.json"
+    },
+    {
+        "id": 1,
+        "name": "Gremio de escritores|Gremios de escritores",
+        "game_info": "Proporciona 1 punto de Grandes personajes (PGP) para conseguir un Gran escritor. Asigna hasta dos especialistas a este edificio para ganar Cultura y aumentar la velocidad a la que consigues Grandes escritores (3 de Cultura y 3 PGP por especialista).",
+        "strategy": "El Gremio de escritores es el \u00fanico edificio que contiene espacios para especialistas escritores, que son vitales para generar Grandes escritores. Si pretendes conseguir una victoria cultural, este edificio es imprescindible. El Gremio de escritores proporciona 1 punto de Grandes personajes y cada especialista asignado proporciona 3 puntos de Grandes personajes y 3 de Cultura .",
+        "historical_info": "Aunque nunca fueron tan influyentes como los gremios de artistas contempor\u00e1neos, las organizaciones gremiales de escritores se crearon en el Renacimiento con la llegada de la imprenta. En diversas ciudades europeas aparecieron organizaciones tanto regladas como no regladas que pretend\u00edan asegurase de que impresores y libreros compensaran justamente a los autores. En el Londres de Shakespeare y en otras partes, los dramaturgos hicieron frente com\u00fan para proteger sus ganancias contra el plagio y de las representaciones sin permiso. Aunque son m\u00e1s asociaciones sindicales que gremios propiamente dichos, hoy en d\u00eda la tradici\u00f3n la contin\u00faan centenares de organizaciones en el mundo, como el Gremio de Escritores de Israel, el Writers Guild of Great Britain y el American Authors Guild.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gremio_de_escritores|gremios_de_escritores.png",
+        "prereq_tech": {
+            "name": "Dramaturgia y poes\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/writers'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Gremio de artistas|Gremios de artistas",
+        "game_info": "Proporciona 2 puntos de Grandes personajes (PGP) para conseguir un Gran artista. Asigna hasta dos especialistas a este edificio para ganar Cultura y aumentar la velocidad a la que consigues Grandes artistas (3 de Cultura y 3 PGP por especialista).",
+        "strategy": "El Gremio de artistas es el \u00fanico edificio que contiene espacios para especialistas artistas, que son vitales para generar Grandes artistas. Si pretendes conseguir una victoria cultural, este edificio es imprescindible. El Gremio de artistas concede 2 puntos de Grandes personajes y cada especialista asignado proporciona 3 puntos de Grandes personajes y 3 de Cultura .",
+        "historical_info": "El concepto de gremios de artesanos no prendi\u00f3 hasta bien entrada la Baja Edad Media, cuando Europa empez\u00f3 su largo proceso de urbanizaci\u00f3n. En el siglo XIII, gran n\u00famero de gremios de artistas aparecieron en las ciudades, creados a imagen y semejanza de los gremios de mercaderes del momento. Los gremios quer\u00edan fijar los costes y poner los precios, as\u00ed como ofrecer ayuda y educaci\u00f3n a los artistas de la ciudad, evitando as\u00ed los problemas derivados del mecenazgo por parte de ricos y nobles. Aunque siguen existiendo gremios no oficiales para diversos tipos de artistas, la Ilustraci\u00f3n conllev\u00f3 el declive del monopolio de los gremios hasta que todos se abolieron a mediados del siglo XIX.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gremio_de_artistas|gremios_de_artistas.png",
+        "prereq_tech": {
+            "name": "Gremios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/guilds.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/artists'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Gremio de m\u00fasicos|Gremios de m\u00fasicos",
+        "game_info": "Proporciona 3 puntos de Grandes personajes (PGP) para conseguir un Gran m\u00fasico. Asigna hasta dos especialistas a este edificio para ganar Cultura y aumentar la velocidad a la que consigues Grandes m\u00fasicos (3 de Cultura y 3 PGP PGP por especialista).",
+        "strategy": "El Gremio de m\u00fasicos es el \u00fanico edificio que contiene espacios para especialistas m\u00fasicos, que son vitales para generar Grandes m\u00fasicos. Si pretendes conseguir una victoria cultural, este edificio es imprescindible. El Gremio de m\u00fasicos proporciona 3 puntos de Grandes personajes y cada especialista asignado ofrece 3 puntos de Grandes personajes y 3 de Cultura .",
+        "historical_info": "El gremio de m\u00fasicos, que floreci\u00f3 brevemente durante el Renacimiento, tuvo sus ra\u00edces en las bandas de m\u00fasicos de la corte bajo el mecenazgo y la protecci\u00f3n de la nobleza y la realeza. Durante el Renacimiento, cuando la m\u00fasica pas\u00f3 a satisfacer los gustos de la creciente clase de mercaderes y media, los m\u00fasicos sin patronos se unieron para asegurarse las tarifas y el trabajo. Tras la aparici\u00f3n de la orquesta moderna, en el siglo XVII, poblaciones y ciudades patrocinaron a compositores y directores, lo que permiti\u00f3 representaciones cada vez m\u00e1s elaboradas. Este movimiento hacia la \"m\u00fasica municipal\" obvi\u00f3 en gran medida la necesidad real de gremios de m\u00fasicos. No fue hasta el bum de la m\u00fasica popular a principios del siglo XX que los m\u00fasicos volver\u00edan a organizarse, esta vez en sindicatos.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gremio_de_m\u00fasicos|gremios_de_m\u00fasicos.png",
+        "prereq_tech": {
+            "name": "Ac\u00fastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/musicians'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Hotel|Hoteles",
+        "game_info": "El 50% de la Cultura por Maravillas del mundo, Maravillas naturales y mejoras (Sitio de inter\u00e9s, Moai y Chateau) se a\u00f1ade a la producci\u00f3n de Turismo de la ciudad. +50% a la producci\u00f3n de Turismo de las Grandes obras.",
+        "strategy": "Con su gran impulso al Turismo , el Hotel es una elecci\u00f3n excelente para las civilizaciones que intentan conseguir una victoria cultural o aumentar su influencia ideol\u00f3gica sobre otras.",
+        "historical_info": "Las posadas han existido durante milenios para ofrecer refugio y seguridad a los mercaderes y viajeros. Marco Polo inform\u00f3 de un extenso sistema de casas para alojar a los viajeros ya en la China del siglo XIII. El hotel moderno fue en su mayor parte resultado de la aparici\u00f3n del ferrocarril, no solo porque aumentaron los viajes, sino tambi\u00e9n la necesidad de alojarse por periodos m\u00e1s cortos. El hotel que lleva funcionando desde hace m\u00e1s tiempo es el Nisiyama Onsen Keiunkan, en Jap\u00f3n, que se inaugur\u00f3 en el a\u00f1o 707 y lo han llevado 46 generaciones de la misma familia.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hotel|hoteles.png",
+        "prereq_tech": {
+            "name": "Refrigeraci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hotel.json"
+    },
+    {
+        "id": 1,
+        "name": "Caravanserai|Caravanserais",
+        "game_info": "Las rutas comerciales terrestres que partan de esta ciudad tienen un 50% m\u00e1s de alcance y producen 2 m\u00e1s de Oro cuando se comunican con otra civilizaci\u00f3n.",
+        "strategy": "La Caravanserai es un edificio de la \u00c9poca Cl\u00e1sica. Mejora el alcance y la producci\u00f3n de Oro de las rutas comerciales terrestres.",
+        "historical_info": "A medida que las rutas caravaneras se expandieron por Oriente Medio, Asia central y el norte de \u00c1frica, creci\u00f3 la necesidad de lugares donde los animales de tiro de las caravanas pudieran descansar, cobijarse y estar a salvo. Las caravansaries p\u00fablicas eran complejos que se constru\u00edan fuera de las murallas de las ciudades; las privadas sol\u00edan adoptar la forma de recintos amurallados con los almacenes, dormitorios, establos y cocinas rodeando un patio central. Las m\u00e1s grandes pod\u00edan acomodar a cientos de camellos, mulas o caballos. Casi todas las caravansaries ofrec\u00edan vituallas b\u00e1sicas \u2013a cambio de un dinero\u2013 como agua, pienso, comida, ropa y otros suministros para el camino. Las caravansaries m\u00e1s antiguas de las que se tiene constancia se encontraban en el camino real persa y cubr\u00edan unos 2.500 kil\u00f3metros, desde Sardis hasta Susa.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/caravanserai|caravanserais.png",
+        "prereq_tech": {
+            "name": "Equitaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/caravansary.json"
+    },
+    {
+        "id": 1,
+        "name": "Aeropuerto|Aeropuertos",
+        "game_info": "Permite el aerotransporte con origen o destino en esta ciudad. Aumenta la capacidad de la ciudad para acoger unidades a\u00e9reas de 6 a 10. El 50% de la Cultura por Maravillas del mundo, Maravillas naturales y mejoras (Sitio de inter\u00e9s, Mo\u00e1i y Chateau) se a\u00f1ade a la producci\u00f3n de Turismo de la ciudad. +50% a la producci\u00f3n de Turismo de las Grandes obras.",
+        "strategy": "El vers\u00e1til Aeropuerto es una elecci\u00f3n excelente tanto para las civilizaciones que intentan mejorar su producci\u00f3n de Turismo como para aquellas otras que necesitan de las capacidades de aerotransporte para transbordar unidades a ciudades lejanas.",
+        "historical_info": "T\u00e9cnicamente, un \"aeropuerto\" es cualquier lugar donde aviones, helic\u00f3pteros, dirigibles u otro tipo de aeronaves puedan despegar y aterrizar. No obstante, en el sentido corriente y com\u00fan de la palabra, un aeropuerto es un complejo para aviones comerciales, compuesto de pistas de aterrizaje y de despegue, torres de control, hangares, terminales, instalaciones de emergencia e incluso aparcamientos. Antes de 1930, la mayor\u00eda de aeropuertos eran poco m\u00e1s que peque\u00f1os aer\u00f3dromos, con pistas de menos de 600 metros. En 1939, el de La Guardia, en Nueva York, vio pasar cerca de un cuarto de mill\u00f3n de pasajeros al mes. Las estad\u00edsticas m\u00e1s recientes de listas de tr\u00e1fico de pasajeros sit\u00faan al aeropuerto de Hartsfield-Jackson, en Atlanta, como el m\u00e1s transitado del mundo, puesto que m\u00e1s de 92 millones de pasajeros lo utilizaron en 2011.",
+        "cost": {
+            "production": 400,
+            "faith": 0
+        },
+        "gold_maintenance": 5,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/aeropuerto|aeropuertos.png",
+        "prereq_tech": {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/airport.json"
+    }
+]

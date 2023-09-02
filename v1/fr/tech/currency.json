@@ -1,0 +1,44 @@
+{
+    "id": 19,
+    "name": "Monnaie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/currency.png",
+    "era": "\u00c8re classique",
+    "cost": 175,
+    "civilopedia_entry": "La Monnaie est une innovation remarquable, gr\u00e2ce \u00e0 laquelle certains morceaux de papier ou petites pi\u00e8ces repr\u00e9sentent une certaine valeur, et peuvent \u00eatre \u00e9chang\u00e9s contre divers objets ou services. Les premi\u00e8res monnaies furent des pi\u00e8ces m\u00e9talliques d'une valeur bas\u00e9e sur le poids et la nature du m\u00e9tal dont elles \u00e9taient faites. Plus tard, la monnaie pouvait ne plus avoir de valeur intrins\u00e8que (sur une \u00eele d\u00e9serte, un dollar n'est rien de plus qu'un petit bout de papier rectangulaire), celle-ci \u00e9tant d\u00e9termin\u00e9e par son \u00e9metteur (en g\u00e9n\u00e9ral, un gouvernement). Tant que l'\u00e9metteur demeurait solvable, la monnaie conservait sa valeur.Au quatri\u00e8me mill\u00e9naire av. J.-C., les habitants de l'\u00c9gypte ancienne utilisaient comme monnaie des lingots d'or de poids pr\u00e9cis\u00e9ment d\u00e9fini ; au Moyen-Orient, des lingots de m\u00eame type, mais en cuivre, \u00e9taient pareillement utilis\u00e9s. Dans de nombreuses r\u00e9gions du globe, des anneaux de m\u00e9tal, des bracelets ou des joncs (d'or, d'argent ou sertis de joyaux) servaient \u00e0 la fois d'ornements et de monnaie.Toutes les p\u00e9riodes de l'Histoire ont connu leur lot de faussaires s'\u00e9vertuant \u00e0 concevoir des r\u00e9pliques des monnaies de leur \u00e9poque. Soit ils cr\u00e9aient des pi\u00e8ces en utilisant un m\u00e9tal moins pr\u00e9cieux que le m\u00e9tal l\u00e9gal, soit ils s'enrichissaient en \"rabotant\" une partie du m\u00e9tal pr\u00e9cieux. Lorsque les billets devinrent la norme, les faussaires apprirent vite \u00e0 dupliquer la taille, la couleur et le \"toucher\" du papier ; et \u00e0 copier les images et les inscriptions qui y apparaissaient. Les faussaires sont aujourd'hui \u00e0 ce point comp\u00e9tents que la plupart des monnaies modernes sont dot\u00e9es de syst\u00e8mes de reconnaissance extr\u00eamement sophistiqu\u00e9s. Le temps n'est probablement plus tr\u00e8s loin o\u00f9 chaque billet sera \u00e9quip\u00e9 d'une puce \u00e9lectronique unique.",
+    "quote": "\"Mieux vaut du pain quand le c\u0153ur est content, que des richesses avec des tracas.\" - Am\u00e9n\u00e9mop\u00e9",
+    "tech_prereqs": [
+        {
+            "name": "Math\u00e9matiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mathematics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Guildes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/guilds.json"
+        },
+        {
+            "name": "Administration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Bazar|Bazars",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/bazaar.json"
+        },
+        {
+            "name": "H\u00f4tel de la monnaie|H\u00f4tel de la monnaie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/mint.json"
+        },
+        {
+            "name": "March\u00e9|March\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/market.json"
+        },
+        {
+            "name": "P\u00e9tra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/petra.json"
+        }
+    ]
+}

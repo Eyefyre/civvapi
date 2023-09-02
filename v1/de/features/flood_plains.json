@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Schwemmland",
+    "historical_info": "Schwemmland sind tief gelegene Gebiete am Rand von Fl\u00fcssen. Jedes Jahr \u00fcberflutet der Fluss das Land und versorgt es so mit nat\u00fcrlicher Bew\u00e4sserung und vielen N\u00e4hrstoffen. Schwemmland bietet den fruchtbarsten und ertragreichsten Ackerboden auf der ganzen Welt. Das alte \u00c4gypten verdankte den Gro\u00dfteil seines Reichtums und seiner Macht der j\u00e4hrlichen \u00dcberschwemmung durch den m\u00e4chtigen Nil.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/schwemmland.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Weizen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wheat.json"
+        },
+        {
+            "name": "Zucker",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sugar.json"
+        }
+    ]
+}

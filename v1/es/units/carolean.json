@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Carolino|Carolinos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Una unidad fuerte de primera l\u00ednea que se especializa en largas marchas, muy lejos incluso de tierras suecas. Solo la pueden crear los suecos.",
+    "historical_info": "Estos soldados de \u00e9lite sirvieron a la corona sueca entre 1660 y 1697. Este peque\u00f1o grupo de soldados, que posiblemente fuera la mejor unidad de su \u00e9poca, compensaba su inferioridad num\u00e9rica con t\u00e1cticas innovadoras y una f\u00e9rrea disciplina. Los carolinos eran soldados estrictamente ofensivos y nunca practicaron ninguna maniobra de retirada. Cargaban contra las l\u00edneas enemigas y solo respond\u00edan al fuego cuando estaban lo suficientemente cerca como para no errar. Esta furibunda carga desmoralizaba a muchos ej\u00e9rcitos, y los carolinos causaban muchas bajas entre los soldados enemigos que romp\u00edan filas para huir.",
+    "strategy": "Los Carolinos constituyen la espina dorsal del ej\u00e9rcito sueco a inicios de la Era Industrial. Empiezan con el ascenso Marcha, que les permite curarse cada turno aunque realicen alguna acci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Marcha",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/march.json"
+        }
+    ]
+}

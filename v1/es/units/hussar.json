@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "name": "H\u00fasar|H\u00fasares",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hussar.png",
+    "game_info": "Una unidad montada r\u00e1pida que se usa para explorar y para t\u00e1cticas de hostigamiento. Es especialmente mort\u00edfera en los flanqueos. Solo la pueden crear los austr\u00edacos.",
+    "historical_info": "Los h\u00fasares, la temible caballer\u00eda ligera cuyo nombre deriva del t\u00e9rmino lat\u00edn \"cursarius\", que significa \"incursor\", sirvieron al imperio de los Habsburgo en Austria durante los siglos XVII y XVIII. Los h\u00fasares, imitados por las unidades de caballer\u00eda de toda Europa, conformaban un regimiento irregular de jinetes competentes que confiaban en las r\u00e1pidas e impredecibles t\u00e1cticas de guerrilla. Con el tiempo se convirtieron en una unidad formal cuyos reclutas deb\u00edan reunir ciertos requisitos que afectaban tanto al jinete como a su montura. Se recurri\u00f3 mucho a los regimientos de h\u00fasares durante las Guerras Napole\u00f3nicas, y m\u00e1s tarde sirvieron en otros ej\u00e9rcitos europeos y asi\u00e1ticos hasta bien entrado el siglo XIX.",
+    "strategy": "Los H\u00fasares son grandes exploradores y flanqueadores. Son algo m\u00e1s r\u00e1pidos que la Caballer\u00eda, a la que sustituyen. Empiezan con ascensos que les conceden un +1 a la Visual y aumenta en un 50% su bonificaci\u00f3n cuando hacen un flanqueo.",
+    "movement": 5,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Belicolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Flanqueo mejorado",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/enhanced_flank_attack.json"
+        }
+    ]
+}

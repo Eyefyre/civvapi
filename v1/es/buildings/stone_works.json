@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Taller de canter\u00eda|Talleres de canter\u00eda",
+    "game_info": "Cada fuente de M\u00e1rmol y Piedra explotada en esta ciudad proporciona +1 a la Producci\u00f3n .La ciudad debe haber mejorado al menos uno de estos recursos con una Cantera.La ciudad no debe estar situada sobre Llanura.",
+    "strategy": "El Taller de canter\u00eda solo se puede construir en una ciudad que est\u00e9 cerca de un recurso mejorado de M\u00e1rmol o Piedra . El Taller de canter\u00eda aumenta la Producci\u00f3n de la ciudad. Esta no debe estar situada en una Llanura.",
+    "historical_info": "El taller de canter\u00eda es el lugar de trabajo de los canteros, que se dedican a dar forma y procesar diversos tipos de piedra para crear tanto elementos art\u00edsticos como estructurales de las obras de construcci\u00f3n. El arte de la canter\u00eda es una de las profesiones m\u00e1s antiguas del mundo, y abarca desde la extracci\u00f3n de la piedra de las canteras hasta la propia talla de figuras geom\u00e9tricas, y la colocaci\u00f3n de estas piedras en el lugar de construcci\u00f3n. A lo largo de la historia, los canteros han empleado todo tipo de piedra; desde la caliza, que se utilizaba para construir estructuras de enorme tama\u00f1o, hasta el granito y el m\u00e1rmol, que pod\u00edan encontrarse principalmente en las estatuas y los monumentos.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/taller_de_canter\u00eda|talleres_de_canter\u00eda.png",
+    "prereq_tech": {
+        "name": "Calendario",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/calendar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 1
+    }
+}

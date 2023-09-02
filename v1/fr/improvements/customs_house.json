@@ -1,0 +1,68 @@
+{
+    "id": 18,
+    "name": "Bureau de douane|Bureaux de douane",
+    "game_info": "Un bureau de douane est un b\u00e2timent gouvernemental auquel sont vers\u00e9es les taxes sur les biens import\u00e9s et export\u00e9s du pays. Cela permet \u00e0 l'\u00c9tat de recevoir sa \"part\" des profits sur chaque cargo mouillant l'ancre dans un port du pays, par exemple. \u00c9tant donn\u00e9e la somme d'argent en jeu, les opportunit\u00e9s de corruption sont illimit\u00e9es. Tout au long de l'histoire des douanes, nombreux furent les officiers ayant c\u00e9d\u00e9 \u00e0 la tentation.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/bureau_de_douane|bureaux_de_douane.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "Charbon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 4,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

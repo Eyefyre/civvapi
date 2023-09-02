@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Flugzeugtr\u00e4ger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Transportiert anfangs 2 Flugzeuge; Kapazit\u00e4t kann durch Bef\u00f6rderungen erh\u00f6ht werden.",
+    "historical_info": "Der erste Flug von einem amerikanischen Schiff aus startete 1910. Manche Traditionalisten k\u00e4mpften gegen die Entwicklung des Flugzeugtr\u00e4gers an und behaupteten, dass das Schlachtschiff das R\u00fcckgrat jeder modernen Marine sei und immer bleiben w\u00fcrde, doch in den 1920ern wurden Flugzeugtr\u00e4ger f\u00fcr Armeen auf der ganzen Welt produziert. Im Dezember 1941 r\u00e4umte die japanische Marine jeden Zweifel an der Macht des Flugzeugtr\u00e4gers aus, indem sie mit einem brillanten \u00dcberraschungsangriff auf Pearl Harbor einen gro\u00dfen Teil der amerikanischen Pazifikflotte zerst\u00f6rte (darunter auch die meisten hochgepriesenen Schlachtschiffe). Durch Zufall waren die amerikanischen Flugzeugtr\u00e4ger w\u00e4hrend des Angriffs nicht im Hafen und sie konnten den japanischen Vormarsch aufhalten, bis die massiv verst\u00e4rkte Produktion von US-Flugzeugtr\u00e4gern Fr\u00fcchte trug. Letztendlich behielten die Amerikaner durch ihre Flugzeugtr\u00e4ger (und Luftwaffe) die Oberhand, was den Japanern eine vernichtende Niederlage einbrachte.",
+    "strategy": "Der Flugzeugtr\u00e4ger ist ein besonderes Schiff, das J\u00e4ger, Bomber (keine Tarnkappenbomber) und Atombomben transportiert. Der Flugzeugtr\u00e4ger selbst kann nicht angreifen, aber durch die transportierten Flugzeuge wird er zur m\u00e4chtigsten Waffe auf dem Meer. Verteidigen kann sich der Flugzeugtr\u00e4ger jedoch nur schlecht und sollte stets von Zerst\u00f6rern und U-Booten eskortiert werden.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Elektronik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Tragkraft f\u00fcr 2 Frachten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

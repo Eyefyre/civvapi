@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Laboratorio m\u00e9dico|Laboratorio m\u00e9dico",
+    "game_info": "Se transfiere un 25% de Alimentos cada vez que nace un nuevo ciudadano (estos efectos se acumulan con los del Acueducto).",
+    "strategy": "El Laboratorio m\u00e9dico es un edificio del juego tard\u00edo que disminuye en un 25% la cantidad de Alimentos que una ciudad necesita para aumentar de tama\u00f1o. Esta ha de contar con un Hospital para poder construir el Laboratorio m\u00e9dico.",
+    "historical_info": "El laboratorio m\u00e9dico es un lugar donde se estudian las enfermedades y la anatom\u00eda humanas utilizando una gran variedad de instrumentos extremadamente sofisticados y potentes (desde aparatos de ultrasonidos hasta c\u00e1maras del tama\u00f1o de una hormiga, pasando por microscopios electr\u00f3nicos). La mayor\u00eda de avances destacables, si no todos, conseguidos en medicina durante los \u00faltimos 25 a\u00f1os se han realizado en laboratorios m\u00e9dicos. Estos avances incluyen la secuenciaci\u00f3n del ADN humano, la obtenci\u00f3n de retrov\u00edricos para combatir el SIDA, las terapias gen\u00e9ticas, la nanotecnolog\u00eda m\u00e9dica y muchos m\u00e1s. Gran parte del coste creciente en asistencia sanitaria puede atribuirse al hecho de que los laboratorios m\u00e9dicos han tenido un gran \u00e9xito en la lucha contra las enfermedades y en el aumento de la esperanza y la calidad de vida, y estas mejoras cuestan grandes cantidades de dinero.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/laboratorio_m\u00e9dico|laboratorio_m\u00e9dico.png",
+    "prereq_tech": {
+        "name": "Penicilina",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/penicillin.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

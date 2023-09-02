@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "name": "Panzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tank.png",
+    "game_info": "Schnelle und starke Einheit im sp\u00e4ten Spiel.",
+    "historical_info": "Panzer bieten die Feuerkraft von Artillerie und die Beweglichkeit von Kavallerie. Die ersten Panzer tauchten gegen Ende des Ersten Weltkriegs auf und waren entwickelt worden, um die damalige Vorherrschaft der defensiven Kriegsf\u00fchrung zu \u00fcberwinden: Massive Infanterieangriffe f\u00fchrten mittlerweile durch Maschinengewehre, Stacheldrahtzaun und Sch\u00fctzengr\u00e4ben zu kostspieligen Fehlschl\u00e4gen und Kavallerieangriffe waren v\u00f6llig obsolet geworden. Obwohl die fr\u00fchen Panzer schlecht konstruiert waren und die unerfahrenen Besatzungen immer wieder mit Motorproblemen zu k\u00e4mpfen hatte, besa\u00dfen die Panzer dennoch gro\u00dfes Potenzial - zumindest f\u00fcr diejenigen, die sich damit besch\u00e4ftigten. Im Zweiten Weltkrieg setzten die Deutschen auf die sogenannte Blitzkrieg-Taktik - extrem schnelle Angriffe mit Panzerverb\u00e4nden an der Spitze - mit au\u00dfergew\u00f6hnlichem Erfolg: Die Deutschen nahmen Frankreich ein und vertrieben die britische Armee vom Festland, bevor deren Gener\u00e4le eine Antwort auf diese erstaunliche neue Taktik finden konnten. Panzer sind zwar bis heute das wichtigste Offensivelement von Bodentruppen, doch sie haben sich auch als relativ angreifbar durch eine neuere, noch schnellere Waffe erwiesen: den Kampfhubschrauber.",
+    "strategy": "Der Panzer ist eine extrem starke und mobile Landeinheit. Er kann sich nach dem Kampf bewegen und so L\u00f6cher in die feindlichen Linien rei\u00dfen, um danach die frei gewordenen Gel\u00e4ndefelder zu besetzen.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Verbundene Waffen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

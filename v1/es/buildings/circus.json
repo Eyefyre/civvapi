@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Circo|Circos",
+    "game_info": "La ciudad ha de tener cerca una fuente de Caballos o Marfil mejorados.",
+    "strategy": "El Circo solo se puede construir en una ciudad que tenga cerca los recursos mejorados de Caballos o Marfil . El Circo aumenta la Felicidad de una civilizaci\u00f3n.",
+    "historical_info": "Un circo es una compa\u00f1\u00eda de artistas esc\u00e9nicos que incluye acr\u00f3batas, payasos, malabaristas, funambulistas, trapecistas y domadores. La mayor\u00eda de circos son itinerantes y se trasladan de una ciudad a otra durante la temporada, mientras que otros permanecen fijos en un lugar durante todo el a\u00f1o. En la antigua Roma, el circo era el nombre del edificio donde se realizaban carreras de cuadrigas, combates escenificados, juegos malabares y otros espect\u00e1culos. El primer circo romano fue el Circus Maximus, que pod\u00eda acoger a 250.000 ciudadanos vociferantes con el aforo completo (cerca de un 25% de la poblaci\u00f3n de la ciudad).",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/circo|circos.png",
+    "prereq_tech": {
+        "name": "Caza con trampas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/trapping.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

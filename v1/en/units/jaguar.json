@@ -1,0 +1,31 @@
+{
+    "id": 80,
+    "name": "Jaguar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/jaguar.png",
+    "game_info": "Fairly weak early-game military Unit. Only the Aztecs may build it. This Unit fights more effectively in Jungle and heals damage when it kills an enemy Unit, unlike the Warrior which it replaces.",
+    "historical_info": "In Aztec culture, war was as much a religious rite as it was a political tool. Young men had to capture or kill enemies in order to attain high status, and ever-increasing numbers of prisoners were needed as sacrifices for the Aztecs' religious rituals. The Jaguar Knights were elite professional soldiers in the Aztec army. Clad in jaguar skins and equipped with deadly \"macuahuitls\" (wooden swords studded with sharp obsidian shards), the Jaguars were perhaps the deadliest light infantry found in pre-Columbian Central and North America.",
+    "strategy": "The Jaguar is the Aztec unique unit, replacing the Warrior. The Jaguar receives a big bonus when battling in Jungle. It also heals damage when it destroys enemy units and has the Woodsman promotion, allowing it to move through Forest and Jungle quickly.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Combat Bonus in Forest/Jungle (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/combat_bonus_in_forest_jungle_(33).json"
+        },
+        {
+            "name": "Woodsman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/woodsman.json"
+        },
+        {
+            "name": "Heals 25 Damage If Kills a Unit",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/heals_25_damage_if_kills_a_unit.json"
+        }
+    ]
+}

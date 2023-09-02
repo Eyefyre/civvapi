@@ -1,0 +1,27 @@
+{
+    "id": 99,
+    "name": "Cataphract",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cataphract.png",
+    "game_info": "Fast and powerful early game Mounted Unit. Weak to Spearmen. Only the Byzantines may build it. This Unit has a higher Combat Strength, defends better, and attacks cities more effectively than the Horseman which it replaces.",
+    "historical_info": "Among the most heavily-armored forms of cavalry used throughout history, the Cataphract was a formidable opponent on the battlefield. With horses draped in chain mail or plated armor, and the rider himself in an equally impressive suit of armor, these mounted units were used primarily for crushing through the lines of enemy infantry they faced. The Byzantine Empire was known to have made extensive use of Cataphracts throughout its storied history, as they played a prominent role in defending the empire following the decline of their Roman brethren in the west.",
+    "strategy": "The Cataphract is a Byzantine unique unit, replacing the Horseman. Cataphracts are slower but more powerful than the Horseman unit, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Horseman. Also their penalty for attacking cities is not as severe.",
+    "movement": 3,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Horseback Riding",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(25).json"
+        }
+    ]
+}

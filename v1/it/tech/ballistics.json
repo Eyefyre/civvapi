@@ -1,0 +1,40 @@
+{
+    "id": 59,
+    "name": "Balistica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ballistics.png",
+    "era": "Epoca moderna",
+    "cost": 4100,
+    "civilopedia_entry": "La balistica studia il moto dei proiettili, soprattutto pallottole, missili e bombe. Nella maggioranza dei casi il termine \u00e8 usato in relazione allo studio forense di armi e munizioni, in particolare quelle che sono state coinvolte in un crimine: in questo caso, collegare un'arma a una pallottola recuperata pu\u00f2 provare l'innocenza o la colpevolezza. In generale la balistica, a partire dal secolo scorso, ha permesso di migliorare nettamente precisione, potenza ed efficacia generale dei vari tipi di arma da fuoco.",
+    "quote": "\"Gli uomini, come i proiettili, vanno pi\u00f9 lontano quanto meno sono ruvidi.\" - Jean Paul",
+    "tech_prereqs": [
+        {
+            "name": "Ferrovia|della Ferrovia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/railroad.json"
+        },
+        {
+            "name": "Volo|del Volo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar|del Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+        },
+        {
+            "name": "Armi combinate|delle Armi combinate",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cannone antiaereo|un Cannone antiaereo|dal tuo Cannone antiaereo|al tuo Cannone antiaereo|il tuo Cannone antiaereo|da un Cannone antiaereo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/anti-aircraft_gun.json"
+        },
+        {
+            "name": "Mitragliatrice|una Mitragliatrice|dalla tua Mitragliatrice|alla tua Mitragliatrice|la tua Mitragliatrice|da una Mitragliatrice",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/machine_gun.json"
+        }
+    ],
+    "building_unlocks": []
+}

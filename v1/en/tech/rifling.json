@@ -1,0 +1,44 @@
+{
+    "id": 45,
+    "name": "Rifling",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rifling.png",
+    "era": "Industrial Era",
+    "cost": 1600,
+    "civilopedia_entry": "Rifling is the process of making spiral grooves in the barrel of a cannon or firearm which imparts a spin on the projectile. The spin stabilizes the projectile, greatly increasing its accuracy. Rifling was invented in Vienna in the 15th century. However, the early process was extremely expensive and time-consuming, and it did not see popular use for some three centuries. By the early eighteenth century rifles were used by sharpshooters in armies across Europe and the world.By mid-century the Minie rifle and ball were making rifled muskets more accurate and deadly. These guns and others like them saw extensive use during the American Civil War, and probably inflicted more casualties than all other rifle or musket types combined.By the end of the American Civil War the Minies were being replaced by breech-loading cartridge-firing rifles, which were far faster to load and fire than the muskets. These rifles, like the Springfield Model 1865 and its heirs, would remain the American infantryman's rifle right up to World War I, when the first automatic rifles were invented. During the modern era most infantrymen carry some version of an assault rifle like the American M16 or the Russian AK-47. These deadly weapons give today's soldiers firepower equal to dozens of Civil War veterans.",
+    "quote": "\"It is well that war is so terrible, or we should grow too fond of it.\" - Robert E. Lee",
+    "tech_prereqs": [
+        {
+            "name": "Economics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+        },
+        {
+            "name": "Metallurgy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Rifleman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/rifleman.json"
+        },
+        {
+            "name": "Norwegian Ski Infantry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/norwegian_ski_infantry.json"
+        },
+        {
+            "name": "Mehal Sefari",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/mehal_sefari.json"
+        },
+        {
+            "name": "Carolean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/carolean.json"
+        }
+    ],
+    "building_unlocks": []
+}

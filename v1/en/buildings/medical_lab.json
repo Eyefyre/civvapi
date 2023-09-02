@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Medical Lab",
+    "game_info": "25% of Food is carried over after a new Citizen is born (effect stacks with Aqueduct).",
+    "strategy": "The Medical Lab is a late-game building which decreases the amount of Food a city needs to increase in size by 25%. The city needs to have a Hospital in order to construct the Medical Lab.",
+    "historical_info": "A medical laboratory is an institution that studies disease and human anatomy using a wide variety of extremely sophisticated and powerful instruments - from ultrasound to cameras the size of an ant to electron microscopes. Most - if not all - of the remarkable advances in medicine in the past 25 years have been made in medical labs. These include the sequencing of human DNA, retro-viruses to battle HIV-AIDS, gene therapy, nano-technology, and more. Much of the increasing cost of healthcare can be attributed to the simple fact that medical laboratories have been remarkably successful at battling illness and prolonging and improving the quality of human life - and these improvements cost huge amounts of money.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/medical_lab.png",
+    "prereq_tech": {
+        "name": "Penicillin",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/penicillin.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

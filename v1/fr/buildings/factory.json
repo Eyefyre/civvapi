@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Usine|Usines",
+    "game_info": "N\u00e9cessite 1 Charbon.",
+    "strategy": "B\u00e2timent de l'\u00e8re industrielle, l'usine augmente consid\u00e9rablement la production de la ville o\u00f9 elle se trouve. Votre ville doit d\u00e9j\u00e0 poss\u00e9der un atelier (ou une long\u00e8re) pour que vous puissiez y construire une usine. La cr\u00e9ation d'une usine consomme une ressource de charbon.",
+    "historical_info": "Une usine est un b\u00e2timent faisant appel aux techniques datant de l'\u00e8re industrielle afin de fabriquer des produits plus vari\u00e9s les uns que les autres, allant des voitures aux corsets, en passant par les poutrelles en acier et les cannes \u00e0 p\u00eache. Ce sont aux XVIIe et XVIIIe si\u00e8cles que les usines ont fait leur apparition \u00e0 grande \u00e9chelle, rempla\u00e7ant peu \u00e0 peu les petits ateliers et les industries artisanales, moins productives mais plus humaines, sans aucun doute. Contrairement \u00e0 la croyance populaire, ce n'est pas Henry Ford qui inventa le travail \u00e0 la cha\u00eene. Ce proc\u00e9d\u00e9 fit son apparition au XIXe si\u00e8cle dans les industries d'emballage de viande du Middle West am\u00e9ricain. Les carcasses de vache \u00e9taient transport\u00e9es de station en station sur un tapis roulant a\u00e9rien et \u00e0 un rythme r\u00e9gulier. Chaque employ\u00e9 b\u00e9n\u00e9ficiait d'un laps de temps pr\u00e9cis pour r\u00e9aliser sa t\u00e2che avant que la carcasse ne passe \u00e0 la station suivante. Le travail dans ces usines d'emballage de viande \u00e9tait l'un des plus salissants et dangereux de l'histoire du travail am\u00e9ricain, et les anecdotes existant \u00e0 ce sujet sont plus terribles les unes que les autres.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/usine|usines.png",
+    "prereq_tech": {
+        "name": "Industrialisation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

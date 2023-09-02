@@ -1,0 +1,20 @@
+{
+    "id": 23,
+    "name": "Cultural Exchange",
+    "game_info": "Cultural ExchangeIncreases the tourism modifier for shared religion, trade routes, and open borders by 15% each.",
+    "historical_info": "Although there were unofficial cultural exchanges \u2013 the visiting of students, artists, athletes and others on a quid-pro-quo basis between nations \u2013 as early as the beginning of the Industrial Age, such programs became formalized by opposing governments during the Cold War, when the USA and USSR sought to simultaneously display the superiority of their respective cultures worldwide and enhance mutual understanding of their respective value systems. These formal programs eased the restrictions on travel and performance by select groups in \"enemy territory,\" a process that several historians have declared to be a \"cultural Trojan Horse\" because such programs eventually \"eroded\" Soviet rule.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/cultural_exchange.png",
+    "required_policies": [
+        {
+            "name": "Flourishing of the Arts",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/flourishing_of_the_arts.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Aesthetics",
+        "game_info": "Aesthetics improves the civilization's ability to generate Culture.Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.Adopting all policies doubles the theming bonus you receive from Museums and Wonders. It also allows the purchase of Great Writers, Artists, or Musicians with Faith starting in the Industrial Era.",
+        "prereq_era": "Classical Era",
+        "historical_info": "Aesthetics is the philosophy of the nature of art and taste, concerned with the creation and appreciation of material beauty. It should be noted that aesthetics does not encompass the functionality or utility of a thing, focusing only on its beauty of form, color, contrast and other artistic aspects."
+    }
+}

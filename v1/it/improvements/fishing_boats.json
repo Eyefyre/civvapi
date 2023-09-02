@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "Pescherecci|dei Pescherecci|dei Pescherecci",
+    "game_info": "I pescherecci consentono a una civilt\u00e0 di sfruttare le preziose risorse costituite da granchi, pesce, balene e perle. Per costruire un Peschereccio devi prima creare una Chiatta in una citt\u00e0 sulla costa (dopo che la tua civilt\u00e0 ha appreso la tecnologia necessaria). Costruire un Peschereccio consuma la Chiatta.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/pescherecci|dei_pescherecci|dei_pescherecci.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Pesce",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/fish.json"
+        },
+        {
+            "name": "Balene",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/whales.json"
+        },
+        {
+            "name": "Perle",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/pearls.json"
+        },
+        {
+            "name": "Granchi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

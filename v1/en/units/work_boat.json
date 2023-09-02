@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Work Boat",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Creates Improvements on water resources like Fish. The Work Boat is consumed in the process. It is defenseless, and will be killed if it comes into contact with an enemy.",
+    "historical_info": "The sea can provide much to a civilization. This can range from protein in the form of seafood to energy - from whale or from oil. For all of human history, courageous men and women have been going to sea in boats to harvest the sea's bounty. Doubtless they will continue to do so until the end of time, \"when the sea shall give up her dead.\"",
+    "strategy": "This unit can only be constructed in coastal cities. Use work boats to improve water resources - fish, whales, oil, etc. The work boat is consumed when it constructs the improvement. Work boats can't enter ocean hexes until Astronomy is discovered. Work boats cannot engage in combat.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Astronomy Needed",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/astronomy_needed.json"
+        }
+    ]
+}

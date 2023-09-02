@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "University",
+    "game_info": "+2 Science from Jungle tiles worked by this City. Allows Archaeologists to be built in this city.City must have a Library.",
+    "strategy": "The University is a Medieval-era building. It increases the Science output of the city, and it's even more effective if the city is near to jungle tiles. The city must already have a Library (or Paper Maker) in order to construct a University.",
+    "historical_info": "A university is an institute of research and higher education, serving children from the ages of 18 to about 24 (adults also attend universities, but the majority of the students are in the age range stated above). Formally, a university is a state-accredited institution which grants academic degrees in any number of subjects. The oldest continuously-operating university in the world is the University of Al-Karaouine, in Fes, Morocco, which was founded in 859 AD.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/university.png",
+    "prereq_tech": {
+        "name": "Education",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

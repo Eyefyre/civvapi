@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrialisation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "\u00c8re industrielle",
+    "cost": 1600,
+    "civilopedia_entry": "On appelle \"industrialisation\" la transition entre une soci\u00e9t\u00e9 agraire et une soci\u00e9t\u00e9 industrielle, g\u00e9n\u00e9ralement accompagn\u00e9e d'une transformation sociale et \u00e9conomique de la communaut\u00e9. La r\u00e9volution industrielle, qui commen\u00e7a en Europe au XVIIIe si\u00e8cle, modifia radicalement la vie quotidienne des gens. Suite \u00e0 l'arriv\u00e9e de machines et outils de plus en plus complexes, de nombreuses activit\u00e9s autrefois r\u00e9serv\u00e9es \u00e0 des artisans de talents devinrent obsol\u00e8tes avec l'av\u00e8nement des cha\u00eenes d'assemblage manipul\u00e9es par de nombreux ouvriers sans qualification.",
+    "quote": "\"L'industrialisation par la machine, qu'on consid\u00e8re d\u00e9j\u00e0 comme inh\u00e9rente \u00e0 notre \u00e9poque, n'est qu'une facette de la r\u00e9volution n\u00e9e de la technologie.\" - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Sciences \u00e9conomiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mitrailleuse Gatling|Mitrailleuses Gatling",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Usine|Usines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/big_ben.json"
+        }
+    ]
+}

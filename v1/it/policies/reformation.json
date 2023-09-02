@@ -1,0 +1,20 @@
+{
+    "id": 65,
+    "name": "Riforma",
+    "game_info": "RiformaSe hai istituito una religione, guadagni una Credenza riformata extra.",
+    "historical_info": "Con \"riforma\" si indica un grande movimento per il rinnovamento di un'organizzazione religiosa o di un altro sistema di credenze che, secondo i propugnatori della riforma stessa, si \u00e8 lasciato corrompere o si \u00e8 comunque allontanato dai suoi principi guida. La \"Riforma protestante\" ha avuto come obiettivo il rinnovamento della Chiesa cattolica. Iniziata nel 1517, quando Martin Lutero pubblic\u00f2 le famose \"95 tesi\" in cui elencava le trasgressioni della Chiesa, il movimento ha scatenato 130 anni di violente guerre religiose in tutta Europa e nel Nuovo Mondo. Come risultato la Cristianit\u00e0 \u00e8 rimasta divisa per sempre in diverse chiese e l'autorit\u00e0 civile ha guadagnato il primato definitivo su quella religiosa.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/riforma.png",
+    "required_policies": [
+        {
+            "name": "Tolleranza religiosa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/religious_tolerance.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Devozione",
+        "game_info": "La Devozione aumenta la Fede di un impero.Adottare la Devozione ti consente di costruire Santuari e Templi in met\u00e0 tempo. Sblocca la costruzione della Grande Moschea di Djenn\u00e9.Adottare tutte le Politiche nell'albero della Devozione far\u00e0 comparire un Grande Profeta; inoltre i Luoghi Santi forniranno +3 Cultura.",
+        "prereq_era": null,
+        "historical_info": "Con \"devozione\" si intende l'adesione totale a una specifica religione o sistema di precetti spirituali. Una persona troppo devota pu\u00f2 facilmente sembrare condiscendente o bigotta perch\u00e9 tende a seguire alla lettera i precetti della sua religione e ad accettarne tutti i dogmi senza il minimo dubbio."
+    }
+}

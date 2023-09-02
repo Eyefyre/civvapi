@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "Gunpowder",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Renaissance Era",
+    "cost": 780,
+    "civilopedia_entry": "Gunpowder, also known as \"black powder,\" was invented in China, possibly as far back as the 9th century AD, by alchemists looking for an elixir of immortality (which it isn't). A mixture of sulfur, charcoal, and potassium nitrate, gunpowder burns very rapidly when exposed to flame, producing a great quantity of gasses and solids which can be employed as a propellant in firearms and in fireworks. The Chinese used gunpowder in primitive bombs and rockets against the Mongol invaders, and once they conquered China, the Mongols used them against everybody else.By the first half of the 12th century AD the Arabic world acquired knowledge of gunpowder. Some historical texts state that the Mamluks used the first cannon in history against the Mongols during the Battle of Ain Jalut in 1260 AD, but this is open to debate. The first \"hand cannon\" appears in an Arabic manuscript from the 14th century.Europe too gained knowledge of gunpowder towards the middle of the 12th century. They improved the quality of the powder by \"corning\" it, adding liquid to the powder to create larger grains (corns), increasing the explosive's stability.Gunpowder remained the explosive of choice in cannon and firearms until the creation of \"smokeless\" powder in the 19th century. The new product burned cleaner and produced far less smoke, making it superior to the old black powder.",
+    "quote": "\"The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.\" - Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/physics.json"
+        },
+        {
+            "name": "Steel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chemistry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chemistry.json"
+        },
+        {
+            "name": "Metallurgy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Musketman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/musketman.json"
+        },
+        {
+            "name": "Minuteman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/minuteman.json"
+        },
+        {
+            "name": "Musketeer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/musketeer.json"
+        },
+        {
+            "name": "Janissary",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/janissary.json"
+        },
+        {
+            "name": "Tercio",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Himeji Castle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/himeji_castle.json"
+        }
+    ]
+}

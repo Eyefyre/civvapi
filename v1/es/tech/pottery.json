@@ -1,0 +1,44 @@
+{
+    "id": 2,
+    "name": "Alfarer\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/pottery.png",
+    "era": "Antig\u00fcedad",
+    "cost": 35,
+    "civilopedia_entry": "La alfarer\u00eda es una de las artes m\u00e1s antiguas y \u00fatiles. Permite fabricar objetos de barro que se meten en un horno para someterlos a temperaturas muy altas. El producto resultante es muy fr\u00e1gil, pero tambi\u00e9n es herm\u00e9tico y pr\u00e1cticamente impermeable a la corrosi\u00f3n, la oxidaci\u00f3n, las plagas y dem\u00e1s fuerzas destructoras que afectan a los objetos hechos de metal, madera o tela. Los primeros objetos de alfarer\u00eda inclu\u00edan vasijas y recipientes para guardar l\u00edquidos o cereales, as\u00ed como cazuelas, cuencos, platos y copas.La primera clase de alfarer\u00eda que se descubri\u00f3 fue la cer\u00e1mica, que se remonta a hace unos 9.000 a\u00f1os. Es bastante porosa y se suele recubrir de un material m\u00e1s impermeable (\"barniz\") o puede esmaltarse. La cer\u00e1mica es muy duradera y sigue us\u00e1ndose mucho en la actualidad. La terracota es la arcilla que se ha cocido a temperaturas muy altas hasta que se ha vitrificado, adquiriendo una consistencia similar a la del vidrio, sin poros. Este procedimiento se descubri\u00f3 en China alrededor del 1400 a. C. La porcelana tambi\u00e9n se invent\u00f3 en China, hacia el siglo VI d. C. Es similar a la terracota (de hecho, a\u00fan se discute cu\u00e1l es la diferencia exacta entre ambas), pero los productos de porcelana suelen ser m\u00e1s transl\u00facidos y delicados.",
+    "quote": "\"\u00bfDice acaso el barro al alfarero: Qu\u00e9 es lo que haces?\" - La Biblia, Isa\u00edas 45:9",
+    "tech_prereqs": [
+        {
+            "name": "Agricultura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Navegaci\u00f3n a vela",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+        },
+        {
+            "name": "Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/calendar.json"
+        },
+        {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Granero|Graneros",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/granary.json"
+        },
+        {
+            "name": "Pir\u00e1mide|Pir\u00e1mides",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/pyramid.json"
+        },
+        {
+            "name": "Santuario|Santuarios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/shrine.json"
+        }
+    ]
+}

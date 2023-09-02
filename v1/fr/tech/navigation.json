@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Navigation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "La navigation est la science permettant aux marins de traverser sans encombre les mers et les oc\u00e9ans. Les premi\u00e8res embarcations quittaient rarement les zones c\u00f4ti\u00e8res. Si cela facilitait la navigation, cela limitait \u00e9galement les lieux accessibles, et mettait en danger les bateaux (qui pouvaient \u00eatre emport\u00e9s au large ou, par vent contraire, aller se fracasser contre des r\u00e9cifs). Avant l'invention du moteur \u00e0 vapeur, il existait peu de choses plus terrifiantes pour un capitaine de navire que d'\u00eatre \"sous le vent\" (ce qui signifiait qu'un vent violent emportait le navire vers une c\u00f4te proche).Avant l'av\u00e8nement des satellites, des radios et des radars, les navires se dirigeaient en suivant leurs d\u00e9placements sur une carte marine, soit \"\u00e0 l'estime\". Il suffisait d'avoir une id\u00e9e pr\u00e9cise de la vitesse du navire et de la direction dans laquelle il allait pour conna\u00eetre pr\u00e9cis\u00e9ment sa position. Cependant, apr\u00e8s plusieurs semaines en mer, la moindre erreur d'\u00e9valuation de la direction ou de la vitesse pouvait peu \u00e0 peu s'accumuler et provoquer des erreurs colossales. Au beau milieu du Pacifique, manquant d'eau potable et se dirigeant vers le seul bout d'\u00eele oc\u00e9anique disposant d'eau de source \u00e0 des milliers de kilom\u00e8tres \u00e0 la ronde, une erreur de navigation \u00e0 l'estime pouvait avoir des cons\u00e9quences dramatiques.Le capitaine d'un navire pouvait \u00e9galement se tourner vers les cieux pour trouver son chemin. Si le temps \u00e9tait au beau fixe, les capitaines pouvaient utiliser des instruments permettant de pr\u00e9dire avec exactitude le moment o\u00f9 le soleil serait \u00e0 son z\u00e9nith (sa position la plus \u00e9lev\u00e9e) au-dessus du navire. S'ils poss\u00e9daient \u00e9galement une horloge pr\u00e9cise et correctement r\u00e9gl\u00e9e, ils pouvaient d\u00e9terminer exactement \u00e0 quelle longitude (ou distance, sur un axe est-ouest) ils se trouvaient par rapport au m\u00e9ridien de r\u00e9f\u00e9rence (celui de Greenwich, en Angleterre). Bien entendu, cela n\u00e9cessitait un temps cl\u00e9ment et d\u00e9gag\u00e9, une horloge fiable et la capacit\u00e9 de d\u00e9terminer avec pr\u00e9cision le z\u00e9nith du soleil, malgr\u00e9 une houle parfois rageuse. Lorsque le ciel nocturne \u00e9tait d\u00e9gag\u00e9, les capitaines pouvaient obtenir le m\u00eame genre d'informations gr\u00e2ce au positionnement de certaines \u00e9toiles. Bien entendu, l'invention de la radio, du radar et des satellites rendit la navigation plus simple et plus s\u00fbre. Il suffit de constater qu'aujourd'hui encore, des navires motoris\u00e9s s'\u00e9chouent r\u00e9guli\u00e8rement sur les plages ou viennent percuter des ponts, pour imaginer \u00e0 quel point diriger un bateau \u00e0 voiles devait \u00eatre complexe.",
+    "quote": "\"Les vents et les vagues sont toujours du c\u00f4t\u00e9 des navigateurs habiles\". - Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arch\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fr\u00e9gate|Fr\u00e9gates",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/frigate.json"
+        },
+        {
+            "name": "Navire de ligne|Navires de ligne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Gueux de la mer|Gueux de la mer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/sea_beggar.json"
+        },
+        {
+            "name": "Corsaire|Corsaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Chantier naval|Chantiers naval",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/seaport.json"
+        }
+    ]
+}

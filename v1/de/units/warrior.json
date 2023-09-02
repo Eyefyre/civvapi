@@ -1,0 +1,18 @@
+{
+    "id": 79,
+    "name": "Krieger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/warrior.png",
+    "game_info": "Relativ schwache fr\u00fche Milit\u00e4reinheit.",
+    "historical_info": "Im primitiven Zivilisationen gibt es keine \"Berufssoldaten\". Eine junge Zivilisation kann sich die Aufrechterhaltung einer Vollzeitarmee nicht leisten. Alle wehrtauglichen M\u00e4nner der Zivilisation bilden zu Krisenzeiten eine Ad-hoc-Miliz und kehren in Zeiten des Friedens wieder zu ihren Familien und in ihre D\u00f6rfer zur\u00fcck. Solche Krieger sind in der Regel schlecht f\u00fcr den Kampf ausgebildet und mit primitivsten Waffen ausger\u00fcstet - vielleicht mit Keulen oder Steindolchen.",
+    "strategy": "Der Krieger ist die erste verf\u00fcgbare Kampfeinheit im Spiel und n\u00fctzlich im Kampf gegen Barbaren, zur fr\u00fchen Stadtverteidigung und zur begrenzten Erkundung. Krieger sind normalerweise nicht stark genug, um feindliche St\u00e4dte einzunehmen, au\u00dfer sie werden von zahlreichen Bogensch\u00fctzen und Katapulten unterst\u00fctzt - und selbst dann kann es passieren, dass das Vorhaben scheitert.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

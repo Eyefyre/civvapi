@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Kampfpanzer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Schnelle und starke Einheit im sp\u00e4ten Spiel.",
+    "historical_info": "Verglichen mit selbst den besten Panzern des Zweiten Weltkriegs wurden Kampfpanzer ma\u00dfgeblich verbessert. Die heutigen Panzer sind gr\u00f6\u00dfer, schneller, weitaus besser gepanzert, ihre Waffen wurden verbessert und sie sind mit hochentwickelten Computern und Kommunikationssystemen ausgestattet, die ihre St\u00e4rke und \u00dcberlebensf\u00e4higkeit auf dem t\u00f6dlichen, modernen Schlachtfeld enorm erh\u00f6hen. Ein moderner Panzer kann mit \u00fcber 60 Kilometern pro Stunde \u00fcber das Schlachtfeld heizen, w\u00e4hrend er ganz pr\u00e4zise auf ein hunderte Meter entferntes Ziel schie\u00dft und ein Zielcomputer genauestens den Lauf der Panzerkanone ausrichtet, um jede Unebenheit und jedes Loch in der Stra\u00dfe auszugleichen.Auf dem modernen Schlachtfeld stellen gegnerische Kampfpanzer und Artillerie, J\u00e4ger und Kampfhubschrauber die gr\u00f6\u00dfte Bedrohung f\u00fcr den Kampfpanzer dar. Infanterie tr\u00e4gt selten Waffen mit sich, die stark genug sind, um feindliche Panzer zu vernichten - au\u00dfer ihren Funkger\u00e4ten, die sie benutzen k\u00f6nnen, um Artillerie oder Luftunterst\u00fctzung anzufordern.",
+    "strategy": "Kampfpanzer \u00e4hneln dem Standard-Panzer, haben aber viel mehr zu bieten. Kampfpanzer sind wesentlich st\u00e4rker und haben alle F\u00e4higkeiten des Panzers, auch sie k\u00f6nnen sich zum Beispiel nach dem Angriff weiterbewegen.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Lasertechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

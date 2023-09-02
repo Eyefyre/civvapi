@@ -1,0 +1,39 @@
+{
+    "id": 27,
+    "name": "Rocket Artillery",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/rocket_artillery.png",
+    "game_info": "Fast Siege Unit of the late-game. Unlike other Siege Units, it does not need to set up prior to firing.",
+    "historical_info": "Throughout most of history, artillery have used chemical explosives to propel inert shells toward their targets. Rocket artillery, on the other hand, shoots rocket shells that provide their own propellant. This allows for artillery tubes that are much smaller and lighter than traditional artillery, making for fast, mobile artillery vehicles that still pack a serious wallop. The more advanced artillery systems may contain guidance systems, allowing the projectiles to correct their course in mid-flight.",
+    "strategy": "Rocket Artillery is an extremely powerful siege weapon, far superior to the standard artillery. Rocket Artillery does not need to set up before firing, making it much quicker than earlier guns. Although the Rocket Artillery's sight range is limited, it can use indirect fire to attack targets it cannot see (as long as other friendly units can see them). Like all artillery it is vulnerable to infantry or armor attack, and should be defended by appropriate units.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Rocketry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Indirect Fire",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/indirect_fire.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

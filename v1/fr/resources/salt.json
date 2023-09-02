@@ -1,0 +1,37 @@
+{
+    "id": 32,
+    "name": "Sel",
+    "game_info": null,
+    "historical_info": "N\u00e9cessaire \u00e0 toute vie humaine, le sel se trouve partout dans le monde, autant \u00e0 l'\u00e9tat naturel que dans des environnements cr\u00e9\u00e9s artificiellement. Utilis\u00e9 des milliers d'ann\u00e9es durant pour conserver la viande, le sel \u00e9tait un \u00e9l\u00e9ment indispensable pour stocker la nourriture avant l'invention de la r\u00e9frig\u00e9ration artificielle. Dans les marais salants, de grands bassins con\u00e7us pour l'exploitation du sel, l'\u00e9vaporation naturelle fait peu \u00e0 peu dispara\u00eetre l'\u00e9l\u00e9ment liquide, r\u00e9v\u00e9lant le r\u00e9sidu sal\u00e9 pr\u00eat \u00e0 \u00eatre r\u00e9colt\u00e9.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sel.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine|Mines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        }
+    ]
+}

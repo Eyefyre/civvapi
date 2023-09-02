@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "name": "Franz\u00f6sischer Musketier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/musketeer.png",
+    "game_info": "Eine der ersten Schie\u00dfpulver-Einheiten des Spiels. Nur die Franzosen k\u00f6nnen sie bauen. Diese Einheit hat eine gr\u00f6\u00dfere Kampfst\u00e4rke als der Musketier, den sie ersetzt.",
+    "historical_info": "Die Musketiere sind durch die verwegenen Geschichten von Alexandre Dumas ber\u00fchmt geworden und waren franz\u00f6sische Elite-Soldaten, bewaffnet mit Schwert und Muskete. Da die Musketiere im Jahre 1622 als \"Untereinheit\" der K\u00f6niglichen Wache gegr\u00fcndet wurden, konnten ihnen auch die niederen R\u00e4nge der franz\u00f6sischen Aristokratie beitreten, w\u00e4hrend der angesehenere Rang der Wache den h\u00f6heren Schichten vorbehalten blieb. Die Musketiere waren f\u00fcr ihren Kampfgeist und ihre Angeberei ber\u00fcchtigt und wurden in Paris und \u00fcberhaupt im ganzen Land sehr bewundert. Sie wurden gegen Ende des 18. Jahrhunderts aufgel\u00f6st.",
+    "strategy": "Der Franz\u00f6sische Musketier ist die Spezialeinheit der Franzosen und ersetzt den wesentlich schw\u00e4cheren Musketier. Der Franz\u00f6sische Musketier ist somit die st\u00e4rkste Fu\u00dfsoldaten-Einheit im Spiel bis zur Einf\u00fchrung der Infanterieeinheiten des Industriezeitalters.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Schie\u00dfpulver",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+    },
+    "free_promotions": []
+}

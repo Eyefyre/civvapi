@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Starke Front-Landeinheit, die auf das K\u00e4mpfen in unwegsamem Gel\u00e4nde und die Verteidigung nahe der \u00e4thiopischen Hauptstadt spezialisiert ist. Nur die \u00c4thiopier k\u00f6nnen sie bauen.",
+    "historical_info": "Die Mehal Sefari war eine Eliteeinheit k\u00f6niglicher Wachen, die im 19. und 20. Jahrhundert die Herrscher \u00c4thiopiens besch\u00fctzte. Urspr\u00fcnglich diente die Mehal Sefari als pers\u00f6nliche Leibwache der Herrscher von \u00c4thiopien, wurde aber zu einer respekteinfl\u00f6\u00dfenden Brigade des \u00e4thiopischen Milit\u00e4rs. Sie bestand aus spezialisierten Truppen der Infanterie, Kavallerie und Artillerie sowie aus Sch\u00fctzen. Ihr Status als Eliteeinheit \u00c4thiopiens wurde durch die rigorose Ausbildung und moderne Ausr\u00fcstung sichergestellt, die ihr zur Verf\u00fcgung standen.",
+    "strategy": "Mehal Sefari sind das R\u00fcckgrat der \u00e4thiopischen Armee. Sie beginnen mit Bef\u00f6rderungen, die ihnen Boni in unwegsamem Gel\u00e4nde und nahe der eigenen Hauptstadt bringen. Sie sind etwas g\u00fcnstiger als der Sch\u00fctze, den sie ersetzen.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Drall",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Drill I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/drill_i.json"
+        },
+        {
+            "name": "Hauptstadt-N\u00e4hebonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/near_capital_bonus.json"
+        }
+    ]
+}

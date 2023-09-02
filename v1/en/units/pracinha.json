@@ -1,0 +1,23 @@
+{
+    "id": 127,
+    "name": "Pracinha",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pracinha.png",
+    "game_info": "Modern Era infantry unit that earns points toward a Golden Age when it defeats an enemy. May only be built by Brazil.",
+    "historical_info": "After 18 Brazilian merchant ships were sunk by German submarines in the Atlantic, Brazil declared war against Nazi Germany and Fascist Italy in December 1942 AD, joining the Western Allies. In early 1944, 27,500 men and women were trained for the Brazilian Expeditionary Force, known in their homeland as pracinhas brasileiros. Their combat exploits were followed closely by the Brazilian populace, proud of the fact that their nation was the only one in South America to take an active role in Europe. Although lighter armed than their American and British counterparts, the Brazilian regiments fought with an elan and ferocity that brought praise and honors, but suffered almost 1000 killed in the campaign.",
+    "strategy": "This melee unit earns points toward starting the next Carnival for Brazil when it defeats an enemy. Use them to fight wars in foreign lands to push Brazil toward a Culture victory.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Plastics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/plastics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Golden Age from Victories",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

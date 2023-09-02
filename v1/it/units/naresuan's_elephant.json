@@ -1,0 +1,35 @@
+{
+    "id": 57,
+    "name": "Elefante di Naresuan|un Elefante di Naresuan|dal tuo Elefante di Naresuan|al tuo Elefante di Naresuan|il tuo Elefante di Naresuan|da un Elefante di Naresuan",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/naresuan's_elephant.png",
+    "game_info": "Potente unit\u00e0 a cavallo di epoca medievale, debole contro i Picchieri. Solo i siamesi possono costruirla. Quest'unit\u00e0 riceve un bonus contro le altre unit\u00e0 a cavallo e ha una Forza di combattimento superiore rispetto al Cavaliere, che sostituisce.",
+    "historical_info": "Nel sud-est asiatico gli elefanti continuarono a essere usati in battaglia fino al tardo Medioevo. In Siam, in particolare, gli elefanti da guerra erano considerati armi preziose, e i capi li cavalcavano spesso quando andavano in battaglia. Nel 1593 una guerra tra Birmania e Siam termin\u00f2 con la vittoria siamese quando il re Naresuan uccise il principe birmano Minchit Sra in un duello su elefanti.",
+    "strategy": "\u00c8 un'unit\u00e0 esclusiva del Siam e sostituisce il Cavaliere. L'Elefante di Naresuan \u00e8 pi\u00f9 lento ma pi\u00f9 potente di un Cavaliere. Come la sua controparte, un Elefante di Naresuan pu\u00f2 muoversi dopo aver attaccato. Dato che \u00e8 equipaggiato con lance, l'Elefante ottiene un importante bonus al combattimento quando attacca altre unit\u00e0 di cavalleria.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

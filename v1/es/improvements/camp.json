@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "Campamento|Campamentos",
+    "game_info": "La caza de animales salvajes es una de las primeras maneras que ten\u00eda el hombre primitivo de obtener recursos del mundo que le rodeaba. El campamento de caza permite acceder a los recursos de los Ciervos, las Pieles, las Trufas y el Marfil.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/campamento|campamentos.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Marfil",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/ivory.json"
+        },
+        {
+            "name": "Pieles",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/furs.json"
+        },
+        {
+            "name": "Ciervos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/deer.json"
+        },
+        {
+            "name": "Trufas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/truffles.json"
+        },
+        {
+            "name": "Bisonte|Bisontes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Caza con trampas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 72,
+    "name": "Satelliti|dei Satelliti",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/satellites.png",
+    "era": "Epoca dell'informazione",
+    "cost": 7700,
+    "civilopedia_entry": "In ambito tecnologico, lo studio dei satelliti riguarda lo sviluppo di corpi orbitali artificiali (e non naturali come invece \u00e8, ad esempio, la Luna). I satelliti artificiali sono stati una grande fonte di ispirazione per gli scrittori di fantascienza nei primi anni del '900. Grandi precursori del calibro di Arthur C. Clarke arrivarono addirittura a prevedere reti di satelliti per comunicazioni di massa molto prima che fossero tecnologicamente realizzabili.I satelliti rimasero comunque appannaggio della fantascienza fino al 1957, quando l'Unione Sovietica lanci\u00f2 il suo primo satellite, lo Sputnik 1, dimostrando cos\u00ec che era possibile inviare e mantenere un oggetto artificiale in orbita intorno alla Terra. Questo diede anche il via alla corsa spaziale tra sovietici e statunitensi. Pi\u00f9 tardi, nel 1957, fu lanciato lo Sputnik 2 con a bordo il primo passeggero spaziale vivente, una cagnolina di nome Laika. L'anno dopo gli USA lanciarono il loro primo satellite, l'Explorer 1.A seguito di questa corsa tra le due potenze rivali, sono stati messi in orbita migliaia di satelliti super specializzati costruiti in oltre cinquanta paesi diversi. A parte gli ovvi usi nel campo militare e dello spionaggio, i satelliti oggi consentono le comunicazioni di massa (Clarke aveva avuto ragione), l'uso del GPS e la navigazione, la ricerca e l'osservazione meteorologica e la trasmissione di programmi di intrattenimento, solo per citare alcune applicazioni. Il pi\u00f9 grande satellite attualmente in orbita \u00e8 la Stazione Spaziale Internazionale.",
+    "quote": "\"Ora, in un qualche modo nuovo, il cielo sembrava quasi alieno.\" - Lyndon B. Johnson",
+    "tech_prereqs": [
+        {
+            "name": "Missilistica|della Missilistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusione nucleare|della Fusione nucleare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Abitacolo dell'astronave",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ss_cockpit.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Telescopio spaziale Hubble|il Telescopio spaziale Hubble|il Telescopio spaziale Hubble",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hubble_space_telescope.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 90,
+    "name": "Maori-Krieger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/maori_warrior.png",
+    "game_info": "Diese Einheit der Antike versetzt Feinde in der N\u00e4he in Angst und Schrecken und macht sie so weniger effektiv im Kampf. Kann nur von Polynesiern gebaut werden. Ersetzt den Krieger.",
+    "historical_info": "Die Maori geh\u00f6rten zu den am meisten gef\u00fcrchteten Kriegern Polynesiens. Sie verzierten ihre Gesichter mit einer Reihe komplizierter und furchteinfl\u00f6\u00dfender T\u00e4towierungen, die detailliert ihre vielen Errungenschaften in der Schlacht beschrieben. Bevor ein Gefecht tats\u00e4chlich ausbrach, nahm jede Seite an einem ausschweifenden Kriegstanz, genannt Haka, teil, der pantomimisch darstellte, welches Schicksal der Feind bei einer Niederlage zu erwarten hatte. Der Tanz war mit der Hoffnung verbunden, dass der Feind demoralisiert das Feld r\u00e4umen und seine Niederlage einr\u00e4umen w\u00fcrde, was beiden Seiten viel Zeit und Energie erspart h\u00e4tte.Die Maori waren au\u00dferdem bekannt f\u00fcr ihre kannibalistischen Neigungen. Erschlagene Krieger wurden verspeist, um ihren Kampfgeist und ihre Macht einzufangen. Das war nicht nur eine der wenigen Proteinquellen auf den Inseln, es zollte den besiegten Kriegern auch Respekt.",
+    "strategy": "Der Maori-Krieger \u00e4hnelt einem Gro\u00dfen General; er erh\u00f6ht jedoch nicht die St\u00e4rke freundlich gesinnter Einheiten in der N\u00e4he, sondern verringert die St\u00e4rke naher feindlicher Einheiten. Baut schon zu Beginn viele dieser Einheiten, denn ihre Bef\u00f6rderungen bleiben bei Modernisierungen erhalten.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Haka-Kriegstanz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/haka_war_dance.json"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "Elektronika|Elektroniki|Elektronice|Elektronik\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "Epoka wsp\u00f3\u0142czesna|Epoki wsp\u00f3\u0142czesnej|Epoce wsp\u00f3\u0142czesnej|Epok\u0119 wsp\u00f3\u0142czesn\u0105",
+    "cost": 4100,
+    "civilopedia_entry": "Elektronika to ga\u0142\u0105\u017a techniki badaj\u0105ca kontrolowany ruch elektron\u00f3w przez r\u00f3\u017cne przewodniki, w tym pr\u00f3\u017cni\u0119. To nie to samo co technologia elektryczna, kt\u00f3ra zajmuje si\u0119 wytwarzaniem i dystrybucj\u0105 energii. Elektroniki nie uwa\u017cano za odr\u0119bn\u0105 dziedzin\u0119 a\u017c do roku 1950, kiedy to wyodr\u0119bniono j\u0105 z radiotechnologii.Obwody elektroniczne mo\u017cna podzieli\u0107 na dwie grupy, analogow\u0105 i cyfrow\u0105. Obwody analogowe to proste po\u0142\u0105czenia podstawowych obwod\u00f3w, korzystaj\u0105ce z napi\u0119cia sta\u0142ego. Wi\u0119kszo\u015b\u0107 nowoczesnych obwod\u00f3w rzadko jest w ca\u0142o\u015bci analogowa. Obwody cyfrowe to fundamenty dzisiejszych komputer\u00f3w i programowalnych kontroler\u00f3w logicznych, s\u0105 one najpowszechniejszym odzwierciedleniem boolowskiego typu danych (0 i 1).Badania i rozw\u00f3j elektroniki s\u0105 \u015bci\u015ble zwi\u0105zane z matematyk\u0105, jej bieg\u0142a znajomo\u015b\u0107 jest niezb\u0119dna dla ka\u017cdego elektronika. Stworzenie i analiza z\u0142o\u017conych obwod\u00f3w obejmuje rozwi\u0105zywanie liniowych system\u00f3w z wieloma nieznanymi zmiennymi (jak napi\u0119cie i pr\u0105d w pewnych miejscach), przez co wiele wsp\u00f3\u0142czesnych obwod\u00f3w posiada dodatkowe oprogramowanie automatyki, mo\u017cna to nazwa\u0107 \u201emeta-praktyk\u0105\u201d.",
+    "quote": "\u201eW elektronice konsumpcyjnej obowi\u0105zuje jedna podstawowa zasada: wci\u0105\u017c staje si\u0119 pot\u0119\u017cniejsza i coraz ta\u0144sza.\u201d \u2013 Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Cz\u0119\u015bci zamienne|Cz\u0119\u015bci zamiennych|Cz\u0119\u015bciom zamiennym|Cz\u0119\u015bci zamienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Lot|Lotu|Lotowi|Lot",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar|Radaru|Radarowi|Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radar.json"
+        },
+        {
+            "name": "Teoria atomu|Teorii atomu|Teorii atomu|Teori\u0119 atomu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lotniskowiec|Lotniskowca|Lotniskowcu|Lotniskowiec",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/carrier.json"
+        },
+        {
+            "name": "Pancernik|Pancernika|Pancernikowi|Pancernik",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

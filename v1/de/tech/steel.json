@@ -1,0 +1,37 @@
+{
+    "id": 31,
+    "name": "Stahl",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steel.png",
+    "era": "Mittelalter",
+    "cost": 485,
+    "civilopedia_entry": "Stahl ist eine Legierung (Mischung) von Eisen und Kohlenstoff. Je nach Mischungsverh\u00e4ltnis kann das entstehende Metall st\u00e4rker, flexibler und korrosionsbest\u00e4ndiger als Eisen sein. Eisen wurde seit etwa 2000 v. Chr. verarbeitet und schon von Beginn an wurden kleine Mengen Stahl produziert. Eisen wurde im Allgemeinen auf zwei Arten hergestellt: Schmiedeeisen, was eher flexibel ist, und Gusseisen, was spr\u00f6der, aber billiger in der Herstellung ist.1751 gr\u00fcndete der englische Erfinder Benjamin Huntsman in Sheffield, England, eine Stahlfabrik. Huntsmans Fabrik stellte Stahl in Tiegel\u00f6fen her und diese Methode verbreitete sich rasch in Europa, Amerika und schlie\u00dflich Asien und dem Rest der Welt. Der n\u00e4chste gro\u00dfe Fortschritt war 1855 die Entwicklung des sogenannten \"Bessemerverfahrens\" durch den amerikanischen Erfinder Henry Bessemer. Nach einigen Verbesserungen erm\u00f6glichte dieses Verfahren eine enorme Steigerung der weltweiten Stahlproduktion. Zu Beginn des 20. Jahrhunderts hat die j\u00e4hrliche Stahlproduktion weltweit 50 Millionen Tonnen erreicht.",
+    "quote": "\"John Henry sprach zum Vorarbeiter\"Ein Mensch ist nur ein Mensch Bevor mich dieser Dampfhammer besiegt Sterb ich mit meinem Hammer in der Hand.\"\" - Anonym: Das Lied von John Henry, dem Gleisarbeiter",
+    "tech_prereqs": [
+        {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Schie\u00dfpulver",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Langschwertk\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/longswordsman.json"
+        },
+        {
+            "name": "Samurai",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/samurai.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Waffenkammer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/armory.json"
+        }
+    ]
+}

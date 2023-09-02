@@ -1,0 +1,35 @@
+{
+    "id": 89,
+    "name": "Konquistador",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/conquistador.png",
+    "game_info": "Einheit des Mittelalters, die auf Sp\u00e4hen und die Gr\u00fcndung von Kolonien in \u00dcbersee spezialisiert ist. Kann nur von Spanien ausgebildet werden. Ersetzt den Ritter.",
+    "historical_info": "Die Konquistadoren waren die spanischen Soldaten und Entdecker, die im 16. und 17. Jahrhundert gro\u00dfe Teile der neuen Welt eroberten. Nach der Vertreibung der Mauren aus Spanien waren die Konquistadoren erfahrene Veteranen der leichten Kavallerie. Aufgrund ihrer F\u00e4higkeit, schwieriges Gel\u00e4nde hoch zu Ross zu durchqueren, waren sie den Eingeborenen der Neuen Welt \u00fcberlegen, die keine Pferde besa\u00dfen und ihren furchteinfl\u00f6\u00dfenden Gegnern nicht entkommen konnten.",
+    "strategy": "Der Konquistador ist eine vielseitig einsetzbare Einheit, die sowohl auf dem Land als auch zu Wasser stark ist. Er ersetzt den Ritter, und auf Land ist er ein au\u00dfergew\u00f6hnlicher Sp\u00e4her mit zus\u00e4tzlicher Sicht. Au\u00dferdem verf\u00fcgt er \u00fcber die F\u00e4higkeit, neue St\u00e4dte auf Kontinenten zu gr\u00fcnden, auf denen sich die spanische Hauptstadt nicht befindet. Zu Wasser verf\u00fcgt der Konquistador \u00fcber die Bef\u00f6rderung 'Mit Verteidigung wassern', die es ihm erlaubt, sich selbst gegen Marineeinheiten zu verteidigen. Im Gegensatz zum Ritter erh\u00e4lt er keinen Malus, wenn er St\u00e4dte angreift.",
+    "movement": 4,
+    "cost": {
+        "production": 135,
+        "faith": 270
+    },
+    "prereq_tech": {
+        "name": "Ritterlichkeit",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht (2)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(2).json"
+        },
+        {
+            "name": "Mit Verteidigung wassern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

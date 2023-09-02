@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Missile guid\u00e9|Missiles guid\u00e9s",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "Unit\u00e9 peu co\u00fbteuse pouvant \u00eatre utilis\u00e9e pour infliger des d\u00e9g\u00e2ts aux villes ou unit\u00e9s ennemies. Usage unique.",
+    "historical_info": "Les ing\u00e9nieurs contemporains disposent de nombreuses technologies pour guider un missile. Certains sont automatiques, ils se dirigent vers leur cible \u00e0 l'aide d'un radar ou d'une technologie \u00e0 reconnaissance de chaleur. D'autres peuvent \"voir\" un laser qui \"illumine\" l'ennemi. D'autres encore sont t\u00e9l\u00e9command\u00e9s par radio ou m\u00eame par c\u00e2ble. Les armes sont devenues plus intelligentes, mais aussi plus ch\u00e8res, et un seul missile guid\u00e9 peut co\u00fbter des dizaines de milliers de dollars, voire plus. Une arm\u00e9e n'utilisant pas ces armes \u00e0 bon escient risque donc de se voir ruin\u00e9e tr\u00e8s rapidement.",
+    "strategy": "Le missile guid\u00e9 est une unit\u00e9 \u00e0 utilisation unique\u00a0; en d'autres termes, apr\u00e8s avoir attaqu\u00e9 une cible ennemie, elle est d\u00e9truite. Le missile guid\u00e9 peut \u00eatre plac\u00e9 dans l'une de vos villes, un sous-marin nucl\u00e9aire ou un croiseur lance-missiles. Il peut se d\u00e9placer de base en base et attaquer une unit\u00e9 ou une ville ennemie dans un rayon de 8\u00a0cases. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux missiles.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistique avanc\u00e9e",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Esquive (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/evasion_(100).json"
+        }
+    ]
+}

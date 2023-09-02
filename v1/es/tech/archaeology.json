@@ -1,0 +1,41 @@
+{
+    "id": 42,
+    "name": "Arqueolog\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/archaeology.png",
+    "era": "Era Industrial",
+    "cost": 1600,
+    "civilopedia_entry": "La arqueolog\u00eda es el estudio de los restos de pueblos antiguos con objeto de aprender m\u00e1s sobre su cultura, arte, arquitectura e historia. Los arque\u00f3logos estudian construcciones en ruinas, t\u00famulos funerarios, montones de basura, tallas ocultas en cavernas y antiguos nav\u00edos hundidos en el fondo oce\u00e1nico.Aunque sin duda las vidas de nuestros antecesores han sido de inter\u00e9s para muchos desde el inicio de los tiempos, la arqueolog\u00eda como ciencia naci\u00f3 en el siglo XV, durante el Renacimiento europeo. Fue entonces cuando algunos individuos comenzaron a estudiar y emular el arte y la arquitectura de las antiguas Grecia y Roma, y los adinerados nobles italianos, papas, mercaderes y dirigentes de estado se dedicaron a coleccionar antig\u00fcedades. Cuando empezaron a escasear, financiaron expediciones para encontrar m\u00e1s artefactos.La arqueolog\u00eda desarroll\u00f3 una base m\u00e1s cient\u00edfica en el siglo XIX gracias a los esfuerzos de acad\u00e9micos alemanes como Heinrich Schliemann, que estudi\u00f3 las primeras etapas de la cultura griega en Troya y Micenas.En la actualidad, los arque\u00f3logos estudian todos los aspectos del hombre antiguo, desde nuestros antepasados m\u00e1s lejanos hasta nuestros tatarabuelos, y para ello utilizan herramientas incre\u00edblemente sofisticadas que les permiten averiguar toda clase de detalles sobre nuestros antepasados.",
+    "quote": "\"Los que olvidan el pasado est\u00e1n condenados a repetirlo.\" - Jorge Santayana",
+    "tech_prereqs": [
+        {
+            "name": "Navegaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+        },
+        {
+            "name": "Arquitectura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/biology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arque\u00f3logo|Arque\u00f3logos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/archaeologist.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Museo|Museos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/museum.json"
+        },
+        {
+            "name": "Louvre|Louvres",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/louvre.json"
+        }
+    ]
+}

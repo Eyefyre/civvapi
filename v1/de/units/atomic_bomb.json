@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Atombombe",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "Die nukleare Vernichtung der Feinde: Richtet gro\u00dfen Schaden bei St\u00e4dten und Einheiten innerhalb des Wirkungsradius an. Kann auf Flugzeugtr\u00e4gern stationiert werden.Ben\u00f6tigt Manhattan-Projekt und eine Uran-Ressource.",
+    "historical_info": "Die ersten mit Nuklearwaffen ausgestatteten Bomber unterschieden sich nicht von anderen Bombern - au\u00dfer nat\u00fcrlich in ihrer Bombenlast. Die \"Enola Gay\", die am 6. August 1945 die Atombombe nach Hiroshima transportierte, war ein amerikanischer B-29-Bomber. Auch die \"Bockscar\", die drei Tage sp\u00e4ter die zweite Atombombe auf Nagasaki abwarf, war ein B-29. In der Zeit nach dem Krieg entwickelten die Atomm\u00e4chte spezielle \"strategische Bomber\", die die Nuklearwaffen weit in gegnerisches Gebiet tragen sollten. Diese Flugzeuge haben eine gro\u00dfe Reichweite bei maximaler Flugh\u00f6he und sind mit hochentwickelter St\u00f6r- und Raketenabwehrtechnologie ausgestattet. Die neueste Generation verf\u00fcgt dazu \u00fcber Tarnsysteme, die ein Zerst\u00f6ren der Flugzeuge vor dem Abwurf ihrer t\u00f6dlichen Waffen noch zus\u00e4tzlich erschweren.",
+    "strategy": "Eine Atombombe ist eine extrem m\u00e4chtige Einheit. Die Atombombe kann in einer Stadt oder auf einem Flugzeugtr\u00e4ger des Spielers stationiert sein. Sie kann von St\u00fctzpunkt zu St\u00fctzpunkt verlegt werden oder ein Ziel in Reichweite von 10 Gel\u00e4ndefeldern angreifen. Bei der Detonation besch\u00e4digt oder zerst\u00f6rt die Atombombe Einheiten und besch\u00e4digt St\u00e4dte innerhalb ihres Explosionsradius von 2 Gel\u00e4ndefeldern stark. Sie wird beim Angriff automatisch zerst\u00f6rt. Weitere Informationen findet Ihr bei den Regeln f\u00fcr Atomwaffen.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Kernspaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ausweichen (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/evasion_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 132,
+    "name": "Incursor comanche|Incursores comanches",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/comanche_riders.png",
+    "game_info": "Unidad montada especialista en hacer ataques r\u00e1pidos. Solo pueden construirla los shoshoni.",
+    "historical_info": "Los comanches eran una rama de los shoshoni que se vieron obligados a emigrar al sur, a Oklahoma, y al norte, a Texas, por la creciente presi\u00f3n de los indios de las llanuras del norte. Como cazadores recolectores y en un estado de conflicto incesante con otros pueblos indios y con los colonos mexicanos y estadounidenses, los n\u00f3madas comanches desarrollaron una cultura de jinetes guerreros. Montados en recios ponis de las llanuras, ense\u00f1aban a sus hijos a montar a caballo desde una edad muy temprana. Los guerreros iban armados con lanzas de punta de obsidiana, devastadoras con los guerreros enemigos que fueran a pie, con arcos y, posteriormente, con fusiles. Su estilo de combate favorito era la guerra de guerrillas: ataques montados de proximidad, breves e intensos, dirigidos a matar el m\u00e1ximo posible de enemigos y ahuyentar su ganado. Las llamadas Guerras Comanches empezaron con incursiones contra los destacamentos espa\u00f1oles en Nuevo M\u00e9xico en el siglo XVIII, y continuaron pr\u00e1cticamente ininterrumpidas hasta que el ej\u00e9rcito de los EE. UU. someti\u00f3 a las \u00faltimas bandas en 1875.",
+    "strategy": "Los Jinetes comanches sustituyen a la Caballer\u00eda y solo pueden formarlos los shoshoni. Son m\u00e1s baratos y r\u00e1pidos que la unidad original.",
+    "movement": 4,
+    "cost": {
+        "production": 200,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Belicolog\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Agresor de la luna llena",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/full_moon_striker.json"
+        }
+    ]
+}

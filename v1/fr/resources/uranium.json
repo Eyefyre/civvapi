@@ -1,0 +1,84 @@
+{
+    "id": 6,
+    "name": "Uranium",
+    "game_info": "Utilis\u00e9 par les bombes atomiques, les centrales nucl\u00e9aires et les m\u00e9cacolosses de la mort.",
+    "historical_info": "L'uranium est un minerai naturel radioactif qui, une fois trait\u00e9 et enrichi, permet de g\u00e9n\u00e9rer une \u00e9nergie incroyable ou de faire exploser n'importe quoi. D\u00e9couvert au XVIIIe si\u00e8cle, ce n'est qu'au cours de la Deuxi\u00e8me Guerre mondiale que des scientifiques am\u00e9ricains sont parvenus \u00e0 manipuler ce mat\u00e9riau dangereux pour en faire l'explosif le plus redoutable de tous les temps. En tant que source d'alimentation pour g\u00e9n\u00e9rateurs nucl\u00e9aires, l'uranium est consid\u00e9r\u00e9 comme une \u00e9nergie \"propre\", puisqu'il n'est pas source de pollution comme peuvent l'\u00eatre le charbon ou le p\u00e9trole. \u00c0 l'inverse, les d\u00e9chets nucl\u00e9aires sont incroyablement toxiques et polluent le sol, l'air, l'eau et tout organisme vivant avec lequel ils entrent contact, et ce pour des centaines d'ann\u00e9es. Gardez toujours \u00e0 l'esprit que l'uranium est une ressource strat\u00e9gique et qu'en tant que tel, il est utilis\u00e9 pour la construction d'unit\u00e9s et de b\u00e2timents associ\u00e9s.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
+    "prereq_tech": {
+        "name": "Th\u00e9orie atomique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/atomic_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine|Mines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+        },
+        {
+            "name": "Bureau de douane|Bureaux de douane",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/customs_house.json"
+        },
+        {
+            "name": "Acad\u00e9mie|Acad\u00e9mies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/academy.json"
+        },
+        {
+            "name": "Citadelle|Citadelles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/citadel.json"
+        },
+        {
+            "name": "Manufacture|Manufactures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/manufactory.json"
+        },
+        {
+            "name": "Lieu saint|Lieux saints",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+        },
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+        },
+        {
+            "name": "Marais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marais.json"
+        },
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+        },
+        {
+            "name": "Colline|Collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+        }
+    ]
+}

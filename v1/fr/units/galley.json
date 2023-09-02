@@ -1,0 +1,20 @@
+{
+    "id": 82,
+    "name": "Gal\u00e8re|Gal\u00e8res",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galley.png",
+    "game_info": null,
+    "historical_info": "La gal\u00e8re est une embarcation barbare propuls\u00e9e par des rameurs. Inf\u00e9rieure en tous points \u00e0 la trir\u00e8me, elle est le premier bateau mis \u00e0 la disposition des civilisations. En r\u00e8gle g\u00e9n\u00e9rale, les gal\u00e8res hantent les c\u00f4tes, harcelant les navires et capturant les unit\u00e9s embarqu\u00e9es. Le mieux reste de les d\u00e9truire \u00e0 vue.",
+    "strategy": "La gal\u00e8re est une embarcation barbare qui ne peut naviguer que pr\u00e8s des c\u00f4tes \u00e0 la recherche d'unit\u00e9s embarqu\u00e9es \u00e0 d\u00e9truire. Elle est beaucoup moins puissante que les autres unit\u00e9s navales, mais peut \u00eatre dangereuse en groupe. C'est une unit\u00e9 de combat rapproch\u00e9 capable d'attaquer les embarcations, les unit\u00e9s embarqu\u00e9es et les villes, mais elle ne peut pas attaquer \u00e0 distance.",
+    "movement": 3,
+    "cost": {
+        "production": 40,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

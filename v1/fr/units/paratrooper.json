@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Parachutiste|Parachutistes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Puissante unit\u00e9 d'infanterie capable de se parachuter jusqu'\u00e0 9\u00a0cases derri\u00e8re les lignes ennemies. Les parachutistes peuvent se d\u00e9placer apr\u00e8s leur largage, mais ne peuvent pas attaquer avant le tour suivant.",
+    "historical_info": "Les parachutistes sont des unit\u00e9s d'infanterie l\u00e9g\u00e8re entra\u00een\u00e9es pour sauter et atterrir derri\u00e8re les lignes ennemies. L\u00e9g\u00e8rement arm\u00e9s et disposant de peu de munitions, les parachutistes comptent \u00e9norm\u00e9ment sur l'\u00e9l\u00e9ment de surprise pour venir \u00e0 bout de leurs adversaires. Ils ont \u00e9galement besoin de renforts rapides de la part des unit\u00e9s terrestres qui traversent les lignes ennemies, afin d'\u00e9viter de se faire encercler et \u00e9liminer.L'utilisation des parachutistes connut un succ\u00e8s limit\u00e9 pendant la Deuxi\u00e8me Guerre mondiale. Du c\u00f4t\u00e9 allemand, ils particip\u00e8rent \u00e0 l'invasion du Danemark en 1940, puis \u00e0 l'attaque et \u00e0 la capture de la Cr\u00e8te depuis les airs en 1941. Les pertes furent cependant \u00e9normes et Adolf Hitler dut ensuite interdire l'utilisation de ce type d'attaque \u00e0 grande \u00e9chelle. Les forces alli\u00e9es d\u00e9ploy\u00e8rent des troupes de parachutistes avec un succ\u00e8s mod\u00e9r\u00e9 au cours de la campagne de Normandie en 1944, mais l'op\u00e9ration Market Garden aux Pays-Bas et en Allemagne, plus tard la m\u00eame ann\u00e9e, n'eut pas le r\u00e9sultat escompt\u00e9, et de nombreux parachutistes britanniques, polonais et am\u00e9ricains y perdirent la vie.De nos jours, certaines forces sp\u00e9ciales emploient toujours des parachutistes, mais cette pratique est de plus en plus rare, la plupart des troupes a\u00e9roport\u00e9es \u00e9tant d\u00e9sormais amen\u00e9es sur le champ de bataille par h\u00e9licopt\u00e8re.",
+    "strategy": "Le parachutiste est une unit\u00e9 d'infanterie de fin de partie. Il est plus faible que les unit\u00e9s d'infanterie m\u00e9canis\u00e9e, mais peut se parachuter \u00e0 9\u00a0cases de distance (si son point de d\u00e9part se situe en territoire alli\u00e9). Cette capacit\u00e9 lui permet de survoler les positions ennemies, puis de d\u00e9truire le r\u00e9seau routier, ou de piller les ressources vitales de votre adversaire, d\u00e9sorganisant totalement votre rival. Le parachutiste est cependant en grand danger durant ce genre de mission, assurez-vous donc que le jeu en vaut la chandelle !",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Parachutage possible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_paradrop.json"
+        },
+        {
+            "name": "Pillage\u00a0: 0\u00a0PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

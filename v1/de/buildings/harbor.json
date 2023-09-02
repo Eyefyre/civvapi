@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hafen",
+    "game_info": "Errichtet eine [ICON_CONNECTED] Stadtverbindung mit der Hauptstadt \u00fcber Wasser (falls noch nicht \u00fcber Land [ICON_CONNECTED] verbunden). Seehandelswege, die in dieser Stadt beginnen, haben eine um 50% erh\u00f6hte Reichweite und produzieren 1 Gold zus\u00e4tzlich, wenn sie eine Verbindung zu einer anderen Zivilisation herstellen.Stadt muss an der K\u00fcste liegen.",
+    "strategy": "Der Hafen ist ein Geb\u00e4ude des Mittelalters. Er verbessert die Reichweite und den Ertrag von Gold f\u00fcr Seehandelswege. Er erm\u00f6glicht Wasser-Stadtverbindungen zwischen St\u00e4dten (siehe Regeln). Der Hafen steigert auch den Produktionsertrag einer verbesserten Meeresressource.",
+    "historical_info": "Ein Hafen ist ein gesch\u00fctzter Teil eines Gew\u00e4ssers, in dem Boote und Schiffe ankern k\u00f6nnen, um Schutz vor den Elementen zu finden. Viele nat\u00fcrliche H\u00e4fen wurden auf die eine oder andere Art ausgebaggert und mit Wellenbrechern und Windschutz ausgestattet. Au\u00dferdem verf\u00fcgen H\u00e4fen auch \u00fcber Anlegestellen und Stege, \u00fcber die Fracht abgeladen werden kann, und \u00fcber Lagerh\u00e4user, in denen die Transportwaren vor\u00fcbergehend verstaut werden k\u00f6nnen.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hafen.png",
+    "prereq_tech": {
+        "name": "Kompass",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

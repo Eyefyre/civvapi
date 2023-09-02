@@ -1,0 +1,67 @@
+{
+    "id": 5,
+    "name": "Mina|Minas",
+    "game_info": "Las minas se cuentan entre las mejoras m\u00e1s importantes de Civilization V. No solo aumentan el r\u00e9gimen de producci\u00f3n de un hex\u00e1gono (una gran productividad permite construir m\u00e1s r\u00e1pidamente unidades, edificios y maravillas), sino que, adem\u00e1s, dan acceso a algunos de los recursos m\u00e1s importantes del juego: Hierro, Carb\u00f3n y Uranio, por citar algunos.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/mina|minas.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/iron.json"
+        },
+        {
+            "name": "Carb\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/coal.json"
+        },
+        {
+            "name": "Aluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        },
+        {
+            "name": "Gemas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/gems.json"
+        },
+        {
+            "name": "Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/gold.json"
+        },
+        {
+            "name": "Plata",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/silver.json"
+        },
+        {
+            "name": "Cobre",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/copper.json"
+        },
+        {
+            "name": "Sal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/salt.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Miner\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mining.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

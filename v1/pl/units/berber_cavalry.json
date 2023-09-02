@@ -1,0 +1,39 @@
+{
+    "id": 129,
+    "name": "Berberyjska kawaleria|Berberyjskiej kawalerii|Berberyjskiej kawalerii|Berberyjsk\u0105 kawaleri\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/berber_cavalry.png",
+    "game_info": "Jednostka kawalerii wyspecjalizowana w walce na pustyni i obronie terytorium Maroka. Otrzymuje premi\u0119 do warto\u015bci bojowej podczas walki na polach pustyni, a tak\u017ce na terenie Maroka. Mo\u017ce powstawa\u0107 tylko w Maroku.",
+    "historical_info": "Zamieszkuj\u0105cy od stuleci Maghreb gro\u017ani berberyjscy wojownicy byli panami g\u00f3r Rif i zachodniej Sahary. Zazwyczaj berberyjscy je\u017ad\u017acy je\u017adzili na wyj\u0105tkowo wytrzyma\u0142ych koniach rasy barb \u017cyj\u0105cych w Afryce P\u00f3\u0142nocnej. Berberowie nosili lekkie ubrania odpowiednie do upa\u0142\u00f3w i suchego klimatu, zim\u0105 zak\u0142adali dodatkowo p\u0142aszcze. Bro\u0144 przej\u0119li od Arab\u00f3w: d\u0142ugi prosty miecz, zakrzywiony zdobiony sztylet i d\u0142ugolufow\u0105 bro\u0144 paln\u0105 (g\u0142adkolufow\u0105 lub gwintowan\u0105). Cho\u0107 pospolite by\u0142y w\u015br\u00f3d nich napa\u015bci na karawany i nadbrze\u017cne osiedla, berberyjscy je\u017ad\u017acy nie bali si\u0119 te\u017c klasycznej walki, w wielu konfliktach udowadniaj\u0105c, \u017ce mog\u0105 si\u0119 r\u00f3wna\u0107 z ci\u0119\u017cko uzbrojonymi europejskimi rycerzami.",
+    "strategy": "Ta jednostka jazdy zast\u0119puj\u0105ca kawaleri\u0119 to zajadli wojownicy z maroka\u0144skiej pustyni. Otrzymuj\u0105 premi\u0119 bojow\u0105 do walki na pustyni lub na terytorium Maroka (te premie s\u0105 kumulatywne).",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Pustynny wojownik",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/desert_warrior.json"
+        },
+        {
+            "name": "Stra\u017cnik ojczyzny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/homeland_guardian.json"
+        }
+    ]
+}

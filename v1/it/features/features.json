@@ -1,0 +1,561 @@
+[
+    {
+        "id": 1,
+        "name": "Ghiaccio|il ghiaccio|del ghiaccio",
+        "historical_info": "Il ghiaccio non \u00e8 attraversabile, se non con unit\u00e0 aeree o sottomarine. Non produce alcunch\u00e9 di utile per le citt\u00e0.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/ghiaccio|il_ghiaccio|del_ghiaccio.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/ice.json"
+    },
+    {
+        "id": 2,
+        "name": "Giungla|la giungla|una giungla",
+        "historical_info": "Oscure, inaccessibili e letali per gli inesperti, le giungle costituiscono invece una ricca fonte di cibo per chi possiede l'abilit\u00e0 e le conoscenze adatte a viverci. Tuttavia le giungle non forniscono granch\u00e9 in termini di materiali e le civilt\u00e0 in espansione potrebbero essere tentate di sostituirle con miniere o di trasformarle in campi coltivati, anche se le unit\u00e0 militari che vi stazionano ricevono un significativo bonus difensivo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/giungla|la_giungla|una_giungla.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": -1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            },
+            {
+                "name": "Banane",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/bananas.json"
+            },
+            {
+                "name": "Gemme",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+            },
+            {
+                "name": "Tinture",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/dyes.json"
+            },
+            {
+                "name": "Spezie",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/spices.json"
+            },
+            {
+                "name": "Tartufi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+            },
+            {
+                "name": "Cacao|del Cacao|del Cacao",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cocoa.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
+    },
+    {
+        "id": 3,
+        "name": "Palude|la palude|una palude",
+        "historical_info": "Per quanto ricche di biodiversit\u00e0, le paludi non offrono molto a una civilt\u00e0 in via di sviluppo; in effetti prima di fornire un qualsivoglia bonus a una citt\u00e0 devono essere prosciugate o alterate in qualche altro modo. \u00c8 da notare che nelle paludi le unit\u00e0 militari subiscono una notevole PENALIT\u00c0 quando vengono attaccate.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/palude|la_palude|una_palude.png",
+        "movement_cost": 3,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": -1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Petrolio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+            },
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            },
+            {
+                "name": "Zucchero",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sugar.json"
+            },
+            {
+                "name": "Tartufi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/marsh.json"
+    },
+    {
+        "id": 4,
+        "name": "Oasi|l'oasi|un'oasi",
+        "historical_info": "Le oasi sono speciali aree rigogliose e lussureggianti all'interno di un deserto, solitamente collocate nei pressi di un'abbondante fonte d'acqua dolce. Le oasi sono risorse estremamente preziose in lande altrimenti desolate e inospitali: innumerevoli battaglie sono state combattute fra le trib\u00f9 che si disputavano disperatamente il loro controllo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oasi|l'oasi|un'oasi.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/oasis.json"
+    },
+    {
+        "id": 5,
+        "name": "Terreni allagati|i terreni allagati|dei terreni allagati",
+        "historical_info": "I terreni allagati sono aree pianeggianti adiacenti ai fiumi. Ogni anno il fiume straripa, fornendo alle terre circostanti un'irrigazione naturale e ricchi nutrienti. Ci\u00f2 rende i terreni allagati incredibilmente fertili e i pi\u00f9 produttivi terreni agricoli del mondo. L'antico Egitto doveva gran parte della sua ricchezza e potenza allo straripamento annuale del grande fiume Nilo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/terreni_allagati|i_terreni_allagati|dei_terreni_allagati.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Frumento",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/wheat.json"
+            },
+            {
+                "name": "Zucchero",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sugar.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/flood_plains.json"
+    },
+    {
+        "id": 6,
+        "name": "Foresta|la foresta|una foresta",
+        "historical_info": "Nei tempi antichi le foreste erano una grande fonte di approvvigionamento: con la legna si poteva alimentare il fuoco e costruire strumenti e rifugi, mentre gli animali fornivano cibo e pelli per vestirsi. Quando una citt\u00e0 cresce viene sempre la tentazione di abbattere gli alberi per aumentare le terre coltivabili, ma un amministratore lungimirante ne lascer\u00e0 sempre un po': non solo la foresta \u00e8 produttiva, ma solleva anche lo spirito della popolazione. Inoltre le unit\u00e0 militari dislocate in una foresta ricevono un significativo bonus alla difesa.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/foresta|la_foresta|una_foresta.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Uranio",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+            },
+            {
+                "name": "Cervi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/deer.json"
+            },
+            {
+                "name": "Pellicce",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/furs.json"
+            },
+            {
+                "name": "Tinture",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/dyes.json"
+            },
+            {
+                "name": "Seta",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silk.json"
+            },
+            {
+                "name": "Tartufi",
+                "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+    },
+    {
+        "id": 7,
+        "name": "Scorie radioattive|le scorie radioattive|delle scorie radioattive",
+        "historical_info": "Le scorie radioattive, o \"fallout\", sono i residui tossici di un'esplosione nucleare. Le scorie ricadono dal cielo in una nube di particelle radioattive altamente pericolose per piante e animali: gli organismi viventi vengono uccisi immediatamente o riportano tali danni al DNA da cadere vittime di cancro, mutazioni o altre malattie. A seconda del tipo di esplosione nucleare il suolo pu\u00f2 rimanere contaminato per decenni o anche secoli. La bonifica richiede la sostituzione completa degli edifici, del suolo e della vegetazione.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/scorie_radioattive|le_scorie_radioattive|delle_scorie_radioattive.png",
+        "movement_cost": 2,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": -3,
+            "production": -3,
+            "science": 0,
+            "culture": 0,
+            "food": -3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/fallout.json"
+    },
+    {
+        "id": 8,
+        "name": "Cratere di Barringer|il Cratere di Barringer|il Cratere di Barringer",
+        "historical_info": "Il Cratere di Barringer \u00e8 stato formato dall'impatto di un grande meteorite in Arizona, negli Stati Uniti d'America. Il cratere ha un diametro di 1200 metri. Gli scienziati ritengono che sia stato creato circa 50.000 anni fa, quando l'area \u00e8 stata colpita da un meteorite di nichel e ferro che al momento dell'impatto pesava 160.000 tonnellate e si muoveva a una velocit\u00e0 stimata di 70.000 km/h.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cratere_di_barringer|il_cratere_di_barringer|il_cratere_di_barringer.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/the_barringer_crater.json"
+    },
+    {
+        "id": 9,
+        "name": "Monte Fuji|il Monte Fuji|il Monte Fuji",
+        "historical_info": "Il Monte Fuji \u00e8 un vulcano attivo nonch\u00e9 la montagna pi\u00f9 alta di tutto il Giappone. Alto 3.776 metri e spesso avvolto dalle nubi, ha un'inconfondibile silhouette innevata che si pu\u00f2 scorgere anche da Tokyo. Questa maestosa montagna ha ispirato innumerevoli opere d'arte, poesie, canzoni, fotografie, sculture e dipinti. Il Monte Fuji \u00e8 un simbolo di orgoglio e bellezza per tutto il Giappone.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_fuji|il_monte_fuji|il_monte_fuji.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 3,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/mt._fuji.json"
+    },
+    {
+        "id": 10,
+        "name": "Grande Mesa|la Grande Mesa|la Grande Mesa",
+        "historical_info": "La Grande Mesa \u00e8 una formazione geologica situata in Colorado, negli Stati Uniti d'America. Con un'altezza di circa 1.500 metri rispetto al terreno circostante e un'area di 1.300 km quadrati, \u00e8 la pi\u00f9 grande mesa del mondo. La sua superficie \u00e8 formata da basalto vulcanico, che resiste bene all'erosione. In effetti la mesa non si \u00e8 sollevata, ma \u00e8 piuttosto rimasta alla sua altezza originale mentre il terreno circostante cedeva all'azione dei fiumi Colorado e Gunnison.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/grande_mesa|la_grande_mesa|la_grande_mesa.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 3,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/the_grand_mesa.json"
+    },
+    {
+        "id": 11,
+        "name": "Grande barriera corallina|la Grande barriera corallina|la Grande barriera corallina",
+        "historical_info": "La Grande barriera corallina \u00e8 la pi\u00f9 grande formazione di coralli del mondo. Costituita da una catena di quasi 3000 barriere semisommerse e 1000 isole, si estende per quasi 2600 km lungo la costa dell'Australia nord-orientale. Formata nell'arco di 500.000 anni da miliardi e miliardi di animali, la Grande barriera corallina \u00e8 la pi\u00f9 grande struttura costruita da esseri viventi. La barriera ospita una popolazione enormemente diversificata di animali, tra cui balene, delfini, focene, dugonghi, tartarughe, pesci, piovre e serpenti, a cui si aggiungono pi\u00f9 di 200 specie di uccelli.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/grande_barriera_corallina|la_grande_barriera_corallina|la_grande_barriera_corallina.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 2,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/the_great_barrier_reef.json"
+    },
+    {
+        "id": 12,
+        "name": "Krakatoa|il Krakatoa|il Krakatoa",
+        "historical_info": "Krakatoa \u00e8 un'isola vulcanica situata in Indonesia, tra le isole di Giava e Sumatra. Il vulcano esplose con violenza nell'agosto del 1883, sviluppando una forza 13.000 volte superiore alla bomba atomica sganciata su Hiroshima. L'eruzione distrusse pi\u00f9 di met\u00e0 dell'isola e fu cos\u00ec fragorosa che la si pot\u00e9 sentire addirittura in Australia, a 5.000 km di distanza. L'esplosione e i successivi tsunami uccisero circa 37.000 persone. Negli ultimi 80 anni il vulcano ha emesso un flusso costante di lava, ricostruendo il cono a una velocit\u00e0 di circa 5 metri all'anno.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatoa|il_krakatoa|il_krakatoa.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 5,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/krakatoa.json"
+    },
+    {
+        "id": 13,
+        "name": "Rocca di Gibilterra|la Rocca di Gibilterra|la Rocca di Gibilterra",
+        "historical_info": "Gibilterra \u00e8 una penisola, situata alla bocca del Mar Mediterraneo, che contiene una notevole formazione rocciosa. Catturata da una flotta anglo-olandese nel 1704 e ceduta all'Inghilterra nel 1713, Gibilterra \u00e8 stata in mano britannica da allora (con grande irritazione della Spagna, che la rivorrebbe indietro). Grazie alla sua posizione, che le consente di dominare il passaggio tra Oceano Atlantico e Mediterraneo, Gibilterra \u00e8 stata un'importante base navale inglese per 300 anni.La maggior parte della penisola \u00e8 coperta dalla \"Roccia\", un'enorme formazione di scisto, arenaria e calcare spinta verso l'alto con forza inimmaginabile dal movimento delle placche tettoniche. La Roccia \u00e8 alta circa 430 metri. Una volta Gibilterra era una base fortificata che permetteva all'Inghilterra di dominare lo stretto passaggio tra Mediterraneo e Atlantico, ma oggi pi\u00f9 che un'installazione militare la penisola \u00e8 una riserva naturale e una meta turistica.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/rocca_di_gibilterra|la_rocca_di_gibilterra|la_rocca_di_gibilterra.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 5,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/rock_of_gibraltar.json"
+    },
+    {
+        "id": 14,
+        "name": "Old Faithful",
+        "historical_info": "Old Faithful (il \"Vecchio Fedele\") \u00e8 un geyser situato nel Parco Nazionale di Yellowstone, nel Wyoming, negli USA. Scoperto per la prima volta dagli europei nel 1870 (e dai nativi circa 10.000 anni prima), Old Faithful deve il suo nome all'estrema regolarit\u00e0 della sua eruzione. Il geyser proietta una colonna di acqua bollente a un'altezza di 30-50 metri ogni 60-90 minuti. L'intervallo \u00e8 determinato dalla violenza dell'eruzione precedente. I geyser si formano quando una falda acquifera sotterranea colpisce il magma (roccia fusa). L'acqua si trasforma istantaneamente in vapore, che viene proiettato dall'apertura pi\u00f9 vicina con una tremenda pressione. Lo spettacolo di Old Faithful, insieme a quello offerto dagli altri 250 geyser dello Yellowstone, attira circa tre milioni di visitatori all'anno.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/old_faithful.json"
+    },
+    {
+        "id": 15,
+        "name": "Fontana della giovinezza|la Fontana della giovinezza|la Fontana della giovinezza",
+        "historical_info": "Uno dei primi resoconti su questa fonte leggendaria si trova nell'opera di Erodoto, che la descrive come una speciale \"acqua di vita\" che conferisce un'eccezionale longevit\u00e0 a tutti coloro che la bevono. Storie simili si ritrovano nella tradizione popolare dei Caraibi e del Sudamerica, un aspetto che contribu\u00ec a mantenere in vita la leggenda della fonte della giovinezza durante l'epoca delle grandi esplorazioni spagnole. Secondo un racconto popolare, nel 1513 il conquistador spagnolo Juan Ponce de Le\u00f3n sent\u00ec parlare della fonte durante i suoi viaggi a Porto Rico, e subito alz\u00f2 le vele in cerca della vita eterna. In questo modo scopr\u00ec la Florida, diventando uno dei primi europei a metter piede sul suolo del Nordamerica. Tuttavia, non riusc\u00ec mai a trovare la mitica sorgente. La Fonte della giovinezza ancora oggi affascina il pubblico: film, libri, fumetti e giochi l'hanno utilizzata come elemento centrale della trama.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fontana_della_giovinezza|la_fontana_della_giovinezza|la_fontana_della_giovinezza.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 10
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/fountain_of_youth.json"
+    },
+    {
+        "id": 16,
+        "name": "Cerro de Potos\u00ed|il Cerro de Potos\u00ed|il Cerro de Potos\u00ed",
+        "historical_info": "Situata nella Bolivia meridionale, la montagna di Potos\u00ed ha fornito quasi tutto l'argento riportato in Europa dagli spagnoli in epoca imperiale. Una volta estratto dalla montagna, il metallo era trasportato a dorso di mulo e di lama fino alla costa, dove veniva caricato sulle navi della flotta del tesoro dirette in Europa. Nel corso di due secoli furono estratte quasi 41.000 tonnellate d'argento puro, di cui 8.200 andarono direttamente alla Corona di Spagna. Dopo il 1800 le vene principali si esaurirono, ma a Potos\u00ed gli scavi continuano ancora, in cerca d'argento ma soprattutto di stagno.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cerro_de_potos\u00ed|il_cerro_de_potos\u00ed|il_cerro_de_potos\u00ed.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 10,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/cerro_de_potosi.json"
+    },
+    {
+        "id": 17,
+        "name": "El Dorado|El Dorado|El Dorado",
+        "historical_info": "Questa favolosa \"citt\u00e0 d'oro\" attir\u00f2 nel Nuovo Mondo parecchi conquistador spagnoli, tutti ansiosi di portar alla luce le sue inenarrabili ricchezze. Per quasi tre secoli il mito della citt\u00e0 fatta di gemme e d'oro ha spinto verso le coste del Sudamerica orde di esploratori, che spesso si sono accontentati di saccheggiare le altre citt\u00e0 incontrate lungo la strada. El Dorado ha colpito l'immaginazione degli esploratori attraverso i secoli: ancora nel 1804 si organizzavano spedizioni per scoprire la sua posizione. Oggi si ritiene che il mito sia stato ispirato dalla cerimonia di iniziazione di un capo dei Muisca, che secondo alcune cronache si ricopr\u00ec di una sottile pellicola di polvere d'oro prima di tuffarsi nel lago Guatavita.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado|el_dorado|el_dorado.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 5,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/el_dorado.json"
+    },
+    {
+        "id": 18,
+        "name": "Atollo|l'Atollo|un Atollo",
+        "historical_info": "Un atollo \u00e8 una formazione corallina cos\u00ec estesa da formare un'isola. In genere gli atolli sono piccoli e bassi e hanno la forma di un anello che circonda una laguna centrale poco profonda. Insieme a quelle di origine vulcanica, gli atolli costituiscono la tipologia di isole pi\u00f9 comune del Pacifico. In un certo senso gli atolli si possono paragonare alle oasi, in quanto rappresentano spesso le uniche terre emerse in centinaia di chilometri di distese liquide. Gli atolli sono abitati da molte specie di uccelli e animali marini: sebbene alcuni siano stati abitati da esseri umani, in genere non offrono un ambiente favorevole alla vita dei grandi organismi terrestri. La loro conformazione piatta non offre alcuna protezione dal sole e dagli uragani, che spesso li squassano con effetti devastanti. Charles Darwin, grazie alla sua esperienza e alle osservazioni effettuate durante il viaggio a bordo del Beagle, \u00e8 stato il primo occidentale a formulare un'ipotesi corretta sulla formazione degli atolli.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atollo|l'atollo|un_atollo.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/atoll.json"
+    },
+    {
+        "id": 19,
+        "name": "Monte Sri Pada|il Monte Sri Pada|il Monte Sri Pada",
+        "historical_info": "Sri Pada \u00e8 una grande montagna dall'insolita forma conica che sovrasta lo Sri Lanka ed \u00e8 considerata sacra da molte religioni per l'\"orma\" ritrovata sulla sua sommit\u00e0. L'orma, una grande depressione impressa in una roccia sulla cima della montagna, \u00e8 stata attribuita di volta in volta a Buddha, a Shiva e alla figura biblica di Adamo, e venerata dai seguaci del buddismo, dell'induismo e dell'islam. Ogni anno migliaia di pellegrini salgono sulla montagna camminando per ore per raggiungere e onorare il luogo sacro.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_sri_pada|il_monte_sri_pada|il_monte_sri_pada.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 4,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/sri_pada.json"
+    },
+    {
+        "id": 20,
+        "name": "Monte Sinai|il Monte Sinai|il Monte Sinai",
+        "historical_info": "Il Monte Sinai si trova nell'omonima penisola ed \u00e8 uno dei luoghi sacri pi\u00f9 venerati dai seguaci dell'ebraismo, del cristianesimo e dell'islam. Secondo le scritture il Sinai \u00e8 il luogo dove Mos\u00e8 ha ricevuto da Dio i dieci comandamenti durante l'esodo degli ebrei dall'Egitto: la sua vetta \u00e8 diventata luogo di pellegrinaggio per religiosi di tutto il mondo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_sinai|il_monte_sinai|il_monte_sinai.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 8,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/mt._sinai.json"
+    },
+    {
+        "id": 21,
+        "name": "Monte Kailash|il Monte Kailash|il Monte Kailash",
+        "historical_info": "La sacra vetta del Monte Kailash, che si trova in Tibet sull'Himalaya, \u00e8 adorata dai seguaci di molte religioni, soprattutto dagli induisti. Secondo una credenza la montagna \u00e8 dimora di Shiva, che vi risiede in uno stato di eterna beatitudine. Si dice che quello sul Monte Kailash sia uno dei pellegrinaggi religiosi pi\u00f9 difficili in assoluto: in effetti le durissime condizioni dissuadono la maggior parte delle persone, anche perch\u00e9 la montagna \u00e8 inaccessibile a tutti i mezzi di trasporto.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/monte_kailash|il_monte_kailash|il_monte_kailash.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/mt._kailash.json"
+    },
+    {
+        "id": 22,
+        "name": "Uluru|l'Uluru|l'Uluru",
+        "historical_info": "\"Ayers Rock\", come viene comunemente chiamato il rosso massiccio di arenaria dell'Australia centrale, \u00e8 diventato nel corso del tempo uno dei simboli pi\u00f9 famosi del paese. Molto prima della sua scoperta da parte degli esploratori inglesi, avvenuta nel tardo Ottocento, la montagna era chiamata \"Uluru\" dagli indigeni della zona, che da sempre condividono varie leggende sulla creazione e il significato del grande massiccio. La sua designazione da parte dell'UNESCO come patrimonio dell'umanit\u00e0, nel 1987, ha provocato un immediato aumento del turismo nella zona, che ogni anno viene visitata da parecchie centinaia di migliaia di persone.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru|l'uluru|l'uluru.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 6,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/uluru.json"
+    },
+    {
+        "id": 23,
+        "name": "Lago Vittoria|il Lago Vittoria|il Lago Vittoria",
+        "historical_info": "Con una superficie di 68.870 kmq, il Lago Vittoria \u00e8 il pi\u00f9 grande dell'Africa, nonch\u00e9 il primo lago tropicale e il secondo specchio d'acqua dolce in tutto il mondo. Dal Vittoria fuoriescono due grandi fiumi, il Nilo Bianco e il Katonga. Le prime testimonianze storiche sono dovute a mercanti arabi che si erano spinti lontani dalle coste in cerca d'oro, avorio e altri beni scambiati dai nativi. Nel 1858 l'esploratore inglese John Speke, partito alla ricerca delle sorgenti del Nilo, scopr\u00ec il lago e lo battezz\u00f2 col nome odierno in onore della regina britannica.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/lago_vittoria|il_lago_vittoria|il_lago_vittoria.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 6,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/lake_victoria.json"
+    },
+    {
+        "id": 24,
+        "name": "Kilimangiaro|il Kilimangiaro|il Kilimangiaro",
+        "historical_info": "Il massiccio del Kilimanjaro, situato nella parte nord-orientale della Tanzania, \u00e8 formato da tre coni vulcanici, il pi\u00f9 alto dei quali raggiunge i 5895 metri: questo ne fa il punto pi\u00f9 alto dell'Africa, nonch\u00e9 la pi\u00f9 alta montagna del mondo che non fa parte di una catena. Il Kilimanjaro \u00e8 considerato uno strato-vulcano: due dei suoi picchi (Mawenzi e Shira) sono spenti, mentre il pi\u00f9 alto (Kibo) mostra ancora segni di attivit\u00e0; la sua ultima eruzione importante risale a circa 150.000 anni fa. L'esploratore Johann Krapf ha postulato nel 1860 che il nome \"Kilimanjaro\" sia di origine Swahili e significhi \"montagna della grandezza\" o \"montagna delle carovane\".",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/kilimangiaro|il_kilimangiaro|il_kilimangiaro.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/mt._kilimanjaro.json"
+    },
+    {
+        "id": 25,
+        "name": "Miniere di Re Salomone|le Miniere di Re Salomone|le Miniere di Re Salomone",
+        "historical_info": "Nel XIX Secolo le miniere di Re Salomone hanno esercitato sugli esploratori europei in Africa un'attrazione pari a quella della mitica El Dorado sui Conquistador spagnoli che nel XVI Secolo esploravano il Nuovo Mondo. Quando gli europei raggiunsero per la prima volta le rovine dell'antica citt\u00e0 di Zimbabwe, nell'Africa orientale, rimasero perplessi per la sua posizione. Numerose ipotesi vennero formulate per spiegare la sua esistenza, ma quella che cattur\u00f2 pi\u00f9 di tutte l'immaginazione popolare postulava che la grande Zimbabwe servisse a dare alloggio e protezione agli uomini che lavoravano nelle miniere di Re Salomone, situate da qualche parte nei vicini monti Chimanimani. Su quelle montagne si sarebbe trovata la fonte del leggendario tesoro d'oro e di gemme del monarca biblico. Per decenni cacciatori di tesori e avventurieri tentarono di scoprire le leggendarie miniere, ma non ebbero successo.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/miniere_di_re_salomone|le_miniere_di_re_salomone|le_miniere_di_re_salomone.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 6,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/it/features/king_solomon's_mines.json"
+    }
+]

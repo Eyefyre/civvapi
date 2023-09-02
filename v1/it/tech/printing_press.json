@@ -1,0 +1,48 @@
+{
+    "id": 35,
+    "name": "Tipografia|della Tipografia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/printing_press.png",
+    "era": "Epoca rinascimentale",
+    "cost": 780,
+    "civilopedia_entry": "Per quanto sembri che i caratteri mobili siano stati inventati in Cina, la prima pressa da stampa meccanizzata fu realizzata a met\u00e0 del XV secolo dal tipografo tedesco Johann Gutenberg. Le prime presse erano fatte di legno e ricordavano le presse da vino e da olio gi\u00e0 usate per secoli nell'area del Mediterraneo.Nel meccanismo originale i caratteri erano composti, rovesciati, su un \"platen\" di legno che li teneva in posizione. A questo punto si applicava l'inchiostro, quindi la carta veniva appoggiata sul platen nella pressa. L'operaio girava la vite per applicare pressione sulla carta sui caratteri inchiostrati. Infine lo stampatore poteva rimuovere la carta e riapplicare l'inchiostro, dopodich\u00e9 il processo ricominciava. La pressa di Gutenberg poteva produrre circa 250 fogli all'ora (stampati su una faccia sola). Il suo progetto \u00e8 rimasto invariato per tre secoli, finch\u00e9 non fu soppiantato da macchinari metallici. Nel XIX secolo furono costruite presse da stampa a vapore capaci di produrre 7.500 fogli all'ora.\u00c8 impossibile esagerare il valore della stampa nello sviluppo dell'umanit\u00e0. Prima di quest'invenzione i libri erano pochissimi e potevano costare pi\u00f9 del salario annuale di un lavoratore medio. La biblioteca dell'universit\u00e0 di Cambridge possedeva poco pi\u00f9 di 100 libri quando la stampa fu inventata; nel giro di pochissimo tempo anche la gente comune pot\u00e9 permettersi di avere in casa una Bibbia e altri libri. Nel giro di 60 anni in Inghilterra apparvero i primi \"libri di notizie\", precursori dei moderni giornali.",
+    "quote": "\"Il dovere di un giornale \u00e8 pubblicare le notizie e scatenare polveroni.\" - The Chicago Times",
+    "tech_prereqs": [
+        {
+            "name": "Meccanica|della Meccanica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+        },
+        {
+            "name": "Fisica|della Fisica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/physics.json"
+        },
+        {
+            "name": "Codice cavalleresco|del Codice cavalleresco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Economia|dell'Economia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/economics.json"
+        },
+        {
+            "name": "Metallurgia|della Metallurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zoo|lo Zoo|uno Zoo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/zoo.json"
+        },
+        {
+            "name": "Torre di Pisa|la Torre di Pisa|la Torre di Pisa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/leaning_tower_of_pisa.json"
+        },
+        {
+            "name": "Globe Theatre|il Globe Theatre|un Globe Theatre",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/globe_theatre.json"
+        }
+    ]
+}

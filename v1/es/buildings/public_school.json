@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Escuela p\u00fablica|Escuelas p\u00fablicas",
+    "game_info": "+1 a Ciencia por cada 2 ciudadanos que haya en la ciudad.\u00c9sta debe tener una Universidad.",
+    "strategy": "La Escuela p\u00fablica es un edificio de mediados del juego que aumenta mucho la producci\u00f3n cient\u00edfica de la ciudad. Esta ha de contar con una Universidad o Wat para poder construirla.",
+    "historical_info": "La escuela p\u00fablica ofrece educaci\u00f3n preuniversitaria gratuita a los hijos de los ciudadanos. Se trata de un concepto bastante avanzado. En primer lugar, la civilizaci\u00f3n debe creer que la educaci\u00f3n es importante y que educar a los pobres no supone una amenaza para la clase pudiente. En segundo lugar, la civilizaci\u00f3n debe tener suficientes recursos para que los hijos de los pobres no necesiten trabajar para sobrevivir. Y, por \u00faltimo, la civilizaci\u00f3n debe haber alcanzado un grado de ilustraci\u00f3n tal que le parezca apropiado gastar parte de los ingresos p\u00fablicos en educaci\u00f3n. La mayor\u00eda de los pa\u00edses actuales ofrecen alg\u00fan tipo de educaci\u00f3n p\u00fablica a sus j\u00f3venes. La primera escuela elemental norteamericana se abri\u00f3 durante la era colonial. El primer instituto p\u00fablico se abri\u00f3 en Boston en 1821.",
+    "cost": {
+        "production": 300,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/escuela_p\u00fablica|escuelas_p\u00fablicas.png",
+    "prereq_tech": {
+        "name": "Teor\u00eda cient\u00edfica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 3,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

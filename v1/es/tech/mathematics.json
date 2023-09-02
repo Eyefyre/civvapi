@@ -1,0 +1,49 @@
+{
+    "id": 15,
+    "name": "Matem\u00e1ticas",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mathematics.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 105,
+    "civilopedia_entry": "Las matem\u00e1ticas podr\u00edan definirse como la ciencia del orden, la estructura y la relaci\u00f3n y que ha evolucionado a partir de contar, medir y describir los objetos y sus formas. Son la piedra de toque en la que se basan todas las ciencias f\u00edsicas. Los sumerios ten\u00edan un sistema matem\u00e1tico excepcionalmente s\u00f3lido y complejo que se basaba en el n\u00famero 10 (como el sistema de nuestros d\u00edas) y en el n\u00famero 60. Los restos de este \u00faltimo sistema sobreviven b\u00e1sicamente en la actualidad para el c\u00f3mputo del tiempo: 60 segundos es un minuto y 60 minutos, una hora.Los egipcios ten\u00edan un sistema algo m\u00e1s sencillo, que desarrollaron los escribas y recaudadores de impuestos, con el que eran capaces de hacer los c\u00e1lculos necesarios para realizar obras de ingenier\u00eda, como las pir\u00e1mides (adem\u00e1s, es de suponer, de llevar la cuenta de los impuestos impagados). Los griegos dividieron las matem\u00e1ticas en dos esferas: la \"aritm\u00e9tica\", el estudio de la cantidad, y la \"geometr\u00eda\", el estudio de la magnitud o el \u00e1rea. No obstante, su principal contribuci\u00f3n fue la aplicaci\u00f3n del sistema de teor\u00eda y prueba a las matem\u00e1ticas. Los sistemas matem\u00e1ticos anteriores se basaban en la medida y observaci\u00f3n del mundo real, mientras que los griegos buscaron las reglas matem\u00e1ticas que subyac\u00edan en la realidad.El mundo isl\u00e1mico realiz\u00f3 una gran contribuci\u00f3n a las matem\u00e1ticas durante los siglos VIII-XV d. C. Quiz\u00e1 lo m\u00e1s importante fue la invenci\u00f3n del sistema decimal para los n\u00fameros enteros y la del \"0\" (el n\u00famero cero), alrededor del 600 d. C. en la India. \u00c9ste sustituy\u00f3 al sistema num\u00e9rico romano, extremadamente pesado y poco pr\u00e1ctico, que en la actualidad solo pervive en la numeraci\u00f3n de las secuelas de las pel\u00edculas de terror.Las matem\u00e1ticas han crecido exponencialmente desde sus inicios y, gracias a ellas, el hombre ha dividido el \u00e1tomo, ha creado Internet y ha montado unas ligas de f\u00fatbol incre\u00edbles. \u00bfQui\u00e9n sabe los secretos que desentra\u00f1ar\u00e1 en el futuro?",
+    "quote": "\"Las matem\u00e1ticas son la llave y la puerta de la ciencia.\" - Roger Bacon",
+    "tech_prereqs": [
+        {
+            "name": "Rueda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Moneda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+        },
+        {
+            "name": "Ingenier\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Catapulta|Catapultas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/catapult.json"
+        },
+        {
+            "name": "Balista|Balistas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/ballista.json"
+        },
+        {
+            "name": "Torre de asedio|Torres de asedio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/siege_tower.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Delegaci\u00f3n|Delegaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/courthouse.json"
+        },
+        {
+            "name": "Jardines Colgantes|Jardines Colgantes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hanging_gardens.json"
+        }
+    ]
+}

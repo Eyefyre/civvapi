@@ -1,0 +1,23 @@
+{
+    "id": 97,
+    "name": "Speerschleuderer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atlatlist.png",
+    "game_info": "Nur die Maya k\u00f6nnen diese Einheit bauen. Sie ist g\u00fcnstiger und schneller verf\u00fcgbar als der Bogensch\u00fctze, den sie ersetzt.",
+    "historical_info": "Die Speerschleuderer waren h\u00f6chst spezialisierte Spie\u00dfwerfer, die ein h\u00f6lzernes, langes speer\u00e4hnliches Objekt einsetzen, um ihre Ziele mit hohem Tempo zu treffen. Dieses Ger\u00e4t, Atlatl genannt, hatte eine kleine Mulde auf der einen Seite, in der der Wurfspie\u00df ruhte, und ein Kanal verk\u00fcrzte die Strecke, die das Geschoss zur\u00fccklegen musste. Mit einem Atlatl konnte ein Speerschleuderer einen Pfeil \u00fcber 90 Meter weit mit bis zu 95 Stundenkilometern werfen - um einiges weiter und schneller als ein normal mit der Hand geworfenes Geschoss. Die Speerschleuderer der Maya waren in der Lage, gegnerische Linien aus der Distanz zu vernichten, sofern sie freie Sicht auf das Ziel hatten.Einige der ersten Atlatls stammen grob aus der Zeit von vor 400.000 Jahren, der ausgestorbene Homo Heidelbergensis hat sie benutzt. Vom Homo Sapiens glaubt man, dass er eine fr\u00fche Atlatl-Version ab dem Jungpal\u00e4olithikum, etwa 15.500 v. Chr. benutzt hat.",
+    "strategy": "Der Speerschleuderer ist eine Spezialeinheit der Maya, die den Bogensch\u00fctzen ersetzt. Speerschleuderer sind sowohl billiger als traditionelle Bogensch\u00fctzen als auch fr\u00fcher verf\u00fcgbar, weil man das Bogenschie\u00dfen nicht erforschen muss. Dieser fr\u00fche Vorteil im Spiel erlaubt es, andere Forschungspriorit\u00e4ten ins Spiel zu bringen.",
+    "movement": 2,
+    "cost": {
+        "production": 36,
+        "faith": 72
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

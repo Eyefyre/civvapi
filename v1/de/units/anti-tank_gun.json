@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "name": "Panzerabwehrkanone",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-tank_gun.png",
+    "game_info": "Relativ g\u00fcnstige Einheit, die auf den Kampf gegen Panzer spezialisiert ist.",
+    "historical_info": "Panzerabwehrkanonen sind, wie der Name schon sagt, Artillerieeinheiten zur Zerst\u00f6rung feindlicher Panzer. Diese Waffen m\u00fcssen mobil sein und entweder einen Eigenantrieb besitzen oder leicht von einem Lastwagen oder anderem schweren Gef\u00e4hrt gezogen werden k\u00f6nnen. Sie feuern Geschosse, die speziell dazu dienen, feindliche Panzerungen zu durchdringen. Panzerabwehrkanonen sind oft leichte Ziele f\u00fcr feindliche Infanterie und m\u00fcssen daher von Infanterie-Abwehreinheiten verteidigt werden, wenn der Gegner zu nahe kommt.",
+    "strategy": "Die Panzerabwehrkanone ist eine spezialisierte Kampfeinheit, die bei feindlichen Panzern gro\u00dfe Sch\u00e4den anrichten kann, aber im Kampf gegen andere Einheiten ziemlich schwach ist. Sie sollte stets durch eigene Panzer und Artillerie unterst\u00fctzt werden, um eine schlagkr\u00e4ftige Kampftruppe zu erstellen.",
+    "movement": 2,
+    "cost": {
+        "production": 300,
+        "faith": 600
+    },
+    "prereq_tech": {
+        "name": "Verbundene Waffen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Panzer (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_tanks_(100).json"
+        }
+    ]
+}

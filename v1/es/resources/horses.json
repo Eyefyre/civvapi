@@ -1,0 +1,60 @@
+{
+    "id": 2,
+    "name": "Caballos",
+    "game_info": "Los utilizan las unidades montadas.",
+    "historical_info": "Ya sea como transporte, instrumentos para la guerra, compa\u00f1eros y, en ocasiones, comida, los caballos se cuentan entre los animales dom\u00e9sticos m\u00e1s importantes de la historia humana. Se domesticaron originariamente en Asia central alrededor del a\u00f1o 4000 a. C. y, durante los milenios siguientes, la pr\u00e1ctica se extendi\u00f3 por Europa, Asia, Oriente Medio y \u00c1frica. En el siglo XVI, los espa\u00f1oles introdujeron los caballos en el Nuevo Mundo, donde la poblaci\u00f3n ind\u00edgena adopt\u00f3 su uso r\u00e1pidamente y con entusiasmo durante los siglos siguientes. Recuerda que los caballos son un recurso estrat\u00e9gico y que, como tal, se consumen a medida que construyes las unidades y los edificios a ellos asociados.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/caballos.png",
+    "prereq_tech": {
+        "name": "Ganader\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/animal_husbandry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pastizal|Pastizales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/pasture.json"
+        },
+        {
+            "name": "Aduana|Aduanas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/customs_house.json"
+        },
+        {
+            "name": "Academia|Academias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/academy.json"
+        },
+        {
+            "name": "Ciudadela|Ciudadelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/citadel.json"
+        },
+        {
+            "name": "Factor\u00eda|Factor\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/manufactory.json"
+        },
+        {
+            "name": "Lugar sagrado|Lugares sagrados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        }
+    ]
+}

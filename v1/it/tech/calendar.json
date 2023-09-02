@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "name": "Calendario|del Calendario",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/calendar.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "Un calendario \u00e8 un metodo che permette di tener traccia del passaggio dei giorni. In molte culture antiche i calendari avevano una funzione sia pratica sia religiosa: alcuni giorni dell'anno erano dedicati all'adorazione di particolari divinit\u00e0, ed era un grave errore offendere gli d\u00e8i dimenticandosi di dar loro il dovuto. Naturalmente, e pi\u00f9 prosaicamente, un calendario permette anche di tenere traccia del clima in un'area, stabilendo quando \u00e8 meglio seminare, quando cominciare il raccolto e cos\u00ec via.Sembra che il primo calendario di uso pratico sia stato sviluppato degli Egizi: \u00e8 lo stesso che, acquisito e ulteriormente perfezionato dai Romani, \u00e8 diventato noto come calendario giuliano. Il calendario gregoriano, ormai di uso praticamente universale, \u00e8 basato su quello giuliano. Promulgato nel 1582 da papa Gregorio XIII, definisce l'anno solare con pi\u00f9 accuratezza, correggendo una lieve imprecisione del predecessore. Nel calendario giuliano l'anno solare durava 365 giorni e 6 ore, mentre in quello gregoriano l'anno \u00e8 pi\u00f9 corto di 12 minuti: dura infatti 365 giorni, 5 ore e 48 minuti. Quest'errore si era accumulato per secoli, tanto che al tempo di Gregorio il calendario giuliano era sfasato di ben 14 giorni rispetto alle stagioni.",
+    "quote": "\"Insegnaci a contare i nostri giorni e giungeremo alla sapienza del cuore.\" - Salmi, 90:12",
+    "tech_prereqs": [
+        {
+            "name": "Ceramica|della Ceramica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Filosofia|della Filosofia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/philosophy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stonehenge|Stonehenge|Stonehenge",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/stonehenge.json"
+        },
+        {
+            "name": "Scalpellino|lo Scalpellino|uno Scalpellino",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/stone_works.json"
+        }
+    ]
+}

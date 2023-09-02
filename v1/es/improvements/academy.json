@@ -1,0 +1,68 @@
+{
+    "id": 17,
+    "name": "Academia|Academias",
+    "game_info": "La academia es una instituci\u00f3n en la que los ni\u00f1os reciben educaci\u00f3n primaria avanzada. Hay academias de todo tipo: militares, religiosas, pol\u00edticas, etc. Algunas son privadas y solo los ni\u00f1os de familias poderosas, influyentes o ricas pueden acceder a ellas, mientras que otras solo admiten a los que cumplen unos requisitos estrictos. El Eton College de Inglaterra es una de las academias m\u00e1s famosas del mundo; desde 1440 solo acepta a los chicos ingleses m\u00e1s brillantes entre 13 y 18 a\u00f1os.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/academia|academias.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Caballos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/horses.json"
+        },
+        {
+            "name": "Hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/iron.json"
+        },
+        {
+            "name": "Carb\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/coal.json"
+        },
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Aluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 8,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

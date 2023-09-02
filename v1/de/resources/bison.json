@@ -1,0 +1,33 @@
+{
+    "id": 41,
+    "name": "Bison",
+    "game_info": null,
+    "historical_info": "Das nordamerikanische Bison, das einst in riesigen Herden die Great Planes bev\u00f6lkerte, war die Hauptquelle f\u00fcr Fleisch, Sehnen, Leder und Knochen - Material, das f\u00fcr viele St\u00e4mme \u00fcberlebenswichtig war. Im sp\u00e4ten 19. Jahrhundert wurden die Bisons von den Amerikanern beinahe ausgerottet, doch in den letzten Jahrzehnten hat sich ihre Zahl aufgrund von bundesstaatlichen und landesweiten Tierschutzinitiativen wieder erholt.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bison.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Jagdlager",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        }
+    ]
+}

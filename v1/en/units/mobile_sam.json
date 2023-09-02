@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "Mobile SAM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "Will intercept enemy aircraft which try to bomb nearby Units.",
+    "historical_info": "As helicopters developed into more efficient killing machines, the infantry in turn developed weapons designed to combat the growing menace - not to mention the danger posed by jet fighters. Modern \"SAMs\" (surface-to-air missiles) are fast, light, and contain radar, allowing them to \"lock on\" to enemy aircraft and fly into them, exploding violently and doing all sorts of probably lethal damage to the fragile planes and choppers. In response more stealthy vehicles have been created and also better missile-jamming technology has been employed. Still, SAM launchers make it hot indeed for enemy aircraft, providing good protection to fellow ground-pounders from the airborne menace.",
+    "strategy": "Mobile SAM (surface-to-air) units provide an advancing army with anti-air defense. Mobile SAM units can intercept and shoot at enemy aircraft bombing targets within 2 hexes (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Rocketry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus vs Aircraft/Helicopters (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

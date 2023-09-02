@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Trirema|Triremy|Triremie|Trirem\u0119|Trirem\u0105|Triremie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Staro\u017cytna jednostka morska, mog\u0105ca z bliska atakowa\u0107 inne okr\u0119ty lub miasta.",
+    "historical_info": "Trirema by\u0142a statkiem wojennym antycznej marynarki \u015br\u00f3dziemnomorskiej. Mimo tego, \u017ce posiada\u0142a \u017cagiel, podczas walki nap\u0119dza\u0142y j\u0105 trzy rz\u0119dy wio\u015blarzy. Gdy byli oni dobrze wy\u0107wiczeni i zmotywowani, statek potrafi\u0142 by\u0107 zaskakuj\u0105co szybki i zwinny. Triremy przewa\u017cnie posiada\u0142y na dziobie ostry koniec (taran), a ich podstawowa taktyka polega\u0142a na tym, by staranowa\u0107 i zatopi\u0107 wrogi statek. Niekt\u00f3re triremy przewozi\u0142y r\u00f3wnie\u017c \u0142ucznik\u00f3w do walki na odleg\u0142o\u015b\u0107, podczas gdy inne \u2013 wi\u0119ksze ilo\u015bci piechoty. Jednostki takie zbli\u017ca\u0142y si\u0119 do burty wrogiego statku, po czym piechota wchodzi\u0142a na pok\u0142ad i pr\u00f3bowa\u0142a go przej\u0105\u0107. Triremy pozostawa\u0142y istotnymi jednostkami militarnymi, a\u017c zosta\u0142y wyparte przez dzia\u0142a, oraz post\u0119py w konstrukcji statk\u00f3w i takielunku.",
+    "strategy": "Trirema jest pierwsz\u0105 jednostk\u0105 p\u0142ywaj\u0105c\u0105, dost\u0119pn\u0105 cywilizacjom w grze. Jest to jednostka strzelaj\u0105ca o \u015bredniej sile ataku na odleg\u0142o\u015b\u0107. Nie mo\u017ce zaczyna\u0107 walki wr\u0119cz. Triremy u\u017cyteczne s\u0105 przy usuwaniu z w\u00f3d domowych statk\u00f3w barbarzy\u0144c\u00f3w oraz, w ograniczonym zakresie, nadaj\u0105 si\u0119 do zwiadu (nie mog\u0105 wp\u0142ywa\u0107 na wody oceaniczne, chyba \u017ce nale\u017c\u0105 do Polinezyjczyk\u00f3w).",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

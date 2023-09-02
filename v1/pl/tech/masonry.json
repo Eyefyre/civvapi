@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Murarstwo|Murarstwa|Murarstwu|Murarstwo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Staro\u017cytno\u015b\u0107|Staro\u017cytno\u015bci|Staro\u017cytno\u015bci|Staro\u017cytno\u015b\u0107",
+    "cost": 55,
+    "civilopedia_entry": "Murarstwo to wznoszenie budowli z pojedynczych blok\u00f3w \u0142\u0105czonych zapraw\u0105. Bloki te mog\u0105 by\u0107 wykonane z kamienia, betonu, \u017cu\u017cla lub glinianych cegie\u0142. Zaprawa to plastyczna masa, kt\u00f3ra wysychaj\u0105c zmienia si\u0119 w niezwykle wytrzyma\u0142y materia\u0142. Zwykle jest to mieszanina piasku, cementu lub wapna oraz wody.Staro\u017cytni Egipcjanie opanowali murarstwo ju\u017c w czwartym tysi\u0105cleciu p.n.e., wznosili \u015bwi\u0105tynie, pa\u0142ace i piramidy wykorzystuj\u0105c du\u017ce pok\u0142ady wapienia, piaskowca, granitu i bazaltu wyst\u0119puj\u0105ce na wzg\u00f3rzach nad rzek\u0105 Nil. Staro\u017cytni Asyryjczycy z \u017byznego P\u00f3\u0142ksi\u0119\u017cyca nie mieli \u0142atwo dost\u0119pnych \u017ar\u00f3de\u0142 kamienia, ale dysponowali bogatymi pok\u0142adami gliny, z kt\u00f3rej wytwarzali ceg\u0142y suszone na s\u0142o\u0144cu. Suszone ceg\u0142y s\u0105 podatne na wilgo\u0107, dlatego cz\u0119sto pokrywali swe budowle wypalanymi lub glazurowanymi p\u0142ytkami.Staro\u017cytni Rzymianie wynale\u017ali beton, b\u0119d\u0105cy o wiele lepsz\u0105 zapraw\u0105 od tych, kt\u00f3rych u\u017cywa\u0142y wcze\u015bniejsze cywilizacje (zwykle by\u0142y oparte na glinie), i kt\u00f3ry mo\u017ce sam w sobie by\u0107 materia\u0142em budowlanym. Ta tak zwana \u201ebetonowa rewolucja\u201d pozwoli\u0142a Rzymianom wznosi\u0107 budowle, kt\u00f3re nigdy nie powsta\u0142yby przy u\u017cyciu prymitywniejszych materia\u0142\u00f3w. W XIX wieku pewien paryski ogrodnik wpad\u0142 na pomys\u0142 zatopienia \u017celaznej siatki w swoich betonowych pojemnikach i donicach; jego wynalazek wzmocnionego betonu znacznie zwi\u0119kszy\u0142 wytrzyma\u0142o\u015b\u0107 materia\u0142u na rozci\u0105ganie, dzi\u0119ki czemu lepiej nadawa\u0142 si\u0119 on do budowy wysokich konstrukcji wystawionych na dzia\u0142anie wiatru, drga\u0144, a nawet trz\u0119sie\u0144 ziemi. Niedawne wynalazki jeszcze bardziej zwi\u0119kszy\u0142y wytrzyma\u0142o\u015b\u0107 i elastyczno\u015b\u0107 tego naju\u017cyteczniejszego materia\u0142u budowlanego. I cho\u0107 wiele wsp\u00f3\u0142czesnych budynk\u00f3w jest wykonanych ze szk\u0142a i stali, to wszystkie stoj\u0105 na fundamentach stworzonych w oparciu o staro\u017cytne techniki murarskie.",
+    "quote": "\u201eJak\u017ce szcz\u0119\u015bliwi s\u0105 ci, kt\u00f3rych mury zosta\u0142y ju\u017c wzniesione!\u201d  \u2013 Wergiliusz",
+    "tech_prereqs": [
+        {
+            "name": "G\u00f3rnictwo|G\u00f3rnictwa|G\u00f3rnictwu|G\u00f3rnictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Budownictwo|Budownictwa|Budownictwu|Budownictwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mur|Muru|Murowi|Mur|Mury|Mur\u00f3w|Murom|Mury",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/walls.json"
+        },
+        {
+            "name": "Piramidy|Piramid|Piramidom|Piramidy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/pyramids.json"
+        },
+        {
+            "name": "Mauzoleum w Halikarnasie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Mury Babilonu|Mur\u00f3w Babilonu|Murom Babilonu|Mury Babilonu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/walls_of_babylon.json"
+        }
+    ]
+}

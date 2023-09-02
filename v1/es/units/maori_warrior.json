@@ -1,0 +1,23 @@
+{
+    "id": 90,
+    "name": "Guerrero maor\u00ed|Guerreros maor\u00edes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/maori_warrior.png",
+    "game_info": "Una unidad de la Antig\u00fcedad que causa miedo a los enemigos. Solo la puede construir Polinesia. Sustituye al Guerrero.",
+    "historical_info": "Los maor\u00edes se contaban entre los guerreros m\u00e1s temidos de toda Polinesia. Adornaban sus rostros con una serie de tatuajes intrincados y terribles que describ\u00edan en detalle sus muchos logros en combate. Antes de que empezara la refriega, cada bando tomaba parte en una danza de guerra llamada \"haka\" en la que se representaba el destino que aguardaba a los soldados enemigos si ca\u00edan. Se esperaba que este baile intimidara a sus oponentes para que abandonaran el campo de batalla y admitieran su derrota, lo cual ahorraba a ambos bandos una cantidad considerable de tiempo y energ\u00eda.Los maor\u00edes tambi\u00e9n eran bien conocidos por sus costumbres can\u00edbales: devoraban a los guerreros muertos para apoderarse de su esp\u00edritu luchador y su poder. Esto no solo constitu\u00eda una de las pocas fuentes de prote\u00ednas en las islas, sino tambi\u00e9n una muestra de respeto por los guerreros ca\u00eddos.",
+    "strategy": "El Guerrero maor\u00ed es similar al Gran general pero, en vez de aumentar la fuerza de las unidades amigas, disminuye la de las unidades enemigas adyacentes. Es mejor construir un mont\u00f3n de estas unidades pronto, ya que conservan el ascenso cuando se modernizan.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agricultura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Danza de la guerra haka",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/haka_war_dance.json"
+        }
+    ]
+}

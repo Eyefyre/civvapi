@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "Horseback Riding",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "Classical Era",
+    "cost": 105,
+    "civilopedia_entry": "Horseback riding was developed in the second millennium BC (possibly earlier), probably by the nomadic people of Central Asia. The horse had been domesticated for some time by then, but the original animal was too small. It wasn't until a large enough animal had been bred that horseback riding became practical. One early group of nomads, the Scythians, were particularly accomplished riders; they might have invented the first saddle and stirrup (although they may have used the stirrup only for mounting and dismounting the horse). According to the Greek historians the Scythians were the first to \"geld\" (castrate) unruly male horses, making them much more docile and controllable.By about 1500 BC many people of the Fertile Crescent - the Hittites, the Assyrians and the Babylonians - were fighting from horseback, and at the same time horses were introduced into Egypt. By the time of Alexander the Great cavalry tactics were quite advanced, and Alexander's \"Companion Cavalry\" were perhaps the most effective and powerful military unit in the Mediterranean world.",
+    "quote": "\"My kingdom for a horse!\" - Shakespeare (Richard III)",
+    "tech_prereqs": [
+        {
+            "name": "The Wheel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+        },
+        {
+            "name": "Trapping",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Civil Service",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Horseman",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/horseman.json"
+        },
+        {
+            "name": "Companion Cavalry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/companion_cavalry.json"
+        },
+        {
+            "name": "Cataphract",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/cataphract.json"
+        },
+        {
+            "name": "African Forest Elephant",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Stable",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/stable.json"
+        },
+        {
+            "name": "Circus Maximus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/circus_maximus.json"
+        },
+        {
+            "name": "Ducal Stable",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Caravansary",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/caravansary.json"
+        }
+    ]
+}

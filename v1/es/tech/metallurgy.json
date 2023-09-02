@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "Metalurgia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Renacimiento",
+    "cost": 1150,
+    "civilopedia_entry": "La metalurgia es la ciencia de los metales y sus aleaciones. En Civilization V, la tecnolog\u00eda de la \"metalurgia\" cubre los avances en este campo desde el siglo XIX d. C. En los siglos XIX y XX se han hecho grandes progresos en todas las facetas de la metalurgia, desde la extracci\u00f3n hasta la creaci\u00f3n de nuevas aleaciones, pasando por la producci\u00f3n de metales de gran calidad y baratos.El metal sigue presente en el centro de la civilizaci\u00f3n moderna. Gran parte del mundo est\u00e1 construida de acero y, lo que no, est\u00e1 hecho de aluminio o de titanio. Nuestra red de comunicaciones es de metal, al igual que nuestros veh\u00edculos, armas, sat\u00e9lites y naves espaciales. Sin la metalurgia moderna, el 90% de la poblaci\u00f3n se morir\u00eda de inanici\u00f3n en un a\u00f1o.",
+    "quote": "\"Un buen cuchillo nunca se ha hecho de mal acero.\" - Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "P\u00f3lvora",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+        },
+        {
+            "name": "Imprenta",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Belicolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/military_science.json"
+        },
+        {
+            "name": "Fusil",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lancero montado|Lanceros montados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/lancer.json"
+        },
+        {
+            "name": "Cipayo|Cipayos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/sipahi.json"
+        },
+        {
+            "name": "Haccap\u00e9lite|Haccap\u00e9lites",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/hakkapeliitta.json"
+        },
+        {
+            "name": "H\u00fasar alado|H\u00fasares alados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "F\u00e1brica de armas|F\u00e1bricas de armas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/arsenal.json"
+        },
+        {
+            "name": "Fuerte Rojo|Fuertes Rojos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/red_fort.json"
+        }
+    ]
+}

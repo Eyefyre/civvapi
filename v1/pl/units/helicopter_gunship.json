@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "\u015amig\u0142owiec bojowy|\u015amig\u0142owca bojowego|\u015amig\u0142owcowi bojowemu|\u015amig\u0142owiec bojowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Jednostka przeznaczona do zwalczania czo\u0142g\u00f3w i czo\u0142g\u00f3w nowoczesnych. Mo\u017ce przelatywa\u0107 nad g\u00f3rami, ale otrzyma uszkodzenia, je\u015bli zako\u0144czy ruch w tym terenie.",
+    "historical_info": "Helikoptery by\u0142y wykorzystywane ju\u017c w trakcie II wojny \u015bwiatowej i wojny korea\u0144skiej. Do powszechnego u\u017cycia wesz\u0142y jednak podczas wojny w Wietnamie. Podczas tej kampanii, armia USA zdecydowa\u0142a si\u0119 wprowadzi\u0107 do u\u017cycia szereg r\u00f3\u017cnych modeli tych maszyn. W tym przeznaczone bezpo\u015brednio do walki. Szybko okaza\u0142o si\u0119, i\u017c \u015bmig\u0142owiec to nie tylko doskona\u0142y \u015brodek transportu, ale i niezwykle skuteczna bro\u0144 przeciwko czo\u0142gom. Dzi\u0119ki bardzo niskiemu pu\u0142apowi lotu i mo\u017cliwo\u015bci wykorzystywania rze\u017aby terenu, \u015bmig\u0142owce s\u0105 w stanie zniszczy\u0107 czo\u0142g, nim zdo\u0142a on odpowiedzie\u0107 ogniem. Ich jedynym s\u0142abym punktem s\u0105 przeno\u015bne, r\u0119cznie odpalane wyrzutnie pocisk\u00f3w przeciwlotniczych, kt\u00f3re zyska\u0142y s\u0142aw\u0119 za spraw\u0105 mud\u017cahedin\u00f3w, wykorzystuj\u0105cych je do walki z sowieckimi \u015bmig\u0142owcami w Afganistanie. Obecnie \u015bmig\u0142owce wykorzystywane s\u0105 do wykonywania r\u00f3\u017cnorodnych misji m.in. zapewnienia bliskiego wsparcia powietrznego oraz do b\u0142yskawicznego transportu oddzia\u0142\u00f3w specjalnych, cho\u0107 nadal ich g\u0142\u00f3wnym przeznaczeniem jest walka z czo\u0142gami.",
+    "strategy": "\u015amig\u0142owce bojowe to zab\u00f3jcze jednostki powietrzne, dzia\u0142aj\u0105ce jak jednostki l\u0105dowe - poza brakiem mo\u017cliwo\u015bci zdobywania miast. S\u0105 bardzo szybkie: potrafi\u0105 pokona\u0107 do 6 p\u00f3l na tur\u0119 bez kary za typ terenu, tak\u017ce przez g\u00f3ry, ale przez wod\u0119 musz\u0105 przeprawia\u0107 si\u0119 na okr\u0119tach. \u015amig\u0142owce bojowe otrzymuj\u0105 du\u017c\u0105 premi\u0119 do walki z czo\u0142gami.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Komputery|Komputer\u00f3w|Komputerom|Komputery",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ruch po ka\u017cdym polu kosztuje 1 punkt",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Jednostka lataj\u0105ca|Jednostki lataj\u0105cej|Jednostce lataj\u0105cej|Jednostk\u0119 lataj\u0105c\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Premia przeciwko czo\u0142gom (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Brak mo\u017cliwo\u015bci zdobywania miast",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

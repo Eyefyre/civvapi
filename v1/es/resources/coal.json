@@ -1,0 +1,60 @@
+{
+    "id": 3,
+    "name": "Carb\u00f3n",
+    "game_info": "Lo utilizan las F\u00e1bricas y los Buques blindados.",
+    "historical_info": "El carb\u00f3n es una planta antigua que se ha descompuesto y comprimido durante milenios hasta convertirse en un compuesto negro muy combustible. Se encuentra en cantidades considerables pr\u00e1cticamente por todo el planeta, y ha sido una de las fuentes de energ\u00eda m\u00e1s importantes durante toda la historia de la humanidad. El carb\u00f3n no es un combustible limpio, y su extracci\u00f3n y combusti\u00f3n es una gran fuente de poluci\u00f3n en todo el mundo. Los cient\u00edficos est\u00e1n buscando fren\u00e9ticamente la tecnolog\u00eda del \"carb\u00f3n limpio\", sin \u00e9xito de momento. Recuerda que el carb\u00f3n es un recurso estrat\u00e9gico y que, como tal, se consume a medida que construyes las unidades y los edificios a \u00e9l asociados.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/carb\u00f3n.png",
+    "prereq_tech": {
+        "name": "Industrializaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        },
+        {
+            "name": "Aduana|Aduanas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/customs_house.json"
+        },
+        {
+            "name": "Academia|Academias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/academy.json"
+        },
+        {
+            "name": "Ciudadela|Ciudadelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/citadel.json"
+        },
+        {
+            "name": "Factor\u00eda|Factor\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/manufactory.json"
+        },
+        {
+            "name": "Lugar sagrado|Lugares sagrados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

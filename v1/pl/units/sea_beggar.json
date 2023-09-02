@@ -1,0 +1,35 @@
+{
+    "id": 108,
+    "name": "Gez morski|Geza morskiego|Gezowi morskiemu|Geza morskiego",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sea_beggar.png",
+    "game_info": "Jednostka morska wyspecjalizowana w atakowaniu miast przybrze\u017cnych w celu zdobycia z\u0142ota i w zajmowaniu wrogich statk\u00f3w. Jedynie Holendrzy mog\u0105 j\u0105 wytworzy\u0107.",
+    "historical_info": "\u017bebracy morscy, znani tak\u017ce jako gezowie, byli grup\u0105 korsarzy, kt\u00f3rzy w czasie wojny osiemdziesi\u0119cioletniej sprzeciwiali si\u0119 hiszpa\u0144skiej kontroli nad Niderlandami. Ich nazwa pochodzi od grupy holenderskich szlachcic\u00f3w, kt\u00f3rzy ruszyli marszem do diuszesy Parmy z list\u0105 za\u017cale\u0144 i pr\u00f3\u015bb. Doradcy w\u0142adczyni nazwali grup\u0119 \u017cebrakami - nazwa ta przylgn\u0119\u0142a do uczestnik\u00f3w marszu na sta\u0142e.W 1569 r. \u017cebracy otrzymali od Wilhelma Ora\u0144skiego oficjalne listy kaperskie, na mocy kt\u00f3rych przystosowano do dzia\u0142a\u0144 wojennych 84 okr\u0119ty. \u017bebracy morscy pocz\u0105tkowo ograniczali si\u0119 do zwyk\u0142ego \u0142upienia, lecz w chwili desperacji zdobyli te\u017c si\u0142\u0105 hiszpa\u0144skie miasto i garnizon. Upojeni swoim zwyci\u0119stwem rozpocz\u0119li kampani\u0119 podboju, zdobywaj\u0105c kolejne miasta wzd\u0142u\u017c linii brzegowej. Sukcesy morskich \u017cebrak\u00f3w podzia\u0142a\u0142y mobilizuj\u0105co na innych Holendr\u00f3w i sprawi\u0142y, \u017ce rewolucja wybuch\u0142a w ca\u0142ym kraju. Zdobycie hiszpa\u0144skiego garnizonu w Brielle przez \u017cebrak\u00f3w morskich uwa\u017ca si\u0119 za pocz\u0105tek wojny o niepodleg\u0142o\u015b\u0107 Holandii.",
+    "strategy": "Jednostka morska wyspecjalizowana w atakowaniu miast przybrze\u017cnych w celu zdobycia z\u0142ota i w zajmowaniu wrogich statk\u00f3w. Jedynie Holendrzy mog\u0105 j\u0105 wytworzy\u0107. Leczy obra\u017cenia poza przyjaznym terytorium. Rozpoczyna z pierwszymi dwoma awansami \u201eMorski naje\u017ad\u017aca\u201d, dzi\u0119ki czemu zyskuje z\u0142oto podczas atak\u00f3w na przybrze\u017cne miasta. Potrafi pojma\u0107 pokonane wrogie jednostki morskie.",
+    "movement": 5,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Morski grabie\u017cca I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/coastal_raider_i.json"
+        },
+        {
+            "name": "Morski grabie\u017cca II",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/coastal_raider_ii.json"
+        },
+        {
+            "name": "Statki zdobyczne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/prize_ships.json"
+        },
+        {
+            "name": "Zaopatrzenie|Zaopatrzenia|Zaopatrzeniu|Zaopatrzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/supply.json"
+        }
+    ]
+}

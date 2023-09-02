@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Dromon|Dromona|Dromonowi|Dromon",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "G\u0142\u00f3wna jednostka morska staro\u017cytno\u015bci. U\u017cywana do kontrolowania m\u00f3rz w epoce klasycznej dzi\u0119ki swej broni dystansowej. Jedynie Bizanty\u0144czycy mog\u0105 j\u0105 zbudowa\u0107.",
+    "historical_info": "Dromony to zmodyfikowane tradycyjne galery, kt\u00f3re stanowi\u0142y trzon floty Cesarstwa Bizantyjskiego. Posiada\u0142y wios\u0142a oraz \u017cagle, by\u0142y bardzo zwrotne, zwinne i doskonale uzbrojone. U\u017cywaj\u0105c ognia greckiego, praprzodka wsp\u00f3\u0142czesnego napalmu, Bizantyjczycy siali strach w sercach tych, kt\u00f3rzy o\u015bmielili si\u0119 z nimi zmierzy\u0107 na morzu.",
+    "strategy": "Jedynie Bizantyjczycy mog\u0105 tworzy\u0107 te jednostki. Atakuj\u0105 zab\u00f3jczym greckim ogniem, co sprawia, \u017ce jest to pierwsza jednostka morska zdolna do ataku dystansowego. Walczy z +50% do si\u0142y przeciwko innym jednostkom morskim. Nie mo\u017ce wp\u0142ywa\u0107 na pola g\u0142\u0119bokiego oceanu poza granicami miasta.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u017begluga|\u017beglugi|\u017begludze|\u017beglug\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce wyp\u0142ywa\u0107 na pe\u0142ne morze",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia w walce z jednostkami morskimi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

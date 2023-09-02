@@ -1,0 +1,49 @@
+{
+    "id": 6,
+    "name": "Costa",
+    "historical_info": "Los hex\u00e1gonos costeros son los hex\u00e1gonos de oc\u00e9ano que est\u00e1n adyacentes a tierra. Proporcionan Alimentos y Oro a una ciudad que se encuentre cerca, pero solo si la civilizaci\u00f3n cuenta con la tecnolog\u00eda Navegaci\u00f3n a vela. \u00danicamente las unidades navales y las unidades terrestres embarcadas pueden entrar en los hex\u00e1gonos costeros.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/costa.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Hielo|Hielos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/ice.json"
+        },
+        {
+            "name": "Atol\u00f3n|Atolones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/atoll.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Petr\u00f3leo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/oil.json"
+        },
+        {
+            "name": "Pesca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/fish.json"
+        },
+        {
+            "name": "Ballenas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/whales.json"
+        },
+        {
+            "name": "Perlas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/pearls.json"
+        },
+        {
+            "name": "Cangrejos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/resources/crab.json"
+        }
+    ]
+}

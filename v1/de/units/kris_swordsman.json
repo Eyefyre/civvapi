@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Kris-K\u00e4mpfer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Nahkampfeinheit aus der Klassik, hat eine mystische Waffe, deren F\u00e4higkeiten entdeckt werden, wenn sie zum ersten Mal im Kampfeinsatz ist. Kann nur von Indonesien gebaut werden.",
+    "historical_info": "Der Kris ist ein langstieliger asymmetrischer Dolch mit einer wellenf\u00f6rmigen Klinge, der insbesondere in Indonesien und auf der Malaiischen Halbinsel verbreitet ist. Der Kris ist ebenso eine Waffe wie ein mystischer Gegenstand, von dem indonesische St\u00e4mme glaubten, er enthielte eine magische Essenz, so dass manche Klingen Gl\u00fcck brachten, andere wiederum Ungl\u00fcck. In Indonesien war der Kris so hoch gesch\u00e4tzt, dass manche Klingen \u00fcber ganze Generationen hinweg weitervererbt wurden. Ein K\u00e4mpfer konnte bis zu drei Klingen bei sich tragen: seine eigene, die seines Schwiegervaters und ein Familienerbst\u00fcck. Das Schmieden von Kris-Klingen blieb nur einigen wenigen vorbehalten. Die talentierten Schmiede schufen die Klingen aus Schichten vielfach gefalteter Eisenerze und meteoritischem Nickel - ein Prozess, der Jahre dauern konnte.",
+    "strategy": "Der Kris-Schwertk\u00e4mpfer ersetzt den normalen Schwertk\u00e4mpfer. Versucht, ihn so fr\u00fch wie m\u00f6glich im Kampf einzusetzen, um die geheimen Eigenschaften seiner gekr\u00fcmmten Kris-Klinge zu entdecken.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Eisenverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mystische Klinge",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/mystic_blade.json"
+        }
+    ]
+}

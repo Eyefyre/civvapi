@@ -1,0 +1,44 @@
+{
+    "id": 39,
+    "name": "Wirtschaftswesen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/economics.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "Wirtschaftswesen ist die Lehre vom Geld, oder genauer, die Lehre von Produktion, Verteilung und vom Verbrauch von G\u00fctern und Diensten. W\u00e4hrend in Vorzeiten G\u00fcter \u00fcber den Barterhandel verteilt wurden, war Geld in den letzten Tausenden von Jahren das g\u00e4ngige Mittel f\u00fcr den Austausch.Modernes Wirtschaftswesen datiert zur\u00fcck auf das Jahr 1776, als der schottische Philosoph Adam Smith sein bedeutendes Werk \"Der Wohlstand der Nationen\" ver\u00f6ffentlichte. Darin argumentiert er, dass der freie Markt die effektivste aller Arten ist, G\u00fcter und Leistungen zu bewerten und zu verteilen. Laut Smith wird ein absolut freier Markt von sich aus die richtige Menge an G\u00fctern und den richtigen Preis hervorbringen und jede Einmischung von oder Regulierung durch Regierungen w\u00fcrden den Markt nur st\u00f6ren und weniger effektiv machen. Au\u00dferdem war Smith ein gro\u00dfer Anh\u00e4nger des Eigeninteresses, da seiner Meinung nach ein Mensch, der eigene Interessen verfolgt, automatisch auch zum Guten einer Gesellschaft im Allgemeinen handelt. Zusammengefasst l\u00e4sst sich sagen, dass Smith reinen Kapitalismus f\u00fcr die beste Wirtschaftsform h\u00e4lt, die einer Zivilisation zur Verf\u00fcgung steht.Smiths Arbeit hatte einige Kritiker und viele sp\u00e4tere \u00d6konomen versuchten, seine Thesen zu modifizieren; andere haben sie einfach zur\u00fcckgewiesen. Im 19. Jahrhundert schrieb Karl Marx sein Werk \"Das Kapital. Kritik der politischen \u00d6konomie\", in dem er meint, dass die treibende Kraft des Kapitalismus die Ausbeutung der Arbeiter durch Arbeitgeber ist.Smith gilt als der Vater des modernen Kapitalismus, Marx als Vater des Kommunismus. Ihre wirtschaftswissenschaftlichen Erben tragen ihren Kampf noch heute aus.",
+    "quote": "\"Die gr\u00f6\u00dfte Erfindung des menschlichen Geistes? - Die Zinseszinsen!\" - Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        },
+        {
+            "name": "Industrialisierung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+        },
+        {
+            "name": "Drall",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Windm\u00fchle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/windmill.json"
+        },
+        {
+            "name": "Kaffeehaus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/coffee_house.json"
+        }
+    ]
+}

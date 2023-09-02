@@ -1,0 +1,31 @@
+{
+    "id": 56,
+    "name": "\u0141ucznicy arabscy|\u0141ucznik\u00f3w arabskich|\u0141ucznikom arabskim|\u0141ucznik\u00f3w arabskich",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/camel_archer.png",
+    "game_info": "Szybka jednostka \u015bredniowieczna, s\u0142aba w walce z pikinierami. Mog\u0105 j\u0105 stworzy\u0107 tylko Arabowie. To jednostka strzelaj\u0105ca, w przeciwie\u0144stwie do rycerzy, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "Cz\u0119\u015b\u0107 muzu\u0142ma\u0144skich kawalerzyst\u00f3w rusza\u0142a do bitwy na grzbietach wielb\u0142\u0105d\u00f3w. Ich pojawienie si\u0119 na polu walki wywo\u0142ywa\u0142o panik\u0119 w\u015br\u00f3d europejskich koni, kt\u00f3re nigdy wcze\u015bniej nie spotka\u0142y si\u0119 z podobnymi zwierz\u0119tami. Jak \u0142atwo si\u0119 domy\u015bli\u0107, wielb\u0142\u0105dy okaza\u0142y si\u0119 o wiele lepiej przystosowane do walki w warunkach pustynnych ni\u017c konie. \u0141ucznicy arabscy podobnie jak mogolscy \u0142ucznicy konni specjalizowali si\u0119 w wojnie podjazdowej. Potrafi\u0105 by\u0107 bardzo niebezpieczni dla rycerzy, o ile nie s\u0105 oni chronieni przez w\u0142asne jednostki \u0142ucznicze lub lekk\u0105 kawaleri\u0119.",
+    "strategy": "\u0141ucznicy arabscy to unikatowa jednostka zast\u0119puj\u0105ca rycerzy. Jest to silna jednostka strzelaj\u0105ca, mog\u0105ca razi\u0107 przeciwnik\u00f3w odleg\u0142ych o 2 pola. Mo\u017ce si\u0119 poruszy\u0107 po walce. \u0141ucznicy arabscy dysponuj\u0105 mniejsz\u0105 si\u0142\u0105 bojow\u0105 w zwarciu ni\u017c rycerze. Podobnie jak oni, s\u0105 podatni na atak pikinier\u00f3w.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

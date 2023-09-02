@@ -1,0 +1,40 @@
+{
+    "id": 24,
+    "name": "Guilds",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/guilds.png",
+    "era": "Medieval Era",
+    "cost": 275,
+    "civilopedia_entry": "In pre-industrial cities, craftsmen tended to form associations - or trade guilds - based upon their profession; these guilds were intended to both protect craft secrets as well as promote the influence and income of the craftsmen. Predecessors of the trade guilds were found as early as the 3rd Century BC in Rome and Han China. By 300 AD, the practice of craftsmen banding together had spread into Gupta India and Ptolemaic Egypt. In the Middle Ages, guild organizations spread rapidly from Italy throughout Europe; 12th Century records in Paris and London each list over 100 guilds chartered by the cities. In some cases, so powerful were some guilds that they became the governing body of cities, indicated by the guildhalls found in Germany, Switzerland and Holland.Over time, the guilds took on the task of safeguarding quality and of instruction in the craft, with a life-long progression from apprentice to grandmaster. To insure product quality, the system of trademarks indicating that the item had passed both guild and government standards evolved. However, over time the influence and power of the guilds declined as they fragmented with the coming of new trades, government concerns, and mass production methods. In France, for instance, the guilds were abolished in 1791 AD by the Le Chapelier Law; other countries followed soon did the same. Although largely supplanted by unions in the Industrial Age, there are still examples of guilds in existence, notably in the realms of film, literature and other artistic professions.",
+    "quote": "\"The merchants and the traders have come; their profits are pre-ordained...\" - Sri Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Currency",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/currency.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chivalry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+        },
+        {
+            "name": "Machinery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "East India Company",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/east_india_company.json"
+        },
+        {
+            "name": "Machu Picchu",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/machu_picchu.json"
+        },
+        {
+            "name": "Artists' Guild",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/artists'_guild.json"
+        }
+    ]
+}

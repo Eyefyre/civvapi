@@ -1,0 +1,44 @@
+{
+    "id": 50,
+    "name": "M\u00e1quina de vapor",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steam_power.png",
+    "era": "Era Industrial",
+    "cost": 2350,
+    "civilopedia_entry": "Cuando el agua se calienta produce vapor. El vapor se expande bajo presi\u00f3n y, en un motor de este tipo, parte del gas se retiene y se utiliza para subir y bajar un pist\u00f3n o hacer girar una turbina. Los principios de la fuerza del vapor ya los conoc\u00edan los griegos, pero ninguno hab\u00eda encontrado una manera de darles un uso pr\u00e1ctico hasta finales del siglo XVII, cuando el ingl\u00e9s Thomas Savery cre\u00f3 una bomba propulsada a vapor para achicar el agua de las minas. En 1765, James Watt mejor\u00f3 notablemente el motor de vapor, hasta el punto de que pudo utilizarse para muchas y muy distintas aplicaciones. En 1802, ya se instalaban motores de vapor en los barcos y, en 1825, aparec\u00edan los primeros ferrocarriles a vapor.La m\u00e1quina de vapor revolucion\u00f3 la industria y el transporte en todo el mundo. En menos de un siglo, el planeta estaba cubierto de v\u00edas de tren y rutas de vapores. Las grandes f\u00e1bricas a vapor produc\u00edan decenas de millones de toneladas de mercanc\u00edas (y de equipo militar). Los pa\u00edses industrializados disfrutaron de un aumento enorme en su productividad y riqueza (y en su contaminaci\u00f3n). El carb\u00f3n, la materia prima utilizada para las m\u00e1quinas de vapor, se extra\u00eda febrilmente por todo el planeta. Gran parte de la estrategia internacional brit\u00e1nica se centr\u00f3 en proteger los lugares de reabastecimiento de carb\u00f3n en puntos estrat\u00e9gicos de los oc\u00e9anos de todo el mundo.Finalmente, las m\u00e1quinas de vapor fueron sustituidas por las m\u00e1quinas de combusti\u00f3n interna, que eran mucho m\u00e1s eficaces y menos contaminantes. Pero, antes del petr\u00f3leo, el vapor fue el rey, y el mundo moderno no habr\u00eda existido sin \u00e9l.",
+    "quote": "\"Las naciones de occidente esperan que, por medio del transporte a vapor, todo el mundo se convierta en una gran familia.\" - Townsend Harris",
+    "tech_prereqs": [
+        {
+            "name": "Fusil",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rifling.json"
+        },
+        {
+            "name": "Industrializaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/industrialization.json"
+        },
+        {
+            "name": "Teor\u00eda cient\u00edfica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Repuestos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Ferrocarril",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/railroad.json"
+        },
+        {
+            "name": "Vuelo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/flight.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Buque blindado|Buques blindados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/ironclad.json"
+        }
+    ],
+    "building_unlocks": []
+}

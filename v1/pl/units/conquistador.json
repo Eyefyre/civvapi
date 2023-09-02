@@ -1,0 +1,35 @@
+{
+    "id": 89,
+    "name": "Konkwistadorzy|Konkwistador\u00f3w|Konkwistadorom|Konkwistador\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/conquistador.png",
+    "game_info": "\u015aredniowieczna jednostka wyspecjalizowana w zwiadzie i kolonizacji kolonii zamorskich. Mo\u017ce rekrutowa\u0107 j\u0105 tylko Hiszpania. Zast\u0119puje rycerzy.",
+    "historical_info": "Konkwistadorzy byli hiszpa\u0144skimi \u017co\u0142nierzami i odkrywcami, kt\u00f3rzy w XVI i XVII wieku podbili du\u017c\u0105 cz\u0119\u015b\u0107 Nowego \u015awiata. Po wygnaniu Maur\u00f3w z Hiszpanii odgrywali rol\u0119 zaprawionych w bojach kawalerzyst\u00f3w. Umiej\u0119tno\u015b\u0107 pokonywania trudnego terenu konno uczyni\u0142a ich wyj\u0105tkowo skutecznymi w walce z mieszka\u0144cami Nowego \u015awiata, kt\u00f3rzy nie znali koni i nie byli w stanie prze\u015bcign\u0105\u0107 swych przera\u017caj\u0105cych przeciwnik\u00f3w.",
+    "strategy": "Konkwistadorzy to wielozadaniowa jednostka, silna zar\u00f3wno na l\u0105dzie, jak i na morzu. Zast\u0119puje rycerzy. Jej wi\u0119kszy zasi\u0119g widzenia sprawia, \u017ce \u015bwietnie nadaje si\u0119 do zwiadu na l\u0105dzie. Mo\u017ce te\u017c zak\u0142ada\u0107 nowe miasta, ale tylko kontynencie, na kt\u00f3rym nie znajduje si\u0119 hiszpa\u0144ska stolica. Na wodzie konkwistadorzy posiadaj\u0105 awans \u201eZaokr\u0119towanie\u201d, umo\u017cliwiaj\u0105cy obron\u0119 przed jednostkami morskimi. Ponadto, w przeciwie\u0144stwie do rycerzy, nie otrzymuj\u0105 kary podczas atakowania miast.",
+    "movement": 4,
+    "cost": {
+        "production": 135,
+        "faith": 270
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (2)|Wi\u0119kszego zasi\u0119gu widzenia (2)|Wi\u0119kszemu zasi\u0119gowi widzenia (2)|Wi\u0119kszy zasi\u0119g widzenia (2)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(2).json"
+        },
+        {
+            "name": "Zaokr\u0119towanie z obron\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

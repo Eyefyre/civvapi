@@ -1,0 +1,43 @@
+{
+    "id": 126,
+    "name": "Torre de asedio|Torres de asedio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/siege_tower.png",
+    "game_info": "Poderosa unidad de cuerpo a cuerpo de asedio que concede una bonificaci\u00f3n al ataque contra las ciudades a las unidades cercanas que est\u00e9n al lado de una ciudad enemiga. Solo la pueden construir los asirios.",
+    "historical_info": "Las torres de asedio m\u00e1s antiguas de las que se tiene constancia se remontan a las del ej\u00e9rcito del Imperio Neoasirio, en el siglo IX a. C. Los bajorrelieves del reinado de Asurbanipal II muestran torres de asedio en las murallas de ciudades enemigas. En aquellos tiempos, las murallas de ladrillos de arcilla sol\u00edan ofrecer protecci\u00f3n suficiente contra los ej\u00e9rcitos antiguos de Mesopotamia, pero las torres de asedio que usaron los asirios les permitieron tomar las ciudades enemigas r\u00e1pida y eficazmente, lo que proporcion\u00f3 medios al imperio para crecer pr\u00e1cticamente sin obst\u00e1culos durante trescientos a\u00f1os.",
+    "strategy": "Esta unidad de cuerpo a cuerpo de asedio debe moverse cerca de una ciudad enemiga para ser eficaz, pero cuando lo haga ser\u00e1 devastadora. No solo tiene un ataque poderoso contra ciudades, sino que adem\u00e1s concede una bonificaci\u00f3n a tus unidades cercanas que tambi\u00e9n ataquen la ciudad. Combina una Torre de asedio con unidades de cuerpo a cuerpo o a distancia y aseg\u00farate de que llegue a su destino antes de morir para ver c\u00f3mo las ciudades caen mucho m\u00e1s r\u00e1pidamente.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matem\u00e1ticas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Zapador",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/sapper.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra ciudades (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Cobertura I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cover_i.json"
+        },
+        {
+            "name": "Solo ataca ciudades",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/city_attack_only.json"
+        },
+        {
+            "name": "Visual adicional (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        }
+    ]
+}

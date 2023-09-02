@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Philosophie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "\u00c8re classique",
+    "cost": 175,
+    "civilopedia_entry": "La Philosophie est l'\u00e9tude du r\u00e9el et de la place de l'homme en son sein. Le mot vient du grec ancien \"philosophia\", signifiant \"amour de la sagesse\". Elle se diff\u00e9rencie de la religion, en cela qu'elle tente de comprendre et de d\u00e9finir un syst\u00e8me surnaturel (la philosophie va m\u00eame plus loin en se demandant si ce syst\u00e8me qu'elle a pour objet existe bel et bien). La philosophie s'int\u00e9resse \u00e0 des questionnements d'ordres divers : la logique, la morale, l'observation, le r\u00e9alisme, le bonheur, la vie, la mort et de nombreux autres sujets capitaux.Traditionnellement, on attribue l'invention de la philosophie occidentale aux Grecs. Au VIe si\u00e8cle av. J.-C., Thal\u00e8s de Milet fut le premier homme connu \u00e0 avoir donn\u00e9 une explication naturelle (non-religieuse) concernant la cr\u00e9ation du monde. Apr\u00e8s avoir observ\u00e9 des fossiles d'animaux marins au beau milieu des terres, il avan\u00e7a l'hypoth\u00e8se que l'eau \u00e9tait \u00e0 l'origine de toutes choses. Cette explication excluait toute intervention d'une puissance sup\u00e9rieure cr\u00e9atrice : il s'agissait d'un ph\u00e9nom\u00e8ne purement naturel. Apr\u00e8s lui, les philosophes d\u00e9velopp\u00e8rent cette th\u00e9orie de base (\u00e0 l'exception, bien entendu, de ceux qui pensaient que rien n'existait, ceux qui pensaient que le monde n'\u00e9tait que le reflet d'un lieu lointain, et plusieurs autres aux th\u00e9ories diverses). Le probl\u00e8me du r\u00e9el est que plus on l'\u00e9tudie en profondeur, plus tout devient confus.Au mieux, la philosophie offre un outil de jugement et d'observation du monde permettant d'appr\u00e9hender des choses nouvelles. Cependant, comme tout autre outil, elle peut servir le bien comme le mal. L'id\u00e9e \u00e9tant qu'elle offre th\u00e9oriquement \u00e0 chaque individu la structure intellectuelle de diff\u00e9rencier l'un et l'autre.",
+    "quote": "\"Il n'existe qu'une vertu, le savoir, et un vice, l'ignorance.\" - Socrate",
+    "tech_prereqs": [
+        {
+            "name": "Calendrier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/calendar.json"
+        },
+        {
+            "name": "\u00c9criture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Th\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mosqu\u00e9e d'adobe|Mosqu\u00e9es d'adobe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Tombeau|Tombeaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/burial_tomb.json"
+        },
+        {
+            "name": "Temple|Temples",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/temple.json"
+        },
+        {
+            "name": "Universit\u00e9 publique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/national_college.json"
+        },
+        {
+            "name": "Oracle|Oracles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/oracle.json"
+        }
+    ]
+}

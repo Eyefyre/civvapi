@@ -1,0 +1,34 @@
+{
+    "id": 25,
+    "name": "Archaeological Dig",
+    "game_info": "An Archaeological Dig can only be constructed by an Archaeologist at an Antiquity Site resource. The excavations at the ancient city of Troy are an example of a preeminent archaeological dig site. Upon constructing the Dig, your Archaeologist will discover what type of Artifact is buried at this location. You can then choose to either have the Archaeologist create a permanent Landmark improvement here, or extract the Artifact for placement in a Great Work of Art slot in a building in your empire.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/archaeological_dig.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Hidden Antiquity Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/hidden_antiquity_site.json"
+        },
+        {
+            "name": "Antiquity Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/antiquity_site.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Archaeology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 41,
+    "name": "Chimica|della Chimica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chemistry.png",
+    "era": "Epoca rinascimentale",
+    "cost": 1150,
+    "civilopedia_entry": "Nata dall'unione di alchimia e matematica, la chimica \u00e8 la scienza che studia la materia, la sua struttura, la sua composizione e il suo comportamento durante le reazioni. I fisici lasciano cadere sfere di materiali diversi dalle torri pendenti e misurano il tempo che ci mettono per arrivare a terra; i chimici studiano le sfere stesse e cercano di capire perch\u00e9 qualcuna di loro si rompe e qualcun'altra rimbalza.Gli scienziati, i dottori e i filosofi si sono interessati alla materia fin dall'inizio dei tempi, ma la chimica ha acquisito lo status ufficiale di scienza solo nel 1789, quando Antoine de Lavoisier pubblic\u00f2 un lavoro che enunciava la legge di conservazione della massa. Nel suo \"Trattato di chimica elementare\" Lavoisier ha descritto la composizione dell'aria e dell'acqua e coni\u00f2 il termine \"ossigeno\". Inoltre ha confutato la teoria del flogisto, che resisteva da pi\u00f9 di 100 anni confondendo e fuorviando gli scienziati.Lavoisier \u00e8 considerato il padre della chimica moderna. Il suo esempio ha condotto gli altri chimici a utilizzare metodi scientifici per lo studio degli elementi. In questo modo \u00e8 stato possibile confutare teorie che erano state considerate alla stregua di dogmi per migliaia d'anni, a partire dalla loro formulazione da parte dei filosofi greci.",
+    "quote": "\"Dovunque voltiamo gli occhi, il lavoro del chimico ha alzato il livello della nostra civilt\u00e0 e incrementato la capacit\u00e0 produttiva della nazione\". - Calvin Coolidge",
+    "tech_prereqs": [
+        {
+            "name": "Polvere da sparo|della Polvere da sparo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Scienza militare|della Scienza militare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+        },
+        {
+            "name": "Fertilizzanti|dei Fertilizzanti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/fertilizer.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cannone|un Cannone|dal tuo Cannone|al tuo Cannone|il tuo Cannone|da un Cannone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/cannon.json"
+        }
+    ],
+    "building_unlocks": []
+}

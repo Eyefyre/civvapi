@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Replaceable Parts",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "Modern Era",
+    "cost": 3100,
+    "civilopedia_entry": "Replaceable parts is a kind of manufacturing process by which many duplicate copies of an item are fabricated, each of them identical component parts. This process allows for a tremendous increase in the speed and profitability of manufacturing, which in turn helped fuel the Industrial Revolution of the 19th Century.One of the major impetuses for replaceable parts was the desire to issue firearms to soldiers. Originally, muskets were created by craftsmen, and each might differ slightly from the next - one craftsman might make his rifle slightly longer, while another might give his a larger or smaller trigger. For the individual this was not necessarily a problem - if his musket broke he could return it to the craftsman who first made it for repairs. Of course this was not feasible for an army with a thousand muskets.However, if all were identical then a part from a broken musket could be used to repair another. Further, a soldier who had trained with one musket could pick up another and expect it to perform in much the same fashion, without having to get used to a new weapon's particular design features.Now, almost every manufactured good on the planet is constructed of replaceable parts. Craftsmen have become artists, their wares too expensive for most average consumers.",
+    "quote": "\"Nothing is particularly hard if you divide it into small jobs.\" - Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        },
+        {
+            "name": "Electricity",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Plastics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/plastics.json"
+        },
+        {
+            "name": "Electronics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Foreign Legion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/foreign_legion.json"
+        },
+        {
+            "name": "Great War Infantry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Military Base",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/military_base.json"
+        },
+        {
+            "name": "Statue of Liberty",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/statue_of_liberty.json"
+        }
+    ]
+}

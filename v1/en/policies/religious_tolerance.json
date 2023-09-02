@@ -1,0 +1,20 @@
+{
+    "id": 28,
+    "name": "Religious Tolerance",
+    "game_info": "Religious ToleranceCities with a majority religion also get the Pantheon belief bonus of the second most popular religion.",
+    "historical_info": "Free religion is the policy of a state which does not mandate which religions its members must adhere to. All religions are welcome, and let the spiritual marketplace decide among them. Though perhaps implemented for more noble reasons, free religion often has the effect of limiting the power of any individual religion. In states with one religion, the people in charge of that religion may wield a great deal of power (witness modern Iran). States with free religion generally attempt to treat them all equally, ensuring that none can become ultimately dominant.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/religious_tolerance.png",
+    "required_policies": [
+        {
+            "name": "Organized Religion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Piety",
+        "game_info": "Piety increases the Faith of empires.Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 Culture.",
+        "prereq_era": null,
+        "historical_info": "Piety means the devotion to a specific religion or spiritual belief system. A \"pious\" person is generally considered to be (literally) \"holier than thou,\" closely following his or her religion's practices and accepting most or all of its tenets without question."
+    }
+}

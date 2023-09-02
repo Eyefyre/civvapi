@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bourse|Bourses",
+    "game_info": "La ville doit poss\u00e9der une banque.",
+    "strategy": "B\u00e2timent de milieu de jeu, la bourse augmente la production d'or de la ville o\u00f9 elle se trouve. La ville doit d\u00e9j\u00e0 poss\u00e9der une banque (ou une cour de Satrape) pour que vous puissiez y construire une bourse.",
+    "historical_info": "Une bourse est une institution permettant d'acheter et de vendre des actions (les parts de propri\u00e9t\u00e9 d'une entreprise). Dans certains cas, les actions incluent un droit de vote donnant aux actionnaires un pouvoir d\u00e9cisionnel partiel au sein de l'entreprise. Certaines bourses octroient \u00e9galement des \"dividendes\", soient une portion des profits de la soci\u00e9t\u00e9 revers\u00e9e annuellement aux actionnaires. Le principal r\u00f4le (ou tout du moins le r\u00f4le initial) des bourses est de permettre aux propri\u00e9taires d'entreprises de lever d'importantes sommes d'argent en vendant une partie de leur soci\u00e9t\u00e9 \u00e0 des investisseurs. La valeur des actions augmente proportionnellement \u00e0 celle de la soci\u00e9t\u00e9. Bien entendu, le risque est de voir la valeur des actions chuter et l'int\u00e9r\u00eat de l'investissement chuter avec elle. Les bourses modernes vendent \u00e9galement d'autres puissants \"outils\" financiers, au nombre desquels les obligations, les titres, les options, les swaps et les d\u00e9riv\u00e9s. Une bourse bien g\u00e9r\u00e9e peut donner un incroyable coup de fouet \u00e0 l'\u00e9conomie d'une nation, mais mal administr\u00e9e, elle peut causer un chaos financier d\u00e9vastateur.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bourse|bourses.png",
+    "prereq_tech": {
+        "name": "\u00c9lectricit\u00e9",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Trebuchet",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "Powerful Medieval Siege Unit, good at reducing the defenses of enemy Cities. Must set up prior to firing.",
+    "historical_info": "The trebuchet is a powerful Medieval siege weapon. First appearing in Europe in the 12th century, the trebuchet could hurl a 300-lb missile into or over the enemy's walls at long distance. The Medieval European version of the trebuchet was a \"counterweight\" machine. It consisted of a very long wooden arm with a sling on one end and a heavy weight on the other, mounted on a heavy wooden framework. The long arm was winched down, raising the heavy weight, and a missile was placed in the sling. When released, the weight would come down and the arm would whip up into the air, hurling the missile a huge distance. These machines were generally not mobile and required a long process of assembly, limiting their effective use to protracted sieges.",
+    "strategy": "A Trebuchet is a medieval siege weapon, significantly more powerful than the earlier Catapult units. The Trebuchet must expend 1mp to set up, but once it is in position it can do serious damage to a fortified enemy city. Defend your trebuchets with melee and ranged units to keep enemy units from getting too close.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Physics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

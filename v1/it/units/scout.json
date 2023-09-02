@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "Scout|uno Scout|dal tuo Scout|al tuo Scout|il tuo Scout|da uno Scout",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Eccellente per l'esplorazione, questa unit\u00e0 non viene rallentata dal terreno accidentato, ma \u00e8 vulnerabile agli attacchi.",
+    "historical_info": "Gli esploratori rappresentano gli occhi e le orecchie delle civilt\u00e0 antiche. Questi guerrieri rapidissimi non hanno il compito di ingaggiare il nemico in combattimento: la loro missione \u00e8 esplorare il territorio, scoprendo potenziali pericoli, vantaggi e risorse. Una civilt\u00e0 che non conosce il mondo circostante \u00e8 cieca al pericolo ma anche alle opportunit\u00e0 che potrebbe sfruttare a proprio vantaggio.",
+    "strategy": "Questa unit\u00e0, disponibile molto presto nel corso del gioco, pu\u00f2 attaccare, ma \u00e8 molto debole. Tuttavia, pu\u00f2 spostarsi nel terreno difficoltoso come se fosse pianeggiante (tutte le caselle costano solo 1 PM). Utilizzala per esplorare il mondo.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignora il costo del terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

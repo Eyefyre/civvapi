@@ -1,0 +1,31 @@
+{
+    "id": 72,
+    "name": "Kriegsstreitwagen",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_chariot.png",
+    "game_info": "Eine schnelle Fernwaffen-Einheit. Nur die \u00c4gypter k\u00f6nnen sie bauen. F\u00fcr diese Einheit werden keine Pferde ben\u00f6tigt, anders als f\u00fcr den Streitwagen-Bogensch\u00fctzen, den sie ersetzt.",
+    "historical_info": "Die \u00c4gypter wussten schon fr\u00fch mit Streitwagen umzugehen und ihre Kriegsstreitwagen wurden zu Recht von den Feinden gef\u00fcrchtet. Die Pharaonen zogen oft pers\u00f6nlich in Streitwagen in die Schlacht. Amenophis II. behauptete von sich selbst, dass er von einem fahrenden Streitwagen aus vier Ziele, die 10 Meter auseinander standen, mit einer derartigen Wucht getroffen habe, dass die Pfeile die 8 cm dicken Kupferziele durchschlagen haben sollen. Wie jede Kavallerie sind auch Streitwagen \u00e4u\u00dferst gef\u00e4hrlich f\u00fcr Feinde, die sich zur\u00fcckziehen. Sobald der Gegner fl\u00fcchtet, kann sein Schild ihn nicht l\u00e4nger sch\u00fctzen und entweder er ist dem Bogenfeuer schutzlos ausgeliefert oder wird von den R\u00e4dern eines rasenden Streitwagens zermalmt.",
+    "strategy": "Der Kriegsstreitwagen ist die Spezialeinheit der \u00c4gypter und ersetzt den Streitwagen-Bogensch\u00fctzen. Er ist schneller als der normale Streitwagen-Bogensch\u00fctze, und der \u00e4gyptische Spieler kann ihn auch ohne Pferde-Ressource bauen. Als berittene Einheit ist der Kriegsstreitwagen ziemlich gef\u00e4hrdet bei Angriffen von Speerk\u00e4mpfern.",
+    "movement": 5,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Das Rad",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Malus f\u00fcr unwegsames Gel\u00e4nde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

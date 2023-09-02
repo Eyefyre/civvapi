@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Nave da carico|una Nave da carico|dalla tua Nave da carico|alla tua Nave da carico|la tua Nave da carico|da una Nave da carico",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Stabilisce fra due civilt\u00e0 una Rotta commerciale marittima che fa guadagnare Oro. Dopo la costruzione di un Granaio o una Bottega pu\u00f2 anche essere usata per trasferire Cibo o Produzione all'interno del tuo impero.",
+    "historical_info": "Le navi da carico sono progettate per trasportare beni e mercanzie sull'acqua. Le primi fonti storiche che parlano di commercio menzionano il trasporto marittimo delle merci, e l'archeologia ha dimostrato che gi\u00e0 nel I millennio a.C. le navi da carico solcavano il Mediterraneo e il Mar Rosso. Man mano che i viaggi diventavano sempre pi\u00f9 lunghi, anche il progetto delle navi da carico sub\u00ec una costante evoluzione; nel Cinquecento i galeoni spagnoli e portoghesi si erano imposti come dominatori indiscussi del commercio marittimo. All'inizio dell'epoca industriale la velocit\u00e0 dei trasferimenti divenne un requisito sempre pi\u00f9 importante, il che port\u00f2 al successo dei clipper alla fine dell'Ottocento. Oggi gli oceani sono attraversati da innumerevoli navi da carico specializzate, dalle container alle cosiddette \"porta rinfuse\", fino alle gigantesche petroliere.",
+    "strategy": "Una Nave da carico ti permette di stabilire una Rotta commerciale marittima fra due civilt\u00e0, facendo guadagnare Oro sia alla civilt\u00e0 d'origine sia a quella di destinazione. Il suo raggio d'azione \u00e8 molto pi\u00f9 ampio di quello di una Carovana. La presenza di un Granaio o di una Bottega nella citt\u00e0 di partenza ti permette anche di trasferire Cibo o Produzione tra le tue citt\u00e0. Una volta assegnata a una rotta, la Nave da carico non pu\u00f2 difendersi, perci\u00f2 assicurati che non ci siano pericoli.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

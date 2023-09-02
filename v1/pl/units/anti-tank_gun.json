@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "name": "Dzia\u0142a przeciwpancerne|Dzia\u0142 przeciwpancernych|Dzia\u0142om przeciwpancernym|Dzia\u0142a przeciwpancerne",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-tank_gun.png",
+    "game_info": "Do\u015b\u0107 tania jednostka wyspecjalizowana w zwalczaniu czo\u0142g\u00f3w.",
+    "historical_info": "Dzia\u0142a przeciwpancerne s\u0105 jednostkami artylerii zaprojektowanymi specjalnie po to, by niszczy\u0107 wrogie czo\u0142gi. Ta bro\u0144 jest z konieczno\u015bci ruchoma, mo\u017ce przemieszcza\u0107 si\u0119 sama lub by\u0107 ci\u0105gni\u0119ta z \u0142atwo\u015bci\u0105 przez ci\u0119\u017car\u00f3wk\u0119 lub inny ci\u0119\u017cki pojazd. Wystrzeliwuje pociski zaprojektowane specjalnie do tego, by przebija\u0107 pancerz wroga. Dzia\u0142a przeciwpancerne s\u0105 cz\u0119sto podatne na atak wrogiej piechoty, dlatego, je\u015bli wr\u00f3g dotrze zbyt blisko, musz\u0105 je wspiera\u0107 jednostki zwalczaj\u0105ce piechot\u0119.",
+    "strategy": "Dzia\u0142o przeciwpancerne to wyspecjalizowana jednostka bojowa skutecznie zwalczaj\u0105ca nieprzyjacielskie czo\u0142gi, ale s\u0142aba w walce z innymi oddzia\u0142ami. Wspieraj j\u0105 swoimi czo\u0142gami i artyleri\u0105, \u017ceby stworzy\u0107 skuteczn\u0105 grup\u0119 bojow\u0105.",
+    "movement": 2,
+    "cost": {
+        "production": 300,
+        "faith": 600
+    },
+    "prereq_tech": {
+        "name": "Po\u0142\u0105czone rodzaje wojsk|Po\u0142\u0105czonych rodzaj\u00f3w wojsk|Po\u0142\u0105czonym rodzajom wojsk|Po\u0142\u0105czone rodzaje wojsk",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciwko czo\u0142gom (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_tanks_(100).json"
+        }
+    ]
+}

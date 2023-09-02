@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bomb Shelter",
+    "game_info": "Reduces population loss from nuclear attack by 75%.",
+    "strategy": "Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. Duck and Cover!",
+    "historical_info": "As the name implies, a bomb shelter is a structure designed to withstand damage from bombs and other explosive weapons. While some bomb shelters were meant for protection from aerial bombardment, others were constructed underground in the hopes of surviving a nuclear attack. Depending on the intended purpose of the shelter, various materials could be used, with the most common component being reinforced concrete.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bomb_shelter.png",
+    "prereq_tech": {
+        "name": "Telecommunications",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/telecommunications.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

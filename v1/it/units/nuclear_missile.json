@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Missile nucleare|un Missile nucleare|dal tuo Missile nucleare|al tuo Missile nucleare|il tuo Missile nucleare|da un Missile nucleare",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Scatena la distruzione nucleare sui tuoi nemici. Infligge danni immensi alle citt\u00e0 e distrugge tutte le unit\u00e0 nel raggio dell'esplosione.Richiede il Progetto Manhattan e due risorse di Uranio.",
+    "historical_info": "Un missile nucleare trasporta una o pi\u00f9 testate contenenti bombe all'idrogeno, ognuna delle quali \u00e8 in grado di distruggere una citt\u00e0. I missili nucleari possono trasportare il loro carico di morte attraverso mezzo globo e sono la singola arma pi\u00f9 letale mai creata dall'uomo. Al presente non esiste alcuna difesa efficace contro di loro: una volta lanciato un missile, a meno di un miracolo, la citt\u00e0 bersaglio \u00e8 come se non esistesse pi\u00f9. Oltre alla distruzione immediata causata dall'immane esplosione, la radioattivit\u00e0 residua avvelena il terreno, l'aria e il mare per molte generazioni a venire. I venti possono trasportare il fallout radioattivo per molti chilometri, uccidendo persone e inquinando vaste aree. Usare un'arma nucleare contro un nemico che vive sul proprio pianeta \u00e8 una follia: il suo unico scopo \u00e8 prevenire il nemico dal fare lo stesso.",
+    "strategy": "Il Missile nucleare \u00e8 come una Bomba atomica, ma pi\u00f9 potente. Pu\u00f2 usare come base qualsiasi citt\u00e0 amica, un Sottomarino nucleare o un Incrociatore lanciamissili. Pu\u00f2 spostarsi da una base all'altra o attaccare un bersaglio in un raggio d'azione di 12 caselle. La sua esplosione danneggia pesantemente le citt\u00e0 e in certi casi le distrugge, mentre annienta immancabilmente tutte le unit\u00e0 nel raggio di 2 caselle. L'ordigno \u00e8 automaticamente consumato al momento dell'attacco. Per ulteriori informazioni, consulta la sezione Armi Nucleari.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistica avanzata|della Balistica avanzata",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Manovre evasive (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/evasion_(50).json"
+        }
+    ]
+}

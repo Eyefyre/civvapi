@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Drom\u00f3n|Dromones",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "La unidad naval predominante de la Antig\u00fcedad que se utiliza para hacerse con el control de los mares durante la \u00c9poca Cl\u00e1sica con su ataque a distancia. Solo los bizantinos pueden construirla.",
+    "historical_info": "El drom\u00f3n, una variante de la galera tradicional, conform\u00f3 una parte esencial de la armada bizantina durante el auge de todo su imperio. Sus velas y remos la convert\u00edan en una nave \u00e1gil, maniobrable y peligrosa en combate. Gracias al fuego griego, el precursor del napalm moderno, los bizantinos tuvieron a su disposici\u00f3n una forma temprana de lanzallamas para infundir el miedo en los corazones de todos los que se enfrentaban a ellos en el mar.",
+    "strategy": "Solo los bizantinos pueden construir esta unidad. Ataca con Fuego griego, lo que la convierte en la primera unidad naval con un ataque a distancia. Esta unidad lucha con un +50% de fuerza contra otras unidades navales. No puede adentrarse en casillas de aguas oce\u00e1nicas profundas que est\u00e9n fuera de las fronteras de las ciudades.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra unidades navales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

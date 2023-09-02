@@ -1,0 +1,66 @@
+{
+    "id": 11,
+    "name": "Plantation|Plantations",
+    "game_info": "On appelle \"plantation\" une ferme qui veut se donner de grands airs. C'est g\u00e9n\u00e9ralement ainsi que l'on nomme de grandes b\u00e2tisses situ\u00e9es dans des zones semi-tropicales ou tropicales, plus particuli\u00e8rement lorsqu'elles destinent leur production \u00e0 l'export plut\u00f4t qu'\u00e0 la consommation locale. Ce mot a aujourd'hui une connotation p\u00e9jorative\u00a0; il est en effet associ\u00e9 \u00e0 l'esclavage aux \u00c9tats-Unis et dans les Cara\u00efbes, bien que l'on trouve aussi des plantations tout \u00e0 fait honn\u00eates qui emploient des ouvriers libres.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/plantation|plantations.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Bananes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bananas.json"
+        },
+        {
+            "name": "Teintures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/dyes.json"
+        },
+        {
+            "name": "Soie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silk.json"
+        },
+        {
+            "name": "\u00c9pices",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/spices.json"
+        },
+        {
+            "name": "Sucre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sugar.json"
+        },
+        {
+            "name": "Coton",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+        },
+        {
+            "name": "Vin",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wine.json"
+        },
+        {
+            "name": "Encens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+        },
+        {
+            "name": "Agrumes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/citrus.json"
+        },
+        {
+            "name": "Cacao",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cocoa.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Calendrier",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/calendar.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

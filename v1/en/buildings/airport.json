@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Airport",
+    "game_info": "Allows airlifts to or from this city. Increases air unit capacity of the city from 6 to 10. 50% of the Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the Tourism output of the city. Tourism output from Great Works +50%.",
+    "strategy": "The versatile Airport is an excellent choice for both civilizations that are trying to improve their Tourism output or and those that need to use airlift capabilites to shuttle units to distant cities.",
+    "historical_info": "Technically, an \"airport\" is any sort of location where airplanes, helicopters, blimps or other aircraft can take off and land. However, in current, common usage an airport is a complex for commercial passenger aircraft, consisting of runways, control towers, hangers, terminals, emergency facilities and even parking structures. Prior to 1930, most airports were small airfields or aerodromes, with runways of less than 2000 feet. In 1939 La Guardia in New York City handled nearly a quarter million passengers a month; the most recent statistics for airport passenger traffic list Hartsfield-Jackson in Atlanta as the world's busiest, with over 92 million passing through it in 2011.",
+    "cost": {
+        "production": 400,
+        "faith": 0
+    },
+    "gold_maintenance": 5,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/airport.png",
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

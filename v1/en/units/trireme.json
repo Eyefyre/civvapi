@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Trireme",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Ancient Era Naval Unit used to wrest control of the seas through melee attacks on naval units and cities.",
+    "historical_info": "The trireme was a warship used by ancient navies in the Mediterranean. Although equipped with a sail, under combat it was powered by three rows of oars. When powered by trained and motivated oarsmen, it was surprisingly quick and agile. Triremes were generally equipped with a sharp beak (ram) at the prow, and the primary tactic was to attempt to ram and sink the enemy ship. Some triremes also carried archers for ranged combat, while others carried lots of infantry. Those vessels would come alongside an enemy ship and the infantry would board and attempt to capture her. Triremes remained important military vessels until they were made obsolete by cannon and advances in ship construction and sail-rigging.",
+    "strategy": "The Trireme is the first naval unit available to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot enter Deep Ocean hexes outside of the city borders unless it is from Polynesia).",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

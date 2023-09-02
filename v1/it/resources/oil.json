@@ -1,0 +1,76 @@
+{
+    "id": 4,
+    "name": "Petrolio",
+    "game_info": "Utilizzata da unit\u00e0 potenti disponibili verso la fine del gioco.",
+    "historical_info": "Il petrolio \u00e8 un combustibile liquido raccolto in depositi pi\u00f9 o meno vasti sparsi per il mondo. Occasionalmente usato da qualche civilt\u00e0 gi\u00e0 quattro millenni fa per creare asfalto o nafta o per alimentare fonti luminose, ha cominciato ad acquisire reale importanza solo nel 1857, con la costruzione della prima raffineria moderna in Alsazia. Pi\u00f9 o meno in quegli anni furono scavati i primi pozzi in Europa e nel Nordamerica. All'inizio del XX secolo la domanda di petrolio si impenn\u00f2, dato che forniva l'alimentazione ai motori a combustione interna di navi, aerei e automobili. Oggi gran parte delle tensioni politiche internazionali sono dovute al braccio di ferro tra chi dispone di abbondanti risorse di petrolio e chi no. Ricorda che il petrolio costituisce una risorsa strategica e viene consumato a seguito della costruzione di unit\u00e0 ed edifici a esso collegati.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/petrolio.png",
+    "prereq_tech": {
+        "name": "Biologia|della Biologia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/biology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pozzo petrolifero|un Pozzo petrolifero|un Pozzo petrolifero",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/oil_well.json"
+        },
+        {
+            "name": "Piattaforma petrolifera|una Piattaforma petrolifera|una Piattaforma petrolifera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/offshore_platform.json"
+        },
+        {
+            "name": "Dogana|una Dogana|una Dogana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+        },
+        {
+            "name": "Accademia|un'Accademia|un'Accademia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+        },
+        {
+            "name": "Cittadella|una Cittadella|una Cittadella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+        },
+        {
+            "name": "Manifattura|una Manifattura|una Manifattura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+        },
+        {
+            "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Giungla|la giungla|una giungla",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/giungla|la_giungla|una_giungla.json"
+        },
+        {
+            "name": "Palude|la palude|una palude",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/palude|la_palude|una_palude.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/neve.json"
+        },
+        {
+            "name": "Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/costa.json"
+        }
+    ]
+}

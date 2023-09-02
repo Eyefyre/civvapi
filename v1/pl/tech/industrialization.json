@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrializacja|Industrializacji|Industrializacji|Industrializacj\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 1600,
+    "civilopedia_entry": "Industrializacja to przej\u015bcie od spo\u0142ecze\u0144stwa rolniczego do przemys\u0142owego, czemu zazwyczaj towarzysz\u0105 powa\u017cne zmiany spo\u0142eczne oraz ekonomiczne. Rewolucja przemys\u0142owa, kt\u00f3ra rozpocz\u0119\u0142a si\u0119 w Europie w XVIII w., spowodowa\u0142a diametralne zmiany w sposobie \u017cycia ludzi. Wraz z pojawiaj\u0105c\u0105 si\u0119 z\u0142o\u017con\u0105 maszyneri\u0105 oraz narz\u0119dziami wielu utalentowanych rzemie\u015blnik\u00f3w wykonuj\u0105cych swoje fachy zast\u0105pionych zosta\u0142o t\u0142umami niewykwalifikowanych robotnik\u00f3w obs\u0142uguj\u0105cych linie produkcyjne.",
+    "quote": "\u201eIndustrializacja oparta na maszynach, b\u0119d\u0105ca znakiem naszych czas\u00f3w, to tylko jedno oblicze rewolucji wywo\u0142anej dzi\u0119ki technice.\u201d - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Ekonomia|Ekonomii|Ekonomii|Ekonomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Silnik parowy|Silnika parowego|Silnikowi parowemu|Silnik parowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Karabiny Gatlinga|Karabin\u00f3w Gatlinga|Karabinom Gatlinga|Karabiny Gatlinga|Karabinami Gatlinga|Karabinach Gatlinga",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Fabryka|Fabryki|Fabryce|Fabryk\u0119|Fabryki|Fabryk|Fabrykom|Fabryki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben|Big Bena|Big Benowi|Big Bena",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/big_ben.json"
+        }
+    ]
+}

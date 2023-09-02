@@ -1,0 +1,44 @@
+{
+    "id": 18,
+    "name": "Drammaturgia e poesia|della Drammaturgia e poesia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/drama_and_poetry.png",
+    "era": "Epoca classica",
+    "cost": 175,
+    "civilopedia_entry": "Il dramma e la poesia sono due forme di espressione artistica: il primo si manifesta attraverso una rappresentazione visiva, la seconda utilizza la parola scritta. In genere il dramma \u00e8 associato al teatro, nelle varie forme di commedia, musical e opera, sebbene nell'era moderna queste rappresentazioni tradizionali siano state sorpassate dalla televisione e dal cinema. La poesia si focalizza sull'uso del linguaggio scritto per esprimere allo stesso tempo un significato letterale e un messaggio recondito in grado di suscitare riflessioni.",
+    "quote": "\"Il dramma non \u00e8 che la vita con le parti noiose tagliate\" - Alfred Hitchcock",
+    "tech_prereqs": [
+        {
+            "name": "Scrittura|della Scrittura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teologia|della Teologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/theology.json"
+        },
+        {
+            "name": "Pubblica amministrazione|della Pubblica amministrazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Poema patriottico|il Poema patriottico|un Poema patriottico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/national_epic.json"
+        },
+        {
+            "name": "Anfiteatro|l'Anfiteatro|un Anfiteatro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/amphitheater.json"
+        },
+        {
+            "name": "Gilda degli Scrittori|la Gilda degli Scrittori|una Gilda degli Scrittori",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/writers'_guild.json"
+        },
+        {
+            "name": "Partenone|il Partenone|il Partenone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/parthenon.json"
+        }
+    ]
+}

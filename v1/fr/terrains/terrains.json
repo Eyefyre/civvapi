@@ -1,0 +1,567 @@
+[
+    {
+        "id": 1,
+        "name": "Prairie|Prairies",
+        "historical_info": "G\u00e9n\u00e9ralement, la prairie est le type de terrain produisant le plus de nourriture. Une ville b\u00e2tie \u00e0 proximit\u00e9 d'une prairie tendra \u00e0 \u00e9voluer plus rapidement que les autres.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/prairie|prairies.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/jungle.json"
+            },
+            {
+                "name": "Marais",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/marsh.json"
+            },
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "Chevaux",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+            },
+            {
+                "name": "Charbon",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "B\u00e9tail",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cattle.json"
+            },
+            {
+                "name": "Moutons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Or",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+            },
+            {
+                "name": "Pierres pr\u00e9cieuses",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+            },
+            {
+                "name": "Marbre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+            },
+            {
+                "name": "Coton",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+            },
+            {
+                "name": "Vin",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wine.json"
+            },
+            {
+                "name": "Cuivre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+            },
+            {
+                "name": "Agrumes",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/citrus.json"
+            },
+            {
+                "name": "Bison|Bisons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bison.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+    },
+    {
+        "id": 2,
+        "name": "Plaines|Plaine",
+        "historical_info": "Les plaines sont une source de nourriture et de production pour les villes \u00e0 proximit\u00e9. Une ville entour\u00e9e de plaines grandira moins vite qu'une ville entour\u00e9e de prairies, mais elle sera beaucoup plus productive.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/plaines|plaine.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "Chevaux",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+            },
+            {
+                "name": "Charbon",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "Bl\u00e9",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wheat.json"
+            },
+            {
+                "name": "Moutons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Or",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+            },
+            {
+                "name": "Pierres pr\u00e9cieuses",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+            },
+            {
+                "name": "Marbre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+            },
+            {
+                "name": "Ivoire",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/ivory.json"
+            },
+            {
+                "name": "Coton",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+            },
+            {
+                "name": "Vin",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wine.json"
+            },
+            {
+                "name": "Encens",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+            },
+            {
+                "name": "Cuivre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+            },
+            {
+                "name": "Sel",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+            },
+            {
+                "name": "Agrumes",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/citrus.json"
+            },
+            {
+                "name": "Bison|Bisons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/bison.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+    },
+    {
+        "id": 3,
+        "name": "D\u00e9sert|D\u00e9serts",
+        "historical_info": "La plupart du temps, les cases de d\u00e9sert sont d'une inutilit\u00e9 totale. Elles n'apportent aucun b\u00e9n\u00e9fice aux villes (\u00e0 moins, bien s\u00fbr, que le d\u00e9sert ne contienne une oasis, des ressources ou qu'il n'ait acc\u00e8s \u00e0 de l'eau fra\u00eeche).",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/d\u00e9sert|d\u00e9serts.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Oasis",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/oasis.json"
+            },
+            {
+                "name": "Plaines inondables|Plaine inondable",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/flood_plains.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "P\u00e9trole",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "Moutons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Or",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+            },
+            {
+                "name": "Argent",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+            },
+            {
+                "name": "Pierres pr\u00e9cieuses",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+            },
+            {
+                "name": "Marbre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+            },
+            {
+                "name": "Coton",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+            },
+            {
+                "name": "Encens",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+            },
+            {
+                "name": "Cuivre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+            },
+            {
+                "name": "Sel",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+    },
+    {
+        "id": 4,
+        "name": "Toundra",
+        "historical_info": "La toundra est une terre \u00e0 demi gel\u00e9e que l'on trouve dans les climats les plus froids. Elle a moins d'utilit\u00e9 que la plaine ou la prairie, mais s'av\u00e8re un peu plus productive que le d\u00e9sert. Il faut vraiment \u00eatre au bord du gouffre et \u00e0 court de ressources pour construire une ville sur la toundra. Ou bien ne pas savoir o\u00f9 aller.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/toundra.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "For\u00eat|For\u00eats",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "Chevaux",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+            },
+            {
+                "name": "P\u00e9trole",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "Cervid\u00e9s",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/deer.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Argent",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+            },
+            {
+                "name": "Pierres pr\u00e9cieuses",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+            },
+            {
+                "name": "Marbre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+            },
+            {
+                "name": "Fourrures",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/furs.json"
+            },
+            {
+                "name": "Cuivre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+            },
+            {
+                "name": "Sel",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+    },
+    {
+        "id": 5,
+        "name": "Neige",
+        "historical_info": "La neige n'a que peu d'utilit\u00e9, puisqu'elle n'am\u00e9liore en rien la production ou la quantit\u00e9 de nourriture d'une ville. Bien s\u00fbr, il se peut toujours qu'une case de neige cache une ressource int\u00e9ressante, mais dans l'absolu, vous n'y trouverez que du froid et de l'aridit\u00e9. Brrrrr.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/neige.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "P\u00e9trole",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Cuivre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+    },
+    {
+        "id": 6,
+        "name": "C\u00f4te",
+        "historical_info": "Les cases c\u00f4ti\u00e8res sont les cases d'oc\u00e9an directement adjacentes \u00e0 la terre ferme. Elles fournissent de la nourriture et de l'or aux villes \u00e0 proximit\u00e9, \u00e0 condition que leur civilisation ait d\u00e9couvert la technologie Navigation \u00e0 voile. Seules les unit\u00e9s navales et les unit\u00e9s terrestres \"embarqu\u00e9es\" peuvent traverser les cases c\u00f4ti\u00e8res.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/c\u00f4te.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Glace",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/ice.json"
+            },
+            {
+                "name": "Atoll|Atolls",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/atoll.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "P\u00e9trole",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+            },
+            {
+                "name": "Poissons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/fish.json"
+            },
+            {
+                "name": "Baleines",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/whales.json"
+            },
+            {
+                "name": "Perles",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/pearls.json"
+            },
+            {
+                "name": "Crabe",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/crab.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/coast.json"
+    },
+    {
+        "id": 7,
+        "name": "Oc\u00e9an|Oc\u00e9ans",
+        "historical_info": "Les cases d'oc\u00e9an sont des cases aux eaux profondes. Ce sont une source de nourriture et d'or pour une ville, \u00e0 condition que cette derni\u00e8re dispose de la technologie ad\u00e9quate pour y acc\u00e9der.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/oc\u00e9an|oc\u00e9ans.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Glace",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/ice.json"
+            },
+            {
+                "name": "Atoll|Atolls",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/features/atoll.json"
+            }
+        ],
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/ocean.json"
+    },
+    {
+        "id": 8,
+        "name": "Montagne|Montagnes",
+        "historical_info": "Seules les unit\u00e9s a\u00e9riennes et carthaginoises peuvent franchir les montagnes (apr\u00e8s avoir obtenu un g\u00e9n\u00e9ral illustre). Elles ne fournissent rien aux villes.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/montagne|montagnes.png",
+        "movement_cost": -1,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/mountain.json"
+    },
+    {
+        "id": 9,
+        "name": "Colline|Collines",
+        "historical_info": "Les collines am\u00e9liorent la productivit\u00e9 des villes \u00e0 proximit\u00e9. Elles fournissent \u00e9galement d'importants bonus de combat pour les unit\u00e9s qui y sont plac\u00e9es.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/colline|collines.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [
+            {
+                "name": "Moutons",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+            },
+            {
+                "name": "Cervid\u00e9s",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/deer.json"
+            },
+            {
+                "name": "Pierre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+            },
+            {
+                "name": "Charbon",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+            },
+            {
+                "name": "Fer",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+            },
+            {
+                "name": "Uranium",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+            },
+            {
+                "name": "Pierres pr\u00e9cieuses",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+            },
+            {
+                "name": "Or",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+            },
+            {
+                "name": "Marbre",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+            },
+            {
+                "name": "Argent",
+                "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/hill.json"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hansa|Hansas",
+    "game_info": "Es el sustituto del Banco, exclusiva de los alemanes. +5% a la Producci\u00f3n por cada ruta comercial que tenga tu civilizaci\u00f3n con una ciudad-estado. Las rutas comerciales que establezcan otros jugadores con una ciudad con una Hansa generar\u00e1n 1 m\u00e1s de Oro al propietario de la ciudad, y el propietario de la ruta comercial gana 1 m\u00e1s de Oro por la ruta comercial.",
+    "strategy": "Adem\u00e1s de las capacidades normales del Banco (producci\u00f3n adicional de Oro y m\u00e1s Oro por rutas comerciales), la Hansa proporciona Producci\u00f3n por cada ruta comercial en tu civilizaci\u00f3n que conecte con una ciudad-estado. Las rutas comerciales pueden venir de cualquier combinaci\u00f3n de ciudades sin la Hansa. (Ejemplo: si tienes rutas comerciales desde Berl\u00edn a G\u00e9nova; M\u00fanich a G\u00e9nova; M\u00fanich a Berl\u00edn, y Berl\u00edn a Bruselas, entonces todas las ciudades en la Hansa obtendr\u00e1n +15% a la Producci\u00f3n ). Solo Alemania puede construirla.",
+    "historical_info": "La Hansa, que en franc\u00e9s antiguo significaba \"compa\u00f1\u00eda de mercaderes\", era una confederaci\u00f3n voluntaria de mercaderes y comerciantes organizada en una ciudad para asegurar la protecci\u00f3n y facilitar el comercio y el transporte. En los puertos mercantiles del B\u00e1ltico y del mar del Norte estos gremios, que establec\u00edan sus sedes centrales en edificios tambi\u00e9n denominados Hansas, se volvieron extremadamente poderosos e influyentes en el siglo XIII. La Hansa m\u00e1s grande no solo alojaba las oficinas administrativas del gremio, sino tambi\u00e9n almacenes, salas de reuniones, mercados, bancos y, si estaban en la costa, puertos. Se cree que la primera se construy\u00f3 en L\u00fcbeck en 1159 d. C. para facilitar el comercio entre Europa occidental y las zonas ricas en recursos del norte de Rusia. La Hansa dio nombre a la Liga Hanse\u00e1tica, formada alrededor de 1250 d. C. por varios gremios alemanes con el fin de pacificar las rutas comerciales del B\u00e1ltico, estandarizar los pagar\u00e9s y desarrollar comercialmente sus respectivas ciudades. La Hansa mantendr\u00eda su poder pol\u00edtico, militar (entre otros conflictos, la Guerra Hanse\u00e1tica-Holandesa entre 1438-1441 y la Guerra Anglo-Hanse\u00e1tica entre 1470-1474) y econ\u00f3mico en la regi\u00f3n hasta finales del siglo XVII.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hansa|hansas.png",
+    "prereq_tech": {
+        "name": "Banca",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

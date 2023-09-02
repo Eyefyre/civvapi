@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bazaar|il Bazaar|un Bazaar",
+    "game_info": "Fornisce 1 copia extra di ogni risorsa di lusso migliorata vicina alla citt\u00e0. Ogni fonte di Petrolio e ogni Oasi fornir\u00e0 +2 Oro. Le Rotte commerciali portate da altri giocatori in una citt\u00e0 che possiede un Bazaar frutteranno 1 Oro extra al possessore della citt\u00e0, mentre il possessore della Rotta commerciale guadagner\u00e0 1 Oro aggiuntivo per la Rotta commerciale.",
+    "strategy": "Il Bazaar \u00e8 un edificio esclusivo degli Arabi e sostituisce il Mercato. Il Bazaar fornisce un bonus di Oro alla citt\u00e0. La civilt\u00e0 ottiene una copia supplementare di ogni risorsa di lusso fornita dalla citt\u00e0 che possiede un Bazaar. Il Bazaar permette di ottenere +2 Oro dal Petrolio e dalle Oasi.",
+    "historical_info": "Un bazaar \u00e8 un quartiere che ospita un mercato pubblico, tipico delle citt\u00e0 arabe e mediorientali. Il classico bazaar arabo \u00e8 un coacervo ribollente di chioschi e negozietti in cui si vende qualsiasi cosa: dal cibo alle spezie, dai tappeti ai software. Alcuni bazaar sono a cielo aperto, mentre altri sono dotati di un tetto per proteggere i clienti e le mercanzie. Molti sopravvivono ancora oggi, alternative allegre e rumorose agli asettici centri commerciali occidentali.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazaar|il_bazaar|un_bazaar.png",
+    "prereq_tech": {
+        "name": "Valuta|della Valuta",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/currency.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

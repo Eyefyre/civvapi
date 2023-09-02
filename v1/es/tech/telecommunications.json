@@ -1,0 +1,49 @@
+{
+    "id": 69,
+    "name": "Telecomunicaciones",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/telecommunications.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "La telecomunicaci\u00f3n permite la transmisi\u00f3n de datos e informaci\u00f3n a grandes distancias empleando diversos tipos de aparatos de se\u00f1ales. Las primeras formas de una comunicaci\u00f3n primitiva a distancia, las se\u00f1ales mediante humo y banderas, acabaron por dar paso a los tel\u00e9grafos y, finalmente, al tel\u00e9fono. La investigaci\u00f3n cient\u00edfica y la ingenier\u00eda, especialmente en los \u00faltimos 30 a\u00f1os, han tra\u00eddo grandes adelantos en nuestra capacidad para comunicarnos globalmente. Los sat\u00e9lites en \u00f3rbita nos permiten transmitir datos hasta las zonas m\u00e1s remotas de la Tierra. Televisi\u00f3n, Internet, los tel\u00e9fonos m\u00f3viles y los GPS ya est\u00e1n completamente integrados en la vida diaria de millones de personas en el mundo gracias a la investigaci\u00f3n en telecomunicaciones.",
+    "quote": "\"Cuanto m\u00e1s elaborados son nuestros medios de comunicaci\u00f3n, menos nos comunicamos.\" - J.B. Priestly",
+    "tech_prereqs": [
+        {
+            "name": "Ecolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/ecology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Internet",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/the_internet.json"
+        },
+        {
+            "name": "Globalizaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/globalization.json"
+        },
+        {
+            "name": "F\u00edsica de part\u00edculas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Submarino nuclear|Submarinos nucleares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/nuclear_submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Refugio antia\u00e9reo|Refugios antia\u00e9reos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/bomb_shelter.json"
+        },
+        {
+            "name": "Torre CN|Torres CN",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/cn_tower.json"
+        },
+        {
+            "name": "Oficina Nacional de Visitantes|Oficinas Nacionales de Visitantes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/national_visitor_center.json"
+        }
+    ]
+}

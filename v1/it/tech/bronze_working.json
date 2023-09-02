@@ -1,0 +1,61 @@
+{
+    "id": 12,
+    "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/bronze_working.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "Il bronzo \u00e8 una lega metallica formata da rame e stagno. Il materiale risultante \u00e8 pi\u00f9 resistente di entrambi i componenti e pi\u00f9 facile da fondere e lavorare (ad esempio versandolo in stampi per creare punte di lancia e altri oggetti utili). Il rame \u00e8 stato usato per la prima volta in Egitto, probabilmente ancor prima del 5000 a.C. Il primo oggetto di bronzo risale a circa 1.300 anni pi\u00f9 tardi: un bastone, ritrovato in una piramide del 3700 a.C. In Asia il bronzo \u00e8 comparso molto dopo, intorno al 1500 a.C., e nelle Americhe ancora pi\u00f9 tardi, tra il 100 e il 200 d.C.",
+    "quote": "\"Ed ecco che entr\u00f2 Ettore, impugnando una lancia lunga undici cubiti; la punta di bronzo brillava davanti a lui ed era fissata all'asta con un anello d'oro.\" - Omero",
+    "tech_prereqs": [
+        {
+            "name": "Estrazione mineraria|dell'Estrazione mineraria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Lavorazione del ferro|della Lavorazione del ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/iron_working.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lanciere|un Lanciere|dal tuo Lanciere|al tuo Lanciere|il tuo Lanciere|da un Lanciere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/spearman.json"
+        },
+        {
+            "name": "Oplita|un Oplita|dal tuo Oplita|al tuo Oplita|il tuo Oplita|da un Oplita",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/hoplite.json"
+        },
+        {
+            "name": "Immortale|un Immortale|dal tuo Immortale|al tuo Immortale|il tuo Immortale|da un Immortale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/immortal.json"
+        },
+        {
+            "name": "Guerriero Pitto|un Guerriero Pitto|dal tuo Guerriero Pitto|al tuo Guerriero Pitto|il tuo Guerriero Pitto|da un Guerriero Pitto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/pictish_warrior.json"
+        },
+        {
+            "name": "Ariete|un Ariete|dal tuo Ariete|al tuo Ariete|il tuo Ariete|da un Ariete",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/battering_ram.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Krepost|il Krepost|un Krepost",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/krepost.json"
+        },
+        {
+            "name": "Caserma|la Caserma|una Caserma",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/barracks.json"
+        },
+        {
+            "name": "Statua di Zeus|la Statua di Zeus|la Statua di Zeus",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/statue_of_zeus.json"
+        },
+        {
+            "name": "Ikanda|l'Ikanda|un Ikanda",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/ikanda.json"
+        }
+    ]
+}

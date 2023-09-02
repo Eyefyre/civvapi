@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Filosof\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "\u00c9poca Cl\u00e1sica",
+    "cost": 175,
+    "civilopedia_entry": "La filosof\u00eda es el estudio de la realidad y el lugar que ocupa el hombre en ella. La palabra proviene del t\u00e9rmino en lat\u00edn \"philosophia\", y \u00e9ste a su vez del griego, y quiere decir \"amor por el saber\". Es algo distinta de la religi\u00f3n (que busca definir y comprender un sistema sobrenatural): la filosof\u00eda da un paso atr\u00e1s y se pregunta si ese sistema sobrenatural realmente existe. Este saber trata sobre la l\u00f3gica, la moralidad, la observaci\u00f3n, el realismo, la felicidad, la vida, la muerte y otras grandes preguntas.En general, se atribuye a los griegos la invenci\u00f3n de la filosof\u00eda en la civilizaci\u00f3n occidental. En el siglo VI a. C., Tales de Mileto fue el primer hombre en dar una explicaci\u00f3n puramente natural (es decir, no religiosa) del origen del mundo. Cre\u00eda que todo proven\u00eda del agua. Su teor\u00eda se bas\u00f3 en la observaci\u00f3n de animales marinos fosilizados que encontr\u00f3 muy tierra adentro. Esta explicaci\u00f3n no requer\u00eda de la acci\u00f3n creadora de un ser sobrenatural, sino que consideraba que la creaci\u00f3n era resultado de los agentes naturales. Los fil\u00f3sofos posteriores ampliaron esta teor\u00eda tan b\u00e1sica; excepto, claro, los fil\u00f3sofos que concluyeron que nada exist\u00eda o los que cre\u00edan que el mundo era un reflejo de otro lugar, etc. El problema de examinar la realidad es que, cuanto m\u00e1s profundo mira uno, m\u00e1s confuso se vuelve todo.En la medida de lo posible, la filosof\u00eda proporciona herramientas que se pueden utilizar para observar el mundo y hacer valoraciones sobre el mismo, para pensar en cosas en las que nadie ha pensado antes. Como cualquier otro instrumento, puede usarse para bien o para mal, pero la filosof\u00eda al menos busca dar la estructura intelectual necesaria para ayudarnos a decidir.",
+    "quote": "\"Solo hay un bien, el conocimiento, y un mal, la ignorancia.\" - S\u00f3crates",
+    "tech_prereqs": [
+        {
+            "name": "Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/calendar.json"
+        },
+        {
+            "name": "Escritura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Mezquita piramidal|Mezquitas piramidales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Tumba|Tumbas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/burial_tomb.json"
+        },
+        {
+            "name": "Templo|Templos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/temple.json"
+        },
+        {
+            "name": "Colegio nacional|Colegios nacionales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/national_college.json"
+        },
+        {
+            "name": "Or\u00e1culo|Or\u00e1culos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/oracle.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 92,
+    "name": "Norwegische Ski-Infanterie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/norwegian_ski_infantry.png",
+    "game_info": "Starke Frontlinien-Landeinheit im mittleren Spielabschnitt, die auf Schnee, Tundra und H\u00fcgel spezialisiert ist. Nur D\u00e4nemark darf sie bauen. Ersetzt den Sch\u00fctzen.",
+    "historical_info": "Diese furchtlosen Infanteristen wurden vornehmlich von D\u00e4nemark gegen Schweden in den Napoleonischen Kriegen von 1807 bis 1814 eingesetzt. Diese Soldaten sind bez\u00fcglich ihrer Geschwindigkeit mit leichter Kavallerie vergleichbar und konnten Bergh\u00e4nge und schneebedeckte Felder viel schneller durchqueren als sonst jemand zu Fu\u00df oder zu Pferde. Die Ski-Infanterie konnte nicht nur effizient felsiges und bewaldetes Gel\u00e4nde durchqueren, sondern wurde auch eingesetzt, um Karren mit Vorr\u00e4ten oder anderen Soldatentrupps zu ziehen, da der Mangel an Stra\u00dfen und tiefer Schnee die traditionelle Reise auf dem Pferd schwierig machte. Ihr erster durch Aufzeichnungen nachweisbarer Einsatz kann grob auf das 13. Jahrhundert zur\u00fcckdatiert werden.Heute wird die Ski-Infanterie von der d\u00e4nischen Marine immer noch eingesetzt, um weite Fl\u00e4chen des n\u00f6rdlichen und \u00f6stlichen Gr\u00f6nlands zu patrouillieren, Gebiete, die zu felsig f\u00fcr andere Transportmittel sind. In Norwegen wird jedem Soldaten in der Armee noch die Kunst des Ski-Kampfs beigebracht und das Biathlon-Sportereignis basiert auf ihrer Milit\u00e4rausbildung und ihren Patrouillenrouten.",
+    "strategy": "Die norwegische Ski-Infanterie ist eine von zwei d\u00e4nischen Spezialeinheiten, die den Sch\u00fctzen ersetzt. Diese Einheit bewegt sich mit doppelter Geschwindigkeit durch Schnee, Tundra oder H\u00fcgel. Sie verf\u00fcgt auch \u00fcber einen +25% Kampfbonus auf den Gel\u00e4ndefeldern Schnee, Tundra oder H\u00fcgel, wenn weder Wald noch Dschungel vorhanden sind.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Drall",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus bei Schnee, Tundra und H\u00fcgeln",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonuses_in_snow,_tundra,_and_hills.json"
+        }
+    ]
+}

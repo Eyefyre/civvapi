@@ -1,0 +1,57 @@
+{
+    "id": 46,
+    "name": "Belicolog\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/military_science.png",
+    "era": "Era Industrial",
+    "cost": 1600,
+    "civilopedia_entry": "La belicolog\u00eda es la ciencia que usa el poder militar para conseguir unos objetivos. Tiene muchas ramas y especializaciones y, por lo general, se ense\u00f1a en las academias militares. Por ejemplo, \u00bfcu\u00e1nta distancia puede recorrer un ej\u00e9rcito en un d\u00eda o cu\u00e1ntas calor\u00edas necesita un soldado para estar en perfecto estado para luchar? O, \u00bfc\u00f3mo combate alguien una insurrecci\u00f3n en su propio pa\u00eds? Suponiendo que somos el ej\u00e9rcito ocupante de otro pa\u00eds, \u00bfqu\u00e9 posibilidades tenemos de enfrentarnos a una sublevaci\u00f3n? \u00bfY cu\u00e1l es el \u00edndice de supervivencia esperado en una guerra at\u00f3mica si atacamos primero?\"El Arte de la Guerra\" de Sun Tzu es un cl\u00e1sico de la belicolog\u00eda. Aunque apareci\u00f3 en el siglo VI, se sigue estudiando ampliamente en la actualidad (y sigue siendo una lectura enormemente entretenida e informativa para un aficionado a la historia). \"El pr\u00edncipe\", de Maquiavelo, publicada p\u00f3stumamente en 1532, examina en detalle la relaci\u00f3n entre la guerra y la pol\u00edtica. En 1832, el general prusiano Carl von Clausewitz public\u00f3 \"De la guerra\", que tambi\u00e9n estudia los efectos de la pol\u00edtica y de la econom\u00eda en los conflictos b\u00e9licos.Aparecida en 1890, la brillante obra de Alfred Thayer Mahan \"La influencia del poder naval en la historia (1660-1783)\" influy\u00f3 enormemente en muchos oficiales y pol\u00edticos estadounidenses, y fue en gran parte responsable de la expansi\u00f3n de la armada de Estados Unidos a principios del siglo XX. Es posible que, sin este libro, Estados Unidos se hubiera encontrado m\u00e1s tr\u00e1gicamente desprevenido a\u00fan en las guerras mundiales, con los resultados desastrosos que esto habr\u00eda supuesto para el pa\u00eds y para sus aliados de ultramar.",
+    "quote": "\"Puede que las guerras se libren con armas, pero las ganan los hombres. Es el esp\u00edritu del hombre que lidera y el de los hombres que lo siguen el que gana una guerra.\" - George S. Patton",
+    "tech_prereqs": [
+        {
+            "name": "Qu\u00edmica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chemistry.json"
+        },
+        {
+            "name": "Metalurgia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dinamita",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/dynamite.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caballer\u00eda|Caballer\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/cavalry.json"
+        },
+        {
+            "name": "Cosaco|Cosacos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/cossack.json"
+        },
+        {
+            "name": "H\u00fasar|H\u00fasares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/hussar.json"
+        },
+        {
+            "name": "Caballer\u00eda bereber|Caballer\u00edas bereberes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/berber_cavalry.json"
+        },
+        {
+            "name": "Incursor comanche|Incursores comanches",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/comanche_riders.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Academia militar|Academias militares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/military_academy.json"
+        },
+        {
+            "name": "Puerta de Brandemburgo|Puertas de Brandemburgo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/brandenburg_gate.json"
+        }
+    ]
+}

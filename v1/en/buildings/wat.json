@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Wat",
+    "game_info": "+2 Science from Jungle tiles worked by this City.City must have a Library.",
+    "strategy": "The Wat is the Siamese unique building, replacing the University. The Wat increases the Culture of a city, speeding the growth of its borders and the civilization's acquisition of Social Policies. The Wat also provides a Science bonus to the city.",
+    "historical_info": "A \"Wat\" is a Buddhist monastery temple found in Cambodia, Thailand, or Laos. The literal translation of \"wat\" is \"school\", and indeed the Siamese wats were both places of worship and of learning. A wat consists of a temple containing statues of the Buddha, a prayer room, a room containing religious texts, a pavilion for relaxation, a library, study hall, bell towers, and living quarters. It may be a single building or a collection of structures - a town in itself. Constructed in the 12th century, the Angkor Wat in Angkor, Cambodia, is one of the largest and best-preserved wats in Southeast Asia.",
+    "cost": {
+        "production": 160,
+        "faith": 200
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat.png",
+    "prereq_tech": {
+        "name": "Education",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 3,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

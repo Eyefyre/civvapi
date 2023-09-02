@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Artists' Guild",
+    "game_info": "Provides 2 Great Person Points (GPP) towards a Great Artist. Add up to two specialists to this building to gain Culture and increase the rate of Great Artist acquisition (3 Culture and 3 GPP per specialist).",
+    "strategy": "The Artists' Guild is the only building that contains artist specialist slots, which are critical for generating Great Artists. If your goal is a cultural victory, this building is a must-have. The Artists' Guild provides 2 Great Person Points, and each assigned specialist provides 3 Great Person Points and 3 Culture.",
+    "historical_info": "The concept of guilds for artisans did not take hold until the late Middle Ages, when Europe began its long process of urbanization. In the 13th Century a number of artists' guilds sprang up in cities, modeled on the merchants' guilds of the time. The guilds sought to fix costs and set prices, and offered support and education to artists in a city, thus avoiding the problems of patronage by the wealthy and the nobility. Although unofficial guilds still exist for various types of artists, the Enlightenment Age brought about a decline in guild monopolies until all had been abolished by the mid-1800s.",
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/artists'_guild.png",
+    "prereq_tech": {
+        "name": "Guilds",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/guilds.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

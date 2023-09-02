@@ -1,0 +1,44 @@
+{
+    "id": 8,
+    "name": "Scrittura|della Scrittura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/writing.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "La scrittura \u00e8 l'arte di registrare informazioni su un materiale duraturo (carta, pietra, argilla, pelle d'animale) in modo che altri possano esaminare il materiale e ricostruire il suo significato. Inventata intorno al IV millennio a.C., la forma pi\u00f9 arcaica di scrittura \u00e8 la \"pittografia\", in cui l'argomento della trattazione \u00e8 rappresentato con un piccolo disegno. Quest'approccio funziona discretamente se l'oggetto del discorso \u00e8 molto semplice, ma mostra i suoi limiti quando diventa necessario discutere di questioni pi\u00f9 complesse e astratte (\u00e8 facile disegnare una pecora, ma che dire di mille pecore, e come si pu\u00f2 rappresentare graficamente il rumore che fa una pecora che cade gi\u00f9 da una piramide? Non \u00e8 cos\u00ec semplice).La logografia \u00e8 nata dopo la pittografia. In questo sistema ogni simbolo rappresenta una singola parola. C'\u00e8 un simbolo per una pecora, un altro per mille pecore e un altro ancora per il rumore prodotto dalla pecora che cade gi\u00f9 da una piramide. Un linguaggio per\u00f2 pu\u00f2 comprendere diverse decine di migliaia di parole, e imparare cos\u00ec tanti simboli pu\u00f2 essere problematico.Un sistema fonografico prevede un simbolo distinto per ogni parola di suono diverso. In questo caso il suono \"pecora\" sarebbe rappresentato da un suo simbolo, ma \"hanno\" e \"anno\" ne avrebbero uno in comune. Il risultato \u00e8 un insieme pi\u00f9 piccolo di simboli da memorizzare, ma anche un rischio maggiore di ambiguit\u00e0.In un sistema alfabetico abbiamo un insieme limitato di simboli (alfabeto) che rappresentano i vari suoni che compongono il linguaggio. I simboli possono essere combinati insieme per rappresentare la pronuncia di qualsiasi parola. Chiunque conosca le singole lettere \u00e8 quindi in grado di riprodurre il suono di qualsiasi parola scritta. Questo \u00e8 il metodo adottato dall'italiano e in genere \u00e8 considerato (soprattutto dai parlanti) il pi\u00f9 potente e flessibile sistema di scrittura mai concepito.",
+    "quote": "\"Chi distrugge un buon libro uccide la ragione stessa.\" - John Milton",
+    "tech_prereqs": [
+        {
+            "name": "Ceramica|della Ceramica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Filosofia|della Filosofia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/philosophy.json"
+        },
+        {
+            "name": "Drammaturgia e poesia|della Drammaturgia e poesia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/drama_and_poetry.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Cartiera|la Cartiera|una Cartiera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/paper_maker.json"
+        },
+        {
+            "name": "Biblioteca|la Biblioteca|una Biblioteca",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/library.json"
+        },
+        {
+            "name": "Grande Biblioteca|la Grande Biblioteca|una Grande Biblioteca",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/great_library.json"
+        },
+        {
+            "name": "Biblioteca Reale|la Biblioteca Reale|una Biblioteca Reale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/royal_library.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Caravella|una Caravella|dalla tua Caravella|alla tua Caravella|la tua Caravella|da una Caravella",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Veloce unit\u00e0 da esplorazione di epoca rinascimentale con un raggio di visione ampliato e la capacit\u00e0 di entrare nelle caselle di Oceano. Combatte come un'unit\u00e0 navale da mischia.",
+    "historical_info": "La caravella \u00e8 un piccolo vascello da mare aperto. Fu molto utilizzata nel XV secolo per le grandi esplorazioni. Originariamente creata per ordine del principe Enrico di Portogallo detto \"il Navigatore\", la caravella apportava evidenti miglioramenti che furono ben presto copiati dai costruttori di tutta Europa. Lunghe dai 20 ai 30 metri e dotate di due o tre alberi a vela latina, le caravelle erano leggere e avevano un pescaggio limitato; questo le rendeva ideali per l'esplorazione di coste e fiumi sconosciuti, perch\u00e9 si potevano avventurare arditamente dove un vascello pi\u00f9 grande non avrebbe osato spingersi. Inoltre erano in grado di tenere ottimamente il mare e di sopravvivere a tutto quello che l'Atlantico avrebbe potuto scatenare contro di loro. Due delle tre navi di Cristoforo Colombo, la Ni\u00f1a e la Pinta, erano caravelle: la pi\u00f9 grande, la Santa Maria, era invece una \"caracca\".",
+    "strategy": "La Caravella rappresenta una modernizzazione importante della flotta di una civilt\u00e0. Come la Trireme, attacca da vicino, ma \u00e8 pi\u00f9 potente e veloce e pu\u00f2 entrare negli esagoni di mare aperto. \u00c8 un'unit\u00e0 veloce, dotata di una promozione che gli d\u00e0 una buona possibilit\u00e0 di ritirarsi prima che il nemico le sferri un attacco navale ravvicinato. Una Caravella ha un raggio di visione ampliato, tanto da rappresentare gli \"occhi\" della flotta nelle fasi centrali della partita. Questo bonus al raggio visivo si perde se la Caravella viene successivamente aggiornata e trasformata in Cacciatorpediniere.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomia|dell'Astronomia",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Ritirata dalla mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

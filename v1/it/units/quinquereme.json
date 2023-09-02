@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Quinquereme|una Quinquereme|dalla tua Quinquereme|alla tua Quinquereme|la tua Quinquereme|da una Quinquereme",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Forte unit\u00e0 navale di epoca antica, usata per acquisire il controllo dei mari attaccando direttamente le altre unit\u00e0 navali e le citt\u00e0. Solo i cartaginesi possono costruirla.",
+    "historical_info": "La pesante quinquereme \u00e8 forse il pi\u00f9 famoso tra i molti modelli di nave utilizzati sia dai cartaginesi sia dai romani. Queste navi prendono il nome dall'uso di cinque ordini di rematori, organizzati verticalmente in colonne per tutta la lunghezza della fiancata. Sebbene il numero preciso non sia noto, \u00e8 certo che dovevano imbarcare diverse centinaia di uomini tra equipaggio e soldati. Le navi di Cartagine erano note per l'eccelsa qualit\u00e0 della loro costruzione: in effetti si ritiene che l'invenzione della quinquereme sia da attribuire agli ingegneri navali nordafricani e che solo successivamente i romani ne abbiano imitato lo stile.",
+    "strategy": "Solo i cartaginesi possono costruire quest'unit\u00e0, una versione della Trireme pi\u00f9 forte sotto tutti gli aspetti, inclusa la Forza di combattimento. Come la Trireme, anche la Quinquereme pu\u00f2 portare attacchi ravvicinati contro le altre unit\u00e0 sul mare o le citt\u00e0 (ma non possiede attacco a distanza). Le Quinquereme non possono entrare nelle caselle di Oceano al di fuori dei confini della citt\u00e0.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

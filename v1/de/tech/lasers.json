@@ -1,0 +1,32 @@
+{
+    "id": 74,
+    "name": "Lasertechnologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/lasers.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "Der Begriff \"Laser\" wurde urspr\u00fcnglich in Gro\u00dfbuchstaben geschrieben, da es sich dabei um das Akronym f\u00fcr \"Light Amplification by Stimulated Emission of Radiation\" (Lichtverst\u00e4rkung durch stimulierte Emission von Strahlung) handelt, im Grunde die genaue Definition eines Lasers. Die ersten wissenschaftlichen Grundlagen f\u00fcr Laser wurden 1917 von Albert Einstein gelegt, als er Plancks Strahlungsgesetz neu hergeleitet hat. Etwa zur gleichen Zeit begannen Science-Fiction-Autoren per Zufall, eine \u00e4hnliche, m\u00f6gliche Technologie zu beschreiben. Der erste funktionst\u00fcchtige Laser wurde erst 1960 vorgestellt, als die Hughes Research Laboratories Lasertechnologie einf\u00fchrten, die in der Lage war, Daten \u00fcber optische Speicherger\u00e4te zu speichern (wie ein DVD-Brenner).Seit dieser fr\u00fchen Laser-Forschung wurden viele verschiedene Arten von spezialisierten Lasern entwickelt; einige wurden f\u00fcr unterschiedliche Funktionen wie maximale Schussreichweite, Leistungskraft oder die Benutzung von verschiedenen Wellenl\u00e4ngenbereichen optimiert. Obwohl sie urspr\u00fcnglich unter dem Spitznamen \"eine L\u00f6sung, die nach einem Problem sucht\" bekannt waren, wurden f\u00fcr Laser Tausende von unterschiedlichen Einsatzm\u00f6glichkeiten entdeckt, von der Unterhaltungselektronik bis hin zur Strafverfolgung und einer milit\u00e4rischen Verwendung. Man sollte nur nicht direkt ins Licht schauen.",
+    "quote": "\"Die Nacht ist vorger\u00fcckt, der Tag aber nahe herbeigekommen: so lasset uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichtes.\" - Die Bibel, R\u00f6mer 13,12",
+    "tech_prereqs": [
+        {
+            "name": "Computertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tarnung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/stealth.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "D\u00fcsenj\u00e4ger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/jet_fighter.json"
+        },
+        {
+            "name": "Kampfpanzer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/modern_armor.json"
+        }
+    ],
+    "building_unlocks": []
+}

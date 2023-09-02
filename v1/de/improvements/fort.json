@@ -1,0 +1,46 @@
+{
+    "id": 15,
+    "name": "Festung",
+    "game_info": "Eine Festung ist eine Spezialmodernisierung, die weder die Produktion eines Gel\u00e4ndefelds erh\u00f6ht, noch Zugang zu einer Ressource bietet. Eine Festung erh\u00f6ht vielmehr den Verteidigungsbonus eines Gel\u00e4ndefelds f\u00fcr Einheiten, die sich darauf befinden, um 50%. In feindlichem Gebiet bietet sie eigenen Einheiten jedoch keinen Verteidigungsbonus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/festung.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Maschinenbau",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

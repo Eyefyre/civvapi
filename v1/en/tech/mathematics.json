@@ -1,0 +1,49 @@
+{
+    "id": 15,
+    "name": "Mathematics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mathematics.png",
+    "era": "Classical Era",
+    "cost": 105,
+    "civilopedia_entry": "Mathematics may be defined as the science of order, structure and relation that has evolved from counting, measuring and describing objects and their shapes. Mathematics is the most basic building block upon which all physical science is based. The Sumerians had a remarkably robust and complex mathematical system which was \"base-ten\" (like the modern system) and \"base-60\" as well. Remnants of the \"base-60\" system survive today primarily in modern time-keeping - 60 seconds to the minute, 60 minutes to the hour.The Egyptians had a somewhat simpler system, developed by the scribes/tax collectors, which was capable of performing the calculations needed to support huge engineering works like the pyramids (plus, one assumes, to keep track of uncollected taxes). The Greeks divided mathematics into two spheres, \"arithmetic,\" the study of quantity, and \"geometry,\" the study of magnitude, or area. Their primary contribution, however, lay in the application of theory and proof to mathematics. Previous mathematical systems were based upon measurement and observation of the real world, while the Greeks looked for the mathematical rules behind the reality.The Islamic world added much to mathematics in the 8th to 15th centuries AD. Perhaps most important was the invention of the decimal system for whole numbers, and the invention of the \"0\" (the number zero) some time around 600 AD in India. This replaced the extremely clunky and awkward \"Roman\" numerical system, which now survives only in horror movie sequel enumeration.Mathematics has grown geometrically since its earliest beginnings, and through it man has split the atom, built the Internet, and constructed elaborate fantasy football leagues. Who knows what secrets it will unlock in the future?",
+    "quote": "\"Mathematics is the gate and key to the sciences.\" - Roger Bacon",
+    "tech_prereqs": [
+        {
+            "name": "The Wheel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Currency",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/currency.json"
+        },
+        {
+            "name": "Engineering",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Catapult",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/catapult.json"
+        },
+        {
+            "name": "Ballista",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ballista.json"
+        },
+        {
+            "name": "Siege Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/siege_tower.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Courthouse",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/courthouse.json"
+        },
+        {
+            "name": "Hanging Gardens",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hanging_gardens.json"
+        }
+    ]
+}

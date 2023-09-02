@@ -1,0 +1,68 @@
+{
+    "id": 19,
+    "name": "Fabrikanlage",
+    "game_info": "Eine Fabrikanlage ist eine aus einem oder mehreren Geb\u00e4uden bestehende Einrichtung, in der Dinge produziert werden. Diese Geb\u00e4ude k\u00f6nnen Schmelzen, Walzwerke, Fertigungshallen usw. sein, wobei sie \u00fcblicherweise miteinander verkn\u00fcpft sind - die Schmelze produziert den Stahl, der im Walzwerk zu Blechen gewalzt wird, die dann in der Fertigungshalle zu Dosen verarbeitet werden usw. Eine gut organisierte Fabrikanlage kann \u00fcberaus produktiv sein.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fabrikanlage.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Pferde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+        },
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "Kohle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+        },
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

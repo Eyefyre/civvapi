@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zoo",
+    "game_info": "Zadowolenie nie mo\u017ce przekroczy\u0107 liczby obywateli miasta. W mie\u015bcie musi by\u0107 wybudowane Koloseum.",
+    "strategy": "Zoo zwi\u0119ksza zadowolenie w twoim imperium, lecz nie mo\u017ce by\u0107 ono wi\u0119ksze ni\u017c ilo\u015b\u0107 obywateli w twoim mie\u015bcie. Miejscowo\u015b\u0107 musi posiada\u0107 Koloseum, nim zbudujesz w niej zoo.",
+    "historical_info": "Najstarsza znana mena\u017ceria zoologiczna (\u201ezoo\u201d) zosta\u0142a odkryta na wykopaliskach w Hierakonpolis i pochodzi z oko\u0142o 3500 r. p.n.e. Najstarsze istniej\u0105ce zoo, wiede\u0144skie Tiergarten Schoenbrunn, wykszta\u0142ci\u0142o si\u0119 z kolekcji egzotycznych zwierz\u0105t utrzymywanej przez dynasti\u0119 Habsburg\u00f3w. Zosta\u0142o otwarte dla zwiedzaj\u0105cych w 1765 roku.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo.png",
+    "prereq_tech": {
+        "name": "Prasa drukarska|Prasy drukarskiej|Prasie drukarskiej|Pras\u0119 drukarsk\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/printing_press.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

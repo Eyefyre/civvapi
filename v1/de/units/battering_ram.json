@@ -1,0 +1,43 @@
+{
+    "id": 107,
+    "name": "Rammbock",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battering_ram.png",
+    "game_info": "T\u00f6dliche Belagerungseinheit im Nahkampf gegen St\u00e4dte. Nur die Hunnen k\u00f6nnen sie bauen.",
+    "historical_info": "Der Rammbock war ein Belagerungsger\u00e4t, das vor allem in der Antike verwendet wurde. Er war ausschlie\u00dflich daf\u00fcr gedacht, die schweren Holztore dieser Epoche zu durchbrechen. Es gab zwar verschiedene Formen von Rammb\u00f6cken, doch das grundlegende Prinzip war immer das gleiche. Ein schwerer Baumstamm oder Pfosten wurde an Ketten oder Seilen auf einem Wagen oder einer anderen mobilen Plattform befestigt. Die Soldaten zogen dann den Stamm zur\u00fcck und lie\u00dfen ihn los, sodass er mit genug Wucht zur\u00fcckprallte, um das gegnerische Tor zu zersplittern. Auch wenn die genauen Einzelheiten dar\u00fcber, wie die Hunnen dieses Belagerungsger\u00e4t eingesetzt haben, d\u00fcrftig sind, ist dennoch bekannt, dass sie auf ihrem Eroberungszug gegen eine Vielzahl gro\u00dfer europ\u00e4ischer St\u00e4dte Rammb\u00f6cke eingesetzt haben.",
+    "strategy": "Rammb\u00f6cke sind eine spezielle Einheit der Hunnen, die den Speerk\u00e4mpfer ersetzen. Mit ihnen kann man die Verteidigungen einer Stadt ausschalten. Mit der Bef\u00f6rderung Deckung I k\u00f6nnen sie sich vor Fernkampfeinheiten sch\u00fctzen. Man besiegt sie mit Nahkampfeinheiten.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Bronzeverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen St\u00e4dte (300)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(300).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Malus bei Verteidigung (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_on_defense_(33).json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Deckung I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/cover_i.json"
+        },
+        {
+            "name": "Nur Stadtangriffe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/city_attack_only.json"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": 15,
+    "name": "Perle",
+    "game_info": null,
+    "historical_info": "Le perle sono palline brillanti, bianche e traslucide che si formano all'interno della conchiglia di certi molluschi. Molto preziose, sono utilizzate spesso in gioielleria e per la realizzazione di decorazioni. Sebbene le specie di molluschi che producono perle siano diverse, le pi\u00f9 ricercate sono le ostriche di mare e alcuni bivalvi d'acqua dolce, il cui guscio \u00e8 rivestito internamente di madreperla. Il colore di una perla dipende dal tipo di mollusco e dall'ambiente in cui vive. Le tinte variano dal nero al bianco, ma ci sono anche perle color crema, blu, giallo o verde. In generale le perle rosa indiane sono considerate le pi\u00f9 preziose in assoluto.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/perle.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pescherecci|dei Pescherecci|dei Pescherecci",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Costa",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/costa.json"
+        }
+    ]
+}

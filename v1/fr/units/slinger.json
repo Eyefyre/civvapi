@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Frondeur",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "Faisant partie des premi\u00e8res unit\u00e9s \u00e0 distance disponibles, cette unit\u00e9 inca unique remplace l'archer. Le frondeur est tout aussi puissant que l'archer mais s'av\u00e8re plus fragile en cas d'attaque de m\u00eal\u00e9e. Il poss\u00e8de toutefois une promotion qui lui permet de se retirer \u00e0 l'arri\u00e8re avant qu'une attaque de m\u00eal\u00e9e ne survienne.",
+    "historical_info": "Les guerriers Incas faisaient de remarquables frondeurs. La pierre polie \u00e9tait leur projectile de pr\u00e9dilection. Bien que les frondes n'aient pas la port\u00e9e ou le pouvoir d'arr\u00eat d'un arc et d'une fl\u00e8che, elles restent des armes petites et l\u00e9g\u00e8res, ais\u00e9ment transportables par les guerriers d'infanterie. Et comme le raconte l'Ancien Testament, un frondeur aguerri peut m\u00eame r\u00e9ussir \u00e0 tuer le plus redoutable des adversaires d'une seule et unique pierre...",
+    "strategy": "Le frondeur est une unit\u00e9 d'infanterie \u00e0 distance de l'Antiquit\u00e9 capable d'attaquer l'ennemi de loin. Cette unit\u00e9 inca unique peut se retirer avant la plupart des attaques de m\u00eal\u00e9e : utilisez-la pour tourmenter vos ennemis. Le frondeur peut toutefois facilement \u00eatre vaincu si l'ennemi parvient \u00e0 le coincer contre un obstacle ou bien le poursuit avec des unit\u00e9s rapides.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tir \u00e0 l'arc",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Se retirer avant combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "name": "Hussar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hussar.png",
+    "game_info": "A fast Mounted Unit used for scouting and hit-and-run attacks. Especially deadly with flank attacks. Only the Austrians may build it.",
+    "historical_info": "Taking their name from the Latin \"Cursarius,\" meaning \"Raider,\" the fearsome light cavalrymen of Hungary known as the Hussars served the Habsburg Empire and Austria throughout the 17th and 18th centuries. Emulated by cavalry units across Europe, the Hussars formed as an irregular regiment of skilled riders relying on swift, unpredictable hit-and-run tactics. Over time the Hussars became a formal unit, with recruits judged on specific requirements regulating both the rider and his mount. Hussar regiments were used extensively during the Napoleonic Wars, and eventually served in armies across Europe and Asia well into the 19th century.",
+    "strategy": "Hussars are great scouts and flank attackers. They are slightly faster than Cavalry which they replace. They start with Promotions that give them +1 Sight and increases their bonus when making a Flank Attack by 50%.",
+    "movement": 5,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Military Science",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Enhanced Flank Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/enhanced_flank_attack.json"
+        }
+    ]
+}

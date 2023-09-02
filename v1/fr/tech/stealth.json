@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Furtivit\u00e9",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 8800,
+    "civilopedia_entry": "Si le concept ou la pratique de la furtivit\u00e9 est extr\u00eamement ancien dans l'histoire du d\u00e9veloppement de la civilisation humaine, l'approche moderne de cette technologie l'a \u00e9lev\u00e9 \u00e0 un tout autre niveau. La furtivit\u00e9 est le fruit de multiples disciplines et tactiques militaires allant au-del\u00e0 des limites de la perception humaine. Cette technologie tente \u00e0 la fois de concevoir des objets capables d'\u00e9chapper aux d\u00e9tections radars, acoustiques et thermales (ou \u00e0 tout autre syst\u00e8me de rep\u00e9rage), et de les d\u00e9tecter par des moyens similaires extr\u00eamement sophistiqu\u00e9s.Consistant \u00e0 fondre visuellement un objet dans son environnement, les tenues de camouflage comptent parmi les m\u00e9thodes les plus anciennes et les plus rudimentaires de dissimulation. Cependant, de nombreuses avanc\u00e9es technologiques ont suscit\u00e9 le besoin de concevoir des m\u00e9thodes de camouflage et de d\u00e9tection plus dynamiques et \u00e9labor\u00e9es. Aujourd'hui, on injecte des produits chimiques thermiques dans les v\u00eatements, les navires sont fabriqu\u00e9s \u00e0 partir de mat\u00e9riaux sp\u00e9ciaux absorbant les ondes radars, et les signatures infrarouges des avions sont dissimul\u00e9es par de nouveaux syst\u00e8mes de propulsion particuli\u00e8rement ing\u00e9nieux. S'il n'est pas toujours possible de rendre un objet totalement invisible \u00e0 tous les modes de d\u00e9tection, les v\u00e9hicules furtifs et les avions de reconnaissance ont chang\u00e9 la mani\u00e8re dont sont ex\u00e9cut\u00e9es les op\u00e9rations militaires. Les nations ont en effet appris \u00e0 tirer de cruciaux avantages de cette technologie.",
+    "quote": "\"Soyez particuli\u00e8rement subtil, jusqu'\u00e0 perdre toute forme. Soyez particuli\u00e8rement myst\u00e9rieux, jusqu'\u00e0 ne plus produire aucun son. C'est comme \u00e7a que vous dirigerez le destin de votre adversaire.\"- Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Robotique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/robotics.json"
+        },
+        {
+            "name": "Lasers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Technologie future",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombardier furtif|Bombardiers furtifs",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samoura\u00ef|Samoura\u00efs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "Puissante unit\u00e9 d'infanterie m\u00e9di\u00e9vale. Le samoura\u00ef est exclusif aux Japonais. Il est plus efficace au combat et plus rapide \u00e0 faire appara\u00eetre des g\u00e9n\u00e9raux illustres que le spadassin \u00e0 \u00e9p\u00e9e longue, qu'il remplace. Des samoura\u00efs embarqu\u00e9s peuvent construire des bateaux de p\u00eache en un tour, sans dispara\u00eetre (ce qui les rend utiles m\u00eame en temps de paix).",
+    "historical_info": "Les samoura\u00efs japonais \u00e9taient incontestablement les meilleurs guerriers depuis la l\u00e9gion romaine (avant l'apparition de la poudre \u00e0 canon). Les premiers samoura\u00efs firent leur apparition au cours du XIIe si\u00e8cle, il s'agissait d'un corps de guerriers qui avaient jur\u00e9 de suivre le code du Bushido, pour lequel la bravoure, l'honneur et la loyaut\u00e9 \u00e9taient plus importants que la vie elle-m\u00eame. Ces soldats \u00e9taient le plus souvent \u00e9quip\u00e9s de deux \u00e9p\u00e9es, le katana et le wakizashi (qui fut plus tard utilis\u00e9 lors du suicide rituel du \"seppuku\"). Ces \u00e9p\u00e9es \u00e9taient bien sup\u00e9rieures \u00e0 leurs \u00e9quivalentes occidentales, les forgerons japonais ayant rapidement ma\u00eetris\u00e9 l'art de combiner l'acier \u00e0 haute et faible teneur en carbone. Certains d'entre eux portaient \u00e9galement un arc ou une lance, et plus tard des armes \u00e0 feu. Selon la p\u00e9riode (ainsi que leur statut et leur richesse), les samoura\u00efs pouvaient porter des armures matelass\u00e9es, laqu\u00e9es ou en m\u00e9tal.",
+    "strategy": "Unit\u00e9 exclusive aux Japonais, le samoura\u00ef remplace le spadassin \u00e0 \u00e9p\u00e9e longue. Aussi puissant que ce dernier, le samoura\u00ef re\u00e7oit d\u00e8s sa cr\u00e9ation la promotion \"Choc I\", obtenant ainsi un bonus lorsqu'il combat sur une case de terrain d\u00e9gag\u00e9. Les victoires militaires des samoura\u00efs sont plus susceptibles de g\u00e9n\u00e9rer l'apparition d'un g\u00e9n\u00e9ral illustre. Peut construire des bateaux de p\u00eache sans dispara\u00eetre par la suite.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Acier",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Choc I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/shock_i.json"
+        },
+        {
+            "name": "G\u00e9n\u00e9raux illustres II",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/great_generals_ii.json"
+        }
+    ]
+}

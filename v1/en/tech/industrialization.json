@@ -1,0 +1,37 @@
+{
+    "id": 44,
+    "name": "Industrialization",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/industrialization.png",
+    "era": "Industrial Era",
+    "cost": 1600,
+    "civilopedia_entry": "Industrialization is viewed as the transition from an agrarian society into an industrial one, which is typically accompanied by widespread social and economic change throughout the community. The Industrial Revolution, beginning in Europe during the 18th century, brought about immense changes in the way people lived their daily lives. With increasingly complex machinery and tools available, many trades that were once left to talented craftsmen became obsolete with the advent of assembly lines operated by droves of unskilled factory laborers.",
+    "quote": "\"Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.\" - Emily Greene Balch",
+    "tech_prereqs": [
+        {
+            "name": "Economics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Steam Power",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steam_power.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Gatling Gun",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/gatling_gun.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Factory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/factory.json"
+        },
+        {
+            "name": "Big Ben",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/big_ben.json"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 64,
+    "name": "Protektionismus",
+    "game_info": "Protektionismus+2 Zufriedenheit durch jedes Luxusgut.",
+    "historical_info": "Protektionismus ist eine Politik, die versucht, den Handel zwischen Nationen durch Z\u00f6lle, Steuern und andere Methoden zu beschr\u00e4nken. Sie wird von L\u00e4ndern eingesetzt, die versuchen, ausl\u00e4ndische Waren und Dienste aus dem eigenen Markt herauszuhalten, um so die einheimischen Betriebe zu sch\u00fctzen. Protektionismus wird auch von Herrschern verwendet, die den Kontakt der eigenen B\u00fcrger mit ausl\u00e4ndischen Menschen und G\u00fctern verhindern wollen, weil sie glauben, dass fremde Dinge b\u00f6se sind oder nicht wollen, dass die eigenen Untertanen erkennen, wie schlecht ihr Land im Vergleich zu anderen L\u00e4ndern der Welt abschneidet. In Nordkorea hat der Protektionismus bereits groteske Formen angenommen, da die Herrscher des Landes jeglichen Kontakt mit der Au\u00dfenwelt untersagen, um die eigene R\u00fcckst\u00e4ndigkeit zu verschleiern.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/protektionismus.png",
+    "required_policies": [
+        {
+            "name": "Merkantilismus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/mercantilism.json"
+        },
+        {
+            "name": "Unternehmertum",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/entrepreneurship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Wirtschaft",
+        "game_info": "Wirtschaft verschafft Reichen einen Bonus, die auf Gold fokussiert sind.Wenn man Wirtschaft w\u00e4hlt, erh\u00f6ht sich der Goldertrag in der Hauptstadt um 25%. Schaltet den Bau von Big Ben frei.Bei \u00dcbernahme aller Politiken des Wirtschaftszweigs wird f\u00fcr jeden Handelsposten +1 Gold gew\u00e4hrt. Erm\u00f6glicht au\u00dferdem den Kauf von Gro\u00dfen H\u00e4ndlern mit Glauben ab dem Industriezeitalter.",
+        "prereq_era": "Mittelalter",
+        "historical_info": "Wirtschaft besch\u00e4ftigt sich mit dem Austausch von Waren und Dienstleistungen, entweder durch einen Barterhandel (im Austausch gegen andere Waren oder Dienstleistungen) oder durch die \u00dcbergabe irgendeiner Form von W\u00e4hrung. Wirtschaft ist so alt wie die menschliche Sprache und vielleicht sogar noch \u00e4lter. In einigen Kulturen bekleiden H\u00e4ndler eine niedrigere Klasse als die Herrscher oder diejenigen, die Waffen tragen d\u00fcrfen. In anderen Kulturen gelten H\u00e4ndler als Elite und das Erlangen von Reichtum als h\u00f6chstes Gut. F\u00fcr den Gro\u00dfteil ihrer j\u00fcngeren Geschichte geh\u00f6rten die Vereinigten Staaten von Amerika der zweiten Kategorie an."
+    }
+}

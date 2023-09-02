@@ -1,0 +1,77 @@
+{
+    "id": 4,
+    "name": "Toundra",
+    "historical_info": "La toundra est une terre \u00e0 demi gel\u00e9e que l'on trouve dans les climats les plus froids. Elle a moins d'utilit\u00e9 que la plaine ou la prairie, mais s'av\u00e8re un peu plus productive que le d\u00e9sert. Il faut vraiment \u00eatre au bord du gouffre et \u00e0 court de ressources pour construire une ville sur la toundra. Ou bien ne pas savoir o\u00f9 aller.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/toundra.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        },
+        {
+            "name": "Cervid\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/deer.json"
+        },
+        {
+            "name": "Pierre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+        },
+        {
+            "name": "Argent",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+        },
+        {
+            "name": "Pierres pr\u00e9cieuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+        },
+        {
+            "name": "Marbre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+        },
+        {
+            "name": "Fourrures",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/furs.json"
+        },
+        {
+            "name": "Cuivre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+        },
+        {
+            "name": "Sel",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+        }
+    ]
+}

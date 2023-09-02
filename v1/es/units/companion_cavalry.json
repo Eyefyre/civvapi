@@ -1,0 +1,35 @@
+{
+    "id": 67,
+    "name": "Caballer\u00eda de los Compa\u00f1eros|Caballer\u00edas de los Compa\u00f1eros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/companion_cavalry.png",
+    "game_info": "Una unidad montada r\u00e1pida y poderosa de las primeras fases de una partida. Es d\u00e9bil contra Lanceros. Solo los griegos pueden construirla. Esta unidad es m\u00e1s r\u00e1pida, tiene m\u00e1s Fuerza de combate y ayuda a generar m\u00e1s Grandes generales que el Jinete, al que sustituye.",
+    "historical_info": "Los hetairoi, o \"Caballer\u00eda de los Compa\u00f1eros\", eran jinetes de \u00e9lite que acompa\u00f1aban a Alejandro Magno en combate. El t\u00e9rmino \"hetairoi\" deriva del nombre de la aristocracia macedonia, pues los Compa\u00f1eros proced\u00edan exclusivamente de las mejores familias macedonias (aunque m\u00e1s adelante se relajaron las exigencias y se admiti\u00f3 a nobles aliados y vasallos). Cada caballero estaba armado con un \"xyston\" (lanza arrojadiza) y un \"kopis\" (espada curva), y se proteg\u00eda con una coraza, unas hombreras y un casco de bronce.En combate, Alejandro sol\u00eda reservar a los Compa\u00f1eros hasta que el enemigo se encontraba ocupado con sus falanges. El propio Alejandro los conduc\u00eda contra los flancos o la retaguardia del enemigo, sembrando la confusi\u00f3n y el des\u00e1nimo. Las fuerzas rivales no encontraron una respuesta satisfactoria a esta combinaci\u00f3n que Alejandro emple\u00f3 para conquistar la mayor parte del mundo conocido.",
+    "strategy": "La Caballer\u00eda de los Compa\u00f1eros es una unidad exclusiva griega que sustituye al Jinete. Es m\u00e1s r\u00e1pida y m\u00e1s poderosa que \u00e9ste, lo que la convierte en la unidad de caballer\u00eda m\u00e1s peligrosa hasta la llegada del Caballero. La Caballer\u00eda de los Compa\u00f1eros ayuda a generar Grandes generales m\u00e1s r\u00e1pido que otras unidades. Adem\u00e1s, se puede mover despu\u00e9s de atacar. La Caballer\u00eda de los Compa\u00f1eros es una unidad montada y, como tal, vulnerable a los ataques de Lanceros y Piqueros.",
+    "movement": 5,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Equitaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Grandes generales I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

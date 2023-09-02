@@ -1,0 +1,23 @@
+{
+    "id": 18,
+    "name": "Trirreme|Trirremes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trireme.png",
+    "game_info": "Una unidad naval de la Antig\u00fcedad que se utiliza para controlar los mares mediante ataques cuerpo a cuerpo contra unidades navales y ciudades.",
+    "historical_info": "El trirreme era un barco de guerra que usaron las armadas de la antig\u00fcedad en el Mediterr\u00e1neo. Aunque usaban velas, en combate confiaban en sus tres filas de remeros. Cuando \u00e9stos estaban entrenados y motivados, los trirremes eran sorprendentemente r\u00e1pidos y \u00e1giles. Sol\u00edan disponer de un espol\u00f3n afilado en la proa, ya que su t\u00e1ctica principal consist\u00eda en embestir y hundir a los buques enemigos. Algunos trirremes tambi\u00e9n transportaban arqueros para el combate a distancia y otros llevaban multitud de infanter\u00eda. Esos veleros se colocaban al lado de las naves enemigas para que la infanter\u00eda pudiera abordarlas y capturarlas. Los trirremes conservaron su importancia en los mares hasta que el ca\u00f1\u00f3n y los avances en la fabricaci\u00f3n de barcos y aparejos los dejaron obsoletos.",
+    "strategy": "El Trirreme es la primera unidad naval que hay disponible para las civilizaciones en el juego. Es una unidad de cuerpo a cuerpo que se enfrenta a las unidades en el mar o en las ciudades (pero no tiene ataque a distancia). Resulta \u00fatil para eliminar las naves b\u00e1rbaras de las aguas nacionales y para exploraciones limitadas (no puede entrar en hex\u00e1gonos de aguas profundas oce\u00e1nicas que est\u00e9n fuera de las fronteras de la ciudad a menos que sea de Polinesia).",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede entrar en aguas oce\u00e1nicas profundas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

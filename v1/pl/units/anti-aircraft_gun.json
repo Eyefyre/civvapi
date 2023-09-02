@@ -1,0 +1,27 @@
+{
+    "id": 38,
+    "name": "Dzia\u0142a przeciwlotnicze|Dzia\u0142 przeciwlotniczych|Dzia\u0142om przeciwlotniczym|Dzia\u0142a przeciwlotnicze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/anti-aircraft_gun.png",
+    "game_info": "B\u0119dzie przechwytywa\u0107 nieprzyjacielskie lotnictwo, pr\u00f3buj\u0105ce zbombardowa\u0107 pobliskie jednostki.",
+    "historical_info": "Te armaty wystrzeliwuj\u0105 pociski w powietrze. Kiedy osi\u0105gaj\u0105 one wcze\u015bniej ustalon\u0105 wysoko\u015b\u0107, eksploduj\u0105, wysy\u0142aj\u0105c rozszerzaj\u0105c\u0105 si\u0119 kul\u0119 \u015bmiertelnych szrapneli w kierunku pobliskiego statku powietrznego. Dzia\u0142a przeciwlotnicze (\u201eplot.\u201d) s\u0105 wra\u017cliwe na ataki z ziemi \u2013 je\u015bli pozostaj\u0105 bez ochrony, mo\u017ce \u0142atwo je zniszczy\u0107 ka\u017cda wroga piechota lub inny oddzia\u0142.",
+    "strategy": "Te wyspecjalizowane jednostki artylerii automatycznie atakuj\u0105 jednostki powietrzne bombarduj\u0105ce cel w odleg\u0142o\u015bci 2 p\u00f3l. (Mog\u0105 przechwyci\u0107 tylko jedn\u0105 jednostk\u0119 na tur\u0119.) S\u0105 s\u0142abe w walce z innymi oddzia\u0142ami l\u0105dowymi i powinny by\u0107 chronione przez silniejsze jednostki, je\u015bli zagra\u017ca im atak z ziemi.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Balistyka|Balistyki|Balistyce|Balistyk\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Przechwytywanie (100)|Przechwytywania (100)|Przechwytywaniu (100)|Przechwytywanie (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/interception_(100).json"
+        },
+        {
+            "name": "Premia przeciwko samolotom i \u015bmig\u0142owcom (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

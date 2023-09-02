@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Terrassenfeldbau",
+    "game_info": "Terrassenfeldbau entstand in vielen bergigen Gebieten auf der ganzen Welt gleichzeitig, darunter Bali, die Philippinen, China und Peru. Die kargen, gestuften Felder an H\u00fcgel- und Bergh\u00e4ngen werden so angelegt, dass die Bew\u00e4sserung nicht ablaufen kann und so Ackerland entsteht, wo dies vorher nicht m\u00f6glich war. Insbesondere die Inka waren Meister im Terrassenfeldbau und errichteten gro\u00dfe Trockenmauern, um ihre Terrassen zu fixieren. Nachdem die Form der Terrasse realisiert worden war, konstruierten die Inka Kanalsysteme und Aqu\u00e4dukte, um eine konstante Wasserversorgung der Terrassen sicherzustellen und so die Fruchtbarkeit des Landes zu erh\u00f6hen. Die Terrassenfeldbau-Techniken der alten Inka waren so erfolgreich, dass moderne peruanische Bauern sie bis zum heutigen Tag einsetzen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/terrassenfeldbau.png",
+    "nearby_mountain_bonus": {
+        "food": 1
+    },
+    "can_be_built_on": [
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Bauwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "The Inca",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/civilizations/the_inca.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

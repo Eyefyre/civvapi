@@ -1,0 +1,45 @@
+{
+    "id": 73,
+    "name": "Rob\u00f3tica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/robotics.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "Si bien han existido diversos tipos de aut\u00f3matas y m\u00e1quinas desde edades tan tempranas como el siglo I d. C., el primer artilugio completamente aut\u00f3nomo no apareci\u00f3 hasta mediados del siglo XX. El escritor de ciencia ficci\u00f3n Isaac Asimov acu\u00f1\u00f3 el t\u00e9rmino \"rob\u00f3tica\" de modo casual en 1941 con su relato \u00a1Embustero!, dando por sentado que la palabra ya deb\u00eda de existir si se usaban otras como \"electr\u00f3nica\". El estudio de la rob\u00f3tica cubre todos los aspectos del dise\u00f1o electr\u00f3nico, mec\u00e1nico y de software, as\u00ed como las distintas formas en que la m\u00e1quina percibe e interact\u00faa con su entorno.Los robots industriales de dise\u00f1o simple se utilizan desde principios de la d\u00e9cada de 1960, pero siempre se est\u00e1n desarrollando otros m\u00e1s potentes y sofisticados. Adem\u00e1s de su evidente utilidad en tareas repetitivas que requieren de gran precisi\u00f3n, se pretende que la rob\u00f3tica sirva para crear miembros prot\u00e9sicos funcionales, robots humanoides que caminen erguidos y m\u00e1quinas capaces de reconocer y reproducir gestos, emociones y expresiones humanas.Pese a que la industria del espect\u00e1culo ha ganado miles de millones a costa del miedo que subyace en la idea de que los robots puedan rebelarse contra sus amos, la rob\u00f3tica sigue estando muy limitada en cuanto al desarrollo de la inteligencia artificial. Puede que sean extremadamente \u00fatiles para llevar a cabo una serie de tareas o instrucciones prefijadas, pero los robots a\u00fan no gozan de capacidades aut\u00f3nomas de pensamiento ni raciocinio, lo que limita en cierto modo su utilidad en un futuro previsible (as\u00ed que no parece posible que seamos esclavizados por aspiradoras con conciencia de s\u00ed mismas).",
+    "quote": "\"1. Un robot no debe da\u00f1ar a un ser humano o, por su inacci\u00f3n, dejar que un ser humano sufra da\u00f1o.2. Un robot debe obedecer las \u00f3rdenes que le d\u00e9 un ser humano, excepto si estas \u00f3rdenes entran en conflicto con la primera ley.3. Un robot debe proteger su propia vida, siempre y cuando esta protecci\u00f3n no entre en conflicto con la primera o la segunda ley.\" - Isaac Asimov",
+    "tech_prereqs": [
+        {
+            "name": "Coheter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+        },
+        {
+            "name": "Ordenadores",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/computers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fusion.json"
+        },
+        {
+            "name": "Invisibilidad ante el radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/stealth.json"
+        },
+        {
+            "name": "Nanotecnolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nanotechnology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Crucero portamisiles|Cruceros portamisiles",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/missile_cruiser.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "F\u00e1brica de naves espaciales|F\u00e1bricas de naves espaciales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/spaceship_factory.json"
+        }
+    ]
+}

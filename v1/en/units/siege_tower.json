@@ -1,0 +1,43 @@
+{
+    "id": 126,
+    "name": "Siege Tower",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/siege_tower.png",
+    "game_info": "Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians.",
+    "historical_info": "The oldest known siege towers date to their use by the armies of the neo-Assyrian Empire c. 9th Century BC. Bas-reliefs from the reign of Ashurbanipal II depict siege towers at the walls of enemy towns. At the time, mud-brick walls were generally sufficient protection against the ancient armies of Mesopotamia, but siege towers used by the Assyrians allowed them to overwhelm enemy towns quickly and efficiently, providing their empire with a means to grow virtually unchecked for three centuries.",
+    "strategy": "This melee siege unit must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Mathematics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sapper",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/sapper.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Cover I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cover_i.json"
+        },
+        {
+            "name": "City Attack Only",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/city_attack_only.json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 43,
+    "name": "Federazione mercantile",
+    "game_info": "Federazione mercantile+2 Oro dalle Rotte commerciali con le citt\u00e0-stato.",
+    "historical_info": "Pi\u00f9 comunemente chiamata lega o gilda commerciale, una Federazione mercantile era creata per proteggere gli interessi economici e i privilegi diplomatici dei mercanti nelle citt\u00e0 e nelle nazioni che si trovano lungo le rotte commerciali. Queste confederazioni di mercanti non avevano un riconoscimento giuridico, ma molte di esse, come la Compagnia dei Mercanti Avventurieri di Londra (fondata nel 1407) e l'ancor pi\u00f9 potente Lega Anseatica (formata intorno al 1356), avevano una grande influenza economica, arrivando a dominare specifiche rotte commerciali per lunghi periodi. All'inizio del Rinascimento vennero formate federazioni mercantili in citt\u00e0-stato come Venezia e Genova per proteggere gli interessi di chi commerciava in determinate mercanzie nei periodi in cui si trovava all'estero. Queste leghe mercantili raggiunsero il loro apice nel XV e nel XVI Secolo, ma andarono in declino con l'affermarsi dei governi nazionali e delle compagnie promosse ufficialmente dai sovrani, che gradualmente si assunsero le responsabilit\u00e0 diplomatiche e di gestione precedentemente affidate alle leghe.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/federazione_mercantile.png",
+    "required_policies": [
+        {
+            "name": "Scolastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/scholasticism.json"
+        },
+        {
+            "name": "Consolati",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/consulates.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Mecenatismo",
+        "game_info": "Il Mecenatismo aumenta i benefici derivanti dall'amicizia con le citt\u00e0-stato. Adottare il Mecenatismo far\u00e0 s\u00ec che la tua Influenza sulle citt\u00e0-stato diminuisca con una velocit\u00e0 ridotta del 25% rispetto al caso normale. Sblocca la costruzione della Citt\u00e0 Proibita.Adottando tutte le Politiche nell'albero del Mecenatismo, le citt\u00e0-stato alleate ti doneranno occasionalmente un Grande Personaggio.",
+        "prereq_era": "Epoca classica",
+        "historical_info": "Il mecenatismo \u00e8 il fenomeno per cui le persone ricche e potenti di una societ\u00e0 - spesso i nobili - supportano gli artigiani e gli artisti di talento. In molte societ\u00e0 antiche la ricchezza era concentrata nelle mani di pochi: la famiglia reale, per esempio, o i nobili mercanti. Pittori, scultori, musicisti e altri artisti di talento lavoravano per pochi eletti, dato che solo loro si potevano permettere di pagarli. Forse questo sistema non \u00e8 molto equo nei confronti della gente comune, ma ha dato origine a brillanti capolavori di geni come Leonardo da Vinci, Ben Johnson e Mozart. Oggi il sistema gode di un certo revival, ma al posto dei singoli individui ci sono le mega-corporazioni, a cui piace assumere il ruolo di benefattori delle arti."
+    }
+}

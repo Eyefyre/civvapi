@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Barco faenero|Barcos faeneros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/work_boat.png",
+    "game_info": "Puedes crear mejoras en los recursos acu\u00e1ticos, como la Pesca . El Barco faenero se consumir\u00e1 en el proceso. Es incapaz de defenderse y se destruir\u00e1 si entra en contacto con un enemigo.",
+    "historical_info": "El mar puede aportar mucho a una civilizaci\u00f3n: desde prote\u00ednas en forma de pescado hasta la energ\u00eda de las ballenas o el petr\u00f3leo. A lo largo de toda la historia de la humanidad, hombres y mujeres intr\u00e9pidos se han adentrado en los mares para recoger sus tesoros. Sin duda, seguir\u00e1n haci\u00e9ndolo hasta el final de los tiempos, \"cuando el mar entregue sus muertos\".",
+    "strategy": "Esta unidad solamente se puede construir en ciudades costeras. Usa los Barcos faeneros para mejorar los recursos acu\u00e1ticos (Pesca, Ballenas, Petr\u00f3leo, etc.). El Barco faenero queda destruido tras construir la mejora. Estas unidades no pueden adentrarse en hex\u00e1gonos oce\u00e1nicos hasta que se descubra la Astronom\u00eda. Tampoco pueden entrar en combate.",
+    "movement": 4,
+    "cost": {
+        "production": 50,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Necesita la Astronom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/astronomy_needed.json"
+        }
+    ]
+}

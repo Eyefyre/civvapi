@@ -1,0 +1,44 @@
+{
+    "id": 6,
+    "name": "Vela|della Vela",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/sailing.png",
+    "era": "Epoca antica",
+    "cost": 55,
+    "civilopedia_entry": "L'arte della vela permette di sfruttare la potenza del vento per spostare un'imbarcazione sull'acqua. Per avere successo, la navigazione a vela richiede di padroneggiare diverse abilit\u00e0. Per prima cosa una cultura dev'essere in grado di costruire un'imbarcazione capace di affrontare il mare. In secondo luogo deve produrre robuste vele che possano catturare il vento e trasmettere la sua energia allo scafo. Terzo, deve saper realizzare le varie corde, sartie e carrucole necessarie per controllare le vele una volta messe in opera. Infine, dev'essere capace di pilotare con successo il natante dalla partenza alla destinazione senza perdersi n\u00e9 incappare in qualche altro inconveniente.Le prime testimonianze di navigazione a vela sono state rinvenute in Egitto sotto forma di illustrazioni e risalgono al 4000 a.C. circa. Appartenendo a una civilt\u00e0 sviluppatasi lungo un fiume, gli Egizi erano eccellenti marinai. Molti dei loro vascelli combinavano vele e remi: questi ultimi erano utilizzati quando i venti non erano abbastanza forti o non spiravano da una direzione favorevole.Gi\u00e0 nel 3000 a.C. gli Egizi avevano cominciato ad avventurarsi nel Mediterraneo, sfidando la traversata in mare aperto che portava verso Creta e pi\u00f9 tardi nelle terre dei Fenici. Inoltre navigavano verso sud lungo la costa dell'Africa per esplorare, effettuare scambi commerciali e cercare tesori.Le prime navi da guerra, come biremi e triremi, erano spinte sia dai remi sia dalle vele e montavano sulla prua rostri o arieti. Durante la battaglia il timoniere avrebbe cercato di speronare il nemico ad alta velocit\u00e0 mentre cercava di evitare un trattamento analogo. Alcune navi trasportavano arcieri per attaccare il nemico dalla distanza, altre invece imbarcavano truppe; queste ultime avrebbero cercato di abbordare gli altri vascelli per andare all'assalto e catturarli.I Greci - e in particolare gli Ateniesi e i loro alleati delle colonie isolane - erano dei veri maestri della guerra sul mare. Una delle ragioni principali per cui la Grecia riusc\u00ec a sconfiggere la Persia, un nemico molto pi\u00f9 grande e potente, sta proprio nel fatto che la flotta ateniese dominava il Mar Egeo e minacciava costantemente le linee di approvvigionamento persiane, sempre pi\u00f9 lunghe e fragili.",
+    "quote": "\"Chi ha il dominio del mare ha il dominio di tutto.\" - Temistocle",
+    "tech_prereqs": [
+        {
+            "name": "Ceramica|della Ceramica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Ottica|dell'Ottica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/optics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Chiatta|una Chiatta|dalla tua Chiatta|alla tua Chiatta|la tua Chiatta|da una Chiatta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/work_boat.json"
+        },
+        {
+            "name": "Trireme|una Trireme|dalla tua Trireme|alla tua Trireme|la tua Trireme|da una Trireme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/trireme.json"
+        },
+        {
+            "name": "Dromone|un Dromone|dal tuo Dromone|al tuo Dromone|il tuo Dromone|da un Dromone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/dromon.json"
+        },
+        {
+            "name": "Quinquereme|una Quinquereme|dalla tua Quinquereme|alla tua Quinquereme|la tua Quinquereme|da una Quinquereme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/quinquereme.json"
+        },
+        {
+            "name": "Nave da carico|una Nave da carico|dalla tua Nave da carico|alla tua Nave da carico|la tua Nave da carico|da una Nave da carico",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/cargo_ship.json"
+        }
+    ],
+    "building_unlocks": []
+}

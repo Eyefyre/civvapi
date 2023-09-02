@@ -1,0 +1,20 @@
+{
+    "id": 53,
+    "name": "Scuola di navigazione",
+    "game_info": "Scuola di navigazioneUn Grande Ammiraglio compare in gioco. +2 al [ICON_MOVES] movimento di tutti i Grandi Ammiragli. Inoltre i Grandi Ammiragli sono generati il 50% pi\u00f9 velocemente.",
+    "historical_info": "Nel 1418 d.C. il principe Enrico del Portogallo fond\u00f2 a Sagres la prima scuola di navigazione oceanica, insieme a un osservatorio astronomico. L\u00ec i capitani portoghesi potevano imparare a determinare la propria posizione in mare e a disegnare mappe, apprendere la scienza delle maree e delle correnti e altre capacit\u00e0 che li avrebbero messi in grado di percorrere le coste dell'Africa, dove Enrico intendeva stabilire una serie di porti verso le ricchezze del lontano Oriente. Nel Seicento, quando la corsa all'esplorazione e alla colonizzazione raggiunse il suo picco, la maggior parte dei reali d'Europa segu\u00ec l'esempio di Enrico e stabil\u00ec delle scuole di navigazione.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/scuola_di_navigazione.png",
+    "required_policies": [
+        {
+            "name": "Tradizione navale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/naval_tradition.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Esplorazione",
+        "game_info": "L'Esplorazione migliora la tua capacit\u00e0 di espandere l'impero oltremare.Adottare l'Esplorazione aggiunge +1 al [ICON_MOVES] movimento di tutte le unit\u00e0 navali e +1 al raggio di visione delle unit\u00e0 navali da combattimento. Sblocca la costruzione del Louvre.Adottarne tutte le politiche ti permette di vedere i Siti Archeologici Nascosti sulla mappa; inoltre consente l'acquisto di Grandi Ammiragli in cambio di Fede a partire dall'epoca industriale.",
+        "prereq_era": "Epoca medievale",
+        "historical_info": "Da quando i primi uomini si sono insediati in un luogo fisso, ci sono sempre state persone spinte a guardare al di l\u00e0 dell'orizzonte. Motivati da profitto, avventura, religione, necessit\u00e0 o solo dalla curiosit\u00e0, gli esploratori hanno ampliato la nostra conoscenza del mondo e delle sue meraviglie. Le esplorazioni hanno messo in contatto culture diverse e lontane, nel bene e nel male. I grandi esploratori, dal cartaginese Hanno all'ammiraglio cinese Wang Dayuan, dall'inglese Sir Richard Burton a migliaia di altri, hanno guidato l'espansione della civilt\u00e0 e dato forma alla storia."
+    }
+}

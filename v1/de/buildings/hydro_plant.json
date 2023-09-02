@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Wasserkraftwerk",
+    "game_info": "+1 Produktion in jedem Gel\u00e4ndefeld an einem Fluss. Ben\u00f6tigt 1 Aluminium.Stadt muss an einem Fluss liegen.",
+    "strategy": "Das Wasserkraftwerk ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das nur in St\u00e4dten gebaut werden kann, die an einem Fluss liegen. Das Wasserkraftwerk erh\u00f6ht die Produktion jedes Gel\u00e4ndefelds, das von der Stadt bewirtschaftet wird und ebenfalls an dem Fluss liegt. Beim Bau des Wasserkraftwerks wird 1 Aluminium verbraucht.",
+    "historical_info": "Ein Wasserkraftwerk ist ein Geb\u00e4ude, das Bewegungsenergie aus Wasserf\u00e4llen in elektrische Energie umwandelt. Je gr\u00f6\u00dfer die Wassermasse und die Distanz sind, die sie f\u00e4llt, umso mehr Strom kann das Kraftwerk erzeugen. Der Drei-Schluchten-Damm in China ist das gr\u00f6\u00dfte Wasserkraftwerk, das jemals gebaut wurde. Bei der Fertigstellung wird es etwa 22.500 Megawatt erzeugen, das Zehnfache des amerikanischen Hoover-Staudamms.Wasserkraftwerke werden in der Regel als gr\u00fcne Energiequelle angesehen, auch wenn sie gro\u00dfen Einfluss auf lokale Fischbest\u00e4nde haben k\u00f6nnen. In K\u00fcstengebieten werden auch Wasserkraftwerke gebaut, die Energie aus dem Wechsel der Gezeiten gewinnen.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wasserkraftwerk.png",
+    "prereq_tech": {
+        "name": "Elektrizit\u00e4t",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Pi\u00e8ces de rechange",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "\u00c8re moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Les pi\u00e8ces de rechange constituent la base d'un proc\u00e9d\u00e9 de fabrication consistant \u00e0 produire de nombreuses copies d'un objet \u00e0 partir de pi\u00e8ces identiques. Ce proc\u00e9d\u00e9, qui permet un accroissement consid\u00e9rable de la vitesse et de la rentabilit\u00e9 de la fabrication, servit de catalyseur \u00e0 la R\u00e9volution industrielle du XIXe si\u00e8cle.L'un des moteurs de la cr\u00e9ation des pi\u00e8ces de rechange fut le d\u00e9sir d'armer rapidement les soldats. \u00c0 l'origine, les mousquets \u00e9taient fabriqu\u00e9s par des artisans, et il n'existait pas deux mod\u00e8les identiques. En effet, l'un des artisans allait produire des armes aux canons l\u00e9g\u00e8rement plus longs, l'autre proposer une g\u00e2chette plus ou moins grosse. Pour le propri\u00e9taire de l'arme, cela ne posait pas de probl\u00e8me particulier : en cas de casse, il lui suffisait de l'apporter \u00e0 l'artisan qui l'avait con\u00e7u pour qu'il le r\u00e9pare. Mais lorsqu'une arm\u00e9e de mille hommes avait besoin de mousquets rapidement, cela \u00e9tait tout bonnement irr\u00e9alisable.Cependant, si toutes les armes \u00e9taient identiques, il suffisait de remplacer une pi\u00e8ce usag\u00e9e par n'importe quelle autre pi\u00e8ce de m\u00eame type \u00f4t\u00e9e \u00e0 une arme d\u00e9t\u00e9rior\u00e9e. De plus, un soldat qui s'\u00e9tait entra\u00een\u00e9 avec un mousquet pouvait se servir de n'importe quel autre mousquet sans avoir \u00e0 se familiariser avec ses \u00e9ventuelles particularit\u00e9s.Peu \u00e0 peu, tous les produits manufactur\u00e9s aux quatre coins de la plan\u00e8te furent constitu\u00e9s de pi\u00e8ces rempla\u00e7ables. La plupart des artisans sont aujourd'hui devenus des artistes, et leurs \u0153uvres sont bien trop on\u00e9reuses pour le consommateur moyen.",
+    "quote": "\"Rien n'est particuli\u00e8rement difficile si on le subdivise en petites t\u00e2ches.\" - Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        },
+        {
+            "name": "\u00c9lectricit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Mati\u00e8res plastiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/plastics.json"
+        },
+        {
+            "name": "\u00c9lectronique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "L\u00e9gion \u00e9trang\u00e8re|L\u00e9gion \u00e9trang\u00e8re",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/foreign_legion.json"
+        },
+        {
+            "name": "Infanterie de la Grande Guerre|Infanteries de la Grande Guerre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Base militaire|Bases militaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/military_base.json"
+        },
+        {
+            "name": "Statue de la Libert\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/statue_of_liberty.json"
+        }
+    ]
+}

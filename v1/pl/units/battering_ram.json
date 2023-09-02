@@ -1,0 +1,43 @@
+{
+    "id": 107,
+    "name": "Taran|Tarana|Taranowi|Taran",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battering_ram.png",
+    "game_info": "Jednostka obl\u0119\u017cnicza, zab\u00f3jcza dla miast w walce z bliska. Jedynie Hunowie mog\u0105 j\u0105 stworzy\u0107.",
+    "historical_info": "Taran to machina obl\u0119\u017cnicza u\u017cywana g\u0142\u00f3wnie w staro\u017cytno\u015bci. S\u0142u\u017cy\u0142 wy\u0142\u0105cznie do jednego celu, kt\u00f3rym by\u0142o rozbijanie ci\u0119\u017ckich drewnianych bram \u00f3wczesnych budowli. Cho\u0107 tarany r\u00f3\u017cni\u0142y si\u0119 kszta\u0142tem i form\u0105, wszystkie dzia\u0142a\u0142y na tej samej zasadzie. Na wozie lub innej platformie ko\u0142owej montowano ci\u0119\u017cki pie\u0144 lub s\u0142up, bujaj\u0105cy si\u0119 na \u0142a\u0144cuchach lub linach. \u017bo\u0142nierze obs\u0142uguj\u0105cy taran odci\u0105gali pie\u0144 i wypuszczali go z si\u0142\u0105 niezb\u0119dn\u0105 do rozbicia wr\u00f3t. Nie zachowa\u0142o si\u0119 wiele \u017ar\u00f3de\u0142 opisuj\u0105cych spos\u00f3b, w jaki Hunowie wykorzystywali t\u0119 bro\u0144 obl\u0119\u017cnicz\u0105, wiadomo jednak, \u017ce z powodzeniem wykorzystali tarany podczas obl\u0119\u017ce\u0144 wielu du\u017cych miast Europy.",
+    "strategy": "Tarany to unikatowa jednostka Hun\u00f3w zast\u0119puj\u0105ca w\u0142\u00f3cznik\u00f3w. U\u017cywaj taran\u00f3w w celu niszczenia fortyfikacji miast. Awans os\u0142ony I zapewnia im ochron\u0119 przed jednostkami dystansowymi; wysy\u0142aj przeciw nim jednostki walcz\u0105ce wr\u0119cz, aby je pokona\u0107.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciwko miastom (300)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(300).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Kara w obronie (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_on_defense_(33).json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        },
+        {
+            "name": "Os\u0142ona I|Os\u0142ony I|Os\u0142onie I|Os\u0142on\u0119 I",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/cover_i.json"
+        },
+        {
+            "name": "Jednostka mo\u017ce atakowa\u0107 tylko miasta",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/city_attack_only.json"
+        }
+    ]
+}

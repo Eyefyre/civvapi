@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "\u00c9quitation",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "\u00c8re classique",
+    "cost": 105,
+    "civilopedia_entry": "L'\u00e9quitation fut probablement d\u00e9velopp\u00e9e au deuxi\u00e8me mill\u00e9naire av. J.-C. (peut-\u00eatre m\u00eame avant) par les peuples nomades d'Asie centrale. Le cheval \u00e9tait d\u00e9j\u00e0 domestiqu\u00e9 depuis longtemps, mais l'anc\u00eatre de l'animal \u00e9tait trop petit pour la monte. Ce n'est que lorsque la taille de l'animal devint suffisante que l'\u00e9quitation devint v\u00e9ritablement un savoir-faire pratique. Les Scythes, des nomades antiques, \u00e9taient des cavaliers accomplis. Ils sont peut-\u00eatre les inventeurs des premiers mod\u00e8les de selles et d'\u00e9triers (bien qu'ils n'aient probablement utilis\u00e9 ces derniers que pour monter et descendre de cheval). Si l'on en croit les historiens grecs, les Scythes furent les premiers \u00e0 hongrer (castrer) les chevaux trop sauvages, afin de les rendre plus dociles et faciles \u00e0 monter.Aux alentours de 1500 av. J.-C., nombreux \u00e9taient les peuples du Croissant fertile (Hittites, Assyriens et Babyloniens) qui combattaient \u00e0 cheval. Ce fut \u00e0 cette p\u00e9riode que les chevaux arriv\u00e8rent en \u00c9gypte. Du temps d'Alexandre le Grand, les tactiques de cavalerie \u00e9taient nettement plus perfectionn\u00e9es, et la \"cavalerie des Compagnons\" d'Alexandre fut probablement constitu\u00e9e des combattants les plus puissants et les plus efficaces du monde m\u00e9diterran\u00e9en.",
+    "quote": "\"Un cheval ! Un cheval ! Mon royaume pour un cheval !\" - Shakespeare (Richard III)",
+    "tech_prereqs": [
+        {
+            "name": "La roue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+        },
+        {
+            "name": "Pi\u00e8ge",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Administration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cavalier|Cavaliers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/horseman.json"
+        },
+        {
+            "name": "Cavalerie des Compagnons|Cavaleries des Compagnons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/companion_cavalry.json"
+        },
+        {
+            "name": "Cataphractaire|Cataphractaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/cataphract.json"
+        },
+        {
+            "name": "\u00c9l\u00e9phant de for\u00eat d'Afrique|\u00c9l\u00e9phants de for\u00eat d'Afrique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "\u00c9curie|\u00c9curies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/stable.json"
+        },
+        {
+            "name": "Circus Maximus",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/circus_maximus.json"
+        },
+        {
+            "name": "\u00c9curie ducale|\u00c9curies ducales",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Caravans\u00e9rail|Caravans\u00e9rails",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/caravansary.json"
+        }
+    ]
+}

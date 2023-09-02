@@ -1,0 +1,32 @@
+{
+    "id": 3,
+    "name": "\u00c9levage",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/animal_husbandry.png",
+    "era": "Antiquit\u00e9",
+    "cost": 35,
+    "civilopedia_entry": "L'\u00e9levage semble \u00eatre apparu \u00e0 peu pr\u00e8s en m\u00eame temps que l'agriculture. Le chien serait le premier animal \u00e0 avoir \u00e9t\u00e9 domestiqu\u00e9 par l'homme, probablement pour l'assister \u00e0 la chasse et au combat. Certains indices sugg\u00e8rent que les premiers chiens furent dress\u00e9s et \u00e9lev\u00e9s en Chine (\u00e0 ce propos, les g\u00e9n\u00e9ticiens pensent que 95% des chiens d'aujourd'hui descendent d'une poign\u00e9e d'animaux chinois). Les ch\u00e8vres et les moutons furent domestiqu\u00e9s au Moyen-Orient aux environs de 10 000 av. J.-C.Pour parvenir \u00e0 domestiquer un animal, plusieurs crit\u00e8res doivent \u00eatre r\u00e9unis. Il doit : pouvoir s'alimenter en mangeant de la nourriture qui n'int\u00e9resse pas les humains (comme de l'herbe, des nuisibles ou des restes de repas) ; pouvoir se d\u00e9velopper tr\u00e8s vite (afin de devenir exploitable tr\u00e8s t\u00f4t, et pour que les modifications g\u00e9n\u00e9tiques, ne pouvant survenir qu'\u00e0 chaque nouvelle g\u00e9n\u00e9ration, apparaissent plus rapidement) ; ne pas \u00eatre farouche ; ne pas succomber facilement \u00e0 la panique ou, dans le cas contraire, rester avec ses semblables, et ce afin qu'hommes ou chiens puissent les garder en troupeaux ; et enfin, dans le meilleur des cas, on doit pouvoir lui apprendre \u00e0 consid\u00e9rer l'homme comme son chef de meute.Les scientifiques pensent que les chevaux ont \u00e9t\u00e9 domestiqu\u00e9s pour la premi\u00e8re fois en Ukraine entre 4000 et 3500 av. J.-C. Il est fort probable qu'ils aient d'abord \u00e9t\u00e9 \u00e9lev\u00e9s pour leur viande, avant d'\u00eatre utilis\u00e9s comme animaux de trait (ce qui arriva un demi-mill\u00e9naire plus tard, dans la majeure partie de l'Europe et de l'Asie). Au bout de plusieurs milliers d'ann\u00e9es, les programmes d'\u00e9levage intensif ont donn\u00e9 naissance \u00e0 un animal domestiqu\u00e9 bien plus grand et puissant que le cheval sauvage d'origine. Suite \u00e0 l'invention du collier et, plus tard, de la selle, les chevaux devinrent les animaux domestiques les plus pr\u00e9cieux de l'histoire humaine (tout du moins en Eurasie et en Afrique du Nord : en effet, les indig\u00e8nes des trois Am\u00e9riques ont longtemps mang\u00e9 leurs chevaux avant de commencer \u00e0 les domestiquer).",
+    "quote": " \"Tu n'emmuselleras point ton b\u0153uf, lorsqu'il foule le grain.\" - La Bible, Deut\u00e9ronome, 25:4",
+    "tech_prereqs": [
+        {
+            "name": "Agriculture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pi\u00e8ge",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/trapping.json"
+        },
+        {
+            "name": "La roue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Caravane|Caravanes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/caravan.json"
+        }
+    ],
+    "building_unlocks": []
+}

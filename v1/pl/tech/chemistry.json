@@ -1,0 +1,32 @@
+{
+    "id": 41,
+    "name": "Chemia|Chemii|Chemii|Chemi\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/chemistry.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 1150,
+    "civilopedia_entry": "Jako dziecko alchemii i matematyki, chemia jest nauk\u0105 o materii, jej strukturze, zachowaniu, sk\u0142adzie oraz o tym, jak zachowuje si\u0119 ona w reakcjach chemicznych. Fizycy zrzucaj\u0105 kule z wie\u017c i mierz\u0105 czas ich upadku, chemicy za\u015b badaj\u0105 same kule i staraj\u0105 si\u0119 dociec, czemu jedne z nich si\u0119 t\u0142uk\u0105, a inne odbijaj\u0105.Chocia\u017c naukowcy, lekarze i filozofowie byli zainteresowani chemi\u0105 od dawna, osi\u0105gn\u0119\u0142a zaszczytny status nauki dopiero w roku 1789, kiedy Antoine Lavoisier odkry\u0142 sk\u0142ad powietrza oraz wody i uku\u0142 nazw\u0119 \u201etlen\u201d. Zdemaskowa\u0142 r\u00f3wnie\u017c teori\u0119 flogistonu, kt\u00f3ra sprowadza\u0142a naukowc\u00f3w na manowce przez ponad 100 lat.Lavoisier uznawany jest za ojca wsp\u00f3\u0142czesnej chemii. Dany przez niego przyk\u0142ad nakaza\u0142 innym chemikom stosowa\u0107 metod\u0119 naukow\u0105 do badania zwi\u0105zk\u00f3w chemicznych. Czyni\u0105c tak, byli w stanie obali\u0107 teorie, kt\u00f3re uznawane by\u0142y za \u015bwi\u0119to\u015b\u0107 od czas\u00f3w staro\u017cytnych Grek\u00f3w.",
+    "quote": "\u201eGdziekolwiek spojrze\u0107, praca chemika podnios\u0142a nasz poziom cywilizacyjny i zwi\u0119kszy\u0142a mo\u017cliwo\u015bci produkcyjne narodu.\u201d \u2013 Calvin Coolidge",
+    "tech_prereqs": [
+        {
+            "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+        },
+        {
+            "name": "Naw\u00f3z|Nawozu|Nawozowi|Naw\u00f3z",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/fertilizer.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Dzia\u0142a|Dzia\u0142|Dzia\u0142om|Dzia\u0142a",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/cannon.json"
+        }
+    ],
+    "building_unlocks": []
+}

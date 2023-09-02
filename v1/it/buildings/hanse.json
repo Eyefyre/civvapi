@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hansa|l'Hansa|un'Hansa",
+    "game_info": "Edificio esclusivo della Germania; sostituisce la Banca. +5% alla Produzione per ogni Rotta commerciale fra la tua civilt\u00e0 e una citt\u00e0-stato. Le Rotte commerciali che gli altri giocatori instaurano in una citt\u00e0 che possiede un'Hansa frutteranno 1 Oro extra al possessore della citt\u00e0, mentre il possessore della Rotta commerciale guadagner\u00e0 1 Oro in pi\u00f9.",
+    "strategy": "In aggiunta ai normali vantaggi della Banca ( Oro extra e aumento della resa in Oro delle Rotte commerciali), un'Hansa fornisce Produzione per ogni Rotta commerciale che collega la tua civilt\u00e0 a una citt\u00e0-stato. Queste Rotte commerciali possono avere origine da qualsiasi combinazione di citt\u00e0, anche da quelle che non possiedono necessariamente un'Hansa (esempio: se ci sono Rotte commerciali fra Berlino e Ginevra, Monaco e Ginevra, Monaco e Berlino, Berlino e Bruxelles, tutte le citt\u00e0 con un'Hansa otterranno +15% Produzione). Solo la Germania pu\u00f2 costruirla.",
+    "historical_info": "L'Hansa, il cui nome deriva dall'alto tedesco medio \"Hanse\" (lett. \"raggruppamento\"), era una confederazione volontaria di mercanti che si organizzavano in una citt\u00e0 per favorire e proteggere il commercio e il trasporto. Nel XIII secolo queste gilde divennero estremamente potenti nei porti mercantili del Baltico e del Mare del Nord. \"Hansa\" era il nome dato ai complessi utilizzati come quartier generale: i pi\u00f9 grandi ospitavano non solo gli uffici amministrativi della gilda, ma anche depositi, sale per riunioni, mercati, banche e, se l'Hansa era vicina all'acqua, anche moli. La prima Hansa sembra essere quella costruita a Lubecca intorno al 1159 per facilitare il commercio tra l'Europa occidentale e le aree del nord della Russia, ricche di risorse. Le Hanse diedero il nome alla Lega Anseatica, formata intorno al 1250 da diverse gilde tedesche per regolamentare le rotte nel Baltico, standardizzare le lettere di pagamento e sviluppare il commercio nelle rispettive citt\u00e0. Fino alla fine del Seicento la Lega mantenne nell'ambito religioso un grande potere politico, economico e anche militare: oltre a conflitti minori, ricordiamo le guerre anseatiche contro l'Olanda (1438-1441) e l'Inghilterra (1470-1474).",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hansa|l'hansa|un'hansa.png",
+    "prereq_tech": {
+        "name": "Sistema bancario|del Sistema bancario",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

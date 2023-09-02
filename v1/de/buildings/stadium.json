@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stadion",
+    "game_info": "Kann nicht mehr Zufriedenheit bringen, als es B\u00fcrger in einer Stadt gibt. Stadt ben\u00f6tigt einen Zoo.",
+    "strategy": "Ein Stadion ist ein Geb\u00e4ude der Moderne, das die Zufriedenheit des Reichs erh\u00f6ht, aber nur so viel Zufriedenheit bringen kann, wie es B\u00fcrger in der Stadt gibt. Die Stadt muss bereits \u00fcber einen Zoo verf\u00fcgen, bevor sie ein Stadion bauen kann.",
+    "historical_info": "Ein Stadion ist die moderne Variante eines Kolosseums (die Auswahl an Snacks ist vermutlich besser). In modernen Stadien finden bis zu 100.000 kreischende Fans Platz, um Sportveranstaltungen, Konzerten oder politischen Versammlungen beizuwohnen. Moderne Sportfans sind kaum ruhiger als ihre Vorfahren der Antike, und die Stadien von heute sind mit Z\u00e4unen, Schutzgel\u00e4nder und Sicherheitspersonal ausgestattet, um wild gewordenen Fans Einhalt gebieten zu k\u00f6nnen.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadion.png",
+    "prereq_tech": {
+        "name": "K\u00fchltechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

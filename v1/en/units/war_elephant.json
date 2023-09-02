@@ -1,0 +1,27 @@
+{
+    "id": 73,
+    "name": "War Elephant",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_elephant.png",
+    "game_info": "A fast Ranged Unit highly effective on flat ground. Only the Indians may build it. This Unit has a higher Combat and Ranged Strength than the Chariot Archer, which it replaces.",
+    "historical_info": "A terrifying sight on the battlefield, often as dangerous to its own side as it was to the enemy, the war elephant could be considered the world's first weapon of mass destruction. Indians used elephants in war until the advent of gunpowder rendered them obsolete. In pre-gunpowder battle the war elephant served two primary purposes. First, their scent absolutely terrified horses, rendering the enemy's cavalry useless. Second, they could break through even the strongest line of infantry, crushing a wall of spears that no horse could ever surmount. Elephants were incredibly difficult to kill and history records them surviving sixty or more arrows. The primary problem with elephants was their tendency to go berserk with pain or rage, at which point they'd be impossible for their rider to control. Elephant riders often carried a spike and mallet that they could use to kill the animals if they attacked their own forces.",
+    "strategy": "The War Elephant is the Indian unique unit, replacing the Chariot Archer. It is more powerful (if slower) than the Chariot Archer and can move through any terrain without the Chariot Archer's penalty. A mounted unit, the War Elephant is quite vulnerable to the Spearman.",
+    "movement": 3,
+    "cost": {
+        "production": 70,
+        "faith": 140
+    },
+    "prereq_tech": {
+        "name": "The Wheel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

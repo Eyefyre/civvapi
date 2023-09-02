@@ -1,0 +1,35 @@
+{
+    "id": 43,
+    "name": "Kosak",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cossack.png",
+    "game_info": "Berittene Einheit, die es mit anderen modernen Infanterieeinheiten aufnehmen kann. Kann nur von den Russen erbaut werden. Diese Einheit hat einen Kampfbonus gegen Einheiten, die bereits Schaden erlitten haben.",
+    "historical_info": "Die Kosaken waren milit\u00e4rische Verb\u00e4nde, die in der Wildnis der Ukraine und Russlands lebten. Urspr\u00fcnglich bezog sich der Name speziell auf tatarische Stammesangeh\u00f6rige, doch Ende des 15. Jahrhunderts wurde er auch verwendet, um Bauern zu bezeichnen, die aus polnischer, litauischer und Moskauer Leibeigenschaft geflohen waren und sich in der Wildnis niedergelassen hatten. Die Kosaken geh\u00f6rten zu den besten nat\u00fcrlichen Reitern seit den Mongolen und dienten dem russischen Milit\u00e4r gegen besondere Privilegien f\u00fcr sich und ihre Gemeinschaften. Das russische Milit\u00e4r setzte die Kavallerie der Kosaken bis ins 20. Jahrhundert in allen gr\u00f6\u00dferen externen und internen Konflikten ein und w\u00e4hrend des Russischen B\u00fcrgerkriegs k\u00e4mpften ebenfalls auf beiden Seiten Kosaken. Unter Stalin wurden die Kosaken beinahe vollst\u00e4ndig vernichtet, doch nach dem Zerfall der Sowjetunion versuchen manche \u00dcberlebende, ihr Erbe fortzuf\u00fchren.",
+    "strategy": "Der Kosak ist eine Spezialeinheit der Russen und ersetzt die Kavallerie. Er ist genauso stark wie Kavallerie und kann sich auch nach dem Angriff bewegen. Der Kosak erh\u00e4lt jedoch einen erheblichen Kampfbonus im Kampf gegen besch\u00e4digte Einheiten. Das macht den Kosaken zu einer idealen Einheit f\u00fcr Gegenangriffe - der Feind reibt sich zuerst an den Bauern an der Front auf und wird dann von einem wilden Kosakenangriff niedergem\u00e4ht!",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Milit\u00e4rwissenschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Bonus gegen besch\u00e4digte Feindeinheiten (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/damaged_enemy_bonus_(33).json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 21,
+    "name": "Terraza de cultivo",
+    "game_info": "El cultivo en terrazas se desarroll\u00f3 a la vez en varias zonas monta\u00f1osas del mundo, incluyendo Bali, las Filipinas, China y Per\u00fa. Estos campos, angostos y escalonados, se cavan en las laderas de colinas y monta\u00f1as para impedir que se pierda el agua para regar y dar espacio para la tierra cultivable, normalmente donde no hab\u00eda ninguna antes. Los incas en particular eran maestros de esta t\u00e9cnica y erigieron grandes muros de piedra en seco para mantener sus terrazas. Tras construir \u00e9stas, los incas levantaban sistemas de canales y acueductos para proporcionarles agua constantemente, lo cual aumentaba la fertilidad de la tierra. Las antiguas t\u00e9cnicas de terrazas peruanas eran tan logradas que hasta los agricultores peruanos las siguen empleando en sus tierras en la actualidad.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/terraza_de_cultivo.png",
+    "nearby_mountain_bonus": {
+        "food": 1
+    },
+    "can_be_built_on": [
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/hill.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Construcci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+    },
+    "required_civ": {
+        "name": "The Inca",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/civilizations/the_inca.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "name": "Keshik|Keshiks",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/keshik.png",
+    "game_info": "Esta unidad exclusiva mongola sustituye al Caballero est\u00e1ndar. Posee un fuerte ataque a distancia, una mayor tasa de movimiento y obtiene ascensos un 50% m\u00e1s r\u00e1pido. Las batallas de las unidades tambi\u00e9n aportan el doble de puntos para la consecuci\u00f3n de un Gran general.",
+    "historical_info": "Los mongoles salieron del centro de Asia en el siglo XII y conquistaron la mayor parte de Asia, el este de Europa y buena parte de Oriente Medio en apenas un siglo. El arma principal de los mongoles fue su incomparable arquero a caballo, el Keshik. Los hijos de los mongoles, un grupo de tribus n\u00f3madas, pr\u00e1cticamente crec\u00edan a lomos de un caballo. Los mongoles, montados en sus peque\u00f1os pero vigorosos ponis de las estepas y pertrechados con armas y armaduras ligeras, pod\u00edan cubrir grandes distancias en un d\u00eda, superando largamente a la infanter\u00eda o incluso a la caballer\u00eda europea, mucho m\u00e1s pesada.Los Keshiks mongoles disparaban desde su caballo con una precisi\u00f3n mortal, desorganizando y desmoralizando a las formaciones enemigas. Cuando el enemigo estaba debilitado, la caballer\u00eda pesada mongola cargaba para dar el golpe de gracia. Para enfrentarse a la caballer\u00eda pesada europea, los mongoles se limitaban a disparar a sus caballos e ignorar o aplastar a los jinetes ca\u00eddos.",
+    "strategy": "El Keshik es una unidad exclusiva que sustituye al Caballero, y est\u00e1 disponible para los mongoles a partir de la Edad Media. Los Keshiks poseen un fuerte ataque a distancia y una tasa de movimiento aumentada (5 puntos en total), lo que les permite realizar ataques fugaces con gran eficacia. Por si no bastara con esto, el Keshik tambi\u00e9n adquiere ascensos el doble de r\u00e1pido que las dem\u00e1s unidades y contribuye con el doble de puntos a la obtenci\u00f3n de Grandes generales. Estos guerreros montados otorgan por s\u00ed solos el control de las llanuras a Gengis.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Grandes generales I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Estudio r\u00e1pido",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/quick_study.json"
+        }
+    ]
+}

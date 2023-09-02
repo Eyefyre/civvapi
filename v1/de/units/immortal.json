@@ -1,0 +1,27 @@
+{
+    "id": 76,
+    "name": "Krumms\u00e4belk\u00e4mpfer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/immortal.png",
+    "game_info": "Antike Einheit, die auf den Kampf gegen berittene Einheiten spezialisiert ist. Nur die Perser k\u00f6nnen sie bauen. Die Einheit hat eine h\u00f6here Kampfst\u00e4rke und heilt schneller als der Speerk\u00e4mpfer, den sie ersetzt.",
+    "historical_info": "Die persischen Krumms\u00e4belk\u00e4mpfer waren eine schwere Elite-Infanterie-Einheit. Die St\u00e4rke dieser Einheit betrug konstant 10.000 Mann, die das Herz der persischen (ach\u00e4menidischen) Armee bildeten. Die Krumms\u00e4belk\u00e4mpfer k\u00e4mpften unter Kyros dem Gro\u00dfen, Kambyses und Dareios dem Gro\u00dfen. Wenn sie nicht im Krieg waren, dienten sie als persische Palastwache. Die Krumms\u00e4belk\u00e4mpfer waren mit kurzen Speeren, Schwertern, B\u00f6gen und Pfeilen bewaffnet. Sie trugen au\u00dferdem leichte Schilde und Schuppenpanzer. Herodot berichtete: \"Jeder einzelne gl\u00e4nzte vor lauter Gold, das sie in unbegrenzten Mengen bei sich zu f\u00fchren schienen. Sie wurden von geschlossenen Kutschen voller Frauen und Diener begleitet, die allesamt in edle Gew\u00e4nder geh\u00fcllt waren. Au\u00dferdem wurden sie mit besonderer Nahrung versorgt, die dem Rest der Armee nicht zur Verf\u00fcgung standen ...\"",
+    "strategy": "Der Krumms\u00e4belk\u00e4mpfer ist die Spezialeinheit der Perser und ersetzt den Speerk\u00e4mpfer. Er ist etwas st\u00e4rker als der Speerk\u00e4mpfer und kann sich doppelt so schnell heilen. Gegen berittene Einheiten ist er ziemlich stark.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronzeverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Heilt doppelt so schnell",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/heals_at_double_rate.json"
+        }
+    ]
+}

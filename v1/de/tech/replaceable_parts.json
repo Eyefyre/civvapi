@@ -1,0 +1,49 @@
+{
+    "id": 54,
+    "name": "Normbauteile",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/replaceable_parts.png",
+    "era": "Moderne",
+    "cost": 3100,
+    "civilopedia_entry": "Der Begriff \"Normbauteile\" bezieht sich auf einen Produktionsprozess, bei dem viele Ausfertigungen eines bestimmten Artikels jeweils mit identischen Bauteilen hergestellt werden. Dieses Vorgehen erm\u00f6glicht eine starke Erh\u00f6hung von Geschwindigkeit und Rentabilit\u00e4t in der Produktion, was wiederum ein Motor f\u00fcr die Industrielle Revolution des 19. Jahrhunderts war.Durch den Wunsch, Soldaten mit Feuerwaffen auszustatten, wurde die Entwicklung von Normbauteilen angesto\u00dfen. Fr\u00fcher wurden Musketen von Handwerkern hergestellt, sodass jede einzelne Waffe sich leicht von der anderen unterschied - der eine Handwerker machte sein Gewehr ein bisschen l\u00e4nger, w\u00e4hrend ein anderer sein Gewehr mit einem gr\u00f6\u00dferen oder kleineren Abzug versah. F\u00fcr den Einzelnen war das kein Problem; wenn seine Muskete kaputtging, konnte er sie dem Handwerker, der sie hergestellt hatte, zur Reparatur zur\u00fcckgeben. Das war jedoch f\u00fcr eine Armee mit tausend Musketen keine Option.Wenn aber alle Bauteile einer Waffe identisch sind, kann ein Teil einer kaputten Muskete zur Reparatur einer anderen eingesetzt werden. Au\u00dferdem konnte ein Soldat, der mit einer bestimmten Muskete ausgebildet worden war, mit einer anderen Muskete sofort schie\u00dfen, ohne sich erst an die Besonderheiten der neuen Waffe gew\u00f6hnen zu m\u00fcssen.Inzwischen wird fast jedes Ger\u00e4t auf dem Planeten mit Normbauteilen hergestellt. Handwerker sind zu K\u00fcnstlern geworden, deren Waren sich durchschnittliche Konsumenten oft nicht leisten k\u00f6nnen.",
+    "quote": "\"Keine Aufgabe ist wirklich schwierig, solange man sie in einzelne Schritte aufteilt.\" - Henry Ford",
+    "tech_prereqs": [
+        {
+            "name": "Dampfmaschine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steam_power.json"
+        },
+        {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Plastik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+        },
+        {
+            "name": "Elektronik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fremdenlegion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/foreign_legion.json"
+        },
+        {
+            "name": "Weltkriegs-Infanterie|Weltkriegs-Infanterie|Weltkriegs-Infanterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/great_war_infantry.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Milit\u00e4rst\u00fctzpunkt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/military_base.json"
+        },
+        {
+            "name": "Freiheitsstatue",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/statue_of_liberty.json"
+        }
+    ]
+}

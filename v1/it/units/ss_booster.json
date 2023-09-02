@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "name": "Propulsore dell'astronave",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_booster.png",
+    "game_info": "Una delle parti di astronave che devono essere costruite e spostate nella capitale per ottenere una Vittoria scientifica. A differenza delle altre parti, per completare l'astronave devi costruire tre Propulsori.",
+    "historical_info": "I propulsori dell'astronave servono a sollevare l'apparecchio da terra e spingerlo fino a un'orbita stabile. Pur essendo molto pi\u00f9 grandi, sono simili ai propulsori semplici e potenti che i russi hanno utilizzato per decenni per mandare le loro navi nello spazio. I propulsori si sganciano poco dopo il lancio, ricadendo nell'oceano dove possono essere recuperati da navi in attesa.",
+    "strategy": "Questo componente fa parte dell'astronave la cui costruzione consente di ottenere una Vittoria scientifica. Per ulteriori informazioni, consulta la sezione Vittoria.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Balistica avanzata|della Balistica avanzata",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+    },
+    "free_promotions": []
+}

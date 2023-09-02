@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Faro|Faros",
+    "game_info": "+1 a Alimentos en las casillas de Costa y Oc\u00e9ano. +1 a la Producci\u00f3n de Recursos marinos que explote esta ciudad.Cada fuente de Pesca que explote la ciudad proporciona +1 a Alimentos .La ciudad se ha de construir en la Costa.",
+    "strategy": "El Faro solo se puede construir en una ciudad que est\u00e9 junto a una casilla de Costa. Aumenta la producci\u00f3n de Alimentos y Pesca de las casillas de Agua y el r\u00e9gimen de Producci\u00f3n de todos los recursos marinos.",
+    "historical_info": "Desde que el hombre se embarc\u00f3 para adentrarse en el mar, ha construido faros en la costa que sirvan de gu\u00eda a los barcos que pretenden regresar a puerto y evitar que embarranquen en baj\u00edos o arrecifes. El primero del que se tiene constancia fue el Gran Faro de Alejandr\u00eda. Fue construido en la peque\u00f1a isla de Faro, en la costa de Alejandr\u00eda, sobrevivi\u00f3 m\u00e1s de mil a\u00f1os y gui\u00f3 a miles de nav\u00edos hasta el puerto de Alejandr\u00eda.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/faro|faros.png",
+    "prereq_tech": {
+        "name": "\u00d3ptica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/optics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

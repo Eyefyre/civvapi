@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Tarnung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "Informationszeitalter",
+    "cost": 8800,
+    "civilopedia_entry": "Das Konzept oder die Praxis der Tarnung ist nicht neu in der menschlichen Entwicklung, doch moderne Tarntechnologie erhebt die Idee des Nicht-gesehen-Werdens auf ein v\u00f6llig neues Niveau. Tarntechnologie ist die Verbindung verschiedener milit\u00e4rischer Disziplinen und Taktiken, um Objekte vor Radar, Sonar, Thermalmessung und anderen, weniger offensichtlichen Methoden sowohl zu verbergen, andererseits aber auch, sie durch verschiedene Methoden sichtbar zu machen.Die Tarnuniform ist eine der \u00e4ltesten und einfachsten Arten, Objekte vor ihrem Hintergrund unsichtbar zu machen, doch viele technologische Fortschritte haben einen Bedarf nach dynamischeren und feineren Methoden, Objekte zu verstecken und zu entdecken, erschaffen. Kleidung wird mit thermalen Chemikalien versetzt, Schiffe werden aus speziellen Materialien gebaut, die Radar absorbieren, und die Infrarotsignaturen von Flugzeugen werden durch ausgekl\u00fcgelte Abgassysteme verborgen. Auch wenn es nicht immer m\u00f6glich ist, Objekte absolut unsichtbar zu machen, haben moderne Tarnfahrzeuge und Spionageflugzeuge die Art und Weise, in der Milit\u00e4roperationen ausgef\u00fchrt werden, nachhaltig ver\u00e4ndert, da sie den L\u00e4ndern, die \u00fcber das n\u00f6tige Wissen verf\u00fcgen, einen gewaltigen Vorteil verschaffen.",
+    "quote": "\"Sei unendlich subtil, ja, geh an die Grenze der Formlosigkeit. Sei unendlich r\u00e4tselhaft, ja, geh bis an die Grenze der Lautlosigkeit. So kannst du das Schicksal deines Gegners bestimmen.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "Robotertechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+        },
+        {
+            "name": "Lasertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Zukunftstechnologien",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Tarnkappenbomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

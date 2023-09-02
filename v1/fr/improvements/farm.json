@@ -1,0 +1,43 @@
+{
+    "id": 4,
+    "name": "Ferme|Fermes",
+    "game_info": "L'agriculture est l'une des professions les plus anciennes et les plus essentielles de l'humanit\u00e9, puisqu'elle a permis \u00e0 l'homme de se s\u00e9dentariser sans pour autant \u00e9puiser les ressources locales. Les fermes peuvent \u00eatre construites sur la plupart des terres afin d'am\u00e9liorer la production de nourriture d'une case.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/ferme|fermes.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Bl\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/wheat.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

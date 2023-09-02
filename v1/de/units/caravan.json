@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Karawane|Karawanen",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravan.png",
+    "game_info": "Errichtet Handelswege an Land zwischen zwei Zivilisationen, die Gold einbringen. Kann auch verwendet werden, um Nahrung oder Produktion innerhalb Eurer Grenzen zu liefern, nachdem Ihr einen Kornspeicher oder eine Werkstatt gebaut habt.",
+    "historical_info": "Schon seit Menschengedenken benutzen H\u00e4ndler Lastentiere - von Pferden \u00fcber Maultiere bis hin zu Kamelen und Lamas - um Handel \u00fcber weite Strecken zu treiben. Die ersten Aufzeichnungen \u00fcber Karawanen datieren auf etwa 1000 v. Chr., als Kameltreiber mit ihren Karawanen Edelsteine, Edelmetalle, Weihrauch und Gew\u00fcrze zur Westk\u00fcste Arabiens brachten und damit Indien mit \u00c4gypten, Ph\u00f6nizien und den Reichen in Mesopotamien verbanden. Viele Karawanenrouten, wie die ber\u00fchmte Seidenstra\u00dfe von China in den Nahen Osten, schrieben ebenso Geschichte wie Kriege und Religionen. Heute wurden Karawanen fast vollst\u00e4ndig durch motorisierte Transporte ersetzt, doch in so unwirtlichen Gegenden wie der Sahara und der W\u00fcste Gobi kommen sie noch immer zum Einsatz.",
+    "strategy": "Mit einer Karawane k\u00f6nnt Ihr zwischen zwei Zivilisationen einen Handelsweg an Land einrichten, was sowohl dem Besitzer als auch der Ziel-Zivilisation Gold einbringt. Wenn Ihr einen Kornspeicher oder eine Werkstatt in der Heimatstadt baut, k\u00f6nnt Ihr auch die Nahrung oder Produktion zwischen Euren St\u00e4dten bef\u00f6rdern. Sobald Ihr einen Weg zugewiesen habt, kann sich die Einheit nicht mehr verteidigen, also sorgt daf\u00fcr, dass der Weg frei von Gefahren ist.",
+    "movement": 1,
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Tierzucht",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

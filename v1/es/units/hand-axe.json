@@ -1,0 +1,20 @@
+{
+    "id": 136,
+    "name": "Soldado con hacha de mano|Soldados con hacha de mano",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hand-axe.png",
+    "game_info": "El sustituto de los B\u00e1rbaros del Arquero en carro.",
+    "historical_info": "El hacha, siempre fiable, ha conformado la historia humana como herramienta y arma. Desde un trozo afilado de pedernal atado con una enredadera a un palo hasta la moderna hacha de acero con un mango hecho a m\u00e1quina, las hachas se han usado en todas las \u00e9pocas y en todas las zonas del mundo. Las hachas de mango corto, como los tomahawk, que se pueden empu\u00f1ar a una mano, las han utilizado para la guerra y la caza un sinf\u00edn de pueblos primitivos; las hachas de mango largo y pala grande, como la dane vikinga o el ono japon\u00e9s, fueron armas temibles en combate. Usadas normalmente para el combate cuerpo a cuerpo, las que son m\u00e1s como el hacha de combate tradicional tienen m\u00e1s fuerza de corte concentrada sobre un objetivo m\u00e1s peque\u00f1o, lo que permite que, contra las armaduras, sean m\u00e1s eficaces que una espada.",
+    "strategy": "M\u00e1s fuerte que un arquero, pero limitado por su alcance de un \u00fanico hex\u00e1gono.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

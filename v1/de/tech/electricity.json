@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "Elektrizit\u00e4t",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "Industriezeitalter",
+    "cost": 2350,
+    "civilopedia_entry": "Die erste Erfahrung, die die Menschheit mit Elektrizit\u00e4t machte, kam in Form von Stromst\u00f6\u00dfen von Fischen, aufgezeichnet von \u00e4gyptischen Schreibern im Jahr 2750 v. Chr. Im 15. Jahrhundert n. Chr. entdeckten die Araber, dass Blitze eine weitere Form von Elektrizit\u00e4t waren, was sp\u00e4ter, im Jahr 1752, von einem britisch-amerikanischen Wissenschaftler namens Ben Franklin best\u00e4tigt wurde. Die erste halbwegs verl\u00e4ssliche Batterie wurde im Jahr 1800 von Alessandro Volta hergestellt und 1821 erfand Michael Faraday den Elektromotor.Fortschritte auf dem Feld der Elektrizit\u00e4t in der zweiten H\u00e4lfte des 19. Jahrhunderts durch Genies wie Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell und Lord Kelvin revolutionierten das Leben \u00fcberall auf der Welt. Der Telegraf, auf den kurze Zeit sp\u00e4ter Telefon und Funk folgten, erh\u00f6hte Geschwindigkeit und Genauigkeit, mit denen Informationen \u00fcbermittelt werden konnten, radikal. Als ein transatlantisches Kabel gelegt war, konnte eine Nachricht aus New York in Sekunden London erreichen. Vor der Elektrizit\u00e4t wurden auf dem schnellsten Schiff Wochen ben\u00f6tigt, um eine Nachricht zu \u00fcbermitteln. Das elektrische Licht revolutionierte das Leben zu Hause und am Arbeitsplatz, und Phonograf, Radio und Filmkamera taten das Gleiche in der Unterhaltung. Die Erschaffung von Kraftwerken, die Energie in Form von Elektrizit\u00e4t in die H\u00e4user der Leute liefern, hat die Lebensbedingungen der Menschen ver\u00e4ndert wie sonst kaum etwas. Angetrieben durch die Elektrizit\u00e4t sorgte die sogenannte \"Zweite Industrielle Revolution\" f\u00fcr die gr\u00f6\u00dfte Verbesserung des menschlichen Lebens seit der Druckerpresse.",
+    "quote": "\"Ist es eine Tatsache - oder habe ich davon getr\u00e4umt? - dass durch die Elektrizit\u00e4t die materielle Welt ein gro\u00dfer Nerv geworden ist, der Tausend Meilen weit in einem atemlosen Zeitpunkte vibriert?\" - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Normbauteile",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+        },
+        {
+            "name": "K\u00fchltechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+        },
+        {
+            "name": "Funkwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Wasserkraftwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hydro_plant.json"
+        },
+        {
+            "name": "B\u00f6rse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Polizeiwache",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/police_station.json"
+        }
+    ]
+}

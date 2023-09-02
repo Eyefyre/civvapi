@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Metal Casting",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "Medieval Era",
+    "cost": 275,
+    "civilopedia_entry": "Metal casting is the process by which a craftsman can make one or more metal objects by pouring molten metal into a mold. One of the oldest methods of making a mold is the \"lost wax\" procedure, which dates back at least to the third millennium BC. In this process, the craftsman creates a wax duplicate of the object around which is built the mold; the wax is then melted and flows out of the mold and is replaced by molten metal. Once the metal cools the mold is opened and the object is removed.Historically, sand and clay have been popular materials from which to construct molds. In later times molds have been constructed out of plastics and latex-like substances.",
+    "quote": "\"When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.\" - Sri Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Engineering",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/engineering.json"
+        },
+        {
+            "name": "Iron Working",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/physics.json"
+        },
+        {
+            "name": "Steel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserker",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Longhouse",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/longhouse.json"
+        },
+        {
+            "name": "Forge",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/forge.json"
+        },
+        {
+            "name": "Workshop",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/workshop.json"
+        }
+    ]
+}

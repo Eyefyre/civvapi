@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samurai",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "M\u00e4chtige Infanterieeinheit des Mittelalters. Nur die Japaner k\u00f6nnen sie bauen. Diese Einheit k\u00e4mpft effektiver und produziert Gro\u00dfe Gener\u00e4le schneller als der Langschwertk\u00e4mpfer, den sie ersetzt. Samurai zu Wasser k\u00f6nnen Fischerboote in einer Runde bauen, ohne verbraucht zu werden, was sie sogar in Friedenszeiten sehr n\u00fctzlich macht.",
+    "historical_info": "Vor der Erfindung des Schie\u00dfpulvers waren die japanischen Samurai wohl die besten K\u00e4mpfer seit den r\u00f6mischen Legionen. Die Samurai erschienen im 12. Jahrhundert auf der Bildfl\u00e4che und waren eine Kriegerkaste, die dem Bushido-Kodex folgte, der Mut, Ehre und Loyalit\u00e4t \u00fcber das Leben selbst stellte. Samurai trugen in der Regel zwei Schwerter, das einschneidige Katana und das k\u00fcrzere Wakizashi; Letzteres wurde f\u00fcr das (Selbstmord-)Ritual \"Seppuku\" benutzt. Diese Schwerter waren den entsprechenden westlichen Langschwertern weit \u00fcberlegen, da die japanischen Schwertschmiede Meister in der Kunst waren, harten und weichen Stahl zu kombinieren. Einige trugen auch einen Bogen oder Speer und sp\u00e4ter Schusswaffen. Abh\u00e4ngig von der Epoche (und dem Reichtum und Status des Samurai) trug ein Samurai Schutzkleidung aus gef\u00fcttertem Stoff oder lackiert, oder sogar eine R\u00fcstung aus Metall.",
+    "strategy": "Der Samurai ist die Spezialeinheit der Japaner und ersetzt den Langschwertk\u00e4mpfer. Beide Einheiten sind etwa gleich stark, doch der Samurai erh\u00e4lt automatisch die \"Schock\u00a0I\"-Bef\u00f6rderung, die ihm einen Vorteil beim Kampf auf offenem Gel\u00e4nde bringt. Der Erfolg beim Kampf mit einem Samurai erh\u00f6ht die Chance auf das Erscheinen von Gro\u00dfen Gener\u00e4len. Kann Fischerboote bauen, ohne verbraucht zu werden.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Stahl",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Schock I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/shock_i.json"
+        },
+        {
+            "name": "Gro\u00dfe Gener\u00e4le II",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/great_generals_ii.json"
+        }
+    ]
+}

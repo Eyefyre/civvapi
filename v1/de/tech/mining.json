@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Bergbau",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mining.png",
+    "era": "Antike",
+    "cost": 35,
+    "civilopedia_entry": "Beim Bergbau werden verschiedene n\u00fctzliche Substanzen aus den tieferen Schichten der Erde nach oben bef\u00f6rdert. Die fr\u00fchesten gef\u00f6rderten Stoffe waren Kupfer, Eisen, Diamanten, Gold, Silber, Salz und Kohle. Da diese Stoffe nicht essbar sind (au\u00dfer Salz, aber es ist ja klar, was gemeint ist), m\u00fcssen Minenarbeiter Teil einer Siedlungsgemeinschaft sein, die gro\u00df genug ist, um gen\u00fcgend zus\u00e4tzliche Nahrung zur Versorgung der Minenarbeiter und ihrer Familien zu produzieren.Die \u00e4lteste bisher entdeckte Mine befindet sich in Swasiland, Afrika. Sie wurde vor etwa 40.000 Jahren gegraben, um Ocker zu f\u00f6rdern, ein Mineral, welches bei Begr\u00e4bniszeremonien und f\u00fcr K\u00f6rperkunst verwendet wurde. Feuerstein, ein br\u00fcchiges, leicht zu sch\u00e4rfendes Mineral, wurde von den Menschen der Fr\u00fchzeit zu Schabern, Messern und Pfeilspitzen verarbeitet und war wahrscheinlich der erste Stoff, der in Europa in gro\u00dfem Ma\u00dfstab gef\u00f6rdert wurde. In Frankreich und England wurden ca. 30 Meter breite Feuersteinminensch\u00e4chte gefunden, die aus der Jungsteinzeit (8000-2000 v. Chr.) datieren.Heutige Minenarbeiter setzen verschiedenste Methoden ein, um eine Vielzahl an Materialien zu f\u00f6rdern. Kohleminenarbeiter pulverisieren manchmal ganze Berggipfel, um an das kostbare schwarze Mineral zu gelangen. In Afrika haben sich einige gro\u00dfe Bergbauunternehmen im wahrsten Sinne des Wortes kilometerweit durch den Boden gegraben, um Diamanten zu finden. Und Unternehmen treiben \u00fcberall Minensch\u00e4chte in den Boden - vom tiefen Meeresboden bis zu den Dauerfrostregionen des hohen Nordens - um nach der begehrtesten Fl\u00fcssigkeit der Welt zu suchen: Erd\u00f6l.",
+    "quote": "\"Die Sanftm\u00fctigen werden die Erde besitzen, aber nicht die Sch\u00fcrfrechte.\" - J. Paul Getty",
+    "tech_prereqs": [
+        {
+            "name": "Landwirtschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Steinmetzkunst",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/masonry.json"
+        },
+        {
+            "name": "Bronzeverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": []
+}

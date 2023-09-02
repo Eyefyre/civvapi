@@ -1,0 +1,44 @@
+{
+    "id": 50,
+    "name": "Energia a vapore|dell'Energia a vapore",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/steam_power.png",
+    "era": "Epoca industriale",
+    "cost": 2350,
+    "civilopedia_entry": "Quando viene riscaldata, l'acqua produce vapore. Il vapore si espande sotto pressione e pu\u00f2 essere usato all'interno di un motore per convertire una parte dell'energia termica nel movimento di un pistone o di un rotore. I principi alla base dell'energia a vapore erano gi\u00e0 noti agli antichi Greci, ma nessuno riusc\u00ec a metterli in pratica in modo efficace fino alla fine del Seicento, quando l'inglese Thomas Savery progett\u00f2 una pompa a vapore per estrarre l'acqua dalle miniere allagate. Nel 1765 James Watt miglior\u00f2 notevolmente l'efficienza del motore a vapore, che a quel punto pot\u00e9 essere usato in una grande variet\u00e0 di applicazioni. Nel 1802 le navi cominciarono a essere equipaggiate con motori a vapore e nel 1825 cominciarono a diffondersi anche le locomotive basate sullo stesso principio.Il motore a vapore ha rivoluzionato l'industria e i trasporti in tutto il mondo. Nel giro di un secolo l'intero globo fu attraversato da linee ferroviarie e rotte navali. Enormi fabbriche mosse dal vapore sfornavano milioni di tonnellate di prodotti (compresi quelli per uso militare). Le nazioni industrializzate poterono sperimentare un enorme incremento di ricchezza e produttivit\u00e0 (e inquinamento). Il carbone, la prima fonte di energia per i motori a vapore, veniva estratto febbrilmente da miniere sparse in tutto il pianeta. Gran parte della strategia militare della Gran Bretagna era centrata proprio sulla protezione delle basi di approvvigionamento del carbone, disposte in posizione strategica in tutti gli oceani del mondo.Alla fine i motori a vapore furono sostituiti da quelli a combustione interna, molto pi\u00f9 efficienti e meno inquinanti. Prima del petrolio, tuttavia, il vapore dominava in modo assoluto. Si pu\u00f2 tranquillamente affermare che senza di esso il mondo moderno non sarebbe mai esistito.",
+    "quote": "\"Le nazioni occidentali sperano che grazie alla comunicazione a vapore il mondo intero diventer\u00e0 come una grande famiglia.\" - Townsend Harris",
+    "tech_prereqs": [
+        {
+            "name": "Rigatura delle canne|della Rigatura delle canne",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+        },
+        {
+            "name": "Industrializzazione|dell'Industrializzazione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/industrialization.json"
+        },
+        {
+            "name": "Teoria scientifica|della Teoria scientifica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Ferrovia|della Ferrovia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/railroad.json"
+        },
+        {
+            "name": "Volo|del Volo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/flight.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Ironclad|una Ironclad|dalla tua Ironclad|alla tua Ironclad|la tua Ironclad|da una Ironclad",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ironclad.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "Okr\u0119t podwodny|Okr\u0119tu podwodnego|Okr\u0119towi podwodnemu|Okr\u0119t podwodny",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Niewidoczny dla wszystkich jednostek opr\u00f3cz niszczycieli, kr\u0105\u017cownik\u00f3w rakietowych i innych okr\u0119t\u00f3w podwodnych do chwili ataku lub zbytniego zbli\u017cenia. \u015awietnie sprawdza si\u0119 w zwalczaniu okr\u0119t\u00f3w, kt\u00f3re mo\u017ce zaatakowa\u0107 z zaskoczenia.",
+    "historical_info": "Okr\u0119ty podwodne sprzed ery atomowej by\u0142y u\u017cywane g\u0142\u00f3wnie do sabotowania handlu, atakowa\u0142y wrogie okr\u0119ty handlowe i odcina\u0142y dop\u0142yw zapas\u00f3w. Okr\u0119ty podwodne z czas\u00f3w II wojny \u015bwiatowej by\u0142y zwykle wyposa\u017cone w wyrzutnie torped na dziobie i rufie, a czasem te\u017c w ma\u0142e dzia\u0142o na pok\u0142adzie, zdolne do tego, by zatopi\u0107 okr\u0119t handlowy, je\u015bli nikt nie odwzajemnia\u0142 ostrza\u0142u.Tylko w rzadkich przypadkach okr\u0119ty podwodne pr\u00f3bowa\u0142y zatopi\u0107 wrogie okr\u0119ty marynarki wojennej. Ich zadanie polega\u0142o na zatapianiu statk\u00f3w handlowych, a nast\u0119pnie wycofywaniu si\u0119, zanim dostrzeg\u0105 je wrogie okr\u0119ty wojenne lub lotnictwo. W spotkaniach z niszczycielami okr\u0119t podwodny z regu\u0142y przegrywa\u0142. W trakcie trwania obu wojen \u015bwiatowych niemieckie U-booty niemal doprowadzi\u0142y do kl\u0119ski g\u0142odu w Wielkiej Brytanii, zatapiaj\u0105c 11 milion\u00f3w ton \u0142adunku podczas pierwszej i 14 milion\u00f3w ton podczas drugiej wojny \u015bwiatowej, za cen\u0119 oko\u0142o 1000 zatopionych U-boot\u00f3w.",
+    "strategy": "Okr\u0119t podwodny to jednostka wyspecjalizowana w zwalczaniu innych okr\u0119t\u00f3w. Jest niewidzialna dla wi\u0119kszo\u015bci jednostek, opr\u00f3cz niszczycieli i innych okr\u0119t\u00f3w podwodnych, dop\u00f3ki nie zaatakuje. Mo\u017ce wp\u0142ywa\u0107 na pola z lodem. Wykorzystuj okr\u0119ty podwodne do patrolowania w\u00f3d nieprzyjaciela i zatapiania jego statk\u00f3w oraz chronienia w\u0142asnych jednostek przed atakami jego jednostek podwodnych.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Niewidzialno\u015b\u0107 (okr\u0119t podwodny)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Widzenie okr\u0119t\u00f3w podwodnych",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Mo\u017ce wchodzi\u0107 na pola z lodem",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia do ataku (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

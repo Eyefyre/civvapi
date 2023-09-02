@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "Mobile Boden-Luft-Rakete",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "F\u00e4ngt feindliche Flugzeuge ab, die nahe Einheiten bombardieren.",
+    "historical_info": "W\u00e4hrend sich Helikopter in effiziente Kampfmaschinen verwandelten, entwickelte die Infanterie im Gegenzug Waffen, um die wachsende Bedrohung zu bek\u00e4mpfen - ganz zu schweigen von der Gefahr durch D\u00fcsenj\u00e4ger. Moderne Boden-Luft-Raketen sind schnell, leicht und haben ein Radar, das es ihnen erlaubt, feindliche Flugk\u00f6rper anzupeilen und in sie hineinzufliegen. Die darauffolgende heftige Explosion verursacht bei anf\u00e4lligen Flugzeugen und Helikoptern jede Menge h\u00f6chstwahrscheinlich fatalen Schaden. Als Reaktion darauf wurden besser getarnte Fahrzeuge gebaut und die eingesetzte Raketen-St\u00f6rtechnologie wurde verbessert. Dennoch machen Boden-Luft-Raketenwerfer feindlichen Flugk\u00f6rpern das Leben schwer und bieten verb\u00fcndeten Bodeneinheiten ordentlichen Schutz vor den Gefahren aus der Luft.",
+    "strategy": "Mobile Boden-Luft-Raketen dienen vorr\u00fcckenden Armeen als Flugabwehreinheiten. Sie k\u00f6nnen feindliche Flugzeuge abfangen und beschie\u00dfen, die im Radius von 2 Gel\u00e4ndefeldern Ziele bombardieren (nur eine Einheit pro Runde). Die Raketen sind bei Bodenangriffen gef\u00e4hrdet und sollten durch Infanterie oder Panzer gesch\u00fctzt werden.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Raketentechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus gegen Flugzeuge/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

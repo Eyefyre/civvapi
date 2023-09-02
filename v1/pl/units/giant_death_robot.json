@@ -1,0 +1,27 @@
+{
+    "id": 19,
+    "name": "Wielki \u015bmierciobot|Wielkiego \u015bmierciobota|Wielkiemu \u015bmierciobotowi|Wielkiego \u015bmierciobota",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/giant_death_robot.png",
+    "game_info": "Nie otrzymuje premii do obrony wynikaj\u0105cych z terenu, ale ma wi\u0119ksz\u0105 si\u0142\u0119 ni\u017c ka\u017cda inna jednostka w grze.",
+    "historical_info": "Wielki \u015bmierciobot to ogromny dwuno\u017cny mech, wyposa\u017cony w wiele r\u00f3\u017cnego rodzaju pocisk\u00f3w rakietowych. Dysponuje r\u00f3wnie\u017c dzia\u0142kiem obrotowym, laserowymi oczami oraz zab\u00f3jczym uderzeniem. Mimo \u017ce maszyny takie nie walcz\u0105 jeszcze na wsp\u00f3\u0142czesnych polach walki, bez w\u0105tpienia rz\u0105dy wielu pa\u0144stw oraz z\u0142owieszcze korporacje od dawna pracuj\u0105 ju\u017c nad podobnymi projektami. W momencie wdro\u017cenia mech\u00f3w, ca\u0142e wsp\u00f3\u0142czesne uzbrojenie stanie si\u0119 przestarza\u0142e. Natomiast los ludzko\u015bci rozstrzygnie si\u0119 w epickiej bitwie mi\u0119dzy zasiadaj\u0105cymi w mechach armiami dobra i z\u0142a na przedmie\u015bciach Tokio (oczywi\u015bcie o ile wcze\u015bniej nie wyko\u0144cz\u0105 nas wielkie radioaktywne potwory).",
+    "strategy": "Mechy to wsp\u00f3\u0142czesna bro\u0144 pancerna na sterydach. Maj\u0105 olbrzymi\u0105 si\u0142\u0119 bojow\u0105, mog\u0105 dos\u0142ownie rozdepta\u0107 ka\u017cd\u0105 jednostk\u0119. Mog\u0105 te\u017c si\u0119 porusza\u0107 po wykonaniu ataku. \u015amiercioboty otrzymuj\u0105 kar\u0119 podczas atakowania miast, ale kogo to obchodzi? S\u0105 naprawd\u0119 \u015bwietne!",
+    "movement": 5,
+    "cost": {
+        "production": 550,
+        "faith": 1100
+    },
+    "prereq_tech": {
+        "name": "Reakcja termoj\u0105drowa|Reakcji termoj\u0105drowej|Reakcji termoj\u0105drowej|Reakcj\u0119 termoj\u0105drow\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fusion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

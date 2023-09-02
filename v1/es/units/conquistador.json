@@ -1,0 +1,35 @@
+{
+    "id": 89,
+    "name": "Conquistador|Conquistadores",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/conquistador.png",
+    "game_info": "Una unidad de la \u00c9poca Medieval especializada en la exploraci\u00f3n y la colonizaci\u00f3n en ultramar. Solo la puede construir Espa\u00f1a. Reemplaza al Caballero.",
+    "historical_info": "Los conquistadores fueron los soldados y exploradores espa\u00f1oles que conquistaron gran parte del Nuevo Mundo en los siglos XVI y XVII. Al haber expulsado hac\u00eda poco a los moros de Espa\u00f1a, formaban una caballer\u00eda ligera veterana y muy curtida. Su capacidad para cruzar el terreno dif\u00edcil montados a caballo los hizo especialmente eficaces contra los nativos del Nuevo Mundo, que carec\u00edan completamente de caballos y no fueron capaces de aventajar a sus aterradores oponentes.",
+    "strategy": "El Conquistador es una unidad multiuso que es fuerte tanto en el mar como en tierra. Sustituye al Caballero y es excepcional para explorar en tierra, puesto que tiene visibilidad adicional. Tambi\u00e9n cuenta con la capacidad de fundar nuevas ciudades, pero solo en un continente distinto al de su capital. En el agua, el Conquistador tiene el ascenso de Embarco defensivo, que le permite protegerse de las unidades navales. Adem\u00e1s, a diferencia del Caballero, no sufre penalizaciones al atacar ciudades.",
+    "movement": 4,
+    "cost": {
+        "production": 135,
+        "faith": 270
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Visual adicional (2)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/extra_sight_(2).json"
+        },
+        {
+            "name": "Embarco defensivo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

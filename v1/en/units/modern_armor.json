@@ -1,0 +1,27 @@
+{
+    "id": 24,
+    "name": "Modern Armor",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/modern_armor.png",
+    "game_info": "Fast and powerful late-game Unit.",
+    "historical_info": "Modern armor is significantly improved over even the best tanks of World War II. Today's tanks are bigger, faster, have far better armor and weapons, and, perhaps most importantly, are provided with sophisticated computers and communications equipment which greatly improves their power and survivability in the deadly modern battlefield. A modern tank can scream across the battlefield at 40 miles per hour while firing away with pinpoint accuracy at a target hundreds of yards away, a targeting computer minutely adjusting the tank's barrel, compensating for each bump or pothole in the road.On the modern battlefield, the largest threats to modern armor come from enemy armor and artillery, enemy fighters, and helicopter gunships. Infantry rarely carry weapons strong enough to destroy enemy tanks - except of course, for their radios, which they can use to call in artillery or air power.",
+    "strategy": "Modern Armor is just like its predecessor, the Tank, only more-so. Modern Armor is much stronger than the Tank unit and possesses all the Tank's abilities, such as moving after combat.",
+    "movement": 5,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Lasers",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/lasers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

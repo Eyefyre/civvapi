@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "Reiterei",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "Klassik",
+    "cost": 105,
+    "civilopedia_entry": "Die Reiterei wurde wahrscheinlich von den nomadischen V\u00f6lkern Zentralasiens im 2. Jahrtausend v. Chr. erfunden, m\u00f6glicherweise auch schon fr\u00fcher. Das Pferd war zu dieser Zeit schon eine Weile domestiziert, doch das urspr\u00fcngliche Tier war zu klein. Erst, als ein Tier gez\u00fcchtet worden war, das gro\u00df genug war, wurde das Reiten praktikabel. Die Skythen, eine fr\u00fche Gruppen von Nomaden, waren besonders f\u00e4hige Reiter, die vermutlich den ersten Sattel und den ersten Steigb\u00fcgel erfunden haben (es kann jedoch sein, dass sie den Steigb\u00fcgel nur zum auf- und absitzen benutzt haben). Griechischen Historikern zufolge waren die Skythen die ersten, die unb\u00e4ndige m\u00e4nnliche Pferde kastriert haben, um sie sanftm\u00fctiger zu machen und leichter kontrollieren zu k\u00f6nnen.Bis zum Jahr 1500 v. Chr. k\u00e4mpften viele V\u00f6lker des Fruchtbaren Halbmondes - die Hethiter, die Assyrer und die Babylonier - zu Pferd. Zu dieser Zeit verbreiteten sich Pferde auch in \u00c4gypten. In der Zeit von Alexander dem Gro\u00dfen waren Kavallerie-Taktiken bereits recht fortschrittlich und Alexanders Begleitkavallerie war vermutlich die effektivste und m\u00e4chtigste Milit\u00e4reinheit im Mittelmeerraum.",
+    "quote": "\"Mein K\u00f6nigreich f\u00fcr ein Pferd!\" - Shakespeare (Richard III.)",
+    "tech_prereqs": [
+        {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        },
+        {
+            "name": "Fallenstellen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u00d6ffentliche Verwaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Reiter",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/horseman.json"
+        },
+        {
+            "name": "Begleitkavallerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/companion_cavalry.json"
+        },
+        {
+            "name": "Kataphrakt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/cataphract.json"
+        },
+        {
+            "name": "Afrikanischer Waldelefant",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Stallungen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stable.json"
+        },
+        {
+            "name": "Circus Maximus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/circus_maximus.json"
+        },
+        {
+            "name": "Herzogliche Stallungen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Karawanenhof",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/caravansary.json"
+        }
+    ]
+}

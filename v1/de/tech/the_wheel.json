@@ -1,0 +1,61 @@
+{
+    "id": 10,
+    "name": "Das Rad",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/the_wheel.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Das Rad ist ein runder Gegenstand mit einem Loch oder einer Achse in seiner Mitte. F\u00fcr sich allein ist es nur zu wenig n\u00fctze, doch als Teil eines Transportsystems aus Stra\u00dfen und Zugtieren hat es f\u00fcr die menschliche Zivilisation einen enormen Nutzen. Die \u00e4lteste Darstellung eines Fahrzeugs mit R\u00e4dern wurde im antiken Sumer gefunden und wird auf etwa 3500 v. Chr. datiert. Die ersten R\u00e4der bestanden aus massivem Holz. Speichenr\u00e4der kamen um 2.000 v. Chr. in Kleinasien auf, wo sie an Pferdekutschen angebracht wurden. Zu sp\u00e4teren Verbesserungen geh\u00f6rten eiserne Naben, die sich um geschmierte Achsen drehten, und Federn oder \u00e4hnliche Vorrichtungen, um St\u00f6\u00dfe zu d\u00e4mpfen.Anders als allgemein angenommen war das Rad in der Neuen Welt schon vor Ankunft der Spanier bekannt. Doch in Nord-, Mittel- und S\u00fcdamerika gab es keine geeigneten Zugtiere, weshalb praktisch alle G\u00fcter von Menschen transportiert wurden. Menschen sind nicht dazu geeignet, Gewicht \u00fcber lange Strecken zu ziehen, sondern sind effizienter, wenn sie das Gewicht auf den Schultern - zum Beispiel in Rucks\u00e4cken - tragen. Aus diesem Grund wurden keine Wagen entwickelt. Sobald Pferde und andere Zugtiere vorhanden waren, verwendeten die amerikanischen Ureinwohner mit Freuden Rad und Wagen.",
+    "quote": "\"Weisheit und Tugend sind wie zwei R\u00e4der an einem Wagen\" - Japanisches Sprichwort",
+    "tech_prereqs": [
+        {
+            "name": "Tierzucht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Bogenschie\u00dfen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Reiterei",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+        },
+        {
+            "name": "Mathematik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mathematics.json"
+        },
+        {
+            "name": "Bauwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Streitwagen-Bogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/chariot_archer.json"
+        },
+        {
+            "name": "Kriegsstreitwagen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/war_chariot.json"
+        },
+        {
+            "name": "Kriegselefant",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/war_elephant.json"
+        },
+        {
+            "name": "Berittener Bogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/horse_archer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Schwimmende G\u00e4rten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/floating_gardens.json"
+        },
+        {
+            "name": "Wasserm\u00fchle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/water_mill.json"
+        }
+    ]
+}

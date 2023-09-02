@@ -1,0 +1,29 @@
+{
+    "id": 12,
+    "name": "Fisch",
+    "game_info": null,
+    "historical_info": "Fische waren in der gesamten Geschichte immer eine wichtige Proteinquelle f\u00fcr alle K\u00fcstenbewohner. Auch im 21. Jahrhundert ist Fisch immer noch ein wichtiges Nahrungsmittel - so wichtig, dass essbare Fische in den Weltmeeren immer mehr vom Aussterben bedroht sind.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fisch.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Fischerboote",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/fishing_boats.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "K\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/k\u00fcste.json"
+        }
+    ]
+}

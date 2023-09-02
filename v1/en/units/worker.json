@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "name": "Worker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/worker.png",
+    "game_info": "Improves Food Production and Gold by constructing Improvements on map tiles outside of Cities.",
+    "historical_info": "To survive, a civilization needs skilled workers. They may be highly trained engineers, or civilians conscripted into labor - or, indeed, slaves - but someone has to dig the mines, plant the fields and pave the roads. Without these men and women, a civilization will stagnate and eventually fall prey to a more vigorous neighbor.",
+    "strategy": "This unit constructs roads, railroads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when it is in dangerous territory.",
+    "movement": 2,
+    "cost": {
+        "production": 70,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

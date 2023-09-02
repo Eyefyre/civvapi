@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "Poudre \u00e0 canon",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "La Poudre \u00e0 canon, aussi connue sous le nom de \"poudre noire\", fut invent\u00e9e en Chine aux alentours du IXe si\u00e8cle apr. J.-C. par des alchimistes recherchant les secrets de l'immortalit\u00e9 (ce qui n'a strictement rien \u00e0 voir, avouons-le). M\u00e9lange de soufre, de charbon de bois et de salp\u00eatre, la poudre \u00e0 canon s'embrase extr\u00eamement rapidement une fois expos\u00e9e \u00e0 une flamme. En se consumant, elle produit une grande quantit\u00e9 de r\u00e9sidus gazeux et solides pouvant servir de propulseurs dans des armes \u00e0 feu ou des fus\u00e9es d'artifice. Les Chinois utilis\u00e8rent la poudre \u00e0 canon pour produire les premi\u00e8res bombes et les premiers missiles, armes qu'ils utilis\u00e8rent contre l'envahisseur mongol. Une fois la Chine conquise, les Mongols les utilis\u00e8rent \u00e0 leur tour contre quiconque croisait leur chemin.Le monde arabe entra en possession de la poudre \u00e0 canon lors de la premi\u00e8re moiti\u00e9 du XIIe si\u00e8cle apr. J.-C. Certains textes historiques sugg\u00e8rent que les Mamelouks furent les premiers \u00e0 utiliser le canon. Ils s'en seraient servi contre les Mongols durant la Bataille d'A\u00efn Djalout en 1260, mais cela reste sujet \u00e0 d\u00e9bat. La premi\u00e8re r\u00e9f\u00e9rence au \"canon \u00e0 main\" appara\u00eet, elle, dans un manuscrit arabe du XIVe si\u00e8cle.Les Europ\u00e9ens d\u00e9couvrirent la poudre \u00e0 canon au XIIIe si\u00e8cle. Ils en am\u00e9lior\u00e8rent la qualit\u00e9 en y ajoutant du liquide, ce qui provoquait la formation de grains de poudre plus gros et, par cons\u00e9quent, plus stables.La poudre \u00e0 canon demeura l'explosif de r\u00e9f\u00e9rence pour les canons et les armes \u00e0 feu, jusqu'\u00e0 la cr\u00e9ation, au XIXe si\u00e8cle, de la poudre sans fum\u00e9e. Produisant moins de r\u00e9sidus (qui encrassaient les armes) et de fum\u00e9e, elle fut logiquement pr\u00e9f\u00e9r\u00e9e \u00e0 la poudre noire.",
+    "quote": "\"Le jour o\u00f9 deux arm\u00e9es pourront s'an\u00e9antir mutuellement en une seule seconde, toutes les nations civilis\u00e9es reculeront de peur et d\u00e9mant\u00e8leront leurs troupes.\" - Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "Physique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/physics.json"
+        },
+        {
+            "name": "Acier",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chimie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chemistry.json"
+        },
+        {
+            "name": "M\u00e9tallurgie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Arquebusier|Arquebusiers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/musketman.json"
+        },
+        {
+            "name": "Minuteman|Minutemen",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/minuteman.json"
+        },
+        {
+            "name": "Mousquetaire|Mousquetaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/musketeer.json"
+        },
+        {
+            "name": "Janissaire|Janissaires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/janissary.json"
+        },
+        {
+            "name": "Tercio",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Ch\u00e2teau de Himeji",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/himeji_castle.json"
+        }
+    ]
+}

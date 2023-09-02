@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Or",
+    "game_info": null,
+    "historical_info": "L'or est un m\u00e9tal ductile, brillant et mall\u00e9able, objet des plus grandes convoitises de l'homme depuis toujours. Sa raret\u00e9 ajoute encore \u00e0 sa valeur. Bien qu'il soit l'objet de quelques applications industrielles et m\u00e9dicales, on l'utilise principalement pour la monnaie ou la d\u00e9coration (bijouterie, coupes, ustensiles, voire les toilettes pour les plus puissants).",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/or.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine|Mines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Colline|Collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+        }
+    ]
+}

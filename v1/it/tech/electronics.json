@@ -1,0 +1,40 @@
+{
+    "id": 58,
+    "name": "Elettronica|dell'Elettronica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electronics.png",
+    "era": "Epoca moderna",
+    "cost": 4100,
+    "civilopedia_entry": "L'elettronica \u00e8 costituita da quella branca della tecnologia che studia il moto controllato degli elettroni attraverso vari mezzi, compreso il vuoto. Si distingue dalla tecnologia elettrica, che invece riguarda la generazione e la distribuzione di energia. L'elettronica \u00e8 stata riconosciuta come campo di studi autonomo solo nel 1950, quando si separ\u00f2 dalla tecnologia delle onde radio.I circuiti elettronici si possono distinguere in due gruppi: analogici e digitali. I circuiti analogici di solito sono costituiti da semplici combinazioni di elementi base che utilizzano un voltaggio pressoch\u00e9 costante; ormai \u00e8 raro che i circuiti moderni siano del tutto analogici. I circuiti digitali sono alla base degli odierni computer e dei controllori logici programmabili, in quanto costituiscono la rappresentazione fisica dell'algebra booleana (i valori 0 e 1 vi dicono qualcosa?)Lo studio e lo sviluppo dell'elettronica sono strettamente legati a quelli della matematica: senza solide basi nella seconda non si pu\u00f2 affrontare la prima. La creazione e l'analisi di circuiti complessi implica la risoluzione di sistemi lineari a variabili ignote multiple (come il voltaggio e la corrente in determinati punti), il che spiega perch\u00e9 gran parte della progettazione dei circuiti oggi \u00e8 assistita da appositi software di progettazione automatica: una \"meta-pratica\" per eccellenza, se ci si pensa.",
+    "quote": "\"Nell'elettronica di consumo esiste un principio di base: diventa sempre pi\u00f9 potente e sempre meno costosa.\" - Trip Hawkins",
+    "tech_prereqs": [
+        {
+            "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Volo|del Volo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/flight.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Radar|del Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+        },
+        {
+            "name": "Teoria atomica|della Teoria Atomica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Portaerei|una Portaerei|dalla tua Portaerei|alla tua Portaerei|la tua Portaerei|da una Portaerei",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/carrier.json"
+        },
+        {
+            "name": "Corazzata|una Corazzata|dalla tua Corazzata|alla tua Corazzata|la tua Corazzata|da una Corazzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/battleship.json"
+        }
+    ],
+    "building_unlocks": []
+}

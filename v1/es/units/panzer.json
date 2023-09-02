@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Panzer|Panzers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/panzer.png",
+    "game_info": "Una unidad montada r\u00e1pida y poderosa del juego tard\u00edo.Solo los alemanes pueden construirla. Esta unidad tiene 1 m\u00e1s de movimiento que el Tanque, al que sustituye.",
+    "historical_info": "Al principio de la Segunda Guerra Mundial, los tanques alemanes Panzer no eran muy superiores a sus hom\u00f3logos franceses o rusos; m\u00e1s bien, todo lo contrario. Los \"Panzers\" (panteras) alemanes eran inferiores en potencia de fuego y blindaje. Lo que s\u00ed ten\u00edan los alemanes eran genios militares como Heinz Guderian, comandante del cuerpo de Panzers y uno de los arquitectos de la \"blitzkrieg\", o doctrina de la guerra rel\u00e1mpago mediante el ataque concentrado de blindados. En Francia, esta doctrina tuvo un \u00e9xito sorprendente, ya que los grandes ej\u00e9rcitos de tanques destrozaron a los blindados franceses que, aunque superiores en armamento, se vieron dispersados entre la infanter\u00eda francesa y no tuvieron ni una oportunidad contra la ingente potencia de fuego alemana. Los Panzers alemanes tuvieron el mismo grado de \u00e9xito a principios de la guerra contra la Uni\u00f3n Sovi\u00e9tica, hasta que la URSS descubri\u00f3 c\u00f3mo crear y organizar sus propios ej\u00e9rcitos de blindados.",
+    "strategy": "El Panzer es la unidad exclusiva alemana que sustituye al Tanque y es m\u00e1s fuerte y r\u00e1pido que este. Adem\u00e1s, es capaz de moverse despu\u00e9s del combate, lo que le permite abrir enormes agujeros en las l\u00edneas enemigas y atravesarlas antes de que el enemigo pueda taparlos.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Fuerzas combinadas",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

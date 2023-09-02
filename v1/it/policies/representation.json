@@ -1,0 +1,20 @@
+{
+    "id": 66,
+    "name": "Rappresentanza",
+    "game_info": "RappresentanzaIl costo in Cultura delle nuove Politiche Sociali aumenta del 33% in meno del normale con ogni nuova citt\u00e0 fondata. Inoltre d\u00e0 il via a un' Et\u00e0 dell'Oro.",
+    "historical_info": "La rappresentanza \u00e8 il meccanismo per cui i cittadini di un paese nominano, appunto, dei \"rappresentanti\" che governino in loro nome. Da questo punto di vista si pu\u00f2 considerare uno sviluppo del governo collettivo, utile quando la popolazione diventa troppo numerosa per supportare quel tipo di soluzione. In un governo rappresentativo il paese \u00e8 diviso in un certo numero di distretti (o parrocchie, regioni o qualsiasi altra suddivisione): ognuno di essi sceglie uno o pi\u00f9 cittadini locali per rappresentare i suoi interessi per un dato lasso di tempo. I rappresentanti formano un parlamento o un'altra forma di corpo deliberante che prende le redini della nazione. Nella maggior parte dei casi i governi rappresentativi sono repubbliche, ma questo non \u00e8 strettamente necessario. In alcuni casi si possono eleggere, temporaneamente o no, consigli di nobili o anche monarchi.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/rappresentanza.png",
+    "required_policies": [
+        {
+            "name": "Cittadinanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/policies/citizenship.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Libert\u00e0",
+        "game_info": "La Libert\u00e0 si presta ottimamente a una civilt\u00e0 che desidera un'espansione rapida.Adottare la Libert\u00e0 fornisce 1 Cultura in ogni citt\u00e0 e sblocca la costruzione delle Piramidi.Adottare tutte le Politiche nell'albero della Libert\u00e0 far\u00e0 comparire un Grande Personaggio a tua scelta vicino alla capitale.",
+        "prereq_era": null,
+        "historical_info": "La libert\u00e0 pu\u00f2 essere definita come l'assunto di base per cui i cittadini di una nazione meritano di essere \"liberi\". Con questo si intende la mancanza di vincoli fisici, ma anche di un controllo dispotico. I servi per nascita, gli schiavi, i servi della gleba non sono liberi, e neppure i cittadini che sono obbligati a vivere in uno specifico villaggio, gulag o ghetto."
+    }
+}

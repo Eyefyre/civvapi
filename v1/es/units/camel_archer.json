@@ -1,0 +1,31 @@
+{
+    "id": 56,
+    "name": "Arquero a camello|Arqueros a camello",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/camel_archer.png",
+    "game_info": "Una r\u00e1pida unidad montada medieval, d\u00e9bil contra Piqueros. Solo los \u00e1rabes pueden construirla. Es una unidad de combate a distancia, a diferencia del Caballero, al que sustituye.",
+    "historical_info": "Algunos jinetes musulmanes montaban en camellos para combatir. Los caballos criados en Europa se espantaban, pues no hab\u00edan visto antes a esos extra\u00f1os animales. Obviamente, los camellos son m\u00e1s apropiados para los terrenos des\u00e9rticos que los caballos. Por lo general, el arquero a camello empleaba t\u00e1cticas de hostigamiento contra el enemigo, m\u00e1s parecidas a las de los arqueros a caballo mongoles que a las de los caballeros u otras unidades pesadas de caballer\u00eda. Una unidad bien entrenada de arqueros a camello pod\u00eda ser muy peligrosa para los caballeros si \u00e9stos no iban protegidos por arqueros o por su propia caballer\u00eda ligera.",
+    "strategy": "El Arquero a camello es la unidad exclusiva \u00e1rabe que sustituye al Caballero. Es una poderosa unidad de combate a distancia que permite da\u00f1ar al enemigo desde 2 hex\u00e1gonos de distancia y puede moverse despu\u00e9s del combate. Pero es menos fuerte que el Caballero en combate cuerpo a cuerpo. Como unidad montada, el Arquero a camello es vulnerable a los Piqueros.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

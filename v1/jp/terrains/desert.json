@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "\u7802\u6f20",
+    "historical_info": "\u57fa\u672c\u7684\u306b\u7802\u6f20\u306f\u975e\u5e38\u306b\u6709\u7528\u6027\u306b\u4e4f\u3057\u304f\u3001(\u30aa\u30a2\u30b7\u30b9\u3084\u8cc7\u6e90\u307e\u305f\u306f\u3001\u65b0\u9bae\u306a\u6c34\u304c\u306a\u3044\u9650\u308a)\u90fd\u5e02\u306b\u306a\u306b\u3082\u5229\u76ca\u3092\u3082\u305f\u3089\u3055\u306a\u3044\u3002",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/\u7802\u6f20.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "\u30aa\u30a2\u30b7\u30b9",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/features/oasis.json"
+        },
+        {
+            "name": "\u6c3e\u6feb\u539f",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "\u9244",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/iron.json"
+        },
+        {
+            "name": "\u77f3\u6cb9",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/oil.json"
+        },
+        {
+            "name": "\u30a2\u30eb\u30df\u30cb\u30a6\u30e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/aluminum.json"
+        },
+        {
+            "name": "\u30a6\u30e9\u30f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/uranium.json"
+        },
+        {
+            "name": "\u7f8a",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/sheep.json"
+        },
+        {
+            "name": "\u77f3\u6750",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/stone.json"
+        },
+        {
+            "name": "\u91d1",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/gold.json"
+        },
+        {
+            "name": "\u9280",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/silver.json"
+        },
+        {
+            "name": "\u5b9d\u77f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/gems.json"
+        },
+        {
+            "name": "\u5927\u7406\u77f3",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/marble.json"
+        },
+        {
+            "name": "\u7dbf",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/cotton.json"
+        },
+        {
+            "name": "\u9999\u6599",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/incense.json"
+        },
+        {
+            "name": "\u9285",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/copper.json"
+        },
+        {
+            "name": "\u5869",
+            "url": "https://eyefyre.github.io/civvapi/v1/jp/resources/salt.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "Sp\u00e4her",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Diese Einheit wird von unwegsamem Gel\u00e4nde nicht verlangsamt und ist daher ideal f\u00fcr die Erkundung, h\u00e4lt Angriffen aber nicht lange stand.",
+    "historical_info": "Sp\u00e4her waren die Augen und Ohren fr\u00fcher Zivilisationen. Diese flinken Krieger hatten nicht die Aufgabe, die feindlichen Truppen anzugreifen - vielmehr sollten sie das Gel\u00e4nde erkunden, um potenzielle Gefahren oder Sch\u00e4tze aufzusp\u00fcren. Eine Zivilisation, die nicht wei\u00df, was in der Welt um sie herum passiert, ist blind gegen\u00fcber Gefahren und M\u00f6glichkeiten.",
+    "strategy": "Diese fr\u00fche Einheit kann angreifen, ist aber sehr schwach. Sie kann sich aber durch unwegsames Gel\u00e4nde bewegen, als ob dieses frei w\u00e4re (jedes Gel\u00e4ndefeld kostet 1 FP). Nutzt sie zur Erkundung.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Landwirtschaft",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignoriert Gel\u00e4ndekosten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

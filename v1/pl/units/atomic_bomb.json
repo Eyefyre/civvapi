@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Bomba atomowa|Bomby atomowej|Bombom atomowym|Bomb\u0119 atomow\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "U\u017cyj przeciw wrogom pot\u0119gi atomu. Zadaje wielkie obra\u017cenia miastom i jednostkom znajduj\u0105cym si\u0119 w polu ra\u017cenia. Mo\u017cna umieszcza\u0107 j\u0105 na lotniskowcach.Wymaga Projektu Manhattan oraz z\u0142o\u017ca uranu.",
+    "historical_info": "Wczesne bombowce atomowe niczym si\u0119 nie r\u00f3\u017cni\u0142y od innych ci\u0119\u017ckich bombowc\u00f3w, oczywi\u015bcie, opr\u00f3cz \u0142adunku. \u201eEnola Gay\u201d, bombowiec, kt\u00f3ry zrzuci\u0142 bomb\u0119 atomow\u0105 na Hiroszim\u0119 6 sierpnia 1945 roku, by\u0142 ameryka\u0144skim bombowcem B-29, tak samo jak \u201eBockscar\u201d, kt\u00f3ry trzy dni p\u00f3\u017aniej zrzuci\u0142 drug\u0105 bomb\u0119 na Nagasaki. W okresie po wojnie mocarstwa atomowe opracowa\u0142y specjalne \u201estrategiczne bombowce\u201d, do transportu broni atomowej w g\u0142\u0105b terytorium wroga. Te samoloty mog\u0105 pokonywa\u0107 d\u0142ugie dystanse na ogromnej wysoko\u015bci i s\u0105 wyposa\u017cone w wyrafinowane systemy zag\u0142uszania oraz w technologi\u0119 antyrakietow\u0105. Najnowsze bombowce strategiczne zawieraj\u0105 technologi\u0119 stealth, dzi\u0119ki czemu jeszcze trudniej je zniszczy\u0107, zanim zrzuc\u0105 sw\u00f3j \u015bmierciono\u015bny \u0142adunek.",
+    "strategy": "Bomba atomowa to niezwykle pot\u0119\u017cna bro\u0144. Mo\u017cna j\u0105 umie\u015bci\u0107 w nale\u017c\u0105cym do gracza mie\u015bcie lub na pok\u0142adzie jego lotniskowca. Mo\u017ce przemieszcza\u0107 si\u0119 z bazy do bazy lub zaatakowa\u0107 cel w zasi\u0119gu 10 p\u00f3l. Wybuch bomby atomowej uszkodzi lub zniszczy jednostki i miasta w promieniu 2 p\u00f3l. Kiedy atakuje, zostaje automatycznie zniszczona. Wi\u0119cej szczeg\u00f3\u0142\u00f3w znajdziesz w zasadach dotycz\u0105cych broni atomowej.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Unik (50)|Uniku (50)|Unikowi (50)|Unik (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/evasion_(50).json"
+        }
+    ]
+}

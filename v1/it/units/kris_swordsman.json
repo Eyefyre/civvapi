@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Spadaccino con kriss|uno Spadaccino con kriss|dal tuo Spadaccino con kriss|al tuo Spadaccino con kriss|il tuo Spadaccino con kriss|da uno Spadaccino con kriss",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Unit\u00e0 da mischia di epoca classica che possiede un'arma mistica le cui abilit\u00e0 saranno rivelate la prima volta che viene usata in combattimento. Solo l'Indonesia pu\u00f2 costruirla.",
+    "historical_info": "Il kriss, diffuso in Indonesia e in Malesia, \u00e8 un lungo pugnale o una spada corta con una tipica lama asimmetrica e ondulata. Le trib\u00f9 indonesiane usavano i kriss sia come armi sia come oggetti mistici, ritenendo che contenessero un'essenza magica che faceva s\u00ec che alcune lame portassero fortuna, altre sfortuna. I kriss in Indonesia erano tenuti in tale considerazione che le lame pi\u00f9 pregiate venivano passate come cimeli da una generazione all'altra. Un guerriero armato di kriss ne poteva portare in battaglia fino a tre: il suo, uno appartenente al suocero e un cimelio di famiglia. Forgiare le lame dei kriss era un'attivit\u00e0 riservata a pochi eletti, che alternavano diverse variet\u00e0 di ferro e nichel ripiegandole pi\u00f9 e pi\u00f9 volte, in un processo che poteva richiedere anni per essere completato.",
+    "strategy": "Lo Spadaccino con kriss sostituisce il normale Spadaccino. Mettilo alla prova quanto prima in combattimento per scoprire le capacit\u00e0 segrete della sua lama ondulata.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Lavorazione del ferro|della Lavorazione del ferro",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Lama mistica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/mystic_blade.json"
+        }
+    ]
+}

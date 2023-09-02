@@ -1,0 +1,45 @@
+{
+    "id": 29,
+    "name": "Meccanica|della Meccanica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/machinery.png",
+    "era": "Epoca medievale",
+    "cost": 485,
+    "civilopedia_entry": "Una macchina \u00e8 un dispositivo dotato di parti mobili (almeno prima dell'avvento dell'elettronica) che utilizza l'energia per eseguire un lavoro. Una pressa da stampa \u00e8 una macchina, cos\u00ec come un telaio, un orologio e un mulino ad acqua. La produzione dei macchinari richiede una difficile fase di progettazione e grandi doti d'ingegneria, naturalmente, ma anche la capacit\u00e0 di realizzare con precisione le parti che li compongono. Un motore a vapore costruito malamente perder\u00e0 potenza... sempre che non esploda. Le macchine della prima rivoluzione industriale erano pericolosissime per i lavoratori, che potevano essere soffocati dai fumi, ustionati, risucchiati nei meccanismi o saltare in aria.D'altra parte, le civilt\u00e0 che padroneggiarono la costruzione e l'uso di macchinari si trovarono in possesso di un potere e una ricchezza impareggiabili. Il vantaggio accumulato dall'Inghilterra all'inizio della rivoluzione industriale permise alla piccola isola di dominare il commercio mondiale per quasi tre secoli.",
+    "quote": "\"La stampa \u00e8 il migliore strumento per illuminare la mente dell'uomo e migliorarlo come essere razionale, morale e sociale.\" - Thomas Jefferson",
+    "tech_prereqs": [
+        {
+            "name": "Ingegneria|dell'Ingegneria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+        },
+        {
+            "name": "Gilde|delle Gilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Tipografia|della Tipografia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/printing_press.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Balestriere|un Balestriere|dal tuo Balestriere|al tuo Balestriere|il tuo Balestriere|da un Balestriere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/crossbowman.json"
+        },
+        {
+            "name": "Chu-Ko-Nu|un Chu-Ko-Nu|dal tuo Chu-Ko-Nu|al tuo Chu-Ko-Nu|il tuo Chu-Ko-Nu|da un Chu-Ko-Nu",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/chu-ko-nu.json"
+        },
+        {
+            "name": "Arciere con arco lungo|un Arciere con arco lungo|dal tuo Arciere con arco lungo|al tuo Arciere con arco lungo|il tuo Arciere con arco lungo|da un Arciere con arco lungo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/longbowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Ferriera|la Ferriera|una Ferriera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/ironworks.json"
+        }
+    ]
+}

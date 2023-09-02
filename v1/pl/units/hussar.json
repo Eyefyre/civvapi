@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "name": "Huzarzy|Huzar\u00f3w|Huzarom|Huzar\u00f3w|Huzarami|Huzarach",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hussar.png",
+    "game_info": "Szybka jednostka konna u\u017cywana do zwiad\u00f3w i dzia\u0142a\u0144 polegaj\u0105cych na ataku i ucieczce. Zab\u00f3jczy przy atakach z flanki. Jedynie Austriacy mog\u0105 tworzy\u0107 te jednostki.",
+    "historical_info": "W\u0119gierska lekka kawaleria zwana huzarami wzi\u0119\u0142a sw\u0105 nazw\u0119 od \u0142aci\u0144skiego s\u0142owa \u201ecursarius\u201d, oznaczaj\u0105cego \u201eje\u017ad\u017aca\u201d. Formacja ta s\u0142u\u017cy\u0142a cesarstwu Habsburg\u00f3w i Austrii w XVII i XVIII w. Na\u015bladowani przez liczne jednostki kawaleryjskie Europy, huzarzy zostali stworzeni jako nieregularny pu\u0142k wytrawnych je\u017ad\u017ac\u00f3w korzystaj\u0105cy z taktyki szybkich atak\u00f3w n\u0119kaj\u0105cych. Z czasem huzarzy stali si\u0119 formaln\u0105 jednostk\u0105, rekrutowanym ludziom i koniom stawiano okre\u015blone wymagania. Pu\u0142ki huzar\u00f3w masowo wykorzystywano podczas wojen napoleo\u0144skich, formacja ta s\u0142u\u017cy\u0142a w armiach Europy i Azji jeszcze w XIX w.",
+    "strategy": "Huzarzy s\u0105 \u015bwietnymi zwiadowcami i dobrze atakuj\u0105 z flanki. S\u0105 nieco szybsi ni\u017c kawaleria, dla kt\u00f3rej s\u0105 zast\u0119pstwem. Rozpoczynaj\u0105 z awansami, kt\u00f3re daj\u0105 im +1 do zasi\u0119gu widzenia oraz zwi\u0119kszaj\u0105 ich premi\u0119 przy ataku z flanki o 50%.",
+    "movement": 5,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nauki militarne|Nauk militarnych|Naukom militarnym|Nauki militarne",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Natarcie na flank\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/enhanced_flank_attack.json"
+        }
+    ]
+}

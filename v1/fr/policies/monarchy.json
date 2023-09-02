@@ -1,0 +1,20 @@
+{
+    "id": 50,
+    "name": "Monarchie",
+    "game_info": "Monarchie Or\u00a0+1 et m\u00e9contentement -1 tous les 2\u00a0 citoyens dans la capitale.",
+    "historical_info": "La monarchie est un type de gouvernement au sein duquel un individu est investi du pouvoir. Souvent, mais ce n'est pas syst\u00e9matique, le pouvoir est, \u00e0 la mort du monarque, transmis \u00e0 son h\u00e9ritier (il existe quelques monarchies \u00e9lectives, mais elles ne sont gu\u00e8re nombreuses). La monarchie se rapproche du despotisme \u00e0 une exception (majeure) pr\u00e8s : le monarque r\u00e8gne selon les lois de l'\u00c9tat qu'il dirige, alors que le despote est au-dessus des lois. Il est, en pratique, bien facile pour un monarque de r\u00e9gner en despote, mais il arrive \u00e9galement qu'il soit inclus dans un syst\u00e8me politique offrant au peuple davantage de libert\u00e9. Un exemple contemporain de cette tendance serait celui de la Grande-Bretagne.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/monarchie.png",
+    "required_policies": [
+        {
+            "name": "L\u00e9galisme",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/legalism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Tradition",
+        "game_info": "La tradition convient parfaitement aux petits empires.L'adoption de la tradition augmente consid\u00e9rablement la vitesse d'expansion des fronti\u00e8res d'une ville et fournit 3 Culture \u00e0 la capitale. La tradition d\u00e9bloque \u00e9galement les Jardins suspendus. En adoptant toutes les doctrines traditionnelles, vous recevrez +15% de croissance et un aqueduc gratuit dans vos 4 premi\u00e8res villes. Permet \u00e9galement d'acheter des ing\u00e9nieurs illustres avec de la foi \u00e0 partir de l'\u00e8re industrielle.",
+        "prereq_era": null,
+        "historical_info": "La tradition est un principe visant \u00e0 honorer les d\u00e9cisions prises par ses anc\u00eatres ou par tous les pr\u00e9c\u00e9dents dirigeants de l'\u00e9tat. Les politiques nouvelles sont consid\u00e9r\u00e9es avec suspicion et m\u00e9fiance. M\u00eame dans les pays les plus progressistes, comme les \u00c9tats-Unis, la tradition peut avoir une influence tr\u00e8s forte\u00a0: ainsi existe-t-il une tension palpable entre les fervents d\u00e9fenseurs de la Constitution originale et ceux qui aimeraient qu'elle soit r\u00e9vis\u00e9e au regard de la nature changeante du pays et du monde. Dans cet exemple, le premier groupe d'individus est consid\u00e9r\u00e9 comme \u00e9tant plus traditionaliste que le second."
+    }
+}

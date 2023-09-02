@@ -1,0 +1,64 @@
+{
+    "id": 5,
+    "name": "Aluminio",
+    "game_info": "Se utiliza para las unidades y edificios poderosos de las \u00faltimas fases.",
+    "historical_info": "El aluminio es uno de los metales m\u00e1s comunes de la Tierra. Se trata de un material \u00fatil, flexible, duradero y muy resistente a la corrosi\u00f3n. Aunque es abundante, suele encontrarse en estado natural combinado con otros materiales. No fue hasta mediados del siglo XIX que los cient\u00edficos descubrieron c\u00f3mo extraer y procesar grandes cantidades de aluminio. En los siglos XX y XXI se utiliza ampliamente en la fabricaci\u00f3n de productos de consumo, militares y aeroespaciales. Recuerda que el aluminio es un recurso estrat\u00e9gico y que, como tal, se consume a medida que construyes las unidades y los edificios a \u00e9l asociados.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminio.png",
+    "prereq_tech": {
+        "name": "Electricidad",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        },
+        {
+            "name": "Aduana|Aduanas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/customs_house.json"
+        },
+        {
+            "name": "Academia|Academias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/academy.json"
+        },
+        {
+            "name": "Ciudadela|Ciudadelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/citadel.json"
+        },
+        {
+            "name": "Factor\u00eda|Factor\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/manufactory.json"
+        },
+        {
+            "name": "Lugar sagrado|Lugares sagrados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

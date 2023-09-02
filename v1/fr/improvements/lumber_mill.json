@@ -1,0 +1,30 @@
+{
+    "id": 8,
+    "name": "Scierie|Scieries",
+    "game_info": "Une scierie vous permet d'am\u00e9liorer la production des cases de for\u00eat.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/scierie|scieries.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/forest.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

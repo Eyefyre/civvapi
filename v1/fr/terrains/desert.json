@@ -1,0 +1,85 @@
+{
+    "id": 3,
+    "name": "D\u00e9sert|D\u00e9serts",
+    "historical_info": "La plupart du temps, les cases de d\u00e9sert sont d'une inutilit\u00e9 totale. Elles n'apportent aucun b\u00e9n\u00e9fice aux villes (\u00e0 moins, bien s\u00fbr, que le d\u00e9sert ne contienne une oasis, des ressources ou qu'il n'ait acc\u00e8s \u00e0 de l'eau fra\u00eeche).",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/d\u00e9sert|d\u00e9serts.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Oasis",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/oasis.json"
+        },
+        {
+            "name": "Plaines inondables|Plaine inondable",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/flood_plains.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        },
+        {
+            "name": "Moutons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/sheep.json"
+        },
+        {
+            "name": "Pierre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+        },
+        {
+            "name": "Or",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gold.json"
+        },
+        {
+            "name": "Argent",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/silver.json"
+        },
+        {
+            "name": "Pierres pr\u00e9cieuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/gems.json"
+        },
+        {
+            "name": "Marbre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+        },
+        {
+            "name": "Coton",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/cotton.json"
+        },
+        {
+            "name": "Encens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/incense.json"
+        },
+        {
+            "name": "Cuivre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/copper.json"
+        },
+        {
+            "name": "Sel",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/salt.json"
+        }
+    ]
+}

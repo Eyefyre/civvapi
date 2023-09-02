@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Basar",
+    "game_info": "Gew\u00e4hrt 1 zus\u00e4tzliches Vorkommen jedes modernisierten Luxusguts in der N\u00e4he dieser Stadt. Jedes Vorkommen von \u00d6l und jede Oase bringen +2 Gold. Handelswege anderer Spieler zu einer Stadt mit einem Basar bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "strategy": "Der Basar ist das einzigartige Geb\u00e4ude der Araber und ersetzt den Markt. Der Basar bringt der jeweiligen Stadt einen Gold-Bonus. Die Zivilisation erh\u00e4lt f\u00fcr jede Luxusressource aus einer Stadt mit einem Basar jeweils noch eine zus\u00e4tzlich. Der Basar bringt +2 Gold auf \u00d6l und Oasen.",
+    "historical_info": "Ein Basar ist ein \u00f6ffentlicher Marktbezirk, den man in St\u00e4dten im arabischen Raum und dem \u00f6stlichen Mittelmeergebiet findet. Der klassische arabische Basar ist ein lebhaftes Stra\u00dfengewirr voller kleiner L\u00e4den und St\u00e4nde, in denen alle Arten von Waren verkauft werden: Nahrung, Gew\u00fcrze, Teppiche und sogar Software. Manche Basare sind unter freiem Himmel, w\u00e4hrend andere \u00fcberdacht wurden, um die Waren und Kunden vor den Elementen zu sch\u00fctzen. Auch heute findet man noch viele Basare, die eine fr\u00f6hliche und sehr laute Alternative zu den steril anmutenden Einkaufszentren der westlichen Welt darstellen.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/basar.png",
+    "prereq_tech": {
+        "name": "W\u00e4hrung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

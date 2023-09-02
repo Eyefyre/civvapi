@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Portaaviones|Portaaviones",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Al principio lleva dos Aviones, capacidad que puede aumentarse mediante ascensos.",
+    "historical_info": "El primer vuelo desde un nav\u00edo estadounidense se realiz\u00f3 en 1910. Aunque algunos tradicionalistas se opusieron al desarrollo del portaaviones asegurando que el acorazado siempre ser\u00eda la columna vertebral de cualquier armada, en los a\u00f1os 20 todas las potencias se lanzaron a construir portaaviones. En diciembre de 1941, la armada japonesa demostr\u00f3 la potencia de los portaaviones m\u00e1s all\u00e1 de toda duda destruyendo gran parte de la flota estadounidense del Pac\u00edfico (incluyendo a algunos de sus acorazados m\u00e1s apreciados) en un fulgurante ataque sorpresa a Pearl Harbor. La fortuna quiso que los portaaviones estadounidenses no estuvieran en el puerto cuando se produjo el ataque, y con ellos pudieron frenar el avance japon\u00e9s hasta que la fabricaci\u00f3n de portaaviones estadounidenses masiva empez\u00f3 a dar su fruto; gracias a la vasta superioridad de estas embarcaciones y las aeronaves americanas, vencieron a Jap\u00f3n.",
+    "strategy": "El Portaaviones es un barco especializado que lleva Cazas, Bombarderos (pero no Bombarderos invisibles) y Bombas at\u00f3micas. Esta unidad, por s\u00ed misma, es incapaz de atacar, pero los aviones que lleva la convierten en el arma ofensiva m\u00e1s poderosa que surca los mares. No obstante, en el aspecto defensivo, el Portaaviones es d\u00e9bil y deben escoltarlo Destructores y Submarinos.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Electr\u00f3nica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Puede llevar 2 de Cargamento",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

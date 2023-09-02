@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Site antique|Sites antiques",
+    "game_info": "Am\u00e9nag\u00e9 en fouilles arch\u00e9ologiques, un site antique peut produire un artefact pouvant \u00eatre plac\u00e9 dans un emplacement pour chef-d'oeuvre artistique ou \u00eatre transform\u00e9 en monument.",
+    "historical_info": "Francis Bacon \u00e9crivait en 1605 que \"les antiquit\u00e9s sont une vision d\u00e9grad\u00e9e de l'histoire, ou quelques vestiges d'elle ayant r\u00e9ussi par hasard \u00e0 \u00e9chapper \u00e0 ce naufrage qu'est le temps\". Par d\u00e9finition, une antiquit\u00e9 est un objet du pass\u00e9, quel qu'il soit\u00a0: simple pointe de fl\u00e8che ou v\u00e9ritable tr\u00e9sor artistique. Depuis des g\u00e9n\u00e9rations, l'id\u00e9e m\u00eame qu'une civilisation perdue puisse \u00eatre recompos\u00e9e par l'\u00e9tude m\u00e9thodique de ses reliques et artefacts a pouss\u00e9 les collectionneurs amateurs comme les scientifiques de renom \u00e0 rechercher ses objets, \u00e0 les d\u00e9terrer et \u00e0 les pr\u00e9server, aussi bien chez eux que dans des universit\u00e9s ou des mus\u00e9es. Cette passion pour le regroupement des vestiges d'une civilisation pass\u00e9e a donn\u00e9 sa raison d'\u00eatre \u00e0 une nouvelle discipline scientifique\u00a0: l'arch\u00e9ologie.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/site_antique|sites_antiques.png",
+    "prereq_tech": {
+        "name": "Arch\u00e9ologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Fouilles arch\u00e9ologiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/archaeological_dig.json"
+        }
+    ],
+    "terrains_found_on": []
+}

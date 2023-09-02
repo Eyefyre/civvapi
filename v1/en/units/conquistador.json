@@ -1,0 +1,35 @@
+{
+    "id": 89,
+    "name": "Conquistador",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/conquistador.png",
+    "game_info": "Medieval Era unit that specializes in scouting and colonizing overseas. Only Spain may build it. Replaces the Knight.",
+    "historical_info": "The Conquistadors were the Spanish soldiers and explorers who conquered so much of the New World in the 16th and 17th centuries. Having recently driven the Moors from Spain, the Conquistadors were seasoned veteran light cavalrymen. Their ability to traverse difficult terrain on horseback made them especially effective against the natives of the New World, who lacked horses altogether and were unable to outrun their terrifying opponents.",
+    "strategy": "The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.",
+    "movement": 4,
+    "cost": {
+        "production": 135,
+        "faith": 270
+    },
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Extra Sight (2)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(2).json"
+        },
+        {
+            "name": "Embarkation with Defense",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

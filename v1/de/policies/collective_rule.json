@@ -1,0 +1,20 @@
+{
+    "id": 9,
+    "name": "Kollektivherrschaft",
+    "game_info": "KollektivherrschaftBeschleunigt die Ausbildung von Siedlern um 50% in der Hauptstadt und ein kostenloser Siedler erscheint in der N\u00e4he der Hauptstadt. (Venedig erh\u00e4lt statt des Siedlers einen H\u00e4ndler von Venedig.)",
+    "historical_info": "Kollektivherrschaft ist die Politik, bei der jedes Mitglied (oder jedes erwachsene Mitglied oder jedes m\u00e4nnliche, erwachsene Mitglied) einer Gesellschaft am Regierungsprozess teilnimmt, indem es direkt \u00fcber Entscheidungen abstimmt, anstatt durch einen Repr\u00e4sentanten (wie in einer Republik). Obwohl es eine effektive Regierungsform f\u00fcr St\u00e4mme oder kleine D\u00f6rfer ist, wird die Kollektivherrschaft immer schwieriger und unflexibel, je gr\u00f6\u00dfer das Gemeinwesen wird. Wenn die H\u00e4lfte der B\u00fcrger eines Stammes von 100 bei einem Treffen f\u00fcr eine Minute einzeln sprechen m\u00f6chte, k\u00f6nnte das in weniger als einer Stunde geschehen. Wenn die H\u00e4lfte aller B\u00fcrger von New York City einzeln f\u00fcr eine Minute sprechen wollte, w\u00fcrden sie um die 66.000 Stunden (plus einen \u00e4u\u00dferst gro\u00dfen Versammlungsraum) brauchen.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/kollektivherrschaft.png",
+    "required_policies": [
+        {
+            "name": "Republik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/republic.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Unabh\u00e4ngigkeit",
+        "game_info": "Unabh\u00e4ngigkeit eignet sich am besten f\u00fcr Zivilisationen, die schnelles Wachstum anstreben.Unabh\u00e4ngigkeit bringt 1 Kultur in jeder Stadt. Schaltet den Bau der Pyramiden frei.Bei \u00dcbernahme aller Politiken im Unabh\u00e4ngigkeit-Zweig wird nach Belieben eine kostenlose Gro\u00dfe Pers\u00f6nlichkeit in der N\u00e4he der Hauptstadt gew\u00e4hrt.",
+        "prereq_era": null,
+        "historical_info": "Als Politik kann Unabh\u00e4ngigkeit als die Grundvoraussetzung definiert werden, dass die B\u00fcrger einer Nation es verdienen, frei zu sein. Frei von k\u00f6rperlichen Einschr\u00e4nkungen und frei von tyrannischer Kontrolle. Leibeigene, Sklaven und erbliche Diener kann es dabei nicht geben, ebenso wenig wie B\u00fcrger, die gezwungen werden, in einem bestimmten Dorf, Gulag oder Ghetto zu leben."
+    }
+}

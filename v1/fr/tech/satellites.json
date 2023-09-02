@@ -1,0 +1,33 @@
+{
+    "id": 72,
+    "name": "Satellites",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/satellites.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 7700,
+    "civilopedia_entry": "La technologie des satellites comprend l'\u00e9tude et le d\u00e9veloppement de corps orbitaux artificiels (\u00e0 l'inverse, donc, des corps naturels comme la Lune). Les satellites de confection humaine ont \u00e9t\u00e9 une source d'inspiration majeure pour les auteurs de science-fiction depuis le d\u00e9but des ann\u00e9es 1900. A titre d'exemple, le visionnaire Arthur C. Clarke imagina les plans d'un r\u00e9seau satellitaire de communication de masse bien avant que la technologie ne permette de le mettre en place.Cependant, les satellites demeur\u00e8rent du domaine de la fiction pure jusqu'en 1957, ann\u00e9e du lancement du premier satellite russe, Spoutnik 1. En plus d'avoir prouv\u00e9 qu'il \u00e9tait possible de placer un objet con\u00e7u par l'homme en orbite constante autour de la Terre, cet \u00e9v\u00e8nement d\u00e9clencha la course \u00e0 l'espace entre l'Union sovi\u00e9tique et les \u00c9tats-Unis. Plus tard cette m\u00eame ann\u00e9e, Spoutnik 2 fut lanc\u00e9, emportant \u00e0 son bord le premier \u00eatre terrestre \u00e0 \u00eatre all\u00e9 dans l'espace, la chienne La\u00efka. Un an plus tard, les \u00c9tats-Unis lan\u00e7aient leur premier satellite, Explorer 1.Cette course \u00e0 l'espace opposant les deux rivaux provoqua l'envoi en orbite par plus de cinquante nations diff\u00e9rentes de milliers de satellites sp\u00e9cialis\u00e9s. Au-del\u00e0 de leurs \u00e9videntes applications militaires et d'espionnage, les satellites sont entre autres utilis\u00e9s dans le cadre de la communication de masse (Clarke avait donc vu juste), des syst\u00e8mes GPS et de la navigation, de la recherche et de l'observation m\u00e9t\u00e9orologiques, ainsi que de la transmission de programmes de divertissement. Le satellite le plus grand actuellement en orbite est la Station spatiale internationale (en anglais International Space Station ou ISS).",
+    "quote": "\"Maintenant, \u00e9trangement, d'une certaine mani\u00e8re, le ciel semblait presque d'un autre monde.\"- Lyndon B. Johnson",
+    "tech_prereqs": [
+        {
+            "name": "Fus\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusion nucl\u00e9aire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cabine (vaisseau spatial)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ss_cockpit.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "T\u00e9lescope spatial Hubble|T\u00e9lescopes spatiaux Hubble",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hubble_space_telescope.json"
+        }
+    ]
+}

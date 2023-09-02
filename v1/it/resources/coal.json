@@ -1,0 +1,60 @@
+{
+    "id": 3,
+    "name": "Carbone",
+    "game_info": "Utilizzata da Fabbriche e Ironclad.",
+    "historical_info": "Il carbone non \u00e8 altro che antichissimo materiale vegetale che si \u00e8 decomposto ed \u00e8 stato compresso nel corso dei millenni fino a formare un composto nero altamente combustibile. Diffuso praticamente in tutto il pianeta, nel corso della storia il carbone ha rappresentato per l'uomo una delle principali fonti energetiche. Non si tratta tuttavia di un combustibile pulito: la sua estrazione e la sua combustione costituiscono una delle principali cause di inquinamento in tutto il mondo. Gli scienziati si stanno arrovellando per trovare il modo di lavorare il carbone in modo \"pulito\", ma a tutt'oggi tale obiettivo sembra lontano. Ricorda che il carbone costituisce una risorsa strategica e viene consumato a seguito della costruzione di unit\u00e0 ed edifici a esso collegati.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/carbone.png",
+    "prereq_tech": {
+        "name": "Industrializzazione|dell'Industrializzazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/industrialization.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Miniera|una Miniera|una Miniera",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/mine.json"
+        },
+        {
+            "name": "Dogana|una Dogana|una Dogana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/customs_house.json"
+        },
+        {
+            "name": "Accademia|un'Accademia|un'Accademia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/academy.json"
+        },
+        {
+            "name": "Cittadella|una Cittadella|una Cittadella",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/citadel.json"
+        },
+        {
+            "name": "Manifattura|una Manifattura|una Manifattura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/manufactory.json"
+        },
+        {
+            "name": "Luogo sacro|un Luogo Sacro|un Luogo Sacro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

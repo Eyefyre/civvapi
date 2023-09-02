@@ -1,0 +1,40 @@
+{
+    "id": 24,
+    "name": "Gilde|delle Gilde",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/guilds.png",
+    "era": "Epoca medievale",
+    "cost": 275,
+    "civilopedia_entry": "Nelle citt\u00e0 pre-industriali gli artigiani tendevano a formare associazioni o gilde in base alla loro professione; queste gilde avevano lo scopo di proteggere i segreti delle arti e promuovere l'influenza e il benessere dei loro membri. Alcune organizzazioni che si possono considerare precorritrici delle gilde si ritrovano gi\u00e0 nel III secolo a.C. a Roma e nella Cina del periodo Han. Nel 300 d.C. la pratica degli artigiani di riunirsi in gruppi per ottenere pi\u00f9 potere si era diffusa nell'India della dinastia Gupta e nell'Egitto dei Tolomei. Nel Medioevo le gilde si diffusero rapidamente dall'Italia in tutta Europa; i registri del XII secolo mostrano che in citt\u00e0 come Parigi e Londra ce n'erano pi\u00f9 di cento. In alcuni casi le gilde divennero cos\u00ec potenti da acquisire il governo stesso, come indica la coincidenza tra municipio e palazzo delle corporazioni in molte citt\u00e0 tedesche, svizzere e olandesi.Le gilde avevano il compito di salvaguardare la qualit\u00e0 e organizzare la trasmissione dell'arte che rappresentavano, accompagnando ogni fase della vita dei loro membri da apprendista a grande maestro. Per assicurare la qualit\u00e0 dei prodotti venne sviluppato un sistema di marchi di fabbrica, che dimostravano che un oggetto aveva superato i controlli della gilda e del governo. Tuttavia, nel corso del tempo l'influenza e il potere delle gilde and\u00f2 scemando con l'arrivo di nuovi mestieri, sistemi di governo e mezzi di produzione industriale. In Francia, per esempio, le gilde furono abolite nel 1791 dalla legge Le Chapelier; ben presto le altre nazioni fecero lo stesso. Nell'epoca industriale le gilde sono state in gran parte soppiantate dai sindacati, ma qualcuna sopravvive ancor oggi, pi\u00f9 che altro nel campo del cinema, dell'arte e di altre professioni artistiche.",
+    "quote": "\"I mercanti e i bottegai sono arrivati; i loro profitti sono prestabiliti...\" - Sri Guru Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Valuta|della Valuta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/currency.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Codice cavalleresco|del Codice cavalleresco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+        },
+        {
+            "name": "Meccanica|della Meccanica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Compagnia Indie Orientali|la Compagnia Olandese delle Indie Orientali|una Compagnia Olandese delle Indie Orientali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/east_india_company.json"
+        },
+        {
+            "name": "Machu Picchu|Machu Picchu|Machu Picchu",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/machu_picchu.json"
+        },
+        {
+            "name": "Gilda degli Artisti|la Gilda degli Artisti|una Gilda degli Artisti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/artists'_guild.json"
+        }
+    ]
+}

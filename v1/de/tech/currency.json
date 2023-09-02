@@ -1,0 +1,44 @@
+{
+    "id": 19,
+    "name": "W\u00e4hrung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/currency.png",
+    "era": "Klassik",
+    "cost": 175,
+    "civilopedia_entry": "Die W\u00e4hrung ist eine bemerkenswerte Innovation, bei der ein St\u00fcck Papier oder eine kleine Scheibe einen bestimmten Wohlstandswert besitzt und gegen G\u00fcter oder Dienstleistungen getauscht werden kann. Die ersten W\u00e4hrungen waren Metallm\u00fcnzen. Diese hatten den Wert, den das Metall hatte, aus denen sie gemacht waren. Sp\u00e4ter hatte eine W\u00e4hrung an sich dann wenig oder gar keinen eigenen Wert - auf einer einsamen Insel ist ein Geldschein nicht mehr als ein rechteckiges St\u00fcck Papier - doch der Aussteller einer W\u00e4hrung (in der Regel eine Regierung) legt einen Wert f\u00fcr sie fest, und so lange der Aussteller solvent ist, ist die W\u00e4hrung sozusagen Gold wert.Im 4. Jahrtausend v. Chr. nutzten die alten \u00c4gypter Goldbarren mit einem bestimmten Gewicht als W\u00e4hrung. Auf \u00e4hnliche Weise wurden im Nahen Osten Kupferbarren benutzt. An vielen Orten der Welt dienten Ringe, Armreifen und Fu\u00dfreifen aus Gold, Silber oder Juwelen sowohl zur Zierde als auch als W\u00e4hrung.Im Laufe der Geschichte haben F\u00e4lscher stets versucht, F\u00e4lschungen einer gegebenen W\u00e4hrung anzufertigen. So haben F\u00e4lscher z. B. M\u00fcnzen aus einem minderwertigeren und billigeren Metall als die offiziellen M\u00fcnzen dupliziert oder sie haben Metallst\u00fccke von M\u00fcnzen abgeschnitten, die aus wertvollem Material sind. Kaum hatte sich Papiergeld als W\u00e4hrungsnorm durchgesetzt, lernten F\u00e4lscher auch schon, wie man Gr\u00f6\u00dfe, Farbe und Oberfl\u00e4che des Papiers dupliziert und Bilder sowie Schriften auf den Geldscheinen kopiert. F\u00e4lscher sind so flei\u00dfig, dass die meisten modernen W\u00e4hrungen mit zahlreichen fortschrittlichen Sicherheitsma\u00dfnahmen versehen werden, und vermutlich wird es nicht mehr lange dauern, bis jeder Geldschein mit einem eigenen Computerchip ausgestattet ist.",
+    "quote": "\"Lieber Brot und ein gl\u00fcckliches Herz als Reichtum und Verdruss.\" - Amenemope",
+    "tech_prereqs": [
+        {
+            "name": "Mathematik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mathematics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Gilden",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+        },
+        {
+            "name": "\u00d6ffentliche Verwaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Basar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bazaar.json"
+        },
+        {
+            "name": "M\u00fcnzanstalt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mint.json"
+        },
+        {
+            "name": "Markt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/market.json"
+        },
+        {
+            "name": "Petra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/petra.json"
+        }
+    ]
+}

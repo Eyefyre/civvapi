@@ -1,0 +1,23 @@
+{
+    "id": 23,
+    "name": "Lenkrakete",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/guided_missile.png",
+    "game_info": "Eine g\u00fcnstige Einheit, die feindliche Einheiten und St\u00e4dte einmal angreifen kann.",
+    "historical_info": "Dem modernen Raketen-Entwickler stehen zahlreiche fortgeschrittene Tracking-Technologien f\u00fcr Lenkraketen zur Verf\u00fcgung. Einige Raketen sind automatisch; sie peilen ihre Ziele mit Hilfe von Radar- und W\u00e4rmesuchtechnologien an. Einige Raketen k\u00f6nnen mit einem Laser \"sehen\", der den Feind \"erleuchtet\". Andere werden von Menschenhand \u00fcber eine Funk- oder sogar Drahtverbindung zur Rakete gesteuert. Nat\u00fcrlich wurden Waffen nicht nur \"schlauer\", sondern auch teurer. Eine einzelne Lenkrakete kostet unter Umst\u00e4nden Zehntausende Dollars oder sogar mehr. Einer Armee, die solche Waffen verschwenderisch einsetzt, k\u00f6nnte rasch das Geld f\u00fcr wichtige Dinge, wie z. B. Verpflegung, ausgehen.",
+    "strategy": "Die Lenkrakete ist eine Einzelschuss-Einheit, die beim Angriff auf ein feindliches Ziel zerst\u00f6rt wird. Die Lenkrakete kann in einer Stadt, auf einem Atom-U-Boot oder auf einem Raketenkreuzer des Spielers stationiert sein. Sie kann von St\u00fctzpunkt zu St\u00fctzpunkt verlegt werden und eine feindliche Einheit oder Stadt mit einer Reichweite von bis zu 8 Gel\u00e4ndefeldern angreifen. Siehe Regeln zu Raketen f\u00fcr weitere Informationen.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fortgeschrittene Ballistik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ausweichen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/evasion_(100).json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Janitschar",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "Eine der ersten Schie\u00dfpulver-Einheiten des Spiels. Nur die Osmanen k\u00f6nnen sie bauen. Diese Einheit hat einen st\u00e4rkeren Angriff und heilt, wenn sie einen Feind besiegt, anders als der Musketier, den sie ersetzt.",
+    "historical_info": "Janitschare waren Mitglieder eines Elitetrupps in der Armee des osmanischen Reiches. Gegr\u00fcndet im sp\u00e4ten 14. Jahrhundert waren die urspr\u00fcnglichen Janitschare christliche Jugendliche (h\u00e4ufig Sklaven vom Balkan), die zum Islam konvertiert und dann von der osmanischen Armee eingezogen wurden. Anfangs wurde den Janitscharen das Z\u00f6libat aufgezwungen (was ihren wilden Kampfgeist erkl\u00e4ren k\u00f6nnte), sp\u00e4ter wurde das gelockert. Mit den Jahren gewannen die Janitschare enormen politischen Einfluss innerhalb des Reiches; im 17. und 18. Jahrhundert organisierten sie wiederholt Staatsstreiche. Doch je mehr Einfluss sie erlangten, desto traditionsgebundener und sturer wurden sie - sie weigerten sich, ihre Waffen und Taktiken auf dem neusten Stand zu halten, um mit dem Rest der Welt mithalten zu k\u00f6nnen. Im Jahre 1826 wurden sie gewaltsam aufgel\u00f6st und durch modernere osmanische Truppen ersetzt.",
+    "strategy": "Der Janitschar ist die Spezialeinheit der Osmanen und ersetzt den Musketier. Der Janitschar erh\u00e4lt einen erheblichen Kampfbonus, wenn er angreift, und heilt zudem jeglichen Schaden, wenn er eine Einheit zerst\u00f6rt, die nicht barbarischen Ursprungs ist. So kann der Janitschar einen deutlichen Vorteil gegen\u00fcber Einheiten erlangen, die sich verteidigen.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Schie\u00dfpulver",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Heilt 50 Schaden beim T\u00f6ten einer Einheit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Kampfbonus beim Angriff (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

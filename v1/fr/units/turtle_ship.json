@@ -1,0 +1,23 @@
+{
+    "id": 93,
+    "name": "Bateau tortue",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/turtle_ship.png",
+    "game_info": "Unit\u00e9 navale tr\u00e8s prot\u00e9g\u00e9e de la Renaissance et extr\u00eamement difficile \u00e0 couler, le bateau-tortue ne peut cependant pas p\u00e9n\u00e9trer sur les cases d'oc\u00e9an \u00e0 l'ext\u00e9rieur des fronti\u00e8res de la ville. Seule la Cor\u00e9e peut le construire. Remplace la caravelle.",
+    "historical_info": "Ce grand bateau de guerre blind\u00e9 de la dynastie Joseon joua un r\u00f4le crucial dans la d\u00e9fense de la Cor\u00e9e lors des invasions japonaises du XVIe si\u00e8cle. Un nombre \u00e9gal de soldats et de rameurs constituait g\u00e9n\u00e9ralement l'\u00e9quipage du bateau tortue, navire d'assaut rapproch\u00e9 agressif de la marine cor\u00e9enne. Con\u00e7u pour faire trembler l'ennemi, la proue du navire \u00e9tait orn\u00e9e d'une t\u00eate de dragon qui, d'apr\u00e8s la l\u00e9gende, d\u00e9gageait un nuage de fum\u00e9e sulfureuse afin de dissimuler l'arriv\u00e9e du navire. Contrairement aux bateaux de l'\u00e9poque, le bateau tortue n'avait pas de pont sup\u00e9rieur\u00a0: son niveau le plus haut \u00e9tait recouvert de pointes en fer pour \u00e9viter toute tentative d'abordage. Les rameurs et les soldats \u00e9taient confin\u00e9s sur des ponts s\u00e9par\u00e9s aux niveaux inf\u00e9rieurs. \u00c9quip\u00e9 de deux douzaines de canons et de diverses armes \u00e0 petits projectiles, le bateau tortue \u00e9tait un redoutable adversaire pour les navires ennemis non pr\u00e9par\u00e9s.",
+    "strategy": "Le bateau-tortue est une unit\u00e9 exclusive aux Cor\u00e9ens. Cette unit\u00e9 remplace la caravelle. Le bateau-tortue poss\u00e8de une attaque plus puissante que la caravelle et est extr\u00eamement difficile \u00e0 d\u00e9truire. Cependant, il ne peut pas p\u00e9n\u00e9trer sur les cases d'oc\u00e9an \u00e0 l'ext\u00e9rieur des fronti\u00e8res de la ville.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Hanse",
+    "game_info": "B\u00e2timent exclusif aux Allemands et qui remplace la banque. Production +5% pour chaque route commerciale reliant votre civilisation \u00e0 une cit\u00e9-\u00e9tat. Les routes commerciales construites par les autres joueurs pour relier une ville poss\u00e9dant une hanse g\u00e9n\u00e8rent 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la ville et 1 Or suppl\u00e9mentaire pour le propri\u00e9taire de la route commerciale.",
+    "strategy": "En plus des comp\u00e9tences standard de la banque (production d' or suppl\u00e9mentaire, et or suppl\u00e9mentaire re\u00e7u depuis les routes commerciales), la hanse, b\u00e2timent exclusif aux Allemands, accro\u00eet la production pour chaque route commerciale reliant votre civilisation \u00e0 une cit\u00e9-\u00e9tat. Les routes commerciales peuvent relier n'importe quelle combinaison de villes, y compris des villes ne poss\u00e9dant pas de hanse. (Exemple\u00a0: si vous poss\u00e9dez des routes commerciales reliant Berlin \u00e0 Gen\u00e8ve, Munich \u00e0 Gen\u00e8ve, Munich \u00e0 Berlin, et Berlin \u00e0 Bruxelles, toutes les villes poss\u00e9dant une hanse recevront un bonus de 15% de production).",
+    "historical_info": "Mot issu de l'ancien fran\u00e7ais et signifiant \"compagnie de marchands\", la hanse \u00e9tait une conf\u00e9d\u00e9ration de marchands et de n\u00e9gociants qui se formait dans une ville afin de prot\u00e9ger et de faciliter le commerce et le transport de marchandises. Au XIIIe si\u00e8cle, dans les ports marchands de la mer Baltique et de la mer du Nord, ces guildes marchandes devinrent extr\u00eamement puissantes et influentes. Les complexes qui accueillaient leur quartier g\u00e9n\u00e9ral s'appelaient \u00e9galement la hanse. Les plus grandes d'entre elles n'abritaient pas seulement les bureaux administratifs de la guilde, mais \u00e9galement des entrep\u00f4ts, des salles de r\u00e9union, des march\u00e9s, des banques et, sur les c\u00f4tes, des quais. La premi\u00e8re hanse aurait \u00e9t\u00e9 construite \u00e0 L\u00fcbeck, en 1159, pour faciliter le commerce entre l'Europe occidentale et les r\u00e9gions du nord de la Russie, qui disposaient de vastes ressources. La hanse donna son nom \u00e0 la Ligue hans\u00e9atique, form\u00e9e vers 1250 par plusieurs guildes allemandes pour pacifier les routes commerciales de la Baltique, standardiser les billets \u00e0 ordre, et d\u00e9velopper le commerce entre leurs villes respectives. La Ligue a conserv\u00e9 un important pouvoir politique, militaire (notamment lors de la guerre Hanse-Pays-Bas (1238-1441) et de la guerre Hanse-Angleterre (1470-1474), mais aussi lors de conflits mineurs) et \u00e9conomique dans la r\u00e9gion jusqu'\u00e0 la fin du XVIIe si\u00e8cle.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hanse.png",
+    "prereq_tech": {
+        "name": "Banque",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

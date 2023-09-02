@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Nuclear Plant",
+    "game_info": "Requires 1 Uranium. City must not contain a Solar Plant.",
+    "strategy": "The Nuclear Plant significantly increases a city's productivity. A Nuclear Plant requires one Uranium resource to be constructed. The city must possess a Factory before it can be constructed.",
+    "historical_info": "A nuclear plant is a building where controlled nuclear energy is converted into power. Energy from nuclear fission is used to heat water into steam. The steam is pumped through turbines which generate electricity. On a day-to-day basis, nuclear power is far cleaner than oil or gas or coal, producing far less pollution to foul the air and water and people nearby. The plant does however produce chunks of nuclear waste, a remarkably lethal by-product which must be stored for centuries before it loses its toxicity. In addition, a major accident at a nuclear plant would have far nastier and longer-lasting effects than at another kind of power generating plant. Finding enough energy to keep the planet in business is a difficult and dangerous problem that humanity will be facing for some time to come, until and unless a plentiful, clean and safe new energy source is discovered.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/nuclear_plant.png",
+    "prereq_tech": {
+        "name": "Nuclear Fission",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

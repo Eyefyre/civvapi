@@ -1,0 +1,43 @@
+{
+    "id": 4,
+    "name": "Farma|Farmy|Farmie|Farm\u0119|Farmy|Farm|Farmom|Farmy",
+    "game_info": "Rolnictwo to jedno z najwcze\u015bniejszych i najwa\u017cniejszych ludzkich zaj\u0119\u0107. Pozwoli\u0142o ono ludzko\u015bci zaprzesta\u0107 migracji i osi\u0105\u015b\u0107 w jednym miejscu bez wyniszczania miejscowych surowc\u00f3w. Farmy mo\u017cna budowa\u0107 na prawie ka\u017cdej ziemi, by poprawi\u0107 ilo\u015b\u0107 \u017cywno\u015bci na danym polu.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/farma|farmy|farmie|farm\u0119|farmy|farm|farmom|farmy.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Pszenica|Pszenicy|Pszenic\u0119|Pszenicy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wheat.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

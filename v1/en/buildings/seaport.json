@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Seaport",
+    "game_info": "+1 Production and Gold from Sea Resources worked by this City. +15% Production when building Naval Units.City must be built on the coast.",
+    "strategy": "A Seaport increases the Production output of an improved sea resource.",
+    "historical_info": "A seaport is a modern super-harbor. It is a deep-water port which has facilities to handle the largest tankers and transports. Seaports usually contain a forest of cranes for the rapid unloading of cargo, which is then transported away via a bewildering maze of railroad tracks and roads. Modern seaports are controlled by harbor-masters in high-tech control rooms equipped with radar, satellite feeds, and sophisticated computers employing complex tracking software.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/seaport.png",
+    "prereq_tech": {
+        "name": "Navigation",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/navigation.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

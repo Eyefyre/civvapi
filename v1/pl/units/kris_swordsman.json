@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Wojownicy z krisami|Wojownik\u00f3w z krisami|Wojownikom z krisami|Wojownik\u00f3w z krisami|Wojownikami z krisami|Wojownikach z krisami",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Jednostka z epoki klasycznej walcz\u0105ca w zwarciu, posiadaj\u0105ca mistyczn\u0105 bro\u0144, kt\u00f3rej zdolno\u015bci zostan\u0105 ujawnione, gdy zostanie po raz pierwszy u\u017cyta w walce. Mo\u017ce j\u0105 tworzy\u0107 tylko Indonezja.",
+    "historical_info": "Kris to asymetryczny sztylet o d\u0142ugim ostrzu i charakterystycznej w\u0119\u017cowatej klindze cz\u0119sto spotykany w Indonezji i Malezji. Jest zar\u00f3wno broni\u0105, jak i przedmiotem mistycznym - indonezyjskie szczepy wierzy\u0142y, \u017ce kris posiada magiczn\u0105 esencj\u0119, dzi\u0119ki kt\u00f3rej niekt\u00f3re z ostrzy przynosi\u0142y szcz\u0119\u015bcie, inne za\u015b pecha. Bro\u0144 ta by\u0142a tak ceniona w Indonezji, \u017ce niekt\u00f3re egzemplarze by\u0142y przekazywane jako dziedzictwo z pokolenia na pokolenie. Podczas bitwy wojownik m\u00f3g\u0142 mie\u0107 przy sobie a\u017c trzy: w\u0142asny, swojego te\u015bcia i swoje dziedzictwo. Prawo do kucia kris\u00f3w mieli tylko wybra\u0144cy. Ci zdolni rzemie\u015blnicy tworzyli ostrza z warstw r\u00f3\u017cnego rodzaju rud \u017celaza i pochodz\u0105cego z meteoryt\u00f3w wielokrotnie zwijanego niklu. Proces ten m\u00f3g\u0142 trwa\u0107 wiele lat.",
+    "strategy": "Wojownicy z krisami zast\u0119puj\u0105 standardowych zbrojnych. Wypr\u00f3buj ich w walce, \u017ceby odblokowa\u0107 nieznane w\u0142a\u015bciwo\u015bci zakrzywionego ostrza kris.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Obr\u00f3bka \u017celaza|Obr\u00f3bki \u017celaza|Obr\u00f3bce \u017celaza|Obr\u00f3bk\u0119 \u017celaza",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mistyczna klinga",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/mystic_blade.json"
+        }
+    ]
+}

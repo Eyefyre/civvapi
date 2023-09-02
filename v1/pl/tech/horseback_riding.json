@@ -1,0 +1,61 @@
+{
+    "id": 14,
+    "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/horseback_riding.png",
+    "era": "Epoka klasyczna|Epoki klasycznej|Epoce klasycznej|Epok\u0119 klasyczn\u0105",
+    "cost": 105,
+    "civilopedia_entry": "Jazda konna zrodzi\u0142a si\u0119 w drugim tysi\u0105cleciu p.n.e. (mo\u017ce nawet wcze\u015bniej) prawdopodobnie w\u015br\u00f3d w\u0119drownych lud\u00f3w Azji \u015arodkowej. W tym okresie konie by\u0142y ju\u017c od jakiego\u015b czasu udomowione, ale dziko \u017cyj\u0105ce zwierz\u0119ta by\u0142y za ma\u0142e. Jazda konna sta\u0142a si\u0119 praktyczna dopiero po wyhodowaniu dostatecznie du\u017cej odmiany. Jedni z pierwszych nomad\u00f3w, Scytowie, byli wyj\u0105tkowo dobrymi je\u017ad\u017acami. Mo\u017cliwe, \u017ce wynale\u017ali pierwsze siod\u0142o i strzemi\u0119 (prawdopodobnie u\u017cywali tylko jednego, do wsiadania i zsiadania z konia). Wed\u0142ug historyk\u00f3w greckich Scytowie jako pierwsi kastrowali niepokorne ogiery, dzi\u0119ki czemu stawa\u0142y si\u0119 \u0142agodniejsze i bardziej pos\u0142uszne.Oko\u0142o 1500 r.p.n.e. wiele lud\u00f3w \u017byznego P\u00f3\u0142ksi\u0119\u017cyca \u2013 Hetyci, Asyryjczycy i Babilo\u0144czycy \u2013 walczy\u0142o z siod\u0142a, a w tym samym czasie konie pojawi\u0142y si\u0119 w Egipcie. Kiedy Aleksander Wielki stworzy\u0142 zaawansowan\u0105 taktyk\u0119 kawalerii, Hetajrowie Aleksandra stali si\u0119 prawdopodobnie najskuteczniejsz\u0105 i najpot\u0119\u017cniejsz\u0105 jednostk\u0105 wojskow\u0105 w basenie Morza \u015ar\u00f3dziemnego.",
+    "quote": "\u201eKr\u00f3lestwo za konia!\u201d \u2013 William Szekspir (Ryszard III)",
+    "tech_prereqs": [
+        {
+            "name": "Ko\u0142o|Ko\u0142u|Ko\u0142u|Ko\u0142o",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/the_wheel.json"
+        },
+        {
+            "name": "\u0141owiectwo|\u0141owiectwa|\u0141owiectwu|\u0141owiectwo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/trapping.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "S\u0142u\u017cba cywilna|S\u0142u\u017cby cywilnej|S\u0142u\u017cbie cywilnej|S\u0142u\u017cb\u0119 cywiln\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Konnica|Konnicy|Konnicy|Konnic\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/horseman.json"
+        },
+        {
+            "name": "Hetajrowie|Hetajr\u00f3w|Hetajrom|Hetajr\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/companion_cavalry.json"
+        },
+        {
+            "name": "Katafrakci|Katafrakt\u00f3w|Katafraktom|Katafrakt\u00f3w",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/cataphract.json"
+        },
+        {
+            "name": "Afryka\u0144skie s\u0142onie le\u015bne|Afryka\u0144skich s\u0142oni le\u015bnych|Afryka\u0144skim s\u0142oniom le\u015bnym|Afryka\u0144skie s\u0142onie le\u015bne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/african_forest_elephant.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Stajnia|Stajni|Stajni|Stajni\u0119|Stajnie|Stajni|Stajniom|Stajnie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stable.json"
+        },
+        {
+            "name": "Circus Maximus",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/circus_maximus.json"
+        },
+        {
+            "name": "Ksi\u0105\u017c\u0119ce stajnie|Ksi\u0105\u017c\u0119cych stajni|Ksi\u0105\u017c\u0119cym stajniom|Ksi\u0105\u017c\u0119ce stajnie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/ducal_stable.json"
+        },
+        {
+            "name": "Karawanseraj|Karawanseraju|Karawanserajowi|Karawanseraj",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/caravansary.json"
+        }
+    ]
+}

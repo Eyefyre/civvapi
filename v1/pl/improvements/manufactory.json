@@ -1,0 +1,68 @@
+{
+    "id": 19,
+    "name": "Manufaktura|Manufaktury|Manufakturze|Manufaktur\u0119|Manufaktury|Manufaktur|Manufakturom|Manufaktury",
+    "game_info": "Manufaktura to zak\u0142ad sk\u0142adaj\u0105cy si\u0119 z jednego lub wi\u0119cej budynk\u00f3w, gdzie tworzy si\u0119 przedmioty. Tymi budynkami mog\u0105 by\u0107 odlewnie, fabryki, linie monta\u017cowe itd., zwykle tworz\u0105ce powi\u0105zane ze sob\u0105 przedmioty \u2013 odlewnia produkuje stal, kt\u00f3r\u0105 fabryka zwija w blachy. Nast\u0119pnie robotnicy przy linii monta\u017cowej robi\u0105 z blach puszki itd. Dobrze zarz\u0105dzana manufaktura mo\u017ce by\u0107 niewiarygodnie op\u0142acalna.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/manufaktura|manufaktury|manufakturze|manufaktur\u0119|manufaktury|manufaktur|manufakturom|manufaktury.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/grassland.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/plains.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra.json"
+        },
+        {
+            "name": "\u015anieg|\u015aniegu|\u015aniegowi|\u015anieg|\u015aniegi|\u015anieg\u00f3w|\u015aniegom|\u015aniegi",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Konie|Koni|Koniom|Konie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/horses.json"
+        },
+        {
+            "name": "\u017belazo|\u017belaza|\u017belazu|\u017belazo",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/iron.json"
+        },
+        {
+            "name": "W\u0119giel|W\u0119gla|W\u0119glowi|W\u0119giel",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/coal.json"
+        },
+        {
+            "name": "Ropa|Ropy|Ropie|Rop\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/aluminum.json"
+        },
+        {
+            "name": "Uran|Uranu|Uranowi|Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 4,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

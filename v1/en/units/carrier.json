@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Carrier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carrier.png",
+    "game_info": "Initially carries 2 Aircraft; capacity may be boosted through promotions.",
+    "historical_info": "The first flight of an aircraft from an American vessel came in 1910. While some traditionalists fought the development of the carrier, claiming that the battleship was and would always remain the backbone of a modern navy, carriers were in production in navies across the world by the 1920s. In December of 1941 the Japanese navy proved the power of aircraft carriers beyond the shadow of a doubt by destroying much of the American Pacific fleet (including most of its vaunted battleships) in a brilliant surprise attack at Pearl Harbor. By an extraordinary stroke of fortune the American carriers were not at port when the attack occurred, and these were able to slow the Japanese advance until the massive US carrier production effort began to bear fruit, eventually resulting in overwhelming American carrier (and air) superiority, and crushing defeat for Japan.",
+    "strategy": "The Carrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Carrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat. Defensively, however, the Carrier is weak and should be escorted by destroyers and submarines.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Electronics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Can Carry 2 Cargo",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

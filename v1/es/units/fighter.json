@@ -1,0 +1,35 @@
+{
+    "id": 32,
+    "name": "Caza|Cazas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/fighter.png",
+    "game_info": "Una unidad a\u00e9rea pensada para controlar los cielos e interceptar a los aviones enemigos que se acerquen.",
+    "historical_info": "El caza fue desarrollado durante la Primera Guerra Mundial. Los primeros cazas eran poco m\u00e1s que cometas con una ametralladora. La tecnolog\u00eda y la educaci\u00f3n hab\u00edan mejorado mucho en la Segunda Guerra Mundial, y estas aeronaves, que ya solo ten\u00edan un ala y estaban blindadas, se convirtieron en mortales plataformas a\u00e9reas. El papel principal de un caza es obtener la superioridad a\u00e9rea en el campo de batalla, ya sea destruyendo o forzando la huida de las aeronaves enemigas para que los bombarderos puedan destruir las unidades terrestres o navales a placer. Algunos cazas tambi\u00e9n llevan bombas para usarlas contra las unidades terrestres, pero, aunque carezcan de ellas, pueden ametrallar el territorio del enemigo o sus unidades navales con una eficacia mortal.Los cazas a reacci\u00f3n modernos son m\u00e1s r\u00e1pidos y van mejor armados y protegidos que los de la Segunda Guerra Mundial, aunque se basan en los mismos principios de combate a\u00e9reo, y la fuerza que tenga la superioridad a\u00e9rea cuenta con una ventaja enorme sobre el enemigo.",
+    "strategy": "El Caza es una unidad a\u00e9rea moderadamente poderosa. Puede encontrarse en una ciudad propia o llevarse en un Portaaviones. Puede moverse de una ciudad a otra (o a un Portaaviones) y realizar \"misiones\" en un radio de acci\u00f3n de 8 casillas. Usa los Cazas para atacar a los aviones y unidades terrestres del enemigo, para explorar sus posiciones y para defenderte de los ataques a\u00e9reos hostiles. Resultan especialmente efectivos contra los Helic\u00f3pteros rivales. Consulta las reglas sobre Aviones para obtener m\u00e1s informaci\u00f3n.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "Barrido a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconocimiento a\u00e9reo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Bombarderos/Helic\u00f3pteros (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

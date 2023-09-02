@@ -1,0 +1,28 @@
+{
+    "id": 109,
+    "name": "Missionnaire|Missionnaires",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/missionary.png",
+    "game_info": "Unit\u00e9 permettant de convertir des villes \u00e0 une religion. Pour l'obtenir, vous devrez l'acheter avec de la foi.",
+    "historical_info": "Les missionnaires sont les membres d'un groupe ou d'une secte charg\u00e9s de diffuser le message de leur religion. Bien que leur principal objectif soit de partager leur vision religieuse et d'attirer de nouveaux croyants, les missionnaires rendent g\u00e9n\u00e9ralement d'autres services aux r\u00e9gions dans lesquelles ils exercent. En fondant des cliniques, des \u00e9coles et d'autres structures visant \u00e0 am\u00e9liorer la qualit\u00e9 de vie locale, les missionnaires aident les populations dans le besoin tout en jouant leur r\u00f4le d'\u00e9vang\u00e9listes.",
+    "strategy": "Disponible en \u00e9change de foi dans n'importe quelle cit\u00e9 disposant d'une religion principale. Sur une case adjacente \u00e0 une ville, le missionnaire peut y r\u00e9pandre sa religion (il est d\u00e9truit apr\u00e8s la deuxi\u00e8me utilisation). Si un missionnaire p\u00e9n\u00e8tre sur le territoire d'une autre civilisation sans trait\u00e9 de libre passage, sa puissance religieuse diminue \u00e0 chaque tour. Si elle tombe \u00e0 z\u00e9ro, l'unit\u00e9 est d\u00e9truite.",
+    "movement": 4,
+    "cost": {
+        "production": -1,
+        "faith": 200
+    },
+    "prereq_tech": null,
+    "free_promotions": [
+        {
+            "name": "Peut p\u00e9n\u00e9trer en territoire ennemi",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_enter_rival_territory.json"
+        },
+        {
+            "name": "Champ de vision limit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/limited_visibility.json"
+        },
+        {
+            "name": "\u00c9vang\u00e9liste importun",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/unwelcome_evangelist.json"
+        }
+    ]
+}

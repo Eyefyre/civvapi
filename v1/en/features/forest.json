@@ -1,0 +1,43 @@
+{
+    "id": 6,
+    "name": "Forest",
+    "historical_info": "For early man, the forests were a great source of bounty, providing wood for fire, tools and shelter, and also many animals for sustenance and clothing. As a city grows there is a great temptation to cut down the forests for farmland, but a wise leader will always leave some standing - for productivity and to lift his people's spirits. Also, military units stationed in forests receive a significant defensive bonus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/forest.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+        },
+        {
+            "name": "Deer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/deer.json"
+        },
+        {
+            "name": "Furs",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/furs.json"
+        },
+        {
+            "name": "Dyes",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+        },
+        {
+            "name": "Silk",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silk.json"
+        },
+        {
+            "name": "Truffles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+        }
+    ]
+}

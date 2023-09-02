@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Najpopularniejsza jednostka wojskowa epoki Renesansu. Mo\u017ce j\u0105 produkowa\u0107 wy\u0142\u0105cznie Hiszpania. Ma ona wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 ni\u017c arkebuzerzy, kt\u00f3rych zast\u0119puje, oraz awans premia przeciw konnym (50). Jej utworzenie jest jednak dro\u017csze.",
+    "historical_info": "Tercio to genialny wynalazek wojskowy sk\u0142adaj\u0105cy si\u0119 z mieszanych formacji pikinier\u00f3w i arkebuzer\u00f3w (\u017co\u0142nierzy uzbrojonych w bardzo prymitywn\u0105 bro\u0144 paln\u0105). Zosta\u0142 stworzony na pocz\u0105tku XVI wieku przez hiszpa\u0144skiego genera\u0142a Gonzalo Fernandeza de Cordob\u0119. Tercio (zwane te\u017c hiszpa\u0144skim czworobokiem) ustawiano w formacji szachownicy: pikinierzy i arkebuzerzy znajdowali si\u0119 w naprzemiennych rz\u0119dach. Zalety takiego ustawienia s\u0105 oczywiste: arkebuzerzy mog\u0105 razi\u0107 wroga z odleg\u0142o\u015bci, a pikinierzy zajmuj\u0105 si\u0119 walk\u0105 wr\u0119cz. Ta formacja dominowa\u0142a przez ponad wiek na polach bitewnych renesansu.",
+    "strategy": "Tercio to jedna z dw\u00f3ch hiszpa\u0144skich jednostek unikatowych. Zast\u0119puje arkebuzer\u00f3w - jest od nich silniejsza i dwukrotnie skuteczniejsza w walce z jednostkami kawalerii, ale te\u017c kosztowniejsza.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "Proch strzelniczy|Prochu strzelniczego|Prochowi strzelniczemu|Proch strzelniczy",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia przeciw konnym (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Forschungslabor",
+    "game_info": "Stadt ben\u00f6tigt eine \u00d6ffentliche Schule.",
+    "strategy": "Das Forschungslabor ist ein Geb\u00e4ude in sp\u00e4ten Spielabschnitten, das den Wissenschaftsertrag einer Stadt merklich steigert. Die Stadt muss bereits \u00fcber eine \u00d6ffentliche Schule verf\u00fcgen, damit ein Forschungslabor gebaut werden kann.",
+    "historical_info": "Ein Forschungslabor ist ein Institut, das der fortgeschrittenen Erforschung verschiedener Fachbereiche verschrieben ist. Dabei kann es sich um Medizin, Physik, Chemie, Robotik, saubere Energiegewinnung oder andere interessante Felder handeln. Solche Labors k\u00f6nnen mit \u00f6ffentlichen Geldern betrieben oder auch von wohlhabenden Personen oder Firmen finanziert werden. Forschungslabors k\u00f6nnen sowohl an Universit\u00e4ten gebunden als auch unabh\u00e4ngig sein.Es ist ziemlich offensichtlich, dass Forschungslabors die Zukunft der Forschung bedeuten. Seit sich das Verst\u00e4ndnis der Menschen f\u00fcr die Welt um sie herum weiterentwickelt hat, sind die Zeiten der Forscher, die alleine in ihrem Keller arbeiten und \"Heureka!\" rufen, l\u00e4ngst vergangen. Forschungslabors mit Dutzenden talentierter Leute bringen heute die wirklich gro\u00dfen Fortschritte.",
+    "cost": {
+        "production": 500,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/forschungslabor.png",
+    "prereq_tech": {
+        "name": "Plastik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 4,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

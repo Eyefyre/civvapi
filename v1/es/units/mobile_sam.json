@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "Misil tierra-aire m\u00f3vil|Misiles tierra-aire m\u00f3viles",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "Interceptar\u00e1 a los aviones enemigos que intenten bombardear a las unidades cercanas.",
+    "historical_info": "Cuando los helic\u00f3pteros se convirtieron en m\u00e1quinas de matar m\u00e1s eficaces, la infanter\u00eda a su vez desarroll\u00f3 armas pensadas para combatir la creciente amenaza, por no mencionar el peligro que representaban los cazas a reacci\u00f3n. Los misiles tierra-aire modernos son r\u00e1pidos y ligeros y cuentan con un radar, lo que les permite \"fijar el objetivo\" en un avi\u00f3n enemigo y volar hacia \u00e9l hasta explotar violentamente e infligir toda clase de da\u00f1os, probablemente letales, a los fr\u00e1giles aviones y helic\u00f3pteros. Como respuesta, se han creado veh\u00edculos \"invisibles\" y se ha utilizado tecnolog\u00eda de bloqueo de misiles. Aun as\u00ed, los lanzamisiles tierra-aire se lo ponen muy dif\u00edcil a los aviones enemigos, pues protegen a sus ca\u00f1ones de tierra de la amenaza a\u00e9rea.",
+    "strategy": "Las unidades de Misiles tierra-aire m\u00f3viles proporcionan defensa antia\u00e9rea a un ej\u00e9rcito en marcha. Pueden interceptar y derribar a aviones enemigos que est\u00e9n bombardeando a una distancia de dos hex\u00e1gonos (pero solo a una unidad por turno). Estas unidades son bastante vulnerables a los ataques que no sean a\u00e9reos y han de ir acompa\u00f1adas de infanter\u00eda o blindados.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Coheter\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercepci\u00f3n (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra Aviones/Helic\u00f3pteros (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 32,
+    "name": "Caccia|un Caccia|dal tuo Caccia|al tuo Caccia|il tuo Caccia|da un Caccia",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/fighter.png",
+    "game_info": "Unit\u00e0 aerea progettata per acquisire la superiorit\u00e0 nei cieli e abbattere gli apparecchi nemici.",
+    "historical_info": "Gli aerei da guerra furono sviluppati durante la Prima Guerra Mondiale. I primi caccia erano poco pi\u00f9 di aquiloni ad autopropulsione con delle mitragliatrici montate sopra. Nella Seconda Guerra Mondiale sia la tecnologia sia l'aeronautica militare erano nettamente migliorate, facendo degli apparecchi (che ora erano corazzati e avevano una sola coppia di ali) delle vere e proprie macchine di morte. Il compito principale di un caccia \u00e8 ottenere la superiorit\u00e0 aerea sul campo di battaglia, distruggendo gli apparecchi nemici oppure obbligandoli a ritirarsi e permettendo cos\u00ec ai bombardieri amici di sganciare senza impedimenti il loro carico sulle forze terrestri o navali nemiche. Alcuni caccia trasportano anche bombe da utilizzare contro bersagli a terra, ma anche quelli che ne sono privi possono colpire con i cannoncini le unit\u00e0 o le navi nemiche con effetti letali.I moderni jet sono pi\u00f9 veloci, meglio armati e pi\u00f9 corazzati degli aerei della Seconda Guerra Mondiale, ma i principi del combattimento aereo restano gli stessi - chi ha la superiorit\u00e0 nei cieli dispone di un vantaggio decisivo sul nemico.",
+    "strategy": "Il Caccia \u00e8 un'unit\u00e0 aerea di potenza moderata. Pu\u00f2 usare come base una qualsiasi delle tue citt\u00e0 o portaerei. Pu\u00f2 spostarsi da una citt\u00e0 (o portaerei) all'altra ed eseguire missioni in un raggio d'azione di 8 caselle. I caccia sono utilizzati per attaccare aerei e unit\u00e0 di terra, o come ricognitori dietro le linee nemiche, o come difesa dagli attacchi aerei degli avversari. I caccia sono particolarmente efficaci contro gli elicotteri. Per ulteriori informazioni, consulta la sezione Aviazione.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar|del Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Distruzione difese antiaeree",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_sweep.json"
+        },
+        {
+            "name": "Ricognizione aerea",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contro bombardieri ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

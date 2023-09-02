@@ -1,0 +1,61 @@
+{
+    "id": 12,
+    "name": "Bronzeverarbeitung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/bronze_working.png",
+    "era": "Antike",
+    "cost": 55,
+    "civilopedia_entry": "Bronze ist eine Metalllegierung aus Kupfer und Zinn. Das entstehende Material ist h\u00e4rter und widerstandsf\u00e4higer als die beiden urspr\u00fcnglichen Metalle und l\u00e4sst sich einfacher schmelzen und gie\u00dfen (beispielsweise zur Erstellung von Speerspitzen und anderen n\u00fctzlichen Gegenst\u00e4nden). Kupfer wurde wahrscheinlich zum ersten Mal vor 5.000 v. Chr. in \u00c4gypten verwendet. Die ersten Bronzeerzeugnisse finden sich 1.300 Jahre sp\u00e4ter in der Form eines Bronzestabs in einer Pyramide von 3.700 v. Chr. In Asien erscheint Bronze viel sp\u00e4ter, um 1.500 v. Chr. und sogar noch sp\u00e4ter in Amerika (100-200 n. Chr.).",
+    "quote": "\"Dort hinein ging Hektor, der G\u00f6ttliche; und in der Rechten trug er den Speer, elf Ellen an L\u00e4ng'; und vorn an dem Schafte blinkte die bronzene Sch\u00e4rf', umlegt mit goldenem Ringe.\" - Homer",
+    "tech_prereqs": [
+        {
+            "name": "Bergbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Eisenverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/iron_working.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Speerk\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/spearman.json"
+        },
+        {
+            "name": "Hoplit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/hoplite.json"
+        },
+        {
+            "name": "Krumms\u00e4belk\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/immortal.json"
+        },
+        {
+            "name": "Piktenkrieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/pictish_warrior.json"
+        },
+        {
+            "name": "Rammbock",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/battering_ram.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Krepost",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/krepost.json"
+        },
+        {
+            "name": "Kaserne",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/barracks.json"
+        },
+        {
+            "name": "Zeus-Statue",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/statue_of_zeus.json"
+        },
+        {
+            "name": "Ikanda",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ikanda.json"
+        }
+    ]
+}

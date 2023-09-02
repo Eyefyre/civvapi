@@ -1,0 +1,40 @@
+{
+    "id": 53,
+    "name": "Radio",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radio.png",
+    "era": "Modern Era",
+    "cost": 3100,
+    "civilopedia_entry": "Radio is the technology of transmitting information to a remote receiver by modifying a \"carrier wave's\" amplitude, frequency, or duration. In less technical terms, somewhere a transmitter translates sounds into waves which it broadcasts into the atmosphere. Distant radio receivers can pick up these waves and translate them back into sound.A radio is a complicated and intricate machine. It required hundreds of years of research and development by scientists and physicists like Michael Faraday, James Maxwell, Heinrich Hertz, and Guglielmo Marconi.Marconi was an Italian physicist working on creating a wireless telegraph. In 1894 Marconi managed to send a signal some 30 yards. He continued to refine the technology and by 1901 he successfully transmitted a signal across the Atlantic Ocean. He continued to work in the field, and by the '20s began development of shortwave wireless, which would become the basis for most modern long-distance radio communication.The first radio program was broadcast on Christmas Eve, 1906. The first newscast was made on August 31, 1920, in Detroit, Michigan. By the end of the '20s radios were becoming ubiquitous in the United States and Europe.Radios played an important role in the Second World War. In addition to allowing communication between airplanes and ships, they also allowed the combatant governments to broadcast news and propaganda to their own citizens and to enemies alike. Hitler, Churchill, and Roosevelt were all masters of the medium. Radio remained wildly popular in the postwar years, particularly in the United States, which saw a huge growth of networks and transmitting stations. It remained the dominant form of entertainment until the advent of television in the 1950s.Although diminished by the upstart technologies of TV and the Internet, radio remains a viable and important source of news and entertainment for people around the world. Like rock and roll, it's here to stay.",
+    "quote": "\"The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.\" - Woody Allen",
+    "tech_prereqs": [
+        {
+            "name": "Electricity",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Plastics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/plastics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Broadcast Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/broadcast_tower.json"
+        },
+        {
+            "name": "Eiffel Tower",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/eiffel_tower.json"
+        },
+        {
+            "name": "National Intelligence Agency",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/national_intelligence_agency.json"
+        },
+        {
+            "name": "Broadway",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/broadway.json"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": 48,
+    "name": "Biologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/biology.png",
+    "era": "Industriezeitalter",
+    "cost": 2350,
+    "civilopedia_entry": "Biologie ist die Lehre von den lebenden Organismen. Es ist ein sehr weites Feld, angefangen vom Studium des gr\u00f6\u00dften Wals bis hin zu den kleinsten Bakterien. Vor dem 19. Jahrhundert konzentrierte sich die Biologie vor allem auf die Entdeckung und Kategorisierung aller Pflanzen, Insekten und Tiere auf diesem Planeten. Dank wissenschaftlicher Fortschritte und immer besserer Ausr\u00fcstung begannen die Wissenschaftler sp\u00e4ter mit der Erforschung der Grundsteine der Biologie - Zellen und sp\u00e4ter auch Gene und DNS. Heute ist ziemlich viel \u00fcber die Biologie aller lebenden Organismen dieses Planeten bekannt.Biologen k\u00f6nnen das Leben mittlerweile so erfolgreich manipulieren, dass sich die Biologie in Felder verlagert hat, die vor wenigen Jahren noch als Science-Fiction abgetan worden w\u00e4ren. Es wurden bereits Schafe geklont, und fr\u00fcher oder sp\u00e4ter werden vielleicht sogar Menschen geklont. Die Nanobiologie ist zu einem realen Forschungsbereich geworden. F\u00fcr die selektive Z\u00fcchtung k\u00f6nnen spezielle Gene aktiviert werden. Wenn die Entwicklung in diesem Ma\u00dfe voranschreitet, dann sind in nicht allzu ferner Zukunft m\u00f6glicherweise die meisten Krankheiten besiegt, bionische K\u00f6rperteile ein allt\u00e4glicher Anblick, und die menschliche Lebenserwartung k\u00f6nnte sich um Jahrzehnte verl\u00e4ngern.",
+    "quote": "\"Wenn das Gehirn so einfach w\u00e4re, dass wir es verstehen k\u00f6nnten, dann w\u00e4ren wir so einfach strukturiert, dass wir es nicht verstehen k\u00f6nnten.\" - Lyall Watson",
+    "tech_prereqs": [
+        {
+            "name": "Arch\u00e4ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archaeology.json"
+        },
+        {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "K\u00fchltechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Krankenhaus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hospital.json"
+        }
+    ]
+}

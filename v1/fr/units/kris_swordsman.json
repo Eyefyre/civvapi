@@ -1,0 +1,23 @@
+{
+    "id": 134,
+    "name": "Spadassin \u00e0 kriss|Spadassins \u00e0 kriss",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/kris_swordsman.png",
+    "game_info": "Exclusive \u00e0 l'Indon\u00e9sie, cette unit\u00e9 de combat rapproch\u00e9 de l'\u00e8re classique est \u00e9quip\u00e9e d'une arme mystique dont les comp\u00e9tences sont d\u00e9couvertes lors de sa premi\u00e8re fois utilisation en combat.",
+    "historical_info": "Le kriss est une dague ou une \u00e9p\u00e9e longue et asym\u00e9trique, dot\u00e9e d'une lame ondul\u00e9e caract\u00e9ristique de l'Indon\u00e9sie et de la Malaisie. \u00c0 la fois arme blanche et accessoire occulte, le kriss \u00e9tait, selon les tribus indon\u00e9siennes, impr\u00e9gn\u00e9 d'un pouvoir magique, et si certaines lames apportaient la chance, d'autres n'\u00e9taient que source de malheur. Le kriss \u00e9tait si pr\u00e9cieux en Indon\u00e9sie que certaines lames se transmettaient de g\u00e9n\u00e9ration en g\u00e9n\u00e9ration. Au combat, le soldat \u00e9quip\u00e9 d'un kriss peut en transporter jusqu'\u00e0 trois\u00a0: le sien, celui de son beau-p\u00e8re et celui de sa famille. Seuls quelques \u00e9lus \u00e9taient capables de forger des kriss, et ces forgerons de talent cr\u00e9aient leurs lames en repliant plusieurs fois sur elles-m\u00eames des couches de diff\u00e9rents minerais de fer et de m\u00e9t\u00e9orites ferreuses, un proc\u00e9d\u00e9 minutieux auquel ils devaient parfois consacrer des ann\u00e9es de labeur.",
+    "strategy": "Le spadassin \u00e0 kriss remplace le spadassin standard. Envoyez-le au combat d\u00e8s que possible pour d\u00e9bloquer les propri\u00e9t\u00e9s secr\u00e8tes de sa lame incurv\u00e9e.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Travail du fer",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/iron_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Lame mystique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/mystic_blade.json"
+        }
+    ]
+}

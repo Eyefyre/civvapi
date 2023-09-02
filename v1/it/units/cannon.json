@@ -1,0 +1,39 @@
+{
+    "id": 47,
+    "name": "Cannone|un Cannone|dal tuo Cannone|al tuo Cannone|il tuo Cannone|da un Cannone",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cannon.png",
+    "game_info": "Potente unit\u00e0 d'assedio di epoca rinascimentale. Deve eseguire l'allestimento prima di attaccare.",
+    "historical_info": "Un cannone \u00e8 una grossa arma da fuoco tubolare che utilizza polvere da sparo o altri esplosivi per scagliare un proiettile a grande distanza e a grande velocit\u00e0. Fu inventato in Cina intorno al XII secolo d.C. I Mongoli furono tra i primi ad adottare i cannoni, utilizzandoli con grande efficacia in Cina e Corea. \u00c8 probabile che siano stati loro a introdurli nel mondo islamico, da cui poi raggiunsero l'Europa. I primi cannoni erano enormi, scomodi e pericolosissimi: esplodevano cos\u00ec spesso da rappresentare un pericolo per gli operatori quasi quanto per il nemico. Nel Rinascimento, comunque, la tecnica di fusione del metallo raggiunse un tale livello da permettere di realizzare cannoni molto pi\u00f9 piccoli e affidabili, che potevano essere trasportati in battaglia dai cavalli o montati a bordo delle navi.Re Gustavo Adolfo di Svezia rivoluzion\u00f2 l'uso dell'artiglieria da campo, utilizzando un gran numero di pezzi piccoli e leggeri per sopraffare i cannoni nemici pi\u00f9 grandi e pesanti. Inoltre fu uno dei pionieri del cosiddetto colpo \"a mitraglia\", estremamente efficace contro la fanteria, motivo per cui i soldati di tutto il mondo hanno probabilmente maledetto il suo nome.",
+    "strategy": "Il Cannone \u00e8 un'importante arma d'assedio nelle epoche centrali del gioco: il suo effetto sulle civilt\u00e0 che non l'hanno ancora acquisito \u00e8 devastante. Come altre armi d'assedio, deve spendere 1 PM per l'allestimento prima di poter attaccare. I Cannoni rimangono potenti fino all'epoca industriale. Un Cannone ha un raggio di visione limitato e va sempre protetto con unit\u00e0 da mischia.",
+    "movement": 2,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Chimica|della Chimica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chemistry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

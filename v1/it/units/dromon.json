@@ -1,0 +1,31 @@
+{
+    "id": 98,
+    "name": "Dromone|un Dromone|dal tuo Dromone|al tuo Dromone|il tuo Dromone|da un Dromone",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/dromon.png",
+    "game_info": "Unit\u00e0 navale antica dominante, ottima per acquisire il controllo dei mari in tutta l'epoca classica con il suo attacco a distanza. Solo i bizantini possono costruirla.",
+    "historical_info": "Versione modificata della classica galea, il dromone \u00e8 stato un componente fondamentale della marina di Bisanzio per tutta la durata dell'impero orientale. In grado di muoversi a vela e a remi, il dromone era molto agile e manovrabile, ma estremamente efficace in battaglia. L'uso del fuoco greco, un precursore del moderno napalm, permetteva ai bizantini di incutere terrore in qualsiasi nemico osasse opporsi al loro potere sul mare.",
+    "strategy": "Solo i bizantini possono costruire quest'unit\u00e0. \u00c8 la prima unit\u00e0 navale dotata di attacco a distanza ed \u00e8 in grado di utilizzare il letale fuoco greco. Gode di un bonus del 50% alla Forza di combattimento contro altre unit\u00e0 navali. Non pu\u00f2 entrare nelle caselle di Oceano al di fuori dei confini della citt\u00e0.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Vela|della Vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 entrare in mare aperto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro unit\u00e0 navali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_naval.json"
+        }
+    ]
+}

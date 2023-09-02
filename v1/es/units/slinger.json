@@ -1,0 +1,27 @@
+{
+    "id": 87,
+    "name": "Hondero|Honderos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/slinger.png",
+    "game_info": "Una de las primeras unidades de combate a distancia disponibles. Esta unidad exclusiva inca sustituye al Arquero. El Hondero no es m\u00e1s poderoso que el Arquero, e incluso es m\u00e1s fr\u00e1gil si recibe un ataque cuerpo a cuerpo. No obstante, cuenta con un ascenso que le da una buena posibilidad de retirarse a retaguardia antes de que se produzca el ataque enemigo cuerpo a cuerpo.",
+    "historical_info": "Los guerreros incas eran famosos por su habilidad con la honda. Eligieron piedras redondas como proyectiles. Aunque la honda carece del alcance y de la potencia de un arco, es un arma peque\u00f1a y ligera que cualquier infanter\u00eda puede llevar sin apenas esfuerzo. Tal como narra el Antiguo Testamento, bastaba una pedrada de un hondero entrenado para acabar con el enemigo m\u00e1s grande.",
+    "strategy": "El Hondero es una poderosa unidad de infanter\u00eda a distancia de la Antig\u00fcedad que puede atacar a los enemigos desde lejos. Esta unidad exclusiva inca puede retirarse antes de que se den la mayor\u00eda de ataques cuerpo a cuerpo: \u00fasala para hostigar a tus enemigos. Sin embargo, el enemigo puede derrotar f\u00e1cilmente al Hondero si lo inmoviliza contra obst\u00e1culos o lo persigue con unidades r\u00e1pidas.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tiro con arco",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Retirarse antes del cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

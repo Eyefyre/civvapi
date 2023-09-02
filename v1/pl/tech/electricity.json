@@ -1,0 +1,44 @@
+{
+    "id": 49,
+    "name": "Elektryczno\u015b\u0107|Elektryczno\u015bci|Elektryczno\u015bci|Elektryczno\u015b\u0107",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/electricity.png",
+    "era": "Epoka przemys\u0142owa|Epoki przemys\u0142owej|Epoce przemys\u0142owej|Epok\u0119 przemys\u0142ow\u0105",
+    "cost": 2350,
+    "civilopedia_entry": "Pierwsze do\u015bwiadczenia ludzko\u015bci z elektryczno\u015bci\u0105 to pora\u017cenia przez elektryczne ryby, odnotowane przez Egipcjan w 2750 r. p.n.e. W XV wieku naszej ery Arabowie odkryli, \u017ce b\u0142yskawica to inna posta\u0107 elektryczno\u015bci, co p\u00f3\u017aniej potwierdzi\u0142 brytyjsko-ameryka\u0144ski naukowiec, Ben Franklin, w roku 1752. Pierwsze ogniwo skonstruowa\u0142 Alessandro Volta w 1800 r., a w 1821 Michael Faraday wynalaz\u0142 silnik elektryczny.Odkrycia w dziedzinie elektryczno\u015bci dokonane w drugiej po\u0142owie XIX wieku przez takich geniuszy jak Nikola Tesla, Thomas Edison, George Westinghouse, Alexander Graham Bell i lord Kelvin zrewolucjonizowa\u0142y \u015bwiat. Telegraf, a wkr\u00f3tce po nim telefon i radio, znacznie zwi\u0119kszy\u0142y szybko\u015b\u0107 i dok\u0142adno\u015b\u0107 przekazywania informacji. Po po\u0142o\u017ceniu kabla transatlantyckiego wiadomo\u015b\u0107 z Nowego Jorku mog\u0142a dotrze\u0107 do Londynu w ci\u0105gu kilku sekund. Przed pojawieniem si\u0119 elektryczno\u015bci wiadomo\u015b\u0107 przes\u0142ana najszybszym okr\u0119tem dotar\u0142aby na miejsce po kilku tygodniach. Elektryczno\u015b\u0107 zrewolucjonizowa\u0142a domy i miejsca pracy, a fonograf, radio i kamera filmowa zrobi\u0142y to samo w dziedzinie rozrywki. Dzi\u0119ki elektrowniom energia w postaci pr\u0105du trafi\u0142a do domostw, co niewiarygodnie poprawi\u0142o warunki bytowania ludzi. Nap\u0119dzana elektryczno\u015bci\u0105 \u201edruga rewolucja przemys\u0142owa\u201d by\u0142a najwi\u0119kszym usprawnieniem jako\u015bci \u017cycia od czasu wynalezienia druku.",
+    "quote": "\u201eCzy to prawda - a mo\u017ce tylko mi si\u0119 to \u015bni\u0142o - \u017ce dzi\u0119ki elektryczno\u015bci \u015bwiat materialny sta\u0142 si\u0119 wielkim nerwem, d\u0142ugim na tysi\u0105ce mil i wibruj\u0105cym w osza\u0142amiaj\u0105cym punkcie czasu?\u201d - Nathaniel Hawthorne",
+    "tech_prereqs": [
+        {
+            "name": "Teoria naukowa|Teorii naukowej|Teorii naukowej|Teori\u0119 naukow\u0105",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/scientific_theory.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Cz\u0119\u015bci zamienne|Cz\u0119\u015bci zamiennych|Cz\u0119\u015bciom zamiennym|Cz\u0119\u015bci zamienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/replaceable_parts.json"
+        },
+        {
+            "name": "Ch\u0142odzenie|Ch\u0142odzenia|Ch\u0142odzeniu|Ch\u0142odzenie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/refrigeration.json"
+        },
+        {
+            "name": "Radio|Radia|Radiu|Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/radio.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Elektrownia wodna|Elektrowni wodnej|Elektrowni wodnej|Elektrowni\u0119 wodn\u0105|Elektrownie wodne|Elektrowni wodnych|Elektrowniom wodnym|Elektrownie wodne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/hydro_plant.json"
+        },
+        {
+            "name": "Gie\u0142da|Gie\u0142dy|Gie\u0142dzie|Gie\u0142d\u0119|Gie\u0142dy|Gie\u0142d|Gie\u0142dom|Gie\u0142dy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/stock_exchange.json"
+        },
+        {
+            "name": "Posterunek policji|Posterunku policji|Posterunkowi policji|Posterunek policji|Posterunki policji|Posterunk\u00f3w policji|Posterunkom policji|Posterunki policji",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/police_station.json"
+        }
+    ]
+}

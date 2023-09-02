@@ -1,0 +1,31 @@
+{
+    "id": 49,
+    "name": "Miliciano|Milicianos",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/minuteman.png",
+    "game_info": "Una de las primeras unidades de p\u00f3lvora del juego. Solo los estadounidenses pueden construirla. Esta unidad se mueve por terreno abrupto como si fuera llano, a diferencia del Mosquete, al que sustituye. Recibe una bonificaci\u00f3n al luchar en terreno abrupto, y gana puntos hacia una Edad de Oro cuando derrota a un enemigo.",
+    "historical_info": "Nacidos durante la Guerra de Independencia americana, los \"minutemen\" estadounidenses eran los miembros selectos de la milicia colonial. Eran una fuerza de \"intervenci\u00f3n r\u00e1pida\", entrenada para responder r\u00e1pidamente a los ataques enemigos, dando al ej\u00e9rcito regular (as\u00ed como al resto de la milicia) tiempo para reaccionar y prepararse para el combate. En realidad, los \"minutemen\" datan de antes de la Guerra de Independencia: la colonia de la bah\u00eda de Massachusetts ya ten\u00eda designados como tales a miembros de su milicia en 1645.",
+    "strategy": "El Miliciano es la unidad exclusiva americana que sustituye al Mosquete. Puede moverse por el terreno dif\u00edcil como si estuviese despejado (todas las casillas le cuestan 1 PM por hex\u00e1gono) y recibe una bonificaci\u00f3n cuando lucha en terreno abrupto, y gana puntos hacia una Edad de Oro cuando derrota a un enemigo.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "P\u00f3lvora",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Coste por terreno sin efecto",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/ignores_terrain_cost.json"
+        },
+        {
+            "name": "Instrucci\u00f3n I",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/drill_i.json"
+        },
+        {
+            "name": "Edad de Oro por victorias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

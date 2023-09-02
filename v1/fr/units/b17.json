@@ -1,0 +1,27 @@
+{
+    "id": 31,
+    "name": "B-17",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/b17.png",
+    "game_info": "Unit\u00e9 a\u00e9rienne capable de faire pleuvoir la mort sur les unit\u00e9s et villes ennemies. Le bombardier B-17 est exclusif aux Am\u00e9ricains. Il peut \u00e9chapper aux tentatives d'interception, et inflige plus de d\u00e9g\u00e2ts aux villes que le bombardier standard, qu'il remplace.",
+    "historical_info": "Le Boeing B-17 \"Flying Fortress\" \u00e9tait un bombardier lourd utilis\u00e9 par l'United States Army Air Corps durant la Deuxi\u00e8me Guerre mondiale. Avec ses quatre moteurs, ses nombreux canons et son plafond sup\u00e9rieur, le B-17 \u00e9tait le bombardier de pr\u00e9dilection de l'US Air Corps, m\u00eame si sa port\u00e9e et sa capacit\u00e9 de chargement \u00e9taient inf\u00e9rieures \u00e0 celles du B-24 Liberator. Cette pr\u00e9f\u00e9rence venait de sa capacit\u00e9 \u00e0 absorber de lourds d\u00e9g\u00e2ts tout en ramenant son \u00e9quipage en vie.\u00c0 l'origine, le B-17 \u00e9tait utilis\u00e9 pour de dangereuses missions de jour contre des cibles en Allemagne, mais de nombreux appareils ont \u00e9t\u00e9 abattus par les chasseurs de la Luftwaffe. Plus tard au cours de la guerre, les forces alli\u00e9es ont con\u00e7u des chasseurs capables d'escorter les bombardiers en territoire ennemi, les missions du B-17 connurent alors plus de succ\u00e8s et permirent de bombarder lourdement les villes et les zones industrielles allemandes.Plus de 12 000 B-17 furent construits pendant la Deuxi\u00e8me Guerre mondiale, et environ un tiers d'entre eux ont \u00e9t\u00e9 perdus au combat.",
+    "strategy": "Le bombardier B-17 est une unit\u00e9 exclusive aux Am\u00e9ricains\u00a0; il remplace le bombardier classique. Identique \u00e0 ce dernier, il est cependant plus difficile \u00e0 prendre en cible par les unit\u00e9s antia\u00e9riennes et les chasseurs. Le B-17 re\u00e7oit \u00e9galement un bonus lorsqu'il attaque les villes ennemies. Comme le bombardier, l'autonomie du B-17 est de 10\u00a0cases. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Esquive",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/evasion.json"
+        },
+        {
+            "name": "Si\u00e8ge I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/siege_i.json"
+        }
+    ]
+}

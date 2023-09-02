@@ -1,0 +1,32 @@
+{
+    "id": 3,
+    "name": "Allevamento di animali|dell'Allevamento di animali",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/animal_husbandry.png",
+    "era": "Epoca antica",
+    "cost": 35,
+    "civilopedia_entry": "L'allevamento di animali si \u00e8 sviluppato pi\u00f9 o meno insieme all'invenzione dell'agricoltura. L'animale domestico pi\u00f9 antico sembra essere stato il cane, probabilmente selezionato per aiutare nella caccia e nell'uccisione della selvaggina. Le prove suggeriscono che i primi cani siano stati addomesticati e incrociati in Cina: in effetti, gli studiosi di genetica credono che il 95% dei cani che vivono oggi siano tutti discendenti di pochi esemplari cinesi. Le capre e le pecore sono state addomesticate in Medio Oriente intorno al 10.000 a.C.Per poter essere addomesticato un animale deve soddisfare certi criteri: deve consumare cibo che non sia appetibile per gli esseri umani, come l'erba o gli insetti, o resti di cibo scartato. Deve crescere rapidamente, in modo da risultare utile in breve tempo e da rendere possibile la selezione genetica attraverso l'incrocio di pi\u00f9 generazioni. Deve avere un carattere poco aggressivo. Non deve andare facilmente nel panico, e in caso contrario deve avere l'istinto di restare insieme ai suoi simili, cosicch\u00e9 una persona o un cane possa gestire l'intero gregge o branco come un gruppo unico. Infine, \u00e8 estremamente utile che l'animale possa essere addestrato in modo da ritenere che un essere umano sia il capobranco.Gli scienziati ritengono che i primi cavalli siano stati addomesticati nella regione che corrisponde all'odierna Ucraina in un periodo che va tra il 4000 e il 3500 a.C. \u00c8 possibile che i primi cavalli fossero allevati per la loro carne e non per essere messi al lavoro. Nel giro di mezzo millennio il cavallo si impose come animale da lavoro in gran parte dell'Europa e dell'Asia. Nel giro di migliaia d'anni, programmi di allevamento intensivo hanno prodotto un animale addomesticato molto pi\u00f9 grande e forte dell'originale cavallo selvaggio. L'invenzione del collare, e in seguito della sella e delle staffe, ha fatto del cavallo l'animale pi\u00f9 importante nella storia dell'umanit\u00e0. Questo, almeno, vale per l'Eurasia e il Nordafrica: nelle Americhe, i nativi mangiarono tutti i loro cavalli prima di addomesticarli.",
+    "quote": "\"Non mettere la musoliera al bue mentre sta trebbiando\". - Deuteronomio, 25:4",
+    "tech_prereqs": [
+        {
+            "name": "Agricoltura|dell'Agricoltura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Trappole per animali|delle Trappole per animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/trapping.json"
+        },
+        {
+            "name": "Ruota|della Ruota",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Carovana|una Carovana|dalla tua Carovana|alla tua Carovana|la tua Carovana|da una Carovana",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/caravan.json"
+        }
+    ],
+    "building_unlocks": []
+}

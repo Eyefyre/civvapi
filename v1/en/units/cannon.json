@@ -1,0 +1,39 @@
+{
+    "id": 47,
+    "name": "Cannon",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cannon.png",
+    "game_info": "Powerful Renaissance Era Siege Unit. Must set up prior to firing.",
+    "historical_info": "A cannon is a big tubular gun that uses gunpowder or other explosive to send a projectile a long distance at a high rate of speed, originally invented in China in approximately the 12th century AD. The Mongols were early adaptors of the cannon, using them to great effect in China and Korea. It's likely that the Mongols introduced cannon to the Islamic world, and the Europeans learned of it from the Muslims. The earliest cannon were huge, unwieldy, dangerous affairs that often exploded when fired, making them as big a menace to their firers as to their targets. But by the Renaissance the quality of metal casting had advanced enough to create smaller and far more reliable guns that could be pulled into battle by teams of horses or mounted aboard ships.King Gustavus Adolphus of Sweden revolutionized the use of field artillery, employing large numbers of smaller and lighter pieces that overwhelmed slower and heavier enemy guns. He also pioneered the use of canister shot against infantry, for which foot soldiers everywhere probably cursed his name.",
+    "strategy": "The Cannon is an important mid-game siege unit, devastating against civilizations which have not yet acquired them. Like other siege units, the Cannon must spend 1 mp to set up before it can attack. Cannon remain potent into the Industrial era. Cannon cannot see as far as other units, and should be protected with melee units.",
+    "movement": 2,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Chemistry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chemistry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus vs Cities (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Must Set Up to Ranged Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Limited Visibility",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/limited_visibility.json"
+        }
+    ]
+}

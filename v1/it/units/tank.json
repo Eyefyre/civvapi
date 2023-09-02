@@ -1,0 +1,27 @@
+{
+    "id": 35,
+    "name": "Carro armato|un Carro armato|dal tuo Carro armato|al tuo Carro armato|il tuo Carro armato|da un Carro armato",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tank.png",
+    "game_info": "Unit\u00e0 veloce e potente, disponibile verso la fine del gioco.",
+    "historical_info": "Un carro armato unisce la potenza di fuoco dell'artiglieria alla mobilit\u00e0 della cavalleria. I primi carri sono apparsi sul campo di battaglia verso la fine della Prima Guerra Mondiale, inventati per cercare di annullare la superiorit\u00e0 delle strategie difensive del tempo: le mitragliatrici, le trincee e il filo spinato avevano reso del tutto impossibili gli assalti di fanteria, per non parlare delle cariche di cavalleria. Per quanto fossero mal progettati e severamente limitati dall'inaffidabilit\u00e0 dei motori e dall'inettitudine degli equipaggi, i primi carri mostrarono un grande potenziale... almeno per chi si prese la briga di fare attenzione. Nella Seconda Guerra Mondiale i tedeschi applicarono la dottrina della guerra-lampo, che prevede l'uso di numerosi carri armati concentrati per sfondare le linee nemiche. L'effetto fu straordinario: la Germania conquist\u00f2 in un baleno la Francia ed espulse l'esercito inglese dal continente prima che i generali nemici riuscissero a elaborare una risposta efficace alla nuova tattica. Oggi i carri rimangono un importante componente offensivo degli eserciti di terra, ma si sono rivelati molto vulnerabili a una nuova arma ancora pi\u00f9 rapida: l'elicottero da guerra.",
+    "strategy": "Il Carro armato \u00e8 un'unit\u00e0 terrestre estremamente veloce e potente che pu\u00f2 muoversi dopo il combattimento, un'abilit\u00e0 che gli permette di aprirsi un varco nelle linee nemiche e infilarsi nell'esagono vacante cos\u00ec creato.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Armi combinate|delle Armi combinate",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/combined_arms.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        }
+    ]
+}

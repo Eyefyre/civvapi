@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "name": "Hierro",
+    "game_info": "Se utiliza para las unidades poderosas de las primeras fases.",
+    "historical_info": "El hierro es uno de los metales m\u00e1s importantes de la historia de la humanidad. Se usa para la construcci\u00f3n, para fabricar armas y para hacer herramientas. El primer hierro que se utiliz\u00f3 proven\u00eda de dep\u00f3sitos puros hallados en meteoritos y, en el segundo milenio a. C., algunas culturas ya hab\u00edan aprendido a extraerlo de las vetas de mineral halladas en las minas. El hierro sigue siendo un material extremadamente importante en la \u00e9poca moderna, aunque se suele usar en su forma de aleaci\u00f3n de acero. Recuerda que el hierro es un recurso estrat\u00e9gico y que, como tal, se consume a medida que construyes las unidades y los edificios a \u00e9l asociados.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/hierro.png",
+    "prereq_tech": {
+        "name": "Forja del bronce",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        },
+        {
+            "name": "Aduana|Aduanas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/customs_house.json"
+        },
+        {
+            "name": "Academia|Academias",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/academy.json"
+        },
+        {
+            "name": "Ciudadela|Ciudadelas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/citadel.json"
+        },
+        {
+            "name": "Factor\u00eda|Factor\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/manufactory.json"
+        },
+        {
+            "name": "Lugar sagrado|Lugares sagrados",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/nieve|nieves.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

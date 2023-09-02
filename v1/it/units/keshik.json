@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "name": "Kheshig|un Kheshig|dal tuo Kheshig|al tuo Kheshig|il tuo Kheshig|da un Kheshig",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/keshik.png",
+    "game_info": "Questa unit\u00e0, esclusiva della Mongolia, sostituisce il normale Cavaliere. Ha un forte attacco a distanza, si muove pi\u00f9 rapidamente e guadagna promozioni il 50% pi\u00f9 velocemente. Inoltre le battaglie in cui \u00e8 coinvolta contribuiscono con il doppio dei punti alla creazione di Grandi Generali.",
+    "historical_info": "Nel XII secolo i mongoli si riversarono come un violento maremoto dall'Asia centrale e conquistarono nel giro di un secolo gran parte dell'Asia, l'Europa orientale e una vasta area del Medio Oriente. Il nerbo dell'esercito mongolo erano gli arcieri a cavallo, i Keshig. I mongoli erano organizzati in trib\u00f9 nomadi e i loro bambini crescevano letteralmente in sella. Con i loro piccoli ma resistenti pony della steppa i cavalieri potevano coprire ogni giorno distanze sbalorditive, di gran lunga superiori alla fanteria o alla pi\u00f9 pesante cavalleria europea.In battaglia i Keshig tiravano da cavallo con precisione letale, rompendo l'organizzazione delle formazioni nemiche e demoralizzandone le truppe. Una volta che l'avversario era abbastanza indebolito le unit\u00e0 di cavalleria pesante infliggevano il colpo di grazia con una carica. Quando affrontavano cavalieri corazzati, i mongoli si limitavano a tirare ai cavalli per poi distruggere o ignorare gli uomini cos\u00ec disarcionati.",
+    "strategy": "Il Keshig \u00e8 un'unit\u00e0 sostitutiva del Cavaliere, disponibile esclusivamente per i mongoli a partire dall'epoca medievale. I Keshig dispongono di un potente attacco a distanza e si muovono rapidamente (5 punti totali), il che permette loro di eseguire rapide incursioni con grande efficacia. Inoltre un Keshig guadagna promozioni con velocit\u00e0 doppia rispetto alle altre unit\u00e0 e contribuisce con una quantit\u00e0 doppia di punti alla creazione di Grandi Generali. Questi guerrieri a cavallo sono in grado di assicurare da soli a Gengis Khan il controllo delle grandi pianure.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Codice cavalleresco|del Codice cavalleresco",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Grandi Generali I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Apprendimento rapido",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/quick_study.json"
+        }
+    ]
+}

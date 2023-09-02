@@ -1,0 +1,27 @@
+{
+    "id": 34,
+    "name": "Fallschirmj\u00e4ger",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/paratrooper.png",
+    "game_info": "Starke Infanterieeinheit, die sich bis zu 9 Gel\u00e4ndefelder von freundlich gesinntem Territorium entfernt per Fallschirm absetzen lassen kann. Fallschirmj\u00e4ger k\u00f6nnen sich nach dem Absprung noch bewegen und pl\u00fcndern, jedoch erst in der folgenden Runde k\u00e4mpfen.",
+    "historical_info": "Fallschirmj\u00e4ger sind leichte Infanterie-Einheiten, die speziell daf\u00fcr ausgebildet sind, von Flugzeugen aus hinter feindlichen Linien in die Schlacht abzuspringen. Zwangsl\u00e4ufig sind sie nur leicht bewaffnet und tragen wenig Munition bei sich, weshalb sich Fallschirmj\u00e4ger sehr auf das \u00dcberraschungsmoment verlassen, um ihre Gegner zu \u00fcberw\u00e4ltigen. Au\u00dferdem m\u00fcssen sie schnell von Bodeneinheiten verst\u00e4rkt werden, die die feindlichen Linien durchbrechen, sonst laufen sie Gefahr, vom Feind angegriffen und besiegt zu werden, sobald er sich neu gruppiert und sie umzingelt hat.Im Zweiten Weltkrieg wurden Fallschirmj\u00e4ger mit m\u00e4\u00dfigem Erfolg eingesetzt, beispielsweise bei Deutschlands Invasion D\u00e4nemarks 1940. 1941 griffen deutsche Fallschirmj\u00e4ger aus der Luft die Insel Kreta an und nahmen sie ein. Allerdings waren die Verluste unter den Fallschirmspringern so erschreckend hoch, dass weitere gro\u00dfangelegte Fallschirmj\u00e4ger-Angriffe untersagt wurden. Auch nur m\u00e4\u00dfig erfolgreich waren die Fallschirmj\u00e4ger der alliierten Truppen w\u00e4hrend der Invasion in der Normandie 1944, und die gro\u00df angelegte Operation Market Garden in den Niederlanden und Deutschland im selben Jahr war ganz und gar nicht erfolgreich und bedeutete schwere Verluste f\u00fcr die britischen, polnischen und amerikanischen Fallschirmj\u00e4ger.Spezialeinheiten umfassen bis heute Fallschirmj\u00e4ger, doch sie werden so gut wie nicht mehr eingesetzt. Die meisten Luftlandetruppen werden inzwischen per Helikopter im feindlichen Gebiet abgesetzt.",
+    "strategy": "Der Fallschirmj\u00e4ger ist ein Infanterist im sp\u00e4ten Spiel. Er ist etwas schw\u00e4cher als eine mechanisierte Infanterieeinheit, kann aber mit einer Reichweite von bis zu 9 Gel\u00e4ndefeldern abspringen (ausgehend von freundlich gesinntem Gebiet) und so feindliche Positionen buchst\u00e4blich \u00fcberspringen, um dahinter Stra\u00dfennetze zu zerst\u00f6ren, wichtige Ressourcen zu pl\u00fcndern und Chaos anzurichten. Der Fallschirmj\u00e4ger geht bei solchen Missionen ein gro\u00dfes Risiko ein, also sollte das Ziel unbedingt lohnenswert sein!",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Radar",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Fallschirmsprung m\u00f6glich",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_paradrop.json"
+        },
+        {
+            "name": "Keine Fortbewegungskosten beim Pl\u00fcndern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

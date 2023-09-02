@@ -1,0 +1,27 @@
+{
+    "id": 17,
+    "name": "Caravelle|Caravelles",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/caravel.png",
+    "game_info": "Unit\u00e9 d'exploration rapide de la Renaissance au champ de vision \u00e9tendu qui peut naviguer sur les cases d'oc\u00e9an. Combat comme une unit\u00e9 navale de combat \u00e0 distance.",
+    "historical_info": "La caravelle \u00e9tait un navire de petite taille utilis\u00e9 au XVe si\u00e8cle pour parcourir les oc\u00e9ans et explorer le monde. Cr\u00e9\u00e9e \u00e0 l'origine \u00e0 la demande d'Henri le Navigateur, prince du Portugal, son mod\u00e8le fut repris par d'autres nations qui cr\u00e9\u00e8rent leur propre version du navire. D'une longueur habituelle de\u00a020 \u00e0 30\u00a0m\u00e8tres et dot\u00e9e de deux \u00e0 trois m\u00e2ts \u00e0 voiles latines, la caravelle \u00e9tait l\u00e9g\u00e8re et son tirant d'eau allong\u00e9. Ce navire \u00e9tait parfait pour l'exploration de c\u00f4tes et de cours d'eau inconnus, car il pouvait se faufiler l\u00e0 o\u00f9 les plus gros navires n'osaient s'aventurer. La caravelle \u00e9tait \u00e9galement tr\u00e8s bien adapt\u00e9e \u00e0 la navigation sur les oc\u00e9ans et \u00e9tait capable de surmonter les dangers de l'Atlantique. Deux des trois vaisseaux de l'exp\u00e9dition de Christophe Colomb, la Pinta et la Ni\u00f1a, \u00e9taient des caravelles (la Santa Maria, plus imposante, \u00e9tait une caraque).",
+    "strategy": "La caravelle repr\u00e9sente une innovation d\u00e9cisive pour la marine d'une civilisation. Unit\u00e9 d'attaque rapproch\u00e9e, elle est plus puissante et rapide que la trir\u00e8me et peut p\u00e9n\u00e9trer sur les cases d'oc\u00e9an. Elle est rapide et b\u00e9n\u00e9ficie d'une promotion qui augmente ses chances de pouvoir se replier avant qu'une unit\u00e9 navale ennemie puisse attaquer. La caravelle poss\u00e8de un champ de vision tr\u00e8s \u00e9tendu qui fait d'elle les yeux et les oreilles de la marine en milieu de partie. Ce champ de vision \u00e9tendu sera perdu si une caravelle est am\u00e9lior\u00e9e en destroyer.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Champ de vision (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Se retirer avant combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

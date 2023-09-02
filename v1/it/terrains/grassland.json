@@ -1,0 +1,93 @@
+{
+    "id": 1,
+    "name": "Prateria",
+    "historical_info": "In generale una casella di Prateria produce pi\u00f9 cibo di qualsiasi altro tipo di terreno. Le citt\u00e0 costruite vicino alle Praterie tendono a crescere pi\u00f9 rapidamente di tutte le altre.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/prateria.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Giungla|la giungla|una giungla",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/jungle.json"
+        },
+        {
+            "name": "Palude|la palude|una palude",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/marsh.json"
+        },
+        {
+            "name": "Foresta|la foresta|una foresta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Cavalli",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+        },
+        {
+            "name": "Carbone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/coal.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Bestiame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cattle.json"
+        },
+        {
+            "name": "Pecore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sheep.json"
+        },
+        {
+            "name": "Pietra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/stone.json"
+        },
+        {
+            "name": "Oro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gold.json"
+        },
+        {
+            "name": "Gemme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+        },
+        {
+            "name": "Marmo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/marble.json"
+        },
+        {
+            "name": "Cotone",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/cotton.json"
+        },
+        {
+            "name": "Vino",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/wine.json"
+        },
+        {
+            "name": "Rame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+        },
+        {
+            "name": "Agrumi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/citrus.json"
+        },
+        {
+            "name": "Bisonti|dei Bisonti|dei Bisonti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/bison.json"
+        }
+    ]
+}

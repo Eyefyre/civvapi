@@ -1,0 +1,31 @@
+{
+    "id": 128,
+    "name": "Nao",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nau.png",
+    "game_info": "Nahkampf-Marineeinheit, hervorragend f\u00fcr die Meereserkundung geeignet. Sie hat mehr [ICON_MOVES] Fortbewegung als die Karavelle, die sie ersetzt, und kann einmalig eine F\u00e4higkeit einsetzen, mit der sie direkt neben fremdem Gebiet Gold und EP einbringt. Kann nur von den Portugiesen gebaut werden.",
+    "historical_info": "Als die Portugiesen ihre Entdeckungsreisen und Handelsunternehmungen weiter entlang der afrikanischen K\u00fcste und in den Fernen Osten ausdehnten, ben\u00f6tigten sie ein gr\u00f6\u00dferes, robusteres Schiff, das auch f\u00fcr lange Fahrten tauglich war. Die Nao, die auch als \"Karacke\" bezeichnet wird, entstand aus der mit einem rechteckigen Rahsegel besegelten Kogge, die im sp\u00e4ten Mittelalter f\u00fcr Handelsreisen verbreitet war. Portugiesische Handelsleute perfektionierten die Nao im sp\u00e4ten 15. Jahrhundert und machten sie zu einem ozeantauglichen Drei- oder Viermaster mit einem breiten Decksbalken, der auch in der Hochsee des Atlantiks stabil im Wasser lag und dank seiner drei bis vier Decks auch auf langen Fahrten genug Platz f\u00fcr Proviant und Fracht bot. Die Nao war das erste ozeantaugliche Schiff mit abgerundetem Heck und einem hohen, in den Bug integrierten Vorderdeck. Dank ihres gro\u00dfen Lagerraums konnte sie gro\u00dfe Distanzen zwischen Landkennungen durchqueren und eroberte sich einen festen Platz in der portugiesischen Handelsflotte. Im 17. Jahrhundert wurde die Nao auf den ozeanischen Handelsrouten nach und nach durch die Galeone ersetzt.",
+    "strategy": "Diese Nahkampf-Marineeinheit ersetzt die Karavelle und ist gut zur Erkundung geeignet. Wenn sie auf einem Gel\u00e4ndefeld ist, das an ein Feld einer anderen Zivilisation oder eines anderen Stadtstaats grenzt, mit dem Ihr Frieden geschlossen habt, k\u00f6nnt Ihr einmalig eine Handelsmission durchf\u00fchren und so Gold und EP erhalten. Je weiter das Land von Eurer Hauptstadt entfernt ist, desto h\u00f6her der Bonus, also ist es am besten, wenn man die Einheit bei weit entfernten Spielern einsetzt. Benutzt diese Einheit, um die Karte zu erkunden und die Standorte anderer Spieler aufzudecken.",
+    "movement": 5,
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Astronomie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Exotische Fracht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/exotic_cargo.json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Vor Nahkampf zur\u00fcckziehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

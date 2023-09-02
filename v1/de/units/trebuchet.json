@@ -1,0 +1,39 @@
+{
+    "id": 54,
+    "name": "Tribok",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/trebuchet.png",
+    "game_info": "M\u00e4chtige mittelalterliche Belagerungseinheit, die gut die Verteidigungen feindlicher St\u00e4dte dezimieren kann. Muss vor dem Feuern in Stellung gehen.",
+    "historical_info": "Der Tribok ist eine m\u00e4chtige mittelalterliche Belagerungswaffe. Er wurde zuerst im 12. Jahrhundert in Europa eingesetzt und konnte aus weiter Entfernung ein 300-Pfund-Geschoss in oder \u00fcber die feindlichen Mauern schleudern. Die mittelalterliche europ\u00e4ische Version des Triboks war ein Ger\u00e4t mit einem Gegengewicht. Es bestand aus einem sehr langen h\u00f6lzernen Arm mit einer Schlinge auf der einen Seite und einem schweren Gewicht am anderen Ende, und war auf einem schweren Holzger\u00fcst aufgesetzt. Der lange Arm wurde heruntergewunden, dadurch wurde das schwere Gewicht angehoben und ein Geschoss in die Schlinge gelegt. Wurde diese gel\u00f6st, fiel das Gewicht herunter, der Arm schoss in die Luft und das Geschoss wurde \u00fcber eine gro\u00dfe Distanz hinweggeschleudert. Diese Ger\u00e4te waren in der Regel nicht mobil und es dauerte recht lange, sie zu errichten, was ihren effektiven Einsatz auf ausgedehnte Belagerungen beschr\u00e4nkte.",
+    "strategy": "Ein Tribok ist eine mittelalterliche Belagerungswaffe, deutlich st\u00e4rker als die \u00e4lteren Katapulteinheiten. Der Tribok ben\u00f6tigt 1 FP, um in Stellung zu gehen, kann dann aber bei befestigten feindlichen St\u00e4dten erhebliche Sch\u00e4den anrichten. Ein Tribok sollte stets mit Nahkampf- und Fernwaffen-Einheiten gesch\u00fctzt werden, um Feinde am N\u00e4herkommen zu hindern.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Physik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/physics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus gegen St\u00e4dte (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Muss f\u00fcr Fernkampf in Stellung gehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Eingeschr\u00e4nkte Sicht",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/limited_visibility.json"
+        }
+    ]
+}

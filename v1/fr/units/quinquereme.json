@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Quinqu\u00e9r\u00e8me|Quinqu\u00e9r\u00e8mes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Puissante unit\u00e9 navale de l'Antiquit\u00e9, utilis\u00e9e pour contr\u00f4ler la mer gr\u00e2ce \u00e0 ses attaques de combat rapproch\u00e9 contre les autres unit\u00e9s navales et les villes. Elle est exclusive aux Carthaginois.",
+    "historical_info": "Parmi les nombreux types de navires utilis\u00e9s par Rome et Carthage, la quinqu\u00e9r\u00e8me est l'un des plus connus. Ce navire lourdement arm\u00e9 s'appelle ainsi car il disposait de cinq rang\u00e9es de rameurs de chaque c\u00f4t\u00e9 de sa coque. M\u00eame si l'on ignore le nombre exact, on estime que ces navires transportaient plusieurs centaines d'hommes, en comptant l'\u00e9quipage et les soldats. Les quinqu\u00e9r\u00e8mes de Carthage \u00e9taient r\u00e9put\u00e9es pour \u00eatre de meilleure qualit\u00e9 que celles des Romains, qui n'auraient fait que copier le travail des ing\u00e9nieurs navals d'Afrique du Nord.",
+    "strategy": "Exclusive aux Carthaginois, la quinqu\u00e9r\u00e8me est une version am\u00e9lior\u00e9e de la trir\u00e8me, qu'elle surpasse en puissance de combat. Il s'agit comme la trir\u00e8me d'une unit\u00e9 de combat rapproch\u00e9, capable d'attaquer les unit\u00e9s navales ou les villes, m\u00eame si elle ne dispose pas d'attaque \u00e0 distance. Les cases d'oc\u00e9an \u00e0 l'ext\u00e9rieur des fronti\u00e8res de la ville lui sont inaccessibles.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

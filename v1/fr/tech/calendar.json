@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "name": "Calendrier",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/calendar.png",
+    "era": "Antiquit\u00e9",
+    "cost": 55,
+    "civilopedia_entry": "Le calendrier est un outil permettant de mat\u00e9rialiser l'\u00e9coulement quotidien du temps. Dans de nombreuses cultures antiques, les calendriers servaient des buts \u00e0 la fois religieux et pratiques : certains jours de l'ann\u00e9e \u00e9taient d\u00e9di\u00e9s \u00e0 la v\u00e9n\u00e9ration de divinit\u00e9s sp\u00e9cifiques, et il \u00e9tait inconscient d'offenser ces derni\u00e8res en omettant de leur offrir leur d\u00fb. De fa\u00e7on plus prosa\u00efque, les calendriers permettaient aux gens de garder une trace \u00e9crite des variations annuelles du climat, afin de savoir quand semer, quand r\u00e9colter, etc.Ce sont les \u00c9gyptiens qui semblent avoir d\u00e9velopp\u00e9 le premier v\u00e9ritable calendrier, sur un mod\u00e8le qui fut plus tard repris et am\u00e9lior\u00e9 par les Romains sous la forme du calendrier julien. Le calendrier gr\u00e9gorien utilis\u00e9 aujourd'hui dans la quasi-totalit\u00e9 des pays du globe se base sur ce dernier. Instaur\u00e9 par le pape Gr\u00e9goire XIII en 1582, le calendrier gr\u00e9gorien d\u00e9finit plus pr\u00e9cis\u00e9ment l'ann\u00e9e solaire, corrigeant une l\u00e9g\u00e8re inexactitude de la pr\u00e9c\u00e9dente version julienne. Dans cette derni\u00e8re, l'ann\u00e9e solaire comptait 365 jours et 6 heures, alors que dans le gr\u00e9gorien, elle ne dure que 365 jours, 5 heures et 48 minutes (soit 12 minutes de moins). Cette impr\u00e9cision s'\u00e9tait accumul\u00e9e au fil des si\u00e8cles, et avait r\u00e9sult\u00e9 en un \u00e9cart de 14 jours avec le cycle r\u00e9el des saisons.",
+    "quote": " \"Enseigne-nous \u00e0 bien compter nos jours, afin que nous appliquions notre c\u0153ur \u00e0 la sagesse\". - La Bible, Psaumes, 90:12",
+    "tech_prereqs": [
+        {
+            "name": "Poterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/philosophy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stonehenge",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/stonehenge.json"
+        },
+        {
+            "name": "Exploitation de pierres|Exploitations de pierres",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/stone_works.json"
+        }
+    ]
+}

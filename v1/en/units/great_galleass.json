@@ -1,0 +1,27 @@
+{
+    "id": 130,
+    "name": "Great Galleass",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/great_galleass.png",
+    "game_info": "A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces, but more expensive. May only be built by Venice.",
+    "historical_info": "The original design of the galleass evolved from that of large merchant galleys, and remained relatively unchanged until 1660 AD when Venice built its first ship-of-the-line. It usually had three lateen-rigged masts, and was characterized by a forecastle as well as an aftcastle. Carrying more sails and oars than a standard galley for increased speed, these Venetian warships also had a gundeck that ran over the rowers heads. In the Mediterranean, the Venetian Galleass remained in service long after it had been replaced with larger, studier, more sea-worthy warships by other nations.",
+    "strategy": "The Great Galleass is the Galleass replacement, and only the Venetians may build it. Has a stronger ranged attack, is more resilient in battle, and is more costly than the base Galleass.",
+    "movement": 3,
+    "cost": {
+        "production": 110,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Compass",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

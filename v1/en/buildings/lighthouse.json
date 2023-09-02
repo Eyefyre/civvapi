@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Lighthouse",
+    "game_info": "+1 Food from Coast and Ocean Tiles. +1 Production from Sea Resources worked by this City.Each source of Fish worked by this City produces +1 Food.City must be built on the coast.",
+    "strategy": "The Lighthouse can only be constructed in a city next to a coastal tile. It increases the Food output of water tiles and Fish and it increases the Production output of all sea resources.",
+    "historical_info": "Since man has taken to the sea in ships, he has built beacons on the shore to guide returning vessels back to harbor and to warn their captains of perilous shoals and rocks. The earliest known lighthouse was the Pharos (Great Lighthouse) of Alexandria. Constructed on the small island of Pharos just off of the coast of Alexandria, it survived for over a thousand years, guiding countless thousands of vessels to Alexandria's safe harbor.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/lighthouse.png",
+    "prereq_tech": {
+        "name": "Optics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/optics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

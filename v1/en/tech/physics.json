@@ -1,0 +1,41 @@
+{
+    "id": 30,
+    "name": "Physics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/physics.png",
+    "era": "Medieval Era",
+    "cost": 485,
+    "civilopedia_entry": "Physics is the study of matter and it is the basic physical science. Originally termed \"natural science,\" it is concerned with everything in the observable universe, from the smallest particle to the largest galaxy. Physics is concerned with gravity, light, heat, and magnetism. Over time, as human knowledge has expanded exponentially, physics has split into numerous sub-disciplines such as astronomy, chemistry, geology, biology and engineering, but all are basically concerned with measuring and explaining natural phenomena.In 1687, Isaac Newton published his masterwork \"Philosophiae Naturalis Principia Mathematica,\" which revolutionized physics. In simple terms, Newton's first law, known as the law of inertia, states that an object at rest will remain at rest while an object in motion will remain in motion unless acted upon by an external force. His second law describes the changes that force can produce on the motions of a body as a formula, force equals mass times acceleration. His third law, known as the law of action and reaction, states that when two objects interact, they apply forces to one another that are equal in magnitude and opposite in direction, or more popularly, \"for every action, there is an equal and opposite reaction.\"Newton's laws ruled physics until the 20th century, when they were replaced by the laws of relativity and quantum mechanics, breakthroughs which have changed the world as much as Newton's discoveries did back in the 17th century.",
+    "quote": "\"Measure what is measurable, and make measurable what is not so.\" - Galileo",
+    "tech_prereqs": [
+        {
+            "name": "Metal Casting",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metal_casting.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Printing Press",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+        },
+        {
+            "name": "Gunpowder",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Trebuchet",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/trebuchet.json"
+        },
+        {
+            "name": "Hwach'a",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/hwach'a.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Notre Dame",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/notre_dame.json"
+        }
+    ]
+}

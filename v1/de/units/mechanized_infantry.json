@@ -1,0 +1,18 @@
+{
+    "id": 28,
+    "name": "Mechanisierte Infanterie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mechanized_infantry.png",
+    "game_info": "Schnelle, einfache Einheit des sp\u00e4teren Spiels, die keine speziellen Ressourcen f\u00fcr den Bau ben\u00f6tigt.",
+    "historical_info": "Da sich die Geschwindigkeit von K\u00e4mpfen durch das Aufkommen von gepanzerten Fahrzeugen, Artillerie und - nicht zu vergessen - Luftkriegsf\u00fchrung erh\u00f6ht hat, musste die moderne Infanterie ebenfalls schneller und beweglicher werden. Die meisten modernen Infanterie-Einheiten sind jetzt \"mechanisiert\" und bewegen sich in Sch\u00fctzenpanzern \u00fcber das Schlachtfeld. Diese Fahrzeuge sind in der Regel mit einem oder mehreren schweren Maschinengewehren und Granatwerfern ausgestattet. Sie haben gegen moderne Panzer wenig Chancen, aber sie bieten Schutz vor Kugeln, Schrapnell und anderen Gefahren des Schlachtfelds. Abh\u00e4ngig von den Umst\u00e4nden k\u00f6nnen die Soldaten aus dem Inneren des Fahrzeugs k\u00e4mpfen oder aussteigen und zu Fu\u00df weitergehen, wie es Infanteristen seit Anbeginn der Kriegsf\u00fchrung getan haben.",
+    "strategy": "Mechanisierte Infanterie ist st\u00e4rker und schneller als die regul\u00e4re Einheit. Obwohl sie sehr schnell ist, kann die Mechanisierte Infanterie sich nicht wie Panzer nach dem Angriff bewegen. Ihre Hauptaufgabe besteht immer noch darin, Stellungen zu erobern oder zu halten.",
+    "movement": 3,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Mobile Taktiken",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mobile_tactics.json"
+    },
+    "free_promotions": []
+}

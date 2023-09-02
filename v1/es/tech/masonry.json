@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "name": "Mamposter\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/masonry.png",
+    "era": "Antig\u00fcedad",
+    "cost": 55,
+    "civilopedia_entry": "La mamposter\u00eda es la construcci\u00f3n de edificios a partir de bloques sueltos que se mantienen sujetos entre s\u00ed mediante alguna clase de mortero. Los bloques pueden ser de piedra, cemento, hormig\u00f3n o ladrillos de arcilla. El mortero es una especie de pasta que se seca y se convierte en un material extremadamente duradero. Suele estar compuesto de una mezcla de arena, cemento o cal y agua.Los antiguos egipcios dominaron el arte de la mamposter\u00eda ya en el cuarto milenio a. C. e hicieron templos, palacios y pir\u00e1mides de las grandes vetas de piedra caliza, arenisca, granito y basalto que se encuentran en las colinas del r\u00edo Nilo. Los antiguos asirios del Creciente F\u00e9rtil carec\u00edan de un acceso tan f\u00e1cil a la piedra, pero ten\u00edan ricos dep\u00f3sitos de arcilla, material que secaban al sol y convert\u00edan en ladrillos. Como los ladrillos secados al sol son vulnerables a la humedad, sol\u00edan recubrir sus edificios con tejas o azulejos, que son m\u00e1s resistentes al agua.Los antiguos romanos inventaron el cemento, que era un mortero mucho mejor que el de las civilizaciones anteriores (que normalmente empleaban arcilla como base) y que pod\u00eda usarse como material de construcci\u00f3n por s\u00ed mismo. La llamada \"revoluci\u00f3n del cemento\" permiti\u00f3 a los romanos construir edificios que resultaban imposibles de levantar con los materiales primitivos. En el siglo XIX, un jardinero franc\u00e9s pens\u00f3 en encastrar un armaz\u00f3n de hierro en sus macetas y jardineras de cemento. As\u00ed invent\u00f3 el cemento armado, que aument\u00f3 considerablemente la resistencia a la fractura del material y lo hizo m\u00e1s adecuado para edificios altos, que pod\u00edan sufrir una gran tensi\u00f3n debido al viento, las vibraciones o los terremotos. Las innovaciones m\u00e1s recientes han aumentado la fuerza y la flexibilidad del m\u00e1s \u00fatil de todos los materiales de construcci\u00f3n. Y, aunque muchos edificios modernos est\u00e1n hechos de cristal y acero, siempre descansan sobre cimientos que se han construido con la antigua t\u00e9cnica de la mamposter\u00eda.",
+    "quote": "\"\u00a1Qu\u00e9 felices aquellos cuyas murallas ya est\u00e1n levantadas!\" - Virgilio",
+    "tech_prereqs": [
+        {
+            "name": "Miner\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mining.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Construcci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Murallas|Murallas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/walls.json"
+        },
+        {
+            "name": "Pir\u00e1mides|Pir\u00e1mides",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/pyramids.json"
+        },
+        {
+            "name": "Mausoleo Halicarnaso|Mausoleos Halicarnaso",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/mausoleum_of_halicarnassus.json"
+        },
+        {
+            "name": "Murallas de Babilonia|Murallas de Babilonia",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/walls_of_babylon.json"
+        }
+    ]
+}

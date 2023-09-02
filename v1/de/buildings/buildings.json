@@ -1,0 +1,2171 @@
+[
+    {
+        "id": 1,
+        "name": "Schwimmende G\u00e4rten",
+        "game_info": "+15% Nahrung. Jedes bewirtschaftete See-Gel\u00e4ndefeld bringt au\u00dferdem +2 Nahrung. Stadt muss an einem Fluss oder neben einem See errichtet werden.",
+        "strategy": "Die Schwimmenden G\u00e4rten sind das einzigartige Geb\u00e4ude der Azteken und ersetzen die Wasserm\u00fchle. Die Nahrungsproduktion der Stadt wird erh\u00f6ht. Sie sollten gebaut werden, wenn die Stadt sich an einem See oder einem Fluss befindet.",
+        "historical_info": "Ein Schwimmender Garten ist eine kleine, k\u00fcnstlich angelegte Insel auf einem S\u00fc\u00dfwassersee, mit der die landwirtschaftlich nutzbare Landfl\u00e4che vergr\u00f6\u00dfert wird. Der See bew\u00e4ssert die Insel und liefert ihr frisches organisches Material, sodass eine extrem fruchtbare Anbaufl\u00e4che entsteht. Die Azteken waren Meister in dieser Form der Landwirtschaft, und auch heute noch sind die \"Schwimmenden G\u00e4rten von Xochimilco\" sehr bekannt.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schwimmende_g\u00e4rten.png",
+        "prereq_tech": {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/floating_gardens.json"
+    },
+    {
+        "id": 1,
+        "name": "Gerichtsgeb\u00e4ude",
+        "game_info": "Beseitigt zus\u00e4tzliche Unzufriedenheit in einer besetzten Stadt.",
+        "strategy": "Das Gerichtsgeb\u00e4ude reduziert die Unzufriedenheit in eroberten St\u00e4dten. Ihr solltet in jeder besetzten Stadt so schnell wie m\u00f6glich eines bauen, vor allem, wenn Ihr vorhabt, gleich mehrere St\u00e4dte zu erobern.",
+        "historical_info": "In einem Gerichtsgeb\u00e4ude sprechen die \u00f6rtlichen Autorit\u00e4ten Recht. Oft befindet sich in dem Geb\u00e4ude auch die \u00f6rtliche Zivilregierung, was aber nicht immer der Fall sein muss. F\u00fcr gew\u00f6hnlich nimmt das Gerichtsgeb\u00e4ude einen sehr wichtigen Platz in der Stadtmitte ein - entweder, weil die B\u00fcrger stolz darauf sind, oder auch deshalb, weil die Regierung die B\u00fcrger daran erinnern will, dass sie immer ein Auge auf sie hat.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 4,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gerichtsgeb\u00e4ude.png",
+        "prereq_tech": {
+            "name": "Mathematik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mathematics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/courthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Mogul-Festung",
+        "game_info": "Bringt +2 Tourismus, wenn die Luftfahrt erforscht ist.Stadt ben\u00f6tigt Stadtmauern.",
+        "strategy": "Die Mogul-Festung ist ein Geb\u00e4ude des Mittelalters, das die Verteidigungsst\u00e4rke der Stadt um 7 und die Trefferpunkte um 25 erh\u00f6ht und in jeder Runde etwas Kultur gew\u00e4hrt. Sie ist das einzigartige Geb\u00e4ude der Inder und ersetzt die Burg. Nach Entdeckung der Luftfahrt bringt sie au\u00dferdem +2 Tourismus. Stadtmauern sind Voraussetzung f\u00fcr den Bau der Mogul-Festung.",
+        "historical_info": "Die Moguln waren islamische Herrscher, die im 15. Jahrhundert Indien eroberten und bis zur Mitte des 19. Jahrhunderts \u00fcber den Gro\u00dfteil des Subkontinents herrschten. W\u00e4hrend ihrer Herrschaft bauten sie auf dem Land kunstvolle Festungen, die als Verwaltungszentren und Unterk\u00fcnfte f\u00fcr die Eroberer dienten. Diese Festungen waren wundersch\u00f6ne Geb\u00e4ude und Pal\u00e4ste, die den Herrschern eines so gro\u00dfen Reiches gerecht wurden. Mehrere davon - darunter auch das beeindruckende Lahore Fort und das Rote Fort in Agra - stehen bis heute und z\u00e4hlen als Monumente der Macht und Kunst der Moguln zu den bedeutendsten Touristenattraktionen in Indien.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mogul-festung.png",
+        "prereq_tech": {
+            "name": "Ritterlichkeit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mughal_fort.json"
+    },
+    {
+        "id": 1,
+        "name": "Krepost",
+        "game_info": "+15 EP f\u00fcr alle Einheiten. Kultur- und Goldkosten f\u00fcr den Erwerb neuer Gel\u00e4ndefelder dieser Stadt um 25% reduziert.",
+        "strategy": "Der Krepost ist das einzigartige Geb\u00e4ude der Russen und ersetzt die Kaserne. Der Krepost gew\u00e4hrt 15 Erfahrungspunkte f\u00fcr alle milit\u00e4rischen Einheiten, die in dieser Stadt ausgebildet werden. Au\u00dferdem erh\u00f6ht der Krepost die Ausdehnung der Kulturgrenzen der Stadt um 25%. Es lohnt sich, diese Geb\u00e4ude in allen russischen St\u00e4dten zu bauen - vor allem in Grenzgebieten.",
+        "historical_info": "\"Krepost\" ist das russische Wort f\u00fcr \"Festung\". In weiten Teilen seiner Geschichte war Russland ein expansionistischer Staat, der seine Grenzen immer weiter Richtung Osten verschob - zuerst \u00fcber die weiten Steppen und schlie\u00dflich bis nach Sibirien und dar\u00fcber hinaus. Beim Erschlie\u00dfen neuer Gebiete haben die Russen oftmals einen \"Krepost\" errichtet, um ihre Truppen zu sch\u00fctzen und um Regierungs- und religi\u00f6se Geb\u00e4ude unterzubringen. Abh\u00e4ngig von den regionalen Gegebenheiten und verf\u00fcgbaren Materialien war ein Krepost entweder ein behelfsm\u00e4\u00dfiges Fort aus Holz oder eine permanente und befestigte Verteidigungsstellung aus Stein. In vielen F\u00e4llen \u00e4hnelten die Kreposts den allgegenw\u00e4rtigen Kastellen, die die R\u00f6mer in ihren neu eroberten L\u00e4nder errichteten.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/krepost.png",
+        "prereq_tech": {
+            "name": "Bronzeverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/krepost.json"
+    },
+    {
+        "id": 1,
+        "name": "Langhaus",
+        "game_info": "+1 Produktion in jedem bewirtschafteten Wald-Gel\u00e4ndefeld.",
+        "strategy": "Das Langhaus ist das einzigartige Geb\u00e4ude der Irokesen und ersetzt die Werkstatt. Es steigert die Produktion der Stadt f\u00fcr jedes Wald-Gel\u00e4ndefeld in ihrem Radius.",
+        "historical_info": "Lange Zeit in ihrer Geschichte lebten viele Irokesen in D\u00f6rfern mit einem oder mehreren Langh\u00e4usern, also Gemeinschaftsgeb\u00e4uden, die aus Holzst\u00e4mmen gebaut wurden und mit Rinde verkleidet wurden. Die Irokesen nennen sich sogar selbst \"Hodenosaunee\", was so viel bedeutet wie \"Menschen des Langen Hauses\". Die H\u00e4user waren 10 bis 100 Meter lang und etwa 8 Meter breit. Im Inneren waren sie in R\u00e4ume unterteilt, die alle \u00fcber einen offenen Mittelgang miteinander verbunden waren. Normalerweise teilten sich mehrere R\u00e4ume eine Feuerstelle im Mittelgang, \u00fcber der eine \u00d6ffnung im Dach als Abzug diente.Langh\u00e4user sind sehr effiziente Geb\u00e4ude, die billiger zu bauen und heizen sind als Einzelgeb\u00e4ude und weniger nat\u00fcrliche Ressourcen verbrauchen. Sie stehen f\u00fcr das kulturelle Streben der Irokesen, im Einklang mit der Natur um sie herum zu leben.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/langhaus.png",
+        "prereq_tech": {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/longhouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Basar",
+        "game_info": "Gew\u00e4hrt 1 zus\u00e4tzliches Vorkommen jedes modernisierten Luxusguts in der N\u00e4he dieser Stadt. Jedes Vorkommen von \u00d6l und jede Oase bringen +2 Gold. Handelswege anderer Spieler zu einer Stadt mit einem Basar bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "strategy": "Der Basar ist das einzigartige Geb\u00e4ude der Araber und ersetzt den Markt. Der Basar bringt der jeweiligen Stadt einen Gold-Bonus. Die Zivilisation erh\u00e4lt f\u00fcr jede Luxusressource aus einer Stadt mit einem Basar jeweils noch eine zus\u00e4tzlich. Der Basar bringt +2 Gold auf \u00d6l und Oasen.",
+        "historical_info": "Ein Basar ist ein \u00f6ffentlicher Marktbezirk, den man in St\u00e4dten im arabischen Raum und dem \u00f6stlichen Mittelmeergebiet findet. Der klassische arabische Basar ist ein lebhaftes Stra\u00dfengewirr voller kleiner L\u00e4den und St\u00e4nde, in denen alle Arten von Waren verkauft werden: Nahrung, Gew\u00fcrze, Teppiche und sogar Software. Manche Basare sind unter freiem Himmel, w\u00e4hrend andere \u00fcberdacht wurden, um die Waren und Kunden vor den Elementen zu sch\u00fctzen. Auch heute findet man noch viele Basare, die eine fr\u00f6hliche und sehr laute Alternative zu den steril anmutenden Einkaufszentren der westlichen Welt darstellen.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/basar.png",
+        "prereq_tech": {
+            "name": "W\u00e4hrung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bazaar.json"
+    },
+    {
+        "id": 1,
+        "name": "Satrapenhof",
+        "game_info": "Stadt ben\u00f6tigt einen Markt. Handelswege anderer Spieler zu einer Stadt mit einem Satrapenhof bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "strategy": "Der Satrapenhof ist das einzigartige Geb\u00e4ude der Perser und ersetzt die Bank. \u00c4hnlich wie die Bank erh\u00f6ht auch der Satrapenhof den Wohlstandsertrag der Stadt. Dar\u00fcber hinaus wird aber auch die Zufriedenheit der Zivilisation gesteigert. Die Stadt muss \u00fcber einen Markt verf\u00fcgen, bevor ein Satrapenhof gebaut werden kann.",
+        "historical_info": "\"Satrap\" war der Titel eines Provinzstatthalters im Ach\u00e4menidenreich von Persien. Die Satrapen wurden vom Gro\u00dfk\u00f6nig ernannt und waren f\u00fcr gew\u00f6hnlich Mitglieder der k\u00f6niglichen Familie. Mit seinen umfangreichen Machtbefugnissen konnte der Satrap Steuern eintreiben und war der oberste Rechtsherr in der Provinz. Da er zudem f\u00fcr das Aufstellen und den Unterhalt einer Armee verantwortlich war, musste der Monarch gro\u00dfes Vertrauen in ihn setzen k\u00f6nnen. Als die Zentralmacht des Persischen Reiches im 5. Jahrhundert v. Chr. schw\u00e4cher wurde, wurden die Satrapen immer unabh\u00e4ngiger und einige von ihnen sogar m\u00e4chtiger als der Gro\u00dfk\u00f6nig selbst, der formell noch \u00fcber sie herrschte.Alexander behielt nach der Eroberung Persiens das Verwaltungssystem der Satrapen bei. Manchmal ersetzte er zwar den Satrapen einer Provinz durch einen eigenen General, doch oft durften die bestehenden Statthalter auch ihre Stellung behalten, wenn sie den Frieden wahrten und weiterhin ihre Steuern zahlten.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/satrapenhof.png",
+        "prereq_tech": {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/satrap's_court.json"
+    },
+    {
+        "id": 1,
+        "name": "Papiermacher",
+        "game_info": "+1 Wissenschaft f\u00fcr jeweils 2 B\u00fcrger in dieser Stadt. +2 Gold.",
+        "strategy": "Der Papiermacher ist das einzigartige Geb\u00e4ude der Chinesen und ersetzt die Bibliothek. Er erh\u00f6ht sowohl den Wissenschaftsertrag der Stadt als auch deren Goldeinnahmen.",
+        "historical_info": "Papier wurde vermutlich schon um 200 v. Chr. in China erfunden. Nach dem heutigen Erkenntnisstand wurde es urspr\u00fcnglich als Verpackungsmaterial verwendet; das erste \u00fcberlieferte Zeugnis von Schrift auf Papier stammt vermutlich aus dem Jahr 8 v. Chr. Um 300 n. Chr. war Schreibpapier in ganz China weit verbreitet. Die chinesischen Papiermacher-Werkst\u00e4tten waren f\u00fcr die damalige Zeit sehr fortschrittlich und konnten sauberes, festes Papier f\u00fcr die gebildeten Klassen, Kaufleute und den kaiserlichen Hof herstellen - Jahrhunderte bevor das erste Blatt die arabische oder europ\u00e4ische Welt erreichte.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/papiermacher.png",
+        "prereq_tech": {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/paper_maker.json"
+    },
+    {
+        "id": 1,
+        "name": "Wat",
+        "game_info": "+2 Wissenschaft durch Dschungel-Gel\u00e4ndefelder, die von dieser Stadt bewirtschaftet werden.Die Stadt ben\u00f6tigt eine Bibliothek.",
+        "strategy": "Der Wat ist das einzigartige Geb\u00e4ude der Siamesen und ersetzt die Universit\u00e4t. Er steigert die Kultur einer Stadt und beschleunigt so ihr Grenzwachstum und die Einf\u00fchrung von Sozialpolitiken in der Zivilisation. Der Wat bietet der Stadt au\u00dferdem einen Wissenschafts-Bonus.",
+        "historical_info": "Ein Wat ist ein buddhistischer Klostertempel, den man in Kambodscha, Thailand oder Laos findet. Die w\u00f6rtliche \u00dcbersetzung von \"Wat\" bedeutet \"Schule\", und die siamesischen Wats waren auch tats\u00e4chlich sowohl Orte des Glaubens als auch des Lernens. Ein Wat besteht aus einem Tempel mit Statuen von Buddha, einem Gebetsraum, einem Raum mit religi\u00f6sen Texten, einem Pavillon zur Entspannung, einer Bibliothek, einer Lernhalle, Glockent\u00fcrmen und Quartieren. Es kann sich um ein einzelnes Geb\u00e4ude oder einen ganzen Komplex handeln, der wie eine kleine Stadt wirkt. Der Angkor Wat in Angkor, Kambodscha, wurde im 12. Jahrhundert erbaut und ist einer der am besten erhaltenen Wats in S\u00fcdostasien.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wat.png",
+        "prereq_tech": {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/wat.json"
+    },
+    {
+        "id": 1,
+        "name": "Lehmmoschee",
+        "game_info": "Erfordert keinen Gold-Unterhalt.",
+        "strategy": "Die Lehmmoschee ist ein einzigartiges Geb\u00e4ude der Songhai und ersetzt den Tempel. Die Lehmmoschee steigert die Kultur der Stadt erheblich und sorgt so f\u00fcr ein schnelleres Wachstum des Stadtgebiets und die Einf\u00fchrung von Sozialpolitiken in der Zivilisation. Die Lehmmoschee kostet keinen Unterhalt.",
+        "historical_info": "Die Lehmmoschee ist ein Geb\u00e4udekomplex in der Stadt Gao, bestehend aus einem Grab, zwei Moscheen, einem Friedhof und einem Versammlungsplatz. Der Legende nach wurde hier Askiya Muhammad I. begraben, einer der gr\u00f6\u00dften Herrscher der Songhai. Auch wenn sie nicht so gro\u00df sind wie die Moschee von Gao, wurden noch viele \u00e4hnliche Geb\u00e4ude in ganz Westafrika gefunden, Zeugnisse der religi\u00f6sen Hingabe und der Baukunst der Songhai.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/lehmmoschee.png",
+        "prereq_tech": {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mud_pyramid_mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Grabst\u00e4tte",
+        "game_info": "Ben\u00f6tigt keinen Gold-Unterhalt.Bei Eroberung dieser Stadt wird das gepl\u00fcnderte Gold des Feindes verdoppelt.",
+        "strategy": "Die Grabst\u00e4tte ist ein Geb\u00e4ude der Klassik, das die Zufriedenheit einer Stadt erh\u00f6ht und diese keinen Unterhalt kostet. Wenn die Stadt eingenommen wird, erh\u00e4lt der Eroberer jedoch doppelt so viel Gold wie in einer Stadt ohne Grabst\u00e4tte. Sie ersetzt den Tempel.",
+        "historical_info": "Die \u00c4gypter haben den Ahnenkult in bis dahin ungeahnte und danach nie wieder erreichte H\u00f6hen getrieben. Ein gro\u00dfer Teil des Wohlstands und der kreativen Energie ihrer Zivilisation wurde in Grabst\u00e4tten f\u00fcr ihre Verstorbenen investiert. Viele dieser Gr\u00e4ber befinden sich im Tal der K\u00f6nige, das bei Theben am Nil liegt. In diese Gr\u00e4ber wurden oft Besitzt\u00fcmer der Verstorbenen als Beigaben gelegt, was sie zu einem beliebten Ziel f\u00fcr Grabr\u00e4uber quer durch die Geschichte macht.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/grabst\u00e4tte.png",
+        "prereq_tech": {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/burial_tomb.json"
+    },
+    {
+        "id": 1,
+        "name": "Seehafen",
+        "game_info": "+1 Produktion und Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. +15% Produktion beim Bau von Marineeinheiten.Die Stadt muss an der K\u00fcste liegen.",
+        "strategy": "Ein Seehafen erh\u00f6ht die Produktion einer modernisierten Meeresressource.",
+        "historical_info": "Ein Seehafen ist ein moderner Superhafen mit tiefem Wasser, der selbst die gr\u00f6\u00dften Tanker und Transportschiffe abfertigen kann. Typisch f\u00fcr Seeh\u00e4fen sind jede Menge Kr\u00e4ne, die eine rasche L\u00f6schung der Ladung erm\u00f6glichen, die dann durch ein verwirrendes Labyrinth von Bahnschienen und Stra\u00dfen abtransportiert wird. Moderne Seeh\u00e4fen werden von Hafenmeistern in Hightech-Steuerzentralen via Radar, Satelliten\u00fcbertragung und leistungsf\u00e4hige Computer mit komplexer Logistik-Software \u00fcberwacht.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/seehafen.png",
+        "prereq_tech": {
+            "name": "Navigation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/navigation.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/seaport.json"
+    },
+    {
+        "id": 1,
+        "name": "Stallungen",
+        "game_info": "+15% Produktion beim Bau von berittenen Einheiten.Jede von dieser Stadt genutzte Quelle von Pferden, Schafen und Vieh erzeugt +1 Produktion.Die Stadt ben\u00f6tigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.",
+        "strategy": "Stallungen k\u00f6nnen nur in St\u00e4dten gebaut werden, die \u00fcber eine oder mehrere verbesserte Pferde-, Schafe- oder Vieh-Ressourcen in der N\u00e4he verf\u00fcgen. Stallungen beschleunigen die Produktion von berittenen Einheiten.",
+        "historical_info": "In Civilization V sind Stallungen Milit\u00e4rkasernen f\u00fcr Kavallerieeinheiten. Hier werden die Soldaten der Kavallerie ebenso untergebracht, versorgt und ausgebildet wie ihre vierbeinigen Kameraden. F\u00fcr lange Zeit in der Geschichte war die Kavallerie der Teil des Milit\u00e4rs, der von den wohlhabenden S\u00f6hnen der Gesellschaft bevorzugt wurde. Dies lag einfach daran, dass nur die reichen jungen M\u00e4nner jemals auf einem Pferd gesessen hatten. Daher waren die Stallungen bzw. Kasernen der Kavallerie oft wesentlich luxuri\u00f6ser als die einfachen Unterk\u00fcnfte der Infanterie.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stallungen.png",
+        "prereq_tech": {
+            "name": "Reiterei",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stable.json"
+    },
+    {
+        "id": 1,
+        "name": "Wasserm\u00fchle",
+        "game_info": "Stadt muss an einem Fluss liegen.",
+        "strategy": "Die Wasserm\u00fchle kann nur in St\u00e4dten gebaut werden, die an einen Fluss angrenzen. Die Wasserm\u00fchle erh\u00f6ht die Nahrungskapazit\u00e4t einer Stadt.",
+        "historical_info": "Eine Wasserm\u00fchle ist ein Geb\u00e4ude, das die Kraft des Wassers nutzt, um Korn zu Mehl zu verarbeiten. In einer M\u00fchle werden K\u00f6rner zwischen zwei Steine gesch\u00fcttet, von denen sich der obere langsam dreht. Durch diese Bewegung zwischen den Steinen wird das Korn in winzige St\u00fccke (Mehl) gemahlen. Viele alte M\u00fchlen nutzten Tiere oder Menschen, um die M\u00fchlsteine anzutreiben, doch in einer Wasserm\u00fchle \u00fcbernimmt flie\u00dfendes Wasser die Arbeit und entlastet so Mensch und Tier, die an anderer Stelle sinnvoller eingesetzt werden k\u00f6nnen. Sp\u00e4ter sollten Dampf oder Strom M\u00fchlen wesentlich zuverl\u00e4ssiger und effizienter antreiben, doch Wasserm\u00fchlen waren zu ihrer Zeit gro\u00dfartige Ger\u00e4te zur Einsparung von Arbeit.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wasserm\u00fchle.png",
+        "prereq_tech": {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/water_mill.json"
+    },
+    {
+        "id": 1,
+        "name": "Zirkus",
+        "game_info": "Stadt ben\u00f6tigt ein nahegelegenes modernisiertes Vorkommen von Pferden oder Elfenbein in der N\u00e4he.",
+        "strategy": "Der Zirkus kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Pferden oder Elfenbein in der N\u00e4he verf\u00fcgen. Der Zirkus steigert die Zufriedenheit einer Zivilisation.",
+        "historical_info": "Ein Zirkus ist eine Truppe von Artisten, zu denen oft Clowns, Akrobaten, Jongleure, Seilt\u00e4nzer, Trapezk\u00fcnstler, Musiker und Dompteure geh\u00f6ren. Die meisten Zirkusse sind Wanderzirkusse, die in der Saison von einer Stadt zur n\u00e4chsten reisen. Nur wenige bleiben ganzj\u00e4hrig an einem Ort. Im antiken Rom war ein Circus eine Arena, in der Wagenrennen, Gladiatorenk\u00e4mpfe und andere Unterhaltungen geboten wurden. Der erste r\u00f6mische Circus war der Circus Maximus, der bis zu 250.000 kreischenden B\u00fcrgern Platz bot - das entsprach fast 25% der damaligen Einwohnerzahl der Stadt.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zirkus.png",
+        "prereq_tech": {
+            "name": "Fallenstellen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/trapping.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/circus.json"
+    },
+    {
+        "id": 1,
+        "name": "Schmiede",
+        "game_info": "+15% Produktion bei der Ausbildung von Landeinheiten.Jede von dieser Stadt genutzte Quelle von Eisen erzeugt +1 Produktion.Die Stadt muss \u00fcber eine genutzte Quelle von Eisen in der N\u00e4he verf\u00fcgen.",
+        "strategy": "Die Schmiede kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Eisen in der N\u00e4he verf\u00fcgen. Sie beschleunigt die Produktion von Landeinheiten in der Stadt.",
+        "historical_info": "Eine Schmiede ist ein Geb\u00e4ude, das eine Feuerstelle beinhaltet, die die Temperaturen erzeugen kann, die zum Schmelzen und Formen von Eisen notwendig sind, um Hufeisen, N\u00e4gel, Pfeilspitzen und andere Eisenwaren herzustellen. Dazu ist erhebliche Hitze erforderlich und ein Schmied hat oft einen Sch\u00fcler oder Gehilfen, der nicht viel mehr tut, als Luft in die Flammen zu pumpen, um diese hei\u00df zu halten. Ein Schmied bearbeitet Eisen, indem er es gl\u00fchend hei\u00df macht und dann mit verschiedenen H\u00e4mmern auf einem Amboss in Form h\u00e4mmert. Eisen kann auch in eine Form aus Ton, Sand oder Metall gegossen und die Form entfernt werden, sobald das Eisen sich weit genug abgek\u00fchlt hat, um die Form zu halten.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schmiede.png",
+        "prereq_tech": {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/forge.json"
+    },
+    {
+        "id": 1,
+        "name": "Windm\u00fchle",
+        "game_info": "+10% Produktion bei der Errichtung von Geb\u00e4uden.Die Stadt darf nicht auf H\u00fcgeln erbaut sein.",
+        "strategy": "Die Windm\u00fchle ist ein Geb\u00e4ude aus der Renaissance, das die Produktion einer Stadt bei der Errichtung von Geb\u00e4uden erh\u00f6ht. St\u00e4dte, die auf H\u00fcgeln errichtet wurden, k\u00f6nnen keine Windm\u00fchlen bauen.",
+        "historical_info": "Windm\u00fchlen sind Geb\u00e4ude, die Windenergie verwenden, um unterschiedliche Aufgaben auszuf\u00fchren. Fr\u00fcher wurden sie benutzt, um Getreidem\u00fchlen anzutreiben, doch manche wurden auch f\u00fcr S\u00e4gem\u00fchlen oder Wasserpumpen bei Brunnen verwendet. Windgetriebene Maschinen gibt es schon seit \u00fcber 2.000 Jahren. Zum ersten Mal erw\u00e4hnt werden sie im 1. Jahrhundert n. Chr. bei Heron von Alexandria, der eine Windorgel baute. Windgetriebene M\u00fchlen f\u00fcr Getreide wurden wahrscheinlich um das 8. Jahrhundert n. Chr. in Zentralasien erfunden.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/windm\u00fchle.png",
+        "prereq_tech": {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/windmill.json"
+    },
+    {
+        "id": 1,
+        "name": "Wasserkraftwerk",
+        "game_info": "+1 Produktion in jedem Gel\u00e4ndefeld an einem Fluss. Ben\u00f6tigt 1 Aluminium.Stadt muss an einem Fluss liegen.",
+        "strategy": "Das Wasserkraftwerk ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das nur in St\u00e4dten gebaut werden kann, die an einem Fluss liegen. Das Wasserkraftwerk erh\u00f6ht die Produktion jedes Gel\u00e4ndefelds, das von der Stadt bewirtschaftet wird und ebenfalls an dem Fluss liegt. Beim Bau des Wasserkraftwerks wird 1 Aluminium verbraucht.",
+        "historical_info": "Ein Wasserkraftwerk ist ein Geb\u00e4ude, das Bewegungsenergie aus Wasserf\u00e4llen in elektrische Energie umwandelt. Je gr\u00f6\u00dfer die Wassermasse und die Distanz sind, die sie f\u00e4llt, umso mehr Strom kann das Kraftwerk erzeugen. Der Drei-Schluchten-Damm in China ist das gr\u00f6\u00dfte Wasserkraftwerk, das jemals gebaut wurde. Bei der Fertigstellung wird es etwa 22.500 Megawatt erzeugen, das Zehnfache des amerikanischen Hoover-Staudamms.Wasserkraftwerke werden in der Regel als gr\u00fcne Energiequelle angesehen, auch wenn sie gro\u00dfen Einfluss auf lokale Fischbest\u00e4nde haben k\u00f6nnen. In K\u00fcstengebieten werden auch Wasserkraftwerke gebaut, die Energie aus dem Wechsel der Gezeiten gewinnen.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/wasserkraftwerk.png",
+        "prereq_tech": {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hydro_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Sonnenkraftwerk",
+        "game_info": "Stadt muss in oder an einer W\u00fcste liegen und darf kein Kernkraftwerk besitzen.Stadt muss eine Fabrik besitzen.",
+        "strategy": "Ein Sonnenkraftwerk ist ein Geb\u00e4ude im sp\u00e4teren Spielverlauf, das die Produktion einer Stadt in erheblichem Ma\u00dfe steigert. Die Stadt muss auf oder neben einem W\u00fcsten-Gel\u00e4ndefeld liegen, damit ein Sonnenkraftwerk gebaut werden kann. Die Stadt muss vor dem Bau eine Fabrik besitzen.",
+        "historical_info": "Ein Sonnenkraftwerk nimmt die Energie der Sonne auf und wandelt sie in Strom um. Die effizientesten Sonnenkraftwerke werden logischerweise an Orten mit viel Sonnenschein und wenig Wolkenaufkommen platziert. Aktuell ist Strom aus Sonnenenergie im Vergleich zu Energie aus fossilen Brennstoffen (\u00d6l oder Kohle) recht teuer, doch die Sonnenenergietechnik wird immer billiger und fossile Brennstoffe werden immer teurer - vor allem, wenn die Kosten der durch Abgase verursachten Umweltbelastung hinzugerechnet werden. Sobald die Technologie perfektioniert ist, werden damit gro\u00dfe Teile des Energiebedarfs der Welt gedeckt werden. Es gibt Sch\u00e4tzungen, dass die Erde 200.000-mal mehr Sonnenenergie empf\u00e4ngt als die Menschheit derzeit insgesamt erzeugt.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/sonnenkraftwerk.png",
+        "prereq_tech": {
+            "name": "\u00d6kologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/solar_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "M\u00fcnzanstalt",
+        "game_info": "Jedes Gold- und Silbervorkommen, das von dieser Stadt bewirtschaftet wird, produziert +2 Gold.Die Stadt muss mindestens eine dieser Ressourcen abbauen.",
+        "strategy": "Die M\u00fcnzanstalt kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Gold oder Silber in der N\u00e4he verf\u00fcgen. Die M\u00fcnzanstalt steigert die Goldproduktion aller Gold- und Silber-Ressourcen, zu denen die Stadt Zugang hat.",
+        "historical_info": "Eine M\u00fcnzanstalt ist eine Einrichtung, in der die W\u00e4hrung einer Zivilisation produziert wird. In der Vergangenheit war das vor allem eine metallene W\u00e4hrung in Form von M\u00fcnzen, doch in modernen Zeiten besteht der Gro\u00dfteil der W\u00e4hrungen der Welt in Form von bedrucktem Papier. M\u00fcnzanstalten sind f\u00fcr die Wirtschaft einer Zivilisation extrem wichtig. Wenn die W\u00e4hrung einer Nation leicht gef\u00e4lscht werden kann, dann wird das auch geschehen und das Vertrauen in die Geldvorr\u00e4te dieser Nation wird sinken, was in einer gef\u00e4hrlichen Inflation, bei der der Wert einer W\u00e4hrung sinkt, oder Schlimmerem enden kann. Modernes Geld wird mit Hologrammen sowie verschiedenen Tinten gedruckt und mit Sicherheitsf\u00e4den versehen, um F\u00e4lschungen bestimmen zu k\u00f6nnen. Ohne Zweifel werden in Zukunft neue Ma\u00dfnahmen hinzukommen, wenn F\u00e4lscher Wege finden, bestehende zu kopieren.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/m\u00fcnzanstalt.png",
+        "prereq_tech": {
+            "name": "W\u00e4hrung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mint.json"
+    },
+    {
+        "id": 1,
+        "name": "Observatorium",
+        "game_info": "Stadt muss an einem Berg liegen.",
+        "strategy": "Das Observatorium kann nur in St\u00e4dten gebaut werden, die direkt an ein Berg-Gel\u00e4ndefeld angrenzen. Das Observatorium steigert die Wissenschaftsproduktion einer Stadt in erheblichem Ma\u00dfe.",
+        "historical_info": "Ein Observatorium ist ein Geb\u00e4ude, das dem Studium des Himmels gewidmet ist. Fr\u00fcher waren die Menschen davon \u00fcberzeugt, dass die Bewegung der Sterne eine mystische Bedeutung hatte, und so waren viele der ersten Observatorien auch religi\u00f6se Geb\u00e4ude. Mit der Zeit lernten die Menschen, dass sie den Wechsel der Jahreszeiten sehr genau anhand der Sterne bestimmen konnten und fanden heraus, dass diese Informationen \u00fcberaus wichtig f\u00fcr die Bestimmung des richtigen Tages zur Aussaat bzw. der Ernte waren. Diese Erkenntnisse bekr\u00e4ftigten die religi\u00f6se und praktische Bedeutung der Observatorien f\u00fcr die \u00d6ffentlichkeit. Moderne Observatorien sind computergesteuert und mit fortschrittlichen Teleskopen ausgestattet (oder sie kommunizieren mit noch m\u00e4chtigeren Teleskopen im All) und liefern den Wissenschaftlern bedeutend mehr Informationen als ihre primitiven Vorfahren je zu tr\u00e4umen gewagt h\u00e4tten. Aber ihre Aufgabe bleibt dieselbe: die Funktionsweise des Universums durch Beobachtung des Himmels zu untersuchen.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/observatorium.png",
+        "prereq_tech": {
+            "name": "Astronomie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/astronomy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/observatory.json"
+    },
+    {
+        "id": 1,
+        "name": "Kloster",
+        "game_info": "Jedes Vorkommen von R\u00e4ucherwerk und Wein, das in dieser Stadt bearbeitet wird, bringt +1 Glauben und +1 Kultur.",
+        "strategy": "Kl\u00f6ster steigern den Glaubens- und Kulturertrag einer Stadt, wenn diese in der N\u00e4he von modernisierten R\u00e4ucherwerk- und/oder Wein-Ressourcen liegt. Kl\u00f6ster k\u00f6nnen nur in St\u00e4dten gebaut werden, die der Religion der Kl\u00f6ster anh\u00e4ngen. Baut dieses Geb\u00e4ude, indem Ihr es mit Glauben erwerbt.",
+        "historical_info": "Ein Kloster ist ein Geb\u00e4ude bzw. ein Geb\u00e4udekomplex, in dem M\u00f6nche oder Nonnen leben - Menschen, die weltlichen Dingen wie Reichtum, Besitz und Sex abgeschworen haben und ihr Leben dem Gebet und der Meditation widmen. In den meisten Kl\u00f6stern leben entweder nur M\u00e4nner oder ausschlie\u00dflich Frauen; falls beide Geschlechter vertreten sind, werden sie durch hohe Mauern getrennt. In der Geschichte waren Kl\u00f6ster Orte h\u00f6herer Bildung, besonders im Mittelalter, als Mitglieder religi\u00f6ser Orden oft die einzigen Menschen au\u00dferhalb der herrschenden Oberschicht waren, die lesen und schreiben konnten.",
+        "cost": {
+            "production": -1,
+            "faith": 150
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kloster.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/monastery.json"
+    },
+    {
+        "id": 1,
+        "name": "Garten",
+        "game_info": "+25% Generierung von Gro\u00dfen Pers\u00f6nlichkeiten in dieser Stadt.Stadt muss an einem Fluss oder See liegen.",
+        "strategy": "Der Garten steigert die Geschwindigkeit, mit der Gro\u00dfe Pers\u00f6nlichkeiten in der Stadt generiert werden, um 25%. G\u00e4rten k\u00f6nnen nur in St\u00e4dten gebaut werden, die an Seen oder Fl\u00fcssen liegen.",
+        "historical_info": "Ein Garten ist ein Ort, an dem Pflanzen kultiviert werden. Sie dienen der Gewinnung von Nahrung, Schutz bzw. Energie oder als Orte der Ruhe und Erholung. Der erste bekannte Gartenplan stammt aus \u00c4gypten um 1400 v. Chr., aber praktisch alle antiken und modernen Kulturen haben G\u00e4rten kultiviert und zelebriert. Die Japaner legen schon fast seit Beginn ihrer Geschichte sch\u00f6ne, harmonische G\u00e4rten an. Der Ry\u014dan-ji-Tempel in Kyoto ist ber\u00fchmt f\u00fcr seinen Zen-Garten, der aus 15 gro\u00dfen Steinen in einem Bett aus wei\u00dfem Kies besteht und von niedrigen Mauern umgeben ist. Dieser Garten erscheint zwar sehr schlicht, um nicht zu sagen karg und asketisch, aber dennoch bewegt und inspiriert er die Menschen schon seit Jahrhunderten.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/garten.png",
+        "prereq_tech": {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/garden.json"
+    },
+    {
+        "id": 1,
+        "name": "Leuchtturm",
+        "game_info": "+1 Nahrung von K\u00fcsten- und Ozean-Gel\u00e4ndefeldern. +1 Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden.Jede durch die Stadt genutzte Quelle von Fisch produziert +1 Nahrung.Die Stadt muss an der K\u00fcste liegen.",
+        "strategy": "Der Leuchtturm kann nur in St\u00e4dten gebaut werden, die direkt an ein K\u00fcsten-Gel\u00e4ndefeld angrenzen. Er steigert die Nahrungsproduktion von Wasser-Gel\u00e4ndefeldern und durch Fisch sowie die Produktion aller Meeresressourcen.",
+        "historical_info": "Seitdem der Mensch die Meere in Schiffen bereist, wurden Signale an der K\u00fcste errichtet, um Schiffe in den Hafen zu lenken und Kapit\u00e4ne vor gef\u00e4hrlichen Sandb\u00e4nken und Felsen zu warnen. Der \u00e4lteste bekannte Leuchtturm war der Leuchtturm von Alexandria. Er war auf der kleinen Insel Pharos direkt vor der K\u00fcste Alexandrias errichtet und stand \u00fcber Tausend Jahre, um zahllose Schiffe in den sicheren Hafen von Alexandria zu leiten.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/leuchtturm.png",
+        "prereq_tech": {
+            "name": "Optik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/optics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/lighthouse.json"
+    },
+    {
+        "id": 1,
+        "name": "Hafen",
+        "game_info": "Errichtet eine [ICON_CONNECTED] Stadtverbindung mit der Hauptstadt \u00fcber Wasser (falls noch nicht \u00fcber Land [ICON_CONNECTED] verbunden). Seehandelswege, die in dieser Stadt beginnen, haben eine um 50% erh\u00f6hte Reichweite und produzieren 1 Gold zus\u00e4tzlich, wenn sie eine Verbindung zu einer anderen Zivilisation herstellen.Stadt muss an der K\u00fcste liegen.",
+        "strategy": "Der Hafen ist ein Geb\u00e4ude des Mittelalters. Er verbessert die Reichweite und den Ertrag von Gold f\u00fcr Seehandelswege. Er erm\u00f6glicht Wasser-Stadtverbindungen zwischen St\u00e4dten (siehe Regeln). Der Hafen steigert auch den Produktionsertrag einer verbesserten Meeresressource.",
+        "historical_info": "Ein Hafen ist ein gesch\u00fctzter Teil eines Gew\u00e4ssers, in dem Boote und Schiffe ankern k\u00f6nnen, um Schutz vor den Elementen zu finden. Viele nat\u00fcrliche H\u00e4fen wurden auf die eine oder andere Art ausgebaggert und mit Wellenbrechern und Windschutz ausgestattet. Au\u00dferdem verf\u00fcgen H\u00e4fen auch \u00fcber Anlegestellen und Stege, \u00fcber die Fracht abgeladen werden kann, und \u00fcber Lagerh\u00e4user, in denen die Transportwaren vor\u00fcbergehend verstaut werden k\u00f6nnen.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hafen.png",
+        "prereq_tech": {
+            "name": "Kompass",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/compass.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/harbor.json"
+    },
+    {
+        "id": 1,
+        "name": "Kolosseum",
+        "game_info": "Das Kolosseum steigert die Zufriedenheit einer Zivilisation. Die Zufriedenheit kann die Anzahl von B\u00fcrgern in einer Stadt nicht \u00fcbersteigen.",
+        "strategy": "Das Kolosseum steigert die Zufriedenheit einer Zivilisation. Die Zufriedenheit kann die Anzahl von B\u00fcrgern in einer Stadt nicht \u00fcbersteigen.",
+        "historical_info": "Ein Kolosseum ist ein Veranstaltungsort im Freien, an dem die \u00d6ffentlichkeit Sportveranstaltungen beiwohnen kann. Je nach Zeit und Ort k\u00f6nnen diese Veranstaltungen Gladiatorenk\u00e4mpfe oder auch American Football- oder Fu\u00dfballspiele sein. Von den drei genannten Wettk\u00e4mpfen sind die Gladiatorenk\u00e4mpfe vermutlich die h\u00e4rtesten f\u00fcr die beteiligten Wettstreiter. Fu\u00dfballspiele sind nur gelegentlich \u00e4hnlich gef\u00e4hrlich.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kolosseum.png",
+        "prereq_tech": {
+            "name": "Bauwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/colosseum.json"
+    },
+    {
+        "id": 1,
+        "name": "Zoo",
+        "game_info": "Die Zufriedenheit kann die Anzahl von B\u00fcrgern in einer Stadt nicht \u00fcbersteigen. Stadt ben\u00f6tigt ein Kolosseum.",
+        "strategy": "Ein Zoo erh\u00f6ht die Zufriedenheit Eures Reichs, kann aber nie mehr Zufriedenheit bringen, als sich B\u00fcrger in der Stadt befinden. Die Stadt muss \u00fcber ein Kolosseum verf\u00fcgen, bevor sie einen Zoo bauen kann.",
+        "historical_info": "Die \u00e4lteste bekannte zoologische Menagerie (der Vorl\u00e4ufer des Zoos) wurde bei Hierakonpolis ausgegraben und stammt aus der Zeit um 3.500 v. Chr. Der \u00e4lteste bestehende Zoo, der Tiergarten Sch\u00f6nbrunn in Wien, entstand aus der Sammlung exotischer Tiere der Habsburger Dynastie und wurde 1765 n. Chr. der \u00d6ffentlichkeit zug\u00e4nglich gemacht.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo.png",
+        "prereq_tech": {
+            "name": "Druckerpresse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/printing_press.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/zoo.json"
+    },
+    {
+        "id": 1,
+        "name": "Stadion",
+        "game_info": "Kann nicht mehr Zufriedenheit bringen, als es B\u00fcrger in einer Stadt gibt. Stadt ben\u00f6tigt einen Zoo.",
+        "strategy": "Ein Stadion ist ein Geb\u00e4ude der Moderne, das die Zufriedenheit des Reichs erh\u00f6ht, aber nur so viel Zufriedenheit bringen kann, wie es B\u00fcrger in der Stadt gibt. Die Stadt muss bereits \u00fcber einen Zoo verf\u00fcgen, bevor sie ein Stadion bauen kann.",
+        "historical_info": "Ein Stadion ist die moderne Variante eines Kolosseums (die Auswahl an Snacks ist vermutlich besser). In modernen Stadien finden bis zu 100.000 kreischende Fans Platz, um Sportveranstaltungen, Konzerten oder politischen Versammlungen beizuwohnen. Moderne Sportfans sind kaum ruhiger als ihre Vorfahren der Antike, und die Stadien von heute sind mit Z\u00e4unen, Schutzgel\u00e4nder und Sicherheitspersonal ausgestattet, um wild gewordenen Fans Einhalt gebieten zu k\u00f6nnen.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadion.png",
+        "prereq_tech": {
+            "name": "K\u00fchltechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stadium.json"
+    },
+    {
+        "id": 1,
+        "name": "Monument",
+        "game_info": "Das Monument steigert die Kultur einer Stadt und beschleunigt so ihr Fl\u00e4chenwachstum sowie den Erwerb von Sozialpolitiken.",
+        "strategy": "Das Monument steigert die Kultur einer Stadt und beschleunigt so ihr Fl\u00e4chenwachstum sowie den Erwerb von Sozialpolitiken.",
+        "historical_info": "Ein Monument ist ein Bauwerk, das an eine wichtige Person, ein Ereignis, eine Gottheit oder ein Konzept erinnern soll. Wichtige Monumente wurden \u00fcblicherweise im Zentrum der Stadt, in der N\u00e4he des Palastes des Herrschers oder nahe der Haupttore einer Stadt errichtet. Monumente gibt es in nahezu allen Gr\u00f6\u00dfen und Formen, von der Gro\u00dfen Sphinx von Gizeh (\u00c4gypten) \u00fcber die Freiheitsstatue in New York (USA) bis hin zur Nelsons\u00e4ule in London (England). Die bedeutendsten Monumente erf\u00fcllen die Einwohner der Stadt mit gro\u00dfem Nationalstolz.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/monument.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/monument.json"
+    },
+    {
+        "id": 1,
+        "name": "Tempel",
+        "game_info": null,
+        "strategy": "Der Tempel steigert den Glauben einer Stadt, sodass Ihr schneller Religionen gr\u00fcnden und verbreiten k\u00f6nnt. Die Stadt muss \u00fcber einen Schrein (oder eine Pyramide) verf\u00fcgen, bevor ein Tempel gebaut werden kann.",
+        "historical_info": "Ein Tempel ist ein religi\u00f6ses Geb\u00e4ude, in dem Gl\u00e4ubige zur Andacht zusammenkommen k\u00f6nnen. Solche Geb\u00e4ude zeigen, dass eine Gemeinde sowohl wohlhabend als auch fromm ist, da man sich den Bau eines besonderen Geb\u00e4udes sowie die Versorgung von Priestern, Akolythen, Vestalinnen oder M\u00f6nchen darin leisten kann. In vielen alten Kulturen hatte jede Familie einen kleinen Schrein in ihren Unterk\u00fcnften. Der \u00e4lteste bekannte gesonderte Tempel ist datiert auf das 10. Jahrtausend v. Chr. und befindet sich in der s\u00fcd\u00f6stlichen T\u00fcrkei.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/tempel.png",
+        "prereq_tech": {
+            "name": "Philosophie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/philosophy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/temple.json"
+    },
+    {
+        "id": 1,
+        "name": "Opernhaus",
+        "game_info": null,
+        "strategy": "Das Opernhaus ist ein Renaissance-Geb\u00e4ude, das die Kultur einer Stadt erh\u00f6ht. Die Stadt ben\u00f6tigt ein Amphitheater, um ein Opernhaus bauen zu k\u00f6nnen. Beinhaltet 1 Platz f\u00fcr ein Gro\u00dfes Musikwerk.",
+        "historical_info": "Eine Oper ist, im Unterschied zu anderen Formen des Musiktheaters, ein Theaterst\u00fcck, in dem die Schauspieler ihre kompletten Dialoge nicht sprechen, sondern singen. Die Operns\u00e4nger werden in der Regel von einem Orchester begleitet. Ein Opernhaus ist ein Theater mit einer B\u00fchne f\u00fcr die S\u00e4nger, einem Platz f\u00fcr das Orchester und einer Akustik, die darauf ausgelegt ist, die Musik in den Zuschauerraum zu tragen. Das erste \u00f6ffentliche Opernhaus war das Teatro San Cassiano, das 1637 in Venedig er\u00f6ffnet wurde. Seither wurden Opernh\u00e4user in aller Welt er\u00f6ffnet. Sie sind schon beinahe Pflicht f\u00fcr jede Stadt, die ein Zentrum f\u00fcr Kunst und Kultur darstellen will.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/opernhaus.png",
+        "prereq_tech": {
+            "name": "Akustik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/opera_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Museum",
+        "game_info": null,
+        "strategy": "Das Museum ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das den Kulturertrag einer Stadt erh\u00f6ht. Die Stadt muss \u00fcber ein Opernhaus (oder eine Ceilidh-Halle) verf\u00fcgen, um ein Museum bauen zu k\u00f6nnen. Beinhaltet 2 Pl\u00e4tze f\u00fcr Gro\u00dfe Kunstwerke.",
+        "historical_info": "Ein Museum ist ein Ort oder eine Kette von Geb\u00e4uden, in der besonders gesch\u00e4tzte Besitzt\u00fcmer einer Zivilisation der \u00d6ffentlichkeit zug\u00e4nglich gemacht werden. Es gibt Museen mit Kunstsammlungen, Museen mit Fossilien oder historisch relevanten Gegenst\u00e4nden sowie Museen f\u00fcr Kost\u00fcme, Schmuck, antike Waffen oder nahezu alles, was von Wert oder Interesse sein k\u00f6nnte. Das Kunstmuseum Eremitage in St. Petersburg wurde 1764 von Katharina der Gro\u00dfen gegr\u00fcndet. Seit 1852 ist es der \u00d6ffentlichkeit zug\u00e4nglich und es ist eines der \u00e4ltesten und ber\u00fchmtesten Museen der Welt.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/museum.png",
+        "prereq_tech": {
+            "name": "Arch\u00e4ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/archaeology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/museum.json"
+    },
+    {
+        "id": 1,
+        "name": "Funkturm",
+        "game_info": "+33% Kultur in dieser Stadt.Stadt ben\u00f6tigt ein Museum.",
+        "strategy": "Ein Funkturm ist ein Geb\u00e4ude im sp\u00e4teren Verlauf des Spiels, das den Kulturertrag einer Stadt um 33% steigert. Die Stadt muss \u00fcber ein Museum verf\u00fcgen, bevor sie einen Funkturm errichten kann.",
+        "historical_info": "Ein Funkturm \u00fcbertr\u00e4gt Kommunikationssignale - Radio, Fernsehen etc. - \u00fcber die Luft, was es Empfangsger\u00e4ten in einem Umkreis von vielen Kilometern erm\u00f6glicht, sie zu empfangen. Das wichtigste Merkmal eines Funkturms ist seine H\u00f6he. Je h\u00f6her der Sender liegt, desto weiter kann das Signal ausgestrahlt werden. Das Empire State Building in Manhattan sendet seit 1931 Signale. Nach dem Fall der T\u00fcrme des World Trade Centers 2001 ist es wieder zum wichtigsten Funkturm in New York City geworden, \u00fcber den die Signale fast aller kommerziellen Funkh\u00e4user der Stadt gesendet werden.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/funkturm.png",
+        "prereq_tech": {
+            "name": "Funkwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radio.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/broadcast_tower.json"
+    },
+    {
+        "id": 1,
+        "name": "Kaserne",
+        "game_info": "+15 EP f\u00fcr alle Einheiten.",
+        "strategy": "In der Kaserne erhalten die in der Stadt ausgebildeten Einheiten Erfahrung. Diese Erfahrung kann dazu genutzt werden, um die Einheiten zu bef\u00f6rdern und somit ihre Effizienz im Kampf zu steigern.",
+        "historical_info": "Kasernen sind milit\u00e4rische Geb\u00e4ude, in denen die Berufssoldaten eines Landes untergebracht sind. Sie bieten nicht nur Verpflegung und Unterkunft, sondern auch Ausbildungs- und medizinische Einrichtungen sowie Milit\u00e4rgef\u00e4ngnisse, Fahrzeugwerkst\u00e4tten usw.Kasernen sind wichtig f\u00fcr Zufriedenheit und Wohlergehen einer Zivilisation. Sie f\u00f6rdern Zusammenhalt zwischen den R\u00e4ngen, verbessern die Chancen der Soldaten, im Kampf erfolgreich zu sein, und regeln den Kontakt zwischen Soldaten und Zivilisten, um die Spannungen zu beschr\u00e4nken, die unweigerlich auftreten, wenn beide Gruppen zu stark miteinander interagieren.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kaserne.png",
+        "prereq_tech": {
+            "name": "Bronzeverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/barracks.json"
+    },
+    {
+        "id": 1,
+        "name": "Waffenkammer",
+        "game_info": "+15 EP f\u00fcr alle Einheiten.Stadt ben\u00f6tigt Kaserne oder Krepost.",
+        "strategy": "In der Waffenkammer erhalten die in der Stadt ausgebildeten Einheiten Erfahrung. Die Stadt muss \u00fcber eine Kaserne verf\u00fcgen, bevor eine Waffenkammer gebaut werden kann.",
+        "historical_info": "Eine Waffenkammer ist ein milit\u00e4risches Geb\u00e4ude, in dem Waffen in Zeiten des Friedens gelagert und gewartet werden. Soldaten tragen f\u00fcr gew\u00f6hnlich ihre Waffen nicht st\u00e4ndig mit sich herum (vor allem, wenn diese Waffen Maschinengewehre oder Raketenwerfer sind).Waffenkammern sind in der Regel gut gepanzert und bewacht und \u00e4hneln eher einer Trutzburg als einem Lagerhaus. Kriegswaffen m\u00fcssen vor Diebstahl gesch\u00fctzt werden, seien es kleinere Delikte oder ein w\u00fctender Mob, der einen Aufstand anzetteln will.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/waffenkammer.png",
+        "prereq_tech": {
+            "name": "Stahl",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steel.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/armory.json"
+    },
+    {
+        "id": 1,
+        "name": "Milit\u00e4rakademie",
+        "game_info": "+15 EP f\u00fcr alle Einheiten.Stadt ben\u00f6tigt eine Waffenkammer.",
+        "strategy": "Die Milit\u00e4rakademie ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das die Anzahl der Erfahrungspunkte von Einheiten erh\u00f6ht, die in der Stadt gebaut werden. Die Stadt muss bereits \u00fcber eine Waffenkammer verf\u00fcgen, bevor die Milit\u00e4rakademie gebaut werden kann.",
+        "historical_info": "Eine Milit\u00e4rakademie ist eine Einrichtung f\u00fcr weiterf\u00fchrende Bildung, die sich auf die Ausbildung der Offiziere eines Landes konzentriert. Milit\u00e4rakademien bieten die beste Bildung in Verbindung mit einem strikten Training und Kursen in Kommandof\u00fchrung, Strategie, Logistik und anderen milit\u00e4rischen Bereichen. Im Allgemeinen werden die besten und kl\u00fcgsten Kinder eines Landes in einer Milit\u00e4rakademie aufgenommen - oder zumindest die mit den besten Verbindungen.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/milit\u00e4rakademie.png",
+        "prereq_tech": {
+            "name": "Milit\u00e4rwissenschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/military_science.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/military_academy.json"
+    },
+    {
+        "id": 1,
+        "name": "Arsenal",
+        "game_info": "Stadt ben\u00f6tigt eine Burg oder Mogul-Festung.",
+        "strategy": "Das Arsenal ist ein Milit\u00e4rgeb\u00e4ude im mittleren Abschnitt des Spiels, das die Verteidigungsst\u00e4rke einer Stadt um 9 und die Trefferpunkte um 25 erh\u00f6ht, sodass sie schwieriger einzunehmen ist. Die Stadt muss \u00fcber eine Burg verf\u00fcgen, bevor ein Arsenal gebaut werden kann.",
+        "historical_info": "Ein Arsenal ist eine gr\u00f6\u00dfere und umfassendere Waffenkammer, in der die gr\u00f6\u00dferen und gef\u00e4hrlicheren Waffensysteme einer Armee aufbewahrt werden: Panzer, hochexplosive Munition usw. Ein Arsenal wird noch besser bewacht als eine Waffenkammer, da niemand will, dass ein Panzer oder ein 88 mm Explosivgeschoss in die falschen H\u00e4nde ger\u00e4t.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/arsenal.png",
+        "prereq_tech": {
+            "name": "Metallverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/arsenal.json"
+    },
+    {
+        "id": 1,
+        "name": "Stadtmauern",
+        "game_info": "Stadtmauern erh\u00f6hen die Verteidigungsst\u00e4rke einer Stadt um 5 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Stadtmauern sind vor allem in St\u00e4dten entlang der Grenzen einer Zivilisation \u00fcberaus hilfreich.",
+        "strategy": "Stadtmauern erh\u00f6hen die Verteidigungsst\u00e4rke einer Stadt um 5 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Stadtmauern sind vor allem in St\u00e4dten entlang der Grenzen einer Zivilisation \u00fcberaus hilfreich.",
+        "historical_info": "Seitdem Menschen sich in Gruppen zusammenfinden - Gemeinden, St\u00e4dte etc. - gibt es andere Leute, die ihre Sachen stehlen wollen. Seit fr\u00fchester Geschichte haben die Menschen Verteidigungsstrukturen aus Lehm, Holz oder Stein gebaut, um Feinde von Nahrung und Wohlstand sowie Frauen und Kindern fernzuhalten. Im Mittelalter war die europ\u00e4ische Landschaft durchzogen von eingemauerten D\u00f6rfern und St\u00e4dten, einige davon mit ausgefeilten Gr\u00e4ben und Kan\u00e4len. Einige dieser Arbeiten sind noch heute zu sehen. Die Stadt York in England etwa hat weitl\u00e4ufige Mauern, die bis zur Zeit der R\u00f6mer zur\u00fcckreichen.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stadtmauern.png",
+        "prereq_tech": {
+            "name": "Steinmetzkunst",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/walls.json"
+    },
+    {
+        "id": 1,
+        "name": "Burg",
+        "game_info": "Stadt ben\u00f6tigt Stadtmauern.",
+        "strategy": "Die Burg ist ein Geb\u00e4ude des Mittelalters, das die Verteidigungsst\u00e4rke einer Stadt um 7 und die Trefferpunkte um 25 erh\u00f6ht. Die Stadt muss \u00fcber Stadtmauern verf\u00fcgen, bevor die Burg gebaut werden kann.",
+        "historical_info": "Eine Burg ist ein Geb\u00e4ude, das so angelegt ist, eine milit\u00e4rische Streitkraft (und vielleicht auch einige Zivilisten) vor Feinden zu sch\u00fctzen. Burgen sind haupts\u00e4chlich aus Stein gebaut (Holz ist leider zu leicht entflammbar) und bestehen f\u00fcr gew\u00f6hnlich aus einer \u00e4u\u00dferen Mauer und einem davon getrennten, befestigten Geb\u00e4ude im Innern, das man Donjon nennt. Eine Burg sollte au\u00dferdem \u00fcber eine eigene Wasserquelle und genug Lagerkapazit\u00e4t f\u00fcr Nahrungsmittel verf\u00fcgen.Eine gut durchdachte Burg sollte den Verteidigern die M\u00f6glichkeit bieten, die Angreifer zu attackieren, w\u00e4hrend diese sich der Burg n\u00e4hern, die Mauern erklimmen oder durch die Tore brechen wollen. Schie\u00dfscharten und Mauern mit intervallartigen Aussparungen sind absolut notwendig, w\u00e4hrend Fallluken zum Schie\u00dfen von Pfeilen oder zum Vergie\u00dfen von siedendem \u00d6l ein netter Zusatz sind.Burgen waren die gr\u00f6\u00dften und teuersten Zeichen f\u00fcr die milit\u00e4rische und wirtschaftliche Macht eines Landes, bis das Aufkommen der Schie\u00dfpulver-Artillerie sie zu ausgekl\u00fcgelten und teuren Todesfallen f\u00fcr alle im Innern machte.",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/burg.png",
+        "prereq_tech": {
+            "name": "Ritterlichkeit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chivalry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/castle.json"
+    },
+    {
+        "id": 1,
+        "name": "Milit\u00e4rst\u00fctzpunkt",
+        "game_info": "Stadt ben\u00f6tigt ein Arsenal.",
+        "strategy": "Der Milit\u00e4rst\u00fctzpunkt ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das die Verteidigungsst\u00e4rke der Stadt um 12 und die Trefferpunkte um 25 erh\u00f6ht. Die Stadt muss \u00fcber ein Arsenal verf\u00fcgen, bevor ein Milit\u00e4rst\u00fctzpunkt errichtet werden kann.",
+        "historical_info": "Ein Milit\u00e4rst\u00fctzpunkt ist eine Ansammlung von Geb\u00e4uden und Exerzierpl\u00e4tzen, die eine oder mehrere wichtige Milit\u00e4reinheiten beherbergt - eine Legion, eine Division, ein Korps, eine Flotte oder eine andere von der Struktur der milit\u00e4rischen Organisation abh\u00e4ngige Einheit. Ein Milit\u00e4rst\u00fctzpunkt beinhaltet alles, um die Milit\u00e4reinheit kampfbereit zu halten, einschlie\u00dflich Trainingsgel\u00e4nde, Offiziersquartieren, Kaserne, Gef\u00e4ngnis, Waffenkammer, Krankenhaus, Versorgungslager, Transportausr\u00fcstung etc. Diese St\u00fctzpunkte sind f\u00fcr gew\u00f6hnlich gut gesch\u00fctzt und auf Gel\u00e4nde positioniert, das gut verteidigt werden kann. Sofern ein Milit\u00e4rst\u00fctzpunkt nicht durch Verrat von innen infiltriert wird, w\u00fcrde eine ganze Armee gebraucht, um ihn einzunehmen oder zu zerst\u00f6ren.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/milit\u00e4rst\u00fctzpunkt.png",
+        "prereq_tech": {
+            "name": "Normbauteile",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/replaceable_parts.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/military_base.json"
+    },
+    {
+        "id": 1,
+        "name": "Kornspeicher",
+        "game_info": "Jede von dieser Stadt genutzte Quelle von Weizen, Bananen und Wild produziert +1 Nahrung.Erm\u00f6glicht den Transport von Nahrung aus dieser Stadt \u00fcber Handelswege innerhalb Eurer Zivilisation.",
+        "strategy": "Der Kornspeicher erh\u00f6ht die Nahrungskapazit\u00e4t einer Stadt und beschleunigt so ihr Wachstum. Er ist n\u00fctzlich, wenn Ihr schnell eine gro\u00dfe Stadt erschaffen wollt.",
+        "historical_info": "Ein Kornspeicher ist ein Geb\u00e4ude, in dem Korn f\u00fcr Menschen und Zuchttiere gelagert werden kann. Die bisher \u00e4ltesten bekannten Kornspeicher wurden in einer Siedlung aus dem pr\u00e4keramischen Neolithikum im Jordantal im Nahen Osten gefunden und sind auf etwa 9.500 v. Chr. datiert. Diese ersten Kornspeicher ma\u00dfen in etwa 10 qm und enthielten erhobene Ebenen, um einen freien Luftaustausch zu erm\u00f6glichen und das Korn etwas vor M\u00e4usen und anderen Gefahren zu sch\u00fctzen.",
+        "cost": {
+            "production": 60,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kornspeicher.png",
+        "prereq_tech": {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/granary.json"
+    },
+    {
+        "id": 1,
+        "name": "Krankenhaus",
+        "game_info": "Das Krankenhaus ist ein Geb\u00e4ude des Industriezeitalters. Es ist n\u00fctzlich, wenn man schnell eine gro\u00dfe Stadt errichten m\u00f6chte.",
+        "strategy": "Das Krankenhaus ist ein Geb\u00e4ude des Industriezeitalters. Es ist n\u00fctzlich, wenn man schnell eine gro\u00dfe Stadt errichten m\u00f6chte.",
+        "historical_info": "Ein Krankenhaus ist eine Institution zur Untersuchung und Behandlung von Kranken und Verletzten; es dient ihnen w\u00e4hrend der Genesung auch als Unterkunft. Viele Krankenh\u00e4user sind zugleich auch Lehranstalten, in denen angehende \u00c4rzte und Krankenpfleger ihr Handwerk erlernen. Die ersten Krankenh\u00e4user waren meist Tempel von Gottheiten, die f\u00fcr Gesundheit und Heilung standen. Religi\u00f6se Krankenh\u00e4user gab es in Sri Lanka bereits um 430 v. Chr., und um 230 v. Chr. lie\u00df K\u00f6nig Ashoka von Indien eine Reihe von Krankenh\u00e4usern in Hindustan errichten.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/krankenhaus.png",
+        "prereq_tech": {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/biology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 5,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hospital.json"
+    },
+    {
+        "id": 1,
+        "name": "Medizinisches Labor",
+        "game_info": "25% Nahrung bleibt erhalten, wenn ein neuer B\u00fcrger geboren wird (Wirkung kumulativ mit Aqu\u00e4dukt).",
+        "strategy": "Das Medizinische Labor ist ein Geb\u00e4ude im sp\u00e4teren Spiel. Es verringert die zum Wachstum der Stadt ben\u00f6tigte Nahrung um 25%. Die Stadt braucht ein Krankenhaus, um das Medizinische Labor bauen zu k\u00f6nnen.",
+        "historical_info": "Ein medizinisches Labor ist eine Einrichtung zur Erforschung von Krankheiten und der menschlichen Anatomie mit Hilfe von \u00fcberaus komplizierten und leistungsf\u00e4higen Ger\u00e4ten - von Ultraschall \u00fcber Kameras in Ameisengr\u00f6\u00dfe bis hin zu Elektronenmikroskopen. Viele - wenn nicht gar alle - der gr\u00f6\u00dften medizinischen Fortschritte der vergangenen 25 Jahre wurden in medizinischen Labors gemacht. Dazu z\u00e4hlen zum Beispiel die Sequenzierung der menschlichen DNS, die Entwicklung von Retroviren im Kampf gegen HIV und AIDS, die Gentherapie, die Nanotechnologie und noch vieles mehr. Ein Gro\u00dfteil der gestiegenen Kosten f\u00fcr das Gesundheitswesen kann der einfachen Tatsache zugeschrieben werden, dass medizinische Labors nachweisliche Erfolge im Kampf gegen Krankheiten, bei der Verl\u00e4ngerung des menschlichen Lebens und bei der Verbesserung der Lebensqualit\u00e4t erzielt haben - all dies kostet eine Menge Geld.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/medizinisches_labor.png",
+        "prereq_tech": {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/penicillin.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/medical_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Werkstatt",
+        "game_info": "Erm\u00f6glicht den Transport von Produktion aus dieser Stadt \u00fcber Handelswege innerhalb Eurer Zivilisation.",
+        "strategy": "Die Werkstatt beschleunigt die Produktion einer Stadt.",
+        "historical_info": "Eine Werkstatt ist ein Geb\u00e4ude, in dem Sachen gebaut werden. Dort sind Rohmaterial, Werkzeuge und f\u00e4hige Arbeiter zu finden, um zu bauen, was gebraucht wird. Eine Keramik-Werkstatt stellte Keramik-Waren her (wenig \u00fcberraschend), w\u00e4hrend eine Zimmerei-Werkstatt T\u00fcren, Schr\u00e4nke und Fu\u00dfb\u00f6den produzieren kann - eben alles M\u00f6gliche aus Holz. Im Italien der Renaissance arbeiteten viele K\u00fcnstler in Werkst\u00e4tten, in der ein gro\u00dfer Maler die Lorbeeren f\u00fcr ein Gem\u00e4lde einstreichen konnte, das in Wahrheit von Angestellten und Sch\u00fclern gemalt wurde, die gelernt hatten, den Stil des Meisters zu imitieren. Diese Praxis bereitet Sammlern und Historikern noch heute Kopfzerbrechen.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/werkstatt.png",
+        "prereq_tech": {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/workshop.json"
+    },
+    {
+        "id": 1,
+        "name": "Fabrik",
+        "game_info": "Ben\u00f6tigt 1 Kohle.",
+        "strategy": "Die Fabrik ist ein Geb\u00e4ude des Industriezeitalters, das die Produktion einer Stadt erheblich steigert. Beim Bau einer Fabrik wird 1 Kohle verbraucht.",
+        "historical_info": "Eine Fabrik ist ein Geb\u00e4ude, in dem Techniken der Industrialisierung genutzt werden, um Sachen zu bauen: Autos, Korsetts, Stahltr\u00e4ger, Angelruten und was auch immer. Im gro\u00dfen Stil erschienen die ersten Fabriken im 17. Und 18. Jahrhundert auf der Bildfl\u00e4che. Sie waren effizienter als kleine Werkst\u00e4tten oder H\u00fctten, die sie ersetzten, daf\u00fcr aber potentiell weniger human. Im Gegensatz zur allgemeinen Meinung war es nicht Henry Ford, der das Flie\u00dfband erfand: Diese Erfindung hat ihren Ursprung in der Fleischindustrie im Mittleren Westen der USA im 19. Jahrhundert. Tierkadaver wurden dort in einem steten Tempo \u00fcber ein erh\u00f6htes F\u00f6rdersystem von Station zu Station transportiert. Arbeiter an den einzelnen Stationen hatten eine bestimmte Zeitvorgabe, in der sie das ihnen zugewiesene St\u00fcck Fleisch abtrennen mussten, bevor der Kadaver weitertransportiert wurde. In einer solchen Fleischfabrik zu arbeiten war einer der dreckigsten und gef\u00e4hrlichsten Jobs in der Geschichte des amerikanischen Arbeitsmarktes und Geschichten aus dieser Zeit lassen einem noch heute Schauer \u00fcber den R\u00fccken laufen.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fabrik.png",
+        "prereq_tech": {
+            "name": "Industrialisierung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/industrialization.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 4,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Kernkraftwerk",
+        "game_info": "Ben\u00f6tigt 1 Uran. Die Stadt darf kein Sonnenkraftwerk besitzen.",
+        "strategy": "Das Kernkraftwerk steigert die Produktion einer Stadt in erheblichem Ma\u00dfe. Ein Kernkraftwerk ben\u00f6tigt die Ressource Uran, um gebaut werden zu k\u00f6nnen. Die Stadt muss vor dem Bau eine Fabrik besitzen.",
+        "historical_info": "Ein Kernkraftwerk ist eine Anlage, in der unter kontrollierten Bedingungen nukleare Energie in Strom verwandelt wird. Die bei der Kernspaltung frei werdende Energie erhitzt Wasser zu Dampf, der dann durch Strom produzierende Turbinen geleitet wird. Im t\u00e4glichen Betrieb sind Atomkraftwerke weitaus sauberer als \u00d6l, Gas oder Kohle, da sie Luft und Wasser in ihrer Umgebung weniger stark verschmutzen. Leider produzieren sie aber jede Menge radioaktiven Abfall. Dieser Atomm\u00fcll, ein \u00e4u\u00dferst t\u00f6dliches Nebenprodukt, muss jahrhundertelang gelagert werden, bevor seine Gef\u00e4hrlichkeit langsam abnimmt. Au\u00dferdem h\u00e4tte ein gr\u00f6\u00dferer St\u00f6rfall in einem Kernkraftwerk weitaus schlimmere und weitreichendere Konsequenzen als bei anderen Kraftwerken. Die Menschheit wird noch lange Zeit vor dem schwierigen und riskanten Problem stehen, ihren stetig wachsenden Energiebedarf zu decken, bis endlich ergiebige, saubere und sichere neue Verfahren zur Energiegewinnung in ausreichendem Ma\u00dfe zur Verf\u00fcgung stehen.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kernkraftwerk.png",
+        "prereq_tech": {
+            "name": "Kernspaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 5,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/nuclear_plant.json"
+    },
+    {
+        "id": 1,
+        "name": "Raumschiff-Fabrik",
+        "game_info": "+50% Produktion beim Bau von Raumschiffteilen. Ben\u00f6tigt 1 Aluminium.Stadt ben\u00f6tigt eine Fabrik.",
+        "strategy": "Die Raumschiff-Fabrik steigert die Geschwindigkeit, mit der eine Stadt Raumschiffteile baut. Die Raumschiff-Fabrik ben\u00f6tigt eine Aluminium-Ressource und die Stadt muss vor dem Bau \u00fcber eine Fabrik verf\u00fcgen.",
+        "historical_info": "Raumschiffe sind wohl die kompliziertesten Objekte, die je von Menschen entwickelt wurden. Sie sind riesig und erfordern gro\u00dfe Mengen von Material allerh\u00f6chster Qualit\u00e4t sowie eine Konstruktionsgenauigkeit, die man nirgendwo sonst findet. Die Alpha-Centauri-Raumschiff-Fabriken haben die f\u00e4higsten Mitarbeiter der modernen Industrie. Viele Bautrupps wurden f\u00fcr die Kolonisierungsmission ausgew\u00e4hlt, was dazu beitr\u00e4gt, dass sie besonders engagiert und sorgf\u00e4ltig arbeiten. Die Schiffe m\u00fcssen absolut perfekt sein - eine einzige schlampig ausgef\u00fchrte Schwei\u00dfnaht oder die winzigste Delle in einer wichtigen Oberfl\u00e4che k\u00f6nnten dazu f\u00fchren, dass Hunderte Kolonisten sich Millionen Kilometer von zu Hause entfernt in einem besch\u00e4digten Transportmittel eingesperrt wiederfinden.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/raumschiff-fabrik.png",
+        "prereq_tech": {
+            "name": "Robotertechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 3,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/spaceship_factory.json"
+    },
+    {
+        "id": 1,
+        "name": "Markt",
+        "game_info": "M\u00e4rkte erh\u00f6hen die Menge an Gold, die eine Stadt produziert. Handelswege anderer Spieler zu einer Stadt mit einem Markt bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "strategy": "M\u00e4rkte erh\u00f6hen die Menge an Gold, die eine Stadt produziert. Handelswege anderer Spieler zu einer Stadt mit einem Markt bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "historical_info": "Ein Markt ist ein Ort, an dem Bauern, Gesch\u00e4ftsleute und H\u00e4ndler ihre Waren verkaufen. W\u00e4hrend die fr\u00fchen und primitiven M\u00e4rkte auf einem Barterhandel basierten, erfordert ein wirklich erfolgreicher Markt eine stabile W\u00e4hrung, um den freien Tausch von G\u00fctern und Dienstleistungen zu gew\u00e4hrleisten. Aus offensichtlichen Gr\u00fcnden sind M\u00e4rkte zu finden, wo die Kunden sind, also in D\u00f6rfern, Gemeinden und St\u00e4dten. Smithfield ist seit \u00fcber Tausend Jahren ein Fleischmarkt in London, was Stra\u00dfennamen wie \"Cow Cross Street\" (Kuhkreuzung) erkl\u00e4rt.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/markt.png",
+        "prereq_tech": {
+            "name": "W\u00e4hrung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/currency.json"
+        },
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/market.json"
+    },
+    {
+        "id": 1,
+        "name": "Bank",
+        "game_info": "Stadt ben\u00f6tigt Markt oder Basar.",
+        "strategy": "Die Bank ist ein Renaissance-Geb\u00e4ude, das den Goldertrag einer Stadt erh\u00f6ht. Eine Stadt muss \u00fcber einen Markt oder einen Basar verf\u00fcgen, bevor eine Bank gebaut werden kann. Handelswege anderer Spieler zu einer Stadt mit einer Bank bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "historical_info": "Eine Bank ist ein Institut, in dem B\u00fcrger ihr Geld sicher anlegen k\u00f6nnen. Der Banker sammelt die Einlagen und verleiht sie an andere Leute, die das geliehene Geld dann zuz\u00fcglich der Zinsen zur\u00fcckzahlen. Der Banker gibt einen Teil des Profits an den Inhaber der Einlage weiter und investiert den Rest neu. Ein erfolgreiches Banksystem erfordert eine funktionierende W\u00e4hrung sowie Gesetze, um sicherzustellen, dass die Schuldner die Darlehen nach M\u00f6glichkeit auch zur\u00fcckzahlen.Banken sind erstaunliche Antriebsmotoren f\u00fcr eine Zivilisation. Wenn eine Stadt etwas braucht - z. B. einen neuen Kornspeicher - kann sich vielleicht kein einzelner B\u00fcrger leisten, das Ben\u00f6tigte zu errichten. Da die Bank jedoch die Einlagen vieler verschiedener B\u00fcrger verwaltet, kann sie es sich leisten, dem Bauherrn das Geld zu leihen. Sobald der Kornspeicher gebaut ist, kann der Bauherr den neuen Profit nutzen, um den Kredit zur\u00fcckzuzahlen, und alle B\u00fcrger der Stadt profitieren vom neuen Kornspeicher (sowie von den Zinsen, die sie mit ihren Einlagen verdient haben).Banken in Europa und den USA haben in den letzten Jahren einen eher zweifelhaften Ruf erlangt, was an riskanten Investitionsmodellen oder verantwortungslos vergebenen Krediten liegt. Eine gut gef\u00fchrte Bank ist ein Gottesgeschenk f\u00fcr jede Gemeinschaft, vor allem f\u00fcr \u00e4rmere.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bank.png",
+        "prereq_tech": {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bank.json"
+    },
+    {
+        "id": 1,
+        "name": "B\u00f6rse",
+        "game_info": "Stadt ben\u00f6tigt Bank oder Satrapenhof.",
+        "strategy": "Die B\u00f6rse ist ein Geb\u00e4ude in der Mitte des Spiels, die den Goldertrag der Stadt erh\u00f6ht. Die Stadt muss eine Bank (oder einen Satrapenhof) besitzen, bevor die B\u00f6rse gebaut werden kann.",
+        "historical_info": "Eine B\u00f6rse ist eine Organisation, die den An- und Verkauf von Aktien erm\u00f6glicht, d. h. von Besitzanteilen an Unternehmen. In manchen F\u00e4llen haben die Aktion\u00e4re auch Stimmrechte und werden an Entscheidungen der Gesch\u00e4ftsf\u00fchrung beteiligt. Manche Aktien werfen Dividenden ab, das hei\u00dft, es wird j\u00e4hrlich ein Teil des Unternehmensgewinns an die Aktion\u00e4re ausbezahlt. Der (zumindest urspr\u00fcngliche) Hauptzweck der B\u00f6rsen ist es, den Inhabern von Unternehmen die Finanzierung zu erleichtern, indem sie einen Teil ihres Gesch\u00e4fts an Investoren verkaufen. Gleichzeitig mit dem Wert der Firma steigt auch der Wert der Aktien. Und nat\u00fcrlich gibt es auch ein Risiko - wenn der Wert der Aktien sinkt, verliert auch die Investition immer mehr an Wert. Eine moderne B\u00f6rse verkauft auch andere leistungsf\u00e4hige finanzielle \"Instrumente\", wie z. B. Renten- und Wertpapiere, Aktienoptionen, Zinstauschgesch\u00e4fte und Derivate. Eine gut gef\u00fchrte B\u00f6rse kann die Wirtschaft sehr schnell ankurbeln. Im umgekehrten Fall f\u00fchrt sie zu finanziellem Chaos und Ruin.",
+        "cost": {
+            "production": 360,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/b\u00f6rse.png",
+        "prereq_tech": {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stock_exchange.json"
+    },
+    {
+        "id": 1,
+        "name": "Bibliothek",
+        "game_info": "+1 Wissenschaft f\u00fcr jeweils 2 B\u00fcrger in dieser Stadt.",
+        "strategy": "Die Bibliothek steigert die Wissenschaftsproduktion einer Stadt und beschleunigt so die Entwicklung neuer Technologien.",
+        "historical_info": "Eine Bibliothek ist ein Geb\u00e4ude, das eine Sammlung an B\u00fcchern, Schriftrollen und anderen Schriftst\u00fccken beherbergt. Fr\u00fcher waren B\u00fccher eher teuer und somit f\u00fcr die \u00e4rmeren Bev\u00f6lkerungsschichten unerreichbar. Die Bibliothek erm\u00f6glicht den Armen Zugriff auf das gleiche Wissen wie den Reichen, was ihre Chancen auf Erfolg und Fortschritt deutlich steigert.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bibliothek.png",
+        "prereq_tech": {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/library.json"
+    },
+    {
+        "id": 1,
+        "name": "Universit\u00e4t",
+        "game_info": "+2 Wissenschaft durch Dschungel-Gel\u00e4ndefelder, die von dieser Stadt bewirtschaftet werden. Erm\u00f6glicht den Bau von Arch\u00e4ologen in dieser Stadt.Die Stadt ben\u00f6tigt eine Bibliothek.",
+        "strategy": "Die Universit\u00e4t ist ein Geb\u00e4ude des Mittelalters, das den Wissenschaftsertrag der jeweiligen Stadt erh\u00f6ht und sogar noch effektiver ist, wenn diese sich bei Dschungel-Gel\u00e4ndefeldern befindet. Die Stadt muss bereits \u00fcber eine Bibliothek (oder einen Papiermacher) verf\u00fcgen, um eine Universit\u00e4t zu bauen.",
+        "historical_info": "Eine Universit\u00e4t ist ein Institut f\u00fcr Forschung und Lehre, in dem junge Menschen im Alter von 18 bis ca. 24 Jahren Ausbildung finden (Erwachsene besuchen Universit\u00e4ten auch, doch die Mehrheit der Studenten geh\u00f6rt zu der oben genannten Altersgruppe). Formell ist eine Universit\u00e4t eine staatlich akkreditierte Einrichtung, die akademische Abschl\u00fcsse in verschiedenen Fachbereichen vergibt. Die \u00e4lteste durchgehend arbeitende Universit\u00e4t der Welt ist die Universit\u00e4t Al-Qarawiyyin in F\u00e8s, Marokko, die im Jahre 859 n. Chr. gegr\u00fcndet wurde.",
+        "cost": {
+            "production": 160,
+            "faith": 200
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/universit\u00e4t.png",
+        "prereq_tech": {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/university.json"
+    },
+    {
+        "id": 1,
+        "name": "\u00d6ffentliche Schule",
+        "game_info": "+1 Wissenschaft f\u00fcr je 2 B\u00fcrger in dieser Stadt.Stadt ben\u00f6tigt Universit\u00e4t.",
+        "strategy": "Die \u00d6ffentliche Schule ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das den Wissenschaftsertrag einer Stadt erheblich steigert. Die Stadt muss bereits \u00fcber eine Universit\u00e4t oder einen Wat verf\u00fcgen, um eine \u00d6ffentliche Schule zu bauen.",
+        "historical_info": "Eine \u00f6ffentliche Schule bietet eine kostenlose vorakademische Bildung f\u00fcr Kinder einer Zivilisation. Es handelt sich dabei um ein recht fortschrittliches Konzept. Zun\u00e4chst muss die Zivilisation zu dem Schluss gekommen sein, dass Bildung f\u00fcr Arme keine Gefahr f\u00fcr die herrschende Klasse ist. Au\u00dferdem muss die Zivilisation wohlhabend genug sein, damit die Kinder der Armen nicht arbeiten m\u00fcssen, um den Hungertod zu vermeiden. Und letztendlich muss die Zivilisation aufgekl\u00e4rt genug sein, um gewillt zu sein, einen Teil seiner Einnahmen auf Bildung zu verwenden. Die meisten L\u00e4nder der Welt bieten heute eine Form \u00f6ffentlicher Bildung f\u00fcr ihre Nachkommen. Die ersten \u00f6ffentlichen Grundschulen in Amerika wurden in der Kolonialzeit gegr\u00fcndet, die erste \u00f6ffentliche weiterf\u00fchrende Schule wurde 1821 in Boston gegr\u00fcndet.",
+        "cost": {
+            "production": 300,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/\u00f6ffentliche_schule.png",
+        "prereq_tech": {
+            "name": "Wissenschaftstheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/public_school.json"
+    },
+    {
+        "id": 1,
+        "name": "Forschungslabor",
+        "game_info": "Stadt ben\u00f6tigt eine \u00d6ffentliche Schule.",
+        "strategy": "Das Forschungslabor ist ein Geb\u00e4ude in sp\u00e4ten Spielabschnitten, das den Wissenschaftsertrag einer Stadt merklich steigert. Die Stadt muss bereits \u00fcber eine \u00d6ffentliche Schule verf\u00fcgen, damit ein Forschungslabor gebaut werden kann.",
+        "historical_info": "Ein Forschungslabor ist ein Institut, das der fortgeschrittenen Erforschung verschiedener Fachbereiche verschrieben ist. Dabei kann es sich um Medizin, Physik, Chemie, Robotik, saubere Energiegewinnung oder andere interessante Felder handeln. Solche Labors k\u00f6nnen mit \u00f6ffentlichen Geldern betrieben oder auch von wohlhabenden Personen oder Firmen finanziert werden. Forschungslabors k\u00f6nnen sowohl an Universit\u00e4ten gebunden als auch unabh\u00e4ngig sein.Es ist ziemlich offensichtlich, dass Forschungslabors die Zukunft der Forschung bedeuten. Seit sich das Verst\u00e4ndnis der Menschen f\u00fcr die Welt um sie herum weiterentwickelt hat, sind die Zeiten der Forscher, die alleine in ihrem Keller arbeiten und \"Heureka!\" rufen, l\u00e4ngst vergangen. Forschungslabors mit Dutzenden talentierter Leute bringen heute die wirklich gro\u00dfen Fortschritte.",
+        "cost": {
+            "production": 500,
+            "faith": 200
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/forschungslabor.png",
+        "prereq_tech": {
+            "name": "Plastik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/plastics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 4,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/research_lab.json"
+    },
+    {
+        "id": 1,
+        "name": "Aqu\u00e4dukt",
+        "game_info": "40% Nahrung bleibt erhalten, wenn ein neuer B\u00fcrger geboren wird.",
+        "strategy": "Der Aqu\u00e4dukt verringert die zum Wachstum der Stadt ben\u00f6tigte Nahrung um 40%. Baut Aqu\u00e4dukte in St\u00e4dten, die mit der Zeit gro\u00df werden sollen.",
+        "historical_info": "Ein Aqu\u00e4dukt ist ein System, um Wasser von einer Wasserversorgung an einem Ort an einen anderen zu bef\u00f6rdern, historisch betrachtet zur Bew\u00e4sserung von Feldern, die von nat\u00fcrlichen Wasservorkommen entfernt sind. Das Wort leitet sich von den lateinischen W\u00f6rtern f\u00fcr \"Wasser\" und \"f\u00fchren\" ab und der Aqu\u00e4dukt wird meist mit den R\u00f6mern in Verbindung gebracht. Der wohl ber\u00fchmteste r\u00f6mische Aqu\u00e4dukt ist der Pont du Gard in Frankreich. Doch die R\u00f6mer waren nicht die einzige Zivilisation, die Aqu\u00e4dukte baute. Verbl\u00fcffende und komplizierte Aqu\u00e4dukte sind \u00fcberall auf der Welt zu finden, einschlie\u00dflich Ninive, Hauptstadt der Assyrer, und in der aztekischen Hauptstadt Tenochtitlan in Nordamerika.Die Prinzipien der Planung und des Baus eines Aqu\u00e4dukts sind heute noch die gleichen wie vor Tausenden von Jahren, und die Menschen bef\u00f6rdern noch immer Wasser \u00fcber lange Strecken, um unser Leben einfacher zu machen.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/aqu\u00e4dukt.png",
+        "prereq_tech": {
+            "name": "Maschinenbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/aqueduct.json"
+    },
+    {
+        "id": 1,
+        "name": "Steinwerke",
+        "game_info": "Alle Quellen von Marmor und Stein, die von dieser Stadt bearbeitet werden, generieren +1 Produktion.Die Stadt muss mindestens eine dieser Ressourcen mit einem Steinbruch verbessern.Die Stadt darf nicht auf einer Ebene liegen.",
+        "strategy": "Steinwerke k\u00f6nnen nur in einer Stadt gebaut werden, die an einer verbesserten Stein- oder Marmor-Ressource liegt. Steinwerke erh\u00f6hen die Produktion einer Stadt. Die Stadt darf nicht auf einer Ebene liegen.",
+        "historical_info": "Das Steinwerk ist die Werkstatt der Steinmetze, die verschiedene Arten von Stein formen und verarbeiten, um im Bauprozess sowohl k\u00fcnstlerische als auch strukturelle Elemente zu gestalten. Die Steinmetzkunst geh\u00f6rt zu den \u00e4ltesten Berufen der Welt und umfasst jeden Schritt vom Steinabbau aus Steinbr\u00fcchen bis zum Hauen geometrischer Formen und dem Einpassen dieser Steine an der Baustelle. In der Geschichte arbeiteten Steinmetze mit Materialien wie Kalkstein, aus dem haupts\u00e4chlich massive Geb\u00e4ude errichtet wurden, und Granit und Marmor, die h\u00e4ufiger f\u00fcr Statuen und Monumente verwendet wurden.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/steinwerke.png",
+        "prereq_tech": {
+            "name": "Kalender",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/calendar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stone_works.json"
+    },
+    {
+        "id": 1,
+        "name": "Mauern von Babylon",
+        "game_info": "Die Mauern von Babylon erh\u00f6hen den Schaden durch Fernangriffe der Stadt und die Verteidigung der Stadt.",
+        "strategy": "Die Stadtmauern von Babylon sind ein einzigartiges Geb\u00e4ude von Babylon und ersetzen die normalen Stadtmauern. Die Stadtmauern von Babylon erh\u00f6hen die Verteidigungsst\u00e4rke einer Stadt um 6 und die Trefferpunkte um 100 (beides deutlich mehr als normale Stadtmauern).",
+        "historical_info": "Die Mauern von Babylon, die urspr\u00fcnglich in Antipatros' Liste der sieben Weltwunder der Antike enthalten waren, umschlossen die Stadt und besch\u00fctzten sie vor Schaden, indem sie die Stadt auf allen Seiten und sogar den Euphrat umspannten, der durch das Zentrum der Stadt floss. Die \u00e4u\u00dferen Mauern waren etwa 15 Kilometer lang, 8 Meter dick und ragten hundert Meter \u00fcber die Stadt. Kleinere Mauern umringten die Stadt hinter der Hauptmauer und stellten eine zus\u00e4tzliche Verteidigungslinie dar, sollte die Hauptmauer jemals fallen. Etwa 250 T\u00fcrme waren entlang der Mauern aufgestellt und boten ausgezeichnete Aussichtspunkte und Kampfpositionen f\u00fcr die geschickten babylonischen Bogensch\u00fctzen. Die Mauern waren f\u00fcr die Belagerungsmittel der damaligen Zeit undurchdringbar, gro\u00dfe Metalltore wurden am Fluss errichtet (zur Verteidigung gegen Eindringlinge unter Wasser) und acht massive Tore sollten den Zugang zu Fu\u00df regeln. Das bekannteste davon war das Ischtar-Tor. Diese Mauern sch\u00fctzten die Stadt wirkungsvoll fast einhundert Jahre lang.Erst 539 v. Chr. wurde ein Plan entwickelt, um die Mauern zu \u00fcberwinden. Kyros der Gro\u00dfe ordnete an, den Euphrat stromaufw\u00e4rts zu teilen, wodurch der Wasserspiegel so stark sank, dass ihn jeder einfach \u00fcberqueren konnte. Seine Armee schlich sich im Schutz der Dunkelheit unter den Metalltoren des Flusses in die Stadt und eroberte sie von innen heraus. Die Mauern waren zwar in der Lage, vor allen direkten Angriffen zu sch\u00fctzen, aber gegen das entschlossene Genie eines einzigen Mannes konnten sie nichts ausrichten.Gro\u00dfe Teile der alten Mauern stehen noch immer, wie zum Beweis f\u00fcr ihre St\u00e4rke. 1983 begann Saddam Hussein am Standort der alten Stadt mit der Wiedererrichtung der Mauer samt des Ischtar-Tors. Das Projekt wurde auf Eis gelegt, aber der Irak hofft, den Wiederaufbau der Mauer irgendwann fortsetzen zu k\u00f6nnen und Babylon wieder zu einem prunkvollen Ort zu machen.",
+        "cost": {
+            "production": 65,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mauern_von_babylon.png",
+        "prereq_tech": {
+            "name": "Steinmetzkunst",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/masonry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/walls_of_babylon.json"
+    },
+    {
+        "id": 1,
+        "name": "Ceilidh-Halle",
+        "game_info": null,
+        "strategy": "Die Ceilidh-Halle ist ein einzigartiges Geb\u00e4ude der Kelten w\u00e4hrend der Renaissance, welches das Opernhaus ersetzt. Es erh\u00f6ht die Kultur und die Zufriedenheit der Stadt.",
+        "historical_info": "Urspr\u00fcnglich war ein \"Ceilidh\" eine soziale Zusammenkunft der fr\u00fchen V\u00f6lker Irlands und Schottlands. In regelm\u00e4\u00dfigen \u00fcber das Jahr verteilten Abst\u00e4nden waren Ceilidhs meist von Musik und Tanz begleitet und lieferten eine wichtige soziale Ablenkungen von den H\u00e4rten des Alltags. Ceilidhs wurden in Hallen abgehalten, sofern diese verf\u00fcgbar waren, doch auch in Privath\u00e4usern, Schulen und Gesch\u00e4ften fanden solche Zusammenk\u00fcnfte statt.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ceilidh-halle.png",
+        "prereq_tech": {
+            "name": "Akustik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ceilidh_hall.json"
+    },
+    {
+        "id": 1,
+        "name": "Kaffeehaus",
+        "game_info": "+25% Auftauchen Gro\u00dfer Pers\u00f6nlichkeiten in dieser Stadt.",
+        "strategy": "Das Kaffeehaus ist ein einzigartiges Geb\u00e4ude der \u00d6sterreicher w\u00e4hrend der Renaissance, welches die Windm\u00fchle ersetzt. Es erh\u00f6ht die Produktion der Stadt und beschleunigt das Auftauchen Gro\u00dfer Pers\u00f6nlichkeiten um 25%.",
+        "historical_info": "Die ber\u00fchmten Kaffeeh\u00e4user \u00d6sterreichs, die vor allem im kulturellen Zentrum von Wien zu finden sind, sind schon lange Zufluchtsorte vor dem Trubel des Alltags. Der Legende nach wurde das erste Kaffeehaus in Wien von einem polnischen Soldaten namens Georg Franz Kolschitzky er\u00f6ffnet, der nach der zweiten Wiener T\u00fcrkenbelagerung durch das Osmanische Reich 1683 einen Vorrat an Kaffeebohnen entdeckte. Im 19. Jahrhundert bl\u00fchte die Kaffeekultur in Wien richtig auf, als Schriftsteller und K\u00fcnstler \u00fcberall in der Stadt Erholung in der entspannten Atmosph\u00e4re der Kaffeeh\u00e4user suchten und oft den ganzen Tag verweilten.",
+        "cost": {
+            "production": 250,
+            "faith": 0
+        },
+        "gold_maintenance": 2,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kaffeehaus.png",
+        "prereq_tech": {
+            "name": "Wirtschaftswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/coffee_house.json"
+    },
+    {
+        "id": 1,
+        "name": "Pyramide",
+        "game_info": null,
+        "strategy": "Die Pyramide ist ein einzigartiges Geb\u00e4ude der Maya w\u00e4hrend der Antike, welches den Schrein ersetzt. Es erh\u00f6ht die Wissenschaft und den Glauben einer Stadt, beschleunigt die Forschung und den Erwerb von Religionen einer Zivilisation.",
+        "historical_info": "Diese beeindruckenden pyramidenf\u00f6rmigen Geb\u00e4ude wurden vor beinahe 3.000 Jahren von den Maya f\u00fcr zeremonielle Zwecke errichtet. Die Handwerker der Maya formten jeden Stein des Geb\u00e4udes per Hand, um das stufige Aussehen zu erzielen. An einer Seite f\u00fchrte eine lange Treppe nach oben zu einem kleinen Schrein, der in der Regel einem der Maya-G\u00f6tter gewidmet war. Die gr\u00f6\u00dfte Pyramide der Maya liegt bei El Mirador und ist fast 80 Meter hoch. Vom Volumen her (ca. 2,8 Millionen Kubikmeter) ist sie eine der gr\u00f6\u00dften Pyramiden der Welt.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pyramide.png",
+        "prereq_tech": {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/pyramid.json"
+    },
+    {
+        "id": 1,
+        "name": "Amphitheater",
+        "game_info": null,
+        "strategy": "Das Amphitheater steigert die Kultur einer Stadt, beschleunigt die Ausdehnung des Stadtgebiets und erh\u00f6ht den Erhalt von Sozialpolitiken f\u00fcr die Zivilisation. Die Stadt muss ein Monument (oder eine Stele) enthalten, bevor ein Amphitheater gebaut werden kann. Beinhaltet 1 Platz f\u00fcr ein Gro\u00dfes Literaturwerk.",
+        "historical_info": "Ein Amphitheater ist eine Freiluftarena f\u00fcr Theaterauff\u00fchrungen, Sportereignisse und Konzerte. Die alten R\u00f6mer sind f\u00fcr Hunderte von Amphitheatern bekannt, die sie gebaut haben, um Gladiatorenk\u00e4mpfe und Ausstellungen abzuhalten und \u00f6ffentliche Hinrichtungen vorzunehmen.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/amphitheater.png",
+        "prereq_tech": {
+            "name": "Drama und Dichtung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/amphitheater.json"
+    },
+    {
+        "id": 1,
+        "name": "Schrein",
+        "game_info": null,
+        "strategy": "Der Schrein ist das fr\u00fcheste Geb\u00e4ude, das den Glauben der Stadt vergr\u00f6\u00dfert, sodass Ihr Religionen gr\u00fcnden und verbreiten k\u00f6nnt.",
+        "historical_info": "Schreine sind heilige Monumente, die in der Regel errichtet wurden, um gesch\u00e4tzter kultureller Ikonen oder religi\u00f6ser Figuren zu gedenken. In nahezu jeder Glaubensrichtung der Welt spielen Schreine eine wichtige Rolle in religi\u00f6sen Zeremonien, sowohl in \u00f6ffentlichen als auch privaten Gebeten.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schrein.png",
+        "prereq_tech": {
+            "name": "Keramik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/pottery.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 1,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/shrine.json"
+    },
+    {
+        "id": 1,
+        "name": "Recycling-Anlage",
+        "game_info": "Bringt 2 Aluminium ein. Maximal 5 dieser Geb\u00e4ude in Eurem Reich.",
+        "strategy": "Jede Recycling-Anlage bringt 2 Aluminium ein. In Eurem Reich kann es maximal 5 dieser Geb\u00e4ude geben.",
+        "historical_info": "Eine Recycling-Anlage ist eine Sammelstelle f\u00fcr recycelbare Materialien, die in gew\u00f6hnlichen Haushalten und Firmen zu finden sind. In vielen Gemeinden wird recycelbares Material zusammen mit dem Hausm\u00fcll abgeholt und bei der Recycling-Anlage zum Sortieren abgeladen. In den meisten F\u00e4llen werden die Materialien gebrochen oder zerrissen. Geb\u00fcndelt werden sie dann verschickt, um zu einer Vielzahl neuer Produkte weiterverarbeitet zu werden.",
+        "cost": {
+            "production": 500,
+            "faith": 0
+        },
+        "gold_maintenance": 3,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/recycling-anlage.png",
+        "prereq_tech": {
+            "name": "\u00d6kologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/recycling_center.json"
+    },
+    {
+        "id": 1,
+        "name": "Luftschutzbunker",
+        "game_info": "Reduziert Bev\u00f6lkerungsverluste durch Atomangriffe um 75%.",
+        "strategy": "Luftschutzbunker reduzieren Bev\u00f6lkerungsverluste durch Atomangriffe auf diese Stadt um 75%. In Deckung!",
+        "historical_info": "Ein Luftschutzbunker ist ein Bauwerk, das so gestaltet ist, dass es Schaden durch Bomben und andere Sprengwaffen standh\u00e4lt. W\u00e4hrend einige Luftschutzbunker Schutz vor Luftangriffen bieten sollen, wurden andere unter der Erde gebaut, um darin einen Nuklearangriff \u00fcberstehen zu k\u00f6nnen. Je nach geplantem Zweck werden beim Bau verschiedene Materialien verwendet, wobei Stahlbeton die am h\u00e4ufigsten verwendete Komponente ist.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/luftschutzbunker.png",
+        "prereq_tech": {
+            "name": "Telekommunikation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/telecommunications.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/bomb_shelter.json"
+    },
+    {
+        "id": 1,
+        "name": "Gendarmerie",
+        "game_info": "Senkt die Diebstahlrate feindlicher Spione um 25%.",
+        "strategy": "Gendarmerien machen es feindlichen Spionen schwerer, Technologien aus Eurer Stadt zu stehlen.",
+        "historical_info": "Eine der fr\u00fchesten bekannten Beschreibungen der Rolle eines Constables stammt von Bracton, einem Juristen in England, der zwischen 1235 und 1268 schrieb: \"Auf welchem Weg und an welchem Tag sie auch kommen, die Pflicht eines Constables ist es, alles ordnungsgem\u00e4\u00df abzuwickeln, er muss die Dinge, die er sieht, aufzeichnen. Aber er darf nicht richten, denn beim Tower gibt es kein Urteil, denn dort fehlt das dritte Element einer Justizprozedur, n\u00e4mlich ein Richter und Gerichtsbarkeit. Er muss die Tatsachen aufzeichnen, nicht Angelegenheiten der Rechtsprechung und des Gesetzes.\"",
+        "cost": {
+            "production": 160,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/gendarmerie.png",
+        "prereq_tech": {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/constabulary.json"
+    },
+    {
+        "id": 1,
+        "name": "Polizeiwache",
+        "game_info": "Senkt die Diebstahlrate feindlicher Spione um 25%.Stadt ben\u00f6tigt eine Gendarmerie.",
+        "strategy": "Polizeiwachen machen es feindlichen Spionen schwerer, Technologien aus Eurer Stadt zu stehlen. Die Stadt muss \u00fcber eine Gendarmerie verf\u00fcgen, bevor die Polizeiwache gebaut werden kann.",
+        "historical_info": "Eine Polizeiwache bietet die Operationsbasis f\u00fcr die \u00f6rtliche Polizei. In der Regel beherbergt sie B\u00fcros, ein kleines Gef\u00e4ngnis, Verh\u00f6rzimmer und eine Asservatenkammer. In einigen Regionen kann ein gr\u00f6\u00dferes Zentralb\u00fcro die Aufgaben mehrerer dieser Einrichtungen \u00fcbernehmen, w\u00e4hrend kleinere Unterstationen als prim\u00e4re Posten f\u00fcr Polizeidienststellen vor Ort dienen.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/polizeiwache.png",
+        "prereq_tech": {
+            "name": "Elektrizit\u00e4t",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/police_station.json"
+    },
+    {
+        "id": 1,
+        "name": "Kathedrale",
+        "game_info": null,
+        "strategy": "Kann nur in St\u00e4dten gebaut werden, die einer Religion mit dem Kathedralen-Glaubenssatz folgen. Baut dieses Geb\u00e4ude, indem Ihr es mit Glauben kauft.",
+        "historical_info": "Die Kathedrale ist eine christliche Kirche, bei der es sich um den Bischofssitz handelt. Das lateinische Wort \"cathedra\" bedeutet \"(Lehr-)Stuhl\" und die Kathedrale ist die dazugeh\u00f6rige Kirche. Die meisten Kathedralen verf\u00fcgen \u00fcber einen einzigartigen architektonischen Stil und sind oft Wahrzeichen der Region. Vornehmlich werden sie als Ort f\u00fcr Gottesdienste benutzt, doch auch zahlreiche andere Funktionen innerhalb der Gemeinde werden von Kathedralen \u00fcbernommen.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/kathedrale.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 1,
+            "food": 0,
+            "faith": 1,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/cathedral.json"
+    },
+    {
+        "id": 1,
+        "name": "Moschee",
+        "game_info": null,
+        "strategy": "Kann nur in St\u00e4dten gebaut werden, die einer Religion mit dem Moscheen-Glaubenssatz folgen. Baut dieses Geb\u00e4ude, indem Ihr es mit Glauben kauft.",
+        "historical_info": "Die Moschee ist traditionell der Ort des Gebets f\u00fcr die Anh\u00e4nger des Islam. Die gr\u00f6\u00dfte Moschee der Welt, die al-Haram-Moschee, wurde um das Jahr 638 n. Chr. in der saudi-arabischen Stadt Mekka errichtet. Die al-Haram-Moschee, die auch als die \"geweihte Moschee\" bekannt ist, umgibt die Pilgerst\u00e4tte der Kaaba, dem heiligsten Ort im islamischen Glauben.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/moschee.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 3,
+            "happiness": 1
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/mosque.json"
+    },
+    {
+        "id": 1,
+        "name": "Pagode",
+        "game_info": null,
+        "strategy": "Kann nur in St\u00e4dten gebaut werden, die einer Religion mit dem Pagoden-Glaubenssatz folgen. Baut dieses Geb\u00e4ude, indem Ihr es mit Glauben kauft.",
+        "historical_info": "Die Pagode ist vornehmlich in Asien zu finden. Sie besteht aus einem mehrstufigen Turm, der in der Regel \u00fcber \u00fcbergro\u00dfe Dachkanten sowie eine prominent platzierte, verzierte Dachspitze verf\u00fcgt. Die meisten Pagoden werden mit dem Buddhismus in Verbindung gebracht, da sie oft in oder an buddhistischen Tempelanlagen errichtet wurden, um heilige Reliquien zu beherbergen.",
+        "cost": {
+            "production": -1,
+            "faith": 200
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/pagode.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 2
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/pagoda.json"
+    },
+    {
+        "id": 1,
+        "name": "Stele",
+        "game_info": null,
+        "strategy": "Die Stele ist ein einzigartiges Geb\u00e4ude der \u00c4thiopier w\u00e4hrend der Antike, die das Monument ersetzt. Es erh\u00f6ht die Kultur und den Glauben einer Stadt und beschleunigt sowohl die Wachstumsrate des Stadtgebiets als auch den Erwerb von Sozialpolitiken und Religionen einer Zivilisation.",
+        "historical_info": "Eine Stele ist ein riesiger aufrechter Block aus Stein oder Holz und wird dazu verwendet, gro\u00dfer Anf\u00fchrer und siegreicher Schlachten zu gedenken oder auch um Grenzen zu markieren. Man findet sie \u00fcberall in \u00c4thiopien und den umliegenden Regionen, wo sie oft aufw\u00e4ndig mit den Details \u00fcber die Person oder das Ereignis beschriftet sind, zu deren Ehren sie errichtet wurden. Der Obelisk von Aksum etwa wurde Mitte des vierten Jahrhunderts in der \u00e4thiopischen Stadt Aksum errichtet, sp\u00e4ter jedoch w\u00e4hrend der Besatzung \u00c4thiopiens durch Mussolinis Streitkr\u00e4fte zerlegt und nach Italien verschifft. Die gewaltige Stele, die etwa 24 Meter hoch ist und 150 Tonnen wiegt, wurde mittlerweile an \u00c4thiopien zur\u00fcckgegeben und 2008 als Teil eines Programms der UNESCO dort wieder aufgebaut.",
+        "cost": {
+            "production": 40,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stele.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/stele.json"
+    },
+    {
+        "id": 1,
+        "name": "Ikanda",
+        "game_info": "Einzigartige Zulu-Version der Kaserne. Gew\u00e4hrt einzigartige Bef\u00f6rderungen f\u00fcr Nahkampfeinheiten vor der Erfindung des Schie\u00dfpulvers.",
+        "strategy": "Zus\u00e4tzlich zu den F\u00e4higkeiten der Kaserne, die sie ersetzt, gew\u00e4hrt die Ikanda einzigartige Bef\u00f6rderungen f\u00fcr Nahkampfeinheiten vor der Erfindung des Schie\u00dfpulvers, die in der Stadt gebaut werden. Dazu z\u00e4hlen schnellere Fortbewegung und gesteigerte Kampfst\u00e4rke. Kann nur von den Zulu gebaut werden.",
+        "historical_info": "Ikanda waren eine Form milit\u00e4rischer Kraale oder Gehege f\u00fcr das Vieh der Zulu. Ein Amabutho oder \"Jahrgangsregiment\" bestand aus Jugendlichen oder M\u00e4nnern gleichen Alters, die zusammen trainierten, lebten und in einer Formation k\u00e4mpften. Jedes Amabutho war in einem der k\u00f6niglichen Kraale untergebracht - wodurch dieser zum Ikanda wurde. Jedem Ikanda wurde eine k\u00f6nigliche Viehherde zugeteilt, um die Krieger mit Fleisch zu versorgen. Aus den H\u00e4uten der Tiere wurden Schilde mit jeweils charakteristischer Bemalung f\u00fcr jedes Amabutho hergestellt. Ikanda folgten dem grundlegendem Entwurf traditioneller Kraale und bestanden aus zwei konzentrischen dornigen Holzpalisaden, wobei sich die Wohnh\u00fctten im \u00e4u\u00dferen Ring befanden und die Viehherde durch den inneren Ring gesch\u00fctzt wurde.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/ikanda.png",
+        "prereq_tech": {
+            "name": "Bronzeverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ikanda.json"
+    },
+    {
+        "id": 1,
+        "name": "Herzogliche Stallungen",
+        "game_info": "Einzigartige polnische Version der Stallungen. +15% Produktion und +15 EP f\u00fcr berittene Einheiten.Jede Weide, die von dieser Stadt bewirtschaftet wird, produziert +1 Produktion und +1 Gold.",
+        "strategy": "Zus\u00e4tzlich zu den F\u00e4higkeiten der Stallungen bringen die Herzoglichen Stallungen mehr Gold auf Weide-Gel\u00e4ndefeldern und +15 EP f\u00fcr berittene Einheiten ein. Kann nur von Polen gebaut werden.",
+        "historical_info": "Bei seiner Thronbesteigung im Jahr 1333 n. Chr. war Kasimir III. gezwungen, den aufgebrachten polnischen Adel durch umfangreiche Zugest\u00e4ndnisse zu beruhigen. Unter anderem gew\u00e4hrte er ihnen das Recht zum Unterhalt von Stallungen, die denen des K\u00f6nigshauses in nichts nachstanden. Bis zum Ende der Koalitionskriege waren diese herzoglichen St\u00e4lle ein Zeichen von Ansehen und Macht. Neben den Stallknechten beherbergten sie zwischen f\u00fcnfzig und mehrere hundert Pferde und boten R\u00e4umlichkeiten zur Aufbewahrung von S\u00e4tteln, Zaumzeug und Satteldecken. Einige St\u00e4lle waren eher praktisch und funktional ausgerichtet wie der herzogliche Stall in Stettin, andere wiederum, etwa der Stall in Kraskow, waren prunkvoll mit S\u00e4ulen und Statuen best\u00fcckt. Unabh\u00e4ngig von Gr\u00f6\u00dfe und Prunk stellten die herzoglichen St\u00e4lle die R\u00f6sser f\u00fcr die ber\u00fchmten polnischen Kavallerieformationen.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/herzogliche_stallungen.png",
+        "prereq_tech": {
+            "name": "Reiterei",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ducal_stable.json"
+    },
+    {
+        "id": 1,
+        "name": "K\u00f6nigliche Bibliothek",
+        "game_info": "Einzigartige assyrische Version der Bibliothek. +1 Wissenschaft je 2 B\u00fcrger in der Stadt. Verf\u00fcgt auch \u00fcber einen Gro\u00dfes-Literaturwerk-Platz und gew\u00e4hrt ausgebildeten Einheiten zus\u00e4tzliche EP, wenn dieser gef\u00fcllt ist.",
+        "strategy": "Zus\u00e4tzlich zu der Wissenschaftsproduktion der Bibliothek, die sie ersetzt, verf\u00fcgt die K\u00f6nigliche Bibliothek auch \u00fcber einen Gro\u00dfes-Literaturwerk-Platz. Sobald sich hier ein Gro\u00dfes Werk befindet, bringt es in dieser Stadt ausgebildeten Einheiten zus\u00e4tzliche EP ein; platziert hier also so schnell wie m\u00f6glich ein Gro\u00dfes Werk, um die maximalen Vorteile zu erzielen. Kann nur von Assyrern gebaut werden.",
+        "historical_info": "Den Grundstein f\u00fcr die erste bekannte Bibliothek der Welt legte der assyrische K\u00f6nig Sanherib (ca. 700 v. Chr.), der in seinem Palast in Ninive Tausende von Tontafeln sammelte. Doch erst sein Enkel Assurbanipal gr\u00fcndete die ber\u00fchmte k\u00f6nigliche Bibliothek. Als leidenschaftlicher Sammler entsandte der K\u00f6nig Gelehrte, um Texte zu sammeln, vorrangig babylonische Texte, aber auch Texte aus benachbarten K\u00f6nigreichen. Um das Bestehen seiner umfangreichen Tontafelsammlung zu sichern, lie\u00df der K\u00f6nig von Schriftgelehrten Kopien der Texte anfertigen, die dann in anderen neuassyrischen St\u00e4dten seines expandierenden Reichs untergebracht wurden. Die k\u00f6nigliche Bibliothek selbst wurde 612 v. Chr. beim Fall von Ninive zerst\u00f6rt, doch um die 10.000 Fragmente der Keilschrift-Tafeln wurden von Arch\u00e4ologen ausgegraben.",
+        "cost": {
+            "production": 75,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/k\u00f6nigliche_bibliothek.png",
+        "prereq_tech": {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/royal_library.json"
+    },
+    {
+        "id": 1,
+        "name": "Candi",
+        "game_info": "Einzigartige indonesische Version des Gartens. +25% bei der Generierung Gro\u00dfer Pers\u00f6nlichkeiten in dieser Stadt, +2 Glauben f\u00fcr jede Weltreligion mit mindestens 1 Anh\u00e4nger in der Stadt.Anders als ein Garten, muss die Tempelanlage nicht an einem Fluss oder neben einem See errichtet werden.",
+        "strategy": "Zus\u00e4tzlich zu den \u00fcblichen F\u00e4higkeiten des Gartens bringt die Tempelanlage zus\u00e4tzlich 2 Glauben f\u00fcr jede Weltreligion mit mindestens 1 Anh\u00e4nger in der Stadt. Nur Indonesien kann sie bauen, und die Stadt muss sich nicht an einem Fluss oder See befinden.",
+        "historical_info": "Ein Candi ist eine indonesische Tempelanlage auf der Grundlage eines hinduistischen Schreins mit pyramidenf\u00f6rmigem Aufbau und verziertem Portikus. Candi wurden haupts\u00e4chlich zwischen dem 8. und dem 15. Jahrhundert erbaut. Die mit Mandala-Verzierungen versehenen Candis sollen von ihrer Form her an Meru erinnern, den heiligen Berg, auf dem die G\u00f6tter leben. Die Javanesen entwickelten wie die Khmer eine eigene Bauweise f\u00fcr ihre Candi, bei der sie S\u00e4ulen rund um eine zentrale feste Masse verwendeten, ohne dabei die grundlegende Form zu \u00e4ndern. Das gr\u00f6\u00dfte und bekannteste Candi ist der Borobudur, ein im 9. Jahrhundert errichteter Tempel mit sieben Terrassen.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/candi.png",
+        "prereq_tech": {
+            "name": "Theologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/theology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 2,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/candi.json"
+    },
+    {
+        "id": 1,
+        "name": "Hansekontor",
+        "game_info": "Einzigartige Bank-Version der Deutschen. +5% Produktion f\u00fcr jeden Handelsweg Eurer Zivilisation mit einem Stadtstaat. Handelswege anderer Spieler zu einer Stadt mit einem Hansekontor bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+        "strategy": "Zus\u00e4tzlich zu den F\u00e4higkeiten der Bank (zus\u00e4tzliche Goldproduktion und zus\u00e4tzliches Gold durch Handelswege), bringt das Hansekontor Produktion f\u00fcr jeden Handelsweg in Eurer Zivilisation, der zu einem Stadtstaat f\u00fchrt. Diese Handelswege k\u00f6nnen beliebige St\u00e4dte verbinden, auch wenn diese kein Hansekontor haben. (Beispiel: Wenn Ihr Handelswege von Berlin nach Genf, M\u00fcnchen nach Genf, M\u00fcnchen nach Berlin und Berlin nach Br\u00fcssel habt, erhalten alle St\u00e4dte mit Hansekontor +15% Produktion.) Nur Deutschland kann es bauen.",
+        "historical_info": "Abgeleitet von dem bereits aus dem Alt- und Mittelhochdeutschen bekannten Begriff f\u00fcr \"Kaufmannsverbund\" war die Hanse ein freiwilliges B\u00fcndnis von Kauf- und Handelsleuten, die sich in einer Stadt zusammentaten, um den Schutz und den Betrieb ihrer Gesch\u00e4fte zu gew\u00e4hrleisten. In den Handelsh\u00e4fen der Ost- und Nordsee wurden diese Kaufmannsgilden im 13. Jahrhundert sehr m\u00e4chtig und einflussreich und hatten ihre Zentren in so genannten Hansekontoren. In den gr\u00f6\u00dften davon befanden sich nicht nur die Verwaltungsr\u00e4ume der Gilde, sondern auch Lagerr\u00e4ume, Versammlungsr\u00e4ume, M\u00e4rkte, Banken und, wenn sie am Wasser lagen, auch Docks. Das erste Hansekontor wurde wohl 1159 n. Chr. in L\u00fcbeck errichtet, um den Handel zwischen Westeuropa und den an Ressourcen reichen Gebieten im Norden Russlands zu f\u00f6rdern. 1250 n. Chr. schlossen sich offiziell mehrere deutsche Gilden zur Hanse zusammen, um die Handelswege im Baltikum zu sichern, einheitliche Wechsel durchzusetzen und ihre St\u00e4dte in kommerzieller Hinsicht zu entwickeln. Die Hanse sollte in dieser Region bis zum Ende des 17. Jahrhunderts eine gro\u00dfe politische, milit\u00e4rische und wirtschaftliche Rolle spielen und war unter anderem ma\u00dfgeblich am Hansisch-Niederl\u00e4ndischen Krieg (1438 - 1441) und dem Hansisch-Englischen Krieg (1470 - 1474) beteiligt.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hansekontor.png",
+        "prereq_tech": {
+            "name": "Bankwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+        },
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hanse.json"
+    },
+    {
+        "id": 1,
+        "name": "Schriftstellergilde",
+        "game_info": "Bringt 1 Gro\u00dfe-Pers\u00f6nlichkeit-Punkt (GPP) f\u00fcr einen Gro\u00dfen Schriftsteller ein. F\u00fcgt bis zu zwei Spezialisten zu diesem Geb\u00e4ude hinzu, dann erhaltet Ihr Kultur und erlangt schneller Gro\u00dfe Schriftsteller (3 Kultur und 3 GPP pro Spezialist).",
+        "strategy": "Die Schriftstellergilde ist das einzige Geb\u00e4ude mit Schriftsteller-Spezialistenpl\u00e4tzen, die entscheidend sind, um Gro\u00dfe Schriftsteller zu generieren. Wenn Ihr als Ziel den Kultursieg ins Auge gefasst habt, ben\u00f6tigt Ihr dieses Geb\u00e4ude. Die Schriftstellergilde bringt 1 Gro\u00dfe-Pers\u00f6nlichkeit-Punkt ein und jeder zugewiesene Spezialist bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte und 3 Kultur ein.",
+        "historical_info": "Nach Erfindung der Druckerpresse in der Renaissance wurden Schriftstellergilden gegr\u00fcndet, die allerdings nie so einflussreich waren wie die Gilden zeitgen\u00f6ssischer K\u00fcnstler. In mehreren europ\u00e4ischen St\u00e4dten entstanden offizielle und inoffizielle Organisationen, die daf\u00fcr sorgten, dass die Autoren von den Druckern und Buchh\u00e4ndlern gerecht entlohnt wurden. Im London der Shakespeare-Zeit und auch in anderen St\u00e4dten schlossen sich Dramatiker zusammen, um sich vor Plagiaten und unerlaubten Auff\u00fchrungen zu sch\u00fctzen. Diese Tradition wurde weltweit von Hunderten Organisationen fortgef\u00fchrt, wobei die Gilden eher zu Gewerkschaften avancierten, wie beispielsweise der Verband deutscher Schriftsteller, die Scriptwriters Guild of Israel, die Writers Guild of Great Britain und die American Authors Guild.",
+        "cost": {
+            "production": 100,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schriftstellergilde.png",
+        "prereq_tech": {
+            "name": "Drama und Dichtung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/writers'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "K\u00fcnstlergilde",
+        "game_info": "Bringt 2 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte (GPP) f\u00fcr einen Gro\u00dfen K\u00fcnstler ein. F\u00fcgt bis zu zwei Spezialisten zu diesem Geb\u00e4ude hinzu, dann erhaltet Ihr Kultur und schneller Gro\u00dfe K\u00fcnstler (3 Kultur und 3 GPP pro Spezialist).",
+        "strategy": "Die K\u00fcnstlergilde ist das einzige Geb\u00e4ude mit K\u00fcnstler-Spezialistenpl\u00e4tzen, die entscheidend sind, um Gro\u00dfe K\u00fcnstler zu generieren. Wenn Ihr als Ziel den Kultursieg ins Auge gefasst habt, ben\u00f6tigt Ihr dieses Geb\u00e4ude unbedingt. Die K\u00fcnstlergilde bringt 2 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte ein, und jeder zugewiesene Spezialist bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte und 3 Kultur ein.",
+        "historical_info": "Das Konzept von K\u00fcnstlergilden konnte sich erst im sp\u00e4ten Mittelalter etablieren, als in Europa der lange Prozess der Urbanisierung einsetzte. Im 13. Jahrhundert bildete sich in den St\u00e4dten eine Reihe von K\u00fcnstlergilden, die dem Vorbild der damaligen H\u00e4ndlergilden folgten. Die Gilden strebten geregelte Kosten und feste Preise an und boten allen K\u00fcnstlern in der Stadt Unterst\u00fctzung und Ausbildung an, um die Probleme des Patronats durch die Reichen und den Adel zu umgehen. Obwohl f\u00fcr verschiedene Arten von K\u00fcnstlern noch immer inoffizielle Gilden existierten, brachte das Zeitalter der Aufkl\u00e4rung den Untergang der Gildenmonopole mit sich, bis Mitte des 19. Jahrhunderts alle Gilden abgeschafft waren.",
+        "cost": {
+            "production": 150,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/k\u00fcnstlergilde.png",
+        "prereq_tech": {
+            "name": "Gilden",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/guilds.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/artists'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Musikergilde",
+        "game_info": "Bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte (GPP) f\u00fcr einen Gro\u00dfen Musiker ein. F\u00fcgt bis zu zwei Spezialisten zu diesem Geb\u00e4ude hinzu, dann erhaltet Ihr Kultur und schneller Gro\u00dfe Musiker (3 Kultur und 3 GPP pro Spezialist).",
+        "strategy": "Die Musikergilde ist das einzige Geb\u00e4ude mit Musiker-Spezialistenpl\u00e4tzen, die entscheidend sind, um Gro\u00dfe Musiker zu generieren. Wenn Ihr als Ziel den Kultursieg ins Auge gefasst habt, ben\u00f6tigt Ihr dieses Geb\u00e4ude. Die Musikergilde bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte ein und jeder zugewiesene Spezialist bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte und 3 Kultur ein.",
+        "historical_info": "Die Musikergilden, die eine kurze Bl\u00fctezeit in der Renaissance erlebten, hatten ihre Wurzeln in den Kapellen von Hofmusikern unter dem Schutz und dem Patronat des Adels und des K\u00f6nigshauses. W\u00e4hrend der Renaissance, als die Musik auch den Geschmack der wachsenden H\u00e4ndler- und B\u00fcrgerschicht zu treffen versuchte, schlossen sich Musiker ohne Patronat zusammen, um ihre L\u00f6hne und Besch\u00e4ftigung zu sichern. Mit dem Aufkommen des modernen Orchesters im 17. Jahrhundert wurden von den St\u00e4dten Komponisten und Dirigenten bereitgestellt, um noch anspruchsvollere Darbietungen zu erm\u00f6glichen. Diese Bewegung hin zur \"st\u00e4dtischen Musik\" reduzierte den Bedarf an formellen Musikergilden. Erst mit dem einsetzenden Erfolg der Popmusik im fr\u00fchen 20. Jahrhundert schlossen sich Musiker wieder formell in Verb\u00e4nden zusammen.",
+        "cost": {
+            "production": 200,
+            "faith": 0
+        },
+        "gold_maintenance": 1,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/musikergilde.png",
+        "prereq_tech": {
+            "name": "Akustik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/musicians'_guild.json"
+    },
+    {
+        "id": 1,
+        "name": "Hotel",
+        "game_info": "50% der Kultur f\u00fcr Weltwunder, Naturwunder und Modernisierungen (Wahrzeichen, Moai-Statue, Chateau) wird zur Tourismusproduktion der Stadt addiert. Tourismusproduktion von Gro\u00dfen Werken +50%.",
+        "strategy": "Durch die enorme F\u00f6rderung des Tourismus ist das Hotel eine hervorragende Wahl f\u00fcr Zivilisationen, die einen Kultursieg erreichen oder ihren ideologischen Einfluss auf andere Zivilisationen erh\u00f6hen wollen.",
+        "historical_info": "Gasth\u00e4user gibt es bereits seit Jahrtausenden, um H\u00e4ndlern und Reisenden eine sichere und bequeme Unterkunft zu bieten. Marco Polo berichtete von einem komplexen Unterbringungssystem f\u00fcr Reisende im China des 13. Jahrhunderts. Das Hotel der Neuzeit entstand vor allem als Folge des Durchbruchs der Eisenbahn, da zum einen die Anzahl der Reisenden stieg, und zum anderen oft nur f\u00fcr kurze Zeit eine Unterkunft ben\u00f6tigt wurde. Das \u00e4lteste noch immer betriebene Hotel ist das Nisiyama Onsen Keiunkan in Japan - es wurde 707 n. Chr. er\u00f6ffnet und befindet sich seit 46 Generationen in den H\u00e4nden derselben Familie.",
+        "cost": {
+            "production": 300,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/hotel.png",
+        "prereq_tech": {
+            "name": "K\u00fchltechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hotel.json"
+    },
+    {
+        "id": 1,
+        "name": "Karawanenhof",
+        "game_info": "Landhandelswege, die in dieser Stadt beginnen, haben eine um 50% erh\u00f6hte Reichweite und produzieren 2 Gold zus\u00e4tzlich, wenn sie eine Verbindung zu einer anderen Zivilisation herstellen.",
+        "strategy": "Der Karawanenhof ist ein Geb\u00e4ude der Klassik. Er verbessert die Reichweite und den Ertrag von Gold f\u00fcr Landhandelswege.",
+        "historical_info": "Mit der Ausbreitung der Karawanenstra\u00dfen durch den Nahen Osten, Zentralasien und Nordafrika stieg auch der Bedarf an befestigten Unterk\u00fcnften, an denen Packtier-Karawanen sicher Rast machen konnten. \u00d6ffentliche Karawanenh\u00f6fe waren Geb\u00e4udekomplexe au\u00dferhalb der Stadtmauern; private Karawanenh\u00f6fe waren meist von Mauern umgebene Anlagen mit Lagerr\u00e4umen, Schlafm\u00f6glichkeiten, St\u00e4llen und K\u00fcchen, die rund um einen zentralen Hof angeordnet waren. Die gr\u00f6\u00dften Anlagen konnten Hunderte von Kamelen, Maultieren oder Pferden beherbergen. Die meisten Karawanenh\u00f6fe boten gegen Entgelt auch die grundlegende Versorgung mit Wasser, Futter, Nahrung, Kleidung und sonstigem Reisebedarf an. Die \u00e4ltesten Karawanenh\u00f6fe wurden entlang der Persischen K\u00f6nigsstra\u00dfe gefunden, die sich \u00fcber 2.500 km hinweg von Sardis bis nach Susa zog.",
+        "cost": {
+            "production": 120,
+            "faith": 0
+        },
+        "gold_maintenance": 0,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/karawanenhof.png",
+        "prereq_tech": {
+            "name": "Reiterei",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/caravansary.json"
+    },
+    {
+        "id": 1,
+        "name": "Flughafen",
+        "game_info": "Erm\u00f6glicht Lufttransport in diese oder aus dieser Stadt. Erh\u00f6ht die Lufteinheiten-Kapazit\u00e4t der Stadt von 6 auf 10. 50% der Kultur f\u00fcr Weltwunder, Naturwunder und Modernisierungen (Wahrzeichen, Moai-Statue, Chateau) wird zur Tourismusproduktion der Stadt addiert. Tourismusproduktion von Gro\u00dfen Werken +50%.",
+        "strategy": "Der vielseitig einsetzbare Flughafen ist eine ausgezeichnete Wahl f\u00fcr Zivilisationen, die ihre Tourismusproduktion verbessern wollen, und f\u00fcr solche, die Lufttransporte ben\u00f6tigen, um Einheiten in entfernte St\u00e4dte zu fliegen.",
+        "historical_info": "Technisch gesehen bezeichnet der Begriff \"Flughafen\" jeden Ort, an dem Flugzeuge, Hubschrauber, Zeppeline oder sonstige Luftfahrzeuge starten und landen k\u00f6nnen. Im allgemeinen Sprachgebrauch ist jedoch ein Komplex f\u00fcr den kommerziellen Flugverkehr, bestehend aus Start- und Landebahnen, Kontrollt\u00fcrmen, Hangars, Terminals, Notfalleinrichtungen und Parkm\u00f6glichkeiten gemeint. Vor 1930 waren die meisten Flugh\u00e4fen kleine Flugpl\u00e4tze mit Start- und Landebahnen, die in der Regel nicht mal 600 Meter lang waren. Im Jahr 1939 fertigte der Flughafen La Guardia in New York City fast eine viertel Million Passagiere pro Monat ab. Die j\u00fcngsten Statistiken \u00fcber das Passagieraufkommen f\u00fchren den Flughafen Hartsfield-Jackson in Atlanta als den gr\u00f6\u00dften Flughafen der Welt auf; \u00fcber 92 Millionen Passagiere wurden hier im Jahr 2011 abgefertigt.",
+        "cost": {
+            "production": 400,
+            "faith": 0
+        },
+        "gold_maintenance": 5,
+        "icon": "https://eyefyre.github.io/civvapi/images/building_icons/flughafen.png",
+        "prereq_tech": {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/radar.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/airport.json"
+    }
+]

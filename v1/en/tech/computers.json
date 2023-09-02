@@ -1,0 +1,41 @@
+{
+    "id": 68,
+    "name": "Computers",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/computers.png",
+    "era": "Atomic Era",
+    "cost": 6400,
+    "civilopedia_entry": "At its most basic, a computer is a machine which manipulates data or controls according to a set of given instructions. While the first \"modern\" computer wasn't conceived of until the early 20th century, the earliest computers can be traced back to Al-Jazari's mechanical astronomical clocks in 1206 A.D. and Jacquard's programmable textile loom in 1801. While both of these machines were programmable, they didn't perform the other function of modern computers - storing data. The earliest computers used mechanical and analog parts to function and store their data, eventually switching to digital electronics in the 1940's. There's no exact point at which the modern day computer was decidedly invented; it was rather arrived at by a series of steps and advances, along which came such notable ones as Konrad Zuse's Z Machine and the U.S. Army's ENIAC.Since the switch to electronics, computers have gotten smaller, faster, cheaper, less power hungry, and much more reliable and versatile. Once taking up entire rooms and even whole city blocks, modern computers are as ubiquitous as the home telephone and can be found not only as personal standalone machines but also imbedded into cars, washing machines, and even woven into cutting edge clothing. Computers have made it possible for scientists to expedite calculations that would take a normal human a lifetime to make, predict weather with great accuracy, send humans to the moon and other spacecraft beyond the reaches of the solar system, and allow a child in Shanghai to play a game with one in England, without ever leaving home.While first seen as a fad or only as a silly plaything for the wealthy, the computer has made an undeniable mark upon history and is here to stay.",
+    "quote": "\"Computers are like Old Testament gods: lots of rules and no mercy.\" - Joseph Campbell",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/radar.json"
+        },
+        {
+            "name": "Combined Arms",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/combined_arms.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Robotics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/robotics.json"
+        },
+        {
+            "name": "Lasers",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/lasers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Helicopter Gunship",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/helicopter_gunship.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Great Firewall",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/great_firewall.json"
+        }
+    ]
+}

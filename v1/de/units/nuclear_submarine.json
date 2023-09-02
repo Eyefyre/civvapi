@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "name": "Atom-U-Boot",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_submarine.png",
+    "game_info": "Unsichtbar f\u00fcr alle Einheiten au\u00dfer Zerst\u00f6rern, Raketenkreuzern und anderen U-Booten, bis es angreift oder direkt neben einer anderen Einheit steht. Kann 2 Raketen transportieren und ist darauf spezialisiert, andere Marineeinheiten zu jagen.",
+    "historical_info": "Atom-U-Boote stammen aus der Zeit des Kalten Krieges und wurden gebaut, um unentdeckt eine gro\u00dfe Anzahl an Atomraketen unter der Wasseroberfl\u00e4che auf lange Reisen zu schicken. Diese riesigen Schiffe werden selbst mit Atomkraft angetrieben, was ihnen eine fast unbegrenzte Reichweite verschafft (solange die Vorr\u00e4te nicht knapp werden). Atom-U-Boote sind strategische Waffenplattformen. Sie bef\u00f6rdern interkontinentale Raketen, die um die halbe Welt fliegen k\u00f6nnen, bevor sie ihr Ziel treffen - f\u00fcr gew\u00f6hnlich eine feindliche Stadt. Obwohl sie Torpedos und Boden-Luft-Raketen zu ihrer eigenen Verteidigung bef\u00f6rdern, ist es ihre oberste Pflicht, unentdeckt zu bleiben und jedem direkten Konflikt mit dem Feind aus dem Weg zu gehen. Sie d\u00fcrfen auf keinen Fall zerst\u00f6rt werden.Atom-U-Boote waren ein Teil des Kriegskonzepts \"Gleichgewicht des Schreckens\" der USA und der UdSSR: Wenn eine Seite einen \u00dcberraschungsangriff mit Atomwaffen auf die andere Seite durchf\u00fchren sollte, w\u00fcrde die andere Seite mit ihren verbleibenden Atom-U-Booten zum Gegenschlag ausholen und so den Sieger ebenfalls vernichten. Zudem bedeutet diese Taktik, dass niemand einen Atomkrieg gewinnen kann, es sei denn, er k\u00f6nnte zweifelsfrei daf\u00fcr sorgen, dass alle feindlichen Atom-U-Boote, Flugzeuge und Interkontinentalraketen vernichtet wurden. Ob man dieses Gleichgewicht des Schreckens nun f\u00fcr verr\u00fcckt erkl\u00e4rt oder nicht, seither gab es auf diesem Planeten keinen Atomkrieg mehr.",
+    "strategy": "Das Atom-U-Boot ist besser gepanzert und st\u00e4rker als die fr\u00fchere Version. Es ist f\u00fcr die meisten Einheiten unsichtbar und sieht andere U-Boote. Atom-U-Boote k\u00f6nnen Lenkraketen und Atomraketen transportieren. Genau wie normale U-Boote sind Atom-U-Boote besonders bei Angriffen von feindlichen Zerst\u00f6rern, Raketenkreuzern und U-Booten gef\u00e4hrdet; es sollten also immer eigene Einheiten vorausgeschickt werden, um zu sehen, ob der Weg frei ist.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Telekommunikation",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/telecommunications.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ist unsichtbar (U-Boot)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Kann U-Boote sehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Tragkraft f\u00fcr 2 Frachten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_carry_2_cargo.json"
+        },
+        {
+            "name": "Kann Eis-Gel\u00e4ndefelder betreten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus bei Angriffen (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_when_attacking_(75).json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_(1).json"
+        }
+    ]
+}

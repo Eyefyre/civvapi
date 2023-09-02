@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "\u0141ucznicy angielscy|\u0141ucznik\u00f3w angielskich|\u0141ucznikom angielskim|\u0141ucznik\u00f3w angielskich",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "\u015aredniowieczna jednostka piechoty strzelaj\u0105cej. Mog\u0105 j\u0105 stworzy\u0107 tylko Anglicy. Ma zasi\u0119g wi\u0119kszy o 1 pole ni\u017c kusznicy, kt\u00f3rych zast\u0119puje.",
+    "historical_info": "\u0141ucznicy angielscy pojawili si\u0119 w XII wieku w trakcie angielskiej kampanii przeciwko Walii. Wyposa\u017ceni byli w d\u0142ugie \u0142uki, kt\u00f3re tworzono z cisu i wi\u0105zu. Mierzy\u0142y one do 7 st\u00f3p d\u0142ugo\u015bci (zale\u017cnie od wzrostu i si\u0142y strzelca). D\u0142ugi \u0142uk by\u0142 broni\u0105 wyj\u0105tkowo trudn\u0105 w obs\u0142udze. Doskonale wyszkolony \u0142ucznik by\u0142 jednak w stanie strzela\u0107 dalej, szybciej i celniej od najlepszego kusznika. Z czasem tereny zajmowane przez knieje wykarczowano jednak pod farmy. Zmniejszy\u0142o to znacznie potencja\u0142 \u0142owiecki Anglii, a co za tym idzie, znacznie zmniejszy\u0142o mo\u017cliwo\u015bci wzgl\u0119dem doskonalenia \u0142uczniczego rzemios\u0142a. To wraz z pojawieniem si\u0119 broni palnej na polu bitwy doprowadzi\u0142o do rozwi\u0105zania tej formacji.",
+    "strategy": "\u0141ucznicy angielscy to unikatowa jednostka Anglii zast\u0119puj\u0105ca kusznik\u00f3w. Ma wi\u0119kszy zasi\u0119g od nich, mo\u017ce ostrzeliwa\u0107 przeciwnik\u00f3w z odleg\u0142o\u015bci trzech p\u00f3l, cz\u0119sto niszcz\u0105c ich, zanim zd\u0105\u017c\u0105 zareagowa\u0107 na atak. Jak inne jednostki strzelaj\u0105ce, \u0142ucznicy angielscy s\u0105 s\u0142abi w walce wr\u0119cz.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Mechanika|Mechaniki|Mechanice|Mechanik\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Zasi\u0119g|Zasi\u0119gu|Zasi\u0119gowi|Zasi\u0119g",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/range.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Caserne|Casernes",
+    "game_info": "Toutes les unit\u00e9s\u00a0: +15 EXP.",
+    "strategy": "La caserne octroie de l'exp\u00e9rience aux unit\u00e9s militaires form\u00e9es dans la ville. Cette exp\u00e9rience peut \u00eatre utilis\u00e9e pour accorder \u00e0 vos unit\u00e9s des promotions qui les rendront plus efficaces au combat.",
+    "historical_info": "Les casernes sont des b\u00e2timents militaires abritant les soldats de m\u00e9tier d'un pays. En plus de nourrir et loger les soldats, la caserne offre plusieurs services tels qu'un entra\u00eenement r\u00e9gulier, un service de sant\u00e9, une maintenance des v\u00e9hicules, une prison militaire, etc.Les casernes sont des \u00e9l\u00e9ments essentiels pour le bien-\u00eatre d'une communaut\u00e9. Elles encouragent l'esprit de groupe, am\u00e9liorant les chances de victoires au combat, et contr\u00f4lent les contacts directs entre civils et soldats, limitant ainsi les frictions qui peuvent survenir entre eux.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/caserne|casernes.png",
+    "prereq_tech": {
+        "name": "Travail du bronze",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

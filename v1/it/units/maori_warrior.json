@@ -1,0 +1,23 @@
+{
+    "id": 90,
+    "name": "Guerriero Maori|un Guerriero Maori|dal tuo Guerriero Maori|al tuo Guerriero Maori|il tuo Guerriero Maori|da un Guerriero Maori",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/maori_warrior.png",
+    "game_info": "Unit\u00e0 di epoca antica che incute terrore ai nemici vicini, rendendoli meno efficaci in combattimento. Solo la Polinesia pu\u00f2 costruirla. Sostituisce il Guerriero.",
+    "historical_info": "I Maori erano tra i guerrieri pi\u00f9 temuti di tutta la Polinesia. Le loro facce erano decorate con tatuaggi intricati e spaventosi, che descrivevano in dettaglio le loro gesta in battaglia. Prima di ogni scontro avevano l'abitudine di eseguire una complicata danza di guerra chiamata Haka, che rappresentava con una specie di pantomima il destino che attendeva i malcapitati soldati nemici. La speranza era che la danza intimidisse gli avversari e li convincesse a dichiararsi sconfitti e abbandonare il campo, risparmiando il tempo e le energie di entrambi i contendenti.I Maori erano anche famigerati per le loro tendenze cannibalesche: i guerrieri uccisi venivano divorati per assorbire il loro spirito e la loro forza. Questo gesto cruento rappresentava una delle poche fonti di proteine sulle isole, ma veniva eseguito soprattutto come segno di rispetto nei confronti dei guerrieri sconfitti.",
+    "strategy": "Il Guerriero Maori \u00e8 simile a un Grande Generale; tuttavia, anzich\u00e9 rendere pi\u00f9 forti le unit\u00e0 amiche, indebolisce le unit\u00e0 nemiche adiacenti. Costruisci molte unit\u00e0 di questo tipo, perch\u00e9 la loro promozione speciale resta con loro quando vengono aggiornate.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agricoltura|dell'Agricoltura",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Danza di guerra Haka",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/haka_war_dance.json"
+        }
+    ]
+}

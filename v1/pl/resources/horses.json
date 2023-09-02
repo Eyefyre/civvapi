@@ -1,0 +1,60 @@
+{
+    "id": 2,
+    "name": "Konie|Koni|Koniom|Konie",
+    "game_info": "U\u017cywane przez jednostki konne.",
+    "historical_info": "Ko\u0144 jest jednym z najwa\u017cniejszych zwierz\u0105t udomowionych przez cz\u0142owieka. Hodowany dla towarzystwa, wykorzystywany jako narz\u0119dzie wojny, \u015brodek transportu i (czasem) po\u017cywienie. Konie po raz pierwszy udomowiono oko\u0142o roku 4000 p.n.e. w Azji \u015brodkowej. Nast\u0119pnie ich hodowla rozszerzy\u0142a si\u0119 na Europ\u0119, Azj\u0119, Bliski Wsch\u00f3d i Afryk\u0119. W XVI w. do Nowego \u015awiata konie sprowadzili Hiszpanie. Rdzenni mieszka\u0144cy szybko i ch\u0119tnie przyj\u0119li nowe zwierz\u0119. Warto pami\u0119ta\u0107, \u017ce konie nale\u017c\u0105 do grupy surowc\u00f3w o znaczeniu strategicznym, kt\u00f3re s\u0105 potrzebne do wznoszenia niekt\u00f3rych jednostek.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/konie|koni|koniom|konie.png",
+    "prereq_tech": {
+        "name": "Hodowla zwierz\u0105t|Hodowli zwierz\u0105t|Hodowli zwierz\u0105t|Hodowl\u0119 zwierz\u0105t",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/animal_husbandry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pastwisko|Pastwiska|Pastwisku|Pastwisko|Pastwiska|Pastwisk|Pastwiskom|Pastwiska",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/pasture.json"
+        },
+        {
+            "name": "Urz\u0105d celny|Urz\u0119du celnego|Urz\u0119dowi celnemu|Urz\u0105d celny|Urz\u0119dy celne|Urz\u0119d\u00f3w celnych|Urz\u0119dom celnym|Urz\u0119dy celne",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademia|Akademii|Akademii|Akademi\u0119|Akademie|Akademii|Akademiom|Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/academy.json"
+        },
+        {
+            "name": "Cytadela|Cytadeli|Cytadeli|Cytadel\u0119|Cytadele|Cytadel|Cytadelom|Cytadele",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/citadel.json"
+        },
+        {
+            "name": "Manufaktura|Manufaktury|Manufakturze|Manufaktur\u0119|Manufaktury|Manufaktur|Manufakturom|Manufaktury",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/manufactory.json"
+        },
+        {
+            "name": "\u015awi\u0119te miejsce|\u015awi\u0119tego miejsca|\u015awi\u0119temu miejscu|\u015awi\u0119te miejsce",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "\u0141\u0105ka|\u0141\u0105ki|\u0141\u0105ce|\u0141\u0105k\u0119|\u0141\u0105ki|\u0141\u0105k|\u0141\u0105kom|\u0141\u0105ki",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/\u0142\u0105ka|\u0142\u0105ki|\u0142\u0105ce|\u0142\u0105k\u0119|\u0142\u0105ki|\u0142\u0105k|\u0142\u0105kom|\u0142\u0105ki.json"
+        },
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+        }
+    ]
+}

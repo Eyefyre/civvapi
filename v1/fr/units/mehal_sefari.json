@@ -1,0 +1,27 @@
+{
+    "id": 104,
+    "name": "Mehal Sefari|Mehal Sefari",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mehal_sefari.png",
+    "game_info": "Puissante unit\u00e9 terrestre de premi\u00e8re ligne, sp\u00e9cialis\u00e9e dans le combat sur terrain accident\u00e9 et la d\u00e9fense pr\u00e8s de la capitale \u00e9thiopienne. Exclusive aux \u00c9thiopiens.",
+    "historical_info": "Les Mehal Sefari \u00e9taient une unit\u00e9 d'\u00e9lite de gardes imp\u00e9riaux charg\u00e9e de prot\u00e9ger les empereurs \u00e9thiopiens aux XIXe et XXe si\u00e8cles. Tout d'abord gardes du corps personnels des empereurs, les Mehal Sefari finirent par former une redoutable brigade au sein de l'arm\u00e9e \u00e9thiopienne. Constitu\u00e9s d'unit\u00e9s sp\u00e9cialis\u00e9es d'infanterie, de cavaliers, d'artilleurs et de tireurs d'\u00e9lite, les Mehal Sefari, v\u00e9ritable force d'\u00e9lite de l'\u00c9thiopie, suivent un entra\u00eenement rigoureux et peuvent compter sur l'\u00e9quipement \u00e9labor\u00e9 qui leur est fourni.",
+    "strategy": "Les Mehal Sefari sont la pierre angulaire de l'arm\u00e9e \u00e9thiopienne. Ils d\u00e9marrent avec des promotions offrant des bonus de combat en terrain accident\u00e9 et \u00e0 proximit\u00e9 de leur capitale. Ils remplacent le fusilier, dont le co\u00fbt est plus \u00e9lev\u00e9.",
+    "movement": 2,
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Exercice I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/drill_i.json"
+        },
+        {
+            "name": "Bonus pr\u00e8s de la capitale",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/near_capital_bonus.json"
+        }
+    ]
+}

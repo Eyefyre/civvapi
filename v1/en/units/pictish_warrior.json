@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Pictish Warrior",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Only the Celts may build this unit. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Earns 50% of opponents' strength as Faith for kills.",
+    "historical_info": "The Picts were a Late Iron Age people residing in what is now eastern and northern Scotland, one of the many Celtic tribes of the British Isles. Their warriors were feared not only amongst other Celtic peoples but even by the vaunted Roman legionnaires. The Greek historian Dionysius would write during the reign of Caesar Augustus that their \"manner of fighting, being in large measure that of wild beasts and frenzied,\" brought considerable success against unwieldy military formations operating in the forests and hills of northern Europe.Adding to their frightful reputation was the use of the carnyx, a bronze trumpet sounded incessantly during battle, both to incite the Picts and intimidate opponents. Finally, firmly in the minds of their opponents were the reports of the severed heads Pictish warriors would carry. Carrying the heads of defeated foes into combat was believed by the Picts to imbue the bearer with courage and perhaps divine wrath.",
+    "strategy": "The Pictish Warrior is the Celt unique unit. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn Faith for each unit they kill, constantly advancing your religious goals while at war.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Foreign Lands Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "No Movement Cost to Pillage",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": 2,
+    "name": "Dschungel",
+    "historical_info": "Dschungel k\u00f6nnen dunkel, bedrohlich und f\u00fcr unerfahrene Eindringlinge sogar t\u00f6dlich sein, doch sie sind auch eine wichtige Nahrungsquelle f\u00fcr alle, die \u00fcber die F\u00e4higkeiten und das Wissen verf\u00fcgen, um darin zu \u00fcberleben. Dschungel bieten jedoch nur wenige Materialien und eine wachsende Zivilisation k\u00f6nnte versucht sein, dort Minen zu bauen oder sie zu Ackerland umzuwandeln. Milit\u00e4reinheiten, die sich im Dschungel befinden, erhalten aber einen erheblichen Verteidigungsbonus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/dschungel.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": -1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "\u00d6l",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Bananen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bananas.json"
+        },
+        {
+            "name": "Edelsteine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+        },
+        {
+            "name": "F\u00e4rbemittel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/dyes.json"
+        },
+        {
+            "name": "Gew\u00fcrze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/spices.json"
+        },
+        {
+            "name": "Tr\u00fcffel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+        },
+        {
+            "name": "Kakao",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cocoa.json"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Arquitectura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Renacimiento",
+    "cost": 1150,
+    "civilopedia_entry": "La arquitectura puede considerarse a la vez un arte y una ciencia. Engloba desde la planificaci\u00f3n inicial y el dise\u00f1o de un edificio hasta el proceso de construcci\u00f3n en s\u00ed, por lo que ha sido un elemento crucial del proceso de edificaci\u00f3n desde la Antig\u00fcedad. Uno de los primeros tratados conocidos sobre la arquitectura y sus principios, \"De Architectura\", se debe al arquitecto romano Vitruvio, en el siglo I a. C. Es una colecci\u00f3n de diez vol\u00famenes que comprende todos los complejos detalles de los procesos de construcci\u00f3n romanos, por lo que no es de extra\u00f1ar que hoy en d\u00eda todo el mundo la considere un hito crucial en la evoluci\u00f3n del proceso de dise\u00f1o arquitect\u00f3nico.",
+    "quote": "\"La arquitectura empieza donde termina la ingenier\u00eda.\" - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Ac\u00fastica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/acoustics.json"
+        },
+        {
+            "name": "Banca",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arqueolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+        },
+        {
+            "name": "Teor\u00eda cient\u00edfica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Hermitage|Hermitage",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hermitage.json"
+        },
+        {
+            "name": "Torre de Porcelana|Torres de Porcelana",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Taj Mahal|Taj Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Galer\u00eda de los Uffizi|Galer\u00edas de los Uffizi",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/uffizi.json"
+        }
+    ]
+}

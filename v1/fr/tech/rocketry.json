@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Fus\u00e9es",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "\u00c8re atomique",
+    "cost": 6400,
+    "civilopedia_entry": "Bien que la date du premier lancement de fus\u00e9e soit quelque peu contest\u00e9e, il est g\u00e9n\u00e9ralement admis qu'il eut lieu aux alentours de 1230 en Chine durant une op\u00e9ration militaire. Le premier lancement dont nous poss\u00e9dions des t\u00e9moignages \u00e9crits remonte quant \u00e0 lui \u00e0 1264, en Chine \u00e9galement. Il s'agit du vol d'une fus\u00e9e d'artifice \u00e0 combustion interne. Ces premi\u00e8res fus\u00e9es utilisaient un carburant solide, souvent de la poudre \u00e0 canon, et volaient rarement au-del\u00e0 de 600 m\u00e8tres.L'invention des fus\u00e9es modernes pourrait \u00eatre attribu\u00e9e au professeur Robert Goddard. Ce dernier posa comme principes que le carburant ne devait pas \u00eatre br\u00fbl\u00e9 dans une petite chambre de combustion isol\u00e9e, que les fus\u00e9es devaient \u00eatre construites sur plusieurs \u00e9tages distincts et que la pouss\u00e9e pouvait \u00eatre am\u00e9lior\u00e9e via l'utilisation d'une tuy\u00e8re en forme de sablier appel\u00e9e tuy\u00e8re de Laval. Jusqu'aux am\u00e9liorations de Goddard, les fus\u00e9es br\u00fblaient l'int\u00e9gralit\u00e9 de leur carburant au sein d'une grande chambre de combustion et n'\u00e9taient capables ni de voler \u00e0 une vitesse incroyable, ni de parcourir des distances intercontinentales.Aujourd'hui, les fus\u00e9es utilisent une combinaison d'ergols liquides leur permettant d'atteindre une vitesse hypersonique \u00e0 un prix relativement modeste. Au-del\u00e0 de leur utilisation militaire \u00e9vidente dans la propulsion de missiles visant \u00e0 frapper des cibles lointaines, les fus\u00e9es sont \u00e9galement utilis\u00e9es dans le cadre de l'industrie du feu d'artifice, la fabrication des si\u00e8ges \u00e9jectables, la recherche atmosph\u00e9rique et, bien entendu, le vol spatial.",
+    "quote": "\"Pour ceux qui aiment jouer avec les fus\u00e9es, voici une r\u00e8gle simple \u00e0 suivre\u00a0: toujours partir du principe qu'elles vont exploser.\"- Magazine d'astronautique, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistique avanc\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satellites",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/satellites.json"
+        },
+        {
+            "name": "Robotique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lance-missiles SAM mobile|Lance-missiles SAM mobiles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/mobile_sam.json"
+        },
+        {
+            "name": "Lance-roquettes|Lance-roquettes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bazar|Bazares",
+    "game_info": "Proporciona uno m\u00e1s de cada recurso de lujo mejorado que haya cerca de esta ciudad. Cada fuente de Petr\u00f3leo y cada Oasis proporcionan +2 de Oro . Las rutas comerciales que otros jugadores hagan a una ciudad con un Bazar generar\u00e1n 1 de Oro m\u00e1s para el due\u00f1o de la ciudad, y el due\u00f1o de la ruta comercial ganar\u00e1 1 m\u00e1s de Oro por ella.",
+    "strategy": "El Bazar es el edificio exclusivo \u00e1rabe que sustituye al Mercado. Concede una bonificaci\u00f3n al Oro de la ciudad. La civilizaci\u00f3n gana uno m\u00e1s de cada recurso de lujo que proporcione una ciudad con un Bazar. El Bazar proporciona +2 de Oro en Petr\u00f3leo y Oasis.",
+    "historical_info": "El bazar es una especie de mercado p\u00fablico que se suele encontrar en las poblaciones \u00e1rabes y otras ciudades mediterr\u00e1neas. El bazar \u00e1rabe cl\u00e1sico es un hervidero de peque\u00f1as tiendas y puestos, en los que se venden toda clase de g\u00e9nero: desde comida hasta software, pasando por alfombras o especias. Algunos bazares est\u00e1n al aire libre, mientras que otros se encuentran a cubierto para proteger de los elementos a los clientes y la mercanc\u00eda. Muchos de ellos sobreviven hoy en d\u00eda, constituyendo una alternativa alegre y bulliciosa a los as\u00e9pticos centros comerciales occidentales.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bazar|bazares.png",
+    "prereq_tech": {
+        "name": "Moneda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/currency.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

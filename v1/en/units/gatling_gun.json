@@ -1,0 +1,23 @@
+{
+    "id": 120,
+    "name": "Gatling Gun",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/gatling_gun.png",
+    "game_info": "Ranged infantry Unit of the mid-game that must be adjacent to an enemy to strike.",
+    "historical_info": "The Gatling gun, forerunner to the machine gun, was invented in 1861 AD by the American Dr. Richard Gatling in the hope of reducing the size of armies and displaying how futile war is. Operation of a Gatling gun involved a revolving multi-barrel design, in which a hand crank turned the mechanism. As each barrel cycled, the spent cartridge was ejected, a new one loaded, and the muzzle barrel cooled. In this manner, a high rate of fire could be maintained without overheating. What the Gatling gun lacked in accuracy was made up for by its lethality.Although not officially adopted by the United States Army until 1866, it was used for the first time in combat during the American Civil War by Union forces. It next saw use during the Peru-Chile War of the Pacific (1879-1883), which convinced European armies of its utility against massed enemies. Within a decade, the Gatling gun was adopted by most of the major powers; it was used most effectively to expand their colonial empires against the likes of the Ndebele, Zulu, Bedouins, Turkmen, Boxers, and other native peoples. In the first decade of the 1900s, designs for gas-operated \"machine\" guns made the weapon obsolete; the U.S. Army withdrew all models of the Gatling gun from service in 1911, followed soon after by the European armies.",
+    "strategy": "The Gatling Gun is a mid-game non-siege ranged unit. It is much more powerful than earlier ranged units like the Crossbowman. It has only a one-hex range, but still can deal significant damage to other units without being hurt itself. Put Gatling Guns in your city for defense.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Industrialization",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+    },
+    "free_promotions": [
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

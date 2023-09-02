@@ -1,0 +1,27 @@
+{
+    "id": 53,
+    "name": "Samurai",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/samurai.png",
+    "game_info": "Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit fights more effectively and helps produce Great Generals more quickly than the Longswordsman, which it replaces. Embarked Samurai can build Fishing Boats in one turn without being consumed (which makes them useful even in times of peace).",
+    "historical_info": "The Japanese samurai were arguably the best pre-gunpowder warriors since the Roman legions. Emerging in the 12th century, the samurai were a warrior caste sworn to follow the code of Bushido, which held bravery, honor, and loyalty above life itself. Samurai typically carried two swords, the single-edged katana and the shorter wakizashi, the latter used in the \"seppuku\" (suicide) ritual. These swords were far superior to the equivalent Western longswords, the Japanese weapons-makers having mastered the art of combining high- and low-carbon steel. Some also carried bow or spear, and later, firearms. Depending upon the era (and the samurai's wealth and status) a samurai might wear padded cloth, lacquered, or metal armor.",
+    "strategy": "The Samurai are the Japanese unique unit, replacing the Longswordsman. As powerful as the Swordsman, the Samurai automatically receives the \"Shock I\" promotion, giving it a bonus when fighting in open terrain. Success in combat with a Samurai has an increased chance of generating Great Generals. Can build fishing boats without being consumed.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Steel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Shock I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/shock_i.json"
+        },
+        {
+            "name": "Great Generals II",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/great_generals_ii.json"
+        }
+    ]
+}

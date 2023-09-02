@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Pikenier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Spezialisiert auf den Kampf gegen Ritter und andere berittene Einheiten.",
+    "historical_info": "Ein Pikenier ist ein besser ausgebildeter und gepanzerter Speerk\u00e4mpfer, der mit einer l\u00e4ngeren und sch\u00e4rferen Waffe ausger\u00fcstet ist. Im Gegensatz zum k\u00fcrzeren und leichteren Speer wird eine Pike so gut wie immer zweih\u00e4ndig benutzt. Historische Pikeniere konnten besonders effektiv gegen andere Infanterie oder Kavallerie eingesetzt werden, aber da sie keine Schilde hatten, waren sie schutzlos gegen Bogensch\u00fctzen.",
+    "strategy": "Der Pikenier ist ein st\u00e4rkerer Speerk\u00e4mpfer. Er erh\u00e4lt einen Bonus, wenn er gegen berittene Einheiten k\u00e4mpft, was ihn so ziemlich zur einzigen Einheit macht, die es mit einem w\u00fctenden Ritter aufnehmen kann. Ein Pikenier, der sich in Verteidigungsgel\u00e4nde verschanzt hat, ist der schlimmste Albtraum eines jeden Ritters.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "\u00d6ffentliche Verwaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 3,
+    "name": "Palude|la palude|una palude",
+    "historical_info": "Per quanto ricche di biodiversit\u00e0, le paludi non offrono molto a una civilt\u00e0 in via di sviluppo; in effetti prima di fornire un qualsivoglia bonus a una citt\u00e0 devono essere prosciugate o alterate in qualche altro modo. \u00c8 da notare che nelle paludi le unit\u00e0 militari subiscono una notevole PENALIT\u00c0 quando vengono attaccate.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/palude|la_palude|una_palude.png",
+    "movement_cost": 3,
+    "combat_modifier": -15,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": -1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Petrolio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Zucchero",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/sugar.json"
+        },
+        {
+            "name": "Tartufi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/truffles.json"
+        }
+    ]
+}

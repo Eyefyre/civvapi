@@ -1,0 +1,37 @@
+{
+    "id": 32,
+    "name": "Salt",
+    "game_info": null,
+    "historical_info": "One of the necessities of human life, salt, is found throughout the world in both natural and man-made environments. Used for thousands of years as a means of preserving meat, salt was crucial in efforts to store food prior to the invention of artificial refrigeration. A common method of producing and harvesting salt for consumption is through the use of evaporation. By creating large ponds or pools of saltwater, over time the natural evaporation process will remove the water and leave behind the salt residue for collection.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/salt.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        }
+    ]
+}

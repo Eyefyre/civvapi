@@ -1,0 +1,20 @@
+{
+    "id": 78,
+    "name": "Th\u00e9ocratie",
+    "game_info": "Th\u00e9ocratieLes temples augmentent de 25% la production d' or d'une ville, et les lieux saints rapportent +3 Or.",
+    "historical_info": "Dans un \u00e9tat th\u00e9ocratique, ce sont les dirigeants religieux qui d\u00e9tiennent le pouvoir (m\u00eame si, en th\u00e9orie, le vrai d\u00e9tenteur du pouvoir est la divinit\u00e9 qu'ils v\u00e9n\u00e8rent et qui les guide). Les th\u00e9ocraties sont souvent des \u00e9tats militaristes, les dirigeants religieux usant de l'arm\u00e9e nationale comme d'un outil pour imposer leur croyance aux pays infid\u00e8les. Les th\u00e9ocraties modernes semblent avoir comme point commun de craindre autant que de ha\u00efr le progr\u00e8s. Elles consid\u00e8rent le confort et les \u00e9volutions modernes comme des menaces \u00e0 la pi\u00e9t\u00e9 nationale (voire \u00e0 leur pouvoir).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/th\u00e9ocratie.png",
+    "required_policies": [
+        {
+            "name": "Religion organis\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Pi\u00e9t\u00e9",
+        "game_info": "La pi\u00e9t\u00e9 augmente la foi d'un empire.Adopter la pi\u00e9t\u00e9 diminue de moiti\u00e9 le temps n\u00e9cessaire \u00e0 la construction d'autels et de temples et d\u00e9bloque la Grande mosqu\u00e9e de Djenn\u00e9.L'adoption de toutes les doctrines de la pi\u00e9t\u00e9 entra\u00eene l'apparition d'un proph\u00e8te illustre et augmente de 3 points la culture g\u00e9n\u00e9r\u00e9e par les lieux saints.",
+        "prereq_era": null,
+        "historical_info": "La pi\u00e9t\u00e9 est la d\u00e9votion \u00e0 un syst\u00e8me sp\u00e9cifique de croyances religieuses ou spirituelles. Une personne \"pieuse\" est g\u00e9n\u00e9ralement consid\u00e9r\u00e9e comme \u00e9tant, litt\u00e9ralement, \"plus sainte que vous\". Cela signifie qu'elle se plie scrupuleusement aux pratiques dict\u00e9es par sa religion et accepte la plupart, voire l'int\u00e9gralit\u00e9, de ses pr\u00e9ceptes sans jamais les remettre en question."
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "Atomic Era",
+    "cost": 5100,
+    "civilopedia_entry": "Radar is an object detection system that uses electromagnetic waves to identify faraway objects like ships or airplanes. Coined in 1941, the term \"RADAR\" is an acronym for \"Radio Detection And Ranging.\"In 1904 Christian Hulsmeyer was able to detect the presence of a ship in dense fog. Later that year he made improvements which allowed the set to determine the object's distance.In August of 1917 inventor Nikola Tesla designed the first primitive radar units, allowing the user to \"determine the relative position or course of a moving object, such as a vessel at sea, the distance traversed by the same, or its speed.\"As the Second World War approached, all of the industrialized world powers were working feverishly on radar. The British were the furthest along at the outbreak of the war, with a system capable of spotting incoming aircraft while still a great distance from vulnerable British cities. (Their research was spurred on by the rumor that the Germans were working on a death ray.) Their system was highly secret, and during the war the British claimed that their human airplane spotters were responsible for their success at intercepting German attacks.By war's end all advanced countries had made major strides in radar technology, and by mid-century the technology was spreading across the world for civilian uses, primarily in air traffic control. With the possible exception of certain advanced stealth aircraft, it is now almost impossible for an airplane to enter the airspace of any industrialized nation without being spotted by some radar somewhere.",
+    "quote": "\"Vision is the art of seeing things invisible.\" - Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "Electronics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electronics.json"
+        },
+        {
+            "name": "Ballistics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Nuclear Fission",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Rocketry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+        },
+        {
+            "name": "Computers",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/bomber.json"
+        },
+        {
+            "name": "B17",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/b17.json"
+        },
+        {
+            "name": "Fighter",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/fighter.json"
+        },
+        {
+            "name": "Zero",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/zero.json"
+        },
+        {
+            "name": "Paratrooper",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Airport",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/airport.json"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": 120,
+    "name": "Mitrailleuse Gatling|Mitrailleuses Gatling",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/gatling_gun.png",
+    "game_info": "Unit\u00e9 de combat \u00e0 distance de milieu de partie qui ne peut attaquer que les cases adjacentes.",
+    "historical_info": "La mitrailleuse Gatling, anc\u00eatre de la mitrailleuse moderne, fut invent\u00e9e en\u00a01861 par le docteur am\u00e9ricain Richard Gatling dans l'espoir de r\u00e9duire la taille des arm\u00e9es et d\u00e9montrer \u00e0 quel point la guerre \u00e9tait futile. La mitrailleuse Gatling \u00e9tait \u00e9quip\u00e9e de plusieurs canons rotatifs et d'une manivelle faisant fonctionner le m\u00e9canisme. Lors de la rotation de chaque canon, la munition \u00e9tait \u00e9ject\u00e9e, une nouvelle \u00e9tait charg\u00e9e et le canon refroidissait. Une cadence de tir rapide pouvait ainsi \u00eatre maintenue sans risque de surchauffe. Le manque de pr\u00e9cision de la mitrailleuse Gatling \u00e9tait compens\u00e9 par une efficacit\u00e9 mortelle. Elle ne fut adopt\u00e9e officiellement par l'arm\u00e9e am\u00e9ricaine qu'en\u00a01866 et utilis\u00e9e pour la premi\u00e8re fois par les forces de l'Union pendant la guerre de S\u00e9cession. Elle servit ensuite lors de la \"guerre du salp\u00eatre\" qui opposa le P\u00e9rou au Chili (1879-1883). Les arm\u00e9es europ\u00e9ennes furent alors convaincues de son utilit\u00e9 contre des ennemis en masse. En moins de dix ans, la mitrailleuse Gatling fut adopt\u00e9e par la plupart des grandes puissances. Elle leur permit d'\u00e9tendre leurs empires coloniaux en combattant les Nd\u00e9b\u00e9l\u00e9s, les Zoulous, les B\u00e9douins, les Turkm\u00e8nes, les Boxers et autres peuplades indig\u00e8nes. Au d\u00e9but des ann\u00e9es\u00a01900, la Gatling fut d\u00e9tr\u00f4n\u00e9e par les nouvelles mitrailleuses \u00e0 emprunt de gaz. L'arm\u00e9e am\u00e9ricaine r\u00e9forma tous les mod\u00e8les de Gatling en\u00a01911, suivie rapidement des arm\u00e9es europ\u00e9ennes.",
+    "strategy": "La mitrailleuse Gatling est une unit\u00e9 de combat \u00e0 distance (hors si\u00e8ge) de milieu de partie. Elle est beaucoup plus puissante que les premi\u00e8res unit\u00e9s d'attaque \u00e0 distance du jeu, comme les arbal\u00e9triers. Sa port\u00e9e est limit\u00e9e \u00e0 une case, mais elle peut n\u00e9anmoins infliger d'importants d\u00e9g\u00e2ts aux autres unit\u00e9s sans en subir en retour. Placez des mitrailleuses Gatling dans votre cit\u00e9 pour la d\u00e9fendre.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Industrialisation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/industrialization.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

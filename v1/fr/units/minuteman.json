@@ -1,0 +1,31 @@
+{
+    "id": 49,
+    "name": "Minuteman|Minutemen",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/minuteman.png",
+    "game_info": "L'une des premi\u00e8res unit\u00e9s du jeu \u00e0 utiliser la poudre \u00e0 canon. Unit\u00e9 exclusive aux Am\u00e9ricains, le minuteman remplace l'arquebusier. Il peut se d\u00e9placer sur les terrains accident\u00e9s comme s'ils \u00e9taient d\u00e9gag\u00e9s, re\u00e7oit un bonus lorsqu'il y combat et gagne des points permettant de d\u00e9clencher un \u00e2ge d'or quand il \u00e9limine un ennemi.",
+    "historical_info": "Les minutemen \u00e9taient des membres s\u00e9lectionn\u00e9s de la milice coloniale, en service pendant la R\u00e9volution am\u00e9ricaine. Il s'agissait d'une force toujours pr\u00eate \u00e0 passer \u00e0 l'attaque, ce qui laissait \u00e0 l'arm\u00e9e r\u00e9guli\u00e8re (et au reste de la milice) le temps de r\u00e9agir et de se pr\u00e9parer au combat. En fait, les minutemen existaient bien avant la R\u00e9volution am\u00e9ricaine : la colonie de la baie du Massachusetts disposait de plusieurs minutemen d\u00e8s 1645.",
+    "strategy": "Unit\u00e9 exclusive aux Am\u00e9ricains, le minuteman remplace l'arquebusier. Il peut avancer sur les terrains accident\u00e9s comme s'ils \u00e9taient d\u00e9gag\u00e9s (tous les d\u00e9placements co\u00fbtent 1\u00a0PM), il re\u00e7oit un bonus lorsqu'il y combat et gagne des points permettant de d\u00e9clencher un \u00e2ge d'or quand il \u00e9limine un ennemi.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "Poudre \u00e0 canon",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Co\u00fbts de mouvement ignor\u00e9s en PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/ignores_terrain_cost.json"
+        },
+        {
+            "name": "Exercice I",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/drill_i.json"
+        },
+        {
+            "name": "\u00c2ge d'or (victoires)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/golden_age_from_victories.json"
+        }
+    ]
+}

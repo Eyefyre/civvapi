@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "\u00d6ffentliche Schule",
+    "game_info": "+1 Wissenschaft f\u00fcr je 2 B\u00fcrger in dieser Stadt.Stadt ben\u00f6tigt Universit\u00e4t.",
+    "strategy": "Die \u00d6ffentliche Schule ist ein Geb\u00e4ude im mittleren Abschnitt des Spiels, das den Wissenschaftsertrag einer Stadt erheblich steigert. Die Stadt muss bereits \u00fcber eine Universit\u00e4t oder einen Wat verf\u00fcgen, um eine \u00d6ffentliche Schule zu bauen.",
+    "historical_info": "Eine \u00f6ffentliche Schule bietet eine kostenlose vorakademische Bildung f\u00fcr Kinder einer Zivilisation. Es handelt sich dabei um ein recht fortschrittliches Konzept. Zun\u00e4chst muss die Zivilisation zu dem Schluss gekommen sein, dass Bildung f\u00fcr Arme keine Gefahr f\u00fcr die herrschende Klasse ist. Au\u00dferdem muss die Zivilisation wohlhabend genug sein, damit die Kinder der Armen nicht arbeiten m\u00fcssen, um den Hungertod zu vermeiden. Und letztendlich muss die Zivilisation aufgekl\u00e4rt genug sein, um gewillt zu sein, einen Teil seiner Einnahmen auf Bildung zu verwenden. Die meisten L\u00e4nder der Welt bieten heute eine Form \u00f6ffentlicher Bildung f\u00fcr ihre Nachkommen. Die ersten \u00f6ffentlichen Grundschulen in Amerika wurden in der Kolonialzeit gegr\u00fcndet, die erste \u00f6ffentliche weiterf\u00fchrende Schule wurde 1821 in Boston gegr\u00fcndet.",
+    "cost": {
+        "production": 300,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/\u00f6ffentliche_schule.png",
+    "prereq_tech": {
+        "name": "Wissenschaftstheorie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/scientific_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 3,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

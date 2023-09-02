@@ -1,0 +1,61 @@
+{
+    "id": 63,
+    "name": "Radar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/radar.png",
+    "era": "Atomzeitalter",
+    "cost": 5100,
+    "civilopedia_entry": "Radar ist ein System zur Erkennung von Objekten, das elektromagnetische Wellen einsetzt, um weit entfernte Objekte wie Schiffe oder Flugzeuge zu identifizieren. Der Begriff RADAR wurde 1941 gepr\u00e4gt und ist ein Akronym f\u00fcr \"Radio Detection And Ranging\" (Funkerkennung und -abstandsmessung).1904 konnte Christian H\u00fclsmeyer ein Schiff im dichten Nebel orten. Durch Verbesserungen konnte er sp\u00e4ter im selben Jahr dazu noch die Entfernung von Objekten bestimmen.Im August 1917 stellte der Erfinder Nikola Tesla die ersten primitiven Radar-Einheiten her, mit denen der Nutzer die \"relative Position oder den Kurs eines sich bewegenden Objekts, wie etwa eines Schiffs auf See, die von ihm zur\u00fcckgelegte Distanz oder seine Geschwindigkeit\" bestimmen konnte.Als der Zweite Weltkrieg nahte, arbeiteten alle industrialisierten Weltm\u00e4chte fieberhaft am Radar. Bei Ausbruch des Krieges hatten die Briten die gr\u00f6\u00dften Fortschritte gemacht: Ihr System war in der Lage, anfliegende Flugzeuge zu finden, w\u00e4hrend sie noch weit entfernt von den verwundbaren britischen St\u00e4dten waren. (Die britische Forschung wurde angespornt von Ger\u00fcchten, dass in Deutschland ein Todesstrahl entwickelt w\u00fcrde.) Das britische System wurde strikt geheim gehalten und w\u00e4hrend des Krieges behaupteten die Briten, dass menschliche Flugwachen f\u00fcr die Erfolge beim Abfangen deutscher Angriffe verantwortlich w\u00e4ren.Zum Ende des Krieges hatten alle fortschrittlichen Staaten gro\u00dfe Erfolge auf dem Gebiet der Radartechnologie zu verzeichnen und ab der zweiten H\u00e4lfte des Jahrhunderts wurde die Technik weltweit immer mehr f\u00fcr zivile Zwecke eingesetzt, vorrangig bei der Flugsicherung. Mit der m\u00f6glichen Ausnahme spezieller, sehr fortschrittlicher Tarnkappenflugzeuge ist es inzwischen fast unm\u00f6glich f\u00fcr ein Flugzeug, in den Luftraum einer Industrienation einzudringen, ohne von einem Radar entdeckt zu werden.",
+    "quote": "\"Vision ist die Kunst, Unsichtbares zu sehen.\" - Jonathan Swift",
+    "tech_prereqs": [
+        {
+            "name": "Elektronik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/electronics.json"
+        },
+        {
+            "name": "Ballistik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ballistics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kernspaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Raketentechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+        },
+        {
+            "name": "Computertechnologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/computers.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bomber",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/bomber.json"
+        },
+        {
+            "name": "B-17",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/b17.json"
+        },
+        {
+            "name": "J\u00e4ger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/fighter.json"
+        },
+        {
+            "name": "Zero",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/zero.json"
+        },
+        {
+            "name": "Fallschirmj\u00e4ger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/paratrooper.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Flughafen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/airport.json"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "id": 22,
+    "name": "Teolog\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/theology.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 275,
+    "civilopedia_entry": "La teolog\u00eda es el estudio de la religi\u00f3n. Los te\u00f3logos estudian las tradiciones y creencias religiosas. La pr\u00e1ctica se remonta a los griegos cl\u00e1sicos, que ten\u00edan una mitolog\u00eda extremadamente rica y una tradici\u00f3n religiosa que observar. En los siglos I y II d. C., florecieron los estudios religiosos jud\u00edos. El Talmud de Jerusal\u00e9n, una colecci\u00f3n de notas sobre la tradici\u00f3n oral jud\u00eda, se public\u00f3 alrededor del 200 d. C. y se ampli\u00f3 notablemente durante los dos siglos siguientes.La teolog\u00eda es importante, pues ha tenido un efecto incre\u00edblemente poderoso en la historia del mundo. Han muerto millones incontables de personas por conflictos religiosos, y en la actualidad siguen haci\u00e9ndolo. Los romanos mataron a los cristianos por su teolog\u00eda, radicalmente nueva, que negaba la existencia de los dioses de Roma. Los cristianos mataron a jud\u00edos y musulmanes por disputas religiosas similares. El te\u00f3logo y revolucionario cristiano Mart\u00edn Lutero desencaden\u00f3 cientos de a\u00f1os de contiendas religiosas brutales en Europa con sus \"95 tesis\", en las que cuestionaba, entre otras cosas, la venta de las indulgencias papales (perd\u00f3n de los pecados) para pagar la construcci\u00f3n de la Bas\u00edlica de San Pedro. Si esto terminara alg\u00fan d\u00eda, la teolog\u00eda ser\u00e1 de una importancia cr\u00edtica para resolver la actual guerra religiosa entre los musulmanes radicales y el mundo occidental.",
+    "quote": "\"Tres cosas son necesarias para la salvaci\u00f3n del hombre: saber qu\u00e9 debe creer, saber qu\u00e9 debe querer y saber qu\u00e9 debe hacer.\" - Santo Tom\u00e1s de Aquino",
+    "tech_prereqs": [
+        {
+            "name": "Filosof\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/philosophy.json"
+        },
+        {
+            "name": "Dramaturgia y poes\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/drama_and_poetry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Br\u00fajula",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/compass.json"
+        },
+        {
+            "name": "Educaci\u00f3n",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/education.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Jard\u00edn|Jardines",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/garden.json"
+        },
+        {
+            "name": "Santa Sof\u00eda|Santas Sof\u00edas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hagia_sophia.json"
+        },
+        {
+            "name": "Gran Mezquita de Djenn\u00e9|Grandes Mezquitas de Djenn\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/great_mosque_of_djenne.json"
+        },
+        {
+            "name": "Tribuna|Tribunas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/grand_temple.json"
+        },
+        {
+            "name": "Candi|Candis",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/candi.json"
+        },
+        {
+            "name": "Borobudur|Borobudur",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/borobudur.json"
+        }
+    ]
+}

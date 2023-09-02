@@ -1,0 +1,18 @@
+{
+    "id": 28,
+    "name": "Infanterie m\u00e9canis\u00e9e|Infanterie m\u00e9canis\u00e9e",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mechanized_infantry.png",
+    "game_info": "Unit\u00e9 rapide de base disponible en fin de partie. Ne n\u00e9cessite aucune ressource particuli\u00e8re.",
+    "historical_info": "\u00c9tant donn\u00e9 que le rythme des combats s'est accentu\u00e9 avec l'apparition des v\u00e9hicules blind\u00e9s, l'artillerie, les forces a\u00e9riennes et l'infanterie moderne ont d\u00fb s'adapter pour devenir plus rapides et plus manoeuvrables. Les unit\u00e9s d'infanterie les plus modernes sont maintenant \"motoris\u00e9es\" et se d\u00e9placent sur le champ de bataille dans des v\u00e9hicules blind\u00e9s personnels. Ceux-ci sont g\u00e9n\u00e9ralement \u00e9quip\u00e9s d'une ou plusieurs pi\u00e8ces d'artillerie et de lance-grenades. Leur solidit\u00e9 ne vaut pas celle des blind\u00e9s modernes mais ces v\u00e9hicules constituent une bonne protection contre les balles, le shrapnel et tout autre danger qui guette les premi\u00e8res lignes. En fonction de la situation, le soldat peut combattre depuis le v\u00e9hicule ou en sortir et continuer \u00e0 pied, dans la plus pure tradition des soldats de l'infanterie.",
+    "strategy": "L'infanterie m\u00e9canis\u00e9e est plus puissante et plus rapide que l'infanterie standard. Malgr\u00e9 sa vitesse, elle ne peut cependant pas se d\u00e9placer apr\u00e8s avoir attaqu\u00e9 comme peuvent le faire les chars. Son objectif principal, comme \u00e0 l'accoutum\u00e9e, est de prendre et de d\u00e9fendre une zone.",
+    "movement": 3,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Tactiques mobiles",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mobile_tactics.json"
+    },
+    "free_promotions": []
+}

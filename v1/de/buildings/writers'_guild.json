@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Schriftstellergilde",
+    "game_info": "Bringt 1 Gro\u00dfe-Pers\u00f6nlichkeit-Punkt (GPP) f\u00fcr einen Gro\u00dfen Schriftsteller ein. F\u00fcgt bis zu zwei Spezialisten zu diesem Geb\u00e4ude hinzu, dann erhaltet Ihr Kultur und erlangt schneller Gro\u00dfe Schriftsteller (3 Kultur und 3 GPP pro Spezialist).",
+    "strategy": "Die Schriftstellergilde ist das einzige Geb\u00e4ude mit Schriftsteller-Spezialistenpl\u00e4tzen, die entscheidend sind, um Gro\u00dfe Schriftsteller zu generieren. Wenn Ihr als Ziel den Kultursieg ins Auge gefasst habt, ben\u00f6tigt Ihr dieses Geb\u00e4ude. Die Schriftstellergilde bringt 1 Gro\u00dfe-Pers\u00f6nlichkeit-Punkt ein und jeder zugewiesene Spezialist bringt 3 Gro\u00dfe-Pers\u00f6nlichkeit-Punkte und 3 Kultur ein.",
+    "historical_info": "Nach Erfindung der Druckerpresse in der Renaissance wurden Schriftstellergilden gegr\u00fcndet, die allerdings nie so einflussreich waren wie die Gilden zeitgen\u00f6ssischer K\u00fcnstler. In mehreren europ\u00e4ischen St\u00e4dten entstanden offizielle und inoffizielle Organisationen, die daf\u00fcr sorgten, dass die Autoren von den Druckern und Buchh\u00e4ndlern gerecht entlohnt wurden. Im London der Shakespeare-Zeit und auch in anderen St\u00e4dten schlossen sich Dramatiker zusammen, um sich vor Plagiaten und unerlaubten Auff\u00fchrungen zu sch\u00fctzen. Diese Tradition wurde weltweit von Hunderten Organisationen fortgef\u00fchrt, wobei die Gilden eher zu Gewerkschaften avancierten, wie beispielsweise der Verband deutscher Schriftsteller, die Scriptwriters Guild of Israel, die Writers Guild of Great Britain und die American Authors Guild.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/schriftstellergilde.png",
+    "prereq_tech": {
+        "name": "Drama und Dichtung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

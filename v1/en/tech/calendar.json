@@ -1,0 +1,32 @@
+{
+    "id": 7,
+    "name": "Calendar",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/calendar.png",
+    "era": "Ancient Era",
+    "cost": 55,
+    "civilopedia_entry": "A calendar is a method of keeping track of the days. In many ancient cultures calendars served both religious and practical purposes: certain days of the year were dedicated to the worship of certain deities, and it was very bad to offend the gods by failing to give them their due. More prosaically, of course, calendars allowed people to track the weather in an area, telling them when to plant crops, when to harvest, and so forth.The Egyptians appear to have developed the first practical calendar, and this was appropriated and further refined by the Romans into the Julian calendar. The Gregorian calendar that is almost universally used today was based on the Julian calendar. Proclaimed in 1582 by Pope Gregory XIII, the Gregorian calendar more accurately defines a solar year, correcting a slight inaccuracy in the Julian. In the Julian calendar a solar year was 365 days and 6 hours in length, while in the Gregorian calendar the year was 12 minutes shorter, or 365 days, 5 hours and 48 minutes. This error accumulated over the centuries, and by Gregory's day the Julian calendar was 14 days out of sync with the seasons.",
+    "quote": "\"So teach us to number our days, so that we may apply our hearts unto wisdom.\" - The Bible, Psalms, 90:12",
+    "tech_prereqs": [
+        {
+            "name": "Pottery",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/pottery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Philosophy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/philosophy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Stonehenge",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/stonehenge.json"
+        },
+        {
+            "name": "Stone Works",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/stone_works.json"
+        }
+    ]
+}

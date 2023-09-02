@@ -1,0 +1,60 @@
+{
+    "id": 2,
+    "name": "Horses",
+    "game_info": "Used by Mounted Units.",
+    "historical_info": "As transport, implement of war, companion and (occasionally) foodstuff, horses are among the most important domesticated animals in human history. Horses were originally domesticated in Central Asia around 4000 BC, and over the next several thousand years the practice spread across Europe, Asia, the Middle East and Africa. Horses were transported to the New World by the Spanish in the 16th century, where their use was quickly and enthusiastically picked up by the native population in the following centuries. Remember that horses are strategic resources, and thus they are consumed as you construct the associated units.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/horses.png",
+    "prereq_tech": {
+        "name": "Animal Husbandry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/animal_husbandry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pasture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/pasture.json"
+        },
+        {
+            "name": "Customs House",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+        },
+        {
+            "name": "Academy",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+        },
+        {
+            "name": "Citadel",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+        },
+        {
+            "name": "Manufactory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+        },
+        {
+            "name": "Holy Site",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        }
+    ]
+}

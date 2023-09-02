@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "name": "Tercio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/tercio.png",
+    "game_info": "Unit\u00e9 militaire dominante de la Renaissance, exclusive \u00e0 l'Espagne. Cette unit\u00e9 est plus puissante en combat que l'arquebusier, qu'elle remplace, et sa promotion \"Bonus contre les unit\u00e9s mont\u00e9es\" (50) est \u00e9galement plus int\u00e9ressante. Sa production co\u00fbte cependant plus cher.",
+    "historical_info": "Le tercio est une brillante invention militaire qui consiste en une formation de lanciers et d'arquebusiers (des soldats \u00e9quip\u00e9s d'armes \u00e0 feu rudimentaires) ; elle a vu le jour au d\u00e9but du XVIe si\u00e8cle gr\u00e2ce au g\u00e9n\u00e9ral espagnol Gon\u00e7alve de Cordoue. Le tercio (aussi connu sous le nom de \"carr\u00e9 espagnol\") prenait la forme d'un \u00e9chiquier, alternant des blocs d'arquebusiers et de lanciers. Les avantages de cette formation sont \u00e9vidents : les arquebusiers peuvent attaquer l'ennemi \u00e0 distance, tandis que les lanciers assurent le combat rapproch\u00e9. Cette formation a domin\u00e9 les guerres de la Renaissance pendant plus d'un si\u00e8cle.",
+    "strategy": "Le tercio est l'une des deux unit\u00e9s exclusives aux Espagnols\u00a0; il remplace l'arquebusier. Cette unit\u00e9 est plus puissante en combat que l'arquebusier, et sa puissance est doubl\u00e9e contre les unit\u00e9s mont\u00e9es. Sa production co\u00fbte cependant plus cher.",
+    "movement": 2,
+    "cost": {
+        "production": 160,
+        "faith": 320
+    },
+    "prereq_tech": {
+        "name": "Poudre \u00e0 canon",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

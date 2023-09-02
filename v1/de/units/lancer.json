@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lancier",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Berittene Einheit, die darauf spezialisiert ist, feindliche berittene Einheiten zu besiegen.",
+    "historical_info": "Lanciers waren die Kavallerieeinheiten der Renaissance. In einer Zeit, in der Kanonen und andere Schwarzpulverwaffen aufkamen, stachen Geschwindigkeit und Beweglichkeit starke R\u00fcstung aus, die gegen moderne Projektilwaffen immer weniger Schutz bot. So verzichteten Lanciers auf einen Gro\u00dfteil der schweren Plattenpanzer ihrer ritterlichen Vorg\u00e4nger und behielten h\u00f6chstens noch einen Brustpanzer aus Metall. Trotz Verbesserung der Bewaffnung blieb die Lanze in den H\u00e4nden von gut ausgebildeten Reitern eine be\u00e4ngstigend effektive Waffe. Noch zu Zeiten der Napoleonischen Kriege hielten die Franzosen die Lanze f\u00fcr eine bessere Kavalleriewaffe als das Schwert. Im sp\u00e4ten 19. Jahrhundert wurden beide Waffen schlie\u00dflich vom Karabinergewehr abgel\u00f6st.",
+    "strategy": "Der Lancier ist eine berittene Einheit aus der Renaissance, die zwischen der Ritter- und Kavallerieeinheit steht. Er ist st\u00e4rker als der Ritter und kann diese einst so m\u00e4chtigen Einheiten einfach von der Karte fegen. Der Lancier kann es sogar mit der starken Kavallerieeinheit aufnehmen, sobald diese erscheint.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/formation_i.json"
+        }
+    ]
+}

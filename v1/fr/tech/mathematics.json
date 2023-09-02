@@ -1,0 +1,49 @@
+{
+    "id": 15,
+    "name": "Math\u00e9matiques",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mathematics.png",
+    "era": "\u00c8re classique",
+    "cost": 105,
+    "civilopedia_entry": "Les math\u00e9matiques pourraient \u00eatre d\u00e9finies comme la science de l'ordre, de la structure et de la relation, n\u00e9e des pratiques du d\u00e9compte, de la mesure et de la description des objets et de leur forme. Les math\u00e9matiques constituent la pierre angulaire de toutes les sciences physiques. Les Sum\u00e9riens disposaient d'un syst\u00e8me math\u00e9matique remarquablement complexe, qui \u00e9tait \u00e0 la fois d\u00e9cimal (base 10) et sexag\u00e9simal (base 60). Quelques reliquats de ce syst\u00e8me subsistent encore de nos jours, comme les 60 secondes de la minute, et les 60 minutes de l'heure.Les \u00c9gyptiens poss\u00e9daient un syst\u00e8me sensiblement plus simple d\u00e9velopp\u00e9 par les scribes (qui \u00e9taient \u00e9galement collecteurs d'imp\u00f4ts). Ce dernier leur permettait, tout de m\u00eame, d'effectuer les calculs n\u00e9cessaires \u00e0 la construction de travaux colossaux comme les pyramides (et, supposons-le, le recouvrement des taxes). Les Grecs, eux, divisaient les math\u00e9matiques en deux domaines : l'arithm\u00e9tique, ou l'\u00e9tude de la quantit\u00e9, et la g\u00e9om\u00e9trie, celle de la grandeur (aussi appel\u00e9 \"aire\"). Leur premi\u00e8re contribution d'importance dans ce domaine fut, en r\u00e9alit\u00e9, l'application de la th\u00e9orie et de la d\u00e9monstration aux math\u00e9matiques. Les syst\u00e8mes math\u00e9matiques pr\u00e9c\u00e9dents \u00e9taient bas\u00e9s sur la mesure et l'observation du monde r\u00e9el, l\u00e0 o\u00f9 les Grecs cherch\u00e8rent \u00e0 d\u00e9finir les r\u00e8gles math\u00e9matiques constituant l'armature du r\u00e9el.Le monde islamique apporta une contribution remarquable et constante \u00e0 la discipline entre les VIIIe et XVe si\u00e8cles apr. J.-C. Ses apports majeurs furent probablement l'adoption du syst\u00e8me d\u00e9cimal pour la totalit\u00e9 des nombres, et l'invention du \"0\", vers 600 apr. J.-C., en Inde. Cette nouvelle m\u00e9thode rempla\u00e7a le syst\u00e8me num\u00e9rique dat\u00e9 et abscons des Romains (qui n'existe plus aujourd'hui que pour qualifier les suites des films d'\u00e9pouvante, et \u00e9num\u00e9rer les si\u00e8cles).L'importance des math\u00e9matiques a augment\u00e9 de mani\u00e8re exponentielle depuis ses balbutiements et, gr\u00e2ce \u00e0 elles, l'homme est parvenu \u00e0 scinder l'atome, \u00e0 concevoir Internet et \u00e0 vendre des milliers de grilles de Sudoku. Qui sait, au vu de tout cela, quelle surprise l'avenir des math\u00e9matiques nous r\u00e9serve ?",
+    "quote": "\"Les math\u00e9matiques sont la porte et la cl\u00e9 des sciences.\" - Roger Bacon",
+    "tech_prereqs": [
+        {
+            "name": "La roue",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Monnaie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/currency.json"
+        },
+        {
+            "name": "Ing\u00e9nierie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Catapulte|Catapultes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/catapult.json"
+        },
+        {
+            "name": "Baliste|Balistes",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/ballista.json"
+        },
+        {
+            "name": "Tour de si\u00e8ge|Tours de si\u00e8ge",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/siege_tower.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Tribunal|Tribunaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/courthouse.json"
+        },
+        {
+            "name": "Jardins suspendus",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hanging_gardens.json"
+        }
+    ]
+}

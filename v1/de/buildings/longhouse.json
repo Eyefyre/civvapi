@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Langhaus",
+    "game_info": "+1 Produktion in jedem bewirtschafteten Wald-Gel\u00e4ndefeld.",
+    "strategy": "Das Langhaus ist das einzigartige Geb\u00e4ude der Irokesen und ersetzt die Werkstatt. Es steigert die Produktion der Stadt f\u00fcr jedes Wald-Gel\u00e4ndefeld in ihrem Radius.",
+    "historical_info": "Lange Zeit in ihrer Geschichte lebten viele Irokesen in D\u00f6rfern mit einem oder mehreren Langh\u00e4usern, also Gemeinschaftsgeb\u00e4uden, die aus Holzst\u00e4mmen gebaut wurden und mit Rinde verkleidet wurden. Die Irokesen nennen sich sogar selbst \"Hodenosaunee\", was so viel bedeutet wie \"Menschen des Langen Hauses\". Die H\u00e4user waren 10 bis 100 Meter lang und etwa 8 Meter breit. Im Inneren waren sie in R\u00e4ume unterteilt, die alle \u00fcber einen offenen Mittelgang miteinander verbunden waren. Normalerweise teilten sich mehrere R\u00e4ume eine Feuerstelle im Mittelgang, \u00fcber der eine \u00d6ffnung im Dach als Abzug diente.Langh\u00e4user sind sehr effiziente Geb\u00e4ude, die billiger zu bauen und heizen sind als Einzelgeb\u00e4ude und weniger nat\u00fcrliche Ressourcen verbrauchen. Sie stehen f\u00fcr das kulturelle Streben der Irokesen, im Einklang mit der Natur um sie herum zu leben.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/langhaus.png",
+    "prereq_tech": {
+        "name": "Metallguss",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

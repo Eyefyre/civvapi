@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Granary",
+    "game_info": "Each source of Wheat Bananas and Deer worked by this City produce +1 Food.Allows Food to be moved from this city along trade routes inside your civilization.",
+    "strategy": "The Granary increases the Food intake of a city, speeding up the city's growth. It's useful when you want to create a large city, fast.",
+    "historical_info": "A granary is a building constructed to store grain for human or herd animal consumption (or both). The earliest granaries yet discovered were found in a pre-pottery Neolithic settlement in the Jordan Valley of the Middle East, and date back to approximately 9500 BC. These first granaries measured about 10-foot by 10-foot square. They featured raised floors which allowed air to circulate more freely and provided some protection for the grain from mice and other menaces.",
+    "cost": {
+        "production": 60,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/granary.png",
+    "prereq_tech": {
+        "name": "Pottery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/pottery.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

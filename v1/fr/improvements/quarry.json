@@ -1,0 +1,34 @@
+{
+    "id": 6,
+    "name": "Carri\u00e8re|Carri\u00e8res",
+    "game_info": "Le plus souvent, une carri\u00e8re est un lieu produisant des pierres ou du gravier. Dans Civilization\u00a0V, les carri\u00e8res augmentent la production de pierres et donnent acc\u00e8s au marbre, une ressource de luxe et pierre de grande valeur utilis\u00e9e dans la construction et l'art.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/carri\u00e8re|carri\u00e8res.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Marbre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/marble.json"
+        },
+        {
+            "name": "Pierre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/stone.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Ma\u00e7onnerie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/masonry.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

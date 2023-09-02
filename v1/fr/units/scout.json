@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "\u00c9claireur|\u00c9claireurs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Excellente unit\u00e9 d'exploration. N'est pas ralenti par les terrains accident\u00e9s, mais est vuln\u00e9rable aux attaques.",
+    "historical_info": "Les \u00e9claireurs furent les yeux et les oreilles des civilisations antiques. Ces guerriers au pied l\u00e9ger ne combattaient pas les forces ennemies, ils avaient pour mission de rep\u00e9rer la configuration du terrain et de d\u00e9couvrir les menaces ou les tr\u00e9sors potentiels. Une civilisation qui ignorait tout du reste du monde ne pouvait pr\u00e9voir les dangers ainsi que les opportunit\u00e9s potentiels.",
+    "strategy": "Cette unit\u00e9 de d\u00e9but de partie ne peut pas attaquer, mais elle peut se d\u00e9placer sur les cases de terrain difficile comme s'il s'agissait d'espaces d\u00e9gag\u00e9s (tout d\u00e9placement co\u00fbte 1\u00a0PM). Utilisez l'\u00e9claireur pour explorer le monde.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Co\u00fbts de mouvement ignor\u00e9s en PM",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": 79,
+    "name": "Guerrier|Guerriers",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/warrior.png",
+    "game_info": "Unit\u00e9 militaire de d\u00e9but de partie relativement faible.",
+    "historical_info": "\u00c0 l'\u00e9poque, les \"soldats professionnels\" n'existaient pas, les jeunes civilisations ne pouvant s'offrir une arm\u00e9e \u00e0 plein temps. Tous les hommes matures formaient une milice ad hoc, se regroupant lors d'une crise puis retournant dans leurs fermes et villages en temps de paix. Ces guerriers ne b\u00e9n\u00e9ficiaient pas d'un entra\u00eenement tr\u00e8s cons\u00e9quent et \u00e9taient \u00e9quip\u00e9s d'armes on ne peut plus primitives : massues ou dagues en pierre.",
+    "strategy": "Le guerrier est la premi\u00e8re unit\u00e9 de combat disponible dans le jeu. Il est utile contre les barbares, pour d\u00e9fendre vos premi\u00e8res villes et pour engager une exploration sommaire. En r\u00e8gle g\u00e9n\u00e9rale, \u00e0 moins d'\u00eatre assist\u00e9s par un grand nombre d'archers et de catapultes, les guerriers ne sont pas suffisamment puissants pour s'emparer de villes adverses. Et encore, m\u00eame ainsi \u00e9paul\u00e9s, rien ne dit qu'ils y parviendront.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Agriculture",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json"
+    },
+    "free_promotions": []
+}

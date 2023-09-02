@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Cavalleria|una Cavalleria|dalla tua Cavalleria|alla tua Cavalleria|la tua Cavalleria|da una Cavalleria",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Unit\u00e0 a cavallo in grado di affrontare alla pari le unit\u00e0 di fanteria sue contemporanee.",
+    "historical_info": "Alla fine del XIX secolo la cavalleria europea e americana era armata con spade, pistole e fucili a ripetizione, armi piccole e affidabili che potevano contenere dai 5 ai 15 colpi e rimanevano precise fino a una distanza di 500 metri. Un simile equipaggiamento, molto pi\u00f9 leggero di quello che ingombrava i lancieri e i cavalieri classici, permetteva loro di muoversi pi\u00f9 rapidamente e di coprire distanze molto maggiori dei loro predecessori. In condizioni molto favorevoli era ancora possibile assistere a una classica carica di cavalleria, ma la precisione e il ritmo di fuoco della fanteria rendeva questa manovra estremamente pericolosa. Una volta giunti a contatto con i soldati a piedi, in genere i cavalieri smontavano per combattere; uno di loro stava in retroguardia per badare a quattro cavalli mentre i suoi tre compagni ingaggiavano battaglia con il nemico.",
+    "strategy": "Le unit\u00e0 di Cavalleria sono devastanti contro le unit\u00e0 da mischia, quelle che attaccano a distanza e le armi d'assedio. Usale per sbaragliare i Soldati con moschetto e sfondare le linee nemiche, sfruttando la loro capacit\u00e0 di muoversi dopo aver attaccato.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Scienza militare|della Scienza militare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Pu\u00f2 muoversi dopo aver attaccato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalit\u00e0 in attacco contro le citt\u00e0 (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

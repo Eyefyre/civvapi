@@ -1,0 +1,40 @@
+{
+    "id": 43,
+    "name": "Th\u00e9orie scientifique",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/scientific_theory.png",
+    "era": "\u00c8re industrielle",
+    "cost": 1600,
+    "civilopedia_entry": "La th\u00e9orie scientifique est une fa\u00e7on d'envisager le monde selon laquelle l'observateur utilise la \"m\u00e9thode scientifique\" pour expliquer le fonctionnement de l'univers. Gr\u00e2ce \u00e0 une observation attentive et \u00e0 la pratique de l'exp\u00e9rience, un scientifique \u00e9labore une th\u00e9orie pour expliquer certains ph\u00e9nom\u00e8nes. Si ses pairs parviennent \u00e0 confirmer sa th\u00e9orie en r\u00e9it\u00e9rant l'exp\u00e9rience, elle est alors consid\u00e9r\u00e9e comme \"empirique\" (tout du moins jusqu'\u00e0 ce que de nouvelles observations ou exp\u00e9riences ne viennent la remettre en question). Si les exp\u00e9riences du scientifique ne peuvent \u00eatre reproduites par d'autres, sa th\u00e9orie doit \u00eatre appr\u00e9hend\u00e9e avec le plus grand scepticisme.Si elle est extr\u00eamement r\u00e9pandue aujourd'hui dans la plupart des pays d\u00e9velopp\u00e9s, la th\u00e9orie scientifique n'est pas la seule mani\u00e8re pour l'homme d'envisager le monde. Certains, par exemple, expliquent le fonctionnement de l'univers en fonction de la parole divine (en d'autres termes, de ce qui est d\u00e9fini par les textes sacr\u00e9s). Si une observation ou une exp\u00e9rience contredit le message du ou des dieux, c'est qu'elle a d\u00fb \u00eatre fauss\u00e9e d'une quelconque mani\u00e8re. Ces deux m\u00e9thodes d'observation du monde s'opposent depuis des si\u00e8cles, et ce sera probablement encore le cas pendant de nombreuses ann\u00e9es.",
+    "quote": "\"Tout grand progr\u00e8s scientifique est n\u00e9 d'une nouvelle audace de l'imagination.\"- John Dewey",
+    "tech_prereqs": [
+        {
+            "name": "Sciences \u00e9conomiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+        },
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/biology.json"
+        },
+        {
+            "name": "Moteur \u00e0 vapeur",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/steam_power.json"
+        },
+        {
+            "name": "\u00c9lectricit\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electricity.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "\u00c9cole publique|\u00c9coles publiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/public_school.json"
+        }
+    ]
+}

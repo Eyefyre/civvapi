@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Landsknecht",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "Diese Einheit ist wesentlich g\u00fcnstiger als der Pikenier und kann pl\u00fcndern, ohne Fortbewegungspunkte zu verbrauchen. Stiehlt beim Angreifen einer Stadt Gold. Wird durch die Sozialpolitik S\u00f6ldnerarmee freigeschaltet und kann nicht gebaut, sondern nur mit Gold gekauft werden. Kann sich sofort nach dem Kauf bewegen.",
+    "historical_info": "Die Landsknechte waren deutsche S\u00f6ldner des 16. Jahrhunderts, die nach Vorbild der legend\u00e4ren Schweizer S\u00f6ldner mit Pike bewaffnet waren und diese letztendlich als die beste verf\u00fcgbare S\u00f6ldner-Infanterie in Europa verdr\u00e4ngten. Sie k\u00e4mpften beinahe in jeder wichtigen Auseinandersetzung im 16. Jahrhundert - oft auf beiden Seiten. Im Kampf trugen die Landsknechte in der Regel Piken von bis zu sechs Metern L\u00e4nge. Einige trugen auch Zweih\u00e4nder oder Hellebarden; diese wurden benutzt, um die Spitzen der gegnerischen Piken abzuschlagen.",
+    "strategy": "Der Landsknecht ist eine Einheit, die nur durch die Sozialpolitik S\u00f6ldnerarmee verf\u00fcgbar wird und mit Gold gekauft werden muss. Der Landsknecht ist wesentlich g\u00fcnstiger als der Pikenier und bringt eine Reihe von Bonussen beim Pl\u00fcndern von Gel\u00e4ndefeldern und St\u00e4dten mit sich. Mit dieser Einheit l\u00e4sst sich g\u00fcnstig eine Armee aufbauen, die sich durchaus lohnen kann, wenn sie im Feindgebiet auf Raubz\u00fcge geht.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u00d6ffentliche Verwaltung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Keine Fortbewegungskosten beim Pl\u00fcndern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Stadt-Pl\u00fcndergut",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/city_plunder.json"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 96,
+    "name": "Wojownicy piktyjscy|Wojownik\u00f3w piktyjskich|Wojownikom piktyjskim|Wojownik\u00f3w piktyjskich",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pictish_warrior.png",
+    "game_info": "Jedynie Celtowie mog\u0105 stworzy\u0107 t\u0119 jednostk\u0119. Ma premi\u0119 do walki poza przyjaznym terytorium i potrafi pl\u0105drowa\u0107 wrogie ulepszenia bez dodatkowego kosztu ruchu. Zyskuje 50% si\u0142y wroga w postaci wiary za zab\u00f3jstwa.",
+    "historical_info": "Piktowie byli ludem zamieszkuj\u0105cym w p\u00f3\u017anej epoce \u017celaza obecn\u0105 p\u00f3\u0142nocn\u0105 i wschodni\u0105 Szkocj\u0119 \u2013 jednym z wielu celtyckich szczep\u00f3w zamieszkuj\u0105cych Wyspy Brytyjskie. Ich wojownik\u00f3w obawia\u0142y si\u0119 nie tylko inne ludy celtyckie, lecz nawet che\u0142pliwi rzymscy legioni\u015bci. Grecki historyk Dionizjusz napisa\u0142 za panowania cesarza Augusta, \u017ce ich \u201espos\u00f3b walki, przypominaj\u0105cy w du\u017cej mierze walk\u0119 dzikich bestii i szalony\u201d odnosi\u0142 du\u017ce sukcesy w starciach z kiepsko radz\u0105cymi sobie w lasach i na wzg\u00f3rzach p\u00f3\u0142nocnej Europy formacjami wojskowymi.Do ich reputacji przyczyni\u0142 si\u0119 r\u00f3wnie\u017c karnyks, br\u0105zowa tr\u0105ba, kt\u00f3rej d\u017awi\u0119k rozbrzmiewa\u0142 nieprzerwanie podczas bitwy, dodaj\u0105c ducha Celtom i przera\u017caj\u0105c przeciwnik\u00f3w. G\u0142\u0119boko wreszcie w pami\u0119ci ich wrog\u00f3w tkwi\u0142y opowie\u015bci o uci\u0119tych g\u0142owach noszonych przez piktyjskich wojownik\u00f3w. Noszenie g\u0142\u00f3w pokonanych wrog\u00f3w dodawa\u0142o ich zdaniem odwagi i si\u0142y r\u00f3wnej bogom.",
+    "strategy": "Wojownicy piktyjscy to unikatowa jednostka Celt\u00f3w. \u015awietnie nadaje si\u0119 do wczesnych atak\u00f3w, skutecznie pustosz\u0105c ziemie nieprzyjaci\u00f3\u0142 dzi\u0119ki umiej\u0119tno\u015bci wykonania ruchu po pl\u0105drowaniu. Nale\u017cy tak\u017ce zauwa\u017cy\u0107, \u017ce ka\u017cdy zniszczony przez ni\u0105 oddzia\u0142 wroga daje ci punkty wiary.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Obr\u00f3bka br\u0105zu|Obr\u00f3bki br\u0105zu|Obr\u00f3bce br\u0105zu|Obr\u00f3bk\u0119 br\u0105zu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Premia obcego terytorium|Premii obcego terytorium|Premii obcego terytorium|Premi\u0119 obcego terytorium",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/foreign_lands_bonus.json"
+        },
+        {
+            "name": "Nie traci ruchu za pl\u0105drowanie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_movement_cost_to_pillage.json"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": 1,
+    "name": "Grasland",
+    "historical_info": "Grasland ist im Allgemeinen der Gel\u00e4ndetyp, der die meiste Nahrung produziert. St\u00e4dte, die in der N\u00e4he von Grasland gebaut werden, wachsen meist schneller als St\u00e4dte in anderem Gel\u00e4nde.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grasland.png",
+    "movement_cost": 1,
+    "combat_modifier": 0,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/jungle.json"
+        },
+        {
+            "name": "Sumpf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/marsh.json"
+        },
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "Pferde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+        },
+        {
+            "name": "Kohle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Vieh",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cattle.json"
+        },
+        {
+            "name": "Schafe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+        },
+        {
+            "name": "Stein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+        },
+        {
+            "name": "Gold",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+        },
+        {
+            "name": "Edelsteine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+        },
+        {
+            "name": "Marmor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+        },
+        {
+            "name": "Baumwolle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+        },
+        {
+            "name": "Wein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wine.json"
+        },
+        {
+            "name": "Kupfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+        },
+        {
+            "name": "Zitronen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/citrus.json"
+        },
+        {
+            "name": "Bison",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bison.json"
+        }
+    ]
+}

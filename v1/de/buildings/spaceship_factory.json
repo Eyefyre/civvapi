@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Raumschiff-Fabrik",
+    "game_info": "+50% Produktion beim Bau von Raumschiffteilen. Ben\u00f6tigt 1 Aluminium.Stadt ben\u00f6tigt eine Fabrik.",
+    "strategy": "Die Raumschiff-Fabrik steigert die Geschwindigkeit, mit der eine Stadt Raumschiffteile baut. Die Raumschiff-Fabrik ben\u00f6tigt eine Aluminium-Ressource und die Stadt muss vor dem Bau \u00fcber eine Fabrik verf\u00fcgen.",
+    "historical_info": "Raumschiffe sind wohl die kompliziertesten Objekte, die je von Menschen entwickelt wurden. Sie sind riesig und erfordern gro\u00dfe Mengen von Material allerh\u00f6chster Qualit\u00e4t sowie eine Konstruktionsgenauigkeit, die man nirgendwo sonst findet. Die Alpha-Centauri-Raumschiff-Fabriken haben die f\u00e4higsten Mitarbeiter der modernen Industrie. Viele Bautrupps wurden f\u00fcr die Kolonisierungsmission ausgew\u00e4hlt, was dazu beitr\u00e4gt, dass sie besonders engagiert und sorgf\u00e4ltig arbeiten. Die Schiffe m\u00fcssen absolut perfekt sein - eine einzige schlampig ausgef\u00fchrte Schwei\u00dfnaht oder die winzigste Delle in einer wichtigen Oberfl\u00e4che k\u00f6nnten dazu f\u00fchren, dass Hunderte Kolonisten sich Millionen Kilometer von zu Hause entfernt in einem besch\u00e4digten Transportmittel eingesperrt wiederfinden.",
+    "cost": {
+        "production": 360,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/raumschiff-fabrik.png",
+    "prereq_tech": {
+        "name": "Robotertechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/robotics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 3,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

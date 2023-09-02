@@ -1,0 +1,68 @@
+{
+    "id": 20,
+    "name": "Citadelle|Citadelles",
+    "game_info": "Une citadelle est une place forte qui ne peut \u00eatre construite que par un g\u00e9n\u00e9ral illustre, g\u00e9n\u00e9ralement pr\u00e8s d'une ville ou sur un morceau de terrain propice \u00e0 la d\u00e9fense. L'Acropole d'Ath\u00e8nes, en Gr\u00e8ce, est un exemple de citadelle imposante. De telles structures \u00e9taient presque impossibles \u00e0 attaquer de front, et pouvaient r\u00e9sister \u00e0 des si\u00e8ges extr\u00eamement longs avant de c\u00e9der. Vous pouvez construire une citadelle sur toute case situ\u00e9e \u00e0 l'int\u00e9rieur ou juste \u00e0 c\u00f4t\u00e9 de votre territoire. Une fois la citadelle construite, vos fronti\u00e8res culturelles s'\u00e9tendent d'une case, tout autour de la citadelle. Si la nouvelle fronti\u00e8re culturelle englobe des cases appartenant \u00e0 une autre civilisation, vous recevrez une p\u00e9nalit\u00e9 diplomatique. La puissance d\u00e9fensive de toute unit\u00e9 pr\u00e9sente sur cette case augmentera alors de 100%. De plus, toute unit\u00e9 ennemie qui termine son tour sur une case adjacente \u00e0 la citadelle perdra 30 PV (ces d\u00e9g\u00e2ts ne s'empilent pas avec d'autres citadelles).",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/citadelle|citadelles.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/grassland.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plains.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/desert.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/tundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [
+        {
+            "name": "Chevaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/horses.json"
+        },
+        {
+            "name": "Fer",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/iron.json"
+        },
+        {
+            "name": "Charbon",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/coal.json"
+        },
+        {
+            "name": "P\u00e9trole",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/oil.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/aluminum.json"
+        },
+        {
+            "name": "Uranium",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/uranium.json"
+        }
+    ],
+    "prereq_tech": null,
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

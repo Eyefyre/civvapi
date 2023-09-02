@@ -1,0 +1,46 @@
+{
+    "id": 12,
+    "name": "Camp",
+    "game_info": "Hunting wild animals is one of the first ways in which ancient Man harvested the resources of the world around him. A hunting camp allows access to deer, fur, truffles, and ivory resources.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/camp.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Ivory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/ivory.json"
+        },
+        {
+            "name": "Furs",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/furs.json"
+        },
+        {
+            "name": "Deer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/deer.json"
+        },
+        {
+            "name": "Truffles",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+        },
+        {
+            "name": "Bison",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bison.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Trapping",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/trapping.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

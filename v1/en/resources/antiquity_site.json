@@ -1,0 +1,27 @@
+{
+    "id": 36,
+    "name": "Antiquity Site",
+    "game_info": "When improved with an Archaeological Dig, an Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement.",
+    "historical_info": "Francis Bacon wrote in 1605 AD that \"antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.\" By definition, antiquities are objects from the past, ranging from simple arrowheads to artistic treasures. The sense that a lost civilization could be recovered by a systematic study of its relics and artifacts has driven amateur collectors and eminent scholars for generations to seek these out, dig these up, and preserve these in homes, universities and museums. This passion for collecting the leavings of the human past eventually gave rise to a new scholarly discipline - the field of archeology.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/antiquity_site.png",
+    "prereq_tech": {
+        "name": "Archaeology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Archaeological Dig",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/archaeological_dig.json"
+        }
+    ],
+    "terrains_found_on": []
+}

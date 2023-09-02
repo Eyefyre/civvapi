@@ -1,0 +1,27 @@
+{
+    "id": 11,
+    "name": "Cuirass\u00e9|Cuirass\u00e9s",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/battleship.png",
+    "game_info": "C'est la plus puissante unit\u00e9 navale de combat \u00e0 distance avant l'apparition du croiseur lance-missiles.",
+    "historical_info": "Les cuirass\u00e9s sont des navires de guerre imposants et lourdement arm\u00e9s de multiples canons de gros calibre. Ce sont les descendants directs des bateaux de l'\u00c2ge de la voile, \u00e9quip\u00e9s pour affronter les vaisseaux de guerre ennemis les plus importants. Avant l'apparition des appareils de guerre a\u00e9riens et des sous-marins, les cuirass\u00e9s r\u00e9gnaient sur les mers et pouvaient faire couler n'importe quelle embarcation ennemie. Leurs puissants canons peuvent \u00e9galement \u00eatre utilis\u00e9s comme pi\u00e8ces d'artillerie et tirer d'\u00e9normes missiles loin \u00e0 l'int\u00e9rieur des terres. En d\u00e9pit de leur taille, de leur vitesse, de leur blindage et de leur puissance de tir, les cuirass\u00e9s sont extr\u00eamement vuln\u00e9rables aux attaques a\u00e9riennes et \u00e0 celles des sous-marins. Lors de la bataille de Pearl Harbor, des chasseurs japonais provenant de porte-avions ont r\u00e9ussi \u00e0 faire couler quatre cuirass\u00e9s am\u00e9ricains et \u00e0 en endommager quatre autres. Apr\u00e8s cet \u00e9pisode, les Alli\u00e9s ont choisi d'utiliser des porte-avions pour les diff\u00e9rentes offensives maritimes et de n'utiliser les cuirass\u00e9s que pour bombarder les c\u00f4tes et escorter les porte-avions.",
+    "strategy": "Le cuirass\u00e9 est un navire de guerre extr\u00eamement puissant et disposant d'une puissance de combat rapproch\u00e9 et \u00e0 distance redoutable. Ses attaques ont une port\u00e9e de 3\u00a0cases, ce qui lui permet de bombarder les unit\u00e9s et les villes situ\u00e9es plusieurs cases \u00e0 l'int\u00e9rieur des terres. Sa capacit\u00e9 de tir indirect lui permet d'attaquer des cibles qu'il ne peut pas voir (tant que des unit\u00e9s alli\u00e9es, elles, peuvent les voir). Le cuirass\u00e9 est vuln\u00e9rable aux attaques des avions et des sous-marins.",
+    "movement": 5,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "\u00c9lectronique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/electronics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Tir indirect",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

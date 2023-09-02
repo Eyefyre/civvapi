@@ -1,0 +1,23 @@
+{
+    "id": 101,
+    "name": "Quinquereme",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/quinquereme.png",
+    "game_info": "Strong Ancient Era Naval Unit used to dominate the seas through melee attacks on naval units and cities. Only the Carthaginians may build it.",
+    "historical_info": "One of the many ship designs utilized by Carthage and Rome, the heavily-armed Quinquereme was among the most well known. These vessels took their name from the use of five rowers for each of the vertically aligned oars that were set in columns running down the sides of the ship. Although exact numbers are unknown, these heavy ships are thought to have carried several hundred men, both crew and soldiers alike. The Quinqueremes of Carthage were known to be of the highest quality construction, as the design is said to have originated among the North African naval engineers, only to be copied later by the Romans.",
+    "strategy": "Only the Carthaginians may build this unit. It is a stronger version of the Trireme, including in Combat Strength. Like the Trireme it is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Quinquereme cannot enter Deep Ocean tiles outside of the city borders.",
+    "movement": 4,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Sailing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cannot Enter Deep Ocean",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/cannot_enter_deep_ocean.json"
+        }
+    ]
+}

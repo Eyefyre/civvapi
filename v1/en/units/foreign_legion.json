@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "Foreign Legion",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Special Infantry Unit of the Modern Era. May only be received through adopting the Volunteer Army tenet of the Freedom Ideology. This Unit has a combat bonus outside of friendly territory but is otherwise very similar to Great War Infantry.",
+    "historical_info": "Established in 1831, the French Foreign Legion is a unique infantry unit in the French army. The legion was specifically created for foreign nationals who wished to fight for France. Famously courageous, totally indifferent to personal safety, the Foreign Legion have seen service in every French war since their inception. The unit has been highly romanticized - according to popular culture, it is a place where heartbroken men go to forget women and scoundrels go to escape justice. This may or may not be accurate, but whatever the case the Legion is a tough and very effective fighting force.",
+    "strategy": "The Foreign Legion is a special unit, only available through the Volunteer Army tenet of the Freedom Ideology. It receives a significant combat bonus when operating outside of home territory, making it an excellent unit to use to gain control of foreign lands.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Replaceable Parts",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Foreign Lands Bonus",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

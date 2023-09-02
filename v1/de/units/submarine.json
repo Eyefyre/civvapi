@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "name": "U-Boot",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/submarine.png",
+    "game_info": "Unsichtbar f\u00fcr alle Einheiten au\u00dfer Zerst\u00f6rern, Raketenkreuzern und anderen U-Booten, bis es angreift oder direkt neben einer anderen Einheit steht. Kann gro\u00dfen Schaden bei anderen Schiffen anrichten, wenn sie unbemerkt in Reichweite gelangen.",
+    "historical_info": "U-Boote aus der Zeit vor der atomaren Kriegsf\u00fchrung wurden haupts\u00e4chlich gegen Handelsschiffe eingesetzt, um die Versorgungskette des Gegners zu unterbrechen. Im Zweiten Weltkrieg waren U-Boote generell mit Torpedorohren an der L\u00e4ngsseite und m\u00f6glicherweise noch mit einem kleinen Deckgesch\u00fctz ausger\u00fcstet, mit dem Handelsschiffe versenkt werden konnten - solange nicht zur\u00fcckgeschossen wurde.Mit wenigen Ausnahmen griffen U-Boote keine feindlichen Marineeinheiten an. Ihre Aufgabe war es, Handelsschiffe zu versenken und anschlie\u00dfend schnell zu fl\u00fcchten, bevor sie von feindlichen Kriegsschiffen oder Flugzeugen entdeckt wurden. Bei Begegnungen mit Zerst\u00f6rern zogen U-Boote fast immer den K\u00fcrzeren. In beiden Weltkriegen standen deutsche U-Boote erschreckend kurz davor, das Vereinigte K\u00f6nigreich aufgrund von mangelnden Nahrungsmitteln zur Aufgabe zu zwingen - im Ersten Weltkrieg wurden 11 Millionen Tonnen Schiffsladung versenkt, im Zweiten 14 Millionen Tonnen, auf Kosten von insgesamt knapp 1.000 U-Booten.",
+    "strategy": "Das U-Boot ist eine auf das Abschie\u00dfen von Schiffen spezialisierte Marineeinheit. Es ist f\u00fcr die meisten Einheiten au\u00dfer Zerst\u00f6rern, Raketenkreuzern und anderen U-Booten unsichtbar, bis es angreift oder an andere Einheiten angrenzt. Das U-Boot kann sich durch Eis-Gel\u00e4ndefelder bewegen. Das U-Boot sollte eingesetzt werden, um feindliche Gew\u00e4sser auszukundschaften und feindliche Schiffe zu versenken, aber auch um eigene Schiffe vor feindlichen U-Boot-Angriffen zu sch\u00fctzen.",
+    "movement": 5,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "K\u00fchltechnik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/refrigeration.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ist unsichtbar (U-Boot)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/is_invisible_(submarine).json"
+        },
+        {
+            "name": "Kann U-Boote sehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Kann Eis-Gel\u00e4ndefelder betreten",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_enter_ice_tiles.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus bei Angriffen (75)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_when_attacking_(75).json"
+        }
+    ]
+}

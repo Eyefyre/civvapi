@@ -1,0 +1,48 @@
+{
+    "id": 17,
+    "name": "Filosofia|della Filosofia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/philosophy.png",
+    "era": "Epoca classica",
+    "cost": 175,
+    "civilopedia_entry": "La filosofia \u00e8 lo studio della realt\u00e0 e del posto occupato dall'uomo in essa. La parola deriva dal greco e significa \"amore della saggezza\". A differenza della religione, non cerca di definire o comprendere un qualche tipo di sistema soprannaturale: la filosofia semmai fa un passo indietro e si chiede se quel sistema esiste. La filosofia si occupa di logica, morale, osservazione della realt\u00e0, felicit\u00e0, vita, morte e di tutte le altre grandi domande.In genere si ritiene che i Greci siano gli inventori della filosofia occidentale. Nel VI secolo a.C. Talete di Mileto diede la prima spiegazione completamente naturale (cio\u00e8 senza influssi religiosi) dell'origine del mondo. La sua opinione era che tutto provenisse dall'acqua; questa teoria era basata sull'osservazione di fossili di animali marini nell'entroterra. Questo ragionamento non postula alcun intervento da parte di esseri soprannaturali, essendo il risultato della sola analisi di propriet\u00e0 naturali. I filosofi successivi avrebbero sviluppato questa teoria... tranne naturalmente quelli che scelsero di negare che esista qualcosa in assoluto, quelli che ritenevano che il mondo non \u00e8 altro che il riflesso di qualche altro posto e cos\u00ec via. Il problema dell'esame della realt\u00e0 \u00e8 che pi\u00f9 si guarda a fondo e pi\u00f9 le cose si fanno confuse.Al suo meglio, la filosofia fornisce gli strumenti per osservare e valutare il mondo, e riflettere su questioni che nessuno ha mai considerato prima. Come ogni altro strumento, la filosofia pu\u00f2 essere usata nel bene o nel male, ma se non altro cerca di fornire le strutture intellettuali necessarie per comprendere la differenza tra i due.",
+    "quote": "\"C'\u00e8 un solo bene, la conoscenza, e un solo male, l'ignoranza.\" - Socrate",
+    "tech_prereqs": [
+        {
+            "name": "Calendario|del Calendario",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/calendar.json"
+        },
+        {
+            "name": "Scrittura|della Scrittura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/writing.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teologia|della Teologia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/theology.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Moschea della Piramide di Fango|la Moschea della Piramide di Fango|una Moschea della Piramide di Fango",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/mud_pyramid_mosque.json"
+        },
+        {
+            "name": "Sepolcro|il Sepolcro|un Sepolcro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/burial_tomb.json"
+        },
+        {
+            "name": "Tempio|il Tempio|un Tempio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/temple.json"
+        },
+        {
+            "name": "College Nazionale|il College Nazionale|un College Nazionale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/national_college.json"
+        },
+        {
+            "name": "Oracolo|l'Oracolo|un Oracolo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/oracle.json"
+        }
+    ]
+}

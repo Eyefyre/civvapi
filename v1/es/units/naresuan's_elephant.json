@@ -1,0 +1,35 @@
+{
+    "id": 57,
+    "name": "Elefante Naresuan|Elefantes Naresuan",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/naresuan's_elephant.png",
+    "game_info": "Una poderosa unidad montada medieval, d\u00e9bil contra Piqueros. Solo los siameses pueden construirla. Esta unidad tiene una bonificaci\u00f3n contra otras unidades montadas y tiene m\u00e1s Fuerza de combate que el Caballero, al que sustituye.",
+    "historical_info": "En el sudeste asi\u00e1tico, los elefantes siguieron us\u00e1ndose para la guerra hasta la Edad Media. En Siam sobre todo, los elefantes de guerra eran muy apreciados, y los l\u00edderes sol\u00edan luchar montados en ellos. En 1593, una guerra entre Birmania y Siam termin\u00f3 con la victoria siamesa cuando Naresuan, rey de Siam, mat\u00f3 al pr\u00edncipe heredero birmano Minchit Sra en combate singular, montados en sendos elefantes.",
+    "strategy": "La unidad del Elefante de Naresuan es la unidad exclusiva siamesa que sustituye al Caballero y, aunque resulta m\u00e1s lenta que \u00e9ste, es m\u00e1s poderosa. Al igual que el Caballero, puede moverse despu\u00e9s de atacar. Al ir pertrechado con lanzas, el Elefante recibe una bonificaci\u00f3n importante al combate contra otras unidades montadas.",
+    "movement": 3,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Caballer\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Sin bonificaciones defensivas por terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Puede moverse despu\u00e9s de atacar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalizaci\u00f3n al atacar ciudades (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

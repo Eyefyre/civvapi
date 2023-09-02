@@ -1,0 +1,37 @@
+{
+    "id": 61,
+    "name": "P\u00e9nicilline",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/penicillin.png",
+    "era": "\u00c8re atomique",
+    "cost": 5100,
+    "civilopedia_entry": "Les p\u00e9nicillines sont des antibiotiques d\u00e9riv\u00e9s de certains champignons. Les antibiotiques combattent et \u00e9liminent les micro-organismes que sont les bact\u00e9ries, dont certaines (comme la peste, la syphilis et la l\u00e8pre, pour n'en citer que trois) sont particuli\u00e8rement nocives pour la sant\u00e9 et le bien-\u00eatre de l'homme. On pense que la premi\u00e8re utilisation d'une p\u00e9nicilline primitive remonterait au Moyen \u00c2ge, \u00e0 l'\u00e9poque o\u00f9 le pain moisi \u00e9tait utilis\u00e9 pour traiter les blessures infect\u00e9es. On doit la d\u00e9couverte scientifique des antibiotiques, en 1928, \u00e0 Alexander Fleming. La premi\u00e8re utilisation m\u00e9dicale de ces produits, \u00e0 l'initiative de Cecil George Paine, survint deux ans plus tard. Leur utilisation s'\u00e9tant activement r\u00e9pandue, certaines bact\u00e9ries ont d\u00e9velopp\u00e9 une tol\u00e9rance \u00e0 la p\u00e9nicilline. Ainsi, d'autres antibiotiques \u00e0 large spectre ont \u00e9t\u00e9 invent\u00e9s pour contrecarrer ces souches particuli\u00e8rement r\u00e9sistantes. Malgr\u00e9 cela, la p\u00e9nicilline et ses h\u00e9ritiers demeurent des armes pr\u00e9cieuses dans la lutte permanente qui opposent les chercheurs aux redoutables bact\u00e9ries.",
+    "quote": "\"L'homme n'est jamais tant l'\u00e9gal des dieux que lorsqu'il soigne l'homme.\" - Cic\u00e9ron",
+    "tech_prereqs": [
+        {
+            "name": "R\u00e9frig\u00e9ration",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/refrigeration.json"
+        },
+        {
+            "name": "Mati\u00e8res plastiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/plastics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u00c9cologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ecology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fusilier marin|Fusiliers marins",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/marine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratoire m\u00e9dical|Laboratoires m\u00e9dicaux",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/medical_lab.json"
+        }
+    ]
+}

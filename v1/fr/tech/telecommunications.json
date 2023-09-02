@@ -1,0 +1,49 @@
+{
+    "id": 69,
+    "name": "T\u00e9l\u00e9communications",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/telecommunications.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 7700,
+    "civilopedia_entry": "Les t\u00e9l\u00e9communications permettent la transmission de donn\u00e9es et d'informations \u00e0 longue distance, par l'utilisation de diff\u00e9rents types d'appareils \u00e0 signal. Les premi\u00e8res formes primitives de communications \u00e0 distance, notamment les signaux de fum\u00e9e et les drapeaux, finirent par c\u00e9der la place au t\u00e9l\u00e9graphe, puis au t\u00e9l\u00e9phone. La recherche scientifique et l'ing\u00e9nierie, particuli\u00e8rement au cours des 30\u00a0derni\u00e8res ann\u00e9es, a r\u00e9volutionn\u00e9 notre capacit\u00e9 \u00e0 communiquer sans limite. Les satellites en orbite permettent aujourd'hui de transmettre des donn\u00e9es partout dans le monde. Si la t\u00e9l\u00e9vision, Internet, les t\u00e9l\u00e9phones cellulaires et le GPS font aujourd'hui partie int\u00e9grante du quotidien de millions de personnes, c'est gr\u00e2ce aux recherches sur les t\u00e9l\u00e9communications.",
+    "quote": "\"Plus nous d\u00e9veloppons nos moyens de communication, moins nous communiquons.\" - J.B. Priestley",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9cologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ecology.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Internet",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_internet.json"
+        },
+        {
+            "name": "Mondialisation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/globalization.json"
+        },
+        {
+            "name": "Physique des particules",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Sous-marin nucl\u00e9aire|Sous-marins nucl\u00e9aires",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/nuclear_submarine.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Abri antia\u00e9rien|Abris antia\u00e9riens",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/bomb_shelter.json"
+        },
+        {
+            "name": "Tour CN|Tours CN",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/cn_tower.json"
+        },
+        {
+            "name": "Office national du tourisme|Offices nationaux du tourisme",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/national_visitor_center.json"
+        }
+    ]
+}

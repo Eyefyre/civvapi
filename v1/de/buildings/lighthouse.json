@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Leuchtturm",
+    "game_info": "+1 Nahrung von K\u00fcsten- und Ozean-Gel\u00e4ndefeldern. +1 Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden.Jede durch die Stadt genutzte Quelle von Fisch produziert +1 Nahrung.Die Stadt muss an der K\u00fcste liegen.",
+    "strategy": "Der Leuchtturm kann nur in St\u00e4dten gebaut werden, die direkt an ein K\u00fcsten-Gel\u00e4ndefeld angrenzen. Er steigert die Nahrungsproduktion von Wasser-Gel\u00e4ndefeldern und durch Fisch sowie die Produktion aller Meeresressourcen.",
+    "historical_info": "Seitdem der Mensch die Meere in Schiffen bereist, wurden Signale an der K\u00fcste errichtet, um Schiffe in den Hafen zu lenken und Kapit\u00e4ne vor gef\u00e4hrlichen Sandb\u00e4nken und Felsen zu warnen. Der \u00e4lteste bekannte Leuchtturm war der Leuchtturm von Alexandria. Er war auf der kleinen Insel Pharos direkt vor der K\u00fcste Alexandrias errichtet und stand \u00fcber Tausend Jahre, um zahllose Schiffe in den sicheren Hafen von Alexandria zu leiten.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/leuchtturm.png",
+    "prereq_tech": {
+        "name": "Optik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/optics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazooka|un Bazooka|dal tuo Bazooka|al tuo Bazooka|il tuo Bazooka|da un Bazooka",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Unit\u00e0 di epoca atomica che attacca a distanza ma dev'essere adiacente a un nemico per colpire.",
+    "historical_info": "\"Bazooka\" \u00e8 il termine generico che indica un'arma senza rinculo, trasportabile da un solo uomo e progettata per essere usata contro i veicoli corazzati nemici. Sviluppato inizialmente alla fine della Prima Guerra Mondiale dall'esercito statunitense, il bazooka usa un piccolo motore a razzo per sparare una granata esplosiva a carica cava. Insieme alle sue controparti inglese (PIAT) e tedesca (Panzerschreck), il bazooka conobbe una vasta diffusione durante la Seconda Guerra Mondiale. Man mano che la presenza di carri armati, semicingolati e altri veicoli corazzati si faceva sempre pi\u00f9 comune sul campo di battaglia, i soldati si trovarono di fronte alla necessit\u00e0 di rispondere velocemente alle situazioni, senza attendere l'arrivo di armi pesanti. Nelle mani di una squadra ben addestrata e disposta ad avvicinarsi ai carri nemici, il bazooka si dimostr\u00f2 un'arma devastante.",
+    "strategy": "Il Bazooka \u00e8 l'ultima unit\u00e0 a distanza che non \u00e8 anche un'arma d'assedio. Il suo raggio di fuoco \u00e8 di una sola casella, ma pu\u00f2 comunque infliggere gravi danni alle altre unit\u00e0 senza subirne. Questo ne fa un'ottima unit\u00e0 difensiva.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Fissione nucleare|della Fissione nucleare",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

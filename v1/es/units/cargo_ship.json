@@ -1,0 +1,23 @@
+{
+    "id": 123,
+    "name": "Barco de carga|Barcos de carga",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cargo_ship.png",
+    "game_info": "Funda rutas comerciales mar\u00edtimas que producen Oro entre dos civilizaciones. Si has construido un Granero o un Taller, tambi\u00e9n se pueden usar para repartir Alimentos o Producci\u00f3n dentro de tus fronteras.",
+    "historical_info": "Los barcos de carga son los que est\u00e1n pensados para transportar bienes y cargamento por agua. Los primeros registros que se tienen del comercio mencionan el env\u00edo de cargas por agua, y la arqueolog\u00eda muestra pruebas de la existencia de cargueros en los mares Mediterr\u00e1neo y Rojo a principios del primer milenio a. C. A medida que se realizaron viajes comerciales m\u00e1s largos, el dise\u00f1o de los cargueros se revis\u00f3 constantemente. Hacia el a\u00f1o 1550, la nao portuguesa y el gale\u00f3n espa\u00f1ol fueron los reyes del comercio internacional por mar. Con la llegada de la Industrializaci\u00f3n, la velocidad se fue volviendo cada vez m\u00e1s un factor a tener en cuenta, lo que culmin\u00f3 con la llegada de los cl\u00edpers de finales del siglo XIX. Hoy en d\u00eda, docenas de naves de carga especializadas recorren los oc\u00e9anos, desde barcos de contenedores a graneleros pasando por los grandes petroleros.",
+    "strategy": "Un Barco de carga te permite fundar una ruta comercial mar\u00edtima entre dos civilizaciones, que generar\u00e1 Oro tanto para el due\u00f1o como para la civilizaci\u00f3n de destino. Adem\u00e1s, tiene mucho mayor alcance que las Caravanas terrestres. Al construir un Granero o un Taller en la ciudad de origen tendr\u00e1s la posibilidad de enviar Alimentos o Producci\u00f3n entre tus propias ciudades. Una vez asignada a una ruta no podr\u00e1 defenderse, as\u00ed que aseg\u00farate de que el camino no es peligroso.",
+    "movement": 1,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n a vela",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/sailing.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Visibilidad limitada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/limited_visibility.json"
+        }
+    ]
+}

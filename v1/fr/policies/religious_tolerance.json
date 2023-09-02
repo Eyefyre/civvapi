@@ -1,0 +1,20 @@
+{
+    "id": 28,
+    "name": "Tol\u00e9rance religieuse",
+    "game_info": "Tol\u00e9rance religieuseLes villes pr\u00e9sentant une religion majoritaire obtiennent \u00e9galement un bonus de croyance du panth\u00e9on pour la deuxi\u00e8me religion la plus populaire.",
+    "historical_info": "La libert\u00e9 de culte est la politique adopt\u00e9e par un \u00e9tat qui n'impose aucune religion sp\u00e9cifique \u00e0 ses citoyens. Toutes les croyances sont tol\u00e9r\u00e9es, et chacun est libre de \"pr\u00eacher pour sa paroisse\". Si l'intention est noble, cette doctrine a tout de m\u00eame l'effet de limiter l'importance de toutes les religions au sein de la soci\u00e9t\u00e9. Dans les nations poss\u00e9dant une religion d'\u00c9tat, les individus \u00e0 la t\u00eate du culte concern\u00e9 disposent parfois d'un pouvoir immense (voir l'exemple de l'Iran actuel). Dans les nations ayant mis en place la libert\u00e9 de culte, toutes les religions sont trait\u00e9es sur le m\u00eame pied d'\u00e9galit\u00e9, et aucune ne peut devenir dominante.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/tol\u00e9rance_religieuse.png",
+    "required_policies": [
+        {
+            "name": "Religion organis\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Pi\u00e9t\u00e9",
+        "game_info": "La pi\u00e9t\u00e9 augmente la foi d'un empire.Adopter la pi\u00e9t\u00e9 diminue de moiti\u00e9 le temps n\u00e9cessaire \u00e0 la construction d'autels et de temples et d\u00e9bloque la Grande mosqu\u00e9e de Djenn\u00e9.L'adoption de toutes les doctrines de la pi\u00e9t\u00e9 entra\u00eene l'apparition d'un proph\u00e8te illustre et augmente de 3 points la culture g\u00e9n\u00e9r\u00e9e par les lieux saints.",
+        "prereq_era": null,
+        "historical_info": "La pi\u00e9t\u00e9 est la d\u00e9votion \u00e0 un syst\u00e8me sp\u00e9cifique de croyances religieuses ou spirituelles. Une personne \"pieuse\" est g\u00e9n\u00e9ralement consid\u00e9r\u00e9e comme \u00e9tant, litt\u00e9ralement, \"plus sainte que vous\". Cela signifie qu'elle se plie scrupuleusement aux pratiques dict\u00e9es par sa religion et accepte la plupart, voire l'int\u00e9gralit\u00e9, de ses pr\u00e9ceptes sans jamais les remettre en question."
+    }
+}

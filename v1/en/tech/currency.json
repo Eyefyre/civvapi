@@ -1,0 +1,44 @@
+{
+    "id": 19,
+    "name": "Currency",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/currency.png",
+    "era": "Classical Era",
+    "cost": 175,
+    "civilopedia_entry": "Currency is a remarkable innovation by which pieces of paper or small discs represent a certain amount of wealth and can be traded to others in return for goods and services. The earliest currencies were metal coins; these were worth whatever was the current value of the metal out of which they were carved. Later on, the currency itself might have little or no intrinsic value - on a desert island, a dollar bill is nothing more than a small rectangular piece of paper - but the currency's issuer (usually a government) assigned it a value, and as long as the issuer remained solvent, the currency was as good as gold, so to speak.In the 4th millennium BC, Ancient Egypt used gold bars of a set weight as currency; elsewhere in the Middle East copper ingots were similarly used. In many places in the world metal rings, bracelets and bangles (of gold, silver and jewels) served as both ornamentation and currency.Throughout history, forgers have always sought to create bogus replicas of the currency at hand. Forgers might create duplicate coins of inferior and cheaper metal than the legal tender, or they might \"shave\" a bit of metal off of a coin made of precious material. When paper money became the norm for currency the forgers quickly learned how to duplicate the size, color and feel of the paper and copy the pictures and writing on the bills. Forgers are so proficient that most modern currency now comes complete with many advanced security measures, and the time is not far away when each bill will have its own computer chip embedded in the paper.",
+    "quote": "\"Better is bread with a happy heart Than wealth with vexation.\" - Amenemope",
+    "tech_prereqs": [
+        {
+            "name": "Mathematics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/mathematics.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Guilds",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/guilds.json"
+        },
+        {
+            "name": "Civil Service",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Bazaar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/bazaar.json"
+        },
+        {
+            "name": "Mint",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/mint.json"
+        },
+        {
+            "name": "Market",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/market.json"
+        },
+        {
+            "name": "Petra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/petra.json"
+        }
+    ]
+}

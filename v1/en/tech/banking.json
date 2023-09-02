@@ -1,0 +1,52 @@
+{
+    "id": 34,
+    "name": "Banking",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/banking.png",
+    "era": "Renaissance Era",
+    "cost": 780,
+    "civilopedia_entry": "The first banks in history were probably religious temples, established around 3,000 BC. Actually, banks may predate money: the first deposits may very well have been in the form of grain. In 18th century BC Babylon, the great leader Hammurabi wrote laws regulating banks in his famous Code. The Greeks further advanced banking, and there are records of temples and other financial institutions making loans, accepting deposits, exchanging currency, and validating coins (to ensure that they're not forgeries). The Romans continued banking in the Greek model with some further improvements, but when the Roman Empire fell, so too did most of the banking institutions in Europe. Banks did not reappear in much of Europe until the Middle Ages, rediscovered by people looking for ways to fund the Crusades.Today, banks generally perform many of the same functions that they did in ancient Greece. They take in deposits of money, which they give back with interest when the depositor wants it. They loan out some of the money to borrowers, who pay them back (again with interest). They also exchange currency, issue checks, and so on.The value of banking in society is that it allows many people to pool their money to invest in big projects. Say I wanted to build a printing shop and the cost was 1000 pieces of gold, far more than I had available to me. Before banking the only people who might have been able to afford to back me were royalty and perhaps important members of the Church, and if they weren't interested, my project was going nowhere. Once banks were invented, however, I could go to a bank for a loan. If they decided that my project was reasonable and that I was of good character, I was golden.Without banks, it is extremely difficult for a single citizen of society to get much of anything done.",
+    "quote": "\"Happiness: a good bank account, a good cook and a good digestion.\" - Jean Jacques Rousseau",
+    "tech_prereqs": [
+        {
+            "name": "Education",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/education.json"
+        },
+        {
+            "name": "Chivalry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architecture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/architecture.json"
+        },
+        {
+            "name": "Economics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/economics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Satrap's Court",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/satrap's_court.json"
+        },
+        {
+            "name": "Bank",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/bank.json"
+        },
+        {
+            "name": "Forbidden Palace",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/forbidden_palace.json"
+        },
+        {
+            "name": "Constabulary",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/constabulary.json"
+        },
+        {
+            "name": "Hanse",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/hanse.json"
+        }
+    ]
+}

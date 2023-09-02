@@ -1,0 +1,33 @@
+{
+    "id": 72,
+    "name": "Sat\u00e9lites",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/satellites.png",
+    "era": "Era informaci\u00f3n",
+    "cost": 7700,
+    "civilopedia_entry": "La tecnolog\u00eda de sat\u00e9lites hace referencia al estudio y desarrollo de cuerpos orbitales artificiales, en contraposici\u00f3n a los naturales (como la Luna). Los sat\u00e9lites artificiales han sido una de las principales fuentes de inspiraci\u00f3n para los escritores de ciencia ficci\u00f3n de principios del siglo XX. El visionario Arthur C. Clarke ide\u00f3 una red de comunicaci\u00f3n global mediante sat\u00e9lites mucho antes de que tal ingenio fuese tecnol\u00f3gicamente factible.Los sat\u00e9lites quedaron relegados a las p\u00e1ginas de la ciencia ficci\u00f3n hasta 1957, a\u00f1o en que la Uni\u00f3n Sovi\u00e9tica consigui\u00f3 lanzar su primer sat\u00e9lite, el Sputnik 1. Aquello no solo demostr\u00f3 que era posible situar un objeto construido por el hombre en una \u00f3rbita continuada alrededor de la Tierra, sino que tambi\u00e9n supuso el comienzo de la carrera espacial entre los sovi\u00e9ticos y Estados Unidos. Posteriormente, tambi\u00e9n en 1957, se lanz\u00f3 el Sputnik 2 con el primer astronauta vivo, una perra llamada Laika. Un a\u00f1o despu\u00e9s, Estados Unidos lanz\u00f3 su primer sat\u00e9lite, el Explorer 1. A ra\u00edz de esta competitiva carrera se pusieron en \u00f3rbita miles de sat\u00e9lites especializados que actualmente sobrevuelan sus m\u00e1s de cincuenta pa\u00edses de origen. Dejando a un lado las evidentes aplicaciones militares y de espionaje, los sat\u00e9lites se utilizan entre otras cosas para la comunicaci\u00f3n global (al final resulta que Clarke ten\u00eda raz\u00f3n), navegaci\u00f3n y localizaci\u00f3n por GPS, estudios clim\u00e1ticos, observaci\u00f3n y retransmisi\u00f3n de programas. El mayor de todos los sat\u00e9lites que recorren actualmente la \u00f3rbita terrestre es la Estaci\u00f3n Espacial Internacional.",
+    "quote": "\"Y entonces, de alguna manera, de alg\u00fan nuevo modo, el cielo casi pareci\u00f3 extraterrestre.\" - Lyndon B. Johnson",
+    "tech_prereqs": [
+        {
+            "name": "Coheter\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Fusi\u00f3n nuclear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Cabina para Naves espaciales|Cabinas para Naves espaciales",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/ss_cockpit.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Telescopio espacial Hubble|Telescopios espaciales Hubble",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/hubble_space_telescope.json"
+        }
+    ]
+}

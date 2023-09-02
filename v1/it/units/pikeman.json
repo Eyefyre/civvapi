@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Picchiere|un Picchiere|dal tuo Picchiere|al tuo Picchiere|il tuo Picchiere|da un Picchiere",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Unit\u00e0 specializzata nel combattere Cavalieri e altre unit\u00e0 a cavallo.",
+    "historical_info": "Un picchiere \u00e8 una specie di lanciere meglio addestrato e corazzato, dotato di un'arma pi\u00f9 lunga e appuntita. A differenza della lancia, pi\u00f9 corta e leggera, la picca \u00e8 sempre utilizzata a due mani. Storicamente i picchieri sono stati pi\u00f9 efficaci contro la fanteria e la cavalleria, ma la mancanza di scudo li rendeva particolarmente vulnerabili al tiro degli arcieri.",
+    "strategy": "Il Picchiere \u00e8 un Lanciere pi\u00f9 potente. Come la sua controparte, riceve un bonus quando combatte contro nemici a cavallo, il che praticamente ne fa l'unica unit\u00e0 in grado di resistere alla carica di un Cavaliere. Il peggior incubo di un Cavaliere, in effetti, \u00e8 un Picchiere fortificato su terreno difensivo.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Pubblica amministrazione|della Pubblica amministrazione",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

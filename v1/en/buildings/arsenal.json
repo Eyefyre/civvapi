@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Arsenal",
+    "game_info": "City must have a Castle or Mughal Fort.",
+    "strategy": "The Arsenal is a mid-game military building that increases a city's Defense Strength by 9 and Hit Points by 25, making the city more difficult to capture. The city must possess a Castle before it can construct an Arsenal.",
+    "historical_info": "An arsenal is a larger and more extensive armory, containing an army's bigger and more dangerous weapons systems - tanks, artillery, high-explosive ammunition, and so forth. Arsenals are even more heavily-guarded than armories, since nobody wants anybody stealing a tank or an 88-mm explosive shell.",
+    "cost": {
+        "production": 300,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/arsenal.png",
+    "prereq_tech": {
+        "name": "Metallurgy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

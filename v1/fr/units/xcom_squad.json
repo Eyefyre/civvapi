@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "Escouade XCOM|Escouades XCOM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Unit\u00e9 d'infanterie futuriste capable d'atterrir en plein champ de bataille depuis l'autre bout du monde. L'escouade peut se d\u00e9placer et piller apr\u00e8s son atterrissage, mais ne peut pas s'engager au combat avant le tour suivant. [COLOR_CYAN]Bonne chance, commandant\u00a0!",
+    "historical_info": "Reconnaissant le danger potentiel que repr\u00e9sentent les robots g\u00e9ants, les extraterrestres et les autres menaces externes, le projet XCOM a vu le jour dans le but de prot\u00e9ger le monde des ennemis connus... et inconnus.",
+    "strategy": "L'escouade XCOM est une \u00e9quipe de soldats d'\u00e9lite utilisant les technologies mises au point dans le cadre du projet XCOM. Lorsque vous commencez le tour en territoire alli\u00e9, cette escouade peut \u00eatre parachut\u00e9e dans un rayon de 40\u00a0cases. D\u00e9ployez ces unit\u00e9s dans des zones o\u00f9 le niveau de danger est ali\u00e9nant.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotechnologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Mercure",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/skyranger.json"
+        }
+    ]
+}

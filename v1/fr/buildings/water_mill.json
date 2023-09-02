@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Moulin \u00e0 eau|Moulins \u00e0 eau",
+    "game_info": "La ville doit se situer pr\u00e8s d'une rivi\u00e8re.",
+    "strategy": "Le moulin \u00e0 eau ne peut \u00eatre construit que dans une ville situ\u00e9e pr\u00e8s d'une rivi\u00e8re. Il am\u00e9liore la production de nourriture de la ville o\u00f9 il se trouve.",
+    "historical_info": "Un moulin \u00e0 eau est une construction utilisant la force de l'eau pour moudre le grain et le transformer en farine. Le grain est vers\u00e9 entre deux pierres, dont une tourne lentement. Gr\u00e2ce \u00e0 ce proc\u00e9d\u00e9, les c\u00e9r\u00e9ales sont broy\u00e9es et r\u00e9duites \u00e0 l'\u00e9tat de farine. Autrefois, les moulins ne pouvaient fonctionner sans l'assistance d'un animal de trait ou d'un homme, contrairement aux moulins \u00e0 eau qui tournent \u00e0 la seule force... de l'eau ! Plus tard, c'est avec de la vapeur et de l'\u00e9lectricit\u00e9 que l'homme activa ses moulins, proc\u00e9d\u00e9s bien plus rentables et efficaces. Cependant, l'invention du moulin \u00e0 eau marqua un v\u00e9ritable tournant dans ce domaine.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/moulin_\u00e0_eau|moulins_\u00e0_eau.png",
+    "prereq_tech": {
+        "name": "La roue",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/the_wheel.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 2,
+        "faith": 0,
+        "happiness": 0
+    }
+}

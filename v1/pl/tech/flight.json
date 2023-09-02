@@ -1,0 +1,41 @@
+{
+    "id": 55,
+    "name": "Lot|Lotu|Lotowi|Lot",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/flight.png",
+    "era": "Epoka wsp\u00f3\u0142czesna|Epoki wsp\u00f3\u0142czesnej|Epoce wsp\u00f3\u0142czesnej|Epok\u0119 wsp\u00f3\u0142czesn\u0105",
+    "cost": 3100,
+    "civilopedia_entry": "Ludzie zawsze marzyli o podboju nieba. Lotnicze wizje Leonarda da Vinci s\u0105 doskonale znane, by\u0142o te\u017c wielu mniej znanych wizjoner\u00f3w. Pierwsi teoretycy przygl\u0105dali si\u0119 naturalnym w\u0142adcom przestworzy, ptakom, i tworzyli maszyny na\u015bladuj\u0105ce kszta\u0142t i ruch ich skrzyde\u0142 (ornitoptery). Lecz pierwsi konstruktorzy nie mieli materia\u0142\u00f3w, silnik\u00f3w i nie znali aerodynamiki, dlatego nie mogli zrealizowa\u0107 swych wizji.Aerodynamika by\u0142a przedmiotem bada\u0144 w XVI, XVII, XVIII i XIX wieku, zajmowali si\u0119 tym tacy genialni naukowcy jak da Vinci, Galileusz, Huygens, Newton, Bernoulli, Euler i Smeaton. W 1804 r. Anglik George Cayley wys\u0142a\u0142 w powietrze model szybowca, a w 1853 stworzy\u0142 model we w\u0142a\u015bciwych rozmiarach, kt\u00f3ry przeni\u00f3s\u0142 jego wo\u017anic\u0119, co by\u0142o pierwszym za\u0142ogowym lotem szybowca.W roku 1902 bracia Wright skonstruowali w\u0142asny szybowiec o zaawansowanej konstrukcji skrzyde\u0142. Nie uda\u0142o im si\u0119 znale\u017a\u0107 do\u015bwiadczonego producenta, kt\u00f3ry zaprojektowa\u0142by lekki silnik benzynowy wed\u0142ug ich specyfikacji, dlatego zaprojektowali i skonstruowali w\u0142asny. 17 grudnia 1903 r. maszyna Wright\u00f3w wzbi\u0142a si\u0119 w powietrze cztery razy, w najlepszej pr\u00f3bie przelecia\u0142a 279 metr\u00f3w. Lata po prze\u0142omie dokonanym przez braci Wright to czas szybkiego rozwoju techniki lotniczej. W 1908 Amerykanin Glenn Hammond Curtiss przelecia\u0142 ponad 1 kilometr, a w 1909 Francuz Louis Bleriot przelecia\u0142 przez Kana\u0142 La Manche.I wojna \u015bwiatowa to dalszy, dynamiczny rozw\u00f3j lotnictwa, szczeg\u00f3lnie wojskowego, w tym okresie powsta\u0142y my\u015bliwce i bombowce. Do roku 1920 piloci ju\u017c regularnie latali przez kontynenty, a w 1927 Charles Lindberg jako pierwszy pokona\u0142 Atlantyk w samotnym locie bez mi\u0119dzyl\u0105dowania. II wojna \u015bwiatowa przynios\u0142a gwa\u0142towny wzrost szybko\u015bci, zasi\u0119gu, niezawodno\u015bci i si\u0142y ra\u017cenia samolot\u00f3w, a pod koniec wojny pojawi\u0142y si\u0119 odrzutowce bojowe, bombowce lataj\u0105ce na wysokim pu\u0142apie i \u015bmig\u0142owce.Wsp\u00f3\u0142cze\u015bnie transport lotniczy to rzecz powszechna, podr\u00f3\u017c z USA do Chin \u2013 niemo\u017cliwa jeszcze 75 lat temu \u2013 obecnie jest tylko m\u0119cz\u0105ca. I cho\u0107 ataki terrorystyczne z 11 wrze\u015bnia 2001 roku uczyni\u0142y podr\u00f3\u017ce lotnicze troch\u0119 mniej bezpiecznymi, to codziennie miliony ludzi wci\u0105\u017c wsiadaj\u0105 na pok\u0142ady samolot\u00f3w. Lotnictwo na pewno nie zniknie.",
+    "quote": "\u201eAeronautyka nie by\u0142a przemys\u0142em, ani nauk\u0105. By\u0142a cudem.\u201d \u2013 Igor Sikorsky",
+    "tech_prereqs": [
+        {
+            "name": "Silnik parowy|Silnika parowego|Silnikowi parowemu|Silnik parowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/steam_power.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistyka|Balistyki|Balistyce|Balistyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/ballistics.json"
+        },
+        {
+            "name": "Elektronika|Elektroniki|Elektronice|Elektronik\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/electronics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Tr\u00f3jp\u0142aty|Tr\u00f3jp\u0142at\u00f3w|Tr\u00f3jp\u0142atom|Tr\u00f3jp\u0142aty",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/triplane.json"
+        },
+        {
+            "name": "Bombowiec z czas\u00f3w wlk. wojny|Bombowca z czas\u00f3w wlk. wojny|Bombowcowi z czas\u00f3w wlk. wojny|Bombowiec z czas\u00f3w wlk. wojny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/great_war_bomber.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Prora|Prory|Prorze|Pror\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/prora.json"
+        }
+    ]
+}

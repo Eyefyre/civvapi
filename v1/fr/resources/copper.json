@@ -1,0 +1,45 @@
+{
+    "id": 31,
+    "name": "Cuivre",
+    "game_info": null,
+    "historical_info": "Le cuivre, m\u00e9tal souple de couleur rouge\u00e2tre, est employ\u00e9 depuis des milliers d'ann\u00e9es pour toutes sortes d'usages\u00a0: armes, monnaie, jusqu'aux circuits \u00e9lectroniques et raccordements \u00e9lectriques actuels. Le cuivre poss\u00e8de de nombreux avantages sp\u00e9cifiques, l'un des plus notables \u00e9tant ses propri\u00e9t\u00e9s antimicrobiennes. Le cuivre est naturellement r\u00e9sistant \u00e0 de nombreuses formes de bact\u00e9ries, et c'est pour cela qu'il est utilis\u00e9 dans les plomberies et objets du quotidien fr\u00e9quemment en contact avec l'Homme, comme les poign\u00e9es de porte. Le cuivre est \u00e9galement tr\u00e8s utile pour cr\u00e9er des alliages avec d'autres m\u00e9taux. Combin\u00e9 avec de l'\u00e9tain, le cuivre forme un alliage connu sous le nom de bronze. Avec du zinc, on obtient du laiton, ou cuivre jaune.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cuivre.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine|Mines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prairie|Prairies",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/prairie|prairies.json"
+        },
+        {
+            "name": "Plaines|Plaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/plaines|plaine.json"
+        },
+        {
+            "name": "D\u00e9sert|D\u00e9serts",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/d\u00e9sert|d\u00e9serts.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        },
+        {
+            "name": "Neige",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/neige.json"
+        }
+    ]
+}

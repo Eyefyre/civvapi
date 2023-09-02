@@ -1,0 +1,35 @@
+{
+    "id": 13,
+    "name": "Zerst\u00f6rer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/destroyer.png",
+    "game_info": "Schnelles Schiff der sp\u00e4ten Spielphase, was es zu einem effektiven Aufkl\u00e4rer macht. Wird auch im Kampf gegen feindliche U-Boote eingesetzt. K\u00e4mpft als Marine-Nahkampfeinheit.",
+    "historical_info": "Ein Zerst\u00f6rer ist ein Schiff aus dem 20. Jahrhundert, das f\u00fcr Patrouille, Eskorte sowie als Luft- und U-Boot-Abwehr eingesetzt wird. Die ersten Zerst\u00f6rer waren leichte Schiffe, die sich gut f\u00fcr Ozeanfahrten eigneten, au\u00dfer sie hatten Begleitboote mit zus\u00e4tzlichem Kraftstoff an Bord. Im Zweiten Weltkrieg waren Zerst\u00f6rer schnell und beweglich und transportierten genug Waffen und Vorr\u00e4te f\u00fcr lange Missionen auf den Weltmeeren.Zu den Waffen der Zerst\u00f6rer geh\u00f6rten Flugabwehrgesch\u00fctze, leichte Schiffsabwehrraketen, Torpedos und Unterwasserbomben. Sie begleiteten oft Gruppen von Flugzeugtr\u00e4gern, patrouillierten die Gew\u00e4sser um die wertvollen und gro\u00dfen Schiffe, um U-Boote aufzusp\u00fcren, und boten auch Feuerschutz gegen Flugzeuge. Sie eskortierten Versorgungskonvois und bewachten zudem H\u00e4fen und K\u00fcsten. Der Dienst an Bord eines Zerst\u00f6rers im Zweiten Weltkrieg war eine gef\u00e4hrliche Aufgabe: W\u00e4hrend des Kriegs wurden \u00fcber 220 britische, amerikanische, australische und kanadische Zerst\u00f6rer versenkt, haupts\u00e4chlich durch Fliegerangriffe.",
+    "strategy": "Der Zerst\u00f6rer ist eine Marine-Nahkampfeinheit, die entwickelt wurde, um feindliche U-Boote aufzusp\u00fcren und zu zerst\u00f6ren und gleichzeitig Flugabwehrunterst\u00fctzung zu bieten. Oft dient diese Einheit als Eskorte f\u00fcr Einheiten zu Wasser, Schlachtschiffe und Flugzeugtr\u00e4ger, falls diese in Reichweite feindlicher Flugzeuge und U-Boote kommen. Er ist schnell und verf\u00fcgt \u00fcber eine Bef\u00f6rderung, mit der man eine gute Chance hat, sich zur\u00fcckzuziehen, bevor ein feindlicher Marine-Nahkampfangriff erfolgen kann.",
+    "movement": 6,
+    "cost": {
+        "production": 375,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Verbrennungsmotor",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/combustion.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Kann U-Boote sehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_see_submarines.json"
+        },
+        {
+            "name": "Abfangen (40)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(40).json"
+        },
+        {
+            "name": "Angriff gegen U-Boote (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/attack_vs_submarines_(100).json"
+        },
+        {
+            "name": "Vor Nahkampf zur\u00fcckziehen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/withdraw_before_melee.json"
+        }
+    ]
+}

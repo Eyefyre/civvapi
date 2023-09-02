@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Scuola pubblica|la Scuola pubblica|una Scuola pubblica",
+    "game_info": "+1 Scienza ogni 2 Cittadini nella citt\u00e0.La citt\u00e0 deve avere un'Universit\u00e0.",
+    "strategy": "La Scuola pubblica \u00e8 un edificio disponibile a met\u00e0 partita che aumenta notevolmente la Scienza in una citt\u00e0. Per costruire una Scuola pubblica la citt\u00e0 deve possedere gi\u00e0 un'Universit\u00e0 o un Wat.",
+    "historical_info": "Una scuola pubblica fornisce istruzione gratuita pre-universitaria a tutti i bambini di una nazione. Questo \u00e8 un concetto piuttosto avanzato. Per prima cosa la societ\u00e0 deve credere che lo studio sia importante e che educare le classi pi\u00f9 povere non costituisca una minaccia per la classe dominante. In secondo luogo, la societ\u00e0 dev'essere abbastanza ricca da consentire che i bambini delle famiglie povere non debbano lavorare per sopravvivere. Infine, la civilt\u00e0 dev'essere abbastanza illuminata da essere disposta a spendere una parte dei beni pubblici per fornire l'educazione. Oggi la maggior parte delle nazioni del mondo offre ai bambini un certo livello di educazione pubblica. Le prime scuole elementari pubbliche americane furono aperte durante l'era coloniale. La prima scuola superiore pubblica fu aperta a Boston nel 1821.",
+    "cost": {
+        "production": 300,
+        "faith": 200
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/scuola_pubblica|la_scuola_pubblica|una_scuola_pubblica.png",
+    "prereq_tech": {
+        "name": "Teoria scientifica|della Teoria scientifica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/scientific_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 3,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

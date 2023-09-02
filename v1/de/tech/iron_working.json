@@ -1,0 +1,49 @@
+{
+    "id": 21,
+    "name": "Eisenverarbeitung",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/iron_working.png",
+    "era": "Klassik",
+    "cost": 175,
+    "civilopedia_entry": "Eisenverarbeitung ist \u00e4lter als die Geschichte selbst: Das erste verarbeitete Eisen stammte vermutlich von Meteoriten. Wenn dieses n\u00fctzliche Material nicht zu finden war, suchten die V\u00f6lker der Antike wahrscheinlich woanders nach \u00e4hnlichen Materialen. Die Metallurgie - die Gewinnung von Metall aus Eisenerz - scheint im 12. Jahrhundert v. Chr. im Kaukasus, in Kleinasien oder vielleicht in Indien entwickelt worden zu sein. Die Produktion von Schmiedeeisen datiert in etwa auf das Jahr 1.000 v. Chr.Die \u00e4ltesten Beispiele f\u00fcr Objekte, die aus Meteor-Eisen gefertigt wurden, stammen aus dem alten \u00c4gypten und Sumer und datieren auf das Jahr 4.000 v. Chr. Eisen war zu dieser Zeit extrem selten und Historiker spekulieren, dass es als wertvoller als Gold erachtet wurde.Bis zum 12. Jahrhundert v. Chr. hatte Eisen Bronze als Material zur Herstellung von Werkzeugen und Waffen im \u00f6stlichen Mittelmeerraum gr\u00f6\u00dftenteils verdr\u00e4ngt. Das Eisen dieser Zeit war nicht besser als das Bronze, das es ersetzte, aber es gab reichere Vorkommen und es konnte an Orten gefunden werden, an denen Kupfer und Zinn nicht verf\u00fcgbar waren, was es wesentlich billiger machte.Das \"moderne\" Metall Stahl wurde zuerst in pr\u00e4historischer Zeit produziert, doch die Technologie, die zur Produktion gro\u00dfer Mengen n\u00f6tig war, lie\u00df bis zum 17. Jahrhundert n. Chr. auf sich warten. Seit Stahl billig und verf\u00fcgbar ist, hat es Eisen f\u00fcr die meisten Verwendungszwecke ersetzt.",
+    "quote": "\"Warte mit dem Schlagen nicht, bis das Eisen hei\u00df ist - erhitze es durch Zuschlagen.\" - William Butler Yeats",
+    "tech_prereqs": [
+        {
+            "name": "Bronzeverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Schwertk\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/swordsman.json"
+        },
+        {
+            "name": "Mohawk-Krieger",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/mohawk_warrior.json"
+        },
+        {
+            "name": "Legion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/legion.json"
+        },
+        {
+            "name": "Kris-K\u00e4mpfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/kris_swordsman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Heldenepos",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/heroic_epic.json"
+        },
+        {
+            "name": "Koloss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/colossus.json"
+        }
+    ]
+}

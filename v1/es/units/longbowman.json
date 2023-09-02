@@ -1,0 +1,27 @@
+{
+    "id": 61,
+    "name": "Saetero|Saeteros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longbowman.png",
+    "game_info": "Unidad de infanter\u00eda medieval de combate a distancia. Solo los ingleses pueden construirla. Esta unidad tiene 1 m\u00e1s de alcance que el Ballestero, al que sustituye.",
+    "historical_info": "El arco largo ingl\u00e9s apareci\u00f3 durante el siglo XII, cuando los ingleses se dispusieron a conquistar Gales. Estaba fabricado de madera de tejo o de olmo, y ten\u00eda hasta poco m\u00e1s de dos metros de largo (dependiendo de la altura y de la fuerza del arquero). Era muy dif\u00edcil de dominar, pero un arquero ingl\u00e9s bien entrenado pod\u00eda disparar m\u00e1s lejos, m\u00e1s r\u00e1pido y con m\u00e1s punter\u00eda que los ballesteros de su \u00e9poca. Sin embargo, para conseguir algo as\u00ed se requer\u00edan a\u00f1os de entrenamiento. A medida que la poblaci\u00f3n del pa\u00eds creci\u00f3, las tierras salvajes inglesas se convirtieron en cultivos. Las oportunidades de caza fueron desapareciendo y los campesinos libres ingleses se volvieron menos h\u00e1biles con el arco largo. Este hecho, m\u00e1s incluso que la llegada de la p\u00f3lvora, llev\u00f3 al declive del arquero ingl\u00e9s armado con arco largo.",
+    "strategy": "El Saetero es la unidad exclusiva inglesa que sustituye al Ballestero. Tiene mucho m\u00e1s alcance que \u00e9ste, lo que le permite atacar a enemigos que est\u00e9n hasta a tres hex\u00e1gonos de distancia y, normalmente, destruirlos antes de que puedan contraatacar. Al igual que otras unidades de combate a distancia, los Saeteros son vulnerables a los ataques cuerpo a cuerpo.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Maquinaria",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/machinery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Alcance",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/range.json"
+        }
+    ]
+}

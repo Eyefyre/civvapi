@@ -1,0 +1,23 @@
+{
+    "id": 137,
+    "name": "Oddzia\u0142 XCOM|Oddzia\u0142u XCOM|Oddzia\u0142owi XCOM|Oddzia\u0142 XCOM",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/xcom_squad.png",
+    "game_info": "Futurystyczna piechota mog\u0105ca wchodzi\u0107 do akcji praktycznie z drugiego kra\u0144ca \u015bwiata. Dru\u017cyna mo\u017ce po wyl\u0105dowaniu poruszy\u0107 si\u0119 i dokona\u0107 pl\u0105drowania, ale a\u017c do nast\u0119pnej tury nie mo\u017ce wej\u015b\u0107 do walki.[COLOR_CYAN]Powodzenia, dow\u00f3dco!",
+    "historical_info": "W obliczu potencjalnego zagro\u017cenia ze strony olbrzymich \u015bmierciobot\u00f3w, obcych i innych czynnik\u00f3w pozaziemskich powsta\u0142a Inicjatywa XCOM, maj\u0105ca chroni\u0107 ludzko\u015b\u0107 przed wrogami znanymi i nieznanymi.",
+    "strategy": "Oddzia\u0142 XCOM to elitarni \u017co\u0142nierze wyposa\u017ceni w technologie stworzone przez Inicjatyw\u0119 XCOM. Gdy zaczynaj\u0105 tur\u0119 na w\u0142asnym terytorium, mo\u017cna przerzuci\u0107 ich na odleg\u0142o\u015b\u0107 40 p\u00f3l. Wysy\u0142aj ich tam, gdzie poziom zagro\u017cenia jest nie z tego \u015bwiata.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Nanotechnologia|Nanotechnologii|Nanotechnologii|Nanotechnologi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nanotechnology.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Rangerzy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/skyranger.json"
+        }
+    ]
+}

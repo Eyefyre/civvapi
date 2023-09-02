@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "Cavalerie|Cavalerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cavalry.png",
+    "game_info": "Unit\u00e9 mont\u00e9e capable de tenir t\u00eate aux unit\u00e9s d'infanterie moderne.",
+    "historical_info": "A la fin du XIXe si\u00e8cle, les cavaliers europ\u00e9ens et am\u00e9ricains \u00e9taient \u00e9quip\u00e9s de fusils \u00e0 r\u00e9p\u00e9tition (armes \u00e0 la fois petites et s\u00fbres, capables de transporter de cinq \u00e0 quinze munitions pr\u00e9cises sur une distance d'environ quatre cent cinquante m\u00e8tres), ainsi que de pistolets et d'\u00e9p\u00e9es. Comme leur \u00e9quipement \u00e9tait nettement moins encombrant que celui des chevaliers et des lanciers d'autrefois, ces soldats mont\u00e9s \u00e9taient bien plus rapides et endurants que leurs pr\u00e9d\u00e9cesseurs. Si la charge de cavalerie d'antan \u00e9tait encore utilis\u00e9e en de rares occasions, la pr\u00e9cision et la cadence de tir am\u00e9lior\u00e9es de l'infanterie rendaient cette man\u0153uvre extr\u00eamement risqu\u00e9e. Lorsqu'ils faisaient face \u00e0 des fantassins, les cavaliers avaient pour habitude de descendre de cheval pour combattre, l'un d'entre eux surveillant quatre montures, tandis que les trois autres \u00e9changeaient des tirs avec l'ennemi.",
+    "strategy": "La cavalerie est une unit\u00e9 mont\u00e9e d\u00e9vastatrice contre les unit\u00e9s de combat rapproch\u00e9, les unit\u00e9s d'attaque \u00e0 distance et les armes de si\u00e8ge. Utilisez-la pour d\u00e9truire les arquebusiers, puis profitez de leur d\u00e9placement apr\u00e8s l'attaque pour traverser les lignes ennemies.",
+    "movement": 4,
+    "cost": {
+        "production": 225,
+        "faith": 450
+    },
+    "prereq_tech": {
+        "name": "Science militaire",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/military_science.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Aucun bonus de terrain d\u00e9fensif",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "D\u00e9placement possible apr\u00e8s attaque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "P\u00e9nalit\u00e9 (attaque de villes)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

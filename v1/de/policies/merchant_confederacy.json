@@ -1,0 +1,24 @@
+{
+    "id": 43,
+    "name": "Handelsbund",
+    "game_info": "Handelsbund+2 Gold f\u00fcr Handelswege mit Stadtstaaten.",
+    "historical_info": "Ein Handelsbund, oft auch bekannt als Handelsgilde, wird gegr\u00fcndet, um wirtschaftliche Interessen und diplomatische Privilegien von H\u00e4ndlern in St\u00e4dten und entlang Handelsrouten zu sch\u00fctzen. Auch wenn diese Zusammenschl\u00fcsse von H\u00e4ndlern keinen offiziellen Rang hatten, hatten einige von ihnen - etwa die Company of Merchant Adventurers of London (gegr\u00fcndet 1407) oder die noch m\u00e4chtigere Hanse (offiziell entstanden um das Jahr 1356) - erheblichen wirtschaftlichen Einfluss und beherrschten bestimmte Handelsrouten f\u00fcr lange Zeitr\u00e4ume. In der fr\u00fchen Renaissance wurden Handelsb\u00fcnde in Stadtstaaten wie Venedig und Genua gegr\u00fcndet, um die Interessen von H\u00e4ndlern bestimmter M\u00e4rkte zu sch\u00fctzen, w\u00e4hrend diese au\u00dfer Landes waren. Diese Handelsb\u00fcnde erreichten ihre Bl\u00fctezeit w\u00e4hrend des 15. und 16. Jahrhunderts, verloren danach jedoch zunehmend an Einfluss, als nationale Regierungen und von der Krone verbriefte Firmen die Regulierungen und diplomatischen Verantwortungen \u00fcbernahmen, die zuvor von den B\u00fcnden gehalten worden waren.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/handelsbund.png",
+    "required_policies": [
+        {
+            "name": "Scholastik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/scholasticism.json"
+        },
+        {
+            "name": "Konsulate",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/consulates.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Patronat",
+        "game_info": "Patronat erh\u00f6ht die Vorteile der Freundschaft zwischen Stadtstaaten.Durch das Patronat sinkt der Einfluss auf Stadtstaaten 25% langsamer als normalerweise. Schaltet den Bau der Verbotenen Stadt frei.Bei \u00dcbernahme aller Politiken im Patronat-Zweig schenken Euch verb\u00fcndete Stadtstaaten von Zeit zu Zeit Gro\u00dfe Pers\u00f6nlichkeiten.",
+        "prereq_era": "Klassik",
+        "historical_info": "Das Patronat ist eine Politik, bei der die Reichen und M\u00e4chtigen - oft der Adel - die talentierten K\u00fcnstler in der Gesellschaft unterst\u00fctzen. In vielen alten Gesellschaften war Reichtum auf einen sehr kleinen Personenkreis beschr\u00e4nkt, zu dem beispielsweise die Familie des K\u00f6nigs oder seine Kaufleute geh\u00f6rten. Maler, Bildhauer, Musiker und andere talentierte K\u00fcnstler arbeiteten f\u00fcr die Elite, da nur diese es sich leisten konnte, Werke bei ihnen in Auftrag zu geben. Auch wenn es f\u00fcr gew\u00f6hnliche Leute etwas unfair sein mag, hat dieses System beispielsweise die brillanten Werke von K\u00fcnstlern wie Leonardo da Vinci, Ben Jonson oder Mozart hervorgebracht. Heute erlebt das System so etwas wie eine kleine Renaissance, wobei der Patron heute zumeist keine einzelne Person, sondern ein gro\u00dfer Konzern ist."
+    }
+}

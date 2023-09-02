@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Windm\u00fchle",
+    "game_info": "+10% Produktion bei der Errichtung von Geb\u00e4uden.Die Stadt darf nicht auf H\u00fcgeln erbaut sein.",
+    "strategy": "Die Windm\u00fchle ist ein Geb\u00e4ude aus der Renaissance, das die Produktion einer Stadt bei der Errichtung von Geb\u00e4uden erh\u00f6ht. St\u00e4dte, die auf H\u00fcgeln errichtet wurden, k\u00f6nnen keine Windm\u00fchlen bauen.",
+    "historical_info": "Windm\u00fchlen sind Geb\u00e4ude, die Windenergie verwenden, um unterschiedliche Aufgaben auszuf\u00fchren. Fr\u00fcher wurden sie benutzt, um Getreidem\u00fchlen anzutreiben, doch manche wurden auch f\u00fcr S\u00e4gem\u00fchlen oder Wasserpumpen bei Brunnen verwendet. Windgetriebene Maschinen gibt es schon seit \u00fcber 2.000 Jahren. Zum ersten Mal erw\u00e4hnt werden sie im 1. Jahrhundert n. Chr. bei Heron von Alexandria, der eine Windorgel baute. Windgetriebene M\u00fchlen f\u00fcr Getreide wurden wahrscheinlich um das 8. Jahrhundert n. Chr. in Zentralasien erfunden.",
+    "cost": {
+        "production": 250,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/windm\u00fchle.png",
+    "prereq_tech": {
+        "name": "Wirtschaftswesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/economics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

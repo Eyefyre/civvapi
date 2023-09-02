@@ -1,0 +1,18 @@
+{
+    "id": 52,
+    "name": "Longswordsman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/longswordsman.png",
+    "game_info": "Powerful Medieval infantry Unit.",
+    "historical_info": "The longsword was the most versatile weapon of the Medieval/Renaissance battlefield. It was lighter and easier to carry than a pike, and it could be used one or two-handed, making it possible for the swordsman to also carry a shield. In face-to-face combat against pikemen the longswordsmen were at a significant disadvantage, taking many casualties from the longer weapons before they could even get within striking distance. However, longswordsmen units were faster and more maneuverable than pikemen - and if they could hit their opponents in a flank attack, the pikemen were dead meat.",
+    "strategy": "The Longswordsman is the standard medieval infantry combat unit. It is more powerful than the Knight, but much slower. It also outclasses the Pikeman, but doesn't receive that unit's bonus versus mounted units. Use Longswordsmen and Catapults to attack enemy cities.",
+    "movement": 2,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Steel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/steel.json"
+    },
+    "free_promotions": []
+}

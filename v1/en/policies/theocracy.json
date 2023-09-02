@@ -1,0 +1,20 @@
+{
+    "id": 78,
+    "name": "Theocracy",
+    "game_info": "TheocracyTemples increase a city's Gold output by 25%. Holy Sites provide +3 Gold.",
+    "historical_info": "In a theocratic state, the religious leaders hold ultimate power in the country. Actually, the religion's god is in power, and he or she rules through divine guidance of the religious leaders. Theocracies are often militaristic, as the religious leaders see the country's army as a tool to spread the religion to other heathen states. Modern theocracies seem to often fear and hate progress, seeing modern luxuries and advancements as threats to the nation's piety (and perhaps to their power).",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/theocracy.png",
+    "required_policies": [
+        {
+            "name": "Organized Religion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/organized_religion.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Piety",
+        "game_info": "Piety increases the Faith of empires.Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 Culture.",
+        "prereq_era": null,
+        "historical_info": "Piety means the devotion to a specific religion or spiritual belief system. A \"pious\" person is generally considered to be (literally) \"holier than thou,\" closely following his or her religion's practices and accepting most or all of its tenets without question."
+    }
+}

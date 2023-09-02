@@ -1,0 +1,41 @@
+{
+    "id": 16,
+    "name": "Bauwesen",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/construction.png",
+    "era": "Klassik",
+    "cost": 105,
+    "civilopedia_entry": "Das Bauwesen stellt die Fortschritte in der Lehre der Steinmetzkunst dar, vor allem durch Hinzuf\u00fcgen von Werkstoffen wie Eisen und anderen Metallen. Auch wenn Stein und Ziegel erstaunlich langlebig sind, sind sie au\u00dferdem recht schwer und steif. Es ist unm\u00f6glich, sehr gro\u00dfe Bauten aus diesen Materialien zu errichten - sofern das Bauwerk nicht solide und pyramidenf\u00f6rmig ist - da es entweder unter dem eigenen Gewicht oder durch Wind bedingt einst\u00fcrzen kann.Bauwerke aus Metall oder durch Metall verst\u00e4rkte Steinmetzkunst hingegen k\u00f6nnen recht hoch hinaus gebaut werden und sind dabei sowohl sch\u00f6n als auch stabil. Mit Metall k\u00f6nnen Schwebebr\u00fccken, tiefe Tunnel, gro\u00dfe Wolkenkratzer und erh\u00f6hte Stra\u00dfen konstruiert werden. Ohne Bauwesen w\u00fcrden weder die gro\u00dfen St\u00e4dte der Welt noch sch\u00f6ne Architektur existieren.",
+    "quote": "\"Drei Dinge (...) sind bei einem Geb\u00e4ude zu beachten: dass es am rechten Fleck stehe, dass es wohl gegr\u00fcndet, dass es vollkommen ausgef\u00fchrt sei.\" - Johann Wolfgang von Goethe",
+    "tech_prereqs": [
+        {
+            "name": "Steinmetzkunst",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/masonry.json"
+        },
+        {
+            "name": "Das Rad",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Maschinenbau",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kompositbogensch\u00fctze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/composite_bowman.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Kolosseum",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/colosseum.json"
+        },
+        {
+            "name": "Terrakottaarmee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/terracotta_army.json"
+        }
+    ]
+}

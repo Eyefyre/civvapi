@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Missilistica|della Missilistica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "Epoca atomica",
+    "cost": 6400,
+    "civilopedia_entry": "Ancora oggi non \u00e8 chiaro quando si sia verificato il primo caso di volo sospinto da razzi, anche se in genere si ritiene che sia avvenuto da qualche parte in Cina intorno al 1230 d.C., durante un'operazione militare. Il primo volo di cui si hanno notizie certe avvenne sempre in Cina, ma nel 1264, all'interno di uno spettacolo pirotecnico con fuochi d'artificio a combustione interna. Questi primi razzi utilizzavano combustibile solido, in genere polvere da sparo, e non potevano arrivare molto lontano (la gittata massima era forse di 600 metri).L'invenzione della moderna missilistica pu\u00f2 essere attribuita direttamente al professor Robert Goddard, che postul\u00f2 che il combustibile avrebbe dovuto essere fatto bruciare in una piccola camera di combustione separata, che il razzo avrebbe dovuto essere costruito in pi\u00f9 stadi e che la velocit\u00e0 di espulsione si sarebbe potuta incrementare utilizzando uno speciale ugello a forma di clessidra chiamato ugello di De Laval. Fino a quel momento, infatti, i razzi bruciavano tutto il loro combustibile in un'unica grossa camera e non erano in grado di andare particolarmente veloci o di coprire distanze intercontinentali.I razzi attualmente in uso di solito sfruttano una mistura di carburanti liquidi in grado di far accelerare il razzo a velocit\u00e0 ipersoniche, ottenendo un ottimo risultato a costi relativamente bassi. A parte gli ovvi usi militari per la propulsione di testate sulle lunghe distanze, i razzi sono usati anche per i fuochi d'artificio, i sedili eiettabili, le ricerche scientifiche sull'atmosfera e, ovviamente, per il volo spaziale.",
+    "quote": "\"Una buona regola di base per chi fa esperimenti con i razzi \u00e8 la seguente: dai sempre per scontato che esploder\u00e0.\" - Rivista di astronautica, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar|del Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Balistica avanzata|della Balistica avanzata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Satelliti|dei Satelliti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/satellites.json"
+        },
+        {
+            "name": "Robotica|della Robotica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "SAM mobile|un SAM mobile|dal tuo SAM mobile|al tuo SAM mobile|il tuo SAM mobile|da un SAM mobile",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/mobile_sam.json"
+        },
+        {
+            "name": "Artiglieria lanciarazzi|un'Artiglieria lanciarazzi|dalla tua Artiglieria lanciarazzi|alla tua Artiglieria lanciarazzi|la tua Artiglieria lanciarazzi|da un'Artiglieria lanciarazzi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

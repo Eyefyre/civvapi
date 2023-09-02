@@ -1,0 +1,40 @@
+{
+    "id": 20,
+    "name": "Maschinenbau",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/engineering.png",
+    "era": "Klassik",
+    "cost": 175,
+    "civilopedia_entry": "Maschinenbau ist die Wissenschaft (oder vielleicht Kunst), komplexe Materialien, Bauten, Ger\u00e4te und Systeme zu entwickeln. Im modernen Sprachgebrauch sind Ingenieure in weiten Bereichen t\u00e4tig - Bio-Ingenieure entwickeln Zellen, Softwareingenieure erschaffen Computerprogramme etc. - aber historisch gesehen waren Ingenieure Leute, die physische Sachen wie Maschinen, Br\u00fccken, Eisenbahnen, Fabriken usw. gebaut haben. Urspr\u00fcnglich bezog sich der Begriff Ingenieur auf jemanden, der milit\u00e4rische Maschinen entwickelte.Die Ingenieurwissenschaft kam im 19. Jahrhundert auf, als L\u00e4nder \u00fcberall auf der Welt gewaltige Bauprojekte verfolgten. Der Suezkanal, der 1869 von den Franzosen fertiggestellt wurde, verband das Mittelmeer mit dem Roten Meer, was es erm\u00f6glichte, von Europa nach Indien zu segeln, ohne die lange und anstrengende Reise rund um Afrika antreten zu m\u00fcssen. Die USA stellten im gleichen Jahr die transkontinentale Eisenbahn fertig und die Brooklyn Bridge wurde 1883 gebaut.",
+    "quote": "\"Die mechanische Wissenschaft ist die edelste und von allen die n\u00fctzlichste Wissenschaft.\" - Leonardo da Vinci",
+    "tech_prereqs": [
+        {
+            "name": "Mathematik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mathematics.json"
+        },
+        {
+            "name": "Bauwesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/construction.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Metallguss",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+        },
+        {
+            "name": "Maschinen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/machinery.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Gro\u00dfe Mauer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/great_wall.json"
+        },
+        {
+            "name": "Aqu\u00e4dukt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/aqueduct.json"
+        }
+    ]
+}

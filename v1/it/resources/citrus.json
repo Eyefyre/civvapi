@@ -1,0 +1,33 @@
+{
+    "id": 35,
+    "name": "Agrumi",
+    "game_info": null,
+    "historical_info": "Gli agrumi, e in particolare arance, lime e pompelmi, hanno fatto parte della dieta degli uomini fin dai tempi antichi. Originariamente coltivate nelle regioni del sud-est asiatico, le varie piante del genere Citrus si sono successivamente diffuse nelle nazioni di tutto il mondo. A partire dal XV secolo lo scorbuto, una carenza patologica di vitamina C tipica di chi va per mare, rappresent\u00f2 un grave problema che continu\u00f2 a tormentare le navi per tutta l'epoca delle grandi scoperte, finch\u00e9 nel Settecento non vennero introdotti trattamenti a base di succo di lime e crauti. Sebbene la maggior parte dei marinai credesse che fosse l'acido contenuto negli agrumi a prevenire la malattia, anzich\u00e9 la vitamina com'\u00e8 in realt\u00e0, il consumo di agrumi ebbe comunque come risultato equipaggi in buona salute.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/agrumi.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Piantagione|una Piantagione|una Piantagione",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 47,
+    "name": "Dzia\u0142a|Dzia\u0142|Dzia\u0142om|Dzia\u0142a",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/cannon.png",
+    "game_info": "Pot\u0119\u017cna jednostka obl\u0119\u017cnicza z epoki renesansu. Przed rozpocz\u0119ciem ostrza\u0142u trzeba je rozstawi\u0107.",
+    "historical_info": "Dzia\u0142o to bro\u0144 o wygl\u0105dzie wielkiej rury. Potrzebuje prochu lub innych materia\u0142\u00f3w wybuchowych, by wystrzeliwa\u0107 pociski z du\u017c\u0105 pr\u0119dko\u015bci\u0105. Wynaleziono je w Chinach, w XII wieku n.e. Jako pierwsi zacz\u0119li z niego korzysta\u0107 Mongo\u0142owie, kt\u00f3rzy u\u017cyli go ze \u015bwietnym skutkiem w Chinach i Korei. Prawdopodobnie to za ich spraw\u0105 dzia\u0142o zacz\u0119li stosowa\u0107 muzu\u0142manie. Od nich z kolei przej\u0119li je Europejczycy. Pierwsze egzemplarze by\u0142y bardzo du\u017ce i wysoce niebezpieczne w u\u017cyciu. Cz\u0119ste by\u0142y przypadki eksplozji dzia\u0142a w trakcie wystrza\u0142u. W czasach renesansu dzi\u0119ki rozwojowi metalurgii dzia\u0142a uda\u0142o si\u0119 jednak zminiaturyzowa\u0107 i uczyni\u0107 bezpieczniejszymi. Co wi\u0119cej, mog\u0142y by\u0107 ci\u0105gni\u0119te przez konie oraz montowane na okr\u0119tach.Rewolucyjne zmiany w u\u017cywaniu tej broni wprowadzi\u0142 szwedzki kr\u00f3l Gustaw Adolf. To dzi\u0119ki niemu rozpocz\u0119to masow\u0105 produkcj\u0119 mniejszej i l\u017cejszej broni artyleryjskiej. Upowszechni\u0142 on r\u00f3wnie\u017c stosowanie amunicji od\u0142amkowej przeciwko piechocie, za co z pewno\u015bci\u0105 zyska\u0142 wieczn\u0105 nienawi\u015b\u0107 \u017co\u0142nierzy tej formacji.",
+    "strategy": "Dzia\u0142a to wa\u017cna jednostka obl\u0119\u017cnicza z \u015brodkowej cz\u0119\u015bci gry, niszczycielska przeciwko cywilizacjom, kt\u00f3re jeszcze jej nie posiadaj\u0105. Podobnie jak inne jednostki obl\u0119\u017cnicze, dzia\u0142a musz\u0105 wyda\u0107 1 punkt ruchu na rozstawienie si\u0119, zanim zaatakuj\u0105. Dzia\u0142a zachowaj\u0105 pe\u0142ni\u0119 swojego potencja\u0142u tak\u017ce w epoce przemys\u0142owej. Maj\u0105 mniejszy zasi\u0119g widzenia od innych jednostek i powinny by\u0107 chronione przez jednostki piechoty.",
+    "movement": 2,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Chemia|Chemii|Chemii|Chemi\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chemistry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

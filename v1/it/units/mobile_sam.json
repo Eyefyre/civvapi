@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "SAM mobile|un SAM mobile|dal tuo SAM mobile|al tuo SAM mobile|il tuo SAM mobile|da un SAM mobile",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "Unit\u00e0 in grado di intercettare gli apparecchi nemici che cercano di bombardare le unit\u00e0 vicine.",
+    "historical_info": "Man mano che gli elicotteri si sono evoluti, trasformandosi in efficienti macchine di morte, la fanteria ha dovuto sviluppare a sua volta armi in grado di combatterne la minaccia crescente - per tacere del pericolo rappresentato dai caccia a reazione. I SAM moderni (\"Surface-to-Air Missiles\", cio\u00e8 missili terra-aria) sono veloci, leggeri e sono dotati di un radar che permette loro di \"agganciare\" un apparecchio nemico e seguirlo fino all'impatto, esplodendo violentemente e infliggendo danni letali agli aerei ed elicotteri pi\u00f9 fragili. Per minimizzare i rischi sono stati sviluppati veicoli stealth e tecnologie che possono confondere elettronicamente i sistemi di puntamento. Nonostante questo i SAM rappresentano sempre un grande pericolo per i nemici in aria, offrendo alle truppe a terra una buona protezione da qualsiasi attacco proveniente dal cielo.",
+    "strategy": "Le unit\u00e0 di SAM mobili (missili terra-aria) forniscono difesa antiaerea a un esercito in avanzata. I SAM possono intercettare e abbattere i bombardieri nemici in un raggio di 2 esagoni (ma solo un apparecchio al turno). Sono abbastanza vulnerabili agli attacchi da terra e devono essere protetti con fanteria o carri armati.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Missilistica|della Missilistica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Intercettazione (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contro unit\u00e0 volanti ed elicotteri (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

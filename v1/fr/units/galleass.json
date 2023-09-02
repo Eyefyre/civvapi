@@ -1,0 +1,27 @@
+{
+    "id": 111,
+    "name": "Gal\u00e9asse|Gal\u00e9asses",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/galleass.png",
+    "game_info": "Unit\u00e9 navale du Moyen \u00c2ge habitu\u00e9e \u00e0 contr\u00f4ler les mers gr\u00e2ce \u00e0 ses attaques \u00e0 distance.",
+    "historical_info": "La gal\u00e9asse est un navire de guerre dont la popularit\u00e9 a culmin\u00e9 au cours du XVIe si\u00e8cle, quand un mod\u00e8le de gal\u00e8re fut modifi\u00e9 afin d'y inclure un arsenal cons\u00e9quent. En g\u00e9n\u00e9ral, il s'agissait d'un vaisseau marchand dot\u00e9 de rames auquel on adjoignait ensuite des m\u00e2ts et des voilures. Gr\u00e2ce \u00e0 ces deux formes de propulsion combin\u00e9es, les gal\u00e9asses parvenaient \u00e0 atteindre la vitesse l\u00e9gendaire des gal\u00e8res traditionnelles, tout en disposant d'impressionnantes pi\u00e8ces d'artillerie, aptes \u00e0 couler n'importe quel assaillant.",
+    "strategy": "La gal\u00e9asse est g\u00e9n\u00e9ralement la premi\u00e8re unit\u00e9 navale d'attaque \u00e0 distance disponible au cours d'une partie. Plus r\u00e9sistante que les unit\u00e9s navales pr\u00e9c\u00e9dentes, mais un peu plus lente, elle n'est pas con\u00e7ue pour le combat rapproch\u00e9. La gal\u00e9asse est utile pour couler les navires ennemis en eaux peu profondes. Elle ne peut pas se d\u00e9placer sur les cases d'oc\u00e9an, \u00e0 moins qu'elle ne vienne de Polyn\u00e9sie.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Boussole",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/compass.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Oc\u00e9an inaccessible",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/cannot_enter_deep_ocean.json"
+        },
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

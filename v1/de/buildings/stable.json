@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Stallungen",
+    "game_info": "+15% Produktion beim Bau von berittenen Einheiten.Jede von dieser Stadt genutzte Quelle von Pferden, Schafen und Vieh erzeugt +1 Produktion.Die Stadt ben\u00f6tigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.",
+    "strategy": "Stallungen k\u00f6nnen nur in St\u00e4dten gebaut werden, die \u00fcber eine oder mehrere verbesserte Pferde-, Schafe- oder Vieh-Ressourcen in der N\u00e4he verf\u00fcgen. Stallungen beschleunigen die Produktion von berittenen Einheiten.",
+    "historical_info": "In Civilization V sind Stallungen Milit\u00e4rkasernen f\u00fcr Kavallerieeinheiten. Hier werden die Soldaten der Kavallerie ebenso untergebracht, versorgt und ausgebildet wie ihre vierbeinigen Kameraden. F\u00fcr lange Zeit in der Geschichte war die Kavallerie der Teil des Milit\u00e4rs, der von den wohlhabenden S\u00f6hnen der Gesellschaft bevorzugt wurde. Dies lag einfach daran, dass nur die reichen jungen M\u00e4nner jemals auf einem Pferd gesessen hatten. Daher waren die Stallungen bzw. Kasernen der Kavallerie oft wesentlich luxuri\u00f6ser als die einfachen Unterk\u00fcnfte der Infanterie.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/stallungen.png",
+    "prereq_tech": {
+        "name": "Reiterei",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

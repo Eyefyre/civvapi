@@ -1,0 +1,77 @@
+{
+    "id": 4,
+    "name": "Tundra",
+    "historical_info": "La tundra \u00e8 quel tipo di terreno semi-ghiacciato tipico dei climi pi\u00f9 rigidi. Meno produttivo di pianure e praterie, \u00e8 tuttavia sempre meglio del deserto. Nessuno costruirebbe mai una citt\u00e0 nella tundra, a meno che non desideri disperatamente le risorse nelle vicinanze o non abbia proprio un altro posto dove andare.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Foresta|la foresta|una foresta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Ferro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/iron.json"
+        },
+        {
+            "name": "Cavalli",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/horses.json"
+        },
+        {
+            "name": "Petrolio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/oil.json"
+        },
+        {
+            "name": "Alluminio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/aluminum.json"
+        },
+        {
+            "name": "Uranio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/uranium.json"
+        },
+        {
+            "name": "Cervi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/deer.json"
+        },
+        {
+            "name": "Pietra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/stone.json"
+        },
+        {
+            "name": "Argento",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/silver.json"
+        },
+        {
+            "name": "Gemme",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/gems.json"
+        },
+        {
+            "name": "Marmo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/marble.json"
+        },
+        {
+            "name": "Pellicce",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/furs.json"
+        },
+        {
+            "name": "Rame",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/copper.json"
+        },
+        {
+            "name": "Sale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/resources/salt.json"
+        }
+    ]
+}

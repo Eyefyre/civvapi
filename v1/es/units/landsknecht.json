@@ -1,0 +1,31 @@
+{
+    "id": 63,
+    "name": "Lansquenete|Lansquenetes",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/landsknecht.png",
+    "game_info": "Esta unidad es mucho m\u00e1s barata que el Piquero, y pueden saquear sin usar puntos de Movimiento. Roba oro al atacar una ciudad y se desbloquea mediante la pol\u00edtica social Ej\u00e9rcito mercenario. Estas unidades no se pueden crear, sino que hay que adquirirlas con Oro. Pueden moverse inmediatamente tras la compra.",
+    "historical_info": "Los lansquenetes eran los piqueros mercenarios alemanes del siglo XVI. Creado a imagen y semejanza del legendario piquero mercenario suizo, el lansquenete acab\u00f3 por sustituirlo como el mejor mercenario de infanter\u00eda disponible en Europa, y luch\u00f3 casi en todas las contiendas importantes desde el siglo XVI (y, con frecuencia, en ambos bandos). En combate, los lansquenetes sol\u00edan llevar picas de hasta seis metros de longitud. Algunos tambi\u00e9n llevaban enormes espadones o alabardas que usaban para cortar las puntas de las picas de sus oponentes.",
+    "strategy": "El Lansquenete es una unidad que solo est\u00e1 disponible mediante la pol\u00edtica social Ej\u00e9rcito mercenario, que debe comprarse con Oro. El Lansquenete es mucho m\u00e1s barato que el Piquero y tiene ciertas bonificaciones relacionadas con saquear casillas y ciudades. Estas unidades crean un ej\u00e9rcito barato que puede recuperar los fondos invertidos si se les env\u00eda a arrasar territorios enemigos.",
+    "movement": 2,
+    "cost": {
+        "production": 45,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Administraci\u00f3n p\u00fablica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonificaci\u00f3n contra unidades montadas (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Sin coste de movimiento por saquear",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Expolio de ciudad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/city_plunder.json"
+        }
+    ]
+}

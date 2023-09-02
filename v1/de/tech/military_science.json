@@ -1,0 +1,57 @@
+{
+    "id": 46,
+    "name": "Milit\u00e4rwissenschaft",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/military_science.png",
+    "era": "Industriezeitalter",
+    "cost": 1600,
+    "civilopedia_entry": "Milit\u00e4rwissenschaft ist die Wissenschaft des Einsatzes milit\u00e4rischer Gewalt, um politische Ziele zu erreichen. Sie hat viele Zweige und Fachbereiche und wird meist an einer Milit\u00e4rakademie gelehrt. Wie weit kann eine Armee zum Beispiel an einem Tag marschieren und wie viele Kalorien ben\u00f6tigt ein Soldat dabei, um in voller Kampfst\u00e4rke zu bleiben? Oder wie k\u00e4mpft man gegen einen Aufstand im eigenen Land? Angenommen, man w\u00fcrde ein anderes Land besetzen: Was w\u00e4ren die Unterschiede im Handeln zum Fall eines Aufstands? Und wie hoch ist die gesch\u00e4tzte \u00dcberlebenschance bei einem Atomkrieg, wenn man zuerst feuert?Sun Tzus \"Die Kunst des Krieges\" ist ein klassisches Buch der Milit\u00e4rwissenschaft. Auch wenn es im 6. Jahrhundert v. Chr. zum ersten Mal ver\u00f6ffentlicht wurde, wird es auch heute noch studiert (und stellt eine extrem unterhaltsame und informative Lekt\u00fcre f\u00fcr jeden Hobby-Historiker dar). Machiavellis Werk \"Der F\u00fcrst\", das 1532 postum ver\u00f6ffentlicht wurde, untersucht im Detail die Zusammenh\u00e4nge zwischen Krieg und Politik. 1832 wurde das Werk \"Vom Kriege\" von Carl von Clausewitz ver\u00f6ffentlicht, das ebenfalls die Wirkung von Politik und Wirtschaft auf den Krieg studiert.Alfred Thayer Mahans brillante Arbeit \"The Influence of Sea Power Upon History, 1660-1783\" ('Der Einfluss der Seemacht auf die Geschichte, 1660-1783'), die 1890 ver\u00f6ffentlicht wurde, hatte einen starken Einfluss auf amerikanische Armeeoffiziere und Politiker und war ma\u00dfgeblich verantwortlich f\u00fcr die Vergr\u00f6\u00dferung der US Navy im fr\u00fchen 20. Jahrhundert. Ohne dieses Buch w\u00e4ren die USA vermutlich weniger auf die Weltkriege vorbereitet gewesen, was katastrophale Folgen f\u00fcr das Land und seine Verb\u00fcndeten h\u00e4tte haben k\u00f6nnen.",
+    "quote": "\"Kriege m\u00f6gen mit Waffen ausgetragen werden, doch sie werden von M\u00e4nnern gewonnen. Es ist der Wille der M\u00e4nner, die folgen, und des Mannes, der sie f\u00fchrt, der den Sieg bringt.\" - George S. Patton",
+    "tech_prereqs": [
+        {
+            "name": "Chemie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chemistry.json"
+        },
+        {
+            "name": "Metallverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Dynamit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/dynamite.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Kavallerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/cavalry.json"
+        },
+        {
+            "name": "Kosak",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/cossack.json"
+        },
+        {
+            "name": "Husar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/hussar.json"
+        },
+        {
+            "name": "Berber-Kavallerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/berber_cavalry.json"
+        },
+        {
+            "name": "Komantschenreiter",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/comanche_riders.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Milit\u00e4rakademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/military_academy.json"
+        },
+        {
+            "name": "Brandenburger Tor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/brandenburg_gate.json"
+        }
+    ]
+}

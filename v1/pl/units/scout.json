@@ -1,0 +1,23 @@
+{
+    "id": 78,
+    "name": "Zwiadowcy|Zwiadowc\u00f3w|Zwiadowcom|Zwiadowc\u00f3w",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/scout.png",
+    "game_info": "Ta \u015bwietna jednostka rozpoznawcza nie zwalnia w trudnym terenie, ale jest ma\u0142o odporna na ataki.",
+    "historical_info": "Zwiadowcy byli oczami i uszami wczesnych cywilizacji. Ci szybcy wojownicy nie mieli wdawa\u0107 si\u0119 w walk\u0119 z przeciwnikiem \u2013 ich obowi\u0105zek polega\u0142 na odkrywaniu teren\u00f3w oraz znajdywaniu potencjalnych zagro\u017ce\u0144 i skarb\u00f3w. Cywilizacja, kt\u00f3ra nie wie, co dzieje si\u0119 w \u015bwiecie dooko\u0142a, jest \u015blepa zar\u00f3wno na zagro\u017cenia, jak i mo\u017cliwo\u015bci.",
+    "strategy": "Jedna z pierwszych jednostek dost\u0119pnych w grze, kt\u00f3re mog\u0105 atakowa\u0107. Niestety jest dosy\u0107 s\u0142aba. Mo\u017ce jednak porusza\u0107 si\u0119 po trudnym terenie jak po otwartym (przebycie jednego pola kosztuje 1 punkt ruchu). Wykorzystuj j\u0105 do eksploracji \u015bwiata.",
+    "movement": 2,
+    "cost": {
+        "production": 25,
+        "faith": 50
+    },
+    "prereq_tech": {
+        "name": "Rolnictwo|Rolnictwa|Rolnictwu|Rolnictwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/agriculture.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ignoruje koszt terenu",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/ignores_terrain_cost.json"
+        }
+    ]
+}

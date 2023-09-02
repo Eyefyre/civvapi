@@ -1,0 +1,39 @@
+{
+    "id": 100,
+    "name": "Afryka\u0144skie s\u0142onie le\u015bne|Afryka\u0144skich s\u0142oni le\u015bnych|Afryka\u0144skim s\u0142oniom le\u015bnym|Afryka\u0144skie s\u0142onie le\u015bne",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/african_forest_elephant.png",
+    "game_info": "Szybka i pot\u0119\u017cna jednostka konna dost\u0119pna we wczesnej fazie gry. Podatna na atak w\u0142\u00f3cznik\u00f3w. Jedynie Kartagi\u0144czycy mog\u0105 j\u0105 tworzy\u0107. Jednostka ta ma wi\u0119ksz\u0105 si\u0142\u0119 bojow\u0105 ni\u017c konnica, kt\u00f3r\u0105 zast\u0119puje. Dodatkowo przera\u017ca pobliskie jednostki. Pomaga w szybszym tworzeniu wielkich genera\u0142\u00f3w.",
+    "historical_info": "Hannibal, legendarny kartagi\u0144ski genera\u0142, podczas swoich kampanii przeciwko Rzymowi cz\u0119sto u\u017cywa\u0142 s\u0142oni. S\u0105 to doskona\u0142e zwierz\u0119ta poci\u0105gowe, jak i niebezpieczna bro\u0144. S\u0142onie bojowe, stosowane z r\u00f3\u017cnym skutkiem w wojnach punickich, szkolono do szar\u017c na linie wroga i przenoszenia na grzbietach gondoli obsadzonych \u017co\u0142nierzami. Mimo pot\u0119\u017cnych rozmiar\u00f3w s\u0142onie \u017ale radzi\u0142y sobie w walce z nacieraj\u0105c\u0105 piechot\u0105, a utrzymanie i wymagania tych wielkich zwierz\u0105t sprawia\u0142y, \u017ce cz\u0119sto umiera\u0142y podczas wyczerpuj\u0105cych przemarsz\u00f3w armii kartagi\u0144skiej.",
+    "strategy": "Afryka\u0144ski s\u0142o\u0144 le\u015bny jest unikatow\u0105 jednostk\u0105 kartagi\u0144sk\u0105 zast\u0119puj\u0105c\u0105 konnic\u0119. Kartagi\u0144skie s\u0142onie s\u0105 wolniejsze, lecz pot\u0119\u017cniejsze od konnicy. Mog\u0105 porusza\u0107 si\u0119 po ataku. Przera\u017caj\u0105 tak\u017ce pobliskie jednostki, kt\u00f3re w wyniku tego otrzymuj\u0105 ujemne modyfikatory bojowe. Powodzenie w bitwie ze s\u0142oniem zwi\u0119ksza szans\u0119 na pojawienie si\u0119 wielkich genera\u0142\u00f3w.",
+    "movement": 3,
+    "cost": {
+        "production": 100,
+        "faith": 200
+    },
+    "prereq_tech": {
+        "name": "Jazda konna|Jazdy konnej|Je\u017adzie konnej|Jazd\u0119 konn\u0105",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Z\u0142owroga reputacja",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/feared_elephant.json"
+        },
+        {
+            "name": "Wielcy genera\u0142owie II|Wielkich genera\u0142\u00f3w II|Wielkim genera\u0142om II|Wielkich genera\u0142\u00f3w II",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/great_generals_ii.json"
+        }
+    ]
+}

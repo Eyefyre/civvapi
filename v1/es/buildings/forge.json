@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Fragua|Fraguas",
+    "game_info": "+15% a la Producci\u00f3n cuando se crean unidades terrestres.Cada fuente de Hierro que la ciudad explote da +1 a la Producci\u00f3n .La ciudad debe estar explotando cerca una fuente de Hierro.",
+    "strategy": "La Fragua solo se puede construir en una ciudad que tenga cerca un recurso mejorado de Hierro . Aumenta la velocidad con la que la ciudad produce unidades terrestres.",
+    "historical_info": "La fragua es un edificio que contiene un horno capaz de generar la temperatura necesaria para fundir y moldear el hierro en cualquier cosa, desde herraduras hasta puntas de flechas, pasando por clavos. Se necesita mucha cantidad de calor, y el herrero suele tener un aprendiz o ayudante que hace poco m\u00e1s que accionar los fuelles para reavivar el fuego y mantener la temperatura. Un herrero trabaja el hierro calent\u00e1ndolo al rojo vivo y golpe\u00e1ndolo sobre un yunque con diversos martillos. Tambi\u00e9n puede derramar metal fundido en moldes de cer\u00e1mica o metal para pulirlo una vez que se ha enfriado lo suficiente para conservar la forma.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/fragua|fraguas.png",
+    "prereq_tech": {
+        "name": "Vaciado del metal",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

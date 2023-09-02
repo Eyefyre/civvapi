@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Werkstatt",
+    "game_info": "Erm\u00f6glicht den Transport von Produktion aus dieser Stadt \u00fcber Handelswege innerhalb Eurer Zivilisation.",
+    "strategy": "Die Werkstatt beschleunigt die Produktion einer Stadt.",
+    "historical_info": "Eine Werkstatt ist ein Geb\u00e4ude, in dem Sachen gebaut werden. Dort sind Rohmaterial, Werkzeuge und f\u00e4hige Arbeiter zu finden, um zu bauen, was gebraucht wird. Eine Keramik-Werkstatt stellte Keramik-Waren her (wenig \u00fcberraschend), w\u00e4hrend eine Zimmerei-Werkstatt T\u00fcren, Schr\u00e4nke und Fu\u00dfb\u00f6den produzieren kann - eben alles M\u00f6gliche aus Holz. Im Italien der Renaissance arbeiteten viele K\u00fcnstler in Werkst\u00e4tten, in der ein gro\u00dfer Maler die Lorbeeren f\u00fcr ein Gem\u00e4lde einstreichen konnte, das in Wahrheit von Angestellten und Sch\u00fclern gemalt wurde, die gelernt hatten, den Stil des Meisters zu imitieren. Diese Praxis bereitet Sammlern und Historikern noch heute Kopfzerbrechen.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/werkstatt.png",
+    "prereq_tech": {
+        "name": "Metallguss",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 2,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

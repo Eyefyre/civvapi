@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Papelero|Papeleros",
+    "game_info": "+1 a Ciencia por cada 2 ciudadanos que haya en esta ciudad. +2 de Oro .",
+    "strategy": "El Papelero es la unidad exclusiva china que sustituye a la Biblioteca. Aumenta la Ciencia lograda por una ciudad y concede una bonificaci\u00f3n a su flujo de Oro [ICON_GOLD.",
+    "historical_info": "El papel se invent\u00f3 en China y se remonta al 200 a. C. Por lo que se sabe, se utiliz\u00f3 en un principio como material de embalaje, y la primera muestra de su aplicaci\u00f3n como soporte para escritura data del 8 a. C., aproximadamente. Hacia el 300 d. C., su uso para escribir ya se hab\u00eda extendido por toda China. Los talleres papeleros chinos eran muy avanzados para su \u00e9poca, y en ellos se fabricaba un papel recio y casi libre de impurezas para las clases educadas chinas, sus mercaderes y la Corte Imperial, siglos antes de que la primera hoja llegara al mundo \u00e1rabe o europeo.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/papelero|papeleros.png",
+    "prereq_tech": {
+        "name": "Escritura",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/writing.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

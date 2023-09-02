@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "name": "Mitragliatrice|una Mitragliatrice|dalla tua Mitragliatrice|alla tua Mitragliatrice|la tua Mitragliatrice|da una Mitragliatrice",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/machine_gun.png",
+    "game_info": "Unit\u00e0 disponibile nelle fasi finali del gioco, che attacca a distanza ma dev'essere adiacente a un nemico per colpire.",
+    "historical_info": "Le squadre dotate di mitragliatrice possono sfruttare un'arma da fuoco potente e completamente automatica, capace di produrre un efficace fuoco di sbarramento sparando diverse centinaia di colpi al minuto. La mitragliatrice Gatling, antenata delle armi moderne, \u00e8 stata sviluppata negli Stati Uniti nel corso del XIX secolo. Il progetto successivamente sub\u00ec un'importante evoluzione con la mitragliatrice Maxim, la prima a non necessitare di azionamento manuale.",
+    "strategy": "La Mitragliatrice \u00e8 la penultima unit\u00e0 a distanza che non \u00e8 anche un'arma d'assedio. \u00c8 pi\u00f9 potente di tutte le unit\u00e0 a distanza precedenti. Come la Gatling, il suo raggio di fuoco \u00e8 di una sola casella, ma pu\u00f2 comunque infliggere gravi danni alle altre unit\u00e0 senza subirne. \u00c8 vulnerabile agli attacchi ravvicinati. Usa le Mitragliatrici per difendere le tue citt\u00e0.",
+    "movement": 2,
+    "cost": {
+        "production": 350,
+        "faith": 700
+    },
+    "prereq_tech": {
+        "name": "Balistica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

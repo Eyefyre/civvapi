@@ -1,0 +1,27 @@
+{
+    "id": 51,
+    "name": "Jen\u00edzaro|Jen\u00edzaros",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/janissary.png",
+    "game_info": "Una de las primeras unidades de p\u00f3lvora del juego. Solo los otomanos pueden construirla. Esta unidad es m\u00e1s fuerte en el ataque y se cura cuando mata a una unidad enemiga, a diferencia del Mosquete, al que sustituye.",
+    "historical_info": "Los jen\u00edzaros eran miembros de un cuerpo de \u00e9lite del ej\u00e9rcito del Imperio Otomano. Creados en el siglo XIV, los jen\u00edzaros originarios eran j\u00f3venes cristianos (normalmente, esclavos tra\u00eddos de los Balcanes) que eran convertidos al Islam y alistados en el ej\u00e9rcito otomano. Los primeros jen\u00edzaros estaban obligados a permanecer c\u00e9libes (lo que explicar\u00eda su feroz esp\u00edritu guerrero), pero, con el tiempo, esta costumbre se relaj\u00f3. A medida que pasaron los a\u00f1os, los jen\u00edzaros consiguieron una gran influencia en el imperio y fueron los art\u00edfices de varios golpes de estado en palacio en los siglos XVII y XVIII. Pero, seg\u00fan crec\u00eda su influencia, se volvieron m\u00e1s tercos y tradicionalistas, neg\u00e1ndose a modernizar sus armas y t\u00e1cticas para mantenerse a la altura del resto del mundo. En 1826, fueron obligados a disolverse y se reemplazaron por tropas otomanas m\u00e1s modernas.",
+    "strategy": "El Jen\u00edzaro es una unidad exclusiva otomana que sustituye al Mosquete. Recibe una importante bonificaci\u00f3n al combate cuando ataca. Adem\u00e1s, se cura autom\u00e1ticamente todo el da\u00f1o cuando destruye a una unidad que no sea un b\u00e1rbaro. Esto puede conceder al ej\u00e9rcito que lo lleve una ventaja aplastante contra una fuerza enemiga que est\u00e9 a la defensiva.",
+    "movement": 2,
+    "cost": {
+        "production": 150,
+        "faith": 300
+    },
+    "prereq_tech": {
+        "name": "P\u00f3lvora",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/gunpowder.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Cura 50 de da\u00f1o si mata una unidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/heal_50_damage_if_kills_a_unit.json"
+        },
+        {
+            "name": "Bonif. al combate cuando ataca (25)",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/combat_bonus_when_attacking_(25).json"
+        }
+    ]
+}

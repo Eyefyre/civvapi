@@ -1,0 +1,33 @@
+{
+    "id": 22,
+    "name": "Tintes",
+    "game_info": null,
+    "historical_info": "Una tintura es una sustancia que puede alterar (temporal o permanentemente) el color de otra sustancia, normalmente un tejido o la piel humana. A lo largo de la historia, se han elaborado tintes con gran variedad de materiales distintos, incluyendo plantas, minerales y partes de animales. La humanidad lleva us\u00e1ndolos desde hace 37.000 a\u00f1os, y posiblemente m\u00e1s.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/tintes.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Plantaci\u00f3n|Plantaciones",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/plantation.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/selva|selvas.json"
+        },
+        {
+            "name": "Bosque|Bosques",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/bosque|bosques.json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 72,
+    "name": "Satellitentechnologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/satellites.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "Die Satellitentechnologie beinhaltet Studium und Entwicklung von k\u00fcnstlichen Orbitalk\u00f6rpern - im Gegensatz zu nat\u00fcrlichen wie dem Mond. Von Menschen hergestellte Satelliten sind seit dem fr\u00fchen 20. Jahrhundert eine reiche Quelle der Inspiration f\u00fcr vision\u00e4re Science-Fiction-Autoren wie Arthur C. Clarke, die Pl\u00e4ne f\u00fcr ein Netzwerk an Kommunikationssatelliten beschrieben, lange bevor diese technisch machbar waren.Satelliten blieben jedoch reine Fiktion, bis die Sowjetunion 1957 mit Sputnik 1 erfolgreich ihren ersten Satelliten ins All schickte. Dieser Start bewies nicht nur, dass es tats\u00e4chlich m\u00f6glich ist, ein von Menschen hergestelltes Objekt in eine Umlaufbahn um die Erde zu bringen, er l\u00f6ste au\u00dferdem den \"Wettlauf ins All\" zwischen Russland und den USA aus. Sp\u00e4ter im Jahr 1957 startete mit Sputnik 2 das erste lebende Wesen in den Weltraum, ein Hund namens Laika. Ein Jahr sp\u00e4ter starteten die USA mit Explorer 1 ihre erste Weltraum-Mission.Seit diesem Rennen zwischen zwei Rivalen wurden Tausende hochspezialisierter Satelliten von \u00fcber 50 verschiedenen L\u00e4ndern in den Orbit geschossen. Abgesehen von Milit\u00e4r- und Spionageanwendungen werden Satelliten zur Massenkommunikation (Clarke hatte letztendlich also doch Recht), f\u00fcr GPS und Navigation, zur Wetterforschung und zur \u00dcbertragung von Unterhaltungsprogrammen genutzt, um nur einige Zwecke zu nennen. Der gr\u00f6\u00dfte derzeit im Orbit befindliche Satellit ist die Internationale Raumstation.",
+    "quote": "\"Irgendwie, auf eine neue Art, erschien uns der Himmel jetzt beinahe fremd.\" - Lyndon B. Johnson",
+    "tech_prereqs": [
+        {
+            "name": "Raketentechnik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Kernfusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "RS-Cockpit",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/ss_cockpit.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Hubble-Weltraumteleskop",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/hubble_space_telescope.json"
+        }
+    ]
+}

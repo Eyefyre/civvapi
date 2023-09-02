@@ -1,0 +1,32 @@
+{
+    "id": 51,
+    "name": "Dynamite",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/dynamite.png",
+    "era": "\u00c8re industrielle",
+    "cost": 2350,
+    "civilopedia_entry": "La Dynamite est un explosif invent\u00e9 par l'ing\u00e9nieur chimiste Alfred Nobel en 1867. On la fabrique en trempant un mat\u00e9riau absorbant comme des terres d'infusoire (le m\u00eame mat\u00e9riau utilis\u00e9 dans les filtres de piscine) dans de la nitroglyc\u00e9rine. Cette derni\u00e8re substance est un explosif aussi puissant qu'instable. La dynamite, elle, est moins puissante, mais plus fiable.La dynamite a d'abord \u00e9t\u00e9 utilis\u00e9e dans la construction et dans l'exploitation mini\u00e8re. Historiquement, certaines arm\u00e9es s'en sont servi, mais la nitroglyc\u00e9rine \u00e9tant trop instable pour les conditions chaotiques des champs de bataille, les militaires lui pr\u00e9f\u00e9rant un produit modifi\u00e9 appel\u00e9 \"dynamite militaire\" dans lequel la nitroglyc\u00e9rine est remplac\u00e9e par d'autres produits chimiques, dont le TNT. Le produit ainsi cr\u00e9\u00e9 est 60% moins puissant que la dynamite, mais \u00e9galement moins susceptible d'exploser au mauvais moment.",
+    "quote": "\"D\u00e8s que les hommes d\u00e9cr\u00e8tent que tous les moyens sont bons pour lutter contre le mal, leur notion du bien se confond avec le mal qu'ils cherchent \u00e0 d\u00e9truire.\" - Christopher Dawson",
+    "tech_prereqs": [
+        {
+            "name": "Engrais",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/fertilizer.json"
+        },
+        {
+            "name": "Science militaire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/military_science.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Voies ferr\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/railroad.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Artillerie|Artillerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

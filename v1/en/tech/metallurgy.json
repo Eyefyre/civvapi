@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "Metallurgy",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Renaissance Era",
+    "cost": 1150,
+    "civilopedia_entry": "Metallurgy is the science of metals and metallic alloys. In Civilization V the \"metallurgy\" technology covers the advancements in this field since the 19th century AD. In the 19th and 20th centuries, great strides have been made in all facets of metallurgy, from extraction, to the creation of new alloys, to the production of cheap, high-quality metals.Metal remains at the heart of modern civilization. Much of the world is built of steel, and what isn't is made of aluminum or titanium. Our communications networks are made of metal, and so are our vehicles, weapons, satellites and spacecraft. Without modern metallurgy 90% of the Earth's population would starve within a year.",
+    "quote": "\"There never was a good knife made of bad steel.\" - Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "Gunpowder",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/gunpowder.json"
+        },
+        {
+            "name": "Printing Press",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Military Science",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/military_science.json"
+        },
+        {
+            "name": "Rifling",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lancer",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/lancer.json"
+        },
+        {
+            "name": "Sipahi",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/sipahi.json"
+        },
+        {
+            "name": "Hakkapeliitta",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/hakkapeliitta.json"
+        },
+        {
+            "name": "Winged Hussar",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Arsenal",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/arsenal.json"
+        },
+        {
+            "name": "Red Fort",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/buildings/red_fort.json"
+        }
+    ]
+}

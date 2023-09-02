@@ -1,0 +1,57 @@
+{
+    "id": 40,
+    "name": "Metallurgia|della Metallurgia",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metallurgy.png",
+    "era": "Epoca rinascimentale",
+    "cost": 1150,
+    "civilopedia_entry": "La metallurgia \u00e8 la scienza dei metalli e delle leghe. In Civilization V la tecnologia che porta questo nome copre i progressi ottenuti in questo campo a partire dall'Ottocento. Negli ultimi due secoli la metallurgia ha fatto enormi progressi in tutti campi, dall'estrazione dei minerali alla creazione di nuove leghe, alla produzione di nuovi materiali economici e di alta qualit\u00e0.Il metallo ha una posizione centrale nella civilt\u00e0 moderna. Gran parte del mondo \u00e8 fatta d'acciaio, e il resto \u00e8 di alluminio o titanio. Anche le reti di comunicazione sono basate sul metallo, cos\u00ec come i trasporti, le armi, i satelliti e i veicoli spaziali. Senza la metallurgia moderna il 90% della popolazione mondiale morirebbe di fame entro un anno.",
+    "quote": "\"Non c'\u00e8 mai stato un buon coltello fatto di cattivo acciaio.\" - Benjamin Franklin",
+    "tech_prereqs": [
+        {
+            "name": "Polvere da sparo|della Polvere da sparo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/gunpowder.json"
+        },
+        {
+            "name": "Tipografia|della Tipografia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/printing_press.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Scienza militare|della Scienza militare",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/military_science.json"
+        },
+        {
+            "name": "Rigatura delle canne|della Rigatura delle canne",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/rifling.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Lanciere a cavallo|un Lanciere a cavallo|dal tuo Lanciere a cavallo|al tuo Lanciere a cavallo|il tuo Lanciere a cavallo|da un Lanciere a cavallo",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/lancer.json"
+        },
+        {
+            "name": "Sipahi|un Sipahi|dal tuo Sipahi|al tuo Sipahi|il tuo Sipahi|da un Sipahi",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/sipahi.json"
+        },
+        {
+            "name": "Hakkapeliitta|un Hakkapeliitta|dal tuo Hakkapeliitta|al tuo Hakkapeliitta|il tuo Hakkapeliitta|da un Hakkapeliitta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/hakkapeliitta.json"
+        },
+        {
+            "name": "Ussaro alato|un Ussaro alato|dal tuo Ussaro alato|al tuo Ussaro alato|il tuo Ussaro alato|da un Ussaro alato",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/winged_hussar.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Arsenale|l'Arsenale|un Arsenale",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/arsenal.json"
+        },
+        {
+            "name": "Forte Rosso|il Forte Rosso|un Forte Rosso",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/red_fort.json"
+        }
+    ]
+}

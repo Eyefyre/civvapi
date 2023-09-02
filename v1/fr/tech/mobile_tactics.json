@@ -1,0 +1,32 @@
+{
+    "id": 70,
+    "name": "Tactiques mobiles",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mobile_tactics.png",
+    "era": "\u00c8re de l'info.",
+    "cost": 7700,
+    "civilopedia_entry": "Les tactiques mobiles sont des strat\u00e9gies mises en place par l'arm\u00e9e pour permettre \u00e0 des unit\u00e9s rapides et maniables de rejoindre et de quitter le combat sans se retrouver coinc\u00e9es dans un affrontement en cours. Les tactiques mobiles sont souvent utilis\u00e9es par des unit\u00e9s irr\u00e9guli\u00e8res ou de gu\u00e9rilla, sp\u00e9cialis\u00e9es dans les attaques rapides et cibl\u00e9es visant \u00e0 d\u00e9stabiliser de plus grandes forces.",
+    "quote": "\"Tous les hommes peuvent comprendre les tactiques derri\u00e8re mes conqu\u00eates, mais ce que personne ne voit, c'est la strat\u00e9gie d'o\u00f9 vient la victoire.\" - Sun Tzu",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9cologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ecology.json"
+        },
+        {
+            "name": "Fission nucl\u00e9aire",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Physique des particules",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Infanterie m\u00e9canis\u00e9e|Infanterie m\u00e9canis\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/mechanized_infantry.json"
+        }
+    ],
+    "building_unlocks": []
+}

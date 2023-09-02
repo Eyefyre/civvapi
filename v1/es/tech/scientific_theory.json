@@ -1,0 +1,40 @@
+{
+    "id": 43,
+    "name": "Teor\u00eda cient\u00edfica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/scientific_theory.png",
+    "era": "Era Industrial",
+    "cost": 1600,
+    "civilopedia_entry": "La teor\u00eda cient\u00edfica es un modo de ver el mundo que utiliza el \"m\u00e9todo cient\u00edfico\" para averiguar c\u00f3mo funciona el universo. Mediante una meticulosa observaci\u00f3n y realizando experimentos, un cient\u00edfico formula una teor\u00eda para explicar alg\u00fan fen\u00f3meno. Si otros cient\u00edficos logran confirmar esta teor\u00eda con sus propios experimentos, se acepta como ley \"emp\u00edrica\" (experimental), al menos hasta que sea refutada por observaciones o experimentos ulteriores. Si nadie consigue duplicar los resultados de los experimentos de un cient\u00edfico, sus teor\u00edas se contemplan con un profundo escepticismo. Aunque la teor\u00eda cient\u00edfica es la predominante en la mayor\u00eda de los pa\u00edses avanzados del mundo moderno, no es el \u00fanico modo de ver el mundo. Hay personas que prefieren las revelaciones divinas escritas en un libro sagrado para explicar el universo. Para ellos, si la observaci\u00f3n o la experimentaci\u00f3n entran en conflicto con estas revelaciones, est\u00e1 claro que el m\u00e9todo cient\u00edfico tiene que estar errado o corrompido. Estas dos formas tan distintas de ver el mundo llevan siglos enfrentadas, y probablemente sigan as\u00ed en los a\u00f1os venideros.",
+    "quote": "\"Cada gran avance en la ciencia ha nacido de una nueva audacia de la imaginaci\u00f3n.\" - John Dewey",
+    "tech_prereqs": [
+        {
+            "name": "Econom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/economics.json"
+        },
+        {
+            "name": "Arquitectura",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/architecture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Biolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/biology.json"
+        },
+        {
+            "name": "M\u00e1quina de vapor",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steam_power.json"
+        },
+        {
+            "name": "Electricidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/electricity.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Escuela p\u00fablica|Escuelas p\u00fablicas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/public_school.json"
+        }
+    ]
+}

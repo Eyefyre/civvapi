@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "Fusilier marin|Fusiliers marins",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Unit\u00e9 de l'\u00e8re atomique particuli\u00e8rement utile pour embarquer des unit\u00e9s et envahir des civilisations par-del\u00e0 les mers.",
+    "historical_info": "Imagin\u00e9s \u00e0 l'origine comme une classe d'infanterie sp\u00e9cialis\u00e9e dans les assauts amphibies, les valeureux fusiliers marins jouent maintenant plusieurs r\u00f4les fondamentaux au sein de l'arm\u00e9e. Depuis plusieurs d\u00e9cennies, ces combattants pleins de ressources collaborent \u00e9troitement avec la marine nationale pour r\u00e9gler des conflits dans le monde entier.",
+    "strategy": "Le fusilier marin fait office d'alternative \u00e0 l'infanterie, mais son co\u00fbt est l\u00e9g\u00e8rement plus \u00e9lev\u00e9. En revanche, il a acc\u00e8s \u00e0 des promotions permettant d'am\u00e9liorer sa vision et sa puissance d'attaque en mer.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "P\u00e9nicilline",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/amphibious.json"
+        },
+        {
+            "name": "Vue am\u00e9lior\u00e9e si embarqu\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "D\u00e9fense de l'embarcation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

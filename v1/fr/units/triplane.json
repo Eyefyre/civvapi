@@ -1,0 +1,35 @@
+{
+    "id": 114,
+    "name": "Triplan|Triplans",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/triplane.png",
+    "game_info": "L'une des premi\u00e8res unit\u00e9s a\u00e9riennes, con\u00e7ue pour intercepter les a\u00e9ronefs ennemis en approche.",
+    "historical_info": "H\u00e9ritant son nom des trois paires d'ailes qui lui donnent son aspect si unique, le triplan fut utilis\u00e9 lors de la Premi\u00e8re Guerre mondiale avec diff\u00e9rents degr\u00e9s de r\u00e9ussite. Le Fokker Dr.I, triplan le plus embl\u00e9matique de cette p\u00e9riode, servit beaucoup \u00e0 l'arm\u00e9e de l'air allemande. Le l\u00e9gendaire Baron Rouge, qui le choisit comme son appareil de pr\u00e9dilection, participa grandement \u00e0 cet \u00e9lan de notori\u00e9t\u00e9. Les ing\u00e9nieurs eurent beau mettre au point plusieurs variations du mod\u00e8le original, les avanc\u00e9es dans le domaine du biplan traditionnel rendirent obsol\u00e8te le triplan en moins d'une d\u00e9cennie d'existence.",
+    "strategy": "Le triplan est une unit\u00e9 a\u00e9rienne rudimentaire. Il peut \u00eatre bas\u00e9 dans n'importe laquelle de vos villes, ou sur un porte-avions. De l\u00e0, il peut se d\u00e9placer jusqu'\u00e0 tout autre ville ou porte-avions et effectuer des missions \u00e0 port\u00e9e de\u00a05 cases. Utilisez les triplans pour attaquer les unit\u00e9s a\u00e9riennes et terrestres de l'ennemi, partir en \u00e9claireur ou vous d\u00e9fendre contre les attaques a\u00e9riennes. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Aviation",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/flight.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(50).json"
+        },
+        {
+            "name": "Balayage a\u00e9rien",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_sweep.json"
+        },
+        {
+            "name": "Reconnaissance a\u00e9rienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus contre bombardiers/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Bank",
+    "game_info": "Stadt ben\u00f6tigt Markt oder Basar.",
+    "strategy": "Die Bank ist ein Renaissance-Geb\u00e4ude, das den Goldertrag einer Stadt erh\u00f6ht. Eine Stadt muss \u00fcber einen Markt oder einen Basar verf\u00fcgen, bevor eine Bank gebaut werden kann. Handelswege anderer Spieler zu einer Stadt mit einer Bank bringen dem Stadtbesitzer 1 Gold zus\u00e4tzlich ein, und der Handelswegbesitzer erh\u00e4lt zus\u00e4tzlich 1 Gold f\u00fcr den Handelsweg.",
+    "historical_info": "Eine Bank ist ein Institut, in dem B\u00fcrger ihr Geld sicher anlegen k\u00f6nnen. Der Banker sammelt die Einlagen und verleiht sie an andere Leute, die das geliehene Geld dann zuz\u00fcglich der Zinsen zur\u00fcckzahlen. Der Banker gibt einen Teil des Profits an den Inhaber der Einlage weiter und investiert den Rest neu. Ein erfolgreiches Banksystem erfordert eine funktionierende W\u00e4hrung sowie Gesetze, um sicherzustellen, dass die Schuldner die Darlehen nach M\u00f6glichkeit auch zur\u00fcckzahlen.Banken sind erstaunliche Antriebsmotoren f\u00fcr eine Zivilisation. Wenn eine Stadt etwas braucht - z. B. einen neuen Kornspeicher - kann sich vielleicht kein einzelner B\u00fcrger leisten, das Ben\u00f6tigte zu errichten. Da die Bank jedoch die Einlagen vieler verschiedener B\u00fcrger verwaltet, kann sie es sich leisten, dem Bauherrn das Geld zu leihen. Sobald der Kornspeicher gebaut ist, kann der Bauherr den neuen Profit nutzen, um den Kredit zur\u00fcckzuzahlen, und alle B\u00fcrger der Stadt profitieren vom neuen Kornspeicher (sowie von den Zinsen, die sie mit ihren Einlagen verdient haben).Banken in Europa und den USA haben in den letzten Jahren einen eher zweifelhaften Ruf erlangt, was an riskanten Investitionsmodellen oder verantwortungslos vergebenen Krediten liegt. Eine gut gef\u00fchrte Bank ist ein Gottesgeschenk f\u00fcr jede Gemeinschaft, vor allem f\u00fcr \u00e4rmere.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/bank.png",
+    "prereq_tech": {
+        "name": "Bankwesen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/banking.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

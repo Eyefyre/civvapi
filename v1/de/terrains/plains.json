@@ -1,0 +1,101 @@
+{
+    "id": 2,
+    "name": "Ebene",
+    "historical_info": "Ebenen bieten sowohl Nahrung als auch Produktion f\u00fcr eine nahegelegene Stadt. Eine Stadt, die von Ebenen umgeben ist, w\u00e4chst zwar langsamer, als wenn sie von Grasland umgeben w\u00e4re, daf\u00fcr ist sie aber viel produktiver.",
+    "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ebene.png",
+    "movement_cost": 1,
+    "combat_modifier": -10,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "features": [
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+        }
+    ],
+    "resources": [
+        {
+            "name": "Eisen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+        },
+        {
+            "name": "Pferde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+        },
+        {
+            "name": "Kohle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+        },
+        {
+            "name": "Aluminium",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+        },
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Weizen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wheat.json"
+        },
+        {
+            "name": "Schafe",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+        },
+        {
+            "name": "Stein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+        },
+        {
+            "name": "Gold",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+        },
+        {
+            "name": "Edelsteine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+        },
+        {
+            "name": "Marmor",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+        },
+        {
+            "name": "Elfenbein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/ivory.json"
+        },
+        {
+            "name": "Baumwolle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+        },
+        {
+            "name": "Wein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wine.json"
+        },
+        {
+            "name": "R\u00e4ucherwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/incense.json"
+        },
+        {
+            "name": "Kupfer",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+        },
+        {
+            "name": "Salz",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+        },
+        {
+            "name": "Zitronen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/citrus.json"
+        },
+        {
+            "name": "Bison",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bison.json"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": 55,
+    "name": "Rycerze|Rycerzy|Rycerzom|Rycerzy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/knight.png",
+    "game_info": "Pot\u0119\u017cna, \u015bredniowieczna jednostka kawaleryjska, s\u0142aba w walce z pikinierami.",
+    "historical_info": "Rycerze niemal zawsze wywodzili si\u0119 ze szlachty, tylko t\u0119 cz\u0119\u015b\u0107 spo\u0142ecze\u0144stwa sta\u0107 by\u0142o na zakup sprz\u0119tu, utrzymanie konia oraz op\u0142acenie rozbudowanego szkolenia. Byli ci\u0119\u017ck\u0105 kawaleri\u0105 \u015bredniowiecznej armii. Ze wzgl\u0119du na swoje wyszkolenie i opancerzenie, dominowali na \u00f3wczesnych placach boju. Mimo solidnego opancerzenia byli bardzo mobilni, co pozwala\u0142o im wykorzystywa\u0107 ka\u017cd\u0105 luk\u0119 w liniach wrogach. Jedynym sposobem na szar\u017cuj\u0105cych rycerzy by\u0142a \u015bciana pikinier\u00f3w. Spos\u00f3b ten dzia\u0142a\u0142 jednak tylko wtedy, gdy pikinierzy byli na tyle zdyscyplinowani, by wytrwa\u0107 na posterunku, maj\u0105c przed sob\u0105 dziesi\u0105tki szar\u017cuj\u0105cych koni. Je\u015bli cho\u0107by zadr\u017celi, gin\u0119li.",
+    "strategy": "Rycerze to szybka i silna jednostka, niekwestionowani kr\u00f3lowie \u015bredniowiecznego pola bitwy. Jako jednostka kawaleryjska s\u0105 podatni na ataki pikinier\u00f3w, ale z \u0142atwo\u015bci\u0105 mog\u0105 zmia\u017cd\u017cy\u0107 pozosta\u0142ych przeciwnik\u00f3w. Rycerze mog\u0105 si\u0119 ruszy\u0107 po ataku, dzi\u0119ki czemu mog\u0105 tworzy\u0107 wy\u0142omy w liniach wroga, a nast\u0119pnie w nie wje\u017cd\u017ca\u0107.",
+    "movement": 4,
+    "cost": {
+        "production": 120,
+        "faith": 240
+    },
+    "prereq_tech": {
+        "name": "Rycerstwo|Rycerstwa|Rycerstwu|Rycerstwo",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/chivalry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Mo\u017ce wykona\u0107 ruch po ataku",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Kara przy atakowaniu miasta (33)|Kary przy atakowaniu miasta (33)|Karze przy atakowaniu miasta (33)|Kar\u0119 przy atakowaniu miasta (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": 26,
+    "name": "Brazilwood Camp",
+    "game_info": "Brazilwood is a tropical hardwood whose bark produces a bright crimson and deep purple extract used in dyes. Its wood is dense, and is prized for crafting stringed instruments (especially the bows) and cabinetry. The harvesting of brazilwood did not cease until 1875, by which time synthetic dyes dominated the textile industry and other hardwoods had been found to be better for musical instruments.A Brazilwood Camp can only be built on a Jungle tile, and will also generate +2 Culture once Acoustics is researched.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/brazilwood_camp.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Jungle",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Machinery",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/machinery.json"
+    },
+    "required_civ": {
+        "name": "Brazil",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/civilizations/brazil.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 5,
+    "name": "Motore dell'astronave",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_engine.png",
+    "game_info": "Una delle parti di astronave che devono essere costruite e spostate nella capitale per ottenere una Vittoria scientifica.",
+    "historical_info": "Il motore dell'astronave \u00e8 un dispositivo ionico modificato. Una volta che i propulsori avranno sollevato la nave fino all'orbita, il motore entrer\u00e0 in azione e la spinger\u00e0 nello spazio profondo. Il vascello accelerer\u00e0 in modo lento ma costante per i primi otto anni di viaggio, poi andr\u00e0 alla deriva per la maggior parte del viaggio. Avvicinandosi ad Alpha Centauri, la nave ruoter\u00e0 di 180\u00b0 e i motori si attiveranno per altri otto anni in modo da farla rallentare e depositarla nell'orbita del pianeta di destinazione.",
+    "strategy": "Quest'unit\u00e0 fa parte dell'astronave la cui costruzione consente di ottenere una Vittoria scientifica. Per ulteriori informazioni, consulta la sezione Vittoria.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fisica delle particelle|della Fisica delle particelle",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/particle_physics.json"
+    },
+    "free_promotions": []
+}

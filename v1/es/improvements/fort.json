@@ -1,0 +1,46 @@
+{
+    "id": 15,
+    "name": "Fuerte|Fuertes",
+    "game_info": "Un fuerte es una mejora especial que no aumenta la productividad de una casilla ni da acceso a un recurso natural, pero s\u00ed que mejora su bonificaci\u00f3n defensiva en un 50%. No obstante, no concede bonificaciones defensivas a las unidades que se encuentren en territorio enemigo.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/fuerte|fuertes.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/grassland.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/plains.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desert.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra.json"
+        },
+        {
+            "name": "Nieve|Nieves",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/snow.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Ingenier\u00eda",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

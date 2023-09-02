@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Tarnkappenbomber",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "Eine Langstrecken-Lufteinheit, die feindliche Einheiten und St\u00e4dte aus der Luft angreift.",
+    "historical_info": "Mit der Weiterentwicklung der Flugabwehrtechnologie verbesserte sich auch die Konstruktion strategischer und taktischer Bomber. Absch\u00fcsse k\u00f6nnen vermieden werden, indem man f\u00fcr das feindliche Radar und andere Peilger\u00e4te unsichtbar bleibt. Der moderne Tarnkappenbomber wird aus robusten Verbundstoffen hergestellt, mit einer besonderen Legierung aus Tarnmaterialien ummantelt und so geformt, dass er das feindliche Radar ablenkt. Tarnkappenbomber k\u00f6nnen Atom- oder normale Bomben bef\u00f6rdern. Tarnkappenbomber sind zwar sehr effektiv, aber \u00e4u\u00dferst teuer: Die Kosten jedes amerikanischen B-2-Tarnkappenbombers belaufen sich auf sch\u00e4tzungsweise eine Milliarde US-Dollar, mehr als genug, um den Geldbeutel beinahe jeder Nicht-Supermacht auf der Welt zu sprengen.",
+    "strategy": "Der Tarnkappenbomber ist ein verbesserter Bomber mit gr\u00f6\u00dferer Reichweite, gr\u00f6\u00dferer Fernkampfst\u00e4rke und besseren Ausweichm\u00f6glichkeiten gegen feindliche Flugabwehr und J\u00e4ger. Der Tarnkappenbomber hat die F\u00e4higkeit \"Luftaufkl\u00e4rung\" und kann somit zu Beginn der Runde alles in einem Radius von 6 Gel\u00e4ndefeldern sehen. Tarnkappenbomber k\u00f6nnen nicht auf Flugzeugtr\u00e4gern transportiert werden. Siehe Regeln zu Flugzeugen f\u00fcr weitere Informationen.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Tarnung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ausweichen (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Luftaufkl\u00e4rung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_recon.json"
+        }
+    ]
+}

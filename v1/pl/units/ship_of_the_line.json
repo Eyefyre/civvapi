@@ -1,0 +1,27 @@
+{
+    "id": 16,
+    "name": "Okr\u0119t liniowy|Okr\u0119tu liniowego|Okr\u0119towi liniowemu|Okr\u0119t liniowy",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ship_of_the_line.png",
+    "game_info": "Pot\u0119\u017cna jednostka p\u0142ywaj\u0105ca z epoki renesansu s\u0142u\u017c\u0105ca do walki o przewag\u0119 na morzu. Mog\u0105 j\u0105 budowa\u0107 tylko Anglicy.",
+    "historical_info": "Okr\u0119ty liniowe to najpot\u0119\u017cniejsze \u017caglowce, jakie kiedykolwiek p\u0142ywa\u0142y po morzach i oceanach. By\u0142y trzonem si\u0142 morskich Europy od XVII do XIX wieku. Ich nazwa wzi\u0119\u0142a si\u0119 od formacji, w kt\u00f3rej zazwyczaj walczy\u0142y. Zbli\u017ca\u0142y si\u0119 one do przeciwnika w linii p\u0142yn\u0105c jeden za drugim r\u00f3wnolegle do niego, ostrzeliwuj\u0105c go ze wszystkich swych dzia\u0142. Powodowa\u0142o to nie tylko znaczne uszkodzenia samego ostrzelanego okr\u0119tu, ale i powa\u017cne rany za\u0142ogi. Zazwyczaj zwyci\u0119\u017ca\u0142y okr\u0119ty posiadaj\u0105ce wi\u0119cej dzia\u0142 i lepiej wyszkolonych marynarzy. Mistrzami tej taktyki byli Anglicy i to w\u0142a\u015bnie oni zdominowali wtedy akweny morskie ca\u0142ego \u015bwiata. Stan taki trwa\u0142 przed ponad wiek.",
+    "strategy": "Okr\u0119t liniowy to unikatowa jednostka angielska zast\u0119puj\u0105ca fregat\u0119. Dysponuje nieco wi\u0119ksz\u0105 si\u0142\u0105 ognia ni\u017c fregata i jest ta\u0144szy w produkcji. Jego zasi\u0119g widzenia jest o jedno pole wi\u0119kszy od fregaty, dzi\u0119ki czemu wykrywa przeciwnik\u00f3w na wi\u0119kszej cz\u0119\u015bci oceanu.",
+    "movement": 5,
+    "cost": {
+        "production": 170,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Wi\u0119kszy zasi\u0119g widzenia (1)|Wi\u0119kszego zasi\u0119gu widzenia (1)|Wi\u0119kszemu zasi\u0119gowi widzenia (1)|Wi\u0119kszy zasi\u0119g widzenia (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/extra_sight_(1).json"
+        }
+    ]
+}

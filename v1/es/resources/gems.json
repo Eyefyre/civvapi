@@ -1,0 +1,49 @@
+{
+    "id": 18,
+    "name": "Gemas",
+    "game_info": null,
+    "historical_info": "Una gema es un mineral tan bello como raro. Una vez talladas y pulidas, las gemas tienen colores vivos y son muy brillantes. Se clasifican en dos grupos principales: las piedras preciosas, como diamantes, rub\u00edes y esmeraldas; y las semipreciosas, como amatistas, turquesas, etc. Las gemas han sido muy apreciadas a lo largo de la historia; se suelen usar como joyas ornamentales y objetos propios de los ricos y poderosos.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gemas.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 3,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mina|Minas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Selva|Selvas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/features/selva|selvas.json"
+        },
+        {
+            "name": "Pradera|Praderas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/pradera|praderas.json"
+        },
+        {
+            "name": "Llanura|Llanuras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/llanura|llanuras.json"
+        },
+        {
+            "name": "Desierto|Desiertos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/desierto|desiertos.json"
+        },
+        {
+            "name": "Tundra|Tundras",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/tundra|tundras.json"
+        },
+        {
+            "name": "Colina|Colinas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/terrains/colina|colinas.json"
+        }
+    ]
+}

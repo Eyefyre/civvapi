@@ -1,0 +1,43 @@
+{
+    "id": 6,
+    "name": "Wald",
+    "historical_info": "In den fr\u00fchen Jahren der Menschheit boten W\u00e4lder eine reiche Ausbeute: Feuerholz, Werkzeuge und Schutz, und nicht zu vergessen viele Tiere, die Nahrung und Kleidung lieferten. Wenn eine Stadt w\u00e4chst, ist die Versuchung gro\u00df, die W\u00e4lder zugunsten von Ackerland zu roden, doch ein weises Staatsoberhaupt l\u00e4sst immer auch ein paar W\u00e4lder stehen - das dient n\u00e4mlich der Produktivit\u00e4t und hebt die Stimmung des Volkes. Milit\u00e4reinheiten, die in W\u00e4ldern stationiert sind, erhalten zudem einen erheblichen Verteidigungsbonus.",
+    "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/wald.png",
+    "movement_cost": 2,
+    "combat_modifier": 25,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "resources": [
+        {
+            "name": "Uran",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+        },
+        {
+            "name": "Wild",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/deer.json"
+        },
+        {
+            "name": "Pelze",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/furs.json"
+        },
+        {
+            "name": "F\u00e4rbemittel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/dyes.json"
+        },
+        {
+            "name": "Seide",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silk.json"
+        },
+        {
+            "name": "Tr\u00fcffel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/resources/truffles.json"
+        }
+    ]
+}

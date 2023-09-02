@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Opernhaus",
+    "game_info": null,
+    "strategy": "Das Opernhaus ist ein Renaissance-Geb\u00e4ude, das die Kultur einer Stadt erh\u00f6ht. Die Stadt ben\u00f6tigt ein Amphitheater, um ein Opernhaus bauen zu k\u00f6nnen. Beinhaltet 1 Platz f\u00fcr ein Gro\u00dfes Musikwerk.",
+    "historical_info": "Eine Oper ist, im Unterschied zu anderen Formen des Musiktheaters, ein Theaterst\u00fcck, in dem die Schauspieler ihre kompletten Dialoge nicht sprechen, sondern singen. Die Operns\u00e4nger werden in der Regel von einem Orchester begleitet. Ein Opernhaus ist ein Theater mit einer B\u00fchne f\u00fcr die S\u00e4nger, einem Platz f\u00fcr das Orchester und einer Akustik, die darauf ausgelegt ist, die Musik in den Zuschauerraum zu tragen. Das erste \u00f6ffentliche Opernhaus war das Teatro San Cassiano, das 1637 in Venedig er\u00f6ffnet wurde. Seither wurden Opernh\u00e4user in aller Welt er\u00f6ffnet. Sie sind schon beinahe Pflicht f\u00fcr jede Stadt, die ein Zentrum f\u00fcr Kunst und Kultur darstellen will.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/opernhaus.png",
+    "prereq_tech": {
+        "name": "Akustik",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

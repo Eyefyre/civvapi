@@ -1,0 +1,37 @@
+{
+    "id": 10,
+    "name": "Cervid\u00e9s",
+    "game_info": null,
+    "historical_info": "Le cerf et sa famille (le renne, l'\u00e9lan, le chevreuil, etc.) vivent en troupeau aux quatre coins de la plan\u00e8te. Ils furent une source de nourriture, de cuir, d'os, de boyaux et d'autres mat\u00e9riaux pour les peuples pr\u00e9industriels pendant des mill\u00e9naires.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cervid\u00e9s.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Camp|Camps",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/improvements/camp.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "For\u00eat|For\u00eats",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/features/for\u00eat|for\u00eats.json"
+        },
+        {
+            "name": "Toundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/toundra.json"
+        },
+        {
+            "name": "Colline|Collines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/terrains/colline|collines.json"
+        }
+    ]
+}

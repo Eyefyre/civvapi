@@ -1,0 +1,39 @@
+{
+    "id": 65,
+    "name": "Balista|una Balista|dalla tua Balista|alla tua Balista|la tua Balista|da una Balista",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ballista.png",
+    "game_info": "Unit\u00e0 d'assedio che infigge gravi danni attaccando da lontano, ma prima di tirare deve eseguire l'allestimento. Solo i romani possono costruirla. Quest'unit\u00e0 ha una Forza di combattimento a distanza superiore rispetto alla Catapulta, che sostituisce.",
+    "historical_info": "La balista romana, una versione avanzata della catapulta, sparava contro il nemico pietre o grandi dardi di legno. Costruita in legno e rinforzata con robuste placche di ferro, nelle mani di operatori esperti la balista poteva essere sorprendentemente precisa. Il raggio d'azione teorico doveva aggirarsi intorno ai 450 metri, ma per essere efficace doveva agire da una distanza molto inferiore, in particolare se la posizione del nemico era ben fortificata. Giulio Cesare us\u00f2 le baliste con grande efficacia durante le sue campagne in Germania e Britannia.",
+    "strategy": "Unit\u00e0 esclusiva dei Romani, pi\u00f9 potente della Catapulta che sostituisce. La Balista \u00e8 un'eccellente arma d'assedio. \u00c8 estremamente utile contro le citt\u00e0, ma \u00e8 vulnerabile agli attacchi. Assicurati di proteggere ogni tua Balista con altre unit\u00e0 militari. La Balista dev'essere allestita (al costo di 1 punto movimento) prima di poter attaccare.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematica|della Matematica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Non pu\u00f2 attaccare in mischia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Deve eseguire l'allestimento per attaccare a distanza",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Visibilit\u00e0 limitata",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/limited_visibility.json"
+        }
+    ]
+}

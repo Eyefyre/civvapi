@@ -1,0 +1,43 @@
+{
+    "id": 37,
+    "name": "Artyleria|Artylerii|Artylerii|Artyleri\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/artillery.png",
+    "game_info": "Pierwsza jednostka obl\u0119\u017cnicza w grze, mog\u0105ca strzela\u0107 na odleg\u0142o\u015b\u0107 3 p\u00f3l. Trzeba j\u0105 rozstawi\u0107, zanim b\u0119dzie mog\u0142a wystrzeli\u0107.",
+    "historical_info": "Z post\u0119pem technologii artyleria nabra\u0142a jeszcze wi\u0119kszego znaczenia na polu bitwy. Dzia\u0142a z okresu XIX-wiecznych wojen napoleo\u0144skich i ameryka\u0144skiej wojny domowej znikn\u0119\u0142y \u2013 z up\u0142ywem lat zast\u0105pi\u0142a je wi\u0119ksza, celniejsza i bardziej \u015bmierciono\u015bna bro\u0144. Niemieckie dzia\u0142o 88 mm to jedna z najlepszych i najbardziej wszechstronnych broni artyleryjskich II wojny \u015bwiatowej. Pocz\u0105tkowo zaprojektowane jako bro\u0144 przeciwlotnicza, dzia\u0142o to okaza\u0142o si\u0119 tak skuteczne jako bro\u0144 przeciwpancerna, \u017ce stworzono jego warianty tylko w tym celu.",
+    "strategy": "Artyleria to zab\u00f3jcza bro\u0144 obl\u0119\u017cnicza, pot\u0119\u017cniejsza ni\u017c dzia\u0142a i maj\u0105ca wi\u0119kszy zasi\u0119g. Podobnie jak one, ma ograniczony zasi\u0119g widzenia i musi si\u0119 ustawi\u0107 (za 1 punkt ruchu), \u017ceby zaatakowa\u0107, ale jej si\u0142a ostrza\u0142u jest olbrzymia. Artyleria mo\u017ce te\u017c prowadzi\u0107 \u201eogie\u0144 po\u015bredni\u201d, umo\u017cliwiaj\u0105cy strzelanie ponad przeszkodami, do cel\u00f3w znajduj\u0105cych si\u0119 poza zasi\u0119giem wzroku (o ile tylko inne jednostki widz\u0105 przeciwnika). Jak wszystkie rodzaje broni obl\u0119\u017cniczej, artyleria jest podatna na ataki bezpo\u015brednie.",
+    "movement": 2,
+    "cost": {
+        "production": 250,
+        "faith": 500
+    },
+    "prereq_tech": {
+        "name": "Dynamit|Dynamitu|Dynamitowi|Dynamit",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/dynamite.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Ostrza\u0142 po\u015bredni|Ostrza\u0142u po\u015bredniego|Ostrza\u0142owi po\u015bredniemu|Ostrza\u0142 po\u015bredni",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/indirect_fire.json"
+        },
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        },
+        {
+            "name": "Premia przeciwko miastom (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Bez terenowej premii do obrony",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Musi si\u0119 ustawi\u0107, \u017ceby ostrzeliwa\u0107",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/must_set_up_to_ranged_attack.json"
+        },
+        {
+            "name": "Ograniczony zasi\u0119g widzenia|Ograniczonego zasi\u0119gu widzenia|Ograniczonemu zasi\u0119gowi widzenia|Ograniczony zasi\u0119g widzenia",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/limited_visibility.json"
+        }
+    ]
+}

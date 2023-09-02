@@ -1,0 +1,27 @@
+{
+    "id": 76,
+    "name": "Immortal",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/immortal.png",
+    "game_info": "Ancient Era Unit which specializes in defeating Mounted Units. Only the Persians may build it. This Unit has a higher Combat Strength and heals more quickly than the Spearman, which it replaces.",
+    "historical_info": "The Persian Immortals were an elite heavy infantry unit. Kept constantly at a strength of 10,000 men, they formed the heart of the Persian (Achaemenid) army. The Immortals fought under Cyrus the Great, Cambyses, and Darius the Great; when not in combat they acted as the Persian Palace Guard. The Immortals were armed with short spears, swords, bow and arrows. They carried light shields and wore scale mail armor. According to Herodotus, \"Every man glittered with the gold that he carried in unlimited quantity. They were accompanied by covered carriages full of their women and servants, all elaborately fitted out. Special food, separate from the rest of the army, was brought along for them...\"",
+    "strategy": "The Immortal is the Persian unique unit, replacing the Spearman. It is slightly more powerful than the Spearman, and it heals twice as quickly. It is quite deadly against mounted units.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronze Working",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Heals at Double Rate",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/heals_at_double_rate.json"
+        }
+    ]
+}

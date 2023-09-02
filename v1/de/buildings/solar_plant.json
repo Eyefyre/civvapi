@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Sonnenkraftwerk",
+    "game_info": "Stadt muss in oder an einer W\u00fcste liegen und darf kein Kernkraftwerk besitzen.Stadt muss eine Fabrik besitzen.",
+    "strategy": "Ein Sonnenkraftwerk ist ein Geb\u00e4ude im sp\u00e4teren Spielverlauf, das die Produktion einer Stadt in erheblichem Ma\u00dfe steigert. Die Stadt muss auf oder neben einem W\u00fcsten-Gel\u00e4ndefeld liegen, damit ein Sonnenkraftwerk gebaut werden kann. Die Stadt muss vor dem Bau eine Fabrik besitzen.",
+    "historical_info": "Ein Sonnenkraftwerk nimmt die Energie der Sonne auf und wandelt sie in Strom um. Die effizientesten Sonnenkraftwerke werden logischerweise an Orten mit viel Sonnenschein und wenig Wolkenaufkommen platziert. Aktuell ist Strom aus Sonnenenergie im Vergleich zu Energie aus fossilen Brennstoffen (\u00d6l oder Kohle) recht teuer, doch die Sonnenenergietechnik wird immer billiger und fossile Brennstoffe werden immer teurer - vor allem, wenn die Kosten der durch Abgase verursachten Umweltbelastung hinzugerechnet werden. Sobald die Technologie perfektioniert ist, werden damit gro\u00dfe Teile des Energiebedarfs der Welt gedeckt werden. Es gibt Sch\u00e4tzungen, dass die Erde 200.000-mal mehr Sonnenenergie empf\u00e4ngt als die Menschheit derzeit insgesamt erzeugt.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/sonnenkraftwerk.png",
+    "prereq_tech": {
+        "name": "\u00d6kologie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

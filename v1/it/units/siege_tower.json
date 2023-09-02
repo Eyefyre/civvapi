@@ -1,0 +1,43 @@
+{
+    "id": 126,
+    "name": "Torre d'assedio|una Torre d'assedio|dalla tua Torre d'assedio|alla tua Torre d'assedio|la tua Torre d'assedio|da una Torre d'assedio",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/siege_tower.png",
+    "game_info": "Potente unit\u00e0 d'assedio che attacca da vicino e, quando si trova nei pressi di una citt\u00e0, d\u00e0 a tutte le unit\u00e0 nei paraggi un bonus in attacco contro la stessa citt\u00e0. Solo gli Assiri possono costruirla.",
+    "historical_info": "Le pi\u00f9 antiche torri d'assedio conosciute risalgono al nuovo impero assiro del IX Secolo a.C. Alcuni bassorilievi realizzati durante il regno di Assurbanipal II raffigurano torri d'assedio che danno l'assalto alle mura delle citt\u00e0 nemiche. A quei tempi le mura di mattoni d'argilla essiccati fornivano in genere una protezione sufficiente contro gli eserciti della Mesopotamia, ma le torri d'assedio usate dagli assiri permisero loro di conquistare le citt\u00e0 nemiche in modo rapido ed efficace, consentendo al loro impero di espandersi quasi indisturbato per tre secoli.",
+    "strategy": "Questa unit\u00e0 d'assedio attacca corpo a corpo e deve raggiungere una casella adiacente a una citt\u00e0 nemica per attaccarla, ma una volta fatto questo si rivela devastante. Non solo possiede un attacco potente, ma conferisce un bonus a tutte le unit\u00e0 vicine che stanno anch'esse attaccando la citt\u00e0. Supporta una Torre d'assedio con unit\u00e0 che attaccano corpo a corpo o a distanza, e assicurati che raggiunga il suo obiettivo prima di essere distrutta, e le citt\u00e0 nemiche cadranno una dopo l'altra.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Matematica|della Matematica",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mathematics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Geniere",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/sapper.json"
+        },
+        {
+            "name": "Bonus contro le citt\u00e0 (200)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_cities_(200).json"
+        },
+        {
+            "name": "Copertura I",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/cover_i.json"
+        },
+        {
+            "name": "Pu\u00f2 attaccare solo le citt\u00e0",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/city_attack_only.json"
+        },
+        {
+            "name": "Visione extra (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Nessun bonus difensivo per terreno",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/no_defensive_terrain_bonuses.json"
+        }
+    ]
+}

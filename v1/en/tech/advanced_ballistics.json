@@ -1,0 +1,44 @@
+{
+    "id": 71,
+    "name": "Advanced Ballistics",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/advanced_ballistics.png",
+    "era": "Information Era",
+    "cost": 7700,
+    "civilopedia_entry": "Ballistics is the science of shooting or throwing stuff great distances with great precision. Advanced ballistics is more of the same, with the distances increased to continent-spanning scale. Modern artillerists can shoot explosive rounds dozens of miles with great accuracy, and missiles can be fired at precise targets half-way around the planet. When embellishments like GPS and laser guidance are included, there is virtually no target anywhere in the world that can't be hit by some weapon somewhere. Whether this is a good thing is open to debate; it largely depends upon whose finger is on the firing button.",
+    "quote": "\"Our scientific power has outrun our spiritual power. We have guided missiles and misguided men.\" - Martin Luther King, Jr.",
+    "tech_prereqs": [
+        {
+            "name": "Nuclear Fission",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+        },
+        {
+            "name": "Rocketry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/rocketry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Particle Physics",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/particle_physics.json"
+        },
+        {
+            "name": "Nuclear Fusion",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fusion.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "SS Booster",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/ss_booster.json"
+        },
+        {
+            "name": "Nuclear Missile",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/nuclear_missile.json"
+        },
+        {
+            "name": "Guided Missile",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/units/guided_missile.json"
+        }
+    ],
+    "building_unlocks": []
+}

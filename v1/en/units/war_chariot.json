@@ -1,0 +1,31 @@
+{
+    "id": 72,
+    "name": "War Chariot",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/war_chariot.png",
+    "game_info": "A fast Ranged Unit. Only the Egyptians may build it. This Unit does not require Horses to be built, unlike the Chariot Archer which it replaces.",
+    "historical_info": "The Egyptians were early masters of the chariot, and their war chariots were rightly feared by their opponents. The Pharaohs themselves often went into battle aboard war chariots. Amenhotep II claimed that from a speeding chariot he had hit four targets, set thirty feet apart, with such power that the arrows penetrated the targets' three inches of copper. Like other cavalry, war chariots were especially deadly against a retreating foe. Once an enemy is running away, his shield can no longer protect him, and he's totally vulnerable to arrow-fire, or indeed to being crushed beneath the wheels of a speeding chariot.",
+    "strategy": "The War Chariot is the Egyptian unique unit, replacing the Chariot Archer. It is faster than the standard Chariot Archer, and the Egyptian player can construct it even if he doesn't possess the Horse resource. A mounted unit, the War Chariot is quite vulnerable to the Spearman.",
+    "movement": 5,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "The Wheel",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Rough Terrain Penalty",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "May Not Melee Attack",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

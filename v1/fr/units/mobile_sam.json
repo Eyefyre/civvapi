@@ -1,0 +1,27 @@
+{
+    "id": 26,
+    "name": "Lance-missiles SAM mobile|Lance-missiles SAM mobiles",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/mobile_sam.png",
+    "game_info": "Intercepte toute unit\u00e9 a\u00e9rienne ennemie cherchant \u00e0 bombarder les unit\u00e9s \u00e0 proximit\u00e9.",
+    "historical_info": "Pendant que les h\u00e9licopt\u00e8res devenaient des machines de guerre de plus en plus sophistiqu\u00e9es, l'infanterie s'est mise \u00e0 d\u00e9velopper des armes pour contrer ces ennemis (et surtout son plus grand ennemi, les avions de chasse). Les missiles sol-air modernes sont rapides, l\u00e9gers et disposent d'un radar leur permettant de verrouiller une cible. Le missile atteint ainsi l'a\u00e9ronef avant d'exploser pour l'endommager ou le d\u00e9truire compl\u00e8tement. Pour esquiver ces missiles, des v\u00e9hicules plus furtifs ont \u00e9t\u00e9 con\u00e7us et une technologie de brouillage de missiles a \u00e9t\u00e9 d\u00e9velopp\u00e9e. Malgr\u00e9 cela, les missiles sol-air constituent un grand danger pour tout a\u00e9ronef ennemi, mais une bonne protection antia\u00e9rienne pour les unit\u00e9s au sol.",
+    "strategy": "Le lance-missiles SAM mobile (unit\u00e9 sol-air) offre \u00e0 son arm\u00e9e une d\u00e9fense antia\u00e9rienne sophistiqu\u00e9e. Il peut intercepter et abattre les a\u00e9ronefs ennemis en les bombardant dans un rayon de deux cases (ils ne peuvent cependant intercepter qu'une unit\u00e9 par tour). Ces unit\u00e9s \u00e9tant particuli\u00e8rement vuln\u00e9rables aux attaques non a\u00e9riennes, il est conseill\u00e9 de leur adjoindre des unit\u00e9s d'infanterie et des blind\u00e9s.",
+    "movement": 3,
+    "cost": {
+        "production": 425,
+        "faith": 850
+    },
+    "prereq_tech": {
+        "name": "Fus\u00e9es",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rocketry.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/interception_(100).json"
+        },
+        {
+            "name": "Bonus contre les a\u00e9ronefs/h\u00e9licopt\u00e8res (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_aircraft_helicopters_(150).json"
+        }
+    ]
+}

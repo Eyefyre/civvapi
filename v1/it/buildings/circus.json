@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Circo|il Circo|un Circo",
+    "game_info": "La citt\u00e0 deve avere vicino una fonte migliorata di Cavalli o di Avorio.",
+    "strategy": "Il Circo pu\u00f2 essere costruito solo in una citt\u00e0 vicina a una fonte migliorata di Cavalli o Avorio. Il Circo aumenta la Felicit\u00e0 di una civilt\u00e0.",
+    "historical_info": "Un circo \u00e8 costituito da una compagnia di artisti e spesso include clown, acrobati, giocolieri, funamboli, trapezisti, musicisti e addestratori di animali. La maggior parte dei circhi si sposta da una citt\u00e0 all'altra nel corso della stagione, ma ce ne sono alcuni che restano stanziali nella stessa localit\u00e0 per tutto l'anno. Nella Roma antica il termine indicava un edificio in cui si svolgevano corse di carri, battaglie simulate, giochi di destrezza e altri divertimenti. Il primo circo romano \u00e8 stato il Circo Massimo, che nel suo momento di massimo fulgore poteva ospitare 250.000 cittadini in delirio, ovvero il 25% circa della popolazione.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/circo|il_circo|un_circo.png",
+    "prereq_tech": {
+        "name": "Trappole per animali|delle Trappole per animali",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/trapping.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Forge|Forges",
+    "game_info": "Formation d'unit\u00e9s terrestres\u00a0: production +15%. Les sources de fer exploit\u00e9es par la ville fournissent +1 Production. La ville doit poss\u00e9der une source de fer exploit\u00e9e dans les environs.",
+    "strategy": "La forge ne peut \u00eatre construite que dans une ville exploitant dans ses environs une source de fer am\u00e9nag\u00e9e. Elle augmente la rapidit\u00e9 avec laquelle votre ville produit des unit\u00e9s terrestres.",
+    "historical_info": "Une forge est un b\u00e2timent abritant un four capable de g\u00e9n\u00e9rer des temp\u00e9ratures permettant de faire fondre et de modeler le fer en des objets tels que des fers \u00e0 cheval, des clous ou des pointes de fl\u00e8che. Ce travail n\u00e9cessite une chaleur extr\u00eame, et le forgeron employait g\u00e9n\u00e9ralement un apprenti ou un assistant dont le seul r\u00f4le \u00e9tait d'activer un soufflet afin de raviver les flammes du four. L'une des techniques du forgeron consistait \u00e0 br\u00fbler le fer au rouge puis \u00e0 le frapper sur une enclume avec un marteau. Une autre technique exigeait de verser le m\u00e9tal en fusion dans un moule en terre, en sable ou en fer, puis de le laisser refroidir jusqu'\u00e0 ce que le m\u00e9tal ait pris le forme d\u00e9sir\u00e9e.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/forge|forges.png",
+    "prereq_tech": {
+        "name": "Moulage",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metal_casting.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

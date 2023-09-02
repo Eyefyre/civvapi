@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazooki|Bazook|Bazookom|Bazooki|Bazookami|Bazookach",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Jednostka epoki atomowej walcz\u0105ca dystansowo, kt\u00f3ra musi s\u0105siadowa\u0107 z przeciwnikiem, by zaatakowa\u0107.",
+    "historical_info": "Bazooka to powszechna nazwa przeno\u015bnej, bezodrzutowej broni stworzonej do zwalczania wrogich pojazd\u00f3w opancerzonych. Opracowana pod koniec I wojny \u015bwiatowej przez armi\u0119 USA bazooka wykorzystuje ma\u0142y silnik rakietowy do wystrzelenia odpowiednio ukszta\u0142towanego pocisku wybuchowego. Wraz ze swoimi brytyjskimi (PIAT) i niemieckimi (panzerschreck) odpowiednikami by\u0142a szeroko wykorzystywana podczas II wojny \u015bwiatowej. W miar\u0119 jak na polu bitwy przybywa\u0142o czo\u0142g\u00f3w, transporter\u00f3w i innych pojazd\u00f3w opancerzonych, \u017co\u0142nierze coraz bardziej potrzebowali mo\u017cliwo\u015bci szybkiej reakcji bez konieczno\u015bci oczekiwania na ci\u0119\u017cki sprz\u0119t. W r\u0119kach uzbrojonej sekcji, kt\u00f3ra nie obawia\u0142a si\u0119 podej\u015b\u0107 blisko do wrogiego czo\u0142gu, bazooka by\u0142a \u015bmierciono\u015bn\u0105 broni\u0105.",
+    "strategy": "Bazooka to ostatnia nieobl\u0119\u017cnicza jednostka walcz\u0105ca dystansowo. To najsilniejsza jednostka walcz\u0105ca na odleg\u0142o\u015b\u0107. Ma tylko jedno pole zasi\u0119gu, ale mo\u017ce powodowa\u0107 powa\u017cne uszkodzenia, nie odnosz\u0105c przy tym \u017cadnych szk\u00f3d - z tego wzgl\u0119du jest doskona\u0142\u0105 jednostk\u0105 obronn\u0105.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Rozszczepianie j\u0105dra atomu|Rozszczepiania j\u0105dra atomu|Rozszczepianiu j\u0105dra atomu|Rozszczepianie j\u0105dra atomu",
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Nie mo\u017ce atakowa\u0107 wr\u0119cz",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Centrale nucl\u00e9aire|Centrales nucl\u00e9aires",
+    "game_info": "N\u00e9cessite 1 Uranium. La ville ne doit pas poss\u00e9der de centrale solaire.",
+    "strategy": "La centrale nucl\u00e9aire augmente fortement la production d'une ville. La construction de ce b\u00e2timent n\u00e9cessite une ressource d'uranium et la pr\u00e9sence d'une usine dans les fronti\u00e8res de la ville.",
+    "historical_info": "Une centrale nucl\u00e9aire est un b\u00e2timent capable de contr\u00f4ler l'\u00e9nergie nucl\u00e9aire et de la convertir en \u00e9lectricit\u00e9. L'\u00e9nergie produite par la fission nucl\u00e9aire transforme l'eau en vapeur, puis cette derni\u00e8re est pomp\u00e9e par des turbines produisant de l'\u00e9lectricit\u00e9. Au quotidien, l'\u00e9nergie nucl\u00e9aire est bien plus \u00e9cologique que le p\u00e9trole, le gaz ou le charbon\u00a0: elle rejette bien moins de polluants dans l'air, l'eau et les poumons de la population. En contrepartie, elle produit des quantit\u00e9s non n\u00e9gligeables de d\u00e9chets nucl\u00e9aires l\u00e9taux qui doivent \u00eatre isol\u00e9s pendant des si\u00e8cles avant de perdre leur toxicit\u00e9. De plus, tout accident majeur dans une centrale nucl\u00e9aire a des r\u00e9percussions bien plus destructrices sur l'environnement que s'il \u00e9tait survenu dans n'importe quel autre type de centrales. Trouver suffisamment d'\u00e9nergie pour que le monde moderne continue de tourner est un probl\u00e8me \u00e9pineux auquel l'humanit\u00e9 devra faire face tant qu'elle n'aura pas d\u00e9couvert une nouvelle \u00e9nergie s\u00fbre et non polluante.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/centrale_nucl\u00e9aire|centrales_nucl\u00e9aires.png",
+    "prereq_tech": {
+        "name": "Fission nucl\u00e9aire",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/nuclear_fission.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

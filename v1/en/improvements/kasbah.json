@@ -1,0 +1,33 @@
+{
+    "id": 27,
+    "name": "Kasbah",
+    "game_info": "A Kasbah is a type of medina (a walled quarter in a city) found in the countryside, usually a small settlement on a hilltop or hillside. Originally the home for a tribal chieftain or important Islamic imam, the Kasbah is characterized by high-walled, windowless houses and narrow, winding streets. It is usually dominated by a single fortified tower. Kasbahs were common along the North African coast and Middle East until the early 1900s. Building a Kasbah was a mark of wealth, influence, and power for Moroccan and Algerian families of Arab descent.A Kasbah can only be built on a Desert tile.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/kasbah.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Chivalry",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/chivalry.json"
+    },
+    "required_civ": {
+        "name": "Morocco",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/civilizations/morocco.json"
+    },
+    "yields": {
+        "gold": 1,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    }
+}

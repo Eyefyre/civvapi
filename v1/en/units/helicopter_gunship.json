@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "name": "Helicopter Gunship",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/helicopter_gunship.png",
+    "game_info": "Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over mountains, but takes damage if ending its turn on one.",
+    "historical_info": "Helicopters saw limited use as transport vehicles in World War II and the Korean war. During the Vietnam war the US Army decided to create a more heavily armed and armored chopper designed specifically for combat. Since that period, the helicopter gunship has evolved primarily into a tank-killing machine. Able to fly extremely close to the ground, \"pop up\" for a quick shot and then scoot away at low levels before the enemy armor could respond, helicopters were almost unstoppable except by air power until the creation of handheld \"suitcase\" surface-to-air missiles like the ones the Mujahidin used against the Soviet choppers in Afghanistan. Modern combat helicopters perform other functions, like close air support for infantry units or rapid transport for special ops teams, but their primary mission remains killing tanks.",
+    "strategy": "The Helicopter Gunship is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 6 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Gunships receive a hefty combat bonus when fighting tanks.",
+    "movement": 6,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Computers",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/computers.json"
+    },
+    "free_promotions": [
+        {
+            "name": "All Tiles Cost 1 Move",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/all_tiles_cost_1_move.json"
+        },
+        {
+            "name": "Hovering Unit",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/hovering_unit.json"
+        },
+        {
+            "name": "Bonus vs Tanks (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_tanks_(100).json"
+        },
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Unable to Capture Cities",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/unable_to_capture_cities.json"
+        }
+    ]
+}

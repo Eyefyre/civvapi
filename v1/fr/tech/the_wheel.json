@@ -1,0 +1,61 @@
+{
+    "id": 10,
+    "name": "La roue",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/the_wheel.png",
+    "era": "Antiquit\u00e9",
+    "cost": 55,
+    "civilopedia_entry": "La roue est un objet rond muni en son centre d'un trou ou d'un axe. Seule, elle ne sert pas \u00e0 grand-chose, mais lorsqu'elle fait partie int\u00e9grante d'un syst\u00e8me de transport incluant routes et animaux de trait, elle devient extraordinairement pr\u00e9cieuse \u00e0 l'humanit\u00e9. La premi\u00e8re description d'un v\u00e9hicule \u00e9quip\u00e9 de roue nous vient de l'antique civilisation sum\u00e9rienne, vers 3500 av. J.-C. Les premi\u00e8res roues \u00e9taient pleines et en bois. Les roues \u00e0 rayons n'apparurent pour la premi\u00e8re fois qu'aux alentours de 2000 av. J.-C. en Asie Mineure, o\u00f9 elles \u00e9quipaient des chars tir\u00e9s par des chevaux. Plus tard, ces mod\u00e8les furent am\u00e9lior\u00e9s par la mise en place de moyeux tournant sur des axes graiss\u00e9s, et l'adjonction de ressorts ou d'autres types d'amortisseurs.Contrairement au mythe populaire, la roue \u00e9tait connue des indig\u00e8nes du Nouveau Monde avant l'arriv\u00e9e des Espagnols. En r\u00e9alit\u00e9, les habitants des trois Am\u00e9riques ne disposant pas d'animaux de trait, tout \u00e9tait transport\u00e9 par les hommes. Or, comme l'\u00eatre humain n'est pas fait pour supporter ais\u00e9ment de tirer quoi que ce soit sur de longues distances (il transporte plus facilement une charge sur ses \u00e9paules ou son dos, \u00e0 l'aide d'un sac, par exemple), les Indiens ne d\u00e9velopp\u00e8rent pas de charrette. Une fois les chevaux et autres animaux de trait arriv\u00e9s sur le continent, les natifs des Am\u00e9riques se mirent eux aussi \u00e0 utiliser des v\u00e9hicules \u00e0 roues, et ce, le plus naturellement du monde.",
+    "quote": "\"La sagesse et la vertu sont comme les deux roues d'une charrette.\" - Proverbe japonais",
+    "tech_prereqs": [
+        {
+            "name": "\u00c9levage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tir \u00e0 l'arc",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archery.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "\u00c9quitation",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/horseback_riding.json"
+        },
+        {
+            "name": "Math\u00e9matiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/mathematics.json"
+        },
+        {
+            "name": "Construction",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Archer sur char|Archers sur char",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/chariot_archer.json"
+        },
+        {
+            "name": "Char de guerre|Chars de guerre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/war_chariot.json"
+        },
+        {
+            "name": "\u00c9l\u00e9phant de guerre|\u00c9l\u00e9phants de guerre",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/war_elephant.json"
+        },
+        {
+            "name": "Archer mont\u00e9|Archers mont\u00e9s",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/horse_archer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Chinampa|Chinampas",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/floating_gardens.json"
+        },
+        {
+            "name": "Moulin \u00e0 eau|Moulins \u00e0 eau",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/water_mill.json"
+        }
+    ]
+}

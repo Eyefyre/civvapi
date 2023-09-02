@@ -1,0 +1,567 @@
+[
+    {
+        "id": 1,
+        "name": "Grasland",
+        "historical_info": "Grasland ist im Allgemeinen der Gel\u00e4ndetyp, der die meiste Nahrung produziert. St\u00e4dte, die in der N\u00e4he von Grasland gebaut werden, wachsen meist schneller als St\u00e4dte in anderem Gel\u00e4nde.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/grasland.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Dschungel",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/jungle.json"
+            },
+            {
+                "name": "Sumpf",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/marsh.json"
+            },
+            {
+                "name": "Wald",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "Pferde",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+            },
+            {
+                "name": "Kohle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Vieh",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cattle.json"
+            },
+            {
+                "name": "Schafe",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Gold",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "Marmor",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+            },
+            {
+                "name": "Baumwolle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+            },
+            {
+                "name": "Wein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wine.json"
+            },
+            {
+                "name": "Kupfer",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+            },
+            {
+                "name": "Zitronen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/citrus.json"
+            },
+            {
+                "name": "Bison",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bison.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grassland.json"
+    },
+    {
+        "id": 2,
+        "name": "Ebene",
+        "historical_info": "Ebenen bieten sowohl Nahrung als auch Produktion f\u00fcr eine nahegelegene Stadt. Eine Stadt, die von Ebenen umgeben ist, w\u00e4chst zwar langsamer, als wenn sie von Grasland umgeben w\u00e4re, daf\u00fcr ist sie aber viel produktiver.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ebene.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Wald",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "Pferde",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+            },
+            {
+                "name": "Kohle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Weizen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wheat.json"
+            },
+            {
+                "name": "Schafe",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Gold",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "Marmor",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+            },
+            {
+                "name": "Elfenbein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/ivory.json"
+            },
+            {
+                "name": "Baumwolle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+            },
+            {
+                "name": "Wein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/wine.json"
+            },
+            {
+                "name": "R\u00e4ucherwerk",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/incense.json"
+            },
+            {
+                "name": "Kupfer",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+            },
+            {
+                "name": "Salz",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+            },
+            {
+                "name": "Zitronen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/citrus.json"
+            },
+            {
+                "name": "Bison",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/bison.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/plains.json"
+    },
+    {
+        "id": 3,
+        "name": "W\u00fcste",
+        "historical_info": "W\u00fcsten-Gel\u00e4ndefelder bieten f\u00fcr gew\u00f6hnlich sehr wenig Nutzen. Sie verschaffen St\u00e4dten keine Vorteile (au\u00dfer nat\u00fcrlich, es befindet sich eine Oase oder Ressource in der W\u00fcste oder wenn es einen direkten Zugang zu Frischwasser gibt).",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/w\u00fcste.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Oase",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/oasis.json"
+            },
+            {
+                "name": "Schwemmland",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/flood_plains.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Schafe",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Gold",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+            },
+            {
+                "name": "Silber",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silver.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "Marmor",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+            },
+            {
+                "name": "Baumwolle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/cotton.json"
+            },
+            {
+                "name": "R\u00e4ucherwerk",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/incense.json"
+            },
+            {
+                "name": "Kupfer",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+            },
+            {
+                "name": "Salz",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/desert.json"
+    },
+    {
+        "id": 4,
+        "name": "Tundra",
+        "historical_info": "Die Tundra ist das halbgefrorene Land, das man in den k\u00e4lteren Gebieten der Welt findet. Sie ist schlechter nutzbar als Ebenen oder Grasland, aber etwas besser als W\u00fcsten. St\u00e4dte werden in der Tundra eigentlich nur gebaut, wenn man dringend Ressourcen ben\u00f6tigt, oder man sonst nirgendwo siedeln kann.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/tundra.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Wald",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/forest.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "Pferde",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/horses.json"
+            },
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Wild",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/deer.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Silber",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silver.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "Marmor",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+            },
+            {
+                "name": "Pelze",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/furs.json"
+            },
+            {
+                "name": "Kupfer",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+            },
+            {
+                "name": "Salz",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/salt.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+    },
+    {
+        "id": 5,
+        "name": "Schnee",
+        "historical_info": "Schneefelder sind ziemlich ertragsarm, da sie einer nahegelegenen Stadt weder Nahrung noch Produktion liefern. Ein Schneefeld kann nat\u00fcrlich eine n\u00fctzliche Ressource enthalten, aber ansonsten ist es einfach nur kalt und unfruchtbar.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/schnee.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Kupfer",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/copper.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/snow.json"
+    },
+    {
+        "id": 6,
+        "name": "K\u00fcste",
+        "historical_info": "K\u00fcsten-Gel\u00e4ndefelder sind Ozean-Gel\u00e4ndefelder, die an Land grenzen. Sie bieten einer nahen Stadt Nahrung und Gold, aber nur, wenn die Zivilisation \u00fcber die Technologie Segeln verf\u00fcgt. Nur K\u00fcsteneinheiten und Landeinheiten \"zu Wasser\" k\u00f6nnen K\u00fcsten-Gel\u00e4ndefelder betreten.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/k\u00fcste.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Eis",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/ice.json"
+            },
+            {
+                "name": "Atoll",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/atoll.json"
+            }
+        ],
+        "resources": [
+            {
+                "name": "\u00d6l",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/oil.json"
+            },
+            {
+                "name": "Fisch",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/fish.json"
+            },
+            {
+                "name": "Wale",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/whales.json"
+            },
+            {
+                "name": "Perlen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/pearls.json"
+            },
+            {
+                "name": "Krabben",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/crab.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/coast.json"
+    },
+    {
+        "id": 7,
+        "name": "Ozean",
+        "historical_info": "Ozean-Gel\u00e4ndefelder stehen f\u00fcr tiefe Gew\u00e4sser. Sie bieten einer Stadt Nahrung und Gold, sobald die Stadt \u00fcber die Technologien verf\u00fcgt, um sie f\u00fcr sich zu nutzen.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/ozean.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [
+            {
+                "name": "Eis",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/ice.json"
+            },
+            {
+                "name": "Atoll",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/features/atoll.json"
+            }
+        ],
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ocean.json"
+    },
+    {
+        "id": 8,
+        "name": "Berg",
+        "historical_info": "Berge sind unpassierbar, au\u00dfer f\u00fcr Lufteinheiten sowie karthagische Einheiten (nach Erlangen des Gro\u00dfen Generals). St\u00e4dten bieten sie nichts.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/berg.png",
+        "movement_cost": -1,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/mountain.json"
+    },
+    {
+        "id": 9,
+        "name": "H\u00fcgel",
+        "historical_info": "H\u00fcgel bescheren einer Stadt in der N\u00e4he eine erh\u00f6hte Produktivit\u00e4t. Sie sichern Einheiten, die auf ihnen stationiert sind, au\u00dferdem wichtige Kampfbonusse.",
+        "icon": "https://eyefyre.github.io/civvapi/images/terrain_icons/h\u00fcgel.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "features": [],
+        "resources": [
+            {
+                "name": "Schafe",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/sheep.json"
+            },
+            {
+                "name": "Wild",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/deer.json"
+            },
+            {
+                "name": "Stein",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/stone.json"
+            },
+            {
+                "name": "Aluminium",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/aluminum.json"
+            },
+            {
+                "name": "Kohle",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/coal.json"
+            },
+            {
+                "name": "Eisen",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/iron.json"
+            },
+            {
+                "name": "Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/uranium.json"
+            },
+            {
+                "name": "Edelsteine",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gems.json"
+            },
+            {
+                "name": "Gold",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/gold.json"
+            },
+            {
+                "name": "Marmor",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/marble.json"
+            },
+            {
+                "name": "Silber",
+                "url": "https://eyefyre.github.io/civvapi/v1/de/resources/silver.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/hill.json"
+    }
+]

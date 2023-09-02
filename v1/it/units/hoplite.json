@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Oplita|un Oplita|dal tuo Oplita|al tuo Oplita|il tuo Oplita|da un Oplita",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Unit\u00e0 di epoca antica specializzata nel combattimento contro unit\u00e0 a cavallo. Solo i greci possono costruirla. Quest'unit\u00e0 ha una Forza di combattimento superiore rispetto al Lanciere, che sostituisce.",
+    "historical_info": "I Greci furono maestri del combattimento con la lancia. Le loro armi lunghe e mortali, impugnate da opliti perfettamente addestrati e organizzati in una formazione a falange, erano praticamente impossibili da sconfiggere per la fanteria o i guerrieri a cavallo del tempo. Un soldato alle prese con la falange greca doveva affrontare non solo la lancia del nemico immediatamente di fronte a s\u00e9, ma anche quelle dei due o tre soldati che gli stavano dietro. L'oplita rimaneva vulnerabile al fuoco degli arcieri, ed era quasi impossibile mantenere la formazione a falange su un terreno accidentato. In campo aperto e in pianura, comunque, gli opliti erano avversari formidabili.",
+    "strategy": "L'Oplita \u00e8 un'unit\u00e0 esclusiva della Grecia e sostituisce il Lanciere. \u00c8 molto pi\u00f9 potente dei Lancieri. L'Oplita \u00e8 particolarmente letale contro avversari a cavallo.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Lavorazione del bronzo|della Lavorazione del bronzo",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contro unit\u00e0 a cavallo (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Navegaci\u00f3n",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Renacimiento",
+    "cost": 1150,
+    "civilopedia_entry": "La navegaci\u00f3n es la ciencia de encontrar el rumbo por el oc\u00e9ano. Los primeros nav\u00edos rara vez perd\u00edan de vista la costa, lo que hac\u00eda la navegaci\u00f3n muy sencilla. Sin embargo, limitaba los lugares a los que se pod\u00eda ir y, adem\u00e1s, aumentaba las posibilidades de que los barcos acabaran varados o chocando con las rocas por la acci\u00f3n de los vientos contrarios. Hay pocas cosas m\u00e1s aterradoras para el capit\u00e1n de un velero (sin motor) que estar en \"costa de sotavento\"; es decir, que un viento fuerte arrastre el barco hacia la costa cercana.Antes de la llegada de los sat\u00e9lites, las radios y los radares, los barcos navegaban siguiendo el rumbo en una carta (\"navegaci\u00f3n a ciegas\"). Si uno sab\u00eda la velocidad y la direcci\u00f3n exacta en la que se mov\u00eda, pod\u00eda hacerse una idea bastante acertada de d\u00f3nde se encontraba. No obstante, tras varias semanas en la mar, hasta el fallo m\u00e1s nimio en la velocidad y en el rumbo pod\u00eda acumularse y dar grandes errores. Si te encontrabas surcando el Pac\u00edfico, con cada vez menos reserva de agua y navegando hasta el \u00fanico islote con agua dulce en miles de kil\u00f3metros a la redonda, un error en la navegaci\u00f3n a ciegas pod\u00eda suponer f\u00e1cilmente un final muy poco agradable.El capit\u00e1n de una nave tambi\u00e9n pod\u00eda mirar los cielos para ayudarse en la navegaci\u00f3n. Si era un d\u00eda soleado, los capitanes ten\u00edan delicados instrumentos con los que pod\u00edan decir el momento preciso en que el sol alcanzaba su c\u00e9nit (su punto m\u00e1s alto) encima del barco. Si tambi\u00e9n contaban con un reloj preciso que estuviera puesto en la hora correcta, pod\u00edan usar esta informaci\u00f3n para calcular su longitud exacta, la distancia hacia este u oeste que hay desde el meridiano cero (el que pasa por Greenwich, Inglaterra). Para ello, obviamente, se hab\u00eda de tener buen tiempo, un reloj preciso y la habilidad de ver perfectamente el mediod\u00eda a bordo de un barco, que pod\u00eda estar balance\u00e1ndose de un modo alarmante. En las noches despejadas, los capitanes usaban los movimientos de ciertas estrellas para obtener una informaci\u00f3n similar.Finalmente, por supuesto, el invento de la radio, el radar y los sat\u00e9lites hicieron que todo el proceso fuera mucho m\u00e1s f\u00e1cil y seguro. Pero hasta los capitanes actuales encallan sus naves o las hacen chocar contra la pilastra de un puente (y son barcos con motor). Imagina la habilidad que hay que tener para mantener un velero en el rumbo correcto.",
+    "quote": "\"Los vientos y las olas siempre est\u00e1n del lado de los marinos m\u00e1s h\u00e1biles.\" - Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronom\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arqueolog\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fragata|Fragatas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/frigate.json"
+        },
+        {
+            "name": "Buque de guerra|Buques de guerra",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Mendigo del mar|Mendigos del mar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/sea_beggar.json"
+        },
+        {
+            "name": "Corsario|Corsarios",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Puerto mar\u00edtimo|Puertos mar\u00edtimos",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/seaport.json"
+        }
+    ]
+}

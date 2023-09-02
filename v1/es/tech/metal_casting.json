@@ -1,0 +1,49 @@
+{
+    "id": 25,
+    "name": "Vaciado del metal",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/metal_casting.png",
+    "era": "\u00c9poca Medieval",
+    "cost": 275,
+    "civilopedia_entry": "El vaciado del metal es el proceso mediante el cual un artesano puede hacer uno o m\u00e1s objetos met\u00e1licos vertiendo metal en un molde. Uno de los m\u00e9todos m\u00e1s antiguos de hacer moldes es el procedimiento \"a la cera perdida\", que data del tercer milenio a. C. El artesano hace una copia en cera del objeto y alrededor de ella crea el molde. Cuando el metal fundido se vierte en el molde, funde la cera y la sustituye. Al enfriarse el metal, se abre el molde y se saca el objeto.Hist\u00f3ricamente, la arena y la arcilla han sido materiales muy usados para hacer moldes. En los tiempos actuales, los moldes se hacen de pl\u00e1stico o de sustancias similares al l\u00e1tex.",
+    "quote": "\"Cuando una pieza de bronce, de oro o de hierro se rompe, el herrero vuelve a fundir los pedazos y el v\u00ednculo se restablece.\" - Sri Gur\u00fa Granth Sahib",
+    "tech_prereqs": [
+        {
+            "name": "Ingenier\u00eda",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/engineering.json"
+        },
+        {
+            "name": "Forja del hierro",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/iron_working.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "F\u00edsica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/physics.json"
+        },
+        {
+            "name": "Acero",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/steel.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Berserk|Berserker",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/berserker.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Gran casa|Grandes casas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/longhouse.json"
+        },
+        {
+            "name": "Fragua|Fraguas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/forge.json"
+        },
+        {
+            "name": "Taller|Talleres",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/workshop.json"
+        }
+    ]
+}

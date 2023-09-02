@@ -1,0 +1,20 @@
+{
+    "id": 70,
+    "name": "Scientific Revolution",
+    "game_info": "Scientific RevolutionBoosts Science gained from research agreements by 50%.",
+    "historical_info": "A scientific revolution is a period when rapid advances in human knowledge or technology overturns the current worldview, as a result triggering yet more advancements in thought and knowledge. Much of Europe underwent a scientific revolution in the 16th century, following the publication of Nicolaus Copernicus' work, \"On the Revolutions of the Heavenly Spheres\" and Andreas Vesalius' \"On the Fabric of the Human Body In Seven Books.\" Both used modern (for the period) scientific practices to examine parts of the world around them and overturned incorrect scientific theories, some dating back to the ancient Greeks. Following the success of these books, the floodgates were opened, and scientists began carefully examining everything around them, and human knowledge increased exponentially over the succeeding centuries.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/scientific_revolution.png",
+    "required_policies": [
+        {
+            "name": "Sovereignty",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/sovereignty.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Rationalism",
+        "game_info": "Rationalism improves the ability to use and generate Science.Adopting Rationalism will grant +10% Science while the empire is Happy. Unlocks building the Porcelain Tower.Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with Faith starting in the Industrial Era.",
+        "prereq_era": "Renaissance Era",
+        "historical_info": "Rationalism is a worldview that looks to reason (rather than, say, faith) to explain the world. Rationalism believes that reason trumps all other ways of interpreting the world, including any data gathered by one's five senses. This philosophy can be traced back to the great Socrates of ancient Greece, and it enjoyed something of a resurgence during the 16th and 17th century in Europe, when it was explored by men like Descartes, Spinoza, and Kant."
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "id": 6,
+    "name": "Uran",
+    "game_info": "Wird f\u00fcr Atomwaffen, Kernkraftwerke und riesige Killerroboter ben\u00f6tigt.",
+    "historical_info": "Uran ist ein nat\u00fcrliches radioaktives Mineral, das nach Verarbeitung und Anreicherung verwendet werden kann, um gro\u00dfe Mengen Energie zu erzeugen und Dinge in die Luft zu jagen. Entdeckt wurde es im 18. Jahrhundert, doch erst im 20. Jahrhundert, inmitten des Grauens des Zweiten Weltkrieges, lernten amerikanische Wissenschaftler, wie man aus einem wenig gef\u00e4hrlichen Material den t\u00f6dlichsten Sprengstoff der Geschichte herstellen kann. Die Verwendung von Uran in Energiereaktoren gilt als \"saubere\" Energie, da die in die Luft entlassenen Schadstoffmengen wesentlich geringer sind als bei Kohle oder \u00d6l. Andererseits sind radioaktive Abfallprodukte extrem giftig und verpesten \u00fcber Jahrhunderte Land, Luft, Wasser und alle lebenden Organismen, die damit in Kontakt kommen. Also ist auch diese Energiegewinnung nicht unproblematisch. Wichtig: Uran ist eine strategische Ressource und wird als solche verbraucht, wenn man die damit verbundenen Einheiten und Geb\u00e4ude baut.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uran.png",
+    "prereq_tech": {
+        "name": "Atomtheorie",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/atomic_theory.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Mine",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/mine.json"
+        },
+        {
+            "name": "Zollamt",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/customs_house.json"
+        },
+        {
+            "name": "Akademie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/academy.json"
+        },
+        {
+            "name": "Zitadelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/citadel.json"
+        },
+        {
+            "name": "Fabrikanlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/manufactory.json"
+        },
+        {
+            "name": "Heilige St\u00e4tte",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/improvements/holy_site.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Dschungel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/dschungel.json"
+        },
+        {
+            "name": "Wald",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/wald.json"
+        },
+        {
+            "name": "Sumpf",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/features/sumpf.json"
+        },
+        {
+            "name": "Grasland",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/grasland.json"
+        },
+        {
+            "name": "Ebene",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/ebene.json"
+        },
+        {
+            "name": "W\u00fcste",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/w\u00fcste.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/tundra.json"
+        },
+        {
+            "name": "Schnee",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/schnee.json"
+        },
+        {
+            "name": "H\u00fcgel",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/terrains/h\u00fcgel.json"
+        }
+    ]
+}

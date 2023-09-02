@@ -1,0 +1,31 @@
+{
+    "id": 113,
+    "name": "Marine",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/marine.png",
+    "game_info": "Einheit des Atomzeitalters, die besonders n\u00fctzlich f\u00fcr das Wassern und Invasionen \u00fcber das Meer ist.",
+    "historical_info": "Die tapferen Marines, die urspr\u00fcnglich nur als Infanterieklasse f\u00fcr amphibische Angriffe dienen sollten, sind mittlerweile bei vielen verschiedenen Einrichtungen des US-Milit\u00e4rs im Einsatz. Normalerweise arbeiten sie eng mit der Navy zusammen und durch ihre vielf\u00e4ltigen M\u00f6glichkeiten werden sie seit Jahrzehnten bei Konflikten auf der ganzen Welt eingesetzt.",
+    "strategy": "Die Marines sind eine Alternative zur Infanterie. Sie sind ein bisschen teurer, besitzen aber Bef\u00f6rderungen, die die Sicht und Angriffsst\u00e4rke zu Wasser verbessern.",
+    "movement": 2,
+    "cost": {
+        "production": 400,
+        "faith": 800
+    },
+    "prereq_tech": {
+        "name": "Penicillin",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/penicillin.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Amphibisch",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/amphibious.json"
+        },
+        {
+            "name": "Zus\u00e4tzliche Sicht zu Wasser",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/extra_sight_while_embarked.json"
+        },
+        {
+            "name": "Mit Verteidigung wassern",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/embarkation_with_defense.json"
+        }
+    ]
+}

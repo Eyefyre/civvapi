@@ -1,0 +1,32 @@
+{
+    "id": 70,
+    "name": "Mobile Taktiken",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mobile_tactics.png",
+    "era": "Informationszeitalter",
+    "cost": 7700,
+    "civilopedia_entry": "Mobile Taktiken sind Strategien des Milit\u00e4rs, mit denen schnelle und \u00e4u\u00dferst wendige Einheiten in und aus einem Kampf kommen, ohne in diesen lange verwickelt zu werden. Mobile Taktiken werden oftmals von Partisanen oder Guerillaeinheiten eingesetzt, die sich auf schnelle \u00dcberfallangriffe spezialisieren und so gr\u00f6\u00dfere Feindverb\u00e4nde verwirren.",
+    "quote": "\"Alle sehen die Taktik meiner Eroberungen, aber niemand erkennt die Strategie, aus der der Sieg erw\u00e4chst.\" - Sun Tsu",
+    "tech_prereqs": [
+        {
+            "name": "\u00d6kologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/ecology.json"
+        },
+        {
+            "name": "Kernspaltung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/nuclear_fission.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Teilchenphysik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/particle_physics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Mechanisierte Infanterie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/mechanized_infantry.json"
+        }
+    ],
+    "building_unlocks": []
+}

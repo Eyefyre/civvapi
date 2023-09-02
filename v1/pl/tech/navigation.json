@@ -1,0 +1,45 @@
+{
+    "id": 37,
+    "name": "Nawigacja|Nawigacji|Nawigacji|Nawigacj\u0119",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/navigation.png",
+    "era": "Renesans|Renesansu|Renesansie|Renesans",
+    "cost": 1150,
+    "civilopedia_entry": "Nawigacja to nauka zajmuj\u0105ca si\u0119 odnajdywaniem drogi na oceanie. Pierwsze statki niecz\u0119sto oddala\u0142y si\u0119 od brzegu, co znacznie u\u0142atwia\u0142o nawigacj\u0119, ale ogranicza\u0142o ilo\u015b\u0107 miejsc, do kt\u00f3rych mo\u017cna by\u0142o dop\u0142yn\u0105\u0107. Statki by\u0142y te\u017c cz\u0119sto wyrzucane na brzeg lub niebezpieczne ska\u0142y przez przeciwne wiatry. Niewiele rzeczy przera\u017ca kapitana okr\u0119tu bardziej (w epoce przed silnikiem parowym) ni\u017c silny wiatr spychaj\u0105cy jednostk\u0119 prosto do brzegu.Zanim pojawi\u0142y si\u0119 satelity, radia i radary, nawigacja polega\u0142a na \u015bledzeniu ruchu okr\u0119t\u00f3w na mapie morskiej, metod\u0119 t\u0119 nazywano \u201epozycj\u0105 zliczon\u0105\u201d. Znaj\u0105c pr\u0119dko\u015b\u0107 i dok\u0142adny kierunek ruchu, mo\u017cna ustali\u0107, gdzie si\u0119 znajdujemy. Jednak po wielu tygodniach na morzu nawet najdrobniejszy b\u0142\u0105d w okre\u015bleniu pr\u0119dko\u015bci lub kierunku m\u00f3g\u0142 doprowadzi\u0107 do olbrzymich pomy\u0142ek. Kiedy kto\u015b znajdowa\u0142 si\u0119 na \u015brodku Pacyfiku, ko\u0144czy\u0142a mu si\u0119 woda i \u017ceglowa\u0142 w kierunku jedynej wyspy ze s\u0142odk\u0105 wod\u0105 w promieniu tysi\u0105ca mil, pozycja zliczona mog\u0142a sprawi\u0107 mu nieprzyjemn\u0105 niespodziank\u0119.Kapitan m\u00f3g\u0142 sobie pom\u00f3c w nawigacji spogl\u0105daj\u0105c w niebo. Przy s\u0142onecznej pogodzie kapitanowie mogli skorzysta\u0107 z precyzyjnych przyrz\u0105d\u00f3w, pozwalaj\u0105cych dok\u0142adnie okre\u015bli\u0107 moment, w kt\u00f3rym s\u0142o\u0144ce znajdzie si\u0119 w zenicie nad okr\u0119tem. Je\u015bli posiadali te\u017c dok\u0142adny zegar, ustawiony na w\u0142a\u015bciwy czas, mogli u\u017cy\u0107 tych informacji, \u017ceby dok\u0142adnie okre\u015bli\u0107 d\u0142ugo\u015b\u0107 geograficzn\u0105 (czyli odleg\u0142o\u015b\u0107 na wsch\u00f3d lub zach\u00f3d od po\u0142udnika zerowego, przebiegaj\u0105cego przez Greenwich w Anglii). Oczywi\u015bcie by\u0142a do tego niezb\u0119dna dobra pogoda i dok\u0142adny zegar, a tak\u017ce umiej\u0119tno\u015b\u0107 wychwycenia zenitu na okr\u0119cie, kt\u00f3rym mog\u0142o ca\u0142kiem mocno buja\u0107. Noc\u0105 kapitanowie cz\u0119sto uzyskiwali te same informacje, obserwuj\u0105c ruch gwiazd.Oczywi\u015bcie w ko\u0144cu wynalezienie radia, radaru i satelit\u00f3w znacznie upro\u015bci\u0142o ca\u0142y proces oraz poprawi\u0142o bezpiecze\u0144stwo. Ale nawet dzi\u015b kapitanom zdarza si\u0119 wp\u0142yn\u0105\u0107 na mielizn\u0119 lub wbi\u0107 w mosty \u2013 a s\u0105 to statki nap\u0119dzane silnikami. Wyobra\u017a sobie, jak trudno jest utrzyma\u0107 na kursie \u017caglowiec.",
+    "quote": "\u201eWiatr i fale s\u0105 zawsze po stronie najlepszych \u017ceglarzy.\u201d \u2013 Edward Gibbon",
+    "tech_prereqs": [
+        {
+            "name": "Astronomia|Astronomii|Astronomii|Astronomi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/astronomy.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Archeologia|Archeologii|Archeologii|Archeologi\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/archaeology.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fregata|Fregaty|Fregacie|Fregat\u0119|Fregat\u0105|Fregacie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/frigate.json"
+        },
+        {
+            "name": "Okr\u0119t liniowy|Okr\u0119tu liniowego|Okr\u0119towi liniowemu|Okr\u0119t liniowy",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/ship_of_the_line.json"
+        },
+        {
+            "name": "Gez morski|Geza morskiego|Gezowi morskiemu|Geza morskiego",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/sea_beggar.json"
+        },
+        {
+            "name": "Kaper|Kapra|Kaprowi|Kapra",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/privateer.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Port morski|Portu morskiego|Portowi morskiemu|Port morski|Porty morskie|Port\u00f3w morskich|Portom morskim|Porty morskie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/buildings/seaport.json"
+        }
+    ]
+}

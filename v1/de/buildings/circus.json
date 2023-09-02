@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zirkus",
+    "game_info": "Stadt ben\u00f6tigt ein nahegelegenes modernisiertes Vorkommen von Pferden oder Elfenbein in der N\u00e4he.",
+    "strategy": "Der Zirkus kann nur in St\u00e4dten gebaut werden, die \u00fcber eine modernisierte Quelle von Pferden oder Elfenbein in der N\u00e4he verf\u00fcgen. Der Zirkus steigert die Zufriedenheit einer Zivilisation.",
+    "historical_info": "Ein Zirkus ist eine Truppe von Artisten, zu denen oft Clowns, Akrobaten, Jongleure, Seilt\u00e4nzer, Trapezk\u00fcnstler, Musiker und Dompteure geh\u00f6ren. Die meisten Zirkusse sind Wanderzirkusse, die in der Saison von einer Stadt zur n\u00e4chsten reisen. Nur wenige bleiben ganzj\u00e4hrig an einem Ort. Im antiken Rom war ein Circus eine Arena, in der Wagenrennen, Gladiatorenk\u00e4mpfe und andere Unterhaltungen geboten wurden. Der erste r\u00f6mische Circus war der Circus Maximus, der bis zu 250.000 kreischenden B\u00fcrgern Platz bot - das entsprach fast 25% der damaligen Einwohnerzahl der Stadt.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zirkus.png",
+    "prereq_tech": {
+        "name": "Fallenstellen",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/trapping.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 9,
+    "name": "Sheep",
+    "game_info": null,
+    "historical_info": "Sheep are extremely tasty creatures that also produce milk, wool and leather. One of the earliest animals to be domesticated, sheep were first tamed in Mesopotamia some ten thousand years ago. Since that period the practice of shepherding has spread widely, and today sheep can be found across the planet. There are over 200 breeds of sheep in existence, each bred for a specific quality: hardiness, size, quantity and quality of wool, milk production, and of course tastiness!",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sheep.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Pasture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/pasture.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Hill",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+        }
+    ]
+}

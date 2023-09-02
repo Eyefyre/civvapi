@@ -1,0 +1,20 @@
+{
+    "id": 50,
+    "name": "Monarchy",
+    "game_info": "Monarchy+1 Gold and -1 Unhappiness for every 2 Citizens in the Capital.",
+    "historical_info": "Monarchy is a form of government where power is vested in an individual. Often, but not always, power passes to the monarch's heir upon the current ruler's death. (There are some elected monarchies, but not many.) Monarchy is similar to despotism, but with one important difference: the monarch rules within the state's laws, while a despot is above all law. It is of course quite possible for a monarch to be a despot - but it is also possible for a monarch to be part of a political process which allows the people a good deal of freedom. Great Britain would be an example of the latter.",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/monarchy.png",
+    "required_policies": [
+        {
+            "name": "Legalism",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/policies/legalism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Tradition",
+        "game_info": "Tradition is best for small empires.Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 Culture in the Capital. Unlocks building the Hanging Gardens.Adopting all Policies in the Tradition tree will grant +15% Growth and a free Aqueduct in your first 4 cities. It also allows the purchase of Great Engineers with Faith starting in the Industrial Era.",
+        "prereq_era": null,
+        "historical_info": "Tradition is the policy of honoring the decisions made by one's ancestors and all earlier rulers of the state. New policies are viewed with deep suspicion and distrust. Even in allegedly forward-thinking countries like the United States, tradition can be quite powerful indeed, as may be seen in the tension between those who favor strict adherence to the original literal meaning of the US Constitution, and those who believe that the Constitution must be more broadly interpreted in light of the changing nature of the United States and the world. The former group would be considered to be more traditionalist than the latter."
+    }
+}

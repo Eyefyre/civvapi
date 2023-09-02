@@ -1,0 +1,43 @@
+{
+    "id": 46,
+    "name": "Sipahi",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/sipahi.png",
+    "game_info": "Mounted Unit specialized in defeating enemy Mounted Units. May only be built by the Ottomans. This Unit is faster and can see further than the Lancer, which it replaces.",
+    "historical_info": "The sipahi were the lancers of the Ottoman Empire. Founded during the reign of Murad I (ruled 1362 - 1389), the sipahi were drawn from the ethnic Turk landed gentry. They were extremely highly-motivated and loyal fighters and were the sultan's personal bodyguard. The sipahi were great rivals of the Janissaries (another special Ottoman unit), who were drawn from both Turkish and non-Turkish soldiers. In fact the sipahi enthusiastically assisted in the violent disbandment of the Janissaries in 1826, following an unsuccessful revolt by the latter group.",
+    "strategy": "The Sipahi is the Ottoman unique unit, replacing the Lancer. The Sipahi is much faster and can see one hex farther than the Lancer, although it shares the Lancer's weaknesses on defense. The Sipahi can pillage enemy improvements at no additional cost.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "No Movement Cost to Pillage",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_movement_cost_to_pillage.json"
+        },
+        {
+            "name": "Extra Sight (1)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/extra_sight_(1).json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/formation_i.json"
+        }
+    ]
+}

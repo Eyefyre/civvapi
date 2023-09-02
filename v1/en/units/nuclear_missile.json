@@ -1,0 +1,23 @@
+{
+    "id": 20,
+    "name": "Nuclear Missile",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/nuclear_missile.png",
+    "game_info": "Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius.Requires Manhattan Project and two Uranium resources.",
+    "historical_info": "Nuclear missiles carry one or more warheads containing hydrogen bombs, each capable of destroying a city. Capable of carrying their deadly payload halfway around the world, nuclear missiles are the single deadliest and most terrible weapons ever created. At present there are no practical defenses against nuclear missiles: once launched, barring a miracle, the target city is dead. In addition to the immediate destruction caused by the huge explosion, nuclear explosions poison the land, sea and air for generations to come. Errant wind can carry the deadly nuclear fallout for miles, poisoning the land and killing people across a continent. It is fairly insane to use them on an enemy that one shares a planet with, unless it is to forestall that enemy from using them on oneself.",
+    "strategy": "The Nuclear Missile is an upgraded, more powerful Atomic Bomb. The Nuclear Missile can be based in any city you own or aboard a Nuclear Submarine or Missile Cruiser. It can move from base to base or attack a target within its range of \"12.\" When it detonates, a Nuclear Missile will damage (and possibly destroy) cities and destroy all units within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 1000,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Advanced Ballistics",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/advanced_ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasion (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/evasion_(50).json"
+        }
+    ]
+}

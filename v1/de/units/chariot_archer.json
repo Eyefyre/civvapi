@@ -1,0 +1,31 @@
+{
+    "id": 71,
+    "name": "Streitwagen-Bogensch\u00fctze",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/chariot_archer.png",
+    "game_info": "Eine schnelle Fernkampf-Einheit, die auf flachem Grund sehr effektiv ist.",
+    "historical_info": "Vor der Erfindung des Steigb\u00fcgels war es fast unm\u00f6glich, auf einem Pferd sitzend zu k\u00e4mpfen. Man konnte sich nirgends abst\u00fctzen und der kleinste Sto\u00df konnte den Reiter mit verh\u00e4ngnisvollen Folgen vom Pferd werfen. Pferde wurden zuerst nur mit Streitwagen auf dem Schlachtfeld genutzt. Eine Streitwagenbesatzung bestand meist aus ein bis zwei Pferden, einem Fahrer und einem Bogensch\u00fctzen. Die Beweglichkeit der Streitwagen machte sie zu einer gro\u00dfen Gefahr f\u00fcr Infanterie-Einheiten: Sie konnten sich schnell in Reichweite bringen, eine Salve abfeuern und wieder entkommen, bevor die Fu\u00dfsoldaten sie erreichen konnten. Die gr\u00f6\u00dfte Schw\u00e4che der Streitwagen-Bogensch\u00fctzen war ihre Untauglichkeit in schwierigem Gel\u00e4nde. Auf offener Fl\u00e4che waren sie die K\u00f6nige der antiken Schlachtfelder, aber auf h\u00fcgeligem oder bewaldetem Terrain waren sie klar im Nachteil.",
+    "strategy": "Streitwagen-Bogensch\u00fctzen sind Fernwaffen-Einheiten, die auf offenem Terrain t\u00f6dlich sind. Sie sind etwas st\u00e4rker als Bogensch\u00fctzen und k\u00f6nnen sich doppelt so weit bewegen. Streitwagen-Bogensch\u00fctzen erhalten einen Fortbewegungsmalus, wenn sie Wald-, Dschungel- oder H\u00fcgel-Gel\u00e4ndefelder betreten (sofern es dort keine Stra\u00dfen gibt). Als berittene Einheit ist der Streitwagen-Bogensch\u00fctze besonders gef\u00e4hrdet im Kampf mit Speerk\u00e4mpfern.",
+    "movement": 4,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Das Rad",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/the_wheel.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Malus f\u00fcr unwegsames Gel\u00e4nde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/rough_terrain_penalty.json"
+        },
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Kann keine Nahkampfangriffe ausf\u00fchren",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

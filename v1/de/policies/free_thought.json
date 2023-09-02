@@ -1,0 +1,20 @@
+{
+    "id": 29,
+    "name": "Freidenkertum",
+    "game_info": "Freidenkertum+1 Wissenschaft pro Handelsposten und +17% Wissenschaft von Universit\u00e4ten.",
+    "historical_info": "Freidenkertum ist der Glaube, dass Wissen durch die Anwendung von Wissenschaft und Vernunft erworben werden soll, anstatt aus Traditionen und religi\u00f6sem Dogma. Theorien sollten wissenschaftlich und logisch gepr\u00fcft werden. Wenn etwas nicht bewiesen werden kann, ist es albern, daran zu glauben. Blindes Vertrauen ist der Erzfeind von Freidenkern \u00fcberall. Freies Denken ist ein entscheidender Teil der buddhistischen Tradition. Im \"Kalama Sutta\" sagt der Buddha: \"Akzeptiert nichts aus einfacher Tradition heraus. Akzeptiert nichts, weil es mit Euren heiligen Schriften \u00fcbereinstimmt. Aber wenn Ihr etwas selbst wisst - dann richtet Euer Leben danach aus.\"",
+    "icon": "https://eyefyre.github.io/civvapi/images/policy_icons/freidenkertum.png",
+    "required_policies": [
+        {
+            "name": "Humanismus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/policies/humanism.json"
+        }
+    ],
+    "tenet_level": 0,
+    "branch": {
+        "name": "Rationalismus",
+        "game_info": "Rationalismus erh\u00f6ht die F\u00e4higkeit, Wissenschaft zu verwenden und zu generieren.Rationalismus erh\u00f6ht die Wissenschaft um 10%, solange das Reich gl\u00fccklich ist. Schaltet den Bau des Porzellanturms frei.Bei \u00dcbernahme aller Politiken im Rationalismus-Zweig wird eine kostenlose Technologie gew\u00e4hrt. Au\u00dferdem wird der Erwerb Gro\u00dfer Wissenschaftler mit Glauben ab dem Industriezeitalter erm\u00f6glicht.",
+        "prereq_era": "Renaissance",
+        "historical_info": "Rationalismus ist eine Weltanschauung, die versucht, die Welt mit Hilfe der Vernunft und nicht mit dem Glauben zu erkl\u00e4ren. Rationalisten glauben, dass die Vernunft allen anderen Arten der Interpretation der Welt \u00fcberlegen ist, wozu auch alle Daten geh\u00f6ren, die durch die eigenen f\u00fcnf Sinne aufgenommen werden. Die Philosophie geht auf den gro\u00dfen Sokrates im antiken Griechenland zur\u00fcck und hat im Europa des 16. und 17. Jahrhunderts eine Renaissance erlebt, als sich Philosophen wie Descartes, Spinoza und Kant damit besch\u00e4ftigten."
+    }
+}

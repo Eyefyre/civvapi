@@ -1,0 +1,27 @@
+{
+    "id": 76,
+    "name": "Immortel|Immortels",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/immortal.png",
+    "game_info": "Unit\u00e9 de l'Antiquit\u00e9 particuli\u00e8rement efficace contre les unit\u00e9s mont\u00e9es. L'immortel est exclusif aux Perses. Il est plus puissant en combat et plus rapide \u00e0 gu\u00e9rir que le lancier, qu'il remplace.",
+    "historical_info": "Les Immortels perses \u00e9taient regroup\u00e9s en une unit\u00e9 d'infanterie lourde d'\u00e9lite, compos\u00e9e de 10 000 hommes. Ils formaient le c\u0153ur de l'arm\u00e9e perse (ach\u00e9m\u00e9nide). Les Immortels combattirent sous les ordres de Cyrus le Grand, Cambyse et Darius le Grand et, lorsqu'ils n'\u00e9taient pas au combat, ils reprenaient leur poste de gardes des palais royaux. Les Immortels \u00e9taient munis de petites lances, d'\u00e9p\u00e9es, d'arcs er de fl\u00e8ches. Ils portaient \u00e9galement des boucliers l\u00e9gers et rev\u00eataient une armure de mailles. Selon H\u00e9rodote, \"chaque homme brillait par la multitude des ornements en or dont il \u00e9tait d\u00e9cor\u00e9. Ils \u00e9taient accompagn\u00e9s de chariots transportant leurs femmes et leurs servants, ainsi que tout leur \u00e9quipement. Une nourriture sp\u00e9cifique, diff\u00e9rente de celle des autres combattants, leur \u00e9tait r\u00e9serv\u00e9e...\"",
+    "strategy": "L'immortel est une unit\u00e9 exclusive aux Perses. Il est l\u00e9g\u00e8rement plus puissant et gu\u00e9rit deux fois plus rapidement que le lancier, qu'il remplace. Il est particuli\u00e8rement redoutable contre les unit\u00e9s mont\u00e9es.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Travail du bronze",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Vitesse de gu\u00e9rison doubl\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/heals_at_double_rate.json"
+        }
+    ]
+}

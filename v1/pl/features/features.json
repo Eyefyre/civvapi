@@ -1,0 +1,561 @@
+[
+    {
+        "id": 1,
+        "name": "L\u00f3d|Lodu|Lodowi|L\u00f3d",
+        "historical_info": "L\u00f3d to obszar, po kt\u00f3rym mog\u0105 si\u0119 przemieszcza\u0107 wy\u0142\u0105cznie jednostki powietrzne i podwodne. Pola tego typu nie zapewniaj\u0105 \u017cadnych korzy\u015bci miastom.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/l\u00f3d|lodu|lodowi|l\u00f3d.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/ice.json"
+    },
+    {
+        "id": 2,
+        "name": "D\u017cungla|D\u017cungli|D\u017cungli|D\u017cungl\u0119|D\u017cungle|D\u017cungli|D\u017cunglom|D\u017cungle",
+        "historical_info": "Mroczna, z\u0142owroga i \u015bmiertelna dla niewtajemniczonych d\u017cungla jest bogatym \u017ar\u00f3d\u0142em po\u017cywienia dla tych, kt\u00f3rzy wiedz\u0105, jak si\u0119 w niej \u017cyje. Niestety, nie oferuje ona zbyt wiele, je\u015bli chodzi o materia\u0142y, a rozwijaj\u0105ca si\u0119 cywilizacja mo\u017ce skusi\u0107 si\u0119 na ich wydobycie lub zamieni\u0107 tereny w pola uprawne. Jednak warto pami\u0119ta\u0107, \u017ce stacjonuj\u0105ce w d\u017cungli jednostki militarne otrzymuj\u0105 znacz\u0105cy bonus do obrony.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/d\u017cungla|d\u017cungli|d\u017cungli|d\u017cungl\u0119|d\u017cungle|d\u017cungli|d\u017cunglom|d\u017cungle.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": -1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            },
+            {
+                "name": "Banany|Banan\u00f3w|Bananom|Banany",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/bananas.json"
+            },
+            {
+                "name": "Kamienie szlachetne|Kamieni szlachetnych|Kamieniom szlachetnym|Kamienie szlachetne",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/gems.json"
+            },
+            {
+                "name": "Barwniki|Barwnik\u00f3w|Barwnikom|Barwniki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/dyes.json"
+            },
+            {
+                "name": "Przyprawy|Przypraw|Przyprawom|Przyprawy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/spices.json"
+            },
+            {
+                "name": "Trufle|Trufli|Truflom|Trufle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/truffles.json"
+            },
+            {
+                "name": "Kakao",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/cocoa.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/jungle.json"
+    },
+    {
+        "id": 3,
+        "name": "Mokrad\u0142o|Mokrad\u0142a|Mokrad\u0142u|Mokrad\u0142o|Mokrad\u0142a|Mokrade\u0142|Mokrad\u0142om|Mokrad\u0142a",
+        "historical_info": "Mimo \u017ce na mokrad\u0142ach kipi \u017cycie, nie maj\u0105 one wiele do zaoferowania rosn\u0105cej, g\u0142odnej cywilizacji i musz\u0105 zosta\u0107 osuszone, zanim dostarcz\u0105 miastu jakiekolwiek bonusy. Uwaga: jednostki wojskowe na bagnach otrzymuj\u0105 znaczn\u0105 kar\u0119 do obrony, gdy zostan\u0105 zaatakowane.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/mokrad\u0142o|mokrad\u0142a|mokrad\u0142u|mokrad\u0142o|mokrad\u0142a|mokrade\u0142|mokrad\u0142om|mokrad\u0142a.png",
+        "movement_cost": 3,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": -1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Ropa|Ropy|Ropie|Rop\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/oil.json"
+            },
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            },
+            {
+                "name": "Cukier|Cukru|Cukrowi|Cukier",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sugar.json"
+            },
+            {
+                "name": "Trufle|Trufli|Truflom|Trufle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/marsh.json"
+    },
+    {
+        "id": 4,
+        "name": "Oaza|Oazy|Oazie|Oaz\u0119|Oazy|Oaz|Oazom|Oazy",
+        "historical_info": "Oaza to obszar o szczeg\u00f3lnie bujnej ro\u015blinno\u015bci, znajduj\u0105cy si\u0119 na terenie pustyni, zwykle usytuowany na \u017ar\u00f3dle czystej wody. Oazy s\u0105 niezwykle cennym zasobem w\u015br\u00f3d ja\u0142owych i pozbawionych \u017cycia pusty\u0144, a o ich posiadanie toczono niezliczone walki pomi\u0119dzy zdesperowanymi plemionami pustynnymi.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/oaza|oazy|oazie|oaz\u0119|oazy|oaz|oazom|oazy.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/oasis.json"
+    },
+    {
+        "id": 5,
+        "name": "Obszary zalewowe|Obszar\u00f3w zalewowych|Obszarom zalewowym|Obszary zalewowe",
+        "historical_info": "R\u00f3wniny zalewowe to nisko po\u0142o\u017cone tereny nadrzeczne. Co roku rzeka wylewa, nawadniaj\u0105c i nawo\u017c\u0105c ziemi\u0119, dzi\u0119ki czemu te tereny s\u0105 bardzo \u017cyznymi i najbardziej wydajnymi polami uprawnymi na \u015bwiecie. Staro\u017cytny Egipt zawdzi\u0119cza\u0142 wi\u0119kszo\u015b\u0107 swego bogactwa i pot\u0119gi corocznemu wylewaniu Nilu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/obszary_zalewowe|obszar\u00f3w_zalewowych|obszarom_zalewowym|obszary_zalewowe.png",
+        "movement_cost": 1,
+        "combat_modifier": -10,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Pszenica|Pszenicy|Pszenic\u0119|Pszenicy",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/wheat.json"
+            },
+            {
+                "name": "Cukier|Cukru|Cukrowi|Cukier",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/sugar.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/flood_plains.json"
+    },
+    {
+        "id": 6,
+        "name": "Las|Lasu|Lasowi|Las|Lasy|Las\u00f3w|Lasom|Lasy",
+        "historical_info": "Dla pierwotnego cz\u0142owieka lasy by\u0142y \u017ar\u00f3d\u0142em wielu dar\u00f3w. Dostarcza\u0142y drewna na ognisko, narz\u0119dzia i schronienie, jak r\u00f3wnie\u017c wiele zwierz\u0105t, daj\u0105cych jedzenie i ubranie. W miar\u0119 rozwoju miasta zwi\u0119ksza si\u0119 pokusa wyci\u0119cia las\u00f3w pod pola uprawne, ale m\u0105dry przyw\u00f3dca zawsze jakie\u015b zostawia - aby zwi\u0119kszy\u0107 produkcj\u0119 oraz by poprawi\u0107 nastroje ludzi. Opr\u00f3cz tego stacjonuj\u0105ce w lesie jednostki wojskowe otrzymuj\u0105 znaczny bonus do obrony.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/las|lasu|lasowi|las|lasy|las\u00f3w|lasom|lasy.png",
+        "movement_cost": 2,
+        "combat_modifier": 25,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [
+            {
+                "name": "Uran|Uranu|Uranowi|Uran",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/uranium.json"
+            },
+            {
+                "name": "Zwierzyna|Zwierzyny|Zwierzynie|Zwierzyn\u0119",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/deer.json"
+            },
+            {
+                "name": "Futra|Futer|Futrom|Futra",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/furs.json"
+            },
+            {
+                "name": "Barwniki|Barwnik\u00f3w|Barwnikom|Barwniki",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/dyes.json"
+            },
+            {
+                "name": "Jedwab|Jedwabiu|Jedwabiowi|Jedwab",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/silk.json"
+            },
+            {
+                "name": "Trufle|Trufli|Truflom|Trufle",
+                "url": "https://eyefyre.github.io/civvapi/v1/pl/resources/truffles.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/forest.json"
+    },
+    {
+        "id": 7,
+        "name": "Opad radioaktywny|Opadu radioaktywnego|Opadowi radioaktywnemu|Opad radioaktywny|Opady radioaktywne|Opad\u00f3w radioaktywnych|Opadom radioaktywnym|Opady radioaktywne",
+        "historical_info": "Opad radioaktywny to pozosta\u0142o\u015bci materia\u0142u radioaktywnego, wyst\u0119puj\u0105ce po eksplozji atomowej. Powstaje w wyniku unoszenia si\u0119 w powietrzu cz\u0105steczek radioaktywnych, kt\u00f3re s\u0105 wysoce szkodliwe dla ro\u015blin i zwierz\u0105t. Powoduj\u0105 one ich natychmiastow\u0105 \u015bmier\u0107 lub uszkodzenie DNA, co jest przyczyn\u0105 raka, r\u00f3\u017cnego rodzaju chor\u00f3b oraz mutacji. Zale\u017cnie od typu wybuchu atomowego teren mo\u017ce zosta\u0107 ska\u017cony na dekady, a nawet wieki. Przywr\u00f3cenie stanu sprzed wybuchu wymaga usuni\u0119cia ska\u017conych budynk\u00f3w, gleby oraz ro\u015blin.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/opad_radioaktywny|opadu_radioaktywnego|opadowi_radioaktywnemu|opad_radioaktywny|opady_radioaktywne|opad\u00f3w_radioaktywnych|opadom_radioaktywnym|opady_radioaktywne.png",
+        "movement_cost": 2,
+        "combat_modifier": -15,
+        "yields": {
+            "gold": -3,
+            "production": -3,
+            "science": 0,
+            "culture": 0,
+            "food": -3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/fallout.json"
+    },
+    {
+        "id": 8,
+        "name": "Krater Barringera|Krateru Barringera|Kraterowi Barringera|Krater Barringera|Kratery Barringera|Krater\u00f3w Barringera|Kraterom Barringera|Kratery Barringera",
+        "historical_info": "Krater Barringera to wielki krater po meteorycie, znajduj\u0105cy si\u0119 w Arizonie, w Stanach Zjednoczonych Ameryki. Ma \u015brednic\u0119 1,2 kilometra, a naukowcy wierz\u0105, \u017ce powsta\u0142 oko\u0142o 50 000 lat temu, gdy w miejsce to uderzy\u0142 \u017celazno-niklowy meteoryt, kt\u00f3ry w chwili uderzenia wa\u017cy\u0142 160 000 ton i porusza\u0142 si\u0119 z pr\u0119dko\u015bci\u0105 45 000 kilometr\u00f3w na godzin\u0119.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krater_barringera|krateru_barringera|kraterowi_barringera|krater_barringera|kratery_barringera|krater\u00f3w_barringera|kraterom_barringera|kratery_barringera.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 3,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/the_barringer_crater.json"
+    },
+    {
+        "id": 9,
+        "name": "G\u00f3ra Fud\u017ci|G\u00f3ry Fud\u017ci|G\u00f3rze Fud\u017ci|G\u00f3r\u0119 Fud\u017ci",
+        "historical_info": "G\u00f3ra Fud\u017ci jest aktywnym wulkanem i najwy\u017csz\u0105 g\u00f3r\u0105 w Japonii. Mierzy 3,7 kilometra i jest cz\u0119sto skryta w chmurach, ale jej s\u0142ynny pokryty \u015bniegiem zarys widoczny jest z Tokio. Ta majestatyczna g\u00f3ra jest obiektem wielu dzie\u0142 sztuki - poemat\u00f3w, piosenek, zdj\u0119\u0107, rze\u017ab i obraz\u00f3w. G\u00f3ra Fud\u017ci jest symbolem dumy i pi\u0119kna ca\u0142ej Japonii.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/g\u00f3ra_fud\u017ci|g\u00f3ry_fud\u017ci|g\u00f3rze_fud\u017ci|g\u00f3r\u0119_fud\u017ci.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 3,
+            "food": 0,
+            "faith": 3,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mt._fuji.json"
+    },
+    {
+        "id": 10,
+        "name": "Grand Mesa|Grand Mesy|Grand Mesie|Grand Mes\u0119",
+        "historical_info": "Grand Mesa jest wielk\u0105 formacj\u0105 geologiczn\u0105 znajduj\u0105c\u0105 si\u0119 w Kolorado, w Stanach Zjednoczonych Ameryki P\u00f3\u0142nocnej. Wznosi si\u0119 ona 1,5 kilometra nad otaczaj\u0105cym terenem, zajmuje obszar 1300 kilometr\u00f3w kwadratowych i jest najwi\u0119kszym p\u0142askowy\u017cem na \u015bwiecie. Grand Mesa ma na szczycie warstw\u0119 wulkanicznego bazaltu, kt\u00f3ry nie jest podatny na erozj\u0119. Ca\u0142o\u015b\u0107 nie tyle unios\u0142a si\u0119, ile pozosta\u0142a na niezmienionym poziomie, podczas gdy otaczaj\u0105cy teren uleg\u0142 erozji pod wp\u0142ywem wody rzek Kolorado i Gunnison.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/grand_mesa|grand_mesy|grand_mesie|grand_mes\u0119.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 3,
+            "production": 2,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/the_grand_mesa.json"
+    },
+    {
+        "id": 11,
+        "name": "Wielka Rafa Koralowa|Wielkiej Rafy Koralowej|Wielkiej Rafie Koralowej|Wielk\u0105 Raf\u0119 Koralow\u0105",
+        "historical_info": "Wielka Rafa Koralowa to najwi\u0119ksza rafa koralowa \u015bwiata. Jest to \u0142a\u0144cuch prawie 3000 raf i 1000 wysp, kt\u00f3ry ci\u0105gnie si\u0119 przez oko\u0142o 2500 kilometr\u00f3w wzd\u0142u\u017c p\u00f3\u0142nocnowschodniego wybrze\u017ca Australii. Wielka Rafa Koralowa by\u0142a budowana przez ponad 500 000 lat przez miliardy polip\u00f3w koralowych i stanowi najwi\u0119ksz\u0105 struktur\u0119, stworzon\u0105 przez \u017cywe istoty. Jest ona domem dla bardzo zr\u00f3\u017cnicowanej populacji wieloryb\u00f3w, delfin\u00f3w, mor\u015bwin\u00f3w, diugoni, \u017c\u00f3\u0142wi, ryb, o\u015bmiornic i w\u0119\u017cy, nie wspominaj\u0105c o ponad 200 gatunkach ptak\u00f3w.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/wielka_rafa_koralowa|wielkiej_rafy_koralowej|wielkiej_rafie_koralowej|wielk\u0105_raf\u0119_koralow\u0105.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 1,
+            "production": 1,
+            "science": 2,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/the_great_barrier_reef.json"
+    },
+    {
+        "id": 12,
+        "name": "Krakatau",
+        "historical_info": "Krakatoa jest wysp\u0105 wulkaniczn\u0105, znajduj\u0105c\u0105 si\u0119 w Indonezji, pomi\u0119dzy wyspami Jawa i Sumatra. W sierpniu 1883 roku nast\u0105pi\u0142 gwa\u0142towny wybuch wulkanu, o mocy 13000 razy wi\u0119kszej ni\u017c si\u0142a bomb nuklearnych, kt\u00f3re spad\u0142y na Hiroszim\u0119. Wybuch zniszczy\u0142 ponad po\u0142ow\u0119 wyspy i s\u0142yszano go nawet w cz\u0119\u015bci Australii, kt\u00f3ra znajduje si\u0119 oko\u0142o 3200 mil dalej. W wyniku wybuchu oraz w wywo\u0142anym nim tsunami zgin\u0119\u0142o oko\u0142o 37000 ludzi. Przez ostatnie 80 lat wulkan ci\u0105gle emituje law\u0119, co powoduje \u017ce krater podnosi si\u0119 o jakie\u015b 5 metr\u00f3w rocznie.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/krakatau.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 5,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/krakatoa.json"
+    },
+    {
+        "id": 13,
+        "name": "Ska\u0142a Gibraltarska|Ska\u0142y Gibraltarskiej|Skale Gibraltarskiej|Ska\u0142\u0119 Gibraltarsk\u0105",
+        "historical_info": "Gibraltar jest p\u00f3\u0142wyspem o niezwyk\u0142ej formacji skalnej, znajduj\u0105cym si\u0119 u wyj\u015bcia Morza \u015ar\u00f3dziemnego na Atlantyk. Zosta\u0142 odebrany Hiszpanom przez Anglik\u00f3w oraz Du\u0144czyk\u00f3w w roku 1704, a nast\u0119pnie w 1713 przekazany Anglii, i od tamtej pory znajduje si\u0119 w jej w\u0142adaniu (co niespecjalnie cieszy Hiszpani\u0119, kt\u00f3ra ma ochot\u0119 na jego odzyskanie). Gibraltar strze\u017ce wej\u015bcia z Atlantyku do Morza \u015ar\u00f3dziemnego i przez trzysta lat by\u0142 g\u0142\u00f3wn\u0105 baz\u0105 morsk\u0105 Brytyjczyk\u00f3w.Przewa\u017caj\u0105c\u0105 cz\u0119\u015b\u0107 Gibraltaru zajmuje Ska\u0142a Gibraltarska - wielka formacja z\u0142o\u017cona z \u0142upk\u00f3w, piaskowc\u00f3w i wapieni, wyrzucona na powierzchni\u0119 przez niewyobra\u017caln\u0105 moc tektonicznej p\u0142yty. Wystaje ona na poziom oko\u0142o 400 metr\u00f3w nad poziomem morza. Gibraltar by\u0142 niegdy\u015b mocno ufortyfikowany, co pozwala\u0142o Brytyjczykom panowa\u0107 nad w\u0105skim przej\u015bciem z morza \u015ar\u00f3dziemnego na Atlantyk, ale w dzisiejszych czasach jest raczej rezerwatem natury i atrakcj\u0105 turystyczn\u0105, ni\u017c baz\u0105 wojskow\u0105.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/ska\u0142a_gibraltarska|ska\u0142y_gibraltarskiej|skale_gibraltarskiej|ska\u0142\u0119_gibraltarsk\u0105.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 5,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/rock_of_gibraltar.json"
+    },
+    {
+        "id": 14,
+        "name": "Old Faithful",
+        "historical_info": "Old Faithful to gejzer po\u0142o\u017cony w Parku Narodowym Yellowstone w stanie Wyoming w USA. Po raz pierwszy Europejczycy zobaczyli go w roku 1870 (a miejscowi jakie\u015b 10 000 lat przed nimi). Gejzer ten zawdzi\u0119cza swoj\u0105 nazw\u0119 regularnym erupcjom. Co 60-90 minut wystrzeliwuje on kolumn\u0119 wrz\u0105cej wody na wysoko\u015b\u0107 oko\u0142o 30 do 50 metr\u00f3w (przerwa miedzy erupcjami zale\u017cy od si\u0142y poprzedniego wybuchu). Gejzery powstaj\u0105 kiedy podziemna woda trafia na magm\u0119 (stopion\u0105 ska\u0142\u0119). Woda taka natychmiast przemienia si\u0119 w par\u0119, kt\u00f3ra pod niesamowicie wielkim ci\u015bnieniem zd\u0105\u017ca w kierunku najbli\u017cszego otworu. Old Faithful i pozosta\u0142e 250 gejzer\u00f3w w Yellowstone co roku odwiedzane s\u0105 przez jakie\u015b trzy miliony turyst\u00f3w.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/old_faithful.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 2,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 3
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/old_faithful.json"
+    },
+    {
+        "id": 15,
+        "name": "Fontanna m\u0142odo\u015bci|Fontanny m\u0142odo\u015bci|Fontannie m\u0142odo\u015bci|Fontann\u0119 m\u0142odo\u015bci",
+        "historical_info": "Jedna z pierwszych wzmianek o tym legendarnym \u017ar\u00f3dle pochodzi od Herodota, kt\u00f3ry opisa\u0142 je jako wod\u0119 \u017cycia, maj\u0105c\u0105 zapewnia\u0107 d\u0142ugowieczno\u015b\u0107 ka\u017cdemu, kto j\u0105 pije. Podobne historie kr\u0105\u017cy\u0142y w\u015br\u00f3d tubylczych plemion zamieszkuj\u0105cych Karaiby i Po\u0142udniow\u0105 Ameryk\u0119, wzbudzaj\u0105c u Hiszpan\u00f3w du\u017ce zainteresowanie fontann\u0105 m\u0142odo\u015bci w czasach, gdy eksplorowali oni te l\u0105dy. Zgodnie ze znan\u0105 opowie\u015bci\u0105 w 1513 roku hiszpa\u0144ski konkwistador Juan Ponce de Leon us\u0142ysza\u0142 o fontannie podczas swej wyprawy do Puerto Rico i postanowi\u0142 wyruszy\u0107 na jej poszukiwanie. W trakcie podr\u00f3\u017cy odkry\u0142 Floryd\u0119 (i sta\u0142 si\u0119 jednym z pierwszych Europejczyk\u00f3w, kt\u00f3rzy stan\u0119li na ameryka\u0144skiej ziemi), ale nigdy nie uda\u0142o mu si\u0119 znale\u017a\u0107 lokalizacji mitycznego \u017ar\u00f3d\u0142a. Fontanna m\u0142odo\u015bci nadal przykuwa uwag\u0119 \u2014 wiele film\u00f3w, ksi\u0105\u017cek, komiks\u00f3w i gier opisuje ludzkie pr\u00f3by odnalezienia tego sposobu na \u017cycie wieczne.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/fontanna_m\u0142odo\u015bci|fontanny_m\u0142odo\u015bci|fontannie_m\u0142odo\u015bci|fontann\u0119_m\u0142odo\u015bci.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 10
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/fountain_of_youth.json"
+    },
+    {
+        "id": 16,
+        "name": "Cerro de Potosi",
+        "historical_info": "Znajduj\u0105ca si\u0119 w po\u0142udniowej Boliwii g\u00f3ra Potosi by\u0142a \u017ar\u00f3d\u0142em prawie ca\u0142ego srebra wydobytego przez Hiszpan\u00f3w za czas\u00f3w imperialnych. Wydobyty kruszec by\u0142 transportowany lamami i mu\u0142ami do brzegu, gdzie \u0142adowano go na statki i przewo\u017cono do Europy. W przeci\u0105gu 200 lat wydobyto st\u0105d ponad 41000 ton czystego srebra, z czego 8200 trafi\u0142o bezpo\u015brednio do skarbca kr\u00f3lewskiego. Po 1800 roku g\u0142\u00f3wne z\u0142o\u017ca srebra si\u0119 wyczerpa\u0142y, ale w wi\u0119kszo\u015bci kopalni Potosi nadal trwaj\u0105 prace. W kilku jest jeszcze srebro, w pozosta\u0142ych wydobywa si\u0119 cyn\u0119.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/cerro_de_potosi.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 10,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/cerro_de_potosi.json"
+    },
+    {
+        "id": 17,
+        "name": "El Dorado",
+        "historical_info": "Legendarne zaginione z\u0142ote miasto \u015bci\u0105gn\u0119\u0142o licznych konkwistador\u00f3w hiszpa\u0144skich do Nowego \u015awiata. Ka\u017cdy z nich liczy\u0142 na szans\u0119 wzbogacenia si\u0119 na tych nieopisanych bogactwach. Przez blisko trzy stulecia mit o z\u0142ocie i klejnotach przyci\u0105ga\u0142 odkrywc\u00f3w do wybrze\u017cy po\u0142udniowej Ameryki. Zwykle pl\u0105drowali oni ka\u017cde napotkane po drodze miasto. El Dorado zaw\u0142adn\u0119\u0142o umys\u0142ami poszukiwaczy na wieki i jeszcze w 1804 roku organizowano wyprawy maj\u0105ce na celu odkrycie jego prawdziwej lokalizacji. Obecnie wierzy si\u0119, \u017ce mit dotycz\u0105cy miasta zosta\u0142 zainspirowany przez wodza Muisca, kt\u00f3ry pono\u0107 w trakcie swej inicjacji pokry\u0142 swe cia\u0142o z\u0142otym py\u0142em i zanurzy\u0142 si\u0119 w jeziorze Guatavita.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/el_dorado.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 5,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/el_dorado.json"
+    },
+    {
+        "id": 18,
+        "name": "Atol|Atolu|Atolowi|Atol|Atole|Atoli|Atolom|Atole",
+        "historical_info": "Atol to formacja koralowa tworz\u0105ca wysp\u0119. Atole maj\u0105 zwykle kszta\u0142t pier\u015bcienia okr\u0105\u017caj\u0105cego p\u0142ytk\u0105 lagun\u0119; wyspy s\u0105 w wi\u0119kszo\u015bci przypadk\u00f3w niewielkie i po\u0142o\u017cone nisko nad poziomem morza. Atole, obok wysp pochodzenia wulkanicznego, s\u0105 najpowszechniej spotykanym rodzajami wysp na Pacyfiku. W pewnym sensie przypominaj\u0105 oazy, poniewa\u017c s\u0105 cz\u0119sto jedynymi skrawkami l\u0105du w zasi\u0119gu wielu mil kwadratowych oceanu. \u017bycie morskie i ptactwo wykorzystuje atole, a cho\u0107 ludzie zasiedlili cz\u0119\u015b\u0107 z nich, nie jest to \u015brodowisko przyjazne wi\u0119kszym organizmom l\u0105dowym. Niski profil atoli oznacza, \u017ce cz\u0119sto znikaj\u0105 podczas sztorm\u00f3w; nie zapewniaj\u0105 te\u017c niemal \u017cadnej ochrony przed s\u0142o\u0144cem. Karol Darwin by\u0142 pierwszym cz\u0142owiekiem zachodu, kt\u00f3ry poprawnie odgad\u0142 spos\u00f3b tworzenia si\u0119 atoli, opieraj\u0105c swoje wnioski o osobiste do\u015bwiadczenia i obserwacje z wyprawy na HMS Beagle.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/atol|atolu|atolowi|atol|atole|atoli|atolom|atole.png",
+        "movement_cost": 1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/atoll.json"
+    },
+    {
+        "id": 19,
+        "name": "Szczyt Adama|Szczytu Adama|Szczytowi Adama|Szczyt Adama",
+        "historical_info": "G\u00f3ruj\u0105cy nad Sri Lank\u0105 szczyt Sri Pada to du\u017ca g\u00f3ra o sto\u017ckowatym kszta\u0142cie, czczona w wielu religiach ze wzgl\u0119du na tzw. odcisk stopy znajduj\u0105cy si\u0119 na szczycie. To du\u017ce zag\u0142\u0119bienie w ska\u0142ach na szczycie g\u00f3ry uwa\u017ca si\u0119 za \u015blad stopy Buddy, \u015aiwy i biblijnego Adama, przez co g\u00f3ra ma wyj\u0105tkowe znaczenie dla wyznawc\u00f3w buddyzmu, hinduizmu i islamu. Co roku tysi\u0105ce pielgrzym\u00f3w wspinaj\u0105 si\u0119 na szczyt, by pok\u0142oni\u0107 si\u0119 w tym \u015bwi\u0119tym miejscu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/szczyt_adama|szczytu_adama|szczytowi_adama|szczyt_adama.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 4,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/sri_pada.json"
+    },
+    {
+        "id": 20,
+        "name": "G\u00f3ra Synaj|G\u00f3ry Synaj|G\u00f3rze Synaj|G\u00f3r\u0119 Synaj",
+        "historical_info": "G\u00f3ra Synaj, po\u0142o\u017cona na p\u00f3\u0142wyspie Synaj w Egipcie, jest jednym z najwa\u017cniejszych \u015bwi\u0119tych miejsc judaizmu, chrze\u015bcija\u0144stwa oraz islamu i celem pielgrzym\u00f3w z ca\u0142ego \u015bwiata. To na g\u00f3rze Synaj Moj\u017cesz otrzyma\u0142 od Boga dziesi\u0119\u0107 przykaza\u0144 podczas exodusu Izraelit\u00f3w z Egiptu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/g\u00f3ra_synaj|g\u00f3ry_synaj|g\u00f3rze_synaj|g\u00f3r\u0119_synaj.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 8,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mt._sinai.json"
+    },
+    {
+        "id": 21,
+        "name": "G\u00f3ra Kajlas|G\u00f3ry Kajlas|G\u00f3rze Kajlas|G\u00f3r\u0119 Kajlas",
+        "historical_info": "\u015awi\u0119ty szczyt g\u00f3ry Kajlas, po\u0142o\u017cony w tybeta\u0144skiej cz\u0119\u015bci Himalaj\u00f3w, jest obiektem czci w wielu religiach, szczeg\u00f3lnie w hinduizmie. Uwa\u017ca si\u0119, \u017ce mieszka tam \u015aiwa, pogr\u0105\u017cony w stanie wiecznej medytacji. Kajlas nale\u017cy do jednego z najtrudniej dost\u0119pnych miejsc pielgrzymek religijnych, trudne warunki odstraszaj\u0105 wielu pielgrzym\u00f3w, a na g\u00f3r\u0119 nie mo\u017cna dosta\u0107 si\u0119 \u017cadnym wsp\u00f3\u0142czesnym \u015brodkiem transportu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/g\u00f3ra_kajlas|g\u00f3ry_kajlas|g\u00f3rze_kajlas|g\u00f3r\u0119_kajlas.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 6,
+            "happiness": 2
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mt._kailash.json"
+    },
+    {
+        "id": 22,
+        "name": "Uluru",
+        "historical_info": "Po\u0142o\u017cona w \u015brodkowej Australii wielka formacja z czerwonego piaskowca, nazywana zwykle Ayers Rock, sta\u0142a si\u0119 w ostatnim wieku jednym z najbardziej znanych miejsc tego kontynentu. Zanim pod koniec XIX w. odkryli j\u0105 angielscy podr\u00f3\u017cnicy, miejscowe plemiona nazywa\u0142y t\u0119 g\u00f3r\u0119 Uluru. W 1987 r. og\u0142oszono j\u0105 miejscem \u015bwiatowego dziedzictwa UNESCO, dzi\u0119ki czemu zwi\u0119kszy\u0142a si\u0119 liczba przybywaj\u0105cych tam turyst\u00f3w. Co roku zjawia si\u0119 ich tam kilkaset tysi\u0119cy.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/uluru.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 2,
+            "faith": 6,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/uluru.json"
+    },
+    {
+        "id": 23,
+        "name": "Jezioro Wiktorii|Jeziora Wiktorii|Jezioru Wiktorii|Jezioro Wiktorii",
+        "historical_info": "Maj\u0105ce powierzchni\u0119 prawie 70\u00a0tys. km kw. Jezioro Wiktorii to najwi\u0119kszy tego typu zbiornik w Afryce, drugie co do wielko\u015bci s\u0142odkowodne jezioro na \u015bwiecie i najwi\u0119ksze jezioro tropikalne. Wyp\u0142ywaj\u0105 z niego dwie du\u017ce rzeki: Bia\u0142y Nil i Katonga. Pierwsze historyczne wzmianki o jeziorze pochodz\u0105 od arabskich kupc\u00f3w poszukuj\u0105cych u tubylc\u00f3w z\u0142ota, ko\u015bci s\u0142oniowej oraz innych d\u00f3br i zapuszczaj\u0105cych si\u0119 coraz bardziej w g\u0142\u0105b l\u0105du. Prowadzone przez Europejczyk\u00f3w poszukiwania \u017ar\u00f3d\u0142a Nilu doprowadzi\u0142y do odkrycia jeziora przez Anglika Johna Speke'a w 1858 r. Nazwa\u0142 je on imieniem \u00f3wczesnej monarchini brytyjskiej.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/jezioro_wiktorii|jeziora_wiktorii|jezioru_wiktorii|jezioro_wiktorii.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 6,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/lake_victoria.json"
+    },
+    {
+        "id": 24,
+        "name": "Kilimand\u017caro",
+        "historical_info": "G\u00f3ra Kilimand\u017caro, le\u017c\u0105ca w po\u0142udniowo-wschodniej Tanzanii, z\u0142o\u017cona jest z trzech sto\u017ck\u00f3w wulkanicznych, z kt\u00f3rych najwy\u017cszy si\u0119ga 5895 m, co czyni go najwy\u017cej po\u0142o\u017conym punktem w Afryce i najwy\u017cszym samotnie stoj\u0105cym masywem na \u015bwiecie. Uwa\u017cana jest za stratowulkan, dwa z jej szczyt\u00f3w (Mawenzi i Shira) s\u0105 wygas\u0142e, za\u015b najwy\u017cszy (Kibo) jest wulkanem drzemi\u0105cym. Jego ostatni wybuch mia\u0142 miejsce oko\u0142o 150 lat temu. Wed\u0142ug Johanna Krapfa w 1860 r. mianem \u201eKilimand\u017caro\u201d, co znaczy \u201eg\u00f3ra wielko\u015bci\u201d lub \u201eg\u00f3ra karawan\u201d, okre\u015blali g\u00f3r\u0119 cz\u0142onkowie szczepu Suahili \u017cyj\u0105cy na wybrze\u017cu.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/kilimand\u017caro.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 2,
+            "food": 3,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/mt._kilimanjaro.json"
+    },
+    {
+        "id": 25,
+        "name": "Kopalnie kr\u00f3la Salomona|Kopalni kr\u00f3la Salomona|Kopalniom kr\u00f3la Salomona|Kopalnie kr\u00f3la Salomona",
+        "historical_info": "Kopalnie kr\u00f3la Salomona rozbudzi\u0142y w XIX-wiecznych europejskich badaczach emocje podobne do tych, jakie roznieca\u0142o w hiszpa\u0144skich konkwistadorach XVI-wieczne El Dorado. Gdy Europejczycy po raz pierwszy natkn\u0119li si\u0119 na tajemnicze ruiny staro\u017cytnego wschodnioafryka\u0144skiego miasta Zimbabwe, nie potrafili wyt\u0142umaczy\u0107, dlaczego zbudowano je w tak dziwnym miejscu. Proponowano wiele wyja\u015bnie\u0144 tego faktu, ale najbardziej rozbudzi\u0142a wyobra\u017ani\u0119 badaczy teoria, \u017ce Wielkie Zimbabwe by\u0142o schronieniem dla robotnik\u00f3w, kt\u00f3rzy pracowali w kopalniach kr\u00f3la Salomona po\u0142o\u017conych w pobliskich G\u00f3rach Chimanimani. Tu, jak uwa\u017cano, mo\u017cna by\u0142o odnale\u017a\u0107 \u017ar\u00f3d\u0142o legendarnego, z\u0142o\u017conego ze szlachetnych metali i klejnot\u00f3w skarbu biblijnego kr\u00f3la. Przez wiele dziesi\u0119cioleci awanturnicy i poszukiwacze przyg\u00f3d pr\u00f3bowali znale\u017a\u0107 legendarne ruiny, lecz bez powodzenia.",
+        "icon": "https://eyefyre.github.io/civvapi/images/feature_icons/kopalnie_kr\u00f3la_salomona|kopalni_kr\u00f3la_salomona|kopalniom_kr\u00f3la_salomona|kopalnie_kr\u00f3la_salomona.png",
+        "movement_cost": -1,
+        "combat_modifier": 0,
+        "yields": {
+            "gold": 0,
+            "production": 6,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "resources": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/pl/features/king_solomon's_mines.json"
+    }
+]

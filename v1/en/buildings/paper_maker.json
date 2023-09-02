@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Paper Maker",
+    "game_info": "+1 Science for every 2 Citizens in this City. +2 Gold.",
+    "strategy": "The Paper Maker is the Chinese unique building, replacing the Library. The Paper Maker increases the city's acquisition of Science and also provides a boost to the city's intake of Gold.",
+    "historical_info": "Paper was invented in China and dates back as far as 200 BC. As best as can be determined, it was originally used as a packing material, with the earliest surviving example of writing on paper dating to perhaps 8 BC. By 300 AD writing paper was in widespread use across China. The Chinese Paper Maker workshops were highly advanced for their day, creating clean, sturdy paper for the Chinese educated classes, merchants, and the Imperial Court centuries before the first sheet reached the Arabic and European world.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/paper_maker.png",
+    "prereq_tech": {
+        "name": "Writing",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/writing.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 13,
+    "name": "Pietra",
+    "game_info": null,
+    "historical_info": "La pietra forma la crosta e la parte superiore del mantello terrestre ed \u00e8 forse il pi\u00f9 importante materiale da costruzione usato dagli esseri umani nel corso della storia. La pietra si pu\u00f2 suddividere in tre grandi classificazioni, che si differenziano per l'origine: sedimentaria, ignea e metamorfica.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pietra.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 0,
+        "production": 1,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Cava|una Cava|una Cava",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/improvements/quarry.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/prateria.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/pianura.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/deserto.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        },
+        {
+            "name": "Neve",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/neve.json"
+        },
+        {
+            "name": "Collina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/collina.json"
+        }
+    ]
+}

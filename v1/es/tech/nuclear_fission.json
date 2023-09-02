@@ -1,0 +1,45 @@
+{
+    "id": 66,
+    "name": "Fisi\u00f3n nuclear",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/nuclear_fission.png",
+    "era": "Era At\u00f3mica",
+    "cost": 6400,
+    "civilopedia_entry": "La fisi\u00f3n nuclear es una reacci\u00f3n que consiste en la divisi\u00f3n del n\u00facleo de un \u00e1tomo radiactivo (es decir, la fisi\u00f3n). En este proceso se liberan neutrones que colisionan con otros \u00e1tomos, que a su vez tambi\u00e9n se dividen y liberan m\u00e1s neutrones. Si hay suficiente material radiactivo, la fisi\u00f3n puede contenerse a s\u00ed misma, liberando una gran cantidad de energ\u00eda a un ritmo controlado (como ocurre en los reactores nucleares) o de forma descontrolada (como la desatada por una bomba nuclear).La fisi\u00f3n nuclear genera una enorme cantidad de energ\u00eda (muchos millones de veces superior a la generada por una cantidad similar de gasolina), pero este procedimiento tambi\u00e9n produce un importante volumen de residuos dif\u00edcil de eliminar. Adem\u00e1s, puede ser mortal para las personas y causarles una muerte lenta (si se ven expuestas a material radiactivo) o extremadamente r\u00e1pida (si la reacci\u00f3n en cadena se descontrola y el material explota).Es muy raro que se produzca una fisi\u00f3n nuclear de forma natural; el \u00faltimo episodio conocido tuvo lugar en la Tierra hace unos dos mil millones de a\u00f1os. Desde entonces, los materiales fisibles se han descompuesto, imposibilitando una nueva fisi\u00f3n natural en este planeta.El neozeland\u00e9s Ernest Rutherford fue el primer hombre que logr\u00f3 dividir el \u00e1tomo en 1917. En 1934, el italiano Enrico Fermi bombarde\u00f3 uranio con neutrones como parte de un experimento. En aquel mismo a\u00f1o, Ida Noddack postul\u00f3 la idea de la fisi\u00f3n nuclear como una reacci\u00f3n nuclear sostenida. En 1938, los qu\u00edmicos alemanes Otto Hahn y Fritz Strassmann lograron producir la primera reacci\u00f3n nuclear en cadena.El estallido de la Segunda Guerra Mundial fue el pistoletazo de salida de la carrera para crear la primera bomba nuclear. Tras recibir una carta escrita por los refugiados de guerra Albert Einstein y Leo Szilard, en la que describ\u00edan la potencial letalidad de un ingenio nuclear, el presidente estadounidense Franklin Roosevelt cre\u00f3 un comit\u00e9 cient\u00edfico y militar para desarrollarlo antes que los alemanes, que tambi\u00e9n sopesaban la misma aplicaci\u00f3n. Cient\u00edficos de Estados Unidos, Canad\u00e1 y Reino Unido colaboraron en la creaci\u00f3n de la primera arma nuclear. El nombre en clave de su investigaci\u00f3n fue \"Proyecto Manhattan\".Al cabo de cinco largos a\u00f1os de arduo trabajo, los cient\u00edficos del Proyecto Manhattan consiguieron fabricar y probar un arma nuclear. Los d\u00edas 6 y 9 de agosto de 1945, Estados Unidos dej\u00f3 caer dos bombas at\u00f3micas sobre las ciudades japonesas de Hiroshima y Nagasaki. Las explosiones iniciales mataron a unos 120.000 japoneses el primer d\u00eda, y otra cantidad similar muri\u00f3 a lo largo de los tres meses posteriores a causa de las quemaduras, la radiaci\u00f3n y otras heridas traum\u00e1ticas. Jap\u00f3n ofreci\u00f3 su rendici\u00f3n incondicional el 15 de agosto de 1945.Aunque se han realizado numerosas pruebas, no se han vuelto a detonar bombas at\u00f3micas en combate desde la Segunda Guerra Mundial. Estados Unidos, Rusia, Inglaterra y Francia todav\u00eda cuentan con una surtida reserva de armamento nuclear (la mayor\u00eda en manos de las dos primeras potencias), y otros pa\u00edses como China, Israel, Pakist\u00e1n, India y Corea del Norte tambi\u00e9n se han unido al \"club nuclear\". Estados Unidos ha lanzado una en\u00e9rgica campa\u00f1a para impedir que Ir\u00e1n desarrolle este tipo de armamento, pero el \u00e9xito o fracaso de este empe\u00f1o a\u00fan est\u00e1 por ver.",
+    "quote": "\"Me he convertido en la Muerte, destructora de mundos.\" - J. Robert Oppenheimer (citando el Mahabharata)",
+    "tech_prereqs": [
+        {
+            "name": "Teor\u00eda del \u00e1tomo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/atomic_theory.json"
+        },
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "T\u00e1cticas de movilidad",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/mobile_tactics.json"
+        },
+        {
+            "name": "Bal\u00edstica avanzada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/advanced_ballistics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bomba at\u00f3mica|Bombas at\u00f3micas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/atomic_bomb.json"
+        },
+        {
+            "name": "Bazuca|Bazucas",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/bazooka.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Central nuclear|Centrales nucleares",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/buildings/nuclear_plant.json"
+        }
+    ]
+}

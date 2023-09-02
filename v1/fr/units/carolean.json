@@ -1,0 +1,23 @@
+{
+    "id": 105,
+    "name": "Karoliner|Karoliner",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/carolean.png",
+    "game_info": "Puissante unit\u00e9 terrestre de premi\u00e8re ligne, sp\u00e9cialis\u00e9e dans les longues marches, m\u00eame loin du territoire su\u00e9dois. Exclusive aux Su\u00e9dois.",
+    "historical_info": "Les Karoliner, arm\u00e9e constitu\u00e9e de soldats su\u00e9dois d'\u00e9lite, ont servi la couronne su\u00e9doise entre 1660 et 1697 environ. S'illustrant probablement comme les meilleurs soldats de leur \u00e9poque, les Karoliner \u00e9taient un groupe certes restreint, mais aux tactiques innovantes et \u00e0 la discipline de fer. Les Karoliner, troupe strictement offensive, n'ont jamais effectu\u00e9 ni m\u00eame mis au point quelque man\u0153uvre de retraite que ce soit. Ils fon\u00e7aient droit sur l'ennemi, n'ouvrant le feu qu'une fois qu'ils \u00e9taient s\u00fbrs d'atteindre leur cible. Cette m\u00e9thode brutale, sans concession, d\u00e9couragea bien des arm\u00e9es. Les Karoliner ont ainsi fait battre en retraite de nombreuses lignes ennemies.",
+    "strategy": "Les Karoliner sont la pierre angulaire de l'arm\u00e9e su\u00e9doise, au d\u00e9but de l'\u00e8re industrielle. Ils d\u00e9marrent avec la promotion Marche, permettant de gu\u00e9rir \u00e0 chaque tour, m\u00eame en effectuant une action.",
+    "movement": 2,
+    "cost": {
+        "production": 225,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Fusil",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/rifling.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Marche",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/march.json"
+        }
+    ]
+}

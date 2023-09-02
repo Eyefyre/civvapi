@@ -1,0 +1,23 @@
+{
+    "id": 110,
+    "name": "Archer composite|Archer composite",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/composite_bowman.png",
+    "game_info": "Unit\u00e9 d'infanterie d'attaque \u00e0 distance classique.",
+    "historical_info": "Souvent consid\u00e9r\u00e9 comme le mod\u00e8le d'arc le plus sophistiqu\u00e9 qui soit, l'arc composite se d\u00e9marque de ses \u00e9quivalents traditionnels par son mode d'assemblage combinant des couches d'os, de corne ou d'autres mat\u00e9riaux coll\u00e9s ensemble afin d'obtenir une arme surpuissante. L'arc composite provient vraisemblablement de tribus nomades d'Asie ayant v\u00e9cu aux environs du Ier, voire du IIe mill\u00e9naire av. J.-C.",
+    "strategy": "L'archer composite est plus puissant que l'archer simple. Cette unit\u00e9 de combat \u00e0 distance peut infliger d'importants d\u00e9g\u00e2ts aux autres unit\u00e9s dans un rayon de deux cases, mais elle est vuln\u00e9rable aux attaques de combat rapproch\u00e9. Placez un archer composite dans votre ville pour la d\u00e9fendre et prot\u00e9gez-le \u00e0 l'aide d'unit\u00e9s de combat rapproch\u00e9 lors des d\u00e9placements.",
+    "movement": 2,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Construction",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/construction.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

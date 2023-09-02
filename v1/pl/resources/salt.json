@@ -1,0 +1,37 @@
+{
+    "id": 32,
+    "name": "S\u00f3l|Soli|Soli|S\u00f3l",
+    "game_info": null,
+    "historical_info": "S\u00f3l jest niezb\u0119dna cz\u0142owiekowi do \u017cycia. Mo\u017cna j\u0105 odnale\u017a\u0107 na ca\u0142ym \u015bwiecie zar\u00f3wno w \u015brodowisku naturalnym, jak i tym stworzonym przez cz\u0142owieka. Od tysi\u0105cleci u\u017cywa si\u0119 jej jako konserwantu do mi\u0119s - przed wynalezieniem ch\u0142odzenia by\u0142a ona niezmiernie istotna przy przechowywaniu po\u017cywienia. Powszechn\u0105 metod\u0105 produkcji soli jest odparowywanie - tworzy si\u0119 w tym celu du\u017ce stawy ze s\u0142on\u0105 wod\u0105, kt\u00f3ra odparowuje, a na dnie zostawia solny osad.",
+    "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/s\u00f3l|soli|soli|s\u00f3l.png",
+    "prereq_tech": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 1,
+        "faith": 0,
+        "happiness": 0
+    },
+    "improved_by": [
+        {
+            "name": "Kopalnia|Kopalni|Kopalni|Kopalni\u0119|Kopalnie|Kopal\u0144|Kopalniom|Kopalnie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/improvements/mine.json"
+        }
+    ],
+    "terrains_found_on": [
+        {
+            "name": "R\u00f3wniny|R\u00f3wnin|R\u00f3wninom|R\u00f3wniny",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/r\u00f3wniny|r\u00f3wnin|r\u00f3wninom|r\u00f3wniny.json"
+        },
+        {
+            "name": "Pustynia|Pustyni|Pustyni|Pustyni\u0119|Pustynie|Pusty\u0144|Pustyniom|Pustynie",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/pustynia|pustyni|pustyni|pustyni\u0119|pustynie|pusty\u0144|pustyniom|pustynie.json"
+        },
+        {
+            "name": "Tundra|Tundry|Tundrze|Tundr\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/terrains/tundra|tundry|tundrze|tundr\u0119.json"
+        }
+    ]
+}

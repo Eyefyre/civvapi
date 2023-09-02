@@ -1,0 +1,23 @@
+{
+    "id": 95,
+    "name": "Archer Babylonien|Archers Babyloniens",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bowman.png",
+    "game_info": "Cette unit\u00e9 exclusive aux Babyloniens est l'une des premi\u00e8res unit\u00e9s d'attaque \u00e0 distance du jeu et remplace l'archer. L'archer babylonien r\u00e9siste mieux aux attaques de combat rapproch\u00e9 que l'archer standard des autres civilisations.",
+    "historical_info": "Gr\u00e2ce \u00e0 une superbe mosa\u00efque assyrienne les repr\u00e9sentant au combat, nous b\u00e9n\u00e9ficions d'une image tr\u00e8s pr\u00e9cise des fantastiques unit\u00e9s de tir \u00e0 l'arc babyloniennes. Les archers de Babylone \u00e9taient v\u00eatus d'une tunique d'\u00e9cailles de m\u00e9tal et munis d'un arc d'environ 1,30 m de long, ainsi que d'un carquois attach\u00e9 sur leur dos. Les archers portaient \u00e9galement des lances ou des dagues, afin de mieux se d\u00e9fendre contre l'ennemi en cas de combat rapproch\u00e9. \r\n \r\nDes unit\u00e9s s\u00e9par\u00e9es \u00e9quip\u00e9es d'immenses boucliers accompagnaient l'archer\u00a0: une v\u00e9ritable forteresse en mouvement\u00a0! Les archers faisaient partie int\u00e9grante de l'infanterie babylonienne\u00a0; ils \u00e9taient en effet plus simples \u00e0 former, et par cons\u00e9quent \u00e0 remplacer, que la cavalerie, bien plus co\u00fbteuse. Les archers \u00e9taient \u00e9galement attach\u00e9s \u00e0 la protection des Murs de Babylone, o\u00f9 ils prenaient position dans les nombreuses tourelles les composant.",
+    "strategy": "L'archer babylonien est une unit\u00e9 exclusive aux Babyloniens\u00a0; il remplace l'archer. Il est plus puissant au combat que l'archer classique, aussi bien en attaque qu'en d\u00e9fense, vous pouvez donc le placer aux premi\u00e8res lignes. Gr\u00e2ce \u00e0 ses prouesses au combat, il r\u00e9sistera plus longtemps aux assauts ennemis.",
+    "movement": 2,
+    "cost": {
+        "production": 40,
+        "faith": 80
+    },
+    "prereq_tech": {
+        "name": "Tir \u00e0 l'arc",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archery.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

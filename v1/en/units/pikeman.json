@@ -1,0 +1,23 @@
+{
+    "id": 62,
+    "name": "Pikeman",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/pikeman.png",
+    "game_info": "Specialized in defeating Knights and other mounted Units.",
+    "historical_info": "A pikeman is a better-trained and armored spearman armed with a longer, sharper weapon. Unlike the shorter and lighter spear, a pike is almost always used two-handed. Historically pikemen were most effective against other infantry and cavalry, but as they lacked shields, they were quite vulnerable to archers.",
+    "strategy": "The Pikeman is a more powerful Spearman. It receives a bonus when fighting against mounted units, which makes it pretty much the only unit that can hope to stand up against a rampaging Knight. A Pikeman fortified in defensive terrain is a Knight's worst nightmare.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Civil Service",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus vs Mounted (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

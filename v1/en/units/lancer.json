@@ -1,0 +1,35 @@
+{
+    "id": 45,
+    "name": "Lancer",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/lancer.png",
+    "game_info": "Mounted Unit specialized in defeating enemy Mounted Units.",
+    "historical_info": "Lancers were the cavalrymen of the Renaissance era. In an era of the increasing use of cannon and other gunpowder-based weaponry speed and maneuverability trumped armor, which was increasingly useless against the modern projectile weapons, so the Lancers abandoned much of the heavy plate mail of their knightly predecessors, retaining only the metal breastplate, if that. Even as weaponry improved, the lance remained a terrifyingly effective weapon in the hands of trained horsemen. As late as the Napoleonic Wars the French believed that the lance was a superior cavalry weapon to the sword. In the 19th century both would be supplanted by the carbine rifle, of course.",
+    "strategy": "The Lancer is the Renaissance horse unit that comes between the Knight and the Cavalry unit. It's faster and more powerful than the Knight, able to sweep those once-mighty units from the map. The Lancer can even take on the powerful Cavalry unit once it appears.",
+    "movement": 4,
+    "cost": {
+        "production": 185,
+        "faith": 370
+    },
+    "prereq_tech": {
+        "name": "Metallurgy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/metallurgy.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No Defensive Terrain Bonuses",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Can Move After Attacking",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Penalty Attacking Cities (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/penalty_attacking_cities_(33).json"
+        },
+        {
+            "name": "Formation I",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/formation_i.json"
+        }
+    ]
+}

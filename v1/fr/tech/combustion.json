@@ -1,0 +1,32 @@
+{
+    "id": 60,
+    "name": "Combustion",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/combustion.png",
+    "era": "\u00c8re moderne",
+    "cost": 4100,
+    "civilopedia_entry": "\"Combustion\" signifie, peu ou prou, inflammation. Il s'agit d'une r\u00e9action chimique caus\u00e9e par l'interaction de deux substances (dont l'une est le plus souvent l'oxyg\u00e8ne). Cette r\u00e9action chimique g\u00e9n\u00e8re en principe de la lumi\u00e8re et de l'\u00e9nergie. Notons que nous parlons ici de la combustion survenant \u00e0 l'int\u00e9rieur d'un moteur (d'o\u00f9 son nom de \"combustion interne\") dans le but de cr\u00e9er assez d'\u00e9nergie pour faire tourner un vilebrequin ou activer un piston.Il existe deux types de moteurs \u00e0 combustion interne : les moteurs \u00e0 combustion intermittente et les moteurs \u00e0 combustion continue. Dans un moteur \u00e0 combustion intermittente, une quantit\u00e9 donn\u00e9e de carburant et d'oxyg\u00e8ne est inject\u00e9e dans la chambre de combustion o\u00f9 il s'embrase et active un piston ou tout autre dispositif m\u00e9canique. Une nouvelle dose de carburant et d'oxyg\u00e8ne est alors inject\u00e9e, et le processus se r\u00e9p\u00e8te. Les moteurs des automobiles sont g\u00e9n\u00e9ralement \u00e0 combustion intermittente. Dans un moteur \u00e0 combustion continue, un flot ininterrompu de carburant et d'oxyg\u00e8ne est inject\u00e9 dans le moteur et br\u00fble en permanence. Les moteurs \u00e0 r\u00e9action utilisent le flot continu.Le premier brevet de moteur \u00e0 combustion interne fut d\u00e9pos\u00e9 par l'Anglais Samuel Brown en 1823. Il d\u00e9taillait le fonctionnement d'un moteur dit gaz/vide, fonctionnant \u00e0 l'oxyg\u00e8ne et \u00e0 l'hydrog\u00e8ne. On doit le premier brevet d'utilisation d'un moteur \u00e0 r\u00e9action visant \u00e0 propulser un a\u00e9ronef au Fran\u00e7ais Maxime Guillaume en 1921. Si aucune de ces deux tentatives ne fut r\u00e9ellement concluante, elles ouvrirent la voie \u00e0 des technologies qui ont aliment\u00e9 le monde entier en \u00e9nergie jusqu'\u00e0 aujourd'hui et ne sont probablement pas pr\u00e8s de dispara\u00eetre.",
+    "quote": "\"Tout homme qui peut conduire sans risque en embrassant une jolie fille ne donne simplement pas au baiser toute l'attention qu'il m\u00e9rite.\"- Albert Einstein",
+    "tech_prereqs": [
+        {
+            "name": "Voies ferr\u00e9es",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/railroad.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arm\u00e9e combin\u00e9e",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/combined_arms.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Destroyer|Destroyers",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/destroyer.json"
+        },
+        {
+            "name": "V\u00e9hicule terrestre|V\u00e9hicules terrestres",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/units/landship.json"
+        }
+    ],
+    "building_unlocks": []
+}

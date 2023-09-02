@@ -1,0 +1,63 @@
+{
+    "id": 1,
+    "name": "Agricoltura|dell'Agricoltura",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/agriculture.png",
+    "era": "Epoca antica",
+    "cost": 20,
+    "civilopedia_entry": "L'agricoltura consiste nella produzione di piante, soprattutto per ricavarne cibo, ma anche vestiti, riparo, medicine, diletto e altri usi ancora. \u00c8 probabile che sia stata sviluppata in modo indipendente in diversi luoghi del mondo. I primi segni di agricoltura risalgono alla fine dell'ultima glaciazione, circa 11.000 anni fa. \u00c8 interessante notare che, a quanto pare, l'agricoltura non \u00e8 stata inventata da cacciatori-raccoglitori che, in difficolt\u00e0 per la carenza di cibo, cercavano altre fonti di sostentamento: tutte le prove suggeriscono che i primi contadini fossero cacciatori-raccoglitori di successo che avevano gi\u00e0 molto cibo a disposizione. Questo dopotutto ha senso: le persone che dispongono di un surplus di cibo si possono permettere di sperimentare nuove tecnologie, mentre chi \u00e8 affamato dedicher\u00e0 tutto il suo tempo e le sue energie a metodi sicuri e gi\u00e0 sperimentati di procacciarsi il cibo.All'inizio l'agricoltura era un processo lento e ciclico. In primavera si piantavano i semi, dopodich\u00e9 i campi venivano curati e irrigati finch\u00e9 non si poteva procedere al raccolto, spesso molti mesi dopo. Dal momento che i posti in cui era possibile produrre tutto l'anno erano molto rari, i contadini dovevano essere in grado di conservare il cibo per i duri mesi invernali o scambiare beni con chi aveva accesso a risorse non stagionali, come cacciatori e pescatori. I contadini sono sempre stati alla merc\u00e9 della natura e del clima: un'annata senza pioggia o un'invasione di parassiti poteva portare una famiglia a morire di fame.L'agricoltura moderna \u00e8 un'attivit\u00e0 complessa ed esigente che include la manipolazione genetica e l'uso di insetticidi e fertilizzanti avanzati, sistemi computerizzati di irrigazione e robot per il raccolto. Il progresso tecnologico ha moltiplicato la quantit\u00e0 di cibo che \u00e8 possibile produrre su ogni acro di terreno, tanto che in alcuni paesi, tra cui gli Stati Uniti, i cittadini soffrono di obesit\u00e0 cronica e i prezzi sono cos\u00ec bassi da minacciare il benessere degli stessi contadini che lo producono.",
+    "quote": "\"Dove arriva la coltivazione, seguono le altre arti. I contadini sono quindi i fondatori della civilt\u00e0 umana.\" - Daniel Webster",
+    "tech_prereqs": [],
+    "tech_unlocks": [
+        {
+            "name": "Ceramica|della Ceramica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/pottery.json"
+        },
+        {
+            "name": "Allevamento di animali|dell'Allevamento di animali",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/animal_husbandry.json"
+        },
+        {
+            "name": "Tiro con l'arco|del Tiro con l'arco",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/archery.json"
+        },
+        {
+            "name": "Estrazione mineraria|dell'Estrazione mineraria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/mining.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Colono|un Colono|dal tuo Colono|al tuo Colono|il tuo Colono|da un Colono",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/settler.json"
+        },
+        {
+            "name": "Lavoratore|un Lavoratore|dal tuo Lavoratore|al tuo Lavoratore|il tuo Lavoratore|da un Lavoratore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/worker.json"
+        },
+        {
+            "name": "Scout|uno Scout|dal tuo Scout|al tuo Scout|il tuo Scout|da uno Scout",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/scout.json"
+        },
+        {
+            "name": "Guerriero|un Guerriero|dal tuo Guerriero|al tuo Guerriero|il tuo Guerriero|da un Guerriero",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/warrior.json"
+        },
+        {
+            "name": "Guerriero giaguaro|un Guerriero giaguaro|dal tuo Guerriero giaguaro|al tuo Guerriero giaguaro|il tuo Guerriero giaguaro|da un Guerriero giaguaro",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/jaguar.json"
+        },
+        {
+            "name": "Guerriero Maori|un Guerriero Maori|dal tuo Guerriero Maori|al tuo Guerriero Maori|il tuo Guerriero Maori|da un Guerriero Maori",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/maori_warrior.json"
+        },
+        {
+            "name": "Lanciatore con atlatl|un Lanciatore con atlatl|dal tuo Lanciatore con atlatl|al tuo Lanciatore con atlatl|il tuo Lanciatore con atlatl|da un Lanciatore con atlatl",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/atlatlist.json"
+        },
+        {
+            "name": "Pathfinder|un Pathfinder|dal tuo Pathfinder|al tuo Pathfinder|il tuo Pathfinder|da un Pathfinder",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/pathfinder.json"
+        }
+    ],
+    "building_unlocks": []
+}

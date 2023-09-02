@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Harbor",
+    "game_info": "Forms a [ICON_CONNECTED] City Connection with the Capital over water (if they're not already [ICON_CONNECTED] connected by land). Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization.City must be built on the coast.",
+    "strategy": "The Harbor is a Medieval-era building. It improves the range and Gold yield of sea trade routes. It allows \"water city connections\" (see rules) between cities. The Harbor also increases the Production output of an improved sea resource.",
+    "historical_info": "A harbor is a sheltered body of water that provides protection from the elements for boats and ships at anchor within. Where there are some \"natural\" harbors, most have required some degree of dredging, the construction of breakwaters and windbreaks, and the like. In addition, harbors also possess docks and jetties for loading and unloading cargo as well as warehouses to store the goods passing through.",
+    "cost": {
+        "production": 120,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/harbor.png",
+    "prereq_tech": {
+        "name": "Compass",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/compass.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

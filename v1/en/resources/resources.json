@@ -1,0 +1,1615 @@
+[
+    {
+        "id": 1,
+        "name": "Iron",
+        "game_info": "Used by powerful early-game Units.",
+        "historical_info": "Iron is one of the most important metals in human history. It is used for construction, for military weapons, and for tools. The first iron used came from pure deposits found in meteorites, and by the 2nd millennium BC some cultures had learned how to extract it from ores found in mines. Iron continues to be an extremely important material in the modern era, though it is most often used in its steel alloy form. Remember that iron is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/iron.png",
+        "prereq_tech": {
+            "name": "Bronze Working",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Snow",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/iron.json"
+    },
+    {
+        "id": 2,
+        "name": "Horses",
+        "game_info": "Used by Mounted Units.",
+        "historical_info": "As transport, implement of war, companion and (occasionally) foodstuff, horses are among the most important domesticated animals in human history. Horses were originally domesticated in Central Asia around 4000 BC, and over the next several thousand years the practice spread across Europe, Asia, the Middle East and Africa. Horses were transported to the New World by the Spanish in the 16th century, where their use was quickly and enthusiastically picked up by the native population in the following centuries. Remember that horses are strategic resources, and thus they are consumed as you construct the associated units.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/horses.png",
+        "prereq_tech": {
+            "name": "Animal Husbandry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/animal_husbandry.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Pasture",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/pasture.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/horses.json"
+    },
+    {
+        "id": 3,
+        "name": "Coal",
+        "game_info": "Used by Factories and Ironclads.",
+        "historical_info": "Coal is ancient plant matter that has decomposed and compressed over the millennia into a highly combustible black compound. Found in substantial quantities across virtually the entire planet, coal has been one of the most important sources of energy to mankind throughout history. Coal is not a clean fuel and its extraction and burning is a major source of pollution around the world. Scientists are frantically looking for the elusive \"clean coal\" technology, but that remains as of yet undiscovered. Remember that coal is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/coal.png",
+        "prereq_tech": {
+            "name": "Industrialization",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/industrialization.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/coal.json"
+    },
+    {
+        "id": 4,
+        "name": "Oil",
+        "game_info": "Used by powerful late-game Units.",
+        "historical_info": "Oil is a liquid fuel found in large and small deposits across the world. Although occasionally used by some civilizations as far as four thousand years ago to create asphalt or naptha or burned as a light source, modern use can be traced back to 1857 when the first modern refinery was constructed in Alsace, France. At about the same time wells were being drilled across Europe and in North America. By the early 20th century oil was in great demand, largely due to its use in internal combustion engines as used by ships, planes, and automobiles. Today much of international politics is driven by growing tension between those who have abundant sources of oil, and those who do not. Remember that oil is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/oil.png",
+        "prereq_tech": {
+            "name": "Biology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/biology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Oil Well",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/oil_well.json"
+            },
+            {
+                "name": "Offshore Platform",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/offshore_platform.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            },
+            {
+                "name": "Marsh",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Snow",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+            },
+            {
+                "name": "Coast",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/oil.json"
+    },
+    {
+        "id": 5,
+        "name": "Aluminum",
+        "game_info": "Used by powerful late-game Units and Buildings.",
+        "historical_info": "Aluminum is one of the most abundant elements on Earth. A remarkably useful metal, aluminum is flexible, durable, and highly resistant to corrosion. Although plentiful, in its natural state aluminum is almost always found combined with other materials. It wasn't until the mid-19th century that scientists discovered how to extract and process aluminum in quantity. In the 20th-21st centuries it is widely used in the construction of military, aerospace, and consumer goods. Remember that aluminum is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/aluminum.png",
+        "prereq_tech": {
+            "name": "Electricity",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/electricity.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/aluminum.json"
+    },
+    {
+        "id": 6,
+        "name": "Uranium",
+        "game_info": "Used by Nukes, Nuclear Plants and Giant Death Robots.",
+        "historical_info": "Uranium is a radioactive natural mineral that, once processed and enriched, can be used to generate enormous energy or blow things up. Discovered in the 18th century, it wasn't until the 20th, during the terrible crucible of World War II, that American scientists learned how to craft the mildly dangerous material into the most deadly explosive that history has ever seen. When used to power nuclear generators, uranium is seen as a \"clean\" energy, since it doesn't release the huge amounts of air pollution created by coal or petroleum. On the other hand, used nuclear fuel is incredibly toxic and poisons land, air, water, and/or any living organisms that encounter it for hundreds of years, so this is a problem too. Remember that uranium is a strategic resource, and thus it is consumed as you construct the associated units and buildings.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/uranium.png",
+        "prereq_tech": {
+            "name": "Atomic Theory",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/atomic_theory.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            },
+            {
+                "name": "Customs House",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/customs_house.json"
+            },
+            {
+                "name": "Academy",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/academy.json"
+            },
+            {
+                "name": "Citadel",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/citadel.json"
+            },
+            {
+                "name": "Manufactory",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/manufactory.json"
+            },
+            {
+                "name": "Holy Site",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/holy_site.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            },
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            },
+            {
+                "name": "Marsh",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+            },
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Snow",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/uranium.json"
+    },
+    {
+        "id": 7,
+        "name": "Wheat",
+        "game_info": null,
+        "historical_info": "Originally cultivated in the Fertile Crescent of the Middle East, wheat is one of the most important grains in the human diet. A remarkably versatile grain, wheat can be turned into flour and made into bread, pasta, cereal or cake, and it can be fermented and made into a variety of tasty alcoholic beverages.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wheat.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Farm",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/farm.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Flood Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/flood_plains.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/wheat.json"
+    },
+    {
+        "id": 8,
+        "name": "Cattle",
+        "game_info": null,
+        "historical_info": "Some of the earliest domesticated animals in history, cows, oxen and other bovines have been used for livestock, dairy, and as draft animals. In addition, cattle skin has been used for leather, and its dung as a fuel source. Many tribal civilizations count a person's wealth by how many cattle he or she possesses.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cattle.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Pasture",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/pasture.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cattle.json"
+    },
+    {
+        "id": 9,
+        "name": "Sheep",
+        "game_info": null,
+        "historical_info": "Sheep are extremely tasty creatures that also produce milk, wool and leather. One of the earliest animals to be domesticated, sheep were first tamed in Mesopotamia some ten thousand years ago. Since that period the practice of shepherding has spread widely, and today sheep can be found across the planet. There are over 200 breeds of sheep in existence, each bred for a specific quality: hardiness, size, quantity and quality of wool, milk production, and of course tastiness!",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sheep.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Pasture",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/pasture.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sheep.json"
+    },
+    {
+        "id": 10,
+        "name": "Deer",
+        "game_info": null,
+        "historical_info": "Deer and their relatives - reindeer, moose, roe, etc. - can be found in herds across the planet. They have provided food, leather, bones, gut, and other materials for pre-industrial people for uncounted thousands of years.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/deer.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/deer.json"
+    },
+    {
+        "id": 11,
+        "name": "Bananas",
+        "game_info": null,
+        "historical_info": "A banana is a popular tropical fruit. It, and its cousins the plantains, are an important part of many tropical peoples' diets. Originating in Southeast Asia, the banana is now cultivated around the world.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bananas.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bananas.json"
+    },
+    {
+        "id": 12,
+        "name": "Fish",
+        "game_info": null,
+        "historical_info": "Fish have been an important source of protein for coastal dwellers for all of history. Fish remain an important foodstuff in the 21st century - so much so that there is increasing danger of depopulating the world's oceans of edible fish entirely.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/fish.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fishing Boats",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Coast",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/fish.json"
+    },
+    {
+        "id": 13,
+        "name": "Stone",
+        "game_info": null,
+        "historical_info": "Found in the Earth's crust and upper mantle, stone is perhaps the most crucial element in human construction efforts throughout history. There are three major classifications of stone - Sedimentary, Igneous, and Metamorphic - each differing in their origin.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/stone.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 1,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Quarry",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/quarry.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Snow",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/stone.json"
+    },
+    {
+        "id": 14,
+        "name": "Whales",
+        "game_info": null,
+        "historical_info": "The largest mammals alive today, for centuries men have hunted whales for their meat, blubber, and bones. In pre-industrial times men challenged these massive animals from sailing vessels, employing harpoons against the massive beasts in an often deadly fight of man against animal. Now the hunters use modern ships, sonar, and exploding weapons against the whales - with such success that their survival remains in doubt.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/whales.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fishing Boats",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Coast",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/whales.json"
+    },
+    {
+        "id": 15,
+        "name": "Pearls",
+        "game_info": null,
+        "historical_info": "Pearls are shiny, white, translucent balls formed inside the shells of mollusks. They are highly prized and often used in jewelry and other ornate decorations. Although many mollusks produce pearls, certain species of saltwater oysters and freshwater clams - those whose shells are lined with \"mother of pearl\" (or nacre) - produce the most sought-after varieties. The color of the pearl varies depending upon the mollusk and the local environment. Colors range from black to white, with cream, blue, yellow and green also occurring. The rose-colored Indian pearls are generally the most valued.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pearls.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fishing Boats",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Coast",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/pearls.json"
+    },
+    {
+        "id": 16,
+        "name": "Gold",
+        "game_info": null,
+        "historical_info": "Gold is a soft, shiny and malleable metal, and it has been prized by men and women throughout history. It is a rare metal, and its rarity greatly adds to its value. Although it has some industrial and medicinal purposes, gold is used primarily as coinage or for decorative purposes, adorning jewelry, cups, utensils and the commodes of the super-rich and powerful.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gold.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gold.json"
+    },
+    {
+        "id": 17,
+        "name": "Silver",
+        "game_info": null,
+        "historical_info": "Silver is a shiny, soft, malleable, precious metal. It is highly valued for its beauty and for centuries it has been used in ornaments, jewelry, utensils, and coinage in cultures around the world. Silver has excellent thermal and electrical conductivity properties as well, which make it quite useful in many electronic applications. Silver has been mined for at least 6,000 years, and perhaps much longer. In 1859 the \"Comstock Lode\" was discovered in Nevada, United States of America. This was a mighty deposit of silver which led to a huge boom in the local economy. The good times lasted some twenty-three years until the lower levels of the mine became flooded and silver extraction petered out, at which point most of the so-called \"boom towns\" simply dried up and died.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/silver.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silver.json"
+    },
+    {
+        "id": 18,
+        "name": "Gems",
+        "game_info": null,
+        "historical_info": "A gem is a beautiful but rare mineral. Once cut and polished, gems possess vibrant colors and/or are extremely shiny. There are two major classifications of gems: precious, like diamonds, rubies and emeralds, and semi-precious, such as amethyst, turquoise, and so forth. Gems have been highly prized throughout history; they are commonly used to adorn jewelry and the household items of the rich and powerful.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/gems.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 3,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            },
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/gems.json"
+    },
+    {
+        "id": 19,
+        "name": "Marble",
+        "game_info": null,
+        "historical_info": "Marble is a beautiful rock highly prized as a building material and by artists for sculpting. Marble comes in a variety of colors and shades, sometimes mono-colored and sometimes with veins and pockets of many different colors within. Many of the most beautiful structures in the world - including the Taj Mahal, for one - are constructed of marble, as are the greatest sculptures of antiquity.+15% Production when building Ancient and Classical Era Wonders in the City where it is worked.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/marble.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Quarry",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/quarry.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Hill",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/hill.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/marble.json"
+    },
+    {
+        "id": 20,
+        "name": "Ivory",
+        "game_info": null,
+        "historical_info": "Ivory is a material harvested from the teeth and tusks of animals, including elephants, whales, hippopotamuses, narwhals, and so forth. Ivory is highly valued for its durability and its attractiveness. Historically it has been used for billiard balls, piano keys, clothing structural support, utensil handles, etc. In the modern era plastics have been invented that are perfectly adequate substitutes for the precious material, but nothing yet made can match its beauty and allure - which is unfortunate for the many endangered animals illegally slaughtered each year for their ivory.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/ivory.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/ivory.json"
+    },
+    {
+        "id": 21,
+        "name": "Furs",
+        "game_info": null,
+        "historical_info": "As a resource, \"fur\" refers to the pelt or coat of certain mammals prized for their warmth and beauty. Unlike animals such as sheep, whose hair can be shaved off without destroying the animal, fur animals are killed when their skins are harvested. Humans have hunted animals for their furs for uncounted millennia. In the early years the hunters and their families probably ate the animals they caught, but in modern times the animal's body has been often discarded. Animals hunted for their fur include foxes, bears, beavers, seals, and rabbits.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/furs.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/furs.json"
+    },
+    {
+        "id": 22,
+        "name": "Dyes",
+        "game_info": null,
+        "historical_info": "A dye is a substance which can (temporarily or permanently) alter the color of some other substance, typically fabric or human skin. Throughout history dyes have been made from a variety of different materials, including plants, minerals, and animal bits. Humanity has been using dyes for at least 37,000 years, and possibly longer.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/dyes.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            },
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/dyes.json"
+    },
+    {
+        "id": 23,
+        "name": "Spices",
+        "game_info": null,
+        "historical_info": "Spices are plant-derived substances used to preserve and enhance the flavor, color or texture of food. Some spices have religious significance as well, and some are purported to have medicinal benefits. Common spices include pepper, mustard, cinnamon, saffron, and ginger. Generally, spices must be dried and ground before being applied to food; this distinguishes them from herbs like sage or oregano, which are green and leafy and which may be used fresh or dried.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/spices.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/spices.json"
+    },
+    {
+        "id": 24,
+        "name": "Silk",
+        "game_info": null,
+        "historical_info": "Silk is a fiber which is made from the cocoons of silkworms. Silk fabric was first developed in ancient China, according to legend by the empress Lei Zu. Originally reserved for the Chinese nobility, over time it spread throughout China, and via the famous Silk Road of antiquity, into Europe and across the planet. (The earliest record of silk in Europe dates to Egypt in approximately 1000 BC.)",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/silk.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/silk.json"
+    },
+    {
+        "id": 25,
+        "name": "Sugar",
+        "game_info": null,
+        "historical_info": "Sugar is an incredibly sweet substance derived from sugar cane (or beets) and used to sweeten food and beverages. It is believed that sugar was first used by Polynesians, and then the practice spread to India and from there eventually into Asia and Europe. Eventually sugar cane was transported to the Caribbean and to North and South America, where it was found to grow incredibly well. Plentiful and cheap, sugar and its sweet cousins, glucose, fructose, etc., can be found in almost all processed foods across the world, much to the unhappiness of dentists and dieticians everywhere.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/sugar.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Flood Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/flood_plains.json"
+            },
+            {
+                "name": "Marsh",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/sugar.json"
+    },
+    {
+        "id": 26,
+        "name": "Cotton",
+        "game_info": null,
+        "historical_info": "Cotton is a plant that has been cultivated for centuries. It produces a fibrous \"boll\" around the seed which can be spun into yarn or thread and used to make cloth for clothing, ship sails, and other valuable material. First cultivated in India some seven thousand years ago, cotton is still the most widely used natural material for clothing manufacture today.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cotton.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cotton.json"
+    },
+    {
+        "id": 27,
+        "name": "Wine",
+        "game_info": null,
+        "historical_info": "Wine is a tasty alcoholic beverage made of fermented grapes. Humans have been happily creating wine for some 8,000 years. The practice is believed to have originated in the area near the modern Iranian-Georgian border. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. France is the (self-proclaimed) center of wine production on the planet, but she is facing stiff competition from other countries in Europe, as well as the USA, South Africa, South America, and Australia.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/wine.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/wine.json"
+    },
+    {
+        "id": 28,
+        "name": "Incense",
+        "game_info": null,
+        "historical_info": "Incense is a material created to slowly burn while releasing fragrant smoke. Incense is often employed in religious ceremonies, and some believe that certain incenses have healing powers. The use of incense dates back thousands of years. It probably originated in the Middle East, possibly in Egypt. The Pharaohs used it not only to cover the smell of grubby commoners but also to drive away demons and to please the gods. A wide variety of materials have been used to make incense: camphor, frankincense, myrrh, sandalwood, cloves, lavender, musk, and other exotic materials. Long used in traditional Eastern medicine, in the West incense is enjoying something of a boom in the pseudo-scientific \"aroma therapy\" which, while perhaps of dubious efficacy, at least makes the practitioner smell nice.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/incense.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/incense.json"
+    },
+    {
+        "id": 29,
+        "name": "Jewelry",
+        "game_info": "Jewelry is only available through a Mercantile City-State.",
+        "historical_info": "Jewelry is a term used to refer to articles of gold, silver, gems, and other precious materials, worn with no other purpose in mind aside from personal adornment. Ancient forms of jewelry discovered in Africa indicate that these adornments were used more than 50,000 years ago, when beads, shells, and bone were worn in a decorative fashion. In the past 5,000 years, gold has been the primary material used in jewelry, as its malleable nature and distinctive styling allowed for increasingly complex designs that spoke to the wealth of its owner.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/jewelry.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/jewelry.json"
+    },
+    {
+        "id": 30,
+        "name": "Porcelain",
+        "game_info": "Porcelain is only available through a Mercantile City-State.",
+        "historical_info": "First created in China nearly 3,000 years ago, porcelain is a type of ceramic material formed by heating clay to create semi-translucent vessels of varying shapes and sizes. Artists and craftsmen spent centuries developing the techniques that allowed for control of both the aesthetic qualities as well as the physical strength and usability of porcelain objects. Having originated in China, porcelain dinnerware was often referred to simply as \"China\" during the height of its popularity in Europe.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/porcelain.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/porcelain.json"
+    },
+    {
+        "id": 31,
+        "name": "Copper",
+        "game_info": null,
+        "historical_info": "The soft, orange-hued metal known as copper has been used for thousands of years for everything from weapons, to currency, to circuits and electrical wiring in the modern day. Copper has a number of unique qualities, not the least of which are its antimicrobial abilities. Copper is naturally resistant to many forms of bacteria, leading to its use in plumbing and other applications where human contact is frequent, for example in doorknobs. Copper is also valuable for the alloys produced when it is combined with other metals. When mixed with tin, copper forms the alloy known as bronze. When combined with zinc, brass is produced.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/copper.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            },
+            {
+                "name": "Snow",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/snow.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/copper.json"
+    },
+    {
+        "id": 32,
+        "name": "Salt",
+        "game_info": null,
+        "historical_info": "One of the necessities of human life, salt, is found throughout the world in both natural and man-made environments. Used for thousands of years as a means of preserving meat, salt was crucial in efforts to store food prior to the invention of artificial refrigeration. A common method of producing and harvesting salt for consumption is through the use of evaporation. By creating large ponds or pools of saltwater, over time the natural evaporation process will remove the water and leave behind the salt residue for collection.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/salt.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Mine",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/mine.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            },
+            {
+                "name": "Desert",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+            },
+            {
+                "name": "Tundra",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/salt.json"
+    },
+    {
+        "id": 33,
+        "name": "Crab",
+        "game_info": null,
+        "historical_info": "Dwelling at the bottom of the sea, the claw-bearing crustaceans known as Crabs are omnivores that will most often consume whatever comes their way. With over 800 species of crabs known to exist throughout the world, they are a staple food in some areas and one of the largest sea commodities in the present day. Among the most popular varieties, the blue crab, for which the Chesapeake Bay of Maryland is famous for producing, is consumed at a rate of over one hundred million pounds per year.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/crab.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Fishing Boats",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/fishing_boats.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Coast",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/coast.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/crab.json"
+    },
+    {
+        "id": 34,
+        "name": "Truffles",
+        "game_info": null,
+        "historical_info": "A rare and expensive delicacy, truffles are the fruit of a family of mushrooms that grow underground. With a pungent aroma and powerful taste, truffles are used primarily for seasoning dishes in a variety of international cuisines. One of the more unusual aspects of truffles are the means by which they are acquired, that is via \"truffle hog.\" These pigs, domesticated and used specially for the purposes of finding underground truffles, are naturally gifted in the hunt. With an uncanny sense of smell, truffle hogs are said to have been in use since the Roman era.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/truffles.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Forest",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/forest.json"
+            },
+            {
+                "name": "Marsh",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/marsh.json"
+            },
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/truffles.json"
+    },
+    {
+        "id": 35,
+        "name": "Citrus",
+        "game_info": null,
+        "historical_info": "Citrus fruits - particularly Oranges, Limes, and Grapefruit - have been a common part of the human diet since ancient times. First cultivated in the regions surrounding Southeast Asia, the various flowering plants of the Citrus genus have since flourished in countries throughout the world. Scurvy, a Vitamin C deficiency rampant among sailors, began to become a serious problem in the 15th century. It continued to plague ships throughout the Age of Discovery, until the introduction of lime juice and sauerkraut treatments in the 18th century. Although most sailors believed it was the acid in citrus that prevented the disease, it was actually the Vitamin C, but the end result was a healthy crew in either case.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/citrus.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/citrus.json"
+    },
+    {
+        "id": 36,
+        "name": "Antiquity Site",
+        "game_info": "When improved with an Archaeological Dig, an Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement.",
+        "historical_info": "Francis Bacon wrote in 1605 AD that \"antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.\" By definition, antiquities are objects from the past, ranging from simple arrowheads to artistic treasures. The sense that a lost civilization could be recovered by a systematic study of its relics and artifacts has driven amateur collectors and eminent scholars for generations to seek these out, dig these up, and preserve these in homes, universities and museums. This passion for collecting the leavings of the human past eventually gave rise to a new scholarly discipline - the field of archeology.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/antiquity_site.png",
+        "prereq_tech": {
+            "name": "Archaeology",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/archaeology.json"
+        },
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Archaeological Dig",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/archaeological_dig.json"
+            }
+        ],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/antiquity_site.json"
+    },
+    {
+        "id": 37,
+        "name": "Nutmeg",
+        "game_info": "Appears as a unique luxury good in an Indonesian city.",
+        "historical_info": "Nutmeg trees are evergreens indigenous to the Banda Islands in Indonesia. Nutmeg has been used in the culinary culture of several civilizations for centuries. In Penang cuisine it is often boiled or blended as a drink; in India it used as a sweet; and in Middle Eastern cooking it is used to spice savory dishes. But it was the discovery of the source of nutmeg in Indonesia in 1511 AD by the Portuguese explorer Albuquerque that set off the rush to import the spice to the tables of Europe.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/nutmeg.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/nutmeg.json"
+    },
+    {
+        "id": 38,
+        "name": "Cloves",
+        "game_info": "Appears as a unique luxury good in an Indonesian city.",
+        "historical_info": "Cloves are the dried flower bud from a tree native to the Maluku Islands in Indonesia; an aromatic spice, it is used in cuisines worldwide. Now harvested primarily in Indonesia, India, Zanzibar and Madagascar, cloves have a numbing effect on mouth tissues and have been used in the past as a medicine and a drug as well as a spice. Until planted outside the islands, the Dutch East India Company had a virtual monopoly on the spice; in Europe in the 17th and 18th centuries, cloves were quite literally worth their weight in gold due to the demand.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cloves.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cloves.json"
+    },
+    {
+        "id": 39,
+        "name": "Pepper",
+        "game_info": "Appears as a unique luxury good in an Indonesian city.",
+        "historical_info": "Pepper, in many forms, has been grown virtually everywhere in the world and used for millennia to season our food. Black peppercorns were found in the nostrils of Ramesses II, part of the mummification process. It has been used in Southeast Asian cuisine since the 2nd Century BC. Archeological finds indicate that various hot peppers were used by the Aztecs and Mayans in cooking. In Rome, so valuable was pepper that it was used as collateral for loans, and Attila demanded a ton of pepper to spare the city in the 5th Century AD. Pepper has justifiably been called the \"king of spice.\"",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/pepper.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 2,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/pepper.json"
+    },
+    {
+        "id": 40,
+        "name": "Hidden Antiquity Site",
+        "game_info": "When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have all the policies in the Exploration policy tree.",
+        "historical_info": "Francis Bacon wrote in 1605 AD that \"antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.\" By definition, antiquities are objects from the past, ranging from simple arrowheads to artistic treasures. The sense that a lost civilization could be recovered by a systematic study of its relics and artifacts has driven amateur collectors and eminent scholars for generations to seek these out, dig these up, and preserve these in homes, universities and museums. This passion for collecting the leavings of the human past eventually gave rise to a new scholarly discipline - the field of archeology.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/hidden_antiquity_site.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 0,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Archaeological Dig",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/archaeological_dig.json"
+            }
+        ],
+        "terrains_found_on": [],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/hidden_antiquity_site.json"
+    },
+    {
+        "id": 41,
+        "name": "Bison",
+        "game_info": null,
+        "historical_info": "The North American bison, which once covered the Great Plains in massive herds, was the primary source for the meat, sinew, hide and bone necessary for survival by many native tribes. Hunted to near extinction by Americans in the late 1800s, in recent decades the buffalo has made a comeback due to federal and state wildlife programs.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/bison.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 0,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Camp",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/camp.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Grassland",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+            },
+            {
+                "name": "Plains",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/bison.json"
+    },
+    {
+        "id": 42,
+        "name": "Cocoa",
+        "game_info": null,
+        "historical_info": "Cocoa beans, the product of the cacao tree native to South America, was an important commodity in pre-Columbian Mesoamerica, and figured prominently in tribal cultures. Introduced by the Spanish to Europe, by the mid-1700s it was immensely popular there as a beverage, cooking ingredient, and even as a medicine.",
+        "icon": "https://eyefyre.github.io/civvapi/images/resource_icons/cocoa.png",
+        "prereq_tech": null,
+        "yields": {
+            "gold": 1,
+            "production": 0,
+            "science": 0,
+            "culture": 0,
+            "food": 1,
+            "faith": 0,
+            "happiness": 0
+        },
+        "improved_by": [
+            {
+                "name": "Plantation",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/improvements/plantation.json"
+            }
+        ],
+        "terrains_found_on": [
+            {
+                "name": "Jungle",
+                "url": "https://eyefyre.github.io/civvapi/v1/en/features/jungle.json"
+            }
+        ],
+        "url": "https://eyefyre.github.io/civvapi/v1/en/resources/cocoa.json"
+    }
+]

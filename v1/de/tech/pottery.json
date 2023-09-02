@@ -1,0 +1,44 @@
+{
+    "id": 2,
+    "name": "Keramik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/pottery.png",
+    "era": "Antike",
+    "cost": 35,
+    "civilopedia_entry": "Keramik ist die \u00e4lteste und n\u00fctzlichste aller Kunstformen. Bei der Keramik werden Gegenst\u00e4nde aus Ton geformt und dann in einem Ofen extrem hohen Temperaturen ausgesetzt. Dadurch wird der Werkstoff sehr spr\u00f6de, aber auch luftdicht und kann weder korrodieren noch oxidieren, verrotten oder anderswie verfallen, anders als Gegenst\u00e4nde aus Metall, Holz oder Stoff. Zu den fr\u00fchesten Keramikgegenst\u00e4nden z\u00e4hlen F\u00e4sser und Gef\u00e4\u00dfe, um Fl\u00fcssigkeit oder Getreide zu lagern, aber auch Kochgegenst\u00e4nde wie T\u00f6pfe, Sch\u00fcsseln, Teller und Becher.Die \u00e4lteste gefundene Keramik ist Steingut und etwa 9.000 Jahre alt. Diese Art von T\u00f6pferware ist por\u00f6s und muss durch eine d\u00fcnne Schicht eines wasserdichten Materials gesch\u00fctzt oder glasiert werden. Steingut ist extrem haltbar und wird auch heute noch h\u00e4ufig verwendet. Eine andere Keramikart ist Steinzeug, bei der das Material bei sehr hohen Temperaturen \"gebacken\" wurde, bis der Ton \"gesintert\" ist und glasartig geworden ist. Diese Methode wurde um 1400 v. Chr. in China entdeckt. Um das 6. Jahrhundert n. Chr. wurde ebenfalls in China die Porzellanherstellung entwickelt. Porzellan ist dem Steinzeug sehr \u00e4hnlich (eine Abgrenzung der beiden Materialien voneinander ist umstritten), aber Porzellan ist \u00fcblicherweise durchscheinender und feiner gearbeitet.",
+    "quote": "\"Sagt denn der Ton zu dem T\u00f6pfer: Was machst du mit mir?\"- Die Bibel, Jesaja 45,9",
+    "tech_prereqs": [
+        {
+            "name": "Landwirtschaft",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Segeln",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/sailing.json"
+        },
+        {
+            "name": "Kalender",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/calendar.json"
+        },
+        {
+            "name": "Schrift",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Kornspeicher",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/granary.json"
+        },
+        {
+            "name": "Pyramide",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/pyramid.json"
+        },
+        {
+            "name": "Schrein",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/shrine.json"
+        }
+    ]
+}

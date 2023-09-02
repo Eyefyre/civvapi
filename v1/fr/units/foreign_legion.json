@@ -1,0 +1,23 @@
+{
+    "id": 41,
+    "name": "L\u00e9gion \u00e9trang\u00e8re|L\u00e9gion \u00e9trang\u00e8re",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/foreign_legion.png",
+    "game_info": "Unit\u00e9 d'infanterie sp\u00e9ciale de l'\u00e8re moderne ne pouvant \u00eatre obtenue qu'en adoptant le principe de l'arm\u00e9e de volontaires sous l'id\u00e9ologie de la libert\u00e9. Cette unit\u00e9 profite d'un bonus lorsqu'elle combat en dehors de tout territoire alli\u00e9, mais reste sinon tr\u00e8s semblable \u00e0 la grande infanterie de guerre.",
+    "historical_info": "Cr\u00e9\u00e9e en 1831, la L\u00e9gion \u00e9trang\u00e8re est un corps d'arm\u00e9e unique de l'arm\u00e9e de terre fran\u00e7aise. Elle a \u00e9t\u00e9 con\u00e7ue uniquement pour les \u00e9trangers qui souhaitent se battre sous le drapeau fran\u00e7ais. R\u00e9put\u00e9e pour le courage de ses soldats et leur indiff\u00e9rence envers leur propre s\u00e9curit\u00e9, la L\u00e9gion \u00e9trang\u00e8re a, depuis sa cr\u00e9ation, particip\u00e9 \u00e0 tous les conflits dans lesquels la France a \u00e9t\u00e9 engag\u00e9e. Ce corps d'arm\u00e9e a \u00e9t\u00e9 l'objet de nombreuses histoires : selon la culture populaire, il serait le refuge des c\u0153urs bris\u00e9s et des brigands voulant \u00e9chapper \u00e0 la justice. Que ce soit vrai ou pas, la L\u00e9gion \u00e9trang\u00e8re est un corps d'arm\u00e9e tr\u00e8s solide et tr\u00e8s efficace.",
+    "strategy": "La l\u00e9gion \u00e9trang\u00e8re est une unit\u00e9 sp\u00e9ciale, ne pouvant \u00eatre obtenue qu'en adoptant le principe de l'arm\u00e9e de volontaires sous l'id\u00e9ologie de la libert\u00e9. Elle b\u00e9n\u00e9ficie d'un important bonus de combat en dehors de tout territoire alli\u00e9, ce qui en fait une excellente unit\u00e9 pour prendre le contr\u00f4le de terres \u00e9trang\u00e8res.",
+    "movement": 2,
+    "cost": {
+        "production": 320,
+        "faith": 640
+    },
+    "prereq_tech": {
+        "name": "Pi\u00e8ces de rechange",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/replaceable_parts.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus terres \u00e9trang\u00e8res",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/foreign_lands_bonus.json"
+        }
+    ]
+}

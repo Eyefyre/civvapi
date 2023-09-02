@@ -1,0 +1,57 @@
+{
+    "id": 36,
+    "name": "Schie\u00dfpulver",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/gunpowder.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Schie\u00dfpulver, auch bekannt als Schwarzpulver, wurde in China vermutlich schon im 9. Jahrhundert v. Chr. von Alchemisten erfunden, die ein Elixier f\u00fcr Unsterblichkeit suchten (was nicht geklappt hat). Schie\u00dfpulver ist eine Mixtur aus Schwefel, Holzkohle und Kaliumnitrat und verbrennt sehr schnell, wenn es einer offenen Flamme ausgesetzt wird. Dabei setzt es gro\u00dfe Mengen von Gas und nicht verdampfbaren Bestandteilen frei, was genutzt werden kann, um Feuerwaffen und Feuerwerk anzutreiben. In China wurde das Schie\u00dfpulver genutzt, um primitive Bomben und Raketen gegen die Mongolen einzusetzen, und als diese China erst mal erobert hatten, setzten sie sie gegen alle anderen ein.Bis zur ersten H\u00e4lfte des 12. Jahrhunderts hatte die arabische Welt das Wissen \u00fcber Schie\u00dfpulver erlangt. Einige historische Texte behaupten, dass die Mameluken in der Schlacht von Ain Djalut im Jahr 1260 n. Chr. die erste Kanone gegen die Mongolen einsetzten, verifiziert ist diese Behauptung jedoch noch nicht endg\u00fcltig. Die erste \"Handkanone\" wird in einem arabischen Manuskript aus dem 14. Jahrhundert erw\u00e4hnt.Auch Europa erlangte das Wissen \u00fcber Schie\u00dfpulver in der Mitte des 12. Jahrhunderts. Die Europ\u00e4er verbesserten die Qualit\u00e4t des Pulvers, indem sie es durch Hinzuf\u00fcgen von Fl\u00fcssigkeit k\u00f6rnten, also gr\u00f6\u00dfere K\u00f6rner herstellten, was die Stabilit\u00e4t des Sprengstoffs erh\u00f6hte.Schie\u00dfpulver blieb bis zur Erfindung des raucharmen Pulvers im 19. Jahrhundert das Sprengmittel in Kanonen und Feuerwaffen. Das neue Produkt brannte sauberer und erzeugte weniger Rauch, was es dem alten Schwarzpulver gegen\u00fcber \u00fcberlegen machte.",
+    "quote": "\"Der Tag, an dem zwei Armeen sich in einer Sekunde vernichten k\u00f6nnen, ist der Tag, an dem, so bleibt zu hoffen, alle zivilisierten Nationen umdenken und ihre Truppen aufl\u00f6sen.\" - Alfred Nobel",
+    "tech_prereqs": [
+        {
+            "name": "Physik",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/physics.json"
+        },
+        {
+            "name": "Stahl",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/steel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Chemie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/chemistry.json"
+        },
+        {
+            "name": "Metallverarbeitung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Musketier",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/musketman.json"
+        },
+        {
+            "name": "Minuteman",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/minuteman.json"
+        },
+        {
+            "name": "Franz\u00f6sischer Musketier",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/musketeer.json"
+        },
+        {
+            "name": "Janitschar",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/janissary.json"
+        },
+        {
+            "name": "Tercio",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/units/tercio.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Burg Himeji",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/himeji_castle.json"
+        }
+    ]
+}

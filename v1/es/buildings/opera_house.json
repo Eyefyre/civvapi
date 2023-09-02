@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Teatro de la \u00d3pera|Teatros de la \u00d3pera",
+    "game_info": null,
+    "strategy": "El Teatro de la \u00d3pera es un edificio del Renacimiento que aumenta la Cultura de una ciudad. La ciudad debe contar con un Anfiteatro para poder construir este edificio. Contiene 1 espacio para una Gran obra de la m\u00fasica.",
+    "historical_info": "La \u00f3pera es una representaci\u00f3n musical en la que los actores cantan sus di\u00e1logos en vez de recitarlos, lo que la diferencia de otras representaciones musicales. Los cantantes suelen ir acompa\u00f1ados por una orquesta. El teatro de la \u00f3pera es un edificio que cuenta con un escenario para los cantantes, un foso para la orquesta y una disposici\u00f3n ac\u00fastica pensada para proyectar la m\u00fasica hacia la audiencia. El primer teatro de la \u00f3pera, el Teatro San Cassiano, abri\u00f3 sus puertas en Venecia, Italia, en 1637. Desde entonces, se han abierto teatros de la \u00f3pera en todo el mundo, y casi son de rigor para toda ciudad que aspire a ser un centro de la cultura y las artes.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/teatro_de_la_\u00f3pera|teatros_de_la_\u00f3pera.png",
+    "prereq_tech": {
+        "name": "Ac\u00fastica",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/acoustics.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 1,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 121,
+    "name": "Impi|Impis",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/impi.png",
+    "game_info": "Exclusive aux Zoulous, cette unit\u00e9 est sp\u00e9cialis\u00e9e dans l'\u00e9limination des chevaliers et d'autres unit\u00e9s mont\u00e9es, et porte une premi\u00e8re attaque \u00e0 distance avant le d\u00e9but du combat.",
+    "historical_info": "\"Impi\" est le nom zoulou donn\u00e9 \u00e0 un corps d'arm\u00e9e, mais dans l'usage courant du XIXe\u00a0si\u00e8cle, il d\u00e9signait plus particuli\u00e8rement l'un des r\u00e9giments de l'empire zoulou. Si les bataillons impis faisaient depuis longtemps partie de la culture zouloue, leur grand chef Chaka y apporta de grandes innovations d\u00e8s son arriv\u00e9e au pouvoir, en 1816. \u00c0 l'\u00e9quipement traditionnel de ses troupes, compos\u00e9 d'une massue et d'une lance, Chaka ajouta une sagaie, arme de jet au manche court dot\u00e9e d'une large lame ac\u00e9r\u00e9e de 30\u00a0cm. Il introduisit un bouclier tress\u00e9 en peau de vache plus grand et plus lourd (l'isihlangu) et apprit \u00e0 ses hommes \u00e0 se rapprocher rapidement de l'ennemi pour de violents combats au corps \u00e0 corps. Strat\u00e9giquement, les impis s'appuyaient sur la rapidit\u00e9 et l'effet de surprise pour brusquement surpasser en nombre leurs ennemis et prendre le dessus. Gr\u00e2ce \u00e0 ces m\u00e9thodes, les Zoulous remport\u00e8rent d'\u00e9clatantes victoires, y compris contre des troupes europ\u00e9ennes arm\u00e9es de fusils, mais durent \u00e9galement essuyer de lourdes pertes.",
+    "strategy": "Exclusif aux Zoulous, l'impi, avant de s'engager dans un combat rapproch\u00e9, d\u00e9coche une attaque \u00e0 distance avec sa lance. Celle-ci peut endommager, voire tuer l'unit\u00e9 ennemie avant m\u00eame l'entr\u00e9e en contact.",
+    "movement": 2,
+    "cost": {
+        "production": 90,
+        "faith": 180
+    },
+    "prereq_tech": {
+        "name": "Administration",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/civil_service.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus contre les unit\u00e9s mont\u00e9es (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/bonus_vs_mounted_(50).json"
+        },
+        {
+            "name": "Lancer de lance",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/spear_throw.json"
+        }
+    ]
+}

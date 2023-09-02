@@ -1,0 +1,48 @@
+{
+    "id": 38,
+    "name": "Architecture",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/architecture.png",
+    "era": "Renaissance",
+    "cost": 1150,
+    "civilopedia_entry": "L'architecture est \u00e0 la fois un art et une science. Regroupant l'int\u00e9gralit\u00e9 d'un processus, depuis la planification initiale et la conception d'une structure, jusqu'\u00e0 sa construction, l'architecture a toujours \u00e9t\u00e9 un \u00e9l\u00e9ment essentiel du b\u00e2timent, m\u00eame \u00e0 l'antiquit\u00e9. L'une des premi\u00e8res analyses connues de l'architecture et ses principes, \"De architectura\", fut r\u00e9dig\u00e9e par l'architecte romain Vitruve au Ier si\u00e8cle av. J.-C.. Cette oeuvre en dix volumes \u00e9num\u00e8re tous les d\u00e9tails les plus complexes des m\u00e9thodes de construction romaine et est consid\u00e9r\u00e9e aujourd'hui comme un d\u00e9veloppement crucial dans l'\u00e9volution du processus de conception architecturale.",
+    "quote": "\"L'architecture commence l\u00e0 o\u00f9 l'ing\u00e9nierie prend fin.\" - Walter Gropius",
+    "tech_prereqs": [
+        {
+            "name": "Acoustique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/acoustics.json"
+        },
+        {
+            "name": "Banque",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/banking.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Arch\u00e9ologie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/archaeology.json"
+        },
+        {
+            "name": "Th\u00e9orie scientifique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/scientific_theory.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Ermitage",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/hermitage.json"
+        },
+        {
+            "name": "Tour de porcelaine|Tours de porcelaine",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/porcelain_tower.json"
+        },
+        {
+            "name": "Taj Mahal",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/taj_mahal.json"
+        },
+        {
+            "name": "Galerie des Offices|Galeries des Offices",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/uffizi.json"
+        }
+    ]
+}

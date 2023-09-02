@@ -1,0 +1,23 @@
+{
+    "id": 29,
+    "name": "Atomic Bomb",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/atomic_bomb.png",
+    "game_info": "Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. May be stationed on Aircraft Carriers.Requires Manhattan Project and a Uranium resource.",
+    "historical_info": "The early atomic bombers were no different from other heavy bombers, except of course for their payload. The \"Enola Gay,\" which carried the atomic bomb to Hiroshima on August 6, 1945, was an American B-29 bomber, as was the \"Bockscar\" which dropped the second on Nagasaki three days later. In the period since the war the nuclear powers developed special \"strategic bombers\" to carry the nuclear weapons deep into enemy territory. These craft can fly a very long range at very high altitudes and are equipped with sophisticated jamming and anti-missile technology. The latest strategic bombers include stealth technology, making them even harder to destroy before they can drop their deadly payloads.",
+    "strategy": "An Atomic Bomb is an extremely powerful unit. The Atomic Bomb can be based in a player-owned city or aboard a carrier. It can move from base to base or attack a target within its range of 10 tiles. When it detonates, an Atomic Bomb will damage or possibly destroy units, and cities will be severely damaged, within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details.",
+    "movement": 2,
+    "cost": {
+        "production": 600,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Nuclear Fission",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Evasion (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/evasion_(50).json"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": 114,
+    "name": "Triplane",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/triplane.png",
+    "game_info": "Early Air Unit designed to intercept incoming enemy aircraft.",
+    "historical_info": "Deriving its name from the unique three-tiered wing system utilized in its design, the triplane was used with varying degrees of success during World War I. The most famous triplane of the war, the Fokker Dr.I, was used extensively by the German air force, gaining particular notoriety as the legendary Red Baron's craft of choice. Although engineers developed many variations on the triplane design, advancements in the traditional biplane rendered the triplane obsolete within a decade of its introduction.",
+    "strategy": "The Triplane is an early air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform \"missions\" within its range of 5 tiles. Use triplanes to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. See the rules on Aircraft for more information.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Flight",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/flight.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Interception (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/interception_(50).json"
+        },
+        {
+            "name": "Air Sweep",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/air_sweep.json"
+        },
+        {
+            "name": "Air Recon",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus vs Bombers/Helicopters (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

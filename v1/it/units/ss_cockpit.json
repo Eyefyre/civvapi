@@ -1,0 +1,18 @@
+{
+    "id": 6,
+    "name": "Abitacolo dell'astronave",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/ss_cockpit.png",
+    "game_info": "Una delle parti di astronave che devono essere costruite e spostate nella capitale per ottenere una Vittoria scientifica.",
+    "historical_info": "La prima nave interstellare dell'umanit\u00e0 \u00e8 una macchina estremamente complicata, e l'abitacolo \u00e8 il componente pi\u00f9 complesso di tutti. \u00c8 utilizzato come centro di comando, ma serve anche come veicolo di rientro una volta che sar\u00e0 stato raggiunto un pianeta appropriato nel sistema di Alpha Centauri. La nave \u00e8 completamente automatizzata, ma in caso di emergenza l'equipaggio umano pu\u00f2 essere risvegliato automaticamente dal sonno criogenico nel giro di 12 ore circa.",
+    "strategy": "Quest'unit\u00e0 fa parte dell'astronave la cui costruzione consente di ottenere una Vittoria scientifica. Per ulteriori informazioni, consulta la sezione Vittoria.",
+    "movement": 2,
+    "cost": {
+        "production": 1500,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Satelliti|dei Satelliti",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/satellites.json"
+    },
+    "free_promotions": []
+}

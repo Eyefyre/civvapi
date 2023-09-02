@@ -1,0 +1,42 @@
+{
+    "id": 7,
+    "name": "Base commerciale|una Base commerciale|una Base commerciale",
+    "game_info": "Le basi commerciali sono avamposti in cui i cacciatori e i trapper possono vendere i frutti del loro lavoro in cambio di cibo, armi, whisky, oro e tutti gli altri prodotti della gente civilizzata. Le basi commerciali possono generare molta ricchezza.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/base_commerciale|una_base_commerciale|una_base_commerciale.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Prateria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/grassland.json"
+        },
+        {
+            "name": "Pianura",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/plains.json"
+        },
+        {
+            "name": "Deserto",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/terrains/tundra.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Gilde|delle Gilde",
+        "url": "https://eyefyre.github.io/civvapi/v1/it/tech/guilds.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

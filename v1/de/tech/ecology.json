@@ -1,0 +1,44 @@
+{
+    "id": 65,
+    "name": "\u00d6kologie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/ecology.png",
+    "era": "Atomzeitalter",
+    "cost": 6400,
+    "civilopedia_entry": "\u00d6kologie an sich ist keine einzelne Technologie, sondern eine interdisziplin\u00e4re Studie aller m\u00f6glichen Formen von Wechselwirkungen und Ursachen zwischen Organismen und ihrer Umwelt, bzw. die Studie des \u00d6kosystems. Der Grundsatz dieses Gebiets ist, dass sich alles in einem bestehenden \u00d6kosystem - Felsen, Erde, V\u00f6gel, Insekten, B\u00e4ume usw. - auf alle anderen Elemente darin auswirkt und in Verbindung steht, entweder direkt oder durch eine Reihe von Kettenreaktionen. Obwohl all diese Dinge zusammenh\u00e4ngen, glauben \u00d6kologen auch an das Konzept der Ganzheitslehre: dass, selbst wenn all diese kleinen Wechselwirkungen erkl\u00e4rt w\u00fcrden, nicht jede m\u00f6gliche Reaktion erkl\u00e4rbar w\u00e4re, und dass das gesamte System als Ganzes bewertet werden muss. Die \u00d6kologie untersucht, wie alle Faktoren innerhalb eines \u00d6kosystems miteinander verbunden sind, und wie die Ver\u00e4nderungen eines Faktors sich auf andere auswirken, diesen zugutekommen oder sie zerst\u00f6ren kann.Die moderne Wissenschaft der \u00d6kologie ist immer noch jung, aber sie hat seit der Umweltbewegung in den 1960er Jahren eine gro\u00dfe Menge an Popularit\u00e4t und Schwung gewonnen. Die \u00d6kologie besch\u00e4ftigt sich seit Kurzem mit der Bewahrung der Artenvielfalt und den negativen Effekten, welche die Entwicklung der Menschen auf die Umwelt und Organismen um sie herum hat. Es laufen langfristige Studien, um diese Effekte aufzuzeichnen, die momentan am l\u00e4ngsten andauernde Studie begann im Jahre 1856.Praktische Anwendungen wurden aus den Ergebnissen dieser Forschung entwickelt, wie ein effizienterer und vorteilhafterer Umgang mit Ressourcen wie Feuchtgebieten und W\u00e4ldern, die bessere Planung des Gesundheitswesens und selbst Anwendungen zur verbesserten St\u00e4dteplanung. Das Gebiet der \u00d6kologie lieferte ebenfalls das Grundger\u00fcst f\u00fcr ein besseres Verst\u00e4ndnis, wie sich Menschen auf sozialer Ebene beeinflussen.",
+    "quote": "\"Nur innerhalb des kurzen Augenblicks, den das jetzige Jahrhundert darstellt, hat eine Spezies - der Mensch - erhebliche Macht erlangt, die Natur ihrer Welt zu ver\u00e4ndern.\" - Rachel Carson",
+    "tech_prereqs": [
+        {
+            "name": "Atomtheorie",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/atomic_theory.json"
+        },
+        {
+            "name": "Penicillin",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/penicillin.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Telekommunikation",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/telecommunications.json"
+        },
+        {
+            "name": "Mobile Taktiken",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/mobile_tactics.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Sonnenkraftwerk",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/solar_plant.json"
+        },
+        {
+            "name": "Opernhaus von Sydney",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/sydney_opera_house.json"
+        },
+        {
+            "name": "Recycling-Anlage",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/recycling_center.json"
+        }
+    ]
+}

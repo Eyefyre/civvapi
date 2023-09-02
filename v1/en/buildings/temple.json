@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Temple",
+    "game_info": null,
+    "strategy": "The Temple increases the Faith of a city, speeding up the rate at which you can found and spread religions. The city must contain a Shrine (or a Pyramid) before the Temple can be constructed.",
+    "historical_info": "A temple is a religious building where the faithful can come together to worship. Such buildings show that a community is fairly wealthy as well as pious, since it can afford to construct a special structure and feed and clothe the priests, acolytes, vestal virgins, or monks within. In many early cultures each family would have a small shrine in their own dwelling; the oldest known separate temple dates from the 10th millennium BC and is located in southeastern Turkey.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/temple.png",
+    "prereq_tech": {
+        "name": "Philosophy",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/philosophy.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 2,
+        "happiness": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 15,
+    "name": "Fragata|Fragatas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/frigate.png",
+    "game_info": "Poderosa unidad naval de Renacimiento utilizada para hacerse con el control de los mares.",
+    "historical_info": "Durante la \"era de la vela\", la fragata era un nav\u00edo m\u00e1s peque\u00f1o que los \"buques de guerra\"(de tres cubiertas y que conformaban la espina dorsal de la armada), pero que segu\u00eda siendo lo bastante grande como para contar con una potencia de fuego considerable. Las fragatas eran naves de tres m\u00e1stiles que llevaban los ca\u00f1ones montados en una cubierta (un buque de guerra pod\u00eda tener dos o incluso tres cubiertas de ca\u00f1ones). Seg\u00fan su tama\u00f1o, pod\u00eda llevar entre 25 y 50 ca\u00f1ones, y sol\u00edan servir como barcos de escolta y patrulla, adem\u00e1s de para cazar piratas. Durante la guerra de 1812, Estados Unidos despleg\u00f3 las llamadas \"superfragatas\", que contaban hasta con 90 ca\u00f1ones. Una de ellas, la USS Constitution, a\u00fan se conserva. Es la mayor fragata que todav\u00eda sigue a flote.",
+    "strategy": "La Fragata es la primera unidad naval que hay disponible despu\u00e9s de la Carabela. Su Movimiento, Fuerza de combate y Fuerza de combate a distancia son superiores a los de la antigua unidad naval. La Fragata puede limpiar el mar de las Carabelas, Trirremes y unidades B\u00e1rbaras que sigan a flote.",
+    "movement": 5,
+    "cost": {
+        "production": 185,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Navegaci\u00f3n",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/navigation.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

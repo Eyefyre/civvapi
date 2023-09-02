@@ -1,0 +1,40 @@
+{
+    "id": 67,
+    "name": "Coheter\u00eda",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/rocketry.png",
+    "era": "Era At\u00f3mica",
+    "cost": 6400,
+    "civilopedia_entry": "Existe cierta controversia en cuanto a la fecha de aparici\u00f3n del primer cohete volador, aunque por lo general se cree que tuvo lugar alrededor del a\u00f1o 1230 d. C. en China, durante una operaci\u00f3n militar. El primer cohete volador del que se tiene constancia fue prendido en China, en el a\u00f1o 1264, y consisti\u00f3 en unos fuegos artificiales con un sistema de combusti\u00f3n interna. Aquellos cohetes primigenios utilizaban combustible s\u00f3lido (normalmente p\u00f3lvora), y no recorr\u00edan grandes distancias; posiblemente no superaron los 600 metros.La invenci\u00f3n de la coheter\u00eda moderna puede atribuirse directamente al profesor Robert Goddard, quien postul\u00f3 que el combustible deb\u00eda consumirse en una c\u00e1mara de combusti\u00f3n aislada, que el cohete deb\u00eda construirse con varias partes independientes y que la velocidad de escape podr\u00eda incrementarse usando una tobera especial con forma de reloj de arena (denominada tobera De Laval). Hasta este momento, los cohetes consum\u00edan todo el combustible en una c\u00e1mara s\u00f3lida de gran tama\u00f1o y no pod\u00edan alcanzar velocidades elevadas ni recorrer continentes enteros.Actualmente, la mayor\u00eda de los cohetes emplean una combinaci\u00f3n de combustibles l\u00edquidos capaces de lanzarlos a velocidades supers\u00f3nicas con gran eficacia y un coste reducido. Adem\u00e1s de sus evidentes usos militares como propulsores de ojivas a grandes distancias, los cohetes tambi\u00e9n se utilizan en fuegos artificiales, asientos eyectables, investigaciones cient\u00edficas de la atm\u00f3sfera, y c\u00f3mo no, en astron\u00e1utica.",
+    "quote": "\"Los aficionados a experimentar con cohetes pueden seguir esta regla de oro: asuman siempre que el cohete explotar\u00e1.\" - Revista Astronautics, 1937",
+    "tech_prereqs": [
+        {
+            "name": "Radar",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/radar.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Bal\u00edstica avanzada",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/advanced_ballistics.json"
+        },
+        {
+            "name": "Sat\u00e9lites",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/satellites.json"
+        },
+        {
+            "name": "Rob\u00f3tica",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/tech/robotics.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Misil tierra-aire m\u00f3vil|Misiles tierra-aire m\u00f3viles",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/mobile_sam.json"
+        },
+        {
+            "name": "Artiller\u00eda lanzacohetes|Artiller\u00edas lanzacohetes",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/units/rocket_artillery.json"
+        }
+    ],
+    "building_unlocks": []
+}

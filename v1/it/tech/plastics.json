@@ -1,0 +1,49 @@
+{
+    "id": 57,
+    "name": "Plastica|della Plastica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/plastics.png",
+    "era": "Epoca moderna",
+    "cost": 4100,
+    "civilopedia_entry": "La plastica \u00e8 un materiale leggero, trasparente e resistente, cattivo conduttore di elettricit\u00e0. La plastica pu\u00f2 essere di molti tipi, alcuni pi\u00f9 duri, altri pi\u00f9 flessibili, altri ancora pi\u00f9 o meno resistenti al calore. La plastica pu\u00f2 essere modellata, pressata o estrusa in praticamente qualsiasi forma desiderata. Oggigiorno la si trova dappertutto, dai paraurti delle auto alle protesi, dai barattoli dei cibi per neonati alle armi della fanteria: \u00e8 certamente uno degli elementi fondamentali del XXI secolo.La prima plastica di creazione umana \u00e8 stata inventata dall'inglese Alexander Parkes nel 1855. La sostanza, battezzata \"parkensina\", era ricavata dalla cellulosa (un materiale di origine vegetale) e veniva utilizzata per sostituire l'avorio, che diventava sempre pi\u00f9 difficile procurarsi visto che la popolazione mondiale delle balene stava scemando visibilmente.La prima plastica totalmente sintetica fu la bachelite, inventata nel 1909 dall'inventore belga-americano Leo Hendrik Baekeland. La bachelite era poco costosa, forte e durevole. Fu utilizzata per costruire radio, telefoni, manici di utensili, tasti per pianoforte, palle da biliardo. Anche se \u00e8 molto dura, la bachelite \u00e8 piuttosto fragile. Oggi \u00e8 stata sostituita da plastiche meno costose e pi\u00f9 flessibili come il polistirene, il PVC, il nylon e altre varianti pi\u00f9 esotiche inventate nel corso del XX secolo.Anche se al momento \u00e8 relativamente poco costosa, di solito la produzione della plastica richiede grandi quantit\u00e0 di prodotti petrolchimici. Man mano che il petrolio diventer\u00e0 pi\u00f9 caro, anche il costo della plastica si adeguer\u00e0. In futuro \u00e8 prevedibile che un altro materiale miracoloso soppianti l'onnipresente plastica, che per\u00f2 per il momento resta insostituibile.",
+    "quote": "\"Ben, voglio solo dirti una parola... una sola: plastica.\" - Buck Henry e Calder Willingham, Il Laureato",
+    "tech_prereqs": [
+        {
+            "name": "Radio|della Radio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/radio.json"
+        },
+        {
+            "name": "Pezzi indipendenti|dei Pezzi indipendenti",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/replaceable_parts.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Penicillina|della Penicillina",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/penicillin.json"
+        },
+        {
+            "name": "Teoria atomica|della Teoria Atomica",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/atomic_theory.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Fanteria|una Fanteria|dalla tua Fanteria|alla tua Fanteria|la tua Fanteria|da una Fanteria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/infantry.json"
+        },
+        {
+            "name": "Pracinha|un Pracinha|dal tuo Pracinha|al tuo Pracinha|il tuo Pracinha|da un Pracinha",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/pracinha.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Laboratorio di ricerca|il Laboratorio di ricerca|un Laboratorio di ricerca",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/research_lab.json"
+        },
+        {
+            "name": "Cristo Redentore|il Cristo Redentore|il Cristo Redentore",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/cristo_redentor.json"
+        }
+    ]
+}

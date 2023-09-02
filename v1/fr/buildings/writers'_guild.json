@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Guilde des \u00e9crivains|Guildes des \u00e9crivains",
+    "game_info": "Fournit 1 point de personnage illustre (PPI) pour faire progresser l'acquisition d'un \u00e9crivain illustre. Ajoutez jusqu'\u00e0 deux sp\u00e9cialistes \u00e0 ce b\u00e2timent pour gagner de la culture et augmenter la vitesse d'acquisition d'\u00e9crivains illustres (3 Culture et 3 PPI par sp\u00e9cialiste).",
+    "strategy": "La guilde des \u00e9crivains est le seul b\u00e2timent qui contient des emplacements de sp\u00e9cialistes \u00e9crivains, essentiels pour g\u00e9n\u00e9rer des \u00e9crivains illustres. Si souhaitez remporter une victoire culturelle, ce b\u00e2timent est indispensable. La guilde des \u00e9crivains fournit 2 points de personnage illustre, et chaque sp\u00e9cialiste assign\u00e9 fournit 3 points de personnage illustre et 3 Culture.",
+    "historical_info": "Bien qu'elles n'aient jamais eu autant d'influence que les guildes d'artistes de l'\u00e9poque, les guildes d'\u00e9crivains furent cr\u00e9\u00e9es \u00e0 l'av\u00e8nement de la presse \u00e9crite \u00e0 la Renaissance. Des organisations formelles et informelles fleurirent alors dans de nombreuses villes europ\u00e9ennes. Leur r\u00f4le \u00e9tait de s'assurer que les auteurs recevaient une compensation \u00e9quitable de la part des imprimeurs et des libraires. Dans le Londres de Shakespeare et ailleurs, les dramaturges s'associaient afin de se prot\u00e9ger contre le plagiat et les repr\u00e9sentations ill\u00e9gales. Bien qu'il s'agisse davantage de syndicats que de guildes, des milliers d'organisations du monde entier maintiennent aujourd'hui cette tradition. On peut citer par exemple la Guilde des \u00e9crivains d'Isra\u00ebl, la Guilde des \u00e9crivains de Grande-Bretagne et la Guilde des \u00e9crivains am\u00e9ricains.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 1,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/guilde_des_\u00e9crivains|guildes_des_\u00e9crivains.png",
+    "prereq_tech": {
+        "name": "Drame et po\u00e9sie",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/drama_and_poetry.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

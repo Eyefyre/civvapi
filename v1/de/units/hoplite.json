@@ -1,0 +1,23 @@
+{
+    "id": 75,
+    "name": "Hoplit",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/hoplite.png",
+    "game_info": "Einheit der Antike, die auf den Kampf gegen berittene Einheiten spezialisiert ist. Nur die Griechen k\u00f6nnen sie bauen. Diese Einheit hat eine h\u00f6here Kampfst\u00e4rke als der Speerk\u00e4mpfer, den sie ersetzt.",
+    "historical_info": "Die Griechen waren Meister des Speerkampfes und schufen lange, extrem scharfe Waffen, mit denen die in Phalangen vorr\u00fcckenden, gut ausgebildeten Hopliten f\u00fcr gew\u00f6hnliche Infanteristen und Reiter der damaligen Zeit unbesiegbar waren. Ein Soldat, der einer griechischen Phalanx gegen\u00fcberstand, musste sich nicht nur gegen den Feind direkt vor ihm wehren, sondern auch gegen die Speere der zwei bis drei Soldaten hinter diesem Feind. Die Hopliten waren trotz allem anf\u00e4llig gegen\u00fcber Bogensch\u00fctzen und in schwierigem Gel\u00e4nde war die Formation einer Phalanx nur schwer aufrechtzuerhalten. In ebenem, offenem Gel\u00e4nde waren die Hopliten jedoch \u00e4u\u00dferst z\u00e4he Gegner.",
+    "strategy": "Der Hoplit ist die Spezialeinheit der Griechen und ersetzt den viel schw\u00e4cheren Speerk\u00e4mpfer. Der Hoplit ist t\u00f6dlich gegen berittene Gegner.",
+    "movement": 2,
+    "cost": {
+        "production": 56,
+        "faith": 112
+    },
+    "prereq_tech": {
+        "name": "Bronzeverarbeitung",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/bronze_working.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Bonus gegen Beritten (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_mounted_(50).json"
+        }
+    ]
+}

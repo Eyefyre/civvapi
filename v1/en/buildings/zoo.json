@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Zoo",
+    "game_info": "It cannot provide more Happiness than there are Citizens in a city. City must have a Colosseum.",
+    "strategy": "A Zoo increases the Happiness of your empire, but it cannot provide more happiness than there are citizens in the city. The city must possess a Colosseum before the Zoo can be constructed.",
+    "historical_info": "The oldest known zoological menagerie (or \"zoo\") has been excavated at Hierakonpolis and dates to c. 3500 BC; the oldest existing zoo, the Tiergarten Schoenbrunn in Vienna, evolved from the exotic animal collection maintained by the Habsburg dynasty and was opened to the public in 1765 AD.",
+    "cost": {
+        "production": 200,
+        "faith": 0
+    },
+    "gold_maintenance": 2,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/zoo.png",
+    "prereq_tech": {
+        "name": "Printing Press",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/printing_press.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 2
+    }
+}

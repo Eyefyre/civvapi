@@ -1,0 +1,23 @@
+{
+    "id": 117,
+    "name": "Mitrailleuse|Mitrailleuses",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/machine_gun.png",
+    "game_info": "Unit\u00e9 d'attaque \u00e0 distance de fin de jeu. Doit \u00eatre adjacente \u00e0 un ennemi pour frapper.",
+    "historical_info": "Les \u00e9quipages de mitrailleuse mettent \u00e0 profit leur puissante artillerie automatique capable d'effectuer de redoutables tirs de suppression \u00e0 une cadence moyenne de plusieurs centaines de munitions par minute. La mitrailleuse Gatling, qui a donn\u00e9 naissance \u00e0 de nombreux mod\u00e8les contemporains, fut d\u00e9velopp\u00e9e aux \u00c9tats-Unis au cours du XIXe si\u00e8cle. Ce concept a ensuite \u00e9volu\u00e9 pour devenir la Maxim gun, premi\u00e8re d'une grande s\u00e9rie de mitrailleuses autoaliment\u00e9es.",
+    "strategy": "La mitrailleuse est l'avant-derni\u00e8re unit\u00e9 d'attaque \u00e0 distance hors si\u00e8ge. Elle est bien plus puissante que les pr\u00e9c\u00e9dentes unit\u00e9s d'attaque \u00e0 distance. Tout comme la mitrailleuse Gatling, sa port\u00e9e est limit\u00e9e \u00e0 une case, mais elle peut malgr\u00e9 tout infliger de s\u00e9rieux d\u00e9g\u00e2ts sans en subir en retour. Elle est vuln\u00e9rable aux attaques de combat rapproch\u00e9. Placez des mitrailleuses dans votre ville pour la d\u00e9fendre.",
+    "movement": 2,
+    "cost": {
+        "production": 350,
+        "faith": 700
+    },
+    "prereq_tech": {
+        "name": "Balistique",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/ballistics.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Pas d'attaque de combat rapproch\u00e9",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

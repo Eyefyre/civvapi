@@ -1,0 +1,35 @@
+{
+    "id": 67,
+    "name": "Begleitkavallerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/companion_cavalry.png",
+    "game_info": "Schnelle und m\u00e4chtige berittene Einheit in der fr\u00fchen Spielphase. Anf\u00e4llig gegen\u00fcber Speerk\u00e4mpfern. Nur die Griechen k\u00f6nnen sie bauen. Diese Einheit ist schneller, hat eine h\u00f6here Kampfst\u00e4rke und produziert Gro\u00dfe Gener\u00e4le schneller als der Reiter, den sie ersetzt.",
+    "historical_info": "Die Hetairoi (Begleitkavallerie) waren Elitereiter, die Alexander den Gro\u00dfen in die Schlacht begleiteten. Der Begriff \"Hetairos\" leitet sich vom Namen des makedonischen Adels ab und die Soldaten der Begleitkavallerie entstammten ausschlie\u00dflich den renommiertesten makedonischen Familien (obwohl diese Beschr\u00e4nkung sp\u00e4ter gelockert wurde, um auch dem Adel verb\u00fcndeter und unterworfener V\u00f6lker Zugang zu gew\u00e4hren). Alle Kavalleristen f\u00fchrten einen Xyston (Speer) und eine Kopis (Hiebschwert) bei sich und trugen einen Bronzek\u00fcrass, Schulterplatten und einen Helm.Im Kampf lie\u00df Alexander die Begleitkavallerie meist erst dann angreifen, wenn der Feind voll in den Kampf gegen seine Phalangen verwickelt war. Alexander f\u00fchrte seine Begleitkavallerie dann zu einem Angriff auf die Flanke oder in den R\u00fccken des Feindes, um Verwirrung und Panik in den gegnerischen Reihen zu s\u00e4en. Gegen diese Kombination konnte keine feindliche Streitmacht je eine befriedigende Antwort finden und Alexander eroberte auf diese Art fast die gesamte bekannte Welt.",
+    "strategy": "Begleitkavallerie, die Spezialeinheit der Griechen, ersetzt den Reiter. Begleitkavallerie ist schneller und auch st\u00e4rker als Reiter-Einheiten, was sie zur gef\u00e4hrlichsten Kavallerieeinheit bis zur Einf\u00fchrung des Ritters macht. Begleitkavallerie beschleunigt das Auftauchen von Gro\u00dfen Gener\u00e4len in st\u00e4rkerem Ma\u00dfe als andere Einheiten. Zudem kann sie sich auch nach dem Angriff bewegen. Begleitkavallerie ist eine berittene Einheit und gef\u00e4hrdet bei Angriffen von Speerk\u00e4mpfern und Pikenieren.",
+    "movement": 5,
+    "cost": {
+        "production": 75,
+        "faith": 150
+    },
+    "prereq_tech": {
+        "name": "Reiterei",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/horseback_riding.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Keine defensiven Gel\u00e4nde-Bonusse",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/no_defensive_terrain_bonuses.json"
+        },
+        {
+            "name": "Fortbewegung nach einem Angriff",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/can_move_after_attacking.json"
+        },
+        {
+            "name": "Gro\u00dfe Gener\u00e4le I",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/great_generals_i.json"
+        },
+        {
+            "name": "Malus beim Angriff auf St\u00e4dte (33)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/penalty_attacking_cities_(33).json"
+        }
+    ]
+}

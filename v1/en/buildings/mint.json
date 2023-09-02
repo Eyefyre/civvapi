@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Mint",
+    "game_info": "Each source of Gold and Silver worked by this City produces +2 Gold.City must have at least one of these resources mined nearby.",
+    "strategy": "The Mint can only be constructed in a city with improved gold or silver resources nearby. The Mint increases the Gold output of each such resource the city has access to.",
+    "historical_info": "A mint is an institution that creates a civilization's currency. In the past this would tend to be metal currency in the form of coins, but in modern times much of the world's currency is printed on paper. Mints are extremely important to a civilization's economic well-being. If a nation's currency is easily forged, it will be, and confidence in that nation's money supply will plummet, resulting in dangerous inflation (the perceived value of the currency declines) or worse. Modern money is printed with holograms, variable ink and security threads to deter counterfeiters, and no doubt additional features will be added as the forgers figure out how to copy those.",
+    "cost": {
+        "production": 100,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/mint.png",
+    "prereq_tech": {
+        "name": "Currency",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/currency.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

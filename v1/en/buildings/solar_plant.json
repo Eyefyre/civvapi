@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Solar Plant",
+    "game_info": "City must be built on or next to Desert and must not contain a Nuclear Plant.City must have a Factory.",
+    "strategy": "A Solar Plant is a late-game building which significantly increases a city's Production. The city must be constructed on or adjacent to a desert tile in order to build the Solar Plant. The city must possess a Factory before it can be constructed.",
+    "historical_info": "A solar plant collects the energy from the sun and turns it into electrical power. The most efficient solar plants are, naturally, in locations that get a lot of direct sunlight and not much cloud cover. At present solar-generated energy is somewhat expensive when compared with energy generated from fossil fuels (petroleum or coal), but solar technology is getting cheaper, and fossil fuels are getting more expensive - particularly when the environmental cost of the pollutants they emit is taken into consideration. Once the technology is perfected it will do much to satisfy the world's energy needs - it's estimated that the earth receives some 200,000 times more solar energy than humanity's total present electric-generating capacity.",
+    "cost": {
+        "production": 500,
+        "faith": 0
+    },
+    "gold_maintenance": 3,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/solar_plant.png",
+    "prereq_tech": {
+        "name": "Ecology",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/ecology.json"
+    },
+    "yields": {
+        "gold": 0,
+        "production": 5,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

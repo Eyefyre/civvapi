@@ -1,0 +1,42 @@
+{
+    "id": 7,
+    "name": "Trading Post",
+    "game_info": "Trading Posts are outposts where hunters and trappers may sell their wares to civilians in exchange for food, weapons, whiskey, gold, and all of the other trappings of society. They can generate a lot of wealth for a society.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/trading_post.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [
+        {
+            "name": "Grassland",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/grassland.json"
+        },
+        {
+            "name": "Plains",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/plains.json"
+        },
+        {
+            "name": "Desert",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/desert.json"
+        },
+        {
+            "name": "Tundra",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/terrains/tundra.json"
+        }
+    ],
+    "improves_resources": [],
+    "prereq_tech": {
+        "name": "Guilds",
+        "url": "https://eyefyre.github.io/civvapi/v1/en/tech/guilds.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 1,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

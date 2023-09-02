@@ -1,0 +1,32 @@
+{
+    "id": 80,
+    "name": "Technologia stealth|Technologii stealth|Technologii stealth|Technologi\u0119 stealth",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/stealth.png",
+    "era": "Epoka informacji|Epoki informacji|Epoce informacjii|Epok\u0119 informacji",
+    "cost": 8800,
+    "civilopedia_entry": "Koncepcja i praktyka skradania si\u0119 nie jest niczym nowym w historii rozwoju ludzko\u015bci, ale wsp\u00f3\u0142czesna technologia stealth przenosi ide\u0119 \u201eniewidzialno\u015bci\u201d na zupe\u0142nie nowy poziom. Jest to po\u0142\u0105czenie wielu dziedzin i taktyk wojskowych wykraczaj\u0105cych poza to, co mo\u017ce dostrzec oko ludzkie, staraj\u0105cych si\u0119 ukry\u0107 i wykrywa\u0107 obiekty za pomoc\u0105 radaru, akustyki, termowizji lub innych mniej widzialnych metod.Mundury z kamufla\u017cem to jedna z pierwszych i najprostszych pr\u00f3b wtopienia obiektu w t\u0142o, ale post\u0119p technologii wywo\u0142a\u0142 potrzeb\u0119 dynamiczniejszych i bardziej wyszukanych sposob\u00f3w maskowania lub wykrywania ukrytych obiekt\u00f3w. Obecnie w tkaniny wt\u0142acza si\u0119 substancje termiczne, okr\u0119ty buduje si\u0119 ze specjalnych materia\u0142\u00f3w poch\u0142aniaj\u0105cych promieniowanie radarowe, a \u015blad termiczny samolot\u00f3w maskuje si\u0119 za pomoc\u0105 wymy\u015blnych uk\u0142ad\u00f3w wydechowych. Cho\u0107 nie zawsze mo\u017cliwe jest zabezpieczenie danego obiektu przed wszystkimi \u015brodkami wykrywania, wsp\u00f3\u0142czesne pojazdy stealth i samoloty \u201eszpiegowskie\u201d zmieni\u0142y spos\u00f3b prowadzenia operacji wojskowych. Pa\u0144stwa dysponuj\u0105ce takimi pojazdami maj\u0105 wielk\u0105 przewag\u0119.",
+    "quote": "\u201eDzia\u0142aj subtelnie, nawet bez pozornej formy. B\u0105d\u017a tajemniczy, a nawet bezg\u0142o\u015bny. W ten spos\u00f3b zdecydujesz o losie przeciwnika.\u201d \u2013 Sun Zi",
+    "tech_prereqs": [
+        {
+            "name": "Robotyka|Robotyki|Robotyce|Robotyk\u0119",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/robotics.json"
+        },
+        {
+            "name": "Lasery|Laser\u00f3w|Laserom|Lasery",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/lasers.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Technologia przysz\u0142o\u015bci|Technologii przysz\u0142o\u015bci|Technologii przysz\u0142o\u015bci|Technologi\u0119 przysz\u0142o\u015bci",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/tech/future_tech.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Bombowiec stealth|Bombowca stealth|Bombowcowi stealth|Bombowiec stealth",
+            "url": "https://eyefyre.github.io/civvapi/v1/pl/units/stealth_bomber.json"
+        }
+    ],
+    "building_unlocks": []
+}

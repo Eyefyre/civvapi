@@ -1,0 +1,26 @@
+{
+    "id": 1,
+    "name": "Papiermacher",
+    "game_info": "+1 Wissenschaft f\u00fcr jeweils 2 B\u00fcrger in dieser Stadt. +2 Gold.",
+    "strategy": "Der Papiermacher ist das einzigartige Geb\u00e4ude der Chinesen und ersetzt die Bibliothek. Er erh\u00f6ht sowohl den Wissenschaftsertrag der Stadt als auch deren Goldeinnahmen.",
+    "historical_info": "Papier wurde vermutlich schon um 200 v. Chr. in China erfunden. Nach dem heutigen Erkenntnisstand wurde es urspr\u00fcnglich als Verpackungsmaterial verwendet; das erste \u00fcberlieferte Zeugnis von Schrift auf Papier stammt vermutlich aus dem Jahr 8 v. Chr. Um 300 n. Chr. war Schreibpapier in ganz China weit verbreitet. Die chinesischen Papiermacher-Werkst\u00e4tten waren f\u00fcr die damalige Zeit sehr fortschrittlich und konnten sauberes, festes Papier f\u00fcr die gebildeten Klassen, Kaufleute und den kaiserlichen Hof herstellen - Jahrhunderte bevor das erste Blatt die arabische oder europ\u00e4ische Welt erreichte.",
+    "cost": {
+        "production": 75,
+        "faith": 0
+    },
+    "gold_maintenance": 0,
+    "icon": "https://eyefyre.github.io/civvapi/images/building_icons/papiermacher.png",
+    "prereq_tech": {
+        "name": "Schrift",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/writing.json"
+    },
+    "yields": {
+        "gold": 2,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

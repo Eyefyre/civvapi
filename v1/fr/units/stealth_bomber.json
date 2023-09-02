@@ -1,0 +1,27 @@
+{
+    "id": 21,
+    "name": "Bombardier furtif|Bombardiers furtifs",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/stealth_bomber.png",
+    "game_info": "Unit\u00e9 a\u00e9rienne \u00e0 longue port\u00e9e capable de faire pleuvoir la mort sur les unit\u00e9s et villes ennemies.",
+    "historical_info": "La technologie des missiles antia\u00e9riens ayant beaucoup \u00e9volu\u00e9, la conception des bombardiers strat\u00e9giques et tactiques a elle aussi \u00e9t\u00e9 repens\u00e9e. Une des fa\u00e7ons d'\u00e9viter d'\u00eatre abattu par les tirs ennemis est de rester invisible sur leur radar ou autre syst\u00e8me de rep\u00e9rage. Les bombardiers furtifs modernes sont faits de mat\u00e9riaux composites sp\u00e9cialement recouverts de mati\u00e8re antiradar, et leur forme ne renvoie pas les signaux radar. Les bombardiers furtifs peuvent transporter des armes nucl\u00e9aires ou des bombes standard. Ils sont assez efficaces, mais sont extr\u00eamement chers. Un bombardier furtif am\u00e9ricain de type B-2 co\u00fbte un milliard de dollars, si bien que seules les superpuissances peuvent se les offrir.",
+    "strategy": "Le bombardier furtif est un bombardier am\u00e9lior\u00e9. Il poss\u00e8de une port\u00e9e plus importante, une plus grande puissance d'attaque \u00e0 distance et une meilleure capacit\u00e9 d'\u00e9vitement des avions de chasse et des unit\u00e9s antia\u00e9riennes adverses. Le bombardier furtif b\u00e9n\u00e9ficie de la capacit\u00e9 \"reconnaissance a\u00e9rienne\" qui lui permet, au d\u00e9but de son tour de jeu, de voir tout ce qui l'entoure dans un rayon de six cases. Notez que cette unit\u00e9 ne peut pas \u00eatre transport\u00e9e par un porte-avions. Pour plus d'informations, veuillez consulter les r\u00e8gles relatives aux avions.",
+    "movement": 2,
+    "cost": {
+        "production": 425,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Furtivit\u00e9",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/stealth.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Esquive (100)",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/evasion_(100).json"
+        },
+        {
+            "name": "Reconnaissance a\u00e9rienne",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/promotions/air_recon.json"
+        }
+    ]
+}

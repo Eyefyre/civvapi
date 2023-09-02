@@ -1,0 +1,49 @@
+{
+    "id": 15,
+    "name": "Matematica|della Matematica",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mathematics.png",
+    "era": "Epoca classica",
+    "cost": 105,
+    "civilopedia_entry": "La matematica pu\u00f2 essere definita come la scienza dell'ordine, della struttura e delle relazioni tra entit\u00e0. Si \u00e8 evoluta a partire dalla capacit\u00e0 di contare, di misurare le grandezze e di descrivere gli oggetti e la loro forma. La matematica \u00e8 la base di tutte le scienze fisiche. I Sumeri possedevano gi\u00e0 un robusto sistema matematico che era sia a base 10 (come il nostro) sia a base 60. Le ultime vestigia del sistema a base 60 si possono trovare nella misurazione del tempo: le ore sono divise in 60 minuti, a loro volta formati da 60 secondi.Gli scribi e gli esattori delle tasse egizi avevano sviluppato un sistema un po' pi\u00f9 semplice, che fu comunque capace di supportare i calcoli necessari per realizzare opere enormi come le piramidi (e anche, si presume, per tener traccia delle tasse da raccogliere). I Greci divisero la matematica in due grandi sfere: l'aritmetica, che studia le quantit\u00e0, e la geometria, che studia le dimensioni. Il loro contributo pi\u00f9 importante, comunque, consiste nell'aver applicato alla matematica i concetti di teoria e dimostrazione. I sistemi precedenti erano basati sull'osservazione della realt\u00e0, mentre i Greci si sforzarono di definire regole generali che andassero oltre la registrazione dell'esistente.Tra l'VIII e il XV secolo il mondo islamico contribu\u00ec in modo fondamentale alla matematica. Le invenzioni pi\u00f9 importanti furono probabilmente il sistema decimale e il numero zero, avvenute intorno al 600 d.C. in India. Il nuovo sistema sostitu\u00ec quello romano, molto barocco e scomodo, che oggi sopravvive quasi solo nella numerazione dei sequel dei film horror.La matematica si \u00e8 sviluppata tremendamente dai suoi inizi e ha permesso all'uomo di spezzare gli atomi, creare Internet e organizzare elaborati campionati di fantacalcio. Chiss\u00e0 quali segreti ci potr\u00e0 schiudere in futuro?",
+    "quote": "\"La matematica \u00e8 la porta e la chiave delle scienze.\" - Ruggero Bacone",
+    "tech_prereqs": [
+        {
+            "name": "Ruota|della Ruota",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/the_wheel.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Valuta|della Valuta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/currency.json"
+        },
+        {
+            "name": "Ingegneria|dell'Ingegneria",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/tech/engineering.json"
+        }
+    ],
+    "unit_unlocks": [
+        {
+            "name": "Catapulta|una Catapulta|dalla tua Catapulta|alla tua Catapulta|la tua Catapulta|da una Catapulta",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/catapult.json"
+        },
+        {
+            "name": "Balista|una Balista|dalla tua Balista|alla tua Balista|la tua Balista|da una Balista",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/ballista.json"
+        },
+        {
+            "name": "Torre d'assedio|una Torre d'assedio|dalla tua Torre d'assedio|alla tua Torre d'assedio|la tua Torre d'assedio|da una Torre d'assedio",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/units/siege_tower.json"
+        }
+    ],
+    "building_unlocks": [
+        {
+            "name": "Palazzo di giustizia|il Palazzo di giustizia|un Palazzo di giustizia",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/courthouse.json"
+        },
+        {
+            "name": "Giardini Pensili|i Giardini Pensili|i Giardini Pensili",
+            "url": "https://eyefyre.github.io/civvapi/v1/it/buildings/hanging_gardens.json"
+        }
+    ]
+}

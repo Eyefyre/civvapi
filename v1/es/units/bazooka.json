@@ -1,0 +1,23 @@
+{
+    "id": 133,
+    "name": "Bazuca|Bazucas",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/bazooka.png",
+    "game_info": "Una unidad a distancia de la Era At\u00f3mica que debe estar adyacente a un enemigo para atacar.",
+    "historical_info": "\"Bazuca\" es el nombre gen\u00e9rico de un arma port\u00e1til y sin retroceso pensada para usarse contra los veh\u00edculos blindados enemigos. Desarrollada inicialmente a finales de la Primera Guerra Mundial por el ej\u00e9rcito norteamericano, la bazuca utiliza un peque\u00f1o cohete para propulsar una bala explosiva de carga hueca. Al igual que sus hom\u00f3logos el PIAT brit\u00e1nico y el panzerschreck alem\u00e1n, la bazuca pas\u00f3 a usarse ampliamente durante la Segunda Guerra Mundial. Cuando la presencia de tanques, semiorugas y otros veh\u00edculos blindados empez\u00f3 a ser preponderante en el campo de batalla, los soldados necesitaron poder responder con rapidez, sin la necesidad de esperar a las armas pesadas. En manos de un equipo h\u00e1bil que estuviera dispuesto a acercarse a los tanques enemigos, la bazuca resultaba un arma devastadora.",
+    "strategy": "El Bazuca es la \u00faltima unidad a distancia que no es de asedio. Es la unidad a distancia m\u00e1s poderosa. A pesar de que solo tiene un alcance de un hex\u00e1gono, puede causar da\u00f1os importantes a otras unidades sin sufrir ninguno. Esto la convierte en una gran unidad defensiva.",
+    "movement": 2,
+    "cost": {
+        "production": 375,
+        "faith": 750
+    },
+    "prereq_tech": {
+        "name": "Fisi\u00f3n nuclear",
+        "url": "https://eyefyre.github.io/civvapi/v1/es/tech/nuclear_fission.json"
+    },
+    "free_promotions": [
+        {
+            "name": "No puede atacar cuerpo a cuerpo",
+            "url": "https://eyefyre.github.io/civvapi/v1/es/promotions/may_not_melee_attack.json"
+        }
+    ]
+}

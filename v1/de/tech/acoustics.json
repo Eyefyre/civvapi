@@ -1,0 +1,40 @@
+{
+    "id": 33,
+    "name": "Akustik",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/acoustics.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Akustik ist die Lehre vom Schall. Der Schall breitet sich als Welle in Gasen, Fl\u00fcssigkeiten und Festk\u00f6rpern aus. Das f\u00fcr uns wichtigste Merkmal von Schallwellen ist nat\u00fcrlich die Tatsache, dass der Mensch sie \"h\u00f6ren\" kann, und der Gro\u00dfteil der Forschung auf diesem Gebiet konzentriert sich auf die Verbesserung der menschlichen Wahrnehmung von Schallwellen, vor allem f\u00fcr H\u00f6rgesch\u00e4digte. Die Akustik wird aber auch f\u00fcr andere Anwendungen benutzt, so zum Beispiel beim Sonar. Das Sonar erm\u00f6glicht das \"H\u00f6ren\" von U-Booten, Tieren und geologischen Formationen mit Hilfe elektronischer Ger\u00e4te.Schallwellen ben\u00f6tigen ein Medium, in dem die Energiewellen \u00fcbertragen werden k\u00f6nnen. Deshalb breiten sich Schallwellen nicht im Vakuum au\u00dferhalb der Erdatmosph\u00e4re aus. Es ist eine erschreckende aber zutreffende Aussage, dass \"ein Schrei im Weltraum von niemandem geh\u00f6rt wird.\"",
+    "quote": "\"Und all' erhoben sich mit ihm zugleich, sodass es ringsum rauschte wie der ferne hinrollende Donner.\" - John Milton",
+    "tech_prereqs": [
+        {
+            "name": "Bildungswesen",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/education.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Architektur",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/tech/architecture.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Opernhaus",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/opera_house.json"
+        },
+        {
+            "name": "Sixtinische Kapelle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/sistine_chapel.json"
+        },
+        {
+            "name": "Ceilidh-Halle",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/ceilidh_hall.json"
+        },
+        {
+            "name": "Musikergilde",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/buildings/musicians'_guild.json"
+        }
+    ]
+}

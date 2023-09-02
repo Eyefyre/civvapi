@@ -1,0 +1,27 @@
+{
+    "id": 5,
+    "name": "Mining",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/mining.png",
+    "era": "Ancient Era",
+    "cost": 35,
+    "civilopedia_entry": "Mining is the process of extracting various useful substances from beneath the earth's surface. The earliest mined elements include copper, iron, diamonds, gold, silver, salt and coal. Since one can't eat any of that stuff (except for salt, of course, but you see where we're heading here), miners must be part of a community that grows enough excess food to support them and their families.The oldest mine yet discovered was found in Swaziland, Africa. It was dug some 40,000 years ago to mine ochre, a mineral used in burial ceremonies and for body art. Flint, a brittle and easily-sharpened mineral used by early man for scrapers, knives and arrowheads may have been the first item mined on a large scale in Europe. Flint mine shafts some 100 feet deep and dating back to the Neolithic Period (8000 - 2000 BC) have been discovered in France and England.Modern miners employ a variety of methods to harvest a plethora of materials from under the ground. Coal miners sometimes pulverize the tops of entire mountains to extract the precious black mineral. In Africa, a few great mining companies have dug literally miles into the ground in search of diamonds. And companies are sinking mines everywhere - from the ocean's floor to the permafrost of the frozen north - in search of the most sought after liquid of all, petroleum.",
+    "quote": "\"The meek shall inherit the Earth, but not its mineral rights.\" - J. Paul Getty",
+    "tech_prereqs": [
+        {
+            "name": "Agriculture",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/agriculture.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Masonry",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/masonry.json"
+        },
+        {
+            "name": "Bronze Working",
+            "url": "https://eyefyre.github.io/civvapi/v1/en/tech/bronze_working.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": []
+}

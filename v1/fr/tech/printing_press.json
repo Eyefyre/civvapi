@@ -1,0 +1,48 @@
+{
+    "id": 35,
+    "name": "Imprimerie",
+    "icon": "https://eyefyre.github.io/civvapi/images/tech_icons/printing_press.png",
+    "era": "Renaissance",
+    "cost": 780,
+    "civilopedia_entry": "Si le principe de l'imprimerie \u00e0 caract\u00e8res mobiles semble avoir \u00e9t\u00e9 invent\u00e9 en Chine, la premi\u00e8re presse \u00e0 imprimer m\u00e9canis\u00e9e fut invent\u00e9e au milieu du XVe si\u00e8cle par l'imprimeur allemand Johannes Gutenberg. Les premi\u00e8res presses \u00e0 imprimer \u00e9taient en bois, et ressemblaient beaucoup aux presses \u00e0 vin et \u00e0 huile utilis\u00e9es autour de la M\u00e9diterran\u00e9e depuis des si\u00e8cles.Sur les premi\u00e8res presses, les caract\u00e8res \u00e9taient dispos\u00e9s \u00e0 l'envers sur une platine de bois qui les maintenait fermement en position. L'encre \u00e9tait appliqu\u00e9e sur les caract\u00e8res, puis le papier sur la platine. L'artisan tournait ensuite une h\u00e9lice permettant de pressuriser le tout, et d'approcher le papier des caract\u00e8res encr\u00e9s. L'imprimeur retirait alors le papier et encrait \u00e0 nouveau les caract\u00e8res. Puis, le cycle recommen\u00e7ait. La presse de Gutenberg pouvait produire 250 pages \u00e0 l'heure. Ce mod\u00e8le n'\u00e9volua pas pendant pr\u00e8s de trois si\u00e8cles, jusqu'\u00e0 ce qu'il soit supplant\u00e9 par les machines m\u00e9talliques. Au XIXe si\u00e8cle, les presses \u00e0 imprimer fonctionnant \u00e0 la vapeur pouvaient produire quelque 7500 pages \u00e0 l'heure.Ce qu'a apport\u00e9 la presse \u00e0 imprimer aux connaissances humaines est proprement faramineux. Avant elle, tr\u00e8s peu de livres \u00e9taient imprim\u00e9s, et ceux qui l'\u00e9taient pouvaient co\u00fbter plus qu'un travailleur moyen ne gagnait en un an. La Biblioth\u00e8que de l'Universit\u00e9 de Cambridge ne comptait gu\u00e8re qu'un peu plus de 100 livres au moment o\u00f9 la presse fut invent\u00e9e et, bient\u00f4t, tout un chacun put poss\u00e9der chez lui Bibles et autres ouvrages. Soixante ans plus tard, le premier livre d'actualit\u00e9s (l'anc\u00eatre des journaux) fit son apparition en Angleterre.",
+    "quote": "\"Il est du devoir d'un journal d'imprimer l'actualit\u00e9 et de semer la pagaille.\" - Le Chicago Times",
+    "tech_prereqs": [
+        {
+            "name": "M\u00e9canique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/machinery.json"
+        },
+        {
+            "name": "Physique",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/physics.json"
+        },
+        {
+            "name": "Chevalerie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/chivalry.json"
+        }
+    ],
+    "tech_unlocks": [
+        {
+            "name": "Sciences \u00e9conomiques",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/economics.json"
+        },
+        {
+            "name": "M\u00e9tallurgie",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/metallurgy.json"
+        }
+    ],
+    "unit_unlocks": [],
+    "building_unlocks": [
+        {
+            "name": "Zoo|Zoos",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/zoo.json"
+        },
+        {
+            "name": "Tour pench\u00e9e de Pise|Tours pench\u00e9es de Pise",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/leaning_tower_of_pisa.json"
+        },
+        {
+            "name": "Th\u00e9\u00e2tre du Globe|Th\u00e9\u00e2tres du Globe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/buildings/globe_theatre.json"
+        }
+    ]
+}

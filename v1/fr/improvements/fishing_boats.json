@@ -1,0 +1,42 @@
+{
+    "id": 10,
+    "name": "Bateaux de p\u00eache|Bateaux de p\u00eache",
+    "game_info": "Les bateaux de p\u00eache permettent \u00e0 une civilisation d'obtenir des crabes, du poisson, des perles et des ressources li\u00e9es aux baleines. Pour construire un bateau de p\u00eache, vous devez d'abord b\u00e2tir un bateau-atelier dans une ville c\u00f4ti\u00e8re (une fois que votre civilisation a appris la technologie requise). Le bateau-atelier dispara\u00eet une fois le bateau de p\u00eache construit.",
+    "icon": "https://eyefyre.github.io/civvapi/images/improvement_icons/bateaux_de_p\u00eache|bateaux_de_p\u00eache.png",
+    "nearby_mountain_bonus": {
+        "food": null
+    },
+    "can_be_built_on": [],
+    "improves_resources": [
+        {
+            "name": "Poissons",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/fish.json"
+        },
+        {
+            "name": "Baleines",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/whales.json"
+        },
+        {
+            "name": "Perles",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/pearls.json"
+        },
+        {
+            "name": "Crabe",
+            "url": "https://eyefyre.github.io/civvapi/v1/fr/resources/crab.json"
+        }
+    ],
+    "prereq_tech": {
+        "name": "Navigation \u00e0 voile",
+        "url": "https://eyefyre.github.io/civvapi/v1/fr/tech/sailing.json"
+    },
+    "required_civ": null,
+    "yields": {
+        "gold": 0,
+        "production": 0,
+        "science": 0,
+        "culture": 0,
+        "food": 0,
+        "faith": 0,
+        "happiness": 0
+    }
+}

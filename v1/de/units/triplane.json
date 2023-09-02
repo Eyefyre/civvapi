@@ -1,0 +1,35 @@
+{
+    "id": 114,
+    "name": "Dreidecker",
+    "icon": "https://eyefyre.github.io/civvapi/images/unit_icons/triplane.png",
+    "game_info": "Fr\u00fche Lufteinheit, die ankommende feindliche Flieger abfangen kann.",
+    "historical_info": "Seinen Namen verdankt der Dreidecker seinem einmaligen System aus drei Tragfl\u00e4chen. Er kam mal mehr, mal weniger erfolgreich im Ersten Weltkrieg zum Einsatz. Der ber\u00fchmteste Dreidecker, der Fokker Dr.I, wurde von der deutschen Luftwaffe h\u00e4ufig eingesetzt und als das Lieblingsflugzeug des legend\u00e4ren Roten Barons ber\u00fcchtigt. Obwohl die Ingenieure mit mehreren Variationen des Dreidecker-Entwurfs arbeiteten, lie\u00dfen ihn die Fortschritte beim Bau des traditionellen Doppeldeckers doch binnen eines Jahrzehnts nach seiner Einf\u00fchrung wieder verschwinden.",
+    "strategy": "Der Dreidecker ist eine fr\u00fche Lufteinheit im Spiel. Er kann in jeder eigenen Stadt oder auf einem Flugzeugtr\u00e4ger stationiert werden. Er kann sich von Stadt zu Stadt bewegen (oder Flugzeugtr\u00e4ger) und \"Missionen\" innerhalb seiner Reichweite von 5 Gel\u00e4ndefeldern ausf\u00fchren. Mit ihm kann man feindliche Flugzeuge und Bodeneinheiten angreifen, Feindpositionen aussp\u00e4hen und sich gegen feindliche Luftangriffe wehren. Weitere Informationen sind in den Regeln der Flugzeuge zu finden.",
+    "movement": 2,
+    "cost": {
+        "production": 325,
+        "faith": 0
+    },
+    "prereq_tech": {
+        "name": "Luftfahrt",
+        "url": "https://eyefyre.github.io/civvapi/v1/de/tech/flight.json"
+    },
+    "free_promotions": [
+        {
+            "name": "Abfangen (50)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/interception_(50).json"
+        },
+        {
+            "name": "Luftraums\u00e4uberung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_sweep.json"
+        },
+        {
+            "name": "Luftaufkl\u00e4rung",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/air_recon.json"
+        },
+        {
+            "name": "Bonus gg. Bomber/Hubschrauber (150)",
+            "url": "https://eyefyre.github.io/civvapi/v1/de/promotions/bonus_vs_bombers_helicopters_(150).json"
+        }
+    ]
+}

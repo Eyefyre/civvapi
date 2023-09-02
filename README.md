@@ -35,7 +35,7 @@ The data in this API is also offered in 10 languages
 * Japanese - jp
 * Korean - kr
 * Polish - pl
-* Russina - ru
+* Russian - ru
 * Chinese - zh
 
 Here is an example of an endpoint call in multiple languages:

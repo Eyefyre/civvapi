@@ -63,12 +63,12 @@ https://eyefyre.github.io/civvapi/v1/fr/tech/agriculture.json
 
 https://eyefyre.github.io/civvapi/v1/en/civilizations/america.json
 
-The above URL will provide the data for just the American civilization
+**The above URL will provide the data for just the American civilization**
 
 https://eyefyre.github.io/civvapi/v1/en/civilizations/civilizations.json
 
-This URL will provide a list of data with every civilization in it instead
-This can be applied to every other endpoint
+**This URL will provide a list of data with every civilization in it instead.**
+**This can be applied to every other endpoint.**
 
 https://eyefyre.github.io/civvapi/v1/en/beliefs/beliefs.json
 
@@ -76,5 +76,5 @@ https://eyefyre.github.io/civvapi/v1/en/features/features.json
 
 https://eyefyre.github.io/civvapi/v1/en/citystates/citystates.json
 
-etc..
+**etc..**
 
